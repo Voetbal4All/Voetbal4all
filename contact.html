@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .brand-4 {
+      color: #35b870;
+      font-weight: 700;
+    }
+    .header-logo img {
+      max-height: 70px;
+    }
+  </style>
+</head>
+<body class="page-contact">
+<header class="site-header">
+  <div class="container header-top">
+    <div class="header-logo">
+      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+    </div>
+  </div>
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="uitslagen.html">Uitslagen</a></li>
+        <li><a href="vacatures.html">Vacatures</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="spelers.html">Spelers</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="meer.html">Meer</a></li>
+        <li><a href="contact.html" class="is-active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main class="page-main">
+  <section class="section">
+    <div class="container" style="max-width:700px;">
+      <h1>Contact</h1>
+      <p>
+        Problemen, opmerkingen, aanvullingen of nood aan een bepaalde functionaliteit op de website?
+        Contacteer Voetbal<span class="brand-4">4</span>All via onderstaand formulier.
+      </p>
+
+      <form class="form contact-form">
+        <div class="form-row">
+          <label for="contact-naam">Naam</label>
+          <input type="text" id="contact-naam" name="naam" required>
+        </div>
+
+        <div class="form-row">
+          <label for="contact-email">E-mailadres</label>
+          <input type="email" id="contact-email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="contact-onderwerp">Onderwerp</label>
+          <input type="text" id="contact-onderwerp" name="onderwerp" required>
+        </div>
+
+        <div class="form-row">
+          <label for="contact-type">Waar gaat uw bericht over?</label>
+          <select id="contact-type" name="type" required>
+            <option value="">Maak een keuze</option>
+            <option value="probleem">Probleem of foutmelding</option>
+            <option value="opmerking">Opmerking of suggestie</option>
+            <option value="functionaliteit">Vraag naar nieuwe functionaliteit</option>
+            <option value="algemeen">Algemene vraag</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="contact-bericht">Bericht</label>
+          <textarea id="contact-bericht" name="bericht" rows="6" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="btn-primary">Verstuur bericht</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
+    <p>© Voetbal<span class="brand-4">4</span>All – Contactpagina</p>
+  </div>
+</footer>
+</body>
+</html>

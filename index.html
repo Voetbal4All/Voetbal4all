@@ -6,7 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <style>
+    /* Logo iets groter zonder balk te verbreden */
+    .header-logo img {
+      max-height: 70px;
+    }
+
     /* ===== Homepage specifieke layout (magazine-stijl) ===== */
+
+    .brand-4 {
+      color: #35b870; /* pas deze hex eventueel aan naar het exacte Voetbal4All-groen */
+      font-weight: 700;
+    }
+
+    .top-fixed-shell {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    .page-main-offset {
+      margin-top: 220px; /* ruimte voor logo-balk + navigatie + live uitslagen */
+    }
 
     /* Bovenste grid: 3 kolommen (30% ads, 40% nieuws, 30% rangschikkingen) */
     .home-top-grid {
@@ -31,6 +53,9 @@
       .home-top-grid,
       .home-bottom-grid {
         grid-template-columns: 1fr;
+      }
+      .page-main-offset {
+        margin-top: 260px; /* iets meer ruimte op kleinere schermen */
       }
     }
 
@@ -91,28 +116,33 @@
       text-decoration-thickness: 2px;
     }
 
-    /* Hero / Voetbalkoppen-knop */
+    /* Hero */
     .hero-home {
       padding-bottom: 1.5rem;
       border-bottom: 1px solid #e3e7ee;
     }
 
-    .hero-news-link {
-      margin-top: 1rem;
+    .hero-copy {
+      text-align: center;
     }
 
-    .hero-news-link .btn-outline {
-      border-radius: 999px;
-      padding-inline: 1.5rem;
-      font-weight: 600;
+    .hero-copy h1 {
+      margin-bottom: 0.5rem;
     }
 
-    .hero-news-link small {
-      display: block;
-      margin-top: 0.25rem;
-      font-size: 0.75rem;
-      color: #6c7480;
-      max-width: 32rem;
+    .hero-text {
+      font-size: 0.9rem;
+      max-width: 40rem;
+      color: #3b4250;
+      margin: 0 auto 0.75rem auto;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 0.75rem;
     }
 
     /* Nieuwskaarten (magazine-stijl) */
@@ -281,77 +311,67 @@
   </style>
 </head>
 <body class="page-home">
-<header class="site-header">
-  <div class="container header-top">
-    <div class="header-logo">
-      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
-    </div>
-    <div class="header-ad"><div class="ad-slot ad-header">ADVERTENTIE</div></div>
-  </div>
-  <nav class="main-nav">
-    <div class="container nav-inner">
-      <ul>
-        <li><a href="index.html" class="is-active">Home</a></li>
-        <li><a href="#nieuws">Nieuws</a></li>
-        <li><a href="uitslagen.html">Uitslagen</a></li>
-        <li><a href="vacatures.html">Vacatures</a></li>
-        <li><a href="trainers.html">Trainers</a></li>
-        <li><a href="spelers.html">Spelers</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="meer.html">Meer</a></li>
-      </ul>
-      <div class="nav-cta-group">
-        <a class="btn-nav" href="spelers.html">Zoek spelers</a>
-        <a class="btn-nav-outline" href="adverteren.html">Adverteren op Voetbal4All</a>
+<div class="top-fixed-shell">
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="header-logo">
+        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
       </div>
+      <div class="header-ad"><div class="ad-slot ad-header">ADVERTENTIE</div></div>
     </div>
-  </nav>
-</header>
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <ul>
+          <li><a href="index.html" class="is-active">Home</a></li>
+          <li><a href="#nieuws">Nieuws</a></li>
+          <li><a href="uitslagen.html">Uitslagen</a></li>
+          <li><a href="vacatures.html">Vacatures</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="spelers.html">Spelers</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="meer.html">Meer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta-group">
+          <a class="btn-nav" href="spelers.html">Zoek spelers</a>
+          <a class="btn-nav-outline" href="adverteren.html">Adverteren op Voetbal<span class="brand-4">4</span>All</a>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-<!-- LIVE UITSLAGEN BANNER -->
-<section class="live-scores-banner">
-  <div class="container live-scores-inner">
-    <div class="live-label">Live uitslagen</div>
-    <div class="live-ticker">
-      <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
-      <span class="live-separator">•</span>
-      <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
+  <!-- LIVE UITSLAGEN BANNER -->
+  <section class="live-scores-banner">
+    <div class="container live-scores-inner">
+      <div class="live-label">Live uitslagen</div>
+      <div class="live-ticker">
+        <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
+        <span class="live-separator">•</span>
+        <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
+      </div>
+      <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
     </div>
-    <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
-  </div>
-</section>
+  </section>
+</div>
 
-<main class="page-main">
+<main class="page-main page-main-offset">
   <!-- HERO / INTRO -->
   <section class="hero hero-home" id="nieuws">
     <div class="container hero-inner">
       <div class="hero-copy">
-        <h1>Voetbal4All – één navigatiepunt voor de voetballiefhebber</h1>
+        <h1>Voetbal<span class="brand-4">4</span>All – één navigatiepunt voor de voetballiefhebber</h1>
         <p class="hero-text">
-          Voetbal4All brengt informatie samen voor iedereen met een hart voor voetbal in Vlaanderen en Nederland.
-          Clubs, trainers, spelers en voetballiefhebbers vinden hier snel wat ze nodig hebben: vacatures, profielen,
-          tornooien, oefenwedstrijden en meer.
-        </p>
-        <p class="hero-text">
-          De website is nog in volle ontwikkeling. Nieuwe mogelijkheden worden stap voor stap toegevoegd,
-          waaronder een automatisch gevoede nieuwsrubriek, live uitslagen en koppelingen met sociale media.
+          Voetbal<span class="brand-4">4</span>All is een centraal platform voor clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+          Vind snel nieuws, voetbalresultaten, vacatures, profielen, tornooien, oefenwedstrijden en events op één plaats. Het platform is nog in ontwikkeling;
+          in de komende periode worden extra mogelijkheden en rubrieken stapsgewijs uitgerold.
         </p>
         <div class="hero-cta-row">
           <a class="btn-primary" href="spelers.html">Ik zoek een speler</a>
           <a class="btn-secondary" href="trainers.html">Ik zoek een trainer</a>
-          <a class="btn-ghost" href="vacatures.html">Vacature plaatsen</a>
-        </div>
-        <div class="hero-news-link">
-          <a class="btn-outline" href="#nieuws-lijst">
-            Voetbalkoppen
-          </a>
-          <small>
-            In deze rubriek verschijnen straks automatisch gegenereerde voetbalnieuwsberichten die ook gedeeld kunnen worden via sociale media.
-          </small>
+          <a class="btn-primary" href="vacatures.html">Vacature plaatsen</a>
         </div>
       </div>
       <div class="hero-side">
-        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
         <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
       </div>
     </div>
@@ -370,17 +390,15 @@
         <!-- Middenkolom: Voetbalkoppen (kop + eerste news-cards) -->
         <div>
           <div class="news-section-header">
-            <h2>Voetbalkoppen – AI voetbalnieuws (in ontwikkeling)</h2>
+            <h2>Voetbalkoppen</h2>
             <p class="section-intro">
-              In deze rubriek verschijnen in de toekomst automatisch gegenereerde nieuwsberichten over voetbal
-              in Vlaanderen, Nederland en internationaal. De focus ligt op heldere, betrouwbare samenvattingen
-              met een aantrekkelijke titel, zonder overdreven clickbait.
+              Voorbeeldnieuws dat straks automatisch wordt gegenereerd en gedeeld via sociale media.
             </p>
           </div>
 
           <article class="news-card">
             <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
-            <p class="news-meta">Categorie: JPL • AI-nieuws (demo)</p>
+            <p class="news-meta">Categorie: JPL • nieuws (demo)</p>
             <p class="news-teaser">
               Hier komt straks een automatisch gegenereerd overzicht van uitslagen, doelpuntenmakers en opvallende
               momenten van de voorbije speeldag in de Jupiler Pro League.
@@ -389,7 +407,7 @@
 
           <article class="news-card">
             <h3>Voorbeeld: Eredivisie in één oogopslag</h3>
-            <p class="news-meta">Categorie: Eredivisie • AI-nieuws (demo)</p>
+            <p class="news-meta">Categorie: Eredivisie • nieuws (demo)</p>
             <p class="news-teaser">
               Een rustige, duidelijke samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
             </p>
@@ -443,7 +461,7 @@
         <div>
           <article class="news-card">
             <h3>Voorbeeld: Focus op jeugdvoetbal</h3>
-            <p class="news-meta">Categorie: Jeugd • AI-nieuws (demo)</p>
+            <p class="news-meta">Categorie: Jeugd • nieuws (demo)</p>
             <p class="news-teaser">
               In de toekomst kan hier wekelijks een update verschijnen over jeugdtornooien, stages en clubs
               die op zoek zijn naar extra spelers of trainers.
@@ -452,9 +470,9 @@
 
           <article class="news-card">
             <h3>Voorbeeld: Clubs in de kijker</h3>
-            <p class="news-meta">Categorie: Clubs • AI-nieuws (demo)</p>
+            <p class="news-meta">Categorie: Clubs • nieuws (demo)</p>
             <p class="news-teaser">
-              Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal4All extra onder de aandacht te brengen.
+              Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal<span class="brand-4">4</span>All extra onder de aandacht te brengen.
             </p>
           </article>
 
@@ -501,7 +519,7 @@
           <section class="sidebar-block block-cta-advert">
             <div class="cta-advert-inner">
               <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" class="cta-logo">
-              <h2>Adverteren op Voetbal4All</h2>
+              <h2>Adverteren op Voetbal<span class="brand-4">4</span>All</h2>
               <p>
                 Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
                 Vraag naar de mogelijkheden voor advertising, premium vacatures en events.
@@ -516,11 +534,11 @@
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
+  <div class="container footer-inner" style="text-align:center;padding:2rem 0%;">
     <div style="margin-bottom:0.75rem;">
       <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
-    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
+    <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
 
