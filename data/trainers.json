@@ -27,7 +27,7 @@
     {
       "id": "tr-002",
       "status": "approved",
-      "naam": "Annelies De Smet",
+      "naam": "Annelies De Smet (Test)",
       "land": [
         "BE",
         "NL"
@@ -51,7 +51,7 @@
     {
       "id": "tr-003",
       "status": "new",
-      "naam": "Nieuwe Trainer (Nog niet goedgekeurd)",
+      "naam": "Nieuwe Trainer (Nog niet goedgekeurd) (Test)",
       "land": [
         "BE"
       ],
