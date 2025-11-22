@@ -5,310 +5,6 @@
   <title>Voetbal4All – Eén platform voor de voetballiefhebber</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <style>
-    /* Logo iets groter zonder balk te verbreden */
-    .header-logo img {
-      max-height: 70px;
-    }
-
-    /* ===== Homepage specifieke layout (magazine-stijl) ===== */
-
-    .brand-4 {
-      color: #35b870; /* pas deze hex eventueel aan naar het exacte Voetbal4All-groen */
-      font-weight: 700;
-    }
-
-    .top-fixed-shell {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1000;
-    }
-
-    .page-main-offset {
-      margin-top: 220px; /* ruimte voor logo-balk + navigatie + live uitslagen */
-    }
-
-    /* Bovenste grid: 3 kolommen (30% ads, 40% nieuws, 30% rangschikkingen) */
-    .home-top-grid {
-      display: grid;
-      grid-template-columns: 30% 40% 30%;
-      gap: 2rem;
-      align-items: flex-start;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-
-    /* Onderste grid: 2 kolommen (70% nieuws, 30% rechterkolom) */
-    .home-bottom-grid {
-      display: grid;
-      grid-template-columns: 70% 30%;
-      gap: 2rem;
-      align-items: flex-start;
-      margin-top: 0.5rem;
-    }
-
-    @media (max-width: 1024px) {
-      .home-top-grid,
-      .home-bottom-grid {
-        grid-template-columns: 1fr;
-      }
-      .page-main-offset {
-        margin-top: 260px; /* iets meer ruimte op kleinere schermen */
-      }
-    }
-
-    .home-top-grid > div,
-    .home-bottom-grid > div {
-      width: 100%;
-    }
-
-    /* Live uitslagen banner */
-    .live-scores-banner {
-      background: linear-gradient(90deg, #0b2748, #174f8a);
-      color: #fff;
-      padding: 0.75rem 0;
-      font-size: 0.9rem;
-    }
-
-    .live-scores-inner {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .live-label {
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-size: 0.8rem;
-      padding: 0.25rem 0.75rem;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.6);
-    }
-
-    .live-ticker {
-      flex: 1;
-      min-width: 220px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      opacity: 0.9;
-    }
-
-    .live-separator {
-      margin: 0 0.75rem;
-      opacity: 0.7;
-    }
-
-    .live-link {
-      font-weight: 600;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-      font-size: 0.9rem;
-      color: #fff;
-    }
-
-    .live-link:hover {
-      text-decoration-thickness: 2px;
-    }
-
-    /* Hero */
-    .hero-home {
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid #e3e7ee;
-    }
-
-    .hero-copy {
-      text-align: center;
-    }
-
-    .hero-copy h1 {
-      margin-bottom: 0.5rem;
-    }
-
-    .hero-text {
-      font-size: 0.9rem;
-      max-width: 40rem;
-      color: #3b4250;
-      margin: 0 auto 0.75rem auto;
-    }
-
-    .hero-cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      justify-content: center;
-      margin-top: 0.75rem;
-    }
-
-    /* Nieuwskaarten (magazine-stijl) */
-    .news-section-header h2 {
-      margin-bottom: 0.25rem;
-    }
-
-    .news-section-header .section-intro {
-      margin-bottom: 1rem;
-      color: #6c7480;
-      font-size: 0.9rem;
-    }
-
-    .news-card {
-      background-color: #ffffff;
-      border-radius: 12px;
-      padding: 1.25rem 1.4rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 6px 18px rgba(15, 35, 52, 0.06);
-      border: 1px solid #e3e7ee;
-    }
-
-    .news-card h3 {
-      font-size: 1.05rem;
-      margin-bottom: 0.25rem;
-    }
-
-    .news-meta {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #8a93a3;
-      margin-bottom: 0.5rem;
-    }
-
-    .news-teaser {
-      font-size: 0.9rem;
-      color: #3b4250;
-      line-height: 1.5;
-    }
-
-    .bottom-ad {
-      margin-top: 1.5rem;
-    }
-
-    /* Linkerkolom bovenaan: advertenties */
-    .left-ads-column .ad-slot {
-      margin-bottom: 1rem;
-    }
-
-    /* Rechterkolom: rangschikkingen + premium + adverteer-blok */
-    .sidebar-block {
-      background-color: #ffffff;
-      border-radius: 12px;
-      padding: 1.1rem 1.25rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 4px 14px rgba(15, 35, 52, 0.05);
-      border: 1px solid #e1e6f0;
-    }
-
-    .rangschikkingen-block h2 {
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .score-block h3 {
-      font-size: 0.9rem;
-      margin: 0.5rem 0;
-    }
-
-    .table-standings {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.85rem;
-    }
-
-    .table-standings th,
-    .table-standings td {
-      padding: 0.25rem 0.25rem;
-      text-align: left;
-      border-bottom: 1px solid #eef1f7;
-    }
-
-    .table-standings th:first-child,
-    .table-standings td:first-child {
-      width: 1.5rem;
-      text-align: center;
-    }
-
-    .section-note {
-      margin-top: 0.5rem;
-      font-size: 0.75rem;
-      color: #8a93a3;
-    }
-
-    /* Premium rotators */
-    .premium-block h2 {
-      font-size: 0.95rem;
-      margin-bottom: 0.4rem;
-    }
-
-    .premium-rotator {
-      min-height: 4.5rem;
-    }
-
-    .premium-item h3 {
-      font-size: 0.9rem;
-      margin-bottom: 0.15rem;
-    }
-
-    .premium-meta {
-      font-size: 0.8rem;
-      color: #6c7480;
-      margin-bottom: 0.2rem;
-    }
-
-    .premium-teaser {
-      font-size: 0.8rem;
-      color: #3b4250;
-    }
-
-    /* Adverteer-CTA */
-    .block-cta-advert {
-      background: linear-gradient(135deg, #0b2748, #174f8a);
-      color: #fff;
-      text-align: center;
-    }
-
-    .block-cta-advert .cta-advert-inner {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .block-cta-advert .cta-logo {
-      max-height: 42px;
-      margin-bottom: 0.25rem;
-    }
-
-    .block-cta-advert h2 {
-      font-size: 1rem;
-      margin: 0;
-    }
-
-    .block-cta-advert p {
-      font-size: 0.85rem;
-      opacity: 0.95;
-      margin: 0;
-    }
-
-    .block-cta-advert .btn-primary {
-      margin-top: 0.5rem;
-      width: 100%;
-      max-width: 220px;
-    }
-
-    @media (max-width: 768px) {
-      .live-scores-inner {
-        align-items: flex-start;
-      }
-      .hero-inner {
-        flex-direction: column;
-      }
-    }
-  </style>
 </head>
 <body class="page-home">
 <div class="top-fixed-shell">
@@ -317,19 +13,20 @@
       <div class="header-logo">
         <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
       </div>
-      <div class="header-ad"><div class="ad-slot ad-header">ADVERTENTIE</div></div>
+      <div class="header-ad">
+        <div class="ad-slot ad-header">ADVERTENTIE</div>
+      </div>
     </div>
     <nav class="main-nav">
       <div class="container nav-inner">
         <ul>
           <li><a href="index.html" class="is-active">Home</a></li>
-          <li><a href="#nieuws">Nieuws</a></li>
+          <li><a href="nieuws.html">Nieuws</a></li>
           <li><a href="uitslagen.html">Resultaten &amp; ranking</a></li>
           <li><a href="vacatures.html">Clubvacatures</a></li>
           <li><a href="trainers.html">Trainers</a></li>
           <li><a href="spelers.html">Spelers</a></li>
           <li><a href="events.html">Events</a></li>
-          
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="nav-cta-group">
@@ -339,8 +36,6 @@
       </div>
     </nav>
   </header>
-
-  <!-- LIVE UITSLAGEN BANNER -->
   <section class="live-scores-banner">
     <div class="container live-scores-inner">
       <div class="live-label">Live uitslagen</div>
@@ -355,15 +50,15 @@
 </div>
 
 <main class="page-main page-main-offset">
-  <!-- HERO / INTRO -->
-  <section class="hero hero-home" id="nieuws">
+
+  <section class="hero hero-home">
     <div class="container hero-inner">
-      <div class="hero-copy">
+      <div class="hero-copy" style="text-align:center;">
         <h1>Voetbal<span class="brand-4">4</span>All – één navigatiepunt voor de voetballiefhebber</h1>
         <p class="hero-text">
           Voetbal<span class="brand-4">4</span>All is een centraal platform voor clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
-          Vind snel nieuws, voetbalresultaten, vacatures, profielen, tornooien, oefenwedstrijden en events op één plaats. Het platform is nog in ontwikkeling;
-          in de komende periode worden extra mogelijkheden en rubrieken stapsgewijs uitgerold.
+          Vind snel nieuws, voetbalresultaten, vacatures, profielen, tornooien, oefenwedstrijden en events op één plaats.
+          Het platform is nog in ontwikkeling; in de komende periode worden extra mogelijkheden en rubrieken stapsgewijs uitgerold.
         </p>
         <div class="hero-cta-row">
           <a class="btn-primary" href="spelers.html">Ik zoek een speler</a>
@@ -379,7 +74,7 @@
 
   <section class="home-grid">
     <div class="container">
-      <!-- BOVENSTE RIJ: 3 kolommen (links ads, midden nieuws, rechts rangschikkingen) -->
+      <!-- BOVENSTE RIJ: 3 kolommen (advertenties, nieuws, rangschikkingen) -->
       <div class="home-top-grid">
         <!-- Linkerkolom: advertenties -->
         <div class="left-ads-column">
@@ -387,154 +82,215 @@
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
         </div>
 
-        <!-- Middenkolom: Voetbalkoppen (kop + eerste news-cards) -->
-        <div>
-          <div class="news-section-header">
-            <h2>Voetbalkoppen</h2>
-            <p class="section-intro">
-              Voorbeeldnieuws dat straks automatisch wordt gegenereerd en gedeeld via sociale media.
-            </p>
-          </div>
+<!-- Middenkolom: Voetbalkoppen (4 nieuwsitems) -->
+<div>
+  <div class="news-section-header">
+    <h2>Voetbalkoppen</h2>
+    <p class="section-intro">
+      Voorbeeldnieuws dat straks automatisch wordt gegenereerd en gedeeld via sociale media.
+    </p>
+  </div>
 
-          <article class="news-card">
-            <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
-            <p class="news-meta">Categorie: JPL • nieuws (demo)</p>
-            <p class="news-teaser">
-              Hier komt straks een automatisch gegenereerd overzicht van uitslagen, doelpuntenmakers en opvallende
-              momenten van de voorbije speeldag in de Jupiler Pro League.
-            </p>
-          </article>
+  <article class="news-card">
+    <div class="news-image" style="height:140px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – speeldagoverzicht)
+    </div>
+    <h3>Voorbeeld 1: Speeldagoverzicht Jupiler Pro League</h3>
+    <p class="news-meta">Jupiler Pro League • heren • demo</p>
+    <p class="news-teaser">
+      Automatisch gegenereerd speeldagnieuws met uitslagen en opvallende momenten uit de Jupiler Pro League.
+    </p>
+  </article>
 
-          <article class="news-card">
-            <h3>Voorbeeld: Eredivisie in één oogopslag</h3>
-            <p class="news-meta">Categorie: Eredivisie • nieuws (demo)</p>
-            <p class="news-teaser">
-              Een rustige, duidelijke samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
-            </p>
-          </article>
-        </div>
+  <article class="news-card">
+    <div class="news-image" style="height:140px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – Eredivisie focus)
+    </div>
+    <h3>Voorbeeld 2: Eredivisie in één oogopslag</h3>
+    <p class="news-meta">Eredivisie • heren • demo</p>
+    <p class="news-teaser">
+      Overzicht met resultaten, rangschikking en topaffiches uit de Eredivisie.
+    </p>
+  </article>
 
-        <!-- Rechterkolom: rangschikkingen -->
-        <aside>
-          <section class="sidebar-block rangschikkingen-block">
-            <h2>Rangschikkingen eerste klasse</h2>
+  <article class="news-card">
+    <div class="news-image" style="height:140px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – Challenger Pro League)
+    </div>
+    <h3>Voorbeeld 3: Challenger Pro League focus</h3>
+    <p class="news-meta">Challenger Pro League • demo</p>
+    <p class="news-teaser">
+      Nieuws over promotiestrijd, play-offs en talenten in de Challenger Pro League.
+    </p>
+  </article>
 
-            <div class="score-block">
-              <h3>Jupiler Pro League (voorbeeld)</h3>
-              <table class="table-standings">
-                <thead>
-                  <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-                </thead>
-                <tbody>
-                  <tr><td>1</td><td>Club A</td><td>45</td></tr>
-                  <tr><td>2</td><td>Club B</td><td>42</td></tr>
-                  <tr><td>3</td><td>Club C</td><td>39</td></tr>
-                </tbody>
-              </table>
-            </div>
+  <article class="news-card">
+    <div class="news-image" style="height:140px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – Keuken Kampioen Divisie)
+    </div>
+    <h3>Voorbeeld 4: Keuken Kampioen Divisie roundup</h3>
+    <p class="news-meta">Keuken Kampioen Divisie • demo</p>
+    <p class="news-teaser">
+      Samenvatting van de belangrijkste wedstrijden en verrassingen in de Keuken Kampioen Divisie.
+    </p>
+  </article>
 
-            <div class="score-block">
-              <h3>Eredivisie (voorbeeld)</h3>
-              <table class="table-standings">
-                <thead>
-                  <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-                </thead>
-                <tbody>
-                  <tr><td>1</td><td>Team 1</td><td>47</td></tr>
-                  <tr><td>2</td><td>Team 2</td><td>44</td></tr>
-                  <tr><td>3</td><td>Team 3</td><td>40</td></tr>
-                </tbody>
-              </table>
-            </div>
+  <p style="margin-top:0.75rem;">
+    <a href="nieuws.html" class="btn-secondary">Meer nieuws bekijken</a>
+  </p>
+</div>
 
-            <p class="section-note">
-              Op termijn kunnen deze gegevens automatisch opgehaald worden via een externe databron,
-              zodat de bezoeker altijd de meest recente rangschikking ziet.
-            </p>
-          </section>
-        </aside>
+<!-- Rechterkolom: rangschikkingen + premium blokken -->
+<aside>
+  <section class="sidebar-block rangschikkingen-block">
+    <h2>Rangschikkingen eerste klasse</h2>
+
+    <div class="score-block">
+      <h3>Jupiler Pro League (voorbeeld)</h3>
+      <table class="table-standings">
+        <thead>
+          <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Club A</td><td>45</td></tr>
+          <tr><td>2</td><td>Club B</td><td>42</td></tr>
+          <tr><td>3</td><td>Club C</td><td>39</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="score-block">
+      <h3>Eredivisie (voorbeeld)</h3>
+      <table class="table-standings">
+        <thead>
+          <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Team 1</td><td>47</td></tr>
+          <tr><td>2</td><td>Team 2</td><td>44</td></tr>
+          <tr><td>3</td><td>Team 3</td><td>40</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="section-note">
+      Op termijn kunnen deze gegevens automatisch opgehaald worden via een externe databron,
+      zodat de bezoeker altijd de meest recente rangschikking ziet.
+    </p>
+  </section>
+
+  <section class="sidebar-block">
+    <h2>Premium clubvacatures</h2>
+    <p class="news-teaser" style="font-size:0.85rem;">
+      Hier kunnen roterende premium vacatures verschijnen, zodat belangrijke clubvacatures extra aandacht krijgen.
+    </p>
+  </section>
+
+  <section class="sidebar-block">
+    <h2>Premium events</h2>
+    <p class="news-teaser" style="font-size:0.85rem;">
+      Toon hier opvallende tornooien, oefenwedstrijden of stages die clubs extra willen uitlichten.
+    </p>
+  </section>
+</aside>
       </div>
 
-      <!-- ONDERSTE RIJ: 2 kolommen (70% nieuws, 30% rechterkolom) -->
-      <div class="home-bottom-grid" id="nieuws-lijst">
-        <!-- Linkerkant: bijkomende nieuwsberichten + brede advertentie -->
-        <div>
-          <article class="news-card">
-            <h3>Voorbeeld: Focus op jeugdvoetbal</h3>
-            <p class="news-meta">Categorie: Jeugd • nieuws (demo)</p>
-            <p class="news-teaser">
-              In de toekomst kan hier wekelijks een update verschijnen over jeugdtornooien, stages en clubs
-              die op zoek zijn naar extra spelers of trainers.
-            </p>
-          </article>
+      <!-- ONDERSTE RIJ: 2 kolommen (nieuws, en rechts vacatures/events/profielen) -->
+      <div class="home-bottom-grid">
+<!-- Linkerkant: bijkomende nieuws + brede advertentie -->
+<div>
+  <article class="news-card">
+    <div class="news-image" style="height:160px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – nationale reeksen België)
+    </div>
+    <h3>Voorbeeld 5: Nationale reeksen België</h3>
+    <p class="news-meta">Nationale reeksen België • demo</p>
+    <p class="news-teaser">
+      Artikels over titelstrijd, degradatie en opmerkelijke prestaties in de nationale reeksen.
+    </p>
+  </article>
 
-          <article class="news-card">
-            <h3>Voorbeeld: Clubs in de kijker</h3>
-            <p class="news-meta">Categorie: Clubs • nieuws (demo)</p>
-            <p class="news-teaser">
-              Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal<span class="brand-4">4</span>All extra onder de aandacht te brengen.
-            </p>
-          </article>
+  <article class="news-card">
+    <div class="news-image" style="height:160px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – nationale reeksen Nederland)
+    </div>
+    <h3>Voorbeeld 6: Nationale reeksen Nederland</h3>
+    <p class="news-meta">Nationale reeksen Nederland • demo</p>
+    <p class="news-teaser">
+      Nieuws en achtergrondverhalen uit de Nederlandse nationale reeksen.
+    </p>
+  </article>
 
-          <div class="bottom-ad">
-            <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
-          </div>
-        </div>
+  <article class="news-card">
+    <div class="news-image" style="height:160px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – lagere klassen België)
+    </div>
+    <h3>Voorbeeld 7: Lagere klassen België</h3>
+    <p class="news-meta">Lagere klassen België • demo</p>
+    <p class="news-teaser">
+      Lokale verhalen, verrassende resultaten en sfeerbeelden uit de lagere klassen in België.
+    </p>
+  </article>
 
-        <!-- Rechterkant: premium-blokken en adverteer-CTA -->
-        <aside>
-          <!-- PREMIUM VACATURES -->
-          <section class="sidebar-block premium-block">
-            <h2>Premium vacatures</h2>
-            <div id="premium-vacatures" class="premium-rotator">
-              <p>Premium vacatures worden geladen...</p>
-            </div>
-          </section>
+  <article class="news-card">
+    <div class="news-image" style="height:160px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – lagere klassen Nederland)
+    </div>
+    <h3>Voorbeeld 8: Lagere klassen Nederland</h3>
+    <p class="news-meta">Lagere klassen Nederland • demo</p>
+    <p class="news-teaser">
+      Verslagen en headlines uit de regionale reeksen in Nederland.
+    </p>
+  </article>
 
-          <!-- PREMIUM EVENTS -->
-          <section class="sidebar-block premium-block">
-            <h2>Premium events</h2>
-            <div id="premium-events" class="premium-rotator">
-              <p>Premium events worden geladen...</p>
-            </div>
-          </section>
+  <article class="news-card">
+    <div class="news-image" style="height:160px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – damesvoetbal België)
+    </div>
+    <h3>Voorbeeld 9: Damesvoetbal – België</h3>
+    <p class="news-meta">Dames • België • demo</p>
+    <p class="news-teaser">
+      Voorbeelden van nieuwsartikels rond damescompetities en bekerwedstrijden in België.
+    </p>
+  </article>
 
-          <!-- PREMIUM TRAINERS -->
-          <section class="sidebar-block premium-block">
-            <h2>Beschikbare trainers (laatste 10)</h2>
-            <div id="premium-trainers" class="premium-rotator">
-              <p>Trainers worden geladen...</p>
-            </div>
-          </section>
+  <article class="news-card">
+    <div class="news-image" style="height:160px;border-radius:10px;background:#d1d5db;margin-bottom:0.6rem;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#4b5563;">
+      AFBEELDING (AI – damesvoetbal Nederland)
+    </div>
+    <h3>Voorbeeld 10: Damesvoetbal – Nederland</h3>
+    <p class="news-meta">Dames • Nederland • demo</p>
+    <p class="news-teaser">
+      Nieuws rond de Eredivisie Vrouwen, bekertoernooien en regionale damesreeksen.
+    </p>
+  </article>
 
-          <!-- PREMIUM SPELERS -->
-          <section class="sidebar-block premium-block">
-            <h2>Beschikbare spelers (laatste 10)</h2>
-            <div id="premium-spelers" class="premium-rotator">
-              <p>Spelers worden geladen...</p>
-            </div>
-          </section>
+  <div class="ad-slot ad-leaderboard" style="margin-top:1.5rem;">ADVERTENTIE 728×90</div>
+</div>
 
-          <!-- ADVERTEREN CTA -->
-          <section class="sidebar-block block-cta-advert">
-            <div class="cta-advert-inner">
-              <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" class="cta-logo">
-              <h2>Adverteren op Voetbal<span class="brand-4">4</span>All</h2>
-              <p>
-                Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
-                Vraag naar de mogelijkheden voor advertising, premium vacatures en events.
-              </p>
-              <a class="btn-primary btn-block" href="contact.html">Ja, ik wil adverteren</a>
-            </div>
-          </section>
-        </aside>
+<!-- Rechterkant: vacatures, events en profielen -->
+<aside>
+  <section class="sidebar-block">
+    <h2>Beschikbare trainers (laatste 10)</h2>
+    <p class="news-teaser" style="font-size:0.85rem;">
+      Overzicht van recent toegevoegde trainersprofielen die beschikbaar zijn voor clubs.
+    </p>
+  </section>
+
+  <section class="sidebar-block">
+    <h2>Beschikbare spelers (laatste 10)</h2>
+    <p class="news-teaser" style="font-size:0.85rem;">
+      Overzicht van recent toegevoegde spelersprofielen die op zoek zijn naar een club.
+    </p>
+  </section>
+</aside>
       </div>
     </div>
   </section>
-</main>
 
+</main>
 <footer class="site-footer">
-  <div class="container footer-inner" style="text-align:center;padding:2rem 0%;">
+  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
     <div style="margin-bottom:0.75rem;">
       <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
@@ -542,72 +298,5 @@
   </div>
 </footer>
 
-<script>
-// Eenvoudige rotator voor premium items (placeholder tot koppeling met JSON)
-(function() {
-  function startRotator(containerId, items, intervalMs) {
-    var el = document.getElementById(containerId);
-    if (!el || !items || !items.length) return;
-    var idx = 0;
-
-    function render() {
-      var item = items[idx];
-      el.innerHTML = '';
-      var wrap = document.createElement('div');
-      wrap.className = 'premium-item';
-
-      var title = document.createElement('h3');
-      title.textContent = item.title;
-      wrap.appendChild(title);
-
-      if (item.meta) {
-        var meta = document.createElement('p');
-        meta.className = 'premium-meta';
-        meta.textContent = item.meta;
-        wrap.appendChild(meta);
-      }
-
-      if (item.teaser) {
-        var teaser = document.createElement('p');
-        teaser.className = 'premium-teaser';
-        teaser.textContent = item.teaser;
-        wrap.appendChild(teaser);
-      }
-
-      el.appendChild(wrap);
-      idx = (idx + 1) % items.length;
-    }
-
-    render();
-    setInterval(render, intervalMs);
-  }
-
-  // Dummy data – later te vervangen door data uit JSON
-  var premiumVacatures = [
-    { title: 'Jeugdtrainer U15 IP – ASV Geel', meta: 'Vlaanderen • vanaf volgend seizoen', teaser: 'Club zoekt gemotiveerde jeugdtrainer met UEFA C.' },
-    { title: 'Keeperstrainer A-kern – SV Oranje', meta: 'Nederland • direct beschikbaar', teaser: 'Ervaren keeperstrainer voor senioren en U19.' }
-  ];
-
-  var premiumEvents = [
-    { title: 'Zomertornooi U13 – FC Limburg', meta: 'Hasselt • augustus 2025', teaser: 'Tweedaags tornooi voor U13-teams uit Vlaanderen en Nederland.' },
-    { title: 'Open keeperdag – KFC Turnhout', meta: 'Turnhout • maart 2025', teaser: 'Gratis open training voor alle jeugdkeep(st)ers.' }
-  ];
-
-  var premiumTrainers = [
-    { title: 'Tom Trainer', meta: 'UEFA B • Jeugd – provinciaal (Vlaanderen)', teaser: 'Gedreven jeugdtrainer met ervaring U13–U17.' },
-    { title: 'Johan Coach', meta: 'KNVB TC2 • Jeugd – landelijk (NL)', teaser: 'Resultaatgericht, met focus op ontwikkeling.' }
-  ];
-
-  var premiumSpelers = [
-    { title: 'Lars Linksback (U17)', meta: 'Vlaanderen • Jeugd – provinciaal', teaser: 'Snel, duelkrachtig en conditioneel sterk.' },
-    { title: 'Mila Midfielder', meta: 'Nederland • Dames eerste elftal', teaser: 'Inzichtelijke spelverdeler met goede passing.' }
-  ];
-
-  startRotator('premium-vacatures', premiumVacatures, 5000);
-  startRotator('premium-events', premiumEvents, 5000);
-  startRotator('premium-trainers', premiumTrainers, 5000);
-  startRotator('premium-spelers', premiumSpelers, 5000);
-})();
-</script>
 </body>
 </html>

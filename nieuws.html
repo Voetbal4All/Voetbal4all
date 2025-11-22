@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nieuws – Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-nieuws">
+<div class="top-fixed-shell">
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="header-logo">
+        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+      </div>
+      <div class="header-ad">
+        <div class="ad-slot ad-header">ADVERTENTIE</div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nieuws.html" class="is-active">Nieuws</a></li>
+          <li><a href="uitslagen.html">Resultaten &amp; ranking</a></li>
+          <li><a href="vacatures.html">Clubvacatures</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="spelers.html">Spelers</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta-group">
+          <a class="btn-nav" href="spelers.html">Zoek spelers</a>
+          <a class="btn-nav-outline" href="contact.html">Adverteren op Voetbal<span class="brand-4">4</span>All</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="live-scores-banner">
+    <div class="container live-scores-inner">
+      <div class="live-label">Live uitslagen</div>
+      <div class="live-ticker">
+        <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
+        <span class="live-separator">•</span>
+        <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
+      </div>
+      <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
+    </div>
+  </section>
+</div>
+
+<main class="page-main page-main-offset">
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <h1>Voetbalkoppen – nieuwsselectie</h1>
+        <p>
+          Kies hieronder welke competities en welk type nieuws je wil bekijken.
+          Deze pagina wordt in de toekomst automatisch gevuld met voetbalnieuws voor zowel dames als heren.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:900px;">
+      <div class="form">
+        <h2>Nieuws filteren</h2>
+
+        <div class="form-row">
+          <label for="nieuws-competitie">Competitie / niveau</label>
+          <select id="nieuws-competitie" name="competitie">
+            <option value="">Alle competities</option>
+            <option value="jpl">Jupiler Pro League</option>
+            <option value="eredivisie">Eredivisie</option>
+            <option value="challenger">Challenger Pro League</option>
+            <option value="keuken">Keuken Kampioen Divisie</option>
+            <option value="nat-be">Nationale reeksen België</option>
+            <option value="nat-nl">Nationale reeksen Nederland</option>
+            <option value="laag-be">Lagere klassen België</option>
+            <option value="laag-nl">Lagere klassen Nederland</option>
+            <option value="rode-duivels">Rode Duivels</option>
+            <option value="oranje">Oranje</option>
+            <option value="transfers">Transfernieuws</option>
+            <option value="internationaal">Internationaal nieuws</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="nieuws-gender">Dames / heren</label>
+          <select id="nieuws-gender" name="gender">
+            <option value="">Dames &amp; heren</option>
+            <option value="heren">Heren</option>
+            <option value="dames">Dames</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="nieuws-zoekterm">Zoekterm</label>
+          <input type="text" id="nieuws-zoekterm" name="zoekterm" placeholder="Zoek op club, speler of trefwoord">
+        </div>
+
+        <div class="form-row">
+          <button type="button" class="btn-primary">Zoek nieuws (voorbeeld)</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <h2>Voorbeeldnieuws</h2>
+        <p style="font-size:0.9rem;color:#6b7280;">
+          Hieronder kunnen nieuwsartikels worden getoond die overeenkomen met de geselecteerde filters.
+          Dit is voorlopig voorbeeldinhoud.
+        </p>
+
+        <div class="news-card">
+          <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
+          <p class="news-meta">Jupiler Pro League • heren • demo</p>
+          <p class="news-teaser">
+            Hier verschijnt later automatisch gegenereerd nieuws met uitslagen, rangschikkingen en opvallende momenten.
+          </p>
+        </div>
+
+        <div class="news-card">
+          <h3>Voorbeeld: Overzicht Eredivisie (dames)</h3>
+          <p class="news-meta">Eredivisie • dames • demo</p>
+          <p class="news-teaser">
+            Deze kaart kan gebruikt worden voor nieuws rond damescompetities in Nederland.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
+    <div style="margin-bottom:0.75rem;">
+      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
+    </div>
+    <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
+  </div>
+</footer>
+
+</body>
+</html>

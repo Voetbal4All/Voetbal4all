@@ -5,68 +5,6 @@
   <title>Contact – Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/style.css" />
-<style>
-  .top-fixed-shell {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-  }
-  .page-main-offset {
-    margin-top: 220px;
-  }
-  @media (max-width: 1024px) {
-    .page-main-offset {
-      margin-top: 260px;
-    }
-  }
-  .live-scores-banner {
-    background: linear-gradient(90deg, #0b2748, #174f8a);
-    color: #fff;
-    padding: 0.75rem 0;
-    font-size: 0.9rem;
-  }
-  .live-scores-inner {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .live-label {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 0.8rem;
-    padding: 0.25rem 0.75rem;
-    border-radius: 999px;
-    border: 1px solid rgba(255,255,255,0.6);
-  }
-  .live-ticker {
-    flex: 1;
-    min-width: 220px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    opacity: 0.9;
-  }
-  .live-separator {
-    margin: 0 0.75rem;
-    opacity: 0.7;
-  }
-  .live-link {
-    font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    font-size: 0.9rem;
-    color: #fff;
-  }
-  .live-link:hover {
-    text-decoration-thickness: 2px;
-  }
-</style>
-
 </head>
 <body class="page-contact">
 <div class="top-fixed-shell">
@@ -75,13 +13,15 @@
       <div class="header-logo">
         <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
       </div>
-      <div class="header-ad"><div class="ad-slot ad-header">ADVERTENTIE</div></div>
+      <div class="header-ad">
+        <div class="ad-slot ad-header">ADVERTENTIE</div>
+      </div>
     </div>
     <nav class="main-nav">
       <div class="container nav-inner">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#nieuws">Nieuws</a></li>
+          <li><a href="nieuws.html">Nieuws</a></li>
           <li><a href="uitslagen.html">Resultaten &amp; ranking</a></li>
           <li><a href="vacatures.html">Clubvacatures</a></li>
           <li><a href="trainers.html">Trainers</a></li>
@@ -96,8 +36,6 @@
       </div>
     </nav>
   </header>
-
-  <!-- LIVE UITSLAGEN BANNER -->
   <section class="live-scores-banner">
     <div class="container live-scores-inner">
       <div class="live-label">Live uitslagen</div>
@@ -113,52 +51,48 @@
 
 <main class="page-main page-main-offset">
   <section class="section">
-  <div class="container" style="max-width:700px;">
-    <h1>Contact</h1>
-    <p>
-      Problemen, opmerkingen, aanvullingen of nood aan een bepaalde functionaliteit op de website?
-      Contacteer Voetbal<span class="brand-4">4</span>All via onderstaand formulier.
-    </p>
+    <div class="container" style="max-width:800px;">
+      <div class="form">
+        <h1>Contact met Voetbal<span class="brand-4">4</span>All</h1>
+        <p style="font-size:0.9rem;color:#6b7280;">
+          Problemen, opmerkingen, aanvullingen of nood aan een bepaalde functionaliteit op de website?
+          Laat het hier weten. We gebruiken je feedback om Voetbal<span class="brand-4">4</span>All verder te verbeteren.
+        </p>
 
-    <form class="form contact-form">
-      <div class="form-row">
-        <label for="contact-naam">Naam</label>
-        <input type="text" id="contact-naam" name="naam" required>
+        <div class="form-row">
+          <label for="ct-naam">Naam</label>
+          <input type="text" id="ct-naam" name="naam" required>
+        </div>
+
+        <div class="form-row">
+          <label for="ct-email">E-mailadres (zodat we kunnen antwoorden)</label>
+          <input type="email" id="ct-email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="ct-onderwerp">Waar gaat het bericht over?</label>
+          <select id="ct-onderwerp" name="onderwerp" required>
+            <option value="">Maak een keuze</option>
+            <option value="technisch">Technisch probleem</option>
+            <option value="functionaliteit">Voorstel nieuwe functionaliteit</option>
+            <option value="profielen">Vragen over profielen of vacatures</option>
+            <option value="events">Vragen over events of tornooien</option>
+            <option value="adverteren">Adverteermogelijkheden</option>
+            <option value="anders">Iets anders</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="ct-bericht">Bericht</label>
+          <textarea id="ct-bericht" name="bericht" rows="6" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="btn-primary">Bericht verzenden</button>
+        </div>
       </div>
-
-      <div class="form-row">
-        <label for="contact-email">E-mailadres</label>
-        <input type="email" id="contact-email" name="email" required>
-      </div>
-
-      <div class="form-row">
-        <label for="contact-onderwerp">Onderwerp</label>
-        <input type="text" id="contact-onderwerp" name="onderwerp" required>
-      </div>
-
-      <div class="form-row">
-        <label for="contact-type">Waar gaat uw bericht over?</label>
-        <select id="contact-type" name="type" required>
-          <option value="">Maak een keuze</option>
-          <option value="probleem">Probleem of foutmelding</option>
-          <option value="opmerking">Opmerking of suggestie</option>
-          <option value="functionaliteit">Vraag naar nieuwe functionaliteit</option>
-          <option value="algemeen">Algemene vraag</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label for="contact-bericht">Bericht</label>
-        <textarea id="contact-bericht" name="bericht" rows="6" required></textarea>
-      </div>
-
-      <div class="form-row">
-        <button type="submit" class="btn-primary">Verstuur bericht</button>
-      </div>
-    </form>
-  </div>
-</section>
-
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
@@ -168,5 +102,6 @@
     <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
+
 </body>
 </html>
