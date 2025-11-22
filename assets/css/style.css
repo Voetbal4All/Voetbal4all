@@ -46,6 +46,13 @@ body {
   padding: 2rem 0 3rem 0;
 }
 
+/* Brand accent for '4' */
+
+.brand-4 {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
 /* Header & navigatie */
 
 .site-header {
@@ -54,16 +61,26 @@ body {
 }
 
 .header-top {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: space-between;
   padding: 0.75rem 0;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
 }
 
 .header-logo img {
   display: block;
   max-height: 110px;
   height: auto;
+}
+
+.header-ad {
+  display: flex;
+  justify-content: center;
 }
 
 .header-ad .ad-header {
@@ -118,14 +135,16 @@ body {
   font-size: 0.9rem;
   text-decoration: none;
   color: rgba(255,255,255,0.86);
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .main-nav a:hover {
-  background: rgba(255,255,255,0.06);
+  background: rgba(53, 184, 112, 0.25);
+  color: #ffffff;
 }
 
 .main-nav a.is-active {
-  background: #ffffff;
+  background: var(--color-accent);
   color: #0b2748;
   font-weight: 600;
 }
@@ -190,7 +209,8 @@ body {
 }
 
 .btn-nav-outline:hover {
-  background: rgba(255,255,255,0.08);
+  background: rgba(53,184,112,0.18);
+  border-color: rgba(53,184,112,0.85);
 }
 
 .btn-block {
@@ -289,9 +309,8 @@ body {
 
 @media (max-width: 768px) {
   .header-top {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
   }
   .header-ad .ad-header {
     width: 100%;
