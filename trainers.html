@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-trainers">
-
   <header class="site-header">
     <div class="container header-top">
       <div class="header-logo">
@@ -19,7 +18,6 @@
         </div>
       </div>
     </div>
-
     <nav class="main-nav">
       <div class="container nav-inner">
         <ul>
@@ -37,7 +35,6 @@
   </header>
 
   <main class="page-main">
-
     <section class="hero hero-small">
       <div class="container hero-inner">
         <div>
@@ -50,7 +47,6 @@
       </div>
     </section>
 
-    <!-- FILTERBLOK -->
     <section class="filters-section">
       <div class="container filters-grid">
         <div class="filter-item">
@@ -102,30 +98,23 @@
       </div>
     </section>
 
-    <!-- TRAINERS + SIDEBAR -->
     <section class="content-grid">
       <div class="container grid-2col">
-
         <div class="col-left">
           <section class="block">
             <h2>Trainers in de kijker</h2>
-
-            <!-- Dynamisch gevulde lijst -->
             <div id="trainer-list">
               <p>Trainers worden geladen...</p>
             </div>
           </section>
-
           <section class="bottom-ad">
             <div class="ad-slot ad-leaderboard">
               ADVERTENTIE 728×90
             </div>
           </section>
         </div>
-
         <aside class="col-right">
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
-
           <section class="block block-cta">
             <h2>Trainerprofiel toevoegen</h2>
             <p>
@@ -135,20 +124,16 @@
             </p>
             <a class="btn-primary btn-block" href="#trainer-form">Trainerprofiel doorgeven</a>
           </section>
-
           <section class="block">
             <h3>Trainer in de kijker</h3>
             <p><strong>Moderatie</strong><br>
                Nieuwe profielen verschijnen pas nadat de beheerder ze heeft goedgekeurd.</p>
           </section>
-
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
         </aside>
-
       </div>
     </section>
 
-    <!-- FORMULIER VOOR TRAINERS -->
     <section id="trainer-form" class="form-section">
       <div class="container">
         <div class="form-card">
@@ -161,7 +146,6 @@
               <label for="tr-naam-f">Naam</label>
               <input type="text" id="tr-naam-f" name="naam" required>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label>Landen waarin je training wil geven</label>
@@ -178,7 +162,6 @@
                 </select>
               </div>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-licentie-f">Licentie</label>
@@ -202,17 +185,14 @@
                 </select>
               </div>
             </div>
-
             <div class="form-row" id="tr-licentie-andere-row" style="display:none;">
               <label for="tr-licentie-andere">Andere licentie (omschrijving)</label>
               <input type="text" id="tr-licentie-andere" name="licentie_andere" placeholder="bv. lokale opleiding, buitenlandse licentie, ...">
             </div>
-
             <div class="form-row">
               <label for="tr-ervaring-f">Ervaring / clubs</label>
               <textarea id="tr-ervaring-f" name="ervaring" rows="4" placeholder="Korte samenvatting van je ervaring en (jeugd)clubs."></textarea>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-beschikbaarheid-f">Beschikbaarheid</label>
@@ -228,7 +208,6 @@
                 <input type="text" id="tr-contactinfo-f" name="contactinfo" placeholder="telefoonnummer of webformulier">
               </div>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-cv">CV uploaden (optioneel, PDF)</label>
@@ -239,23 +218,24 @@
                 <input type="file" id="tr-foto" name="foto" accept="image/*">
               </div>
             </div>
-
             <div class="form-row">
               <label for="tr-profieltekst-f">Korte profieltekst</label>
               <textarea id="tr-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor aan clubs in België en Nederland."></textarea>
             </div>
-
             <p class="form-intro">
               In deze eerste fase wordt je profiel na verzending niet automatisch gepubliceerd,
               maar door de beheerder nagekeken en vervolgens goedgekeurd of geweigerd.
             </p>
-
+            <p class="form-note">
+              <strong>Let op:</strong> Uw trainerprofiel blijft maximaal 6 maanden zichtbaar op Voetbal4All. 
+              Om de website overzichtelijk en ordelijk te houden, wordt uw profiel daarna automatisch verwijderd. 
+              Eén maand voor het verstrijken van deze periode ontvangt u een e-mail op het opgegeven adres met de mogelijkheid om de zichtbaarheid van uw profiel met 6 maanden te verlengen.
+            </p>
             <button type="submit" class="btn-primary">Trainerprofiel verzenden</button>
           </form>
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
@@ -265,7 +245,6 @@
   </footer>
 
   <script>
-    // Dynamisch laden van trainers uit data/trainers.json
     (function() {
       const listEl = document.getElementById('trainer-list');
       const filterLand = document.getElementById('tr-filter-land');
@@ -273,7 +252,6 @@
       const filterNiveau = document.getElementById('tr-filter-niveau');
       const filterLicentie = document.getElementById('tr-filter-licentie');
       const filterBeschikbaarheid = document.getElementById('tr-filter-beschikbaarheid');
-
       let trainers = [];
 
       function render() {
@@ -286,22 +264,14 @@
         const licVal = filterLicentie.value;
         const besVal = filterBeschikbaarheid.value;
 
-        if (landVal) {
-          filtered = filtered.filter(t => Array.isArray(t.land) && t.land.includes(landVal));
-        }
-        if (regioVal) {
-          filtered = filtered.filter(t => t.regio === regioVal);
-        }
+        if (landVal) filtered = filtered.filter(t => Array.isArray(t.land) && t.land.includes(landVal));
+        if (regioVal) filtered = filtered.filter(t => t.regio === regioVal);
         if (nivVal) {
           filtered = filtered.filter(t => (t.niveau && t.niveau.indexOf(nivVal) !== -1) ||
                                           (Array.isArray(t.doelgroepen) && t.doelgroepen.includes(nivVal)));
         }
-        if (licVal) {
-          filtered = filtered.filter(t => t.licentie === licVal);
-        }
-        if (besVal) {
-          filtered = filtered.filter(t => t.beschikbaarheid === besVal);
-        }
+        if (licVal) filtered = filtered.filter(t => t.licentie === licVal);
+        if (besVal) filtered = filtered.filter(t => t.beschikbaarheid === besVal);
 
         if (!filtered.length) {
           listEl.innerHTML = '<p>Geen trainers gevonden met de huidige filters.</p>';
@@ -389,7 +359,6 @@
         });
     })();
 
-    // Licentie "Andere" veld tonen / verbergen
     (function() {
       const selectLic = document.getElementById('tr-licentie-f');
       const rowAndere = document.getElementById('tr-licentie-andere-row');
@@ -406,10 +375,8 @@
           inputAndere.value = '';
         }
       }
-
       selectLic.addEventListener('change', updateAndere);
     })();
   </script>
-
 </body>
 </html>

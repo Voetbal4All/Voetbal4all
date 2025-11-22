@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-spelers">
-
   <header class="site-header">
     <div class="container header-top">
       <div class="header-logo">
@@ -19,7 +18,6 @@
         </div>
       </div>
     </div>
-
     <nav class="main-nav">
       <div class="container nav-inner">
         <ul>
@@ -37,7 +35,6 @@
   </header>
 
   <main class="page-main">
-
     <section class="hero hero-small">
       <div class="container hero-inner">
         <div>
@@ -50,7 +47,6 @@
       </div>
     </section>
 
-    <!-- FILTERBLOK -->
     <section class="filters-section">
       <div class="container filters-grid">
         <div class="filter-item">
@@ -61,19 +57,16 @@
             <option value="NL">Nederland</option>
           </select>
         </div>
-
         <div class="filter-item">
           <label for="pl-filter-regio">Regio / provincie</label>
           <select id="pl-filter-regio" name="regio">
             <option value="">Alle regio’s</option>
-            <!-- België -->
             <option value="Antwerpen" data-land="BE">Antwerpen</option>
             <option value="Limburg (BE)" data-land="BE">Limburg (BE)</option>
             <option value="Vlaams-Brabant" data-land="BE">Vlaams-Brabant</option>
             <option value="Oost-Vlaanderen" data-land="BE">Oost-Vlaanderen</option>
             <option value="West-Vlaanderen" data-land="BE">West-Vlaanderen</option>
             <option value="Brussel" data-land="BE">Brussel</option>
-            <!-- Nederland -->
             <option value="Noord-Brabant" data-land="NL">Noord-Brabant</option>
             <option value="Limburg (NL)" data-land="NL">Limburg (NL)</option>
             <option value="Zeeland" data-land="NL">Zeeland</option>
@@ -88,7 +81,6 @@
             <option value="Flevoland" data-land="NL">Flevoland</option>
           </select>
         </div>
-
         <div class="filter-item">
           <label for="pl-filter-geslacht">Dames / heren</label>
           <select id="pl-filter-geslacht" name="geslacht">
@@ -97,7 +89,6 @@
             <option value="Dames">Dames</option>
           </select>
         </div>
-
         <div class="filter-item">
           <label for="pl-filter-leeftijd">Leeftijdscategorie</label>
           <select id="pl-filter-leeftijd" name="leeftijdscategorie">
@@ -123,14 +114,11 @@
             <option value="Eerste elftal dames">Eerste elftal dames</option>
           </select>
         </div>
-
         <div class="filter-item">
           <label for="pl-filter-jaar">Geboortejaar (meerdere mogelijk)</label>
-          <select id="pl-filter-jaar" name="geboortejaar" multiple>
-          </select>
+          <select id="pl-filter-jaar" name="geboortejaar" multiple></select>
           <small style="font-size:0.75rem;">Meerdere jaren selecteren via Cmd/Ctrl-klik.</small>
         </div>
-
         <div class="filter-item">
           <label for="pl-filter-niveau">Gewenst niveau</label>
           <select id="pl-filter-niveau" name="niveau">
@@ -146,7 +134,6 @@
             <option value="Dames – alle niveaus">Dames – alle niveaus</option>
           </select>
         </div>
-
         <div class="filter-item">
           <label for="pl-filter-beschikbaarheid">Beschikbaarheid</label>
           <select id="pl-filter-beschikbaarheid" name="beschikbaarheid">
@@ -160,30 +147,23 @@
       </div>
     </section>
 
-    <!-- SPELERS + SIDEBAR -->
     <section class="content-grid">
       <div class="container grid-2col">
-
         <div class="col-left">
           <section class="block">
             <h2>Spelers in de kijker</h2>
-
-            <!-- Dynamisch gevulde lijst -->
             <div id="player-list">
               <p>Spelers worden geladen...</p>
             </div>
           </section>
-
           <section class="bottom-ad">
             <div class="ad-slot ad-leaderboard">
               ADVERTENTIE 728×90
             </div>
           </section>
         </div>
-
         <aside class="col-right">
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
-
           <section class="block block-cta">
             <h2>Spelersprofiel toevoegen</h2>
             <p>
@@ -193,7 +173,6 @@
             </p>
             <a class="btn-primary btn-block" href="#speler-form">Spelersprofiel doorgeven</a>
           </section>
-
           <section class="block">
             <h3>Tip voor spelers</h3>
             <p>
@@ -201,14 +180,11 @@
               jou selecteert in de zoekresultaten.
             </p>
           </section>
-
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
         </aside>
-
       </div>
     </section>
 
-    <!-- FORMULIER VOOR SPELERS -->
     <section id="speler-form" class="form-section">
       <div class="container">
         <div class="form-card">
@@ -221,7 +197,6 @@
               <label for="pl-naam-f">Naam speler</label>
               <input type="text" id="pl-naam-f" name="naam" required>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="pl-jaar-f">Geboortejaar</label>
@@ -238,7 +213,6 @@
                 </select>
               </div>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label>Landen waarin je wil spelen</label>
@@ -255,7 +229,6 @@
                 </select>
               </div>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="pl-leeftijdcat-f">Leeftijdscategorie</label>
@@ -289,12 +262,10 @@
                 </select>
               </div>
             </div>
-
             <div class="form-row">
               <label for="pl-positie-f">Voorkeurspositie</label>
               <input type="text" id="pl-positie-f" name="positie" placeholder="bv. centrale verdediger, flankaanvaller, doelman, ...">
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="pl-beschikbaarheid-f">Beschikbaarheid</label>
@@ -316,7 +287,6 @@
                 <small>Bij spelers jonger dan 18 jaar moet dit aangevinkt zijn.</small>
               </div>
             </div>
-
             <div class="form-row form-row-half">
               <div>
                 <label for="pl-cv">CV uploaden (optioneel, PDF)</label>
@@ -327,23 +297,24 @@
                 <input type="url" id="pl-video" name="video" placeholder="https://...">
               </div>
             </div>
-
             <div class="form-row">
               <label for="pl-profieltekst-f">Korte profieltekst</label>
               <textarea id="pl-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor: kwaliteiten, ervaring, verwachtingen."></textarea>
             </div>
-
             <p class="form-intro">
               In deze eerste fase wordt je profiel na verzending niet automatisch gepubliceerd,
               maar door de beheerder nagekeken en vervolgens goedgekeurd of geweigerd.
             </p>
-
+            <p class="form-note">
+              <strong>Let op:</strong> Uw spelersprofiel blijft maximaal 6 maanden zichtbaar op Voetbal4All. 
+              Om de website overzichtelijk en ordelijk te houden, wordt uw profiel daarna automatisch verwijderd. 
+              Eén maand voor het verstrijken van deze periode ontvangt u een e-mail op het opgegeven adres met de mogelijkheid om de zichtbaarheid van uw profiel met 6 maanden te verlengen.
+            </p>
             <button type="submit" class="btn-primary">Spelersprofiel verzenden</button>
           </form>
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
@@ -353,7 +324,6 @@
   </footer>
 
   <script>
-    // Dynamisch geboortejaren invullen (1990 t.e.m. huidige jaar - 4)
     (function() {
       const selectFilter = document.getElementById('pl-filter-jaar');
       const selectForm = document.getElementById('pl-jaar-f');
@@ -370,7 +340,6 @@
           selectFilter.appendChild(opt);
         }
       }
-
       if (selectForm) {
         for (let y = maxYear; y >= minYear; y--) {
           const opt = document.createElement('option');
@@ -381,7 +350,6 @@
       }
     })();
 
-    // Minderjarig checkbox verplicht maken indien geboortejaar > currentYear - 18
     (function() {
       const jaarSelect = document.getElementById('pl-jaar-f');
       const minderjarigCheckbox = document.getElementById('pl-minderjarig-ouder');
@@ -396,11 +364,9 @@
           minderjarigCheckbox.required = false;
         }
       }
-
       jaarSelect.addEventListener('change', updateMinderjarig);
     })();
 
-    // Dynamische regio- en niveau-opties in het spelersformulier
     (function() {
       const landBe = document.getElementById('pl-land-be');
       const landNl = document.getElementById('pl-land-nl');
@@ -454,7 +420,7 @@
         defR.value = '';
         defR.textContent = 'Maak een keuze';
         regioForm.appendChild(defR);
-        regioOptionsForm.forEach(function(o) {
+        regioOptionsForm.forEach(o => {
           if ((!be && !nl) || (o.land === 'BE' && be) || (o.land === 'NL' && nl)) {
             const opt = document.createElement('option');
             opt.value = o.value;
@@ -468,7 +434,7 @@
         defN.value = '';
         defN.textContent = 'Maak een keuze';
         niveauForm.appendChild(defN);
-        niveauOptionsForm.forEach(function(o) {
+       niveauOptionsForm.forEach(o => {
           if ((!be && !nl) || (o.land === 'BE' && be) || (o.land === 'NL' && nl)) {
             const opt = document.createElement('option');
             opt.value = o.value;
@@ -480,35 +446,31 @@
 
       landBe.addEventListener('change', updateFormSelects);
       landNl.addEventListener('change', updateFormSelects);
-
       updateFormSelects();
     })();
 
-    // Regiofilter bovenaan spelerspagina dynamisch aanpassen op basis van landfilter
     (function() {
       const landSelect = document.getElementById('pl-filter-land');
       const regioSelect = document.getElementById('pl-filter-regio');
       if (!landSelect || !regioSelect) return;
 
-      const allOptions = Array.from(regioSelect.options).map(function(opt) {
-        return {
-          value: opt.value,
-          text: opt.textContent,
-          land: opt.getAttribute('data-land') || '',
-          isDefault: opt.value === ''
-        };
-      });
+      const allOptions = Array.from(regioSelect.options).map(opt => ({
+        value: opt.value,
+        text: opt.textContent,
+        land: opt.getAttribute('data-land') || '',
+        isDefault: opt.value === ''
+      }));
 
       function populateRegios(land) {
         regioSelect.innerHTML = '';
-        const def = allOptions.find(function(o){ return o.isDefault; });
+        const def = allOptions.find(o => o.isDefault);
         if (def) {
           const o = document.createElement('option');
           o.value = def.value;
           o.textContent = def.text;
           regioSelect.appendChild(o);
         }
-        allOptions.forEach(function(o) {
+        allOptions.forEach(o => {
           if (o.isDefault) return;
           if (!land || !o.land || o.land === land) {
             const opt = document.createElement('option');
@@ -520,14 +482,10 @@
         });
       }
 
-      landSelect.addEventListener('change', function() {
-        populateRegios(landSelect.value);
-      });
-
+      landSelect.addEventListener('change', () => populateRegios(landSelect.value));
       populateRegios('');
     })();
 
-    // Spelers dynamisch laden uit data/spelers.json
     (function() {
       const listEl = document.getElementById('player-list');
       const filterLand = document.getElementById('pl-filter-land');
@@ -537,7 +495,6 @@
       const filterJaar = document.getElementById('pl-filter-jaar');
       const filterNiveau = document.getElementById('pl-filter-niveau');
       const filterBeschikbaarheid = document.getElementById('pl-filter-beschikbaarheid');
-
       let spelers = [];
 
       function render() {
@@ -550,33 +507,18 @@
         const leeftijdVal = filterLeeftijd.value;
         const nivVal = filterNiveau.value;
         const besVal = filterBeschikbaarheid.value;
-
         let jarenVals = [];
         if (filterJaar && filterJaar.selectedOptions && filterJaar.selectedOptions.length > 0) {
           jarenVals = Array.from(filterJaar.selectedOptions).map(o => o.value);
         }
 
-        if (landVal) {
-          filtered = filtered.filter(s => Array.isArray(s.land) && s.land.includes(landVal));
-        }
-        if (regioVal) {
-          filtered = filtered.filter(s => s.regio === regioVal);
-        }
-        if (geslachtVal) {
-          filtered = filtered.filter(s => s.geslacht === geslachtVal);
-        }
-        if (leeftijdVal) {
-          filtered = filtered.filter(s => s.leeftijdscategorie === leeftijdVal);
-        }
-        if (jarenVals.length > 0) {
-          filtered = filtered.filter(s => jarenVals.includes(String(s.geboortejaar)));
-        }
-        if (nivVal) {
-          filtered = filtered.filter(s => s.niveau === nivVal);
-        }
-        if (besVal) {
-          filtered = filtered.filter(s => s.beschikbaarheid === besVal);
-        }
+        if (landVal) filtered = filtered.filter(s => Array.isArray(s.land) && s.land.includes(landVal));
+        if (regioVal) filtered = filtered.filter(s => s.regio === regioVal);
+        if (geslachtVal) filtered = filtered.filter(s => s.geslacht === geslachtVal);
+        if (leeftijdVal) filtered = filtered.filter(s => s.leeftijdscategorie === leeftijdVal);
+        if (jarenVals.length > 0) filtered = filtered.filter(s => jarenVals.includes(String(s.geboortejaar)));
+        if (nivVal) filtered = filtered.filter(s => s.niveau === nivVal);
+        if (besVal) filtered = filtered.filter(s => s.beschikbaarheid === besVal);
 
         if (!filtered.length) {
           listEl.innerHTML = '<p>Geen spelers gevonden met de huidige filters.</p>';
@@ -587,7 +529,6 @@
         filtered.forEach(s => {
           const article = document.createElement('article');
           article.className = 'vacature-card trainer-card';
-
           const mainDiv = document.createElement('div');
           mainDiv.className = 'vacature-main trainer-main';
 
@@ -622,7 +563,6 @@
 
           const sideDiv = document.createElement('div');
           sideDiv.className = 'vacature-side trainer-side';
-
           const pZoekt = document.createElement('p');
           pZoekt.className = 'vacature-deadline';
           const zoektText = s.zoekt || 'Op zoek naar passende club in gewenste regio.';
@@ -666,6 +606,5 @@
         });
     })();
   </script>
-
 </body>
 </html>
