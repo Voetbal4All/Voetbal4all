@@ -1,0 +1,24 @@
+{
+  "vacatures": [
+    {
+      "club": "ASV Geel",
+      "contactpersoon": "Jeugdcoördinator",
+      "email": "jeugd@asvgeel.be",
+      "land": "BE",
+      "regio": "Kempen",
+      "functie": "Jeugdtrainer U15 interprovinciaal",
+      "omschrijving": "We zoeken een enthousiaste trainer met minstens UEFA C om onze U15 IP te begeleiden.",
+      "status": "approved"
+    },
+    {
+      "club": "SV Oranje",
+      "contactpersoon": "Technisch verantwoordelijke",
+      "email": "tv@svoranje.nl",
+      "land": "NL",
+      "regio": "Noord-Brabant",
+      "functie": "Keeperstrainer senioren & jeugd",
+      "omschrijving": "Ervaren keeperstrainer voor zowel A-selectie als O17/O19.",
+      "status": "approved"
+    }
+  ]
+}

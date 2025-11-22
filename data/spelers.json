@@ -1,71 +1,54 @@
 {
   "spelers": [
     {
-      "id": "pl-001",
-      "status": "approved",
-      "naam": "Jens Peeters",
-      "geboortejaar": 2008,
-      "land": [
-        "BE"
-      ],
-      "regio": "Antwerpen",
-      "geslacht": "Heren",
-      "leeftijdscategorie": "U17",
-      "niveau": "Jeugd – provinciaal (BE)",
-      "positie": "Centrale middenvelder",
-      "beschikbaarheid": "Vanaf volgend seizoen",
-      "profieltekst": "Technisch sterke centrale middenvelder met goed spelinzicht en loopvermogen. Speelt graag in een opleidingsgerichte omgeving met aandacht voor combinatievoetbal.",
-      "zoekt": "Provinciale club in regio Kempen / Antwerpen",
-      "tags": [
-        "U17",
-        "Middenveld",
-        "Provinciaal (BE)"
-      ]
-    },
-    {
-      "id": "pl-002",
-      "status": "approved",
-      "naam": "Lotte Vermeulen",
-      "geboortejaar": 2006,
+      "naam": "Lars Linksback",
+      "email": "lars.linksback@example.com",
       "land": [
         "BE",
         "NL"
       ],
-      "regio": "Limburg",
-      "geslacht": "Dames",
-      "leeftijdscategorie": "U19",
-      "niveau": "Jeugd – interprovinciaal / elite (BE)",
-      "positie": "Aanvaller",
-      "beschikbaarheid": "Direct beschikbaar",
-      "profieltekst": "Snelle en doelgerichte flankaanvalster met ervaring op interprovinciaal niveau. Gemotiveerd om de stap te zetten naar een ambitieus dames- of beloftenelftal.",
-      "zoekt": "Ambitieuze damesploeg of beloften-team in Limburg (BE/NL)",
+      "regio": "Limburg (BE)",
+      "geboortejaar": 2008,
+      "geslacht": "Heren",
+      "leeftijdscategorie": "U17",
+      "niveau": "Jeugd – provinciaal (BE)",
+      "positie": "Linksback / linker wingback",
+      "beschikbaarheid": "Vanaf volgend seizoen",
+      "minderjarig_ouder": true,
+      "cv": "",
+      "foto": "assets/img/spelers/lars-linksback.jpg",
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "profieltekst": "Snel, duelkrachtig en conditioneel sterk. Speelt graag aanvallend mee.",
       "tags": [
-        "U19",
-        "Dames",
-        "Aanvaller",
-        "Elite / IP"
-      ]
+        "U17",
+        "Limburg",
+        "Linksback"
+      ],
+      "status": "approved"
     },
     {
-      "id": "pl-003",
-      "status": "new",
-      "naam": "TEST Speler (nog niet goedgekeurd)",
-      "geboortejaar": 2010,
+      "naam": "Mila Midfielder",
+      "email": "mila.midfielder@example.com",
       "land": [
         "NL"
       ],
-      "regio": "Noord-Brabant",
-      "geslacht": "Heren",
-      "leeftijdscategorie": "U15",
-      "niveau": "Jeugd – regionaal (NL)",
-      "positie": "Verdediger",
-      "beschikbaarheid": "In overleg",
-      "profieltekst": "Dit profiel wordt pas zichtbaar nadat de beheerder de status op 'approved' zet in spelers.json.",
-      "zoekt": "Jeugdclub regio Noord-Brabant",
+      "regio": "Utrecht",
+      "geboortejaar": 2005,
+      "geslacht": "Dames",
+      "leeftijdscategorie": "Eerste elftal dames",
+      "niveau": "Dames – alle niveaus",
+      "positie": "Centrale middenvelder",
+      "beschikbaarheid": "Direct beschikbaar",
+      "minderjarig_ouder": false,
+      "cv": "",
+      "foto": "assets/img/spelers/mila-midfielder.png",
+      "video": "",
+      "profieltekst": "Inzichtelijke spelverdeler met goede passing en loopvermogen.",
       "tags": [
-        "Test",
-        "Jeugd"
-      ]
+        "Dames",
+        "Middenveld"
+      ],
+      "status": "approved"
     }
   ]
 }

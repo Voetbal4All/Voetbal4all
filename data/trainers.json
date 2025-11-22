@@ -1,73 +1,38 @@
 {
   "trainers": [
     {
-      "id": "tr-001",
-      "status": "approved",
-      "naam": "Tom Janssens (Test)",
-      "land": [
-        "BE",
-        "NL"
-      ],
-      "regio": "Kempen / Noord-Brabant",
-      "licentie": "UEFA B",
-      "doelgroepen": [
-        "Jeugd",
-        "Senioren"
-      ],
-      "niveau": "Competitief niveau",
-      "beschikbaarheid": "Direct beschikbaar",
-      "profieltekst": "Ervaren trainer met focus op opleidingsgericht werken en duidelijke structuur, actief in de grensregio België–Nederland. Sterk in het ontwikkelen van een herkenbare speelstijl en samenwerking met de jeugdwerking.",
-      "zoekt": "Ambitieuze club met opleidingsvisie",
-      "tags": [
-        "Jeugd & Senioren",
-        "Competitief niveau",
-        "Direct beschikbaar"
-      ]
-    },
-    {
-      "id": "tr-002",
-      "status": "approved",
-      "naam": "Annelies De Smet (Test)",
-      "land": [
-        "BE",
-        "NL"
-      ],
-      "regio": "Limburg",
-      "licentie": "UEFA C",
-      "doelgroepen": [
-        "Jeugd",
-        "Dames"
-      ],
-      "niveau": "Jeugd U10–U17",
-      "beschikbaarheid": "Vanaf seizoen 2025–2026",
-      "profieltekst": "Enthousiaste jeugdtrainster met nadruk op technische ontwikkeling en spelinzicht. Ervaring in damesvoetbal en gemengde jeugdteams. Werkt graag in een club met duidelijke jeugd- en doorstroomvisie.",
-      "zoekt": "Opleidingsgerichte jeugdclub in BE of NL",
-      "tags": [
-        "Jeugd U10–U17",
-        "Dames & gemengd",
-        "Vanaf seizoen 2025–2026"
-      ]
-    },
-    {
-      "id": "tr-003",
-      "status": "new",
-      "naam": "Nieuwe Trainer (Nog niet goedgekeurd)",
+      "naam": "Tom Trainer",
+      "email": "tom.trainer@example.com",
       "land": [
         "BE"
       ],
       "regio": "Antwerpen",
-      "licentie": "UEFA C",
-      "doelgroepen": [
-        "Jeugd"
+      "licentie": "UEFA B",
+      "niveau": "Jeugd – provinciaal (BE)",
+      "ervaring": "5 jaar jeugdtrainer U13–U17 bij regionale clubs.",
+      "beschikbaarheid": "Vanaf volgend seizoen",
+      "contactinfo": "GSM 0470/12.34.56",
+      "cv": "",
+      "foto": "assets/img/trainers/tom-trainer.jpg",
+      "profieltekst": "Gedreven jeugdtrainer met focus op ontwikkeling en plezier.",
+      "status": "approved"
+    },
+    {
+      "naam": "Johan Coach",
+      "email": "johan.coach@example.com",
+      "land": [
+        "NL"
       ],
-      "niveau": "Jeugd – breedtesport",
-      "beschikbaarheid": "In overleg",
-      "profieltekst": "Deze trainer wordt pas zichtbaar nadat de status op 'approved' wordt gezet.",
-      "zoekt": "Jeugdclub regio Antwerpen",
-      "tags": [
-        "Jeugd",
-        "In overleg"
-      ]
+      "regio": "Noord-Brabant",
+      "licentie": "KNVB TC2",
+      "niveau": "Jeugd – landelijk (NL)",
+      "ervaring": "Hoofdtrainer O19 en assistent-senioren in 2e klasse.",
+      "beschikbaarheid": "Direct beschikbaar",
+      "contactinfo": "coachjohan.nl/contact",
+      "cv": "",
+      "foto": "assets/img/trainers/johan-coach.png",
+      "profieltekst": "Resultaatgericht, maar altijd vanuit spelplezier en teamdynamiek.",
+      "status": "approved"
     }
   ]
 }

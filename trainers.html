@@ -43,6 +43,7 @@
     </div>
   </section>
 
+  <!-- FILTERS -->
   <section class="filters-section">
     <div class="container filters-grid">
       <div class="filter-item">
@@ -57,19 +58,39 @@
         <label for="tr-filter-regio">Regio / provincie</label>
         <select id="tr-filter-regio">
           <option value="">Alle regio’s</option>
-          <option value="Kempen / Noord-Brabant" data-land="BE,NL">Kempen / Noord-Brabant</option>
-          <option value="Limburg" data-land="BE,NL">Limburg</option>
           <option value="Antwerpen" data-land="BE">Antwerpen</option>
+          <option value="Limburg (BE)" data-land="BE">Limburg (BE)</option>
+          <option value="Vlaams-Brabant" data-land="BE">Vlaams-Brabant</option>
+          <option value="Oost-Vlaanderen" data-land="BE">Oost-Vlaanderen</option>
+          <option value="West-Vlaanderen" data-land="BE">West-Vlaanderen</option>
+          <option value="Brussel" data-land="BE">Brussel</option>
+          <option value="Noord-Brabant" data-land="NL">Noord-Brabant</option>
+          <option value="Limburg (NL)" data-land="NL">Limburg (NL)</option>
+          <option value="Zeeland" data-land="NL">Zeeland</option>
+          <option value="Zuid-Holland" data-land="NL">Zuid-Holland</option>
+          <option value="Noord-Holland" data-land="NL">Noord-Holland</option>
+          <option value="Utrecht" data-land="NL">Utrecht</option>
+          <option value="Gelderland" data-land="NL">Gelderland</option>
+          <option value="Overijssel" data-land="NL">Overijssel</option>
+          <option value="Groningen" data-land="NL">Groningen</option>
+          <option value="Friesland" data-land="NL">Friesland</option>
+          <option value="Drenthe" data-land="NL">Drenthe</option>
+          <option value="Flevoland" data-land="NL">Flevoland</option>
         </select>
       </div>
       <div class="filter-item">
         <label for="tr-filter-niveau">Niveau</label>
         <select id="tr-filter-niveau">
           <option value="">Alle niveaus</option>
-          <option value="Jeugd">Jeugd</option>
-          <option value="Senioren">Senioren</option>
-          <option value="Dames">Dames</option>
-          <option value="Competitief niveau">Competitief niveau</option>
+          <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
+          <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
+          <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
+          <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
+          <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+          <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
+          <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
+          <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
+          <option value="Dames – alle niveaus">Dames – alle niveaus</option>
         </select>
       </div>
       <div class="filter-item">
@@ -80,6 +101,10 @@
           <option value="UEFA B">UEFA B</option>
           <option value="UEFA A">UEFA A</option>
           <option value="UEFA Pro">UEFA Pro</option>
+          <option value="KNVB TC3">KNVB TC3</option>
+          <option value="KNVB TC2">KNVB TC2</option>
+          <option value="KNVB Jeugd">KNVB Jeugd</option>
+          <option value="Geen officiële licentie">Geen officiële licentie</option>
         </select>
       </div>
       <div class="filter-item">
@@ -94,6 +119,7 @@
     </div>
   </section>
 
+  <!-- LIJST + SIDEBAR -->
   <section class="content-grid">
     <div class="container grid-2col">
       <div class="col-left">
@@ -117,6 +143,7 @@
     </div>
   </section>
 
+  <!-- FORMULIER -->
   <section id="trainer-form" class="form-section">
     <div class="container">
       <div class="form-card">
@@ -125,6 +152,7 @@
         </div>
         <h2>Trainerprofiel doorgeven</h2>
         <p class="form-intro">Vul dit formulier in om je trainerprofiel te laten opnemen.</p>
+
         <form enctype="multipart/form-data">
           <div class="form-row">
             <label for="tr-naam-f">Naam</label>
@@ -149,6 +177,24 @@
               <label for="tr-regio-f">Regio / provincie (voorkeur)</label>
               <select id="tr-regio-f" name="regio">
                 <option value="">Maak een keuze</option>
+                <option value="Antwerpen" data-land="BE">Antwerpen</option>
+                <option value="Limburg (BE)" data-land="BE">Limburg (BE)</option>
+                <option value="Vlaams-Brabant" data-land="BE">Vlaams-Brabant</option>
+                <option value="Oost-Vlaanderen" data-land="BE">Oost-Vlaanderen</option>
+                <option value="West-Vlaanderen" data-land="BE">West-Vlaanderen</option>
+                <option value="Brussel" data-land="BE">Brussel</option>
+                <option value="Noord-Brabant" data-land="NL">Noord-Brabant</option>
+                <option value="Limburg (NL)" data-land="NL">Limburg (NL)</option>
+                <option value="Zeeland" data-land="NL">Zeeland</option>
+                <option value="Zuid-Holland" data-land="NL">Zuid-Holland</option>
+                <option value="Noord-Holland" data-land="NL">Noord-Holland</option>
+                <option value="Utrecht" data-land="NL">Utrecht</option>
+                <option value="Gelderland" data-land="NL">Gelderland</option>
+                <option value="Overijssel" data-land="NL">Overijssel</option>
+                <option value="Groningen" data-land="NL">Groningen</option>
+                <option value="Friesland" data-land="NL">Friesland</option>
+                <option value="Drenthe" data-land="NL">Drenthe</option>
+                <option value="Flevoland" data-land="NL">Flevoland</option>
               </select>
             </div>
           </div>
@@ -173,6 +219,15 @@
               <label for="tr-niveau-f">Gewenst niveau</label>
               <select id="tr-niveau-f" name="niveau">
                 <option value="">Maak een keuze</option>
+                <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
+                <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
+                <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
+                <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
+                <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+                <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
+                <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
+                <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
+                <option value="Dames – alle niveaus">Dames – alle niveaus</option>
               </select>
             </div>
           </div>
@@ -262,7 +317,7 @@
 
     if (landVal) filtered = filtered.filter(t => Array.isArray(t.land) ? t.land.includes(landVal) : (t.land === landVal));
     if (regVal) filtered = filtered.filter(t => t.regio === regVal);
-    if (nivVal) filtered = filtered.filter(t => (t.niveau && String(t.niveau).indexOf(nivVal) !== -1));
+    if (nivVal) filtered = filtered.filter(t => String(t.niveau || '').indexOf(nivVal) !== -1);
     if (licVal) filtered = filtered.filter(t => t.licentie === licVal);
     if (besVal) filtered = filtered.filter(t => t.beschikbaarheid === besVal);
 
