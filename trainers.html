@@ -36,7 +36,7 @@
       <div>
         <h1>Trainersplatform</h1>
         <p class="hero-text">
-          Trainers uit België en Nederland stellen zich hier voor aan clubs. 
+          Trainers uit Vlaanderen en Nederland stellen zich hier voor aan clubs. 
           Gebruik de filters om gericht te zoeken of voeg je eigen profiel toe.
         </p>
       </div>
@@ -49,8 +49,8 @@
       <div class="filter-item">
         <label for="tr-filter-land">Land</label>
         <select id="tr-filter-land">
-          <option value="">België &amp; Nederland</option>
-          <option value="BE">België</option>
+          <option value="">Vlaanderen &amp; Nederland</option>
+          <option value="BE">Vlaanderen</option>
           <option value="NL">Nederland</option>
         </select>
       </div>
@@ -169,7 +169,7 @@
             <div>
               <label>Landen waarin je training wil geven</label>
               <div style="display:flex;gap:0.75rem;flex-wrap:wrap;font-size:0.9rem;">
-                <label><input type="checkbox" id="tr-land-be" name="land_be" value="BE"> België</label>
+                <label><input type="checkbox" id="tr-land-be" name="land_be" value="BE"> Vlaanderen</label>
                 <label><input type="checkbox" id="tr-land-nl" name="land_nl" value="NL"> Nederland</label>
               </div>
             </div>
@@ -291,7 +291,7 @@
     <div style="margin-bottom:0.75rem;">
       <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
-    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
+    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
 
@@ -317,7 +317,7 @@
 
     if (landVal) filtered = filtered.filter(t => Array.isArray(t.land) ? t.land.includes(landVal) : (t.land === landVal));
     if (regVal) filtered = filtered.filter(t => t.regio === regVal);
-    if (nivVal) filtered = filtered.filter(t => String(t.niveau || '').indexOf(nivVal) !== -1);
+    if (nivVal) filtered = filtered.filter(t => String(t.niveau || '') === nivVal);
     if (licVal) filtered = filtered.filter(t => t.licentie === licVal);
     if (besVal) filtered = filtered.filter(t => t.beschikbaarheid === besVal);
 

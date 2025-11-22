@@ -36,7 +36,7 @@
       <div>
         <h1>Spelersplatform</h1>
         <p class="hero-text">
-          Spelers uit België en Nederland kunnen zich hier voorstellen aan clubs.
+          Spelers uit Vlaanderen en Nederland kunnen zich hier voorstellen aan clubs.
           Gebruik de filters om gericht te zoeken of voeg je eigen profiel toe.
         </p>
       </div>
@@ -49,8 +49,8 @@
       <div class="filter-item">
         <label for="pl-filter-land">Land(en) waar speler wil spelen</label>
         <select id="pl-filter-land">
-          <option value="">België &amp; Nederland</option>
-          <option value="BE">België</option>
+          <option value="">Vlaanderen &amp; Nederland</option>
+          <option value="BE">Vlaanderen</option>
           <option value="NL">Nederland</option>
         </select>
       </div>
@@ -112,9 +112,8 @@
         </select>
       </div>
       <div class="filter-item">
-        <label for="pl-filter-jaar">Geboortejaar (meerdere mogelijk)</label>
-        <select id="pl-filter-jaar" multiple></select>
-        <small style="font-size:0.75rem;">Meerdere jaren selecteren via Cmd/Ctrl-klik.</small>
+        <label for="pl-filter-jaar">Geboortejaar</label>
+        <select id="pl-filter-jaar"></select>
       </div>
       <div class="filter-item">
         <label for="pl-filter-niveau">Gewenst niveau</label>
@@ -211,7 +210,7 @@
             <div>
               <label>Landen waarin je wil spelen</label>
               <div style="display:flex;gap:0.75rem;flex-wrap:wrap;font-size:0.9rem;">
-                <label><input type="checkbox" id="pl-land-be" name="land_be" value="BE"> België</label>
+                <label><input type="checkbox" id="pl-land-be" name="land_be" value="BE"> Vlaanderen</label>
                 <label><input type="checkbox" id="pl-land-nl" name="land_nl" value="NL"> Nederland</label>
               </div>
             </div>
@@ -344,18 +343,19 @@
     <div style="margin-bottom:0.75rem;">
       <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
-    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
+    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
 
 <script>
-// geboortejaren vullen
+// geboortejaren vullen (filter + formulier) met single-select
 (function() {
   const selFilter = document.getElementById('pl-filter-jaar');
   const selForm = document.getElementById('pl-jaar-f');
   const now = new Date().getFullYear();
   const maxY = now - 4;
   const minY = 1990;
+
   function addOptions(select, includeEmpty) {
     if (!select) return;
     if (includeEmpty) {
@@ -371,7 +371,8 @@
       select.appendChild(opt);
     }
   }
-  addOptions(selFilter, false);
+
+  addOptions(selFilter, true);
   addOptions(selForm, false);
 })();
 
@@ -397,16 +398,13 @@
     const levVal = filterLeeftijd.value;
     const nivVal = filterNiveau.value;
     const besVal = filterBesch.value;
-    let jaarVals = [];
-    if (filterJaar && filterJaar.selectedOptions) {
-      jaarVals = Array.from(filterJaar.selectedOptions).map(o => o.value);
-    }
+    const jaarVal = filterJaar.value;
 
     if (landVal) filtered = filtered.filter(s => Array.isArray(s.land) ? s.land.includes(landVal) : (s.land === landVal));
     if (regVal) filtered = filtered.filter(s => s.regio === regVal);
     if (gesVal) filtered = filtered.filter(s => s.geslacht === gesVal);
     if (levVal) filtered = filtered.filter(s => s.leeftijdscategorie === levVal);
-    if (jaarVals.length) filtered = filtered.filter(s => jaarVals.includes(String(s.geboortejaar)));
+    if (jaarVal) filtered = filtered.filter(s => String(s.geboortejaar) === jaarVal);
     if (nivVal) filtered = filtered.filter(s => s.niveau === nivVal);
     if (besVal) filtered = filtered.filter(s => s.beschikbaarheid === besVal);
 

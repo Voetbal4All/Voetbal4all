@@ -104,7 +104,7 @@
               <label for="ev-land-f">Land</label>
               <select id="ev-land-f" name="land" required>
                 <option value="">Maak een keuze</option>
-                <option value="BE">België</option>
+                <option value="BE">Vlaanderen</option>
                 <option value="NL">Nederland</option>
               </select>
             </div>
@@ -169,7 +169,7 @@
     <div style="margin-bottom:0.75rem;">
       <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
-    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
+    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
 
@@ -222,7 +222,7 @@
       if (ev.datum) parts.push(ev.datum);
       if (ev.einddatum) parts.push('tot ' + ev.einddatum);
       if (ev.locatie) parts.push(ev.locatie);
-      if (ev.land) parts.push(ev.land === 'BE' ? 'België' : (ev.land === 'NL' ? 'Nederland' : ev.land));
+      if (ev.land) parts.push(ev.land === 'BE' ? 'Vlaanderen' : (ev.land === 'NL' ? 'Nederland' : ev.land));
       pMeta.textContent = parts.join(' | ');
       mainDiv.appendChild(pMeta);
 
@@ -245,13 +245,11 @@
     });
   }
 
-  // In een latere fase wordt data/events.json hier ingeladen
   fetch('data/events.json')
     .then(r => r.json())
     .then(data => { events = data.events || []; render(); })
     .catch(err => {
       console.error(err);
-      // Als er nog geen JSON is, behouden we de placeholdertekst
     });
 })();
 </script>
