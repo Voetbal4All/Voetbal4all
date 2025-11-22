@@ -1,4 +1,156 @@
-<!DOCTYPE html><html lang="nl"><head><meta charset="UTF-8"><title>Vacatures – Voetbal4All</title></head>
-<body><h1>Vacature toevoegen</h1>
-<p><strong>Let op:</strong> Uw vacature blijft maximaal 6 maanden zichtbaar op Voetbal4All. Om de website overzichtelijk en ordelijk te houden, wordt de vacature daarna automatisch verwijderd. Eén maand voor het verstrijken van deze periode ontvangt u een e-mail op het opgegeven adres met de mogelijkheid om de looptijd met 6 maanden te verlengen.</p>
-</body></html>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vacatures – Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-vacatures">
+
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="header-logo">
+        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+      </div>
+      <div class="header-ad">
+        <div class="ad-slot ad-header">ADVERTENTIE</div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <ul>
+          <li><a href="index.html">Nieuws</a></li>
+          <li><a href="index.html#uitslagen">Uitslagen</a></li>
+          <li><a class="is-active" href="vacatures.html">Vacatures</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="spelers.html">Spelers</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="meer.html">Meer</a></li>
+        </ul>
+        <a class="btn-nav" href="#vacature-form">Vacature toevoegen</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="hero hero-small">
+      <div class="container hero-inner">
+        <div>
+          <h1>Vacatures voor clubs</h1>
+          <p class="hero-text">
+            Clubs uit België en Nederland kunnen hier openstaande functies publiceren. 
+            In een latere fase worden vacatures dynamisch geladen vanuit de database.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="container grid-2col">
+        <div class="col-left">
+          <section class="block">
+            <h2>Openstaande vacatures</h2>
+            <div id="vacature-list">
+              <p>Vacatures worden in een volgende fase dynamisch geladen.</p>
+            </div>
+          </section>
+          <section class="bottom-ad">
+            <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
+          </section>
+        </div>
+        <aside class="col-right">
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+          <section class="block block-cta">
+            <h2>Nieuwe vacature plaatsen</h2>
+            <p>Gebruik het formulier hieronder om een vacature door te geven.</p>
+            <a class="btn-primary btn-block" href="#vacature-form">Vacature doorgeven</a>
+          </section>
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="vacature-form" class="form-section">
+      <div class="container">
+        <div class="form-card">
+          <div class="form-logo" style="text-align:right; margin-bottom:0.5rem;">
+            <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:40px;">
+          </div>
+          <h2>Vacature doorgeven</h2>
+          <p class="form-intro">
+            Vul dit formulier in om een vacature te laten opnemen op Voetbal4All.
+          </p>
+
+          <form>
+            <div class="form-row">
+              <label for="vc-club-f">Clubnaam</label>
+              <input type="text" id="vc-club-f" name="club" required>
+            </div>
+
+            <div class="form-row">
+              <label for="vc-contact-f">Contactpersoon</label>
+              <input type="text" id="vc-contact-f" name="contactpersoon" required>
+            </div>
+
+            <div class="form-row">
+              <label for="vc-email-f">E-mailadres voor automatische berichtgeving</label>
+              <input type="email" id="vc-email-f" name="email" required placeholder="club@voorbeeld.com">
+              <small>
+                Dit e-mailadres wordt gebruikt om u te informeren over het aflopen en eventueel
+                verlengen van uw vacature.
+              </small>
+            </div>
+
+            <div class="form-row form-row-half">
+              <div>
+                <label for="vc-land-f">Land</label>
+                <select id="vc-land-f" name="land" required>
+                  <option value="">Maak een keuze</option>
+                  <option value="BE">België</option>
+                  <option value="NL">Nederland</option>
+                </select>
+              </div>
+              <div>
+                <label for="vc-regio-f">Regio / provincie</label>
+                <input type="text" id="vc-regio-f" name="regio" placeholder="bv. Kempen, Limburg, Noord-Brabant, ...">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="vc-functie-f">Functie</label>
+              <input type="text" id="vc-functie-f" name="functie" placeholder="bv. hoofdtrainer U17, keepertrainer, ...">
+            </div>
+
+            <div class="form-row">
+              <label for="vc-omschrijving-f">Korte omschrijving</label>
+              <textarea id="vc-omschrijving-f" name="omschrijving" rows="5" placeholder="Beschrijf kort de functie, verwachtingen en aanbod."></textarea>
+            </div>
+
+            <p class="form-note">
+              <strong>Let op:</strong> Uw vacature blijft maximaal 6 maanden zichtbaar op Voetbal4All. 
+              Om de website overzichtelijk en ordelijk te houden, wordt de vacature daarna automatisch verwijderd. 
+              Eén maand voor het verstrijken van deze periode ontvangt u een e-mail op het opgegeven adres met de mogelijkheid om de looptijd met 6 maanden te verlengen.
+            </p>
+
+            <button type="submit" class="btn-primary">Vacature verzenden</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner" style="text-align:center; padding:2rem 0;">
+      <div style="margin-bottom:0.75rem;">
+        <img src="assets/img/logo-voetbal4all.png"
+             alt="Voetbal4All logo"
+             class="footer-logo"
+             style="max-height:50px;">
+      </div>
+      <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

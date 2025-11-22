@@ -7,15 +7,14 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-trainers">
+
   <header class="site-header">
     <div class="container header-top">
       <div class="header-logo">
         <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
       </div>
       <div class="header-ad">
-        <div class="ad-slot ad-header">
-          ADVERTENTIE
-        </div>
+        <div class="ad-slot ad-header">ADVERTENTIE</div>
       </div>
     </div>
     <nav class="main-nav">
@@ -40,8 +39,8 @@
         <div>
           <h1>Trainersplatform</h1>
           <p class="hero-text">
-            Op deze pagina stellen trainers uit België en Nederland zich voor aan clubs. 
-            Gebruik de filters om snel een trainer te vinden of voeg je eigen profiel toe.
+            Trainers uit België en Nederland stellen zich hier voor aan clubs. 
+            Gebruik de filters om gericht te zoeken of voeg je eigen profiel toe.
           </p>
         </div>
       </div>
@@ -91,7 +90,7 @@
           <select id="tr-filter-beschikbaarheid" name="beschikbaarheid">
             <option value="">Alle</option>
             <option value="Direct beschikbaar">Direct beschikbaar</option>
-            <option value="Vanaf seizoen 2025–2026">Vanaf seizoen 2025–2026</option>
+            <option value="Vanaf volgend seizoen">Vanaf volgend seizoen</option>
             <option value="In overleg">In overleg</option>
           </select>
         </div>
@@ -108,9 +107,7 @@
             </div>
           </section>
           <section class="bottom-ad">
-            <div class="ad-slot ad-leaderboard">
-              ADVERTENTIE 728×90
-            </div>
+            <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
           </section>
         </div>
         <aside class="col-right">
@@ -119,15 +116,13 @@
             <h2>Trainerprofiel toevoegen</h2>
             <p>
               Ben je trainer in België of Nederland en wil je graag opgemerkt worden door clubs? 
-              Voeg je profiel toe via het formulier hieronder. Na controle wordt je profiel 
-              zichtbaar in het overzicht.
+              Voeg je profiel toe via het formulier hieronder. Na controle wordt je profiel zichtbaar.
             </p>
             <a class="btn-primary btn-block" href="#trainer-form">Trainerprofiel doorgeven</a>
           </section>
           <section class="block">
-            <h3>Trainer in de kijker</h3>
-            <p><strong>Moderatie</strong><br>
-               Nieuwe profielen verschijnen pas nadat de beheerder ze heeft goedgekeurd.</p>
+            <h3>Moderatie</h3>
+            <p>Nieuwe profielen verschijnen pas nadat de beheerder ze heeft goedgekeurd.</p>
           </section>
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
         </aside>
@@ -137,15 +132,29 @@
     <section id="trainer-form" class="form-section">
       <div class="container">
         <div class="form-card">
+          <div class="form-logo" style="text-align:right; margin-bottom:0.5rem;">
+            <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:40px;">
+          </div>
           <h2>Trainerprofiel doorgeven</h2>
           <p class="form-intro">
             Vul dit formulier in om je trainerprofiel te laten opnemen op Voetbal4All.
           </p>
+
           <form enctype="multipart/form-data">
             <div class="form-row">
               <label for="tr-naam-f">Naam</label>
               <input type="text" id="tr-naam-f" name="naam" required>
             </div>
+
+            <div class="form-row">
+              <label for="tr-email-f">E-mailadres voor automatische berichtgeving</label>
+              <input type="email" id="tr-email-f" name="email" required placeholder="naam@voorbeeld.com">
+              <small>
+                Dit e-mailadres wordt gebruikt om u te informeren over het aflopen en eventueel
+                verlengen van uw trainerprofiel.
+              </small>
+            </div>
+
             <div class="form-row form-row-half">
               <div>
                 <label>Landen waarin je training wil geven</label>
@@ -162,6 +171,7 @@
                 </select>
               </div>
             </div>
+
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-licentie-f">Licentie</label>
@@ -185,14 +195,17 @@
                 </select>
               </div>
             </div>
+
             <div class="form-row" id="tr-licentie-andere-row" style="display:none;">
               <label for="tr-licentie-andere">Andere licentie (omschrijving)</label>
               <input type="text" id="tr-licentie-andere" name="licentie_andere" placeholder="bv. lokale opleiding, buitenlandse licentie, ...">
             </div>
+
             <div class="form-row">
               <label for="tr-ervaring-f">Ervaring / clubs</label>
               <textarea id="tr-ervaring-f" name="ervaring" rows="4" placeholder="Korte samenvatting van je ervaring en (jeugd)clubs."></textarea>
             </div>
+
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-beschikbaarheid-f">Beschikbaarheid</label>
@@ -208,6 +221,7 @@
                 <input type="text" id="tr-contactinfo-f" name="contactinfo" placeholder="telefoonnummer of webformulier">
               </div>
             </div>
+
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-cv">CV uploaden (optioneel, PDF)</label>
@@ -218,19 +232,23 @@
                 <input type="file" id="tr-foto" name="foto" accept="image/*">
               </div>
             </div>
+
             <div class="form-row">
               <label for="tr-profieltekst-f">Korte profieltekst</label>
               <textarea id="tr-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor aan clubs in België en Nederland."></textarea>
             </div>
+
             <p class="form-intro">
               In deze eerste fase wordt je profiel na verzending niet automatisch gepubliceerd,
               maar door de beheerder nagekeken en vervolgens goedgekeurd of geweigerd.
             </p>
+
             <p class="form-note">
               <strong>Let op:</strong> Uw trainerprofiel blijft maximaal 6 maanden zichtbaar op Voetbal4All. 
               Om de website overzichtelijk en ordelijk te houden, wordt uw profiel daarna automatisch verwijderd. 
               Eén maand voor het verstrijken van deze periode ontvangt u een e-mail op het opgegeven adres met de mogelijkheid om de zichtbaarheid van uw profiel met 6 maanden te verlengen.
             </p>
+
             <button type="submit" class="btn-primary">Trainerprofiel verzenden</button>
           </form>
         </div>
@@ -239,144 +257,16 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-inner" style="text-align:center; padding:2rem 0;">
+      <div style="margin-bottom:0.75rem;">
+        <img src="assets/img/logo-voetbal4all.png"
+             alt="Voetbal4All logo"
+             class="footer-logo"
+             style="max-height:50px;">
+      </div>
       <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
     </div>
   </footer>
 
-  <script>
-    (function() {
-      const listEl = document.getElementById('trainer-list');
-      const filterLand = document.getElementById('tr-filter-land');
-      const filterRegio = document.getElementById('tr-filter-regio');
-      const filterNiveau = document.getElementById('tr-filter-niveau');
-      const filterLicentie = document.getElementById('tr-filter-licentie');
-      const filterBeschikbaarheid = document.getElementById('tr-filter-beschikbaarheid');
-      let trainers = [];
-
-      function render() {
-        if (!listEl) return;
-        let filtered = trainers.filter(t => t.status === 'approved');
-
-        const landVal = filterLand.value;
-        const regioVal = filterRegio.value;
-        const nivVal = filterNiveau.value;
-        const licVal = filterLicentie.value;
-        const besVal = filterBeschikbaarheid.value;
-
-        if (landVal) filtered = filtered.filter(t => Array.isArray(t.land) && t.land.includes(landVal));
-        if (regioVal) filtered = filtered.filter(t => t.regio === regioVal);
-        if (nivVal) {
-          filtered = filtered.filter(t => (t.niveau && t.niveau.indexOf(nivVal) !== -1) ||
-                                          (Array.isArray(t.doelgroepen) && t.doelgroepen.includes(nivVal)));
-        }
-        if (licVal) filtered = filtered.filter(t => t.licentie === licVal);
-        if (besVal) filtered = filtered.filter(t => t.beschikbaarheid === besVal);
-
-        if (!filtered.length) {
-          listEl.innerHTML = '<p>Geen trainers gevonden met de huidige filters.</p>';
-          return;
-        }
-
-        listEl.innerHTML = '';
-        filtered.forEach(t => {
-          const article = document.createElement('article');
-          article.className = 'vacature-card trainer-card';
-
-          const mainDiv = document.createElement('div');
-          mainDiv.className = 'vacature-main trainer-main';
-
-          const h3 = document.createElement('h3');
-          h3.textContent = t.naam;
-          mainDiv.appendChild(h3);
-
-          const pClub = document.createElement('p');
-          pClub.className = 'vacature-club';
-          pClub.textContent = (t.licentie ? t.licentie + ' – ' : '') + (t.regio || '');
-          mainDiv.appendChild(pClub);
-
-          const metaP = document.createElement('p');
-          metaP.className = 'vacature-meta';
-
-          if (Array.isArray(t.tags)) {
-            t.tags.forEach((tag, idx) => {
-              const span = document.createElement('span');
-              span.className = 'tag' + (idx === t.tags.length - 1 ? ' tag-type' : '');
-              span.textContent = tag;
-              metaP.appendChild(span);
-            });
-          }
-
-          mainDiv.appendChild(metaP);
-
-          const teaserP = document.createElement('p');
-          teaserP.className = 'vacature-teaser';
-          teaserP.textContent = t.profieltekst || '';
-          mainDiv.appendChild(teaserP);
-
-          const sideDiv = document.createElement('div');
-          sideDiv.className = 'vacature-side trainer-side';
-
-          if (t.zoekt) {
-            const pZoekt = document.createElement('p');
-            pZoekt.className = 'vacature-deadline';
-            pZoekt.innerHTML = '<strong>Zoekt:</strong> ' + t.zoekt;
-            sideDiv.appendChild(pZoekt);
-          }
-
-          const btn = document.createElement('a');
-          btn.href = '#';
-          btn.className = 'btn-primary btn-small';
-          btn.textContent = 'Bekijk profiel / contact';
-          sideDiv.appendChild(btn);
-
-          article.appendChild(mainDiv);
-          article.appendChild(sideDiv);
-          listEl.appendChild(article);
-        });
-      }
-
-      function attachFilter(el) {
-        if (!el) return;
-        el.addEventListener('change', render);
-      }
-
-      attachFilter(filterLand);
-      attachFilter(filterRegio);
-      attachFilter(filterNiveau);
-      attachFilter(filterLicentie);
-      attachFilter(filterBeschikbaarheid);
-
-      fetch('data/trainers.json')
-        .then(resp => resp.json())
-        .then(data => {
-          trainers = data.trainers || [];
-          render();
-        })
-        .catch(err => {
-          console.error('Fout bij laden trainers.json', err);
-          if (listEl) listEl.innerHTML = '<p>Kon de trainerslijst niet laden.</p>';
-        });
-    })();
-
-    (function() {
-      const selectLic = document.getElementById('tr-licentie-f');
-      const rowAndere = document.getElementById('tr-licentie-andere-row');
-      const inputAndere = document.getElementById('tr-licentie-andere');
-      if (!selectLic || !rowAndere || !inputAndere) return;
-
-      function updateAndere() {
-        if (selectLic.value === 'Andere') {
-          rowAndere.style.display = 'block';
-          inputAndere.required = true;
-        } else {
-          rowAndere.style.display = 'none';
-          inputAndere.required = false;
-          inputAndere.value = '';
-        }
-      }
-      selectLic.addEventListener('change', updateAndere);
-    })();
-  </script>
 </body>
 </html>
