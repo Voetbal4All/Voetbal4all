@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Events &amp; Tornooien – Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-events">
+
+<header class="site-header">
+  <div class="container header-top">
+    <div class="header-logo">
+      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+    </div>
+    <div class="header-ad">
+      <div class="ad-slot ad-header">ADVERTENTIE</div>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <ul>
+        <li><a href="index.html">Nieuws</a></li>
+        <li><a href="index.html#uitslagen">Uitslagen</a></li>
+        <li><a href="vacatures.html">Vacatures</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="spelers.html">Spelers</a></li>
+        <li><a class="is-active" href="events.html">Events</a></li>
+        <li><a href="meer.html">Meer</a></li>
+      </ul>
+      <a class="btn-nav" href="#event-form">Event toevoegen</a>
+    </div>
+  </nav>
+</header>
+
+<main class="page-main">
+
+  <!-- INTRO -->
+  <section class="hero hero-small">
+    <div class="container hero-inner">
+      <div>
+        <h1>Events, tornooien &amp; oefenwedstrijden</h1>
+        <p class="hero-text">
+          Hier brengen we tornooien, oefenwedstrijden, voetbalkampen, open trainingen,
+          andere activiteiten en evenementen uit België en Nederland samen.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="filters-section">
+    <div class="container filters-grid">
+
+      <div class="filter-item">
+        <label for="ev-filter-land">Land</label>
+        <select id="ev-filter-land" name="land">
+          <option value="">België &amp; Nederland</option>
+          <option value="be">België</option>
+          <option value="nl">Nederland</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label for="ev-filter-regio">Regio / provincie</label>
+        <select id="ev-filter-regio" name="regio">
+          <option value="">Alle regio’s</option>
+          <!-- België -->
+          <option value="antwerpen" data-land="be">Antwerpen</option>
+          <option value="limburg-be" data-land="be">Limburg (BE)</option>
+          <option value="vlaams-brabant" data-land="be">Vlaams-Brabant</option>
+          <option value="oost-vlaanderen" data-land="be">Oost-Vlaanderen</option>
+          <option value="west-vlaanderen" data-land="be">West-Vlaanderen</option>
+          <option value="brussel" data-land="be">Brussel</option>
+          <!-- Nederland -->
+          <option value="noord-brabant" data-land="nl">Noord-Brabant</option>
+          <option value="limburg-nl" data-land="nl">Limburg (NL)</option>
+          <option value="zeeland" data-land="nl">Zeeland</option>
+          <option value="zuid-holland" data-land="nl">Zuid-Holland</option>
+          <option value="noord-holland" data-land="nl">Noord-Holland</option>
+          <option value="utrecht" data-land="nl">Utrecht</option>
+          <option value="gelderland" data-land="nl">Gelderland</option>
+          <option value="overijssel" data-land="nl">Overijssel</option>
+          <option value="groningen" data-land="nl">Groningen</option>
+          <option value="friesland" data-land="nl">Friesland</option>
+          <option value="drenthe" data-land="nl">Drenthe</option>
+          <option value="flevoland" data-land="nl">Flevoland</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label for="ev-filter-type">Type event</label>
+        <select id="ev-filter-type" name="type">
+          <option value="">Alle types</option>
+          <option value="tornooi">Tornooi</option>
+          <option value="oefenwedstrijd">Oefenwedstrijd</option>
+          <option value="kamp">Voetbalkamp</option>
+          <option value="open-training">Open training</option>
+          <option value="info-avond">Info-avond / clinic</option>
+          <option value="andere">Andere</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label for="ev-filter-periode">Maand</label>
+        <select id="ev-filter-periode" name="periode">
+          <option value="">Alle maanden</option>
+          <option value="jan">Januari</option>
+          <option value="feb">Februari</option>
+          <option value="mrt">Maart</option>
+          <option value="apr">April</option>
+          <option value="mei">Mei</option>
+          <option value="jun">Juni</option>
+          <option value="jul">Juli</option>
+          <option value="aug">Augustus</option>
+          <option value="sep">September</option>
+          <option value="okt">Oktober</option>
+          <option value="nov">November</option>
+          <option value="dec">December</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label for="ev-filter-jaar">Jaar</label>
+        <select id="ev-filter-jaar" name="jaar">
+          <option value="">Alle jaren</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+        </select>
+        <small>Maximaal 2 jaar vooruit plannen.</small>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EVENTS + SIDEBAR -->
+  <section class="content-grid">
+    <div class="container grid-2col">
+
+      <div class="col-left">
+        <section class="block">
+          <h2>Events in de kijker</h2>
+
+          <article class="vacature-card trainer-card">
+            <div class="vacature-main trainer-main">
+              <h3>Jeugdtournament U10–U13 – Paastornooi</h3>
+              <p class="vacature-club">ASV Geel – Regio Kempen (BE)</p>
+              <p class="vacature-meta">
+                <span class="tag">Tornooi</span>
+                <span class="tag">Maart / april</span>
+                <span class="tag tag-type">België</span>
+              </p>
+              <p class="vacature-teaser">
+                Jaarlijks jeugdtournament met deelname van clubs uit verschillende regio’s. 
+                Reeksen U10–U13, focus op beleving en opleidingsgericht voetbal. Inschrijven per ploeg.
+              </p>
+            </div>
+            <div class="vacature-side trainer-side">
+              <p class="vacature-deadline"><strong>Datum:</strong> 12–13 april 2025</p>
+              <a href="#" class="btn-primary btn-small">Meer info / inschrijven</a>
+            </div>
+          </article>
+
+          <article class="vacature-card trainer-card">
+            <div class="vacature-main trainer-main">
+              <h3>Oefenwedstrijden senioren – voorbereiding</h3>
+              <p class="vacature-club">Regio Limburg (NL/BE)</p>
+              <p class="vacature-meta">
+                <span class="tag">Oefenwedstrijd</span>
+                <span class="tag">Zomerperiode</span>
+                <span class="tag tag-type">België &amp; Nederland</span>
+              </p>
+              <p class="vacature-teaser">
+                Op zoek naar tegenstanders voor seniorenploegen in de voorbereiding. 
+                Clubs uit Belgisch en Nederlands Limburg kunnen zich aanmelden voor oefenwedstrijden.
+              </p>
+            </div>
+            <div class="vacature-side trainer-side">
+              <p class="vacature-deadline"><strong>Periode:</strong> juli – augustus 2025</p>
+              <a href="#" class="btn-primary btn-small">Contact / voorstel doen</a>
+            </div>
+          </article>
+
+          <article class="vacature-card trainer-card">
+            <div class="vacature-main trainer-main">
+              <h3>Zomervoetbalkamp – techniek &amp; fun</h3>
+              <p class="vacature-club">Regio Randstad (NL)</p>
+              <p class="vacature-meta">
+                <span class="tag">Voetbalkamp</span>
+                <span class="tag">Zomervakantie</span>
+                <span class="tag tag-type">Nederland</span>
+              </p>
+              <p class="vacature-teaser">
+                Meerdaags voetbalkamp voor spelers van 8 tot 16 jaar. Focus op techniek, kleine partijtjes
+                en plezier. Zowel Belgische als Nederlandse spelers welkom.
+              </p>
+            </div>
+            <div class="vacature-side trainer-side">
+              <p class="vacature-deadline"><strong>Datum:</strong> 5–9 augustus 2025</p>
+              <a href="#" class="btn-primary btn-small">Meer info / inschrijven</a>
+            </div>
+          </article>
+
+        </section>
+
+        <section class="bottom-ad">
+          <div class="ad-slot ad-leaderboard">
+            ADVERTENTIE 728×90
+          </div>
+        </section>
+      </div>
+
+      <aside class="col-right">
+        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+
+        <section class="block block-cta">
+          <h2>Event toevoegen</h2>
+          <p>
+            Wil je een tornooi, oefenwedstrijd, kamp, open training, andere activiteit of event
+            zichtbaar maken voor clubs, trainers en spelers? Voeg je event toe via het formulier.
+          </p>
+          <a class="btn-primary btn-block" href="#event-form">Event doorgeven</a>
+        </section>
+
+        <section class="block">
+          <h3>Voorbeelden van events</h3>
+          <ul class="list-links">
+            <li><a href="#">Jeugdtornooien U8–U13</a></li>
+            <li><a href="#">Oefenwedstrijden voorbereiding</a></li>
+            <li><a href="#">Keeperstrainingen en clinics</a></li>
+            <li><a href="#">Voetbalkampen in BE &amp; NL</a></li>
+          </ul>
+        </section>
+
+        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- EVENT FORMULIER -->
+  <section id="event-form" class="form-section">
+    <div class="container">
+      <div class="form-card">
+        <h2>Event doorgeven</h2>
+        <p class="form-intro">
+          Vul dit formulier in om je event te laten opnemen op Voetbal4All.
+          Na controle wordt het event gepubliceerd. Het formulier wordt
+          verwerkt achter de schermen en doorgestuurd naar het beheer van Voetbal4All.
+        </p>
+        <form>
+          <div class="form-row">
+            <label for="ev-naam">Naam event</label>
+            <input type="text" id="ev-naam" name="naam" required>
+          </div>
+
+          <div class="form-row form-row-half">
+            <div>
+              <label>Landen</label>
+              <div style="display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.9rem;">
+                <label><input type="checkbox" name="ev_land_be" value="BE"> België</label>
+                <label><input type="checkbox" name="ev_land_nl" value="NL"> Nederland</label>
+              </div>
+              <small>Vink beide landen aan als je ook clubs/spelers uit het andere land wil bereiken.</small>
+            </div>
+            <div>
+              <label for="ev-regio">Regio / provincie</label>
+              <input type="text" id="ev-regio" name="regio" placeholder="bv. Kempen, Limburg (BE/NL), Randstad, ...">
+            </div>
+          </div>
+
+          <div class="form-row form-row-half">
+            <div>
+              <label for="ev-type">Type event</label>
+              <input type="text" id="ev-type" name="type" placeholder="bv. tornooi, oefenwedstrijd, kamp, ...">
+            </div>
+            <div>
+              <label for="ev-doelgroep">Doelgroep</label>
+              <input type="text" id="ev-doelgroep" name="doelgroep" placeholder="bv. U10–U13, senioren, dames, ...">
+            </div>
+          </div>
+
+          <div class="form-row form-row-half">
+            <div>
+              <label for="ev-datum">Datum / periode</label>
+              <input type="text" id="ev-datum" name="datum" placeholder="bv. 12–13 april 2025 of zomervakantie">
+            </div>
+            <div>
+              <label for="ev-locatie">Locatie</label>
+              <input type="text" id="ev-locatie" name="locatie" placeholder="bv. Sportpark X, stadion Y, ...">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="ev-omschrijving">Korte omschrijving</label>
+            <textarea id="ev-omschrijving" name="omschrijving" rows="4" placeholder="Geef een duidelijke omschrijving van je event, aantal teams, reeksen, extra info, ..."></textarea>
+          </div>
+
+          <div class="form-row">
+            <label for="ev-contactinfo">Contactinfo / inschrijvingslink</label>
+            <input type="text" id="ev-contactinfo" name="contactinfo" placeholder="telefoon, e-mail of inschrijvingspagina">
+          </div>
+
+          <button type="submit" class="btn-primary">Event verzenden</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Voetbal4All – Platform voor clubs, trainers, spelers en events in België en Nederland. Website in ontwikkeling.</p>
+  </div>
+</footer>
+
+<script>
+  // Dynamische filtering van regio's op basis van landkeuze voor events
+  (function() {
+    const landSelect = document.getElementById('ev-filter-land');
+    const regioSelect = document.getElementById('ev-filter-regio');
+    if (!landSelect || !regioSelect) return;
+
+    const allOptions = Array.from(regioSelect.options).map(opt => ({
+      value: opt.value,
+      text: opt.textContent,
+      land: opt.getAttribute('data-land') || '',
+      isDefault: opt.value === ''
+    }));
+
+    function populateRegios(land) {
+      regioSelect.innerHTML = '';
+      const defaultOpt = allOptions.find(o => o.isDefault);
+      if (defaultOpt) {
+        const o = document.createElement('option');
+        o.value = defaultOpt.value;
+        o.textContent = defaultOpt.text;
+        regioSelect.appendChild(o);
+      }
+      allOptions.forEach(o => {
+        if (o.isDefault) return;
+        if (!land || !o.land || o.land === land) {
+          const opt = document.createElement('option');
+          opt.value = o.value;
+          opt.textContent = o.text;
+          opt.setAttribute('data-land', o.land);
+          regioSelect.appendChild(opt);
+        }
+      });
+    }
+
+    landSelect.addEventListener('change', function() {
+      populateRegios(landSelect.value);
+    });
+
+    populateRegios('');
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trainers – Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-trainers">
+
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="header-logo">
+        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+      </div>
+      <div class="header-ad">
+        <div class="ad-slot ad-header">
+          ADVERTENTIE
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <ul>
+          <li><a href="index.html">Nieuws</a></li>
+          <li><a href="index.html#uitslagen">Uitslagen</a></li>
+          <li><a href="vacatures.html">Vacatures</a></li>
+          <li><a class="is-active" href="trainers.html">Trainers</a></li>
+          <li><a href="spelers.html">Spelers</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="meer.html">Meer</a></li>
+        </ul>
+        <a class="btn-nav" href="#trainer-form">Trainerprofiel toevoegen</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <section class="hero hero-small">
+      <div class="container hero-inner">
+        <div>
+          <h1>Trainersplatform</h1>
+          <p class="hero-text">
+            Op deze pagina stellen trainers uit België en Nederland zich voor aan clubs. 
+            Gebruik de filters om snel een trainer te vinden of voeg je eigen profiel toe.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FILTERBLOK -->
+    <section class="filters-section">
+      <div class="container filters-grid">
+        <div class="filter-item">
+          <label for="tr-filter-land">Land</label>
+          <select id="tr-filter-land" name="land">
+            <option value="">België &amp; Nederland</option>
+            <option value="be">België</option>
+            <option value="nl">Nederland</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="tr-filter-regio">Regio / provincie</label>
+          <select id="tr-filter-regio" name="regio">
+            <option value="">Alle regio’s</option>
+            <!-- België -->
+            <option value="antwerpen" data-land="be">Antwerpen</option>
+            <option value="limburg-be" data-land="be">Limburg (BE)</option>
+            <option value="vlaams-brabant" data-land="be">Vlaams-Brabant</option>
+            <option value="oost-vlaanderen" data-land="be">Oost-Vlaanderen</option>
+            <option value="west-vlaanderen" data-land="be">West-Vlaanderen</option>
+            <option value="brussel" data-land="be">Brussel</option>
+            <!-- Nederland -->
+            <option value="noord-brabant" data-land="nl">Noord-Brabant</option>
+            <option value="limburg-nl" data-land="nl">Limburg (NL)</option>
+            <option value="zeeland" data-land="nl">Zeeland</option>
+            <option value="zuid-holland" data-land="nl">Zuid-Holland</option>
+            <option value="noord-holland" data-land="nl">Noord-Holland</option>
+            <option value="utrecht" data-land="nl">Utrecht</option>
+            <option value="gelderland" data-land="nl">Gelderland</option>
+            <option value="overijssel" data-land="nl">Overijssel</option>
+            <option value="groningen" data-land="nl">Groningen</option>
+            <option value="friesland" data-land="nl">Friesland</option>
+            <option value="drenthe" data-land="nl">Drenthe</option>
+            <option value="flevoland" data-land="nl">Flevoland</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="tr-filter-niveau">Niveau</label>
+          <select id="tr-filter-niveau" name="niveau">
+            <option value="">Alle niveaus</option>
+            <option value="jeugd">Jeugd</option>
+            <option value="senioren">Senioren</option>
+            <option value="dames">Dames</option>
+            <option value="recreatief">Recreatief / lager niveau</option>
+            <option value="competitief">Competitief / hoger niveau</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="tr-filter-licentie">Licentie</label>
+          <select id="tr-filter-licentie" name="licentie">
+            <option value="">Alle licenties</option>
+            <option value="uefa-c">UEFA C</option>
+            <option value="uefa-b">UEFA B</option>
+            <option value="uefa-a">UEFA A</option>
+            <option value="pro">UEFA Pro</option>
+            <option value="knvb-tc3">KNVB Trainer/Coach 3</option>
+            <option value="knvb-tc2">KNVB Trainer/Coach 2</option>
+            <option value="knvb-jeugd">KNVB jeugdcoach</option>
+            <option value="geen">Geen officiële licentie</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="tr-filter-beschikbaarheid">Beschikbaarheid</label>
+          <select id="tr-filter-beschikbaarheid" name="beschikbaarheid">
+            <option value="">Alle</option>
+            <option value="direct">Direct beschikbaar</option>
+            <option value="zomer">Vanaf volgend seizoen</option>
+            <option value="in-overleg">In overleg</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINERS + SIDEBAR -->
+    <section class="content-grid">
+      <div class="container grid-2col">
+
+        <div class="col-left">
+          <section class="block">
+            <h2>Trainers in de kijker</h2>
+
+            <article class="vacature-card trainer-card">
+              <div class="vacature-main trainer-main">
+                <h3>Tom Janssens</h3>
+                <p class="vacature-club">UEFA B – Regio Kempen / Noord-Brabant (BE/NL)</p>
+                <p class="vacature-meta">
+                  <span class="tag">Jeugd &amp; Senioren</span>
+                  <span class="tag">Competitief niveau</span>
+                  <span class="tag tag-type">Direct beschikbaar</span>
+                </p>
+                <p class="vacature-teaser">
+                  Ervaren trainer met focus op opleidingsgericht werken en duidelijke structuur,
+                  actief in de grensregio België–Nederland. Sterk in het ontwikkelen van
+                  een herkenbare speelstijl en samenwerken met jeugdwerking.
+                </p>
+              </div>
+              <div class="vacature-side trainer-side">
+                <p class="vacature-deadline"><strong>Zoekt:</strong> Ambitieuze club met opleidingsvisie</p>
+                <a href="#" class="btn-primary btn-small">Bekijk profiel / contact</a>
+              </div>
+            </article>
+
+            <article class="vacature-card trainer-card">
+              <div class="vacature-main trainer-main">
+                <h3>Annelies De Smet</h3>
+                <p class="vacature-club">UEFA C – Regio Limburg (BE/NL)</p>
+                <p class="vacature-meta">
+                  <span class="tag">Jeugd U10–U17</span>
+                  <span class="tag">Dames &amp; gemengd</span>
+                  <span class="tag tag-type">Vanaf seizoen 2025–2026</span>
+                </p>
+                <p class="vacature-teaser">
+                  Enthousiaste jeugdtrainster met nadruk op technische ontwikkeling en spelinzicht.
+                  Ervaring in damesvoetbal en gemengde jeugdteams. Werkt graag in een club met duidelijke jeugd- en doorstroomvisie.
+                </p>
+              </div>
+              <div class="vacature-side trainer-side">
+                <p class="vacature-deadline"><strong>Zoekt:</strong> Opleidingsgerichte jeugdclub in BE of NL</p>
+                <a href="#" class="btn-primary btn-small">Bekijk profiel / contact</a>
+              </div>
+            </article>
+
+          </section>
+
+          <section class="bottom-ad">
+            <div class="ad-slot ad-leaderboard">
+              ADVERTENTIE 728×90
+            </div>
+          </section>
+        </div>
+
+        <aside class="col-right">
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+
+          <section class="block block-cta">
+            <h2>Trainerprofiel toevoegen</h2>
+            <p>
+              Ben je trainer in België of Nederland en wil je graag opgemerkt worden door clubs? 
+              Voeg je profiel toe via het formulier hieronder. Na controle wordt je profiel 
+              zichtbaar in het overzicht.
+            </p>
+            <a class="btn-primary btn-block" href="#trainer-form">Trainerprofiel doorgeven</a>
+          </section>
+
+          <section class="block">
+            <h3>Trainer in de kijker</h3>
+            <p><strong>Peter Willems – UEFA A</strong><br>
+               Ervaring op hoger niveau in zowel België als Nederland, beschikbaar voor een sportief project met duidelijke langetermijnvisie.</p>
+          </section>
+
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- FORMULIER VOOR TRAINERS -->
+    <section id="trainer-form" class="form-section">
+      <div class="container">
+        <div class="form-card">
+          <h2>Trainerprofiel doorgeven</h2>
+          <p class="form-intro">
+            Vul dit formulier in om je trainerprofiel te laten opnemen op Voetbal4All.
+          </p>
+          <form enctype="multipart/form-data">
+            <div class="form-row">
+              <label for="tr-naam-f">Naam</label>
+              <input type="text" id="tr-naam-f" name="naam" required>
+            </div>
+
+            <div class="form-row form-row-half">
+              <div>
+                <label>Landen waar je wil trainen</label>
+                <div style="display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.9rem;">
+                  <label><input type="checkbox" id="tr-land-be" name="land_be" value="BE"> België</label>
+                  <label><input type="checkbox" id="tr-land-nl" name="land_nl" value="NL"> Nederland</label>
+                </div>
+                <small>Vink beide aan als je openstaat voor clubs in België én Nederland.</small>
+              </div>
+              <div>
+                <label for="tr-regio-f">Regio / provincie (voorkeur)</label>
+                <select id="tr-regio-f" name="regio">
+                  <option value="">Maak een keuze</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row form-row-half">
+              <div>
+                <label for="tr-licentie-f">Licentie</label>
+                <input type="text" id="tr-licentie-f" name="licentie" placeholder="bv. UEFA C, UEFA B, UEFA A, KNVB TC3, ...">
+              </div>
+              <div>
+                <label for="tr-niveau-f">Gewenst niveau</label>
+                <select id="tr-niveau-f" name="niveau">
+                  <option value="">Maak een keuze</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="tr-ervaring-f">Ervaring / clubs</label>
+              <textarea id="tr-ervaring-f" name="ervaring" rows="4" placeholder="Korte samenvatting van je ervaring en (jeugd)clubs."></textarea>
+            </div>
+
+            <div class="form-row form-row-half">
+              <div>
+                <label for="tr-beschikbaarheid-f">Beschikbaarheid</label>
+                <select id="tr-beschikbaarheid-f" name="beschikbaarheid">
+                  <option value="">Maak een keuze</option>
+                  <option value="direct">Direct beschikbaar</option>
+                  <option value="zomer">Vanaf volgend seizoen</option>
+                  <option value="in-overleg">In overleg</option>
+                </select>
+              </div>
+              <div>
+                <label for="tr-contactinfo-f">Contactinfo voor clubs</label>
+                <input type="text" id="tr-contactinfo-f" name="contactinfo" placeholder="telefoonnummer of webformulier">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="tr-profieltekst-f">Korte profieltekst</label>
+              <textarea id="tr-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor aan clubs in België en Nederland."></textarea>
+            </div>
+
+            <div class="form-row">
+              <label for="tr-foto">Profielfoto (optioneel)</label>
+              <input type="file" id="tr-foto" name="foto" accept="image/*">
+              <small>Bij voorkeur een recente, duidelijke foto. Maximaal ca. 2 MB.</small>
+            </div>
+
+            <button type="submit" class="btn-primary">Trainerprofiel verzenden</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Regiofilter bovenaan trainerspagina
+    (function() {
+      const landSelect = document.getElementById('tr-filter-land');
+      const regioSelect = document.getElementById('tr-filter-regio');
+      if (!landSelect || !regioSelect) return;
+
+      const allOptions = Array.from(regioSelect.options).map(function(opt) {
+        return {
+          value: opt.value,
+          text: opt.textContent,
+          land: opt.getAttribute('data-land') || '',
+          isDefault: opt.value === ''
+        };
+      });
+
+      function populateRegios(land) {
+        regioSelect.innerHTML = '';
+        const def = allOptions.find(function(o){ return o.isDefault; });
+        if (def) {
+          const o = document.createElement('option');
+          o.value = def.value;
+          o.textContent = def.text;
+          regioSelect.appendChild(o);
+        }
+        allOptions.forEach(function(o) {
+          if (o.isDefault) return;
+          if (!land || !o.land || o.land === land) {
+            const opt = document.createElement('option');
+            opt.value = o.value;
+            opt.textContent = o.text;
+            opt.setAttribute('data-land', o.land);
+            regioSelect.appendChild(opt);
+          }
+        });
+      }
+
+      landSelect.addEventListener('change', function() {
+        populateRegios(landSelect.value);
+      });
+
+      populateRegios('');
+    })();
+
+    // Dynamische regio- en niveau-opties in het trainerformulier
+    (function() {
+      const landBe = document.getElementById('tr-land-be');
+      const landNl = document.getElementById('tr-land-nl');
+      const regioForm = document.getElementById('tr-regio-f');
+      const niveauForm = document.getElementById('tr-niveau-f');
+      if (!landBe || !landNl || !regioForm || !niveauForm) return;
+
+      const regioOptionsForm = [
+        { value: 'antwerpen', label: 'Antwerpen', land: 'BE' },
+        { value: 'limburg-be', label: 'Limburg (BE)', land: 'BE' },
+        { value: 'vlaams-brabant', label: 'Vlaams-Brabant', land: 'BE' },
+        { value: 'oost-vlaanderen', label: 'Oost-Vlaanderen', land: 'BE' },
+        { value: 'west-vlaanderen', label: 'West-Vlaanderen', land: 'BE' },
+        { value: 'brussel', label: 'Brussel', land: 'BE' },
+        { value: 'noord-brabant', label: 'Noord-Brabant', land: 'NL' },
+        { value: 'limburg-nl', label: 'Limburg (NL)', land: 'NL' },
+        { value: 'zeeland', label: 'Zeeland', land: 'NL' },
+        { value: 'zuid-holland', label: 'Zuid-Holland', land: 'NL' },
+        { value: 'noord-holland', label: 'Noord-Holland', land: 'NL' },
+        { value: 'utrecht', label: 'Utrecht', land: 'NL' },
+        { value: 'gelderland', label: 'Gelderland', land: 'NL' },
+        { value: 'overijssel', label: 'Overijssel', land: 'NL' },
+        { value: 'groningen', label: 'Groningen', land: 'NL' },
+        { value: 'friesland', label: 'Friesland', land: 'NL' },
+        { value: 'drenthe', label: 'Drenthe', land: 'NL' },
+        { value: 'flevoland', label: 'Flevoland', land: 'NL' }
+      ];
+
+      const niveauOptionsForm = [
+        { value: 'jeugd-breed-be', label: 'Jeugd – breedtesport (BE)', land: 'BE' },
+        { value: 'jeugd-opleidings-be', label: 'Jeugd – opleidingsgericht / IP / elite (BE)', land: 'BE' },
+        { value: 'senior-lager-be', label: 'Senioren – lagere reeksen / recreatief (BE)', land: 'BE' },
+        { value: 'senior-provinciaal-be', label: 'Senioren – provinciaal (BE)', land: 'BE' },
+        { value: 'senior-nationaal-be', label: 'Senioren – nationaal / hoger amateur (BE)', land: 'BE' },
+        { value: 'dames-be', label: 'Dames – alle niveaus (BE)', land: 'BE' },
+        { value: 'jeugd-breed-nl', label: 'Jeugd – breedtesport / regionaal (NL)', land: 'NL' },
+        { value: 'jeugd-landelijk-nl', label: 'Jeugd – landelijk / hogere reeksen (NL)', land: 'NL' },
+        { value: 'senior-lager-nl', label: 'Senioren – 4e klasse / lager (NL)', land: 'NL' },
+        { value: 'senior-midden-nl', label: 'Senioren – 3e / 2e klasse (NL)', land: 'NL' },
+        { value: 'senior-hoog-nl', label: 'Senioren – 1e klasse / Hoofdklasse / Divisie (NL)', land: 'NL' },
+        { value: 'dames-nl', label: 'Dames – alle niveaus (NL)', land: 'NL' }
+      ];
+
+      function updateFormSelects() {
+        const be = landBe.checked;
+        const nl = landNl.checked;
+
+        // Regio
+        regioForm.innerHTML = '';
+        const defR = document.createElement('option');
+        defR.value = '';
+        defR.textContent = 'Maak een keuze';
+        regioForm.appendChild(defR);
+        regioOptionsForm.forEach(function(o) {
+          if ((!be && !nl) || (o.land === 'BE' && be) || (o.land === 'NL' && nl)) {
+            const opt = document.createElement('option');
+            opt.value = o.value;
+            opt.textContent = o.label;
+            regioForm.appendChild(opt);
+          }
+        });
+
+        // Niveau
+        niveauForm.innerHTML = '';
+        const defN = document.createElement('option');
+        defN.value = '';
+        defN.textContent = 'Maak een keuze';
+        niveauForm.appendChild(defN);
+        niveauOptionsForm.forEach(function(o) {
+          if ((!be && !nl) || (o.land === 'BE' && be) || (o.land === 'NL' && nl)) {
+            const opt = document.createElement('option');
+            opt.value = o.value;
+            opt.textContent = o.label;
+            niveauForm.appendChild(opt);
+          }
+        });
+      }
+
+      landBe.addEventListener('change', updateFormSelects);
+      landNl.addEventListener('change', updateFormSelects);
+
+      updateFormSelects();
+    })();
+  </script>
+
+</body>
+</html>

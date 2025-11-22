@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All – Alles voor de voetballiefhebber</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-home">
+
+  <!-- HEADER MET LOGO + AD -->
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="header-logo">
+        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+      </div>
+      <div class="header-ad">
+        <div class="ad-slot ad-header">
+          ADVERTENTIE
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <ul>
+          <li><a href="index.html">Nieuws</a></li>
+          <li><a href="#uitslagen">Uitslagen</a></li>
+          <li><a href="vacatures.html">Vacatures</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="spelers.html">Spelers</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="meer.html">Meer</a></li>
+        </ul>
+        <a class="btn-nav" href="vacatures.html#vacature-form">Vacature plaatsen</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO / INTRO -->
+  <main class="page-main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <p class="hero-text">
+            Het samenbrengen van informatie voor iedereen die een hart heeft voor voetbal
+            en zo een single navigatie website wordt voor de behoeften van de voetballiefhebber.
+            De website is nog in volle ontwikkeling en nieuwe mogelijkheden worden later toegevoegd.
+          </p>
+          <a href="#nieuws" class="btn-primary">Ontdek voetbalnieuws</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT BLOKKEN -->
+    <section class="content-grid">
+      <div class="container grid-2col">
+
+        <!-- LINKERKOLOM: NIEUWS + UITSLAGEN -->
+        <div class="col-left">
+          <section id="nieuws" class="block">
+            <h2>Voetbalnieuws</h2>
+            <div class="news-grid">
+              <article class="news-card">
+                <div class="news-image placeholder-img"></div>
+                <h3>Titel van een nieuwsbericht</h3>
+                <p>Korte samenvatting van wat er gebeurt in het voetbal...</p>
+              </article>
+              <article class="news-card">
+                <div class="news-image placeholder-img"></div>
+                <h3>Nog een voetbalnieuwtje</h3>
+                <p>Een tweede samenvatting die later door AI wordt ingevuld...</p>
+              </article>
+            </div>
+          </section>
+
+          <section id="uitslagen" class="block block-tables">
+            <div class="tables-2col">
+              <div>
+                <h2>Jupiler Pro League</h2>
+                <table class="table-stand">
+                  <thead>
+                    <tr><th>#</th><th>Club</th><th>G</th><th>PT</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>1</td><td>Club Brugge</td><td>6</td><td>14</td></tr>
+                    <tr><td>2</td><td>Anderlecht</td><td>6</td><td>13</td></tr>
+                    <tr><td>3</td><td>Genk</td><td>6</td><td>11</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div>
+                <h2>Challenger Pro League</h2>
+                <table class="table-stand">
+                  <thead>
+                    <tr><th>#</th><th>Club</th><th>G</th><th>PT</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>1</td><td>RWDM</td><td>6</td><td>14</td></tr>
+                    <tr><td>2</td><td>Dender</td><td>6</td><td>12</td></tr>
+                    <tr><td>3</td><td>Lommel</td><td>6</td><td>10</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- RECHTERKOLOM: ADS + VACATURES + PROFIELEN -->
+        <aside class="col-right">
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+
+          <section class="block">
+            <h3>Klassement – Jupiler Pro League</h3>
+            <table class="table-stand small">
+              <tbody>
+                <tr><td>1</td><td>Club Brugge</td><td>14</td></tr>
+                <tr><td>2</td><td>Anderlecht</td><td>13</td></tr>
+                <tr><td>3</td><td>Genk</td><td>11</td></tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section class="block">
+            <h3>Klassement – Proximus League</h3>
+            <table class="table-stand small">
+              <tbody>
+                <tr><td>1</td><td>RWDM</td><td>14</td></tr>
+                <tr><td>2</td><td>Dender</td><td>12</td></tr>
+                <tr><td>3</td><td>Lommel</td><td>10</td></tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section class="block">
+            <h3>Recente vacatures</h3>
+            <ul class="list-links">
+              <li><a href="#">Jeugdtrainer U15 – ASV Geel</a></li>
+              <li><a href="#">Hoofdtrainer A-kern – KVC Example</a></li>
+              <li><a href="#">Keeperstrainer Jeugd – FC Talent</a></li>
+            </ul>
+          </section>
+
+          <section class="block">
+            <h3>Trainers & spelers in de kijker</h3>
+            <ul class="list-links">
+              <li><a href="#">Tom Janssens – Trainer UEFA B</a></li>
+              <li><a href="#">Yara De Wilde – Middenvelder U21</a></li>
+            </ul>
+          </section>
+
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+        </aside>
+
+      </div>
+    </section>
+
+    <section class="bottom-ad">
+      <div class="container">
+        <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Voetbal4All – Platform in ontwikkeling. Nieuwe mogelijkheden worden later toegevoegd.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
