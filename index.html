@@ -18,7 +18,7 @@
     <div class="container nav-inner">
       <ul>
         <li><a href="index.html" class="is-active">Home</a></li>
-        <li><a href="index.html#nieuws">Nieuws</a></li>
+        <li><a href="#nieuws">Nieuws</a></li>
         <li><a href="uitslagen.html">Uitslagen</a></li>
         <li><a href="vacatures.html">Vacatures</a></li>
         <li><a href="trainers.html">Trainers</a></li>
@@ -60,7 +60,7 @@
         </p>
         <p class="hero-text">
           De website is nog in volle ontwikkeling. Nieuwe mogelijkheden worden stap voor stap toegevoegd,
-          waaronder een automatisch gevoede nieuwspagina, live uitslagen en koppelingen met sociale media.
+          waaronder een automatisch gevoede nieuwsrubriek, live uitslagen en koppelingen met sociale media.
         </p>
         <div class="hero-cta-row">
           <a class="btn-primary" href="spelers.html">Ik zoek een speler</a>
@@ -68,10 +68,12 @@
           <a class="btn-ghost" href="vacatures.html">Vacature plaatsen</a>
         </div>
         <div class="hero-news-link">
-          <a class="btn-outline" href="https://sporza.be/nl/categorie/voetbal/" target="_blank" rel="noopener">
-            Ontdek voetbalnieuws op Sporza.be
+          <a class="btn-outline" href="#nieuws-lijst">
+            Voetbalkoppen
           </a>
-          <small>Deze knop kan later worden aangepast naar het nieuwsplatform van jouw keuze.</small>
+          <small>
+            In deze rubriek verschijnen straks automatisch gegenereerde voetbalnieuwsberichten die ook gedeeld kunnen worden via sociale media.
+          </small>
         </div>
       </div>
       <div class="hero-side">
@@ -81,38 +83,38 @@
     </div>
   </section>
 
-  <!-- CONTENT GRID: NIEUWS + PREMIUM ZIJKOLOM -->
+  <!-- 2-KOLOMMEN GRID: 65% NIEUWS / 35% ZIJKOLom -->
   <section class="home-grid">
     <div class="container grid-2col-main-side">
-      <!-- NIEUWSKOLom -->
-      <div class="col-main">
-        <h2>Voetbalnieuws (AI in ontwikkeling)</h2>
+      <!-- HOOFDKOLOM (65%): NIEUWS -->
+      <div class="col-main" id="nieuws-lijst">
+        <h2>Voetbalkoppen – AI voetbalnieuws (in ontwikkeling)</h2>
         <p class="section-intro">
-          In een volgende fase wordt deze nieuwsrubriek automatisch gevuld met nieuwsberichten over
-          de Jupiler Pro League, Eredivisie, Challenger Pro League en regionaal voetbal.
-          Nu zie je enkele voorbeeldartikels.
+          In deze rubriek verschijnen in de toekomst automatisch gegenereerde nieuwsberichten over voetbal
+          in Vlaanderen, Nederland en internationaal. De focus ligt op heldere, betrouwbare samenvattingen
+          met een aantrekkelijke titel, zonder overdreven clickbait.
         </p>
 
         <article class="news-card">
           <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
-          <p class="news-meta">Categorie: JPL • Automatisch nieuws (demo)</p>
+          <p class="news-meta">Categorie: JPL • AI-nieuws (demo)</p>
           <p class="news-teaser">
             Hier komt straks een automatisch gegenereerd overzicht van uitslagen, doelpuntenmakers en opvallende
-            momenten van de voorbije speeldag.
+            momenten van de voorbije speeldag in de Jupiler Pro League.
           </p>
         </article>
 
         <article class="news-card">
           <h3>Voorbeeld: Eredivisie in één oogopslag</h3>
-          <p class="news-meta">Categorie: Eredivisie • Automatisch nieuws (demo)</p>
+          <p class="news-meta">Categorie: Eredivisie • AI-nieuws (demo)</p>
           <p class="news-teaser">
-            Een compacte samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
+            Een rustige, duidelijke samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
           </p>
         </article>
 
         <article class="news-card">
           <h3>Voorbeeld: Focus op jeugdvoetbal</h3>
-          <p class="news-meta">Categorie: Jeugd • Automatisch nieuws (demo)</p>
+          <p class="news-meta">Categorie: Jeugd • AI-nieuws (demo)</p>
           <p class="news-teaser">
             In de toekomst kan hier wekelijks een update verschijnen over jeugdtornooien, stages en clubs
             die op zoek zijn naar extra spelers of trainers.
@@ -121,7 +123,7 @@
 
         <article class="news-card">
           <h3>Voorbeeld: Clubs in de kijker</h3>
-          <p class="news-meta">Categorie: Clubs • Automatisch nieuws (demo)</p>
+          <p class="news-meta">Categorie: Clubs • AI-nieuws (demo)</p>
           <p class="news-teaser">
             Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal4All extra onder de aandacht te brengen.
           </p>
@@ -132,7 +134,7 @@
         </div>
       </div>
 
-      <!-- ZIJKOLom: KLASSEMENTEN + PREMIUM ROTATORS -->
+      <!-- ZIJKOLom (35%): KLASSEMENTEN + PREMIUM ROTATORS + ADVERTEREN -->
       <aside class="col-side">
         <!-- KLASSEMENTEN -->
         <section class="block standings-block">
@@ -270,7 +272,7 @@
     setInterval(render, intervalMs);
   }
 
-  // Dummy data – later vervangen door data uit JSON (vacatures.json, events.json, trainers.json, spelers.json)
+  // Dummy data – later te vervangen door data uit JSON
   var premiumVacatures = [
     { title: 'Jeugdtrainer U15 IP – ASV Geel', meta: 'Vlaanderen • vanaf volgend seizoen', teaser: 'Club zoekt gemotiveerde jeugdtrainer met UEFA C.' },
     { title: 'Keeperstrainer A-kern – SV Oranje', meta: 'Nederland • direct beschikbaar', teaser: 'Ervaren keeperstrainer voor senioren en U19.' }
