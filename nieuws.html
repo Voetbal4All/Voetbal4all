@@ -108,32 +108,19 @@
   </section>
 
   <section class="section">
-    <div class="container">
-      <div class="card">
-        <h2>Voorbeeldnieuws</h2>
-        <p style="font-size:0.9rem;color:#6b7280;">
-          Hieronder kunnen nieuwsartikels worden getoond die overeenkomen met de geselecteerde filters.
-          Dit is voorlopig voorbeeldinhoud.
-        </p>
-
-        <div class="news-card">
-          <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
-          <p class="news-meta">Jupiler Pro League • heren • demo</p>
-          <p class="news-teaser">
-            Hier verschijnt later automatisch gegenereerd nieuws met uitslagen, rangschikkingen en opvallende momenten.
-          </p>
-        </div>
-
-        <div class="news-card">
-          <h3>Voorbeeld: Overzicht Eredivisie (dames)</h3>
-          <p class="news-meta">Eredivisie • dames • demo</p>
-          <p class="news-teaser">
-            Deze kaart kan gebruikt worden voor nieuws rond damescompetities in Nederland.
-          </p>
-        </div>
+  <div class="container">
+    <div class="card">
+      <h2>Nieuwsartikels</h2>
+      <p style="font-size:0.9rem;color:#6b7280;">
+        Hieronder verschijnen de nieuwsartikels die automatisch worden ingeladen uit het platform.
+        Dit zijn voorlopig voorbeeldgegevens uit <code>data/news.json</code>.
+      </p>
+      <div id="nieuws-lijst">
+        <!-- Nieuwsartikels worden hier dynamisch ingeladen uit data/news.json -->
       </div>
     </div>
-  </section>
+  </div>
+</section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
@@ -144,5 +131,6 @@
   </div>
 </footer>
 
+  <script src="assets/js/news.js" defer></script>
 </body>
 </html>

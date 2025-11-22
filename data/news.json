@@ -1,0 +1,122 @@
+[
+  {
+    "id": "news-1",
+    "title": "Speeldagoverzicht in de Jupiler Pro League",
+    "teaser": "Kort overzicht van de belangrijkste uitslagen, doelpuntenmakers en verschuivingen in de stand.",
+    "competition": "jpl",
+    "competitionLabel": "Jupiler Pro League",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Jupiler Pro League, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Jupiler Pro League.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-2",
+    "title": "Eredivisie: alle ogen op de topaffiche",
+    "teaser": "Analyse van de topduels, opvallende prestaties en wat dit betekent voor het klassement.",
+    "competition": "eredivisie",
+    "competitionLabel": "Eredivisie",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Eredivisie, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Eredivisie.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-3",
+    "title": "Challenger Pro League: spanning in de promotiestrijd",
+    "teaser": "De kloof met de top wordt kleiner: dit zijn de ploegen in vorm.",
+    "competition": "challenger",
+    "competitionLabel": "Challenger Pro League",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Challenger Pro League, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Challenger Pro League.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-4",
+    "title": "Keuken Kampioen Divisie: verrassingen bovenin",
+    "teaser": "Een rondje langs de velden met de belangrijkste conclusies van het weekend.",
+    "competition": "keuken",
+    "competitionLabel": "Keuken Kampioen Divisie",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Keuken Kampioen Divisie, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Keuken Kampioen Divisie.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-5",
+    "title": "Nationale reeksen België: titelstrijd ontbrandt",
+    "teaser": "De titel- en degradatiestrijd komen in een beslissende fase.",
+    "competition": "nat-be",
+    "competitionLabel": "Nationale reeksen België",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Nationale reeksen België, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Nationale reeksen België.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-6",
+    "title": "Nationale reeksen Nederland: clubs in bloedvorm",
+    "teaser": "Wie pakt de punten en wie valt terug in de middenmoot?",
+    "competition": "nat-nl",
+    "competitionLabel": "Nationale reeksen Nederland",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Nationale reeksen Nederland, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Nationale reeksen Nederland.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-7",
+    "title": "Lagere klassen België: lokale derby's zorgen voor spektakel",
+    "teaser": "Lokale clubs zorgen voor spektakel in een weekend vol doelpunten.",
+    "competition": "laag-be",
+    "competitionLabel": "Lagere klassen België",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Lagere klassen België, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Lagere klassen België.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-8",
+    "title": "Lagere klassen Nederland: verrassende uitslagen in de regio",
+    "teaser": "Regionale affiches leveren onverwachte resultaten op.",
+    "competition": "laag-nl",
+    "competitionLabel": "Lagere klassen Nederland",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Lagere klassen Nederland, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Lagere klassen Nederland.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-9",
+    "title": "Damesvoetbal België: topduel belooft spanning",
+    "teaser": "Voorbeschouwing op een duel dat veel kan bepalen in de titelstrijd.",
+    "competition": "dames-be",
+    "competitionLabel": "Dames België",
+    "gender": "dames",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Dames België, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Dames België.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  },
+  {
+    "id": "news-10",
+    "title": "Damesvoetbal Nederland: strijd om de koppositie",
+    "teaser": "Een overzicht van de meest interessante wedstrijden en spelers in vorm.",
+    "competition": "dames-nl",
+    "competitionLabel": "Dames Nederland",
+    "gender": "dames",
+    "type": "speeldag",
+    "imagePrompt": "Een brede, dynamische voetbalactie voor Dames Nederland, stadion op de achtergrond, sfeerbeeld.",
+    "imageAlt": "Sfeerbeeld bij artikel over Dames Nederland.",
+    "createdAt": "2025-11-22T20:00:00Z"
+  }
+]
