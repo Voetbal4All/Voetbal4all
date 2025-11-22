@@ -119,11 +119,11 @@
         <label for="pl-filter-niveau">Gewenst niveau</label>
         <select id="pl-filter-niveau">
           <option value="">Alle niveaus</option>
-          <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
-          <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
-          <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
-          <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
-          <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+          <option value="Jeugd – gewestelijk (BE)" data-land="BE">Jeugd – gewestelijk (BE)</option>
+          <option value="Jeugd – provinciaal (BE)" data-land="BE">Jeugd – provinciaal (BE)</option>
+          <option value="Jeugd – interprovinciaal / elite (BE)" data-land="BE">Jeugd – interprovinciaal / elite (BE)</option>
+          <option value="Jeugd – regionaal (NL)" data-land="NL">Jeugd – regionaal (NL)</option>
+          <option value="Jeugd – landelijk (NL)" data-land="NL">Jeugd – landelijk (NL)</option>
           <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
           <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
           <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
@@ -270,11 +270,11 @@
               <label for="pl-niveau-f">Gewenst niveau</label>
               <select id="pl-niveau-f" name="niveau">
                 <option value="">Maak een keuze</option>
-                <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
-                <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
-                <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
-                <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
-                <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+                <option value="Jeugd – gewestelijk (BE)" data-land="BE">Jeugd – gewestelijk (BE)</option>
+                <option value="Jeugd – provinciaal (BE)" data-land="BE">Jeugd – provinciaal (BE)</option>
+                <option value="Jeugd – interprovinciaal / elite (BE)" data-land="BE">Jeugd – interprovinciaal / elite (BE)</option>
+                <option value="Jeugd – regionaal (NL)" data-land="NL">Jeugd – regionaal (NL)</option>
+                <option value="Jeugd – landelijk (NL)" data-land="NL">Jeugd – landelijk (NL)</option>
                 <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
                 <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
                 <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
@@ -491,5 +491,64 @@
     .catch(err => { console.error(err); if (listEl) listEl.innerHTML = '<p>Kon de spelerslijst niet laden.</p>'; });
 })();
 </script>
+
+<script>
+(function() {
+  function applyLandFilterToSelect(select, land) {
+    if (!select) return;
+    var opts = select.options;
+    for (var i = 0; i < opts.length; i++) {
+      var opt = opts[i];
+      var optLand = opt.getAttribute('data-land');
+      if (!optLand || !land) {
+        opt.hidden = false;
+        opt.disabled = false;
+      } else {
+        var show = (optLand === land);
+        opt.hidden = !show;
+        opt.disabled = !show;
+      }
+    }
+  }
+
+  // Filters bovenaan (spelers)
+  var plFilterLand = document.getElementById('pl-filter-land');
+  var plFilterRegio = document.getElementById('pl-filter-regio');
+  var plFilterNiv = document.getElementById('pl-filter-niveau');
+
+  if (plFilterLand) {
+    plFilterLand.addEventListener('change', function() {
+      var val = plFilterLand.value || '';
+      applyLandFilterToSelect(plFilterRegio, val);
+      applyLandFilterToSelect(plFilterNiv, val);
+    });
+    // init
+    plFilterLand.dispatchEvent(new Event('change'));
+  }
+
+  // Formulier (spelers): checkboxes Vlaanderen / Nederland
+  var plLandBe = document.getElementById('pl-land-be');
+  var plLandNl = document.getElementById('pl-land-nl');
+  var plFormRegio = document.getElementById('pl-regio-f');
+  var plFormNiv = document.getElementById('pl-niveau-f');
+
+  function updatePlayerFormLand() {
+    var val = '';
+    var be = plLandBe && plLandBe.checked;
+    var nl = plLandNl && plLandNl.checked;
+    if (be && !nl) val = 'BE';
+    else if (!be && nl) val = 'NL';
+    else val = ''; // beide of geen
+
+    applyLandFilterToSelect(plFormRegio, val);
+    applyLandFilterToSelect(plFormNiv, val);
+  }
+
+  if (plLandBe) plLandBe.addEventListener('change', updatePlayerFormLand);
+  if (plLandNl) plLandNl.addEventListener('change', updatePlayerFormLand);
+  updatePlayerFormLand();
+})();
+</script>
+
 </body>
 </html>

@@ -82,11 +82,11 @@
         <label for="tr-filter-niveau">Niveau</label>
         <select id="tr-filter-niveau">
           <option value="">Alle niveaus</option>
-          <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
-          <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
-          <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
-          <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
-          <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+          <option value="Jeugd – gewestelijk (BE)" data-land="BE">Jeugd – gewestelijk (BE)</option>
+          <option value="Jeugd – provinciaal (BE)" data-land="BE">Jeugd – provinciaal (BE)</option>
+          <option value="Jeugd – interprovinciaal / elite (BE)" data-land="BE">Jeugd – interprovinciaal / elite (BE)</option>
+          <option value="Jeugd – regionaal (NL)" data-land="NL">Jeugd – regionaal (NL)</option>
+          <option value="Jeugd – landelijk (NL)" data-land="NL">Jeugd – landelijk (NL)</option>
           <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
           <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
           <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
@@ -101,9 +101,9 @@
           <option value="UEFA B">UEFA B</option>
           <option value="UEFA A">UEFA A</option>
           <option value="UEFA Pro">UEFA Pro</option>
-          <option value="KNVB TC3">KNVB TC3</option>
-          <option value="KNVB TC2">KNVB TC2</option>
-          <option value="KNVB Jeugd">KNVB Jeugd</option>
+          <option value="KNVB TC3" data-land="NL">KNVB TC3</option>
+          <option value="KNVB TC2" data-land="NL">KNVB TC2</option>
+          <option value="KNVB Jeugd" data-land="NL">KNVB Jeugd</option>
           <option value="Geen officiële licentie">Geen officiële licentie</option>
         </select>
       </div>
@@ -208,9 +208,9 @@
                 <option value="UEFA B">UEFA B</option>
                 <option value="UEFA A">UEFA A</option>
                 <option value="UEFA Pro">UEFA Pro</option>
-                <option value="KNVB TC3">KNVB Trainer/Coach 3 (UEFA C)</option>
-                <option value="KNVB TC2">KNVB Trainer/Coach 2 (UEFA B)</option>
-                <option value="KNVB Jeugd">KNVB Jeugdvoetbalcoach / jeugdtrainer</option>
+                <option value="KNVB TC3" data-land="NL">KNVB Trainer/Coach 3 (UEFA C)</option>
+                <option value="KNVB TC2" data-land="NL">KNVB Trainer/Coach 2 (UEFA B)</option>
+                <option value="KNVB Jeugd" data-land="NL">KNVB Jeugdvoetbalcoach / jeugdtrainer</option>
                 <option value="Geen officiële licentie">Geen officiële licentie</option>
                 <option value="Andere">Andere (specifieer)</option>
               </select>
@@ -219,11 +219,11 @@
               <label for="tr-niveau-f">Gewenst niveau</label>
               <select id="tr-niveau-f" name="niveau">
                 <option value="">Maak een keuze</option>
-                <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
-                <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
-                <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
-                <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
-                <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+                <option value="Jeugd – gewestelijk (BE)" data-land="BE">Jeugd – gewestelijk (BE)</option>
+                <option value="Jeugd – provinciaal (BE)" data-land="BE">Jeugd – provinciaal (BE)</option>
+                <option value="Jeugd – interprovinciaal / elite (BE)" data-land="BE">Jeugd – interprovinciaal / elite (BE)</option>
+                <option value="Jeugd – regionaal (NL)" data-land="NL">Jeugd – regionaal (NL)</option>
+                <option value="Jeugd – landelijk (NL)" data-land="NL">Jeugd – landelijk (NL)</option>
                 <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
                 <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
                 <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
@@ -392,5 +392,68 @@
     .catch(err => { console.error(err); if (listEl) listEl.innerHTML = '<p>Kon de trainerslijst niet laden.</p>'; });
 })();
 </script>
+
+<script>
+(function() {
+  function applyLandFilterToSelect(select, land) {
+    if (!select) return;
+    var opts = select.options;
+    for (var i = 0; i < opts.length; i++) {
+      var opt = opts[i];
+      var optLand = opt.getAttribute('data-land');
+      if (!optLand || !land) {
+        opt.hidden = false;
+        opt.disabled = false;
+      } else {
+        var show = (optLand === land);
+        opt.hidden = !show;
+        opt.disabled = !show;
+      }
+    }
+  }
+
+  // Filters bovenaan (trainers)
+  var trFilterLand = document.getElementById('tr-filter-land');
+  var trFilterRegio = document.getElementById('tr-filter-regio');
+  var trFilterNiv = document.getElementById('tr-filter-niveau');
+  var trFilterLic = document.getElementById('tr-filter-licentie');
+
+  if (trFilterLand) {
+    trFilterLand.addEventListener('change', function() {
+      var val = trFilterLand.value || '';
+      applyLandFilterToSelect(trFilterRegio, val);
+      applyLandFilterToSelect(trFilterNiv, val);
+      applyLandFilterToSelect(trFilterLic, val);
+    });
+    // init
+    trFilterLand.dispatchEvent(new Event('change'));
+  }
+
+  // Formulier (trainers): checkboxes Vlaanderen / Nederland
+  var trLandBe = document.getElementById('tr-land-be');
+  var trLandNl = document.getElementById('tr-land-nl');
+  var trFormRegio = document.getElementById('tr-regio-f');
+  var trFormNiv = document.getElementById('tr-niveau-f');
+  var trFormLic = document.getElementById('tr-licentie-f');
+
+  function updateTrainerFormLand() {
+    var val = '';
+    var be = trLandBe && trLandBe.checked;
+    var nl = trLandNl && trLandNl.checked;
+    if (be && !nl) val = 'BE';
+    else if (!be && nl) val = 'NL';
+    else val = ''; // beide of geen -> alles tonen
+
+    applyLandFilterToSelect(trFormRegio, val);
+    applyLandFilterToSelect(trFormNiv, val);
+    applyLandFilterToSelect(trFormLic, val);
+  }
+
+  if (trLandBe) trLandBe.addEventListener('change', updateTrainerFormLand);
+  if (trLandNl) trLandNl.addEventListener('change', updateTrainerFormLand);
+  updateTrainerFormLand();
+})();
+</script>
+
 </body>
 </html>
