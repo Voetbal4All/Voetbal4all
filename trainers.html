@@ -105,7 +105,7 @@
             <option value="uefa-c">UEFA C</option>
             <option value="uefa-b">UEFA B</option>
             <option value="uefa-a">UEFA A</option>
-            <option value="pro">UEFA Pro</option>
+            <option value="uefa-pro">UEFA Pro</option>
             <option value="knvb-tc3">KNVB Trainer/Coach 3</option>
             <option value="knvb-tc2">KNVB Trainer/Coach 2</option>
             <option value="knvb-jeugd">KNVB jeugdcoach</option>
@@ -186,7 +186,7 @@
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
 
           <section class="block block-cta">
-            <h2>Trainerprofiel toevoegen</h2>
+            <h2>Trainer in de kijker</h2>
             <p>
               Ben je trainer in België of Nederland en wil je graag opgemerkt worden door clubs? 
               Voeg je profiel toe via het formulier hieronder. Na controle wordt je profiel 
@@ -223,7 +223,7 @@
 
             <div class="form-row form-row-half">
               <div>
-                <label>Landen waar je wil trainen</label>
+                <label>Landen waarin je training wil geven</label>
                 <div style="display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.9rem;">
                   <label><input type="checkbox" id="tr-land-be" name="land_be" value="BE"> België</label>
                   <label><input type="checkbox" id="tr-land-nl" name="land_nl" value="NL"> Nederland</label>
@@ -241,7 +241,18 @@
             <div class="form-row form-row-half">
               <div>
                 <label for="tr-licentie-f">Licentie</label>
-                <input type="text" id="tr-licentie-f" name="licentie" placeholder="bv. UEFA C, UEFA B, UEFA A, KNVB TC3, ...">
+                <select id="tr-licentie-f" name="licentie">
+                  <option value="">Maak een keuze</option>
+                  <option value="uefa-c">UEFA C</option>
+                  <option value="uefa-b">UEFA B</option>
+                  <option value="uefa-a">UEFA A</option>
+                  <option value="uefa-pro">UEFA Pro</option>
+                  <option value="knvb-tc3">KNVB Trainer/Coach 3 (UEFA C)</option>
+                  <option value="knvb-tc2">KNVB Trainer/Coach 2 (UEFA B)</option>
+                  <option value="knvb-jeugd">KNVB Jeugdvoetbalcoach / jeugdtrainer</option>
+                  <option value="geen">Geen officiële licentie</option>
+                  <option value="andere">Andere (specifieer)</option>
+                </select>
               </div>
               <div>
                 <label for="tr-niveau-f">Gewenst niveau</label>
@@ -249,6 +260,11 @@
                   <option value="">Maak een keuze</option>
                 </select>
               </div>
+            </div>
+
+            <div class="form-row" id="tr-licentie-andere-row" style="display:none;">
+              <label for="tr-licentie-andere">Andere licentie (omschrijving)</label>
+              <input type="text" id="tr-licentie-andere" name="licentie_andere" placeholder="bv. lokale opleiding, buitenlandse licentie, ...">
             </div>
 
             <div class="form-row">
@@ -272,15 +288,21 @@
               </div>
             </div>
 
-            <div class="form-row">
-              <label for="tr-profieltekst-f">Korte profieltekst</label>
-              <textarea id="tr-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor aan clubs in België en Nederland."></textarea>
+            <div class="form-row form-row-half">
+              <div>
+                <label for="tr-cv">CV uploaden (optioneel, PDF)</label>
+                <input type="file" id="tr-cv" name="cv" accept="application/pdf">
+                <small>Optioneel: voeg een CV toe in PDF-formaat.</small>
+              </div>
+              <div>
+                <label for="tr-foto">Profielfoto (optioneel)</label>
+                <input type="file" id="tr-foto" name="foto" accept="image/*">
+              </div>
             </div>
 
             <div class="form-row">
-              <label for="tr-foto">Profielfoto (optioneel)</label>
-              <input type="file" id="tr-foto" name="foto" accept="image/*">
-              <small>Bij voorkeur een recente, duidelijke foto. Maximaal ca. 2 MB.</small>
+              <label for="tr-profieltekst-f">Korte profieltekst</label>
+              <textarea id="tr-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor aan clubs in België en Nederland."></textarea>
             </div>
 
             <button type="submit" class="btn-primary">Trainerprofiel verzenden</button>
@@ -424,6 +446,27 @@
       landNl.addEventListener('change', updateFormSelects);
 
       updateFormSelects();
+    })();
+
+    // Licentie "andere" veld tonen / verbergen
+    (function() {
+      const selectLic = document.getElementById('tr-licentie-f');
+      const rowAndere = document.getElementById('tr-licentie-andere-row');
+      const inputAndere = document.getElementById('tr-licentie-andere');
+      if (!selectLic || !rowAndere || !inputAndere) return;
+
+      function updateAndere() {
+        if (selectLic.value === 'andere') {
+          rowAndere.style.display = 'block';
+          inputAndere.required = true;
+        } else {
+          rowAndere.style.display = 'none';
+          inputAndere.required = false;
+          inputAndere.value = '';
+        }
+      }
+
+      selectLic.addEventListener('change', updateAndere);
     })();
   </script>
 
