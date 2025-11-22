@@ -8,22 +8,34 @@
   <style>
     /* ===== Homepage specifieke layout (magazine-stijl) ===== */
 
-    /* Algemeen grid: 2 kolommen 65 / 35 */
-    .home-grid .grid-2col {
+    /* Bovenste grid: 3 kolommen (30% ads, 40% nieuws, 30% rangschikkingen) */
+    .home-top-grid {
       display: grid;
-      grid-template-columns: 65% 35%;
-      gap: 2.5rem;
+      grid-template-columns: 30% 40% 30%;
+      gap: 2rem;
       align-items: flex-start;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Onderste grid: 2 kolommen (70% nieuws, 30% rechterkolom) */
+    .home-bottom-grid {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      gap: 2rem;
+      align-items: flex-start;
+      margin-top: 0.5rem;
     }
 
     @media (max-width: 1024px) {
-      .home-grid .grid-2col {
+      .home-top-grid,
+      .home-bottom-grid {
         grid-template-columns: 1fr;
       }
     }
 
-    .home-grid .col-left,
-    .home-grid .col-right {
+    .home-top-grid > div,
+    .home-bottom-grid > div {
       width: 100%;
     }
 
@@ -104,16 +116,12 @@
     }
 
     /* Nieuwskaarten (magazine-stijl) */
-    #nieuws-lijst {
-      margin-top: 1.5rem;
-    }
-
-    #nieuws-lijst h2 {
+    .news-section-header h2 {
       margin-bottom: 0.25rem;
     }
 
-    #nieuws-lijst .section-intro {
-      margin-bottom: 1.5rem;
+    .news-section-header .section-intro {
+      margin-bottom: 1rem;
       color: #6c7480;
       font-size: 0.9rem;
     }
@@ -150,8 +158,13 @@
       margin-top: 1.5rem;
     }
 
-    /* Rechterkolom (magazine sidebar) */
-    .col-right .block {
+    /* Linkerkolom bovenaan: advertenties */
+    .left-ads-column .ad-slot {
+      margin-bottom: 1rem;
+    }
+
+    /* Rechterkolom: rangschikkingen + premium + adverteer-blok */
+    .sidebar-block {
       background-color: #ffffff;
       border-radius: 12px;
       padding: 1.1rem 1.25rem;
@@ -160,7 +173,7 @@
       border: 1px solid #e1e6f0;
     }
 
-    .standings-block h2 {
+    .rangschikkingen-block h2 {
       font-size: 1rem;
       margin-bottom: 0.5rem;
     }
@@ -304,7 +317,7 @@
       <span class="live-separator">•</span>
       <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
     </div>
-    <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; klassementen</a>
+    <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
   </div>
 </section>
 
@@ -344,142 +357,160 @@
     </div>
   </section>
 
-  <!-- 2-KOLOMMEN GRID: 65% NIEUWS / 35% ZIJKOLom -->
   <section class="home-grid">
-    <div class="container grid-2col">
-      <!-- HOOFDKOLOM (65%): NIEUWS -->
-      <div class="col-left" id="nieuws-lijst">
-        <h2>Voetbalkoppen – AI voetbalnieuws (in ontwikkeling)</h2>
-        <p class="section-intro">
-          In deze rubriek verschijnen in de toekomst automatisch gegenereerde nieuwsberichten over voetbal
-          in Vlaanderen, Nederland en internationaal. De focus ligt op heldere, betrouwbare samenvattingen
-          met een aantrekkelijke titel, zonder overdreven clickbait.
-        </p>
-
-        <article class="news-card">
-          <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
-          <p class="news-meta">Categorie: JPL • AI-nieuws (demo)</p>
-          <p class="news-teaser">
-            Hier komt straks een automatisch gegenereerd overzicht van uitslagen, doelpuntenmakers en opvallende
-            momenten van de voorbije speeldag in de Jupiler Pro League.
-          </p>
-        </article>
-
-        <article class="news-card">
-          <h3>Voorbeeld: Eredivisie in één oogopslag</h3>
-          <p class="news-meta">Categorie: Eredivisie • AI-nieuws (demo)</p>
-          <p class="news-teaser">
-            Een rustige, duidelijke samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
-          </p>
-        </article>
-
-        <article class="news-card">
-          <h3>Voorbeeld: Focus op jeugdvoetbal</h3>
-          <p class="news-meta">Categorie: Jeugd • AI-nieuws (demo)</p>
-          <p class="news-teaser">
-            In de toekomst kan hier wekelijks een update verschijnen over jeugdtornooien, stages en clubs
-            die op zoek zijn naar extra spelers of trainers.
-          </p>
-        </article>
-
-        <article class="news-card">
-          <h3>Voorbeeld: Clubs in de kijker</h3>
-          <p class="news-meta">Categorie: Clubs • AI-nieuws (demo)</p>
-          <p class="news-teaser">
-            Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal4All extra onder de aandacht te brengen.
-          </p>
-        </article>
-
-        <div class="bottom-ad">
-          <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
+    <div class="container">
+      <!-- BOVENSTE RIJ: 3 kolommen (links ads, midden nieuws, rechts rangschikkingen) -->
+      <div class="home-top-grid">
+        <!-- Linkerkolom: advertenties -->
+        <div class="left-ads-column">
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
         </div>
+
+        <!-- Middenkolom: Voetbalkoppen (kop + eerste news-cards) -->
+        <div>
+          <div class="news-section-header">
+            <h2>Voetbalkoppen – AI voetbalnieuws (in ontwikkeling)</h2>
+            <p class="section-intro">
+              In deze rubriek verschijnen in de toekomst automatisch gegenereerde nieuwsberichten over voetbal
+              in Vlaanderen, Nederland en internationaal. De focus ligt op heldere, betrouwbare samenvattingen
+              met een aantrekkelijke titel, zonder overdreven clickbait.
+            </p>
+          </div>
+
+          <article class="news-card">
+            <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
+            <p class="news-meta">Categorie: JPL • AI-nieuws (demo)</p>
+            <p class="news-teaser">
+              Hier komt straks een automatisch gegenereerd overzicht van uitslagen, doelpuntenmakers en opvallende
+              momenten van de voorbije speeldag in de Jupiler Pro League.
+            </p>
+          </article>
+
+          <article class="news-card">
+            <h3>Voorbeeld: Eredivisie in één oogopslag</h3>
+            <p class="news-meta">Categorie: Eredivisie • AI-nieuws (demo)</p>
+            <p class="news-teaser">
+              Een rustige, duidelijke samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
+            </p>
+          </article>
+        </div>
+
+        <!-- Rechterkolom: rangschikkingen -->
+        <aside>
+          <section class="sidebar-block rangschikkingen-block">
+            <h2>Rangschikkingen eerste klasse</h2>
+
+            <div class="score-block">
+              <h3>Jupiler Pro League (voorbeeld)</h3>
+              <table class="table-standings">
+                <thead>
+                  <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>Club A</td><td>45</td></tr>
+                  <tr><td>2</td><td>Club B</td><td>42</td></tr>
+                  <tr><td>3</td><td>Club C</td><td>39</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="score-block">
+              <h3>Eredivisie (voorbeeld)</h3>
+              <table class="table-standings">
+                <thead>
+                  <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>Team 1</td><td>47</td></tr>
+                  <tr><td>2</td><td>Team 2</td><td>44</td></tr>
+                  <tr><td>3</td><td>Team 3</td><td>40</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="section-note">
+              Op termijn kunnen deze gegevens automatisch opgehaald worden via een externe databron,
+              zodat de bezoeker altijd de meest recente rangschikking ziet.
+            </p>
+          </section>
+        </aside>
       </div>
 
-      <!-- ZIJKOLom (35%): KLASSEMENTEN + PREMIUM ROTATORS + ADVERTEREN -->
-      <aside class="col-right">
-        <!-- KLASSEMENTEN -->
-        <section class="block standings-block">
-          <h2>Klassementen eerste klasse</h2>
-
-          <div class="score-block">
-            <h3>Jupiler Pro League (voorbeeld)</h3>
-            <table class="table-standings">
-              <thead>
-                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>Club A</td><td>45</td></tr>
-                <tr><td>2</td><td>Club B</td><td>42</td></tr>
-                <tr><td>3</td><td>Club C</td><td>39</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="score-block">
-            <h3>Eredivisie (voorbeeld)</h3>
-            <table class="table-standings">
-              <thead>
-                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>Team 1</td><td>47</td></tr>
-                <tr><td>2</td><td>Team 2</td><td>44</td></tr>
-                <tr><td>3</td><td>Team 3</td><td>40</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <p class="section-note">
-            Op termijn kunnen deze gegevens automatisch opgehaald worden via een externe databron,
-            zodat de bezoeker altijd de meest recente stand ziet.
-          </p>
-        </section>
-
-        <!-- PREMIUM VACATURES -->
-        <section class="block premium-block">
-          <h2>Premium vacatures</h2>
-          <div id="premium-vacatures" class="premium-rotator">
-            <p>Premium vacatures worden geladen...</p>
-          </div>
-        </section>
-
-        <!-- PREMIUM EVENTS -->
-        <section class="block premium-block">
-          <h2>Premium events</h2>
-          <div id="premium-events" class="premium-rotator">
-            <p>Premium events worden geladen...</p>
-          </div>
-        </section>
-
-        <!-- PREMIUM TRAINERS -->
-        <section class="block premium-block">
-          <h2>Beschikbare trainers (laatste 10)</h2>
-          <div id="premium-trainers" class="premium-rotator">
-            <p>Trainers worden geladen...</p>
-          </div>
-        </section>
-
-        <!-- PREMIUM SPELERS -->
-        <section class="block premium-block">
-          <h2>Beschikbare spelers (laatste 10)</h2>
-          <div id="premium-spelers" class="premium-rotator">
-            <p>Spelers worden geladen...</p>
-          </div>
-        </section>
-
-        <!-- ADVERTEREN CTA -->
-        <section class="block block-cta-advert">
-          <div class="cta-advert-inner">
-            <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" class="cta-logo">
-            <h2>Adverteren op Voetbal4All</h2>
-            <p>
-              Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
-              Vraag naar de mogelijkheden voor advertising, premium vacatures en events.
+      <!-- ONDERSTE RIJ: 2 kolommen (70% nieuws, 30% rechterkolom) -->
+      <div class="home-bottom-grid" id="nieuws-lijst">
+        <!-- Linkerkant: bijkomende nieuwsberichten + brede advertentie -->
+        <div>
+          <article class="news-card">
+            <h3>Voorbeeld: Focus op jeugdvoetbal</h3>
+            <p class="news-meta">Categorie: Jeugd • AI-nieuws (demo)</p>
+            <p class="news-teaser">
+              In de toekomst kan hier wekelijks een update verschijnen over jeugdtornooien, stages en clubs
+              die op zoek zijn naar extra spelers of trainers.
             </p>
-            <a class="btn-primary btn-block" href="adverteren.html">Ja, ik wil adverteren</a>
+          </article>
+
+          <article class="news-card">
+            <h3>Voorbeeld: Clubs in de kijker</h3>
+            <p class="news-meta">Categorie: Clubs • AI-nieuws (demo)</p>
+            <p class="news-teaser">
+              Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal4All extra onder de aandacht te brengen.
+            </p>
+          </article>
+
+          <div class="bottom-ad">
+            <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
           </div>
-        </section>
-      </aside>
+        </div>
+
+        <!-- Rechterkant: premium-blokken en adverteer-CTA -->
+        <aside>
+          <!-- PREMIUM VACATURES -->
+          <section class="sidebar-block premium-block">
+            <h2>Premium vacatures</h2>
+            <div id="premium-vacatures" class="premium-rotator">
+              <p>Premium vacatures worden geladen...</p>
+            </div>
+          </section>
+
+          <!-- PREMIUM EVENTS -->
+          <section class="sidebar-block premium-block">
+            <h2>Premium events</h2>
+            <div id="premium-events" class="premium-rotator">
+              <p>Premium events worden geladen...</p>
+            </div>
+          </section>
+
+          <!-- PREMIUM TRAINERS -->
+          <section class="sidebar-block premium-block">
+            <h2>Beschikbare trainers (laatste 10)</h2>
+            <div id="premium-trainers" class="premium-rotator">
+              <p>Trainers worden geladen...</p>
+            </div>
+          </section>
+
+          <!-- PREMIUM SPELERS -->
+          <section class="sidebar-block premium-block">
+            <h2>Beschikbare spelers (laatste 10)</h2>
+            <div id="premium-spelers" class="premium-rotator">
+              <p>Spelers worden geladen...</p>
+            </div>
+          </section>
+
+          <!-- ADVERTEREN CTA -->
+          <section class="sidebar-block block-cta-advert">
+            <div class="cta-advert-inner">
+              <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" class="cta-logo">
+              <h2>Adverteren op Voetbal4All</h2>
+              <p>
+                Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+                Vraag naar de mogelijkheden voor advertising, premium vacatures en events.
+              </p>
+              <a class="btn-primary btn-block" href="adverteren.html">Ja, ik wil adverteren</a>
+            </div>
+          </section>
+        </aside>
+      </div>
     </div>
   </section>
 </main>
