@@ -17,22 +17,39 @@
   <nav class="main-nav">
     <div class="container nav-inner">
       <ul>
-        <li><a href="index.html" class="is-active">Nieuws</a></li>
-        <li><a href="#uitslagen">Uitslagen</a></li>
+        <li><a href="index.html" class="is-active">Home</a></li>
+        <li><a href="index.html#nieuws">Nieuws</a></li>
+        <li><a href="uitslagen.html">Uitslagen</a></li>
         <li><a href="vacatures.html">Vacatures</a></li>
         <li><a href="trainers.html">Trainers</a></li>
         <li><a href="spelers.html">Spelers</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="meer.html">Meer</a></li>
       </ul>
-      <a class="btn-nav" href="trainers.html">Start met zoeken</a>
+      <div class="nav-cta-group">
+        <a class="btn-nav" href="spelers.html">Zoek spelers</a>
+        <a class="btn-nav-outline" href="adverteren.html">Adverteren op Voetbal4All</a>
+      </div>
     </div>
   </nav>
 </header>
 
+<!-- LIVE UITSLAGEN BANNER -->
+<section class="live-scores-banner">
+  <div class="container live-scores-inner">
+    <div class="live-label">Live uitslagen</div>
+    <div class="live-ticker">
+      <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
+      <span class="live-separator">•</span>
+      <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
+    </div>
+    <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; klassementen</a>
+  </div>
+</section>
+
 <main class="page-main">
   <!-- HERO / INTRO -->
-  <section class="hero hero-home">
+  <section class="hero hero-home" id="nieuws">
     <div class="container hero-inner">
       <div class="hero-copy">
         <h1>Voetbal4All – één navigatiepunt voor de voetballiefhebber</h1>
@@ -43,12 +60,18 @@
         </p>
         <p class="hero-text">
           De website is nog in volle ontwikkeling. Nieuwe mogelijkheden worden stap voor stap toegevoegd,
-          waaronder een automatisch gevoede nieuwspagina en koppelingen met sociale media.
+          waaronder een automatisch gevoede nieuwspagina, live uitslagen en koppelingen met sociale media.
         </p>
         <div class="hero-cta-row">
           <a class="btn-primary" href="spelers.html">Ik zoek een speler</a>
           <a class="btn-secondary" href="trainers.html">Ik zoek een trainer</a>
           <a class="btn-ghost" href="vacatures.html">Vacature plaatsen</a>
+        </div>
+        <div class="hero-news-link">
+          <a class="btn-outline" href="https://sporza.be/nl/categorie/voetbal/" target="_blank" rel="noopener">
+            Ontdek voetbalnieuws op Sporza.be
+          </a>
+          <small>Deze knop kan later worden aangepast naar het nieuwsplatform van jouw keuze.</small>
         </div>
       </div>
       <div class="hero-side">
@@ -58,16 +81,18 @@
     </div>
   </section>
 
-  <!-- CONTENT GRID: NIEUWS + STANDEN + SNEL NAAR -->
+  <!-- CONTENT GRID: NIEUWS + PREMIUM ZIJKOLOM -->
   <section class="home-grid">
-    <div class="container grid-3col">
+    <div class="container grid-2col-main-side">
       <!-- NIEUWSKOLom -->
-      <div class="col-news">
+      <div class="col-main">
         <h2>Voetbalnieuws (AI in ontwikkeling)</h2>
         <p class="section-intro">
           In een volgende fase wordt deze nieuwsrubriek automatisch gevuld met nieuwsberichten over
-          de Jupiler Pro League, Challenger Pro League en regionaal voetbal. Nu zie je enkele voorbeeldartikels.
+          de Jupiler Pro League, Eredivisie, Challenger Pro League en regionaal voetbal.
+          Nu zie je enkele voorbeeldartikels.
         </p>
+
         <article class="news-card">
           <h3>Voorbeeld: Speeldagoverzicht Jupiler Pro League</h3>
           <p class="news-meta">Categorie: JPL • Automatisch nieuws (demo)</p>
@@ -76,6 +101,15 @@
             momenten van de voorbije speeldag.
           </p>
         </article>
+
+        <article class="news-card">
+          <h3>Voorbeeld: Eredivisie in één oogopslag</h3>
+          <p class="news-meta">Categorie: Eredivisie • Automatisch nieuws (demo)</p>
+          <p class="news-teaser">
+            Een compacte samenvatting van de speeldag in Nederland: topaffiches, verrassingen en de vorm van de topclubs.
+          </p>
+        </article>
+
         <article class="news-card">
           <h3>Voorbeeld: Focus op jeugdvoetbal</h3>
           <p class="news-meta">Categorie: Jeugd • Automatisch nieuws (demo)</p>
@@ -84,6 +118,7 @@
             die op zoek zijn naar extra spelers of trainers.
           </p>
         </article>
+
         <article class="news-card">
           <h3>Voorbeeld: Clubs in de kijker</h3>
           <p class="news-meta">Categorie: Clubs • Automatisch nieuws (demo)</p>
@@ -91,88 +126,97 @@
             Deze rubriek kan gebruikt worden om clubs die actief gebruikmaken van Voetbal4All extra onder de aandacht te brengen.
           </p>
         </article>
+
         <div class="bottom-ad">
           <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
         </div>
       </div>
 
-      <!-- Uitslagen & klassementen -->
-      <div class="col-scores" id="uitslagen">
-        <h2>Uitslagen & klassementen</h2>
-        <p class="section-intro">
-          In een volgende fase worden hier live uitslagen en klassementen van de Jupiler Pro League en Challenger Pro League getoond via een koppeling.
-        </p>
+      <!-- ZIJKOLom: KLASSEMENTEN + PREMIUM ROTATORS -->
+      <aside class="col-side">
+        <!-- KLASSEMENTEN -->
+        <section class="block standings-block">
+          <h2>Klassementen eerste klasse</h2>
 
-        <div class="score-block">
-          <h3>Jupiler Pro League – laatste speeldag (voorbeeld)</h3>
-          <ul class="score-list">
-            <li><span>Club A</span><span>2 – 1</span><span>Club B</span></li>
-            <li><span>Club C</span><span>0 – 0</span><span>Club D</span></li>
-            <li><span>Club E</span><span>3 – 2</span><span>Club F</span></li>
-          </ul>
-        </div>
+          <div class="score-block">
+            <h3>Jupiler Pro League (voorbeeld)</h3>
+            <table class="table-standings">
+              <thead>
+                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Club A</td><td>45</td></tr>
+                <tr><td>2</td><td>Club B</td><td>42</td></tr>
+                <tr><td>3</td><td>Club C</td><td>39</td></tr>
+              </tbody>
+            </table>
+          </div>
 
-        <div class="score-block">
-          <h3>Jupiler Pro League – klassement (voorbeeld)</h3>
-          <table class="table-standings">
-            <thead>
-              <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>1</td><td>Club A</td><td>45</td></tr>
-              <tr><td>2</td><td>Club B</td><td>42</td></tr>
-              <tr><td>3</td><td>Club C</td><td>39</td></tr>
-            </tbody>
-          </table>
-        </div>
+          <div class="score-block">
+            <h3>Eredivisie (voorbeeld)</h3>
+            <table class="table-standings">
+              <thead>
+                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Team 1</td><td>47</td></tr>
+                <tr><td>2</td><td>Team 2</td><td>44</td></tr>
+                <tr><td>3</td><td>Team 3</td><td>40</td></tr>
+              </tbody>
+            </table>
+          </div>
 
-        <div class="score-block">
-          <h3>Challenger Pro League – klassement (voorbeeld)</h3>
-          <table class="table-standings">
-            <thead>
-              <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>1</td><td>Team 1</td><td>40</td></tr>
-              <tr><td>2</td><td>Team 2</td><td>37</td></tr>
-              <tr><td>3</td><td>Team 3</td><td>35</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p class="section-note">
-          Op termijn kunnen deze gegevens automatisch opgehaald worden via een externe databron,
-          zodat de bezoeker altijd de meest recente stand ziet.
-        </p>
-      </div>
-
-      <!-- SNEL NAAR & ADVERTENTIES -->
-      <div class="col-side">
-        <section class="block block-cta">
-          <h2>Snel naar</h2>
-          <ul class="quick-links">
-            <li><a href="vacatures.html">Openstaande vacatures bekijken</a></li>
-            <li><a href="trainers.html">Beschikbare trainers bekijken</a></li>
-            <li><a href="spelers.html">Beschikbare spelers bekijken</a></li>
-            <li><a href="events.html">Tornooien & events zoeken</a></li>
-          </ul>
-        </section>
-
-        <section class="block">
-          <h2>Social media</h2>
-          <p>
-            Nieuws en updates van Voetbal4All kunnen ook automatisch gedeeld worden op onze
-            sociale mediakanalen. In een volgende fase worden nieuwe berichten hieraan gekoppeld.
+          <p class="section-note">
+            Op termijn kunnen deze gegevens automatisch opgehaald worden via een externe databron,
+            zodat de bezoeker altijd de meest recente stand ziet.
           </p>
-          <ul class="social-list">
-            <li>Facebook: <strong>Voetbal4All</strong></li>
-            <li>Instagram: <strong>voetbal.4.all</strong></li>
-          </ul>
         </section>
 
-        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
-        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
-      </div>
+        <!-- PREMIUM VACATURES -->
+        <section class="block premium-block">
+          <h2>Premium vacatures</h2>
+          <div id="premium-vacatures" class="premium-rotator">
+            <p>Premium vacatures worden geladen...</p>
+          </div>
+        </section>
+
+        <!-- PREMIUM EVENTS -->
+        <section class="block premium-block">
+          <h2>Premium events</h2>
+          <div id="premium-events" class="premium-rotator">
+            <p>Premium events worden geladen...</p>
+          </div>
+        </section>
+
+        <!-- PREMIUM TRAINERS -->
+        <section class="block premium-block">
+          <h2>Beschikbare trainers (laatste 10)</h2>
+          <div id="premium-trainers" class="premium-rotator">
+            <p>Trainers worden geladen...</p>
+          </div>
+        </section>
+
+        <!-- PREMIUM SPELERS -->
+        <section class="block premium-block">
+          <h2>Beschikbare spelers (laatste 10)</h2>
+          <div id="premium-spelers" class="premium-rotator">
+            <p>Spelers worden geladen...</p>
+          </div>
+        </section>
+
+        <!-- ADVERTEREN CTA -->
+        <section class="block block-cta-advert">
+          <div class="cta-advert-inner">
+            <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" class="cta-logo">
+            <h2>Adverteren op Voetbal4All</h2>
+            <p>
+              Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+              Vraag naar de mogelijkheden voor advertising, premium vacatures en events.
+            </p>
+            <a class="btn-primary btn-block" href="adverteren.html">Ja, ik wil adverteren</a>
+          </div>
+        </section>
+      </aside>
     </div>
   </section>
 </main>
@@ -185,5 +229,73 @@
     <p>© Voetbal4All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
+
+<script>
+// Eenvoudige rotator voor premium items (plaatsvervanger tot koppeling met JSON)
+(function() {
+  function startRotator(containerId, items, intervalMs) {
+    var el = document.getElementById(containerId);
+    if (!el || !items || !items.length) return;
+    var idx = 0;
+
+    function render() {
+      var item = items[idx];
+      el.innerHTML = '';
+      var wrap = document.createElement('div');
+      wrap.className = 'premium-item';
+
+      var title = document.createElement('h3');
+      title.textContent = item.title;
+      wrap.appendChild(title);
+
+      if (item.meta) {
+        var meta = document.createElement('p');
+        meta.className = 'premium-meta';
+        meta.textContent = item.meta;
+        wrap.appendChild(meta);
+      }
+
+      if (item.teaser) {
+        var teaser = document.createElement('p');
+        teaser.className = 'premium-teaser';
+        teaser.textContent = item.teaser;
+        wrap.appendChild(teaser);
+      }
+
+      el.appendChild(wrap);
+      idx = (idx + 1) % items.length;
+    }
+
+    render();
+    setInterval(render, intervalMs);
+  }
+
+  // Dummy data – later vervangen door data uit JSON (vacatures.json, events.json, trainers.json, spelers.json)
+  var premiumVacatures = [
+    { title: 'Jeugdtrainer U15 IP – ASV Geel', meta: 'Vlaanderen • vanaf volgend seizoen', teaser: 'Club zoekt gemotiveerde jeugdtrainer met UEFA C.' },
+    { title: 'Keeperstrainer A-kern – SV Oranje', meta: 'Nederland • direct beschikbaar', teaser: 'Ervaren keeperstrainer voor senioren en U19.' }
+  ];
+
+  var premiumEvents = [
+    { title: 'Zomertornooi U13 – FC Limburg', meta: 'Hasselt • augustus 2025', teaser: 'Tweedaags tornooi voor U13-teams uit Vlaanderen en Nederland.' },
+    { title: 'Open keeperdag – KFC Turnhout', meta: 'Turnhout • maart 2025', teaser: 'Gratis open training voor alle jeugdkeep(st)ers.' }
+  ];
+
+  var premiumTrainers = [
+    { title: 'Tom Trainer', meta: 'UEFA B • Jeugd – provinciaal (Vlaanderen)', teaser: 'Gedreven jeugdtrainer met ervaring U13–U17.' },
+    { title: 'Johan Coach', meta: 'KNVB TC2 • Jeugd – landelijk (NL)', teaser: 'Resultaatgericht, met focus op ontwikkeling.' }
+  ];
+
+  var premiumSpelers = [
+    { title: 'Lars Linksback (U17)', meta: 'Vlaanderen • Jeugd – provinciaal', teaser: 'Snel, duelkrachtig en conditioneel sterk.' },
+    { title: 'Mila Midfielder', meta: 'Nederland • Dames eerste elftal', teaser: 'Inzichtelijke spelverdeler met goede passing.' }
+  ];
+
+  startRotator('premium-vacatures', premiumVacatures, 5000);
+  startRotator('premium-events', premiumEvents, 5000);
+  startRotator('premium-trainers', premiumTrainers, 5000);
+  startRotator('premium-spelers', premiumSpelers, 5000);
+})();
+</script>
 </body>
 </html>
