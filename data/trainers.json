@@ -3,7 +3,7 @@
     {
       "id": "tr-001",
       "status": "approved",
-      "naam": "Tom Janssens (Test)",
+      "naam": "Tom Janssens",
       "land": [
         "BE",
         "NL"
@@ -27,7 +27,7 @@
     {
       "id": "tr-002",
       "status": "approved",
-      "naam": "Annelies De Smet (Test)",
+      "naam": "Annelies De Smet",
       "land": [
         "BE",
         "NL"
@@ -51,7 +51,7 @@
     {
       "id": "tr-003",
       "status": "new",
-      "naam": "Nieuwe Trainer (Nog niet goedgekeurd) (Test)",
+      "naam": "Nieuwe Trainer (Nog niet goedgekeurd)",
       "land": [
         "BE"
       ],

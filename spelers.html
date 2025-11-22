@@ -38,16 +38,13 @@
 
   <main class="page-main">
 
-    <!-- PAGINA-INTRO -->
     <section class="hero hero-small">
       <div class="container hero-inner">
         <div>
           <h1>Spelersplatform</h1>
           <p class="hero-text">
-            Op deze pagina stellen spelers zich voor aan clubs in België en Nederland. 
-            Sommige spelers zijn bereid om in beide landen te spelen. Gebruik de filters
-            om snel spelers te vinden op basis van land, regio, positie, leeftijdscategorie,
-            niveau en geboortejaar.
+            Spelers uit België en Nederland kunnen zich hier voorstellen aan clubs. 
+            Gebruik de filters om gericht te zoeken of voeg je eigen profiel toe.
           </p>
         </div>
       </div>
@@ -56,154 +53,110 @@
     <!-- FILTERBLOK -->
     <section class="filters-section">
       <div class="container filters-grid">
-
         <div class="filter-item">
-          <label for="sp-filter-land">Land waar speler wil spelen</label>
-          <select id="sp-filter-land" name="land">
+          <label for="pl-filter-land">Land(en) waar speler wil spelen</label>
+          <select id="pl-filter-land" name="land">
             <option value="">België &amp; Nederland</option>
-            <option value="be">Alleen België</option>
-            <option value="nl">Alleen Nederland</option>
+            <option value="BE">België</option>
+            <option value="NL">Nederland</option>
           </select>
         </div>
 
         <div class="filter-item">
-          <label for="sp-filter-regio">Regio / provincie</label>
-          <select id="sp-filter-regio" name="regio">
+          <label for="pl-filter-regio">Regio / provincie</label>
+          <select id="pl-filter-regio" name="regio">
             <option value="">Alle regio’s</option>
             <!-- België -->
-            <option value="antwerpen" data-land="be">Antwerpen</option>
-            <option value="limburg-be" data-land="be">Limburg (BE)</option>
-            <option value="vlaams-brabant" data-land="be">Vlaams-Brabant</option>
-            <option value="oost-vlaanderen" data-land="be">Oost-Vlaanderen</option>
-            <option value="west-vlaanderen" data-land="be">West-Vlaanderen</option>
-            <option value="brussel" data-land="be">Brussel</option>
+            <option value="Antwerpen" data-land="BE">Antwerpen</option>
+            <option value="Limburg (BE)" data-land="BE">Limburg (BE)</option>
+            <option value="Vlaams-Brabant" data-land="BE">Vlaams-Brabant</option>
+            <option value="Oost-Vlaanderen" data-land="BE">Oost-Vlaanderen</option>
+            <option value="West-Vlaanderen" data-land="BE">West-Vlaanderen</option>
+            <option value="Brussel" data-land="BE">Brussel</option>
             <!-- Nederland -->
-            <option value="noord-brabant" data-land="nl">Noord-Brabant</option>
-            <option value="limburg-nl" data-land="nl">Limburg (NL)</option>
-            <option value="zeeland" data-land="nl">Zeeland</option>
-            <option value="zuid-holland" data-land="nl">Zuid-Holland</option>
-            <option value="noord-holland" data-land="nl">Noord-Holland</option>
-            <option value="utrecht" data-land="nl">Utrecht</option>
-            <option value="gelderland" data-land="nl">Gelderland</option>
-            <option value="overijssel" data-land="nl">Overijssel</option>
-            <option value="groningen" data-land="nl">Groningen</option>
-            <option value="friesland" data-land="nl">Friesland</option>
-            <option value="drenthe" data-land="nl">Drenthe</option>
-            <option value="flevoland" data-land="nl">Flevoland</option>
+            <option value="Noord-Brabant" data-land="NL">Noord-Brabant</option>
+            <option value="Limburg (NL)" data-land="NL">Limburg (NL)</option>
+            <option value="Zeeland" data-land="NL">Zeeland</option>
+            <option value="Zuid-Holland" data-land="NL">Zuid-Holland</option>
+            <option value="Noord-Holland" data-land="NL">Noord-Holland</option>
+            <option value="Utrecht" data-land="NL">Utrecht</option>
+            <option value="Gelderland" data-land="NL">Gelderland</option>
+            <option value="Overijssel" data-land="NL">Overijssel</option>
+            <option value="Groningen" data-land="NL">Groningen</option>
+            <option value="Friesland" data-land="NL">Friesland</option>
+            <option value="Drenthe" data-land="NL">Drenthe</option>
+            <option value="Flevoland" data-land="NL">Flevoland</option>
           </select>
         </div>
 
         <div class="filter-item">
-          <label for="sp-filter-geslacht">Dames / heren</label>
-          <select id="sp-filter-geslacht" name="geslacht">
+          <label for="pl-filter-geslacht">Dames / heren</label>
+          <select id="pl-filter-geslacht" name="geslacht">
             <option value="">Dames &amp; heren</option>
-            <option value="heren">Heren</option>
-            <option value="dames">Dames</option>
+            <option value="Heren">Heren</option>
+            <option value="Dames">Dames</option>
           </select>
         </div>
 
         <div class="filter-item">
-          <label for="sp-filter-positie">Positie</label>
-          <select id="sp-filter-positie" name="positie">
-            <option value="">Alle posities</option>
-            <option value="keeper">Keeper</option>
-            <option value="verdediger">Verdediger</option>
-            <option value="middenvelder">Middenvelder</option>
-            <option value="aanvaller">Aanvaller</option>
-            <option value="wingback">Wingback / flankspeler</option>
+          <label for="pl-filter-leeftijd">Leeftijdscategorie</label>
+          <select id="pl-filter-leeftijd" name="leeftijdscategorie">
+            <option value="">Alle leeftijden</option>
+            <option value="U5">U5</option>
+            <option value="U6">U6</option>
+            <option value="U7">U7</option>
+            <option value="U8">U8</option>
+            <option value="U9">U9</option>
+            <option value="U10">U10</option>
+            <option value="U11">U11</option>
+            <option value="U12">U12</option>
+            <option value="U13">U13</option>
+            <option value="U14">U14</option>
+            <option value="U15">U15</option>
+            <option value="U16">U16</option>
+            <option value="U17">U17</option>
+            <option value="U18">U18</option>
+            <option value="U19">U19</option>
+            <option value="U21">U21</option>
+            <option value="Beloften">Beloften</option>
+            <option value="Eerste elftal heren">Eerste elftal heren</option>
+            <option value="Eerste elftal dames">Eerste elftal dames</option>
           </select>
         </div>
 
         <div class="filter-item">
-          <label for="sp-filter-leeftijd">Leeftijdscategorie</label>
-          <select id="sp-filter-leeftijd" name="leeftijd">
-            <option value="">Alle leeftijdscategorieën</option>
-            <option value="u5">U5</option>
-            <option value="u6">U6</option>
-            <option value="u7">U7</option>
-            <option value="u8">U8</option>
-            <option value="u9">U9</option>
-            <option value="u10">U10</option>
-            <option value="u11">U11</option>
-            <option value="u12">U12</option>
-            <option value="u13">U13</option>
-            <option value="u14">U14</option>
-            <option value="u15">U15</option>
-            <option value="u16">U16</option>
-            <option value="u17">U17</option>
-            <option value="u18">U18</option>
-            <option value="u19">U19</option>
-            <option value="u20">U20</option>
-            <option value="u21">U21</option>
-            <option value="beloften">Beloften</option>
-            <option value="eerste-heren">Eerste elftal heren</option>
-            <option value="eerste-dames">Eerste elftal dames</option>
+          <label for="pl-filter-jaar">Geboortejaar (meerdere mogelijk)</label>
+          <select id="pl-filter-jaar" name="geboortejaar" multiple>
           </select>
+          <small style="font-size:0.75rem;">Meerdere jaren selecteren via Cmd/Ctrl-klik.</small>
         </div>
 
         <div class="filter-item">
-          <label for="sp-filter-niveau">Niveau</label>
-          <select id="sp-filter-niveau" name="niveau">
+          <label for="pl-filter-niveau">Gewenst niveau</label>
+          <select id="pl-filter-niveau" name="niveau">
             <option value="">Alle niveaus</option>
-            <!-- Jeugd BE -->
-            <option value="jeugd-gewestelijk-be">Jeugd – gewestelijk (BE)</option>
-            <option value="jeugd-provinciaal-be">Jeugd – provinciaal (BE)</option>
-            <option value="jeugd-interprovinciaal-be">Jeugd – interprovinciaal (BE)</option>
-            <option value="jeugd-elite-be">Jeugd – elite (BE)</option>
-            <!-- Jeugd NL -->
-            <option value="jeugd-regionaal-nl">Jeugd – regionaal (NL)</option>
-            <option value="jeugd-landelijk-nl">Jeugd – landelijk (NL)</option>
-            <!-- Senioren / beloften algemeen -->
-            <option value="recreatief">Senioren – recreatief / lager niveau</option>
-            <option value="provinciaal">Senioren – provinciaal (BE)</option>
-            <option value="interprovinciaal">Senioren – interprovinciaal / hoger regionaal</option>
-            <option value="nationaal">Senioren – nationaal / hoger amateur</option>
-            <!-- Senioren NL specifiek -->
-            <option value="nl-4e-klasse">Nederland – 4e klasse / lager</option>
-            <option value="nl-3e-2e-klasse">Nederland – 3e / 2e klasse</option>
-            <option value="nl-1e-hoofdklasse">Nederland – 1e klasse / Hoofdklasse</option>
-            <option value="nl-divisie">Nederland – Divisie / topamateur</option>
+            <option value="Jeugd – gewestelijk (BE)">Jeugd – gewestelijk (BE)</option>
+            <option value="Jeugd – provinciaal (BE)">Jeugd – provinciaal (BE)</option>
+            <option value="Jeugd – interprovinciaal / elite (BE)">Jeugd – interprovinciaal / elite (BE)</option>
+            <option value="Jeugd – regionaal (NL)">Jeugd – regionaal (NL)</option>
+            <option value="Jeugd – landelijk (NL)">Jeugd – landelijk (NL)</option>
+            <option value="Senioren – recreatief / lager">Senioren – recreatief / lager</option>
+            <option value="Senioren – provinciaal / klasse">Senioren – provinciaal / klasse</option>
+            <option value="Senioren – nationaal / divisie">Senioren – nationaal / divisie</option>
+            <option value="Dames – alle niveaus">Dames – alle niveaus</option>
           </select>
         </div>
 
         <div class="filter-item">
-          <label for="sp-filter-gebjaar">Geboortejaar</label>
-          <select id="sp-filter-gebjaar" name="geboortejaar">
-            <option value="">Alle geboortejaren</option>
-            <option value="2020">2020</option>
-            <option value="2019">2019</option>
-            <option value="2018">2018</option>
-            <option value="2017">2017</option>
-            <option value="2016">2016</option>
-            <option value="2015">2015</option>
-            <option value="2014">2014</option>
-            <option value="2013">2013</option>
-            <option value="2012">2012</option>
-            <option value="2011">2011</option>
-            <option value="2010">2010</option>
-            <option value="2009">2009</option>
-            <option value="2008">2008</option>
-            <option value="2007">2007</option>
-            <option value="2006">2006</option>
-            <option value="2005">2005</option>
-            <option value="2004">2004</option>
-            <option value="2003">2003</option>
-            <option value="2002">2002</option>
-            <option value="2001">2001</option>
-            <option value="2000">2000</option>
-            <option value="1999">1999</option>
-            <option value="1998">1998</option>
-            <option value="1997">1997</option>
-            <option value="1996">1996</option>
-            <option value="1995">1995</option>
-            <option value="1994">1994</option>
-            <option value="1993">1993</option>
-            <option value="1992">1992</option>
-            <option value="1991">1991</option>
-            <option value="1990">1990</option>
+          <label for="pl-filter-beschikbaarheid">Beschikbaarheid</label>
+          <select id="pl-filter-beschikbaarheid" name="beschikbaarheid">
+            <option value="">Alle</option>
+            <option value="Direct beschikbaar">Direct beschikbaar</option>
+            <option value="Vanaf winterstop">Vanaf winterstop</option>
+            <option value="Vanaf volgend seizoen">Vanaf volgend seizoen</option>
+            <option value="In overleg">In overleg</option>
           </select>
         </div>
-
       </div>
     </section>
 
@@ -211,71 +164,14 @@
     <section class="content-grid">
       <div class="container grid-2col">
 
-        <!-- LINKERKOLOM: SPELERSLIJST -->
         <div class="col-left">
           <section class="block">
             <h2>Spelers in de kijker</h2>
 
-            <article class="vacature-card trainer-card">
-              <div class="vacature-main trainer-main">
-                <h3>Yara De Wilde</h3>
-                <p class="vacature-club">Middenvelder – U21 – Regio Antwerpen / Noord-Brabant</p>
-                <p class="vacature-meta">
-                  <span class="tag">Jeugd U18–U21</span>
-                  <span class="tag">Technisch middenveld</span>
-                  <span class="tag tag-type">Bereid te spelen in BE &amp; NL</span>
-                </p>
-                <p class="vacature-teaser">
-                  Creatieve middenvelder met goed spelinzicht en vista, ervaring in regionale en provinciale reeksen.
-                  Wil graag een volgende stap zetten in een ambitieuze jeugd- of beloftenploeg in België of Nederland.
-                </p>
-              </div>
-              <div class="vacature-side trainer-side">
-                <p class="vacature-deadline"><strong>Zoekt:</strong> U19/U21 of beloften, opleidingsgerichte club</p>
-                <a href="#" class="btn-primary btn-small">Bekijk profiel / contact</a>
-              </div>
-            </article>
-
-            <article class="vacature-card trainer-card">
-              <div class="vacature-main trainer-main">
-                <h3>Sam Verhoeven</h3>
-                <p class="vacature-club">Keeper – Senioren – Regio Limburg (BE)</p>
-                <p class="vacature-meta">
-                  <span class="tag">Senioren</span>
-                  <span class="tag">Provinciaal / nationaal</span>
-                  <span class="tag tag-type">Voorkeur België</span>
-                </p>
-                <p class="vacature-teaser">
-                  Doelman met meerdere jaren ervaring in 2e en 3e provinciale. Sterk in één-tegen-één en coaching van de verdediging.
-                  Staat open voor een sportief project in Limburg (BE), eventueel grensstreek met NL.
-                </p>
-              </div>
-              <div class="vacature-side trainer-side">
-                <p class="vacature-deadline"><strong>Zoekt:</strong> Seniorenploeg met duidelijke ambities</p>
-                <a href="#" class="btn-primary btn-small">Bekijk profiel / contact</a>
-              </div>
-            </article>
-
-            <article class="vacature-card trainer-card">
-              <div class="vacature-main trainer-main">
-                <h3>Lisa Jansen</h3>
-                <p class="vacature-club">Flankaanvalster – Dames – Regio Randstad</p>
-                <p class="vacature-meta">
-                  <span class="tag">Dames</span>
-                  <span class="tag">Hoger amateurniveau</span>
-                  <span class="tag tag-type">Nederland &amp; grensstreek BE</span>
-                </p>
-                <p class="vacature-teaser">
-                  Snelle flankaanvalster met goede voorzet en scorend vermogen. Ervaring in damescompetities in Nederland.
-                  Bereid om voor een interessant project ook naar België te komen in de grensstreek.
-                </p>
-              </div>
-              <div class="vacature-side trainer-side">
-                <p class="vacature-deadline"><strong>Zoekt:</strong> Damesploeg met duidelijke sportieve visie</p>
-                <a href="#" class="btn-primary btn-small">Bekijk profiel / contact</a>
-              </div>
-            </article>
-
+            <!-- Dynamisch gevulde lijst -->
+            <div id="player-list">
+              <p>Spelers worden geladen...</p>
+            </div>
           </section>
 
           <section class="bottom-ad">
@@ -285,28 +181,25 @@
           </section>
         </div>
 
-        <!-- RECHTERKOLOM: CTA + ADS -->
         <aside class="col-right">
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
 
           <section class="block block-cta">
             <h2>Spelersprofiel toevoegen</h2>
             <p>
-              Ben je speler en wil je graag opgemerkt worden door clubs in België of Nederland? 
-              Voeg je profiel toe via het formulier hieronder. Je kunt aangeven in welk land of 
-              in welke landen je graag zou spelen.
+              Wil je als speler gevonden worden door clubs in België en/of Nederland? 
+              Vul dan je profiel in via het formulier hieronder. Na controle verschijnt je profiel
+              in het overzicht.
             </p>
             <a class="btn-primary btn-block" href="#speler-form">Spelersprofiel doorgeven</a>
           </section>
 
           <section class="block">
-            <h3>Populaire zoekopdrachten</h3>
-            <ul class="list-links">
-              <li><a href="#">Aanvallers U17–U21 regio Kempen</a></li>
-              <li><a href="#">Keepers senioren provinciaal</a></li>
-              <li><a href="#">Damesploeg zoekt versterking</a></li>
-              <li><a href="#">Jeugdspelers voor IP-niveau</a></li>
-            </ul>
+            <h3>Tip voor spelers</h3>
+            <p>
+              Hoe concreter je bent over positie, niveau en regio, hoe groter de kans dat een club
+              jou selecteert in de zoekresultaten.
+            </p>
           </section>
 
           <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
@@ -322,139 +215,128 @@
           <h2>Spelersprofiel doorgeven</h2>
           <p class="form-intro">
             Vul dit formulier in om je spelersprofiel te laten opnemen op Voetbal4All.
-            Na controle wordt je profiel gepubliceerd. Het formulier wordt
-            verwerkt achter de schermen en doorgestuurd naar het beheer van Voetbal4All.
           </p>
           <form enctype="multipart/form-data">
             <div class="form-row">
-              <label for="sp-naam">Naam</label>
-              <input type="text" id="sp-naam" name="naam" required>
+              <label for="pl-naam-f">Naam speler</label>
+              <input type="text" id="pl-naam-f" name="naam" required>
             </div>
 
             <div class="form-row form-row-half">
               <div>
-                <label for="sp-leeftijd">Geboortejaar</label>
-                <select id="sp-leeftijd" name="geboortejaar">
+                <label for="pl-jaar-f">Geboortejaar</label>
+                <select id="pl-jaar-f" name="geboortejaar" required>
                   <option value="">Maak een keuze</option>
-                  <option value="2020">2020</option>
-                  <option value="2019">2019</option>
-                  <option value="2018">2018</option>
-                  <option value="2017">2017</option>
-                  <option value="2016">2016</option>
-                  <option value="2015">2015</option>
-                  <option value="2014">2014</option>
-                  <option value="2013">2013</option>
-                  <option value="2012">2012</option>
-                  <option value="2011">2011</option>
-                  <option value="2010">2010</option>
-                  <option value="2009">2009</option>
-                  <option value="2008">2008</option>
-                  <option value="2007">2007</option>
-                  <option value="2006">2006</option>
-                  <option value="2005">2005</option>
-                  <option value="2004">2004</option>
-                  <option value="2003">2003</option>
-                  <option value="2002">2002</option>
-                  <option value="2001">2001</option>
-                  <option value="2000">2000</option>
-                  <option value="1999">1999</option>
-                  <option value="1998">1998</option>
-                  <option value="1997">1997</option>
-                  <option value="1996">1996</option>
-                  <option value="1995">1995</option>
-                  <option value="1994">1994</option>
-                  <option value="1993">1993</option>
-                  <option value="1992">1992</option>
-                  <option value="1991">1991</option>
-                  <option value="1990">1990</option>
                 </select>
               </div>
               <div>
-                <label for="sp-positie">Positie</label>
-                <input type="text" id="sp-positie" name="positie" placeholder="bv. centrale verdediger, 6, 10, flankaanvaller, ...">
+                <label for="pl-geslacht-f">Dames / heren</label>
+                <select id="pl-geslacht-f" name="geslacht" required>
+                  <option value="">Maak een keuze</option>
+                  <option value="Heren">Heren</option>
+                  <option value="Dames">Dames</option>
+                </select>
               </div>
-            </div>
-
-            <div class="form-row" id="sp-ouder-row" style="display:none;">
-              <label>
-                <input type="checkbox" id="sp-ouder-confirm" name="ouder_confirm">
-                Dit formulier werd ingevuld door een ouder/voogd of met expliciete toestemming van een ouder/voogd.
-              </label>
-              <small>Verplicht voor spelers jonger dan 18 jaar.</small>
             </div>
 
             <div class="form-row form-row-half">
               <div>
-                <label>Geslacht / type ploeg</label>
+                <label>Landen waarin je wil spelen</label>
                 <div style="display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.9rem;">
-                  <label><input type="radio" name="geslacht" value="heren"> Heren</label>
-                  <label><input type="radio" name="geslacht" value="dames"> Dames</label>
-                  <label><input type="radio" name="geslacht" value="onverschillig" checked> Onverschillig</label>
+                  <label><input type="checkbox" id="pl-land-be" name="land_be" value="BE"> België</label>
+                  <label><input type="checkbox" id="pl-land-nl" name="land_nl" value="NL"> Nederland</label>
                 </div>
+                <small>Vink beide aan als je openstaat voor clubs in België én Nederland.</small>
               </div>
               <div>
-                <label>Landen waar je wil spelen</label>
-                <div style="display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.9rem;">
-                  <label><input type="checkbox" id="sp-land-be" name="land_be" value="BE"> België</label>
-                  <label><input type="checkbox" id="sp-land-nl" name="land_nl" value="NL"> Nederland</label>
-                </div>
-                <small>Je mag beide landen aanvinken als je openstaat voor mogelijkheden in België én Nederland.</small>
+                <label for="pl-regio-f">Regio / provincie (voorkeur)</label>
+                <select id="pl-regio-f" name="regio">
+                  <option value="">Maak een keuze</option>
+                </select>
               </div>
             </div>
 
             <div class="form-row form-row-half">
               <div>
-                <label for="sp-regio">Regio / provincie (voorkeur)</label>
-                <select id="sp-regio" name="regio">
+                <label for="pl-leeftijdcat-f">Leeftijdscategorie</label>
+                <select id="pl-leeftijdcat-f" name="leeftijdscategorie" required>
                   <option value="">Maak een keuze</option>
+                  <option value="U5">U5</option>
+                  <option value="U6">U6</option>
+                  <option value="U7">U7</option>
+                  <option value="U8">U8</option>
+                  <option value="U9">U9</option>
+                  <option value="U10">U10</option>
+                  <option value="U11">U11</option>
+                  <option value="U12">U12</option>
+                  <option value="U13">U13</option>
+                  <option value="U14">U14</option>
+                  <option value="U15">U15</option>
+                  <option value="U16">U16</option>
+                  <option value="U17">U17</option>
+                  <option value="U18">U18</option>
+                  <option value="U19">U19</option>
+                  <option value="U21">U21</option>
+                  <option value="Beloften">Beloften</option>
+                  <option value="Eerste elftal heren">Eerste elftal heren</option>
+                  <option value="Eerste elftal dames">Eerste elftal dames</option>
                 </select>
               </div>
               <div>
-                <label for="sp-niveau">Huidig / gewenst niveau</label>
-                <select id="sp-niveau" name="niveau">
+                <label for="pl-niveau-f">Gewenst niveau</label>
+                <select id="pl-niveau-f" name="niveau">
                   <option value="">Maak een keuze</option>
                 </select>
               </div>
             </div>
 
             <div class="form-row">
-              <label for="sp-ervaring">Ervaring / clubs</label>
-              <textarea id="sp-ervaring" name="ervaring" rows="4" placeholder="Geef een korte samenvatting van je ervaring, posities en (jeugd)clubs."></textarea>
+              <label for="pl-positie-f">Voorkeurspositie</label>
+              <input type="text" id="pl-positie-f" name="positie" placeholder="bv. centrale verdediger, flankaanvaller, doelman, ...">
             </div>
 
             <div class="form-row form-row-half">
               <div>
-                <label for="sp-beschikbaarheid">Beschikbaarheid</label>
-                <select id="sp-beschikbaarheid" name="beschikbaarheid">
+                <label for="pl-beschikbaarheid-f">Beschikbaarheid</label>
+                <select id="pl-beschikbaarheid-f" name="beschikbaarheid">
                   <option value="">Maak een keuze</option>
-                  <option value="direct">Direct beschikbaar</option>
-                  <option value="winterstop">Vanaf winterstop</option>
-                  <option value="einde-seizoen">Vanaf einde huidig seizoen</option>
-                  <option value="volgend-seizoen">Vanaf volgend seizoen</option>
-                  <option value="in-overleg">In overleg</option>
+                  <option value="Direct beschikbaar">Direct beschikbaar</option>
+                  <option value="Vanaf winterstop">Vanaf winterstop</option>
+                  <option value="Vanaf volgend seizoen">Vanaf volgend seizoen</option>
+                  <option value="In overleg">In overleg</option>
                 </select>
               </div>
               <div>
-                <label for="sp-cv">CV uploaden (optioneel, PDF)</label>
-                <input type="file" id="sp-cv" name="cv" accept="application/pdf">
-                <small>Optioneel: voeg een voetbal-CV toe in PDF-formaat.</small>
+                <label for="pl-minderjarig-ouder">
+                  Minderjarig: ouder/voogd heeft dit formulier ingevuld
+                </label>
+                <div>
+                  <input type="checkbox" id="pl-minderjarig-ouder" name="minderjarig_ouder">
+                </div>
+                <small>Bij spelers jonger dan 18 jaar moet dit aangevinkt zijn.</small>
+              </div>
+            </div>
+
+            <div class="form-row form-row-half">
+              <div>
+                <label for="pl-cv">CV uploaden (optioneel, PDF)</label>
+                <input type="file" id="pl-cv" name="cv" accept="application/pdf">
+              </div>
+              <div>
+                <label for="pl-video">Video-link (optioneel – YouTube/Vimeo)</label>
+                <input type="url" id="pl-video" name="video" placeholder="https://...">
               </div>
             </div>
 
             <div class="form-row">
-              <label for="sp-video">Video-link (YouTube of Vimeo, optioneel)</label>
-              <input type="url" id="sp-video" name="video" placeholder="https://www.youtube.com/... of https://vimeo.com/...">
+              <label for="pl-profieltekst-f">Korte profieltekst</label>
+              <textarea id="pl-profieltekst-f" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor: kwaliteiten, ervaring, verwachtingen."></textarea>
             </div>
 
-            <div class="form-row">
-              <label for="sp-contactinfo">Contactinfo voor clubs</label>
-              <input type="text" id="sp-contactinfo" name="contactinfo" placeholder="telefoonnummer of webformulier">
-            </div>
-
-            <div class="form-row">
-              <label for="sp-profieltekst">Korte profieltekst</label>
-              <textarea id="sp-profieltekst" name="profieltekst" rows="5" placeholder="Stel jezelf kort voor aan clubs in België en Nederland."></textarea>
-            </div>
+            <p class="form-intro">
+              In deze eerste fase wordt je profiel na verzending niet automatisch gepubliceerd,
+              maar door de beheerder nagekeken en vervolgens goedgekeurd of geweigerd.
+            </p>
 
             <button type="submit" class="btn-primary">Spelersprofiel verzenden</button>
           </form>
@@ -471,29 +353,162 @@
   </footer>
 
   <script>
-    // Dynamische filtering van regio's op basis van landkeuze (bovenaan)
+    // Dynamisch geboortejaren invullen (1990 t.e.m. huidige jaar - 4)
     (function() {
-      const landSelect = document.getElementById('sp-filter-land');
-      const regioSelect = document.getElementById('sp-filter-regio');
+      const selectFilter = document.getElementById('pl-filter-jaar');
+      const selectForm = document.getElementById('pl-jaar-f');
+      const currentYear = new Date().getFullYear();
+      const maxYear = currentYear - 4;
+      const minYear = 1990;
+
+      if (selectFilter) {
+        selectFilter.innerHTML = '';
+        for (let y = maxYear; y >= minYear; y--) {
+          const opt = document.createElement('option');
+          opt.value = String(y);
+          opt.textContent = String(y);
+          selectFilter.appendChild(opt);
+        }
+      }
+
+      if (selectForm) {
+        for (let y = maxYear; y >= minYear; y--) {
+          const opt = document.createElement('option');
+          opt.value = String(y);
+          opt.textContent = String(y);
+          selectForm.appendChild(opt);
+        }
+      }
+    })();
+
+    // Minderjarig checkbox verplicht maken indien geboortejaar > currentYear - 18
+    (function() {
+      const jaarSelect = document.getElementById('pl-jaar-f');
+      const minderjarigCheckbox = document.getElementById('pl-minderjarig-ouder');
+      if (!jaarSelect || !minderjarigCheckbox) return;
+
+      function updateMinderjarig() {
+        const val = parseInt(jaarSelect.value, 10);
+        const currentYear = new Date().getFullYear();
+        if (!isNaN(val) && val > currentYear - 18) {
+          minderjarigCheckbox.required = true;
+        } else {
+          minderjarigCheckbox.required = false;
+        }
+      }
+
+      jaarSelect.addEventListener('change', updateMinderjarig);
+    })();
+
+    // Dynamische regio- en niveau-opties in het spelersformulier
+    (function() {
+      const landBe = document.getElementById('pl-land-be');
+      const landNl = document.getElementById('pl-land-nl');
+      const regioForm = document.getElementById('pl-regio-f');
+      const niveauForm = document.getElementById('pl-niveau-f');
+      if (!landBe || !landNl || !regioForm || !niveauForm) return;
+
+      const regioOptionsForm = [
+        { value: 'Antwerpen', label: 'Antwerpen', land: 'BE' },
+        { value: 'Limburg (BE)', label: 'Limburg (BE)', land: 'BE' },
+        { value: 'Vlaams-Brabant', label: 'Vlaams-Brabant', land: 'BE' },
+        { value: 'Oost-Vlaanderen', label: 'Oost-Vlaanderen', land: 'BE' },
+        { value: 'West-Vlaanderen', label: 'West-Vlaanderen', land: 'BE' },
+        { value: 'Brussel', label: 'Brussel', land: 'BE' },
+        { value: 'Noord-Brabant', label: 'Noord-Brabant', land: 'NL' },
+        { value: 'Limburg (NL)', label: 'Limburg (NL)', land: 'NL' },
+        { value: 'Zeeland', label: 'Zeeland', land: 'NL' },
+        { value: 'Zuid-Holland', label: 'Zuid-Holland', land: 'NL' },
+        { value: 'Noord-Holland', label: 'Noord-Holland', land: 'NL' },
+        { value: 'Utrecht', label: 'Utrecht', land: 'NL' },
+        { value: 'Gelderland', label: 'Gelderland', land: 'NL' },
+        { value: 'Overijssel', label: 'Overijssel', land: 'NL' },
+        { value: 'Groningen', label: 'Groningen', land: 'NL' },
+        { value: 'Friesland', label: 'Friesland', land: 'NL' },
+        { value: 'Drenthe', label: 'Drenthe', land: 'NL' },
+        { value: 'Flevoland', label: 'Flevoland', land: 'NL' }
+      ];
+
+      const niveauOptionsForm = [
+        { value: 'Jeugd – gewestelijk (BE)', label: 'Jeugd – gewestelijk (BE)', land: 'BE' },
+        { value: 'Jeugd – provinciaal (BE)', label: 'Jeugd – provinciaal (BE)', land: 'BE' },
+        { value: 'Jeugd – interprovinciaal / elite (BE)', label: 'Jeugd – interprovinciaal / elite (BE)', land: 'BE' },
+        { value: 'Senioren – recreatief / lager', label: 'Senioren – recreatief / lager', land: 'BE' },
+        { value: 'Senioren – provinciaal / klasse', label: 'Senioren – provinciaal / klasse', land: 'BE' },
+        { value: 'Senioren – nationaal / divisie', label: 'Senioren – nationaal / divisie', land: 'BE' },
+        { value: 'Dames – alle niveaus', label: 'Dames – alle niveaus', land: 'BE' },
+        { value: 'Jeugd – regionaal (NL)', label: 'Jeugd – regionaal (NL)', land: 'NL' },
+        { value: 'Jeugd – landelijk (NL)', label: 'Jeugd – landelijk (NL)', land: 'NL' },
+        { value: 'Senioren – recreatief / lager', label: 'Senioren – recreatief / lager', land: 'NL' },
+        { value: 'Senioren – provinciaal / klasse', label: 'Senioren – provinciaal / klasse', land: 'NL' },
+        { value: 'Senioren – nationaal / divisie', label: 'Senioren – nationaal / divisie', land: 'NL' },
+        { value: 'Dames – alle niveaus', label: 'Dames – alle niveaus', land: 'NL' }
+      ];
+
+      function updateFormSelects() {
+        const be = landBe.checked;
+        const nl = landNl.checked;
+
+        regioForm.innerHTML = '';
+        const defR = document.createElement('option');
+        defR.value = '';
+        defR.textContent = 'Maak een keuze';
+        regioForm.appendChild(defR);
+        regioOptionsForm.forEach(function(o) {
+          if ((!be && !nl) || (o.land === 'BE' && be) || (o.land === 'NL' && nl)) {
+            const opt = document.createElement('option');
+            opt.value = o.value;
+            opt.textContent = o.label;
+            regioForm.appendChild(opt);
+          }
+        });
+
+        niveauForm.innerHTML = '';
+        const defN = document.createElement('option');
+        defN.value = '';
+        defN.textContent = 'Maak een keuze';
+        niveauForm.appendChild(defN);
+        niveauOptionsForm.forEach(function(o) {
+          if ((!be && !nl) || (o.land === 'BE' && be) || (o.land === 'NL' && nl)) {
+            const opt = document.createElement('option');
+            opt.value = o.value;
+            opt.textContent = o.label;
+            niveauForm.appendChild(opt);
+          }
+        });
+      }
+
+      landBe.addEventListener('change', updateFormSelects);
+      landNl.addEventListener('change', updateFormSelects);
+
+      updateFormSelects();
+    })();
+
+    // Regiofilter bovenaan spelerspagina dynamisch aanpassen op basis van landfilter
+    (function() {
+      const landSelect = document.getElementById('pl-filter-land');
+      const regioSelect = document.getElementById('pl-filter-regio');
       if (!landSelect || !regioSelect) return;
 
-      const allOptions = Array.from(regioSelect.options).map(opt => ({
-        value: opt.value,
-        text: opt.textContent,
-        land: opt.getAttribute('data-land') || '',
-        isDefault: opt.value === ''
-      }));
+      const allOptions = Array.from(regioSelect.options).map(function(opt) {
+        return {
+          value: opt.value,
+          text: opt.textContent,
+          land: opt.getAttribute('data-land') || '',
+          isDefault: opt.value === ''
+        };
+      });
 
       function populateRegios(land) {
         regioSelect.innerHTML = '';
-        const defaultOpt = allOptions.find(o => o.isDefault);
-        if (defaultOpt) {
+        const def = allOptions.find(function(o){ return o.isDefault; });
+        if (def) {
           const o = document.createElement('option');
-          o.value = defaultOpt.value;
-          o.textContent = defaultOpt.text;
+          o.value = def.value;
+          o.textContent = def.text;
           regioSelect.appendChild(o);
         }
-        allOptions.forEach(o => {
+        allOptions.forEach(function(o) {
           if (o.isDefault) return;
           if (!land || !o.land || o.land === land) {
             const opt = document.createElement('option');
@@ -512,130 +527,143 @@
       populateRegios('');
     })();
 
-    // Dynamische regio- en niveau-opties in het formulier op basis van landenkeuze
+    // Spelers dynamisch laden uit data/spelers.json
     (function() {
-      const landBe = document.getElementById('sp-land-be');
-      const landNl = document.getElementById('sp-land-nl');
-      const regioForm = document.getElementById('sp-regio');
-      const niveauForm = document.getElementById('sp-niveau');
+      const listEl = document.getElementById('player-list');
+      const filterLand = document.getElementById('pl-filter-land');
+      const filterRegio = document.getElementById('pl-filter-regio');
+      const filterGeslacht = document.getElementById('pl-filter-geslacht');
+      const filterLeeftijd = document.getElementById('pl-filter-leeftijd');
+      const filterJaar = document.getElementById('pl-filter-jaar');
+      const filterNiveau = document.getElementById('pl-filter-niveau');
+      const filterBeschikbaarheid = document.getElementById('pl-filter-beschikbaarheid');
 
-      if (!landBe || !landNl || !regioForm || !niveauForm) return;
+      let spelers = [];
 
-      const regioOptionsForm = [
-        { value: 'antwerpen', label: 'Antwerpen', land: 'BE' },
-        { value: 'limburg-be', label: 'Limburg (BE)', land: 'BE' },
-        { value: 'vlaams-brabant', label: 'Vlaams-Brabant', land: 'BE' },
-        { value: 'oost-vlaanderen', label: 'Oost-Vlaanderen', land: 'BE' },
-        { value: 'west-vlaanderen', label: 'West-Vlaanderen', land: 'BE' },
-        { value: 'brussel', label: 'Brussel', land: 'BE' },
-        { value: 'noord-brabant', label: 'Noord-Brabant', land: 'NL' },
-        { value: 'limburg-nl', label: 'Limburg (NL)', land: 'NL' },
-        { value: 'zeeland', label: 'Zeeland', land: 'NL' },
-        { value: 'zuid-holland', label: 'Zuid-Holland', land: 'NL' },
-        { value: 'noord-holland', label: 'Noord-Holland', land: 'NL' },
-        { value: 'utrecht', label: 'Utrecht', land: 'NL' },
-        { value: 'gelderland', label: 'Gelderland', land: 'NL' },
-        { value: 'overijssel', label: 'Overijssel', land: 'NL' },
-        { value: 'groningen', label: 'Groningen', land: 'NL' },
-        { value: 'friesland', label: 'Friesland', land: 'NL' },
-        { value: 'drenthe', label: 'Drenthe', land: 'NL' },
-        { value: 'flevoland', label: 'Flevoland', land: 'NL' }
-      ];
+      function render() {
+        if (!listEl) return;
+        let filtered = spelers.filter(s => s.status === 'approved');
 
-      const niveauOptionsForm = [
-        // België - jeugd
-        { value: 'jeugd-gewestelijk-be', label: 'Jeugd – gewestelijk (BE)', land: 'BE' },
-        { value: 'jeugd-provinciaal-be', label: 'Jeugd – provinciaal (BE)', land: 'BE' },
-        { value: 'jeugd-interprovinciaal-be', label: 'Jeugd – interprovinciaal (BE)', land: 'BE' },
-        { value: 'jeugd-elite-be', label: 'Jeugd – elite (BE)', land: 'BE' },
-        // Nederland - jeugd
-        { value: 'jeugd-regionaal-nl', label: 'Jeugd – regionaal (NL)', land: 'NL' },
-        { value: 'jeugd-landelijk-nl', label: 'Jeugd – landelijk (NL)', land: 'NL' },
-        // België - senioren
-        { value: 'senior-recreatief-be', label: 'Senioren – recreatief / lager niveau (BE)', land: 'BE' },
-        { value: 'senior-provinciaal-be', label: 'Senioren – provinciaal (BE)', land: 'BE' },
-        { value: 'senior-interprovinciaal-be', label: 'Senioren – interprovinciaal / hoger regionaal (BE)', land: 'BE' },
-        { value: 'senior-nationaal-be', label: 'Senioren – nationaal / hoger amateur (BE)', land: 'BE' },
-        // Nederland - senioren
-        { value: 'nl-4e-klasse', label: 'Senioren – 4e klasse / lager (NL)', land: 'NL' },
-        { value: 'nl-3e-2e-klasse', label: 'Senioren – 3e / 2e klasse (NL)', land: 'NL' },
-        { value: 'nl-1e-hoofdklasse', label: 'Senioren – 1e klasse / Hoofdklasse (NL)', land: 'NL' },
-        { value: 'nl-divisie', label: 'Senioren – Divisie / topamateur (NL)', land: 'NL' }
-      ];
+        const landVal = filterLand.value;
+        const regioVal = filterRegio.value;
+        const geslachtVal = filterGeslacht.value;
+        const leeftijdVal = filterLeeftijd.value;
+        const nivVal = filterNiveau.value;
+        const besVal = filterBeschikbaarheid.value;
 
-      function updateFormSelects() {
-        const be = landBe.checked;
-        const nl = landNl.checked;
+        let jarenVals = [];
+        if (filterJaar && filterJaar.selectedOptions && filterJaar.selectedOptions.length > 0) {
+          jarenVals = Array.from(filterJaar.selectedOptions).map(o => o.value);
+        }
 
-        // Regio
-        regioForm.innerHTML = '';
-        const defR = document.createElement('option');
-        defR.value = '';
-        defR.textContent = 'Maak een keuze';
-        regioForm.appendChild(defR);
+        if (landVal) {
+          filtered = filtered.filter(s => Array.isArray(s.land) && s.land.includes(landVal));
+        }
+        if (regioVal) {
+          filtered = filtered.filter(s => s.regio === regioVal);
+        }
+        if (geslachtVal) {
+          filtered = filtered.filter(s => s.geslacht === geslachtVal);
+        }
+        if (leeftijdVal) {
+          filtered = filtered.filter(s => s.leeftijdscategorie === leeftijdVal);
+        }
+        if (jarenVals.length > 0) {
+          filtered = filtered.filter(s => jarenVals.includes(String(s.geboortejaar)));
+        }
+        if (nivVal) {
+          filtered = filtered.filter(s => s.niveau === nivVal);
+        }
+        if (besVal) {
+          filtered = filtered.filter(s => s.beschikbaarheid === besVal);
+        }
 
-        regioOptionsForm.forEach(o => {
-          if ((o.land === 'BE' && be) || (o.land === 'NL' && nl) || (!be && !nl)) {
-            const opt = document.createElement('option');
-            opt.value = o.value;
-            opt.textContent = o.label;
-            regioForm.appendChild(opt);
-          }
-        });
-
-        // Niveau
-        niveauForm.innerHTML = '';
-        const defN = document.createElement('option');
-        defN.value = '';
-        defN.textContent = 'Maak een keuze';
-        niveauForm.appendChild(defN);
-
-        niveauOptionsForm.forEach(o => {
-          if ((o.land === 'BE' && be) || (o.land === 'NL' && nl) || (!be && !nl)) {
-            const opt = document.createElement('option');
-            opt.value = o.value;
-            opt.textContent = o.label;
-            niveauForm.appendChild(opt);
-          }
-        });
-      }
-
-      landBe.addEventListener('change', updateFormSelects);
-      landNl.addEventListener('change', updateFormSelects);
-
-      // Initiale opvulling (geen land gekozen = alle opties tonen)
-      updateFormSelects();
-    })();
-
-    // Minderjarigen-check: ouder/voogd bevestiging verplicht maken bij < 18 jaar
-    (function() {
-      const jaarSelect = document.getElementById('sp-leeftijd');
-      const ouderRow = document.getElementById('sp-ouder-row');
-      const ouderCheckbox = document.getElementById('sp-ouder-confirm');
-      if (!jaarSelect || !ouderRow || !ouderCheckbox) return;
-
-      const currentYear = new Date().getFullYear();
-
-      function updateGuardianRequirement() {
-        const year = parseInt(jaarSelect.value, 10);
-        if (isNaN(year)) {
-          ouderRow.style.display = 'none';
-          ouderCheckbox.required = false;
-          ouderCheckbox.checked = false;
+        if (!filtered.length) {
+          listEl.innerHTML = '<p>Geen spelers gevonden met de huidige filters.</p>';
           return;
         }
-        const age = currentYear - year;
-        if (age < 18) {
-          ouderRow.style.display = 'block';
-          ouderCheckbox.required = true;
-        } else {
-          ouderRow.style.display = 'none';
-          ouderCheckbox.required = false;
-          ouderCheckbox.checked = false;
-        }
+
+        listEl.innerHTML = '';
+        filtered.forEach(s => {
+          const article = document.createElement('article');
+          article.className = 'vacature-card trainer-card';
+
+          const mainDiv = document.createElement('div');
+          mainDiv.className = 'vacature-main trainer-main';
+
+          const h3 = document.createElement('h3');
+          h3.textContent = s.naam;
+          mainDiv.appendChild(h3);
+
+          const pInfo = document.createElement('p');
+          pInfo.className = 'vacature-club';
+          const parts = [];
+          if (s.leeftijdscategorie) parts.push(s.leeftijdscategorie);
+          if (s.geboortejaar) parts.push('° ' + s.geboortejaar);
+          if (s.regio) parts.push(s.regio);
+          pInfo.textContent = parts.join(' | ');
+          mainDiv.appendChild(pInfo);
+
+          const pMeta = document.createElement('p');
+          pMeta.className = 'vacature-meta';
+          const tags = Array.isArray(s.tags) ? s.tags : [];
+          tags.forEach((tag, idx) => {
+            const span = document.createElement('span');
+            span.className = 'tag' + (idx === tags.length - 1 ? ' tag-type' : '');
+            span.textContent = tag;
+            pMeta.appendChild(span);
+          });
+          mainDiv.appendChild(pMeta);
+
+          const pTeaser = document.createElement('p');
+          pTeaser.className = 'vacature-teaser';
+          pTeaser.textContent = s.profieltekst || '';
+          mainDiv.appendChild(pTeaser);
+
+          const sideDiv = document.createElement('div');
+          sideDiv.className = 'vacature-side trainer-side';
+
+          const pZoekt = document.createElement('p');
+          pZoekt.className = 'vacature-deadline';
+          const zoektText = s.zoekt || 'Op zoek naar passende club in gewenste regio.';
+          pZoekt.innerHTML = '<strong>Zoekt:</strong> ' + zoektText;
+          sideDiv.appendChild(pZoekt);
+
+          const btn = document.createElement('a');
+          btn.href = '#';
+          btn.className = 'btn-primary btn-small';
+          btn.textContent = 'Bekijk profiel / contact';
+          sideDiv.appendChild(btn);
+
+          article.appendChild(mainDiv);
+          article.appendChild(sideDiv);
+          listEl.appendChild(article);
+        });
       }
 
-      jaarSelect.addEventListener('change', updateGuardianRequirement);
+      function attachFilter(el) {
+        if (!el) return;
+        el.addEventListener('change', render);
+      }
+
+      attachFilter(filterLand);
+      attachFilter(filterRegio);
+      attachFilter(filterGeslacht);
+      attachFilter(filterLeeftijd);
+      attachFilter(filterJaar);
+      attachFilter(filterNiveau);
+      attachFilter(filterBeschikbaarheid);
+
+      fetch('data/spelers.json')
+        .then(resp => resp.json())
+        .then(data => {
+          spelers = data.spelers || [];
+          render();
+        })
+        .catch(err => {
+          console.error('Fout bij laden spelers.json', err);
+          if (listEl) listEl.innerHTML = '<p>Kon de spelerslijst niet laden.</p>';
+        });
     })();
   </script>
 

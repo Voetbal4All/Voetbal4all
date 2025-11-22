@@ -1,0 +1,71 @@
+{
+  "spelers": [
+    {
+      "id": "pl-001",
+      "status": "approved",
+      "naam": "Jens Peeters",
+      "geboortejaar": 2008,
+      "land": [
+        "BE"
+      ],
+      "regio": "Antwerpen",
+      "geslacht": "Heren",
+      "leeftijdscategorie": "U17",
+      "niveau": "Jeugd – provinciaal (BE)",
+      "positie": "Centrale middenvelder",
+      "beschikbaarheid": "Vanaf volgend seizoen",
+      "profieltekst": "Technisch sterke centrale middenvelder met goed spelinzicht en loopvermogen. Speelt graag in een opleidingsgerichte omgeving met aandacht voor combinatievoetbal.",
+      "zoekt": "Provinciale club in regio Kempen / Antwerpen",
+      "tags": [
+        "U17",
+        "Middenveld",
+        "Provinciaal (BE)"
+      ]
+    },
+    {
+      "id": "pl-002",
+      "status": "approved",
+      "naam": "Lotte Vermeulen",
+      "geboortejaar": 2006,
+      "land": [
+        "BE",
+        "NL"
+      ],
+      "regio": "Limburg",
+      "geslacht": "Dames",
+      "leeftijdscategorie": "U19",
+      "niveau": "Jeugd – interprovinciaal / elite (BE)",
+      "positie": "Aanvaller",
+      "beschikbaarheid": "Direct beschikbaar",
+      "profieltekst": "Snelle en doelgerichte flankaanvalster met ervaring op interprovinciaal niveau. Gemotiveerd om de stap te zetten naar een ambitieus dames- of beloftenelftal.",
+      "zoekt": "Ambitieuze damesploeg of beloften-team in Limburg (BE/NL)",
+      "tags": [
+        "U19",
+        "Dames",
+        "Aanvaller",
+        "Elite / IP"
+      ]
+    },
+    {
+      "id": "pl-003",
+      "status": "new",
+      "naam": "TEST Speler (nog niet goedgekeurd)",
+      "geboortejaar": 2010,
+      "land": [
+        "NL"
+      ],
+      "regio": "Noord-Brabant",
+      "geslacht": "Heren",
+      "leeftijdscategorie": "U15",
+      "niveau": "Jeugd – regionaal (NL)",
+      "positie": "Verdediger",
+      "beschikbaarheid": "In overleg",
+      "profieltekst": "Dit profiel wordt pas zichtbaar nadat de beheerder de status op 'approved' zet in spelers.json.",
+      "zoekt": "Jeugdclub regio Noord-Brabant",
+      "tags": [
+        "Test",
+        "Jeugd"
+      ]
+    }
+  ]
+}
