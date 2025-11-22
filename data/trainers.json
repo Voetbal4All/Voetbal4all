@@ -1,0 +1,73 @@
+{
+  "trainers": [
+    {
+      "id": "tr-001",
+      "status": "approved",
+      "naam": "Tom Janssens",
+      "land": [
+        "BE",
+        "NL"
+      ],
+      "regio": "Kempen / Noord-Brabant",
+      "licentie": "UEFA B",
+      "doelgroepen": [
+        "Jeugd",
+        "Senioren"
+      ],
+      "niveau": "Competitief niveau",
+      "beschikbaarheid": "Direct beschikbaar",
+      "profieltekst": "Ervaren trainer met focus op opleidingsgericht werken en duidelijke structuur, actief in de grensregio België–Nederland. Sterk in het ontwikkelen van een herkenbare speelstijl en samenwerking met de jeugdwerking.",
+      "zoekt": "Ambitieuze club met opleidingsvisie",
+      "tags": [
+        "Jeugd & Senioren",
+        "Competitief niveau",
+        "Direct beschikbaar"
+      ]
+    },
+    {
+      "id": "tr-002",
+      "status": "approved",
+      "naam": "Annelies De Smet",
+      "land": [
+        "BE",
+        "NL"
+      ],
+      "regio": "Limburg",
+      "licentie": "UEFA C",
+      "doelgroepen": [
+        "Jeugd",
+        "Dames"
+      ],
+      "niveau": "Jeugd U10–U17",
+      "beschikbaarheid": "Vanaf seizoen 2025–2026",
+      "profieltekst": "Enthousiaste jeugdtrainster met nadruk op technische ontwikkeling en spelinzicht. Ervaring in damesvoetbal en gemengde jeugdteams. Werkt graag in een club met duidelijke jeugd- en doorstroomvisie.",
+      "zoekt": "Opleidingsgerichte jeugdclub in BE of NL",
+      "tags": [
+        "Jeugd U10–U17",
+        "Dames & gemengd",
+        "Vanaf seizoen 2025–2026"
+      ]
+    },
+    {
+      "id": "tr-003",
+      "status": "new",
+      "naam": "Nieuwe Trainer (Nog niet goedgekeurd)",
+      "land": [
+        "BE"
+      ],
+      "regio": "Antwerpen",
+      "licentie": "UEFA C",
+      "doelgroepen": [
+        "Jeugd"
+      ],
+      "niveau": "Jeugd – breedtesport",
+      "beschikbaarheid": "In overleg",
+      "profieltekst": "Deze trainer wordt pas zichtbaar nadat de status op 'approved' wordt gezet.",
+      "zoekt": "Jeugdclub regio Antwerpen",
+      "tags": [
+        "Jeugd",
+        "In overleg"
+      ]
+    }
+  ]
+}
