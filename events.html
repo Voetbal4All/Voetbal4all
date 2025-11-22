@@ -7,168 +7,253 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-events">
+<header class="site-header">
+  <div class="container header-top">
+    <div class="header-logo">
+      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
+    </div>
+    <div class="header-ad"><div class="ad-slot ad-header">ADVERTENTIE</div></div>
+  </div>
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <ul>
+        <li><a href="index.html">Nieuws</a></li>
+        <li><a href="index.html#uitslagen">Uitslagen</a></li>
+        <li><a href="vacatures.html">Vacatures</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="spelers.html">Spelers</a></li>
+        <li><a href="events.html" class="is-active">Events</a></li>
+        <li><a href="meer.html">Meer</a></li>
+      </ul>
+      <a class="btn-nav" href="#event-form">Event toevoegen</a>
+    </div>
+  </nav>
+</header>
 
-  <header class="site-header">
-    <div class="container header-top">
-      <div class="header-logo">
-        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
-      </div>
-      <div class="header-ad">
-        <div class="ad-slot ad-header">ADVERTENTIE</div>
+<main class="page-main">
+  <section class="hero hero-small">
+    <div class="container hero-inner">
+      <div>
+        <h1>Events & tornooien</h1>
+        <p class="hero-text">
+          Clubs kunnen hier tornooien, oefenwedstrijden, stages en andere voetbalactiviteiten delen.
+          In een latere fase worden events dynamisch geladen vanuit de database.
+        </p>
       </div>
     </div>
-    <nav class="main-nav">
-      <div class="container nav-inner">
-        <ul>
-          <li><a href="index.html">Nieuws</a></li>
-          <li><a href="index.html#uitslagen">Uitslagen</a></li>
-          <li><a href="vacatures.html">Vacatures</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a href="spelers.html">Spelers</a></li>
-          <li><a class="is-active" href="events.html">Events</a></li>
-          <li><a href="meer.html">Meer</a></li>
-        </ul>
-        <a class="btn-nav" href="#event-form">Event toevoegen</a>
-      </div>
-    </nav>
-  </header>
+  </section>
 
-  <main class="page-main">
-    <section class="hero hero-small">
-      <div class="container hero-inner">
-        <div>
-          <h1>Events & tornooien</h1>
-          <p class="hero-text">
-            Clubs kunnen hier tornooien, oefenwedstrijden, stages en andere voetbalactiviteiten delen.
-            In een latere fase worden events dynamisch geladen vanuit de database.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="content-grid">
-      <div class="container grid-2col">
-        <div class="col-left">
-          <section class="block">
-            <h2>Overzicht events</h2>
-            <div id="event-list">
-              <p>Events worden in een volgende fase dynamisch geladen.</p>
-            </div>
-          </section>
-          <section class="bottom-ad">
-            <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
-          </section>
-        </div>
-        <aside class="col-right">
-          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
-          <section class="block block-cta">
-            <h2>Nieuw event aanmelden</h2>
-            <p>Gebruik het formulier hieronder om een event door te geven.</p>
-            <a class="btn-primary btn-block" href="#event-form">Event doorgeven</a>
-          </section>
-          <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="event-form" class="form-section">
-      <div class="container">
-        <div class="form-card">
-          <div class="form-logo" style="text-align:right; margin-bottom:0.5rem;">
-            <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:40px;">
+  <section class="content-grid">
+    <div class="container grid-2col">
+      <div class="col-left">
+        <section class="block">
+          <h2>Overzicht events</h2>
+          <div id="event-list">
+            <p>Events worden in een volgende fase dynamisch geladen.</p>
           </div>
-          <h2>Event doorgeven</h2>
-          <p class="form-intro">
-            Vul dit formulier in om een event of tornooi te laten opnemen op Voetbal4All.
-          </p>
+        </section>
+        <section class="bottom-ad">
+          <div class="ad-slot ad-leaderboard">ADVERTENTIE 728×90</div>
+        </section>
+      </div>
+      <aside class="col-right">
+        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+        <section class="block block-cta">
+          <h2>Nieuw event aanmelden</h2>
+          <p>Gebruik het formulier hieronder om een event door te geven.</p>
+          <a class="btn-primary btn-block" href="#event-form">Event doorgeven</a>
+        </section>
+        <div class="ad-slot ad-rect">ADVERTENTIE 300×250</div>
+      </aside>
+    </div>
+  </section>
 
-          <form>
-            <div class="form-row">
-              <label for="ev-naam-f">Naam event</label>
-              <input type="text" id="ev-naam-f" name="naam" required>
-            </div>
+  <section id="event-form" class="form-section">
+    <div class="container">
+      <div class="form-card">
+        <div class="form-logo" style="text-align:right; margin-bottom:0.5rem;">
+          <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
+        </div>
+        <h2>Event doorgeven</h2>
+        <p class="form-intro">
+          Vul dit formulier in om een event of tornooi te laten opnemen op Voetbal4All.
+        </p>
 
-            <div class="form-row">
-              <label for="ev-club-f">Organiserende club / organisatie</label>
-              <input type="text" id="ev-club-f" name="club" required>
-            </div>
+        <form enctype="multipart/form-data">
+          <div class="form-row">
+            <label for="ev-naam-f">Naam event</label>
+            <input type="text" id="ev-naam-f" name="naam" required>
+          </div>
 
-            <div class="form-row">
-              <label for="ev-email-f">E-mailadres voor automatische berichtgeving</label>
-              <input type="email" id="ev-email-f" name="email" required placeholder="club@voorbeeld.com">
-              <small>
-                Dit e-mailadres wordt gebruikt om u te informeren over de status van uw evenement
-                en de automatische verwijdering na de evenementdatum.
-              </small>
-            </div>
+          <div class="form-row">
+            <label for="ev-club-f">Organiserende club / organisatie</label>
+            <input type="text" id="ev-club-f" name="club" required>
+          </div>
 
-            <div class="form-row form-row-half">
-              <div>
-                <label for="ev-land-f">Land</label>
-                <select id="ev-land-f" name="land" required>
-                  <option value="">Maak een keuze</option>
-                  <option value="BE">België</option>
-                  <option value="NL">Nederland</option>
-                </select>
-              </div>
-              <div>
-                <label for="ev-locatie-f">Locatie / gemeente</label>
-                <input type="text" id="ev-locatie-f" name="locatie" placeholder="bv. Geel, Eindhoven, ...">
-              </div>
-            </div>
+          <div class="form-row">
+            <label for="ev-email-f">E-mailadres voor automatische berichtgeving</label>
+            <input type="email" id="ev-email-f" name="email" required placeholder="club@voorbeeld.com">
+            <small>
+              Dit e-mailadres wordt gebruikt om u te informeren over de status van uw evenement
+              en de automatische verwijdering na de evenementdatum.
+            </small>
+          </div>
 
-            <div class="form-row form-row-half">
-              <div>
-                <label for="ev-datum-f">Datum (of startdatum)</label>
-                <input type="date" id="ev-datum-f" name="datum" required>
-              </div>
-              <div>
-                <label for="ev-einddatum-f">Einddatum (optioneel)</label>
-                <input type="date" id="ev-einddatum-f" name="einddatum">
-              </div>
-            </div>
-
-            <div class="form-row">
-              <label for="ev-type-f">Type event</label>
-              <select id="ev-type-f" name="type">
+          <div class="form-row form-row-half">
+            <div>
+              <label for="ev-land-f">Land</label>
+              <select id="ev-land-f" name="land" required>
                 <option value="">Maak een keuze</option>
-                <option value="Tornooi">Tornooi</option>
-                <option value="Oefenwedstrijd">Oefenwedstrijd</option>
-                <option value="Stage / kamp">Stage / kamp</option>
-                <option value="Open training">Open training</option>
-                <option value="Infoavond / opleiding">Infoavond / opleiding</option>
-                <option value="Andere">Andere</option>
+                <option value="BE">België</option>
+                <option value="NL">Nederland</option>
               </select>
             </div>
-
-            <div class="form-row">
-              <label for="ev-omschrijving-f">Korte omschrijving</label>
-              <textarea id="ev-omschrijving-f" name="omschrijving" rows="5" placeholder="Beschrijf kort het event, doelgroep, niveau, inschrijvingsinfo, ..."></textarea>
+            <div>
+              <label for="ev-locatie-f">Locatie / gemeente</label>
+              <input type="text" id="ev-locatie-f" name="locatie" placeholder="bv. Geel, Eindhoven, ...">
             </div>
+          </div>
 
-            <p class="form-note">
-              <strong>Let op:</strong> Uw evenement blijft zichtbaar op Voetbal4All tot en met de datum van het evenement. 
-              Nadien wordt het automatisch verborgen om de website overzichtelijk en ordelijk te houden.
-            </p>
+          <div class="form-row form-row-half">
+            <div>
+              <label for="ev-datum-f">Datum (of startdatum)</label>
+              <input type="date" id="ev-datum-f" name="datum" required>
+            </div>
+            <div>
+              <label for="ev-einddatum-f">Einddatum (optioneel)</label>
+              <input type="date" id="ev-einddatum-f" name="einddatum">
+            </div>
+          </div>
 
-            <button type="submit" class="btn-primary">Event verzenden</button>
-          </form>
-        </div>
+          <div class="form-row">
+            <label for="ev-type-f">Type event</label>
+            <select id="ev-type-f" name="type">
+              <option value="">Maak een keuze</option>
+              <option value="Tornooi">Tornooi</option>
+              <option value="Oefenwedstrijd">Oefenwedstrijd</option>
+              <option value="Stage / kamp">Stage / kamp</option>
+              <option value="Open training">Open training</option>
+              <option value="Infoavond / opleiding">Infoavond / opleiding</option>
+              <option value="Andere">Andere</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="ev-flyer-f">Flyer / affiche uploaden (PDF of afbeelding)</label>
+            <input type="file" id="ev-flyer-f" name="flyer" accept="application/pdf,image/*">
+            <small>
+              In een volgende fase kan er een kleine versie van deze flyer naast de titel van het event
+              in het overzicht getoond worden.
+            </small>
+          </div>
+
+          <div class="form-row">
+            <label for="ev-omschrijving-f">Korte omschrijving</label>
+            <textarea id="ev-omschrijving-f" name="omschrijving" rows="5" placeholder="Beschrijf kort het event, doelgroep, niveau, inschrijvingsinfo, ..."></textarea>
+          </div>
+
+          <p class="form-note">
+            <strong>Let op:</strong> Uw evenement blijft zichtbaar op Voetbal4All tot en met de datum van het evenement. 
+            Nadien wordt het automatisch verborgen om de website overzichtelijk en ordelijk te houden.
+          </p>
+
+          <button type="submit" class="btn-primary">Event verzenden</button>
+        </form>
       </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner" style="text-align:center; padding:2rem 0;">
-      <div style="margin-bottom:0.75rem;">
-        <img src="assets/img/logo-voetbal4all.png"
-             alt="Voetbal4All logo"
-             class="footer-logo"
-             style="max-height:50px;">
-      </div>
-      <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
     </div>
-  </footer>
+  </section>
+</main>
 
+<footer class="site-footer">
+  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
+    <div style="margin-bottom:0.75rem;">
+      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
+    </div>
+    <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
+  </div>
+</footer>
+
+<script>
+// Events dynamisch tonen met eventuele flyer-thumbnail (als er een afbeelding-URL beschikbaar is)
+(function() {
+  const listEl = document.getElementById('event-list');
+  let events = [];
+
+  function render() {
+    if (!listEl) return;
+    if (!events.length) {
+      listEl.innerHTML = '<p>Nog geen events beschikbaar.</p>';
+      return;
+    }
+
+    listEl.innerHTML = '';
+    events.forEach(ev => {
+      const art = document.createElement('article');
+      art.className = 'vacature-card trainer-card';
+
+      const mainDiv = document.createElement('div');
+      mainDiv.className = 'vacature-main trainer-main';
+
+      const headerRow = document.createElement('div');
+      headerRow.style.display = 'flex';
+      headerRow.style.alignItems = 'center';
+      headerRow.style.gap = '0.75rem';
+
+      // Kleine flyer / thumbnail naast titel, als er een afbeelding-URL beschikbaar is
+      if (ev.flyer && /\.(png|jpe?g|gif|webp)$/i.test(ev.flyer)) {
+        const img = document.createElement('img');
+        img.src = ev.flyer;
+        img.alt = 'Flyer ' + (ev.naam || 'event');
+        img.style.width = '56px';
+        img.style.height = '56px';
+        img.style.objectFit = 'cover';
+        img.style.borderRadius = '4px';
+        headerRow.appendChild(img);
+      }
+
+      const h3 = document.createElement('h3');
+      h3.textContent = ev.naam || 'Onbekend event';
+      headerRow.appendChild(h3);
+      mainDiv.appendChild(headerRow);
+
+      const pMeta = document.createElement('p');
+      pMeta.className = 'vacature-meta';
+      const parts = [];
+      if (ev.datum) parts.push(ev.datum);
+      if (ev.einddatum) parts.push('tot ' + ev.einddatum);
+      if (ev.locatie) parts.push(ev.locatie);
+      if (ev.land) parts.push(ev.land === 'BE' ? 'België' : (ev.land === 'NL' ? 'Nederland' : ev.land));
+      pMeta.textContent = parts.join(' | ');
+      mainDiv.appendChild(pMeta);
+
+      const pTeaser = document.createElement('p');
+      pTeaser.className = 'vacature-teaser';
+      pTeaser.textContent = ev.omschrijving || '';
+      mainDiv.appendChild(pTeaser);
+
+      const sideDiv = document.createElement('div');
+      sideDiv.className = 'vacature-side trainer-side';
+      const btn = document.createElement('a');
+      btn.href = '#';
+      btn.className = 'btn-primary btn-small';
+      btn.textContent = 'Meer info / contact';
+      sideDiv.appendChild(btn);
+
+      art.appendChild(mainDiv);
+      art.appendChild(sideDiv);
+      listEl.appendChild(art);
+    });
+  }
+
+  // In een latere fase wordt data/events.json hier ingeladen
+  fetch('data/events.json')
+    .then(r => r.json())
+    .then(data => { events = data.events || []; render(); })
+    .catch(err => {
+      console.error(err);
+      // Als er nog geen JSON is, behouden we de placeholdertekst
+    });
+})();
+</script>
 </body>
 </html>

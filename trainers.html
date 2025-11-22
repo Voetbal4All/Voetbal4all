@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-trainers">
-
 <header class="site-header">
   <div class="container header-top">
     <div class="header-logo">
@@ -21,7 +20,7 @@
         <li><a href="index.html">Nieuws</a></li>
         <li><a href="index.html#uitslagen">Uitslagen</a></li>
         <li><a href="vacatures.html">Vacatures</a></li>
-        <li><a class="is-active" href="trainers.html">Trainers</a></li>
+        <li><a href="trainers.html" class="is-active">Trainers</a></li>
         <li><a href="spelers.html">Spelers</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="meer.html">Meer</a></li>
@@ -122,7 +121,7 @@
     <div class="container">
       <div class="form-card">
         <div class="form-logo" style="text-align:right; margin-bottom:0.5rem;">
-          <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:40px;">
+          <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
         </div>
         <h2>Trainerprofiel doorgeven</h2>
         <p class="form-intro">Vul dit formulier in om je trainerprofiel te laten opnemen.</p>
@@ -235,14 +234,14 @@
 <footer class="site-footer">
   <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
     <div style="margin-bottom:0.75rem;">
-      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:50px;">
+      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
     <p>© Voetbal4All – Platform voor clubs, trainers en spelers in België en Nederland. Website in ontwikkeling.</p>
   </div>
 </footer>
 
 <script>
-(function() {{
+(function() {
   const listEl = document.getElementById('trainer-list');
   const filterLand = document.getElementById('tr-filter-land');
   const filterRegio = document.getElementById('tr-filter-regio');
@@ -251,7 +250,7 @@
   const filterBesch = document.getElementById('tr-filter-beschikbaarheid');
   let trainers = [];
 
-  function render() {{
+  function render() {
     if (!listEl) return;
     let filtered = trainers.filter(t => t.status === 'approved' || !t.status);
 
@@ -263,17 +262,17 @@
 
     if (landVal) filtered = filtered.filter(t => Array.isArray(t.land) ? t.land.includes(landVal) : (t.land === landVal));
     if (regVal) filtered = filtered.filter(t => t.regio === regVal);
-    if (nivVal) filtered = filtered.filter(t => (t.niveau && t.niveau.indexOf(nivVal) !== -1));
+    if (nivVal) filtered = filtered.filter(t => (t.niveau && String(t.niveau).indexOf(nivVal) !== -1));
     if (licVal) filtered = filtered.filter(t => t.licentie === licVal);
     if (besVal) filtered = filtered.filter(t => t.beschikbaarheid === besVal);
 
-    if (!filtered.length) {{
+    if (!filtered.length) {
       listEl.innerHTML = '<p>Geen trainers gevonden met de huidige filters.</p>';
       return;
-    }}
+    }
 
     listEl.innerHTML = '';
-    filtered.forEach(t => {{
+    filtered.forEach(t => {
       const art = document.createElement('article');
       art.className = 'vacature-card trainer-card';
 
@@ -285,7 +284,7 @@
       headerRow.style.alignItems = 'center';
       headerRow.style.gap = '0.75rem';
 
-      if (t.foto) {{
+      if (t.foto) {
         const img = document.createElement('img');
         img.src = t.foto;
         img.alt = 'Foto van ' + (t.naam || 'trainer');
@@ -294,7 +293,7 @@
         img.style.borderRadius = '50%';
         img.style.objectFit = 'cover';
         headerRow.appendChild(img);
-      }}
+      }
 
       const h3 = document.createElement('h3');
       h3.textContent = t.naam || 'Onbekende trainer';
@@ -317,7 +316,6 @@
 
       const sideDiv = document.createElement('div');
       sideDiv.className = 'vacature-side trainer-side';
-
       const btn = document.createElement('a');
       btn.href = '#';
       btn.className = 'btn-primary btn-small';
@@ -327,18 +325,17 @@
       art.appendChild(mainDiv);
       art.appendChild(sideDiv);
       listEl.appendChild(art);
-    }});
-  }}
+    });
+  }
 
-  function attach(el) {{ if (el) el.addEventListener('change', render); }}
+  function attach(el) { if (el) el.addEventListener('change', render); }
   attach(filterLand); attach(filterRegio); attach(filterNiveau); attach(filterLic); attach(filterBesch);
 
   fetch('data/trainers.json')
     .then(r => r.json())
-    .then(data => {{ trainers = data.trainers || []; render(); }})
-    .catch(err => {{ console.error(err); if (listEl) listEl.innerHTML = '<p>Kon de trainerslijst niet laden.</p>'; }});
-}})();
+    .then(data => { trainers = data.trainers || []; render(); })
+    .catch(err => { console.error(err); if (listEl) listEl.innerHTML = '<p>Kon de trainerslijst niet laden.</p>'; });
+})();
 </script>
-
 </body>
 </html>
