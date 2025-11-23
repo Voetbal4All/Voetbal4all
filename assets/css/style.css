@@ -1,8 +1,8 @@
 
 :root {
-  --green-main: rgb(90, 133, 95);
-  --green-light: rgb(110, 160, 115);
-  --blue-banner: #1d4ed8;
+  --green-main: rgb(90, 133, 95);      /* 30% lichtere groen */
+  --green-light: rgb(110, 160, 115);   /* lichtere variant voor hover */
+  --blue-banner: rgb(5, 40, 100);      /* donkerblauw voor live-balk en actieve navigatie */
   --bg-light: #f3f4f6;
   --text-main: #111827;
   --text-muted: #6b7280;
@@ -31,6 +31,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* Top-strip (logo + advertentie) */
 
 .top-strip {
   position: sticky;
@@ -73,20 +75,12 @@ body {
   letter-spacing: 0.08em;
 }
 
+/* alle "4" van Voetbal4All in exact hetzelfde groen */
 .brand-text strong {
   color: var(--green-main);
 }
 
-.ad-slot-top {
-  border-radius: 999px;
-  border: 1px dashed var(--border-soft);
-  padding: 0.5rem 0.9rem;
-  font-size: 0.78rem;
-  text-align: center;
-  background: #f9fafb;
-}
-
-/* Navigatie */
+/* Navigatie - groene balk */
 
 .navbar {
   height: var(--nav-height);
@@ -132,8 +126,10 @@ body {
 
 .nav-cta {
   font-size: 0.8rem;
-  margin-left: auto;
+  margin-left: auto; /* duwt CTA naar rechts */
 }
+
+/* Live banner */
 
 .live-banner {
   background: var(--blue-banner);
@@ -157,6 +153,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+
+/* Main */
 
 main {
   flex: 1;
@@ -240,7 +238,7 @@ main {
   background: #ecfdf3;
 }
 
-/* Grids */
+/* Home grids */
 
 .home-top-grid {
   display: grid;
@@ -281,7 +279,7 @@ main {
   margin: 0 0 0.8rem 0;
 }
 
-/* Nieuws kaarten */
+/* Nieuws-kaarten */
 
 .news-section-header h2 {
   margin: 0 0 0.1rem 0;
@@ -380,7 +378,7 @@ main {
   color: var(--text-muted);
 }
 
-/* Bottom CTA */
+/* Bottom adverteer-CTA */
 
 .bottom-cta {
   margin-top: 1rem;
@@ -420,6 +418,11 @@ footer {
   height: 26px;
   width: auto;
   object-fit: contain;
+}
+
+/* Forceer 4 in hero-titel ook in exact hetzelfde groen */
+.hero-title span:nth-child(2) {
+  color: var(--green-main) !important;
 }
 
 /* Responsief */
