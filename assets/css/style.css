@@ -28,5 +28,31 @@ body {
 .four-green {
   color: var(--green-main) !important;
 }
+/* HERO CTA ROW — toegevoegd omdat deze niet bestond */
+.hero-cta-row {
+  display: flex;
+  justify-content: center;        /* CENTREERT alle knoppen */
+  gap: 0.75rem;                   /* ruimte tussen knoppen */
+  flex-wrap: wrap;                /* mooi op mobiel */
+  margin-top: 1rem;
+}
 
-/* ... rest of CSS omitted for brevity in this environment ... */
+/* STIJL voor de outline-knoppen zoals 'Event aanmelden' en 'Vacature plaatsen' */
+.btn-outline {
+  background: #ffffff;
+  color: var(--green-main);
+  border: 2px solid var(--green-main);
+  border-radius: 999px;
+  padding: 0.45rem 1.05rem;
+  font-size: 0.85rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: var(--green-light);
+  color: #ffffff;
+}/* ... rest of CSS omitted for brevity in this environment ... */
