@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": "news-1",
+    "title": "Club Brugge boekt overtuigende zege in Jupiler Pro League",
+    "teaser": "Club Brugge verslaat Genk met 3-0 en verstevigt koppositie in de Jupiler Pro League.",
+    "competition": "jpl",
+    "competitionLabel": "Jupiler Pro League",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Voetbalwedstrijd tussen Club Brugge en Genk in een vol stadion",
+    "imageAlt": "Spelers van Club Brugge juichen na doelpunt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-2",
+    "title": "Feyenoord zet indrukwekkende reeks voort in Eredivisie",
+    "teaser": "Feyenoord wint met 2-1 van PSV en zet druk op koplopers in de Eredivisie.",
+    "competition": "eredivisie",
+    "competitionLabel": "Eredivisie",
+    "gender": "heren",
+    "type": "nabeschouwing",
+    "imagePrompt": "Feyenoord spelers vieren doelpunt tegen PSV in volle Kuip",
+    "imageAlt": "Feyenoord spelers juichen na doelpunt tegen PSV",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-3",
+    "title": "NAC Breda klimt naar top drie na winst in Keuken Kampioen Divisie",
+    "teaser": "NAC Breda verslaat Jong Ajax met 1-0 en nestelt zich stevig in de top van de Keuken Kampioen Divisie.",
+    "competition": "keuken",
+    "competitionLabel": "Keuken Kampioen Divisie",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "NAC Breda speler die juicht na doelpunt tegen Jong Ajax",
+    "imageAlt": "NAC Breda speler viert doelpunt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-4",
+    "title": "Belgische damesploeg start sterk aan EK-kwalificatie",
+    "teaser": "De Belgische dames winnen hun openingswedstrijd met 2-0 en tonen ambitie voor het EK.",
+    "competition": "rode-duivels",
+    "competitionLabel": "Rode Duivels",
+    "gender": "dames",
+    "type": "speeldag",
+    "imagePrompt": "Belgische damesvoetbalteam viert doelpunt tijdens EK-kwalificatie",
+    "imageAlt": "Belgische dames voetbalsters juichen na doelpunt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-5",
+    "title": "Oranje U21 maakt zich klaar voor cruciaal EK-duel",
+    "teaser": "De Nederlandse U21-selectie traint intensief voor de komende EK-wedstrijd tegen Duitsland.",
+    "competition": "oranje",
+    "competitionLabel": "Oranje",
+    "gender": "heren",
+    "type": "voorbeschouwing",
+    "imagePrompt": "Nederlandse U21-voetbalspelers tijdens training op veld",
+    "imageAlt": "Oranje U21 spelers in training",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-6",
+    "title": "Transfer: PSV haalt jonge spits binnen uit Frankrijk",
+    "teaser": "PSV heeft de 19-jarige Franse spits officieel vastgelegd voor het komende seizoen.",
+    "competition": "transfers",
+    "competitionLabel": "Transfernieuws",
+    "gender": "heren",
+    "type": "transfer",
+    "imagePrompt": "Jonge Franse voetballer poseert met PSV-shirt op stadiontribune",
+    "imageAlt": "Nieuwe PSV-spits poseert met shirt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-7",
+    "title": "Internationaal: Real Madrid wint spannende Clásico van Barcelona",
+    "teaser": "Real Madrid verslaat FC Barcelona met 2-1 in een topwedstrijd vol spektakel en emoties.",
+    "competition": "internationaal",
+    "competitionLabel": "Internationaal nieuws",
+    "gender": "heren",
+    "type": "nabeschouwing",
+    "imagePrompt": "Spelers van Real Madrid en Barcelona strijden om de bal in Clásico",
+    "imageAlt": "Real Madrid en Barcelona spelers in Clásico duel",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-8",
+    "title": "Excelsior Rotterdam zet stappen richting promotie in de Challenger Pro League",
+    "teaser": "Excelsior wint overtuigend met 3-1 en blijft strijden voor de topplaatsen in de Challenger Pro League.",
+    "competition": "challenger",
+    "competitionLabel": "Challenger Pro League",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Excelsior Rotterdam spelers vieren doelpunt in stadion",
+    "imageAlt": "Excelsior Rotterdam spelers juichen na doelpunt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-9",
+    "title": "Vrouwen Eredivisie: FC Twente blijft ongeslagen na knappe zege",
+    "teaser": "FC Twente Vrouwen wint met 2-0 en behoudt de koppositie in de Vrouwen Eredivisie.",
+    "competition": "eredivisie",
+    "competitionLabel": "Eredivisie",
+    "gender": "dames",
+    "type": "speeldag",
+    "imagePrompt": "Vrouwelijke voetballers van FC Twente vieren doelpunt",
+    "imageAlt": "FC Twente vrouwen juichen na doelpunt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-10",
+    "title": "Transfernieuws: Belgische middenvelder maakt overstap naar Premier League",
+    "teaser": "Een Belgische stermiddenvelder tekent een contract bij een topclub in de Engelse Premier League.",
+    "competition": "transfers",
+    "competitionLabel": "Transfernieuws",
+    "gender": "heren",
+    "type": "transfer",
+    "imagePrompt": "Belgische middenvelder poseert met Premier League clubshirt",
+    "imageAlt": "Nieuwe Premier League speler met shirt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  }
+]
