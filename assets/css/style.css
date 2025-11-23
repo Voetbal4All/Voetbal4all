@@ -1,8 +1,8 @@
 
 :root {
-  --green-main: rgb(90, 133, 95);      /* 30% lichtere groen */
-  --green-light: rgb(110, 160, 115);   /* lichtere variant voor hover */
-  --blue-banner: rgb(5, 40, 100);      /* donkerblauw voor live-balk en actieve navigatie */
+  --green-main: rgb(90, 133, 95);
+  --green-light: rgb(110, 160, 115);
+  --blue-banner: rgb(5, 40, 100);
   --bg-light: #f3f4f6;
   --text-main: #111827;
   --text-muted: #6b7280;
@@ -31,8 +31,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* Top-strip (logo + advertentie) */
 
 .top-strip {
   position: sticky;
@@ -75,12 +73,24 @@ body {
   letter-spacing: 0.08em;
 }
 
-/* alle "4" van Voetbal4All in exact hetzelfde groen */
+.brand-text span {
+  color: var(--text-main);
+}
+
 .brand-text strong {
   color: var(--green-main);
 }
 
-/* Navigatie - groene balk */
+.ad-slot-top {
+  border-radius: 20px;
+  border: 1px dashed var(--border-soft);
+  padding: 0.25rem 0.6rem;
+  font-size: 0.7rem;
+  text-align: center;
+  background: #f9fafb;
+}
+
+/* Navigatie */
 
 .navbar {
   height: var(--nav-height);
@@ -126,7 +136,7 @@ body {
 
 .nav-cta {
   font-size: 0.8rem;
-  margin-left: auto; /* duwt CTA naar rechts */
+  margin-left: auto;
 }
 
 /* Live banner */
@@ -205,7 +215,8 @@ main {
 /* Buttons */
 
 .btn-primary,
-.btn-secondary {
+.btn-secondary,
+.btn-outline {
   border-radius: 999px;
   font-size: 0.85rem;
   padding: 0.45rem 1.05rem;
@@ -238,7 +249,18 @@ main {
   background: #ecfdf3;
 }
 
-/* Home grids */
+.btn-outline {
+  background: #ffffff;
+  color: var(--green-main);
+  border: 2px solid var(--green-main);
+}
+
+.btn-outline:hover {
+  background: var(--green-light);
+  color: #ffffff;
+}
+
+/* Grids */
 
 .home-top-grid {
   display: grid;
@@ -378,14 +400,74 @@ main {
   color: var(--text-muted);
 }
 
-/* Bottom adverteer-CTA */
+/* Social follow */
+
+.social-follow {
+  border: 1px solid var(--green-main);
+  background: #ffffff;
+}
+
+/* Bottom CTA */
 
 .bottom-cta {
   margin-top: 1rem;
 }
 
 .bottom-cta .card {
+  background: var(--green-main);
+  color: #ffffff;
   text-align: center;
+}
+
+.bottom-cta .card .section-intro {
+  color: #e5e7eb;
+}
+
+.bottom-cta .card .btn-primary {
+  background: #ffffff;
+  color: var(--green-main);
+  border-color: #ffffff;
+}
+
+.bottom-cta .card .btn-primary:hover {
+  background: #f3f4f6;
+}
+
+/* Voorwaarden */
+
+.voorwaarden {
+  background: #ffffff;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-soft);
+  padding: 1.3rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.voorwaarden h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.voorwaarden h3 {
+  margin-top: 1.1rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.voorwaarden p {
+  margin-top: 0.15rem;
+  margin-bottom: 0.45rem;
+  color: var(--text-muted);
+}
+
+.voorwaarden ol {
+  padding-left: 1.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.voorwaarden li {
+  margin-bottom: 0.25rem;
 }
 
 /* Footer */
@@ -420,7 +502,12 @@ footer {
   object-fit: contain;
 }
 
-/* Forceer 4 in hero-titel ook in exact hetzelfde groen */
+.footer-left span strong {
+  color: var(--green-main) !important;
+}
+
+/* Forceer 4 in hero-titel in groen */
+
 .hero-title span:nth-child(2) {
   color: var(--green-main) !important;
 }

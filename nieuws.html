@@ -38,6 +38,7 @@
           <a href="spelers.html" class="">Spelers</a>
           <a href="events.html" class="">Events</a>
           <a href="contact.html" class="">Contact</a>
+          <a href="voorwaarden.html" class="">Voorwaarden</a>
         </div>
         <div class="nav-cta">
           <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
@@ -57,7 +58,59 @@
 
   <main>
     <div class="page-inner">
-<section class='section'><p>Placeholder pagina.</p></section>
+
+      <section class="section">
+        <h2>Nieuwsfilter</h2>
+        <p class="section-intro">
+          Filter nieuwsberichten op competitie of type nieuws.
+        </p>
+        <div class="form">
+          <div class="form-row">
+            <label for="nieuws-type">Type nieuws</label>
+            <select id="nieuws-type">
+              <option value="">Alle nieuwsberichten</option>
+              <option value="jpl">Jupiler Pro League</option>
+              <option value="eredivisie">Eredivisie</option>
+              <option value="challenger">Challenger Pro League</option>
+              <option value="keuken">Keuken Kampioen Divisie</option>
+              <option value="nat-be">Nationale reeksen België</option>
+              <option value="nat-nl">Nationale reeksen Nederland</option>
+              <option value="laag-be">Lagere reeksen België</option>
+              <option value="laag-nl">Lagere reeksen Nederland</option>
+              <option value="rode-duivels">Rode Duivels</option>
+              <option value="oranje">Oranje</option>
+              <option value="transfers">Transfernieuws</option>
+              <option value="internationaal">Internationaal nieuws</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <button type="button" class="btn-primary">Filter nieuws (voorbeeld)</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Voetbalkoppen</h2>
+        <p class="section-intro">
+          Deze nieuwsberichten worden in een latere fase automatisch ingeladen uit externe bronnen en herschreven.
+        </p>
+        <div id="nieuws-lijst"></div>
+      </section>
+
+      <section class="social-follow card" style="margin-bottom:1.5rem;">
+        <h3>Volg Voetbal4All op sociale media</h3>
+        <p class="section-intro">
+          Blijf op de hoogte van nieuwe functies, extra voetbalkoppen en opvallende vacatures en events.
+        </p>
+        <div style="display:flex; gap:1rem; justify-content:center; align-items:center; margin-top:0.5rem;">
+          <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
+            <img src="assets/img/facebook.png" alt="Facebook" style="height:26px;">
+          </a>
+          <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
+            <img src="assets/img/instagram.png" alt="Instagram" style="height:26px;">
+          </a>
+        </div>
+      </section>
     </div>
   </main>
 
@@ -65,7 +118,7 @@
     <div class="footer-inner">
       <div class="footer-left">
         <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
-        <span>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
+        <span>Voetbal<strong>4</strong>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
       </div>
       <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
     </div>
