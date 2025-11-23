@@ -1,3 +1,4 @@
+
 (function () {
   const regioData = {
     vlaanderen: [
@@ -5,7 +6,7 @@
       "Limburg",
       "Oost-Vlaanderen",
       "West-Vlaanderen",
-      "Vlaams-Brabant",
+      "Vlaams-Brabant"
     ],
     nederland: [
       "Groningen",
@@ -19,8 +20,8 @@
       "Zuid-Holland",
       "Zeeland",
       "Noord-Brabant",
-      "Limburg",
-    ],
+      "Limburg"
+    ]
   };
 
   function fillRegioSelect(select, land, allLabel) {

@@ -1,3 +1,4 @@
+
 :root {
   --green-main: rgb(19, 80, 27);
   --green-light: rgb(60, 120, 70);
@@ -127,9 +128,9 @@ body {
 }
 
 .nav-links a.active {
-  background: #ffffff;
-  border-color: var(--green-main);
-  color: var(--green-main);
+  background: var(--blue-banner);
+  border-color: var(--blue-banner);
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -246,7 +247,6 @@ main {
 
 /* Home grids */
 
-/* Bovenste sectie: 3 kolommen */
 .home-top-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 2.1fr) minmax(0, 1.3fr);
@@ -254,7 +254,6 @@ main {
   margin-bottom: 1.5rem;
 }
 
-/* Onderste sectie: ook 3 kolommen */
 .home-bottom-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 2.8fr) minmax(0, 1.0fr);
@@ -393,7 +392,7 @@ main {
 
 footer {
   background: #ffffff;
-  border-top: 1px solid var(--border-soft);
+  border-top: 1px solid var(--green-main);
   padding: 0.75rem 1rem 0.9rem;
   font-size: 0.75rem;
   color: var(--text-muted);
@@ -406,6 +405,19 @@ footer {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-logo {
+  height: 26px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* Responsief */

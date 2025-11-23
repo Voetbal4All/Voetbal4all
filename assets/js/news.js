@@ -1,3 +1,4 @@
+
 (async function () {
   async function loadNews() {
     try {
@@ -47,7 +48,6 @@
   const homeBottom = document.getElementById("home-news-bottom");
   const nieuwsLijst = document.getElementById("nieuws-lijst");
 
-  // Home: koppen 1–4
   if (homeTop) {
     const header = document.createElement("div");
     header.className = "news-section-header";
@@ -58,7 +58,6 @@
     news.slice(0, 4).forEach((n) => homeTop.appendChild(createNewsCard(n)));
   }
 
-  // Home: koppen 5–10
   if (homeBottom) {
     const rest = news.slice(4, 10);
     if (rest.length) {
@@ -71,7 +70,6 @@
     }
   }
 
-  // Nieuws-pagina
   if (nieuwsLijst) {
     news.forEach((n) => nieuwsLijst.appendChild(createNewsCard(n)));
   }

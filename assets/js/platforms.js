@@ -1,3 +1,4 @@
+
 (async function () {
   async function loadJson(path) {
     try {
@@ -40,10 +41,55 @@
     loadJson("data/vacatures.json"),
     loadJson("data/trainers.json"),
     loadJson("data/spelers.json"),
-    loadJson("data/events.json"),
+    loadJson("data/events.json")
   ]);
 
-  // Home: trainers
+  const homePremVac = document.getElementById("home-premium-vacatures");
+  if (homePremVac) {
+    const premiumVac = vacatures.filter(
+      (v) => v.premium === true || v.premium === "standard"
+    );
+
+    if (premiumVac.length) {
+      premiumVac.slice(0, 5).forEach((v) => {
+        homePremVac.appendChild(
+          makeListItem(
+            (v.functie || "Vacature") + " - " + (v.club || ""),
+            [v.land, v.regio, v.niveau].filter(Boolean).join(" · "),
+            "Premium-vacature"
+          )
+        );
+      });
+    } else {
+      homePremVac.textContent = "Nog geen premium clubvacatures.";
+    }
+  }
+
+  const homePremEv = document.getElementById("home-premium-events");
+  if (homePremEv) {
+    const premiumEv = events.filter(
+      (ev) =>
+        ev.premium === true ||
+        ev.premium === "standard" ||
+        ev.premium === "late" ||
+        ev.premium === "combo"
+    );
+
+    if (premiumEv.length) {
+      premiumEv.slice(0, 5).forEach((ev) => {
+        homePremEv.appendChild(
+          makeListItem(
+            ev.titel || "Event",
+            [ev.club, ev.land, ev.regio].filter(Boolean).join(" · "),
+            "Premium-event"
+          )
+        );
+      });
+    } else {
+      homePremEv.textContent = "Nog geen premium events.";
+    }
+  }
+
   const homeTr = document.getElementById("home-trainers-lijst");
   if (homeTr && trainers.length) {
     trainers.slice(0, 10).forEach((t) => {
@@ -57,7 +103,6 @@
     });
   }
 
-  // Home: spelers
   const homeSp = document.getElementById("home-spelers-lijst");
   if (homeSp && spelers.length) {
     spelers.slice(0, 10).forEach((s) => {
@@ -73,11 +118,10 @@
     });
   }
 
-  // Home: events van dit weekend (alle events, ook niet-premium)
   const homeEv = document.getElementById("home-events-weekend");
   if (homeEv && events.length) {
     const now = new Date();
-    const day = now.getDay(); // 0=zo, 6=za
+    const day = now.getDay();
     const diffToSaturday = (6 - day + 7) % 7;
     const saturday = new Date(now);
     saturday.setDate(now.getDate() + diffToSaturday);
@@ -109,7 +153,6 @@
     }
   }
 
-  // Pagina: vacatures
   const vacL = document.getElementById("vacatures-lijst");
   if (vacL && vacatures.length) {
     vacatures.forEach((v) => {
@@ -117,13 +160,14 @@
         makeListItem(
           (v.functie || "Vacature") + " - " + (v.club || ""),
           [v.land, v.regio, v.niveau].filter(Boolean).join(" · "),
-          v.premium === true ? "Premium-vacature" : ""
+          v.premium === true || v.premium === "standard"
+            ? "Premium-vacature"
+            : ""
         )
       );
     });
   }
 
-  // Pagina: trainers
   const trL = document.getElementById("trainers-lijst");
   if (trL && trainers.length) {
     trainers.forEach((t) => {
@@ -137,7 +181,6 @@
     });
   }
 
-  // Pagina: spelers
   const spL = document.getElementById("spelers-lijst");
   if (spL && spelers.length) {
     spelers.forEach((s) => {
@@ -153,7 +196,6 @@
     });
   }
 
-  // Pagina: events
   const evL = document.getElementById("events-lijst");
   if (evL && events.length) {
     events.forEach((ev) => {
