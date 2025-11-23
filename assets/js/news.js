@@ -1,1 +1,1 @@
-console.log('news.js placeholder');
+console.log('news.js loaded');
