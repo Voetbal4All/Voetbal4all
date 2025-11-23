@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const idFromUrl = params.get("id");
+  const newsTop = document.getElementById("home-news-top");
+  const newsBottom = document.getElementById("home-news-bottom");
 
-  const detailContainer = document.getElementById("news-detail");
-  const listContainer = document.getElementById("news-list");
-  const filterCompetition = document.getElementById("newsFilterCompetition");
-  const filterSearch = document.getElementById("newsFilterSearch");
-
-  let allNews = [];
+  if (!newsTop && !newsBottom) {
+    // Geen nieuwsvakken op deze pagina → niets doen
+    return;
+  }
 
   function renderNewsCard(item) {
     return `
@@ -22,102 +20,49 @@ document.addEventListener("DOMContentLoaded", () => {
           </a>
         </h3>
         <p class="news-meta">
-          ${item.competition || ""}${item.date ? " • " + item.date : ""}
+          ${item.competition || ""} ${item.date ? "• " + item.date : ""}
         </p>
         <p class="news-teaser">${item.teaser || ""}</p>
       </article>
     `;
   }
 
-  function renderDetail(item) {
-    if (!detailContainer) return;
-
-    if (!item) {
-      detailContainer.innerHTML = `
-        <article class="news-card">
-          <p>Kies een voetbalkop op de homepage of in de lijst hieronder om het volledige artikel te lezen.</p>
-        </article>
-      `;
-      return;
-    }
-
-    detailContainer.innerHTML = `
-      <article class="news-card">
-        ${item.image ? `
-        <div class="news-image-wrap">
-          <img src="assets/img/news/${item.image}" alt="${item.title}">
-        </div>` : ""}
-        <h1>${item.title}</h1>
-        <p class="news-meta">
-          ${item.competition || ""}${item.date ? " • " + item.date : ""}
-        </p>
-        <p class="news-full">${item.content || ""}</p>
-      </article>
+  function renderMoreButton() {
+    return `
+      <div style="text-align:center;margin-top:1rem;">
+        <a href="nieuws.html" class="btn-primary">
+          Meer Voetbalkoppen
+        </a>
+      </div>
     `;
   }
 
-  function applyFilters() {
-    if (!listContainer) return;
-    let filtered = [...allNews];
-
-    const comp = filterCompetition ? filterCompetition.value.trim() : "";
-    const search = filterSearch ? filterSearch.value.trim().toLowerCase() : "";
-
-    if (comp) {
-      filtered = filtered.filter(n => (n.competition || "") === comp);
-    }
-
-    if (search) {
-      filtered = filtered.filter(n => {
-        const fields = [
-          n.title || "",
-          n.teaser || "",
-          n.content || "",
-          n.competition || ""
-        ].join(" ").toLowerCase();
-        return fields.includes(search);
-      });
-    }
-
-    if (filtered.length === 0) {
-      listContainer.innerHTML = `<p>Geen nieuwsberichten gevonden met deze filters.</p>`;
-      return;
-    }
-
-    listContainer.innerHTML = filtered
-      .map(renderNewsCard)
-      .join("");
-  }
-
-  // Data ophalen
   fetch("data/news.json")
     .then(r => r.json())
     .then(items => {
-      allNews = Array.isArray(items) ? items : [];
-
-      // Detail (indien id in URL)
-      if (idFromUrl) {
-        const item = allNews.find(n => String(n.id) === String(idFromUrl));
-        renderDetail(item);
-      } else {
-        renderDetail(null);
+      if (!Array.isArray(items) || items.length === 0) {
+        if (newsTop) {
+          newsTop.innerHTML = "<p>Momenteel geen nieuws beschikbaar.</p>";
+        }
+        return;
       }
 
-      // Lijst renderen met standaardfilter
-      applyFilters();
+      const firstFour = items.slice(0, 4);
+      const nextSix = items.slice(4, 10);
 
-      // Event listeners op filters
-      if (filterCompetition) {
-        filterCompetition.addEventListener("change", applyFilters);
+      if (newsTop) {
+        newsTop.innerHTML = firstFour.map(renderNewsCard).join("");
       }
-      if (filterSearch) {
-        filterSearch.addEventListener("input", applyFilters);
+
+      if (newsBottom) {
+        newsBottom.innerHTML =
+          nextSix.map(renderNewsCard).join("") + renderMoreButton();
       }
     })
     .catch(err => {
       console.error("Kon news.json niet laden:", err);
-      if (detailContainer) {
-        detailContainer.innerHTML = `<p>Er ging iets mis bij het laden van de nieuwsartikelen.</p>`;
+      if (newsTop) {
+        newsTop.innerHTML = "<p>Kon nieuws niet laden.</p>";
       }
     });
 });
