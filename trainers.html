@@ -1,262 +1,186 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <title>Trainers – Voetbal4All</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="assets/js/forms.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-trainers">
-<div class="top-fixed-shell">
-  <header class="site-header">
-    <div class="container header-top">
-      <div class="header-logo">
-        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
-      </div>
-      <div class="header-ad">
-        <div class="ad-slot ad-header">ADVERTENTIE</div>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo">
+          <div class="brand-text">
+            <h1><span>Voetbal</span><strong>4</strong><span>All</span></h1>
+            <div style="font-size:0.75rem;color:#6b7280;">Platform voor iedereen met een hart voor voetbal</div>
+          </div>
+        </div>
+        <div class="ad-slot-top">
+          Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+        </div>
       </div>
     </div>
-    <nav class="main-nav">
-      <div class="container nav-inner">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nieuws.html">Nieuws</a></li>
-          <li><a href="uitslagen.html">Resultaten &amp; ranking</a></li>
-          <li><a href="vacatures.html">Clubvacatures</a></li>
-          <li><a href="trainers.html" class="is-active">Trainers</a></li>
-          <li><a href="spelers.html">Spelers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta-group">
-          <a class="btn-nav" href="spelers.html">Zoek spelers</a>
-          <a class="btn-nav-outline" href="contact.html">Adverteren op Voetbal<span class="brand-4">4</span>All</a>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="nieuws.html" class="">Nieuws</a>
+          <a href="uitslagen.html" class="">Resultaten &amp; ranking</a>
+          <a href="vacatures.html" class="">Clubvacatures</a>
+          <a href="trainers.html" class="active">Trainers</a>
+          <a href="spelers.html" class="">Spelers</a>
+          <a href="events.html" class="">Events</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
         </div>
       </div>
     </nav>
-  </header>
-  <section class="live-scores-banner">
-    <div class="container live-scores-inner">
-      <div class="live-label">Live uitslagen</div>
-      <div class="live-ticker">
-        <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
-        <span class="live-separator">•</span>
-        <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
-      </div>
-      <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
-    </div>
-  </section>
-</div>
-
-<main class="page-main page-main-offset">
-  <section class="section">
-    <div class="container">
-      <div class="card">
-        <h1>Trainersplatform</h1>
-        <p>
-          Beschikbare trainers en stafleden kunnen hun profiel hier kenbaar maken aan clubs in Vlaanderen en Nederland.
-          Profielen worden na <strong>6 maanden automatisch verwijderd</strong> om de website overzichtelijk te houden.
-          Eén maand vóór die datum ontvangt de contactpersoon een herinneringsmail met de mogelijkheid om het profiel
-          opnieuw voor 6 maanden te verlengen.
-        </p>
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Challenger Pro League &amp; Keuken Kampioen Divisie • meer resultaten binnenkort beschikbaar.</span>
       </div>
     </div>
-  </section>
-
-  <!-- Zoeken in trainersprofielen -->
-  <section class="section">
-    <div class="container" style="max-width:900px;">
-      <div class="form">
-        <h2>Trainersprofielen zoeken</h2>
-
-        <div class="form-row">
-          <label for="tr-search-functie">Functie</label>
-          <select id="tr-search-functie" name="functie">
-            <option value="">Alle functies</option>
-            <option value="trainer">Trainer</option>
-            <option value="keepertrainer">Keepertrainer</option>
-            <option value="fysio">Fysiotherapeut</option>
-            <option value="analist">Video-/data-analist</option>
-            <option value="staf">Andere stafmedewerker</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-search-land">Land</label>
-          <select id="tr-search-land" name="land">
-            <option value="">Vlaanderen &amp; Nederland</option>
-            <option value="vlaanderen">Vlaanderen</option>
-            <option value="nederland">Nederland</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-search-regio">Regio / provincie</label>
-          <select id="tr-search-regio" name="regio">
-            <option value="">Alle regio's</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-search-club">Huidige of vorige club</label>
-          <input type="text" id="tr-search-club" name="club" placeholder="Zoek op clubnaam">
-        </div>
-
-        <div class="form-row">
-          <label for="tr-search-diploma">Diploma / licentie</label>
-          <select id="tr-search-diploma" name="diploma">
-            <option value="">Alle diploma's</option>
-            <option value="uefa-c">UEFA C</option>
-            <option value="uefa-b">UEFA B</option>
-            <option value="uefa-a">UEFA A</option>
-            <option value="uefa-pro">UEFA Pro</option>
-            <option value="kt1">Keepertrainer 1</option>
-            <option value="kt2">Keepertrainer 2</option>
-            <option value="analist">Analist</option>
-            <option value="anders">Andere</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <button type="button" class="btn-primary">Zoek trainers (voorbeeld)</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Trainersprofiel aanmelden -->
-  <section class="section" id="form-trainer">
-    <div class="container" style="max-width:800px;">
-      <div class="form">
-        <h2>Trainersprofiel aanmelden</h2>
-        <p style="font-size:0.9rem;color:#6b7280;">
-          Stel jezelf voor als trainer of staflid zodat clubs je kunnen contacteren.
-          Je profiel wordt na <strong>6 maanden automatisch verwijderd</strong> om de website overzichtelijk te houden.
-          Eén maand vóór die datum ontvang je een herinneringsmail met de mogelijkheid om je profiel opnieuw
-          voor 6 maanden te verlengen.
-        </p>
-
-        <div class="form-row">
-          <label for="tr-naam">Naam</label>
-          <input type="text" id="tr-naam" name="naam" required>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-email">E-mailadres (verplicht voor opvolging)</label>
-          <input type="email" id="tr-email" name="email" required>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-functie">Functie</label>
-          <select id="tr-functie" name="functie" required>
-            <option value="">Maak een keuze</option>
-            <option value="trainer">Trainer</option>
-            <option value="keepertrainer">Keepertrainer</option>
-            <option value="fysio">Fysiotherapeut</option>
-            <option value="analist">Video-/data-analist</option>
-            <option value="staf">Andere stafmedewerker</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-land">Landen waarin je training wil geven</label>
-          <select id="tr-land" name="land" required>
-            <option value="">Maak een keuze</option>
-            <option value="vlaanderen">Vlaanderen</option>
-            <option value="nederland">Nederland</option>
-            <option value="be-nl">Vlaanderen &amp; Nederland</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-regio">Regio / provincie</label>
-          <select id="tr-regio" name="regio" required>
-            <option value="">Maak een keuze</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label>Diploma('s) / licentie(s)</label>
-          <div>
-            <label><input type="checkbox" name="diploma" value="uefa-c"> UEFA C</label><br>
-            <label><input type="checkbox" name="diploma" value="uefa-b"> UEFA B</label><br>
-            <label><input type="checkbox" name="diploma" value="uefa-a"> UEFA A</label><br>
-            <label><input type="checkbox" name="diploma" value="uefa-pro"> UEFA Pro</label><br>
-            <label><input type="checkbox" name="diploma" value="kt1"> Keepertrainer 1</label><br>
-            <label><input type="checkbox" name="diploma" value="kt2"> Keepertrainer 2</label><br>
-            <label><input type="checkbox" name="diploma" value="analist"> Analist</label><br>
-            <label><input type="checkbox" name="diploma" value="anders"> Andere</label>
-          </div>
-          <small>Meerdere keuzes mogelijk. Gebruik het veld hieronder om andere diploma's te specifiëren.</small>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-diploma-anders">Andere diploma('s) (optioneel)</label>
-          <input type="text" id="tr-diploma-anders" name="diploma_anders" placeholder="bv. lokale opleidingen, specialisaties, ...">
-        </div>
-
-        <div class="form-row">
-          <label for="tr-niveau">Gewenst niveau</label>
-          <select id="tr-niveau" name="niveau" required>
-            <option value="">Maak een keuze</option>
-            <option value="jeugd-gewestelijk">Jeugd – gewestelijk</option>
-            <option value="jeugd-provinciaal">Jeugd – provinciaal</option>
-            <option value="jeugd-interprovinciaal">Jeugd – interprovinciaal</option>
-            <option value="jeugd-elite">Jeugd – elite</option>
-            <option value="eerste-ploeg-provinciaal">Eerste elftal – provinciaal</option>
-            <option value="eerste-ploeg-nationaal">Eerste elftal – nationaal</option>
-            <option value="dames">Dames</option>
-            <option value="anders">Andere / combinatie</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-beschikbaarheid">Beschikbaarheid</label>
-          <select id="tr-beschikbaarheid" name="beschikbaarheid" required>
-            <option value="">Maak een keuze</option>
-            <option value="komend-seizoen">Vanaf komend seizoen</option>
-            <option value="onmiddellijk">Onmiddellijk beschikbaar</option>
-            <option value="in-overleg">In onderling overleg</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-profiel">Korte voorstelling</label>
-          <textarea id="tr-profiel" name="profiel" rows="6" required></textarea>
-        </div>
-
-        <div class="form-row">
-          <label for="tr-foto">Profielfoto (optioneel)</label>
-          <input type="file" id="tr-foto" name="foto" accept="image/*">
-        </div>
-
-        <div class="form-row">
-          <label for="tr-cv">CV uploaden (optioneel – PDF)</label>
-          <input type="file" id="tr-cv" name="cv" accept=".pdf">
-        </div>
-
-        <div class="form-row">
-          <label for="tr-video">YouTube of Vimeo-link (optioneel)</label>
-          <input type="url" id="tr-video" name="video" placeholder="https://">
-        </div>
-
-        <div class="form-row">
-          <button type="submit" class="btn-primary">Trainersprofiel indienen</button>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-<footer class="site-footer">
-  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
-    <div style="margin-bottom:0.75rem;">
-      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
-    </div>
-    <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
-</footer>
+  <main>
+    <div class="page-inner">
 
+<section class="section">
+  <h2>Trainersprofielen zoeken</h2>
+  <p class="section-intro">
+    Zoek beschikbare trainers, keepertrainers en stafleden in Vlaanderen en Nederland.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="tr-zoek-functie">Functie</label>
+      <select id="tr-zoek-functie">
+        <option value="">Alle functies</option>
+        <option value="trainer">Trainer</option>
+        <option value="keepertrainer">Keepertrainer</option>
+        <option value="fysio">Fysio / kinesist</option>
+        <option value="analist">Analist</option>
+        <option value="andere">Andere stafmedewerker</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-zoek-land">Land</label>
+      <select id="tr-zoek-land">
+        <option value="">Vlaanderen &amp; Nederland</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-zoek-regio">Regio / provincie</label>
+      <select id="tr-zoek-regio">
+        <option value="">Alle regio's</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-zoek-diploma">Diploma</label>
+      <select id="tr-zoek-diploma">
+        <option value="">Alle diploma's</option>
+        <option value="uefa-c">UEFA C</option>
+        <option value="uefa-b">UEFA B</option>
+        <option value="uefa-a">UEFA A</option>
+        <option value="pro">UEFA Pro</option>
+        <option value="keeper-1">Keepertrainer 1</option>
+        <option value="keeper-2">Keepertrainer 2</option>
+        <option value="analist">Analist</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <button type="button" class="btn-primary">Zoek trainers (voorbeeld)</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Trainersprofiel aanmelden</h2>
+  <p class="section-intro">
+    Meld je beschikbaarheid als trainer, keepertrainer of staflid. Je profiel verschijnt in een latere fase
+    automatisch in de zoekresultaten.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="tr-naam">Naam</label>
+      <input type="text" id="tr-naam" required>
+    </div>
+    <div class="form-row">
+      <label for="tr-functie">Functie</label>
+      <select id="tr-functie" required>
+        <option value="">Maak een keuze</option>
+        <option value="trainer">Trainer</option>
+        <option value="keepertrainer">Keepertrainer</option>
+        <option value="fysio">Fysio / kinesist</option>
+        <option value="analist">Analist</option>
+        <option value="andere">Andere stafmedewerker</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-diploma">Diploma('s)</label>
+      <select id="tr-diploma" multiple>
+        <option value="uefa-c">UEFA C</option>
+        <option value="uefa-b">UEFA B</option>
+        <option value="uefa-a">UEFA A</option>
+        <option value="pro">UEFA Pro</option>
+        <option value="keeper-1">Keepertrainer 1</option>
+        <option value="keeper-2">Keepertrainer 2</option>
+        <option value="analist">Analist</option>
+        <option value="andere">Andere (specifieer in opmerkingen)</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-land">Landen waarin je training wil geven</label>
+      <select id="tr-land">
+        <option value="">Maak een keuze</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+        <option value="beide">Beide</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-regio">Regio / provincie</label>
+      <select id="tr-regio">
+        <option value="">Kies eerst een land</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="tr-email">E-mailadres</label>
+      <input type="email" id="tr-email" required>
+    </div>
+    <div class="form-row">
+      <label for="tr-ervaring">Ervaring / profielomschrijving</label>
+      <textarea id="tr-ervaring"></textarea>
+    </div>
+    <p class="form-note">
+      Je profiel blijft standaard 6 maanden zichtbaar. Eén maand voor het verstrijken van deze periode kan
+      je een herinneringsmail ontvangen om te verlengen.
+    </p>
+    <div class="form-row">
+      <button type="submit" class="btn-primary">Profiel verzenden (voorbeeld)</button>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
 </body>
 </html>

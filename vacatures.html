@@ -1,205 +1,185 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <title>Clubvacatures – Voetbal4All</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="assets/js/forms.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-vacatures">
-<div class="top-fixed-shell">
-  <header class="site-header">
-    <div class="container header-top">
-      <div class="header-logo">
-        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
-      </div>
-      <div class="header-ad">
-        <div class="ad-slot ad-header">ADVERTENTIE</div>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo">
+          <div class="brand-text">
+            <h1><span>Voetbal</span><strong>4</strong><span>All</span></h1>
+            <div style="font-size:0.75rem;color:#6b7280;">Platform voor iedereen met een hart voor voetbal</div>
+          </div>
+        </div>
+        <div class="ad-slot-top">
+          Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+        </div>
       </div>
     </div>
-    <nav class="main-nav">
-      <div class="container nav-inner">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nieuws.html">Nieuws</a></li>
-          <li><a href="uitslagen.html">Resultaten &amp; ranking</a></li>
-          <li><a href="vacatures.html" class="is-active">Clubvacatures</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a href="spelers.html">Spelers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta-group">
-          <a class="btn-nav" href="spelers.html">Zoek spelers</a>
-          <a class="btn-nav-outline" href="contact.html">Adverteren op Voetbal<span class="brand-4">4</span>All</a>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="nieuws.html" class="">Nieuws</a>
+          <a href="uitslagen.html" class="">Resultaten &amp; ranking</a>
+          <a href="vacatures.html" class="active">Clubvacatures</a>
+          <a href="trainers.html" class="">Trainers</a>
+          <a href="spelers.html" class="">Spelers</a>
+          <a href="events.html" class="">Events</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
         </div>
       </div>
     </nav>
-  </header>
-  <section class="live-scores-banner">
-    <div class="container live-scores-inner">
-      <div class="live-label">Live uitslagen</div>
-      <div class="live-ticker">
-        <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
-        <span class="live-separator">•</span>
-        <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
-      </div>
-      <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
-    </div>
-  </section>
-</div>
-
-<main class="page-main page-main-offset">
-  <section class="section">
-    <div class="container">
-      <div class="card">
-        <h1>Clubvacatures</h1>
-        <p>
-          Publiceer hier openstaande functies in jouw club of zoek gericht naar de juiste profielen.
-          Vacatures worden na <strong>6 maanden automatisch verwijderd</strong> om de website overzichtelijk te houden.
-          Eén maand vóór die datum ontvangt de contactpersoon een herinneringsmail met de mogelijkheid om de vacature
-          opnieuw voor 6 maanden te verlengen.
-        </p>
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Challenger Pro League &amp; Keuken Kampioen Divisie • meer resultaten binnenkort beschikbaar.</span>
       </div>
     </div>
-  </section>
-
-  <!-- Zoeken in vacatures -->
-  <section class="section">
-    <div class="container" style="max-width:900px;">
-      <div class="form">
-        <h2>Vacatures zoeken</h2>
-        <div class="form-row">
-          <label for="vac-search-functie">Functie</label>
-          <select id="vac-search-functie" name="functie">
-            <option value="">Alle functies</option>
-            <option value="trainer">Trainer</option>
-            <option value="keepertrainer">Keepertrainer</option>
-            <option value="fysio">Fysiotherapeut</option>
-            <option value="dokter">Clubdokter</option>
-            <option value="analist">Video-/data-analist</option>
-            <option value="afgevaardigde">Afgevaardigde</option>
-            <option value="bestuurder">Bestuurder</option>
-            <option value="medewerker">Medewerker</option>
-            <option value="vrijwilliger">Vrijwilliger</option>
-            <option value="ander">Andere</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-search-land">Land</label>
-          <select id="vac-search-land" name="land">
-            <option value="">Vlaanderen &amp; Nederland</option>
-            <option value="vlaanderen">Vlaanderen</option>
-            <option value="nederland">Nederland</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-search-regio">Regio / provincie</label>
-          <select id="vac-search-regio" name="regio">
-            <option value="">Alle regio's</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-search-club">Club</label>
-          <input type="text" id="vac-search-club" name="club" placeholder="Zoek op clubnaam">
-        </div>
-
-        <div class="form-row">
-          <button type="button" class="btn-primary">Zoek vacatures (voorbeeld)</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Vacature plaatsen -->
-  <section class="section" id="form-clubvacature">
-    <div class="container" style="max-width:800px;">
-      <div class="form">
-        <h2>Clubvacature plaatsen</h2>
-        <p style="font-size:0.9rem;color:#6b7280;">
-          Vul onderstaand formulier in om een vacature voor jouw club te plaatsen.
-          Je vacature wordt na <strong>6 maanden automatisch verwijderd</strong> om de website overzichtelijk te houden.
-          Eén maand vóór die datum ontvang je een herinneringsmail met de mogelijkheid om de vacature opnieuw
-          voor 6 maanden te verlengen.
-        </p>
-
-        <div class="form-row">
-          <label for="vac-clubnaam">Clubnaam</label>
-          <input type="text" id="vac-clubnaam" name="clubnaam" required>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-land">Land</label>
-          <select id="vac-land" name="land" required>
-            <option value="">Maak een keuze</option>
-            <option value="vlaanderen">Vlaanderen</option>
-            <option value="nederland">Nederland</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-regio">Regio / provincie</label>
-          <select id="vac-regio" name="regio" required>
-            <option value="">Maak een keuze</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-functie">Functie</label>
-          <select id="vac-functie" name="functie" required>
-            <option value="">Maak een keuze</option>
-            <option value="trainer">Trainer</option>
-            <option value="keepertrainer">Keepertrainer</option>
-            <option value="fysio">Fysiotherapeut</option>
-            <option value="dokter">Clubdokter</option>
-            <option value="analist">Video-/data-analist</option>
-            <option value="afgevaardigde">Afgevaardigde</option>
-            <option value="bestuurder">Bestuurder</option>
-            <option value="medewerker">Medewerker</option>
-            <option value="vrijwilliger">Vrijwilliger</option>
-            <option value="ander">Andere</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-diploma">Benodigde diploma('s) (optioneel)</label>
-          <input type="text" id="vac-diploma" name="diploma" placeholder="bv. UEFA B, kinesitherapeut, ...">
-        </div>
-
-        <div class="form-row">
-          <label for="vac-email">Contact e-mailadres (verplicht voor opvolging)</label>
-          <input type="email" id="vac-email" name="email" required>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-beschrijving">Vacatureomschrijving</label>
-          <textarea id="vac-beschrijving" name="beschrijving" rows="6" required></textarea>
-        </div>
-
-        <div class="form-row">
-          <label for="vac-bijlage">Bijlage (optioneel – PDF, flyer of afbeelding)</label>
-          <input type="file" id="vac-bijlage" name="bijlage" accept=".pdf,image/*">
-        </div>
-
-        <div class="form-row">
-          <button type="submit" class="btn-primary">Vacature indienen</button>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-<footer class="site-footer">
-  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
-    <div style="margin-bottom:0.75rem;">
-      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
-    </div>
-    <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
-</footer>
+  <main>
+    <div class="page-inner">
 
+<section class="section">
+  <h2>Clubvacatures zoeken</h2>
+  <p class="section-intro">
+    Zoek openstaande functies bij clubs in Vlaanderen en Nederland. Filters zijn voorlopig illustratief;
+    automatische koppeling met vacatures volgt in een latere fase.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="vac-zoek-functie">Functie</label>
+      <select id="vac-zoek-functie">
+        <option value="">Alle functies</option>
+        <option value="trainer">Trainer</option>
+        <option value="keepertrainer">Keepertrainer</option>
+        <option value="fysio">Fysio / kinesist</option>
+        <option value="analist">Analist</option>
+        <option value="dokter">Dokter</option>
+        <option value="afgevaardigde">Afgevaardigde</option>
+        <option value="bestuurder">Bestuurder</option>
+        <option value="medewerker">Medewerker</option>
+        <option value="vrijwilliger">Vrijwilliger</option>
+        <option value="andere">Andere</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-zoek-land">Land</label>
+      <select id="vac-zoek-land">
+        <option value="">Vlaanderen &amp; Nederland</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-zoek-regio">Regio / provincie</label>
+      <select id="vac-zoek-regio">
+        <option value="">Alle regio's</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-zoek-club">Club</label>
+      <input type="text" id="vac-zoek-club" placeholder="Zoek op clubnaam">
+    </div>
+    <div class="form-row">
+      <button type="button" class="btn-primary">Zoek vacatures (voorbeeld)</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Vacature plaatsen</h2>
+  <p class="section-intro">
+    Vul onderstaande gegevens in om een clubvacature aan te melden. Je bericht wordt naar de beheerder gestuurd
+    en verschijnt in een latere fase automatisch in de overzichtspagina.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="vac-functie">Functie</label>
+      <select id="vac-functie" required>
+        <option value="">Maak een keuze</option>
+        <option value="trainer">Trainer</option>
+        <option value="keepertrainer">Keepertrainer</option>
+        <option value="fysio">Fysio / kinesist</option>
+        <option value="analist">Analist</option>
+        <option value="dokter">Dokter</option>
+        <option value="afgevaardigde">Afgevaardigde</option>
+        <option value="bestuurder">Bestuurder</option>
+        <option value="medewerker">Medewerker</option>
+        <option value="vrijwilliger">Vrijwilliger</option>
+        <option value="andere">Andere</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-club">Club</label>
+      <input type="text" id="vac-club" required>
+    </div>
+    <div class="form-row">
+      <label for="vac-land">Land</label>
+      <select id="vac-land" required>
+        <option value="">Maak een keuze</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-regio">Regio / provincie</label>
+      <select id="vac-regio" required>
+        <option value="">Kies eerst een land</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-niveau">Gewenst niveau</label>
+      <select id="vac-niveau">
+        <option value="">Alle niveau's</option>
+        <option value="gewestelijk">Gewestelijk</option>
+        <option value="provinciaal">Provinciaal</option>
+        <option value="interprovinciaal">Interprovinciaal</option>
+        <option value="elite">Elite</option>
+        <option value="nationaal">Nationaal</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="vac-email">E-mailadres contactpersoon</label>
+      <input type="email" id="vac-email" required>
+    </div>
+    <div class="form-row">
+      <label for="vac-omschrijving">Omschrijving vacature</label>
+      <textarea id="vac-omschrijving" required></textarea>
+    </div>
+    <p class="form-note">
+      Uw vacature zal na een bepaalde periode automatisch worden verwijderd om de website overzichtelijk te houden.
+      Eén maand voor het verstrijken van deze periode kan u een herinneringsmail ontvangen met de vraag om te verlengen.
+    </p>
+    <div class="form-row">
+      <button type="submit" class="btn-primary">Vacature verzenden (voorbeeld)</button>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
 </body>
 </html>

@@ -1,277 +1,287 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <title>Spelers – Voetbal4All</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="assets/js/forms.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-spelers">
-<div class="top-fixed-shell">
-  <header class="site-header">
-    <div class="container header-top">
-      <div class="header-logo">
-        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
-      </div>
-      <div class="header-ad">
-        <div class="ad-slot ad-header">ADVERTENTIE</div>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo">
+          <div class="brand-text">
+            <h1><span>Voetbal</span><strong>4</strong><span>All</span></h1>
+            <div style="font-size:0.75rem;color:#6b7280;">Platform voor iedereen met een hart voor voetbal</div>
+          </div>
+        </div>
+        <div class="ad-slot-top">
+          Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+        </div>
       </div>
     </div>
-    <nav class="main-nav">
-      <div class="container nav-inner">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nieuws.html">Nieuws</a></li>
-          <li><a href="uitslagen.html">Resultaten &amp; ranking</a></li>
-          <li><a href="vacatures.html">Clubvacatures</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a href="spelers.html" class="is-active">Spelers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta-group">
-          <a class="btn-nav" href="spelers.html">Zoek spelers</a>
-          <a class="btn-nav-outline" href="contact.html">Adverteren op Voetbal<span class="brand-4">4</span>All</a>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="nieuws.html" class="">Nieuws</a>
+          <a href="uitslagen.html" class="">Resultaten &amp; ranking</a>
+          <a href="vacatures.html" class="">Clubvacatures</a>
+          <a href="trainers.html" class="">Trainers</a>
+          <a href="spelers.html" class="active">Spelers</a>
+          <a href="events.html" class="">Events</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
         </div>
       </div>
     </nav>
-  </header>
-  <section class="live-scores-banner">
-    <div class="container live-scores-inner">
-      <div class="live-label">Live uitslagen</div>
-      <div class="live-ticker">
-        <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
-        <span class="live-separator">•</span>
-        <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
-      </div>
-      <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
-    </div>
-  </section>
-</div>
-
-<main class="page-main page-main-offset">
-  <section class="section">
-    <div class="container">
-      <div class="card">
-        <h1>Spelersplatform</h1>
-        <p>
-          Spelers die op zoek zijn naar een nieuwe club kunnen zich hier voorstellen.
-          Profielen worden na <strong>6 maanden automatisch verwijderd</strong> om de website overzichtelijk te houden.
-          Eén maand vóór die datum ontvangt de contactpersoon een herinneringsmail met de mogelijkheid om het profiel
-          opnieuw voor 6 maanden te verlengen.
-        </p>
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Challenger Pro League &amp; Keuken Kampioen Divisie • meer resultaten binnenkort beschikbaar.</span>
       </div>
     </div>
-  </section>
-
-  <!-- Zoeken in spelersprofielen -->
-  <section class="section">
-    <div class="container" style="max-width:900px;">
-      <div class="form">
-        <h2>Spelers zoeken</h2>
-
-        <div class="form-row">
-          <label for="sp-search-leeftijd">Leeftijd</label>
-          <select id="sp-search-leeftijd" name="leeftijd">
-            <option value="">Alle leeftijden</option>
-            <option value="u13-">Tot en met 12 jaar</option>
-            <option value="u14-u17">13 t/m 17 jaar</option>
-            <option value="u18-u21">18 t/m 21 jaar</option>
-            <option value="senior">22 jaar en ouder</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-search-positie">Voorkeurspositie</label>
-          <select id="sp-search-positie" name="positie">
-            <option value="">Alle posities</option>
-            <option value="keeper">Keeper</option>
-            <option value="verdediger">Verdediger</option>
-            <option value="middenvelder">Middenvelder</option>
-            <option value="aanvaller">Aanvaller</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-search-land">Land</label>
-          <select id="sp-search-land" name="land">
-            <option value="">Vlaanderen &amp; Nederland</option>
-            <option value="vlaanderen">Vlaanderen</option>
-            <option value="nederland">Nederland</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-search-regio">Regio / provincie</label>
-          <select id="sp-search-regio" name="regio">
-            <option value="">Alle regio's</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <button type="button" class="btn-primary">Zoek spelers (voorbeeld)</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Spelersprofiel aanmelden -->
-  <section class="section" id="form-speler">
-    <div class="container" style="max-width:800px;">
-      <div class="form">
-        <h2>Spelersprofiel aanmelden</h2>
-        <p style="font-size:0.9rem;color:#6b7280;">
-          Stel jezelf voor als speler zodat clubs je snel kunnen terugvinden.
-          Je profiel wordt na <strong>6 maanden automatisch verwijderd</strong> om de website overzichtelijk te houden.
-          Eén maand vóór die datum ontvang je een herinneringsmail met de mogelijkheid om je profiel opnieuw
-          voor 6 maanden te verlengen.
-        </p>
-
-        <div class="form-row">
-          <label for="sp-naam">Naam</label>
-          <input type="text" id="sp-naam" name="naam" required>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-email">E-mailadres (verplicht voor opvolging)</label>
-          <input type="email" id="sp-email" name="email" required>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-geslacht">Geslacht</label>
-          <select id="sp-geslacht" name="geslacht" required>
-            <option value="">Maak een keuze</option>
-            <option value="heren">Heren</option>
-            <option value="dames">Dames</option>
-            <option value="onverschillig">Onverschillig</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-landen">Landen waarin je wil spelen</label>
-          <select id="sp-landen" name="landen" required>
-            <option value="">Maak een keuze</option>
-            <option value="vlaanderen">Vlaanderen</option>
-            <option value="nederland">Nederland</option>
-            <option value="be-nl">Vlaanderen &amp; Nederland</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-regio">Regio / provincie</label>
-          <select id="sp-regio" name="regio" required>
-            <option value="">Maak een keuze</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-geboortejaar">Geboortejaar</label>
-          <input type="number" id="sp-geboortejaar" name="geboortejaar" min="1990" max="2021" required>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-leeftijdscat">Leeftijdscategorie</label>
-          <select id="sp-leeftijdscat" name="leeftijdscategorie" required>
-            <option value="">Maak een keuze</option>
-            <option value="u5">U5</option>
-            <option value="u6">U6</option>
-            <option value="u7">U7</option>
-            <option value="u8">U8</option>
-            <option value="u9">U9</option>
-            <option value="u10">U10</option>
-            <option value="u11">U11</option>
-            <option value="u12">U12</option>
-            <option value="u13">U13</option>
-            <option value="u14">U14</option>
-            <option value="u15">U15</option>
-            <option value="u16">U16</option>
-            <option value="u17">U17</option>
-            <option value="u18">U18</option>
-            <option value="u19">U19</option>
-            <option value="u21">U21</option>
-            <option value="beloften">Beloften</option>
-            <option value="eerste-elftal-heren">Eerste elftal heren</option>
-            <option value="eerste-elftal-dames">Eerste elftal dames</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-positie">Voorkeurspositie</label>
-          <select id="sp-positie" name="positie" required>
-            <option value="">Maak een keuze</option>
-            <option value="keeper">Keeper</option>
-            <option value="verdediger">Verdediger</option>
-            <option value="middenvelder">Middenvelder</option>
-            <option value="aanvaller">Aanvaller</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-niveau">Gewenst niveau</label>
-          <select id="sp-niveau" name="niveau" required>
-            <option value="">Maak een keuze</option>
-            <option value="jeugd-gewestelijk">Jeugd – gewestelijk</option>
-            <option value="jeugd-provinciaal">Jeugd – provinciaal</option>
-            <option value="jeugd-interprovinciaal">Jeugd – interprovinciaal</option>
-            <option value="jeugd-elite">Jeugd – elite</option>
-            <option value="eerste-ploeg-provinciaal">Eerste elftal – provinciaal</option>
-            <option value="eerste-ploeg-nationaal">Eerste elftal – nationaal</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-beschikbaarheid">Beschikbaarheid</label>
-          <select id="sp-beschikbaarheid" name="beschikbaarheid" required>
-            <option value="">Maak een keuze</option>
-            <option value="komend-seizoen">Vanaf komend seizoen</option>
-            <option value="onmiddellijk">Onmiddellijk beschikbaar</option>
-            <option value="in-overleg">In onderling overleg</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-profiel">Korte voorstelling</label>
-          <textarea id="sp-profiel" name="profiel" rows="6" required></textarea>
-        </div>
-
-        <div class="form-row">
-          <label for="sp-foto">Foto (optioneel)</label>
-          <input type="file" id="sp-foto" name="foto" accept="image/*">
-        </div>
-
-        <div class="form-row">
-          <label for="sp-cv">CV uploaden (optioneel – PDF)</label>
-          <input type="file" id="sp-cv" name="cv" accept=".pdf">
-        </div>
-
-        <div class="form-row">
-          <label for="sp-video">YouTube of Vimeo-link (optioneel)</label>
-          <input type="url" id="sp-video" name="video" placeholder="https://">
-        </div>
-
-        <div class="form-row">
-          <label>
-            <input type="checkbox" name="ouder_toestemming" required>
-            Ik verklaar dat dit formulier werd ingevuld door een ouder/voogd indien de speler minderjarig is.
-          </label>
-        </div>
-
-        <div class="form-row">
-          <button type="submit" class="btn-primary">Spelersprofiel indienen</button>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-<footer class="site-footer">
-  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
-    <div style="margin-bottom:0.75rem;">
-      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
-    </div>
-    <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
   </div>
-</footer>
+  <main>
+    <div class="page-inner">
 
+<section class="section">
+  <h2>Spelersprofielen zoeken</h2>
+  <p class="section-intro">
+    Zoek beschikbare spelers per leeftijdscategorie, positie, regio en niveau.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="sp-zoek-land">Land</label>
+      <select id="sp-zoek-land">
+        <option value="">Vlaanderen &amp; Nederland</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-zoek-regio">Regio / provincie</label>
+      <select id="sp-zoek-regio">
+        <option value="">Alle regio's</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-zoek-leeftijd">Leeftijdscategorie</label>
+      <select id="sp-zoek-leeftijd">
+        <option value="">Alle leeftijden</option>
+        <option value="u5">U5</option>
+        <option value="u6">U6</option>
+        <option value="u7">U7</option>
+        <option value="u8">U8</option>
+        <option value="u9">U9</option>
+        <option value="u10">U10</option>
+        <option value="u11">U11</option>
+        <option value="u12">U12</option>
+        <option value="u13">U13</option>
+        <option value="u14">U14</option>
+        <option value="u15">U15</option>
+        <option value="u16">U16</option>
+        <option value="u17">U17</option>
+        <option value="u18">U18</option>
+        <option value="u19">U19</option>
+        <option value="u21">U21</option>
+        <option value="beloften">Beloften</option>
+        <option value="eerste-heren">Eerste elftal heren</option>
+        <option value="eerste-dames">Eerste elftal dames</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-zoek-positie">Voorkeurspositie</label>
+      <select id="sp-zoek-positie">
+        <option value="">Alle posities</option>
+        <option value="doelman">Doelman</option>
+        <option value="verdediger">Verdediger</option>
+        <option value="middenvelder">Middenvelder</option>
+        <option value="aanvaller">Aanvaller</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-zoek-niveau">Huidig / gewenst niveau</label>
+      <select id="sp-zoek-niveau">
+        <option value="">Alle niveau's</option>
+        <option value="gewestelijk">Gewestelijk</option>
+        <option value="provinciaal">Provinciaal</option>
+        <option value="interprovinciaal">Interprovinciaal</option>
+        <option value="elite">Elite</option>
+        <option value="nationaal">Nationaal</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <button type="button" class="btn-primary">Zoek spelers (voorbeeld)</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Spelersprofiel aanmelden</h2>
+  <p class="section-intro">
+    Meld een speler aan die beschikbaar is voor een nieuwe club. Minderjarigen dienen steeds aangemeld
+    te worden door een ouder of voogd.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="sp-naam">Naam speler</label>
+      <input type="text" id="sp-naam" required>
+    </div>
+    <div class="form-row">
+      <label for="sp-geboortejaar">Geboortejaar</label>
+      <select id="sp-geboortejaar">
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-leeftijdcat">Leeftijdscategorie</label>
+      <select id="sp-leeftijdcat">
+        <option value="">Maak een keuze</option>
+        <option value="u5">U5</option>
+        <option value="u6">U6</option>
+        <option value="u7">U7</option>
+        <option value="u8">U8</option>
+        <option value="u9">U9</option>
+        <option value="u10">U10</option>
+        <option value="u11">U11</option>
+        <option value="u12">U12</option>
+        <option value="u13">U13</option>
+        <option value="u14">U14</option>
+        <option value="u15">U15</option>
+        <option value="u16">U16</option>
+        <option value="u17">U17</option>
+        <option value="u18">U18</option>
+        <option value="u19">U19</option>
+        <option value="u21">U21</option>
+        <option value="beloften">Beloften</option>
+        <option value="eerste-heren">Eerste elftal heren</option>
+        <option value="eerste-dames">Eerste elftal dames</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-geslacht">Dames / heren</label>
+      <select id="sp-geslacht">
+        <option value="">Onverschillig</option>
+        <option value="heren">Heren</option>
+        <option value="dames">Dames</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-positie">Voorkeurspositie</label>
+      <select id="sp-positie">
+        <option value="">Maak een keuze</option>
+        <option value="doelman">Doelman</option>
+        <option value="verdediger">Verdediger</option>
+        <option value="middenvelder">Middenvelder</option>
+        <option value="aanvaller">Aanvaller</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-land">Land waar speler wil spelen</label>
+      <select id="sp-land">
+        <option value="">Maak een keuze</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+        <option value="beide">Beide</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-regio">Regio / provincie</label>
+      <select id="sp-regio">
+        <option value="">Kies eerst een land</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-niveau">Gewenst niveau</label>
+      <select id="sp-niveau">
+        <option value="">Alle niveau's</option>
+        <option value="gewestelijk">Gewestelijk</option>
+        <option value="provinciaal">Provinciaal</option>
+        <option value="interprovinciaal">Interprovinciaal</option>
+        <option value="elite">Elite</option>
+        <option value="nationaal">Nationaal</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="sp-email">E-mailadres ouder / voogd / speler</label>
+      <input type="email" id="sp-email" required>
+    </div>
+    <div class="form-row">
+      <label for="sp-beschikbaarheid">Beschikbaarheid</label>
+      <select id="sp-beschikbaarheid">
+        <option value="">Maak een keuze</option>
+        <option value="onmiddellijk">Onmiddellijk</option>
+        <option value="wintermercato">Wintermercato</option>
+        <option value="zomermecato">Zomermecato</option>
+        <option value="volgend-seizoen">Volgend seizoen</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label>
+        <input type="checkbox" id="sp-minderjarig">
+        De speler is minderjarig en ik bevestig dat ik ouder / voogd ben.
+      </label>
+    </div>
+    <p class="form-note">
+      Spelersprofielen worden na 6 maanden automatisch verwijderd om de website overzichtelijk te houden.
+      Eén maand voor het verstrijken van deze periode kan u een herinneringsmail ontvangen om te verlengen.
+    </p>
+    <div class="form-row">
+      <button type="submit" class="btn-primary">Spelersprofiel verzenden (voorbeeld)</button>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
 </body>
 </html>

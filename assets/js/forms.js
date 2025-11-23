@@ -1,98 +1,78 @@
+
 (function() {
-  const regioVlaanderen = [
-    "Antwerpen",
-    "Limburg",
-    "Oost-Vlaanderen",
-    "Vlaams-Brabant",
-    "West-Vlaanderen"
-  ];
+  const regioData = {
+    vlaanderen: [
+      'Antwerpen',
+      'Limburg',
+      'Oost-Vlaanderen',
+      'West-Vlaanderen',
+      'Vlaams-Brabant'
+    ],
+    nederland: [
+      'Groningen',
+      'Friesland',
+      'Drenthe',
+      'Overijssel',
+      'Flevoland',
+      'Gelderland',
+      'Utrecht',
+      'Noord-Holland',
+      'Zuid-Holland',
+      'Zeeland',
+      'Noord-Brabant',
+      'Limburg'
+    ]
+  };
 
-  const regioNederland = [
-    "Drenthe",
-    "Flevoland",
-    "Friesland",
-    "Gelderland",
-    "Groningen",
-    "Limburg (NL)",
-    "Noord-Brabant",
-    "Noord-Holland",
-    "Overijssel",
-    "Utrecht",
-    "Zeeland",
-    "Zuid-Holland"
-  ];
-
-  function vulRegioSelect(selectElement, regioLijst, includeAllOption, allLabel) {
-    if (!selectElement) return;
-    selectElement.innerHTML = "";
-    if (includeAllOption) {
-      const optAll = document.createElement("option");
-      optAll.value = "";
-      optAll.textContent = allLabel || "Alle regio's";
-      selectElement.appendChild(optAll);
-    } else {
-      const optDefault = document.createElement("option");
-      optDefault.value = "";
-      optDefault.textContent = "Maak een keuze";
-      selectElement.appendChild(optDefault);
+  function fillRegioSelect(select, land) {
+    if (!select) return;
+    select.innerHTML = '';
+    const optAll = document.createElement('option');
+    optAll.value = '';
+    optAll.textContent = land ? 'Alle regio\'s' : 'Alle regio\'s';
+    if (!land) {
+      select.appendChild(optAll);
+      return;
     }
-    regioLijst.forEach(function(regio) {
-      const opt = document.createElement("option");
-      opt.value = regio.toLowerCase().replace(/\s+/g, "-");
-      opt.textContent = regio;
-      selectElement.appendChild(opt);
+    const regioList = regioData[land] || [];
+    if (!regioList.length) {
+      select.appendChild(optAll);
+      return;
+    }
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = 'Alle regio\'s';
+    select.appendChild(placeholder);
+    regioList.forEach(r => {
+      const opt = document.createElement('option');
+      opt.value = r.toLowerCase().replace(/\s+/g, '-');
+      opt.textContent = r;
+      select.appendChild(opt);
     });
   }
 
-  function setupLandRegioPair(landId, regioId, opts) {
-    const land = document.getElementById(landId);
-    const regio = document.getElementById(regioId);
-    if (!land || !regio) return;
-    const includeAll = opts && opts.includeAll;
-    const allLabel = opts && opts.allLabel;
-
-    function update() {
-      if (!land.value) {
-        regio.innerHTML = "";
-        if (includeAll) {
-          const opt = document.createElement("option");
-          opt.value = "";
-          opt.textContent = allLabel || "Alle regio's";
-          regio.appendChild(opt);
-        } else {
-          const opt = document.createElement("option");
-          opt.value = "";
-          opt.textContent = "Maak een keuze";
-          regio.appendChild(opt);
-        }
-        return;
-      }
-      if (land.value === "vlaanderen") {
-        vulRegioSelect(regio, regioVlaanderen, includeAll, allLabel);
-      } else if (land.value === "nederland") {
-        vulRegioSelect(regio, regioNederland, includeAll, allLabel);
-      } else if (land.value === "be-nl") {
-        vulRegioSelect(regio, regioVlaanderen.concat(regioNederland), includeAll, allLabel);
-      } else {
-        regio.innerHTML = "";
-      }
-    }
-
-    land.addEventListener("change", update);
-    // initial fill
-    update();
+  function bindLandRegio(landId, regioId) {
+    const landEl = document.getElementById(landId);
+    const regioEl = document.getElementById(regioId);
+    if (!landEl || !regioEl) return;
+    landEl.addEventListener('change', () => {
+      const val = landEl.value === 'beide' ? '' : landEl.value;
+      fillRegioSelect(regioEl, val);
+    });
   }
 
-  // Script wordt met defer geladen, dus DOM is al beschikbaar
-  setupLandRegioPair("vac-search-land", "vac-search-regio", {includeAll:true, allLabel:"Alle regio's"});
-  setupLandRegioPair("vac-land", "vac-regio", {includeAll:false});
+  document.addEventListener('DOMContentLoaded', () => {
+    // Zoekfilters
+    bindLandRegio('vac-zoek-land', 'vac-zoek-regio');
+    bindLandRegio('tr-zoek-land', 'tr-zoek-regio');
+    bindLandRegio('sp-zoek-land', 'sp-zoek-regio');
+    bindLandRegio('ev-zoek-land', 'ev-zoek-regio');
+    bindLandRegio('res-land', 'res-regio'); // res-regio bestaat nog niet, maar kan later toegevoegd worden
 
-  setupLandRegioPair("tr-search-land", "tr-search-regio", {includeAll:true, allLabel:"Alle regio's"});
-  setupLandRegioPair("tr-land", "tr-regio", {includeAll:false});
-
-  setupLandRegioPair("sp-search-land", "sp-search-regio", {includeAll:true, allLabel:"Alle regio's"});
-  setupLandRegioPair("sp-landen", "sp-regio", {includeAll:false});
-
-  setupLandRegioPair("ev-search-land", "ev-search-regio", {includeAll:true, allLabel:"Alle regio's"});
-  setupLandRegioPair("ev-land", "ev-regio", {includeAll:false});
+    // Invulformulieren
+    bindLandRegio('vac-land', 'vac-regio');
+    bindLandRegio('tr-land', 'tr-regio');
+    bindLandRegio('sp-land', 'sp-regio');
+    bindLandRegio('ev-land', 'ev-regio');
+  });
 })();

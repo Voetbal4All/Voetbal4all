@@ -1,56 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Voetbal4All - Nieuws</title>
+  <title>Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="top-header">
-    <div class="logo-bar">
-      <div class="logo-placeholder">LOGO VOETBAL<span class="v4">4</span>ALL</div>
-      <div class="top-ad">ADVERTENTIE 728×90</div>
-    </div>
-    <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="nieuws.html" class="active">Nieuws</a>
-      <a href="uitslagen.html">Resultaten &amp; ranking</a>
-      <a href="vacatures.html">Clubvacatures</a>
-      <a href="trainers.html">Trainers</a>
-      <a href="spelers.html">Spelers</a>
-      <a href="events.html">Events</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div class="live-banner">
-      Live uitslagen (placeholder) – zelfde balk als op de homepage voor herkenbaarheid.
-    </div>
-  </header>
-
-  <main class="page">
-    <section class="section">
-      <div class="container" style="max-width: 1000px;">
-        <div class="card">
-          <h1>Voetbalkoppen – nieuws over voetbal</h1>
-          <p class="section-intro">
-            Op deze pagina verschijnen alle nieuwsartikels die automatisch worden ingeladen uit het platform.
-            Het gaat voorlopig om voorbeeldgegevens uit <code>data/news.json</code>.
-          </p>
-
-          <div id="nieuws-lijst">
-            <!-- Nieuwsartikels worden hier dynamisch ingeladen uit data/news.json -->
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo">
+          <div class="brand-text">
+            <h1><span>Voetbal</span><strong>4</strong><span>All</span></h1>
+            <div style="font-size:0.75rem;color:#6b7280;">Platform voor iedereen met een hart voor voetbal</div>
           </div>
         </div>
+        <div class="ad-slot-top">
+          Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+        </div>
       </div>
-    </section>
-  </main>
+    </div>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="nieuws.html" class="active">Nieuws</a>
+          <a href="uitslagen.html" class="">Resultaten &amp; ranking</a>
+          <a href="vacatures.html" class="">Clubvacatures</a>
+          <a href="trainers.html" class="">Trainers</a>
+          <a href="spelers.html" class="">Spelers</a>
+          <a href="events.html" class="">Events</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
+        </div>
+      </div>
+    </nav>
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Challenger Pro League &amp; Keuken Kampioen Divisie • meer resultaten binnenkort beschikbaar.</span>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="page-inner">
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© Voetbal4All – platform in ontwikkeling. Nieuwe functies worden stap voor stap toegevoegd.</p>
+<section class="section">
+  <h2>Nieuwsartikels</h2>
+  <p class="section-intro">
+    Hieronder verschijnen nieuwsartikels die automatisch worden ingeladen uit het platform.
+    Dit zijn voorbeeldgegevens uit <code>data/news.json</code>, gegenereerd door een aparte nieuwsworkflow.
+  </p>
+  <div id="nieuws-lijst">
+    <!-- Nieuwsartikels worden hier dynamisch ingeladen uit data/news.json -->
+  </div>
+</section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
     </div>
   </footer>
-
-  <script src="assets/js/news.js" defer></script>
+</div>
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
 </body>
 </html>

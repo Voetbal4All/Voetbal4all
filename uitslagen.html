@@ -1,136 +1,123 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <title>Resultaten &amp; ranking – Voetbal4All</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <title>Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-uitslagen">
-<div class="top-fixed-shell">
-  <header class="site-header">
-    <div class="container header-top">
-      <div class="header-logo">
-        <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo">
-      </div>
-      <div class="header-ad">
-        <div class="ad-slot ad-header">ADVERTENTIE</div>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo">
+          <div class="brand-text">
+            <h1><span>Voetbal</span><strong>4</strong><span>All</span></h1>
+            <div style="font-size:0.75rem;color:#6b7280;">Platform voor iedereen met een hart voor voetbal</div>
+          </div>
+        </div>
+        <div class="ad-slot-top">
+          Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+        </div>
       </div>
     </div>
-    <nav class="main-nav">
-      <div class="container nav-inner">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nieuws.html">Nieuws</a></li>
-          <li><a href="uitslagen.html" class="is-active">Resultaten &amp; ranking</a></li>
-          <li><a href="vacatures.html">Clubvacatures</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a href="spelers.html">Spelers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-cta-group">
-          <a class="btn-nav" href="spelers.html">Zoek spelers</a>
-          <a class="btn-nav-outline" href="contact.html">Adverteren op Voetbal<span class="brand-4">4</span>All</a>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="nieuws.html" class="">Nieuws</a>
+          <a href="uitslagen.html" class="active">Resultaten &amp; ranking</a>
+          <a href="vacatures.html" class="">Clubvacatures</a>
+          <a href="trainers.html" class="">Trainers</a>
+          <a href="spelers.html" class="">Spelers</a>
+          <a href="events.html" class="">Events</a>
+          <a href="contact.html" class="">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
         </div>
       </div>
     </nav>
-  </header>
-  <section class="live-scores-banner">
-    <div class="container live-scores-inner">
-      <div class="live-label">Live uitslagen</div>
-      <div class="live-ticker">
-        <span class="live-item">Jupiler Pro League: live scores via koppeling (in ontwikkeling)</span>
-        <span class="live-separator">•</span>
-        <span class="live-item">Eredivisie: live scores via koppeling (in ontwikkeling)</span>
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Challenger Pro League &amp; Keuken Kampioen Divisie • meer resultaten binnenkort beschikbaar.</span>
       </div>
-      <a class="live-link" href="uitslagen.html">Bekijk alle uitslagen &amp; rangschikkingen</a>
     </div>
-  </section>
-</div>
+  </div>
+  <main>
+    <div class="page-inner">
 
-<main class="page-main page-main-offset">
-  <section class="section">
-    <div class="container">
-      <div class="card">
-        <h1>Resultaten &amp; ranking</h1>
-        <p>
-          Deze pagina bundelt in de toekomst alle resultaten en rangschikkingen van de relevante competities –
-          van eerste klasse tot lagere reeksen, zowel voor dames als heren.
-        </p>
-        <p class="section-note">
-          Technische koppelingen naar databronnen staan op de roadmap; voorlopig is dit placeholderinhoud.
-        </p>
-      </div>
-    </div>
-  </section>
 <section class="section">
-  <div class="container" style="max-width:900px;">
-    <div class="form">
-      <h2>Resultaten &amp; ranking zoeken</h2>
-
-      <div class="form-row">
-        <label for="res-land">Land</label>
-        <select id="res-land" name="land">
-          <option value="">Vlaanderen &amp; Nederland</option>
-          <option value="belgie">België</option>
-          <option value="nederland">Nederland</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label for="res-team">Team / club</label>
-        <input type="text" id="res-team" name="team" placeholder="Zoek op team of clubnaam">
-      </div>
-
-      <div class="form-row">
-        <label for="res-gender">Dames / heren</label>
-        <select id="res-gender" name="gender">
-          <option value="">Dames &amp; heren</option>
-          <option value="heren">Heren</option>
-          <option value="dames">Dames</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label for="res-niveau">Niveau / competitie</label>
-        <select id="res-niveau" name="niveau">
-          <option value="">Alle niveaus</option>
-          <option value="jpl">Jupiler Pro League</option>
-          <option value="challenger">Challenger Pro League</option>
-          <option value="eredivisie">Eredivisie</option>
-          <option value="keuken">Keuken Kampioen Divisie</option>
-          <option value="nat-be">Nationale reeksen België</option>
-          <option value="nat-nl">Nationale reeksen Nederland</option>
-          <option value="prov-be">Provinciale reeksen België</option>
-          <option value="laag-be">Lagere reeksen België</option>
-          <option value="laag-nl">Lagere reeksen Nederland</option>
-          <option value="dames-1">Dames eerste klasse</option>
-          <option value="dames-overig">Dames overige reeksen</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label for="res-speeldag">Datum of speeldag</label>
-        <input type="date" id="res-speeldag" name="speeldag">
-      </div>
-
-      <div class="form-row">
-        <button type="button" class="btn-primary">Zoek resultaten (voorbeeld)</button>
-      </div>
+  <h2>Resultaten &amp; ranking zoeken</h2>
+  <p class="section-intro">
+    Deze pagina zal resultaten en rangschikkingen tonen voor verschillende competities in Vlaanderen en Nederland.
+    Momenteel is dit een statische demonstratie; koppelingen volgen in een latere fase.
+  </p>
+  <div class="form">
+    <div class="form-row">
+      <label for="res-land">Land</label>
+      <select id="res-land">
+        <option value="">Vlaanderen &amp; Nederland</option>
+        <option value="vlaanderen">Vlaanderen</option>
+        <option value="nederland">Nederland</option>
+      </select>
     </div>
+    <div class="form-row">
+      <label for="res-team">Team / club</label>
+      <input type="text" id="res-team" placeholder="Zoek op clubnaam">
+    </div>
+    <div class="form-row">
+      <label for="res-gender">Dames / heren</label>
+      <select id="res-gender">
+        <option value="">Dames &amp; heren</option>
+        <option value="heren">Heren</option>
+        <option value="dames">Dames</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="res-niveau">Niveau / competitie</label>
+      <select id="res-niveau">
+        <option value="">Alle niveaus</option>
+        <option value="jpl">Jupiler Pro League</option>
+        <option value="challenger">Challenger Pro League</option>
+        <option value="eredivisie">Eredivisie</option>
+        <option value="keuken">Keuken Kampioen Divisie</option>
+        <option value="nat-be">Nationale reeksen België</option>
+        <option value="nat-nl">Nationale reeksen Nederland</option>
+        <option value="prov-be">Provinciale reeksen België</option>
+        <option value="laag-be">Lagere reeksen België</option>
+        <option value="laag-nl">Lagere reeksen Nederland</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="res-speeldag">Datum / speeldag</label>
+      <input type="date" id="res-speeldag">
+    </div>
+    <div class="form-row">
+      <button type="button" class="btn-primary">Zoek (voorbeeld)</button>
+    </div>
+    <p class="form-note">
+      In een volgende fase worden deze filters gekoppeld aan echte uitslagen en rangschikkingen.
+    </p>
   </div>
 </section>
 
-</main>
-<footer class="site-footer">
-  <div class="container footer-inner" style="text-align:center;padding:2rem 0;">
-    <div style="margin-bottom:0.75rem;">
-      <img src="assets/img/logo-voetbal4all.png" alt="Voetbal4All logo" style="max-height:60px;">
     </div>
-    <p>© Voetbal<span class="brand-4">4</span>All – Platform voor clubs, trainers en spelers in Vlaanderen en Nederland. Website in ontwikkeling.</p>
-  </div>
-</footer>
-
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
 </body>
 </html>

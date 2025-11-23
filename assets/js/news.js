@@ -1,120 +1,91 @@
-(function() {
-  function createNewsCard(item, options) {
-    options = options || {};
-    var article = document.createElement('article');
-    article.className = 'news-card';
 
-    if (!options.hideImage) {
-      var imgBlock = document.createElement('div');
-      imgBlock.className = 'news-image';
-      imgBlock.style.height = options.imageHeight || '150px';
-      imgBlock.style.borderRadius = '10px';
-      imgBlock.style.background = '#d1d5db';
-      imgBlock.style.marginBottom = '0.6rem';
-      imgBlock.style.display = 'flex';
-      imgBlock.style.alignItems = 'center';
-      imgBlock.style.justifyContent = 'center';
-      imgBlock.style.fontSize = '0.8rem';
-      imgBlock.style.color = '#4b5563';
-      imgBlock.textContent = 'AFBEELDING (AI – ' + (item.competitionLabel || '') + ')';
-      article.appendChild(imgBlock);
+(async function() {
+  async function loadNews() {
+    try {
+      const resp = await fetch('data/news.json', { cache: 'no-store' });
+      if (!resp.ok) {
+        console.warn('Kon data/news.json niet laden:', resp.status);
+        return [];
+      }
+      const data = await resp.json();
+      if (!Array.isArray(data)) {
+        console.warn('news.json is geen array');
+        return [];
+      }
+      return data;
+    } catch (e) {
+      console.error('Fout bij laden nieuws:', e);
+      return [];
     }
+  }
 
-    var h3 = document.createElement('h3');
-    h3.textContent = item.title || 'Voetbalkop';
-    article.appendChild(h3);
+  function createNewsCard(item) {
+    const card = document.createElement('article');
+    card.className = 'news-card';
 
-    var meta = document.createElement('p');
+    const h3 = document.createElement('h3');
+    h3.textContent = item.title || 'Nieuwsartikel';
+    card.appendChild(h3);
+
+    const meta = document.createElement('p');
     meta.className = 'news-meta';
-    var comp = item.competitionLabel || '';
-    var gender = item.gender === 'dames' ? 'Dames' : 'Heren';
-    meta.textContent = (comp ? comp + ' • ' : '') + gender + ' • nieuws';
-    article.appendChild(meta);
+    const comp = item.competitionLabel || 'Voetbal';
+    const gender = item.gender ? (item.gender === 'dames' ? 'Dames' : 'Heren') : '';
+    meta.textContent = [comp, gender].filter(Boolean).join(' · ');
+    card.appendChild(meta);
 
-    var teaser = document.createElement('p');
-    teaser.className = 'news-teaser';
-    teaser.textContent = item.teaser || '';
-    article.appendChild(teaser);
+    if (item.teaser) {
+      const teaser = document.createElement('p');
+      teaser.className = 'news-teaser';
+      teaser.textContent = item.teaser;
+      card.appendChild(teaser);
+    }
 
-    return article;
+    return card;
   }
 
-  function renderHomeNews(news) {
-    var topContainer = document.getElementById('home-news-top');
-    var bottomContainer = document.getElementById('home-news-bottom');
-    if (!topContainer && !bottomContainer) return;
+  const news = await loadNews();
+  if (!news.length) return;
 
-    var firstFour = news.slice(0, 4);
-    var nextSix = news.slice(4, 10);
+  const homeTop = document.getElementById('home-news-top');
+  const homeBottom = document.getElementById('home-news-bottom');
+  const nieuwsLijst = document.getElementById('nieuws-lijst');
 
-    if (topContainer) {
-      topContainer.innerHTML = '';
-      var header = document.createElement('div');
-      header.className = 'news-section-header';
-      var h2 = document.createElement('h2');
-      h2.textContent = 'Voetbalkoppen';
-      header.appendChild(h2);
-      var p = document.createElement('p');
-      p.className = 'section-intro';
-      p.textContent = 'Automatisch nieuws uit verschillende competities in Vlaanderen en Nederland (voorbeelddata).';
-      header.appendChild(p);
-      topContainer.appendChild(header);
+  if (homeTop) {
+    const sectionHeader = document.createElement('div');
+    sectionHeader.className = 'news-section-header';
+    sectionHeader.innerHTML = `
+      <h2>Voetbalkoppen</h2>
+      <p class="section-intro">Korte voetbalnieuwsberichten uit Jupiler Pro League, Eredivisie, nationale en internationale competities.</p>
+    `;
+    homeTop.appendChild(sectionHeader);
 
-      firstFour.forEach(function(item) {
-        topContainer.appendChild(createNewsCard(item, { imageHeight: '140px' }));
-      });
-
-      var more = document.createElement('p');
-      more.style.marginTop = '0.75rem';
-      var link = document.createElement('a');
-      link.href = 'nieuws.html';
-      link.className = 'btn-secondary';
-      link.textContent = 'Meer nieuws bekijken';
-      more.appendChild(link);
-      topContainer.appendChild(more);
-    }
-
-    if (bottomContainer) {
-      bottomContainer.innerHTML = '';
-      nextSix.forEach(function(item) {
-        bottomContainer.appendChild(createNewsCard(item, { imageHeight: '160px' }));
-      });
-    }
-  }
-
-  function renderNewsPage(news) {
-    var listContainer = document.getElementById('nieuws-lijst');
-    if (!listContainer) return;
-    listContainer.innerHTML = '';
-
-    if (!news.length) {
-      var empty = document.createElement('p');
-      empty.textContent = 'Er zijn momenteel nog geen nieuwsartikels beschikbaar.';
-      listContainer.appendChild(empty);
-      return;
-    }
-
-    news.forEach(function(item) {
-      listContainer.appendChild(createNewsCard(item));
+    const first = news.slice(0, 4);
+    first.forEach(item => {
+      homeTop.appendChild(createNewsCard(item));
     });
   }
 
-  function loadNewsAndRender() {
-    fetch('data/news.json', { cache: 'no-store' })
-      .then(function(resp) { return resp.json(); })
-      .then(function(data) {
-        var news = Array.isArray(data) ? data : [];
-        renderHomeNews(news);
-        renderNewsPage(news);
-      })
-      .catch(function(err) {
-        console.error('Kon news.json niet laden:', err);
+  if (homeBottom) {
+    const rest = news.slice(4, 10);
+    if (rest.length) {
+      const sectionHeader = document.createElement('div');
+      sectionHeader.className = 'news-section-header';
+      sectionHeader.innerHTML = `
+        <h2>Meer voetbalkoppen</h2>
+        <p class="section-intro">Uitgebreidere nieuwskoppen, breder weergegeven voor extra zichtbaarheid.</p>
+      `;
+      homeBottom.appendChild(sectionHeader);
+
+      rest.forEach(item => {
+        homeBottom.appendChild(createNewsCard(item));
       });
+    }
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadNewsAndRender);
-  } else {
-    loadNewsAndRender();
+  if (nieuwsLijst) {
+    news.forEach(item => {
+      nieuwsLijst.appendChild(createNewsCard(item));
+    });
   }
 })();
