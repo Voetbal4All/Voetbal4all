@@ -51,7 +51,7 @@
     });
   }
 
-  document.addEventListener("DOMContentLoaded", () =>:
+  document.addEventListener("DOMContentLoaded", function () {
     // Zoekfilters
     bindLandRegio("vac-zoek-land", "vac-zoek-regio", "Alle regio's");
     bindLandRegio("tr-zoek-land", "tr-zoek-regio", "Alle regio's");
