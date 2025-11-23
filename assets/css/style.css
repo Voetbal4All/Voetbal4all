@@ -1,7 +1,7 @@
 
 :root {
-  --green-main: rgb(19, 80, 27);
-  --green-light: rgb(35, 120, 45);
+  --green-main: rgb(90, 133, 95);
+  --green-light: rgb(110, 160, 115);
   --blue-banner: #1d4ed8;
   --bg-light: #f3f4f6;
   --text-main: #111827;
@@ -26,15 +26,11 @@ body {
   background: #ffffff;
 }
 
-/* Basis frame */
-
 .site-shell {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
-/* Top-strip (logo + advertentie) */
 
 .top-strip {
   position: sticky;
@@ -92,29 +88,41 @@ body {
 
 /* Navigatie */
 
-/* Navigatiebalk achtergrond in huisstijl-groen */
 .navbar {
   height: var(--nav-height);
-  background: var(--green-main);     /* HIER de groene kleur */
+  background: var(--green-main);
   border-bottom: 1px solid var(--border-soft);
 }
 
-/* Navigatie-links binnen groene balk */
+.navbar-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: flex-start;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
 .nav-links a {
-  color: #ffffff;                    /* Witte tekst */
   text-decoration: none;
   font-size: 0.85rem;
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
+  color: #ffffff;
   border: 1px solid transparent;
 }
 
-/* Hover krijgt lichtgroen */
 .nav-links a:hover {
   background: var(--green-light);
 }
 
-/* Actieve pagina = blauw */
 .nav-links a.active {
   background: var(--blue-banner);
   border-color: var(--blue-banner);
@@ -122,14 +130,10 @@ body {
   font-weight: 600;
 }
 
-/* CTA-knop rechts (Ik wil adverteren) */
-.nav-cta .btn-secondary {
-  background: #ffffff;
-  color: var(--green-main);
-  border-color: #ffffff;
+.nav-cta {
+  font-size: 0.8rem;
+  margin-left: auto;
 }
-
-/* Live banner */
 
 .live-banner {
   background: var(--blue-banner);
@@ -153,8 +157,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
-
-/* Main */
 
 main {
   flex: 1;
@@ -231,14 +233,14 @@ main {
 .btn-secondary {
   background: #ffffff;
   color: var(--green-main);
-  border-color: var(--green-main);
+  border-color: #ffffff;
 }
 
 .btn-secondary:hover {
   background: #ecfdf3;
 }
 
-/* Home grids */
+/* Grids */
 
 .home-top-grid {
   display: grid;
@@ -279,7 +281,7 @@ main {
   margin: 0 0 0.8rem 0;
 }
 
-/* Nieuws-kaarten */
+/* Nieuws kaarten */
 
 .news-section-header h2 {
   margin: 0 0 0.1rem 0;
@@ -378,6 +380,16 @@ main {
   color: var(--text-muted);
 }
 
+/* Bottom CTA */
+
+.bottom-cta {
+  margin-top: 1rem;
+}
+
+.bottom-cta .card {
+  text-align: center;
+}
+
 /* Footer */
 
 footer {
@@ -428,5 +440,9 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.4rem;
+  }
+
+  .nav-cta {
+    margin-left: 0;
   }
 }
