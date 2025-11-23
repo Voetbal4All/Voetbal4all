@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": "news-1",
+    "title": "Club Brugge boekt overtuigende zege tegen Antwerp",
+    "teaser": "Club Brugge wint met 3-0 van Antwerp en verstevigt koppositie in de Jupiler Pro League.",
+    "competition": "jpl",
+    "competitionLabel": "Jupiler Pro League",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Voetbalwedstrijd Club Brugge tegen Antwerp met juichende spelers",
+    "imageAlt": "Club Brugge spelers vieren doelpunt tegen Antwerp",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-2",
+    "title": "Ajax verstevigt koppositie met zege op PSV",
+    "teaser": "Ajax wint met 2-1 van PSV in een spannende topper in de Eredivisie.",
+    "competition": "eredivisie",
+    "competitionLabel": "Eredivisie",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Spannende voetbalwedstrijd Ajax tegen PSV in een vol stadion",
+    "imageAlt": "Ajax en PSV spelers in duel tijdens Eredivisie wedstrijd",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-3",
+    "title": "RSC Charleroi wint thriller tegen Westerlo in Challenger Pro League",
+    "teaser": "Charleroi pakt drie punten dankzij late doelpunten en stijgt op de ranglijst.",
+    "competition": "challenger",
+    "competitionLabel": "Challenger Pro League",
+    "gender": "heren",
+    "type": "nabeschouwing",
+    "imagePrompt": "Spannende voetbalwedstrijd Charleroi tegen Westerlo met juichende spelers",
+    "imageAlt": "Charleroi speler viert doelpunt tegen Westerlo",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-4",
+    "title": "FC Volendam wint overtuigend in Keuken Kampioen Divisie",
+    "teaser": "Volendam wint met 4-1 en klimt naar de top van de Keuken Kampioen Divisie.",
+    "competition": "keuken",
+    "competitionLabel": "Keuken Kampioen Divisie",
+    "gender": "heren",
+    "type": "speeldag",
+    "imagePrompt": "Voetbalwedstrijd FC Volendam met scorend team in actie",
+    "imageAlt": "FC Volendam speler maakt doelpunt in Keuken Kampioen Divisie",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-5",
+    "title": "Rode Duivels bereiden zich voor op cruciale WK-kwalificatiewedstrijd",
+    "teaser": "De Rode Duivels trainen hard voor de komende match tegen Polen.",
+    "competition": "rode-duivels",
+    "competitionLabel": "Rode Duivels",
+    "gender": "heren",
+    "type": "voorbeschouwing",
+    "imagePrompt": "Belgisch nationaal elftal tijdens training met focus en intensiteit",
+    "imageAlt": "Rode Duivels trainen intensief op veld",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-6",
+    "title": "Oranje Dames winnen overtuigend van Zweden in EK-kwalificatie",
+    "teaser": "Nederlandse vrouwen winnen met 3-0 en zetten belangrijke stap richting EK.",
+    "competition": "oranje",
+    "competitionLabel": "Oranje",
+    "gender": "dames",
+    "type": "speeldag",
+    "imagePrompt": "Vrouwenvoetbalwedstrijd Oranje tegen Zweden met juichende speelsters",
+    "imageAlt": "Oranje Dames vieren doelpunt tegen Zweden",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-7",
+    "title": "Transfer: PSV haalt talentvolle middenvelder uit Spanje",
+    "teaser": "PSV versterkt zich met de komst van een jong en veelbelovend talent uit La Liga.",
+    "competition": "transfers",
+    "competitionLabel": "Transfernieuws",
+    "gender": "heren",
+    "type": "transfer",
+    "imagePrompt": "Voetballer in PSV shirt tijdens officiële presentatie",
+    "imageAlt": "Nieuwe PSV middenvelder tijdens presentatie",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-8",
+    "title": "Internationaal: Real Madrid wint El Clásico met 2-0 van Barcelona",
+    "teaser": "Real Madrid domineert en pakt drie punten in het belangrijke duel tegen Barcelona.",
+    "competition": "internationaal",
+    "competitionLabel": "Internationaal nieuws",
+    "gender": "heren",
+    "type": "nabeschouwing",
+    "imagePrompt": "Real Madrid en Barcelona spelers in intens duel tijdens El Clásico",
+    "imageAlt": "Real Madrid spelers vieren doelpunt in El Clásico",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-9",
+    "title": "Vrouwenvoetbal: FC Twente Dames pakken belangrijke overwinning",
+    "teaser": "FC Twente Dames winnen met 2-1 en blijven in de race voor de titel in de Eredivisie Vrouwen.",
+    "competition": "eredivisie",
+    "competitionLabel": "Eredivisie",
+    "gender": "dames",
+    "type": "speeldag",
+    "imagePrompt": "Vrouwenvoetbalwedstrijd FC Twente Dames in actie met juichende speelsters",
+    "imageAlt": "FC Twente Dames vieren doelpunt",
+    "createdAt": "2025-11-23T00:00:00Z"
+  },
+  {
+    "id": "news-10",
+    "title": "Transfergerucht: Chelsea aast op Belgische verdediger",
+    "teaser": "Chelsea toont interesse in een topverdediger uit de Belgische competitie voor de wintertransfermarkt.",
+    "competition": "transfers",
+    "competitionLabel": "Transfernieuws",
+    "gender": "heren",
+    "type": "transfer",
+    "imagePrompt": "Voetballer in actie met Chelsea logo op achtergrond",
+    "imageAlt": "Belgische verdediger gelinkt aan Chelsea",
+    "createdAt": "2025-11-23T00:00:00Z"
+  }
+]
