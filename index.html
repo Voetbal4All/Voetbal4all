@@ -1,8 +1,162 @@
 <!DOCTYPE html>
-<html><head><meta charset='UTF-8'><title>Voetbal4All</title></head>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Voetbal4All - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-<header>LOGO + NAV + LIVE BANNER</header>
-<div class='three-cols'>ADVERTENTIE | <div id='home-news-top'></div> | RANGSCHIKKINGEN</div>
-<div class='two-cols'><div id='home-news-bottom'></div> <div id='side-widgets'></div></div>
-<script src="assets/js/news.js" defer></script>
-</body></html>
+  <!-- Vast logo + navigatie + live banner kunnen in je eigen versie uitgebreider zijn -->
+  <header class="top-header">
+    <div class="logo-bar">
+      <div class="logo-placeholder">LOGO VOETBAL<span class="v4">4</span>ALL</div>
+      <div class="top-ad">ADVERTENTIE 728×90</div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="nieuws.html">Nieuws</a>
+      <a href="uitslagen.html">Resultaten &amp; ranking</a>
+      <a href="vacatures.html">Clubvacatures</a>
+      <a href="trainers.html">Trainers</a>
+      <a href="spelers.html">Spelers</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="live-banner">
+      Live uitslagen (placeholder) – hier kun je later een echte feed koppelen.
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- Hero met uitleg en knoppen -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1>Voetbal<span class="v4">4</span>All</h1>
+          <p class="hero-text">
+            Het platform dat informatie samenbrengt voor iedereen met een hart voor voetbal.
+            Vind snel nieuws, voetbalresultaten, vacatures, profielen, tornooien en meer.
+            Het platform is nog in volle ontwikkeling – nieuwe mogelijkheden volgen later.
+          </p>
+          <div class="hero-cta-row">
+            <a href="spelers.html" class="btn-primary">Ik zoek een speler</a>
+            <a href="trainers.html" class="btn-secondary">Ik zoek een trainer</a>
+            <a href="vacatures.html" class="btn-secondary">Vacature plaatsen</a>
+          </div>
+        </div>
+        <div class="hero-side">
+          <!-- hier kan je je echte logo-afbeelding plaatsen -->
+          <div class="hero-logo-placeholder">LOGO</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bovenste 3-koloms sectie: Advertentie | Voetbalkoppen | Rangschikkingen -->
+    <section class="section home-top-grid">
+      <div class="container grid-3">
+        <!-- Linkerkolom: advertentieblok -->
+        <aside>
+          <div class="ad-slot ad-vertical">ADVERTENTIE 300×600</div>
+          <div class="ad-slot ad-vertical">ADVERTENTIE 300×250</div>
+        </aside>
+
+        <!-- Middenkolom: Voetbalkoppen (1–4) -->
+        <div id="home-news-top">
+          <!-- Voetbalkoppen (1–4) worden hier dynamisch ingeladen uit data/news.json -->
+        </div>
+
+        <!-- Rechterkolom: rangschikkingen + premium blokken -->
+        <aside>
+          <section class="sidebar-block rangschikkingen-block">
+            <h2>Rangschikkingen eerste klasse</h2>
+
+            <div class="score-block">
+              <h3>Jupiler Pro League (voorbeeld)</h3>
+              <table class="table-standings">
+                <thead>
+                  <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>Club A</td><td>45</td></tr>
+                  <tr><td>2</td><td>Club B</td><td>42</td></tr>
+                  <tr><td>3</td><td>Club C</td><td>39</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="score-block">
+              <h3>Eredivisie (voorbeeld)</h3>
+              <table class="table-standings">
+                <thead>
+                  <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>Team 1</td><td>47</td></tr>
+                  <tr><td>2</td><td>Team 2</td><td>44</td></tr>
+                  <tr><td>3</td><td>Team 3</td><td>40</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="sidebar-block">
+            <h2>Premium clubvacatures</h2>
+            <p class="news-teaser" style="font-size:0.85rem;">
+              Hier kunnen roterende premium vacatures verschijnen, zodat belangrijke clubvacatures extra aandacht krijgen.
+            </p>
+          </section>
+
+          <section class="sidebar-block">
+            <h2>Premium events</h2>
+            <p class="news-teaser" style="font-size:0.85rem;">
+              Toon hier opvallende tornooien, oefenwedstrijden of stages die clubs extra willen uitlichten.
+            </p>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Onderste 2-koloms sectie: extra nieuws + trainers/spelers -->
+    <section class="section home-bottom-grid">
+      <div class="container grid-2">
+        <!-- Linkerkant: bijkomende nieuws + brede advertentie -->
+        <div>
+          <div id="home-news-bottom">
+            <!-- Voetbalkoppen (5–10) worden hier dynamisch ingeladen uit data/news.json -->
+          </div>
+
+          <div class="ad-slot ad-leaderboard" style="margin-top:1.5rem;">
+            ADVERTENTIE 728×90
+          </div>
+        </div>
+
+        <!-- Rechterkant: beschikbare trainers en spelers -->
+        <aside>
+          <section class="sidebar-block">
+            <h2>Beschikbare trainers (laatste 10)</h2>
+            <p class="news-teaser" style="font-size:0.85rem;">
+              Overzicht van recent toegevoegde trainersprofielen die beschikbaar zijn voor clubs.
+            </p>
+          </section>
+
+          <section class="sidebar-block">
+            <h2>Beschikbare spelers (laatste 10)</h2>
+            <p class="news-teaser" style="font-size:0.85rem;">
+              Overzicht van recent toegevoegde spelersprofielen die op zoek zijn naar een club.
+            </p>
+          </section>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Voetbal4All – platform in ontwikkeling. Nieuwe functies worden stap voor stap toegevoegd.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/news.js" defer></script>
+</body>
+</html>

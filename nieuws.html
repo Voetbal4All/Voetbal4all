@@ -1,7 +1,56 @@
 <!DOCTYPE html>
-<html><head><meta charset='UTF-8'><title>Nieuws</title></head>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Voetbal4All - Nieuws</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-<header>LOGO + NAV + LIVE BANNER</header>
-<div id='nieuws-lijst'></div>
-<script src="assets/js/news.js" defer></script>
-</body></html>
+  <header class="top-header">
+    <div class="logo-bar">
+      <div class="logo-placeholder">LOGO VOETBAL<span class="v4">4</span>ALL</div>
+      <div class="top-ad">ADVERTENTIE 728×90</div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="nieuws.html" class="active">Nieuws</a>
+      <a href="uitslagen.html">Resultaten &amp; ranking</a>
+      <a href="vacatures.html">Clubvacatures</a>
+      <a href="trainers.html">Trainers</a>
+      <a href="spelers.html">Spelers</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="live-banner">
+      Live uitslagen (placeholder) – zelfde balk als op de homepage voor herkenbaarheid.
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container" style="max-width: 1000px;">
+        <div class="card">
+          <h1>Voetbalkoppen – nieuws over voetbal</h1>
+          <p class="section-intro">
+            Op deze pagina verschijnen alle nieuwsartikels die automatisch worden ingeladen uit het platform.
+            Het gaat voorlopig om voorbeeldgegevens uit <code>data/news.json</code>.
+          </p>
+
+          <div id="nieuws-lijst">
+            <!-- Nieuwsartikels worden hier dynamisch ingeladen uit data/news.json -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Voetbal4All – platform in ontwikkeling. Nieuwe functies worden stap voor stap toegevoegd.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/news.js" defer></script>
+</body>
+</html>
