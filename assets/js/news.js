@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const newsTop = document.getElementById("home-news-top");
   const newsBottom = document.getElementById("home-news-bottom");
 
+  // Als we op een pagina zitten zonder nieuws-blokken, niets doen
   if (!newsTop && !newsBottom) {
-    // Geen nieuwsvakken op deze pagina → niets doen
     return;
   }
 
@@ -38,11 +38,22 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   fetch("data/news.json")
-    .then(r => r.json())
+    .then(r => {
+      console.log("news.json status:", r.status);
+      if (!r.ok) {
+        throw new Error("HTTP foutstatus " + r.status);
+      }
+      return r.json();
+    })
     .then(items => {
+      console.log("Ingelezen nieuwsitems:", items);
+
       if (!Array.isArray(items) || items.length === 0) {
         if (newsTop) {
           newsTop.innerHTML = "<p>Momenteel geen nieuws beschikbaar.</p>";
+        }
+        if (newsBottom) {
+          newsBottom.innerHTML = "";
         }
         return;
       }
@@ -56,13 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (newsBottom) {
         newsBottom.innerHTML =
-          nextSix.map(renderNewsCard).join("") + renderMoreButton();
+          nextSix.map(renderNewsCard).join("") +
+          renderMoreButton();
       }
     })
     .catch(err => {
       console.error("Kon news.json niet laden:", err);
       if (newsTop) {
         newsTop.innerHTML = "<p>Kon nieuws niet laden.</p>";
+      }
+      if (newsBottom) {
+        newsBottom.innerHTML = "";
       }
     });
 });
