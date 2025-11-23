@@ -1,22 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <title>Voetbal4All</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <title>Voetbal4All – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 <div class="site-shell">
+  <!-- BOVENSTE STROOK: LOGO + AD + NAV + LIVE -->
   <div class="top-strip">
     <div class="top-strip-inner">
       <div class="top-strip-row">
         <div class="brand-block">
-          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
           <div class="brand-text">
             <h1><span>Voetbal</span><strong>4</strong><span>All</span></h1>
-            <div style="font-size:0.75rem;color:#6b7280;">Platform voor iedereen met een hart voor voetbal</div>
+            <div style="font-size:0.75rem;color:#6b7280;">
+              Platform voor iedereen met een hart voor voetbal
+            </div>
           </div>
         </div>
         <div class="ad-slot-top">
@@ -24,23 +26,25 @@
         </div>
       </div>
     </div>
+
     <nav class="navbar">
       <div class="navbar-inner">
         <div class="nav-links">
           <a href="index.html" class="active">Home</a>
-          <a href="nieuws.html" class="">Nieuws</a>
-          <a href="uitslagen.html" class="">Resultaten &amp; ranking</a>
-          <a href="vacatures.html" class="">Clubvacatures</a>
-          <a href="trainers.html" class="">Trainers</a>
-          <a href="spelers.html" class="">Spelers</a>
-          <a href="events.html" class="">Events</a>
-          <a href="contact.html" class="">Contact</a>
+          <a href="nieuws.html">Nieuws</a>
+          <a href="uitslagen.html">Resultaten &amp; ranking</a>
+          <a href="vacatures.html">Clubvacatures</a>
+          <a href="trainers.html">Trainers</a>
+          <a href="spelers.html">Spelers</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
         </div>
         <div class="nav-cta">
           <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
         </div>
       </div>
     </nav>
+
     <div class="live-banner">
       <div class="live-banner-inner">
         <span class="live-label">Live</span>
@@ -50,9 +54,12 @@
       </div>
     </div>
   </div>
+
+  <!-- MAIN CONTENT -->
   <main>
     <div class="page-inner">
 
+      <!-- HERO -->
       <section class="hero">
         <div class="hero-title">
           <h2>Één platform voor <span>Voetbal</span><span style="color:var(--green-main);">4</span><span>All</span></h2>
@@ -69,7 +76,9 @@
         </div>
       </section>
 
+      <!-- BOVENSTE SECTIE: 3 KOLommen -->
       <div class="home-top-grid">
+        <!-- Linker kolom: advertenties -->
         <aside>
           <div class="card">
             <h2>Advertenties</h2>
@@ -81,17 +90,21 @@
           </div>
         </aside>
 
+        <!-- Middenkolom: Voetbalkoppen 1–4 -->
         <section>
           <div id="home-news-top">
-            <!-- Voetbalkoppen (1–4) worden hier dynamisch geladen -->
+            <!-- Voetbalkoppen (1–4) worden hier dynamisch geladen door news.js -->
           </div>
         </section>
 
+        <!-- Rechter kolom: rangschikkingen -->
         <aside>
           <div class="card">
             <h2>Rangschikking Jupiler Pro League (voorbeeld)</h2>
             <table class="ranking-table">
-              <thead><tr><th>#</th><th>Club</th><th>Ptn</th></tr></thead>
+              <thead>
+                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+              </thead>
               <tbody>
                 <tr><td>1</td><td>Club Brugge</td><td>45</td></tr>
                 <tr><td>2</td><td>Union SG</td><td>43</td></tr>
@@ -99,9 +112,12 @@
                 <tr><td>4</td><td>Genk</td><td>39</td></tr>
               </tbody>
             </table>
+
             <h2 style="margin-top:0.9rem;">Rangschikking Eredivisie (voorbeeld)</h2>
             <table class="ranking-table">
-              <thead><tr><th>#</th><th>Club</th><th>Ptn</th></tr></thead>
+              <thead>
+                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
+              </thead>
               <tbody>
                 <tr><td>1</td><td>PSV</td><td>47</td></tr>
                 <tr><td>2</td><td>Feyenoord</td><td>44</td></tr>
@@ -113,6 +129,7 @@
         </aside>
       </div>
 
+      <!-- ONDERSTE SECTIE: 3 KOLommen -->
       <div class="home-bottom-grid">
         <!-- Linker kolom: extra advertenties -->
         <aside>
@@ -127,10 +144,10 @@
           </div>
         </aside>
 
-        <!-- Middenkolom: extra nieuws + events van dit weekend -->
+        <!-- Middenkolom: Voetbalkoppen 5–10 + Events van dit weekend -->
         <section>
           <div id="home-news-bottom">
-            <!-- Voetbalkoppen (5–10) worden hier dynamisch geladen -->
+            <!-- Voetbalkoppen (5–10) worden hier dynamisch geladen door news.js -->
           </div>
 
           <section class="section">
@@ -138,7 +155,9 @@
             <p class="section-intro">
               Overzicht van voetbalactiviteiten die dit weekend plaatsvinden in Vlaanderen en Nederland.
             </p>
-            <div id="home-events-weekend"></div>
+            <div id="home-events-weekend">
+              <!-- Events van dit weekend worden hier ingeladen door platforms.js -->
+            </div>
           </section>
         </section>
 
@@ -159,6 +178,7 @@
 
     </div>
   </main>
+
   <footer>
     <div class="footer-inner">
       <div>Voetbal4All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</div>
@@ -166,6 +186,8 @@
     </div>
   </footer>
 </div>
+
+<!-- Scripts -->
 <script src="assets/js/news.js" defer></script>
 <script src="assets/js/forms.js" defer></script>
 <script src="assets/js/platforms.js" defer></script>
