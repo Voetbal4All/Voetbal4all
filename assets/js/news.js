@@ -1,76 +1,123 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const idFromUrl = params.get("id");
 
-(async function () {
-  async function loadNews() {
-    try {
-      const resp = await fetch("data/news.json", { cache: "no-store" });
-      if (!resp.ok) return [];
-      const data = await resp.json();
-      return Array.isArray(data) ? data : [];
-    } catch (e) {
-      console.error("Fout bij laden nieuws", e);
-      return [];
+  const detailContainer = document.getElementById("news-detail");
+  const listContainer = document.getElementById("news-list");
+  const filterCompetition = document.getElementById("newsFilterCompetition");
+  const filterSearch = document.getElementById("newsFilterSearch");
+
+  let allNews = [];
+
+  function renderNewsCard(item) {
+    return `
+      <article class="news-card">
+        ${item.image ? `
+        <div class="news-image-wrap">
+          <img src="assets/img/news/${item.image}" alt="${item.title}">
+        </div>` : ""}
+        <h3>
+          <a href="nieuws.html?id=${item.id}" class="news-link">
+            ${item.title}
+          </a>
+        </h3>
+        <p class="news-meta">
+          ${item.competition || ""}${item.date ? " • " + item.date : ""}
+        </p>
+        <p class="news-teaser">${item.teaser || ""}</p>
+      </article>
+    `;
+  }
+
+  function renderDetail(item) {
+    if (!detailContainer) return;
+
+    if (!item) {
+      detailContainer.innerHTML = `
+        <article class="news-card">
+          <p>Kies een voetbalkop op de homepage of in de lijst hieronder om het volledige artikel te lezen.</p>
+        </article>
+      `;
+      return;
     }
+
+    detailContainer.innerHTML = `
+      <article class="news-card">
+        ${item.image ? `
+        <div class="news-image-wrap">
+          <img src="assets/img/news/${item.image}" alt="${item.title}">
+        </div>` : ""}
+        <h1>${item.title}</h1>
+        <p class="news-meta">
+          ${item.competition || ""}${item.date ? " • " + item.date : ""}
+        </p>
+        <p class="news-full">${item.content || ""}</p>
+      </article>
+    `;
   }
 
-  function createNewsCard(item) {
-    const card = document.createElement("article");
-    card.className = "news-card";
+  function applyFilters() {
+    if (!listContainer) return;
+    let filtered = [...allNews];
 
-    const h3 = document.createElement("h3");
-    h3.textContent = item.title || "Nieuwsartikel";
-    card.appendChild(h3);
+    const comp = filterCompetition ? filterCompetition.value.trim() : "";
+    const search = filterSearch ? filterSearch.value.trim().toLowerCase() : "";
 
-    const meta = document.createElement("p");
-    meta.className = "news-meta";
-    const comp = item.competitionLabel || "Voetbal";
-    const gender = item.gender
-      ? item.gender === "dames"
-        ? "Dames"
-        : "Heren"
-      : "";
-    meta.textContent = [comp, gender].filter(Boolean).join(" · ");
-    card.appendChild(meta);
-
-    if (item.teaser) {
-      const teaser = document.createElement("p");
-      teaser.className = "news-teaser";
-      teaser.textContent = item.teaser;
-      card.appendChild(teaser);
+    if (comp) {
+      filtered = filtered.filter(n => (n.competition || "") === comp);
     }
 
-    return card;
-  }
-
-  const news = await loadNews();
-  if (!news.length) return;
-
-  const homeTop = document.getElementById("home-news-top");
-  const homeBottom = document.getElementById("home-news-bottom");
-  const nieuwsLijst = document.getElementById("nieuws-lijst");
-
-  if (homeTop) {
-    const header = document.createElement("div");
-    header.className = "news-section-header";
-    header.innerHTML =
-      '<h2>Voetbalkoppen</h2><p class="section-intro">Korte voetbalnieuwsberichten uit verschillende competities.</p>';
-    homeTop.appendChild(header);
-
-    news.slice(0, 4).forEach((n) => homeTop.appendChild(createNewsCard(n)));
-  }
-
-  if (homeBottom) {
-    const rest = news.slice(4, 10);
-    if (rest.length) {
-      const header = document.createElement("div");
-      header.className = "news-section-header";
-      header.innerHTML =
-        '<h2>Meer voetbalkoppen</h2><p class="section-intro">Uitgebreidere koppen worden hieronder getoond.</p>';
-      homeBottom.appendChild(header);
-      rest.forEach((n) => homeBottom.appendChild(createNewsCard(n)));
+    if (search) {
+      filtered = filtered.filter(n => {
+        const fields = [
+          n.title || "",
+          n.teaser || "",
+          n.content || "",
+          n.competition || ""
+        ].join(" ").toLowerCase();
+        return fields.includes(search);
+      });
     }
+
+    if (filtered.length === 0) {
+      listContainer.innerHTML = `<p>Geen nieuwsberichten gevonden met deze filters.</p>`;
+      return;
+    }
+
+    listContainer.innerHTML = filtered
+      .map(renderNewsCard)
+      .join("");
   }
 
-  if (nieuwsLijst) {
-    news.forEach((n) => nieuwsLijst.appendChild(createNewsCard(n)));
-  }
-})();
+  // Data ophalen
+  fetch("data/news.json")
+    .then(r => r.json())
+    .then(items => {
+      allNews = Array.isArray(items) ? items : [];
+
+      // Detail (indien id in URL)
+      if (idFromUrl) {
+        const item = allNews.find(n => String(n.id) === String(idFromUrl));
+        renderDetail(item);
+      } else {
+        renderDetail(null);
+      }
+
+      // Lijst renderen met standaardfilter
+      applyFilters();
+
+      // Event listeners op filters
+      if (filterCompetition) {
+        filterCompetition.addEventListener("change", applyFilters);
+      }
+      if (filterSearch) {
+        filterSearch.addEventListener("input", applyFilters);
+      }
+    })
+    .catch(err => {
+      console.error("Kon news.json niet laden:", err);
+      if (detailContainer) {
+        detailContainer.innerHTML = `<p>Er ging iets mis bij het laden van de nieuwsartikelen.</p>`;
+      }
+    });
+});
