@@ -220,7 +220,7 @@ body {
 }
 
 .nav-dropdown-link:hover {
-  background: #f3f4f6;
+  background: rgba(19, 80, 27, 0.08);
 }
 
 /* Dropdown tonen bij hover (desktop) */
@@ -259,11 +259,11 @@ body {
   }
 
   .nav-dropdown-link {
-    color: #ffffff;
-  }
+  color: var(--green-main);
+}
 
   .nav-dropdown-link:hover {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.4);
   }
 }.nav-cta {
   font-size: 0.8rem;
