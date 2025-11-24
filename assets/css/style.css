@@ -1,6 +1,6 @@
 :root {
   /* Kleuren */
-  --green-main: rgb(80, 150, 95);
+  --green-main: rgb(80, 150, 95);      /* lichter groen */
   --green-light: rgb(120, 190, 135);
   --blue-banner: rgb(5, 40, 100);
   --bg-light: #f3f4f6;
@@ -23,7 +23,8 @@
 
 body {
   margin: 0;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
   color: var(--text-main);
   background: #ffffff;
 }
@@ -73,7 +74,7 @@ body {
 }
 
 .brand-logo {
-  width: 150px;          /* logo NIET meer reusachtig */
+  width: 150px;
   height: auto;
   object-fit: contain;
 }
@@ -132,32 +133,7 @@ body {
   justify-content: flex-start;
 }
 
-.nav-links {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.nav-links a {
-  text-decoration: none;
-  font-size: 0.85rem;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  color: #ffffff;
-  border: 1px solid transparent;
-}
-
-.nav-links a:hover {
-  background: var(--green-light);
-}
-
-.nav-links a.active {
-  background: var(--blue-banner);
-  border-color: var(--blue-banner);
-  color: #ffffff;
-  font-weight: 600;
-}
-/* Nieuwe nav-structuur met dropdowns */
+/* Basis nav-links */
 
 .nav-links {
   display: flex;
@@ -166,7 +142,10 @@ body {
   align-items: center;
 }
 
-.nav-link {
+/* Top-level links */
+
+.nav-link,
+.nav-links > a {
   text-decoration: none;
   font-size: 0.85rem;
   padding: 0.35rem 0.7rem;
@@ -176,16 +155,20 @@ body {
   display: inline-block;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-links > a:hover {
   background: var(--green-light);
 }
 
-.nav-link.active {
+.nav-link.active,
+.nav-links > a.active {
   background: var(--blue-banner);
   border-color: var(--blue-banner);
   color: #ffffff;
   font-weight: 600;
 }
+
+/* DROPDOWNS */
 
 .nav-item {
   position: relative;
@@ -220,8 +203,13 @@ body {
 }
 
 .nav-dropdown-link:hover {
-  background: rgba(19, 80, 27, 0.08);  /* lichte groene achtergrond */
-  color: var(--green-main);            /* tekst blijft groen */
+  background: rgba(19, 80, 27, 0.08);
+  color: var(--green-main);
+}
+
+/* Forceer: dropdowns altijd groene tekst, nooit wit uit oude regels */
+.nav-links .nav-dropdown-link {
+  color: var(--green-main) !important;
 }
 
 /* Dropdown tonen bij hover (desktop) */
@@ -229,44 +217,9 @@ body {
   display: block;
 }
 
-/* Mobile weergave: dropdown onder elkaar laten uitrollen */
-@media (max-width: 640px) {
-  .navbar-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.4rem;
-  }
+/* CTA-knop in nav */
 
-  .nav-cta {
-    margin-left: 0;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-  }
-
-  .nav-item {
-    position: static;
-  }
-
-  .nav-dropdown {
-    position: static;
-    width: 100%;
-    box-shadow: none;
-    border-radius: 0;
-    margin-top: 0.2rem;
-    border: 1px solid rgba(255,255,255,0.3);
-    background: rgba(0,0,0,0.12);
-  }
-
-  .nav-dropdown-link {
-  color: var(--green-main);
-}
-
-  .nav-dropdown-link:hover {
-    background: rgba(255,255,255,0.4);
-  }
-}.nav-cta {
+.nav-cta {
   font-size: 0.8rem;
   margin-left: auto;
 }
@@ -341,7 +294,7 @@ main {
 
 .hero-cta-row {
   display: flex;
-  justify-content: center;   /* CENTREERT alle knoppen */
+  justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-top: 1rem;
@@ -365,6 +318,8 @@ main {
   font-weight: 500;
 }
 
+/* Groene hoofdknop */
+
 .btn-primary {
   background: var(--green-main);
   color: #ffffff;
@@ -374,13 +329,16 @@ main {
   background: var(--green-light);
 }
 
+/* Secundaire knop – bv. “Ik wil adverteren” */
+
 .btn-secondary {
   background: #ffffff;
-  color: #ffffff;
+  color: var(--green-main);
   border-color: #ffffff;
 }
 
 /* Witte knop met groene rand (Event aanmelden / Vacature plaatsen) */
+
 .btn-outline {
   background: #ffffff;
   color: var(--green-main);
@@ -411,7 +369,7 @@ main {
 
 .home-bottom-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 2.8fr) minmax(0, 1.0fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 2.8fr) minmax(0, 1fr);
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -477,6 +435,24 @@ main {
   margin: 0;
   font-size: 0.8rem;
   color: #374151;
+}
+
+/* Nieuwsafbeelding */
+
+.news-image-wrap {
+  margin-bottom: 0.4rem;
+}
+
+.news-image-wrap img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.news-full {
+  font-size: 0.9rem;
+  color: #374151;
+  white-space: pre-line;
 }
 
 /* Advertenties */
@@ -668,5 +644,23 @@ footer {
 
   .nav-cta {
     margin-left: 0;
+  }
+
+  .nav-dropdown {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #ffffff;
+  }
+
+  .nav-dropdown-link {
+    color: var(--green-main);
+  }
+
+  .nav-dropdown-link:hover {
+    background: rgba(255, 255, 255, 0.4);
   }
 }
