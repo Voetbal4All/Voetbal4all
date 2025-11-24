@@ -220,7 +220,8 @@ body {
 }
 
 .nav-dropdown-link:hover {
-  background: rgba(19, 80, 27, 0.08);
+  background: rgba(19, 80, 27, 0.08);  /* lichte groene achtergrond */
+  color: var(--green-main);            /* tekst blijft groen */
 }
 
 /* Dropdown tonen bij hover (desktop) */
