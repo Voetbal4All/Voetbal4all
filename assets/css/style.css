@@ -387,8 +387,47 @@ main {
 .section {
   margin-bottom: 1.5rem;
 }
+/* 70% / 30% paginagrid voor inhoud + formulier + advertenties */
+.page-grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
 
-.section h2 {
+.page-main {
+  background: #ffffff;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-soft);
+  padding: 1rem 1.1rem;
+}
+
+.page-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page-cta {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.page-cta h2 {
+  margin: 0 0 0.3rem 0;
+}
+
+.page-cta p {
+  margin: 0 0 0.8rem 0;
+  color: var(--text-muted);
+}
+
+/* responsief */
+@media (max-width: 900px) {
+  .page-grid {
+    grid-template-columns: 1fr;
+  }
+}.section h2 {
   font-size: 1.05rem;
   margin: 0 0 0.2rem 0;
 }
