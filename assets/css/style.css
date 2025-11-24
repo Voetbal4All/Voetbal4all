@@ -142,7 +142,7 @@ body {
   align-items: center;
 }
 
-/* Top-level links */
+/* Top-level links (Home, Nieuws, Events, enz.) */
 
 .nav-link,
 .nav-links > a {
@@ -207,7 +207,7 @@ body {
   color: var(--green-main);
 }
 
-/* Forceer: dropdowns altijd groene tekst, nooit wit uit oude regels */
+/* Forceer: dropdown-links altijd groene tekst */
 .nav-links .nav-dropdown-link {
   color: var(--green-main) !important;
 }
@@ -358,7 +358,7 @@ main {
   color: #ffffff;
 }
 
-/* Grids op home */
+/* Grids op home (desktop) */
 
 .home-top-grid {
   display: grid;
@@ -618,8 +618,9 @@ footer {
   object-fit: contain;
 }
 
-/* Responsief */
+/* Responsief – HYBRID MOBIEL (Optie C) */
 
+/* Tablet / small desktop: header + nav iets compacter */
 @media (max-width: 960px) {
   .home-top-grid,
   .home-bottom-grid {
@@ -635,22 +636,71 @@ footer {
   }
 }
 
+/* Mobiel: hybrid layout */
 @media (max-width: 640px) {
+  /* Header opbouwen: logo bovenaan, dan ad, dan socials */
+  .top-strip-row {
+    padding: 0.5rem 0.8rem;
+    gap: 0.4rem;
+  }
+
+  .brand-block {
+    justify-content: flex-start;
+  }
+
+  .brand-logo {
+    width: 130px;
+  }
+
+  .header-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .ad-slot-top {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+
+  /* Navigatie: onder elkaar, duidelijk leesbaar */
+  .navbar {
+    height: auto;
+  }
+
   .navbar-inner {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.4rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
   }
 
   .nav-cta {
     margin-left: 0;
   }
 
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .nav-link,
+  .nav-links > a {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  /* Dropdowns: onder de knop, volle breedte, wit */
+  .nav-item {
+    position: static;
+  }
+
   .nav-dropdown {
     position: static;
     width: 100%;
     box-shadow: none;
-    border-radius: 0;
+    border-radius: 8px;
     margin-top: 0.2rem;
     border: 1px solid rgba(0, 0, 0, 0.12);
     background: #ffffff;
@@ -662,5 +712,40 @@ footer {
 
   .nav-dropdown-link:hover {
     background: rgba(255, 255, 255, 0.4);
+  }
+
+  /* Live banner: iets compacter */
+  .live-banner-inner {
+    gap: 0.8rem;
+    font-size: 0.78rem;
+  }
+
+  /* Hero compacter op mobiel */
+  .hero {
+    padding: 1rem 1rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .hero-title h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text {
+    font-size: 0.85rem;
+  }
+
+  .hero-cta-row {
+    gap: 0.5rem;
+  }
+
+  /* Grids: 1 kolom */
+  .home-top-grid,
+  .home-bottom-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page-inner {
+    margin-top: 0.9rem;
+    padding-bottom: 1.5rem;
   }
 }
