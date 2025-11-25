@@ -104,6 +104,18 @@ body {
   color: var(--text-muted);
 }
 
+.header-social {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.header-social img {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
 /* ---------------------------------------------------------
    NAVIGATIE
 --------------------------------------------------------- */
@@ -174,6 +186,7 @@ body {
   color: var(--green-main);
   background: #ffffff;
   text-decoration: none;
+  font-size: 0.8rem; /* kleiner, verfijnder */
 }
 
 .nav-dropdown-link:hover {
@@ -186,13 +199,20 @@ body {
 }
 
 /* CTA in nav */
-.nav-cta .btn-secondary {
-  background: #ffffff;
-  color: var(--green-main);
-  border: 2px solid var(--green-main);
+.nav-cta {
+  margin-left: auto;
 }
 
-.nav-cta .btn-secondary:hover {
+.btn-secondary {
+  background: #ffffff;
+  color: var(--green-main);
+  border-radius: 999px;
+  border: 2px solid var(--green-main);
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8rem;
+}
+
+.btn-secondary:hover {
   background: var(--green-light);
   color: #ffffff;
 }
@@ -295,6 +315,12 @@ main {
   color: #ffffff;
   border-radius: 999px;
   padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary:hover {
@@ -307,6 +333,11 @@ main {
   border: 2px solid var(--green-main);
   border-radius: 999px;
   padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-outline:hover {
@@ -315,22 +346,24 @@ main {
 }
 
 /* ---------------------------------------------------------
-   HOME GRIDS (NIET AANPASSEN)
+   HOME GRIDS (homepage)
 --------------------------------------------------------- */
 .home-top-grid {
   display: grid;
   grid-template-columns: minmax(0,1.1fr) minmax(0,2.1fr) minmax(0,1.3fr);
   gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 .home-bottom-grid {
   display: grid;
   grid-template-columns: minmax(0,1.2fr) minmax(0,2.8fr) minmax(0,1fr);
   gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 /* ---------------------------------------------------------
-   GENERIEKE 70/30 LAYOUT
+   GENERIEKE 70/30 LAYOUT (andere pagina's)
 --------------------------------------------------------- */
 .page-grid-70-30 {
   display: grid;
@@ -342,6 +375,62 @@ main {
   .page-grid-70-30 {
     grid-template-columns: 1fr;
   }
+}
+
+/* ---------------------------------------------------------
+   CARDS & SECTIES
+--------------------------------------------------------- */
+.card {
+  background: #ffffff;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-soft);
+  padding: 1rem 1.1rem;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.section h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.2rem 0;
+}
+
+.section-intro {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 0.8rem 0;
+}
+
+/* ---------------------------------------------------------
+   ADVERTENTIES
+--------------------------------------------------------- */
+.ad-slot {
+  border-radius: 10px;
+  border: 1px dashed var(--green-main);
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  background: #f9fafb;
+  color: var(--text-muted);
+}
+
+/* ---------------------------------------------------------
+   RANGSCHIKKINGEN
+--------------------------------------------------------- */
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+  margin-top: 0.4rem;
+}
+
+.ranking-table th,
+.ranking-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.25rem 0.3rem;
+  text-align: left;
 }
 
 /* ---------------------------------------------------------
@@ -374,6 +463,10 @@ main {
   font-size: 0.85rem;
 }
 
+.form-row textarea {
+  min-height: 90px;
+}
+
 .form-note {
   font-size: 0.75rem;
   color: var(--text-muted);
@@ -392,6 +485,29 @@ main {
 
 .news-card h3 {
   margin: 0 0 0.25rem 0;
+}
+
+/* ---------------------------------------------------------
+   BOTTOM CTA / SOCIAL
+--------------------------------------------------------- */
+.bottom-cta .card {
+  background: var(--green-main);
+  color: #ffffff;
+  text-align: center;
+}
+
+.bottom-cta .card .section-intro {
+  color: #e5e7eb;
+}
+
+.bottom-cta .card .btn-primary {
+  background: #ffffff;
+  color: var(--green-main);
+  border-radius: 999px;
+}
+
+.bottom-cta .card .btn-primary:hover {
+  background: #f3f4f6;
 }
 
 /* ---------------------------------------------------------
@@ -414,6 +530,32 @@ footer {
   align-items: center;
 }
 
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .footer-logo {
   height: 26px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ---------------------------------------------------------
+   RESPONSIEF
+--------------------------------------------------------- */
+@media (max-width: 960px) {
+  .home-top-grid,
+  .home-bottom-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .top-strip-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .header-right {
+    justify-content: flex-start;
+  }
 }
