@@ -402,7 +402,21 @@ main {
   margin: 0 0 0.8rem 0;
 }
 
-/* ---------------------------------------------------------
+/* Vlag-iconen bij titels (nieuws, vacatures, events, ...) */
+
+.item-header-with-flag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.item-header-with-flag .flag-icon {
+  width: 18px;
+  height: 12px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+}/* ---------------------------------------------------------
    ADVERTENTIES
 --------------------------------------------------------- */
 .ad-slot {
