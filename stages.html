@@ -1,1 +1,236 @@
-<!-- stages placeholder -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Stages & kampen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
+          <div class="brand-text">
+            <h1>Voetbal<span class="four-green">4</span>All</h1>
+            <div style="font-size:0.75rem;color:#6b7280;">
+              Platform voor iedereen met een hart voor voetbal
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="ad-slot-top">
+            Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+          </div>
+          <div class="header-social">
+            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
+              <img src="assets/img/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
+              <img src="assets/img/instagram.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <div class="nav-item">
+            <a href="index.html" class="nav-link ">Home</a>
+          </div>
+          <div class="nav-item">
+            <a href="nieuws.html" class="nav-link ">Nieuws</a>
+          </div>
+          <div class="nav-item">
+            <a href="uitslagen.html" class="nav-link ">Resultaten &amp; ranking</a>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="vacatures.html" class="nav-link ">Vacatures</a>
+            <div class="nav-dropdown">
+              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="vriendschappelijk.html" class="nav-link active">Wij organiseren</a>
+            <div class="nav-dropdown">
+              <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
+              <a href="dinners.html" class="nav-dropdown-link">Dinners</a>
+              <a href="stages.html" class="nav-dropdown-link">Stage of voetbalkamp</a>
+              <a href="events-overig.html" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="uitslagen.html" class="nav-link">Sportief</a>
+            <div class="nav-dropdown">
+              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="contact.html" class="nav-link ">Meer</a>
+            <div class="nav-dropdown">
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+              <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Meer live resultaten volgen in een latere fase.</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-inner">
+      <section class="card page-cta">
+        <h2>Ik organiseer een stage of voetbalkamp</h2>
+        <p>
+          Meld je voetbalstage of voetbalkamp aan zodat spelers en ouders je gemakkelijk vinden.
+        </p>
+        <a href="#form-stage" class="btn-outline">
+          Stage of kamp aanmelden
+        </a>
+      </section>
+
+      <div class="page-grid">
+        <div class="page-main">
+          <section class="card">
+            <h2>Stages en voetbalkampen</h2>
+            <p class="section-intro">
+              Overzicht van voetbalstages en -kampen in Vlaanderen en Nederland.
+            </p>
+            <div id="stages-overview"></div>
+          </section>
+        </div>
+
+        <aside class="page-aside">
+          <section class="form" id="form-stage">
+            <h2>Stage of voetbalkamp aanmelden</h2>
+            <form>
+              <div class="form-row">
+                <label for="st_club">Organiserende club of organisatie</label>
+                <input type="text" id="st_club" name="club" required>
+              </div>
+
+              <div class="form-row">
+                <label for="st_contact">Contactpersoon</label>
+                <input type="text" id="st_contact" name="contactpersoon" required>
+              </div>
+
+              <div class="form-row">
+                <label for="st_email">E-mailadres</label>
+                <input type="email" id="st_email" name="email" required>
+              </div>
+
+              <div class="form-row">
+                <label>Land</label>
+                <div>
+                  <label><input type="checkbox" name="land[]" value="Vlaanderen"> Vlaanderen</label><br>
+                  <label><input type="checkbox" name="land[]" value="Nederland"> Nederland</label>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label for="st_regio">Regio / provincie</label>
+                <select id="st_regio" name="regio">
+                  <option value="">Kies regio</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label>Leeftijdscategorieën (meerdere mogelijk)</label>
+                <div>
+                  <label><input type="checkbox" name="leeftijd[]" value="U7-U9"> U7-U9</label>
+                  <label><input type="checkbox" name="leeftijd[]" value="U10-U12"> U10-U12</label>
+                  <label><input type="checkbox" name="leeftijd[]" value="U13-U15"> U13-U15</label>
+                  <label><input type="checkbox" name="leeftijd[]" value="U16-U19"> U16-U19</label>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label>Data van de stage / kamp (meerdere mogelijk)</label>
+                <input type="date" name="data_stage[]" multiple>
+              </div>
+
+              <div class="form-row">
+                <label for="st_locatie">Locatie</label>
+                <input type="text" id="st_locatie" name="locatie" required>
+              </div>
+
+              <div class="form-row">
+                <label for="st_omschrijving">Korte omschrijving</label>
+                <textarea id="st_omschrijving" name="omschrijving"></textarea>
+              </div>
+
+              <div class="form-row">
+                <label for="st_flyer">Flyer of afbeelding (PDF of foto)</label>
+                <input type="file" id="st_flyer" name="flyer" accept="image/*,.pdf">
+                <p class="form-note">
+                  Wordt in het overzicht naast de titel getoond.
+                </p>
+              </div>
+
+              <div class="form-row">
+                <label>Premium opties</label>
+                <div>
+                  <label>
+                    <input type="checkbox" name="premium_home" value="1">
+                    Premium: zichtbaar op homepage in "Premium Events" en extra zichtbaarheid via sociale media.
+                  </label>
+                </div>
+              </div>
+
+              <button type="submit" class="btn-primary">
+                Stage / kamp versturen
+              </button>
+            </form>
+          </section>
+
+          <section class="card" style="margin-top:1rem;">
+            <h3>Advertentieruimte</h3>
+            <div class="ad-slot">Advertentie 300×250</div>
+            <div class="ad-slot">Advertentie 300×250</div>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
+        <span>Voetbal<span class="four-green">4</span>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
+      </div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
+<script src="assets/js/platforms.js" defer></script>
+</body>
+</html>

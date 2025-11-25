@@ -1,1 +1,229 @@
-<!-- spelers placeholder -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Spelers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
+          <div class="brand-text">
+            <h1>Voetbal<span class="four-green">4</span>All</h1>
+            <div style="font-size:0.75rem;color:#6b7280;">
+              Platform voor iedereen met een hart voor voetbal
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="ad-slot-top">
+            Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+          </div>
+          <div class="header-social">
+            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
+              <img src="assets/img/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
+              <img src="assets/img/instagram.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <div class="nav-item">
+            <a href="index.html" class="nav-link ">Home</a>
+          </div>
+          <div class="nav-item">
+            <a href="nieuws.html" class="nav-link ">Nieuws</a>
+          </div>
+          <div class="nav-item">
+            <a href="uitslagen.html" class="nav-link ">Resultaten &amp; ranking</a>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="vacatures.html" class="nav-link active">Vacatures</a>
+            <div class="nav-dropdown">
+              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="vriendschappelijk.html" class="nav-link ">Wij organiseren</a>
+            <div class="nav-dropdown">
+              <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
+              <a href="dinners.html" class="nav-dropdown-link">Dinners</a>
+              <a href="stages.html" class="nav-dropdown-link">Stage of voetbalkamp</a>
+              <a href="events-overig.html" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="uitslagen.html" class="nav-link">Sportief</a>
+            <div class="nav-dropdown">
+              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="contact.html" class="nav-link ">Meer</a>
+            <div class="nav-dropdown">
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+              <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Meer live resultaten volgen in een latere fase.</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-inner">
+<section class="card page-cta">
+  <h2>Wil jij gezien worden als speler?</h2>
+  <p>
+    Plaats je spelersprofiel en laat clubs weten wie je bent, op welke positie je speelt en op welk niveau je wil uitkomen.
+  </p>
+  <a href="#speler-form" class="btn-outline">
+    Spelersprofiel aanmelden
+  </a>
+</section>
+
+<div class="page-grid">
+  <div class="page-main">
+    <section>
+      <h2>Spelers zoeken</h2>
+      <p class="section-intro">
+        Filter op leeftijd, regio, positie, land en niveau.
+      </p>
+      <div id="spelers-results"></div>
+    </section>
+  </div>
+
+  <aside class="page-aside">
+    <section class="form" id="speler-form">
+      <h2>Spelersprofiel aanmelden</h2>
+      <form>
+        <div class="form-row">
+          <label for="sp_naam">Naam</label>
+          <input type="text" id="sp_naam" name="naam" required>
+        </div>
+        <div class="form-row">
+          <label for="sp_email">E-mailadres</label>
+          <input type="email" id="sp_email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="sp_land">Land</label>
+          <select id="sp_land" name="land">
+            <option>Vlaanderen</option>
+            <option>Nederland</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="sp_regio">Regio / provincie</label>
+          <select id="sp_regio" name="regio">
+            <option value="">Kies regio</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="sp_geboortejaar">Geboortejaar</label>
+          <input type="number" id="sp_geboortejaar" name="geboortejaar" min="1990" max="2020">
+        </div>
+        <div class="form-row">
+          <label for="sp_positie">Voorkeurspositie</label>
+          <input type="text" id="sp_positie" name="positie">
+        </div>
+        <div class="form-row">
+          <label for="sp_niveau">Gewenst niveau</label>
+          <select id="sp_niveau" name="niveau">
+            <option value="">Kies niveau</option>
+            <optgroup label="Vlaanderen">
+              <option>Gewestelijk</option>
+              <option>Provinciaal</option>
+              <option>Interprovinciaal</option>
+              <option>Elite</option>
+            </optgroup>
+            <optgroup label="Nederland">
+              <option>Recreatief</option>
+              <option>Amateurklasse</option>
+              <option>Hoofdklasse</option>
+              <option>Divisie / Landelijk</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="sp_foto">Foto</label>
+          <input type="file" id="sp_foto" name="foto" accept="image/*">
+        </div>
+        <div class="form-row">
+          <label for="sp_cv">CV (PDF)</label>
+          <input type="file" id="sp_cv" name="cv" accept="application/pdf">
+        </div>
+        <div class="form-row">
+          <label for="sp_video">YouTube of Vimeo-link</label>
+          <input type="url" id="sp_video" name="video" placeholder="https://">
+        </div>
+        <div class="form-row">
+          <label>Premium</label>
+          <div>
+            <label>
+              <input type="checkbox" name="premium" value="1">
+              Premium: extra zichtbaarheid op homepage en sociale media.
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn-primary">Spelersprofiel versturen</button>
+      </form>
+    </section>
+
+    <section class="card" style="margin-top:1rem;">
+      <h3>Advertentieruimte</h3>
+      <div class="ad-slot">Advertentie 300×250</div>
+      <div class="ad-slot">Advertentie 300×250</div>
+    </section>
+  </aside>
+</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
+        <span>Voetbal<span class="four-green">4</span>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
+      </div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
+<script src="assets/js/platforms.js" defer></script>
+</body>
+</html>

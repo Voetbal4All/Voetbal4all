@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "titel": "Spectaculaire zege in de Jupiler Pro League",
+    "categorie": "Jupiler Pro League",
+    "datum": "2025-11-24",
+    "teaser": "Topaffiche eindigt in een doelpuntenkermis met vijf goals.",
+    "image": "assets/img/news1.jpg"
+  },
+  {
+    "id": 2,
+    "titel": "Eredivisie: spanning in de titelstrijd",
+    "categorie": "Eredivisie",
+    "datum": "2025-11-23",
+    "teaser": "De topclubs in Nederland laten geen steken vallen.",
+    "image": "assets/img/news2.jpg"
+  }
+]

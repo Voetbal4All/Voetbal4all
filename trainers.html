@@ -1,1 +1,214 @@
-<!-- trainers placeholder -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Trainers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="site-shell">
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-row">
+        <div class="brand-block">
+          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
+          <div class="brand-text">
+            <h1>Voetbal<span class="four-green">4</span>All</h1>
+            <div style="font-size:0.75rem;color:#6b7280;">
+              Platform voor iedereen met een hart voor voetbal
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="ad-slot-top">
+            Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
+          </div>
+          <div class="header-social">
+            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
+              <img src="assets/img/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
+              <img src="assets/img/instagram.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-links">
+          <div class="nav-item">
+            <a href="index.html" class="nav-link ">Home</a>
+          </div>
+          <div class="nav-item">
+            <a href="nieuws.html" class="nav-link ">Nieuws</a>
+          </div>
+          <div class="nav-item">
+            <a href="uitslagen.html" class="nav-link ">Resultaten &amp; ranking</a>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="vacatures.html" class="nav-link active">Vacatures</a>
+            <div class="nav-dropdown">
+              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="vriendschappelijk.html" class="nav-link ">Wij organiseren</a>
+            <div class="nav-dropdown">
+              <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
+              <a href="dinners.html" class="nav-dropdown-link">Dinners</a>
+              <a href="stages.html" class="nav-dropdown-link">Stage of voetbalkamp</a>
+              <a href="events-overig.html" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="uitslagen.html" class="nav-link">Sportief</a>
+            <div class="nav-dropdown">
+              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="contact.html" class="nav-link ">Meer</a>
+            <div class="nav-dropdown">
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+              <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="live-banner">
+      <div class="live-banner-inner">
+        <span class="live-label">Live</span>
+        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
+        <span>Meer live resultaten volgen in een latere fase.</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-inner">
+<section class="card page-cta">
+  <h2>Ook jezelf aanbieden als trainer?</h2>
+  <p>
+    Laat clubs zien wie je bent. Maak gratis een trainerprofiel aan en geef aan in welke regio’s
+    en landen je beschikbaar bent.
+  </p>
+  <a href="#trainer-form" class="btn-outline">
+    Trainerprofiel aanmelden
+  </a>
+</section>
+
+<div class="page-grid">
+  <div class="page-main">
+    <section>
+      <h2>Trainers zoeken</h2>
+      <p class="section-intro">
+        Filter op land, regio, functie, diploma en niveau.
+      </p>
+      <div id="trainers-results"></div>
+    </section>
+  </div>
+
+  <aside class="page-aside">
+    <section class="form" id="trainer-form">
+      <h2>Trainerprofiel aanmelden</h2>
+      <form>
+        <div class="form-row">
+          <label for="tr_naam">Naam</label>
+          <input type="text" id="tr_naam" name="naam" required>
+        </div>
+        <div class="form-row">
+          <label for="tr_email">E-mailadres</label>
+          <input type="email" id="tr_email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="tr_land">Land</label>
+          <select id="tr_land" name="land">
+            <option>Vlaanderen</option>
+            <option>Nederland</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="tr_regio">Regio / provincie</label>
+          <select id="tr_regio" name="regio">
+            <option value="">Kies regio</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="tr_functie">Functie</label>
+          <select id="tr_functie" name="functie">
+            <option>Trainer</option>
+            <option>Keepertrainer</option>
+            <option>Fysio</option>
+            <option>Analist</option>
+            <option>Andere stafmedewerker</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="tr_diploma">Diploma('s)</label>
+          <input type="text" id="tr_diploma" name="diploma">
+        </div>
+        <div class="form-row">
+          <label for="tr_cv">CV (PDF)</label>
+          <input type="file" id="tr_cv" name="cv" accept="application/pdf">
+        </div>
+        <div class="form-row">
+          <label for="tr_foto">Foto</label>
+          <input type="file" id="tr_foto" name="foto" accept="image/*">
+        </div>
+        <div class="form-row">
+          <label>Premium</label>
+          <div>
+            <label>
+              <input type="checkbox" name="premium" value="1">
+              Premium: extra zichtbaarheid op homepage en sociale media.
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn-primary">Trainerprofiel versturen</button>
+      </form>
+    </section>
+
+    <section class="card" style="margin-top:1rem;">
+      <h3>Advertentieruimte</h3>
+      <div class="ad-slot">Advertentie 300×250</div>
+      <div class="ad-slot">Advertentie 300×250</div>
+    </section>
+  </aside>
+</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
+        <span>Voetbal<span class="four-green">4</span>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
+      </div>
+      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+    </div>
+  </footer>
+</div>
+
+<script src="assets/js/news.js" defer></script>
+<script src="assets/js/forms.js" defer></script>
+<script src="assets/js/platforms.js" defer></script>
+</body>
+</html>
