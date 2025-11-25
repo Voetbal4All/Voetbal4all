@@ -410,8 +410,20 @@ main {
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+/* Generieke 70/30 lay-out voor pagina's met sidebar */
 
-/* 70/30 layout voor pagina's met formulier */
+.page-grid-70-30 {
+  display: grid;
+  grid-template-columns: minmax(0, 2.5fr) minmax(0, 1.2fr);
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 960px) {
+  .page-grid-70-30 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}/* 70/30 layout voor pagina's met formulier */
 
 .page-grid {
   display: grid;
