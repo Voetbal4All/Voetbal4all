@@ -79,7 +79,8 @@
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="contact.html" class="nav-link">Meer</a>
+            <!-- HIER is 'Meer' actief op deze pagina -->
+            <a href="contact.html" class="nav-link active">Meer</a>
             <div class="nav-dropdown">
               <a href="contact.html" class="nav-dropdown-link">Contact</a>
               <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
@@ -104,36 +105,48 @@
 
   <main>
     <div class="page-inner">
-      <section class="card">
-        <h2>Contact</h2>
-        <p class="section-intro">
-          Problemen, opmerkingen, aanvullingen of nood aan een bepaalde functionaliteit op de website?
-          Laat het ons weten via onderstaand formulier.
+      <section class="hero">
+        <div class="hero-title">
+          <h2>Contact met Voetbal<span class="four-green">4</span>All</h2>
+        </div>
+        <p class="hero-text">
+          Problemen, opmerkingen, aanvullingen of nood aan een extra functionaliteit op het platform?
+          Laat het ons weten via onderstaand formulier. We beantwoorden je bericht zo snel mogelijk.
         </p>
-        <form id="contact-form">
+      </section>
+
+      <section class="section">
+        <form class="form" id="contact-form">
           <div class="form-row">
-            <label for="co_naam">Naam</label>
-            <input type="text" id="co_naam" name="naam" required>
+            <label for="contact-naam">Naam</label>
+            <input type="text" id="contact-naam" name="naam" required>
           </div>
           <div class="form-row">
-            <label for="co_email">E-mailadres</label>
-            <input type="email" id="co_email" name="email" required>
+            <label for="contact-email">E-mailadres</label>
+            <input type="email" id="contact-email" name="email" required>
           </div>
           <div class="form-row">
-            <label for="co_onderwerp">Waar gaat het bericht over?</label>
-            <select id="co_onderwerp" name="onderwerp">
-              <option>Algemene vraag</option>
-              <option>Probleem of foutmelding</option>
-              <option>Voorstel voor nieuwe functionaliteit</option>
-              <option>Adverteermogelijkheden</option>
-              <option>Anders</option>
+            <label for="contact-onderwerp">Waar gaat je bericht over?</label>
+            <select id="contact-onderwerp" name="onderwerp" required>
+              <option value="">Maak een keuze</option>
+              <option value="algemeen">Algemene vraag</option>
+              <option value="technisch">Technisch probleem</option>
+              <option value="functionaliteit">Nieuwe functionaliteit</option>
+              <option value="adverteren">Adverteermogelijkheden</option>
+              <option value="privacy">Privacy / gegevens</option>
+              <option value="anders">Iets anders</option>
             </select>
           </div>
           <div class="form-row">
-            <label for="co_bericht">Bericht</label>
-            <textarea id="co_bericht" name="bericht" required></textarea>
+            <label for="contact-bericht">Bericht</label>
+            <textarea id="contact-bericht" name="bericht" required></textarea>
           </div>
-          <button type="submit" class="btn-primary">Bericht versturen</button>
+          <div class="form-row">
+            <button type="submit" class="btn-primary">Bericht versturen</button>
+          </div>
+          <p class="form-note">
+            We gebruiken je e-mailadres uitsluitend om op je vraag te antwoorden.
+          </p>
         </form>
       </section>
     </div>
@@ -150,8 +163,6 @@
   </footer>
 </div>
 
-<script src="assets/js/news.js" defer></script>
 <script src="assets/js/forms.js" defer></script>
-<script src="assets/js/platforms.js" defer></script>
 </body>
 </html>
