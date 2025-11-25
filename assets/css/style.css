@@ -1,6 +1,7 @@
-
+/* ---------------------------------------------------------
+   ROOT VARIABELEN
+--------------------------------------------------------- */
 :root {
-  /* Kleuren */
   --green-main: rgb(80, 150, 95);
   --green-light: rgb(120, 190, 135);
   --blue-banner: rgb(5, 40, 100);
@@ -14,8 +15,9 @@
   --nav-height: 56px;
 }
 
-/* Basis reset */
-
+/* ---------------------------------------------------------
+   RESET
+--------------------------------------------------------- */
 *,
 *::before,
 *::after {
@@ -24,26 +26,27 @@
 
 body {
   margin: 0;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Montserrat", system-ui, sans-serif;
   color: var(--text-main);
   background: #ffffff;
 }
 
-/* Groen voor alle “4” */
 .four-green {
   color: var(--green-main) !important;
 }
 
-/* Structuur */
-
+/* ---------------------------------------------------------
+   SITE STRUCTUUR
+--------------------------------------------------------- */
 .site-shell {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Bovenbalk + header */
-
+/* ---------------------------------------------------------
+   HEADER
+--------------------------------------------------------- */
 .top-strip {
   position: sticky;
   top: 0;
@@ -88,8 +91,8 @@ body {
 .header-right {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 0.75rem;
+  justify-content: flex-end;
 }
 
 .ad-slot-top {
@@ -97,25 +100,13 @@ body {
   border: 1px dashed var(--border-soft);
   padding: 0.25rem 0.6rem;
   font-size: 0.7rem;
-  text-align: center;
   background: #f9fafb;
   color: var(--text-muted);
 }
 
-.header-social {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.header-social img {
-  height: 20px;
-  width: 20px;
-  object-fit: contain;
-}
-
-/* Navigatiebalk */
-
+/* ---------------------------------------------------------
+   NAVIGATIE
+--------------------------------------------------------- */
 .navbar {
   height: var(--nav-height);
   background: var(--green-main);
@@ -129,16 +120,12 @@ body {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  justify-content: flex-start;
 }
-
-/* Nieuwe nav met dropdowns */
 
 .nav-links {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .nav-link {
@@ -147,8 +134,6 @@ body {
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
   color: #ffffff;
-  border: 1px solid transparent;
-  display: inline-block;
 }
 
 .nav-link:hover {
@@ -157,8 +142,6 @@ body {
 
 .nav-link.active {
   background: var(--blue-banner);
-  border-color: var(--blue-banner);
-  color: #ffffff;
   font-weight: 600;
 }
 
@@ -168,8 +151,8 @@ body {
 
 .nav-item.has-dropdown > .nav-link::after {
   content: "▾";
-  font-size: 0.7rem;
   margin-left: 0.25rem;
+  font-size: 0.7rem;
 }
 
 .nav-dropdown {
@@ -179,78 +162,59 @@ body {
   min-width: 180px;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.15);
   padding: 0.3rem 0;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
   display: none;
   z-index: 50;
 }
 
 .nav-dropdown-link {
   display: block;
-  padding: 0.35rem 0.8rem;
-  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
   color: var(--green-main);
+  background: #ffffff;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 .nav-dropdown-link:hover {
   background: rgba(19, 80, 27, 0.08);
-  color: var(--green-main);
 }
 
-/* Dropdown tonen bij hover (desktop) */
-.nav-item.has-dropdown:hover > .nav-dropdown {
+/* Dropdown zichtbaar op hover */
+.nav-item.has-dropdown:hover .nav-dropdown {
   display: block;
 }
 
-.nav-cta {
-  font-size: 0.8rem;
-  margin-left: auto;
+/* CTA in nav */
+.nav-cta .btn-secondary {
+  background: #ffffff;
+  color: var(--green-main);
+  border: 2px solid var(--green-main);
 }
 
-/* Mobile nav */
+.nav-cta .btn-secondary:hover {
+  background: var(--green-light);
+  color: #ffffff;
+}
 
+/* MOBIEL MENU */
 @media (max-width: 640px) {
   .navbar-inner {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.4rem;
-  }
-
-  .nav-cta {
-    margin-left: 0;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-  }
-
-  .nav-item {
-    position: static;
   }
 
   .nav-dropdown {
     position: static;
-    width: 100%;
+    background: #ffffff;
     box-shadow: none;
-    border-radius: 0;
-    margin-top: 0.2rem;
-    border: 1px solid rgba(255,255,255,0.3);
-    background: rgba(0,0,0,0.12);
-  }
-
-  .nav-dropdown-link {
-    color: var(--green-main);
-  }
-
-  .nav-dropdown-link:hover {
-    background: rgba(255,255,255,0.4);
+    border: 1px solid rgba(0,0,0,0.1);
   }
 }
 
-/* Live-balk */
-
+/* ---------------------------------------------------------
+   LIVE BANNER
+--------------------------------------------------------- */
 .live-banner {
   background: var(--blue-banner);
   color: #ffffff;
@@ -263,19 +227,12 @@ body {
   padding: 0.25rem 1rem;
   display: flex;
   gap: 1.5rem;
-  align-items: center;
-  white-space: nowrap;
   overflow-x: auto;
 }
 
-.live-label {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-/* Main & pagina */
-
+/* ---------------------------------------------------------
+   MAIN STRUCTUUR
+--------------------------------------------------------- */
 main {
   flex: 1;
   background: var(--bg-light);
@@ -284,45 +241,38 @@ main {
 .page-inner {
   max-width: var(--max-width);
   margin: 1.2rem auto 2rem;
-  padding: 0 1rem 2rem;
+  padding: 0 1rem;
 }
 
-/* Hero */
-
+/* ---------------------------------------------------------
+   HERO
+--------------------------------------------------------- */
 .hero {
   background: #ffffff;
   border-radius: var(--card-radius);
   box-shadow: var(--shadow-soft);
-  padding: 1.4rem 1.6rem;
-  margin-bottom: 1.5rem;
-}
-
-.hero-title {
-  text-align: center;
-  margin-bottom: 0.5rem;
+  padding: 1.5rem;
 }
 
 .hero-title h2 {
+  text-align: center;
   margin: 0;
-  font-size: 1.4rem;
 }
 
 .hero-text {
-  font-size: 0.9rem;
-  color: var(--text-muted);
   text-align: center;
   max-width: 40rem;
-  margin: 0 auto 0.8rem;
+  margin: 0.7rem auto 1rem;
+  color: var(--text-muted);
 }
 
-/* HERO CTA – 2 kolommen met knoppen */
-
+/* 2 kolommen CTA (linker = groene knoppen, rechter = outline knoppen) */
 .hero-cta-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2,1fr);
   gap: 1rem;
-  max-width: 480px;
-  margin: 1rem auto 0;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .hero-cta-col {
@@ -331,63 +281,32 @@ main {
   gap: 0.5rem;
 }
 
-.hero-cta-col-left,
-.hero-cta-col-right {
-  align-items: stretch;
-}
-
 @media (max-width: 640px) {
   .hero-cta-grid {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
-/* Knoppen */
-
-.btn-primary,
-.btn-secondary,
-.btn-outline {
-  border-radius: 999px;
-  font-size: 0.85rem;
-  padding: 0.45rem 1.05rem;
-  border: 1px solid transparent;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
-  font-weight: 500;
-}
-
+/* ---------------------------------------------------------
+   KNOPPEN
+--------------------------------------------------------- */
 .btn-primary {
   background: var(--green-main);
   color: #ffffff;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
 }
 
 .btn-primary:hover {
   background: var(--green-light);
 }
 
-.btn-secondary {
-  background: #ffffff;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
-/* Witte knop met groene rand (Event aanmelden / Club zoekt / etc.) */
 .btn-outline {
   background: #ffffff;
   color: var(--green-main);
   border: 2px solid var(--green-main);
   border-radius: 999px;
-  padding: 0.45rem 1.05rem;
-  font-size: 0.85rem;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  padding: 0.5rem 1rem;
 }
 
 .btn-outline:hover {
@@ -395,160 +314,64 @@ main {
   color: #ffffff;
 }
 
-/* Grids op home */
-
+/* ---------------------------------------------------------
+   HOME GRIDS (NIET AANPASSEN)
+--------------------------------------------------------- */
 .home-top-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 2.1fr) minmax(0, 1.3fr);
+  grid-template-columns: minmax(0,1.1fr) minmax(0,2.1fr) minmax(0,1.3fr);
   gap: 1rem;
-  margin-bottom: 1.5rem;
 }
 
 .home-bottom-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 2.8fr) minmax(0, 1.0fr);
+  grid-template-columns: minmax(0,1.2fr) minmax(0,2.8fr) minmax(0,1fr);
   gap: 1rem;
-  margin-bottom: 1.5rem;
 }
-/* Generieke 70/30 lay-out voor pagina's met sidebar */
 
+/* ---------------------------------------------------------
+   GENERIEKE 70/30 LAYOUT
+--------------------------------------------------------- */
 .page-grid-70-30 {
   display: grid;
   grid-template-columns: minmax(0, 2.5fr) minmax(0, 1.2fr);
   gap: 1rem;
-  align-items: flex-start;
 }
 
 @media (max-width: 960px) {
   .page-grid-70-30 {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: 1fr;
   }
-}/* 70/30 layout voor pagina's met formulier */
-
-.page-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.1fr);
-  gap: 1rem;
-  align-items: flex-start;
 }
 
-/* Cards & secties */
-
-.card,
+/* ---------------------------------------------------------
+   FORMULIEREN
+--------------------------------------------------------- */
 .form {
   background: #ffffff;
+  padding: 1rem;
   border-radius: var(--card-radius);
   box-shadow: var(--shadow-soft);
-  padding: 1rem 1.1rem;
 }
-
-.section {
-  margin-bottom: 1.5rem;
-}
-
-.section h2 {
-  font-size: 1.05rem;
-  margin: 0 0 0.2rem 0;
-}
-
-.section-intro {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin: 0 0 0.8rem 0;
-}
-
-/* Nieuws-kaarten */
-
-.news-section-header h2 {
-  margin: 0 0 0.1rem 0;
-  font-size: 1.05rem;
-}
-
-.news-section-header .section-intro {
-  margin: 0 0 0.6rem 0;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.news-card {
-  background: #ffffff;
-  border-radius: 12px;
-  border: 1px solid #e5e7eb;
-  padding: 0.7rem 0.8rem;
-  margin-bottom: 0.75rem;
-}
-
-.news-card h3 {
-  margin: 0 0 0.25rem 0;
-  font-size: 0.95rem;
-}
-
-.news-meta {
-  margin: 0 0 0.35rem 0;
-  font-size: 0.75rem;
-  color: var(--text-muted);
-}
-
-.news-teaser {
-  margin: 0;
-  font-size: 0.8rem;
-  color: #374151;
-}
-
-/* Advertenties */
-
-.ad-slot {
-  border-radius: 10px;
-  border: 1px dashed var(--green-main);
-  padding: 0.8rem;
-  font-size: 0.8rem;
-  text-align: center;
-  margin-bottom: 0.6rem;
-  background: #f9fafb;
-  color: var(--text-muted);
-}
-
-/* Rangschikkingen */
-
-.ranking-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.78rem;
-  margin-top: 0.4rem;
-}
-
-.ranking-table th,
-.ranking-table td {
-  border-bottom: 1px solid #e5e7eb;
-  padding: 0.25rem 0.3rem;
-  text-align: left;
-}
-
-/* Formulieren algemeen */
 
 .form-row {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.7rem;
 }
 
 .form-row label {
-  font-size: 0.8rem;
   font-weight: 500;
+  font-size: 0.85rem;
 }
 
 .form-row input,
 .form-row select,
 .form-row textarea {
-  font-size: 0.85rem;
-  padding: 0.35rem 0.45rem;
+  padding: 0.45rem;
   border-radius: 8px;
   border: 1px solid #d1d5db;
-}
-
-.form-row textarea {
-  min-height: 90px;
+  font-size: 0.85rem;
 }
 
 .form-note {
@@ -556,65 +379,28 @@ main {
   color: var(--text-muted);
 }
 
-/* Bottom CTA */
-
-.bottom-cta {
-  margin-top: 1rem;
-}
-
-.bottom-cta .card {
-  background: var(--green-main);
-  color: #ffffff;
-  text-align: center;
-}
-
-.bottom-cta .card .section-intro {
-  color: #e5e7eb;
-}
-
-.bottom-cta .card .btn-primary {
+/* ---------------------------------------------------------
+   NIEUWS
+--------------------------------------------------------- */
+.news-card {
   background: #ffffff;
-  color: var(--green-main);
-  border-color: #ffffff;
-}
-
-.bottom-cta .card .btn-primary:hover {
-  background: #f3f4f6;
-}
-
-/* Voorwaarden */
-
-.voorwaarden {
-  background: #ffffff;
-  border-radius: var(--card-radius);
-  box-shadow: var(--shadow-soft);
-  padding: 1.3rem 1.5rem;
-  font-size: 0.9rem;
-}
-
-.voorwaarden h2 {
-  margin-top: 0;
+  padding: 0.9rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
   margin-bottom: 0.8rem;
 }
 
-.voorwaarden h3 {
-  margin-top: 1.1rem;
-  margin-bottom: 0.3rem;
-  font-size: 0.95rem;
+.news-card h3 {
+  margin: 0 0 0.25rem 0;
 }
 
-.voorwaarden p {
-  margin-top: 0.15rem;
-  margin-bottom: 0.45rem;
-  color: var(--text-muted);
-}
-
-/* Footer */
-
+/* ---------------------------------------------------------
+   FOOTER
+--------------------------------------------------------- */
 footer {
   background: #ffffff;
   border-top: 1px solid var(--green-main);
-  padding: 0.75rem 1rem 0.9rem;
+  padding: 0.8rem 1rem;
   font-size: 0.75rem;
   color: var(--text-muted);
 }
@@ -624,40 +410,10 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.footer-left {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .footer-logo {
   height: 26px;
-  width: auto;
-  object-fit: contain;
-}
-
-/* Responsief */
-
-@media (max-width: 960px) {
-  .home-top-grid,
-  .home-bottom-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .top-strip-row {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .header-right {
-    justify-content: flex-start;
-  }
-
-  .page-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
 }
