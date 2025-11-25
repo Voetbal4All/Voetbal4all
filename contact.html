@@ -7,11 +7,17 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
 <div class="site-shell">
+
+  <!-- ----------------------------------------------------------
+       TOP HEADER
+  ----------------------------------------------------------- -->
   <div class="top-strip">
     <div class="top-strip-inner">
       <div class="top-strip-row">
+
         <div class="brand-block">
           <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
           <div class="brand-text">
@@ -21,37 +27,43 @@
             </div>
           </div>
         </div>
+
         <div class="header-right">
           <div class="ad-slot-top">
             Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
           </div>
+
           <div class="header-social">
-            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
-              <img src="assets/img/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
-              <img src="assets/img/instagram.png" alt="Instagram" />
-            </a>
+            <a href="https://facebook.com/voetbal4all" target="_blank"><img src="assets/img/facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com/voetbal.4.all" target="_blank"><img src="assets/img/instagram.png" alt="Instagram"></a>
           </div>
         </div>
+
       </div>
     </div>
 
+    <!-- ----------------------------------------------------------
+         NAVIGATIEBALK
+    ----------------------------------------------------------- -->
     <nav class="navbar">
       <div class="navbar-inner">
+
         <div class="nav-links">
+
           <div class="nav-item">
             <a href="index.html" class="nav-link">Home</a>
           </div>
+
           <div class="nav-item">
             <a href="nieuws.html" class="nav-link">Nieuws</a>
           </div>
+
           <div class="nav-item">
             <a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a>
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="vacatures.html" class="nav-link">Vacatures</a>
+            <a class="nav-link">Vacatures</a>
             <div class="nav-dropdown">
               <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
               <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
@@ -60,7 +72,7 @@
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="vriendschappelijk.html" class="nav-link">Wij organiseren</a>
+            <a class="nav-link">Wij organiseren</a>
             <div class="nav-dropdown">
               <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
               <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
@@ -71,7 +83,7 @@
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="uitslagen.html" class="nav-link">Sportief</a>
+            <a class="nav-link">Sportief</a>
             <div class="nav-dropdown">
               <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
               <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
@@ -79,88 +91,140 @@
           </div>
 
           <div class="nav-item has-dropdown">
-            <!-- HIER is 'Meer' actief op deze pagina -->
             <a href="contact.html" class="nav-link active">Meer</a>
             <div class="nav-dropdown">
               <a href="contact.html" class="nav-dropdown-link">Contact</a>
               <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
             </div>
           </div>
+
         </div>
+
         <div class="nav-cta">
           <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
         </div>
+
       </div>
     </nav>
 
+    <!-- ----------------------------------------------------------
+         LIVE BANNER
+    ----------------------------------------------------------- -->
     <div class="live-banner">
       <div class="live-banner-inner">
         <span class="live-label">Live</span>
-        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
+        <span>JPL: Club Brugge 2 - 1 Genk (FT)</span>
         <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
-        <span>Meer live resultaten volgen in een latere fase.</span>
+        <span>Meer live scores in latere update</span>
       </div>
     </div>
   </div>
 
+  <!-- ----------------------------------------------------------
+       PAGINA-INHOUD
+  ----------------------------------------------------------- -->
   <main>
-    <div class="page-inner">
-      <section class="hero">
-        <div class="hero-title">
-          <h2>Contact met Voetbal<span class="four-green">4</span>All</h2>
-        </div>
-        <p class="hero-text">
-          Problemen, opmerkingen, aanvullingen of nood aan een extra functionaliteit op het platform?
-          Laat het ons weten via onderstaand formulier. We beantwoorden je bericht zo snel mogelijk.
-        </p>
-      </section>
+    <div class="page-inner page-grid-70-30">
 
-      <section class="section">
-        <form class="form" id="contact-form">
-          <div class="form-row">
-            <label for="contact-naam">Naam</label>
-            <input type="text" id="contact-naam" name="naam" required>
+      <!-- ----------------------- LINKERKOLOM ------------------------------- -->
+      <div>
+
+        <section class="hero">
+          <div class="hero-title">
+            <h2>Contact met Voetbal<span class="four-green">4</span>All</h2>
           </div>
-          <div class="form-row">
-            <label for="contact-email">E-mailadres</label>
-            <input type="email" id="contact-email" name="email" required>
-          </div>
-          <div class="form-row">
-            <label for="contact-onderwerp">Waar gaat je bericht over?</label>
-            <select id="contact-onderwerp" name="onderwerp" required>
-              <option value="">Maak een keuze</option>
-              <option value="algemeen">Algemene vraag</option>
-              <option value="technisch">Technisch probleem</option>
-              <option value="functionaliteit">Nieuwe functionaliteit</option>
-              <option value="adverteren">Adverteermogelijkheden</option>
-              <option value="privacy">Privacy / gegevens</option>
-              <option value="anders">Iets anders</option>
-            </select>
-          </div>
-          <div class="form-row">
-            <label for="contact-bericht">Bericht</label>
-            <textarea id="contact-bericht" name="bericht" required></textarea>
-          </div>
-          <div class="form-row">
-            <button type="submit" class="btn-primary">Bericht versturen</button>
-          </div>
-          <p class="form-note">
-            We gebruiken je e-mailadres uitsluitend om op je vraag te antwoorden.
+          <p class="hero-text">
+            Problemen, opmerkingen, aanvullingen of nood aan nieuwe functionaliteit?<br>
+            Laat het ons weten – we antwoorden zo snel mogelijk.
           </p>
-        </form>
-      </section>
+        </section>
+
+        <section class="section">
+          <form class="form" id="contact-form">
+
+            <div class="form-row">
+              <label for="contact-naam">Naam</label>
+              <input type="text" id="contact-naam" name="naam" required>
+            </div>
+
+            <div class="form-row">
+              <label for="contact-email">E-mailadres</label>
+              <input type="email" id="contact-email" name="email" required>
+            </div>
+
+            <div class="form-row">
+              <label for="contact-onderwerp">Waar gaat je bericht over?</label>
+              <select id="contact-onderwerp" name="onderwerp" required>
+                <option value="">Maak een keuze</option>
+                <option value="algemeen">Algemene vraag</option>
+                <option value="technisch">Technisch probleem</option>
+                <option value="functionaliteit">Nieuwe functionaliteit</option>
+                <option value="adverteren">Adverteermogelijkheden</option>
+                <option value="privacy">Privacy / gegevens</option>
+                <option value="anders">Iets anders</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="contact-bericht">Bericht</label>
+              <textarea id="contact-bericht" name="bericht" required></textarea>
+            </div>
+
+            <div class="form-row">
+              <label>
+                <input type="checkbox" required>
+                Ik ga akkoord met het verwerken van mijn gegevens volgens de privacyvoorwaarden.
+              </label>
+            </div>
+
+            <div class="form-row">
+              <button type="submit" class="btn-primary">Bericht versturen</button>
+            </div>
+
+            <p class="form-note">Je gegevens worden uitsluitend gebruikt om je bericht te beantwoorden.</p>
+
+          </form>
+        </section>
+
+      </div>
+
+      <!-- ----------------------- RECHTERKOLOM (ADVERTENTIES) ------------------------------- -->
+      <aside>
+
+        <div class="card">
+          <h2>Advertenties</h2>
+          <div class="ad-slot">Advertentie 300×250</div>
+          <div class="ad-slot">Advertentie 300×250</div>
+        </div>
+
+        <div class="card" style="margin-top:1rem;">
+          <h2>Premium Events</h2>
+          <div class="ad-slot">Premium event voorbeeld</div>
+        </div>
+
+        <div class="card" style="margin-top:1rem;">
+          <h2>Premium Clubvacatures</h2>
+          <div class="ad-slot">Premium vacature voorbeeld</div>
+        </div>
+
+      </aside>
+
     </div>
   </main>
 
+  <!-- ----------------------------------------------------------
+       FOOTER
+  ----------------------------------------------------------- -->
   <footer>
     <div class="footer-inner">
       <div class="footer-left">
-        <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
-        <span>Voetbal<span class="four-green">4</span>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
+        <img src="assets/img/logo_voetbal4all.png" class="footer-logo">
+        <span>Voetbal<span class="four-green">4</span>All – hét centrale platform voor voetbal in Vlaanderen en Nederland.</span>
       </div>
-      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
+      <div>&copy; 2025 Voetbal4All — Alle rechten voorbehouden.</div>
     </div>
   </footer>
+
 </div>
 
 <script src="assets/js/forms.js" defer></script>
