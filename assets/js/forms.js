@@ -11,3 +11,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const contactForm = document.getElementById("contact-form");
+  if (contactForm) {
+    const successEl = document.getElementById("contact-success");
+
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault(); // geen echte backend nu
+      // eventueel later: fetch naar API
+
+      contactForm.reset();
+      if (successEl) {
+        successEl.style.display = "block";
+      }
+    });
+  }
+});
