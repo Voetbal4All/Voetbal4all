@@ -25,14 +25,6 @@
           <div class="ad-slot-top">
             Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
           </div>
-          <div class="header-social">
-            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
-              <img src="assets/img/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
-              <img src="assets/img/instagram.png" alt="Instagram" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -40,20 +32,14 @@
     <nav class="navbar">
       <div class="navbar-inner">
         <div class="nav-links">
-          <div class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </div>
-          <div class="nav-item">
-            <a href="nieuws.html" class="nav-link">Nieuws</a>
-          </div>
-          <div class="nav-item">
-            <a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a>
-          </div>
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="nieuws.html" class="nav-link active">Nieuws</a></div>
+          <div class="nav-item"><a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a></div>
 
           <div class="nav-item has-dropdown">
-            <a href="vacatures.html" class="nav-link">Vacatures</a>
+            <a href="clubvacatures.html" class="nav-link">Vacatures</a>
             <div class="nav-dropdown">
-              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
               <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
               <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
             </div>
@@ -73,8 +59,7 @@
           <div class="nav-item has-dropdown">
             <a href="uitslagen.html" class="nav-link">Sportief</a>
             <div class="nav-dropdown">
-              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
-              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="team-medewerker.html" class="nav-dropdown-link">Team/medewerker in de kijker</a>
             </div>
           </div>
 
@@ -94,45 +79,35 @@
 
     <div class="live-banner">
       <div class="live-banner-inner">
-        <span class="live-label">Live</span>
-        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
-        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
-        <span>Meer live resultaten volgen in een latere fase.</span>
+        <span>Live scores &amp; resultaten volgen in een latere fase.</span>
       </div>
     </div>
   </div>
 
   <main>
     <div class="page-inner">
-<section class="card">
-  <div class="news-section-header">
-    <h2>Voetbalkoppen</h2>
-    <p class="section-intro">
-      Filter nieuwsberichten op competitie of type nieuws.
-    </p>
-  </div>
-  <form id="news-filter-form" class="form" style="margin-bottom:1rem;">
-    <div class="form-row">
-      <label for="news_categorie">Categorie</label>
-      <select id="news_categorie" name="categorie">
-        <option value="">Alle categorieën</option>
-        <option>Jupiler Pro League</option>
-        <option>Eredivisie</option>
-        <option>Challenger Pro League</option>
-        <option>Keuken Kampioen Divisie</option>
-        <option>Nationale reeksen België</option>
-        <option>Nationale reeksen Nederland</option>
-        <option>Lagere klasse België</option>
-        <option>Lagere klasse Nederland</option>
-        <option>Rode Duivels</option>
-        <option>Oranje</option>
-        <option>Transfernieuws</option>
-        <option>Internationaal nieuws</option>
-      </select>
-    </div>
-  </form>
-  <div id="news-list"></div>
-</section>
+
+      <section class="hero">
+        <h2>Voetbalkoppen</h2>
+        <p>
+          Filter en ontdek nieuws over Jupiler Pro League, Eredivisie, nationale reeksen,
+          lagere reeksen en internationaal voetbal. In een latere fase komt hier een uitgebreide filter.
+        </p>
+      </section>
+
+      <div class="page-grid-70-30">
+        <section>
+          <div id="news-list"></div>
+        </section>
+        <aside>
+          <div class="card">
+            <h2>Advertenties</h2>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
+          </div>
+        </aside>
+      </div>
+
     </div>
   </main>
 
@@ -146,9 +121,7 @@
     </div>
   </footer>
 </div>
-
 <script src="assets/js/news.js" defer></script>
 <script src="assets/js/forms.js" defer></script>
-<script src="assets/js/platforms.js" defer></script>
 </body>
 </html>

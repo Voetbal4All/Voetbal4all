@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Voetbal4All</title>
+  <title>Voetbal4All - Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -25,14 +25,6 @@
           <div class="ad-slot-top">
             Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
           </div>
-          <div class="header-social">
-            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
-              <img src="assets/img/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
-              <img src="assets/img/instagram.png" alt="Instagram" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -40,20 +32,14 @@
     <nav class="navbar">
       <div class="navbar-inner">
         <div class="nav-links">
-          <div class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </div>
-          <div class="nav-item">
-            <a href="nieuws.html" class="nav-link">Nieuws</a>
-          </div>
-          <div class="nav-item">
-            <a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a>
-          </div>
+          <div class="nav-item"><a href="index.html" class="nav-link active">Home</a></div>
+          <div class="nav-item"><a href="nieuws.html" class="nav-link">Nieuws</a></div>
+          <div class="nav-item"><a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a></div>
 
           <div class="nav-item has-dropdown">
-            <a href="vacatures.html" class="nav-link">Vacatures</a>
+            <a href="clubvacatures.html" class="nav-link">Vacatures</a>
             <div class="nav-dropdown">
-              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
               <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
               <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
             </div>
@@ -71,10 +57,9 @@
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="#" class="nav-link">Sportief</a>
+            <a href="uitslagen.html" class="nav-link">Sportief</a>
             <div class="nav-dropdown">
-              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
-              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="team-medewerker.html" class="nav-dropdown-link">Team/medewerker in de kijker</a>
             </div>
           </div>
 
@@ -94,37 +79,29 @@
 
     <div class="live-banner">
       <div class="live-banner-inner">
-        <span class="live-label">Live</span>
-        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
-        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
-        <span>Meer live resultaten volgen in een latere fase.</span>
+        <span>Live scores &amp; resultaten volgen in een latere fase.</span>
       </div>
     </div>
   </div>
-
-
 
   <main>
     <div class="page-inner">
 
       <section class="hero">
-        <div class="hero-title">
-          <h2>Één platform voor Voetbal<span class="four-green">4</span>All</h2>
-        </div>
-        <p class="hero-text">
-          Voetbal4All bundelt informatie voor iedereen met een hart voor voetbal. Vind snel nieuws, resultaten,
-          clubvacatures, trainers- en spelersprofielen, tornooien en andere events op één centrale plek.
+        <h2>Één platform voor Voetbal<span class="four-green">4</span>All</h2>
+        <p>
+          Voetbal<span class="four-green">4</span>All bundelt informatie voor iedereen met een hart voor voetbal.
+          Vind snel nieuws, resultaten, vacatures, trainers- en spelersprofielen, tornooien en andere events op één centrale plek.
           Het platform is volop in ontwikkeling – nieuwe mogelijkheden worden stapsgewijs toegevoegd.
         </p>
-
         <div class="hero-cta-grid">
-          <div class="hero-cta-col hero-cta-col-left">
+          <div class="hero-cta-col">
             <a href="spelers.html" class="btn-primary">Speler zoekt club</a>
             <a href="trainers.html" class="btn-primary">Trainer zoekt club</a>
           </div>
-          <div class="hero-cta-col hero-cta-col-right">
-            <a href="vriendschappelijk.html" class="btn-outline">Event aanmelden</a>
-            <a href="vacatures.html#vacature-form" class="btn-outline">Club zoekt</a>
+          <div class="hero-cta-col">
+            <a href="clubvacatures.html" class="btn-outline">Club zoekt</a>
+            <a href="events.html" class="btn-outline">Event aanmelden</a>
           </div>
         </div>
       </section>
@@ -133,45 +110,26 @@
         <aside>
           <div class="card">
             <h2>Advertenties</h2>
-            <div class="ad-slot">Advertentie 300×250</div>
-            <div class="ad-slot">Advertentie 300×250</div>
-            <p class="section-intro">
-              Plaats hier jouw merk, event, tornooi of clubactie en bereik gericht voetballiefhebbers.
-            </p>
+            <p class="section-intro">Plaats hier jouw merk, event, tornooi of clubactie en bereik gericht voetballiefhebbers.</p>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
           </div>
         </aside>
 
         <section>
-          <div id="home-news-top"></div>
+          <div class="section">
+            <h2>Voetbalkoppen</h2>
+            <p class="section-intro">Een selectie van opvallende nieuwsitems uit Vlaanderen, Nederland en internationaal.</p>
+            <div id="news-list"></div>
+            <a href="nieuws.html" class="btn-outline">Meer Voetbalkoppen</a>
+          </div>
         </section>
 
         <aside>
           <div class="card">
-            <h2>Rangschikking Jupiler Pro League (voorbeeld)</h2>
-            <table class="ranking-table">
-              <thead>
-                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>Club Brugge</td><td>45</td></tr>
-                <tr><td>2</td><td>Union SG</td><td>43</td></tr>
-                <tr><td>3</td><td>Anderlecht</td><td>41</td></tr>
-                <tr><td>4</td><td>Genk</td><td>39</td></tr>
-              </tbody>
-            </table>
-
-            <h2 style="margin-top:0.9rem;">Rangschikking Eredivisie (voorbeeld)</h2>
-            <table class="ranking-table">
-              <thead>
-                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>PSV</td><td>47</td></tr>
-                <tr><td>2</td><td>Feyenoord</td><td>44</td></tr>
-                <tr><td>3</td><td>Ajax</td><td>40</td></tr>
-                <tr><td>4</td><td>AZ</td><td>38</td></tr>
-              </tbody>
-            </table>
+            <h2>Rangschikkingen (voorbeeld)</h2>
+            <p class="section-intro">In een latere fase worden hier live rangschikkingen getoond.</p>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
           </div>
         </aside>
       </div>
@@ -179,64 +137,38 @@
       <div class="home-bottom-grid">
         <aside>
           <div class="card">
-            <h2>Extra advertentieruimte</h2>
-            <div class="ad-slot">Advertentie 300×250</div>
-            <div class="ad-slot">Advertentie 300×250</div>
-            <div class="ad-slot">Advertentie 300×250</div>
-            <p class="section-intro">
-              Ideale positie voor partners, winkels, academies en andere voetbalgerelateerde diensten.
-            </p>
+            <h2>Premium clubvacatures</h2>
+            <p class="section-intro">Betaalde vacatures worden hier extra in de kijker gezet.</p>
+            <div class="ad-slot">Voorbeeld premium vacature</div>
           </div>
         </aside>
 
         <section>
-          <div id="home-news-bottom"></div>
-
-          <section class="section">
+          <div class="card section">
             <h2>Events van dit weekend</h2>
             <p class="section-intro">
               Overzicht van voetbalactiviteiten die dit weekend plaatsvinden in Vlaanderen en Nederland.
             </p>
-            <div id="home-events-weekend"></div>
-          </section>
+            <p>In een volgende fase worden deze automatisch geladen uit events-data.</p>
+          </div>
         </section>
 
         <aside>
           <div class="card">
-            <section class="section">
-              <h2>Premium clubvacatures</h2>
-              <div id="home-premium-vacatures"></div>
-            </section>
-
-            <section class="section">
-              <h2>Premium Events</h2>
-              <div id="home-premium-events"></div>
-            </section>
-
-            <section class="section">
-              <h2>Recent aangemelde trainers</h2>
-              <div id="home-trainers-lijst"></div>
-            </section>
-
-            <section class="section">
-              <h2>Recent aangemelde spelers</h2>
-              <div id="home-spelers-lijst"></div>
-            </section>
+            <h2>Premium events</h2>
+            <p class="section-intro">Betaalde events krijgen hier extra zichtbaarheid.</p>
+            <div class="ad-slot">Voorbeeld premium event</div>
           </div>
         </aside>
       </div>
 
-      <section class="section bottom-cta">
-        <div class="card">
-          <h2>Adverteren op Voetbal4All</h2>
-          <p class="section-intro">
-            Bereik in één klik clubs, trainers, spelers, ouders en voetballiefhebbers uit Vlaanderen en Nederland.
-            Ideaal voor tornooien, voetbalstages, sportwinkels, academies en lokale partners.
-          </p>
-          <a href="contact.html" class="btn-primary" style="font-size:0.95rem;padding:0.6rem 1.3rem;">
-            Ik wil adverteren op Voetbal4All
-          </a>
-        </div>
+      <section class="card">
+        <h2>Adverteren op Voetbal<span class="four-green">4</span>All</h2>
+        <p class="section-intro">
+          Bereik in één klik clubs, trainers, spelers, ouders en voetballiefhebbers uit Vlaanderen en Nederland.
+          Ideaal voor tornooien, voetbalstages, sportwinkels, academies en lokale partners.
+        </p>
+        <a href="contact.html" class="btn-primary">Ik wil adverteren op Voetbal<span class="four-green">4</span>All</a>
       </section>
 
     </div>
@@ -252,9 +184,7 @@
     </div>
   </footer>
 </div>
-
 <script src="assets/js/news.js" defer></script>
 <script src="assets/js/forms.js" defer></script>
-<script src="assets/js/platforms.js" defer></script>
 </body>
 </html>

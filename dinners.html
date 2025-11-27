@@ -25,14 +25,6 @@
           <div class="ad-slot-top">
             Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
           </div>
-          <div class="header-social">
-            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
-              <img src="assets/img/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
-              <img src="assets/img/instagram.png" alt="Instagram" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -40,27 +32,21 @@
     <nav class="navbar">
       <div class="navbar-inner">
         <div class="nav-links">
-          <div class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </div>
-          <div class="nav-item">
-            <a href="nieuws.html" class="nav-link">Nieuws</a>
-          </div>
-          <div class="nav-item">
-            <a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a>
-          </div>
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="nieuws.html" class="nav-link">Nieuws</a></div>
+          <div class="nav-item"><a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a></div>
 
           <div class="nav-item has-dropdown">
-            <a href="vacatures.html" class="nav-link">Vacatures</a>
+            <a href="clubvacatures.html" class="nav-link">Vacatures</a>
             <div class="nav-dropdown">
-              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
               <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
               <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
             </div>
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="vriendschappelijk.html" class="nav-link">Wij organiseren</a>
+            <a href="vriendschappelijk.html" class="nav-link active">Wij organiseren</a>
             <div class="nav-dropdown">
               <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
               <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
@@ -73,8 +59,7 @@
           <div class="nav-item has-dropdown">
             <a href="uitslagen.html" class="nav-link">Sportief</a>
             <div class="nav-dropdown">
-              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
-              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="team-medewerker.html" class="nav-dropdown-link">Team/medewerker in de kijker</a>
             </div>
           </div>
 
@@ -94,115 +79,37 @@
 
     <div class="live-banner">
       <div class="live-banner-inner">
-        <span class="live-label">Live</span>
-        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
-        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
-        <span>Meer live resultaten volgen in een latere fase.</span>
+        <span>Live scores &amp; resultaten volgen in een latere fase.</span>
       </div>
     </div>
   </div>
-  
+
   <main>
     <div class="page-inner">
-      <section class="card page-cta">
-        <h2>Ik organiseer een dinner</h2>
-        <p>
-          Organiseer je een wedstrijddinner of een clubdiner? Meld het hier aan zodat supporters en genodigden zich kunnen informeren.
-        </p>
-        <a href="#form-dinner" class="btn-outline">
-          Dinner aanmelden
-        </a>
+
+      <section class="hero">
+        <h2>Dinners</h2>
+        <p>Wedstrijddiners en eetfestijnen in de kijker.</p>
       </section>
 
-      <div class="page-grid">
-        <div class="page-main">
-          <section class="card">
-            <h2>Dinners & wedstrijddiners</h2>
+      <div class="page-grid-70-30">
+        <section>
+          <div class="card">
+            <h2>Inhoud in ontwikkeling</h2>
             <p class="section-intro">
-              Overzicht van clubdiners, wedstrijddiners en andere events.
+              In een volgende fase wordt deze pagina uitgebreid met zoekfilters, formulieren en koppeling met data.
             </p>
-            <div id="dinners-overview"></div>
-          </section>
-        </div>
-
-        <aside class="page-aside">
-          <section class="form" id="form-dinner">
-            <h2>Dinner aanmelden</h2>
-            <form>
-              <div class="form-row">
-                <label for="di_club">Organiserende club of organisatie</label>
-                <input type="text" id="di_club" name="club" required>
-              </div>
-
-              <div class="form-row">
-                <label for="di_contact">Contactpersoon</label>
-                <input type="text" id="di_contact" name="contactpersoon" required>
-              </div>
-
-              <div class="form-row">
-                <label for="di_email">E-mailadres</label>
-                <input type="email" id="di_email" name="email" required>
-              </div>
-
-              <div class="form-row">
-                <label>Type dinner</label>
-                <div>
-                  <label><input type="checkbox" name="type_dinner[]" value="wedstrijddinner"> Wedstrijddinner</label><br>
-                  <label><input type="checkbox" name="type_dinner[]" value="dinner"> Dinner</label>
-                </div>
-              </div>
-
-              <div class="form-row">
-                <label for="di_tegenstander">Tegenstander (bij wedstrijddinner)</label>
-                <input type="text" id="di_tegenstander" name="tegenstander" placeholder="Bijv. Voetbalclub X - Voetbalclub Y">
-              </div>
-
-              <div class="form-row">
-                <label for="di_datum">Datum</label>
-                <input type="date" id="di_datum" name="datum" required>
-              </div>
-
-              <div class="form-row">
-                <label for="di_locatie">Locatie</label>
-                <input type="text" id="di_locatie" name="locatie" required>
-              </div>
-
-              <div class="form-row">
-                <label for="di_omschrijving">Korte omschrijving</label>
-                <textarea id="di_omschrijving" name="omschrijving"></textarea>
-              </div>
-
-              <div class="form-row">
-                <label for="di_flyer">Flyer of afbeelding (PDF of foto)</label>
-                <input type="file" id="di_flyer" name="flyer" accept="image/*,.pdf">
-                <p class="form-note">
-                  Wordt in het overzicht naast de titel getoond.
-                </p>
-              </div>
-
-              <div class="form-row">
-                <label>Premium opties</label>
-                <div>
-                  <label>
-                    <input type="checkbox" name="premium_home" value="1">
-                    Premium: zichtbaar op homepage in "Premium Events" en extra zichtbaarheid via sociale media.
-                  </label>
-                </div>
-              </div>
-
-              <button type="submit" class="btn-primary">
-                Dinner versturen
-              </button>
-            </form>
-          </section>
-
-          <section class="card" style="margin-top:1rem;">
-            <h3>Advertentieruimte</h3>
-            <div class="ad-slot">Advertentie 300×250</div>
-            <div class="ad-slot">Advertentie 300×250</div>
-          </section>
+          </div>
+        </section>
+        <aside>
+          <div class="card">
+            <h2>Advertenties</h2>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
+          </div>
         </aside>
       </div>
+    
     </div>
   </main>
 
@@ -216,9 +123,7 @@
     </div>
   </footer>
 </div>
-
 <script src="assets/js/news.js" defer></script>
 <script src="assets/js/forms.js" defer></script>
-<script src="assets/js/platforms.js" defer></script>
 </body>
 </html>
