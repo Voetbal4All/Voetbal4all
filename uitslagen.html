@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
- <div class="site-shell">
+<div class="site-shell">
   <div class="top-strip">
     <div class="top-strip-inner">
       <div class="top-strip-row">
@@ -25,14 +25,6 @@
           <div class="ad-slot-top">
             Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
           </div>
-          <div class="header-social">
-            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
-              <img src="assets/img/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
-              <img src="assets/img/instagram.png" alt="Instagram" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -40,20 +32,14 @@
     <nav class="navbar">
       <div class="navbar-inner">
         <div class="nav-links">
-          <div class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </div>
-          <div class="nav-item">
-            <a href="nieuws.html" class="nav-link">Nieuws</a>
-          </div>
-          <div class="nav-item">
-            <a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a>
-          </div>
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="nieuws.html" class="nav-link">Nieuws</a></div>
+          <div class="nav-item"><a href="uitslagen.html" class="nav-link active">Resultaten &amp; ranking</a></div>
 
           <div class="nav-item has-dropdown">
-            <a href="vacatures.html" class="nav-link">Vacatures</a>
+            <a href="clubvacatures.html" class="nav-link">Vacatures</a>
             <div class="nav-dropdown">
-              <a href="vacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
               <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
               <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
             </div>
@@ -71,10 +57,9 @@
           </div>
 
           <div class="nav-item has-dropdown">
-            <a href="uitslagen.html" class="nav-link">Sportief</a>
+            <a href="uitslagen.html" class="nav-link active">Sportief</a>
             <div class="nav-dropdown">
-              <a href="teamstatistieken.html" class="nav-dropdown-link">Teamstatistieken</a>
-              <a href="spelersstatistieken.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="team-medewerker.html" class="nav-dropdown-link">Team/medewerker in de kijker</a>
             </div>
           </div>
 
@@ -94,41 +79,45 @@
 
     <div class="live-banner">
       <div class="live-banner-inner">
-        <span class="live-label">Live</span>
-        <span>JPL: Club Brugge 2 - 1 KRC Genk (FT)</span>
-        <span>Eredivisie: PSV 3 - 0 Ajax (20')</span>
-        <span>Meer live resultaten volgen in een latere fase.</span>
+        <span>Live scores &amp; resultaten volgen in een latere fase.</span>
       </div>
     </div>
   </div>
 
   <main>
     <div class="page-inner">
-<section class="card">
-  <h2>Resultaten &amp; ranking</h2>
-  <p class="section-intro">
-    Zoek resultaten en rangschikkingen per land, competitie, ploeg en speeldag.
-  </p>
-  <form id="uitslagen-filter-form" class="form" style="margin-bottom:1rem;">
-    <div class="form-row">
-      <label for="res_land">Land</label>
-      <select id="res_land" name="land">
-        <option value="">Kies land</option>
-        <option>Vlaanderen</option>
-        <option>Nederland</option>
-      </select>
-    </div>
-    <div class="form-row">
-      <label for="res_team">Team</label>
-      <input type="text" id="res_team" name="team" placeholder="Clubnaam">
-    </div>
-    <div class="form-row">
-      <label for="res_datum">Datum / speeldag</label>
-      <input type="date" id="res_datum" name="datum">
-    </div>
-  </form>
-  <div id="uitslagen-overview"></div>
-</section>
+
+      <section class="hero">
+        <h2>Resultaten &amp; ranking</h2>
+        <p>
+          In een volgende fase kunnen bezoekers hier resultaten en rangschikkingen zoeken per land, competitie,
+          reeks, team en speeldag.
+        </p>
+      </section>
+
+      <div class="page-grid-70-30">
+        <section>
+          <div class="card">
+            <h2>Zoek resultaten</h2>
+            <p class="section-intro">Zoekfunctie wordt later gekoppeld aan gratis databronnen.</p>
+            <div class="form-row">
+              <label>Land</label>
+              <select><option>Vlaanderen</option><option>Nederland</option></select>
+            </div>
+            <div class="form-row">
+              <label>Team</label>
+              <input type="text" placeholder="Naam van de club">
+            </div>
+          </div>
+        </section>
+        <aside>
+          <div class="card">
+            <h2>Advertenties</h2>
+            <div class="ad-slot">Advertentieruimte 300×250</div>
+          </div>
+        </aside>
+      </div>
+
     </div>
   </main>
 
@@ -142,9 +131,7 @@
     </div>
   </footer>
 </div>
-
 <script src="assets/js/news.js" defer></script>
 <script src="assets/js/forms.js" defer></script>
-<script src="assets/js/platforms.js" defer></script>
 </body>
 </html>
