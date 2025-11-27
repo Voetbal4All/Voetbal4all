@@ -1,6 +1,4 @@
-/* ---------------------------------------------------------
-   ROOT VARIABELEN
---------------------------------------------------------- */
+
 :root {
   --green-main: rgb(80, 150, 95);
   --green-light: rgb(120, 190, 135);
@@ -15,14 +13,9 @@
   --nav-height: 56px;
 }
 
-/* ---------------------------------------------------------
-   RESET
---------------------------------------------------------- */
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
-}
+*::after { box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -31,22 +24,14 @@ body {
   background: #ffffff;
 }
 
-.four-green {
-  color: var(--green-main) !important;
-}
+.four-green { color: var(--green-main); font-weight: 700; }
 
-/* ---------------------------------------------------------
-   SITE STRUCTUUR
---------------------------------------------------------- */
 .site-shell {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* ---------------------------------------------------------
-   HEADER
---------------------------------------------------------- */
 .top-strip {
   position: sticky;
   top: 0;
@@ -91,8 +76,8 @@ body {
 .header-right {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
   justify-content: flex-end;
+  gap: 0.75rem;
 }
 
 .ad-slot-top {
@@ -104,21 +89,8 @@ body {
   color: var(--text-muted);
 }
 
-.header-social {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
+/* NAVBAR */
 
-.header-social img {
-  height: 20px;
-  width: 20px;
-  object-fit: contain;
-}
-
-/* ---------------------------------------------------------
-   NAVIGATIE
---------------------------------------------------------- */
 .navbar {
   height: var(--nav-height);
   background: var(--green-main);
@@ -140,6 +112,8 @@ body {
   flex-wrap: wrap;
 }
 
+.nav-item { position: relative; }
+
 .nav-link {
   text-decoration: none;
   font-size: 0.85rem;
@@ -148,23 +122,17 @@ body {
   color: #ffffff;
 }
 
-.nav-link:hover {
-  background: var(--green-light);
-}
+.nav-link:hover { background: var(--green-light); }
 
 .nav-link.active {
   background: var(--blue-banner);
   font-weight: 600;
 }
 
-.nav-item {
-  position: relative;
-}
-
 .nav-item.has-dropdown > .nav-link::after {
   content: "▾";
-  margin-left: 0.25rem;
   font-size: 0.7rem;
+  margin-left: 0.25rem;
 }
 
 .nav-dropdown {
@@ -182,59 +150,33 @@ body {
 
 .nav-dropdown-link {
   display: block;
-  padding: 0.4rem 0.8rem;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.8rem;
   color: var(--green-main);
-  background: #ffffff;
   text-decoration: none;
-  font-size: 0.8rem; /* kleiner, verfijnder */
 }
 
 .nav-dropdown-link:hover {
   background: rgba(19, 80, 27, 0.08);
 }
 
-/* Dropdown zichtbaar op hover */
-.nav-item.has-dropdown:hover .nav-dropdown {
-  display: block;
-}
+.nav-item.has-dropdown:hover .nav-dropdown { display: block; }
 
-/* CTA in nav */
 .nav-cta {
   margin-left: auto;
 }
 
-.btn-secondary {
+.nav-cta .btn-secondary {
   background: #ffffff;
   color: var(--green-main);
   border-radius: 999px;
-  border: 2px solid var(--green-main);
   padding: 0.4rem 0.9rem;
   font-size: 0.8rem;
+  border: 1px solid var(--green-main);
 }
 
-.btn-secondary:hover {
-  background: var(--green-light);
-  color: #ffffff;
-}
+/* LIVE BANNER */
 
-/* MOBIEL MENU */
-@media (max-width: 640px) {
-  .navbar-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-dropdown {
-    position: static;
-    background: #ffffff;
-    box-shadow: none;
-    border: 1px solid rgba(0,0,0,0.1);
-  }
-}
-
-/* ---------------------------------------------------------
-   LIVE BANNER
---------------------------------------------------------- */
 .live-banner {
   background: var(--blue-banner);
   color: #ffffff;
@@ -250,9 +192,8 @@ body {
   overflow-x: auto;
 }
 
-/* ---------------------------------------------------------
-   MAIN STRUCTUUR
---------------------------------------------------------- */
+/* MAIN / HERO / GRID */
+
 main {
   flex: 1;
   background: var(--bg-light);
@@ -264,37 +205,31 @@ main {
   padding: 0 1rem;
 }
 
-/* ---------------------------------------------------------
-   HERO
---------------------------------------------------------- */
 .hero {
   background: #ffffff;
   border-radius: var(--card-radius);
   box-shadow: var(--shadow-soft);
   padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
-.hero-title h2 {
-  text-align: center;
-  margin: 0;
-}
+.hero h2 { margin: 0; }
 
-.hero-text {
-  text-align: center;
+.hero p {
+  margin: 0.6rem auto 0;
   max-width: 40rem;
-  margin: 0.7rem auto 1rem;
   color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
-/* 2 kolommen CTA (linker = groene knoppen, rechter = outline knoppen) */
 .hero-cta-grid {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
+  gap: 0.75rem;
+  max-width: 460px;
+  margin: 1rem auto 0;
 }
-
 .hero-cta-col {
   display: flex;
   flex-direction: column;
@@ -302,42 +237,35 @@ main {
 }
 
 @media (max-width: 640px) {
-  .hero-cta-grid {
-    grid-template-columns: 1fr;
-  }
+  .hero-cta-grid { grid-template-columns: 1fr; }
 }
 
-/* ---------------------------------------------------------
-   KNOPPEN
---------------------------------------------------------- */
-.btn-primary {
-  background: var(--green-main);
-  color: #ffffff;
+/* Buttons */
+
+.btn-primary,
+.btn-outline {
   border-radius: 999px;
   padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
+  font-size: 0.85rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
-.btn-primary:hover {
-  background: var(--green-light);
+.btn-primary {
+  background: var(--green-main);
+  color: #ffffff;
 }
+
+.btn-primary:hover { background: var(--green-light); }
 
 .btn-outline {
   background: #ffffff;
   color: var(--green-main);
-  border: 2px solid var(--green-main);
-  border-radius: 999px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  border-color: var(--green-main);
 }
 
 .btn-outline:hover {
@@ -345,111 +273,51 @@ main {
   color: #ffffff;
 }
 
-/* ---------------------------------------------------------
-   HOME GRIDS (homepage)
---------------------------------------------------------- */
-.home-top-grid {
-  display: grid;
-  grid-template-columns: minmax(0,1.1fr) minmax(0,2.1fr) minmax(0,1.3fr);
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
+/* Home grids (simplified) */
 
+.home-top-grid,
 .home-bottom-grid {
   display: grid;
-  grid-template-columns: minmax(0,1.2fr) minmax(0,2.8fr) minmax(0,1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* ---------------------------------------------------------
-   GENERIEKE 70/30 LAYOUT (andere pagina's)
---------------------------------------------------------- */
-.page-grid-70-30 {
-  display: grid;
-  grid-template-columns: minmax(0, 2.5fr) minmax(0, 1.2fr);
-  gap: 1rem;
-}
-
-@media (max-width: 960px) {
-  .page-grid-70-30 {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ---------------------------------------------------------
-   CARDS & SECTIES
---------------------------------------------------------- */
 .card {
   background: #ffffff;
   border-radius: var(--card-radius);
   box-shadow: var(--shadow-soft);
-  padding: 1rem 1.1rem;
-}
-
-.section {
-  margin-bottom: 1.5rem;
+  padding: 1rem;
 }
 
 .section h2 {
+  margin-top: 0;
   font-size: 1.05rem;
-  margin: 0 0 0.2rem 0;
 }
 
 .section-intro {
   font-size: 0.85rem;
   color: var(--text-muted);
-  margin: 0 0 0.8rem 0;
 }
 
-/* Vlag-iconen bij titels (nieuws, vacatures, events, ...) */
+/* 70/30 layout for inner pages */
 
-.item-header-with-flag {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
+.page-grid-70-30 {
+  display: grid;
+  grid-template-columns: minmax(0, 2.6fr) minmax(0, 1.4fr);
+  gap: 1rem;
 }
 
-.item-header-with-flag .flag-icon {
-  width: 18px;
-  height: 12px;
-  object-fit: cover;
-  border-radius: 2px;
-  flex-shrink: 0;
-}/* ---------------------------------------------------------
-   ADVERTENTIES
---------------------------------------------------------- */
-.ad-slot {
-  border-radius: 10px;
-  border: 1px dashed var(--green-main);
-  padding: 0.8rem;
-  font-size: 0.8rem;
-  text-align: center;
-  margin-bottom: 0.6rem;
-  background: #f9fafb;
-  color: var(--text-muted);
+@media (max-width: 960px) {
+  .home-top-grid,
+  .home-bottom-grid,
+  .page-grid-70-30 {
+    grid-template-columns: minmax(0,1fr);
+  }
 }
 
-/* ---------------------------------------------------------
-   RANGSCHIKKINGEN
---------------------------------------------------------- */
-.ranking-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.78rem;
-  margin-top: 0.4rem;
-}
+/* Forms */
 
-.ranking-table th,
-.ranking-table td {
-  border-bottom: 1px solid #e5e7eb;
-  padding: 0.25rem 0.3rem;
-  text-align: left;
-}
-
-/* ---------------------------------------------------------
-   FORMULIEREN
---------------------------------------------------------- */
 .form {
   background: #ffffff;
   padding: 1rem;
@@ -460,73 +328,61 @@ main {
 .form-row {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.6rem;
 }
 
 .form-row label {
+  font-size: 0.8rem;
   font-weight: 500;
-  font-size: 0.85rem;
 }
 
 .form-row input,
 .form-row select,
 .form-row textarea {
-  padding: 0.45rem;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.45rem;
   border-radius: 8px;
   border: 1px solid #d1d5db;
-  font-size: 0.85rem;
 }
 
-.form-row textarea {
-  min-height: 90px;
-}
+.form-row textarea { min-height: 90px; }
 
 .form-note {
   font-size: 0.75rem;
   color: var(--text-muted);
 }
 
-/* ---------------------------------------------------------
-   NIEUWS
---------------------------------------------------------- */
+/* News */
+
 .news-card {
   background: #ffffff;
-  padding: 0.9rem;
   border-radius: 12px;
   border: 1px solid #e5e7eb;
+  padding: 0.8rem;
   margin-bottom: 0.8rem;
 }
 
 .news-card h3 {
   margin: 0 0 0.25rem 0;
+  font-size: 0.95rem;
 }
 
-/* ---------------------------------------------------------
-   BOTTOM CTA / SOCIAL
---------------------------------------------------------- */
-.bottom-cta .card {
-  background: var(--green-main);
-  color: #ffffff;
-  text-align: center;
+.news-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
 }
 
-.bottom-cta .card .section-intro {
-  color: #e5e7eb;
+.news-card-thumb {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.45rem;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
-.bottom-cta .card .btn-primary {
-  background: #ffffff;
-  color: var(--green-main);
-  border-radius: 999px;
-}
+/* Footer */
 
-.bottom-cta .card .btn-primary:hover {
-  background: #f3f4f6;
-}
-
-/* ---------------------------------------------------------
-   FOOTER
---------------------------------------------------------- */
 footer {
   background: #ffffff;
   border-top: 1px solid var(--green-main);
@@ -541,35 +397,11 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 0.6rem;
   align-items: center;
-}
-
-.footer-left {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .footer-logo {
   height: 26px;
   width: auto;
-  object-fit: contain;
-}
-
-/* ---------------------------------------------------------
-   RESPONSIEF
---------------------------------------------------------- */
-@media (max-width: 960px) {
-  .home-top-grid,
-  .home-bottom-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .top-strip-row {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .header-right {
-    justify-content: flex-start;
-  }
 }
