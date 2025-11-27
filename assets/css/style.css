@@ -229,8 +229,8 @@ main {
 .hero h2 { margin: 0; }
 
 .hero p {
-  margin: 0.6rem auto 0;
-  max-width: 40rem;
+  margin: 0.6rem auto 1rem;
+  max-width: none;          /* geen beperking meer */
   color: var(--text-muted);
   font-size: 0.9rem;
 }
@@ -241,6 +241,13 @@ main {
   gap: 0.75rem;
   max-width: 460px;
   margin: 1rem auto 0;
+}
+.hero-cta-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
 }
 .hero-cta-col {
   display: flex;
