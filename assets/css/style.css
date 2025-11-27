@@ -387,10 +387,10 @@ main {
 
 .news-card-thumb {
   width: 100%;
+  max-height: 140px;   /* kleiner maken */
   border-radius: 10px;
   margin-bottom: 0.45rem;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: cover;   /* bijsnijden i.p.v. vervormen */
 }
 
 /* Footer */
