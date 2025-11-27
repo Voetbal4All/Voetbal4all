@@ -80,6 +80,18 @@ body {
   gap: 0.75rem;
 }
 
+.header-social {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.header-social img {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
 .ad-slot-top {
   border-radius: 20px;
   border: 1px dashed var(--border-soft);
