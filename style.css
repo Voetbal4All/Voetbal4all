@@ -421,6 +421,22 @@ img {
   font-size: 13px;
 }
 
+.live-banner-top {
+  margin-top: 8px;
+}
+
+.live-banner {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(0,255,157,0.4);
+  background: radial-gradient(circle at left, rgba(0,255,157,0.18), transparent 55%), rgba(2,12,6,0.92);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
 .live-label {
   display: inline-flex;
   align-items: center;
