@@ -4,528 +4,10 @@
   <meta charset="UTF-8" />
   <title>Tornooien - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-
-  <style>
-    :root {
-      --bg: #050814;
-      --bg-soft: #0b1022;
-      --bg-softer: #10162a;
-      --accent: #18a0fb;
-      --accent-soft: rgba(24, 160, 251, 0.2);
-      --text: #f4f6fc;
-      --muted: #9aa3c1;
-      --border-subtle: rgba(255, 255, 255, 0.06);
-      --radius-lg: 18px;
-      --shadow-subtle: 0 8px 24px rgba(0, 0, 0, 0.45);
-      --max-width: 1200px;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top left, #18213d 0, #050814 45%, #020308 100%);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
-    }
-
-    a { color: inherit; text-decoration: none; }
-
-    .page {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .shell {
-      width: 100%;
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    /* NAVBAR */
-
-    .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      backdrop-filter: blur(16px);
-      background: linear-gradient(to bottom, rgba(5, 8, 20, 0.93), rgba(5, 8, 20, 0.85), transparent);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-    }
-
-    .navbar-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 64px;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .brand-mark {
-      width: 34px;
-      height: 34px;
-      border-radius: 12px;
-      background: radial-gradient(circle at 30% 10%, #ffffff 0, #ffd86f 18%, #ff3366 50%, #050814 100%);
-      box-shadow: 0 0 18px rgba(255, 255, 255, 0.18);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 18px;
-    }
-
-    .brand-text-main {
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      font-size: 18px;
-    }
-
-    .brand-text-sub {
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      font-size: 14px;
-    }
-
-    .nav-link {
-      color: var(--muted);
-      font-weight: 500;
-      padding-bottom: 2px;
-      border-bottom: 2px solid transparent;
-      transition: color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
-    }
-
-    .nav-link:hover {
-      color: var(--text);
-      border-color: var(--accent);
-      transform: translateY(-1px);
-    }
-
-    /* Events blijft de actieve sectie, ook op subpagina's */
-    .nav-link.events-active {
-      color: var(--text);
-      border-color: var(--accent);
-    }
-
-    .nav-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 7px 14px;
-      border-radius: 999px;
-      background: linear-gradient(135deg, #18a0fb, #00d4ff);
-      color: #020308;
-      font-size: 13px;
-      font-weight: 600;
-      box-shadow: 0 12px 26px rgba(0, 212, 255, 0.45);
-      border: 1px solid rgba(255, 255, 255, 0.16);
-    }
-
-    .nav-cta span:last-child {
-      font-size: 11px;
-      opacity: 0.85;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .nav-burger {
-      display: none;
-      background: none;
-      border: none;
-      color: var(--text);
-      font-size: 22px;
-    }
-
-    /* HERO */
-
-    .page-hero {
-      padding: 22px 0 18px;
-    }
-
-    .page-hero-header {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: flex-end;
-    }
-
-    .page-hero-main {
-      max-width: 520px;
-    }
-
-    .page-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .page-title {
-      font-size: 24px;
-      font-weight: 600;
-      margin-bottom: 6px;
-    }
-
-    .page-sub {
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .page-filters {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      font-size: 12px;
-      justify-content: flex-end;
-    }
-
-    .chip {
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      background: rgba(2, 3, 8, 0.7);
-      color: var(--muted);
-    }
-
-    .chip-primary {
-      background: var(--accent-soft);
-      border-color: var(--accent);
-      color: var(--text);
-    }
-
-    /* MAIN LAYOUT */
-
-    .section-main {
-      padding-bottom: 40px;
-    }
-
-    .ad-horizontal {
-      border-radius: var(--radius-lg);
-      border: 1px dashed rgba(255, 255, 255, 0.2);
-      padding: 10px;
-      font-size: 11px;
-      color: var(--muted);
-      background: rgba(2, 3, 8, 0.8);
-      text-align: center;
-      margin-bottom: 16px;
-    }
-
-    .ad-size {
-      font-size: 10px;
-      display: block;
-      margin-top: 3px;
-      opacity: 0.8;
-    }
-
-    .grid-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.4fr);
-      gap: 18px;
-      align-items: flex-start;
-    }
-
-    .card {
-      border-radius: var(--radius-lg);
-      background: var(--bg-soft);
-      border: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-subtle);
-      padding: 14px;
-      font-size: 13px;
-    }
-
-    .card-header {
-      display: flex;
-      justify-content: space-between;
-      gap: 8px;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-
-    .card-title {
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .card-caption {
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .pill-small {
-      font-size: 10px;
-      padding: 4px 8px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      color: var(--muted);
-    }
-
-    /* EVENT LIJSTEN */
-
-    .events-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 8px;
-    }
-
-    .event-item {
-      border-radius: 14px;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      background: rgba(5, 8, 20, 0.9);
-      padding: 9px 10px;
-      display: grid;
-      gap: 3px;
-    }
-
-    .event-title {
-      font-size: 13px;
-      font-weight: 600;
-    }
-
-    .event-meta {
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    .event-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-      margin-top: 4px;
-      font-size: 10px;
-    }
-
-    .event-tag {
-      padding: 2px 6px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      color: var(--muted);
-    }
-
-    .event-link {
-      font-size: 11px;
-      color: var(--accent);
-      margin-top: 3px;
-    }
-
-    /* WEEKENDLIST */
-
-    .weekend-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 6px;
-      font-size: 12px;
-    }
-
-    .weekend-item {
-      display: flex;
-      justify-content: space-between;
-      gap: 8px;
-      border-radius: 999px;
-      background: rgba(2, 3, 8, 0.85);
-      padding: 5px 8px;
-    }
-
-    .weekend-item span:last-child {
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    /* KNOPPEN */
-
-    .btn-primary {
-      padding: 8px 13px;
-      border-radius: 999px;
-      border: 0;
-      font-size: 13px;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      cursor: pointer;
-      background: linear-gradient(135deg, #18a0fb, #00d4ff);
-      color: #020308;
-      box-shadow: 0 12px 26px rgba(0, 212, 255, 0.45);
-      margin-top: 8px;
-    }
-
-    .btn-secondary {
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      font-size: 12px;
-      font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      cursor: pointer;
-      background: rgba(2, 3, 8, 0.7);
-      color: var(--muted);
-      margin-top: 6px;
-    }
-
-    .note {
-      font-size: 11px;
-      color: var(--muted);
-      margin-top: 8px;
-    }
-
-    /* === BEGIN EXTRA AD STYLES (EVENTS SUBPAGES) === */
-
-    .ad-vertical {
-      border-radius: 14px;
-      border: 1px dashed rgba(255, 255, 255, 0.25);
-      padding: 12px 10px;
-      font-size: 11px;
-      color: var(--muted);
-      background: rgba(2, 3, 8, 0.9);
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .ad-vertical span {
-      display: block;
-      margin-top: 3px;
-      opacity: 0.85;
-      font-size: 10px;
-    }
-
-    @media (min-width: 900px) {
-      .ad-vertical--sticky {
-        position: sticky;
-        top: 88px;
-      }
-    }
-
-    .ad-infeed {
-      border-radius: 14px;
-      border: 1px dashed rgba(255, 255, 255, 0.25);
-      padding: 10px;
-      font-size: 11px;
-      color: var(--muted);
-      background: rgba(2, 3, 8, 0.9);
-      text-align: center;
-      margin-top: 12px;
-    }
-
-    .ad-infeed span {
-      display: block;
-      margin-top: 3px;
-      opacity: 0.85;
-      font-size: 10px;
-    }
-
-    /* === END EXTRA AD STYLES (EVENTS SUBPAGES) === */
-
-    /* FOOTER */
-
-    .footer {
-      margin-top: auto;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
-      padding: 18px 0 20px;
-      position: sticky;
-      bottom: 0;
-      z-index: 20;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
-      gap: 16px;
-      align-items: center;
-    }
-
-    .footer-brand {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .footer-legal {
-      font-size: 11px;
-      opacity: 0.85;
-    }
-
-    .footer-social {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 6px;
-    }
-
-    .footer-social-link {
-      font-size: 11px;
-      padding: 4px 8px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      color: var(--muted);
-    }
-
-    .footer-social-link:hover {
-      border-color: var(--accent);
-      color: var(--text);
-    }
-
-    .footer-ad {
-      border-radius: var(--radius-lg);
-      border: 1px dashed rgba(255, 255, 255, 0.2);
-      padding: 10px;
-      text-align: center;
-    }
-
-    @media (max-width: 900px) {
-      .navbar-inner { height: 58px; }
-      .nav-links { display: none; }
-      .nav-burger { display: block; }
-
-      .grid-layout {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .footer-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-    }
-
-    @media (max-width: 720px) {
-      .page-hero-header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .weekend-item {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-  </style>
+  <!-- Hoofd-stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div class="page">
@@ -545,7 +27,7 @@
         <nav class="nav-links">
           <a href="index.html" class="nav-link">Home</a>
           <a href="artikels.html" class="nav-link">Artikels</a>
-          <a href="events.html" class="nav-link events-active">Events</a>
+          <a href="events.html" class="nav-link">Events</a>
           <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
           <a href="trainers.html" class="nav-link">Trainers</a>
           <a href="spelers.html" class="nav-link">Spelers</a>
@@ -563,189 +45,285 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <main>
-    <section class="page-hero">
+
+    <!-- PAGINA-INTRO / HERO -->
+    <section class="section-main">
       <div class="shell">
-        <div class="page-hero-header">
-          <div class="page-hero-main">
-            <div class="page-label">Events · tornooien</div>
-            <h1 class="page-title">Jeugd- en seniortornooien op één overzichtelijke pagina.</h1>
-            <p class="page-sub">
-              Hier komen alle tornooien te staan: jeugdtornooien, seniors, één- of meerdaagse tornooien,
-              indoor of outdoor. Premium tornooien bovenaan, andere tornooien netjes gestructureerd eronder.
-            </p>
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Tornooien</div>
+              <div class="card-title">Jeugd- en seniortornooien in België, Nederland &amp; internationaal.</div>
+            </div>
+            <span class="pill-small">Eendags · meerdaags · indoor · outdoor</span>
           </div>
-          <div class="page-filters">
-            <span class="chip chip-primary">Alle tornooien</span>
-            <span class="chip">Jeugd</span>
-            <span class="chip">Seniors</span>
-            <span class="chip">Eéndaags</span>
-            <span class="chip">Meerdaags</span>
+          <p class="note">
+            Op deze pagina komen alle tornooien die clubs aanmelden: jeugdtornooien, seniorentornooien,
+            indoor- en zomertornooien. Elke entry toont een flyer of visual met landvlag. Ideaal om
+            je kalender te vullen of je eigen tornooi zichtbaar te maken.
+          </p>
+
+          <div class="hero-actions" style="margin-top: 8px;">
+            <a href="events.html" class="btn-secondary">Terug naar alle events</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ZOEKFUNCTIE TORNOOIEN -->
+    <section class="section-main">
+      <div class="shell">
+        <div class="search-bar search-bar--advanced">
+          <input
+            type="text"
+            id="tornooi-search"
+            class="search-input"
+            placeholder="Zoek op trefwoord (bv. U11, paastornooi, indoor, ladies...)"
+          />
+          <div class="search-filters-row">
+            <select id="tornooi-country" class="search-select">
+              <option value="">Alle landen</option>
+              <option value="BE">België</option>
+              <option value="NL">Nederland</option>
+              <option value="INT">Internationaal</option>
+            </select>
+            <input
+              type="text"
+              id="tornooi-region"
+              class="search-input search-input--small"
+              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
+            />
+            <select id="tornooi-type" class="search-select">
+              <option value="">Alle types</option>
+              <option value="jeugd">Jeugdtornooi</option>
+              <option value="seniors">Seniortornooi</option>
+              <option value="meerdaags">Meerdaags / weekend</option>
+              <option value="advertorial">Partner / advertorial</option>
+            </select>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- MAIN -->
+    <!-- TORNOOIEN + ADVERTENTIES -->
     <section class="section-main">
       <div class="shell">
 
-        <!-- TOP AD -->
-        <div class="ad-horizontal">
-          ADVERTENTIEZONE · TORNOOIENPAGINA (TOP)
-          <span class="ad-size">Ideaal voor grote tornooien of merken met focus op jeugd/seniors.</span>
+        <!-- Top advertentiebanner -->
+        <div class="ad-horizontal" style="margin-bottom: 14px;">
+          ADVERTENTIEZONE · TORNOOIEN (TOP)
+          <span class="ad-size">
+            Ideaal voor drukwerkpartners, medaille- &amp; bekerleveranciers, catering of logistieke partners.
+          </span>
         </div>
 
-        <div class="grid-layout">
+        <!-- Layout: tornooien links, advertenties rechts -->
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
 
-          <!-- LINKS: content + ads -->
-          <section>
-            <!-- Premium tornooien -->
+          <!-- LINKERKOLOM: TORNOOIEN -->
+          <section class="column-middle">
+            <div class="article-list">
+
+              <!-- Tornooi 1 - België - jeugd - eendags -->
+              <article class="article-item"
+                       data-title="Jeugdtornooi U8 U9 België Kempen eendags paastornooi">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer jeugdtornooi
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Jeugdtornooi · U8–U9</div>
+                    <h2 class="article-title">
+                      <a href="#">Paastornooi U8–U9 · regio Kempen</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Compact eendagstornooi met poules en finaleronde. Ideaal als seizoensafsluiter
+                      voor onderbouwteams, met randanimatie en catering.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Tornooi 2 - België - jeugd - meerdaags -->
+              <article class="article-item"
+                       data-title="Zomertornooi U10 U11 België Limburg tweedaags">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer zomertornooi
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Jeugdtornooi · meerdaags</div>
+                    <h2 class="article-title">
+                      <a href="#">Zomertornooi U10–U11 · tweedaags tornooi</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Twee speeldagen met ploegen uit verschillende provincies, met mogelijkheid tot
+                      overnachting in de buurt en avondactiviteiten.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Tornooi 3 - Nederland - seniors -->
+              <article class="article-item"
+                       data-title="Seniortornooi voorbereiding Nederland Randstad eerste elftal">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Foto seniortornooi
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Seniortornooi</div>
+                    <h2 class="article-title">
+                      <a href="#">Voorbereidingstornooi eerste elftallen · Randstad</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Vierploegentornooi voor eerste elftallen op 2e/3e klasse niveau. Perfect
+                      als voorbereiding op de competitiestart.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Tornooi 4 - Nederland - jeugd - indoor -->
+              <article class="article-item"
+                       data-title="Indoor wintertornooi U12 Nederland zaalvoetbal wintersessie">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer indoor tornooi
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Jeugdtornooi · indoor</div>
+                    <h2 class="article-title">
+                      <a href="#">Indoor wintertornooi U12 · zaalvoetbal</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Korte wedstrijden in zaalformaat met vaste speeltijd. Ideaal
+                      als winterprikkel voor teams die graag blijven spelen tijdens de break.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Tornooi 5 - internationaal - meerdaags -->
+              <article class="article-item"
+                       data-title="Internationaal jeugdtornooi U13 U15 meerdaags internationaal">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Foto internationaal tornooi
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🌍</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Internationaal · meerdaags</div>
+                    <h2 class="article-title">
+                      <a href="#">Internationaal jeugdtornooi U13–U15 · weekend met overnachting</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Uitnodigingstornooi met ploegen uit verschillende landen. Inclusief
+                      overnachting, gezamenlijke teambuilding en afsluitende ceremonie.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Advertorial / partner rond tornooien -->
+              <article class="article-item"
+                       data-title="Advertorial partner medailles bekers drukwerk sponsorborden">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer partner
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🌍</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Advertorial · partner</div>
+                    <h2 class="article-title">
+                      <a href="#">Partner voor bekers, medailles &amp; sponsorborden</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Leverancier die bekers, medailles, beachflags en sponsorborden op maat maakt
+                      voor tornooien. Duidelijk als partnercontent aangeduid.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </section>
+
+          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
+          <aside class="column-right">
             <article class="card">
               <div class="card-header">
                 <div>
-                  <div class="card-caption">Betalend</div>
-                  <div class="card-title">Premium tornooien</div>
+                  <div class="card-caption">Advertenties</div>
+                  <div class="card-title">Partners rond tornooien</div>
                 </div>
-                <span class="pill-small">Extra zichtbaarheid</span>
+                <span class="pill-small">Betaalde zichtbaarheid</span>
               </div>
 
               <ul class="events-list">
                 <li class="event-item">
-                  <div class="event-title">Zomertornooi U8–U11 · Regio Kempen</div>
-                  <div class="event-meta">
-                    15–16 augustus · twee dagen · min. 4 wedstrijden per ploeg · catering &amp; randanimatie.
+                  <div class="event-media-row">
+                    <div class="event-thumb">Flyer / logo</div>
+                    <span class="flag-badge">🇧🇪</span>
                   </div>
-                  <div class="event-tags">
-                    <span class="event-tag">Jeugd</span>
-                    <span class="event-tag">Weekendtornooi</span>
-                    <span class="event-tag">Premium</span>
-                  </div>
-                  <a href="#" class="event-link">Meer info &amp; inschrijven</a>
+                  <div class="event-title">Drukwerk &amp; affiches</div>
+                  <div class="event-meta">Affiches, flyers en programmaboekjes voor jouw tornooi.</div>
                 </li>
-
                 <li class="event-item">
-                  <div class="event-title">Paastornooi U12–U13 · Provinciaal niveau</div>
-                  <div class="event-meta">
-                    Paasvakantie · één speeldag · max. 16 ploegen · scheidsrechters voorzien.
+                  <div class="event-media-row">
+                    <div class="event-thumb">Flyer / logo</div>
+                    <span class="flag-badge">🇳🇱</span>
                   </div>
-                  <div class="event-tags">
-                    <span class="event-tag">Jeugd</span>
-                    <span class="event-tag">Eéndaags</span>
-                    <span class="event-tag">Premium</span>
+                  <div class="event-title">Online inschrijving &amp; betaling</div>
+                  <div class="event-meta">Laat ploegen online inschrijven en direct betalen.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Flyer / logo</div>
+                    <span class="flag-badge">🌍</span>
                   </div>
-                  <a href="#" class="event-link">Bekijk tornooifolder</a>
+                  <div class="event-title">Logistieke partner tornooien</div>
+                  <div class="event-meta">Tenten, tribunes, koelwagens en randanimatie voor grote events.</div>
                 </li>
               </ul>
-
-              <p class="note">
-                Premium tornooien verschijnen ook op de algemene eventspagina en kunnen op de homepage in de kijker
-                gezet worden.
-              </p>
-
-              <button class="btn-primary">Premium tornooi aanmelden</button>
             </article>
 
-            <!-- IN-FEED AD -->
-            <div class="ad-infeed">
-              IN-FEED ADVERTENTIE · TUSSEN PREMIUM EN OVERIGE TORNOOIEN
-              <span>Geschikt voor Google AdSense in-feed of een gesponsord tornooi.</span>
+            <div class="ad-vertical" style="margin-top: 14px;">
+              <div class="ad-label">ADVERTENTIE · TORNOOIEN ZIJKOLom</div>
+              <div class="ad-placeholder">
+                Extra advertentieruimte voor partners die zich aan tornooien willen koppelen.<br/>
+                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+              </div>
             </div>
-
-            <!-- Andere tornooien -->
-            <article class="card" style="margin-top: 14px;">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Gratis</div>
-                  <div class="card-title">Andere tornooien</div>
-                </div>
-                <span class="pill-small">Basiszichtbaarheid</span>
-              </div>
-
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-title">Jeugddag U6–U9 · Lente­tornado</div>
-                  <div class="event-meta">
-                    Zondag · speeldag met wedstrijdjes in toernooivorm · ideaal voor onderbouw.
-                  </div>
-                  <div class="event-tags">
-                    <span class="event-tag">Jeugd</span>
-                    <span class="event-tag">Eéndaags</span>
-                  </div>
-                  <a href="#" class="event-link">Meer info bij organiserende club</a>
-                </li>
-
-                <li class="event-item">
-                  <div class="event-title">Seniorentornooi voorbereiding seizoen</div>
-                  <div class="event-meta">
-                    Weekend vóór competitiestart · 4 ploegen · 2 matchen per ploeg.
-                  </div>
-                  <div class="event-tags">
-                    <span class="event-tag">Seniors</span>
-                    <span class="event-tag">Voorbereiding</span>
-                  </div>
-                  <a href="#" class="event-link">Wedstrijden &amp; programma bekijken</a>
-                </li>
-              </ul>
-
-              <p class="note">
-                Gratis tornooien krijgen een duidelijke plaats in dit overzicht. Clubs kunnen links toevoegen naar
-                hun eigen website, inschrijvingsformulier of tornooifolder.
-              </p>
-
-              <button class="btn-secondary">Gratis tornooi aanmelden</button>
-            </article>
-          </section>
-
-          <!-- RECHTS: sticky ad + korte info -->
-          <aside>
-            <!-- LEFT COLUMN STICKY AD -->
-            <div class="ad-vertical ad-vertical--sticky">
-              ADVERTENTIERUIMTE · LINKERKOLOM TORNOOIEN
-              <span>Voor tornooiorganisatoren, sportmerken of regionale partners.</span>
-            </div>
-
-            <article class="card" style="margin-top: 14px;">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Aankomend weekend</div>
-                  <div class="card-title">Tornooien in de buurt</div>
-                </div>
-              </div>
-
-              <ul class="weekend-list">
-                <li class="weekend-item">
-                  <span>Za–zo · Zomertornooi U10–U11</span>
-                  <span>Regio Kempen · 12 ploegen</span>
-                </li>
-                <li class="weekend-item">
-                  <span>Zat · Seniorentornooi</span>
-                  <span>Voorbereiding nieuw seizoen</span>
-                </li>
-              </ul>
-
-              <p class="note">
-                Later kan dit blok automatisch gevuld worden o.b.v. datum en locatie, of gefilterd per provincie.
-              </p>
-            </article>
-
-            <article class="card" style="margin-top: 14px;">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Structuur</div>
-                  <div class="card-title">Hoe past dit in Voetbal4All?</div>
-                </div>
-              </div>
-              <p class="note">
-                Deze pagina focust enkel op tornooien. Vanuit de algemene eventspagina sturen we clubs en bezoekers
-                naar deze specifieke tornooipagina. Premium tornooien worden extra uitgelicht, gratis tornooien
-                blijven duidelijk zichtbaar.
-              </p>
-              <button class="btn-secondary">
-                Terug naar events-overzicht
-              </button>
-            </article>
           </aside>
 
         </div>
@@ -761,6 +339,7 @@
           <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
           <div class="footer-legal">
             &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
           </div>
           <div class="footer-social">
             <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
@@ -769,7 +348,7 @@
         </div>
         <div class="footer-ad">
           FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Extra zichtbaarheid voor tornooipartners of hoofdsponsors.</span>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
         </div>
       </div>
     </div>
@@ -778,7 +357,76 @@
 </div>
 
 <script>
+  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Uitgebreide zoekfunctie voor tornooien
+  const tornooiSearchInput = document.getElementById('tornooi-search');
+  const tornooiCountrySelect = document.getElementById('tornooi-country');
+  const tornooiRegionInput = document.getElementById('tornooi-region');
+  const tornooiTypeSelect = document.getElementById('tornooi-type');
+  const tornooiItems = document.querySelectorAll('.article-list .article-item');
+
+  function getCountryFromTornooiItem(item) {
+    const flagEl = item.querySelector('.flag-badge');
+    const flag = flagEl ? flagEl.textContent.trim() : '';
+    if (flag === '🇧🇪') return 'BE';
+    if (flag === '🇳🇱') return 'NL';
+    if (flag === '🌍')  return 'INT';
+    return '';
+  }
+
+  function getTypeFromTornooiItem(item) {
+    const metaEl = item.querySelector('.article-meta');
+    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+
+    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
+    if (metaText.includes('seniortornooi') || metaText.includes('seniors')) return 'seniors';
+    if (metaText.includes('jeugdtornooi') || metaText.includes('jeugd')) return 'jeugd';
+    if (metaText.includes('meerdaags') || metaText.includes('tweedaags') || metaText.includes('weekend')) return 'meerdaags';
+
+    return '';
+  }
+
+  function applyTornooiFilter() {
+    const textQuery = (tornooiSearchInput?.value || '').toLowerCase().trim();
+    const regionQuery = (tornooiRegionInput?.value || '').toLowerCase().trim();
+    const countryFilter = (tornooiCountrySelect?.value || '').toUpperCase();
+    const typeFilter = (tornooiTypeSelect?.value || '').toLowerCase();
+
+    tornooiItems.forEach(item => {
+      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
+      const itemCountry = getCountryFromTornooiItem(item);
+      const itemType = getTypeFromTornooiItem(item);
+
+      let visible = true;
+
+      if (textQuery && !fullText.includes(textQuery)) {
+        visible = false;
+      }
+
+      if (visible && countryFilter && itemCountry !== countryFilter) {
+        visible = false;
+      }
+
+      if (visible && regionQuery && !fullText.includes(regionQuery)) {
+        visible = false;
+      }
+
+      if (visible && typeFilter && itemType !== typeFilter) {
+        visible = false;
+      }
+
+      item.style.display = visible ? '' : 'none';
+    });
+  }
+
+  if (tornooiItems.length) {
+    tornooiSearchInput?.addEventListener('input', applyTornooiFilter);
+    tornooiCountrySelect?.addEventListener('change', applyTornooiFilter);
+    tornooiRegionInput?.addEventListener('input', applyTornooiFilter);
+    tornooiTypeSelect?.addEventListener('change', applyTornooiFilter);
+  }
 </script>
 </body>
 </html>
