@@ -771,6 +771,19 @@ main {
     align-items: flex-start;
   }
 
+@media (min-width: 901px) {
+  .premium-row {
+    position: sticky;
+    top: 120px;
+    z-index: 5;
+    background: transparent;
+  }
+}
+
+   .premium-empty {
+  margin-top: 6px;
+  font-style: italic;
+}
   .weekend-item {
     flex-direction: column;
     align-items: flex-start;
