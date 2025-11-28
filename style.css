@@ -281,6 +281,28 @@ img {
   opacity: 0.9;
   margin-top: 2px;
 }
+.btn-advert {
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #18a0fb, #00d4ff);
+  color: #020308;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.1;
+  box-shadow: 0 14px 32px rgba(0, 212, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  cursor: pointer;
+}
+
+.btn-advert .sub {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  opacity: 0.9;
+  margin-top: 2px;
+}
 .hero-meta {
   display: flex;
   flex-wrap: wrap;
