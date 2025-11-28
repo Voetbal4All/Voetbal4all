@@ -77,19 +77,41 @@
     </section>
 
     <!-- ZOEKFUNCTIE -->
-    <section class="section-main">
+        <section class="section-main">
       <div class="shell">
-        <div class="search-bar">
+        <div class="search-bar search-bar--advanced">
           <input
             type="text"
             id="event-search"
             class="search-input"
-            placeholder="Zoek op type event, club, locatie, land of trefwoord..."
+            placeholder="Zoek op trefwoord (bv. tornooi, dinner, clubnaam...)"
           />
+          <div class="search-filters-row">
+            <select id="event-country" class="search-select">
+              <option value="">Alle landen</option>
+              <option value="BE">België</option>
+              <option value="NL">Nederland</option>
+              <option value="INT">Internationaal</option>
+            </select>
+            <input
+              type="text"
+              id="event-region"
+              class="search-input search-input--small"
+              placeholder="Regio (optioneel, bv. Kempen, Limburg)"
+            />
+            <select id="event-type" class="search-select">
+              <option value="">Alle events</option>
+              <option value="tornooi">Tornooi</option>
+              <option value="vriendschappelijk">Vriendschappelijk</option>
+              <option value="stage">Stage / voetbalkamp</option>
+              <option value="dinner">Dinner &amp; clubfeest</option>
+              <option value="algemeen">Algemeen event</option>
+              <option value="advertorial">Partner / advertorial</option>
+            </select>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- CONTENT + ADVERTENTIES (MET FLYER + VLAG) -->
     <section class="section-main">
       <div class="shell">
