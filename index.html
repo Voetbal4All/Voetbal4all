@@ -229,7 +229,7 @@
         </div>
       </section>
 
-      <!-- IN-FEED AD TUSSEN PREMIUM LIJN EN ARTIKELS -->
+      <!-- IN-FEED AD TUSSEN PREMIUM LIJN EN ONDERSTE GRID -->
       <section>
         <div class="shell">
           <div class="ad-infeed">
@@ -239,106 +239,12 @@
         </div>
       </section>
 
-      <!-- ARTIKELS / "VOETBALKOPPEN" OP HOMEPAGE -->
+      <!-- ONDERSTE GRID: AANKOMENDE EVENTS (25%) · VOETBALKOPPEN (50%) · LAATSTE TRAINERS/SPELERS (25%) -->
       <section class="section-main">
         <div class="shell">
-          <div class="card" style="margin-bottom:12px;">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">In de kijker</div>
-                <div class="card-title">Laatste artikels &amp; verhalen</div>
-              </div>
-              <span class="pill-small">Met foto &amp; vlag</span>
-            </div>
-            <p class="note">
-              Hier komen straks echte artikels te staan met copyrightvrije of AI-gegenereerde beelden,
-              telkens met een vlag voor België, Nederland of internationale content.
-            </p>
-          </div>
+          <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1fr) minmax(0,2fr) minmax(0,1fr); gap:18px;">
 
-          <div class="article-list">
-
-            <!-- Artikel 1 -->
-            <article class="article-item">
-              <div class="home-article-card">
-                <div class="home-article-media">
-                  <div class="home-article-image">
-                    AI-foto: Jeugdtraining
-                  </div>
-                  <div class="home-article-flag">
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                </div>
-                <div class="home-article-content">
-                  <div class="article-meta">Jeugdwerking · België</div>
-                  <h2 class="article-title">
-                    <a href="artikels.html">Hoe clubs hun onderbouw beter kunnen organiseren</a>
-                  </h2>
-                  <p class="article-excerpt">
-                    Praktische tips voor clubs om trainingen, communicatie met ouders en doorstroming
-                    tussen leeftijdscategorieën beter op elkaar af te stemmen.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <!-- Artikel 2 -->
-            <article class="article-item">
-              <div class="home-article-card">
-                <div class="home-article-media">
-                  <div class="home-article-image">
-                    AI-foto: Trainer langs de lijn
-                  </div>
-                  <div class="home-article-flag">
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                </div>
-                <div class="home-article-content">
-                  <div class="article-meta">Trainers · Nederland</div>
-                  <h2 class="article-title">
-                    <a href="artikels.html">5 aandachtspunten voor trainers in de bovenbouw</a>
-                  </h2>
-                  <p class="article-excerpt">
-                    Van omgaan met selectie tot individuele feedback: waar letten trainers best op bij U15 tot en met U21?
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <!-- Artikel 3 -->
-            <article class="article-item">
-              <div class="home-article-card">
-                <div class="home-article-media">
-                  <div class="home-article-image">
-                    AI-foto: Supporters &amp; community
-                  </div>
-                  <div class="home-article-flag">
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                </div>
-                <div class="home-article-content">
-                  <div class="article-meta">Community · internationaal</div>
-                  <h2 class="article-title">
-                    <a href="artikels.html">Hoe een sterke clubcommunity meer vrijwilligers aantrekt</a>
-                  </h2>
-                  <p class="article-excerpt">
-                    Voorbeelden uit binnen- en buitenland over hoe clubs hun vrijwilligers betrekken,
-                    belonen en houden.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- ONDERSTE GRID: AANKOMENDE EVENTS · LAATSTE TRAINERS · LAATSTE SPELERS -->
-      <section class="section-main">
-        <div class="shell">
-          <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1.4fr) minmax(0,1.1fr); gap:18px;">
-
-            <!-- LINKSE KOLOM: AANKOMENDE EVENTS -->
+            <!-- LINKSE KOLOM: AANKOMENDE EVENTS + ADSENSE BLOK -->
             <section class="column-middle">
               <article class="card">
                 <div class="card-header">
@@ -370,6 +276,107 @@
 
                 <a href="events.html" class="event-link">Volledig eventsoverzicht →</a>
               </article>
+
+              <!-- GOOGLE ADSENSE BLOK ONDER AANKOMENDE EVENTS -->
+              <div class="ad-vertical" style="margin-top:12px;">
+                <div class="ad-label">ADVERTENTIE · GOOGLE ADSENSE</div>
+                <div class="ad-placeholder">
+                  Ruimte voorzien voor een Google AdSense-blok.<br/>
+                  <span class="ad-size">Bijvoorbeeld 300 × 250 px (links onder events).</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- MIDDENKOLOM (VOETBALKOPPEN / ARTIKELS MET FOTO + VLAG) -->
+            <section class="column-middle">
+              <div class="card" style="margin-bottom:12px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">In de kijker</div>
+                    <div class="card-title">Laatste artikels &amp; verhalen</div>
+                  </div>
+                  <span class="pill-small">Met foto &amp; vlag</span>
+                </div>
+                <p class="note">
+                  Hier komen straks echte artikels te staan met copyrightvrije of AI-gegenereerde beelden,
+                  telkens met een vlag voor België, Nederland of internationale content.
+                </p>
+              </div>
+
+              <div class="article-list">
+
+                <!-- Artikel 1 -->
+                <article class="article-item">
+                  <div class="home-article-card">
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        AI-foto: Jeugdtraining
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🇧🇪</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Jeugdwerking · België</div>
+                      <h2 class="article-title">
+                        <a href="artikels.html">Hoe clubs hun onderbouw beter kunnen organiseren</a>
+                      </h2>
+                      <p class="article-excerpt">
+                        Praktische tips voor clubs om trainingen, communicatie met ouders en doorstroming
+                        tussen leeftijdscategorieën beter op elkaar af te stemmen.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Artikel 2 -->
+                <article class="article-item">
+                  <div class="home-article-card">
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        AI-foto: Trainer langs de lijn
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🇳🇱</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Trainers · Nederland</div>
+                      <h2 class="article-title">
+                        <a href="artikels.html">5 aandachtspunten voor trainers in de bovenbouw</a>
+                      </h2>
+                      <p class="article-excerpt">
+                        Van omgaan met selectie tot individuele feedback: waar letten trainers best op bij U15 tot en met U21?
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- Artikel 3 -->
+                <article class="article-item">
+                  <div class="home-article-card">
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        AI-foto: Supporters &amp; community
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🌍</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Community · internationaal</div>
+                      <h2 class="article-title">
+                        <a href="artikels.html">Hoe een sterke clubcommunity meer vrijwilligers aantrekt</a>
+                      </h2>
+                      <p class="article-excerpt">
+                        Voorbeelden uit binnen- en buitenland over hoe clubs hun vrijwilligers betrekken,
+                        belonen en houden.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+              </div>
             </section>
 
             <!-- RECHTERKOLOM: LAATSTE TRAINERS + LAATSTE SPELERS -->
