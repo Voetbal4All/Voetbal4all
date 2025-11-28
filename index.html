@@ -2,263 +2,1022 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Home</title>
+  <title>Voetbal4All - Alles over voetbal, voor iedereen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    :root {
+      --bg: #050814;
+      --bg-soft: #0b1022;
+      --bg-softer: #10162a;
+      --accent: #18a0fb;
+      --accent-soft: rgba(24, 160, 251, 0.2);
+      --text: #f4f6fc;
+      --muted: #9aa3c1;
+      --danger: #ff3366;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.55);
+      --shadow-subtle: 0 8px 24px rgba(0, 0, 0, 0.45);
+      --max-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #18213d 0, #050814 45%, #020308 100%);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .shell {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(16px);
+      background: linear-gradient(to bottom, rgba(5, 8, 20, 0.93), rgba(5, 8, 20, 0.85), transparent);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .navbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: radial-gradient(circle at 30% 10%, #ffffff 0, #ffd86f 18%, #ff3366 50%, #050814 100%);
+      box-shadow: 0 0 18px rgba(255, 255, 255, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .brand-text-main {
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      font-size: 18px;
+    }
+
+    .brand-text-sub {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 14px;
+    }
+
+    .nav-link {
+      color: var(--muted);
+      font-weight: 500;
+      padding-bottom: 2px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--text);
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .nav-link.active {
+      color: var(--text);
+      border-color: var(--accent);
+    }
+
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #18a0fb, #00d4ff);
+      color: #020308;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 12px 26px rgba(0, 212, 255, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    .nav-cta span:last-child {
+      font-size: 11px;
+      opacity: 0.85;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .nav-burger {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--text);
+      font-size: 22px;
+    }
+
+    /* ---------- HERO + HOOFDSPONSOR ---------- */
+
+    .hero-wrap {
+      padding-top: 22px;
+      padding-bottom: 20px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.1fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .hero-copy {
+      background: radial-gradient(circle at top left, rgba(24, 160, 251, 0.27), rgba(5, 8, 20, 0.95));
+      border-radius: var(--radius-xl);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 22px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 9px 4px 4px;
+      border-radius: 999px;
+      background: rgba(2, 3, 8, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .pill-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 0, #ffffff 0, #00ff9d 45%, #0077ff 100%);
+      box-shadow: 0 0 14px rgba(0, 255, 157, 0.8);
+    }
+
+    .pill-label {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+    }
+
+    .pill-text {
+      font-weight: 500;
+    }
+
+    .hero-title {
+      font-size: clamp(26px, 3.1vw, 34px);
+      line-height: 1.15;
+      margin: 0 0 8px;
+    }
+
+    .hero-title span {
+      background: linear-gradient(135deg, #ffde70, #ff3366);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-sub {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 460px;
+      margin-bottom: 18px;
+    }
+
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .btn-primary {
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 0;
+      font-size: 14px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      background: linear-gradient(135deg, #18a0fb, #00d4ff);
+      color: #020308;
+      box-shadow: 0 16px 36px rgba(0, 212, 255, 0.55);
+    }
+
+    .btn-secondary {
+      padding: 8px 13px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 13px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      background: rgba(2, 3, 8, 0.65);
+      color: var(--muted);
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .hero-meta strong {
+      color: var(--text);
+    }
+
+    /* Hoofdsponsor banner */
+
+    .sponsor-card {
+      position: relative;
+      background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.2), transparent 55%),
+                  linear-gradient(145deg, #050814, #111a30);
+      border-radius: var(--radius-xl);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: var(--shadow-soft);
+      padding: 16px 16px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    .sponsor-label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .sponsor-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .sponsor-label-badge {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #ffde70;
+      box-shadow: 0 0 10px rgba(255, 222, 112, 0.8);
+    }
+
+    .sponsor-tagline {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    .sponsor-banner {
+      position: relative;
+      border-radius: 18px;
+      padding: 16px;
+      background: radial-gradient(circle at 0 0, #ffffff 0, #ffd86f 20%, #ff3366 48%, #050814 100%);
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.75);
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .sponsor-logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #050814;
+      text-shadow: 0 0 18px rgba(255, 255, 255, 0.9);
+    }
+
+    .sponsor-line {
+      font-size: 12px;
+      font-weight: 500;
+      max-width: 230px;
+      margin-top: 4px;
+      color: #050814;
+    }
+
+    .sponsor-cta-chip {
+      position: absolute;
+      right: 18px;
+      bottom: 16px;
+      padding: 6px 11px;
+      border-radius: 999px;
+      background: rgba(1, 3, 6, 0.92);
+      color: #f4f6fc;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .sponsor-metrics {
+      display: flex;
+      gap: 14px;
+      font-size: 11px;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+
+    .sponsor-metric strong {
+      color: var(--text);
+    }
+
+    /* ---------- AD ZONES & MAIN LAYOUT ---------- */
+
+    .section-main {
+      padding-bottom: 40px;
+    }
+
+    .ad-horizontal {
+      margin-bottom: 18px;
+      border-radius: var(--radius-lg);
+      border: 1px dashed rgba(255, 255, 255, 0.18);
+      padding: 10px;
+      font-size: 12px;
+      color: var(--muted);
+      background: rgba(2, 3, 8, 0.75);
+      text-align: center;
+    }
+
+    .layout-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.6fr) minmax(0, 0.9fr);
+      gap: 18px;
+      align-items: flex-start;
+    }
+
+    /* Left rail */
+
+    .card {
+      border-radius: var(--radius-lg);
+      background: var(--bg-soft);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-subtle);
+      padding: 14px 14px 12px;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .card-caption {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .pill-small {
+      font-size: 10px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--muted);
+    }
+
+    .list-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 6px;
+      font-size: 13px;
+    }
+
+    .list-links a {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 5px 6px;
+      border-radius: 999px;
+      transition: background 0.16s ease, transform 0.16s ease;
+      color: var(--muted);
+    }
+
+    .list-links a span:first-child {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .list-links a span:last-child {
+      font-size: 11px;
+    }
+
+    .list-links a:hover {
+      background: rgba(24, 160, 251, 0.08);
+      transform: translateY(-1px);
+    }
+
+    /* Middle: Articles */
+
+    .articles {
+      display: grid;
+      gap: 12px;
+    }
+
+    .article-card {
+      border-radius: var(--radius-lg);
+      background: var(--bg-soft);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-subtle);
+      padding: 13px 13px 11px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+    }
+
+    .article-meta {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .article-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .article-excerpt {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .article-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 10px;
+    }
+
+    .tag {
+      padding: 3px 7px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--muted);
+    }
+
+    .article-thumb {
+      border-radius: 14px;
+      background: radial-gradient(circle at 10% 0, rgba(24, 160, 251, 0.75), transparent 55%),
+                  radial-gradient(circle at 80% 100%, rgba(255, 51, 102, 0.75), transparent 55%),
+                  #040715;
+      aspect-ratio: 16/10;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.75);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+    }
+
+    .article-thumb-label {
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: rgba(2, 3, 8, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .article-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .article-footer strong {
+      color: var(--text);
+    }
+
+    /* Right: Sidebar ads */
+
+    .sidebar {
+      display: grid;
+      gap: 14px;
+    }
+
+    .ad-vertical {
+      border-radius: var(--radius-lg);
+      border: 1px dashed rgba(255, 255, 255, 0.18);
+      padding: 12px 8px;
+      font-size: 11px;
+      color: var(--muted);
+      background: rgba(2, 3, 8, 0.8);
+      min-height: 260px;
+      position: sticky;
+      top: 78px;
+    }
+
+    .ad-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      margin-bottom: 8px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .ad-placeholder {
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      padding: 18px 10px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .ad-size {
+      font-size: 10px;
+      margin-top: 4px;
+      opacity: 0.8;
+    }
+
+    .ad-small {
+      border-radius: 14px;
+      border: 1px dashed rgba(255, 255, 255, 0.18);
+      padding: 10px;
+      font-size: 11px;
+      color: var(--muted);
+      background: rgba(2, 3, 8, 0.75);
+      text-align: center;
+    }
+
+    /* Footer */
+
+    .footer {
+      margin-top: auto;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
+      padding-top: 18px;
+      padding-bottom: 20px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
+      gap: 16px;
+      align-items: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .footer-legal {
+      font-size: 11px;
+      opacity: 0.8;
+    }
+
+    .footer-ad {
+      border-radius: var(--radius-lg);
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .layout-grid {
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .ad-vertical {
+        position: static;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .navbar-inner {
+        height: 58px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .nav-burger {
+        display: block;
+      }
+
+      .hero-copy {
+        padding: 18px 16px 16px;
+      }
+
+      .hero-grid {
+        gap: 16px;
+      }
+
+      .layout-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .article-card {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="site-shell">
+  <div class="page">
 
-  <!-- TOP-HEADER: LOGO + AD + SOCIAL + NAV + LIVE-BANNER -->
-  <div class="top-strip">
-    <div class="top-strip-inner">
-      <div class="top-strip-row">
-        <div class="brand-block">
-          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
-          <div class="brand-text">
-            <h1>Voetbal<span class="four-green">4</span>All</h1>
-            <div style="font-size:0.75rem;color:#6b7280;">
-              Platform voor iedereen met een hart voor voetbal
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="shell">
+        <div class="navbar-inner">
+          <a href="#" class="brand">
+            <div class="brand-mark">V4</div>
+            <div>
+              <div class="brand-text-main">Voetbal4All</div>
+              <div class="brand-text-sub">Football · Data · Clubs</div>
             </div>
-          </div>
-        </div>
+          </a>
 
-        <div class="header-right">
-          <div class="ad-slot-top">
-            Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
-          </div>
-          <div class="header-social">
-            <a href="https://facebook.com/voetbal4all" target="_blank" aria-label="Volg ons op Facebook">
-              <img src="assets/img/facebook.png" alt="Facebook" />
+          <nav class="nav-links">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">Artikels</a>
+            <a href="#" class="nav-link">Tools</a>
+            <a href="#" class="nav-link">Clubs</a>
+            <a href="#" class="nav-link">Contact</a>
+
+            <a href="#" class="nav-cta">
+              <span>Adverteer nu</span>
+              <span>Sponsor &amp; Ads</span>
             </a>
-            <a href="https://instagram.com/voetbal.4.all" target="_blank" aria-label="Volg ons op Instagram">
-              <img src="assets/img/instagram.png" alt="Instagram" />
-            </a>
+          </nav>
+
+          <button class="nav-burger" aria-label="Menu">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO + HOOFDSPONSOR -->
+    <main>
+      <section class="hero-wrap">
+        <div class="shell">
+          <div class="hero-grid">
+            <!-- Hero copy -->
+            <div class="hero-copy">
+              <div class="pill">
+                <div class="pill-dot"></div>
+                <span class="pill-label">Live voor clubs</span>
+                <span class="pill-text">Data, nieuws &amp; tools op één plek</span>
+              </div>
+
+              <h1 class="hero-title">
+                Meer bereik, meer omzet,<br>
+                <span>allemaal samen Voetbal4All.</span>
+              </h1>
+
+              <p class="hero-sub">
+                Voetbal4All bundelt de populairste voetbalonderwerpen, clubcommunicatie
+                en slimme tools. Ideaal voor spelers, ouders, trainers én sponsors.
+              </p>
+
+              <div class="hero-ctas">
+                <button class="btn-primary">
+                  Start met ontdekken
+                </button>
+                <button class="btn-secondary">
+                  Sponsor worden
+                </button>
+              </div>
+
+              <div class="hero-meta">
+                <span><strong>Clubs</strong>&nbsp;amateurs &amp; jeugd</span>
+                <span><strong>Focus</strong>&nbsp;content + advertenties</span>
+                <span><strong>Doel</strong>&nbsp;omzet voor het platform</span>
+              </div>
+            </div>
+
+            <!-- Hoofdsponsor-blok -->
+            <aside class="sponsor-card">
+              <div class="sponsor-label-row">
+                <div class="sponsor-label">
+                  <span class="sponsor-label-badge"></span>
+                  Hoofdsponsor
+                </div>
+                <div class="sponsor-tagline">
+                  Prime hero-positie<br>boven alle content
+                </div>
+              </div>
+
+              <!-- HIER KOMT DE HOOFDDSPONSOR-BANNER -->
+              <!-- Vervang de volledige .sponsor-banner inhoud door je echte sponsor (of AdServer/AdSense code) -->
+              <a href="#" class="sponsor-banner">
+                <div class="sponsor-logo">SPONSOR NAAM</div>
+                <div class="sponsor-line">
+                  Officiële partner van Voetbal4All — maximaal bereik bij spelers, ouders en clubs.
+                </div>
+                <div class="sponsor-cta-chip">
+                  Meer info &middot; Sponsordossier
+                </div>
+              </a>
+
+              <div class="sponsor-metrics">
+                <div class="sponsor-metric">
+                  <strong>Hero-positie</strong><br>
+                  Altijd zichtbaar boven de fold
+                </div>
+                <div class="sponsor-metric">
+                  <strong>Exclusief</strong><br>
+                  Eén hoofdsponsor tegelijk
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAIN LAYOUT + AD ZONES -->
+      <section class="section-main">
+        <div class="shell">
+
+          <!-- BOVENSTE HORIZONTALE ADZONE -->
+          <div class="ad-horizontal">
+            <!-- ADZONE: 728x90 / responsive leaderboard -->
+            BANNERZONE BOVEN CONTENT<br>
+            <span class="ad-size">Plaats hier je Google AdSense leaderboard (bijv. 728x90 / 970x90 / responsive)</span>
+          </div>
+
+          <div class="layout-grid">
+            <!-- LEFT RAIL -->
+            <aside class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Snelle toegang</div>
+                  <div class="card-title">Populaire thema’s</div>
+                </div>
+                <span class="pill-small">SEO &amp; verkeer</span>
+              </div>
+              <ul class="list-links">
+                <li>
+                  <a href="#">
+                    <span>Uitslagen &amp; kalender</span>
+                    <span>Altijd top traffic</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Transfers &amp; geruchten</span>
+                    <span>Dagelijks opgezocht</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Jeugdvoetbal &amp; info</span>
+                    <span>Voor ouders &amp; trainers</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Communicatie templates</span>
+                    <span>Handig voor clubs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Trainingsschema’s</span>
+                    <span>Tools &amp; downloads</span>
+                  </a>
+                </li>
+              </ul>
+            </aside>
+
+            <!-- MIDDLE: ARTICLES + IN-CONTENT AD -->
+            <section>
+              <div class="articles">
+
+                <!-- IN-CONTENT AD -->
+                <div class="ad-horizontal" style="margin-bottom: 10px;">
+                  <!-- ADZONE: in-article / in-feed responsive -->
+                  IN-CONTENT ADVERTENTIE<br>
+                  <span class="ad-size">Ideaal voor AdSense in-feed of in-article unit</span>
+                </div>
+
+                <!-- ARTICLE CARDS (dummy content) -->
+                <article class="article-card">
+                  <div>
+                    <div class="article-meta">Voor clubs · communicatie</div>
+                    <h2 class="article-title">De 10 meest gestuurde berichten door voetbalclubs (en hoe jij ze kunt automatiseren)</h2>
+                    <p class="article-excerpt">
+                      Van weerberichten tot afgelaste trainingen en tornooien: ontdek welke communicatie het vaakst verstuurd wordt
+                      en hoe Voetbal4All je helpt om tijd te besparen.
+                    </p>
+                    <div class="article-tags">
+                      <span class="tag">Clubcommunicatie</span>
+                      <span class="tag">Templates</span>
+                      <span class="tag">Voetbal4All Tools</span>
+                    </div>
+                  </div>
+                  <div class="article-thumb">
+                    <div class="article-thumb-label">Clubs &amp; ouders</div>
+                  </div>
+                  <div class="article-footer">
+                    <span><strong>Leestijd:</strong> 5 min</span>
+                    <span>Ideaal om naar te linken vanuit je sponsorbrochure</span>
+                  </div>
+                </article>
+
+                <article class="article-card">
+                  <div>
+                    <div class="article-meta">Voor supporters · content</div>
+                    <h2 class="article-title">Dit zijn de populairste voetbalonderwerpen online in 2025</h2>
+                    <p class="article-excerpt">
+                      Zoekvolumes, trends en thema’s die supporters het vaakst intypen. Perfect om je contentkalender en
+                      advertentieposities slim rond op te bouwen.
+                    </p>
+                    <div class="article-tags">
+                      <span class="tag">SEO</span>
+                      <span class="tag">Contentstrategie</span>
+                      <span class="tag">Populariteit</span>
+                    </div>
+                  </div>
+                  <div class="article-thumb">
+                    <div class="article-thumb-label">Zoektrends</div>
+                  </div>
+                  <div class="article-footer">
+                    <span><strong>Leestijd:</strong> 7 min</span>
+                    <span>Perfect voor sponsorpitch</span>
+                  </div>
+                </article>
+
+                <article class="article-card">
+                  <div>
+                    <div class="article-meta">Tools · gratis</div>
+                    <h2 class="article-title">Gratis tools voor clubs: van spelersfiches tot tornooiplanning</h2>
+                    <p class="article-excerpt">
+                      Voetbal4All wil clubs gratis ondersteunen met slimme tools. Hoe meer clubs aansluiten, hoe interessanter
+                      jouw advertentie wordt.
+                    </p>
+                    <div class="article-tags">
+                      <span class="tag">Tools</span>
+                      <span class="tag">Download</span>
+                      <span class="tag">Clubbeheer</span>
+                    </div>
+                  </div>
+                  <div class="article-thumb">
+                    <div class="article-thumb-label">Tools</div>
+                  </div>
+                  <div class="article-footer">
+                    <span><strong>Leestijd:</strong> 4 min</span>
+                    <span>Combineerbaar met leadgeneratie</span>
+                  </div>
+                </article>
+
+              </div>
+            </section>
+
+            <!-- RIGHT: STICKY SIDEBAR ADS -->
+            <aside class="sidebar">
+              <div class="ad-vertical">
+                <div class="ad-label">Advertentie · sidebar</div>
+                <!-- ADZONE: 300x600 / 160x600 / responsive skyscraper -->
+                <div class="ad-placeholder">
+                  STICKY SIDEBAR BANNERS<br>
+                  <div class="ad-size">Plaats hier een AdSense skyscraper (300x600 / 160x600) of responsive</div>
+                </div>
+              </div>
+
+              <div class="ad-small">
+                <!-- ADZONE: 300x250 / 336x280 -->
+                Extra advertentieblok onder sidebar<br>
+                <span class="ad-size">Geschikt voor 300x250 of 336x280</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER + ADZONE -->
+    <footer class="footer">
+      <div class="shell">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+            <div class="footer-legal">
+              &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+              · Mogelijkheden voor hoofdsponsor, partners en AdSense.
+            </div>
+          </div>
+          <div class="footer-ad">
+            <!-- ADZONE: 728x90 / 970x90 / responsive footer banner -->
+            FOOTER ADVERTENTIE<br>
+            <span class="ad-size">Footer-banner met hoge zichtbaarheid voor terugkerende bezoekers</span>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
-    <!-- NAVIGATIEBALK -->
-    <nav class="navbar">
-      <div class="navbar-inner">
-        <div class="nav-links">
-          <div class="nav-item">
-            <a href="index.html" class="nav-link active">Home</a>
-          </div>
-
-          <div class="nav-item">
-            <a href="nieuws.html" class="nav-link">Nieuws</a>
-          </div>
-
-          <div class="nav-item">
-            <a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a>
-          </div>
-
-          <div class="nav-item has-dropdown">
-            <a href="clubvacatures.html" class="nav-link">Vacatures</a>
-            <div class="nav-dropdown">
-              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
-              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
-              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
-            </div>
-          </div>
-
-          <div class="nav-item has-dropdown">
-            <a href="vriendschappelijk.html" class="nav-link">Wij organiseren</a>
-            <div class="nav-dropdown">
-              <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-              <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
-              <a href="dinners.html" class="nav-dropdown-link">Dinners</a>
-              <a href="stages.html" class="nav-dropdown-link">Stage of voetbalkamp</a>
-              <a href="events-overig.html" class="nav-dropdown-link">Algemene events</a>
-            </div>
-          </div>
-
-          <div class="nav-item has-dropdown">
-            <a href="uitslagen.html" class="nav-link">Sportief</a>
-            <div class="nav-dropdown">
-              <a href="team-medewerker.html" class="nav-dropdown-link">Team/medewerker in de kijker</a>
-            </div>
-          </div>
-
-          <div class="nav-item has-dropdown">
-            <a href="contact.html" class="nav-link">Meer</a>
-            <div class="nav-dropdown">
-              <a href="contact.html" class="nav-dropdown-link">Contact</a>
-              <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="nav-cta">
-          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- LIVE-BANNER -->
-    <div class="live-banner">
-      <div class="live-banner-inner">
-        <span>Live scores &amp; resultaten volgen in een latere fase.</span>
-      </div>
-    </div>
   </div>
 
-  <!-- MAIN -->
-  <main>
-    <div class="page-inner">
-
-      <!-- HERO -->
-      <section class="hero">
-        <h2>Één platform voor Voetbal<span class="four-green">4</span>All</h2>
-        <p>
-          Voetbal<span class="four-green">4</span>All bundelt informatie voor iedereen met een hart voor voetbal.
-          Vind snel nieuws, resultaten, clubvacatures, trainers- en spelersprofielen, tornooien en andere events op één centrale plek.
-          Het platform is volop in ontwikkeling – nieuwe mogelijkheden worden stapsgewijs toegevoegd.
-        </p>
-        <div class="hero-cta-row">
-          <a href="spelers.html" class="btn-primary">Speler zoekt club</a>
-          <a href="trainers.html" class="btn-primary">Trainer zoekt club</a>
-          <a href="clubvacatures.html" class="btn-outline">Club zoekt</a>
-          <a href="events.html" class="btn-outline">Event aanmelden</a>
-        </div>
-      </section>
-
-      <!-- BOVENSTE 3 KOLLOMMEN -->
-      <div class="home-top-grid">
-
-        <!-- LINKERKOLOM -->
-        <aside>
-          <div class="card">
-            <h2>Rangschikking Eredivisie (voorbeeld)</h2>
-            <table class="ranking-table">
-              <thead>
-                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>PSV</td><td>47</td></tr>
-                <tr><td>2</td><td>Feyenoord</td><td>44</td></tr>
-                <tr><td>3</td><td>Ajax</td><td>40</td></tr>
-                <tr><td>4</td><td>AZ</td><td>38</td></tr>
-              </tbody>
-            </table>
-
-            <h2 style="margin-top:0.9rem;">Advertentieruimte</h2>
-            <div class="ad-slot">Advertentie 300×250</div>
-
-            <h2 style="margin-top:0.9rem;">Premium clubvacatures</h2>
-            <p class="section-intro">Voorbeeld premium vacatures in de kijker.</p>
-            <div class="ad-slot">Premium vacature 1</div>
-            <div class="ad-slot">Premium vacature 2</div>
-
-            <h2 style="margin-top:0.9rem;">Team/medewerker in de kijker</h2>
-            <p class="section-intro">Voorbeeld teams of medewerkers in de kijker.</p>
-            <div class="ad-slot">Team in de kijker</div>
-          </div>
-        </aside>
-
-        <!-- MIDDENKOLOM – VOETBALKOPPEN -->
-        <section>
-          <div class="section card">
-            <h2>Voetbalkoppen</h2>
-            <p class="section-intro">
-              Een selectie van opvallende nieuwsitems uit Vlaanderen, Nederland en internationaal.
-            </p>
-            <div id="news-list"></div>
-            <a href="nieuws.html" class="btn-outline">Meer Voetbalkoppen</a>
-          </div>
-        </section>
-
-        <!-- RECHTERKOLOM -->
-        <aside>
-          <div class="card">
-            <h2>Rangschikking Jupiler Pro League (voorbeeld)</h2>
-            <table class="ranking-table">
-              <thead>
-                <tr><th>#</th><th>Club</th><th>Ptn</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>Club Brugge</td><td>45</td></tr>
-                <tr><td>2</td><td>Union SG</td><td>43</td></tr>
-                <tr><td>3</td><td>Anderlecht</td><td>41</td></tr>
-                <tr><td>4</td><td>Genk</td><td>39</td></tr>
-              </tbody>
-            </table>
-
-            <h2 style="margin-top:0.9rem;">Advertentieruimte</h2>
-            <div class="ad-slot">Advertentie 300×250</div>
-
-            <h2 style="margin-top:0.9rem;">Premium events</h2>
-            <p class="section-intro">Premium events met extra zichtbaarheid.</p>
-            <div class="ad-slot">Premium event 1</div>
-            <div class="ad-slot">Premium event 2</div>
-
-            <h2 style="margin-top:0.9rem;">Laatst aangemelde spelers</h2>
-            <div class="ad-slot">Speler 1</div>
-            <div class="ad-slot">Speler 2</div>
-
-            <h2 style="margin-top:0.9rem;">Laatst aangemelde trainers</h2>
-            <div class="ad-slot">Trainer 1</div>
-            <div class="ad-slot">Trainer 2</div>
-          </div>
-        </aside>
-
-      </div>
-
-      <!-- 4-KOLOMMIGE ADVERTENTIES + EVENTS VAN DIT WEEKEND -->
-      <section class="card" style="margin-top:1.5rem;">
-        <h2>Advertenties</h2>
-        <p class="section-intro">
-          Extra advertentieruimte om tornooien, stages, clubacties en partners in de kijker te plaatsen.
-        </p>
-        <div class="ads-four-grid">
-          <div class="ad-slot">Advertentie 1</div>
-          <div class="ad-slot">Advertentie 2</div>
-          <div class="ad-slot">Advertentie 3</div>
-          <div class="ad-slot">Advertentie 4</div>
-        </div>
-
-        <h2 style="margin-top:1.3rem;">Events van dit weekend</h2>
-        <p class="section-intro">
-          Later worden alle weekend-events hier automatisch getoond.
-        </p>
-        <div class="events-four-grid">
-          <div class="ad-slot">Weekend event 1</div>
-          <div class="ad-slot">Weekend event 2</div>
-          <div class="ad-slot">Weekend event 3</div>
-          <div class="ad-slot">Weekend event 4</div>
-        </div>
-      </section>
-
-      <!-- CTA ONDERAAN -->
-      <section class="card">
-        <h2>Adverteren op Voetbal<span class="four-green">4</span>All</h2>
-        <p class="section-intro">
-          Bereik clubs, trainers, spelers, ouders en voetballiefhebbers uit Vlaanderen en Nederland.
-          Ideaal voor tornooien, voetbalstages, sportwinkels, academies en lokale partners.
-        </p>
-        <a href="contact.html" class="btn-primary">Ik wil adverteren op Voetbal<span class="four-green">4</span>All</a>
-      </section>
-
-    </div>
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-left">
-        <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
-        <span>Voetbal<span class="four-green">4</span>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
-      </div>
-      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
-    </div>
-  </footer>
-
-</div>
-
-<script src="assets/js/news.js" defer></script>
-<script src="assets/js/forms.js" defer></script>
+  <script>
+    // Simpel current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
