@@ -4,218 +4,10 @@
   <meta charset="UTF-8" />
   <title>Clubvacatures - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-
-  <style>
-    :root {
-      --bg: #050814;
-      --bg-soft: #0b1022;
-      --bg-softer: #10162a;
-      --accent: #18a0fb;
-      --accent-soft: rgba(24, 160, 251, 0.2);
-      --text: #f4f6fc;
-      --muted: #9aa3c1;
-      --border-subtle: rgba(255, 255, 255, 0.06);
-      --radius-lg: 18px;
-      --shadow-subtle: 0 8px 24px rgba(0, 0, 0, 0.45);
-      --max-width: 1200px;
-    }
-
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top left, #18213d 0, #050814 45%, #020308 100%);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: inherit; text-decoration: none; }
-    .page { min-height: 100vh; display: flex; flex-direction: column; }
-    .shell { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 16px; }
-
-    /* NAVBAR */
-
-    .navbar {
-      position: sticky; top: 0; z-index: 40;
-      backdrop-filter: blur(16px);
-      background: linear-gradient(to bottom, rgba(5,8,20,0.93), rgba(5,8,20,0.85), transparent);
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-    }
-    .navbar-inner {
-      display: flex; align-items: center; justify-content: space-between; height: 64px;
-    }
-    .brand { display: flex; align-items: center; gap: 10px; }
-    .brand-mark {
-      width: 34px; height: 34px; border-radius: 12px;
-      background: radial-gradient(circle at 30% 10%, #fff 0, #ffd86f 18%, #ff3366 50%, #050814 100%);
-      box-shadow: 0 0 18px rgba(255,255,255,0.18);
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 700; font-size: 18px;
-    }
-    .brand-text-main { font-weight: 700; letter-spacing: .04em; font-size: 18px; }
-    .brand-text-sub {
-      font-size: 11px; color: var(--muted);
-      text-transform: uppercase; letter-spacing: .16em;
-    }
-    .nav-links { display: flex; align-items: center; gap: 18px; font-size: 14px; }
-    .nav-link {
-      color: var(--muted); font-weight: 500;
-      padding-bottom: 2px; border-bottom: 2px solid transparent;
-      transition: color .18s, border-color .18s, transform .18s;
-    }
-    .nav-link:hover { color: var(--text); border-color: var(--accent); transform: translateY(-1px); }
-    .nav-link.active { color: var(--text); border-color: var(--accent); }
-
-    .nav-cta {
-      display: inline-flex; align-items: center; gap: 6px;
-      padding: 7px 14px; border-radius: 999px;
-      background: linear-gradient(135deg, #18a0fb, #00d4ff);
-      color: #020308; font-size: 13px; font-weight: 600;
-      box-shadow: 0 12px 26px rgba(0,212,255,0.45);
-      border: 1px solid rgba(255,255,255,0.16);
-    }
-    .nav-cta span:last-child {
-      font-size: 11px; opacity: .85;
-      text-transform: uppercase; letter-spacing: .16em;
-    }
-    .nav-burger { display: none; background: none; border: none; color: var(--text); font-size: 22px; }
-
-    /* HERO */
-
-    .page-hero { padding: 22px 0 18px; }
-    .page-hero-header { display: flex; justify-content: space-between; gap: 16px; align-items: flex-end; }
-    .page-hero-main { max-width: 520px; }
-    .page-label {
-      font-size: 11px; text-transform: uppercase; letter-spacing: .18em;
-      color: var(--muted); margin-bottom: 6px;
-    }
-    .page-title { font-size: 24px; font-weight: 600; margin-bottom: 6px; }
-    .page-sub { font-size: 13px; color: var(--muted); }
-
-    .page-filters { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; justify-content: flex-end; }
-    .chip {
-      padding: 6px 10px; border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.16);
-      background: rgba(2,3,8,0.7); color: var(--muted); cursor: pointer;
-    }
-    .chip.active { background: var(--accent-soft); border-color: var(--accent); color: var(--text); }
-
-    /* MAIN */
-
-    .section-main { padding-bottom: 40px; }
-    .grid-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.5fr);
-      gap: 18px;
-      align-items: flex-start;
-    }
-
-    .card {
-      border-radius: var(--radius-lg);
-      background: var(--bg-soft);
-      border: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-subtle);
-      padding: 14px;
-      font-size: 13px;
-    }
-
-    .card-header {
-      display: flex; justify-content: space-between;
-      gap: 8px; align-items: center; margin-bottom: 10px;
-    }
-    .card-title { font-size: 14px; font-weight: 600; }
-    .card-caption {
-      font-size: 11px; color: var(--muted);
-      text-transform: uppercase; letter-spacing: .16em;
-    }
-    .pill-small {
-      font-size: 10px; padding: 4px 8px;
-      border-radius: 999px; border: 1px solid rgba(255,255,255,0.18);
-      color: var(--muted);
-    }
-
-    .vac-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
-    .vac-item {
-      border-radius: 14px;
-      border: 1px solid rgba(255,255,255,0.08);
-      background: rgba(5,8,20,0.9);
-      padding: 9px 10px;
-      display: grid;
-      gap: 3px;
-    }
-    .vac-title { font-size: 13px; font-weight: 600; }
-    .vac-meta { font-size: 11px; color: var(--muted); }
-    .vac-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; font-size: 10px; }
-    .vac-tag {
-      padding: 2px 6px; border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.16);
-      color: var(--muted);
-    }
-    .vac-link { font-size: 11px; color: var(--accent); margin-top: 3px; }
-
-    .note { font-size: 11px; color: var(--muted); margin-top: 8px; }
-
-    .btn-primary {
-      padding: 8px 13px;
-      border-radius: 999px;
-      border: 0;
-      font-size: 13px;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      cursor: pointer;
-      background: linear-gradient(135deg, #18a0fb, #00d4ff);
-      color: #020308;
-      box-shadow: 0 12px 26px rgba(0, 212, 255, 0.45);
-      margin-top: 10px;
-    }
-
-    .info-card { margin-top: 14px; }
-
-    /* FOOTER */
-
-    .footer {
-      margin-top: auto;
-      border-top: 1px solid rgba(255,255,255,0.06);
-      background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
-      padding: 18px 0 20px;
-      position: sticky;
-      bottom: 0;
-      z-index: 20;
-      font-size: 12px;
-      color: var(--muted);
-    }
-    .footer-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
-      gap: 16px;
-      align-items: center;
-    }
-    .footer-brand { display: flex; flex-direction: column; gap: 4px; }
-    .footer-legal { font-size: 11px; opacity: .85; }
-    .footer-social { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-    .footer-social-link {
-      font-size: 11px; padding: 4px 8px;
-      border-radius: 999px; border: 1px solid rgba(255,255,255,0.18);
-      color: var(--muted);
-    }
-    .footer-social-link:hover { border-color: var(--accent); color: var(--text); }
-    .footer-ad {
-      border-radius: var(--radius-lg);
-      border: 1px dashed rgba(255,255,255,0.2);
-      padding: 10px; text-align: center;
-    }
-
-    @media (max-width: 900px) {
-      .navbar-inner { height: 58px; }
-      .nav-links { display: none; }
-      .nav-burger { display: block; }
-      .grid-layout { grid-template-columns: minmax(0,1fr); }
-      .footer-grid { grid-template-columns: minmax(0,1fr); }
-    }
-  </style>
+  <!-- Hoofd-stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div class="page">
@@ -236,7 +28,7 @@
           <a href="index.html" class="nav-link">Home</a>
           <a href="artikels.html" class="nav-link">Artikels</a>
           <a href="events.html" class="nav-link">Events</a>
-          <a href="clubvacatures.html" class="nav-link active">Clubvacatures</a>
+          <a href="clubvacatures.html" class="nav-link nav-link--active">Clubvacatures</a>
           <a href="trainers.html" class="nav-link">Trainers</a>
           <a href="spelers.html" class="nav-link">Spelers</a>
           <a href="sportief.html" class="nav-link">Sportief</a>
@@ -253,125 +45,272 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <main>
-    <section class="page-hero">
+
+    <!-- PAGINA-INTRO / HERO -->
+    <section class="section-main">
       <div class="shell">
-        <div class="page-hero-header">
-          <div class="page-hero-main">
-            <div class="page-label">Clubvacatures</div>
-            <h1 class="page-title">Trainers, vrijwilligers en staff voor jouw club.</h1>
-            <p class="page-sub">
-              Via Voetbal4All kunnen clubs vacatures plaatsen voor trainers, teamverantwoordelijken,
-              coördinatoren en andere functies. Met extra zichtbaarheid voor premium vacatures.
-            </p>
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Clubvacatures</div>
+              <div class="card-title">Trainers, coördinatoren, vrijwilligers &amp; randfuncties.</div>
+            </div>
+            <span class="pill-small">België · Nederland · internationaal</span>
           </div>
-          <div class="page-filters">
-            <div class="chip active">Alle clubvacatures</div>
-            <div class="chip">Premium</div>
-            <div class="chip">Trainers</div>
-            <div class="chip">Vrijwilligers</div>
-            <div class="chip">Jeugdcoördinatie</div>
+          <p class="note">
+            Clubs plaatsen hier hun openstaande functies: van jeugdtrainer en coördinator tot vrijwilliger,
+            teammanager of bestuurslid. Premium vacatures krijgen extra zichtbaarheid en tonen duidelijk
+            een flyer of visual met de landvlag.
+          </p>
+
+          <div class="hero-actions" style="margin-top: 8px;">
+            <a href="#premium-vacatures" class="btn-secondary">Premium clubvacatures</a>
+            <a href="#andere-vacatures" class="btn-secondary">Andere clubvacatures</a>
           </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ZOEKFUNCTIE -->
+    <section class="section-main">
+      <div class="shell">
+        <div class="search-bar">
+          <input
+            type="text"
+            id="vacature-search"
+            class="search-input"
+            placeholder="Zoek op functie, club, locatie, niveau, land of trefwoord..."
+          />
         </div>
       </div>
     </section>
 
-    <!-- MAIN -->
+    <!-- VACATURES + ADVERTENTIES -->
     <section class="section-main">
       <div class="shell">
-        <div class="grid-layout">
 
-          <!-- Premium vacatures -->
-          <section class="card">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Betalend</div>
-                <div class="card-title">Premium clubvacatures</div>
-              </div>
-              <span class="pill-small">Extra zichtbaarheid</span>
-            </div>
-            <ul class="vac-list">
-              <li class="vac-item">
-                <div class="vac-title">Hoofdtrainer U17 · Regio Kempen</div>
-                <div class="vac-meta">
-                  Provinciale club · licentie vereist · start volgend seizoen.
-                </div>
-                <div class="vac-tags">
-                  <span class="vac-tag">Trainer</span>
-                  <span class="vac-tag">U17</span>
-                  <span class="vac-tag">Premium</span>
-                </div>
-                <a href="#" class="vac-link">Bekijk volledige vacature</a>
-              </li>
-              <li class="vac-item">
-                <div class="vac-title">Technisch coördinator jeugd</div>
-                <div class="vac-meta">
-                  Focus op onderbouw · aansturen trainers · uitbouw clubvisie.
-                </div>
-                <div class="vac-tags">
-                  <span class="vac-tag">Coördinatie</span>
-                  <span class="vac-tag">Jeugd</span>
-                  <span class="vac-tag">Premium</span>
-                </div>
-                <a href="#" class="vac-link">Bekijk volledige vacature</a>
-              </li>
-            </ul>
+        <!-- Top advertentiebanner -->
+        <div class="ad-horizontal" style="margin-bottom: 14px;">
+          ADVERTENTIEZONE · CLUBVACATURES (TOP)
+          <span class="ad-size">
+            Interessant voor opleidingspartners, trainersopleidingen of HR-partners in de sport.
+          </span>
+        </div>
 
-            <div class="info-card">
-              <div class="card-caption">Voordeel</div>
-              <p class="note">
-                Premium vacatures krijgen een prominente plek op de homepage en in dit overzicht.
-                Ideaal wanneer je snel en gericht een profiel zoekt.
-              </p>
-              <button class="btn-primary">Premium clubvacature plaatsen</button>
+        <!-- Layout: vacatures links, advertenties rechts -->
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
+
+          <!-- LINKERKOLOM: VACATURELIJST -->
+          <section class="column-middle">
+            <div class="article-list">
+
+              <!-- PREMIUM VACATURES BLOK -->
+              <div id="premium-vacatures"></div>
+
+              <!-- Premium vacature 1 - België -->
+              <article class="article-item"
+                       data-title="Premium jeugdcoördinator U6 U13 België provinciaal">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer vacature
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Premium · Jeugdcoördinator</div>
+                    <h2 class="article-title">
+                      <a href="#">Jeugdcoördinator U6–U13 · provinciale club</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Verantwoordelijk voor visie, trainersbegeleiding en communicatie met ouders.
+                      Extra aandacht voor opleidingsplan en lange termijn.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Premium vacature 2 - Nederland -->
+              <article class="article-item"
+                       data-title="Premium hoofdtrainer eerste elftal Nederland zondagselectie">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer vacature
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Premium · Hoofdtrainer</div>
+                    <h2 class="article-title">
+                      <a href="#">Hoofdtrainer eerste elftal · zondagselectie</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Ambitieuze club met jonge kern zoekt hoofdtrainer met ervaring in de 2e/3e klasse
+                      en focus op doorstroming eigen jeugd.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- In-feed advertentie -->
+              <article class="article-item"
+                       data-title="Advertorial partner trainersopleiding België Nederland">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Flyer partner
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🌍</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Advertorial · partner</div>
+                    <h2 class="article-title">
+                      <a href="#">Trainersopleidingen &amp; bijscholingen voor clubs</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Partner die opleidingen, workshops en bijscholingen aanbiedt voor trainers en
+                      coördinatoren. Volledig herkenbaar als advertentie.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Andere clubvacatures blok -->
+              <div id="andere-vacatures"></div>
+
+              <!-- Andere vacature 1 - België -->
+              <article class="article-item"
+                       data-title="Vrijwilliger kantine België weekend">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Foto vrijwilliger
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Vrijwilliger · kantine</div>
+                    <h2 class="article-title">
+                      <a href="#">Vrijwilliger kantine · weekendshifts</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Jeugdclub zoekt helpende handen voor bar, koffie en broodjes op zaterdag
+                      en zondag. Planning gebeurt in overleg.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Andere vacature 2 - België -->
+              <article class="article-item"
+                       data-title="Teammanager U17 België begeleider">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Foto teammanager
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Teammanager</div>
+                    <h2 class="article-title">
+                      <a href="#">Teammanager U17 · administratie &amp; planning</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Ondersteun de sportieve staf door communicatie met ouders, wedstrijdformulieren
+                      en praktische organisatie op jou te nemen.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Andere vacature 3 - Nederland -->
+              <article class="article-item"
+                       data-title="Bestuurslid sponsoring Nederland clubbestuur">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Foto bestuur
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Bestuurslid · sponsoring</div>
+                    <h2 class="article-title">
+                      <a href="#">Bestuurslid sponsoring · commerciële cel</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Zoek je een uitdaging naast het veld? Help mee het sponsorbeleid uit te bouwen
+                      en relaties met partners te onderhouden.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
             </div>
           </section>
 
-          <!-- Andere (gratis) vacatures -->
-          <section class="card">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Gratis</div>
-                <div class="card-title">Andere clubvacatures</div>
+          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
+          <aside class="column-right">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertenties</div>
+                  <div class="card-title">Tools &amp; diensten rond rekrutering</div>
+                </div>
+                <span class="pill-small">Betaalde zichtbaarheid</span>
               </div>
-              <span class="pill-small">Basiszichtbaarheid</span>
-            </div>
 
-            <ul class="vac-list">
-              <li class="vac-item">
-                <div class="vac-title">Jeugdtrainer U9 gezocht</div>
-                <div class="vac-meta">
-                  Enthousiaste ouder-trainer of startende coach · begeleiding voorzien.
-                </div>
-                <div class="vac-tags">
-                  <span class="vac-tag">Trainer</span>
-                  <span class="vac-tag">U9</span>
-                </div>
-                <a href="#" class="vac-link">Meer info &amp; contact</a>
-              </li>
-              <li class="vac-item">
-                <div class="vac-title">Teamafgevaardigde U13</div>
-                <div class="vac-meta">
-                  Ondersteuning op wedstrijddagen · contact met ouders en scheidsrechters.
-                </div>
-                <div class="vac-tags">
-                  <span class="vac-tag">Vrijwilliger</span>
-                  <span class="vac-tag">U13</span>
-                </div>
-                <a href="#" class="vac-link">Meer info &amp; contact</a>
-              </li>
-            </ul>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Flyer / logo</div>
+                    <span class="flag-badge">🇧🇪</span>
+                  </div>
+                  <div class="event-title">Matchingsplatform voor trainers</div>
+                  <div class="event-meta">Koppel openstaande clubvacatures aan beschikbare trainersprofielen.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Flyer / logo</div>
+                    <span class="flag-badge">🇳🇱</span>
+                  </div>
+                  <div class="event-title">Vrijwilligersplanning &amp; beheer</div>
+                  <div class="event-meta">Online tool voor shifts, herinneringen en waardering van vrijwilligers.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Flyer / logo</div>
+                    <span class="flag-badge">🌍</span>
+                  </div>
+                  <div class="event-title">Consultancy rond cluborganisatie</div>
+                  <div class="event-meta">Begeleiding rond structuur, HR en vrijwilligersmanagement.</div>
+                </li>
+              </ul>
+            </article>
 
-            <div class="info-card">
-              <div class="card-caption">Hoe werkt het?</div>
-              <p class="note">
-                Gratis vacatures komen in dit overzicht en kunnen via een link gedeeld worden.
-                Wie meer zichtbaarheid wil, kan later altijd upgraden naar een premium positie.
-              </p>
-              <button class="btn-primary">Gratis clubvacature aanmelden</button>
+            <div class="ad-vertical" style="margin-top: 14px;">
+              <div class="ad-label">ADVERTENTIE · CLUBVACATURES ZIJKOLom</div>
+              <div class="ad-placeholder">
+                Extra advertentieruimte voor HR-partners, opleidingscentra en tools voor clubs.<br/>
+                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+              </div>
             </div>
-          </section>
+          </aside>
 
         </div>
       </div>
@@ -386,6 +325,7 @@
           <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
           <div class="footer-legal">
             &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
           </div>
           <div class="footer-social">
             <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
@@ -394,7 +334,7 @@
         </div>
         <div class="footer-ad">
           FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Interessant voor opleidingspartners of jobplatformen.</span>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
         </div>
       </div>
     </div>
@@ -403,7 +343,27 @@
 </div>
 
 <script>
+  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Eenvoudige zoekfunctie voor clubvacatures
+  const vacatureSearchInput = document.getElementById('vacature-search');
+  const vacatureItems = document.querySelectorAll('.article-list .article-item');
+
+  if (vacatureSearchInput && vacatureItems.length) {
+    vacatureSearchInput.addEventListener('input', function () {
+      const query = this.value.toLowerCase().trim();
+
+      vacatureItems.forEach(item => {
+        const text = (item.dataset.title || item.textContent || '').toLowerCase();
+        if (!query || text.includes(query)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  }
 </script>
 </body>
 </html>
