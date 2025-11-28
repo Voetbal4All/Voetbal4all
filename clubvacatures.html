@@ -73,19 +73,41 @@
     </section>
 
     <!-- ZOEKFUNCTIE -->
-    <section class="section-main">
+       <section class="section-main">
       <div class="shell">
-        <div class="search-bar">
+        <div class="search-bar search-bar--advanced">
           <input
             type="text"
             id="vacature-search"
             class="search-input"
-            placeholder="Zoek op functie, club, locatie, niveau, land of trefwoord..."
+            placeholder="Zoek op trefwoord (bv. jeugdtrainer, kantine, bestuur...)"
           />
+          <div class="search-filters-row">
+            <select id="vacature-country" class="search-select">
+              <option value="">Alle landen</option>
+              <option value="BE">België</option>
+              <option value="NL">Nederland</option>
+              <option value="INT">Internationaal</option>
+            </select>
+            <input
+              type="text"
+              id="vacature-region"
+              class="search-input search-input--small"
+              placeholder="Regio (optioneel, bv. Kempen, Limburg)"
+            />
+            <select id="vacature-type" class="search-select">
+              <option value="">Alle functies</option>
+              <option value="jeugdcoordinator">Jeugdcoördinator</option>
+              <option value="hoofdtrainer">Hoofdtrainer / trainer</option>
+              <option value="vrijwilliger">Vrijwilliger</option>
+              <option value="teammanager">Teammanager</option>
+              <option value="bestuurslid">Bestuurslid / sponsoring</option>
+              <option value="advertorial">Partner / advertorial</option>
+            </select>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- VACATURES + ADVERTENTIES -->
     <section class="section-main">
       <div class="shell">
