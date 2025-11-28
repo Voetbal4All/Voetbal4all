@@ -363,28 +363,78 @@
   </footer>
 
 </div>
-
 <script>
   // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Eenvoudige zoekfunctie voor clubvacatures
+  // Uitgebreide zoekfunctie voor clubvacatures
   const vacatureSearchInput = document.getElementById('vacature-search');
+  const vacatureCountrySelect = document.getElementById('vacature-country');
+  const vacatureRegionInput = document.getElementById('vacature-region');
+  const vacatureTypeSelect = document.getElementById('vacature-type');
   const vacatureItems = document.querySelectorAll('.article-list .article-item');
 
-  if (vacatureSearchInput && vacatureItems.length) {
-    vacatureSearchInput.addEventListener('input', function () {
-      const query = this.value.toLowerCase().trim();
+  function getCountryFromVacatureItem(item) {
+    const flagEl = item.querySelector('.flag-badge');
+    const flag = flagEl ? flagEl.textContent.trim() : '';
+    if (flag === '🇧🇪') return 'BE';
+    if (flag === '🇳🇱') return 'NL';
+    if (flag === '🌍')  return 'INT';
+    return '';
+  }
 
-      vacatureItems.forEach(item => {
-        const text = (item.dataset.title || item.textContent || '').toLowerCase();
-        if (!query || text.includes(query)) {
-          item.style.display = '';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+  function getTypeFromVacatureItem(item) {
+    const metaEl = item.querySelector('.article-meta');
+    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+
+    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
+    if (metaText.includes('jeugdcoördinator') || metaText.includes('jeugdcoordinator')) return 'jeugdcoordinator';
+    if (metaText.includes('hoofdtrainer') || metaText.includes('trainer')) return 'hoofdtrainer';
+    if (metaText.includes('vrijwilliger')) return 'vrijwilliger';
+    if (metaText.includes('teammanager')) return 'teammanager';
+    if (metaText.includes('bestuurslid') || metaText.includes('sponsoring')) return 'bestuurslid';
+
+    return '';
+  }
+
+  function applyVacatureFilter() {
+    const textQuery = (vacatureSearchInput?.value || '').toLowerCase().trim();
+    const regionQuery = (vacatureRegionInput?.value || '').toLowerCase().trim();
+    const countryFilter = (vacatureCountrySelect?.value || '').toUpperCase();
+    const typeFilter = (vacatureTypeSelect?.value || '').toLowerCase();
+
+    vacatureItems.forEach(item => {
+      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
+      const itemCountry = getCountryFromVacatureItem(item);
+      const itemType = getTypeFromVacatureItem(item);
+
+      let visible = true;
+
+      if (textQuery && !fullText.includes(textQuery)) {
+        visible = false;
+      }
+
+      if (visible && countryFilter && itemCountry !== countryFilter) {
+        visible = false;
+      }
+
+      if (visible && regionQuery && !fullText.includes(regionQuery)) {
+        visible = false;
+      }
+
+      if (visible && typeFilter && itemType !== typeFilter) {
+        visible = false;
+      }
+
+      item.style.display = visible ? '' : 'none';
     });
+  }
+
+  if (vacatureItems.length) {
+    vacatureSearchInput?.addEventListener('input', applyVacatureFilter);
+    vacatureCountrySelect?.addEventListener('change', applyVacatureFilter);
+    vacatureRegionInput?.addEventListener('input', applyVacatureFilter);
+    vacatureTypeSelect?.addEventListener('change', applyVacatureFilter);
   }
 </script>
 </body>
