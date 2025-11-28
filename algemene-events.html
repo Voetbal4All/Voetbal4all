@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Algemene events - Voetbal4All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+
+  <style>
+    :root {
+      --bg: #050814;
+      --bg-soft: #0b1022;
+      --bg-softer: #10162a;
+      --accent: #18a0fb;
+      --accent-soft: rgba(24, 160, 251, 0.2);
+      --text: #f4f6fc;
+      --muted: #9aa3c1;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+      --radius-lg: 18px;
+      --shadow-subtle: 0 8px 24px rgba(0, 0, 0, 0.45);
+      --max-width: 1200px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #18213d 0, #050814 45%, #020308 100%);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .shell {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* NAVBAR */
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(16px);
+      background: linear-gradient(to bottom, rgba(5, 8, 20, 0.93), rgba(5, 8, 20, 0.85), transparent);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .navbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: radial-gradient(circle at 30% 10%, #ffffff 0, #ffd86f 18%, #ff3366 50%, #050814 100%);
+      box-shadow: 0 0 18px rgba(255, 255, 255, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .brand-text-main {
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      font-size: 18px;
+    }
+
+    .brand-text-sub {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 14px;
+    }
+
+    .nav-link {
+      color: var(--muted);
+      font-weight: 500;
+      padding-bottom: 2px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--text);
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    /* Events actief op alle event-subpagina’s */
+    .nav-link.events-active {
+      color: var(--text);
+      border-color: var(--accent);
+    }
+
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #18a0fb, #00d4ff);
+      color: #020308;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    .nav-cta span:last-child {
+      font-size: 11px;
+      opacity: 0.85;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .nav-burger {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--text);
+      font-size: 22px;
+    }
+
+    /* HERO */
+
+    .page-hero {
+      padding: 22px 0 18px;
+    }
+
+    .page-hero-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-end;
+    }
+
+    .page-hero-main {
+      max-width: 520px;
+    }
+
+    .page-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .page-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .page-sub {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .page-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+      justify-content: flex-end;
+    }
+
+    .chip {
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(2, 3, 8, 0.7);
+      color: var(--muted);
+    }
+
+    .chip-primary {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    /* MAIN LAYOUT */
+
+    .section-main {
+      padding-bottom: 40px;
+    }
+
+    .ad-horizontal {
+      border-radius: var(--radius-lg);
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      font-size: 11px;
+      color: var(--muted);
+      background: rgba(2, 3, 8, 0.8);
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .ad-size {
+      font-size: 10px;
+      display: block;
+      margin-top: 3px;
+      opacity: 0.8;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.4fr);
+      gap: 18px;
+      align-items: flex-start;
+    }
+
+    .card {
+      border-radius: var(--radius-lg);
+      background: var(--bg-soft);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-subtle);
+      padding: 14px;
+      font-size: 13px;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .card-caption {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .pill-small {
+      font-size: 10px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--muted);
+    }
+
+    /* LIJSTEN ALGEMENE EVENTS */
+
+    .events-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 8px;
+    }
+
+    .event-item {
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(5, 8, 20, 0.9);
+      padding: 9px 10px;
+      display: grid;
+      gap: 3px;
+    }
+
+    .event-title {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .event-meta {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .event-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 4px;
+      font-size: 10px;
+    }
+
+    .event-tag {
+      padding: 2px 6px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: var(--muted);
+    }
+
+    .event-link {
+      font-size: 11px;
+      color: var(--accent);
+      margin-top: 3px;
+    }
+
+    /* WEEKENDLIST / INFO */
+
+    .weekend-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 6px;
+      font-size: 12px;
+    }
+
+    .weekend-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      border-radius: 999px;
+      background: rgba(2, 3, 8, 0.85);
+      padding: 5px 8px;
+    }
+
+    .weekend-item span:last-child {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* KNOPPEN */
+
+    .btn-primary {
+      padding: 8px 13px;
+      border-radius: 999px;
+      border: 0;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      background: linear-gradient(135deg, #18a0fb, #00d4ff);
+      color: #020308;
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.45);
+      margin-top: 8px;
+    }
+
+    .btn-secondary {
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 12px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      background: rgba(2, 3, 8, 0.7);
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .note {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    /* === BEGIN EXTRA AD STYLES (EVENTS SUBPAGES) === */
+
+    .ad-vertical {
+      border-radius: 14px;
+      border: 1px dashed rgba(255, 255, 255, 0.25);
+      padding: 12px 10px;
+      font-size: 11px;
+      color: var(--muted);
+      background: rgba(2, 3, 8, 0.9);
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .ad-vertical span {
+      display: block;
+      margin-top: 3px;
+      opacity: 0.85;
+      font-size: 10px;
+    }
+
+    @media (min-width: 900px) {
+      .ad-vertical--sticky {
+        position: sticky;
+        top: 88px;
+      }
+    }
+
+    .ad-infeed {
+      border-radius: 14px;
+      border: 1px dashed rgba(255, 255, 255, 0.25);
+      padding: 10px;
+      font-size: 11px;
+      color: var(--muted);
+      background: rgba(2, 3, 8, 0.9);
+      text-align: center;
+      margin-top: 12px;
+    }
+
+    .ad-infeed span {
+      display: block;
+      margin-top: 3px;
+      opacity: 0.85;
+      font-size: 10px;
+    }
+
+    /* === END EXTRA AD STYLES (EVENTS SUBPAGES) === */
+
+    /* FOOTER */
+
+    .footer {
+      margin-top: auto;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
+      padding: 18px 0 20px;
+      position: sticky;
+      bottom: 0;
+      z-index: 20;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
+      gap: 16px;
+      align-items: center;
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .footer-legal {
+      font-size: 11px;
+      opacity: 0.85;
+    }
+
+    .footer-social {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .footer-social-link {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--muted);
+    }
+
+    .footer-social-link:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .footer-ad {
+      border-radius: var(--radius-lg);
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .navbar-inner { height: 58px; }
+      .nav-links { display: none; }
+      .nav-burger { display: block; }
+
+      .grid-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page-hero-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .weekend-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+          <a href="events.html" class="nav-link events-active">Events</a>
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+          <a href="sportief.html" class="nav-link">Sportief</a>
+          <a href="#footer-contact" class="nav-link">Contact</a>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="page-hero">
+      <div class="shell">
+        <div class="page-hero-header">
+          <div class="page-hero-main">
+            <div class="page-label">Events · algemene events</div>
+            <h1 class="page-title">Infomomenten, pasdagen en opendeurdagen.</h1>
+            <p class="page-sub">
+              Hier bundelen we alle algemene clubactiviteiten: infomomenten, pasdagen, opendeurdagen,
+              startdagen van het seizoen, infosessies voor ouders, … alles wat niet in de andere categorieën valt.
+            </p>
+          </div>
+          <div class="page-filters">
+            <span class="chip chip-primary">Alle algemene events</span>
+            <span class="chip">Infomoment</span>
+            <span class="chip">Pasdag</span>
+            <span class="chip">Seizoensstart</span>
+            <span class="chip">Ouders &amp; vrijwilligers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN -->
+    <section class="section-main">
+      <div class="shell">
+
+        <!-- TOP AD -->
+        <div class="ad-horizontal">
+          ADVERTENTIEZONE · ALGEMENE EVENTS (TOP)
+          <span class="ad-size">Interessant voor sportwinkels, verzekeraars of partners rond jeugd &amp; ouders.</span>
+        </div>
+
+        <div class="grid-layout">
+
+          <!-- LINKS: content + in-feed ad -->
+          <section>
+            <!-- Premium algemene events -->
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Betalend</div>
+                  <div class="card-title">Premium algemene events</div>
+                </div>
+                <span class="pill-small">Extra zichtbaarheid</span>
+              </div>
+
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">Infomoment nieuwe jeugdspelers</div>
+                  <div class="event-meta">
+                    Woensdagavond · kantine · uitleg werking, visie en praktische afspraken. Ideaal voor nieuwe ouders.
+                  </div>
+                  <div class="event-tags">
+                    <span class="event-tag">Infomoment</span>
+                    <span class="event-tag">Jeugd</span>
+                    <span class="event-tag">Premium</span>
+                  </div>
+                  <a href="#" class="event-link">Programma &amp; inschrijving</a>
+                </li>
+
+                <li class="event-item">
+                  <div class="event-title">Grote pasdag · nieuwe collectie</div>
+                  <div class="event-meta">
+                    Zaterdag · samenwerking met sportzaak · passen van wedstrijd- en trainingskledij · promo-acties.
+                  </div>
+                  <div class="event-tags">
+                    <span class="event-tag">Pasdag</span>
+                    <span class="event-tag">Clubkledij</span>
+                    <span class="event-tag">Premium</span>
+                  </div>
+                  <a href="#" class="event-link">Tijdsloten &amp; acties bekijken</a>
+                </li>
+              </ul>
+
+              <p class="note">
+                Premium algemene events komen ook op het eventsoverzicht en kunnen op de homepage in de kijker
+                worden gezet (bijvoorbeeld bij seizoensstart of grote pasdagen).
+              </p>
+
+              <button class="btn-primary">Premium algemeen event aanmelden</button>
+            </article>
+
+            <!-- IN-FEED AD -->
+            <div class="ad-infeed">
+              IN-FEED ADVERTENTIE · ALGEMENE EVENTS
+              <span>Ideaal voor Google AdSense, sportwinkels, verzekeraars of partners in de regio.</span>
+            </div>
+
+            <!-- Andere algemene events -->
+            <article class="card" style="margin-top: 14px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Gratis</div>
+                  <div class="card-title">Andere algemene events</div>
+                </div>
+                <span class="pill-small">Basiszichtbaarheid</span>
+              </div>
+
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">Startdag seizoen</div>
+                  <div class="event-meta">
+                    Zaterdagvoormiddag · ploegenvoorstelling, fun-activiteiten en kennismaking met trainers.
+                  </div>
+                  <div class="event-tags">
+                    <span class="event-tag">Seizoensstart</span>
+                    <span class="event-tag">Jeugd &amp; seniors</span>
+                  </div>
+                  <a href="#" class="event-link">Praktische info &amp; dagindeling</a>
+                </li>
+
+                <li class="event-item">
+                  <div class="event-title">Vrijwilligersmoment</div>
+                  <div class="event-meta">
+                    Donderdagavond · infosessie voor nieuwe en bestaande vrijwilligers (kantine, terrein, events …).
+                  </div>
+                  <div class="event-tags">
+                    <span class="event-tag">Vrijwilligers</span>
+                    <span class="event-tag">Infosessie</span>
+                  </div>
+                  <a href="#" class="event-link">Meer info bij organiserende club</a>
+                </li>
+              </ul>
+
+              <p class="note">
+                Clubs kunnen hier gratis alle andere events plaatsen die niet in tornooien, vriendschappelijke matchen,
+                stages of dinners passen. Zo blijft alles netjes gestructureerd.
+              </p>
+
+              <button class="btn-secondary">Gratis algemeen event aanmelden</button>
+            </article>
+          </section>
+
+          <!-- RECHTS: sticky ad + praktische info -->
+          <aside>
+            <!-- STICKY AD -->
+            <div class="ad-vertical ad-vertical--sticky">
+              ADVERTENTIERUIMTE · ALGEMENE EVENTS
+              <span>Interessant voor sportwinkels, verzekeringen, mutualiteiten en lokale partners.</span>
+            </div>
+
+            <article class="card" style="margin-top: 14px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Praktisch</div>
+                  <div class="card-title">Info voor ouders &amp; leden</div>
+                </div>
+              </div>
+
+              <ul class="weekend-list">
+                <li class="weekend-item">
+                  <span>Aanwezigheid &amp; doelgroep</span>
+                  <span>Per event kan aangegeven worden voor wie het bedoeld is (ouders, spelers, vrijwilligers …).</span>
+                </li>
+                <li class="weekend-item">
+                  <span>Locatie &amp; timing</span>
+                  <span>Duidelijke vermelding van uur, locatie en eventuele inschrijving.</span>
+                </li>
+              </ul>
+
+              <p class="note">
+                In een latere fase kan hier een vaste structuur komen met iconen (doelgroep, locatie, parking,
+                kinderopvang …) voor elk algemeen event.
+              </p>
+            </article>
+
+            <article class="card" style="margin-top: 14px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Structuur</div>
+                  <div class="card-title">Algemene events in Voetbal4All</div>
+                </div>
+              </div>
+              <p class="note">
+                Deze pagina is de verzamelbak voor alle clubactiviteiten die niet zuiver sportief of fundraisend zijn.
+                Vanuit het eventsoverzicht kunnen bezoekers gericht doorklikken naar deze rubriek.
+              </p>
+              <button class="btn-secondary">Terug naar events-overzicht</button>
+            </article>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Extra zichtbaarheid voor partners die clubs ondersteunen.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
