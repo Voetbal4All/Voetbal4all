@@ -229,6 +229,53 @@
       margin-bottom: 16px;
     }
 
+/* === BEGIN EXTRA AD STYLES (EVENTS) === */
+
+.ad-vertical {
+  border-radius: 14px;
+  border: 1px dashed rgba(255, 255, 255, 0.25);
+  padding: 12px 10px;
+  font-size: 11px;
+  color: var(--muted);
+  background: rgba(2, 3, 8, 0.9);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ad-vertical span {
+  display: block;
+  margin-top: 3px;
+  opacity: 0.85;
+  font-size: 10px;
+}
+
+@media (min-width: 900px) {
+  .ad-vertical--sticky {
+    position: sticky;
+    top: 88px; /* kan je later fine-tunen */
+  }
+}
+
+.ad-infeed {
+  border-radius: 14px;
+  border: 1px dashed rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  font-size: 11px;
+  color: var(--muted);
+  background: rgba(2, 3, 8, 0.9);
+  text-align: center;
+  margin-top: 12px;
+}
+
+.ad-infeed span {
+  display: block;
+  margin-top: 3px;
+  opacity: 0.85;
+  font-size: 10px;
+}
+
+/* === END EXTRA AD STYLES (EVENTS) === */
+    
     .ad-size {
       font-size: 10px;
       display: block;
@@ -655,6 +702,12 @@
               </p>
             </article>
 
+              <!-- BEGIN LEFT COLUMN AD BLOCK (EVENTS) -->
+              <div class="ad-vertical ad-vertical--sticky">
+                ADVERTENTIERUIMTE · LINKERKOLOM EVENTS-PAGINA
+                <span>Geschikt voor tornooien, kampen, stages of regionale sponsors.</span>
+              </div>
+              <!-- END LEFT COLUMN AD BLOCK (EVENTS) -->            
             <!-- Premium events op overzicht -->
             <article class="card" style="margin-top: 14px;">
               <div class="card-header">
