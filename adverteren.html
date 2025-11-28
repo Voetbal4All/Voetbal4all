@@ -2,1303 +2,492 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Adverteren op Voetbal4All - Bereik spelers, ouders en clubs</title>
+  <title>Adverteren & sponsoring - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-
-  <style>
-    :root {
-      --bg: #050814;
-      --bg-soft: #0b1022;
-      --bg-softer: #10162a;
-      --accent: #18a0fb;
-      --accent-soft: rgba(24, 160, 251, 0.2);
-      --text: #f4f6fc;
-      --muted: #9aa3c1;
-      --danger: #ff3366;
-      --border-subtle: rgba(255, 255, 255, 0.06);
-      --radius-lg: 18px;
-      --radius-xl: 24px;
-      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.55);
-      --shadow-subtle: 0 8px 24px rgba(0, 0, 0, 0.45);
-      --max-width: 1100px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top left, #18213d 0, #050814 45%, #020308 100%);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    img {
-      max-width: 100%;
-      display: block;
-    }
-
-    .page {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .shell {
-      width: 100%;
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    /* NAVBAR (zelfde als index/artikels) */
-
-    .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      backdrop-filter: blur(16px);
-      background: linear-gradient(to bottom, rgba(5, 8, 20, 0.93), rgba(5, 8, 20, 0.85), transparent);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-    }
-
-    .navbar-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 64px;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .brand-mark {
-      width: 34px;
-      height: 34px;
-      border-radius: 12px;
-      background: radial-gradient(circle at 30% 10%, #ffffff 0, #ffd86f 18%, #ff3366 50%, #050814 100%);
-      box-shadow: 0 0 18px rgba(255, 255, 255, 0.18);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 18px;
-    }
-
-    .brand-text-main {
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      font-size: 18px;
-    }
-
-    .brand-text-sub {
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      font-size: 14px;
-    }
-
-    .nav-link {
-      color: var(--muted);
-      font-weight: 500;
-      padding-bottom: 2px;
-      border-bottom: 2px solid transparent;
-      transition: color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
-    }
-
-    .nav-link:hover {
-      color: var(--text);
-      border-color: var(--accent);
-      transform: translateY(-1px);
-    }
-
-    .nav-link.active {
-      color: var(--text);
-      border-color: var(--accent);
-    }
-
-    .nav-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 7px 14px;
-      border-radius: 999px;
-      background: linear-gradient(135deg, #18a0fb, #00d4ff);
-      color: #020308;
-      font-size: 13px;
-      font-weight: 600;
-      box-shadow: 0 12px 26px rgba(0, 212, 255, 0.45);
-      border: 1px solid rgba(255, 255, 255, 0.16);
-    }
-
-    .nav-cta span:last-child {
-      font-size: 11px;
-      opacity: 0.85;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .nav-burger {
-      display: none;
-      background: none;
-      border: none;
-      color: var(--text);
-      font-size: 22px;
-    }
-
-    /* HERO */
-
-    .hero {
-      padding: 22px 0 20px;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-      gap: 24px;
-      align-items: stretch;
-    }
-
-    .hero-card {
-      background: radial-gradient(circle at top left, rgba(24, 160, 251, 0.27), rgba(5, 8, 20, 0.95));
-      border-radius: var(--radius-xl);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      box-shadow: var(--shadow-soft);
-      padding: 20px 20px 16px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 4px 9px 4px 4px;
-      border-radius: 999px;
-      background: rgba(2, 3, 8, 0.75);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      font-size: 11px;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-
-    .hero-pill-dot {
-      width: 18px;
-      height: 18px;
-      border-radius: 999px;
-      background: radial-gradient(circle at 30% 0, #ffffff 0, #00ff9d 45%, #0077ff 100%);
-      box-shadow: 0 0 14px rgba(0, 255, 157, 0.8);
-    }
-
-    .hero-pill-label {
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-    }
-
-    .hero-title {
-      font-size: clamp(24px, 2.8vw, 30px);
-      line-height: 1.15;
-      margin: 0 0 8px;
-    }
-
-    .hero-title span {
-      background: linear-gradient(135deg, #ffde70, #ff3366);
-      -webkit-background-clip: text;
-      color: transparent;
-    }
-
-    .hero-sub {
-      font-size: 14px;
-      color: var(--muted);
-      max-width: 470px;
-      margin-bottom: 16px;
-    }
-
-    .hero-bullets {
-      display: grid;
-      gap: 6px;
-      font-size: 13px;
-      margin-bottom: 14px;
-    }
-
-    .hero-bullet {
-      display: flex;
-      gap: 8px;
-      align-items: flex-start;
-    }
-
-    .hero-bullet-icon {
-      width: 16px;
-      height: 16px;
-      border-radius: 999px;
-      background: rgba(24, 160, 251, 0.2);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 11px;
-    }
-
-    .hero-ctas {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-
-    .btn-primary {
-      padding: 9px 16px;
-      border-radius: 999px;
-      border: 0;
-      font-size: 14px;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      cursor: pointer;
-      background: linear-gradient(135deg, #18a0fb, #00d4ff);
-      color: #020308;
-      box-shadow: 0 16px 36px rgba(0, 212, 255, 0.55);
-    }
-
-    .btn-secondary {
-      padding: 8px 13px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      font-size: 13px;
-      font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      cursor: pointer;
-      background: rgba(2, 3, 8, 0.65);
-      color: var(--muted);
-    }
-
-    .hero-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .hero-meta strong {
-      color: var(--text);
-    }
-
-    /* Hero sponsor visual */
-
-    .hero-sponsor {
-      border-radius: var(--radius-xl);
-      background:
-        radial-gradient(circle at top right, rgba(255, 255, 255, 0.16), transparent 55%),
-        linear-gradient(145deg, #050814, #111a30);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      box-shadow: var(--shadow-soft);
-      padding: 16px 16px 14px;
-      display: grid;
-      gap: 10px;
-      isolation: isolate;
-    }
-
-    .hero-sponsor-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-    }
-
-    .hero-sponsor-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      background: #ffde70;
-      box-shadow: 0 0 10px rgba(255, 222, 112, 0.8);
-    }
-
-    .hero-sponsor-banner {
-      border-radius: 18px;
-      padding: 16px;
-      background: radial-gradient(circle at 0 0, #ffffff 0, #ffd86f 20%, #ff3366 48%, #050814 100%);
-      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.75);
-      position: relative;
-      overflow: hidden;
-      min-height: 120px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 4px;
-    }
-
-    .hero-sponsor-logo {
-      font-size: 20px;
-      font-weight: 800;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: #050814;
-      text-shadow: 0 0 18px rgba(255, 255, 255, 0.9);
-    }
-
-    .hero-sponsor-copy {
-      font-size: 12px;
-      color: #050814;
-      max-width: 240px;
-    }
-
-    .hero-sponsor-chip {
-      position: absolute;
-      right: 16px;
-      bottom: 14px;
-      padding: 5px 11px;
-      border-radius: 999px;
-      background: rgba(1, 3, 6, 0.92);
-      color: #f4f6fc;
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      border: 1px solid rgba(255, 255, 255, 0.25);
-    }
-
-    .hero-sponsor-metrics {
-      display: grid;
-      gap: 4px;
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    .hero-sponsor-metrics strong {
-      color: var(--text);
-    }
-
-    /* SECTIONS GENERIC */
-
-    .section {
-      padding: 10px 0 28px;
-    }
-
-    .section-header {
-      margin-bottom: 14px;
-    }
-
-    .section-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--muted);
-      margin-bottom: 4px;
-    }
-
-    .section-title {
-      font-size: 18px;
-      font-weight: 600;
-    }
-
-    .section-sub {
-      font-size: 13px;
-      color: var(--muted);
-      max-width: 620px;
-    }
-
-    /* POSITIES GRID */
-
-    .pos-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .pos-card {
-      border-radius: var(--radius-lg);
-      background: var(--bg-soft);
-      border: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-subtle);
-      padding: 12px 12px 10px;
-      font-size: 13px;
-    }
-
-    .pos-tag {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--muted);
-      margin-bottom: 4px;
-    }
-
-    .pos-name {
-      font-size: 14px;
-      font-weight: 600;
-      margin-bottom: 4px;
-    }
-
-    .pos-size {
-      font-size: 11px;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .pos-list {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 8px;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .pos-list li {
-      display: flex;
-      gap: 6px;
-      align-items: flex-start;
-      margin-bottom: 4px;
-    }
-
-    .pos-bullet {
-      width: 4px;
-      height: 4px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.7);
-      margin-top: 6px;
-      flex-shrink: 0;
-    }
-
-    .pos-note {
-      font-size: 11px;
-      color: var(--muted);
-      opacity: 0.9;
-    }
-
-    /* FORMULES */
-
-    .plans-grid {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .plan-card {
-      border-radius: var(--radius-lg);
-      background: var(--bg-soft);
-      border: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-subtle);
-      padding: 12px 12px 11px;
-      font-size: 13px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-
-    .plan-badge {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--muted);
-    }
-
-    .plan-title {
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .plan-focus {
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .plan-price {
-      font-size: 13px;
-      font-weight: 600;
-      margin-top: 4px;
-    }
-
-    .plan-price span {
-      font-size: 11px;
-      font-weight: 400;
-      color: var(--muted);
-    }
-
-    .plan-list {
-      list-style: none;
-      padding: 0;
-      margin: 6px 0 8px;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .plan-list li {
-      display: flex;
-      gap: 6px;
-      margin-bottom: 4px;
-    }
-
-    .plan-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 999px;
-      background: rgba(24, 160, 251, 0.7);
-      margin-top: 4px;
-      flex-shrink: 0;
-    }
-
-    .plan-tagline {
-      font-size: 11px;
-      color: var(--muted);
-      margin-top: auto;
-    }
-
-    .plan-highlight {
-      border-color: rgba(255, 222, 112, 0.8);
-      box-shadow: 0 0 0 1px rgba(255, 222, 112, 0.35), var(--shadow-subtle);
-    }
-
-    /* TABEL */
-
-    .table-wrap {
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      border: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-subtle);
-      background: var(--bg-soft);
-      font-size: 12px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    thead {
-      background: linear-gradient(90deg, rgba(24, 160, 251, 0.2), rgba(255, 51, 102, 0.2));
-    }
-
-    th, td {
-      padding: 7px 10px;
-      text-align: left;
-    }
-
-    th {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--muted);
-    }
-
-    tbody tr:nth-child(odd) {
-      background: rgba(255, 255, 255, 0.01);
-    }
-
-    tbody tr:nth-child(even) {
-      background: rgba(255, 255, 255, 0.03);
-    }
-
-    td {
-      border-top: 1px solid rgba(255, 255, 255, 0.03);
-      color: var(--muted);
-    }
-
-    td strong {
-      color: var(--text);
-    }
-
-    /* CONTACT / CTA */
-
-    .cta {
-      border-radius: var(--radius-xl);
-      background: radial-gradient(circle at top right, rgba(24, 160, 251, 0.3), rgba(5, 8, 20, 0.96));
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: var(--shadow-soft);
-      padding: 18px 18px 16px;
-      display: grid;
-      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr);
-      gap: 18px;
-      align-items: center;
-      font-size: 13px;
-    }
-
-    .cta-title {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 4px;
-    }
-
-    .cta-sub {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 10px;
-    }
-
-    .cta-meta {
-      font-size: 11px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .cta-contact {
-      display: grid;
-      gap: 6px;
-      font-size: 13px;
-    }
-
-    .cta-contact label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--muted);
-    }
-
-    .cta-contact a {
-      font-weight: 600;
-      color: var(--accent);
-    }
-
-    .cta-note {
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    /* FOOTER */
-
-    .footer {
-      margin-top: auto;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
-      padding-top: 18px;
-      padding-bottom: 20px;
-      position: sticky;
-      bottom: 0;
-      z-index: 20;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
-      gap: 16px;
-      align-items: center;
-    }
-
-    .footer-brand {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .footer-legal {
-      font-size: 11px;
-      opacity: 0.85;
-    }
-
-    .footer-social {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 6px;
-    }
-
-    .footer-social-link {
-      font-size: 11px;
-      padding: 4px 8px;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      color: var(--muted);
-    }
-
-    .footer-social-link:hover {
-      border-color: var(--accent);
-      color: var(--text);
-    }
-
-    .footer-ad {
-      border-radius: var(--radius-lg);
-      border: 1px dashed rgba(255, 255, 255, 0.2);
-      padding: 10px;
-      text-align: center;
-    }
-
-    /* RESPONSIVE */
-
-    @media (max-width: 900px) {
-      .hero-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .cta {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .pos-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .plans-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .footer-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .navbar-inner { height: 58px; }
-      .nav-links { display: none; }
-      .nav-burger { display: block; }
-    }
-
-    @media (max-width: 720px) {
-      .section {
-        padding-bottom: 22px;
-      }
-
-      .pos-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .plans-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-    }
-  </style>
+  <!-- Hoofd-stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page">
+<div class="page">
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-      <div class="shell">
-        <div class="navbar-inner">
-          <a href="index.html" class="brand">
-            <div class="brand-mark">V4</div>
-            <div>
-              <div class="brand-text-main">Voetbal4All</div>
-              <div class="brand-text-sub">Football · Data · Clubs</div>
-            </div>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+          <a href="events.html" class="nav-link">Events</a>
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+          <a href="sportief.html" class="nav-link">Sportief</a>
+          <a href="adverteren.html" class="nav-link nav-link--active">Adverteren</a>
+          <a href="#footer-contact" class="nav-link">Contact</a>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
           </a>
+        </nav>
 
-          <nav class="nav-links">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="artikels.html" class="nav-link">Artikels</a>
-            <a href="events.html" class="nav-link">Events</a>
-            <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-            <a href="trainers.html" class="nav-link">Trainers</a>
-            <a href="spelers.html" class="nav-link">Spelers</a>
-            <a href="sportief.html" class="nav-link">Sportief</a>
-            <a href="#contact" class="nav-link">Contact</a>
-
-            <a href="adverteren.html" class="nav-cta">
-              <span>Adverteren</span>
-              <span>Hoofdsponsor &amp; Ads</span>
-            </a>
-          </nav>
-
-          <button class="nav-burger" aria-label="Menu">
-            ☰
-          </button>
-        </div>
+        <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- HERO -->
-    <main>
-      <section class="hero">
-        <div class="shell">
-          <div class="hero-grid">
-            <div class="hero-card">
-              <div class="hero-pill">
-                <div class="hero-pill-dot"></div>
-                <span class="hero-pill-label">Adverteer op Voetbal4All</span>
-                <span>Bereik spelers, ouders &amp; clubs tegelijk</span>
+  <main>
+
+    <!-- HERO / INTRO -->
+    <section class="section-main">
+      <div class="shell">
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Adverteren &amp; sponsoring</div>
+              <div class="card-title">Bereik clubs, trainers, spelers &amp; ouders op één platform.</div>
+            </div>
+            <span class="pill-small">België · Nederland · internationaal</span>
+          </div>
+          <p class="note">
+            Voetbal4All brengt alle voetbalcommunicatie samen: clubvacatures, trainers, spelers, tornooien,
+            vriendschappelijke wedstrijden, stages en clubavonden. Ideaal om jouw merk, product of dienst
+            zichtbaar te maken bij een heel gerichte doelgroep.
+          </p>
+
+          <div class="hero-actions" style="margin-top: 10px; display:flex; flex-wrap:wrap; gap:8px;">
+            <a href="#formules" class="btn-primary">Bekijk advertentieformules</a>
+            <a href="#contact-advertising" class="btn-secondary">Offerte of voorstel aanvragen</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- OVERZICHT BELANGRIJKSTE POSITIES -->
+    <section class="section-main" id="formules">
+      <div class="shell">
+
+        <div class="section-header-row" style="display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:12px;">
+          <div>
+            <div class="card-caption">Formules</div>
+            <h2 class="page-title" style="font-size:20px;margin:4px 0 0;">Overzicht van advertentiezones op Voetbal4All</h2>
+          </div>
+          <span class="pill-small">Hoofdsponsor · premium · partners · AdSense</span>
+        </div>
+
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);">
+
+          <!-- LINKERKOLOM: FORMULES -->
+          <section class="column-middle">
+            <div class="article-list">
+
+              <!-- Hoofdsponsor -->
+              <article class="article-item">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Hoofdsponsor header
+                    </div>
+                    <div class="home-article-flag">
+                      <!-- voorbeeld: internationaal -->
+                      <span class="flag-badge">🌍</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Toppositie · uniek · maximale zichtbaarheid</div>
+                    <h2 class="article-title">
+                      <a href="#contact-advertising">Hoofdsponsor · header &amp; grote merkvermelding</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Een exclusieve hoofdsponsor krijgt de prominente headerzone op de homepage,
+                      gecombineerd met zichtbaarheid in de top advertentiebanner en vaste vermelding
+                      op meerdere themapagina’s. Ideaal voor één merk dat écht top-of-mind wil zijn.
+                    </p>
+                    <p class="article-excerpt">
+                      <strong>Voorbeeldplaatsen:</strong> header-blok op de homepage, grote horizontale banner
+                      boven premium blokken, vermelding bij “Over het platform”, footervermelding.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Premium posities -->
+              <article class="article-item">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Premium zone (flyer + vlag)
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Premium · homepage &amp; themapagina’s</div>
+                    <h2 class="article-title">
+                      <a href="#premium-zones">Premium advertentieblokken per thema</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Premium advertenties staan tussen de belangrijkste content: bovenaan de homepage,
+                      bij clubvacatures, trainers, spelers, events of sportieve tools. Elke premium advertentie
+                      toont een flyer/foto + landvlag (België, Nederland of internationaal).
+                    </p>
+                    <p class="article-excerpt">
+                      <strong>Voorbeelden:</strong> 
+                      premium clubvacatures, premium events, premium trainers en spelers, etalageblokken
+                      op pagina’s voor tornooien, stages en dinners.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Partner / sidebar & footer -->
+              <article class="article-item">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      Sidebar / footer partner
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">Partners · sidebar &amp; footer</div>
+                    <h2 class="article-title">
+                      <a href="#partner-zones">Partnerzones in zijkolommen &amp; footer</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      In de rechterkolom en in de footer komen partnerblokken: ideaal voor leveranciers,
+                      opleidingspartners, analyse-tools, drukwerk, catering of verzekeringen. Ook hier
+                      werken we met flyer/foto + vlag en duidelijke korte tekst.
+                    </p>
+                    <p class="article-excerpt">
+                      <strong>Voorbeelden:</strong> 
+                      GPS-vesten, video-analyse, drukwerk voor tornooien, traiteurs, kamporganisaties...
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- In-feed / AdSense-ready -->
+              <article class="article-item">
+                <div class="home-article-card">
+                  <div class="home-article-media">
+                    <div class="home-article-image">
+                      In-feed advertentie
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🌍</span>
+                    </div>
+                  </div>
+                  <div class="home-article-content">
+                    <div class="article-meta">In-feed · AdSense-ready</div>
+                    <h2 class="article-title">
+                      <a href="#adsense-ready">In-feed advertenties &amp; Google AdSense integratie</a>
+                    </h2>
+                    <p class="article-excerpt">
+                      Tussen contentblokken voorzien we ruimte voor in-feed advertenties. Deze zones kunnen
+                      ingevuld worden met Google AdSense of met specifieke campagnes voor één partner.
+                    </p>
+                    <p class="article-excerpt">
+                      <strong>Belangrijk:</strong> layout en posities zijn reeds voorzien, technische integratie
+                      kan later toegevoegd worden zonder het platform opnieuw te ontwerpen.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </section>
+
+          <!-- RECHTERKOLOM: VISUEEL OVERZICHT / PACKS -->
+          <aside class="column-right" id="premium-zones">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Pakketten</div>
+                  <div class="card-title">Mogelijke advertentiepakketten</div>
+                </div>
+                <span class="pill-small">Indicatief · op maat</span>
               </div>
 
-              <h1 class="hero-title">
-                De juiste doelgroep,<br>
-                <span>op het perfecte voetbalmoment.</span>
-              </h1>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Hoofdsponsor flyer</div>
+                    <span class="flag-badge">🌍</span>
+                  </div>
+                  <div class="event-title">Hoofdsponsor pakket</div>
+                  <div class="event-meta">
+                    Header + topbanner + vaste vermelding op meerdere pagina’s.
+                    1 merk, maximale zichtbaarheid.
+                  </div>
+                </li>
 
-              <p class="hero-sub">
-                Voetbal4All brengt nieuws, tools en clubcommunicatie samen. Ideaal
-                voor merken die zichtbaar willen zijn op het moment dat spelers,
-                ouders, trainers en clubs écht bezig zijn met voetbal.
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Premium blok</div>
+                    <span class="flag-badge">🇧🇪</span>
+                  </div>
+                  <div class="event-title">Premium pakket België</div>
+                  <div class="event-meta">
+                    Meerdere premium blokken voor Belgische clubs, events of partners
+                    (homepage + relevante themapagina’s).
+                  </div>
+                </li>
+
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">Premium blok</div>
+                    <span class="flag-badge">🇳🇱</span>
+                  </div>
+                  <div class="event-title">Premium pakket Nederland</div>
+                  <div class="event-meta">
+                    Gericht op Nederlandse clubs, trainers &amp; spelers, met focus op de
+                    Nederlandse markt en events.
+                  </div>
+                </li>
+
+                <li class="event-item">
+                  <div class="event-media-row">
+                    <div class="event-thumb">In-feed / AdSense</div>
+                    <span class="flag-badge">🌍</span>
+                  </div>
+                  <div class="event-title">In-feed &amp; AdSense pakket</div>
+                  <div class="event-meta">
+                    Combinatie van in-feed advertenties met AdSense-inkomsten en maatwerkcampagnes.
+                  </div>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" id="partner-zones" style="margin-top:14px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Branding</div>
+                  <div class="card-title">Vlaggen &amp; landenfocus</div>
+                </div>
+                <span class="pill-small">Land / regio / internationaal</span>
+              </div>
+              <p class="note">
+                In alle advertentieblokken werken we met een kleine vlagbadge:
+              </p>
+              <ul class="list-links">
+                <li>
+                  <span style="display:flex;justify-content:space-between;gap:8px;">
+                    <span>🇧🇪 België</span>
+                    <span>Clubs, trainers &amp; spelers in België</span>
+                  </span>
+                </li>
+                <li>
+                  <span style="display:flex;justify-content:space-between;gap:8px;">
+                    <span>🇳🇱 Nederland</span>
+                    <span>Clubs, trainers &amp; spelers in Nederland</span>
+                  </span>
+                </li>
+                <li>
+                  <span style="display:flex;justify-content:space-between;gap:8px;">
+                    <span>🌍 Internationaal</span>
+                    <span>Internationale partners &amp; tools</span>
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ADSENSE-READY UITLEG -->
+    <section class="section-main" id="adsense-ready">
+      <div class="shell">
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Technische layout</div>
+              <div class="card-title">AdSense-ready &amp; flexibel voor campagnes op maat.</div>
+            </div>
+            <span class="pill-small">Zonder de user experience te breken</span>
+          </div>
+
+          <p class="note">
+            In de homepage en themapagina’s zijn de advertentiezones zo ontworpen dat ze later
+            eenvoudig gevuld kunnen worden met:
+          </p>
+
+          <ul class="list-links" style="margin-top:8px;">
+            <li>
+              <a href="#formules">
+                <span>In-feed advertenties</span>
+                <span>tussen contentblokken</span>
+              </a>
+            </li>
+            <li>
+              <a href="#formules">
+                <span>Header- en topbanners</span>
+                <span>maximaal zichtbaar</span>
+              </a>
+            </li>
+            <li>
+              <a href="#partner-zones">
+                <span>Sidebar &amp; footer</span>
+                <span>voor langdurige partners</span>
+              </a>
+            </li>
+          </ul>
+
+          <p class="note" style="margin-top:10px;">
+            Technisch kan je later <strong>Google AdSense</strong> of een andere adserver integreren
+            in de voorziene containers (<code>.ad-horizontal</code>, <code>.ad-vertical</code>,
+            <code>.ad-infeed</code>, partnercards). De styling is alvast volledig afgestemd op het
+            Voetbal4All-platform.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT / OFFERTE -->
+    <section class="section-main" id="contact-advertising">
+      <div class="shell">
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1.5fr) minmax(0,1.1fr);">
+
+          <!-- LINKERKOLOM: CONTACTINFO -->
+          <section class="column-middle">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Contact</div>
+                  <div class="card-title">Voorstel op maat of reservatie van advertentiezones.</div>
+                </div>
+                <span class="pill-small">Persoonlijk contact</span>
+              </div>
+
+              <p class="note">
+                Wil je als hoofdsponsor instappen, een premium pakket reserveren of
+                de mogelijkheden als partner verkennen? Laat je gegevens achter en
+                we maken een voorstel dat past bij jouw doelgroep, budget en timing.
               </p>
 
-              <div class="hero-bullets">
-                <div class="hero-bullet">
-                  <div class="hero-bullet-icon">⚽</div>
-                  <div>
-                    Gericht bereik bij jeugd- en amateurvoetbal: spelers, ouders, trainers en bestuur.
-                  </div>
-                </div>
-                <div class="hero-bullet">
-                  <div class="hero-bullet-icon">📈</div>
-                  <div>
-                    Commerciële posities op key-plaatsen: hero-hoofdsponsor, sidebar, in-content &amp; footer.
-                  </div>
-                </div>
-                <div class="hero-bullet">
-                  <div class="hero-bullet-icon">🤝</div>
-                  <div>
-                    Formules op maat: van korte campagne tot exclusieve hoofdsponsor.
-                  </div>
-                </div>
+              <div style="margin-top:10px;font-size:13px;">
+                <p><strong>Praktisch:</strong></p>
+                <ul>
+                  <li>Beschrijf kort wat je wil promoten (merk, product, event, dienst).</li>
+                  <li>Geef aan of je focus ligt op België, Nederland of internationaal.</li>
+                  <li>Vermeld eventueel gewenste timing (bv. “voorjaar”, “seizoensstart”, “tornooiperiode”).</li>
+                </ul>
               </div>
 
-              <div class="hero-ctas">
-                <a href="#contact" class="btn-primary">
-                  Vraag sponsordossier aan
+              <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;">
+                <a href="mailto:info@voetbal4all.be?subject=Advertentie%20of%20samenwerking%20Voetbal4All" class="btn-primary">
+                  Contact via e-mail
                 </a>
                 <a href="#formules" class="btn-secondary">
-                  Bekijk formules
+                  Formules opnieuw bekijken
                 </a>
               </div>
+            </article>
+          </section>
 
-              <div class="hero-meta">
-                <span><strong>Focus</strong>&nbsp;online bereik</span>
-                <span><strong>Posities</strong>&nbsp;premium &amp; flexibel</span>
-                <span><strong>Combineerbaar</strong>&nbsp;clubs &amp; acties</span>
-              </div>
-            </div>
-
-            <aside class="hero-sponsor">
-              <div class="hero-sponsor-header">
+          <!-- RECHTERKOLOM: SIMPEL FORMULIER MOCKUP -->
+          <aside class="column-right">
+            <article class="card">
+              <div class="card-header">
                 <div>
-                  <span class="hero-sponsor-dot"></span>
-                  HOOFDSPONSOR HERO-POSITIE
+                  <div class="card-caption">Simulatie</div>
+                  <div class="card-title">Wat wil je ongeveer doen?</div>
                 </div>
-                <div>Altijd boven de content</div>
+                <span class="pill-small">Indicatief</span>
               </div>
 
-              <div class="hero-sponsor-banner">
-                <div class="hero-sponsor-logo">JOUW MERK</div>
-                <div class="hero-sponsor-copy">
-                  Exclusieve hero-banner op de homepage van Voetbal4All, zichtbaar
-                  voor elke bezoeker bij het openen van de site.
+              <div class="note">
+                Dit is een mockup van hoe een eenvoudig formulier er later kan uitzien.
+                Voor nu kan je dezelfde info gewoon via mail doorgeven.
+              </div>
+
+              <div style="margin-top:10px;display:grid;gap:8px;font-size:13px;">
+                <div>
+                  <div style="margin-bottom:4px;">Doelgroep</div>
+                  <select class="search-select">
+                    <option>Clubs</option>
+                    <option>Trainers</option>
+                    <option>Spelers &amp; ouders</option>
+                    <option>Combinatie / alles</option>
+                  </select>
                 </div>
-                <div class="hero-sponsor-chip">
-                  Exclusief · Max. 1 hoofdsponsor
+                <div>
+                  <div style="margin-bottom:4px;">Markt</div>
+                  <select class="search-select">
+                    <option>België</option>
+                    <option>Nederland</option>
+                    <option>BeNe</option>
+                    <option>Internationaal</option>
+                  </select>
+                </div>
+                <div>
+                  <div style="margin-bottom:4px;">Type zichtbaarheid</div>
+                  <select class="search-select">
+                    <option>Hoofdsponsor</option>
+                    <option>Premium advertenties</option>
+                    <option>Sidebar &amp; footerpartner</option>
+                    <option>In-feed / campagne op maat</option>
+                  </select>
                 </div>
               </div>
 
-              <div class="hero-sponsor-metrics">
-                <div><strong>Perfect voor:</strong> merken in sport, voeding, gezondheid, lifestyle, education.</div>
-                <div><strong>Combinatie:</strong> mogelijk met sidebar-, in-content- en footerbanners.</div>
-              </div>
-            </aside>
-          </div>
-        </div>
-      </section>
-
-      <!-- POSITIES -->
-      <section class="section">
-        <div class="shell">
-          <div class="section-header">
-            <div class="section-label">Advertentieposities</div>
-            <h2 class="section-title">Zichtbare plekken, logisch geïntegreerd.</h2>
-            <p class="section-sub">
-              Alle advertentieposities zijn opgebouwd rond hoe bezoekers écht door de site bewegen:
-              bovenaan, tussen de content en in de sidebar. Hieronder een overzicht van de belangrijkste zones.
-            </p>
-          </div>
-
-          <div class="pos-grid">
-            <div class="pos-card">
-              <div class="pos-tag">Positie 1</div>
-              <div class="pos-name">Hoofdsponsor hero-banner</div>
-              <div class="pos-size">Volledige breedte · boven de fold</div>
-              <ul class="pos-list">
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Grote hero-banner bovenaan de homepage.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Sterke merkimpact, eerste zicht voor elke bezoeker.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Ideaal te combineren met activatiecampagnes of leadgeneratie.</div>
-                </li>
-              </ul>
-              <div class="pos-note">
-                Exclusieve positie – maximaal één hoofdsponsor tegelijk.
-              </div>
-            </div>
-
-            <div class="pos-card">
-              <div class="pos-tag">Positie 2</div>
-              <div class="pos-name">Header- &amp; topbanners</div>
-              <div class="pos-size">728x90 · 970x90 · responsive</div>
-              <ul class="pos-list">
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Banner net onder de hero of direct onder de navigatie.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Ideaal voor AdSense of vaste campagnedeals.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Goed zichtbaar bij start van een sessie.</div>
-                </li>
-              </ul>
-              <div class="pos-note">
-                Combineerbaar met sidebar- en footerposities.
-              </div>
-            </div>
-
-            <div class="pos-card">
-              <div class="pos-tag">Positie 3</div>
-              <div class="pos-name">Sticky sidebar skyscraper</div>
-              <div class="pos-size">300x600 · 160x600 · responsive</div>
-              <ul class="pos-list">
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Blijft zichtbaar terwijl de bezoeker scrolt.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Perfect voor branding en retargeting-campagnes.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Werkt goed in combinatie met in-content units.</div>
-                </li>
-              </ul>
-              <div class="pos-note">
-                Interessant voor langere looptijden.
-              </div>
-            </div>
-
-            <div class="pos-card">
-              <div class="pos-tag">Positie 4</div>
-              <div class="pos-name">In-content advertenties</div>
-              <div class="pos-size">In-feed · in-article units</div>
-              <ul class="pos-list">
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Tussen artikels of alinea’s binnen een artikel.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Sluiten aan bij de leesflow van de bezoeker.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Ideaal voor performancecampagnes en AdSense.</div>
-                </li>
-              </ul>
-              <div class="pos-note">
-                Frequent zichtbaar voor terugkerende bezoekers.
-              </div>
-            </div>
-
-            <div class="pos-card">
-              <div class="pos-tag">Positie 5</div>
-              <div class="pos-name">Footerbanner</div>
-              <div class="pos-size">728x90 · 970x90 · responsive</div>
-              <ul class="pos-list">
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Zichtbaar voor bezoekers die een pagina volledig doorlopen.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Ideaal voor merkherkenning &amp; secundaire boodschappen.</div>
-                </li>
-              </ul>
-              <div class="pos-note">
-                Goed te combineren met altijd-aan campagnes.
-              </div>
-            </div>
-
-            <div class="pos-card">
-              <div class="pos-tag">Extra</div>
-              <div class="pos-name">Acties &amp; co-branded content</div>
-              <div class="pos-size">Custom · in overleg</div>
-              <ul class="pos-list">
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Gesponsorde artikels, tools of downloads voor clubs.</div>
-                </li>
-                <li>
-                  <div class="pos-bullet"></div>
-                  <div>Wedstrijden, leadforms, of branded contentpagina’s.</div>
-                </li>
-              </ul>
-              <div class="pos-note">
-                Perfect om campagnes te koppelen aan concrete clubwerking.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- FORMULES -->
-      <section class="section" id="formules">
-        <div class="shell">
-          <div class="section-header">
-            <div class="section-label">Formules</div>
-            <h2 class="section-title">Kies een formule die past bij je doel.</h2>
-            <p class="section-sub">
-              Onderstaande formules zijn indicatief. In het sponsordossier werken we concrete looptijden,
-              bereikinschattingen en tarieven uit. Formules zijn combineerbaar en aanpasbaar.
-            </p>
-          </div>
-
-          <div class="plans-grid">
-            <article class="plan-card plan-highlight">
-              <div class="plan-badge">Premium</div>
-              <div class="plan-title">Hoofdsponsor</div>
-              <div class="plan-focus">
-                Maximale zichtbaarheid met hero-banner en prominente aanwezigheid op de site.
-              </div>
-              <div class="plan-price">
-                Tarief op aanvraag<br>
-                <span>Exclusief · min. looptijd 6 of 12 maanden</span>
-              </div>
-              <ul class="plan-list">
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Hero-hoofdsponsor op de homepage.</div>
-                </li>
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Combinatie met sidebar- en footerbanner.</div>
-                </li>
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Mogelijkheid tot co-branded content of tools.</div>
-                </li>
-              </ul>
-              <div class="plan-tagline">
-                Ideaal voor merken die zich structureel willen verbinden aan Voetbal4All.
-              </div>
+              <p class="note" style="margin-top:10px;">
+                Op basis van deze drie parameters kan later automatisch een voorstel getoond worden.
+                Voor nu wordt alles nog persoonlijk opgevolgd.
+              </p>
             </article>
+          </aside>
 
-            <article class="plan-card">
-              <div class="plan-badge">Bereik</div>
-              <div class="plan-title">Bannerpakket</div>
-              <div class="plan-focus">
-                Combinatie van header-, in-content- en footerbanners.
-              </div>
-              <div class="plan-price">
-                Maandelijks pakket<br>
-                <span>Afhankelijk van aantal impressies / periode</span>
-              </div>
-              <ul class="plan-list">
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>1–2 header/topbanners per pagina.</div>
-                </li>
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>In-content units op artikels.</div>
-                </li>
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Footerbanner voor merkherkenning.</div>
-                </li>
-              </ul>
-              <div class="plan-tagline">
-                Interessant voor campagnes met focus op zichtbaarheid en traffic.
-              </div>
-            </article>
-
-            <article class="plan-card">
-              <div class="plan-badge">Performance</div>
-              <div class="plan-title">Sidebar &amp; retargeting</div>
-              <div class="plan-focus">
-                Sticky skyscrapers in de sidebar, ideaal voor lange zichtbaarheid.
-              </div>
-              <div class="plan-price">
-                Maandelijks / kwartaal<br>
-                <span>Afhankelijk van posities &amp; aantal impressies</span>
-              </div>
-              <ul class="plan-list">
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>1 vaste sidebarpositie per pagina.</div>
-                </li>
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Combineerbaar met programmatic/retargeting.</div>
-                </li>
-              </ul>
-              <div class="plan-tagline">
-                Ideaal wanneer je top-of-mind wil blijven bij terugkerende bezoekers.
-              </div>
-            </article>
-
-            <article class="plan-card">
-              <div class="plan-badge">Instap</div>
-              <div class="plan-title">Campagne op maat</div>
-              <div class="plan-focus">
-                Korte actie, seizoenscampagne of testperiode? We denken graag mee.
-              </div>
-              <div class="plan-price">
-                Flexibel<br>
-                <span>Formule op maat van jouw budget</span>
-              </div>
-              <ul class="plan-list">
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Combinatie van 1–2 posities naar keuze.</div>
-                </li>
-                <li>
-                  <div class="plan-dot"></div>
-                  <div>Mogelijkheid tot koppeling aan één specifiek thema.</div>
-                </li>
-              </ul>
-              <div class="plan-tagline">
-                Goed om kennis te maken met Voetbal4All als nieuw kanaal.
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- VERGELIJKINGSTABEL -->
-      <section class="section">
-        <div class="shell">
-          <div class="section-header">
-            <div class="section-label">Overzicht</div>
-            <h2 class="section-title">Welke formule past bij jou?</h2>
-            <p class="section-sub">
-              Hieronder vind je een samenvattend overzicht. In het volledige sponsordossier komen
-              concrete cijfers, periodes en detailvoorwaarden.
-            </p>
-          </div>
-
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Formule</th>
-                  <th>Posities</th>
-                  <th>Looptijd</th>
-                  <th>Exclusiviteit</th>
-                  <th>Doel</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><strong>Hoofdsponsor</strong></td>
-                  <td>Hero + sidebar + footer</td>
-                  <td>6–12 maanden</td>
-                  <td>Ja, 1 hoofdsponsor</td>
-                  <td>Branding &amp; lange termijn zichtbaarheid</td>
-                </tr>
-                <tr>
-                  <td><strong>Bannerpakket</strong></td>
-                  <td>Header + in-content + footer</td>
-                  <td>1–3 maanden</td>
-                  <td>Gedeeld</td>
-                  <td>Bereik &amp; verkeer naar je site</td>
-                </tr>
-                <tr>
-                  <td><strong>Sidebar &amp; retargeting</strong></td>
-                  <td>Sticky sidebar skyscraper</td>
-                  <td>1–3 maanden of langer</td>
-                  <td>Beperkt / in overleg</td>
-                  <td>Consistente zichtbaarheid</td>
-                </tr>
-                <tr>
-                  <td><strong>Campagne op maat</strong></td>
-                  <td>1–2 posities naar keuze</td>
-                  <td>Flexibel</td>
-                  <td>In overleg</td>
-                  <td>Acties, lanceringen of testcampagnes</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <!-- CONTACT / CTA -->
-      <section class="section" id="contact">
-        <div class="shell">
-          <div class="cta">
-            <div>
-              <div class="cta-title">Sponsordossier ontvangen of meteen praten?</div>
-              <div class="cta-sub">
-                Laat van je horen en we bezorgen je een kort en duidelijk overzicht met
-                posities, mogelijke combinaties en richtprijzen. Op basis van jouw doelen
-                werken we een concreet voorstel uit.
-              </div>
-              <div class="cta-meta">
-                Volgende stap · vrijblijvende verkenning
-              </div>
-            </div>
-            <div class="cta-contact">
-              <div>
-                <label>E-mail</label><br>
-                <a href="mailto:contact@voetbal4all.be">contact@voetbal4all.be</a>
-              </div>
-              <div>
-                <label>Onderwerp</label><br>
-                <span>“Sponsordossier Voetbal4All”</span>
-              </div>
-              <div class="cta-note">
-                Geef kort aan wie je wil bereiken, periode en eventueel budget. We antwoorden met een concreet voorstel.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer" id="footer-contact">
-      <div class="shell">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-            <div class="footer-legal">
-              &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-              · Informatie op deze pagina is indicatief en kan aangepast worden.
-            </div>
-            <div class="footer-social">
-              <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-              <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
-            </div>
-          </div>
-          <div class="footer-ad">
-            FOOTER ADVERTENTIE / PARTNERLOGO<br>
-            <span class="ad-size">Mogelijke extra bannerpositie of logo-overzicht van partners.</span>
-          </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-  </div>
+  </main>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
+          </div>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  // Jaar in footer
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
