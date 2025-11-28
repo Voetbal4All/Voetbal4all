@@ -300,24 +300,72 @@
   // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Eenvoudige zoekfunctie voor artikels
-  const searchInput = document.getElementById('article-search');
+  // Uitgebreide zoekfunctie voor artikels
+  const articleSearchInput = document.getElementById('article-search');
+  const articleCountrySelect = document.getElementById('article-country');
+  const articleRegionInput = document.getElementById('article-region');
+  const articleTypeSelect = document.getElementById('article-type');
   const articleItems = document.querySelectorAll('.article-list .article-item');
 
-  if (searchInput && articleItems.length) {
-    searchInput.addEventListener('input', function () {
-      const query = this.value.toLowerCase().trim();
+  function getCountryFromItem(item) {
+    const flagEl = item.querySelector('.flag-badge');
+    const flag = flagEl ? flagEl.textContent.trim() : '';
+    if (flag === '🇧🇪') return 'BE';
+    if (flag === '🇳🇱') return 'NL';
+    if (flag === '🌍')  return 'INT';
+    return '';
+  }
 
-      articleItems.forEach(item => {
-        const text = (item.dataset.title || item.textContent || '').toLowerCase();
-        if (!query || text.includes(query)) {
-          item.style.display = '';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+  function getTypeFromArticleItem(item) {
+    const metaEl = item.querySelector('.article-meta');
+    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+
+    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
+    if (metaText.includes('vrijwilliger')) return 'vrijwilligers';
+    if (metaText.includes('internationaal')) return 'internationaal';
+    if (metaText.includes('events') || metaText.includes('communicatie')) return 'events';
+
+    return '';
+  }
+
+  function applyArticleFilter() {
+    const textQuery = (articleSearchInput?.value || '').toLowerCase().trim();
+    const regionQuery = (articleRegionInput?.value || '').toLowerCase().trim();
+    const countryFilter = (articleCountrySelect?.value || '').toUpperCase();
+    const typeFilter = (articleTypeSelect?.value || '').toLowerCase();
+
+    articleItems.forEach(item => {
+      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
+      const itemCountry = getCountryFromItem(item);   // BE / NL / INT / ''
+      const itemType = getTypeFromArticleItem(item);  // events / vrijwilligers / internationaal / advertorial / ''
+
+      let visible = true;
+
+      if (textQuery && !fullText.includes(textQuery)) {
+        visible = false;
+      }
+
+      if (visible && countryFilter && itemCountry !== countryFilter) {
+        visible = false;
+      }
+
+      if (visible && regionQuery && !fullText.includes(regionQuery)) {
+        visible = false;
+      }
+
+      if (visible && typeFilter && itemType !== typeFilter) {
+        visible = false;
+      }
+
+      item.style.display = visible ? '' : 'none';
     });
   }
-</script>
-</body>
+
+  if (articleItems.length) {
+    articleSearchInput?.addEventListener('input', applyArticleFilter);
+    articleCountrySelect?.addEventListener('change', applyArticleFilter);
+    articleRegionInput?.addEventListener('input', applyArticleFilter);
+    articleTypeSelect?.addEventListener('change', applyArticleFilter);
+  }
+</script></body>
 </html>
