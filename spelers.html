@@ -2,128 +2,282 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Spelersprofielen</title>
+  <title>Spelers - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    :root {
+      --bg: #050814;
+      --bg-soft: #0b1022;
+      --bg-softer: #10162a;
+      --accent: #18a0fb;
+      --accent-soft: rgba(24,160,251,0.2);
+      --text: #f4f6fc;
+      --muted: #9aa3c1;
+      --border-subtle: rgba(255,255,255,0.06);
+      --radius-lg: 18px;
+      --shadow-subtle: 0 8px 24px rgba(0,0,0,0.45);
+      --max-width: 1200px;
+    }
+
+    *{box-sizing:border-box;}
+    body{
+      margin:0;
+      font-family:"Montserrat",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:radial-gradient(circle at top left,#18213d 0,#050814 45%,#020308 100%);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+    }
+    a{color:inherit;text-decoration:none;}
+    .page{min-height:100vh;display:flex;flex-direction:column;}
+    .shell{width:100%;max-width:var(--max-width);margin:0 auto;padding:0 16px;}
+
+    .navbar{position:sticky;top:0;z-index:40;backdrop-filter:blur(16px);background:linear-gradient(to bottom,rgba(5,8,20,.93),rgba(5,8,20,.85),transparent);border-bottom:1px solid rgba(255,255,255,.04);}
+    .navbar-inner{display:flex;align-items:center;justify-content:space-between;height:64px;}
+    .brand{display:flex;align-items:center;gap:10px;}
+    .brand-mark{width:34px;height:34px;border-radius:12px;background:radial-gradient(circle at 30% 10%,#fff 0,#ffd86f 18%,#ff3366 50%,#050814 100%);box-shadow:0 0 18px rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;}
+    .brand-text-main{font-weight:700;letter-spacing:.04em;font-size:18px;}
+    .brand-text-sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.16em;}
+    .nav-links{display:flex;align-items:center;gap:18px;font-size:14px;}
+    .nav-link{color:var(--muted);font-weight:500;padding-bottom:2px;border-bottom:2px solid transparent;transition:color .18s,border-color .18s,transform .18s;}
+    .nav-link:hover{color:var(--text);border-color:var(--accent);transform:translateY(-1px);}
+    .nav-link.active{color:var(--text);border-color:var(--accent);}
+    .nav-cta{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;background:linear-gradient(135deg,#18a0fb,#00d4ff);color:#020308;font-size:13px;font-weight:600;box-shadow:0 12px 26px rgba(0,212,255,.45);border:1px solid rgba(255,255,255,.16);}
+    .nav-cta span:last-child{font-size:11px;opacity:.85;text-transform:uppercase;letter-spacing:.16em;}
+    .nav-burger{display:none;background:none;border:none;color:var(--text);font-size:22px;}
+
+    .page-hero{padding:22px 0 18px;}
+    .page-hero-header{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;}
+    .page-hero-main{max-width:520px;}
+    .page-label{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin-bottom:6px;}
+    .page-title{font-size:24px;font-weight:600;margin-bottom:6px;}
+    .page-sub{font-size:13px;color:var(--muted);}
+    .page-filters{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;justify-content:flex-end;}
+    .chip{padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.16);background:rgba(2,3,8,.7);color:var(--muted);cursor:pointer;}
+    .chip.active{background:var(--accent-soft);border-color:var(--accent);color:var(--text);}
+
+    .section-main{padding-bottom:40px;}
+    .grid-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1.4fr);gap:18px;align-items:flex-start;}
+
+    .card{border-radius:var(--radius-lg);background:var(--bg-soft);border:1px solid var(--border-subtle);box-shadow:var(--shadow-subtle);padding:14px;font-size:13px;}
+    .card-header{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:10px;}
+    .card-title{font-size:14px;font-weight:600;}
+    .card-caption{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.16em;}
+    .pill-small{font-size:10px;padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:var(--muted);}
+
+    .profile-list{list-style:none;padding:0;margin:0;display:grid;gap:8px;}
+    .profile-item{border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(5,8,20,.9);padding:9px 10px;display:grid;gap:3px;}
+    .profile-name{font-size:13px;font-weight:600;}
+    .profile-meta{font-size:11px;color:var(--muted);}
+    .profile-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px;font-size:10px;}
+    .profile-tag{padding:2px 6px;border-radius:999px;border:1px solid rgba(255,255,255,.16);color:var(--muted);}
+    .profile-link{font-size:11px;color:var(--accent);margin-top:3px;}
+
+    .btn-primary{padding:8px 13px;border-radius:999px;border:0;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:6px;cursor:pointer;background:linear-gradient(135deg,#18a0fb,#00d4ff);color:#020308;box-shadow:0 12px 26px rgba(0,212,255,.45);margin-top:10px;}
+    .note{font-size:11px;color:var(--muted);margin-top:8px;}
+
+    .footer{margin-top:auto;border-top:1px solid rgba(255,255,255,.06);background:radial-gradient(circle at top,#141a33 0,#050814 55%,#020308 100%);padding:18px 0 20px;position:sticky;bottom:0;z-index:20;font-size:12px;color:var(--muted);}
+    .footer-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1.1fr);gap:16px;align-items:center;}
+    .footer-brand{display:flex;flex-direction:column;gap:4px;}
+    .footer-legal{font-size:11px;opacity:.85;}
+    .footer-social{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;}
+    .footer-social-link{font-size:11px;padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:var(--muted);}
+    .footer-social-link:hover{border-color:var(--accent);color:var(--text);}
+    .footer-ad{border-radius:var(--radius-lg);border:1px dashed rgba(255,255,255,.2);padding:10px;text-align:center;}
+
+    @media(max-width:900px){
+      .navbar-inner{height:58px;}
+      .nav-links{display:none;}
+      .nav-burger{display:block;}
+      .grid-layout{grid-template-columns:minmax(0,1fr);}
+      .footer-grid{grid-template-columns:minmax(0,1fr);}
+    }
+  </style>
 </head>
 <body>
-<div class="site-shell">
-  <div class="top-strip">
-    <div class="top-strip-inner">
-      <div class="top-strip-row">
-        <div class="brand-block">
-          <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="brand-logo" />
-          <div class="brand-text">
-            <h1>Voetbal<span class="four-green">4</span>All</h1>
-            <div style="font-size:0.75rem;color:#6b7280;">
-              Platform voor iedereen met een hart voor voetbal
-            </div>
-          </div>
-        </div>
-        <div class="header-right">
-          <div class="ad-slot-top">
-            Advertentieruimte beschikbaar • Bereik clubs, trainers, spelers en voetballiefhebbers in Vlaanderen en Nederland.
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="page">
 
-    <nav class="navbar">
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
       <div class="navbar-inner">
-        <div class="nav-links">
-          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
-          <div class="nav-item"><a href="nieuws.html" class="nav-link">Nieuws</a></div>
-          <div class="nav-item"><a href="uitslagen.html" class="nav-link">Resultaten &amp; ranking</a></div>
-
-          <div class="nav-item has-dropdown">
-            <a href="clubvacatures.html" class="nav-link active">Vacatures</a>
-            <div class="nav-dropdown">
-              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
-              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
-              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
-            </div>
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
           </div>
+        </a>
 
-          <div class="nav-item has-dropdown">
-            <a href="vriendschappelijk.html" class="nav-link">Wij organiseren</a>
-            <div class="nav-dropdown">
-              <a href="vriendschappelijk.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-              <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
-              <a href="dinners.html" class="nav-dropdown-link">Dinners</a>
-              <a href="stages.html" class="nav-dropdown-link">Stage of voetbalkamp</a>
-              <a href="events-overig.html" class="nav-dropdown-link">Algemene events</a>
-            </div>
-          </div>
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+          <a href="events.html" class="nav-link">Events</a>
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link active">Spelers</a>
+          <a href="sportief.html" class="nav-link">Sportief</a>
+          <a href="#footer-contact" class="nav-link">Contact</a>
 
-          <div class="nav-item has-dropdown">
-            <a href="uitslagen.html" class="nav-link">Sportief</a>
-            <div class="nav-dropdown">
-              <a href="team-medewerker.html" class="nav-dropdown-link">Team/medewerker in de kijker</a>
-            </div>
-          </div>
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
 
-          <div class="nav-item has-dropdown">
-            <a href="contact.html" class="nav-link">Meer</a>
-            <div class="nav-dropdown">
-              <a href="contact.html" class="nav-dropdown-link">Contact</a>
-              <a href="voorwaarden.html" class="nav-dropdown-link">Voorwaarden</a>
-            </div>
-          </div>
-        </div>
-        <div class="nav-cta">
-          <a href="contact.html" class="btn-secondary">Ik wil adverteren</a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="live-banner">
-      <div class="live-banner-inner">
-        <span>Live scores &amp; resultaten volgen in een latere fase.</span>
+        <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
-  </div>
+  </header>
 
+  <!-- HERO -->
   <main>
-    <div class="page-inner">
-
-      <section class="hero">
-        <h2>Spelersprofielen</h2>
-        <p>Spelers kunnen zich hier aanbieden. Clubs kunnen zoeken op positie, niveau en regio.</p>
-      </section>
-
-      <div class="page-grid-70-30">
-        <section>
-          <div class="card">
-            <h2>Inhoud in ontwikkeling</h2>
-            <p class="section-intro">
-              In een volgende fase wordt deze pagina uitgebreid met zoekfilters, formulieren en koppeling met data.
+    <section class="page-hero">
+      <div class="shell">
+        <div class="page-hero-header">
+          <div class="page-hero-main">
+            <div class="page-label">Spelers</div>
+            <h1 class="page-title">Spelers die een club zoeken en clubs die spelers zoeken.</h1>
+            <p class="page-sub">
+              Via deze pagina kunnen spelers zichzelf voorstellen en clubs laten weten dat ze versterking zoeken.
+              Handig voor overstappen, extra spelers of specifieke profielen.
             </p>
           </div>
-        </section>
-        <aside>
-          <div class="card">
-            <h2>Advertenties</h2>
-            <div class="ad-slot">Advertentieruimte 300×250</div>
-            <div class="ad-slot">Advertentieruimte 300×250</div>
+          <div class="page-filters">
+            <div class="chip active">Alle profielen</div>
+            <div class="chip">Speler zoekt club</div>
+            <div class="chip">Club zoekt speler</div>
+            <div class="chip">Jeugd</div>
+            <div class="chip">Seniors</div>
           </div>
-        </aside>
+        </div>
       </div>
-    
-    </div>
+    </section>
+
+    <!-- MAIN -->
+    <section class="section-main">
+      <div class="shell">
+        <div class="grid-layout">
+
+          <!-- Speler zoekt club -->
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Profielen</div>
+                <div class="card-title">Speler zoekt club</div>
+              </div>
+              <span class="pill-small">Nieuwe aanmeldingen</span>
+            </div>
+
+            <ul class="profile-list">
+              <li class="profile-item">
+                <div class="profile-name">Aanvallende middenvelder (19) · Regio Antwerpen</div>
+                <div class="profile-meta">
+                  Zoekt ambitieuze club in 1e of 2e provinciale · sterke passing en spelinzicht.
+                </div>
+                <div class="profile-tags">
+                  <span class="profile-tag">Seniors</span>
+                  <span class="profile-tag">Aanvallende middenvelder</span>
+                  <span class="profile-tag">Competitief</span>
+                </div>
+                <a href="#" class="profile-link">Details &amp; contactgegevens</a>
+              </li>
+
+              <li class="profile-item">
+                <div class="profile-name">Keeper U13 · Regio Limburg</div>
+                <div class="profile-meta">
+                  Wil meer uitdaging en trainingsbegeleiding · beschikbaar vanaf volgend seizoen.
+                </div>
+                <div class="profile-tags">
+                  <span class="profile-tag">Jeugd</span>
+                  <span class="profile-tag">Keeper</span>
+                </div>
+                <a href="#" class="profile-link">Details &amp; contactgegevens</a>
+              </li>
+            </ul>
+
+            <p class="note">
+              Spelers kunnen hier aangeven welke positie ze spelen, in welke regio ze zoeken en welke ambities ze hebben.
+            </p>
+            <button class="btn-primary">Profiel “Speler zoekt club” aanmelden</button>
+          </section>
+
+          <!-- Clubs zoeken speler -->
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Voor clubs</div>
+                <div class="card-title">Clubs zoeken speler</div>
+              </div>
+              <span class="pill-small">Gerichte oproepen</span>
+            </div>
+
+            <ul class="profile-list">
+              <li class="profile-item">
+                <div class="profile-name">Club X · Spits voor U17 gezocht</div>
+                <div class="profile-meta">
+                  Zoekt snelle aanvaller met scorend vermogen · 3 trainingen per week · niveau provinciaal.
+                </div>
+                <div class="profile-tags">
+                  <span class="profile-tag">Jeugd</span>
+                  <span class="profile-tag">Spits</span>
+                </div>
+                <a href="#" class="profile-link">Meer info &amp; contact</a>
+              </li>
+
+              <li class="profile-item">
+                <div class="profile-name">Club Y · Centrale verdediger A-ploeg</div>
+                <div class="profile-meta">
+                  Ervaren speler voor 2e provinciale · liefst met leiderschap in de defensie.
+                </div>
+                <div class="profile-tags">
+                  <span class="profile-tag">Seniors</span>
+                  <span class="profile-tag">Centrale verdediger</span>
+                </div>
+                <a href="#" class="profile-link">Meer info &amp; contact</a>
+              </li>
+            </ul>
+
+            <p class="note">
+              Clubs kunnen hier een korte oproep plaatsen. Voor uitgebreidere info kan de link doorverwijzen naar
+              een detailpagina of eigen clubsite.
+            </p>
+            <button class="btn-primary">Oproep “Club zoekt speler” plaatsen</button>
+          </section>
+
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-left">
-        <img src="assets/img/logo_voetbal4all.png" alt="Voetbal4All logo" class="footer-logo" />
-        <span>Voetbal<span class="four-green">4</span>All – centraal platform voor nieuws, resultaten, vacatures, trainers, spelers en events.</span>
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Interessant voor makelaars, kledij of sportmerken.</span>
+        </div>
       </div>
-      <div>&copy; 2025 Voetbal4All. Alle rechten voorbehouden.</div>
     </div>
   </footer>
+
 </div>
-<script src="assets/js/news.js" defer></script>
-<script src="assets/js/forms.js" defer></script>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
