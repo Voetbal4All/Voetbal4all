@@ -67,19 +67,39 @@
     </section>
 
     <!-- ZOEKFUNCTIE -->
-    <section class="section-main">
+        <section class="section-main">
       <div class="shell">
-        <div class="search-bar">
+        <div class="search-bar search-bar--advanced">
           <input
             type="text"
             id="article-search"
             class="search-input"
-            placeholder="Zoek op onderwerp, land, type artikel of trefwoord..."
+            placeholder="Zoek op trefwoord (bv. vrijwilligers, tornooi, ouders...)"
           />
+          <div class="search-filters-row">
+            <select id="article-country" class="search-select">
+              <option value="">Alle landen</option>
+              <option value="BE">België</option>
+              <option value="NL">Nederland</option>
+              <option value="INT">Internationaal</option>
+            </select>
+            <input
+              type="text"
+              id="article-region"
+              class="search-input search-input--small"
+              placeholder="Regio (optioneel, bv. Kempen, Limburg)"
+            />
+            <select id="article-type" class="search-select">
+              <option value="">Alle artikels</option>
+              <option value="events">Events &amp; communicatie</option>
+              <option value="vrijwilligers">Vrijwilligers</option>
+              <option value="internationaal">Internationaal</option>
+              <option value="advertorial">Partner / advertorial</option>
+            </select>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- ARTIKELEN + ADVERTORIALS (STEEDS FOTO/FLYER + VLAG) -->
     <section class="section-main">
       <div class="shell">
