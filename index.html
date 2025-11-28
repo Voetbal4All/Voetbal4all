@@ -132,8 +132,8 @@
         </div>
       </section>
 
-      <!-- PREMIUM LIJN: CLUBVACATURES · EVENTS · TRAINERS · SPELERS -->
-      <section class="section-main">
+      <!-- PREMIUM LIJN: CLUBVACATURES · EVENTS · TRAINERS · SPELERS (STICKY / ROTATIE READY) -->
+      <section class="section-main premium-row">
         <div class="shell">
           <div class="lower-grid-layout" style="grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px;">
 
@@ -146,7 +146,7 @@
                 </div>
                 <span class="pill-small">Betalend</span>
               </div>
-              <ul class="events-list">
+              <ul class="events-list premium-list" id="premium-clubvacatures-list">
                 <li class="event-item">
                   <div class="event-title">Jeugdcoördinator U6–U13 · Regio Kempen</div>
                   <div class="event-meta">Provinciaal niveau · focus op opleiding &amp; structuur.</div>
@@ -168,7 +168,7 @@
                 </div>
                 <span class="pill-small">Betalend</span>
               </div>
-              <ul class="events-list">
+              <ul class="events-list premium-list" id="premium-events-list">
                 <li class="event-item">
                   <div class="event-title">Zomertornooi U8–U11</div>
                   <div class="event-meta">15–16 augustus · Regio Kempen · tornooi met 2 speeldagen.</div>
@@ -190,7 +190,7 @@
                 </div>
                 <span class="pill-small">Betalend</span>
               </div>
-              <ul class="events-list">
+              <ul class="events-list premium-list" id="premium-trainers-list">
                 <li class="event-item">
                   <div class="event-title">UEFA B-trainer zoekt U21 of 1e ploeg</div>
                   <div class="event-meta">Regio Antwerpen · ervaring interprovinciaal / nationaal jeugd.</div>
@@ -212,7 +212,7 @@
                 </div>
                 <span class="pill-small">Betalend</span>
               </div>
-              <ul class="events-list">
+              <ul class="events-list premium-list" id="premium-spelers-list">
                 <li class="event-item">
                   <div class="event-title">Linksvoetige flankspeler U17</div>
                   <div class="event-meta">Regio Limburg · zoekt provinciale of interprovinciale club.</div>
@@ -239,7 +239,7 @@
         </div>
       </section>
 
-      <!-- ONDERSTE GRID: AANKOMENDE EVENTS (25%) · VOETBALKOPPEN (50%) · LAATSTE TRAINERS/SPELERS (25%) -->
+      <!-- ONDERSTE GRID: EVENTS (25%) · VOETBALKOPPEN (50%) · LAATSTE TRAINERS/SPELERS (25%) -->
       <section class="section-main">
         <div class="shell">
           <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1fr) minmax(0,2fr) minmax(0,1fr); gap:18px;">
@@ -255,7 +255,7 @@
                   <span class="pill-small">Vanuit eventspagina’s</span>
                 </div>
 
-                <ul class="weekend-list">
+                <ul class="weekend-list" id="weekend-events-list">
                   <li class="weekend-item">
                     <span>Za 10:00 · Jeugddag U6–U9</span>
                     <span><a href="tornooien.html">Tornooi / jeugdevent</a></span>
@@ -379,7 +379,7 @@
               </div>
             </section>
 
-            <!-- RECHTERKOLOM: LAATSTE TRAINERS + LAATSTE SPELERS -->
+            <!-- RECHTERKOLOM: LAATSTE TRAINERS + LAATSTE SPELERS + ADSENSE -->
             <aside class="column-right">
               <!-- LAATST AANGEMELDE TRAINERS -->
               <article class="card">
@@ -388,10 +388,10 @@
                     <div class="card-caption">Nieuw</div>
                     <div class="card-title">Laatst aangemelde trainers</div>
                   </div>
-                  <span class="pill-small">Chronologisch</span>
+                  <span class="pill-small">Laatste 10, roterend</span>
                 </div>
 
-                <ul class="events-list">
+                <ul class="events-list" id="latest-trainers-list">
                   <li class="event-item">
                     <div class="event-title">Trainer U13 · Provinciaal</div>
                     <div class="event-meta">Regio Vlaams-Brabant · beschikbaar vanaf volgend seizoen.</div>
@@ -400,6 +400,7 @@
                     <div class="event-title">Assistent-trainer onderbouw</div>
                     <div class="event-meta">Regio Kempen · inzetbaar 2 avonden per week.</div>
                   </li>
+                  <!-- hier kan je later extra items tot 10 toevoegen -->
                 </ul>
 
                 <a href="trainers.html" class="event-link">Bekijk alle trainers →</a>
@@ -412,10 +413,10 @@
                     <div class="card-caption">Nieuw</div>
                     <div class="card-title">Laatst aangemelde spelers</div>
                   </div>
-                  <span class="pill-small">Chronologisch</span>
+                  <span class="pill-small">Laatste 10, roterend</span>
                 </div>
 
-                <ul class="events-list">
+                <ul class="events-list" id="latest-players-list">
                   <li class="event-item">
                     <div class="event-title">Aanvallende middenvelder U14</div>
                     <div class="event-meta">Regio Antwerpen · zoekt club met sterke opleiding.</div>
@@ -424,10 +425,20 @@
                     <div class="event-title">Doelman U16</div>
                     <div class="event-meta">Regio Limburg · zoekt meer speeltijd op provinciaal niveau.</div>
                   </li>
+                  <!-- hier kan je later extra items tot 10 toevoegen -->
                 </ul>
 
                 <a href="spelers.html" class="event-link">Bekijk alle spelers →</a>
               </article>
+
+              <!-- GOOGLE ADSENSE BLOK ONDER SPELERS -->
+              <div class="ad-vertical" style="margin-top:12px;">
+                <div class="ad-label">ADVERTENTIE · GOOGLE ADSENSE</div>
+                <div class="ad-placeholder">
+                  Extra ruimte voor een Google AdSense-blok gericht op spelers &amp; ouders.<br/>
+                  <span class="ad-size">Bijvoorbeeld 300 × 250 px (onder spelers).</span>
+                </div>
+              </div>
             </aside>
 
           </div>
@@ -461,7 +472,68 @@
   </div>
 
   <script>
+    // Jaar
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Generieke rotatiefunctie: toont telkens 'visibleCount' items, schuift dan door
+    function makeRotatingList(selector, visibleCount, intervalMs) {
+      const list = document.querySelector(selector);
+      if (!list) return;
+      const items = Array.from(list.children);
+      if (items.length <= visibleCount) return;
+
+      let startIndex = 0;
+
+      function render() {
+        items.forEach((item, index) => {
+          const inWindow = index >= startIndex && index < startIndex + visibleCount;
+          item.style.display = inWindow ? "" : "none";
+        });
+
+        startIndex += visibleCount;
+        if (startIndex >= items.length) {
+          startIndex = 0;
+        }
+      }
+
+      render();
+      setInterval(render, intervalMs);
+    }
+
+    // 1. Aankomende events afwisselend tonen (max 2 tegelijk)
+    makeRotatingList('#weekend-events-list', 2, 5000);
+
+    // 2. Laatst aangemelde trainers: laatste 10 afwisselend (nu 2 dummy, later meer)
+    makeRotatingList('#latest-trainers-list', 2, 4000);
+
+    // 3. Laatst aangemelde spelers: laatste 10 afwisselend (nu 2 dummy, later meer)
+    makeRotatingList('#latest-players-list', 2, 4000);
+
+    // 4. Premiumlijsten: als leeg → boodschap tonen, als >2 → roteren
+    document.querySelectorAll('.premium-list').forEach(list => {
+      const items = Array.from(list.children);
+
+      if (!items.length) {
+        const msg = document.createElement('p');
+        msg.className = 'note premium-empty';
+        msg.textContent = 'Uw profiel / event / vacature hier? Druk op de knop voor extra zichtbaarheid.';
+        list.parentElement.appendChild(msg);
+        return;
+      }
+
+      // Enkel roteren als er meer dan 2 items zijn
+      if (items.length > 2) {
+        let index = 0;
+        function renderPremium() {
+          items.forEach((item, i) => {
+            item.style.display = (i === index || i === (index + 1) % items.length) ? '' : 'none';
+          });
+          index = (index + 2) % items.length;
+        }
+        renderPremium();
+        setInterval(renderPremium, 5000);
+      }
+    });
   </script>
 </body>
 </html>
