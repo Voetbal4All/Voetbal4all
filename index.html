@@ -2,10 +2,8 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Alles over voetbal, voor iedereen</title>
+  <title>Voetbal4All - Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 
   <style>
@@ -390,6 +388,212 @@
       color: var(--text);
     }
 
+    /* ---------- NIEUW BLOK: VACATURES & EVENTS ---------- */
+
+    .section-boards {
+      padding-bottom: 24px;
+    }
+
+    .live-banner {
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(0, 255, 157, 0.4);
+      background: radial-gradient(circle at left, rgba(0, 255, 157, 0.18), transparent 55%),
+                  rgba(2, 12, 6, 0.92);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .live-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #7dfccb;
+    }
+
+    .live-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: #00ff9d;
+      box-shadow: 0 0 14px rgba(0, 255, 157, 0.9);
+    }
+
+    .live-text {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .live-cta {
+      font-size: 11px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0, 255, 157, 0.6);
+      color: #7dfccb;
+      background: rgba(1, 10, 6, 0.85);
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .boards-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .board-card {
+      border-radius: var(--radius-lg);
+      background: var(--bg-soft);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-subtle);
+      padding: 10px 10px 9px;
+      font-size: 12px;
+    }
+
+    .board-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .board-title {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .board-badge {
+      font-size: 10px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+    }
+
+    .board-badge.paid {
+      border-color: rgba(255, 222, 112, 0.9);
+      color: #ffde70;
+    }
+
+    .board-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 6px;
+      display: grid;
+      gap: 4px;
+    }
+
+    .board-list li {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .board-item-main {
+      font-size: 12px;
+    }
+
+    .board-item-sub {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .board-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .board-footer a {
+      font-weight: 500;
+      font-size: 11px;
+      color: var(--accent);
+    }
+
+    .quick-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .btn-ghost {
+      padding: 6px 11px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: rgba(2, 3, 8, 0.75);
+      font-size: 12px;
+      color: var(--muted);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-ghost span.icon {
+      font-size: 13px;
+    }
+
+    .spotlight-card {
+      border-radius: var(--radius-lg);
+      background: var(--bg-soft);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-subtle);
+      padding: 11px 12px 10px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 12px;
+    }
+
+    .spotlight-main {
+      max-width: 70%;
+    }
+
+    .spotlight-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    .spotlight-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+
+    .spotlight-text {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .spotlight-tag {
+      align-self: flex-end;
+      font-size: 11px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: rgba(2, 3, 8, 0.85);
+      color: var(--muted);
+    }
+
     /* ---------- AD ZONES & MAIN LAYOUT ---------- */
 
     .section-main {
@@ -485,6 +689,23 @@
       transform: translateY(-1px);
     }
 
+    .left-ad-zone {
+      margin-top: 10px;
+      border-radius: 12px;
+      border: 1px dashed rgba(255, 255, 255, 0.22);
+      padding: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .left-ad-zone span {
+      display: block;
+      font-size: 10px;
+      opacity: 0.8;
+      margin-top: 3px;
+    }
+
     /* Middle: Articles */
 
     .articles {
@@ -569,6 +790,7 @@
       align-items: center;
       font-size: 11px;
       color: var(--muted);
+      margin-top: 4px;
     }
 
     .article-footer strong {
@@ -635,6 +857,9 @@
       background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
       padding-top: 18px;
       padding-bottom: 20px;
+      position: sticky; /* "vaster" aan de onderkant */
+      bottom: 0;
+      z-index: 20;
     }
 
     .footer-grid {
@@ -671,6 +896,10 @@
         grid-template-columns: minmax(0, 1fr);
       }
 
+      .boards-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
       .layout-grid {
         grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
       }
@@ -681,6 +910,10 @@
 
       .ad-vertical {
         position: static;
+      }
+
+      .footer-grid {
+        grid-template-columns: minmax(0, 1fr);
       }
     }
 
@@ -705,6 +938,10 @@
         gap: 16px;
       }
 
+      .boards-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
       .layout-grid {
         grid-template-columns: minmax(0, 1fr);
       }
@@ -716,6 +953,18 @@
       .footer-grid {
         grid-template-columns: minmax(0, 1fr);
       }
+
+      .spotlight-card {
+        flex-direction: column;
+      }
+
+      .spotlight-main {
+        max-width: 100%;
+      }
+
+      .spotlight-tag {
+        align-self: flex-start;
+      }
     }
   </style>
 </head>
@@ -726,7 +975,7 @@
     <header class="navbar">
       <div class="shell">
         <div class="navbar-inner">
-          <a href="#" class="brand">
+          <a href="index.html" class="brand">
             <div class="brand-mark">V4</div>
             <div>
               <div class="brand-text-main">Voetbal4All</div>
@@ -734,13 +983,13 @@
             </div>
           </a>
 
-         <nav class="nav-links">
+          <nav class="nav-links">
             <a href="index.html" class="nav-link active">Home</a>
             <a href="artikels.html" class="nav-link">Artikels</a>
             <a href="#" class="nav-link">Tools</a>
             <a href="#" class="nav-link">Clubs</a>
             <a href="#footer-contact" class="nav-link">Contact</a>
-          
+
             <a href="adverteren.html" class="nav-cta">
               <span>Adverteer nu</span>
               <span>Sponsor &amp; Ads</span>
@@ -773,21 +1022,22 @@
               </h1>
 
               <p class="hero-sub">
-                Voetbal4All bundelt de populairste voetbalonderwerpen, clubcommunicatie
-                en slimme tools. Ideaal voor spelers, ouders, trainers én sponsors.
+                Voetbal4All bundelt de populairste voetbalonderwerpen, clubcommunicatie,
+                vacatures, events en slimme tools. Voor spelers, ouders, trainers én sponsors.
               </p>
 
               <div class="hero-ctas">
-  <button class="btn-primary">
-    Start met ontdekken
-  </button>
-  <a href="adverteren.html#contact" class="btn-secondary">
-    Sponsor worden
-  </a>
-</div>
+                <button class="btn-primary">
+                  Start met ontdekken
+                </button>
+                <a href="adverteren.html" class="btn-secondary">
+                  Sponsor worden
+                </a>
+              </div>
+
               <div class="hero-meta">
                 <span><strong>Clubs</strong>&nbsp;amateurs &amp; jeugd</span>
-                <span><strong>Focus</strong>&nbsp;content + advertenties</span>
+                <span><strong>Focus</strong>&nbsp;content + vacatures + events</span>
                 <span><strong>Doel</strong>&nbsp;omzet voor het platform</span>
               </div>
             </div>
@@ -804,9 +1054,7 @@
                 </div>
               </div>
 
-              <!-- HIER KOMT DE HOOFDDSPONSOR-BANNER -->
-              <!-- Vervang de volledige .sponsor-banner inhoud door je echte sponsor (of AdServer/AdSense code) -->
-              <a href="#" class="sponsor-banner">
+              <a href="adverteren.html" class="sponsor-banner">
                 <div class="sponsor-logo">SPONSOR NAAM</div>
                 <div class="sponsor-line">
                   Officiële partner van Voetbal4All — maximaal bereik bij spelers, ouders en clubs.
@@ -831,6 +1079,154 @@
         </div>
       </section>
 
+      <!-- VACATURES / EVENTS / QUICK ACTIONS / SPOTLIGHT -->
+      <section class="section-boards">
+        <div class="shell">
+          <!-- Banner: Live resultaten -->
+          <div class="live-banner">
+            <div>
+              <div class="live-label">
+                <span class="live-dot"></span>
+                LIVE RESULTATEN
+              </div>
+              <div class="live-text">
+                Volg live tussenstanden van geselecteerde wedstrijden. Ideaal om tijdens het weekend snel mee te zijn.
+              </div>
+            </div>
+            <button class="live-cta">
+              Bekijk live scores
+            </button>
+          </div>
+
+          <!-- Vacatures & Events -->
+          <div class="boards-grid">
+            <!-- Premium clubvacatures -->
+            <div class="board-card">
+              <div class="board-header">
+                <div class="board-title">Premium clubvacatures</div>
+                <span class="board-badge paid">Betalend</span>
+              </div>
+              <ul class="board-list">
+                <li>
+                  <span class="board-item-main">Hoofdtrainer U17 · Regio Kempen</span>
+                  <span class="board-item-sub">Licentie vereist · start volgend seizoen</span>
+                </li>
+                <li>
+                  <span class="board-item-main">Technisch coördinator jeugd</span>
+                  <span class="board-item-sub">Provinciale club · focus onderbouw</span>
+                </li>
+              </ul>
+              <div class="board-footer">
+                <span>Val extra op met je vacature.</span>
+                <a href="#">Clubvacature plaatsen</a>
+              </div>
+            </div>
+
+            <!-- Andere clubvacatures -->
+            <div class="board-card">
+              <div class="board-header">
+                <div class="board-title">Andere clubvacatures</div>
+                <span class="board-badge">Gratis</span>
+              </div>
+              <ul class="board-list">
+                <li>
+                  <span class="board-item-main">Jeugdtrainer U9 gezocht</span>
+                  <span class="board-item-sub">Enthousiaste ouder-trainer welkom</span>
+                </li>
+                <li>
+                  <span class="board-item-main">Teamafgevaardigde U13</span>
+                  <span class="board-item-sub">Ondersteuning op en rond het veld</span>
+                </li>
+              </ul>
+              <div class="board-footer">
+                <span>Clubvacature delen op Voetbal4All.</span>
+                <a href="#">Bekijk alle</a>
+              </div>
+            </div>
+
+            <!-- Premium events -->
+            <div class="board-card">
+              <div class="board-header">
+                <div class="board-title">Premium events</div>
+                <span class="board-badge paid">Betalend</span>
+              </div>
+              <ul class="board-list">
+                <li>
+                  <span class="board-item-main">Zomertornooi U8–U11</span>
+                  <span class="board-item-sub">Uitgelicht event · inschrijven nu</span>
+                </li>
+                <li>
+                  <span class="board-item-main">Clinic met proftrainer</span>
+                  <span class="board-item-sub">Beperkte plaatsen · early bird</span>
+                </li>
+              </ul>
+              <div class="board-footer">
+                <span>Event extra in de kijker zetten.</span>
+                <a href="#">Event aanmelden</a>
+              </div>
+            </div>
+
+            <!-- Andere events / aankomend weekend -->
+            <div class="board-card">
+              <div class="board-header">
+                <div class="board-title">Andere events</div>
+                <span class="board-badge">Gratis</span>
+              </div>
+              <ul class="board-list">
+                <li>
+                  <span class="board-item-main">Ploegvoorstelling eerste elftal</span>
+                  <span class="board-item-sub">Vrijdagavond · kantine open</span>
+                </li>
+                <li>
+                  <span class="board-item-main">Mosselfestijn ten voordele van de jeugd</span>
+                  <span class="board-item-sub">Zaterdag &amp; zondag</span>
+                </li>
+              </ul>
+              <div class="board-footer">
+                <span>Events aankomend weekend in één overzicht.</span>
+                <a href="#">Bekijk kalender</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick actions: speler/trainer/event/vacature -->
+          <div class="quick-actions">
+            <button class="btn-ghost">
+              <span class="icon">👟</span>
+              <span>Speler zoekt club</span>
+            </button>
+            <button class="btn-ghost">
+              <span class="icon">📋</span>
+              <span>Trainer zoekt club</span>
+            </button>
+            <button class="btn-ghost">
+              <span class="icon">🏟️</span>
+              <span>Clubvacature plaatsen</span>
+            </button>
+            <button class="btn-ghost">
+              <span class="icon">📅</span>
+              <span>Event aanmelden</span>
+            </button>
+          </div>
+
+          <!-- Team/medewerker in de kijker -->
+          <div class="spotlight-card">
+            <div class="spotlight-main">
+              <div class="spotlight-label">Team/medewerker in de kijker</div>
+              <div class="spotlight-title">Vrijwilliger van de maand: Sarah (Jeugdcoördinatie)</div>
+              <div class="spotlight-text">
+                Sarah zorgt al jaren voor een vlotte communicatie met ouders, plant tornooien
+                en ondersteunt trainers achter de schermen. Met Voetbal4All willen we dit soort
+                voetbalhelden extra in de kijker zetten.
+              </div>
+            </div>
+            <div class="spotlight-tag">
+              Meld een team of medewerker aan
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- MAIN LAYOUT + AD ZONES -->
       <section class="section-main">
         <div class="shell">
@@ -839,7 +1235,7 @@
           <div class="ad-horizontal">
             <!-- ADZONE: 728x90 / responsive leaderboard -->
             BANNERZONE BOVEN CONTENT<br>
-            <span class="ad-size">Plaats hier je Google AdSense leaderboard (bijv. 728x90 / 970x90 / responsive)</span>
+            <span class="ad-size">Plaats hier later een leaderboard of in-feed advertentie.</span>
           </div>
 
           <div class="layout-grid">
@@ -884,6 +1280,12 @@
                   </a>
                 </li>
               </ul>
+
+              <!-- Advertentiezone linkse kolom -->
+              <div class="left-ad-zone">
+                ADVERTENTIEZONE LINKSE KOLOM<br>
+                <span>Later te gebruiken voor vaste sponsor of kleine banner.</span>
+              </div>
             </aside>
 
             <!-- MIDDLE: ARTICLES + IN-CONTENT AD -->
@@ -894,7 +1296,7 @@
                 <div class="ad-horizontal" style="margin-bottom: 10px;">
                   <!-- ADZONE: in-article / in-feed responsive -->
                   IN-CONTENT ADVERTENTIE<br>
-                  <span class="ad-size">Ideaal voor AdSense in-feed of in-article unit</span>
+                  <span class="ad-size">Ideaal om later tussen artikels een advertentie te tonen.</span>
                 </div>
 
                 <!-- ARTICLE CARDS (dummy content) -->
@@ -911,13 +1313,13 @@
                       <span class="tag">Templates</span>
                       <span class="tag">Voetbal4All Tools</span>
                     </div>
+                    <div class="article-footer">
+                      <span><strong>Leestijd:</strong> 5 min</span>
+                      <span>Ideaal om te delen met je bestuur</span>
+                    </div>
                   </div>
                   <div class="article-thumb">
                     <div class="article-thumb-label">Clubs &amp; ouders</div>
-                  </div>
-                  <div class="article-footer">
-                    <span><strong>Leestijd:</strong> 5 min</span>
-                    <span>Ideaal om naar te linken vanuit je sponsorbrochure</span>
                   </div>
                 </article>
 
@@ -934,13 +1336,13 @@
                       <span class="tag">Contentstrategie</span>
                       <span class="tag">Populariteit</span>
                     </div>
+                    <div class="article-footer">
+                      <span><strong>Leestijd:</strong> 7 min</span>
+                      <span>Interessant voor sponsors</span>
+                    </div>
                   </div>
                   <div class="article-thumb">
                     <div class="article-thumb-label">Zoektrends</div>
-                  </div>
-                  <div class="article-footer">
-                    <span><strong>Leestijd:</strong> 7 min</span>
-                    <span>Perfect voor sponsorpitch</span>
                   </div>
                 </article>
 
@@ -957,13 +1359,13 @@
                       <span class="tag">Download</span>
                       <span class="tag">Clubbeheer</span>
                     </div>
+                    <div class="article-footer">
+                      <span><strong>Leestijd:</strong> 4 min</span>
+                      <span>Combineerbaar met leadgeneratie</span>
+                    </div>
                   </div>
                   <div class="article-thumb">
                     <div class="article-thumb-label">Tools</div>
-                  </div>
-                  <div class="article-footer">
-                    <span><strong>Leestijd:</strong> 4 min</span>
-                    <span>Combineerbaar met leadgeneratie</span>
                   </div>
                 </article>
 
@@ -974,17 +1376,15 @@
             <aside class="sidebar">
               <div class="ad-vertical">
                 <div class="ad-label">Advertentie · sidebar</div>
-                <!-- ADZONE: 300x600 / 160x600 / responsive skyscraper -->
                 <div class="ad-placeholder">
                   STICKY SIDEBAR BANNERS<br>
-                  <div class="ad-size">Plaats hier een AdSense skyscraper (300x600 / 160x600) of responsive</div>
+                  <span class="ad-size">Plaats hier later skyscrapers of vaste sponsorbanners.</span>
                 </div>
               </div>
 
               <div class="ad-small">
-                <!-- ADZONE: 300x250 / 336x280 -->
                 Extra advertentieblok onder sidebar<br>
-                <span class="ad-size">Geschikt voor 300x250 of 336x280</span>
+                <span class="ad-size">Geschikt voor 300x250 of 336x280 later.</span>
               </div>
             </aside>
           </div>
@@ -993,20 +1393,19 @@
     </main>
 
     <!-- FOOTER + ADZONE -->
-    <footer class="footer">
+    <footer class="footer" id="footer-contact">
       <div class="shell">
         <div class="footer-grid">
           <div class="footer-brand">
             <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
             <div class="footer-legal">
               &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-              · Mogelijkheden voor hoofdsponsor, partners en AdSense.
+              · Mogelijkheden voor hoofdsponsor, partners en advertenties.
             </div>
           </div>
           <div class="footer-ad">
-            <!-- ADZONE: 728x90 / 970x90 / responsive footer banner -->
-            FOOTER ADVERTENTIE<br>
-            <span class="ad-size">Footer-banner met hoge zichtbaarheid voor terugkerende bezoekers</span>
+            FOOTER ADVERTENTIE / PARTNERLOGO<br>
+            <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
           </div>
         </div>
       </div>
