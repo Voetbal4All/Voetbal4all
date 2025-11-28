@@ -366,23 +366,74 @@
   // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Eenvoudige zoekfunctie voor events
+  // Uitgebreide zoekfunctie voor events
   const eventSearchInput = document.getElementById('event-search');
+  const eventCountrySelect = document.getElementById('event-country');
+  const eventRegionInput = document.getElementById('event-region');
+  const eventTypeSelect = document.getElementById('event-type');
   const eventItems = document.querySelectorAll('.article-list .article-item');
 
-  if (eventSearchInput && eventItems.length) {
-    eventSearchInput.addEventListener('input', function () {
-      const query = this.value.toLowerCase().trim();
+  function getCountryFromEventItem(item) {
+    const flagEl = item.querySelector('.flag-badge');
+    const flag = flagEl ? flagEl.textContent.trim() : '';
+    if (flag === '🇧🇪') return 'BE';
+    if (flag === '🇳🇱') return 'NL';
+    if (flag === '🌍')  return 'INT';
+    return '';
+  }
 
-      eventItems.forEach(item => {
-        const text = (item.dataset.title || item.textContent || '').toLowerCase();
-        if (!query || text.includes(query)) {
-          item.style.display = '';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+  function getTypeFromEventItem(item) {
+    const metaEl = item.querySelector('.article-meta');
+    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+
+    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
+    if (metaText.includes('vriendschappelijk')) return 'vriendschappelijk';
+    if (metaText.includes('tornooi')) return 'tornooi';
+    if (metaText.includes('stage') || metaText.includes('kamp')) return 'stage';
+    if (metaText.includes('dinner') || metaText.includes('clubfeest')) return 'dinner';
+    if (metaText.includes('algemeen')) return 'algemeen';
+
+    return '';
+  }
+
+  function applyEventFilter() {
+    const textQuery = (eventSearchInput?.value || '').toLowerCase().trim();
+    const regionQuery = (eventRegionInput?.value || '').toLowerCase().trim();
+    const countryFilter = (eventCountrySelect?.value || '').toUpperCase();
+    const typeFilter = (eventTypeSelect?.value || '').toLowerCase();
+
+    eventItems.forEach(item => {
+      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
+      const itemCountry = getCountryFromEventItem(item);
+      const itemType = getTypeFromEventItem(item);
+
+      let visible = true;
+
+      if (textQuery && !fullText.includes(textQuery)) {
+        visible = false;
+      }
+
+      if (visible && countryFilter && itemCountry !== countryFilter) {
+        visible = false;
+      }
+
+      if (visible && regionQuery && !fullText.includes(regionQuery)) {
+        visible = false;
+      }
+
+      if (visible && typeFilter && itemType !== typeFilter) {
+        visible = false;
+      }
+
+      item.style.display = visible ? '' : 'none';
     });
+  }
+
+  if (eventItems.length) {
+    eventSearchInput?.addEventListener('input', applyEventFilter);
+    eventCountrySelect?.addEventListener('change', applyEventFilter);
+    eventRegionInput?.addEventListener('input', applyEventFilter);
+    eventTypeSelect?.addEventListener('change', applyEventFilter);
   }
 </script>
 </body>
