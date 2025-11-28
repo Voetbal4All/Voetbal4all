@@ -893,6 +893,32 @@ img {
   color: var(--muted);
 }
 
+/* Uitgebreide zoekbalk met extra filters */
+.search-bar--advanced {
+  display: grid;
+  gap: 6px;
+}
+
+.search-filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.search-select {
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(2, 3, 8, 0.7);
+  color: var(--text);
+  font-size: 12px;
+  min-width: 140px;
+}
+
+.search-input--small {
+  flex: 1;
+  min-width: 160px;
+}
 /* Zorg dat spotlight in linkerkolom ook netjes stapelt op mobiel */
 .column-left .spotlight-card {
   margin-bottom: 10px;
