@@ -2,11 +2,9 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Events & tornooien - Voetbal4All</title>
+  <title>Voetbal4All - Events & tornooien</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -46,293 +44,313 @@
   </header>
 
   <main>
-
-    <!-- PAGINA-INTRO / HERO -->
     <section class="section-main">
       <div class="shell">
-        <article class="card">
+
+        <!-- KORTE INTRO -->
+        <article class="card" style="margin-bottom:12px; max-width:900px;">
           <div class="card-header">
             <div>
-              <div class="card-caption">Events &amp; tornooien</div>
-              <div class="card-title">Vriendschappelijke wedstrijden, tornooien, stages, dinners &amp; meer.</div>
+              <div class="card-caption">Events</div>
+              <div class="card-title">Vriendschappelijke wedstrijden, tornooien, stages &amp; dinners</div>
             </div>
-            <span class="pill-small">België · Nederland · internationaal</span>
+            <span class="pill-small">België · Nederland</span>
           </div>
           <p class="note">
-            Op deze pagina vind je alle events die clubs aanmelden: vriendschappelijke wedstrijden, tornooien,
-            stages / voetbalkampen, dinners &amp; algemene clubactiviteiten. Elk event toont een flyer of foto en
-            de landvlag, zodat bezoekers snel kunnen filteren op land en type.
+            Clubs kunnen hier events plaatsen zoals vriendschappelijke wedstrijden, jeugdtornooien, stages/kampen,
+            dinners en algemene clubactiviteiten. Contactgegevens kunnen beschermd blijven; reacties lopen via Voetbal4All.
           </p>
-
-          <!-- Snelkoppelingen naar de vijf event-subpagina's -->
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="vrienden.html" class="btn-secondary">Vriendschappelijke wedstrijden</a>
-            <a href="tornooien.html" class="btn-secondary">Tornooien</a>
-            <a href="stages.html" class="btn-secondary">Stages / voetbalkampen</a>
-            <a href="dinners.html" class="btn-secondary">Dinners &amp; clubfeesten</a>
-            <a href="algemene-events.html" class="btn-secondary">Algemene events</a>
-          </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE -->
-        <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="event-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. tornooi, dinner, clubnaam...)"
-          />
-          <div class="search-filters-row">
-            <select id="event-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="event-region"
-              class="search-input search-input--small"
-              placeholder="Regio (optioneel, bv. Kempen, Limburg)"
-            />
-            <select id="event-type" class="search-select">
-              <option value="">Alle events</option>
-              <option value="tornooi">Tornooi</option>
-              <option value="vriendschappelijk">Vriendschappelijk</option>
-              <option value="stage">Stage / voetbalkamp</option>
-              <option value="dinner">Dinner &amp; clubfeest</option>
-              <option value="algemeen">Algemeen event</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- CONTENT + ADVERTENTIES (MET FLYER + VLAG) -->
-    <section class="section-main">
-      <div class="shell">
+        <!-- GRID: LINKS FORMULIER + OVERZICHT · RECHTS INFO / ADS -->
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · EVENTS (TOP)
-          <span class="ad-size">
-            Ideaal voor hoofdsponsor van tornooien, stages of verzekeringspartner voor sportclubs.
-          </span>
-        </div>
+          <!-- LINKERKOLOM -->
+          <div>
 
-        <!-- Layout: overzicht links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: EVENTOVERZICHT (ELK MET FLYER/FOTO + VLAG) -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Event 1 - België - tornooi -->
-              <article class="article-item"
-                       data-title="Zomertornooi U8 U9 België tornooi Kempen">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer tornooi
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Tornooi · jeugd</div>
-                    <h2 class="article-title">
-                      <a href="tornooien.html">Zomertornooi U8–U9 · Regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Twee speeldagen met clubs uit de ruime regio. Ideaal tornooi in de voorbereiding
-                      van het nieuwe seizoen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Event 2 - Nederland - vriendschappelijk -->
-              <article class="article-item"
-                       data-title="Vriendschappelijke wedstrijd U15 Nederland oefenmatch">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto vriendschappelijk
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Vriendschappelijk</div>
-                    <h2 class="article-title">
-                      <a href="vrienden.html">Vriendschappelijke wedstrijd U15 · grensregio</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Belgische en Nederlandse club zoeken extra oefenmatch in het weekend,
-                      met focus op speelminuten voor de volledige kern.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Event 3 - België - stage -->
-              <article class="article-item"
-                       data-title="Zomerstage U7 U13 België voetbalkamp">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer stage
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Stage · voetbalkamp</div>
-                    <h2 class="article-title">
-                      <a href="stages.html">Zomerstage U7–U13 · techniek &amp; fun</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Dagkamp met training in kleine groepen, fun-momenten en themadagen.
-                      Perfect voor spelers die extra willen trainen in de vakantie.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Event 4 - België - dinner -->
-              <article class="article-item"
-                       data-title="Mosselfestijn België dinner clubfeest">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer dinner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Dinner &amp; clubfeest</div>
-                    <h2 class="article-title">
-                      <a href="dinners.html">Mosselfestijn voor de jeugdwerking</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Klassiek clubdiner met opbrengst voor de jeugdwerking. Reservaties, shifts en take-away
-                      volledig centraal beheerd.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Event 5 - Internationaal - algemeen event -->
-              <article class="article-item"
-                       data-title="Infomoment ouderavond internationaal algemene events">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto infomoment
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Algemeen event</div>
-                    <h2 class="article-title">
-                      <a href="algemene-events.html">Ouderavond over jeugdopleiding &amp; verwachtingen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Infosessie voor ouders over visie, speelkansen en gedrag rond de velden.
-                      Ideaal om het seizoen sterk te starten.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- In-feed advertentie tussen events -->
-              <article class="article-item"
-                       data-title="Advertentie partner eventpartner vlag flyer">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Eventpartner: drukwerk &amp; flyers voor jouw club</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Partner die affiches, flyers en spandoeken verzorgt voor tornooien,
-                      stages en clubfeesten. Duidelijk als advertentie aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
+            <!-- ZOEK- EN FILTERBALK -->
+            <div class="search-bar" style="margin-bottom:12px;">
+              <input
+                type="text"
+                id="event-search-text"
+                class="search-input"
+                placeholder="Zoek op club, eventnaam, type, regio..."
+              />
+              <div class="search-filters-row">
+                <select id="event-filter-country" class="search-select">
+                  <option value="">Land (alles)</option>
+                  <option value="BE">🇧🇪 België</option>
+                  <option value="NL">🇳🇱 Nederland</option>
+                </select>
+                <select id="event-filter-type" class="search-select">
+                  <option value="">Type event</option>
+                  <option value="Vriendschappelijk">Vriendschappelijke wedstrijd</option>
+                  <option value="Tornooi">Tornooi</option>
+                  <option value="Stage">Stage / voetbalkamp</option>
+                  <option value="Dinner">Dinner / eetdag</option>
+                  <option value="Algemeen">Algemeen clubevent</option>
+                </select>
+                <select id="event-filter-month" class="search-select">
+                  <option value="">Maand (alles)</option>
+                  <option value="01">Januari</option>
+                  <option value="02">Februari</option>
+                  <option value="03">Maart</option>
+                  <option value="04">April</option>
+                  <option value="05">Mei</option>
+                  <option value="06">Juni</option>
+                  <option value="07">Juli</option>
+                  <option value="08">Augustus</option>
+                  <option value="09">September</option>
+                  <option value="10">Oktober</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+              </div>
+              <div class="form-helper">
+                Filter events op land, type en maand. In de live versie wordt dit gekoppeld aan de echte eventdata.
+              </div>
             </div>
-          </section>
 
-          <!-- RECHTERKOLOM: ADVERTENTIES (MET FLYER + VLAG) -->
-          <aside class="column-right">
+            <!-- FORMULIER: NIEUW EVENT -->
+            <div class="form-card form-card--compact">
+              <h2 class="form-title">Nieuw event aanmelden</h2>
+              <p class="form-sub">
+                Velden met <strong>*</strong> zijn verplicht. Het e-mailadres van de club wordt niet getoond in de eventfiche.
+              </p>
+
+              <form id="event-form">
+                <div class="form-grid form-grid--2cols">
+
+                  <!-- Clubnaam -->
+                  <div class="form-field">
+                    <label class="form-label" for="event-club">
+                      Club / organisatie <span class="required">*</span>
+                    </label>
+                    <input id="event-club" type="text" class="form-input" placeholder="Bv. K. ASV Geel" required />
+                    <div class="form-helper">
+                      Deze naam wordt getoond bij het event.
+                    </div>
+                  </div>
+
+                  <!-- Contactpersoon (optioneel, kan verborgen) -->
+                  <div class="form-field">
+                    <label class="form-label" for="event-contact">
+                      Contactpersoon <span class="required">(optioneel)</span>
+                    </label>
+                    <input id="event-contact" type="text" class="form-input" placeholder="Naam contactpersoon" />
+                    <div class="form-helper">
+                      <label>
+                        <input type="checkbox" id="event-hide-contact" checked />
+                        Naam niet tonen in de eventfiche
+                      </label>
+                    </div>
+                  </div>
+
+                  <!-- E-mailadres (verplicht, maar verborgen) -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="event-email">
+                      E-mailadres club <span class="required">*</span>
+                    </label>
+                    <input id="event-email" type="email" class="form-input" placeholder="club@email.be" required />
+                    <div class="form-helper">
+                      Nodig om inschrijvingen/vragen door te sturen. Dit adres wordt <strong>niet</strong> publiek getoond.
+                    </div>
+                  </div>
+
+                  <!-- Land -->
+                  <div class="form-field">
+                    <span class="form-label">Land <span class="required">*</span></span>
+                    <div class="form-checkbox-row">
+                      <label class="flag-label">
+                        <input type="radio" name="event-country" value="BE" id="event-country-be" required />
+                        <span>🇧🇪 België</span>
+                      </label>
+                      <label class="flag-label">
+                        <input type="radio" name="event-country" value="NL" id="event-country-nl" />
+                        <span>🇳🇱 Nederland</span>
+                      </label>
+                    </div>
+                    <div class="form-helper">
+                      Regio’s passen zich aan per land.
+                    </div>
+                  </div>
+
+                  <!-- Regio -->
+                  <div class="form-field">
+                    <span class="form-label">Regio <span class="required">*</span></span>
+                    <div id="event-region-wrapper" class="form-checkbox-row">
+                      <!-- JS per land -->
+                    </div>
+                    <div class="form-helper">
+                      Eén of meerdere regio’s waarin het event plaatsvindt.
+                    </div>
+                  </div>
+
+                  <!-- Type event -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <span class="form-label">Type event <span class="required">*</span></span>
+                    <div id="event-type-wrapper" class="form-checkbox-row">
+                      <label class="pill-checkbox"><input type="radio" name="event-type" value="Vriendschappelijk" /> Vriendschappelijke wedstrijd</label>
+                      <label class="pill-checkbox"><input type="radio" name="event-type" value="Tornooi" /> Tornooi</label>
+                      <label class="pill-checkbox"><input type="radio" name="event-type" value="Stage" /> Stage / voetbalkamp</label>
+                      <label class="pill-checkbox"><input type="radio" name="event-type" value="Dinner" /> Dinner / eetdag</label>
+                      <label class="pill-checkbox"><input type="radio" name="event-type" value="Algemeen" /> Algemeen clubevent</label>
+                    </div>
+                  </div>
+
+                  <!-- Datum -->
+                  <div class="form-field">
+                    <label class="form-label" for="event-date">
+                      Datum <span class="required">*</span>
+                    </label>
+                    <input id="event-date" type="date" class="form-input" required />
+                    <div class="form-helper">
+                      In de live versie gebruiken we dit voor sortering en filter op maand/weekend.
+                    </div>
+                  </div>
+
+                  <!-- Meerdaags? -->
+                  <div class="form-field">
+                    <label class="form-label" for="event-multi">
+                      Duur <span class="required">(optioneel)</span>
+                    </label>
+                    <input id="event-multi" type="text" class="form-input" placeholder="Bv. weekend, hele week, 2 dagen..." />
+                  </div>
+
+                  <!-- Locatie -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="event-location">
+                      Locatie <span class="required">*</span>
+                    </label>
+                    <input id="event-location" type="text" class="form-input" placeholder="Adres of terrein" required />
+                  </div>
+
+                  <!-- Ploegen / categorieën -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="event-teams">
+                      Doelgroep / leeftijdscategorieën <span class="required">*</span>
+                    </label>
+                    <input id="event-teams" type="text" class="form-input" placeholder="Bv. U8–U11, U15, eerste ploeg, dames..." required />
+                  </div>
+
+                  <!-- Beschrijving -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="event-description">
+                      Korte beschrijving
+                    </label>
+                    <textarea id="event-description" class="form-textarea" placeholder="Omschrijf kort het event: format, inschrijvingsinfo, aantal matchen, extra activiteiten..."></textarea>
+                  </div>
+
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn-primary">Event aanmelden (demo)</button>
+                  <span class="form-helper">
+                    In deze demo wordt je event onderaan op deze pagina toegevoegd (nog geen permanente opslag).
+                  </span>
+                </div>
+              </form>
+            </div>
+
+            <!-- OVERZICHT EVENTS: 3 KOLOMMEN -->
+            <section class="section-main" style="padding-top:10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Overzicht</div>
+                    <div class="card-title">Events &amp; tornooien</div>
+                  </div>
+                  <span class="pill-small">3 per rij · delen &amp; inschrijven</span>
+                </div>
+                <p class="note">
+                  Alle events zijn deelbaar via sociale netwerken. De link gaat automatisch naar het juiste event.
+                </p>
+
+                <div id="event-ads" class="ad-card-list ad-card-grid">
+                  <!-- Voorbeeldevent -->
+                  <article class="ad-card" id="event-ad-1" data-ad-id="1" data-country="BE">
+                    <div class="ad-card-header">
+                      <div>
+                        <div class="ad-card-title">Zomertornooi U8–U11</div>
+                        <div class="ad-card-meta">🇧🇪 België · Regio Kempen · K. ASV Geel</div>
+                      </div>
+                      <div class="ad-card-meta">Tornooi · 15–16 augustus</div>
+                    </div>
+                    <div class="ad-card-body">
+                      <strong>Locatie:</strong> Sportpark De Leunen, Geel<br />
+                      <strong>Doelgroep:</strong> U8–U11 · clubs uit heel België welkom<br /><br />
+                      Tweedaags jeugdtornooi met poules, finales en randanimatie. Inschrijven per ploeg.
+                    </div>
+                    <div class="ad-card-actions">
+                      <button type="button" class="btn-ghost-sm" data-reply-event="1">Inschrijven / contact</button>
+                      <a href="#" class="btn-ghost-sm btn-share" data-share-event="1">Delen</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RECHTERKOLOM: UITLEG + ADVERTENTIES -->
+          <aside>
             <article class="card">
               <div class="card-header">
                 <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners rond events &amp; tornooien</div>
+                  <div class="card-caption">Events</div>
+                  <div class="card-title">Waarom via Voetbal4All?</div>
                 </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
               </div>
-
+              <p class="note">
+                In de live versie kan je via Voetbal4All:
+              </p>
               <ul class="events-list">
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Drukwerk &amp; signage voor tornooien</div>
-                  <div class="event-meta">Affiches, spandoeken, beachflags en veldsignalisatie.</div>
+                  <div class="event-title">Clubs bereiken</div>
+                  <div class="event-meta">Promoot je event naar clubs in jouw regio en daarbuiten.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Online inschrijvingsplatform</div>
-                  <div class="event-meta">Registreer ploegen, spelers en betalingen voor events.</div>
+                  <div class="event-title">Inschrijvingen centraliseren</div>
+                  <div class="event-meta">Reacties en vragen verlopen via Voetbal4All, zonder jouw e-mailadres publiek te tonen.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Verzekeringspartner voor tornooien</div>
-                  <div class="event-meta">Extra dekking voor stageweken en grote events.</div>
+                  <div class="event-title">Planning en overzicht</div>
+                  <div class="event-meta">Combineer events met vriendschappelijke wedstrijden, tornooien en stages op één platform.</div>
                 </li>
               </ul>
             </article>
 
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · EVENTS ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor eventpartners, sponsors of cateringbedrijven.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Tournament partners</div>
+                </div>
+                <span class="pill-small">Shirts · bekers · reizen</span>
               </div>
-            </div>
+              <div class="ad-placeholder">
+                Adverteren met tornooipakketten, bekers, trofeeën of voetbalkampen.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Kantine &amp; catering</div>
+                </div>
+                <span class="pill-small">Suppliers</span>
+              </div>
+              <div class="ad-placeholder">
+                Perfect voor cateringpartners, drankenleveranciers of foodtrucks.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
           </aside>
 
         </div>
+
       </div>
     </section>
   </main>
@@ -363,78 +381,213 @@
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Uitgebreide zoekfunctie voor events
-  const eventSearchInput = document.getElementById('event-search');
-  const eventCountrySelect = document.getElementById('event-country');
-  const eventRegionInput = document.getElementById('event-region');
-  const eventTypeSelect = document.getElementById('event-type');
-  const eventItems = document.querySelectorAll('.article-list .article-item');
+  // Regio's per land (zelfde logica als andere pagina's)
+  const EVENT_REGIONS = {
+    BE: ["Antwerpen", "Limburg", "Vlaams-Brabant", "Oost-Vlaanderen", "West-Vlaanderen", "Brussel"],
+    NL: ["Noord-Brabant", "Limburg (NL)", "Gelderland", "Noord-Holland", "Zuid-Holland", "Overijssel", "Utrecht"]
+  };
 
-  function getCountryFromEventItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
-
-  function getTypeFromEventItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('vriendschappelijk')) return 'vriendschappelijk';
-    if (metaText.includes('tornooi')) return 'tornooi';
-    if (metaText.includes('stage') || metaText.includes('kamp')) return 'stage';
-    if (metaText.includes('dinner') || metaText.includes('clubfeest')) return 'dinner';
-    if (metaText.includes('algemeen')) return 'algemeen';
-
-    return '';
-  }
-
-  function applyEventFilter() {
-    const textQuery = (eventSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (eventRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (eventCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (eventTypeSelect?.value || '').toLowerCase();
-
-    eventItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromEventItem(item);
-      const itemType = getTypeFromEventItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
+  function renderPillCheckboxes(wrapperId, items, namePrefix) {
+    const wrapper = document.getElementById(wrapperId);
+    wrapper.innerHTML = "";
+    items.forEach((item, index) => {
+      const id = `${namePrefix}-${index}`;
+      const label = document.createElement("label");
+      label.className = "pill-checkbox";
+      label.innerHTML = `<input type="checkbox" id="${id}" value="${item}"> ${item}`;
+      wrapper.appendChild(label);
     });
   }
 
-  if (eventItems.length) {
-    eventSearchInput?.addEventListener('input', applyEventFilter);
-    eventCountrySelect?.addEventListener('change', applyEventFilter);
-    eventRegionInput?.addEventListener('input', applyEventFilter);
-    eventTypeSelect?.addEventListener('change', applyEventFilter);
+  function updateEventRegions(country) {
+    if (!country) return;
+    renderPillCheckboxes("event-region-wrapper", EVENT_REGIONS[country], "event-region");
   }
+
+  const eventCountryBE = document.getElementById("event-country-be");
+  const eventCountryNL = document.getElementById("event-country-nl");
+
+  eventCountryBE.addEventListener("change", e => {
+    if (e.target.checked) updateEventRegions("BE");
+  });
+
+  eventCountryNL.addEventListener("change", e => {
+    if (e.target.checked) updateEventRegions("NL");
+  });
+
+  // Overzicht events
+  const eventAdsContainer = document.getElementById("event-ads");
+  let nextEventAdId = 2; // 1 is demo
+
+  function addEventAd(ad) {
+    const idAttr = `event-ad-${ad.id}`;
+    const card = document.createElement("article");
+    card.className = "ad-card";
+    card.id = idAttr;
+    card.dataset.adId = ad.id;
+    card.dataset.country = ad.country;
+    card.dataset.type = ad.type;
+    card.dataset.regions = ad.regions.join("|");
+    card.dataset.date = ad.date;
+
+    const flag = ad.country === "BE" ? "🇧🇪" : "🇳🇱";
+
+    card.innerHTML = `
+      <div class="ad-card-header">
+        <div>
+          <div class="ad-card-title">${ad.title}</div>
+          <div class="ad-card-meta">${flag} ${ad.countryLabel} · ${ad.regions.join(", ")} · ${ad.club}</div>
+        </div>
+        <div class="ad-card-meta">${ad.type} · ${ad.dateLabel}</div>
+      </div>
+      <div class="ad-card-body">
+        <strong>Locatie:</strong> ${ad.location}<br />
+        <strong>Doelgroep:</strong> ${ad.teams}<br />
+        ${ad.duration ? `<strong>Duur:</strong> ${ad.duration}<br />` : ""}<br />
+        ${ad.description ? ad.description : ""}
+      </div>
+      <div class="ad-card-actions">
+        <button type="button" class="btn-ghost-sm" data-reply-event="${ad.id}">Inschrijven / contact</button>
+        <a href="#" class="btn-ghost-sm btn-share" data-share-event="${ad.id}">Delen</a>
+      </div>
+    `;
+    eventAdsContainer.prepend(card);
+    updateEventShareLinks();
+  }
+
+  // Formulier submit (demo)
+  document.getElementById("event-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const club = document.getElementById("event-club").value.trim();
+    const contact = document.getElementById("event-contact").value.trim();
+    const email = document.getElementById("event-email").value.trim();
+    const anonymousContact = document.getElementById("event-hide-contact").checked;
+    const location = document.getElementById("event-location").value.trim();
+    const teams = document.getElementById("event-teams").value.trim();
+    const date = document.getElementById("event-date").value;
+    const duration = document.getElementById("event-multi").value.trim();
+    const description = document.getElementById("event-description").value.trim();
+
+    if (!club) {
+      alert("Club / organisatie is verplicht.");
+      return;
+    }
+    if (!email) {
+      alert("E-mailadres van de club is verplicht.");
+      return;
+    }
+    if (!location) {
+      alert("Locatie is verplicht.");
+      return;
+    }
+    if (!teams) {
+      alert("Doelgroep / categorie is verplicht.");
+      return;
+    }
+    if (!date) {
+      alert("Datum is verplicht.");
+      return;
+    }
+
+    const typeInput = document.querySelector("input[name='event-type']:checked");
+    if (!typeInput) {
+      alert("Kies een type event.");
+      return;
+    }
+    const type = typeInput.value;
+
+    const countryInput = document.querySelector("input[name='event-country']:checked");
+    if (!countryInput) {
+      alert("Kies een land.");
+      return;
+    }
+    const country = countryInput.value;
+    const countryLabel = country === "BE" ? "België" : "Nederland";
+
+    const regions = Array.from(document.querySelectorAll("#event-region-wrapper input:checked")).map(i => i.value);
+    if (!regions.length) {
+      alert("Kies minstens één regio.");
+      return;
+    }
+
+    // Datum formatteren naar dd/mm/yyyy voor label
+    let dateLabel = date;
+    try {
+      const d = new Date(date);
+      const day = String(d.getDate()).padStart(2, "0");
+      const month = String(d.getMonth() + 1).padStart(2, "0");
+      const year = d.getFullYear();
+      dateLabel = `${day}/${month}/${year}`;
+    } catch (err) {}
+
+    const ad = {
+      id: nextEventAdId++,
+      club,
+      contact,
+      anonymousContact,
+      email, // later voor backend
+      country,
+      countryLabel,
+      regions,
+      type,
+      date,
+      dateLabel,
+      duration,
+      location,
+      teams,
+      description,
+      title: type + " · " + teams
+    };
+
+    addEventAd(ad);
+    e.target.reset();
+    document.getElementById("event-hide-contact").checked = true;
+    alert("Demo: je event is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
+  });
+
+  // REAGEREN: knop + akkoord + e-mail, via Voetbal4All
+  document.addEventListener("click", function (e) {
+    if (e.target.matches("[data-reply-event]")) {
+      const adId = e.target.getAttribute("data-reply-event");
+      const ok = confirm(
+        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
+      );
+      if (!ok) return;
+
+      const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
+      if (!replyEmail) {
+        alert("E-mailadres is nodig om te kunnen reageren.");
+        return;
+      }
+
+      const subject = encodeURIComponent("Reactie via Voetbal4All op event " + adId);
+      const body = encodeURIComponent(
+        "Event-ID: " + adId +
+        "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
+        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
+      );
+
+      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    }
+  });
+
+  // Social sharing: link naar specifiek event
+  function updateEventShareLinks() {
+    const baseUrl = window.location.origin + window.location.pathname;
+    document.querySelectorAll("[data-share-event]").forEach(link => {
+      const adId = link.getAttribute("data-share-event");
+      const targetId = "event-ad-" + adId;
+      const urlWithAnchor = baseUrl + "#" + targetId;
+      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.setAttribute("href", fbShare);
+      link.setAttribute("target", "_blank");
+    });
+  }
+
+  updateEventShareLinks();
 </script>
 </body>
 </html>
