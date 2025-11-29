@@ -2,11 +2,9 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Artikels & inspiratie - Voetbal4All</title>
+  <title>Voetbal4All - Artikels & stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -46,227 +44,303 @@
   </header>
 
   <main>
-
-    <!-- PAGINA-INTRO / HERO-LICHT -->
     <section class="section-main">
       <div class="shell">
-        <article class="card">
+
+        <!-- KORTE INTRO -->
+        <article class="card" style="margin-bottom:12px; max-width:900px;">
           <div class="card-header">
             <div>
-              <div class="card-caption">Artikels &amp; inspiratie</div>
-              <div class="card-title">Communicatie, events, vrijwilligers &amp; clubverhalen.</div>
+              <div class="card-caption">Artikels</div>
+              <div class="card-title">Stories, team/vrijwilliger in de kijker &amp; analyses</div>
             </div>
-            <span class="pill-small">Voor clubs, trainers &amp; ouders</span>
+            <span class="pill-small">België · Nederland · Internationaal</span>
           </div>
           <p class="note">
-            Hier bundelt Voetbal4All alle artikels rond clubcommunicatie, events, sponsoring, vrijwilligers
-            en inspirerende verhalen uit het Belgische, Nederlandse en internationale voetbal.
+            Een verzameling artikels over clubs, trainers, spelers en vrijwilligers. 
+            Op deze pagina tonen we <strong>foto/flyer</strong> en <strong>vlag</strong> bij elk artikel. 
+            In de live versie kunnen clubs en redacteurs artikels aanleveren via hun account.
           </p>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE -->
-        <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="article-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. vrijwilligers, tornooi, ouders...)"
-          />
-          <div class="search-filters-row">
-            <select id="article-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="article-region"
-              class="search-input search-input--small"
-              placeholder="Regio (optioneel, bv. Kempen, Limburg)"
-            />
-            <select id="article-type" class="search-select">
-              <option value="">Alle artikels</option>
-              <option value="events">Events &amp; communicatie</option>
-              <option value="vrijwilligers">Vrijwilligers</option>
-              <option value="internationaal">Internationaal</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ARTIKELEN + ADVERTORIALS (STEEDS FOTO/FLYER + VLAG) -->
-    <section class="section-main">
-      <div class="shell">
+        <!-- GRID: LINKS ARTIKELS + FILTER · RECHTS INFO / ADS -->
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · ARTIKELS (TOP)
-          <span class="ad-size">
-            Ideaal voor communicatiepartners, verzekeraars of software voor clubs.
-          </span>
-        </div>
+          <!-- LINKERKOLOM: FILTERS + ARTIKELS -->
+          <div>
 
-        <!-- LAYOUT: artikels links, advertentieblok rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: ARTIKELLIJST -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Artikel 1 - België -->
-              <article class="article-item" data-title="Hoe maak je je tornooi sneller vol België communicatie events sponsors">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      AI / copyright-vrije foto
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Events · communicatie</div>
-                    <h2 class="article-title">
-                      <a href="#">Hoe maak je als jeugdclub je tornooi sneller vol?</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Praktische tips rond timing, uitnodigingen, social media en samenwerking met omliggende clubs
-                      om je tornooi vlot vol te krijgen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Artikel 2 - Nederland -->
-              <article class="article-item" data-title="Vrijwilligersbeleid Nederland vrijwilligers kantine terreinen">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      AI / copyright-vrije foto
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Vrijwilligers</div>
-                    <h2 class="article-title">
-                      <a href="#">Sterk vrijwilligersbeleid: voorbeelden uit Nederland</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Hoe Nederlandse clubs hun vrijwilligers duurzaam betrekken, opleiden en bedanken.
-                      Ideeën die je meteen kan toepassen in je eigen club.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Artikel 3 - Internationaal -->
-              <article class="article-item" data-title="Internationale inspiratie fanbeleving internationaal">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      AI / copyright-vrije foto
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Internationaal · inspiratie</div>
-                    <h2 class="article-title">
-                      <a href="#">Wat lokale clubs kunnen leren van internationale fanbeleving</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Kleine ingrepen die je clubgevoel en fanbeleving naar een hoger niveau tillen,
-                      zonder groot budget nodig te hebben.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partnerartikel - steeds flyer + vlag -->
-              <article class="article-item" data-title="Partner advertorial communicatieplatform clubs België Nederland">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer / partnervisual
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Communicatieplatform voor clubs: minder werk, meer bereik</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Hoe één centraal communicatieplatform je nieuwsbrieven, social posts en website-updates
-                      kan stroomlijnen. Partnercontent, duidelijk als advertentie aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
+            <!-- ZOEK- EN FILTERBALK -->
+            <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
+              <input
+                type="text"
+                id="article-search-text"
+                class="search-input"
+                placeholder="Zoek op club, titel, thema, regio..."
+              />
+              <div class="search-filters-row">
+                <select id="article-filter-country" class="search-select">
+                  <option value="">Land (alles)</option>
+                  <option value="BE">🇧🇪 België</option>
+                  <option value="NL">🇳🇱 Nederland</option>
+                  <option value="INT">🌍 Internationaal</option>
+                </select>
+                <select id="article-filter-category" class="search-select">
+                  <option value="">Categorie (alles)</option>
+                  <option value="team">Team in de kijker</option>
+                  <option value="vrijwilliger">Vrijwilliger in de kijker</option>
+                  <option value="analyse">Analyse / data</option>
+                  <option value="interview">Interview</option>
+                  <option value="best-practice">Best practice clubwerking</option>
+                </select>
+              </div>
+              <div class="form-helper">
+                Filter artikels op land en categorie. De tekstzoeker kijkt in titel, intro en tags.
+              </div>
             </div>
-          </section>
 
-          <!-- RECHTERKOLOM: ADVERTENTIES (STEEDS FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
+            <!-- OVERZICHT ARTIKELS: 3 KOLOMMEN -->
+            <section class="section-main" style="padding-top:0;">
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Overzicht</div>
+                    <div class="card-title">Laatste artikels &amp; verhalen</div>
+                  </div>
+                  <span class="pill-small">3 per rij · met foto &amp; vlag</span>
+                </div>
+                <p class="note">
+                  De beelden kunnen copyrightvrij of door AI gegenereerd zijn. In de live versie kunnen we hier 
+                  automatisch foto’s koppelen aan artikels.
+                </p>
+
+                <div id="article-list" class="ad-card-list ad-card-grid">
+
+                  <!-- VOORBEELDARTIKEL 1 -->
+                  <article
+                    class="ad-card"
+                    id="article-1"
+                    data-article-id="1"
+                    data-country="BE"
+                    data-category="team"
+                    data-tags="team in de kijker jeugdopleiding kempen"
+                  >
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        AI-beeld van jeugdspeelsters tijdens training
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🇧🇪</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Team in de kijker · Kempen</div>
+                      <h3 class="article-title">
+                        <a href="#article-1">U13-meisjes zetten volledige club in beweging</a>
+                      </h3>
+                      <p class="article-excerpt">
+                        Hoe een enthousiast meisjesploegje de club verjongt en meer ouders bij de werking betrekt.
+                      </p>
+                      <div class="ad-card-actions">
+                        <a href="#article-1" class="btn-ghost-sm">Lees meer</a>
+                        <a href="#" class="btn-ghost-sm btn-share" data-share-article="1">Delen</a>
+                      </div>
+                    </div>
+                  </article>
+
+                  <!-- VOORBEELDARTIKEL 2 -->
+                  <article
+                    class="ad-card"
+                    id="article-2"
+                    data-article-id="2"
+                    data-country="BE"
+                    data-category="vrijwilliger"
+                    data-tags="vrijwilliger in de kijker kantine verantwoordelijke"
+                  >
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        Portret van kantinevrijwilliger in clubkleuren
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🇧🇪</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Vrijwilliger in de kijker</div>
+                      <h3 class="article-title">
+                        <a href="#article-2">“Ik ken elke speler bij naam” – 20 jaar kantine</a>
+                      </h3>
+                      <p class="article-excerpt">
+                        Interview met een vrijwilliger die al twee decennia lang het kloppende hart van de kantine is.
+                      </p>
+                      <div class="ad-card-actions">
+                        <a href="#article-2" class="btn-ghost-sm">Lees meer</a>
+                        <a href="#" class="btn-ghost-sm btn-share" data-share-article="2">Delen</a>
+                      </div>
+                    </div>
+                  </article>
+
+                  <!-- VOORBEELDARTIKEL 3 -->
+                  <article
+                    class="ad-card"
+                    id="article-3"
+                    data-article-id="3"
+                    data-country="NL"
+                    data-category="analyse"
+                    data-tags="analyse data scouting nederland"
+                  >
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        Dashboard-achtige AI visual van statistieken
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🇳🇱</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Analyse · Data &amp; scouting</div>
+                      <h3 class="article-title">
+                        <a href="#article-3">Hoe amateurclubs data kunnen gebruiken zonder extra budget</a>
+                      </h3>
+                      <p class="article-excerpt">
+                        Praktische tips om met eenvoudige tools betere beslissingen te nemen rond selectie en training.
+                      </p>
+                      <div class="ad-card-actions">
+                        <a href="#article-3" class="btn-ghost-sm">Lees meer</a>
+                        <a href="#" class="btn-ghost-sm btn-share" data-share-article="3">Delen</a>
+                      </div>
+                    </div>
+                  </article>
+
+                  <!-- VOORBEELDARTIKEL 4 -->
+                  <article
+                    class="ad-card"
+                    id="article-4"
+                    data-article-id="4"
+                    data-country="INT"
+                    data-category="interview"
+                    data-tags="internationaal interview jeugdtrainer opleiding"
+                  >
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        AI-beeld van internationale oefenwedstrijd
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🌍</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Interview · Internationaal</div>
+                      <h3 class="article-title">
+                        <a href="#article-4">Wat Belgische clubs kunnen leren van Nederlandse jeugdwerking</a>
+                      </h3>
+                      <p class="article-excerpt">
+                        Een jeugdverantwoordelijke vergelijkt de aanpak over de landsgrenzen heen.
+                      </p>
+                      <div class="ad-card-actions">
+                        <a href="#article-4" class="btn-ghost-sm">Lees meer</a>
+                        <a href="#" class="btn-ghost-sm btn-share" data-share-article="4">Delen</a>
+                      </div>
+                    </div>
+                  </article>
+
+                  <!-- VOORBEELDARTIKEL 5 -->
+                  <article
+                    class="ad-card"
+                    id="article-5"
+                    data-article-id="5"
+                    data-country="BE"
+                    data-category="best-practice"
+                    data-tags="best practice clubwerking communicatie ouders"
+                  >
+                    <div class="home-article-media">
+                      <div class="home-article-image">
+                        AI-beeld van ouderavond in de kantine
+                      </div>
+                      <div class="home-article-flag">
+                        <span class="flag-badge">🇧🇪</span>
+                      </div>
+                    </div>
+                    <div class="home-article-content">
+                      <div class="article-meta">Best practice · Clubwerking</div>
+                      <h3 class="article-title">
+                        <a href="#article-5">5 formats om ouders beter te betrekken bij de jeugdwerking</a>
+                      </h3>
+                      <p class="article-excerpt">
+                        Concrete voorbeelden van infomomenten, nieuwsbrieven en oudercafés die echt werken.
+                      </p>
+                      <div class="ad-card-actions">
+                        <a href="#article-5" class="btn-ghost-sm">Lees meer</a>
+                        <a href="#" class="btn-ghost-sm btn-share" data-share-article="5">Delen</a>
+                      </div>
+                    </div>
+                  </article>
+
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RECHTERKOLOM: UITLEG + ADVERTENTIES -->
+          <aside>
             <article class="card">
               <div class="card-header">
                 <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners &amp; tools voor clubs</div>
+                  <div class="card-caption">Redactie</div>
+                  <div class="card-title">Artikels aanleveren</div>
                 </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
               </div>
-
+              <p class="note">
+                In de live versie kunnen clubs, trainers en redacteurs zelf artikels aanleveren
+                via hun Voetbal4All-account. 
+              </p>
               <ul class="events-list">
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Software voor ledenadministratie</div>
-                  <div class="event-meta">Automatiseer inschrijvingen, betalingen en communicatie met leden.</div>
+                  <div class="event-title">Team/vrijwilliger in de kijker</div>
+                  <div class="event-meta">Highlight je ploeg, vrijwilligers of medewerkers.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Kledingleverancier voor clubs</div>
-                  <div class="event-meta">Teamwear, merchandising en webshop op maat van je club.</div>
+                  <div class="event-title">Best practices delen</div>
+                  <div class="event-meta">Deel formats voor trainingen, communicatie en clubwerking.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Verzekeringspartner sportclubs</div>
-                  <div class="event-meta">Op maat gemaakte oplossingen voor jeugdclubs en verenigingen.</div>
+                  <div class="event-title">Data &amp; analyse</div>
+                  <div class="event-meta">Koppeling mogelijk met sportieve stats uit het sportief-luik.</div>
                 </li>
               </ul>
             </article>
 
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor partners.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Media &amp; opleidingen</div>
+                </div>
+                <span class="pill-small">Partners</span>
               </div>
-            </div>
+              <div class="ad-placeholder">
+                Perfect voor partners rond opleidingen, coach-the-coach of clubcommunicatie.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Drukwerk &amp; visuals</div>
+                </div>
+                <span class="pill-small">Flyers · banners · kleding</span>
+              </div>
+              <div class="ad-placeholder">
+                Advertentieruimte voor drukwerk, clubwear of grafisch ontwerp.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
           </aside>
 
         </div>
+
       </div>
     </section>
   </main>
@@ -297,75 +371,70 @@
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Uitgebreide zoekfunctie voor artikels
-  const articleSearchInput = document.getElementById('article-search');
-  const articleCountrySelect = document.getElementById('article-country');
-  const articleRegionInput = document.getElementById('article-region');
-  const articleTypeSelect = document.getElementById('article-type');
-  const articleItems = document.querySelectorAll('.article-list .article-item');
+  const articleSearchInput = document.getElementById("article-search-text");
+  const articleFilterCountry = document.getElementById("article-filter-country");
+  const articleFilterCategory = document.getElementById("article-filter-category");
+  const articleCards = Array.from(document.querySelectorAll("#article-list .ad-card"));
 
-  function getCountryFromItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
+  function normalize(str) {
+    return (str || "").toLowerCase();
   }
 
-  function getTypeFromArticleItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+  function filterArticles() {
+    const text = normalize(articleSearchInput.value);
+    const country = articleFilterCountry.value;
+    const category = articleFilterCategory.value;
 
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('vrijwilliger')) return 'vrijwilligers';
-    if (metaText.includes('internationaal')) return 'internationaal';
-    if (metaText.includes('events') || metaText.includes('communicatie')) return 'events';
-
-    return '';
-  }
-
-  function applyArticleFilter() {
-    const textQuery = (articleSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (articleRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (articleCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (articleTypeSelect?.value || '').toLowerCase();
-
-    articleItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromItem(item);   // BE / NL / INT / ''
-      const itemType = getTypeFromArticleItem(item);  // events / vrijwilligers / internationaal / advertorial / ''
+    articleCards.forEach(card => {
+      const cardCountry = card.dataset.country || "";
+      const cardCategory = card.dataset.category || "";
+      const tags = normalize(card.dataset.tags || "");
+      const titleEl = card.querySelector(".article-title");
+      const excerptEl = card.querySelector(".article-excerpt");
+      const titleText = normalize(titleEl ? titleEl.textContent : "");
+      const excerptText = normalize(excerptEl ? excerptEl.textContent : "");
 
       let visible = true;
 
-      if (textQuery && !fullText.includes(textQuery)) {
+      if (country && cardCountry !== country) {
         visible = false;
       }
 
-      if (visible && countryFilter && itemCountry !== countryFilter) {
+      if (visible && category && cardCategory !== category) {
         visible = false;
       }
 
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
+      if (visible && text) {
+        const haystack = titleText + " " + excerptText + " " + tags;
+        if (!haystack.includes(text)) {
+          visible = false;
+        }
       }
 
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
+      card.style.display = visible ? "" : "none";
     });
   }
 
-  if (articleItems.length) {
-    articleSearchInput?.addEventListener('input', applyArticleFilter);
-    articleCountrySelect?.addEventListener('change', applyArticleFilter);
-    articleRegionInput?.addEventListener('input', applyArticleFilter);
-    articleTypeSelect?.addEventListener('change', applyArticleFilter);
+  articleSearchInput.addEventListener("input", filterArticles);
+  articleFilterCountry.addEventListener("change", filterArticles);
+  articleFilterCategory.addEventListener("change", filterArticles);
+
+  // Social sharing: link naar specifiek artikel
+  function updateArticleShareLinks() {
+    const baseUrl = window.location.origin + window.location.pathname;
+    document.querySelectorAll("[data-share-article]").forEach(link => {
+      const id = link.getAttribute("data-share-article");
+      const targetId = "article-" + id;
+      const urlWithAnchor = baseUrl + "#" + targetId;
+      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.setAttribute("href", fbShare);
+      link.setAttribute("target", "_blank");
+    });
   }
-</script></body>
+
+  updateArticleShareLinks();
+</script>
+</body>
 </html>
