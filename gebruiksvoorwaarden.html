@@ -10,7 +10,7 @@
 <body>
 <div class="page">
 
-  <!-- NAVBAR (zelfde nav-blok als events.html) -->
+  <!-- NAVBAR -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
@@ -21,8 +21,63 @@
             <div class="brand-text-sub">Football · Data · Clubs</div>
           </div>
         </a>
-        <!-- plak hier dezelfde <nav> als bij events.html -->
-        <!-- ... -->
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
@@ -30,145 +85,197 @@
   <main>
     <section class="section-main">
       <div class="shell">
+
         <article class="card">
           <div class="card-header">
             <div>
               <div class="card-caption">Voetbal4All</div>
               <div class="card-title">Gebruiksvoorwaarden</div>
             </div>
+            <span class="pill-small">Van toepassing op België en Nederland</span>
           </div>
-          <p class="note">
-            Laatste update: [datum invullen]. Deze gebruiksvoorwaarden zijn van toepassing op alle bezoekers en gebruikers
-            van het Voetbal4All-platform, zowel in België als Nederland. Dit document is een sjabloon en vervangt geen
-            individueel juridisch advies.
-          </p>
 
-          <h2>1. Definities</h2>
-          <p>
-            In deze voorwaarden wordt verstaan onder:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Platform</div>
-              <div class="event-meta">De website en eventuele subdomeinen van Voetbal4All.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Gebruiker</div>
-              <div class="event-meta">Iedere natuurlijke of rechtspersoon die het platform bezoekt of gebruikt.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Account</div>
-              <div class="event-meta">De persoonlijke of clubgebonden login op Voetbal4All.</div>
-            </li>
-          </ul>
+          <div class="legal-content">
+            <p class="note">
+              Laatst bijgewerkt: 29 november 2025  
+              Dit document is een algemene leidraad en vervangt geen individueel juridisch advies. 
+              We raden aan om deze tekst door een juridisch adviseur te laten valideren vóór livegang.
+            </p>
 
-          <h2>2. Toepasselijkheid en wijziging</h2>
-          <p>
-            Door het platform te bezoeken of te gebruiken, ga je akkoord met deze gebruiksvoorwaarden. Voetbal4All behoudt zich
-            het recht voor deze voorwaarden te wijzigen. De meest recente versie wordt steeds op het platform gepubliceerd.
-          </p>
+            <h2>1. Toepassingsgebied</h2>
+            <p>
+              Deze gebruiksvoorwaarden zijn van toepassing op het gebruik van het online platform
+              <strong>Voetbal4All</strong> (hierna: “het Platform”), toegankelijk via het nog te bepalen domein
+              en alle onderliggende pagina’s.  
+              Ze gelden voor alle bezoekers, geregistreerde gebruikers, clubs, trainers, spelers, supporters
+              en adverteerders in België en Nederland.
+            </p>
 
-          <h2>3. Doel van het platform</h2>
-          <p>
-            Voetbal4All heeft als doel spelers, trainers, clubs, supporters en partners met elkaar te verbinden, onder meer via:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Spelers- en trainersprofielen</div>
-              <div class="event-meta">Met (optioneel) anonieme weergave en bescherming van contactgegevens.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Clubvacatures en events</div>
-              <div class="event-meta">Tornooien, stages, vriendschappelijke wedstrijden, dinners en algemene activiteiten.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Sportieve informatie</div>
-              <div class="event-meta">Statistieken, resultaten, rangschikkingen en redactionele artikels.</div>
-            </li>
-          </ul>
+            <h2>2. Definities</h2>
+            <ul>
+              <li><strong>Gebruiker</strong>: iedere natuurlijke persoon of rechtspersoon die het Platform bezoekt of gebruikt.</li>
+              <li><strong>Account</strong>: het profiel dat een gebruiker kan aanmaken om advertenties te plaatsen of gegevens te beheren.</li>
+              <li><strong>Content</strong>: alle gegevens, teksten, foto’s, video’s, links en andere informatie die door gebruikers wordt geplaatst.</li>
+              <li><strong>Beheerder</strong>: Voetbal4All en/of de personen die het Platform technisch en inhoudelijk beheren.</li>
+            </ul>
 
-          <h2>4. Gebruik van accounts</h2>
-          <p>
-            Gebruikers zijn verantwoordelijk voor alle activiteiten die via hun account plaatsvinden. Login-gegevens dienen
-            vertrouwelijk te worden behandeld. Misbruik, verlies of diefstal van login-gegevens dient zo snel mogelijk
-            gemeld te worden aan Voetbal4All.
-          </p>
+            <h2>3. Aanvaarding van de voorwaarden</h2>
+            <p>
+              Door het Platform te bezoeken of te gebruiken, gaat u onvoorwaardelijk akkoord met deze
+              gebruiksvoorwaarden en de <a href="privacyverklaring.html">privacyverklaring</a>.
+              Indien u niet akkoord gaat, wordt u verzocht het Platform niet verder te gebruiken.
+            </p>
 
-          <h2>5. Inhoud door gebruikers</h2>
-          <p>
-            Gebruikers kunnen inhoud aanleveren (bijv. advertenties, events, artikels). Zij blijven zelf verantwoordelijk
-            voor de juistheid en wettelijkheid van deze inhoud. Het is niet toegestaan:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Onrechtmatige of discriminerende inhoud te plaatsen</div>
-              <div class="event-meta">Bijvoorbeeld op grond van afkomst, geslacht, geloof of geaardheid.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Inbreuk te maken op intellectuele eigendomsrechten</div>
-              <div class="event-meta">Zoals auteursrechten op teksten, logo’s of foto’s.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Persoonsgegevens zonder toestemming te publiceren</div>
-              <div class="event-meta">Voor zover dit in strijd is met de toepasselijke privacywetgeving (GDPR/AVG).</div>
-            </li>
-          </ul>
-          <p>
-            Voetbal4All behoudt zich het recht voor inhoud te weigeren, aan te passen of te verwijderen indien die strijdig is
-            met deze voorwaarden of met de wet in België of Nederland.
-          </p>
+            <h2>4. Doel van het Platform</h2>
+            <p>
+              Voetbal4All heeft als doel een centraal platform te bieden waar:
+            </p>
+            <ul>
+              <li>clubs hun vacatures en events kunnen publiceren;</li>
+              <li>trainers en spelers zich kunnen voorstellen;</li>
+              <li>supportersclubs, sportieve resultaten en statistieken in beeld gebracht worden;</li>
+              <li>adverteerders zichtbaarheid kunnen krijgen via verschillende advertentiezones.</li>
+            </ul>
+            <p>
+              Het Platform is een ondersteunend communicatiekanaal en neemt geen sportieve of
+              contractuele beslissingen in naam van clubs, spelers of trainers.
+            </p>
 
-          <h2>6. Anonieme profielen en communicatie</h2>
-          <p>
-            Gebruikers kunnen er voor kiezen om hun naam en/of woonplaats niet publiek te tonen. In dat geval verloopt de
-            communicatie via Voetbal4All (bijvoorbeeld via een reactieformulier), waarbij het e-mailadres van de plaatser
-            verborgen blijft voor de andere partij.
-          </p>
+            <h2>5. Gebruik van accounts</h2>
+            <h3>5.1 Registratie</h3>
+            <p>
+              Bepaalde functionaliteiten (zoals het beheren of verwijderen van eigen advertenties)
+              vereisen een account. Bij registratie:
+            </p>
+            <ul>
+              <li>verstrekt u correcte, actuele en volledige gegevens;</li>
+              <li>bent u minimaal 16 jaar, of beschikt u over toestemming van een ouder/voogd;</li>
+              <li>bent u verantwoordelijk voor de vertrouwelijkheid van uw inloggegevens.</li>
+            </ul>
 
-          <h2>7. Verwerking van persoonsgegevens</h2>
-          <p>
-            Voor de manier waarop persoonsgegevens worden verwerkt, verwijst Voetbal4All naar de afzonderlijke
-            <a href="privacyverklaring.html">Privacyverklaring</a>. Deze is opgesteld met inachtneming van de
-            Algemene Verordening Gegevensbescherming (AVG/GDPR), zoals van toepassing in België en Nederland.
-          </p>
+            <h3>5.2 Verantwoordelijkheid</h3>
+            <p>
+              U bent zelf verantwoordelijk voor alle activiteiten die via uw account plaatsvinden.
+              Bij vermoeden van misbruik of ongeoorloofd gebruik dient u dit zo snel mogelijk te melden
+              aan Voetbal4All.
+            </p>
 
-          <h2>8. Aansprakelijkheid</h2>
-          <p>
-            Voetbal4All spant zich in om de inhoud van het platform zo actueel en correct mogelijk te houden, maar kan niet
-            garanderen dat alle informatie steeds volledig, juist of actueel is. Voetbal4All is niet aansprakelijk voor:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Indirecte of gevolgschade</div>
-              <div class="event-meta">Bijvoorbeeld gederfde winst, gemiste kansen of reputatieschade.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Inhoud geplaatst door gebruikers</div>
-              <div class="event-meta">Waaronder advertenties, profielen of events.</div>
-            </li>
-          </ul>
+            <h2>6. Gebruikerscontent</h2>
+            <h3>6.1 Plaatsing van advertenties en berichten</h3>
+            <p>
+              Gebruikers kunnen onder meer clubs, trainers, spelers, events en supportersclubs toevoegen.
+              Bij elke vorm van content:
+            </p>
+            <ul>
+              <li>bent u zelf verantwoordelijk voor de juistheid en volledigheid van de informatie;</li>
+              <li>verklaart u dat u de nodige rechten (bijv. op foto’s en logo’s) bezit;</li>
+              <li>houdt u rekening met de geldende wetgeving in België en Nederland.</li>
+            </ul>
 
-          <h2>9. Advertenties en partners</h2>
-          <p>
-            Op het platform kunnen advertenties worden getoond van externe partijen, onder meer via premiumplaatsen of
-            advertentienetwerken (zoals Google AdSense). Voetbal4All is niet verantwoordelijk voor de inhoud van deze
-            externe websites of aanbiedingen.
-          </p>
+            <h3>6.2 Verboden content</h3>
+            <p>Het is onder andere verboden om content te plaatsen die:</p>
+            <ul>
+              <li>onwettig, discriminerend, beledigend of haatzaaiend is;</li>
+              <li>aanzet tot geweld, pesterijen of ongepast gedrag;</li>
+              <li>schadelijke software, phishing of misleidende links bevat;</li>
+              <li>inbreuk maakt op auteursrechten, portretrechten of merkenrechten;</li>
+              <li>persoonlijke gegevens van derden bevat zonder hun toestemming.</li>
+            </ul>
 
-          <h2>10. Toepasselijk recht en bevoegde rechtbank</h2>
-          <p>
-            Op deze gebruiksvoorwaarden is, afhankelijk van de hoedanigheid en locatie van de gebruiker, het Belgisch of
-            Nederlands recht van toepassing. In geval van geschillen zal in eerste instantie worden getracht om in onderling
-            overleg tot een oplossing te komen. Lukt dat niet, dan zijn de bevoegde rechtbanken in België of Nederland,
-            overeenkomstig de gewone bevoegdheidsregels, exclusief bevoegd.
-          </p>
+            <h3>6.3 Moderatie en verwijdering</h3>
+            <p>
+              De beheerder behoudt zich het recht voor om content te weigeren, aan te passen of te verwijderen
+              indien zij strijdig wordt geacht met deze voorwaarden of met geldende wetgeving, zonder dat hiervoor
+              enige schadevergoeding verschuldigd is.
+            </p>
 
-          <h2>11. Contact</h2>
-          <p>
-            Voor vragen over deze gebruiksvoorwaarden kan je gebruik maken van het
-            <a href="contact.html">contactformulier</a> op het platform.
-          </p>
+            <h2>7. Advertenties en commerciële vermeldingen</h2>
+            <h3>7.1 Premium &amp; gratis vermeldingen</h3>
+            <p>
+              Het Platform biedt zowel gratis als betalende (premium) zichtbaarheid, onder meer voor:
+            </p>
+            <ul>
+              <li>clubvacatures, trainers- en spelersprofielen;</li>
+              <li>events (tornooien, dinners, stages, enz.);</li>
+              <li>bedrijven en partners (hoofdsponsors, banneradvertenties, enz.).</li>
+            </ul>
+
+            <h3>7.2 Geen garantie op resultaat</h3>
+            <p>
+              Voetbal4All levert inspanningen om advertenties correct weer te geven, maar
+              geeft geen garantie op aantal views, reacties, inschrijvingen of sportieve resultaten.
+            </p>
+
+            <h2>8. Aansprakelijkheid</h2>
+            <h3>8.1 Algemeen</h3>
+            <p>
+              Voetbal4All streeft naar een correcte en actuele weergave van informatie,
+              maar kan niet garanderen dat alle gegevens volledig, juist of up-to-date zijn.
+              Gebruik van het Platform gebeurt steeds op eigen risico.
+            </p>
+
+            <h3>8.2 Beperking van aansprakelijkheid</h3>
+            <p>
+              In de mate toegestaan door de wet, is Voetbal4All niet aansprakelijk voor:
+            </p>
+            <ul>
+              <li>indirecte schade (zoals gevolgschade, gederfde winst, gemiste kansen);</li>
+              <li>inaccurate of onvolledige informatie aangeleverd door gebruikers of derden;</li>
+              <li>tijdelijke onbeschikbaarheid van het Platform;</li>
+              <li>links naar externe websites of diensten buiten de controle van Voetbal4All.</li>
+            </ul>
+
+            <h2>9. Specifiek voor België en Nederland</h2>
+            <p>
+              Voetbal4All houdt rekening met de relevante wetgeving in België en Nederland,
+              waaronder (niet-limitatief):
+            </p>
+            <ul>
+              <li>de Algemene Verordening Gegevensbescherming (AVG / GDPR);</li>
+              <li>de Belgische en Nederlandse regels inzake e-commerce en consumentenbescherming;</li>
+              <li>lokale bepalingen met betrekking tot minderjarigen en sportactiviteiten.</li>
+            </ul>
+            <p>
+              In geval van tegenstrijdigheid tussen nationale regels heeft de dwingende wetgeving
+              in het betreffende land voorrang.
+            </p>
+
+            <h2>10. Intellectuele eigendom</h2>
+            <p>
+              De naam Voetbal4All, het logo, de lay-out van het Platform en eigen teksten en visuals
+              zijn beschermd door intellectuele eigendomsrechten.  
+              Het is niet toegestaan om zonder voorafgaande schriftelijke toestemming
+              materiaal van het Platform te kopiëren, hergebruiken of commercieel te exploiteren.
+            </p>
+
+            <h2>11. Duur, wijziging en beëindiging</h2>
+            <p>
+              Voetbal4All kan deze gebruiksvoorwaarden op elk moment wijzigen.  
+              De meest recente versie is steeds beschikbaar op deze pagina. Bij belangrijke wijzigingen
+              kan een melding op het Platform worden geplaatst.
+            </p>
+            <p>
+              Voetbal4All kan het Platform (of onderdelen ervan) tijdelijk of permanent onderbreken,
+              zonder voorafgaande kennisgeving en zonder schadevergoeding.
+            </p>
+
+            <h2>12. Toepasselijk recht en bevoegde rechtbank</h2>
+            <p>
+              Op deze gebruiksvoorwaarden is, naargelang de vestigingsplaats van Voetbal4All,
+              in principe Belgisch recht van toepassing.  
+              In geval van geschil streven partijen naar een minnelijke oplossing.  
+              Indien dit niet lukt, zijn de bevoegde rechtbanken van het arrondissement waar Voetbal4All
+              gevestigd is, bevoegd, onverminderd eventuele dwingende bepalingen van consumentenrecht.
+            </p>
+
+            <h2>13. Contact</h2>
+            <p>
+              Voor vragen over deze gebruiksvoorwaarden kunt u het 
+              <a href="contact.html">contactformulier</a> gebruiken.
+            </p>
+          </div>
         </article>
+
       </div>
     </section>
   </main>
@@ -192,6 +299,9 @@
   </footer>
 
 </div>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
