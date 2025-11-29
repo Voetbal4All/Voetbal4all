@@ -87,8 +87,8 @@
       </div>
     </header>
 
-    <!-- AdSense: HEADER advertentie (bovenaan, onder navbar) -->
-    <div class="ad-slot ad-slot-header">
+    <!-- AdSense: HEADER advertentie (direct onder navbar, sticky via CSS) -->
+    <div class="ad-slot ad-slot-header sticky-ad-header">
       <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-4062633211824348"
@@ -152,7 +152,7 @@
               </a>
             </article>
 
-            <!-- RECHTERKANT: HOOFDSKOREN HEADER / SPONSOR -->
+            <!-- RECHTERKANT: HOOFSPONSOR HEADER -->
             <aside class="card">
               <div class="card-header">
                 <div>
@@ -358,7 +358,7 @@
               </div>
             </section>
 
-            <!-- MIDDENKOLOM (VOETBALKOPPEN / ARTIKELS) -->
+            <!-- MIDDENKOLOM (VOETBALKOPPEN / ARTIKELS - MET KLEINE FOTO LINKS) -->
             <section class="column-middle">
               <div class="card" style="margin-bottom:12px;">
                 <div class="card-header">
@@ -366,11 +366,10 @@
                     <div class="card-caption">In de kijker</div>
                     <div class="card-title">Laatste artikels &amp; verhalen</div>
                   </div>
-                  <span class="pill-small">Met foto &amp; vlag</span>
+                  <span class="pill-small">Met kleine foto links</span>
                 </div>
                 <p class="note">
-                  Hier komen straks echte artikels te staan met copyrightvrije of AI-gegenereerde beelden,
-                  telkens met een vlag voor België, Nederland of internationale content.
+                  Compacte artikels met kleine afbeeldingen links van de tekst. Grotere beelden komen op de artikelpagina zelf.
                 </p>
               </div>
 
@@ -378,17 +377,15 @@
 
                 <!-- Artikel 1 -->
                 <article class="article-item">
-                  <div class="home-article-card">
-                    <div class="home-article-media">
-                      <div class="home-article-image">
-                        AI-foto: Jeugdtraining
-                      </div>
-                      <div class="home-article-flag">
-                        <span class="flag-badge">🇧🇪</span>
-                      </div>
+                  <div class="home-article-card home-article-card--compact">
+                    <div class="home-article-media-thumb">
+                      <span>Jeugdtraining</span>
                     </div>
                     <div class="home-article-content">
-                      <div class="article-meta">Jeugdwerking · België</div>
+                      <div class="home-article-header">
+                        <span class="flag-badge">🇧🇪</span>
+                        <span class="article-meta">Jeugdwerking · België</span>
+                      </div>
                       <h2 class="article-title">
                         <a href="artikels.html">Hoe clubs hun onderbouw beter kunnen organiseren</a>
                       </h2>
@@ -402,17 +399,15 @@
 
                 <!-- Artikel 2 -->
                 <article class="article-item">
-                  <div class="home-article-card">
-                    <div class="home-article-media">
-                      <div class="home-article-image">
-                        AI-foto: Trainer langs de lijn
-                      </div>
-                      <div class="home-article-flag">
-                        <span class="flag-badge">🇳🇱</span>
-                      </div>
+                  <div class="home-article-card home-article-card--compact">
+                    <div class="home-article-media-thumb">
+                      <span>Trainer langs de lijn</span>
                     </div>
                     <div class="home-article-content">
-                      <div class="article-meta">Trainers · Nederland</div>
+                      <div class="home-article-header">
+                        <span class="flag-badge">🇳🇱</span>
+                        <span class="article-meta">Trainers · Nederland</span>
+                      </div>
                       <h2 class="article-title">
                         <a href="artikels.html">5 aandachtspunten voor trainers in de bovenbouw</a>
                       </h2>
@@ -425,17 +420,15 @@
 
                 <!-- Artikel 3 -->
                 <article class="article-item">
-                  <div class="home-article-card">
-                    <div class="home-article-media">
-                      <div class="home-article-image">
-                        AI-foto: Supporters &amp; community
-                      </div>
-                      <div class="home-article-flag">
-                        <span class="flag-badge">🌍</span>
-                      </div>
+                  <div class="home-article-card home-article-card--compact">
+                    <div class="home-article-media-thumb">
+                      <span>Supporters &amp; community</span>
                     </div>
                     <div class="home-article-content">
-                      <div class="article-meta">Community · internationaal</div>
+                      <div class="home-article-header">
+                        <span class="flag-badge">🌍</span>
+                        <span class="article-meta">Community · internationaal</span>
+                      </div>
                       <h2 class="article-title">
                         <a href="artikels.html">Hoe een sterke clubcommunity meer vrijwilligers aantrekt</a>
                       </h2>
@@ -450,7 +443,7 @@
               </div>
             </section>
 
-            <!-- RECHTERKOLOM: LAATSTE TRAINERS + LAATSTE SPELERS + (OPTIONEEL EXTRA AD) -->
+            <!-- RECHTERKOLOM: LAATSTE TRAINERS + LAATSTE SPELERS -->
             <aside class="column-right">
               <!-- LAATST AANGEMELDE TRAINERS -->
               <article class="card">
@@ -471,7 +464,6 @@
                     <div class="event-title">Assistent-trainer onderbouw</div>
                     <div class="event-meta">Regio Kempen · inzetbaar 2 avonden per week.</div>
                   </li>
-                  <!-- hier kan je later extra items tot 10 toevoegen -->
                 </ul>
 
                 <a href="trainers.html" class="event-link">Bekijk alle trainers →</a>
@@ -496,26 +488,11 @@
                     <div class="event-title">Doelman U16</div>
                     <div class="event-meta">Regio Limburg · zoekt meer speeltijd op provinciaal niveau.</div>
                   </li>
-                  <!-- hier kan je later extra items tot 10 toevoegen -->
                 </ul>
 
                 <a href="spelers.html" class="event-link">Bekijk alle spelers →</a>
               </article>
 
-              <!-- (OPTIONEEL) EXTRA ADSENSE-BLOK RECHTS ONDER SPELERS -->
-              <!--
-              <div class="ad-slot ad-slot-vertical-right" style="margin-top:12px;">
-                <ins class="adsbygoogle"
-                  style="display:block"
-                  data-ad-client="ca-pub-4062633211824348"
-                  data-ad-slot="0000000005"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"></ins>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-              </div>
-              -->
             </aside>
 
           </div>
@@ -580,10 +557,10 @@
     // 1. Aankomende events afwisselend tonen (max 2 tegelijk)
     makeRotatingList('#weekend-events-list', 2, 5000);
 
-    // 2. Laatst aangemelde trainers: laatste 10 afwisselend (nu 2 dummy, later meer)
+    // 2. Laatst aangemelde trainers
     makeRotatingList('#latest-trainers-list', 2, 4000);
 
-    // 3. Laatst aangemelde spelers: laatste 10 afwisselend (nu 2 dummy, later meer)
+    // 3. Laatst aangemelde spelers
     makeRotatingList('#latest-players-list', 2, 4000);
 
     // 4. Premiumlijsten: als leeg → boodschap tonen, als >2 → roteren
@@ -598,7 +575,6 @@
         return;
       }
 
-      // Enkel roteren als er meer dan 2 items zijn
       if (items.length > 2) {
         let index = 0;
         function renderPremium() {
