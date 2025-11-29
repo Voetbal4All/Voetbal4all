@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Teams in de kijker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-main">
+      <div class="shell">
+
+        <!-- INTRO-BLOK -->
+        <article class="card" style="margin-bottom:12px;">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Sportief</div>
+              <div class="card-title">Teams in de kijker</div>
+            </div>
+            <span class="pill-small">Blijft 1 maand online (demo)</span>
+          </div>
+          <p class="note">
+            In deze rubriek worden teams, jeugdploegen of projecten van clubs extra in de spotlight gezet.
+            Artikels blijven 1 maand online vanaf publicatie en worden daarna automatisch verborgen of verwijderd
+            in de live versie.
+          </p>
+        </article>
+
+        <!-- FILTERBALK -->
+        <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+          <input
+            type="text"
+            id="spotlight-search-text"
+            class="search-input"
+            placeholder="Zoek op club, team of titel..."
+          />
+          <div class="search-filters-row">
+            <select id="spotlight-filter-country" class="search-select">
+              <option value="">Land (alles)</option>
+              <option value="BE">🇧🇪 België</option>
+              <option value="NL">🇳🇱 Nederland</option>
+            </select>
+
+            <select id="spotlight-filter-age" class="search-select">
+              <option value="">Leeftijdscategorie (alles)</option>
+              <option value="U8-U11">U8–U11</option>
+              <option value="U12-U15">U12–U15</option>
+              <option value="U16-U19">U16–U19</option>
+              <option value="Seniors">Seniors</option>
+            </select>
+
+            <select id="spotlight-filter-type" class="search-select">
+              <option value="">Type verhaal (alles)</option>
+              <option value="Opleiding">Opleiding &amp; visie</option>
+              <option value="Succesverhaal">Succesverhaal</option>
+              <option value="Project">Project / community</option>
+            </select>
+
+            <select id="spotlight-filter-month" class="search-select">
+              <option value="">Maand publicatie (alles)</option>
+              <option value="01">Januari</option>
+              <option value="02">Februari</option>
+              <option value="03">Maart</option>
+              <option value="04">April</option>
+              <option value="05">Mei</option>
+              <option value="06">Juni</option>
+              <option value="07">Juli</option>
+              <option value="08">Augustus</option>
+              <option value="09">September</option>
+              <option value="10">Oktober</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+          <div class="form-helper">
+            In de live versie kan hier automatisch gefilterd worden op recente artikels
+            (bijvoorbeeld enkel artikels jonger dan 30 dagen tonen).
+          </div>
+        </div>
+
+        <!-- GRID: TEAMS IN DE KIJKER + ADVERTENTIEKOLON -->
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0,2.2fr) minmax(0,1fr);">
+
+          <!-- LINKERDEEL: CARDS MET TEAMS -->
+          <section>
+            <ul class="article-list ad-card-grid" id="spotlight-list">
+              <!-- KAART 1 -->
+              <li class="article-item">
+                <article
+                  class="ad-card"
+                  data-country="BE"
+                  data-age="U12-U15"
+                  data-type="Opleiding"
+                  data-month="09"
+                  data-published="2024-09-10"
+                >
+                  <div class="ad-card-header">
+                    <div>
+                      <div class="ad-card-title">ASV Geel U13 · Opleiden boven winnen</div>
+                      <div class="ad-card-meta">
+                        🇧🇪 België · U12–U15 · Publicatie: 10-09-2024
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-article-media" style="margin-bottom:6px;">
+                    <div class="home-article-image">
+                      AI/impressie jeugdtraining · techniek, beleving &amp; fun.
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="ad-card-body">
+                    ASV Geel U13 zet sterk in op individuele ontwikkeling, transparante communicatie
+                    met ouders en een duidelijke opleidingslijn van onderbouw naar bovenbouw.
+                    Trainingsuren worden afgestemd op school en andere hobby’s.
+                  </div>
+                  <div class="ad-card-actions">
+                    <button type="button" class="btn-ghost-sm btn-share">
+                      Deel artikel
+                    </button>
+                    <span class="form-helper">
+                      Instructie: in de live versie kunnen hier social share-links komen (Facebook, Instagram, …)
+                    </span>
+                  </div>
+                </article>
+              </li>
+
+              <!-- KAART 2 -->
+              <li class="article-item">
+                <article
+                  class="ad-card"
+                  data-country="NL"
+                  data-age="U16-U19"
+                  data-type="Succesverhaal"
+                  data-month="10"
+                  data-published="2024-10-05"
+                >
+                  <div class="ad-card-header">
+                    <div>
+                      <div class="ad-card-title">VV Eindhoven JO17-1 · Promotie naar Hoofdklasse</div>
+                      <div class="ad-card-meta">
+                        🇳🇱 Nederland · U16–U19 · Publicatie: 05-10-2024
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-article-media" style="margin-bottom:6px;">
+                    <div class="home-article-image">
+                      AI/impressie wedstrijdmoment jeugd · blauw-witte clubkleuren.
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="ad-card-body">
+                    Na jaren werken met een vaste trainerskern en een duidelijke speelstijl,
+                    kroonde VV Eindhoven JO17-1 zich tot kampioen en dwong zo promotie af naar de Hoofdklasse.
+                    De focus lag op uitstraling als &ldquo;één team&rdquo; op en naast het veld.
+                  </div>
+                  <div class="ad-card-actions">
+                    <button type="button" class="btn-ghost-sm btn-share">
+                      Deel artikel
+                    </button>
+                    <span class="form-helper">
+                      Instructie: share-URL verwijst naar de detailpagina van dit teamverhaal.
+                    </span>
+                  </div>
+                </article>
+              </li>
+
+              <!-- KAART 3 -->
+              <li class="article-item">
+                <article
+                  class="ad-card"
+                  data-country="BE"
+                  data-age="Seniors"
+                  data-type="Project"
+                  data-month="11"
+                  data-published="2024-11-01"
+                >
+                  <div class="ad-card-header">
+                    <div>
+                      <div class="ad-card-title">KFC Diest · Project &ldquo;Voetbal voor iedereen&rdquo;</div>
+                      <div class="ad-card-meta">
+                        🇧🇪 België · Senioren &amp; jeugd · Publicatie: 01-11-2024
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-article-media" style="margin-bottom:6px;">
+                    <div class="home-article-image">
+                      AI/impressie community event · familie, G-voetbal &amp; fair play.
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="ad-card-body">
+                    KFC Diest bouwt stap voor stap aan een sociaal project waarbij G-voetbal, integratie
+                    en buurtwerking centraal staan. Met maandelijkse clubdagen en open trainingen worden
+                    alle inwoners van de regio betrokken.
+                  </div>
+                  <div class="ad-card-actions">
+                    <button type="button" class="btn-ghost-sm btn-share">
+                      Deel artikel
+                    </button>
+                    <span class="form-helper">
+                      Instructie: markeer dit type artikel eventueel als &ldquo;clubproject&rdquo; in de backoffice.
+                    </span>
+                  </div>
+                </article>
+              </li>
+            </ul>
+
+            <p class="form-helper" style="margin-top:10px;">
+              <!--
+                Instructie backend / data:
+                - Elk artikel krijgt minstens:
+                  id, titel, club, land, leeftijdscategorie, type_verhaal, publicatiedatum, afbeelding_url, tekst.
+                - Publicatiedatum wordt gebruikt om te bepalen of een artikel ouder dan 30 dagen is.
+                - Logica (cronjob / scheduled task):
+                  * Dagelijks: SELECT * FROM teams_in_de_kijker WHERE publicatiedatum &lt; NOW() - INTERVAL 30 DAY
+                  * Deze records worden automatisch verborgen of gearchiveerd.
+              -->
+              Instructie: gebruik publicatiedatum als basis om artikels automatisch na 30 dagen te verbergen
+              of te archiveren. Deze pagina toont standaard enkel recente artikels (&lt; 1 maand).
+            </p>
+          </section>
+
+          <!-- RECHTERKOLOM: ADVERTENTIES / INFO -->
+          <aside>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Teams in de kijker · partners</div>
+                </div>
+              </div>
+              <div class="ad-placeholder">
+                Zone voor partners die projecten rond jeugdopleiding,
+                communitywerking of fair play ondersteunen.<br>
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Instructies clubs</div>
+                  <div class="card-title">Hoe een team aanmelden?</div>
+                </div>
+              </div>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">1. Aanmelding via formulier</div>
+                  <div class="event-meta">
+                    In de live versie kan een club een apart formulier invullen met tekst, foto en contactpersoon.
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">2. Review &amp; goedkeuring</div>
+                  <div class="event-meta">
+                    Voetbal4All controleert kort de inhoud (taal, rechten op foto’s) en plant de publicatie in.
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">3. Automatisch offline na 30 dagen</div>
+                  <div class="event-meta">
+                    Elk verhaal staat 1 maand online en wordt daarna automatisch gearchiveerd.
+                  </div>
+                </li>
+              </ul>
+            </article>
+          </aside>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Eenvoudige client-side filter (demo)
+  (function initSpotlightFilters() {
+    const textInput = document.getElementById("spotlight-search-text");
+    const country = document.getElementById("spotlight-filter-country");
+    const age = document.getElementById("spotlight-filter-age");
+    const type = document.getElementById("spotlight-filter-type");
+    const month = document.getElementById("spotlight-filter-month");
+
+    const cards = Array.from(document.querySelectorAll("#spotlight-list .ad-card"));
+
+    function applyFilters() {
+      const q = (textInput.value || "").toLowerCase();
+      const c = country.value;
+      const a = age.value;
+      const t = type.value;
+      const m = month.value;
+
+      cards.forEach(card => {
+        const cardCountry = card.dataset.country || "";
+        const cardAge = card.dataset.age || "";
+        const cardType = card.dataset.type || "";
+        const cardMonth = card.dataset.month || "";
+        const text = card.textContent.toLowerCase();
+
+        let visible = true;
+
+        if (q && !text.includes(q)) visible = false;
+        if (c && cardCountry !== c) visible = false;
+        if (a && cardAge !== a) visible = false;
+        if (t && cardType !== t) visible = false;
+        if (m && cardMonth !== m) visible = false;
+
+        card.style.display = visible ? "" : "none";
+      });
+    }
+
+    [textInput, country, age, type, month].forEach(el => {
+      if (!el) return;
+      el.addEventListener("input", applyFilters);
+      el.addEventListener("change", applyFilters);
+    });
+  })();
+</script>
+</body>
+</html>
