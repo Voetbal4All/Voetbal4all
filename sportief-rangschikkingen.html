@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Rangschikkingen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-main">
+      <div class="shell">
+
+        <!-- INTRO-BLOK -->
+        <article class="card" style="margin-bottom:12px;">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Sportief</div>
+              <div class="card-title">Rangschikkingen</div>
+            </div>
+            <span class="pill-small">Klassementen per reeks &amp; competitie (demo)</span>
+          </div>
+          <p class="note">
+            Overzicht van rangschikkingen per reeks, competitie en seizoen.
+            In de live versie kan dit gekoppeld worden aan resultaten en teamstatistieken, zodat alles automatisch
+            geüpdatet wordt na elke speeldag.
+          </p>
+        </article>
+
+        <!-- FILTERBALK -->
+        <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+          <input
+            type="text"
+            id="ranking-search-text"
+            class="search-input"
+            placeholder="Zoek op club of reeksnaam..."
+          />
+          <div class="search-filters-row">
+            <select id="ranking-filter-country" class="search-select">
+              <option value="">Land (alles)</option>
+              <option value="BE">🇧🇪 België</option>
+              <option value="NL">🇳🇱 Nederland</option>
+            </select>
+
+            <select id="ranking-filter-season" class="search-select">
+              <option value="">Seizoen (alles)</option>
+              <option value="2024-2025">2024–2025</option>
+              <option value="2023-2024">2023–2024</option>
+            </select>
+
+            <select id="ranking-filter-competition" class="search-select">
+              <option value="">Competitie (alles)</option>
+              <option value="BE_Provinciaal">Provinciaal (BE)</option>
+              <option value="BE_Interprovinciaal">Interprovinciaal (BE)</option>
+              <option value="BE_Elite">Elite jeugd (BE)</option>
+              <option value="NL_JeugdHoofdklasse">Jeugd Hoofdklasse (NL)</option>
+              <option value="NL_AmateurHoog">Hoog amateurniveau (NL)</option>
+            </select>
+
+            <select id="ranking-filter-age" class="search-select">
+              <option value="">Leeftijdscategorie (alles)</option>
+              <option value="U8-U11">U8–U11</option>
+              <option value="U12-U15">U12–U15</option>
+              <option value="U16-U19">U16–U19</option>
+              <option value="Seniors">Seniors</option>
+            </select>
+          </div>
+          <div class="form-helper">
+            In de live versie kunnen deze filters gebruikt worden om automatisch de juiste reeks te laden
+            (bv. &ldquo;Provinciaal U17 B reeks 2&rdquo; in België of &ldquo;Hoofdklasse JO17&rdquo; in Nederland).
+          </div>
+        </div>
+
+        <!-- OVERZICHT BLOK MET KLASSEMENT -->
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Overzicht</div>
+              <div class="card-title">Klassement per reeks</div>
+            </div>
+            <span class="pill-small">Demo-klasses · 1 blok = 1 reeks</span>
+          </div>
+
+          <p class="note" style="margin-bottom:10px;">
+            Hieronder zie je een voorbeeld van één reeks. In de live versie kunnen er meerdere reeksen
+            onder elkaar getoond worden (bv. per provincie of per niveau), of kan je de reeks selecteren via
+            extra filters/dropdowns.
+          </p>
+
+          <!-- DEMO: 1 REEKS TABEL -->
+          <h3 style="font-size:14px; margin:6px 0 4px;">🇧🇪 2024–2025 · Provinciaal (BE) · U17 Reeks A</h3>
+          <div style="overflow-x:auto; margin-bottom:16px;">
+            <table
+              id="ranking-table-main"
+              style="width:100%; border-collapse:collapse; font-size:12px;"
+              data-country="BE"
+              data-season="2024-2025"
+              data-competition="BE_Provinciaal"
+              data-age="U16-U19"
+            >
+              <thead>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+                  <th style="text-align:left; padding:6px 4px;">Pos</th>
+                  <th style="text-align:left; padding:6px 4px;">Team</th>
+                  <th style="text-align:right; padding:6px 4px;">Gesp.</th>
+                  <th style="text-align:right; padding:6px 4px;">W</th>
+                  <th style="text-align:right; padding:6px 4px;">G</th>
+                  <th style="text-align:right; padding:6px 4px;">V</th>
+                  <th style="text-align:right; padding:6px 4px;">DV</th>
+                  <th style="text-align:right; padding:6px 4px;">DT</th>
+                  <th style="text-align:right; padding:6px 4px;">+/-</th>
+                  <th style="text-align:right; padding:6px 4px;">Ptn</th>
+                  <th style="text-align:left; padding:6px 4px;">Vorm</th>
+                </tr>
+              </thead>
+              <tbody id="ranking-body">
+                <!-- DEMO-RIJEN -->
+                <tr>
+                  <td style="padding:6px 4px;">1</td>
+                  <td style="padding:6px 4px;">ASV Geel U17</td>
+                  <td style="padding:6px 4px; text-align:right;">18</td>
+                  <td style="padding:6px 4px; text-align:right;">12</td>
+                  <td style="padding:6px 4px; text-align:right;">3</td>
+                  <td style="padding:6px 4px; text-align:right;">3</td>
+                  <td style="padding:6px 4px; text-align:right;">48</td>
+                  <td style="padding:6px 4px; text-align:right;">21</td>
+                  <td style="padding:6px 4px; text-align:right;">+27</td>
+                  <td style="padding:6px 4px; text-align:right;">39</td>
+                  <td style="padding:6px 4px;">W-W-G-W-W</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 4px;">2</td>
+                  <td style="padding:6px 4px;">KVC Westerlo U17</td>
+                  <td style="padding:6px 4px; text-align:right;">18</td>
+                  <td style="padding:6px 4px; text-align:right;">11</td>
+                  <td style="padding:6px 4px; text-align:right;">4</td>
+                  <td style="padding:6px 4px; text-align:right;">3</td>
+                  <td style="padding:6px 4px; text-align:right;">42</td>
+                  <td style="padding:6px 4px; text-align:right;">23</td>
+                  <td style="padding:6px 4px; text-align:right;">+19</td>
+                  <td style="padding:6px 4px; text-align:right;">37</td>
+                  <td style="padding:6px 4px;">V-W-W-G-W</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 4px;">3</td>
+                  <td style="padding:6px 4px;">KFC Zwarte Leeuw U17</td>
+                  <td style="padding:6px 4px; text-align:right;">18</td>
+                  <td style="padding:6px 4px; text-align:right;">9</td>
+                  <td style="padding:6px 4px; text-align:right;">5</td>
+                  <td style="padding:6px 4px; text-align:right;">4</td>
+                  <td style="padding:6px 4px; text-align:right;">36</td>
+                  <td style="padding:6px 4px; text-align:right;">25</td>
+                  <td style="padding:6px 4px; text-align:right;">+11</td>
+                  <td style="padding:6px 4px; text-align:right;">32</td>
+                  <td style="padding:6px 4px;">W-G-V-W-W</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 4px;">4</td>
+                  <td style="padding:6px 4px;">FC Heultje U17</td>
+                  <td style="padding:6px 4px; text-align:right;">18</td>
+                  <td style="padding:6px 4px; text-align:right;">7</td>
+                  <td style="padding:6px 4px; text-align:right;">4</td>
+                  <td style="padding:6px 4px; text-align:right;">7</td>
+                  <td style="padding:6px 4px; text-align:right;">31</td>
+                  <td style="padding:6px 4px; text-align:right;">30</td>
+                  <td style="padding:6px 4px; text-align:right;">+1</td>
+                  <td style="padding:6px 4px; text-align:right;">25</td>
+                  <td style="padding:6px 4px;">G-V-W-G-V</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 4px;">5</td>
+                  <td style="padding:6px 4px;">KFC Diest U17</td>
+                  <td style="padding:6px 4px; text-align:right;">18</td>
+                  <td style="padding:6px 4px; text-align:right;">5</td>
+                  <td style="padding:6px 4px; text-align:right;">3</td>
+                  <td style="padding:6px 4px; text-align:right;">10</td>
+                  <td style="padding:6px 4px; text-align:right;">24</td>
+                  <td style="padding:6px 4px; text-align:right;">38</td>
+                  <td style="padding:6px 4px; text-align:right;">-14</td>
+                  <td style="padding:6px 4px; text-align:right;">18</td>
+                  <td style="padding:6px 4px;">V-G-V-V-W</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="form-helper" style="margin-top:4px;">
+            <!--
+              Instructie backend / data:
+              - De rangschikking kan automatisch berekend worden op basis van de wedstrijdresultaten:
+                punten = W*3 + G*1, doelpuntenverhouding = DV - DT.
+              - Je kan met 1 basis-tabel werken waarin per team per competitie & seizoen de waarden gesaved worden.
+              - Reeksen kunnen geïdentificeerd worden met een sleutel zoals:
+                land + seizoen + competitie + reeksnaam + leeftijdscategorie.
+              - Rangschikkingen kunnen dan opgevraagd worden via:
+                /api/rankings?country=BE&season=2024-2025&competition=BE_Provinciaal&age=U16-U19
+            -->
+            Instructie: gebruik deze structuur als basis voor een automatische klassementen-module
+            die op de resultaten-pagina is aangesloten.
+          </p>
+        </article>
+
+        <!-- EXTRA DEMO: TWEEDE REEKS (NEDERLAND) ALS KLEIN BLOK -->
+        <article class="card" style="margin-top:16px;">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Extra voorbeeld</div>
+              <div class="card-title">🇳🇱 2024–2025 · Jeugd Hoofdklasse (NL) · JO17</div>
+            </div>
+            <span class="pill-small">Korte reeksweergave</span>
+          </div>
+          <div style="overflow-x:auto;">
+            <table
+              style="width:100%; border-collapse:collapse; font-size:12px;"
+              data-country="NL"
+              data-season="2024-2025"
+              data-competition="NL_JeugdHoofdklasse"
+              data-age="U16-U19"
+            >
+              <thead>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+                  <th style="text-align:left; padding:6px 4px;">Pos</th>
+                  <th style="text-align:left; padding:6px 4px;">Team</th>
+                  <th style="text-align:right; padding:6px 4px;">Gesp.</th>
+                  <th style="text-align:right; padding:6px 4px;">Ptn</th>
+                  <th style="text-align:right; padding:6px 4px;">DV</th>
+                  <th style="text-align:right; padding:6px 4px;">DT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="padding:6px 4px;">1</td>
+                  <td style="padding:6px 4px;">VV Eindhoven JO17-1</td>
+                  <td style="padding:6px 4px; text-align:right;">19</td>
+                  <td style="padding:6px 4px; text-align:right;">41</td>
+                  <td style="padding:6px 4px; text-align:right;">52</td>
+                  <td style="padding:6px 4px; text-align:right;">27</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 4px;">2</td>
+                  <td style="padding:6px 4px;">RKSV Nuenen JO17-1</td>
+                  <td style="padding:6px 4px; text-align:right;">19</td>
+                  <td style="padding:6px 4px; text-align:right;">38</td>
+                  <td style="padding:6px 4px; text-align:right;">44</td>
+                  <td style="padding:6px 4px; text-align:right;">29</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 4px;">3</td>
+                  <td style="padding:6px 4px;">UNA JO17-1</td>
+                  <td style="padding:6px 4px; text-align:right;">19</td>
+                  <td style="padding:6px 4px; text-align:right;">34</td>
+                  <td style="padding:6px 4px; text-align:right;">39</td>
+                  <td style="padding:6px 4px; text-align:right;">30</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="form-helper" style="margin-top:8px;">
+            Dit tweede blok toont hoe je meerdere reeksen onder elkaar kunt tonen. In de backoffice kan je
+            kiezen welke reeksen zichtbaar zijn per regio, land of club.
+          </p>
+        </article>
+
+        <!-- ONDERSTE GRID: INSTRUCTIES + ADVERTENTIEZONES -->
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0,2fr) minmax(0,1fr); margin-top:16px;">
+
+          <div>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Inrichting klassementen</div>
+                  <div class="card-title">Afspraken met clubs &amp; bonden</div>
+                </div>
+              </div>
+              <p class="note">
+                Om rangschikkingen betrouwbaar en vergelijkbaar te maken, is het belangrijk dat er duidelijke
+                afspraken zijn over:
+              </p>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">Regels puntenverdeling</div>
+                  <div class="event-meta">
+                    Standaard 3–1–0 systeem, maar bekijk ook eventuele uitzonderingen (bv. forfaits).
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Aantal ploegen per reeks</div>
+                  <div class="event-meta">
+                    Zo kan je automatisch promotie/degradatiezones highlighten (top 2, laatste 2, enz.).
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Onderliggende data</div>
+                  <div class="event-meta">
+                    Klassementen zijn het resultaat van resultaten + teamstatistieken: alles hangt samen in het sportieve luik.
+                  </div>
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <aside>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Competitiepartners</div>
+                </div>
+              </div>
+              <div class="ad-placeholder">
+                Ideale plek voor provinciale of nationale partners
+                (competitiesponsor, materiaalpartner, opleidingspartner).<br>
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+          </aside>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Eenvoudige client-side filter (demo) op reekstitel / tabel-content
+  (function initRankingFilters() {
+    const textInput = document.getElementById("ranking-search-text");
+    const country = document.getElementById("ranking-filter-country");
+    const season = document.getElementById("ranking-filter-season");
+    const competition = document.getElementById("ranking-filter-competition");
+    const age = document.getElementById("ranking-filter-age");
+
+    // hoofdtabel heeft dataset-attrs (land, seizoen, competitie, leeftijd)
+    const mainTable = document.getElementById("ranking-table-main");
+    const wrapperArticle = mainTable.closest("article");
+
+    function applyFilters() {
+      const q = (textInput.value || "").toLowerCase();
+      const c = country.value;
+      const s = season.value;
+      const comp = competition.value;
+      const a = age.value;
+
+      // Filter op tekst in tabel + dataset
+      const tableText = mainTable.textContent.toLowerCase();
+      const tableCountry = mainTable.dataset.country || "";
+      const tableSeason = mainTable.dataset.season || "";
+      const tableComp = mainTable.dataset.competition || "";
+      const tableAge = mainTable.dataset.age || "";
+
+      let visible = true;
+
+      if (q && !tableText.includes(q)) visible = false;
+      if (c && tableCountry !== c) visible = false;
+      if (s && tableSeason !== s) visible = false;
+      if (comp && tableComp !== comp) visible = false;
+      if (a && tableAge !== a) visible = false;
+
+      wrapperArticle.style.display = visible ? "" : "none";
+    }
+
+    [textInput, country, season, competition, age].forEach(el => {
+      if (!el) return;
+      el.addEventListener("input", applyFilters);
+      el.addEventListener("change", applyFilters);
+    });
+  })();
+</script>
+</body>
+</html>
