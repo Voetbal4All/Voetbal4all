@@ -10,111 +10,280 @@
 <body>
 <div class="page">
 
-  <!-- NAVBAR idem als events.html -->
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
 
   <main>
     <section class="section-main">
       <div class="shell">
-        <article class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-caption">Contact</div>
-              <div class="card-title">Neem contact op met Voetbal4All</div>
-            </div>
-          </div>
-          <p class="note">
-            Gebruik onderstaand formulier om ons te contacteren. Je e-mailadres wordt gebruikt om je bericht te beantwoorden
-            en wordt niet publiek getoond.
-          </p>
 
-          <form id="contact-form" class="form-grid form-grid--2cols" style="margin-top:8px;">
-            <div class="form-field">
-              <label class="form-label" for="contact-name">
-                Naam <span class="required">*</span>
-              </label>
-              <input id="contact-name" type="text" class="form-input" required placeholder="Je naam">
-            </div>
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0,1.4fr) minmax(0,1fr); gap:16px;">
 
-            <div class="form-field">
-              <label class="form-label" for="contact-email">
-                E-mailadres <span class="required">*</span>
-              </label>
-              <input id="contact-email" type="email" class="form-input" required placeholder="jouw@email.be">
-            </div>
+          <!-- CONTACTFORMULIER -->
+          <section>
+            <form class="form-card" id="contact-form">
+              <h1 class="form-title">Contact met Voetbal4All</h1>
+              <p class="form-sub">
+                Heb je een vraag over het platform, een melding i.v.m. een advertentie of interesse in samenwerking?
+                Gebruik dan onderstaand formulier. Ons e-mailadres wordt niet getoond; we beantwoorden je bericht
+                via het door jou opgegeven adres.
+              </p>
 
-            <div class="form-field">
-              <label class="form-label" for="contact-reason">
-                Waarover gaat je vraag? <span class="required">*</span>
-              </label>
-              <select id="contact-reason" class="form-select form-input" required>
-                <option value="">Maak een keuze</option>
-                <option value="technisch">Technische vraag / foutmelding</option>
-                <option value="account">Account / registratie / login</option>
-                <option value="advertenties">Advertenties &amp; sponsoring</option>
-                <option value="privacy">Privacy / gegevens / rechten</option>
-                <option value="algemeen">Algemene vraag</option>
-              </select>
-            </div>
+              <!-- WAARVOOR CONTACT -->
+              <div class="form-section">
+                <h3 class="form-section-title">Waarvoor neem je contact op?</h3>
+                <p class="form-section-sub">Maak een keuze zodat je bericht bij de juiste persoon terechtkomt.</p>
+                <div class="form-field">
+                  <label class="form-label">
+                    Onderwerp <span class="required">*</span>
+                  </label>
+                  <select class="form-select" name="onderwerp" required>
+                    <option value="">Maak een keuze</option>
+                    <option value="algemeen">Algemene vraag over Voetbal4All</option>
+                    <option value="advertentie">Vraag over een advertentie (club, trainer, speler of event)</option>
+                    <option value="account">Probleem met account of registratie</option>
+                    <option value="samenwerking">Samenwerking / sponsoring / adverteren</option>
+                    <option value="privacy">Vraag over privacy of gegevens</option>
+                    <option value="anders">Iets anders</option>
+                  </select>
+                </div>
+              </div>
 
-            <div class="form-field">
-              <label class="form-label" for="contact-subject">
-                Onderwerp <span class="required">*</span>
-              </label>
-              <input id="contact-subject" type="text" class="form-input" required placeholder="Korte titel">
-            </div>
+              <!-- JOUW GEGEVENS -->
+              <div class="form-section">
+                <h3 class="form-section-title">Jouw gegevens</h3>
+                <p class="form-section-sub">
+                  Deze gegevens gebruiken we enkel om je vraag te beantwoorden.
+                </p>
+                <div class="form-grid form-grid--2cols">
+                  <div class="form-field">
+                    <label class="form-label">
+                      Naam <span class="required">*</span>
+                    </label>
+                    <input type="text" class="form-input" name="naam" required placeholder="Bijv. Jan Jansen">
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label">
+                      E-mailadres <span class="required">*</span>
+                    </label>
+                    <input type="email" class="form-input" name="email" required placeholder="naam@voorbeeld.be">
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label">
+                      Telefoonnummer
+                      <small>(optioneel)</small>
+                    </label>
+                    <input type="tel" class="form-input" name="telefoon" placeholder="+32 ...">
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label">
+                      Club / organisatie
+                      <small>(optioneel)</small>
+                    </label>
+                    <input type="text" class="form-input" name="club" placeholder="Bijv. ASV Geel">
+                  </div>
+                </div>
+              </div>
 
-            <div class="form-field" style="grid-column:1/-1;">
-              <label class="form-label" for="contact-message">
-                Boodschap <span class="required">*</span>
-              </label>
-              <textarea id="contact-message" class="form-textarea" required placeholder="Beschrijf je vraag zo duidelijk mogelijk."></textarea>
-            </div>
+              <!-- BERICHT -->
+              <div class="form-section">
+                <h3 class="form-section-title">Je bericht</h3>
+                <div class="form-field">
+                  <label class="form-label">
+                    Bericht <span class="required">*</span>
+                  </label>
+                  <textarea class="form-textarea" name="bericht" rows="5" required placeholder="Beschrijf je vraag of melding zo concreet mogelijk."></textarea>
+                </div>
+              </div>
 
-            <div class="form-field" style="grid-column:1/-1;">
-              <label class="form-helper">
-                <input type="checkbox" id="contact-consent" required />
-                Ik ga akkoord dat mijn gegevens gebruikt worden om mijn vraag te beantwoorden, conform de Privacyverklaring.
-              </label>
-            </div>
+              <!-- TOESTEMMING -->
+              <div class="form-section">
+                <div class="form-field">
+                  <label class="form-label">
+                    Toestemming gebruik gegevens <span class="required">*</span>
+                  </label>
+                  <label class="pill-checkbox">
+                    <input type="checkbox" name="akkoord" required>
+                    <span>
+                      Ik ga akkoord dat Voetbal4All mijn gegevens gebruikt om mijn vraag te behandelen,
+                      conform de <a href="privacyverklaring.html">privacyverklaring</a>.
+                    </span>
+                  </label>
+                </div>
+              </div>
 
-            <div class="form-actions" style="grid-column:1/-1;">
-              <button type="submit" class="btn-primary">Verzenden (demo)</button>
-            </div>
-          </form>
-        </article>
+              <div class="form-actions">
+                <button type="submit" class="btn-primary">
+                  Bericht verzenden (demo)
+                </button>
+                <span class="form-helper">
+                  In de live versie wordt dit bericht verstuurd naar het beheerdersadres van Voetbal4All
+                  en gekoppeld aan het gekozen onderwerp.
+                </span>
+              </div>
+
+              <!--
+                Instructie backend:
+                - POST naar /api/contact met: onderwerp, naam, email, telefoon, club, bericht, akkoord.
+                - Verstuur e-mail naar beheerder (bijv. voetbal4all@outlook.com) met alle details.
+                - Toon bevestigingspagina of succesmelding aan gebruiker.
+              -->
+            </form>
+          </section>
+
+          <!-- RECHTERKOLOM: INFO & ADVERTENTIE -->
+          <aside>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Informatie</div>
+                  <div class="card-title">Hoe we je bericht behandelen</div>
+                </div>
+              </div>
+              <p class="note">
+                We proberen berichten zo snel mogelijk te beantwoorden.  
+                Bij vragen over advertenties kan het zijn dat we extra info vragen, bijvoorbeeld
+                een link naar de pagina waar het om gaat.
+              </p>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">Advertentie of profiel melden</div>
+                  <div class="event-meta">
+                    Vermeld duidelijk om welke rubriek (speler, trainer, club, event, supportersclub) het gaat.
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Samenwerking of sponsoring</div>
+                  <div class="event-meta">
+                    Geef aan om welk type zichtbaarheid je interesse hebt (hoofdsponsor, banners, rubrieksponsor, …).
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Privacy of gegevens</div>
+                  <div class="event-meta">
+                    Je kunt via dit formulier ook je rechten onder de AVG uitoefenen (inzage, recht op vergetelheid, …).
+                  </div>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Contact &amp; support partners</div>
+                </div>
+              </div>
+              <div class="ad-placeholder">
+                Ideale zone voor partners die tools aanbieden rond administratie,
+                communicatie of support voor voetbalclubs.<br>
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+          </aside>
+
+        </div>
+
       </div>
     </section>
   </main>
 
-  <!-- FOOTER idem -->
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </div>
+
 <script>
-  document.getElementById("year") && (document.getElementById("year").textContent = new Date().getFullYear());
+  document.getElementById("year").textContent = new Date().getFullYear();
 
-  document.getElementById("contact-form").addEventListener("submit", function(e) {
+  // Demo: form niet echt verzenden
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
     e.preventDefault();
-    const name = document.getElementById("contact-name").value.trim();
-    const email = document.getElementById("contact-email").value.trim();
-    const reason = document.getElementById("contact-reason").value;
-    const subjectInput = document.getElementById("contact-subject").value.trim();
-    const message = document.getElementById("contact-message").value.trim();
-
-    if (!name || !email || !reason || !subjectInput || !message) {
-      alert("Gelieve alle verplichte velden in te vullen.");
-      return;
-    }
-
-    const subject = encodeURIComponent("[Contact] " + subjectInput);
-    const body = encodeURIComponent(
-      "Naam: " + name +
-      "\nE-mailadres: " + email +
-      "\nReden: " + reason +
-      "\n\nBoodschap:\n" + message +
-      "\n\nVerzonden via het contactformulier op Voetbal4All."
-    );
-
-    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    alert("Demo: in de live versie wordt je bericht doorgestuurd naar Voetbal4All.");
   });
 </script>
 </body>
