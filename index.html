@@ -87,19 +87,6 @@
       </div>
     </header>
 
-    <!-- AdSense: HEADER advertentie (direct onder navbar, sticky via CSS) -->
-    <div class="ad-slot ad-slot-header sticky-ad-header">
-      <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-4062633211824348"
-        data-ad-slot="0000000001"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
-
     <!-- LIVE SCORES BANNER NET ONDER NAVBAR -->
     <section class="live-banner-top">
       <div class="shell">
@@ -115,6 +102,19 @@
         </div>
       </div>
     </section>
+
+    <!-- AdSense: HEADER advertentie ONDER de live banner -->
+    <div class="ad-slot ad-slot-header sticky-ad-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="0000000001"  <!-- Vervang later door echte slot-ID -->
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
 
     <main>
       <!-- HERO / INTRO (compact) -->
@@ -526,10 +526,10 @@
   </div>
 
   <script>
-    // Jaar
+    // Jaar in footer
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Generieke rotatiefunctie: toont telkens 'visibleCount' items, schuift dan door
+    // Generieke rotatiefunctie
     function makeRotatingList(selector, visibleCount, intervalMs) {
       const list = document.querySelector(selector);
       if (!list) return;
@@ -554,16 +554,12 @@
       setInterval(render, intervalMs);
     }
 
-    // 1. Aankomende events afwisselend tonen (max 2 tegelijk)
+    // Rotatie voor events / trainers / spelers
     makeRotatingList('#weekend-events-list', 2, 5000);
-
-    // 2. Laatst aangemelde trainers
     makeRotatingList('#latest-trainers-list', 2, 4000);
-
-    // 3. Laatst aangemelde spelers
     makeRotatingList('#latest-players-list', 2, 4000);
 
-    // 4. Premiumlijsten: als leeg → boodschap tonen, als >2 → roteren
+    // Premiumlijsten roteren indien meer dan 2 items
     document.querySelectorAll('.premium-list').forEach(list => {
       const items = Array.from(list.children);
 
