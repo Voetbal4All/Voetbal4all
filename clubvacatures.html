@@ -2,11 +2,9 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Clubvacatures - Voetbal4All</title>
+  <title>Voetbal4All - Clubvacatures</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -46,295 +44,293 @@
   </header>
 
   <main>
-
-    <!-- PAGINA-INTRO / HERO -->
     <section class="section-main">
       <div class="shell">
-        <article class="card">
+
+        <!-- KORTE INTRO -->
+        <article class="card" style="margin-bottom:12px; max-width:900px;">
           <div class="card-header">
             <div>
               <div class="card-caption">Clubvacatures</div>
-              <div class="card-title">Trainers, coördinatoren, vrijwilligers &amp; randfuncties.</div>
+              <div class="card-title">Club zoekt trainer, speler of medewerker</div>
             </div>
-            <span class="pill-small">België · Nederland · internationaal</span>
+            <span class="pill-small">België · Nederland</span>
           </div>
           <p class="note">
-            Clubs plaatsen hier hun openstaande functies: van jeugdtrainer en coördinator tot vrijwilliger,
-            teammanager of bestuurslid. Premium vacatures krijgen extra zichtbaarheid en tonen duidelijk
-            een flyer of visual met de landvlag.
+            Clubs kunnen hier vacatures plaatsen voor trainers, spelers, coördinatoren of vrijwilligers.
+            Contactgegevens van clubs kunnen verborgen blijven in de advertentie; reacties verlopen via Voetbal4All.
           </p>
-
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="#premium-vacatures" class="btn-secondary">Premium clubvacatures</a>
-            <a href="#andere-vacatures" class="btn-secondary">Andere clubvacatures</a>
-          </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE -->
-       <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="vacature-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. jeugdtrainer, kantine, bestuur...)"
-          />
-          <div class="search-filters-row">
-            <select id="vacature-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="vacature-region"
-              class="search-input search-input--small"
-              placeholder="Regio (optioneel, bv. Kempen, Limburg)"
-            />
-            <select id="vacature-type" class="search-select">
-              <option value="">Alle functies</option>
-              <option value="jeugdcoordinator">Jeugdcoördinator</option>
-              <option value="hoofdtrainer">Hoofdtrainer / trainer</option>
-              <option value="vrijwilliger">Vrijwilliger</option>
-              <option value="teammanager">Teammanager</option>
-              <option value="bestuurslid">Bestuurslid / sponsoring</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- VACATURES + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
+        <!-- GRID: LINKS FORMULIER + OVERZICHT · RECHTS INFO / ADS -->
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · CLUBVACATURES (TOP)
-          <span class="ad-size">
-            Interessant voor opleidingspartners, trainersopleidingen of HR-partners in de sport.
-          </span>
-        </div>
+          <!-- LINKERKOLOM -->
+          <div>
 
-        <!-- Layout: vacatures links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: VACATURELIJST -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- PREMIUM VACATURES BLOK -->
-              <div id="premium-vacatures"></div>
-
-              <!-- Premium vacature 1 - België -->
-              <article class="article-item"
-                       data-title="Premium jeugdcoördinator U6 U13 België provinciaal">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer vacature
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Premium · Jeugdcoördinator</div>
-                    <h2 class="article-title">
-                      <a href="#">Jeugdcoördinator U6–U13 · provinciale club</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Verantwoordelijk voor visie, trainersbegeleiding en communicatie met ouders.
-                      Extra aandacht voor opleidingsplan en lange termijn.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Premium vacature 2 - Nederland -->
-              <article class="article-item"
-                       data-title="Premium hoofdtrainer eerste elftal Nederland zondagselectie">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer vacature
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Premium · Hoofdtrainer</div>
-                    <h2 class="article-title">
-                      <a href="#">Hoofdtrainer eerste elftal · zondagselectie</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ambitieuze club met jonge kern zoekt hoofdtrainer met ervaring in de 2e/3e klasse
-                      en focus op doorstroming eigen jeugd.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- In-feed advertentie -->
-              <article class="article-item"
-                       data-title="Advertorial partner trainersopleiding België Nederland">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Trainersopleidingen &amp; bijscholingen voor clubs</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Partner die opleidingen, workshops en bijscholingen aanbiedt voor trainers en
-                      coördinatoren. Volledig herkenbaar als advertentie.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Andere clubvacatures blok -->
-              <div id="andere-vacatures"></div>
-
-              <!-- Andere vacature 1 - België -->
-              <article class="article-item"
-                       data-title="Vrijwilliger kantine België weekend">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto vrijwilliger
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Vrijwilliger · kantine</div>
-                    <h2 class="article-title">
-                      <a href="#">Vrijwilliger kantine · weekendshifts</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Jeugdclub zoekt helpende handen voor bar, koffie en broodjes op zaterdag
-                      en zondag. Planning gebeurt in overleg.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Andere vacature 2 - België -->
-              <article class="article-item"
-                       data-title="Teammanager U17 België begeleider">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto teammanager
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Teammanager</div>
-                    <h2 class="article-title">
-                      <a href="#">Teammanager U17 · administratie &amp; planning</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ondersteun de sportieve staf door communicatie met ouders, wedstrijdformulieren
-                      en praktische organisatie op jou te nemen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Andere vacature 3 - Nederland -->
-              <article class="article-item"
-                       data-title="Bestuurslid sponsoring Nederland clubbestuur">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto bestuur
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Bestuurslid · sponsoring</div>
-                    <h2 class="article-title">
-                      <a href="#">Bestuurslid sponsoring · commerciële cel</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Zoek je een uitdaging naast het veld? Help mee het sponsorbeleid uit te bouwen
-                      en relaties met partners te onderhouden.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
+            <!-- ZOEK- EN FILTERBALK -->
+            <div class="search-bar" style="margin-bottom:12px;">
+              <input
+                type="text"
+                id="vacancy-search-text"
+                class="search-input"
+                placeholder="Zoek op club, functie, niveau, regio..."
+              />
+              <div class="search-filters-row">
+                <select id="vacancy-filter-country" class="search-select">
+                  <option value="">Land (alles)</option>
+                  <option value="BE">🇧🇪 België</option>
+                  <option value="NL">🇳🇱 Nederland</option>
+                </select>
+                <select id="vacancy-filter-type" class="search-select">
+                  <option value="">Type vacature</option>
+                  <option value="Trainer">Trainer</option>
+                  <option value="Speler">Speler</option>
+                  <option value="Coördinator">Coördinator / TVJO</option>
+                  <option value="Vrijwilliger">Vrijwilliger</option>
+                  <option value="Bestuur">Bestuurslid / ondersteuning</option>
+                </select>
+                <select id="vacancy-filter-level" class="search-select">
+                  <option value="">Niveau (alles)</option>
+                  <option value="Gewestelijk">Gewestelijk / recreatief</option>
+                  <option value="Provinciaal">Provinciaal</option>
+                  <option value="Interprovinciaal">Interprovinciaal</option>
+                  <option value="Elite">Elite / hoogste jeugd</option>
+                </select>
+              </div>
+              <div class="form-helper">
+                Filter op land, type vacature en niveau. In de live versie wordt dit gekoppeld aan echte data.
+              </div>
             </div>
-          </section>
 
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
+            <!-- FORMULIER: NIEUWE CLUBVACATURE -->
+            <div class="form-card form-card--compact">
+              <h2 class="form-title">Nieuwe clubvacature</h2>
+              <p class="form-sub">
+                Velden met <strong>*</strong> zijn verplicht. Het e-mailadres van de club wordt niet getoond in de advertentie.
+              </p>
+
+              <form id="vacancy-form">
+                <div class="form-grid form-grid--2cols">
+
+                  <!-- Clubnaam -->
+                  <div class="form-field">
+                    <label class="form-label" for="vacancy-club">
+                      Clubnaam <span class="required">*</span>
+                    </label>
+                    <input id="vacancy-club" type="text" class="form-input" placeholder="Bv. K. ASV Geel" required />
+                    <div class="form-helper">
+                      Deze naam wordt getoond in de advertentie.
+                    </div>
+                  </div>
+
+                  <!-- Contactpersoon (optioneel, kan verborgen) -->
+                  <div class="form-field">
+                    <label class="form-label" for="vacancy-contact">
+                      Contactpersoon <span class="required">(optioneel)</span>
+                    </label>
+                    <input id="vacancy-contact" type="text" class="form-input" placeholder="Naam contactpersoon" />
+                    <div class="form-helper">
+                      <label>
+                        <input type="checkbox" id="vacancy-hide-contact" checked />
+                        Naam niet tonen in de advertentie
+                      </label>
+                    </div>
+                  </div>
+
+                  <!-- E-mailadres (verplicht, maar verborgen) -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="vacancy-email">
+                      E-mailadres club <span class="required">*</span>
+                    </label>
+                    <input id="vacancy-email" type="email" class="form-input" placeholder="club@email.be" required />
+                    <div class="form-helper">
+                      Nodig om reacties door te sturen. Dit adres wordt <strong>niet</strong> publiek getoond.
+                    </div>
+                  </div>
+
+                  <!-- Land -->
+                  <div class="form-field">
+                    <span class="form-label">Land <span class="required">*</span></span>
+                    <div class="form-checkbox-row">
+                      <label class="flag-label">
+                        <input type="radio" name="vacancy-country" value="BE" id="vacancy-country-be" required />
+                        <span>🇧🇪 België</span>
+                      </label>
+                      <label class="flag-label">
+                        <input type="radio" name="vacancy-country" value="NL" id="vacancy-country-nl" />
+                        <span>🇳🇱 Nederland</span>
+                      </label>
+                    </div>
+                    <div class="form-helper">
+                      Regio’s en niveaus passen zich aan per land.
+                    </div>
+                  </div>
+
+                  <!-- Regio -->
+                  <div class="form-field">
+                    <span class="form-label">Regio <span class="required">*</span></span>
+                    <div id="vacancy-region-wrapper" class="form-checkbox-row">
+                      <!-- JS per land -->
+                    </div>
+                    <div class="form-helper">
+                      Eén of meerdere regio’s waarin de vacature geldt.
+                    </div>
+                  </div>
+
+                  <!-- Type vacature -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <span class="form-label">Type vacature <span class="required">*</span></span>
+                    <div id="vacancy-type-wrapper" class="form-checkbox-row">
+                      <label class="pill-checkbox"><input type="checkbox" value="Trainer" /> Trainer</label>
+                      <label class="pill-checkbox"><input type="checkbox" value="Speler" /> Speler</label>
+                      <label class="pill-checkbox"><input type="checkbox" value="Coördinator" /> (Jeugd)coördinator / TVJO</label>
+                      <label class="pill-checkbox"><input type="checkbox" value="Vrijwilliger" /> Vrijwilliger</label>
+                      <label class="pill-checkbox"><input type="checkbox" value="Bestuur" /> Bestuurslid / ondersteuning</label>
+                    </div>
+                    <div class="form-helper">
+                      Meerdere types mogelijk, bv. trainer én coördinator.
+                    </div>
+                  </div>
+
+                  <!-- Niveau -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <span class="form-label">Niveau <span class="required">*</span></span>
+                    <div id="vacancy-level-wrapper" class="form-checkbox-row">
+                      <!-- JS per land -->
+                    </div>
+                    <div class="form-helper">
+                      Bv. Gewestelijk, Provinciaal, Interprovinciaal, Elite of Nederlandse niveaus.
+                    </div>
+                  </div>
+
+                  <!-- Ploeg / doelgroep -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="vacancy-team">
+                      Ploeg / doelgroep <span class="required">*</span>
+                    </label>
+                    <input id="vacancy-team" type="text" class="form-input" placeholder="Bv. U13, 1e ploeg heren, dames A" required />
+                  </div>
+
+                  <!-- Beschrijving -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="vacancy-description">
+                      Korte beschrijving / profiel
+                    </label>
+                    <textarea id="vacancy-description" class="form-textarea" placeholder="Omschrijf kort de functie, verwachtingen, trainingsmomenten, vergoeding, ..."></textarea>
+                  </div>
+
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn-primary">Vacature plaatsen (demo)</button>
+                  <span class="form-helper">
+                    In deze demo wordt je vacature onderaan op deze pagina toegevoegd (nog geen permanente opslag).
+                  </span>
+                </div>
+              </form>
+            </div>
+
+            <!-- OVERZICHT CLUBVACATURES: 3 KOLOMMEN -->
+            <section class="section-main" style="padding-top:10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Overzicht</div>
+                    <div class="card-title">Clubvacatures</div>
+                  </div>
+                  <span class="pill-small">3 per rij · delen &amp; reageren</span>
+                </div>
+                <p class="note">
+                  Elke vacature kan gedeeld worden via sociale netwerken. De link gaat automatisch naar de juiste vacature.
+                </p>
+
+                <div id="vacancy-ads" class="ad-card-list ad-card-grid">
+                  <!-- Voorbeeldvacature -->
+                  <article class="ad-card" id="vacancy-ad-1" data-ad-id="1" data-country="BE">
+                    <div class="ad-card-header">
+                      <div>
+                        <div class="ad-card-title">K. ASV Geel</div>
+                        <div class="ad-card-meta">🇧🇪 België · Regio Kempen</div>
+                      </div>
+                      <div class="ad-card-meta">Trainer U17 · Provinciaal</div>
+                    </div>
+                    <div class="ad-card-body">
+                      <strong>Type:</strong> Trainer<br />
+                      <strong>Niveau:</strong> Provinciaal<br />
+                      <strong>Regio:</strong> Antwerpen, Limburg<br /><br />
+                      Ambitieuze jeugdploeg zoekt gedreven trainer met oog voor opleiding en teamspirit.
+                    </div>
+                    <div class="ad-card-actions">
+                      <button type="button" class="btn-ghost-sm" data-reply-vacancy="1">Reageer op vacature</button>
+                      <a href="#" class="btn-ghost-sm btn-share" data-share-vacancy="1">Delen</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RECHTERKOLOM: UITLEG + ADVERTENTIES -->
+          <aside>
             <article class="card">
               <div class="card-header">
                 <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Tools &amp; diensten rond rekrutering</div>
+                  <div class="card-caption">Voor clubs</div>
+                  <div class="card-title">Hoe werkt het?</div>
                 </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
               </div>
-
+              <p class="note">
+                In de live versie kan je als club:
+              </p>
               <ul class="events-list">
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Matchingsplatform voor trainers</div>
-                  <div class="event-meta">Koppel openstaande clubvacatures aan beschikbare trainersprofielen.</div>
+                  <div class="event-title">Gratis vacature plaatsen</div>
+                  <div class="event-meta">Bereik spelers, trainers en vrijwilligers in jouw regio.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Vrijwilligersplanning &amp; beheer</div>
-                  <div class="event-meta">Online tool voor shifts, herinneringen en waardering van vrijwilligers.</div>
+                  <div class="event-title">Contactgegevens beschermd</div>
+                  <div class="event-meta">Reacties verlopen via Voetbal4All. Jouw e-mailadres blijft verborgen.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Consultancy rond cluborganisatie</div>
-                  <div class="event-meta">Begeleiding rond structuur, HR en vrijwilligersmanagement.</div>
+                  <div class="event-title">Eigen account</div>
+                  <div class="event-meta">Beheer en verwijder vacatures via je clubprofiel (live versie).</div>
                 </li>
               </ul>
             </article>
 
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · CLUBVACATURES ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor HR-partners, opleidingscentra en tools voor clubs.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Extra zichtbaarheid (boven)</div>
+                </div>
+                <span class="pill-small">Clubs / partners</span>
               </div>
-            </div>
+              <div class="ad-placeholder">
+                Ruimte voor advertenties rond clubbeheer, tools of materiaal.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Extra zichtbaarheid (onder)</div>
+                </div>
+                <span class="pill-small">Sponsors</span>
+              </div>
+              <div class="ad-placeholder">
+                Tweede advertentiezone in de rechter kolom.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
           </aside>
 
         </div>
+
       </div>
     </section>
   </main>
@@ -363,79 +359,202 @@
   </footer>
 
 </div>
+
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Uitgebreide zoekfunctie voor clubvacatures
-  const vacatureSearchInput = document.getElementById('vacature-search');
-  const vacatureCountrySelect = document.getElementById('vacature-country');
-  const vacatureRegionInput = document.getElementById('vacature-region');
-  const vacatureTypeSelect = document.getElementById('vacature-type');
-  const vacatureItems = document.querySelectorAll('.article-list .article-item');
+  // Regio's en niveaus per land (zelfde logica als spelers/trainers)
+  const VACANCY_REGIONS = {
+    BE: ["Antwerpen", "Limburg", "Vlaams-Brabant", "Oost-Vlaanderen", "West-Vlaanderen", "Brussel"],
+    NL: ["Noord-Brabant", "Limburg (NL)", "Gelderland", "Noord-Holland", "Zuid-Holland", "Overijssel", "Utrecht"]
+  };
 
-  function getCountryFromVacatureItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
+  const VACANCY_LEVELS = {
+    BE: ["Gewestelijk", "Provinciaal", "Interprovinciaal", "Elite"],
+    NL: ["Recreatief", "4e klasse", "3e klasse", "2e klasse", "1e klasse", "Hoofdklasse", "Divisie"]
+  };
 
-  function getTypeFromVacatureItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('jeugdcoördinator') || metaText.includes('jeugdcoordinator')) return 'jeugdcoordinator';
-    if (metaText.includes('hoofdtrainer') || metaText.includes('trainer')) return 'hoofdtrainer';
-    if (metaText.includes('vrijwilliger')) return 'vrijwilliger';
-    if (metaText.includes('teammanager')) return 'teammanager';
-    if (metaText.includes('bestuurslid') || metaText.includes('sponsoring')) return 'bestuurslid';
-
-    return '';
-  }
-
-  function applyVacatureFilter() {
-    const textQuery = (vacatureSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (vacatureRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (vacatureCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (vacatureTypeSelect?.value || '').toLowerCase();
-
-    vacatureItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromVacatureItem(item);
-      const itemType = getTypeFromVacatureItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
+  function renderPillCheckboxes(wrapperId, items, namePrefix) {
+    const wrapper = document.getElementById(wrapperId);
+    wrapper.innerHTML = "";
+    items.forEach((item, index) => {
+      const id = `${namePrefix}-${index}`;
+      const label = document.createElement("label");
+      label.className = "pill-checkbox";
+      label.innerHTML = `<input type="checkbox" id="${id}" value="${item}"> ${item}`;
+      wrapper.appendChild(label);
     });
   }
 
-  if (vacatureItems.length) {
-    vacatureSearchInput?.addEventListener('input', applyVacatureFilter);
-    vacatureCountrySelect?.addEventListener('change', applyVacatureFilter);
-    vacatureRegionInput?.addEventListener('input', applyVacatureFilter);
-    vacatureTypeSelect?.addEventListener('change', applyVacatureFilter);
+  function updateVacancyFields(country) {
+    if (!country) return;
+    renderPillCheckboxes("vacancy-region-wrapper", VACANCY_REGIONS[country], "vacancy-region");
+    renderPillCheckboxes("vacancy-level-wrapper", VACANCY_LEVELS[country], "vacancy-level");
   }
+
+  const vacancyCountryBE = document.getElementById("vacancy-country-be");
+  const vacancyCountryNL = document.getElementById("vacancy-country-nl");
+
+  vacancyCountryBE.addEventListener("change", e => {
+    if (e.target.checked) updateVacancyFields("BE");
+  });
+
+  vacancyCountryNL.addEventListener("change", e => {
+    if (e.target.checked) updateVacancyFields("NL");
+  });
+
+  // Overzicht vacatures
+  const vacancyAdsContainer = document.getElementById("vacancy-ads");
+  let nextVacancyAdId = 2; // 1 is demo
+
+  function addVacancyAd(ad) {
+    const idAttr = `vacancy-ad-${ad.id}`;
+    const card = document.createElement("article");
+    card.className = "ad-card";
+    card.id = idAttr;
+    card.dataset.adId = ad.id;
+    card.dataset.country = ad.country;
+    card.dataset.types = ad.types.join("|");
+    card.dataset.levels = ad.levels.join("|");
+    card.dataset.regions = ad.regions.join("|");
+
+    const flag = ad.country === "BE" ? "🇧🇪" : "🇳🇱";
+    const displayContact = ad.anonymousContact || !ad.contact ? "" : " · " + ad.contact;
+
+    card.innerHTML = `
+      <div class="ad-card-header">
+        <div>
+          <div class="ad-card-title">${ad.club}</div>
+          <div class="ad-card-meta">${flag} ${ad.countryLabel} · ${ad.regions.join(", ")}</div>
+        </div>
+        <div class="ad-card-meta">${ad.types.join(", ")} · ${ad.levels.join(", ")}</div>
+      </div>
+      <div class="ad-card-body">
+        <strong>Ploeg / doelgroep:</strong> ${ad.team}<br />
+        ${displayContact ? `<strong>Contactpersoon:</strong> ${displayContact}<br />` : ""}
+        <br />
+        ${ad.description ? ad.description : ""}
+      </div>
+      <div class="ad-card-actions">
+        <button type="button" class="btn-ghost-sm" data-reply-vacancy="${ad.id}">Reageer op vacature</button>
+        <a href="#" class="btn-ghost-sm btn-share" data-share-vacancy="${ad.id}">Delen</a>
+      </div>
+    `;
+    vacancyAdsContainer.prepend(card);
+    updateVacancyShareLinks();
+  }
+
+  // Formulier submit (demo)
+  document.getElementById("vacancy-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const club = document.getElementById("vacancy-club").value.trim();
+    const contact = document.getElementById("vacancy-contact").value.trim();
+    const email = document.getElementById("vacancy-email").value.trim();
+    const anonymousContact = document.getElementById("vacancy-hide-contact").checked;
+    const team = document.getElementById("vacancy-team").value.trim();
+    const description = document.getElementById("vacancy-description").value.trim();
+
+    if (!club) {
+      alert("Clubnaam is verplicht.");
+      return;
+    }
+    if (!email) {
+      alert("E-mailadres van de club is verplicht.");
+      return;
+    }
+    if (!team) {
+      alert("Ploeg / doelgroep is verplicht.");
+      return;
+    }
+
+    const countryInput = document.querySelector("input[name='vacancy-country']:checked");
+    if (!countryInput) {
+      alert("Kies een land.");
+      return;
+    }
+    const country = countryInput.value;
+    const countryLabel = country === "BE" ? "België" : "Nederland";
+
+    const regions = Array.from(document.querySelectorAll("#vacancy-region-wrapper input:checked")).map(i => i.value);
+    if (!regions.length) {
+      alert("Kies minstens één regio.");
+      return;
+    }
+
+    const types = Array.from(document.querySelectorAll("#vacancy-type-wrapper input:checked")).map(i => i.value);
+    if (!types.length) {
+      alert("Kies minstens één type vacature.");
+      return;
+    }
+
+    const levels = Array.from(document.querySelectorAll("#vacancy-level-wrapper input:checked")).map(i => i.value);
+    if (!levels.length) {
+      alert("Kies minstens één niveau.");
+      return;
+    }
+
+    const ad = {
+      id: nextVacancyAdId++,
+      club,
+      contact,
+      anonymousContact,
+      email, // later voor backend
+      country,
+      countryLabel,
+      regions,
+      types,
+      levels,
+      team,
+      description
+    };
+
+    addVacancyAd(ad);
+    e.target.reset();
+    document.getElementById("vacancy-hide-contact").checked = true;
+    alert("Demo: je clubvacature is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
+  });
+
+  // REAGEREN: knop + akkoord + e-mail, via Voetbal4All
+  document.addEventListener("click", function (e) {
+    if (e.target.matches("[data-reply-vacancy]")) {
+      const adId = e.target.getAttribute("data-reply-vacancy");
+      const ok = confirm(
+        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
+      );
+      if (!ok) return;
+
+      const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
+      if (!replyEmail) {
+        alert("E-mailadres is nodig om te kunnen reageren.");
+        return;
+      }
+
+      const subject = encodeURIComponent("Reactie via Voetbal4All op clubvacature " + adId);
+      const body = encodeURIComponent(
+        "Vacature-ID: " + adId +
+        "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
+        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
+      );
+
+      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    }
+  });
+
+  // Social sharing: link naar specifieke clubvacature
+  function updateVacancyShareLinks() {
+    const baseUrl = window.location.origin + window.location.pathname;
+    document.querySelectorAll("[data-share-vacancy]").forEach(link => {
+      const adId = link.getAttribute("data-share-vacancy");
+      const targetId = "vacancy-ad-" + adId;
+      const urlWithAnchor = baseUrl + "#" + targetId;
+      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.setAttribute("href", fbShare);
+      link.setAttribute("target", "_blank");
+    });
+  }
+
+  updateVacancyShareLinks();
 </script>
 </body>
 </html>
