@@ -2,11 +2,9 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Spelers zoeken & aanbieden - Voetbal4All</title>
+  <title>Voetbal4All - Spelers zoeken club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -46,293 +44,144 @@
   </header>
 
   <main>
-
-    <!-- PAGINA-INTRO / HERO -->
     <section class="section-main">
       <div class="shell">
-        <article class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-caption">Spelers</div>
-              <div class="card-title">Spelers zoeken &amp; spelersprofielen aanbieden.</div>
-            </div>
-            <span class="pill-small">België · Nederland · internationaal</span>
-          </div>
-          <p class="note">
-            Op deze pagina vind je spelers die een nieuwe club zoeken: van onderbouw tot eerste ploeg.
-            Clubs kunnen filteren op land, regio, leeftijdscategorie, positie en profiel.
+
+        <!-- FORMULIER SPELER -->
+        <div class="form-card">
+          <h1 class="form-title">Speler zoekt club</h1>
+          <p class="form-sub">
+            Vul je profiel in en kies of je anoniem wil blijven. Je e-mailadres en naam worden nooit in de advertentie getoond
+            als je anoniem aanvinkt. Clubs reageren via Voetbal4All.
           </p>
 
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="#spelers-profielen" class="btn-primary">Spelersprofielen bekijken</a>
-            <a href="trainers.html" class="btn-secondary">Trainer zoekt speler</a>
-          </div>
-        </article>
-      </div>
-    </section>
+          <form id="player-form">
+            <div class="form-grid">
 
-    <!-- ZOEKFUNCTIE SPELERS -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="speler-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. U14, flank, centrale verdediger, linksvoetig...)"
-          />
-          <div class="search-filters-row">
-            <select id="speler-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="speler-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="speler-profile" class="search-select">
-              <option value="">Alle profielen</option>
-              <option value="onderbouw">Onderbouw (U6–U11)</option>
-              <option value="middenbouw">Middenbouw (U12–U15)</option>
-              <option value="bovenbouw">Bovenbouw (U16–U19)</option>
-              <option value="senior">Seniors / eerste ploeg</option>
-              <option value="doelman">Doelman</option>
-              <option value="aanvaller">Aanvaller / flank</option>
-              <option value="middenvelder">Middenvelder</option>
-              <option value="verdediger">Verdediger</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SPELERSPROFIELEN + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
-
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · SPELERS (TOP)
-          <span class="ad-size">
-            Ideaal voor makelaars, opleidingspartners of tools voor spelersanalyse.
-          </span>
-        </div>
-
-        <!-- Layout: spelers links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: SPELERSPROFIELEN -->
-          <section class="column-middle" id="spelers-profielen">
-            <div class="article-list">
-
-              <!-- Speler 1 - België - middenbouw - aanvaller -->
-              <article class="article-item"
-                       data-title="Aanvallende middenvelder U14 België Antwerpen linksvoetig">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto speler
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Middenbouw · aanvallende middenvelder</div>
-                    <h2 class="article-title">
-                      <a href="#">Aanvallende middenvelder U14 · regio Antwerpen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Linksvoetige speler met overzicht en traptechniek. Zoekt club met sterke opleiding
-                      en duidelijke doorgroeimogelijkheden.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Speler 2 - België - bovenbouw - doelman -->
-              <article class="article-item"
-                       data-title="Doelman U16 België Limburg speeltijd provinciaal">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto doelman
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Bovenbouw · doelman</div>
-                    <h2 class="article-title">
-                      <a href="#">Doelman U16 · regio Limburg</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Zoekt meer speeltijd op provinciaal niveau. Sterk in één-tegen-één en spelhervattingen,
-                      wil werken aan voetenwerk en coaching.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Speler 3 - Nederland - onderbouw - flankspeler -->
-              <article class="article-item"
-                       data-title="Flankspeler U10 Nederland Randstad technisch snel">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto flankspeler
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Onderbouw · flankspeler</div>
-                    <h2 class="article-title">
-                      <a href="#">Flankspeler U10 · regio Randstad</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Snelle, dribbelvaardige speler met aanvallende ingesteldheid. Zoekt club die inzet op
-                      techniektraining en fun.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Speler 4 - Nederland - seniors - centrale verdediger -->
-              <article class="article-item"
-                       data-title="Centrale verdediger seniors Nederland ervaring derde klasse">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto verdediger
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Senior · centrale verdediger</div>
-                    <h2 class="article-title">
-                      <a href="#">Centrale verdediger · 3e klasse niveau</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ervaren verdediger met leiderschap, sterk in kopduels en coaching van de defensie.
-                      Zoekt ambitieuze club met jonge kern.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Speler 5 - Internationaal - bovenbouw - spits -->
-              <article class="article-item"
-                       data-title="Spits U18 internationaal afwerker fysiek sterk">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto spits
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Bovenbouw · spits</div>
-                    <h2 class="article-title">
-                      <a href="#">Spits U18 · fysiek sterk &amp; afwerker</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Fysiek sterke aanvaller met doelgerichtheid en loopacties in de diepte.
-                      Zoekt club met goede aansluitingstraining naar seniors.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner voor spelers -->
-              <article class="article-item"
-                       data-title="Advertorial partner spelersbegeleiding data analyse">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Spelersbegeleiding: video- en data-analyse voor meer groei</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Partner die individuele spelers begeleidt met video-analyse, data en persoonlijke feedback.
-                      Duidelijk als advertentie aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-            </div>
-          </section>
-
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners voor spelers &amp; ontwikkeling</div>
-                </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
+              <!-- Naam -->
+              <div class="form-field">
+                <label class="form-label" for="player-name">
+                  Naam <small>(optioneel, kan anoniem)</small>
+                </label>
+                <input id="player-name" name="name" type="text" class="form-input" placeholder="Naam speler" />
+                <label class="form-helper">
+                  <input type="checkbox" id="player-hide-name" checked />
+                  Toon mijn naam niet publiek (anoniem)
+                </label>
               </div>
 
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Persoonlijke techniektraining</div>
-                  <div class="event-meta">1-op-1 of kleine groepjes voor techniek, passing en afwerking.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Voeding &amp; mindset coaching</div>
-                  <div class="event-meta">Begeleiding rond voeding, herstel en mentale weerbaarheid.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Online platform met spelersprofielen</div>
-                  <div class="event-meta">Tools om je eigen profiel, stats en video&apos;s te beheren.</div>
-                </li>
-              </ul>
-            </article>
-
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · SPELERS ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor spelersbegeleiding, individuele trainingen en
-                platformen voor spelersprofielen.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+              <!-- Woonplaats -->
+              <div class="form-field">
+                <label class="form-label" for="player-city">
+                  Woonplaats <small>(optioneel, kan anoniem)</small>
+                </label>
+                <input id="player-city" name="city" type="text" class="form-input" placeholder="Bv. Geel" />
+                <label class="form-helper">
+                  <input type="checkbox" id="player-hide-city" checked />
+                  Toon mijn woonplaats niet publiek
+                </label>
               </div>
-            </div>
-          </aside>
 
+              <!-- E-mail (verplicht, nooit publiek getoond) -->
+              <div class="form-field">
+                <label class="form-label" for="player-email">
+                  E-mailadres <small>(verplicht – wordt nooit in de advertentie getoond)</small>
+                </label>
+                <input id="player-email" name="email" type="email" class="form-input" required placeholder="jouw@email.be" />
+              </div>
+
+              <!-- Land -->
+              <div class="form-field">
+                <span class="form-label">Land <small>(verplicht)</small></span>
+                <div class="form-checkbox-row">
+                  <label class="flag-label">
+                    <input type="radio" name="country" value="BE" id="player-country-be" required />
+                    <span>🇧🇪 België</span>
+                  </label>
+                  <label class="flag-label">
+                    <input type="radio" name="country" value="NL" id="player-country-nl" />
+                    <span>🇳🇱 Nederland</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Regio (dynamisch per land) -->
+              <div class="form-field">
+                <span class="form-label">Gewenste regio <small>(verplicht – per land)</small></span>
+                <div id="player-region-wrapper" class="form-checkbox-row">
+                  <!-- wordt via JS gevuld -->
+                </div>
+                <div class="form-helper">Selecteer één of meerdere regio's.</div>
+              </div>
+
+              <!-- Leeftijd -->
+              <div class="form-field">
+                <label class="form-label" for="player-age">
+                  Leeftijd <small>(verplicht)</small>
+                </label>
+                <input id="player-age" name="age" type="number" min="5" max="60" class="form-input" required placeholder="Bv. 17" />
+              </div>
+
+              <!-- Positie(s) -->
+              <div class="form-field">
+                <span class="form-label">Positie(s) <small>(verplicht – meerdere mogelijk)</small></span>
+                <div class="form-checkbox-row">
+                  <label class="pill-checkbox"><input type="checkbox" value="Doelman" /> Doelman</label>
+                  <label class="pill-checkbox"><input type="checkbox" value="Verdediger" /> Verdediger</label>
+                  <label class="pill-checkbox"><input type="checkbox" value="Middenvelder" /> Middenvelder</label>
+                  <label class="pill-checkbox"><input type="checkbox" value="Aanvaller" /> Aanvaller</label>
+                  <label class="pill-checkbox"><input type="checkbox" value="Vleugelspeler" /> Vleugelspeler</label>
+                </div>
+              </div>
+
+              <!-- Gewenst niveau -->
+              <div class="form-field">
+                <span class="form-label">Gewenst niveau <small>(verplicht – per land)</small></span>
+                <div id="player-level-wrapper" class="form-checkbox-row">
+                  <!-- wordt via JS gevuld -->
+                </div>
+                <div class="form-helper">Selecteer één of meerdere niveaus die voor jou passen.</div>
+              </div>
+
+              <!-- Korte beschrijving -->
+              <div class="form-field" style="grid-column:1/-1;">
+                <label class="form-label" for="player-description">
+                  Korte beschrijving / extra info
+                </label>
+                <textarea id="player-description" class="form-textarea" placeholder="Beschrijf jezelf kort als speler, beschikbaarheid, sterke punten..."></textarea>
+              </div>
+
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn-primary">Advertentie plaatsen (demo)</button>
+              <span class="form-helper">
+                Dit is een demoversie: gegevens worden nog niet definitief opgeslagen.
+              </span>
+            </div>
+          </form>
         </div>
+
+        <!-- OVERZICHT SPELERS-ADVERTENTIES -->
+        <section class="section-main" style="padding-top:0;">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Overzicht</div>
+                <div class="card-title">Spelers die een club zoeken</div>
+              </div>
+              <span class="pill-small">Delen &amp; reageren via Voetbal4All</span>
+            </div>
+            <p class="note">
+              Hieronder een aantal voorbeeldprofielen. In de echte versie worden nieuwe formulieren automatisch toegevoegd.
+            </p>
+
+            <div id="player-ads" class="ad-card-list">
+              <!-- JS vult hier dummy + nieuwe ads -->
+            </div>
+          </div>
+        </section>
+
       </div>
     </section>
   </main>
@@ -362,82 +211,282 @@
 
 </div>
 
+<!-- MODAL VOOR REAGEREN OP SPELER -->
+<div class="modal-backdrop" id="reply-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">Reageren op speler</div>
+      <button class="modal-close" type="button" data-close-modal>&times;</button>
+    </div>
+    <p class="modal-note">
+      Je reactie wordt via Voetbal4All doorgestuurd naar de speler. Zijn/haar e-mailadres blijft verborgen.
+    </p>
+    <form id="reply-form">
+      <input type="hidden" id="reply-ad-id" />
+      <div class="form-field">
+        <label class="form-label" for="reply-name">Naam club / contactpersoon</label>
+        <input id="reply-name" type="text" class="form-input" required placeholder="Bv. K. ASV Geel – Jeugdcoördinator" />
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="reply-email">
+          Jouw e-mailadres <small>(verplicht)</small>
+        </label>
+        <input id="reply-email" type="email" class="form-input" required placeholder="contact@club.be" />
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="reply-message">Bericht aan de speler</label>
+        <textarea id="reply-message" class="form-textarea" required placeholder="Korte voorstelling van je club en waarom je contact opneemt."></textarea>
+      </div>
+      <div class="form-field">
+        <label class="form-helper">
+          <input type="checkbox" id="reply-consent" required />
+          Ik ga akkoord dat Voetbal4All mijn bericht en e-mailadres doorstuurt naar deze speler.
+        </label>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">Verstuur via Voetbal4All</button>
+      </div>
+    </form>
+    <div class="modal-footer">
+      In de eerste versie verloopt dit via <strong>voetbal4all@outlook.com</strong>. Later kan dit via een automatische koppeling.
+    </div>
+  </div>
+</div>
+
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Uitgebreide zoekfunctie voor spelers
-  const spelerSearchInput = document.getElementById('speler-search');
-  const spelerCountrySelect = document.getElementById('speler-country');
-  const spelerRegionInput = document.getElementById('speler-region');
-  const spelerProfileSelect = document.getElementById('speler-profile');
-  const spelerItems = document.querySelectorAll('.article-list .article-item');
+  // Regio's & niveaus per land
+  const REGIONS = {
+    BE: ["Antwerpen", "Limburg", "Vlaams-Brabant", "Oost-Vlaanderen", "West-Vlaanderen", "Brussel"],
+    NL: ["Noord-Brabant", "Limburg (NL)", "Gelderland", "Noord-Holland", "Zuid-Holland", "Overijssel", "Utrecht"]
+  };
 
-  function getCountryFromSpelerItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
+  const LEVELS = {
+    BE: ["Gewestelijk", "Provinciaal", "Interprovinciaal", "Elite"],
+    NL: ["Recreatief", "4e klasse", "3e klasse", "2e klasse", "1e klasse", "Hoofdklasse", "Divisie"]
+  };
 
-  function getProfileFromSpelerItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('onderbouw')) return 'onderbouw';
-    if (metaText.includes('middenbouw')) return 'middenbouw';
-    if (metaText.includes('bovenbouw')) return 'bovenbouw';
-    if (metaText.includes('senior')) return 'senior';
-    if (metaText.includes('doelman')) return 'doelman';
-    if (metaText.includes('spits') || metaText.includes('aanvaller') || metaText.includes('flank')) return 'aanvaller';
-    if (metaText.includes('middenvelder')) return 'middenvelder';
-    if (metaText.includes('verdediger')) return 'verdediger';
-
-    return '';
-  }
-
-  function applySpelerFilter() {
-    const textQuery = (spelerSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (spelerRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (spelerCountrySelect?.value || '').toUpperCase();
-    const profileFilter = (spelerProfileSelect?.value || '').toLowerCase();
-
-    spelerItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromSpelerItem(item);
-      const itemProfile = getProfileFromSpelerItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && profileFilter && itemProfile !== profileFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
+  function renderCheckboxPills(wrapperId, items, namePrefix) {
+    const wrapper = document.getElementById(wrapperId);
+    wrapper.innerHTML = "";
+    items.forEach((item, idx) => {
+      const id = `${namePrefix}-${idx}`;
+      const label = document.createElement("label");
+      label.className = "pill-checkbox";
+      label.innerHTML = `<input type="checkbox" id="${id}" value="${item}" /> ${item}`;
+      wrapper.appendChild(label);
     });
   }
 
-  if (spelerItems.length) {
-    spelerSearchInput?.addEventListener('input', applySpelerFilter);
-    spelerCountrySelect?.addEventListener('change', applySpelerFilter);
-    spelerRegionInput?.addEventListener('input', applySpelerFilter);
-    spelerProfileSelect?.addEventListener('change', applySpelerFilter);
+  function updateRegionsAndLevels(country) {
+    if (!country) return;
+    renderCheckboxPills("player-region-wrapper", REGIONS[country], "player-region");
+    renderCheckboxPills("player-level-wrapper", LEVELS[country], "player-level");
   }
+
+  document.getElementById("player-country-be").addEventListener("change", e => {
+    if (e.target.checked) updateRegionsAndLevels("BE");
+  });
+
+  document.getElementById("player-country-nl").addEventListener("change", e => {
+    if (e.target.checked) updateRegionsAndLevels("NL");
+  });
+
+  // Dummy data + nieuwe advertenties
+  const playerAdsContainer = document.getElementById("player-ads");
+  let playerAdCounter = 1;
+
+  function createPlayerAdCard(ad) {
+    const id = `player-ad-${ad.id}`;
+    const card = document.createElement("article");
+    card.className = "ad-card";
+    card.id = id;
+    card.dataset.adId = id;
+
+    const displayName = ad.anonymousName ? "Anonieme speler" : ad.name || "Speler";
+    const displayCity = ad.anonymousCity || !ad.city ? "" : ` · ${ad.city}`;
+    const countryFlag = ad.country === "BE" ? "🇧🇪" : "🇳🇱";
+
+    card.innerHTML = `
+      <div class="ad-card-header">
+        <div>
+          <div class="ad-card-title">${displayName}</div>
+          <div class="ad-card-meta">${countryFlag} ${ad.countryLabel}${displayCity}</div>
+        </div>
+        <div class="ad-card-meta">${ad.age} jaar · ${ad.positions.join(", ")}</div>
+      </div>
+      <div class="ad-card-body">
+        <strong>Niveau:</strong> ${ad.levels.join(", ")}<br/>
+        <strong>Regio:</strong> ${ad.regions.join(", ")}<br/>
+        ${ad.description ? `<br/>${ad.description}` : ""}
+      </div>
+      <div class="ad-card-actions">
+        <button type="button" class="btn-ghost-sm" data-reply-ad="${id}">Reageer op speler</button>
+        <a href="#" class="btn-ghost-sm btn-share" data-share-ad="${id}">Delen</a>
+      </div>
+    `;
+    return card;
+  }
+
+  // Voorbeeldadvertentie
+  function seedDemoPlayers() {
+    const demo = [
+      {
+        id: playerAdCounter++,
+        name: "Tom (voorbeeld)",
+        anonymousName: true,
+        city: "Kempen",
+        anonymousCity: true,
+        country: "BE",
+        countryLabel: "België",
+        age: 17,
+        positions: ["Middenvelder", "Aanvaller"],
+        levels: ["Provinciaal"],
+        regions: ["Antwerpen", "Limburg"],
+        description: "Technische middenvelder met goed overzicht, zoekt ambitieuze opleidingsclub."
+      }
+    ];
+    demo.forEach(ad => playerAdsContainer.appendChild(createPlayerAdCard(ad)));
+  }
+
+  seedDemoPlayers();
+
+  // Form submit (demo – geen echte backend)
+  document.getElementById("player-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const name = document.getElementById("player-name").value.trim();
+    const city = document.getElementById("player-city").value.trim();
+    const email = document.getElementById("player-email").value.trim();
+    const anonymousName = document.getElementById("player-hide-name").checked;
+    const anonymousCity = document.getElementById("player-hide-city").checked;
+    const countryInput = form.querySelector("input[name='country']:checked");
+    if (!countryInput) {
+      alert("Kies een land.");
+      return;
+    }
+    const country = countryInput.value;
+    const countryLabel = country === "BE" ? "België" : "Nederland";
+    const age = document.getElementById("player-age").value;
+
+    const regions = Array.from(document.querySelectorAll("#player-region-wrapper input:checked")).map(i => i.value);
+    const positions = Array.from(document.querySelectorAll("#player-region-wrapper input")).length === 0
+      ? []
+      : Array.from(document.querySelectorAll(".form-checkbox-row input[type='checkbox'][value][value]:not(#player-hide-name):not(#player-hide-city)"))
+        .filter(i => i.closest("#player-region-wrapper") === null && i.closest("#player-level-wrapper") === null && i.checked && ["Doelman","Verdediger","Middenvelder","Aanvaller","Vleugelspeler"].includes(i.value))
+        .map(i => i.value);
+
+    const posBoxes = Array.from(document.querySelectorAll(".form-checkbox-row input[type='checkbox']"))
+      .filter(i => ["Doelman","Verdediger","Middenvelder","Aanvaller","Vleugelspeler"].includes(i.value));
+    const selectedPos = posBoxes.filter(i => i.checked).map(i => i.value);
+
+    const levels = Array.from(document.querySelectorAll("#player-level-wrapper input:checked")).map(i => i.value);
+    const description = document.getElementById("player-description").value.trim();
+
+    if (!selectedPos.length) {
+      alert("Kies minstens één positie.");
+      return;
+    }
+    if (!regions.length) {
+      alert("Kies minstens één regio.");
+      return;
+    }
+    if (!levels.length) {
+      alert("Kies minstens één niveau.");
+      return;
+    }
+    if (!email) {
+      alert("E-mailadres is verplicht.");
+      return;
+    }
+
+    const ad = {
+      id: playerAdCounter++,
+      name,
+      anonymousName,
+      city,
+      anonymousCity,
+      country,
+      countryLabel,
+      age,
+      positions: selectedPos,
+      levels,
+      regions,
+      description,
+      email // wordt niet getoond; enkel later gebruikt via backend
+    };
+
+    const card = createPlayerAdCard(ad);
+    playerAdsContainer.prepend(card);
+    form.reset();
+    document.getElementById("player-hide-name").checked = true;
+    document.getElementById("player-hide-city").checked = true;
+    alert("Demo: je advertentie is toegevoegd aan het overzicht (niet permanent opgeslagen).");
+  });
+
+  // Modal open/close + mailto
+  const modalBackdrop = document.getElementById("reply-modal");
+  const replyForm = document.getElementById("reply-form");
+
+  function openReplyModal(adId) {
+    document.getElementById("reply-ad-id").value = adId;
+    modalBackdrop.classList.add("modal-open");
+  }
+
+  function closeReplyModal() {
+    modalBackdrop.classList.remove("modal-open");
+  }
+
+  document.addEventListener("click", function (e) {
+    if (e.target.matches("[data-reply-ad]")) {
+      const adId = e.target.getAttribute("data-reply-ad");
+      openReplyModal(adId);
+    }
+    if (e.target.hasAttribute("data-close-modal") || e.target === modalBackdrop) {
+      closeReplyModal();
+    }
+  });
+
+  replyForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const adId = document.getElementById("reply-ad-id").value;
+    const name = document.getElementById("reply-name").value.trim();
+    const email = document.getElementById("reply-email").value.trim();
+    const msg = document.getElementById("reply-message").value.trim();
+    const consent = document.getElementById("reply-consent").checked;
+
+    if (!consent) {
+      alert("Je moet akkoord gaan om via Voetbal4All te reageren.");
+      return;
+    }
+
+    const subject = encodeURIComponent("Reactie via Voetbal4All op spelersadvertentie " + adId);
+    const body = encodeURIComponent(
+      "Advertentie-ID: " + adId +
+      "\n\nVan: " + name +
+      "\nE-mail: " + email +
+      "\n\nBericht:\n" + msg
+    );
+
+    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    closeReplyModal();
+  });
+
+  // Social share: maakt URL met anker naar specifieke advertentie
+  function setupShareLinks() {
+    const baseUrl = window.location.origin + window.location.pathname;
+    document.querySelectorAll("[data-share-ad]").forEach(link => {
+      const adId = link.getAttribute("data-share-ad");
+      const urlWithAnchor = baseUrl + "#" + adId;
+      const shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.setAttribute("href", shareUrl);
+      link.setAttribute("target", "_blank");
+    });
+  }
+
+  setupShareLinks();
 </script>
 </body>
 </html>
