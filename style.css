@@ -25,10 +25,12 @@
   box-sizing: border-box;
 }
 
+/* Volledige hoogte voor footer-layout */
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -48,6 +50,7 @@ img {
   display: block;
 }
 
+/* Pagina-structuur zodat footer onderaan blijft */
 .page {
   min-height: 100vh;
   display: flex;
@@ -486,8 +489,40 @@ main {
 }
 
 /* =======================
-   AD ZONES
+   AD ZONES & ADSENSE
    ======================= */
+
+/* Generieke AdSense container */
+.ad-slot {
+  margin: 12px auto;
+  max-width: 1200px;
+}
+
+/* Header-ad direct onder navbar, sticky */
+.sticky-ad-header {
+  position: sticky;
+  top: 64px;           /* hoogte navbar (desktop) */
+  z-index: 30;
+  background: #050814;
+  padding: 4px 0;
+}
+
+/* Bovenaan horizontale banner */
+.ad-slot-top-horizontal {
+  margin-top: 8px;
+}
+
+/* In-content / in-feed advertentie */
+.ad-slot-incontent {
+  margin: 16px auto;
+}
+
+/* Linker verticale advertentieblok onder events */
+.ad-slot-vertical-left {
+  max-width: 320px;
+}
+
+/* Oude placeholder-zones (kun je blijven gebruiken als info-blokken) */
 
 .ad-horizontal,
 .ad-infeed {
@@ -588,7 +623,7 @@ main {
   margin-top: 8px;
 }
 
-/* Home/Artikel-kaarten met afbeelding + vlag */
+/* Home/Artikel-kaarten met afbeelding + vlag (oude, grotere variant – kan nog op andere pagina's gebruikt worden) */
 
 .home-article-media {
   position: relative;
@@ -626,10 +661,44 @@ main {
   font-size: 14px;
 }
 
+/* Nieuwe compacte artikelvariant met kleine foto links */
+
+.home-article-card--compact {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+/* Thumbnail links van de tekst */
+.home-article-media-thumb {
+  flex: 0 0 80px;
+  height: 60px;
+  border-radius: 6px;
+  background: #1c2230;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #ccd3e6;
+  text-align: center;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+/* Algemene contentcontainer voor artikelen (ook gebruikt in oude variant) */
 .home-article-content {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  flex: 1 1 auto;
+}
+
+/* Header boven titel met vlag + meta */
+.home-article-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
 }
 
 .article-meta {
@@ -657,6 +726,17 @@ main {
   font-size: 13px;
   color: var(--muted);
   margin: 0;
+}
+
+/* Kleinere typografie binnen compacte kaarten */
+.home-article-card--compact .article-title {
+  font-size: 15px;
+  margin: 0 0 4px;
+}
+
+.home-article-card--compact .article-excerpt {
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 /* =======================
@@ -943,6 +1023,11 @@ main {
   .footer-grid {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  /* Sticky-ad iets dichter onder navbar (lager) */
+  .sticky-ad-header {
+    top: 58px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -957,5 +1042,15 @@ main {
   .live-banner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .home-article-card--compact {
+    gap: 8px;
+  }
+
+  .home-article-media-thumb {
+    flex: 0 0 60px;
+    height: 50px;
+    font-size: 9px;
   }
 }
