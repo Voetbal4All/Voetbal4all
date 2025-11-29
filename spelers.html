@@ -4,9 +4,7 @@
   <meta charset="UTF-8" />
   <title>Voetbal4All - Speler zoekt club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -46,10 +44,10 @@
   </header>
 
   <main>
-    <!-- HEADERKAART + KORTE UITLEG -->
+    <!-- PAGINA-INTRO -->
     <section class="section-main">
       <div class="shell">
-        <article class="card" style="margin-bottom:14px;">
+        <article class="card" style="margin-bottom:14px; max-width:900px;">
           <div class="card-header">
             <div>
               <div class="card-caption">Spelers</div>
@@ -58,153 +56,200 @@
             <span class="pill-small">België · Nederland</span>
           </div>
           <p class="note">
-            Stel je kandidaat als speler. Je kan er voor kiezen om je naam en woonplaats anoniem te houden.
-            Je e-mailadres wordt <strong>nooit</strong> getoond in de advertentie. Clubs reageren via Voetbal4All.
+            Stel je kandidaat als speler. Je kan je <strong>naam</strong> en <strong>woonplaats</strong> verborgen houden.
+            Je e-mailadres wordt <strong>nooit</strong> in de advertentie getoond. Clubs reageren via Voetbal4All.
           </p>
         </article>
 
         <!-- GRID: FORMULIER LINKS · INFO / ADVERTENTIE RECHTS -->
-        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1.1fr); gap:16px;">
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1.7fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-          <!-- FORMULIER SPELER -->
+          <!-- FORMULIER-SPOOR -->
           <section>
             <div class="form-card">
               <h2 class="form-title">Nieuwe spelersadvertentie</h2>
               <p class="form-sub">
-                Velden met * zijn verplicht. Anonimiteit kan via de checkboxen onder naam en woonplaats.
+                Velden met <strong>*</strong> zijn verplicht. De advertentie verschijnt anoniem als je dat aanvinkt.
               </p>
 
               <form id="player-form">
-                <div class="form-grid">
 
-                  <!-- Naam -->
-                  <div class="form-field">
-                    <label class="form-label" for="player-name">
-                      Naam <small>(optioneel, kan anoniem)</small>
-                    </label>
-                    <input id="player-name" name="name" type="text" class="form-input" placeholder="Naam speler" />
-                    <label class="form-helper">
-                      <input type="checkbox" id="player-hide-name" checked />
-                      Toon mijn naam niet publiek (anoniem)
-                    </label>
-                  </div>
+                <!-- 1. Persoonlijke gegevens -->
+                <div class="form-section">
+                  <h3 class="form-section-title">1. Persoonlijke gegevens</h3>
+                  <p class="form-section-sub">
+                    Deze gegevens worden enkel gebruikt om contact te houden. Je kan naam en woonplaats anoniem houden.
+                  </p>
 
-                  <!-- Woonplaats -->
-                  <div class="form-field">
-                    <label class="form-label" for="player-city">
-                      Woonplaats <small>(optioneel, kan anoniem)</small>
-                    </label>
-                    <input id="player-city" name="city" type="text" class="form-input" placeholder="Bv. Geel" />
-                    <label class="form-helper">
-                      <input type="checkbox" id="player-hide-city" checked />
-                      Toon mijn woonplaats niet publiek
-                    </label>
-                  </div>
-
-                  <!-- E-mail (verplicht, verborgen) -->
-                  <div class="form-field">
-                    <label class="form-label" for="player-email">
-                      E-mailadres <small>(verplicht – blijft verborgen)</small>
-                    </label>
-                    <input id="player-email" name="email" type="email" class="form-input" required placeholder="jouw@email.be" />
-                    <div class="form-helper">
-                      Dit adres wordt enkel gebruikt om reacties door te sturen, niet getoond op de website.
-                    </div>
-                  </div>
-
-                  <!-- Land -->
-                  <div class="form-field">
-                    <span class="form-label">Land <small>(verplicht)</small></span>
-                    <div class="form-checkbox-row">
-                      <label class="flag-label">
-                        <input type="radio" name="country" value="BE" id="player-country-be" required />
-                        <span>🇧🇪 België</span>
+                  <div class="form-grid form-grid--2cols">
+                    <!-- Naam -->
+                    <div class="form-field">
+                      <label class="form-label" for="player-name">
+                        Naam <span class="required">(optioneel)</span>
                       </label>
-                      <label class="flag-label">
-                        <input type="radio" name="country" value="NL" id="player-country-nl" />
-                        <span>🇳🇱 Nederland</span>
+                      <input id="player-name" name="name" type="text" class="form-input" placeholder="Naam speler" />
+                      <label class="form-helper">
+                        <input type="checkbox" id="player-hide-name" checked />
+                        Naam niet tonen in de advertentie (anoniem)
                       </label>
                     </div>
-                  </div>
 
-                  <!-- Regio -->
-                  <div class="form-field">
-                    <span class="form-label">Gewenste regio <small>(verplicht – per land)</small></span>
-                    <div id="player-region-wrapper" class="form-checkbox-row">
-                      <!-- JS vult dit in per land -->
+                    <!-- Woonplaats -->
+                    <div class="form-field">
+                      <label class="form-label" for="player-city">
+                        Woonplaats <span class="required">(optioneel)</span>
+                      </label>
+                      <input id="player-city" name="city" type="text" class="form-input" placeholder="Bv. Geel" />
+                      <label class="form-helper">
+                        <input type="checkbox" id="player-hide-city" checked />
+                        Woonplaats niet tonen in de advertentie
+                      </label>
                     </div>
-                    <div class="form-helper">Selecteer één of meerdere regio's.</div>
-                  </div>
 
-                  <!-- Leeftijd -->
-                  <div class="form-field">
-                    <label class="form-label" for="player-age">
-                      Leeftijd <small>(verplicht)</small>
-                    </label>
-                    <input id="player-age" name="age" type="number" min="5" max="60" class="form-input" required placeholder="Bv. 17" />
-                  </div>
-
-                  <!-- Positie(s) -->
-                  <div class="form-field">
-                    <span class="form-label">Positie(s) <small>(verplicht – meerdere mogelijk)</small></span>
-                    <div class="form-checkbox-row" id="player-position-wrapper">
-                      <label class="pill-checkbox"><input type="checkbox" value="Doelman" /> Doelman</label>
-                      <label class="pill-checkbox"><input type="checkbox" value="Verdediger" /> Verdediger</label>
-                      <label class="pill-checkbox"><input type="checkbox" value="Middenvelder" /> Middenvelder</label>
-                      <label class="pill-checkbox"><input type="checkbox" value="Aanvaller" /> Aanvaller</label>
-                      <label class="pill-checkbox"><input type="checkbox" value="Vleugelspeler" /> Vleugelspeler</label>
+                    <!-- E-mail -->
+                    <div class="form-field" style="grid-column:1/-1;">
+                      <label class="form-label" for="player-email">
+                        E-mailadres <span class="required">*</span>
+                      </label>
+                      <input id="player-email" name="email" type="email" class="form-input" required placeholder="jouw@email.be" />
+                      <div class="form-helper">
+                        Wordt gebruikt om reacties door te sturen. <strong>Nooit zichtbaar</strong> in het spelersprofiel.
+                      </div>
                     </div>
                   </div>
-
-                  <!-- Niveau -->
-                  <div class="form-field">
-                    <span class="form-label">Gewenst niveau <small>(verplicht – per land)</small></span>
-                    <div id="player-level-wrapper" class="form-checkbox-row">
-                      <!-- JS vult dit in per land -->
-                    </div>
-                    <div class="form-helper">Selecteer één of meerdere niveaus.</div>
-                  </div>
-
-                  <!-- Beschrijving -->
-                  <div class="form-field" style="grid-column:1/-1;">
-                    <label class="form-label" for="player-description">
-                      Korte beschrijving / extra info
-                    </label>
-                    <textarea id="player-description" class="form-textarea" placeholder="Beschrijf jezelf kort als speler, beschikbaarheid, sterke punten..."></textarea>
-                  </div>
-
                 </div>
 
+                <!-- 2. Land & regio -->
+                <div class="form-section">
+                  <h3 class="form-section-title">2. Land &amp; regio</h3>
+                  <p class="form-section-sub">
+                    Kies eerst je land. Daarna verschijnen enkel de relevante regio’s en niveaus.
+                  </p>
+
+                  <div class="form-grid form-grid--2cols">
+                    <!-- Land -->
+                    <div class="form-field">
+                      <span class="form-label">Land <span class="required">*</span></span>
+                      <div class="form-checkbox-row">
+                        <label class="flag-label">
+                          <input type="radio" name="country" value="BE" id="player-country-be" required />
+                          <span>🇧🇪 België</span>
+                        </label>
+                        <label class="flag-label">
+                          <input type="radio" name="country" value="NL" id="player-country-nl" />
+                          <span>🇳🇱 Nederland</span>
+                        </label>
+                      </div>
+                      <div class="form-helper">
+                        De niveaus en regio’s passen zich automatisch aan.
+                      </div>
+                    </div>
+
+                    <!-- Leeftijd -->
+                    <div class="form-field">
+                      <label class="form-label" for="player-age">
+                        Leeftijd <span class="required">*</span>
+                      </label>
+                      <input id="player-age" name="age" type="number" min="5" max="60" class="form-input" required placeholder="Bv. 17" />
+                    </div>
+
+                    <!-- Regio -->
+                    <div class="form-field" style="grid-column:1/-1;">
+                      <span class="form-label">Gewenste regio <span class="required">*</span></span>
+                      <div id="player-region-wrapper" class="form-checkbox-row">
+                        <!-- JS vult dit in per land -->
+                      </div>
+                      <div class="form-helper">
+                        Selecteer één of meerdere regio’s waarin je wil spelen.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. Profiel als speler -->
+                <div class="form-section">
+                  <h3 class="form-section-title">3. Profiel als speler</h3>
+                  <p class="form-section-sub">
+                    Geef je positie(s) en gewenst niveau. Clubs kunnen zo beter filteren.
+                  </p>
+
+                  <div class="form-grid form-grid--2cols">
+                    <!-- Positie(s) -->
+                    <div class="form-field">
+                      <span class="form-label">Positie(s) <span class="required">*</span></span>
+                      <div class="form-checkbox-row" id="player-position-wrapper">
+                        <label class="pill-checkbox"><input type="checkbox" value="Doelman" /> Doelman</label>
+                        <label class="pill-checkbox"><input type="checkbox" value="Verdediger" /> Verdediger</label>
+                        <label class="pill-checkbox"><input type="checkbox" value="Middenvelder" /> Middenvelder</label>
+                        <label class="pill-checkbox"><input type="checkbox" value="Aanvaller" /> Aanvaller</label>
+                        <label class="pill-checkbox"><input type="checkbox" value="Vleugelspeler" /> Vleugelspeler</label>
+                      </div>
+                      <div class="form-helper">
+                        Meerdere posities mogelijk.
+                      </div>
+                    </div>
+
+                    <!-- Niveau -->
+                    <div class="form-field">
+                      <span class="form-label">Gewenst niveau <span class="required">*</span></span>
+                      <div id="player-level-wrapper" class="form-checkbox-row">
+                        <!-- JS vult dit in per land -->
+                      </div>
+                      <div class="form-helper">
+                        Bv. Provinciaal, Interprovinciaal, Elite of NL-equivalent.
+                      </div>
+                    </div>
+
+                    <!-- Beschrijving -->
+                    <div class="form-field" style="grid-column:1/-1;">
+                      <label class="form-label" for="player-description">
+                        Korte beschrijving / extra info
+                      </label>
+                      <textarea id="player-description" class="form-textarea" placeholder="Beschrijf jezelf kort als speler, beschikbaarheid, sterke punten..."></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ACTIES -->
                 <div class="form-actions">
                   <button type="submit" class="btn-primary">Advertentie plaatsen (demo)</button>
                   <span class="form-helper">
-                    In deze demo wordt de advertentie alleen onderaan op deze pagina toegevoegd.
+                    In deze demo wordt je advertentie onderaan op deze pagina toegevoegd (nog geen permanente opslag).
                   </span>
                 </div>
               </form>
             </div>
           </section>
 
-          <!-- RECHTERKANT: INFO + ADVERTENTIEZONES -->
+          <!-- RECHTER-ZIJDE: INFO + ADVERTENTIEZONE -->
           <aside>
             <article class="card">
               <div class="card-header">
                 <div>
-                  <div class="card-caption">Info</div>
-                  <div class="card-title">Hoe werkt anonimiteit?</div>
+                  <div class="card-caption">Anonimiteit</div>
+                  <div class="card-title">Hoe worden gegevens getoond?</div>
                 </div>
               </div>
               <p class="note">
-                Als je <strong>anoniem</strong> aanvinkt bij naam en/of woonplaats, verschijnen die niet in de advertentie.
-                Clubs kunnen enkel reageren via het reactieformulier van Voetbal4All. Je e-mailadres blijft verborgen.
+                In de advertentie tonen we:
               </p>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">Naam &amp; woonplaats</div>
+                  <div class="event-meta">Alleen als je de anonimiteit uitzet.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">E-mailadres</div>
+                  <div class="event-meta">Nooit zichtbaar. Clubs reageren via Voetbal4All.</div>
+                </li>
+              </ul>
             </article>
 
             <article class="card" style="margin-top:12px;">
               <div class="card-header">
                 <div>
                   <div class="card-caption">Advertentiezone</div>
-                  <div class="card-title">Extra zichtbaarheid voor clubs</div>
+                  <div class="card-title">Extra zichtbaarheid</div>
                 </div>
                 <span class="pill-small">Google AdSense / partners</span>
               </div>
@@ -218,7 +263,7 @@
         </div>
 
         <!-- OVERZICHT ADVERTENTIES -->
-        <section class="section-main" style="padding-top:10px;">
+        <section class="section-main" style="padding-top:12px;">
           <div class="card">
             <div class="card-header">
               <div>
@@ -228,8 +273,7 @@
               <span class="pill-small">Delen &amp; reageren</span>
             </div>
             <p class="note">
-              Demo-overzicht. Elke advertentie kan gedeeld worden via sociale netwerken. De link gaat rechtstreeks naar dit
-              specifieke profiel op Voetbal4All.
+              Elke advertentie kan via sociale netwerken gedeeld worden. De link gaat automatisch naar dit profiel op Voetbal4All.
             </p>
 
             <div id="player-ads" class="ad-card-list">
@@ -303,7 +347,7 @@
       </div>
       <div class="form-field">
         <label class="form-label" for="reply-email">
-          Jouw e-mailadres <small>(verplicht)</small>
+          Jouw e-mailadres <span class="required">*</span>
         </label>
         <input id="reply-email" type="email" class="form-input" required placeholder="contact@club.be" />
       </div>
@@ -370,15 +414,14 @@
     if (e.target.checked) updateCountrySpecificFields("NL");
   });
 
-  // Dummy advertentie-lijst + toevoegen in demo
   const playerAdsContainer = document.getElementById("player-ads");
-  let nextAdId = 2; // 1 is demo advertentie
+  let nextAdId = 2; // 1 is demo-ad
 
   function addPlayerAd(ad) {
-    const id = `player-ad-${ad.id}`;
+    const idAttr = `player-ad-${ad.id}`;
     const card = document.createElement("article");
     card.className = "ad-card";
-    card.id = id;
+    card.id = idAttr;
     card.dataset.adId = ad.id;
 
     const displayName = ad.anonymousName ? "Anonieme speler" : (ad.name || "Speler");
@@ -407,7 +450,7 @@
     updateShareLinks();
   }
 
-  // Formulier submit (demo: alleen toevoegen op pagina)
+  // Formulier submit (demo)
   document.getElementById("player-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -467,17 +510,17 @@
       levels,
       regions,
       description,
-      email // later voor backend, nu alleen conceptueel
+      email // later voor backend, nu enkel conceptueel
     };
 
     addPlayerAd(ad);
     e.target.reset();
     document.getElementById("player-hide-name").checked = true;
     document.getElementById("player-hide-city").checked = true;
-    alert("Demo: je advertentie is toegevoegd onderaan de pagina (nog geen permanente opslag).");
+    alert("Demo: je advertentie is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
   });
 
-  // Modal open/close
+  // Modal logica
   const modalBackdrop = document.getElementById("reply-modal");
   const replyForm = document.getElementById("reply-form");
 
@@ -521,12 +564,11 @@
       "\n\nBericht:\n" + msg
     );
 
-    // Reageren via Voetbal4All
     window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
     closeReplyModal();
   });
 
-  // Social share: link naar specifiek profiel (met anker)
+  // Social sharing: link met anker naar specifieke advertentie
   function updateShareLinks() {
     const baseUrl = window.location.origin + window.location.pathname;
     document.querySelectorAll("[data-share-ad]").forEach(link => {
