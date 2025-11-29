@@ -52,7 +52,7 @@ img {
 
 /* Pagina-structuur zodat footer onderaan blijft */
 .page {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -259,7 +259,7 @@ main {
    ======================= */
 
 .live-banner-top {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .live-banner {
@@ -498,11 +498,9 @@ main {
   max-width: 1200px;
 }
 
-/* Header-ad direct onder navbar, sticky */
+/* Header-ad onder live banner, gewoon in de flow (niet sticky) */
 .sticky-ad-header {
-  position: sticky;
-  top: 64px;           /* hoogte navbar (desktop) */
-  z-index: 30;
+  position: static;
   background: #050814;
   padding: 4px 0;
 }
@@ -522,7 +520,7 @@ main {
   max-width: 320px;
 }
 
-/* Oude placeholder-zones (kun je blijven gebruiken als info-blokken) */
+/* Oude placeholder-zones (extra uitlegblokken, optioneel) */
 
 .ad-horizontal,
 .ad-infeed {
@@ -623,7 +621,7 @@ main {
   margin-top: 8px;
 }
 
-/* Home/Artikel-kaarten met afbeelding + vlag (oude, grotere variant – kan nog op andere pagina's gebruikt worden) */
+/* Home/Artikel-kaarten met afbeelding + vlag (grote generieke variant – nog bruikbaar elders) */
 
 .home-article-media {
   position: relative;
@@ -685,7 +683,7 @@ main {
   box-sizing: border-box;
 }
 
-/* Algemene contentcontainer voor artikelen (ook gebruikt in oude variant) */
+/* Algemene contentcontainer voor artikelen */
 .home-article-content {
   display: flex;
   flex-direction: column;
@@ -1022,11 +1020,6 @@ main {
 
   .footer-grid {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  /* Sticky-ad iets dichter onder navbar (lager) */
-  .sticky-ad-header {
-    top: 58px;
   }
 }
 
