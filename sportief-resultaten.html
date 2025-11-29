@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Resultaten</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-main">
+      <div class="shell">
+
+        <!-- INTRO-BLOK -->
+        <article class="card" style="margin-bottom:12px;">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Sportief</div>
+              <div class="card-title">Resultaten</div>
+            </div>
+            <span class="pill-small">Speeldagen, uitslagen &amp; lokale competities (demo)</span>
+          </div>
+          <p class="note">
+            Hier komen de wedstrijdresultaten per speeldag, competitie en reeks.
+            In de live versie kan dit automatisch ingeladen worden (bv. via bond of clubsoftware), zodat
+            trainers, spelers, ouders en supporters op één plek alle uitslagen terugvinden.
+          </p>
+        </article>
+
+        <!-- FILTERBALK -->
+        <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+          <input
+            type="text"
+            id="results-search-text"
+            class="search-input"
+            placeholder="Zoek op club, ploeg of tegenstander..."
+          />
+          <div class="search-filters-row">
+            <select id="results-filter-country" class="search-select">
+              <option value="">Land (alles)</option>
+              <option value="BE">🇧🇪 België</option>
+              <option value="NL">🇳🇱 Nederland</option>
+            </select>
+
+            <select id="results-filter-season" class="search-select">
+              <option value="">Seizoen (alles)</option>
+              <option value="2024-2025">2024–2025</option>
+              <option value="2023-2024">2023–2024</option>
+            </select>
+
+            <select id="results-filter-competition" class="search-select">
+              <option value="">Competitie (alles)</option>
+              <option value="BE_Provinciaal">Provinciaal (BE)</option>
+              <option value="BE_Interprovinciaal">Interprovinciaal (BE)</option>
+              <option value="BE_Elite">Elite jeugd (BE)</option>
+              <option value="NL_JeugdHoofdklasse">Jeugd Hoofdklasse (NL)</option>
+              <option value="NL_AmateurHoog">Hoog amateurniveau (NL)</option>
+            </select>
+
+            <select id="results-filter-round" class="search-select">
+              <option value="">Speeldag (alles)</option>
+              <option value="Speeldag 1">Speeldag 1</option>
+              <option value="Speeldag 2">Speeldag 2</option>
+              <option value="Speeldag 3">Speeldag 3</option>
+              <option value="Speeldag 4">Speeldag 4</option>
+              <option value="Speeldag 5">Speeldag 5</option>
+            </select>
+          </div>
+          <div class="form-helper">
+            In productie kun je hier bijvoorbeeld automatisch de laatste speeldag selecteren,
+            of filters koppelen aan een datumkiezer. De huidige demo werkt volledig client-side.
+          </div>
+        </div>
+
+        <!-- OVERZICHT BLOK MET UITSLAAGTABEL -->
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Overzicht</div>
+              <div class="card-title">Wedstrijdresultaten</div>
+            </div>
+            <span class="pill-small">Demo-uitslagen · 1 rij = 1 wedstrijd</span>
+          </div>
+
+          <p class="note" style="margin-bottom:10px;">
+            De onderstaande tabel toont fictieve uitslagen. In de live versie kunnen wedstrijden automatisch
+            ingevoerd worden via een koppeling met bond, clubsoftware of een eigen beheertool van Voetbal4All.
+          </p>
+
+          <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; font-size:12px;">
+              <thead>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+                  <th style="text-align:left; padding:6px 4px;">Land</th>
+                  <th style="text-align:left; padding:6px 4px;">Seizoen</th>
+                  <th style="text-align:left; padding:6px 4px;">Competitie</th>
+                  <th style="text-align:left; padding:6px 4px;">Speeldag</th>
+                  <th style="text-align:left; padding:6px 4px;">Datum</th>
+                  <th style="text-align:left; padding:6px 4px;">Thuisploeg</th>
+                  <th style="text-align:left; padding:6px 4px;">Uitploeg</th>
+                  <th style="text-align:center; padding:6px 4px;">Score</th>
+                  <th style="text-align:left; padding:6px 4px;">Type</th>
+                </tr>
+              </thead>
+              <tbody id="results-body">
+
+                <!-- DEMO-RIJEN -->
+                <tr
+                  data-country="BE"
+                  data-season="2024-2025"
+                  data-competition="BE_Provinciaal"
+                  data-round="Speeldag 1"
+                >
+                  <td style="padding:6px 4px;">🇧🇪</td>
+                  <td style="padding:6px 4px;">2024–2025</td>
+                  <td style="padding:6px 4px;">Provinciaal (BE)</td>
+                  <td style="padding:6px 4px;">Speeldag 1</td>
+                  <td style="padding:6px 4px;">07-09-2024</td>
+                  <td style="padding:6px 4px;">ASV Geel U17</td>
+                  <td style="padding:6px 4px;">KFC Zwarte Leeuw U17</td>
+                  <td style="padding:6px 4px; text-align:center;">3 - 1</td>
+                  <td style="padding:6px 4px;">Competitie</td>
+                </tr>
+
+                <tr
+                  data-country="BE"
+                  data-season="2024-2025"
+                  data-competition="BE_Provinciaal"
+                  data-round="Speeldag 2"
+                >
+                  <td style="padding:6px 4px;">🇧🇪</td>
+                  <td style="padding:6px 4px;">2024–2025</td>
+                  <td style="padding:6px 4px;">Provinciaal (BE)</td>
+                  <td style="padding:6px 4px;">Speeldag 2</td>
+                  <td style="padding:6px 4px;">14-09-2024</td>
+                  <td style="padding:6px 4px;">KVC Westerlo U17</td>
+                  <td style="padding:6px 4px;">ASV Geel U17</td>
+                  <td style="padding:6px 4px; text-align:center;">2 - 2</td>
+                  <td style="padding:6px 4px;">Competitie</td>
+                </tr>
+
+                <tr
+                  data-country="BE"
+                  data-season="2024-2025"
+                  data-competition="BE_Interprovinciaal"
+                  data-round="Speeldag 1"
+                >
+                  <td style="padding:6px 4px;">🇧🇪</td>
+                  <td style="padding:6px 4px;">2024–2025</td>
+                  <td style="padding:6px 4px;">Interprovinciaal (BE)</td>
+                  <td style="padding:6px 4px;">Speeldag 1</td>
+                  <td style="padding:6px 4px;">08-09-2024</td>
+                  <td style="padding:6px 4px;">KVC Westerlo U14 IP</td>
+                  <td style="padding:6px 4px;">Lierse K. U14 IP</td>
+                  <td style="padding:6px 4px; text-align:center;">4 - 2</td>
+                  <td style="padding:6px 4px;">Competitie</td>
+                </tr>
+
+                <tr
+                  data-country="NL"
+                  data-season="2024-2025"
+                  data-competition="NL_JeugdHoofdklasse"
+                  data-round="Speeldag 1"
+                >
+                  <td style="padding:6px 4px;">🇳🇱</td>
+                  <td style="padding:6px 4px;">2024–2025</td>
+                  <td style="padding:6px 4px;">Jeugd Hoofdklasse (NL)</td>
+                  <td style="padding:6px 4px;">Speeldag 1</td>
+                  <td style="padding:6px 4px;">07-09-2024</td>
+                  <td style="padding:6px 4px;">VV Eindhoven JO17-1</td>
+                  <td style="padding:6px 4px;">RKSV Nuenen JO17-1</td>
+                  <td style="padding:6px 4px; text-align:center;">1 - 0</td>
+                  <td style="padding:6px 4px;">Competitie</td>
+                </tr>
+
+                <tr
+                  data-country="NL"
+                  data-season="2023-2024"
+                  data-competition="NL_AmateurHoog"
+                  data-round="Speeldag 3"
+                >
+                  <td style="padding:6px 4px;">🇳🇱</td>
+                  <td style="padding:6px 4px;">2023–2024</td>
+                  <td style="padding:6px 4px;">Hoog amateurniveau (NL)</td>
+                  <td style="padding:6px 4px;">Speeldag 3</td>
+                  <td style="padding:6px 4px;">21-09-2023</td>
+                  <td style="padding:6px 4px;">SV Tilburg 1</td>
+                  <td style="padding:6px 4px;">RKVV Best Vooruit 1</td>
+                  <td style="padding:6px 4px; text-align:center;">2 - 2</td>
+                  <td style="padding:6px 4px;">Competitie</td>
+                </tr>
+
+                <tr
+                  data-country="BE"
+                  data-season="2023-2024"
+                  data-competition="BE_Elite"
+                  data-round="Speeldag 5"
+                >
+                  <td style="padding:6px 4px;">🇧🇪</td>
+                  <td style="padding:6px 4px;">2023–2024</td>
+                  <td style="padding:6px 4px;">Elite jeugd (BE)</td>
+                  <td style="padding:6px 4px;">Speeldag 5</td>
+                  <td style="padding:6px 4px;">29-09-2023</td>
+                  <td style="padding:6px 4px;">KRC Genk U15</td>
+                  <td style="padding:6px 4px;">RSC Anderlecht U15</td>
+                  <td style="padding:6px 4px; text-align:center;">3 - 3</td>
+                  <td style="padding:6px 4px;">Competitie</td>
+                </tr>
+
+                <!-- Voorbeeld oefen- of bekermatch -->
+                <tr
+                  data-country="BE"
+                  data-season="2024-2025"
+                  data-competition="BE_Provinciaal"
+                  data-round="Speeldag 1"
+                >
+                  <td style="padding:6px 4px;">🇧🇪</td>
+                  <td style="padding:6px 4px;">2024–2025</td>
+                  <td style="padding:6px 4px;">Provinciaal (BE)</td>
+                  <td style="padding:6px 4px;">Speeldag 1</td>
+                  <td style="padding:6px 4px;">01-09-2024</td>
+                  <td style="padding:6px 4px;">ASV Geel 1</td>
+                  <td style="padding:6px 4px;">KFC Diest 1</td>
+                  <td style="padding:6px 4px; text-align:center;">1 - 2</td>
+                  <td style="padding:6px 4px;">Beker / oefenmatch (demo)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="form-helper" style="margin-top:8px;">
+            <!--
+              Instructie backend / data:
+              - Tabelstructuur: land, seizoen, competitie, speeldag, datum, thuis, uit, score, type.
+              - Deze pagina kan per speeldag automatisch gevuld worden.
+              - In de live versie kunnen filters doorgestuurd worden naar een API:
+                /api/resultaten?country=BE&season=2024-2025&competition=BE_Provinciaal&round=Speeldag%201
+              - De live-scorebanner op de homepage kan hier zijn data uit halen.
+            -->
+            Instructie: gebruik deze tabel als basismodel voor wedstrijddata en live-score integratie.
+          </p>
+        </article>
+
+        <!-- ONDERSTE GRID: INSTRUCTIES + ADVERTENTIEZONES -->
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0,2fr) minmax(0,1fr); margin-top:16px;">
+
+          <div>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Inrichting speeldagen</div>
+                  <div class="card-title">Hoe resultaten aanleveren?</div>
+                </div>
+              </div>
+              <p class="note">
+                Clubs, regio’s of bonden kunnen in de live versie afspraken maken over aanlevering:
+              </p>
+              <ul class="events-list">
+                <li class="event-item">
+                  <div class="event-title">Automatische feed</div>
+                  <div class="event-meta">
+                    Resultaten na elke wedstrijd automatisch ingeladen via API of koppeling met wedstrijddag-app.
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Handmatige invoer per speeldag</div>
+                  <div class="event-meta">
+                    Een clubverantwoordelijke vult de resultaten via een beveiligd beheerpaneel in.
+                  </div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Controle en goedkeuring</div>
+                  <div class="event-meta">
+                    Mogelijkheid voor Voetbal4All of een regiobeheerder om uitslagen te valideren voor publicatie.
+                  </div>
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <aside>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Live scores &amp; partners</div>
+                </div>
+              </div>
+              <div class="ad-placeholder">
+                Perfecte plek voor een partner rond livescore,
+                streaming of wedstijd-analyses.<br>
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+          </aside>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Eenvoudige client-side filter (demo)
+  (function initResultsFilters() {
+    const textInput = document.getElementById("results-search-text");
+    const country = document.getElementById("results-filter-country");
+    const season = document.getElementById("results-filter-season");
+    const competition = document.getElementById("results-filter-competition");
+    const round = document.getElementById("results-filter-round");
+    const rows = Array.from(document.querySelectorAll("#results-body tr"));
+
+    function applyFilters() {
+      const q = (textInput.value || "").toLowerCase();
+      const c = country.value;
+      const s = season.value;
+      const comp = competition.value;
+      const r = round.value;
+
+      rows.forEach(row => {
+        const rowCountry = row.getAttribute("data-country") || "";
+        const rowSeason = row.getAttribute("data-season") || "";
+        const rowComp = row.getAttribute("data-competition") || "";
+        const rowRound = row.getAttribute("data-round") || "";
+        const text = row.textContent.toLowerCase();
+
+        let visible = true;
+
+        if (q && !text.includes(q)) visible = false;
+        if (c && rowCountry !== c) visible = false;
+        if (s && rowSeason !== s) visible = false;
+        if (comp && rowComp !== comp) visible = false;
+        if (r && rowRound !== r) visible = false;
+
+        row.style.display = visible ? "" : "none";
+      });
+    }
+
+    [textInput, country, season, competition, round].forEach(el => {
+      if (!el) return;
+      el.addEventListener("input", applyFilters);
+      el.addEventListener("change", applyFilters);
+    });
+  })();
+</script>
+</body>
+</html>
