@@ -2,11 +2,9 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Trainers zoeken & aanbieden - Voetbal4All</title>
+  <title>Voetbal4All - Trainer zoekt club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -46,290 +44,252 @@
   </header>
 
   <main>
-
-    <!-- PAGINA-INTRO / HERO -->
     <section class="section-main">
       <div class="shell">
-        <article class="card">
+
+        <!-- KORTE INTRO -->
+        <article class="card" style="margin-bottom:12px; max-width:900px;">
           <div class="card-header">
             <div>
               <div class="card-caption">Trainers</div>
-              <div class="card-title">Trainers zoeken &amp; trainersprofielen aanbieden.</div>
+              <div class="card-title">Trainer zoekt club</div>
             </div>
-            <span class="pill-small">België · Nederland · internationaal</span>
+            <span class="pill-small">België · Nederland</span>
           </div>
           <p class="note">
-            Op deze pagina vind je trainers die zichzelf aanbieden: van onderbouw-jeugdtrainer tot hoofdtrainer
-            en keeperstrainer. Clubs kunnen gericht zoeken op land, regio, niveau en type functie.
+            Stel je kandidaat als trainer. Je kan je <strong>naam</strong> en <strong>woonplaats</strong> anoniem houden.
+            Je e-mailadres wordt <strong>nooit</strong> getoond in de advertentie. Clubs reageren via Voetbal4All.
           </p>
-
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="#trainer-profielen" class="btn-primary">Trainersprofielen bekijken</a>
-            <a href="clubvacatures.html" class="btn-secondary">Clubvacature plaatsen</a>
-          </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE TRAINERS -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="trainer-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. U13, hoofdtrainer, UEFA B, aanvallend...)"
-          />
-          <div class="search-filters-row">
-            <select id="trainer-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="trainer-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="trainer-level" class="search-select">
-              <option value="">Alle niveaus</option>
-              <option value="onderbouw">Onderbouw / jeugd</option>
-              <option value="bovenbouw">Bovenbouw / jeugd</option>
-              <option value="eersteploeg">Eerste ploeg</option>
-              <option value="keeperstrainer">Keeperstrainer</option>
-              <option value="fysiek">Fysieke trainer</option>
-              <option value="coordinator">Coördinator / tvjo</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!-- GRID: LINKS FORMULIER + OVERZICHT · RECHTS INFO / ADS -->
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-    <!-- TRAINERSPROFIELEN + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
+          <!-- LINKERKOLOM -->
+          <div>
 
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · TRAINERS (TOP)
-          <span class="ad-size">
-            Ideaal voor opleidingspartners, trainersopleidingen of platformen voor trainersmatching.
-          </span>
-        </div>
+            <!-- FORMULIER: COMPACT -->
+            <div class="form-card form-card--compact">
+              <h2 class="form-title">Nieuwe trainersadvertentie</h2>
+              <p class="form-sub">
+                Velden met <strong>*</strong> zijn verplicht. Verduidelijking staat onder de vraag in kleiner lettertype.
+              </p>
 
-        <!-- Layout: trainers links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
+              <form id="trainer-form">
+                <div class="form-grid form-grid--2cols">
 
-          <!-- LINKERKOLOM: TRAINERSPROFIELEN -->
-          <section class="column-middle" id="trainer-profielen">
-            <div class="article-list">
-
-              <!-- Trainer 1 - België - onderbouw -->
-              <article class="article-item"
-                       data-title="Trainer onderbouw U8 U9 België Kempen">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto trainer
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
+                  <!-- Naam -->
+                  <div class="form-field">
+                    <label class="form-label" for="trainer-name">
+                      Naam <span class="required">(optioneel)</span>
+                    </label>
+                    <input id="trainer-name" name="name" type="text" class="form-input" placeholder="Naam trainer" />
+                    <div class="form-helper">
+                      <label>
+                        <input type="checkbox" id="trainer-hide-name" checked />
+                        Naam niet tonen in de advertentie (anoniem)
+                      </label>
                     </div>
                   </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Onderbouw · jeugdtrainer</div>
-                    <h2 class="article-title">
-                      <a href="#">Jeugdtrainer U8–U9 · regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Startende maar gemotiveerde trainer met aandacht voor plezier en basisvaardigheden.
-                      Beschikbaar 2 avonden per week + wedstrijd.
-                    </p>
+
+                  <!-- Woonplaats -->
+                  <div class="form-field">
+                    <label class="form-label" for="trainer-city">
+                      Woonplaats <span class="required">(optioneel)</span>
+                    </label>
+                    <input id="trainer-city" name="city" type="text" class="form-input" placeholder="Bv. Geel" />
+                    <div class="form-helper">
+                      <label>
+                        <input type="checkbox" id="trainer-hide-city" checked />
+                        Woonplaats niet tonen in de advertentie
+                      </label>
+                    </div>
                   </div>
+
+                  <!-- E-mailadres -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="trainer-email">
+                      E-mailadres <span class="required">*</span>
+                    </label>
+                    <input id="trainer-email" name="email" type="email" class="form-input" required placeholder="jouw@email.be" />
+                    <div class="form-helper">
+                      Nodig om reacties door te sturen. Dit adres wordt <strong>niet</strong> getoond in de advertentie.
+                    </div>
+                  </div>
+
+                  <!-- Land -->
+                  <div class="form-field">
+                    <span class="form-label">Land <span class="required">*</span></span>
+                    <div class="form-checkbox-row">
+                      <label class="flag-label">
+                        <input type="radio" name="trainer-country" value="BE" id="trainer-country-be" required />
+                        <span>🇧🇪 België</span>
+                      </label>
+                      <label class="flag-label">
+                        <input type="radio" name="trainer-country" value="NL" id="trainer-country-nl" />
+                        <span>🇳🇱 Nederland</span>
+                      </label>
+                    </div>
+                    <div class="form-helper">
+                      Regio’s, niveaus en rollen passen zich aan per land.
+                    </div>
+                  </div>
+
+                  <!-- Gewenste regio -->
+                  <div class="form-field">
+                    <span class="form-label">Gewenste regio <span class="required">*</span></span>
+                    <div id="trainer-region-wrapper" class="form-checkbox-row">
+                      <!-- JS vult dit per land -->
+                    </div>
+                    <div class="form-helper">
+                      Eén of meerdere regio’s waarin je wil trainen.
+                    </div>
+                  </div>
+
+                  <!-- Leeftijd (optioneel, maar vaak relevant) -->
+                  <div class="form-field">
+                    <label class="form-label" for="trainer-age">
+                      Leeftijd <span class="required">(optioneel)</span>
+                    </label>
+                    <input id="trainer-age" name="age" type="number" min="16" max="75" class="form-input" placeholder="Bv. 32" />
+                  </div>
+
+                  <!-- Trainer-rol(len) -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <span class="form-label">Welke trainer? <span class="required">*</span></span>
+                    <div id="trainer-role-wrapper" class="form-checkbox-row">
+                      <!-- JS vult dit per land -->
+                    </div>
+                    <div class="form-helper">
+                      Bv. T1, T2, Keepertrainer, Jeugdtrainer onderbouw... Meerdere rollen mogelijk.
+                    </div>
+                  </div>
+
+                  <!-- Niveau -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <span class="form-label">Gewenst niveau <span class="required">*</span></span>
+                    <div id="trainer-level-wrapper" class="form-checkbox-row">
+                      <!-- JS vult dit per land -->
+                    </div>
+                    <div class="form-helper">
+                      Bv. Gewestelijk, Provinciaal, Interprovinciaal, Elite of de Nederlandse niveaus.
+                    </div>
+                  </div>
+
+                  <!-- Beschrijving -->
+                  <div class="form-field" style="grid-column:1/-1;">
+                    <label class="form-label" for="trainer-description">
+                      Korte beschrijving / extra info
+                    </label>
+                    <textarea id="trainer-description" class="form-textarea" placeholder="Beschrijf jezelf als trainer: ervaring, diploma’s, visie, beschikbaarheid..."></textarea>
+                  </div>
+
                 </div>
-              </article>
 
-              <!-- Trainer 2 - België - bovenbouw -->
-              <article class="article-item"
-                       data-title="Trainer bovenbouw U15 U17 België Limburg UEFA C">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto trainer
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Bovenbouw · jeugdtrainer</div>
-                    <h2 class="article-title">
-                      <a href="#">Trainer U15–U17 · regio Limburg (UEFA C)</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ervaring in provinciaal jeugdvoetbal, met sterke focus op periodisering en individuele
-                      ontwikkelingsgesprekken.
-                    </p>
-                  </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn-primary">Advertentie plaatsen (demo)</button>
+                  <span class="form-helper">
+                    In deze demo wordt je advertentie onderaan op deze pagina toegevoegd (nog geen permanente opslag).
+                  </span>
                 </div>
-              </article>
-
-              <!-- Trainer 3 - Nederland - eerste ploeg -->
-              <article class="article-item"
-                       data-title="Hoofdtrainer eerste ploeg Nederland selectie ervaring">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto trainer
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Eerste ploeg · hoofdtrainer</div>
-                    <h2 class="article-title">
-                      <a href="#">Hoofdtrainer eerste ploeg · regio Randstad</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ervaren trainer op 2e/3e klasse niveau, met voorkeur voor clubs met jonge,
-                      opleidingsgerichte kern en duidelijke langetermijnvisie.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Trainer 4 - België - keeperstrainer -->
-              <article class="article-item"
-                       data-title="Keeperstrainer jeugd senioren België Antwerpen">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto keeperstrainer
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Keeperstrainer</div>
-                    <h2 class="article-title">
-                      <a href="#">Keeperstrainer jeugd &amp; seniors · regio Antwerpen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Werkt rond positie, voetenwerk en opbouw van achteruit. Beschikbaar voor 2 trainingsavonden,
-                      inzetbaar voor meerdere teams.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Trainer 5 - Internationaal - fysieke trainer -->
-              <article class="article-item"
-                       data-title="Fysieke trainer conditie kracht internationaal">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto fysieke trainer
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Fysieke trainer</div>
-                    <h2 class="article-title">
-                      <a href="#">Fysieke trainer · conditie &amp; kracht voor selectieploegen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ervaring met fysieke begeleiding van selecties op nationaal niveau.
-                      Kan clubs begeleiden in testbatterijen en trainingsplannen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner voor trainers -->
-              <article class="article-item"
-                       data-title="Advertorial partner trainersplatform opleidingen UEFA">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Trainersplatform: beheer je cv en volg opleidingen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Online platform waar trainers hun cv, diploma’s en beschikbaarheid kunnen beheren,
-                      en clubs gericht kunnen zoeken. Duidelijk als advertentie aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
+              </form>
             </div>
-          </section>
 
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
+            <!-- OVERZICHT TRAINERS: 3 KOLOMMEN -->
+            <section class="section-main" style="padding-top:10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Overzicht</div>
+                    <div class="card-title">Trainers die een club zoeken</div>
+                  </div>
+                  <span class="pill-small">3 per rij · delen &amp; reageren</span>
+                </div>
+                <p class="note">
+                  Elke advertentie kan gedeeld worden via sociale netwerken. De link gaat automatisch naar het juiste profiel.
+                </p>
+
+                <div id="trainer-ads" class="ad-card-list ad-card-grid">
+                  <!-- Voorbeeldadvertentie -->
+                  <article class="ad-card" id="trainer-ad-1" data-ad-id="1" data-country="BE">
+                    <div class="ad-card-header">
+                      <div>
+                        <div class="ad-card-title">Anonieme trainer</div>
+                        <div class="ad-card-meta">🇧🇪 België · Regio Kempen</div>
+                      </div>
+                      <div class="ad-card-meta">UEFA C · T1 / Jeugdtrainer bovenbouw</div>
+                    </div>
+                    <div class="ad-card-body">
+                      <strong>Niveau:</strong> Provinciaal, Interprovinciaal<br />
+                      <strong>Regio:</strong> Antwerpen, Limburg<br /><br />
+                      Ervaren trainer met focus op opleidingsplan en structuur. Zoekt ambitieuze club met groeivisie.
+                    </div>
+                    <div class="ad-card-actions">
+                      <button type="button" class="btn-ghost-sm" data-reply-trainer="1">Reageer op trainer</button>
+                      <a href="#" class="btn-ghost-sm btn-share" data-share-trainer="1">Delen</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RECHTERKOLOM: ANONIMITEIT + ADVERTENTIES -->
+          <aside>
             <article class="card">
               <div class="card-header">
                 <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners voor trainers &amp; clubs</div>
+                  <div class="card-caption">Anonimiteit</div>
+                  <div class="card-title">Wat ziet een club?</div>
                 </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
               </div>
-
+              <p class="note">
+                In een publieke trainersadvertentie tonen we:
+              </p>
               <ul class="events-list">
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Bijscholingen voor jeugdtrainers</div>
-                  <div class="event-meta">Workshops rond spelvormen, FUNdamentals en mentale coaching.</div>
+                  <div class="event-title">Naam &amp; woonplaats</div>
+                  <div class="event-meta">Alleen zichtbaar als je anonimiteit uitzet.</div>
                 </li>
                 <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Video-analyse voor amateurclubs</div>
-                  <div class="event-meta">Software en begeleiding voor wedstrijdanalyse en trainingsevaluatie.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Online leerplatform voor trainers</div>
-                  <div class="event-meta">E-learning rond tactiek, fysiek en communicatie met spelers.</div>
+                  <div class="event-title">E-mailadres</div>
+                  <div class="event-meta">Nooit zichtbaar. Reacties lopen via Voetbal4All.</div>
                 </li>
               </ul>
             </article>
 
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · TRAINERS ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor opleidingspartners, tools of platformen specifiek voor trainers.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Extra zichtbaarheid (boven)</div>
+                </div>
+                <span class="pill-small">Google AdSense / partners</span>
               </div>
-            </div>
+              <div class="ad-placeholder">
+                Ruimte voor een banner gericht op trainers, clubs en besturen.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Extra zichtbaarheid (onder)</div>
+                </div>
+                <span class="pill-small">Opleidingen / cursussen</span>
+              </div>
+              <div class="ad-placeholder">
+                Tweede advertentiezone, ideaal voor opleidingen, cursussen en clinics.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
           </aside>
 
         </div>
+
       </div>
     </section>
   </main>
@@ -360,79 +320,219 @@
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Uitgebreide zoekfunctie voor trainers
-  const trainerSearchInput = document.getElementById('trainer-search');
-  const trainerCountrySelect = document.getElementById('trainer-country');
-  const trainerRegionInput = document.getElementById('trainer-region');
-  const trainerLevelSelect = document.getElementById('trainer-level');
-  const trainerItems = document.querySelectorAll('.article-list .article-item');
+  // Regio's, niveaus en trainer-rollen per land
+  const TRAINER_REGIONS = {
+    BE: ["Antwerpen", "Limburg", "Vlaams-Brabant", "Oost-Vlaanderen", "West-Vlaanderen", "Brussel"],
+    NL: ["Noord-Brabant", "Limburg (NL)", "Gelderland", "Noord-Holland", "Zuid-Holland", "Overijssel", "Utrecht"]
+  };
 
-  function getCountryFromTrainerItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
+  const TRAINER_LEVELS = {
+    BE: ["Gewestelijk", "Provinciaal", "Interprovinciaal", "Elite"],
+    NL: ["Recreatief", "4e klasse", "3e klasse", "2e klasse", "1e klasse", "Hoofdklasse", "Divisie"]
+  };
 
-  function getLevelFromTrainerItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+  const TRAINER_ROLES = {
+    BE: [
+      "T1",
+      "T2",
+      "T3",
+      "Keepertrainer",
+      "Jeugdtrainer onderbouw",
+      "Jeugdtrainer middenbouw",
+      "Jeugdtrainer bovenbouw",
+      "Andere"
+    ],
+    NL: [
+      "Hoofdtrainer",
+      "Assistent-trainer",
+      "Keepertrainer",
+      "Jeugdtrainer onderbouw",
+      "Jeugdtrainer middenbouw",
+      "Jeugdtrainer bovenbouw",
+      "Andere"
+    ]
+  };
 
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('onderbouw')) return 'onderbouw';
-    if (metaText.includes('bovenbouw')) return 'bovenbouw';
-    if (metaText.includes('eerste ploeg') || metaText.includes('hoofdtrainer')) return 'eersteploeg';
-    if (metaText.includes('keeperstrainer')) return 'keeperstrainer';
-    if (metaText.includes('fysieke trainer')) return 'fysiek';
-    if (metaText.includes('coördinator') || metaText.includes('coordinator') || metaText.includes('tvjo')) return 'coordinator';
-
-    return '';
-  }
-
-  function applyTrainerFilter() {
-    const textQuery = (trainerSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (trainerRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (trainerCountrySelect?.value || '').toUpperCase();
-    const levelFilter = (trainerLevelSelect?.value || '').toLowerCase();
-
-    trainerItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromTrainerItem(item);
-      const itemLevel = getLevelFromTrainerItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && levelFilter && itemLevel !== levelFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
+  function renderPillCheckboxes(wrapperId, items, namePrefix) {
+    const wrapper = document.getElementById(wrapperId);
+    wrapper.innerHTML = "";
+    items.forEach((item, index) => {
+      const id = `${namePrefix}-${index}`;
+      const label = document.createElement("label");
+      label.className = "pill-checkbox";
+      label.innerHTML = `<input type="checkbox" id="${id}" value="${item}"> ${item}`;
+      wrapper.appendChild(label);
     });
   }
 
-  if (trainerItems.length) {
-    trainerSearchInput?.addEventListener('input', applyTrainerFilter);
-    trainerCountrySelect?.addEventListener('change', applyTrainerFilter);
-    trainerRegionInput?.addEventListener('input', applyTrainerFilter);
-    trainerLevelSelect?.addEventListener('change', applyTrainerFilter);
+  function updateTrainerFields(country) {
+    if (!country) return;
+    renderPillCheckboxes("trainer-region-wrapper", TRAINER_REGIONS[country], "trainer-region");
+    renderPillCheckboxes("trainer-level-wrapper", TRAINER_LEVELS[country], "trainer-level");
+    renderPillCheckboxes("trainer-role-wrapper", TRAINER_ROLES[country], "trainer-role");
   }
+
+  const trainerCountryBE = document.getElementById("trainer-country-be");
+  const trainerCountryNL = document.getElementById("trainer-country-nl");
+
+  trainerCountryBE.addEventListener("change", e => {
+    if (e.target.checked) updateTrainerFields("BE");
+  });
+
+  trainerCountryNL.addEventListener("change", e => {
+    if (e.target.checked) updateTrainerFields("NL");
+  });
+
+  // Overzicht trainers
+  const trainerAdsContainer = document.getElementById("trainer-ads");
+  let nextTrainerAdId = 2; // 1 is demo-ad
+
+  function addTrainerAd(ad) {
+    const idAttr = `trainer-ad-${ad.id}`;
+    const card = document.createElement("article");
+    card.className = "ad-card";
+    card.id = idAttr;
+    card.dataset.adId = ad.id;
+    card.dataset.country = ad.country;
+    card.dataset.roles = ad.roles.join("|");
+    card.dataset.levels = ad.levels.join("|");
+    card.dataset.regions = ad.regions.join("|");
+
+    const displayName = ad.anonymousName ? "Anonieme trainer" : (ad.name || "Trainer");
+    const displayCity = ad.anonymousCity || !ad.city ? "" : " · " + ad.city;
+    const flag = ad.country === "BE" ? "🇧🇪" : "🇳🇱";
+    const ageLabel = ad.age ? ad.age + " jaar · " : "";
+
+    card.innerHTML = `
+      <div class="ad-card-header">
+        <div>
+          <div class="ad-card-title">${displayName}</div>
+          <div class="ad-card-meta">${flag} ${ad.countryLabel}${displayCity}</div>
+        </div>
+        <div class="ad-card-meta">${ageLabel}${ad.roles.join(", ")}</div>
+      </div>
+      <div class="ad-card-body">
+        <strong>Niveau:</strong> ${ad.levels.join(", ")}<br />
+        <strong>Regio:</strong> ${ad.regions.join(", ")}<br /><br />
+        ${ad.description ? ad.description : ""}
+      </div>
+      <div class="ad-card-actions">
+        <button type="button" class="btn-ghost-sm" data-reply-trainer="${ad.id}">Reageer op trainer</button>
+        <a href="#" class="btn-ghost-sm btn-share" data-share-trainer="${ad.id}">Delen</a>
+      </div>
+    `;
+    trainerAdsContainer.prepend(card);
+    updateTrainerShareLinks();
+  }
+
+  // Formulier submit (demo)
+  document.getElementById("trainer-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("trainer-name").value.trim();
+    const city = document.getElementById("trainer-city").value.trim();
+    const email = document.getElementById("trainer-email").value.trim();
+    const anonymousName = document.getElementById("trainer-hide-name").checked;
+    const anonymousCity = document.getElementById("trainer-hide-city").checked;
+    const age = document.getElementById("trainer-age").value.trim();
+    const description = document.getElementById("trainer-description").value.trim();
+
+    const countryInput = document.querySelector("input[name='trainer-country']:checked");
+    if (!countryInput) {
+      alert("Kies een land.");
+      return;
+    }
+    const country = countryInput.value;
+    const countryLabel = country === "BE" ? "België" : "Nederland";
+
+    if (!email) {
+      alert("E-mailadres is verplicht.");
+      return;
+    }
+
+    const regions = Array.from(document.querySelectorAll("#trainer-region-wrapper input:checked")).map(i => i.value);
+    if (!regions.length) {
+      alert("Kies minstens één regio.");
+      return;
+    }
+
+    const roles = Array.from(document.querySelectorAll("#trainer-role-wrapper input:checked")).map(i => i.value);
+    if (!roles.length) {
+      alert("Kies minstens één trainer-rol.");
+      return;
+    }
+
+    const levels = Array.from(document.querySelectorAll("#trainer-level-wrapper input:checked")).map(i => i.value);
+    if (!levels.length) {
+      alert("Kies minstens één niveau.");
+      return;
+    }
+
+    const ad = {
+      id: nextTrainerAdId++,
+      name,
+      anonymousName,
+      city,
+      anonymousCity,
+      country,
+      countryLabel,
+      age,
+      roles,
+      levels,
+      regions,
+      description,
+      email // later voor backend, nu enkel conceptueel
+    };
+
+    addTrainerAd(ad);
+    e.target.reset();
+    document.getElementById("trainer-hide-name").checked = true;
+    document.getElementById("trainer-hide-city").checked = true;
+    alert("Demo: je advertentie is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
+  });
+
+  // REAGEREN: knop + akkoord + e-mail, via Voetbal4All
+  document.addEventListener("click", function (e) {
+    if (e.target.matches("[data-reply-trainer]")) {
+      const adId = e.target.getAttribute("data-reply-trainer");
+      const ok = confirm(
+        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
+      );
+      if (!ok) return;
+
+      const clubEmail = prompt("Vul je e-mailadres in om mee te geven aan de trainer:");
+      if (!clubEmail) {
+        alert("E-mailadres is nodig om te kunnen reageren.");
+        return;
+      }
+
+      const subject = encodeURIComponent("Reactie via Voetbal4All op trainersadvertentie " + adId);
+      const body = encodeURIComponent(
+        "Advertentie-ID: " + adId +
+        "\n\nE-mailadres van de club/contactpersoon: " + clubEmail +
+        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de trainer toe.)"
+      );
+
+      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    }
+  });
+
+  // Social sharing: link naar specifieke trainersadvertentie
+  function updateTrainerShareLinks() {
+    const baseUrl = window.location.origin + window.location.pathname;
+    document.querySelectorAll("[data-share-trainer]").forEach(link => {
+      const adId = link.getAttribute("data-share-trainer");
+      const targetId = "trainer-ad-" + adId;
+      const urlWithAnchor = baseUrl + "#" + targetId;
+      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.setAttribute("href", fbShare);
+      link.setAttribute("target", "_blank");
+    });
+  }
+
+  updateTrainerShareLinks();
 </script>
 </body>
 </html>
