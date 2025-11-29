@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Supportersclubs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="shell">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">V4</div>
+          <div>
+            <div class="brand-text-main">Voetbal4All</div>
+            <div class="brand-text-sub">Football · Data · Clubs</div>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-main">
+      <div class="shell">
+
+        <!-- INTRO-BLOK -->
+        <article class="card" style="margin-bottom:12px;">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Sportief</div>
+              <div class="card-title">Supportersclubs</div>
+            </div>
+            <span class="pill-small">Gratis promotie voor supportersclubs</span>
+          </div>
+          <p class="note">
+            Supportersclubs brengen sfeer, beleving en verbondenheid. Op deze pagina kunnen supportersclubs
+            zich gratis voorstellen, hun flyer/foto en YouTube-video delen en contactgegevens achterlaten
+            zodat nieuwe leden hen makkelijk vinden.
+          </p>
+        </article>
+
+        <!-- FORMULIER: SUPPORTERSCLUB AANMELDEN -->
+        <form class="form-card" id="supportersclub-form">
+          <h2 class="form-title">Supportersclub aanmelden</h2>
+          <p class="form-sub">
+            Vul onderstaande gegevens in om je supportersclub voor te stellen. In de live versie wordt je
+            inzending na controle gepubliceerd op deze pagina.
+          </p>
+
+          <!-- BASISGEGEVENS -->
+          <div class="form-section">
+            <h3 class="form-section-title">Basisgegevens</h3>
+            <p class="form-section-sub">
+              Naam van de supportersclub, welke club jullie steunen en waar jullie actief zijn.
+            </p>
+            <div class="form-grid form-grid--2cols">
+              <div class="form-field">
+                <label class="form-label">
+                  Naam supportersclub <span class="required">*</span>
+                </label>
+                <input type="text" class="form-input" name="naam_supportersclub" placeholder="Bijv. Geelse Fanatics" required>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Club die jullie steunen <span class="required">*</span>
+                </label>
+                <input type="text" class="form-input" name="club" placeholder="Bijv. ASV Geel" required>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Land <span class="required">*</span>
+                </label>
+                <select class="form-select" name="land" required>
+                  <option value="">Maak een keuze</option>
+                  <option value="BE">🇧🇪 België</option>
+                  <option value="NL">🇳🇱 Nederland</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Regio / gemeente
+                  <small>(optioneel, bijv. Kempen, Oost-Vlaanderen, Noord-Brabant)</small>
+                </label>
+                <input type="text" class="form-input" name="regio" placeholder="Bijv. Kempen">
+              </div>
+            </div>
+          </div>
+
+          <!-- BESCHRIJVING -->
+          <div class="form-section">
+            <h3 class="form-section-title">Omschrijving supportersclub</h3>
+            <p class="form-section-sub">
+              Vertel kort wie jullie zijn, wat jullie doen (busreizen, tifo, kantine-activiteiten, …)
+              en voor wie jullie club toegankelijk is.
+            </p>
+            <div class="form-field">
+              <label class="form-label">
+                Korte beschrijving <span class="required">*</span>
+              </label>
+              <textarea class="form-textarea" name="beschrijving" rows="5" placeholder="Beschrijf jullie supportersclub, activiteiten en sfeer." required></textarea>
+            </div>
+          </div>
+
+          <!-- MEDIA: FLYER / FOTO / YOUTUBE -->
+          <div class="form-section">
+            <h3 class="form-section-title">Flyer / foto &amp; YouTube-video</h3>
+            <p class="form-section-sub">
+              Voeg een afbeelding (bijvoorbeeld een flyer of groepsfoto) toe en eventueel een link naar een
+              YouTube-video van jullie sfeeractie, tifo of supportersreis.
+            </p>
+            <div class="form-grid form-grid--2cols">
+              <div class="form-field">
+                <label class="form-label">
+                  Flyer / foto supportersclub
+                  <small>(JPG, PNG of PDF)</small>
+                </label>
+                <input type="file" class="form-input" name="flyer" accept=".jpg,.jpeg,.png,.pdf">
+                <div class="form-helper">
+                  In de live versie wordt deze afbeelding als thumbnail bij jullie voorstelling getoond.
+                </div>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  YouTube-link
+                  <small>(optioneel, volledige URL)</small>
+                </label>
+                <input type="url" class="form-input" name="youtube" placeholder="https://www.youtube.com/watch?v=...">
+                <div class="form-helper">
+                  In de live versie kan hier een embedded videospeler verschijnen onder jullie beschrijving.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTACTGEGEVENS -->
+          <div class="form-section">
+            <h3 class="form-section-title">Contactgegevens</h3>
+            <p class="form-section-sub">
+              Deze gegevens worden gebruikt zodat geïnteresseerden jullie supportersclub kunnen bereiken.
+              Bepaal zelf wat zichtbaar mag zijn in het artikel.
+            </p>
+            <div class="form-grid form-grid--2cols">
+              <div class="form-field">
+                <label class="form-label">
+                  Naam contactpersoon <span class="required">*</span>
+                </label>
+                <input type="text" class="form-input" name="contact_naam" placeholder="Bijv. Jan Jansen" required>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  E-mailadres <span class="required">*</span>
+                </label>
+                <input type="email" class="form-input" name="contact_email" placeholder="naam@voorbeeld.be" required>
+                <div class="form-helper">
+                  In de live versie kan het e-mailadres verborgen worden en enkel via een reactieknop gebruikt worden.
+                </div>
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Telefoonnummer
+                  <small>(optioneel)</small>
+                </label>
+                <input type="tel" class="form-input" name="contact_telefoon" placeholder="+32 ...">
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Website
+                  <small>(optioneel)</small>
+                </label>
+                <input type="url" class="form-input" name="website" placeholder="https://www.supportersclub.be">
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Facebookpagina
+                  <small>(optioneel)</small>
+                </label>
+                <input type="url" class="form-input" name="facebook" placeholder="https://www.facebook.com/...">
+              </div>
+              <div class="form-field">
+                <label class="form-label">
+                  Instagram
+                  <small>(optioneel)</small>
+                </label>
+                <input type="url" class="form-input" name="instagram" placeholder="https://www.instagram.com/...">
+              </div>
+            </div>
+          </div>
+
+          <!-- TOESTEMMING -->
+          <div class="form-section">
+            <div class="form-field">
+              <label class="form-label">
+                Toestemming gegevensgebruik <span class="required">*</span>
+              </label>
+              <label class="pill-checkbox">
+                <input type="checkbox" name="akkoord" required>
+                <span>Ik ga akkoord met het gebruik van deze gegevens om onze supportersclub op Voetbal4All te tonen.</span>
+              </label>
+              <div class="form-helper">
+                In de live versie worden deze gegevens verwerkt volgens de privacyverklaring van Voetbal4All.
+              </div>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">
+              Supportersclub aanmelden (demo)
+            </button>
+            <span class="form-helper">
+              Dit formulier is nu een demo; in productie wordt de inzending opgeslagen en
+              kan een beheerder deze goedkeuren.
+            </span>
+          </div>
+
+          <!--
+            Instructie backend / data:
+            - Bij live-implementatie:
+              * POST naar /api/supportersclubs met:
+                naam_supportersclub, club, land, regio, beschrijving, flyer_url, youtube_url,
+                contact_naam, contact_email, contact_telefoon, website, facebook, instagram, akkoord.
+              * Bestand uploaden (flyer/foto) naar storage (bijv. S3 / Azure Blob) en URL opslaan.
+              * Supportersclubs standaard 'in review' plaatsen en na goedkeuring publiceren.
+          -->
+        </form>
+
+        <!-- FILTERBALK + OVERZICHT SUPPORTERSCLUBS -->
+        <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+          <input
+            type="text"
+            id="sc-search-text"
+            class="search-input"
+            placeholder="Zoek supportersclubs op naam, club of regio..."
+          />
+          <div class="search-filters-row">
+            <select id="sc-filter-country" class="search-select">
+              <option value="">Land (alles)</option>
+              <option value="BE">🇧🇪 België</option>
+              <option value="NL">🇳🇱 Nederland</option>
+            </select>
+
+            <select id="sc-filter-clubtype" class="search-select">
+              <option value="">Type club (alles)</option>
+              <option value="Jeugd">Jeugdclub</option>
+              <option value="Seniors">Seniors</option>
+              <option value="Gemengd">Gemengd</option>
+            </select>
+
+            <select id="sc-filter-region" class="search-select">
+              <option value="">Regio (alles)</option>
+              <option value="Kempen">Kempen</option>
+              <option value="Antwerpen">Antwerpen</option>
+              <option value="Limburg">Limburg</option>
+              <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+              <option value="Noord-Brabant">Noord-Brabant</option>
+            </select>
+          </div>
+          <div class="form-helper">
+            Onderstaande lijst toont demo-supportersclubs. In de live versie wordt dit overzicht gevoed door de
+            aangemelde en goedgekeurde supportersclubs.
+          </div>
+        </div>
+
+        <div class="lower-grid-layout" style="grid-template-columns: minmax(0,2.2fr) minmax(0,1fr);">
+
+          <!-- LINKERDEEL: DEMO SUPPORTERSCLUBS -->
+          <section>
+            <ul class="article-list ad-card-grid" id="sc-list">
+              <!-- DEMO CLUB 1 -->
+              <li class="article-item">
+                <article
+                  class="ad-card"
+                  data-country="BE"
+                  data-clubtype="Gemengd"
+                  data-region="Kempen"
+                >
+                  <div class="ad-card-header">
+                    <div>
+                      <div class="ad-card-title">Geelse Fanatics</div>
+                      <div class="ad-card-meta">
+                        Steunen: ASV Geel · 🇧🇪 België · Regio: Kempen · Jeugd &amp; seniors
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-article-media" style="margin-bottom:6px;">
+                    <div class="home-article-image">
+                      AI/impressie tifo / sfeertribune in blauw-witte kleuren.
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="ad-card-body">
+                    Geelse Fanatics staat bekend om hun sfeeracties, busreizen en grote aanwezigheid op thuis-
+                    en uitwedstrijden van ASV Geel. Ze organiseren regelmatig acties ten voordele van de jeugdwerking.
+                  </div>
+                  <div class="ad-card-actions">
+                    <button type="button" class="btn-ghost-sm btn-share">
+                      Deel supportersclub
+                    </button>
+                    <span class="form-helper">
+                      In de live versie linkt deze knop naar een detailpagina en sociale media.
+                    </span>
+                  </div>
+                </article>
+              </li>
+
+              <!-- DEMO CLUB 2 -->
+              <li class="article-item">
+                <article
+                  class="ad-card"
+                  data-country="NL"
+                  data-clubtype="Seniors"
+                  data-region="Noord-Brabant"
+                >
+                  <div class="ad-card-header">
+                    <div>
+                      <div class="ad-card-title">Blauw-Witte Brigade Eindhoven</div>
+                      <div class="ad-card-meta">
+                        Steunen: VV Eindhoven · 🇳🇱 Nederland · Regio: Noord-Brabant
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-article-media" style="margin-bottom:6px;">
+                    <div class="home-article-image">
+                      AI/impressie uitvak met vlaggen en sjaals in blauw-wit.
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇳🇱</span>
+                    </div>
+                  </div>
+                  <div class="ad-card-body">
+                    Blauw-Witte Brigade ondersteunt de eerste ploeg van VV Eindhoven, zowel thuis als op verplaatsing.
+                    Zij voorzien busvervoer, sfeeracties en een eigen supporterscorner in de kantine.
+                  </div>
+                  <div class="ad-card-actions">
+                    <button type="button" class="btn-ghost-sm btn-share">
+                      Deel supportersclub
+                    </button>
+                  </div>
+                </article>
+              </li>
+
+              <!-- DEMO CLUB 3 -->
+              <li class="article-item">
+                <article
+                  class="ad-card"
+                  data-country="BE"
+                  data-clubtype="Jeugd"
+                  data-region="Antwerpen"
+                >
+                  <div class="ad-card-header">
+                    <div>
+                      <div class="ad-card-title">Lierse Youth Crew</div>
+                      <div class="ad-card-meta">
+                        Steunen: Lierse jeugdteams · 🇧🇪 België · Regio: Antwerpen
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-article-media" style="margin-bottom:6px;">
+                    <div class="home-article-image">
+                      AI/impressie jeugddag met vlaggen, kinderen en familiepubliek.
+                    </div>
+                    <div class="home-article-flag">
+                      <span class="flag-badge">🇧🇪</span>
+                    </div>
+                  </div>
+                  <div class="ad-card-body">
+                    Lierse Youth Crew focust helemaal op de jeugdwerking: tifo’s bij jeugdfinales, jeugddagen
+                    en gezamenlijke verplaatsingen naar tornooien en stages.
+                  </div>
+                  <div class="ad-card-actions">
+                    <button type="button" class="btn-ghost-sm btn-share">
+                      Deel supportersclub
+                    </button>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </section>
+
+          <!-- RECHTERKOLOM: ADVERTENTIE -->
+          <aside>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Supporters &amp; sfeerpartners</div>
+                </div>
+              </div>
+              <div class="ad-placeholder">
+                Ideale zone voor partners rond supportersmateriaal, busmaatschappijen,
+                fanwear of merchandising.<br>
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
+          </aside>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-contact">
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
+        </div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // DEMO: voorkom echt submitten
+  document.getElementById("supportersclub-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Demo: in de live versie wordt deze supportersclub opgeslagen en na goedkeuring gepubliceerd.");
+  });
+
+  // Eenvoudige client-side filter voor supportersclubs (demo)
+  (function initSupportersFilters() {
+    const textInput = document.getElementById("sc-search-text");
+    const country = document.getElementById("sc-filter-country");
+    const clubtype = document.getElementById("sc-filter-clubtype");
+    const region = document.getElementById("sc-filter-region");
+
+    const cards = Array.from(document.querySelectorAll("#sc-list .ad-card"));
+
+    function applyFilters() {
+      const q = (textInput.value || "").toLowerCase();
+      const c = country.value;
+      const t = clubtype.value;
+      const r = region.value;
+
+      cards.forEach(card => {
+        const cardCountry = card.dataset.country || "";
+        const cardType = card.dataset.clubtype || "";
+        const cardRegion = card.dataset.region || "";
+        const text = card.textContent.toLowerCase();
+
+        let visible = true;
+
+        if (q && !text.includes(q)) visible = false;
+        if (c && cardCountry !== c) visible = false;
+        if (t && cardType !== t) visible = false;
+        if (r && cardRegion !== r) visible = false;
+
+        card.style.display = visible ? "" : "none";
+      });
+    }
+
+    [textInput, country, clubtype, region].forEach(el => {
+      if (!el) return;
+      el.addEventListener("input", applyFilters);
+      el.addEventListener("change", applyFilters);
+    });
+  })();
+</script>
+</body>
+</html>
