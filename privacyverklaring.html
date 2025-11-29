@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Gebruiksvoorwaarden</title>
+  <title>Voetbal4All - Privacyverklaring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
@@ -10,7 +10,7 @@
 <body>
 <div class="page">
 
-  <!-- NAVBAR (zelfde nav-blok als events.html) -->
+  <!-- NAVBAR -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
@@ -21,8 +21,63 @@
             <div class="brand-text-sub">Football · Data · Clubs</div>
           </div>
         </a>
-        <!-- plak hier dezelfde <nav> als bij events.html -->
-        <!-- ... -->
+
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
+
+          <!-- EVENTS DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
+
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
+
+          <!-- SPORTIEF DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL DROPDOWN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
+
+        <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
@@ -34,140 +89,388 @@
           <div class="card-header">
             <div>
               <div class="card-caption">Voetbal4All</div>
-              <div class="card-title">Gebruiksvoorwaarden</div>
+              <div class="card-title">Privacyverklaring</div>
             </div>
           </div>
+
           <p class="note">
-            Laatste update: 01 december 2025. Deze gebruiksvoorwaarden zijn van toepassing op alle bezoekers en gebruikers
-            van het Voetbal4All-platform, zowel in België als Nederland. Dit document is een sjabloon en vervangt geen
-            individueel juridisch advies.
+            Laatste update: [datum invullen]. Deze privacyverklaring legt uit hoe Voetbal4All omgaat met
+            persoonsgegevens van gebruikers in België en Nederland, in overeenstemming met de Algemene
+            Verordening Gegevensbescherming (AVG / GDPR).
+            Deze tekst is een sjabloon en vervangt geen individueel juridisch advies.
           </p>
 
-          <h2>1. Definities</h2>
+          <h2>1. Verwerkingsverantwoordelijke</h2>
           <p>
-            In deze voorwaarden wordt verstaan onder:
+            De verwerkingsverantwoordelijke voor de verwerking van jouw persoonsgegevens via het Voetbal4All-platform is:
           </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Platform</div>
-              <div class="event-meta">De website en eventuele subdomeinen van Voetbal4All.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Gebruiker</div>
-              <div class="event-meta">Iedere natuurlijke of rechtspersoon die het platform bezoekt of gebruikt.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Account</div>
-              <div class="event-meta">De persoonlijke of clubgebonden login op Voetbal4All.</div>
-            </li>
-          </ul>
-
-          <h2>2. Toepasselijkheid en wijziging</h2>
           <p>
-            Door het platform te bezoeken of te gebruiken, ga je akkoord met deze gebruiksvoorwaarden. Voetbal4All behoudt zich
-            het recht voor deze voorwaarden te wijzigen. De meest recente versie wordt steeds op het platform gepubliceerd.
+            <strong>Voetbal4All</strong><br>
+            [Naam rechtspersoon of natuurlijke persoon invullen]<br>
+            [Adres invullen]<br>
+            [Postcode en plaats invullen]<br>
+            [Land: België of Nederland]<br>
+            Ondernemingsnummer / KvK: [indien van toepassing]<br>
           </p>
-
-          <h2>3. Doel van het platform</h2>
           <p>
-            Voetbal4All heeft als doel spelers, trainers, clubs, supporters en partners met elkaar te verbinden, onder meer via:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Spelers- en trainersprofielen</div>
-              <div class="event-meta">Met (optioneel) anonieme weergave en bescherming van contactgegevens.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Clubvacatures en events</div>
-              <div class="event-meta">Tornooien, stages, vriendschappelijke wedstrijden, dinners en algemene activiteiten.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Sportieve informatie</div>
-              <div class="event-meta">Statistieken, resultaten, rangschikkingen en redactionele artikels.</div>
-            </li>
-          </ul>
-
-          <h2>4. Gebruik van accounts</h2>
-          <p>
-            Gebruikers zijn verantwoordelijk voor alle activiteiten die via hun account plaatsvinden. Login-gegevens dienen
-            vertrouwelijk te worden behandeld. Misbruik, verlies of diefstal van login-gegevens dient zo snel mogelijk
-            gemeld te worden aan Voetbal4All.
-          </p>
-
-          <h2>5. Inhoud door gebruikers</h2>
-          <p>
-            Gebruikers kunnen inhoud aanleveren (bijv. advertenties, events, artikels). Zij blijven zelf verantwoordelijk
-            voor de juistheid en wettelijkheid van deze inhoud. Het is niet toegestaan:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Onrechtmatige of discriminerende inhoud te plaatsen</div>
-              <div class="event-meta">Bijvoorbeeld op grond van afkomst, geslacht, geloof of geaardheid.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Inbreuk te maken op intellectuele eigendomsrechten</div>
-              <div class="event-meta">Zoals auteursrechten op teksten, logo’s of foto’s.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Persoonsgegevens zonder toestemming te publiceren</div>
-              <div class="event-meta">Voor zover dit in strijd is met de toepasselijke privacywetgeving (GDPR/AVG).</div>
-            </li>
-          </ul>
-          <p>
-            Voetbal4All behoudt zich het recht voor inhoud te weigeren, aan te passen of te verwijderen indien die strijdig is
-            met deze voorwaarden of met de wet in België of Nederland.
-          </p>
-
-          <h2>6. Anonieme profielen en communicatie</h2>
-          <p>
-            Gebruikers kunnen er voor kiezen om hun naam en/of woonplaats niet publiek te tonen. In dat geval verloopt de
-            communicatie via Voetbal4All (bijvoorbeeld via een reactieformulier), waarbij het e-mailadres van de plaatser
-            verborgen blijft voor de andere partij.
-          </p>
-
-          <h2>7. Verwerking van persoonsgegevens</h2>
-          <p>
-            Voor de manier waarop persoonsgegevens worden verwerkt, verwijst Voetbal4All naar de afzonderlijke
-            <a href="privacyverklaring.html">Privacyverklaring</a>. Deze is opgesteld met inachtneming van de
-            Algemene Verordening Gegevensbescherming (AVG/GDPR), zoals van toepassing in België en Nederland.
-          </p>
-
-          <h2>8. Aansprakelijkheid</h2>
-          <p>
-            Voetbal4All spant zich in om de inhoud van het platform zo actueel en correct mogelijk te houden, maar kan niet
-            garanderen dat alle informatie steeds volledig, juist of actueel is. Voetbal4All is niet aansprakelijk voor:
-          </p>
-          <ul class="events-list">
-            <li class="event-item">
-              <div class="event-title">Indirecte of gevolgschade</div>
-              <div class="event-meta">Bijvoorbeeld gederfde winst, gemiste kansen of reputatieschade.</div>
-            </li>
-            <li class="event-item">
-              <div class="event-title">Inhoud geplaatst door gebruikers</div>
-              <div class="event-meta">Waaronder advertenties, profielen of events.</div>
-            </li>
-          </ul>
-
-          <h2>9. Advertenties en partners</h2>
-          <p>
-            Op het platform kunnen advertenties worden getoond van externe partijen, onder meer via premiumplaatsen of
-            advertentienetwerken (zoals Google AdSense). Voetbal4All is niet verantwoordelijk voor de inhoud van deze
-            externe websites of aanbiedingen.
-          </p>
-
-          <h2>10. Toepasselijk recht en bevoegde rechtbank</h2>
-          <p>
-            Op deze gebruiksvoorwaarden is, afhankelijk van de hoedanigheid en locatie van de gebruiker, het Belgisch of
-            Nederlands recht van toepassing. In geval van geschillen zal in eerste instantie worden getracht om in onderling
-            overleg tot een oplossing te komen. Lukt dat niet, dan zijn de bevoegde rechtbanken in België of Nederland,
-            overeenkomstig de gewone bevoegdheidsregels, exclusief bevoegd.
-          </p>
-
-          <h2>11. Contact</h2>
-          <p>
-            Voor vragen over deze gebruiksvoorwaarden kan je gebruik maken van het
+            Voor vragen over deze privacyverklaring kan je gebruik maken van het
             <a href="contact.html">contactformulier</a> op het platform.
           </p>
+
+          <h2>2. Op wie is deze privacyverklaring van toepassing?</h2>
+          <p>Deze privacyverklaring is van toepassing op:</p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Bezoekers van de website</div>
+              <div class="event-meta">Iedereen die de Voetbal4All-website bezoekt.</div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Geregistreerde gebruikers</div>
+              <div class="event-meta">Bijvoorbeeld clubs, spelers, trainers, supporters en partners met een account.</div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Contactpersonen</div>
+              <div class="event-meta">Iedereen die het contactformulier of andere communicatiemiddelen gebruikt.</div>
+            </li>
+          </ul>
+
+          <h2>3. Welke persoonsgegevens verwerken we?</h2>
+          <p>Afhankelijk van hoe je het platform gebruikt, kunnen wij onder andere volgende gegevens verwerken:</p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Identificatie- en contactgegevens</div>
+              <div class="event-meta">
+                Naam, voornaam, (club)naam, e-mailadres, eventueel telefoonnummer en woonplaats.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Profielgegevens spelers/trainers</div>
+              <div class="event-meta">
+                Leeftijdscategorie, positie, gewenste regio, gewenst niveau, ervaring, anoniem-profielkeuze
+                en de tekst die je zelf ingeeft in jouw advertentie of profiel.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Event- en clubgegevens</div>
+              <div class="event-meta">
+                Clubnaam, locatie, type event (vriendschappelijk, tornooi, stage, dinner, algemeen),
+                data, doelgroepen, beschrijvingen en eventuele contactpersoon.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Account- en logininformatie</div>
+              <div class="event-meta">
+                Gebruikersnaam, wachtwoord (versleuteld), registratiedatum, rol (speler, trainer, club, partner,…).
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Communicatiegegevens</div>
+              <div class="event-meta">
+                Berichten verstuurd via formulieren (contact, reacties op anonieme advertenties, etc.).
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Technische gegevens</div>
+              <div class="event-meta">
+                IP-adres, browsertype, toesteltype, bezochte pagina’s, tijdstippen van bezoek en cookies (zie ook cookie-sectie).
+              </div>
+            </li>
+          </ul>
+
+          <h2>4. Doeleinden en rechtsgrond van de verwerking</h2>
+          <p>We verwerken persoonsgegevens uitsluitend voor welbepaalde doeleinden en op basis van een rechtsgrond.</p>
+
+          <h3>4.1 Platformwerking en dienstverlening</h3>
+          <p>
+            Om het Voetbal4All-platform te kunnen aanbieden en je account, advertenties en events te beheren, verwerken wij
+            persoonsgegevens op basis van de <strong>noodzaak voor de uitvoering van een overeenkomst</strong> of om
+            <strong>voorafgaande stappen op jouw verzoek te zetten</strong> (art. 6.1 b AVG).
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Registratie en beheer van accounts</div>
+              <div class="event-meta">Aanmaken en beheren van jouw gebruikersprofiel.</div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Publicatie van advertenties en events</div>
+              <div class="event-meta">
+                Tonen van spelers- en trainersprofielen, clubvacatures, events en sportieve informatie.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Contact en ondersteuning</div>
+              <div class="event-meta">Beantwoorden van vragen via het contactformulier of andere kanalen.</div>
+            </li>
+          </ul>
+
+          <h3>4.2 Toestemming</h3>
+          <p>
+            In bepaalde gevallen vragen we jouw <strong>uitdrukkelijke toestemming</strong> (art. 6.1 a AVG), bijvoorbeeld:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Nieuwsbrief of marketingcommunicatie</div>
+              <div class="event-meta">Wanneer we je inschrijven voor nieuwsbrieven of promotionele e-mails.</div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Specifieke cookies of tracking</div>
+              <div class="event-meta">
+                Bijvoorbeeld marketingcookies of analytische cookies die niet strikt noodzakelijk zijn.
+              </div>
+            </li>
+          </ul>
+          <p>
+            Je kan jouw toestemming altijd intrekken, zonder dat dit de rechtmatigheid van de verwerking vóór de intrekking aantast.
+          </p>
+
+          <h3>4.3 Gerechtvaardigd belang</h3>
+          <p>
+            In sommige gevallen verwerken wij gegevens op basis van ons <strong>gerechtvaardigd belang</strong> (art. 6.1 f AVG),
+            bijvoorbeeld:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Beveiliging en misbruikpreventie</div>
+              <div class="event-meta">
+                Het monitoren van verdachte activiteiten, het misbruik van anonieme profielen voorkomen en het beschermen
+                van het platform.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Verbetering van het platform</div>
+              <div class="event-meta">
+                Analyse van gebruiksstatistieken om functionaliteiten en gebruikservaring te verbeteren.
+              </div>
+            </li>
+          </ul>
+
+          <h3>4.4 Wettelijke verplichtingen</h3>
+          <p>
+            In bepaalde gevallen zijn wij wettelijk verplicht bepaalde gegevens te bewaren of mee te delen (art. 6.1 c AVG),
+            bijvoorbeeld in het kader van fiscale of boekhoudkundige verplichtingen of op verzoek van bevoegde autoriteiten.
+          </p>
+
+          <h2>5. Anonieme advertenties en reacties</h2>
+          <p>
+            Spelers en trainers kunnen ervoor kiezen om hun naam en/of woonplaats niet publiek te tonen in hun advertentie.
+            In dat geval:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Verborgen e-mailadres</div>
+              <div class="event-meta">
+                Het e-mailadres van de plaatser wordt niet getoond in de advertentie. Reacties verlopen via Voetbal4All.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Reacties via formulier</div>
+              <div class="event-meta">
+                Wie wil reageren, vult een formulier in en moet akkoord gaan dat zijn/haar e-mailadres gebruikt wordt om de
+                reactie door te sturen naar de anonieme plaatser.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Gebruik van Voetbal4All-adres</div>
+              <div class="event-meta">
+                Het platform kan hiervoor een technisch e-mailadres gebruiken (bijv. voetbal4all@outlook.com) om berichten
+                door te sturen zonder de persoonsgegevens van beide partijen publiek te maken.
+              </div>
+            </li>
+          </ul>
+
+          <h2>6. Bewaartermijnen</h2>
+          <p>
+            We bewaren persoonsgegevens niet langer dan noodzakelijk voor de doeleinden waarvoor ze werden verzameld, met
+            inachtneming van wettelijke verplichtingen. Concreet hanteren we onder meer volgende principes (indicatief):
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Gebruikersaccounts</div>
+              <div class="event-meta">
+                Zolang je account actief is en tot maximaal [x jaar] na de laatste actieve login (tenzij je eerder om verwijdering verzoekt).
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Events</div>
+              <div class="event-meta">
+                Events blijven publiek zichtbaar tot de dag na het event. Loggegevens of interne administratie kunnen
+                langer worden bewaard, bijvoorbeeld [x maanden/jaren] voor bewijs- of auditdoeleinden.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Teams in de kijker</div>
+              <div class="event-meta">
+                Deze rubriek blijft maximaal één maand online zichtbaar; daarna wordt de inhoud automatisch of handmatig verwijderd of gearchiveerd.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Contactformulieren</div>
+              <div class="event-meta">
+                Gegevens van contactaanvragen worden doorgaans [x maanden] bewaard na afhandeling van de vraag.
+              </div>
+            </li>
+          </ul>
+          <p>
+            De concrete bewaartermijnen kunnen worden aangepast naarmate het platform verder wordt uitgebouwd. De meest recente
+            versie wordt steeds in deze privacyverklaring opgenomen.
+          </p>
+
+          <h2>7. Delen van gegevens met derden</h2>
+          <p>
+            We delen persoonsgegevens niet met derden, tenzij:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Dienstverleners / verwerkers</div>
+              <div class="event-meta">
+                Zoals hostingproviders, maildiensten of analysetools die in onze opdracht werken.
+                Met deze partijen worden, indien vereist, verwerkersovereenkomsten afgesloten.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Wettelijke verplichting</div>
+              <div class="event-meta">
+                Indien wij daartoe verplicht zijn op basis van wet- of regelgeving of een bevel van een bevoegde autoriteit.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Toestemming</div>
+              <div class="event-meta">
+                Wanneer jij uitdrukkelijk toestemming hebt gegeven om bepaalde gegevens te delen (bijv. met een partnerclub of sponsor).
+              </div>
+            </li>
+          </ul>
+
+          <h2>8. Doorgifte buiten de Europese Economische Ruimte (EER)</h2>
+          <p>
+            Indien gegevens worden doorgegeven buiten de EER (bijvoorbeeld via een externe dienstverlener), zorgen wij ervoor
+            dat dit enkel gebeurt naar landen of organisaties die een passend beschermingsniveau bieden (bijv. via
+            standaardcontractbepalingen, adequaatheidsbesluiten of gelijkwaardige garanties).
+          </p>
+
+          <h2>9. Beveiliging</h2>
+          <p>
+            We nemen passende technische en organisatorische maatregelen om persoonsgegevens te beschermen tegen verlies,
+            misbruik, ongeoorloofde toegang of openbaarmaking. Voorbeelden hiervan zijn:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Versleutelde wachtwoorden</div>
+              <div class="event-meta">
+                Wachtwoorden worden nooit in leesbare vorm opgeslagen.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Toegangsbeperking</div>
+              <div class="event-meta">
+                Enkel personen die de gegevens nodig hebben voor hun functie, krijgen toegang.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Beveiligde verbindingen</div>
+              <div class="event-meta">
+                Het gebruik van beveiligde verbindingen (HTTPS) waar mogelijk.
+              </div>
+            </li>
+          </ul>
+
+          <h2>10. Cookies en vergelijkbare technologieën</h2>
+          <p>
+            Het platform kan gebruik maken van cookies en vergelijkbare technologieën om de website goed te laten werken,
+            het gebruik te analyseren en – mits jouw toestemming – relevante inhoud of advertenties te tonen.
+          </p>
+          <p>
+            Bij de eerste bezoek(en) aan de website kan een cookiebanner verschijnen waarin je jouw voorkeuren kunt aangeven.
+            In een afzonderlijke cookieverklaring (of in een later onderdeel van deze pagina) kunnen de types cookies en
+            bewaartermijnen verder gespecificeerd worden.
+          </p>
+
+          <h2>11. Jouw rechten (AVG / GDPR)</h2>
+          <p>
+            Als betrokkene heb je volgens de AVG, onder bepaalde voorwaarden, de volgende rechten:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">Recht op inzage</div>
+              <div class="event-meta">
+                Je kan opvragen welke persoonsgegevens wij van jou verwerken.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Recht op rectificatie</div>
+              <div class="event-meta">
+                Je kan onjuiste of onvolledige gegevens laten verbeteren of aanvullen.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Recht op gegevenswissing</div>
+              <div class="event-meta">
+                In bepaalde gevallen kan je vragen om jouw gegevens te verwijderen (&ldquo;recht op vergetelheid&rdquo;).
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Recht op beperking van de verwerking</div>
+              <div class="event-meta">
+                Bijvoorbeeld wanneer de juistheid van de gegevens wordt betwist.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Recht op overdraagbaarheid van gegevens</div>
+              <div class="event-meta">
+                Je kan vragen om jouw gegevens in een gestructureerde, gangbare en machineleesbare vorm te ontvangen.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Recht van bezwaar</div>
+              <div class="event-meta">
+                Je kan bezwaar maken tegen bepaalde verwerkingen op basis van gerechtvaardigd belang of tegen direct marketing.
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Recht om toestemming in te trekken</div>
+              <div class="event-meta">
+                Wanneer de verwerking op toestemming is gebaseerd, kan je deze toestemming op elk moment intrekken.
+              </div>
+            </li>
+          </ul>
+          <p>
+            Je kan deze rechten uitoefenen door contact op te nemen via het
+            <a href="contact.html">contactformulier</a>. We kunnen bijkomende informatie vragen om je identiteit te verifiëren.
+          </p>
+
+          <h2>12. Klachten bij toezichthouder</h2>
+          <p>
+            Wanneer je van mening bent dat jouw rechten niet correct worden gerespecteerd, heb je het recht een klacht in te
+            dienen bij de bevoegde toezichthoudende autoriteit:
+          </p>
+          <ul class="events-list">
+            <li class="event-item">
+              <div class="event-title">België</div>
+              <div class="event-meta">
+                Gegevensbeschermingsautoriteit (GBA), Drukpersstraat 35, 1000 Brussel, België – 
+                <a href="https://www.gegevensbeschermingsautoriteit.be" target="_blank" rel="noopener noreferrer">
+                  www.gegevensbeschermingsautoriteit.be
+                </a>
+              </div>
+            </li>
+            <li class="event-item">
+              <div class="event-title">Nederland</div>
+              <div class="event-meta">
+                Autoriteit Persoonsgegevens, Postbus 93374, 2509 AJ Den Haag, Nederland –
+                <a href="https://www.autoriteitpersoonsgegevens.nl" target="_blank" rel="noopener noreferrer">
+                  www.autoriteitpersoonsgegevens.nl
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <h2>13. Wijzigingen aan deze privacyverklaring</h2>
+          <p>
+            Deze privacyverklaring kan worden bijgewerkt, bijvoorbeeld bij wijzigingen aan het platform of de wetgeving.
+            De meest recente versie is altijd terug te vinden op deze pagina. Bij belangrijke wijzigingen zal Voetbal4All
+            dit duidelijk communiceren (bijv. via de website of per e-mail).
+          </p>
+
         </article>
       </div>
     </section>
@@ -192,6 +495,9 @@
   </footer>
 
 </div>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
