@@ -789,6 +789,14 @@ main {
   }
 }
 
+/* Footer vastzetten op desktop, niet op mobiel */
+@media (min-width: 901px) {
+  .footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 40;
+  }
+}   
    .premium-empty {
   margin-top: 6px;
   font-style: italic;
