@@ -44,9 +44,10 @@
   </header>
 
   <main>
-    <!-- PAGINA-INTRO -->
     <section class="section-main">
       <div class="shell">
+
+        <!-- KORTE INTRO -->
         <article class="card" style="margin-bottom:14px; max-width:900px;">
           <div class="card-header">
             <div>
@@ -61,11 +62,13 @@
           </p>
         </article>
 
-        <!-- GRID: FORMULIER LINKS · INFO / ADVERTENTIE RECHTS -->
-        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,1.7fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
+        <!-- HOOFDGRID: LINKS FORMULIER + OVERZICHT · RECHTS INFO + ADS -->
+        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-          <!-- FORMULIER-SPOOR -->
-          <section>
+          <!-- LINKERKOLOM: FORMULIER + OVERZICHT SPELERS -->
+          <div>
+
+            <!-- FORMULIER -->
             <div class="form-card">
               <h2 class="form-title">Nieuwe spelersadvertentie</h2>
               <p class="form-sub">
@@ -219,19 +222,58 @@
                 </div>
               </form>
             </div>
-          </section>
 
-          <!-- RECHTER-ZIJDE: INFO + ADVERTENTIEZONE -->
+            <!-- OVERZICHT SPELERS · 3 BLOKJES NEBEN ELKAAR -->
+            <section class="section-main" style="padding-top:12px;">
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Overzicht</div>
+                    <div class="card-title">Spelers die een club zoeken</div>
+                  </div>
+                  <span class="pill-small">Delen &amp; reageren</span>
+                </div>
+                <p class="note">
+                  Elke advertentie kan via sociale netwerken gedeeld worden. De link gaat automatisch naar dit profiel op Voetbal4All.
+                </p>
+
+                <div id="player-ads" class="ad-card-list ad-card-grid">
+                  <!-- Voorbeeldadvertentie -->
+                  <article class="ad-card" id="player-ad-1" data-ad-id="1">
+                    <div class="ad-card-header">
+                      <div>
+                        <div class="ad-card-title">Anonieme speler</div>
+                        <div class="ad-card-meta">🇧🇪 België · Regio Kempen</div>
+                      </div>
+                      <div class="ad-card-meta">17 jaar · Middenvelder, Aanvaller</div>
+                    </div>
+                    <div class="ad-card-body">
+                      <strong>Niveau:</strong> Provinciaal<br />
+                      <strong>Regio:</strong> Antwerpen, Limburg<br /><br />
+                      Technische middenvelder met goed overzicht, zoekt ambitieuze opleidingsclub met focus op jeugd.
+                    </div>
+                    <div class="ad-card-actions">
+                      <button type="button" class="btn-ghost-sm" data-reply-ad="1">Reageer op speler</button>
+                      <a href="#" class="btn-ghost-sm btn-share" data-share-ad="1">Delen</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RECHTERKOLOM: ANONIMITEIT + ADVERTENTIERUIMTES -->
           <aside>
             <article class="card">
               <div class="card-header">
                 <div>
                   <div class="card-caption">Anonimiteit</div>
-                  <div class="card-title">Hoe worden gegevens getoond?</div>
+                  <div class="card-title">Wat ziet een club?</div>
                 </div>
               </div>
               <p class="note">
-                In de advertentie tonen we:
+                In een spelersprofiel tonen we:
               </p>
               <ul class="events-list">
                 <li class="event-item">
@@ -249,7 +291,7 @@
               <div class="card-header">
                 <div>
                   <div class="card-caption">Advertentiezone</div>
-                  <div class="card-title">Extra zichtbaarheid</div>
+                  <div class="card-title">Extra zichtbaarheid (boven)</div>
                 </div>
                 <span class="pill-small">Google AdSense / partners</span>
               </div>
@@ -258,47 +300,23 @@
                 <span class="ad-size">Bv. 300 × 250 px</span>
               </div>
             </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentiezone</div>
+                  <div class="card-title">Extra zichtbaarheid (onder)</div>
+                </div>
+                <span class="pill-small">Clubs / sponsors</span>
+              </div>
+              <div class="ad-placeholder">
+                Tweede advertentiezone in de rechter kolom.<br />
+                <span class="ad-size">Bv. 300 × 250 px</span>
+              </div>
+            </article>
           </aside>
 
         </div>
-
-        <!-- OVERZICHT ADVERTENTIES -->
-        <section class="section-main" style="padding-top:12px;">
-          <div class="card">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Overzicht</div>
-                <div class="card-title">Spelers die een club zoeken</div>
-              </div>
-              <span class="pill-small">Delen &amp; reageren</span>
-            </div>
-            <p class="note">
-              Elke advertentie kan via sociale netwerken gedeeld worden. De link gaat automatisch naar dit profiel op Voetbal4All.
-            </p>
-
-            <div id="player-ads" class="ad-card-list">
-              <!-- Voorbeeldadvertentie -->
-              <article class="ad-card" id="player-ad-1" data-ad-id="1">
-                <div class="ad-card-header">
-                  <div>
-                    <div class="ad-card-title">Anonieme speler</div>
-                    <div class="ad-card-meta">🇧🇪 België · Regio Kempen</div>
-                  </div>
-                  <div class="ad-card-meta">17 jaar · Middenvelder, Aanvaller</div>
-                </div>
-                <div class="ad-card-body">
-                  <strong>Niveau:</strong> Provinciaal<br />
-                  <strong>Regio:</strong> Antwerpen, Limburg<br /><br />
-                  Technische middenvelder met goed overzicht, zoekt ambitieuze opleidingsclub met focus op jeugd.
-                </div>
-                <div class="ad-card-actions">
-                  <button type="button" class="btn-ghost-sm" data-reply-ad="1">Reageer op speler</button>
-                  <a href="#" class="btn-ghost-sm btn-share" data-share-ad="1">Delen</a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
 
       </div>
     </section>
@@ -327,48 +345,6 @@
     </div>
   </footer>
 
-</div>
-
-<!-- MODAL: REAGEREN OP SPELER -->
-<div class="modal-backdrop" id="reply-modal">
-  <div class="modal">
-    <div class="modal-header">
-      <div class="modal-title">Reageren op speler</div>
-      <button class="modal-close" type="button" data-close-modal>&times;</button>
-    </div>
-    <p class="modal-note">
-      Je reactie wordt via Voetbal4All doorgestuurd naar de speler. Zijn/haar e-mailadres blijft verborgen.
-    </p>
-    <form id="reply-form">
-      <input type="hidden" id="reply-ad-id" />
-      <div class="form-field">
-        <label class="form-label" for="reply-name">Naam club / contactpersoon</label>
-        <input id="reply-name" type="text" class="form-input" required placeholder="Bv. K. ASV Geel – Jeugdcoördinator" />
-      </div>
-      <div class="form-field">
-        <label class="form-label" for="reply-email">
-          Jouw e-mailadres <span class="required">*</span>
-        </label>
-        <input id="reply-email" type="email" class="form-input" required placeholder="contact@club.be" />
-      </div>
-      <div class="form-field">
-        <label class="form-label" for="reply-message">Bericht aan de speler</label>
-        <textarea id="reply-message" class="form-textarea" required placeholder="Korte voorstelling van je club en waarom je contact opneemt."></textarea>
-      </div>
-      <div class="form-field">
-        <label class="form-helper">
-          <input type="checkbox" id="reply-consent" required />
-          Ik ga akkoord dat Voetbal4All mijn bericht en e-mailadres doorstuurt naar deze speler.
-        </label>
-      </div>
-      <div class="form-actions">
-        <button type="submit" class="btn-primary">Verstuur via Voetbal4All</button>
-      </div>
-    </form>
-    <div class="modal-footer">
-      In deze fase gebeurt dit via <strong>voetbal4all@outlook.com</strong> (mailto). Later kan dit via een backend.
-    </div>
-  </div>
 </div>
 
 <script>
@@ -409,11 +385,11 @@
   countryBE.addEventListener("change", e => {
     if (e.target.checked) updateCountrySpecificFields("BE");
   });
-
   countryNL.addEventListener("change", e => {
     if (e.target.checked) updateCountrySpecificFields("NL");
   });
 
+  // Overzicht spelers
   const playerAdsContainer = document.getElementById("player-ads");
   let nextAdId = 2; // 1 is demo-ad
 
@@ -520,52 +496,30 @@
     alert("Demo: je advertentie is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
   });
 
-  // Modal logica
-  const modalBackdrop = document.getElementById("reply-modal");
-  const replyForm = document.getElementById("reply-form");
-
-  function openReplyModal(adId) {
-    document.getElementById("reply-ad-id").value = adId;
-    modalBackdrop.classList.add("modal-open");
-  }
-
-  function closeReplyModal() {
-    modalBackdrop.classList.remove("modal-open");
-  }
-
+  // REAGEREN: GEEN EXTRA FORMULIER, WEL BEVESTIGING + EMAIL VIA VOETBAL4ALL
   document.addEventListener("click", function (e) {
     if (e.target.matches("[data-reply-ad]")) {
       const adId = e.target.getAttribute("data-reply-ad");
-      openReplyModal(adId);
+      const ok = confirm(
+        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
+      );
+      if (!ok) return;
+
+      const clubEmail = prompt("Vul je e-mailadres in om mee te geven aan de speler:");
+      if (!clubEmail) {
+        alert("E-mailadres is nodig om te kunnen reageren.");
+        return;
+      }
+
+      const subject = encodeURIComponent("Reactie via Voetbal4All op spelersadvertentie " + adId);
+      const body = encodeURIComponent(
+        "Advertentie-ID: " + adId +
+        "\n\nE-mailadres van de club/contactpersoon: " + clubEmail +
+        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de speler toe.)"
+      );
+
+      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
     }
-    if (e.target.hasAttribute("data-close-modal") || e.target === modalBackdrop) {
-      closeReplyModal();
-    }
-  });
-
-  replyForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-    const adId = document.getElementById("reply-ad-id").value;
-    const name = document.getElementById("reply-name").value.trim();
-    const email = document.getElementById("reply-email").value.trim();
-    const msg = document.getElementById("reply-message").value.trim();
-    const consent = document.getElementById("reply-consent").checked;
-
-    if (!consent) {
-      alert("Je moet akkoord gaan om via Voetbal4All te reageren.");
-      return;
-    }
-
-    const subject = encodeURIComponent("Reactie via Voetbal4All op spelersadvertentie " + adId);
-    const body = encodeURIComponent(
-      "Advertentie-ID: " + adId +
-      "\n\nVan: " + name +
-      "\nE-mail: " + email +
-      "\n\nBericht:\n" + msg
-    );
-
-    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
-    closeReplyModal();
   });
 
   // Social sharing: link met anker naar specifieke advertentie
