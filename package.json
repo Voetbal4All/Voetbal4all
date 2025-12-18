@@ -1,0 +1,11 @@
+{
+  "name": "voetbal4all-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:news": "node scripts/build-news.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
