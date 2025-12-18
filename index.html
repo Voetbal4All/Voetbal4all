@@ -580,7 +580,8 @@
 
         card.innerHTML = `
           <div class="home-article-media-thumb">
-            <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
+            <img src="${sourceLogo}" alt="${source}" loading="lazy"
+                 onerror="this.onerror=null;this.src='assets/img/sources/default.png';" />
           </div>
         
           <div class="home-article-content">
