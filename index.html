@@ -514,19 +514,21 @@
   const homeListEl = document.getElementById("home-news-list");
   const homeStatusEl = document.getElementById("home-news-status");
 
-  function getSourceLogo(source) {
+function getSourceLogo(source) {
   const s = (source || "").toLowerCase();
 
-  if (s.includes("voetbal international") || s === "vi" || s.includes("vi ")) return "assets/img/sources/vi.png";
-  if (s.includes("sporza")) return "assets/img/sources/sporza.png";
-  if (s.includes("hln")) return "assets/img/sources/hln.png";
-  if (s.includes("nos")) return "assets/img/sources/nos.png";
-  if (s.includes("bbc")) return "assets/img/sources/bbc.png";
-  if (s.includes("guardian")) return "assets/img/sources/guardian.png";
-  if (s.includes("sky")) return "assets/img/sources/sky.png";
-  if (s.includes("espn")) return "assets/img/sources/espn.png";
+  const base = "/Voetbal4all/assets/img/sources/";
 
-  return "assets/img/sources/default.png";
+  if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
+  if (s.includes("sporza")) return base + "sporza.png";
+  if (s.includes("hln")) return base + "hln.png";
+  if (s.includes("nos")) return base + "nos.png";
+  if (s.includes("bbc")) return base + "bbc.png";
+  if (s.includes("guardian")) return base + "guardian.png";
+  if (s.includes("sky")) return base + "sky.png";
+  if (s.includes("espn")) return base + "espn.png";
+
+  return base + "default.png";
 }
   function getFlagFromCountry(country) {
     if (country === "BE") return "🇧🇪";
