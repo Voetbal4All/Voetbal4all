@@ -652,6 +652,23 @@ footer {
    ARTIKELS / OVERZICHTEN
    ======================= */
 
+/* Source logo (klein) */
+.source-logo {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  object-fit: cover;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+/* Meta-rij: logo + bron */
+.article-meta-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .ad-card-list {
   display: grid;
   gap: 10px;
