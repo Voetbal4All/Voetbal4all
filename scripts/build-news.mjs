@@ -1,61 +1,97 @@
 import fs from "fs";
 import Parser from "rss-parser";
 
-const parser = new Parser();
+const parser = new Parser({
+  timeout: 15000,
+  customFields: {
+    item: [
+      ["dc:date", "dcDate"],
+      ["published", "published"],
+      ["updated", "updated"],
+    ],
+  },
+});
 
-// 1. Config inladen
-const config = JSON.parse(
-  fs.readFileSync("data/feeds.json", "utf-8")
-);
-
+const config = JSON.parse(fs.readFileSync("data/feeds.json", "utf-8"));
 const feeds = config.feeds || [];
 const maxItems = config.maxItems || 20;
 
+function pickDate(item) {
+  const raw =
+    item.isoDate ||
+    item.pubDate ||
+    item.dcDate ||
+    item.published ||
+    item.updated ||
+    null;
+
+  const d = raw ? new Date(raw) : null;
+  return d && !isNaN(d.getTime()) ? d.toISOString() : null;
+}
+
+function cleanText(str) {
+  return (str || "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function makeKey(obj) {
+  // Eerst link, anders titel+bron
+  if (obj.link) return `link:${obj.link}`;
+  return `title:${obj.source}|${obj.title}`.toLowerCase();
+}
+
 const allItems = [];
 
-// 2. RSS-feeds ophalen
 for (const feed of feeds) {
   try {
     const result = await parser.parseURL(feed.url);
 
-    // Max 5 items per feed
-    result.items.slice(0, 5).forEach(item => {
+    const perFeedLimit = feed.limit || 5;
+    const items = (result.items || []).slice(0, perFeedLimit);
+
+    items.forEach((item) => {
+      const title = cleanText(item.title);
+      const link = item.link || item.guid || null;
+
       allItems.push({
         source: feed.name,
-        title: item.title || "",
-        link: item.link || "",
-        summary: item.contentSnippet || item.content || "",
-        publishedAt: item.pubDate || null
+        title: title || "Zonder titel",
+        link: link,
+        summary: cleanText(item.contentSnippet || item.content || ""),
+        publishedAt: pickDate(item),
       });
     });
-
   } catch (err) {
     console.error("Fout bij feed:", feed.name, err.message);
   }
 }
 
-// 3. Sorteren op datum (nieuwste eerst)
-allItems.sort(
-  (a, b) =>
-    new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)
-);
+// Sort newest first (items zonder datum gaan naar onder)
+allItems.sort((a, b) => {
+  const ad = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+  const bd = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+  return bd - ad;
+});
 
-// 4. Max totaal items afdwingen (20)
-const limitedItems = allItems.slice(0, maxItems);
+// Deduplicate (link/title)
+const seen = new Set();
+const unique = [];
+for (const it of allItems) {
+  const key = makeKey(it);
+  if (seen.has(key)) continue;
+  seen.add(key);
+  unique.push(it);
+}
 
-// 5. Data-map verzekeren
+// Globale limiet toepassen
+const finalItems = unique.slice(0, maxItems);
+
 fs.mkdirSync("data", { recursive: true });
 
-// 6. news.json schrijven
 fs.writeFileSync(
   "data/news.json",
-  JSON.stringify({ items: limitedItems }, null, 2)
+  JSON.stringify({ generatedAt: new Date().toISOString(), items: finalItems }, null, 2)
 );
 
-// 7. Log
-console.log(
-  "news.json gegenereerd:",
-  limitedItems.length,
-  "items (max",
-  maxItems + ")"
-);
+console.log("news.json gegenereerd:", finalItems.length, "items (unique)");
