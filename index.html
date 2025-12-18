@@ -514,6 +514,20 @@
   const homeListEl = document.getElementById("home-news-list");
   const homeStatusEl = document.getElementById("home-news-status");
 
+  function getSourceLogo(source) {
+  const s = (source || "").toLowerCase();
+
+  if (s.includes("voetbal international") || s.includes("vi")) return "assets/img/sources/vi.png";
+  if (s.includes("sporza")) return "assets/img/sources/sporza.png";
+  if (s.includes("hln")) return "assets/img/sources/hln.png";
+  if (s.includes("nos")) return "assets/img/sources/nos.png";
+  if (s.includes("bbc")) return "assets/img/sources/bbc.png";
+  if (s.includes("guardian")) return "assets/img/sources/guardian.png";
+  if (s.includes("sky")) return "assets/img/sources/sky.png";
+  if (s.includes("espn")) return "assets/img/sources/espn.png";
+
+  return "assets/img/sources/default.png";
+}
   function getFlagFromCountry(country) {
     if (country === "BE") return "🇧🇪";
     if (country === "NL") return "🇳🇱";
