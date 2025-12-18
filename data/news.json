@@ -1,145 +1,225 @@
 {
-  "generatedAt": "2025-12-18T19:20:38.103Z",
+  "generatedAt": "2025-12-18T19:42:42.544Z",
   "items": [
     {
+      "type": "rss",
       "source": "Voetbal International",
-      "title": "VI Live: FC Twente loopt weg bij Spakenburg, AZ mikt op plek in topacht",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Simpele avond FC Twente, RKC leidt, AZ leeft toe naar aftrap",
       "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-conference-league",
       "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
-      "publishedAt": "2025-12-18T19:07:03.000Z"
+      "publishedAt": "2025-12-18T19:27:36.000Z"
     },
     {
+      "type": "rss",
       "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "Best player? Favourite to win WSL? Emma Sanders Q&A",
       "link": "https://www.bbc.com/sport/football/articles/cd74j2v5xgyo?at_medium=RSS&at_campaign=rss",
       "summary": "As women's domestic and European football takes a pause for the winter break, we asked football fans on Reddit for their questions for BBC Sport reporter Emma Sanders.",
       "publishedAt": "2025-12-18T19:00:57.000Z"
     },
     {
+      "type": "rss",
       "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
       "title": "Marokko wint Arab Cup na weergaloze treffer Tannane",
       "link": "https://www.vi.nl/nieuws/marokko-wint-arab-cup-na-weergaloze-treffer-tannane",
       "summary": "Prachtig scoren is fantastisch, prachtig scoren voor je land misschien nog wel beter. Wat nog beter is? Prachtig scoren voor je land in een finale. Het overkwam donderdag Oussama Tannane, met een uitgebreid verleden in Nederland.",
       "publishedAt": "2025-12-18T18:58:39.000Z"
     },
     {
+      "type": "rss",
       "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "Salah seeks Afcon success with Egypt as Morocco eye home glory",
       "link": "https://www.bbc.com/sport/football/articles/c201749690lo?at_medium=RSS&at_campaign=rss",
       "summary": "Two of African football's biggest names, Achraf Hakimi and Mohamed Salah, are hoping to lead their nations to glory as the Africa Cup of Nations gets ready to kick off in Morocco.",
       "publishedAt": "2025-12-18T18:47:04.000Z"
     },
     {
+      "type": "rss",
       "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
       "title": "Hoefkens in beeld bij Genk: vertrek onbespreekbaar voor NAC",
       "link": "https://www.vi.nl/pro/hoefkens-in-beeld-bij-genk-vertrek-onbespreekbaar-voor-nac",
       "summary": "Carl Hoefkens (47) is in beeld als hoofdtrainer van Racing Genk. De oefenmeester van NAC Breda zou zelf wel oren hebben naar de vacante functie bij de Belgische topclub. Dat bevestigen ingewijden.",
       "publishedAt": "2025-12-18T18:39:46.000Z"
     },
     {
+      "type": "rss",
       "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "Sutton's predictions v Zambian rapper Sampa the Great",
       "link": "https://www.bbc.com/sport/football/articles/cj4qyrxggglo?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Sport football expert Chris Sutton takes on Zambian rapper Sampa the Great - and AI - with his predictions for this weekend's Premier League fixtures.",
       "publishedAt": "2025-12-18T18:37:13.000Z"
     },
     {
+      "type": "rss",
       "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "World Darts Championship: Van Gerwen, Sherrock headline bumper evening LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-18T18:32:00.000Z"
     },
     {
+      "type": "rss",
       "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "US",
+      "flag": "🇺🇸",
       "title": "Will another injury derail Adams' World Cup prep for USMNT?",
       "link": "https://www.espn.com/soccer/story/_/id/47335912/will-another-injury-derail-tyler-adamsworld-cup-prep-usmnt",
       "summary": "Tyler Adams has been unlucky with injuries, and an MCL sprain suffered on Monday will rob him of valuable prep time ahead of next summer's World Cup.",
       "publishedAt": "2025-12-18T18:31:27.000Z"
     },
     {
+      "type": "rss",
       "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "US",
+      "flag": "🇺🇸",
       "title": "Coffee talk: Pep invites Brentford boss to debate",
       "link": "https://www.espn.com/soccer/story/_/id/47339469/pep-guardiola-invites-keith-andrews-coffee-discuss-man-city-vs-brentford-controversy",
       "summary": "Pep Guardiola has invited Keith Andrews to \"discuss\" the Brentford boss's claim that Abdukodir Khusanov should have been sent off",
       "publishedAt": "2025-12-18T18:31:02.000Z"
     },
     {
+      "type": "rss",
       "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "US",
+      "flag": "🇺🇸",
       "title": "Kane: Only World Cup win would satisfy England",
       "link": "https://www.espn.com/soccer/story/_/id/47335377/harry-kane-only-world-cup-trophy-satisfy-england-fans",
       "summary": "Harry Kane has said that only a win at next year's FIFA World Cup will satisfy both the England team and the whole country.",
       "publishedAt": "2025-12-18T18:31:02.000Z"
     },
     {
+      "type": "rss",
       "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "US",
+      "flag": "🇺🇸",
       "title": "NWSLPA opposes cap plan for stars like Rodman",
       "link": "https://www.espn.com/soccer/story/_/id/47347061/nwslpa-puts-brakes-new-salary-cap-proposal-star-players",
       "summary": "The NWSLPA has expressed opposition to an NWSL proposal to create a new rule to pay star players outside of the cap, further clouding the league's next steps in competing with top European clubs for elite players such as Trinity Rodman.",
       "publishedAt": "2025-12-18T18:31:02.000Z"
     },
     {
+      "type": "rss",
       "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "US",
+      "flag": "🇺🇸",
       "title": "Finalissima pits Messi vs. Yamal for first time",
       "link": "https://www.espn.com/soccer/story/_/id/47345295/argentina-spain-finalissima-pits-lionel-messi-lamine-yamal-march-27",
       "summary": "Spain and Argentina will compete in the Finalissima on March 27 in a match which will pit Lamine Yamal against Lionel Messi for the first time.",
       "publishedAt": "2025-12-18T18:31:01.000Z"
     },
     {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "title": "AJ weighs in nearly two stone heavier than Jake Paul",
+      "link": "https://www.skysports.com/boxing/news/12040/13485180/jake-paul-vs-anthony-joshua-british-heavyweight-star-weighs-inside-245lbs-limit-for-fight-against-youtube-star",
+      "summary": "Anthony Joshua successfully made the weight limit for his fight against Jake Paul.",
+      "publishedAt": "2025-12-18T18:30:00.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
       "title": "AC Milan met Arabische spelersnamen op shirt voor halve finale Supercoppa",
       "link": "https://www.vi.nl/nieuws/ac-milan-met-arabische-spelersnamen-op-shirt-voor-halve-finale-supercoppa",
       "summary": "AC Milan speelt donderdagavond tegen Napoli in de halve finale van de Supercoppa Italiana. Dat gebeurt niet in Rome, maar in Riyad, de hoofdstad van Saoedi-Arabië. Daarom heeft de topclub speciale shirts laten maken.",
       "publishedAt": "2025-12-18T18:06:38.000Z"
     },
     {
+      "type": "rss",
       "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
       "title": "Gabriel Jesus wil bij Arsenal blijven: 'We kunnen de slapende reus wakker maken'",
       "link": "https://www.vi.nl/nieuws/gabriel-jesus-wil-bij-arsenal-blijven-we-kunnen-de-slapende-reus-wakker-maken",
       "summary": "Gabriel Jesus is eindelijk weer fit en voelt dat zijn tijd bij Arsenal nog niet voorbij is. Dat vertelt de spits in gesprek met The Players' Tribune.",
       "publishedAt": "2025-12-18T17:37:11.000Z"
     },
     {
+      "type": "rss",
       "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "Fernandes on his Man Utd loyalty: I want to get club back to where they were",
       "link": "https://www.skysports.com/football/news/12040/13485294/man-utd-captain-bruno-fernandes-on-his-loyalty-wanting-to-win-trophies-and-leadership",
       "summary": "Bruno Fernandes has discussed his loyalty to Manchester United, saying he believes the club can return to former glories and win multiple trophies.",
       "publishedAt": "2025-12-18T17:30:00.000Z"
     },
     {
+      "type": "rss",
       "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "Debutants Munyua and Sakai stun at World Championship as De Decker hits out at crowd",
       "link": "https://www.skysports.com/darts/news/12040/13485321/world-darts-championship-david-munyua-beats-mike-de-decker-as-fellow-debutant-motomu-sakai-also-wins-in-dramatic-alexandra-palace-scenes",
       "summary": "World Darts Championship debutants David Munyua and Motomu Sakai delivered stunning upset victories amid dramatic first-round scenes at Alexandra Palace on Thursday.",
       "publishedAt": "2025-12-18T16:58:00.000Z"
     },
     {
+      "type": "rss",
       "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "'Kempton dies, the King George dies' | Unbridled",
       "link": "https://www.skysports.com/racing/news/12040/13485311/king-george-vi-chase-kempton-closure-would-completely-change-race-says-matt-chapman-on-unbridled",
       "summary": "The King George VI Chase will die with Kempton if the racecourse is closed to make way for housing developments, according to Matt Chapman.",
       "publishedAt": "2025-12-18T16:31:00.000Z"
     },
     {
+      "type": "rss",
       "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "West Ham sack Skinner after one win in 11 games",
       "link": "https://www.bbc.com/sport/football/articles/c87lqgp4l50o?at_medium=RSS&at_campaign=rss",
       "summary": "West Ham sack head coach Rehanne Skinner after winning only one of their opening 11 Women's Super League games this season.",
       "publishedAt": "2025-12-18T15:54:58.000Z"
     },
     {
+      "type": "rss",
       "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "UK",
+      "flag": "🇬🇧",
       "title": "Worst start in Old Firm history - how does Celtic manager Nancy compare?",
       "link": "https://www.bbc.com/sport/articles/c0q59jwqgk2o?at_medium=RSS&at_campaign=rss",
       "summary": "Wilfried Nancy is the first Old Firm boss to lose his opening four matches - can he recover Celtic's season and survive?",
       "publishedAt": "2025-12-18T14:48:17.000Z"
-    },
-    {
-      "source": "The Guardian Football",
-      "title": "Rehanne Skinner sacked as West Ham manager with club second-bottom of WSL",
-      "link": "https://www.theguardian.com/football/2025/dec/18/rehanne-skinner-west-ham-manager-exit-wsl",
-      "summary": "West Ham have one win from 11 league game this season Skinner has been in charge of club since July 2023 West Ham have sacked their women’s team manager, Rehanne Skinner, with the club second-bottom of the Women’s Super League. A statement said “recent results have not matched expectations” and that a change was deemed necessary. Skinner had been in charge since July 2023 and departs after securing one win from 11 WSL matches this season. The news comes three days before West Ham host Manchester City in the League Cup quarter-finals. Continue reading...",
-      "publishedAt": "2025-12-18T13:46:18.000Z"
     }
   ]
 }
