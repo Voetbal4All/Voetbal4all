@@ -418,7 +418,7 @@
 
           card.innerHTML = `
             <div class="home-article-media">
-              <div class="home-article-image">${source}</div>
+              const sourceLogo = getSourceLogo(source);
               <div class="home-article-flag">
                 <span class="flag-badge" title="${country || 'Internationaal'}">
                   ${flag}
