@@ -388,7 +388,11 @@
           card.innerHTML = `
             <div class="home-article-media">
               <div class="home-article-image">${source}</div>
-              <div class="home-article-flag"><span class="flag-badge">${flag}</span></div>
+              <div class="home-article-flag">
+                <span class="flag-badge" title="${country || 'Internationaal'}">
+                  ${flag}
+                </span>
+              </div>
             </div>
 
             <div class="home-article-content">
