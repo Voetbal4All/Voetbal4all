@@ -580,13 +580,18 @@
 
         card.innerHTML = `
           <div class="home-article-media-thumb">
-            <img src="${sourceLogo}" alt="${source}" loading="lazy">
+            <img class="source-logo" src="${sourceLogo}" alt="${source}" loading="lazy">
           </div>
+        
           <div class="home-article-content">
-            <div class="article-meta">${source}</div>
+            <div class="article-meta-row">
+              <span class="article-meta">${source}</span>
+            </div>
+        
             <h3 class="article-title">
               <a href="${link}" target="_blank" rel="noopener">${title}</a>
             </h3>
+        
             <p class="article-excerpt">${summary}</p>
           </div>
         `;
