@@ -580,23 +580,21 @@
 
         card.innerHTML = `
           <div class="home-article-media-thumb">
-            <img class="source-logo" src="${sourceLogo}" alt="${source}" loading="lazy">
+            <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
           </div>
         
           <div class="home-article-content">
-            <div class="article-meta-row">
-              <span class="article-meta">${source}</span>
+            <div class="home-article-header">
+              <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
+              <div class="article-meta">${source}</div>
             </div>
         
             <h3 class="article-title">
               <a href="${link}" target="_blank" rel="noopener">${title}</a>
             </h3>
-        
             <p class="article-excerpt">${summary}</p>
           </div>
         `;
-        homeListEl.appendChild(card);
-      });
 
     } catch (err) {
       homeStatusEl.style.display = "block";
