@@ -54,10 +54,14 @@ for (const feed of feeds) {
       const title = cleanText(item.title);
       const link = item.link || item.guid || null;
 
+      const sourceSlug = feed.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+      
       allItems.push({
+        type: "rss",
         source: feed.name,
+        sourceSlug,
         title: title || "Zonder titel",
-        link: link,
+        link,
         summary: cleanText(item.contentSnippet || item.content || ""),
         publishedAt: pickDate(item),
       });
