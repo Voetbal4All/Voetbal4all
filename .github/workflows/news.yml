@@ -1,0 +1,34 @@
+name: Build news.json from RSS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"  # elke 30 min
+
+permissions:
+  contents: write
+
+jobs:
+  build-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Build news.json
+        run: npm run build:news
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git diff --staged --quiet || (git commit -m "Update news.json" && git push)
