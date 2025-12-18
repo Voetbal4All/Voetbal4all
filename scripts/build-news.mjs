@@ -43,6 +43,36 @@ function makeKey(obj) {
 
 const allItems = [];
 
+function countryFromSourceName(name) {
+  const n = (name || "").toLowerCase();
+
+  // België
+  if (n.includes("sporza") || n.includes("hln")) return "BE";
+
+  // Nederland
+  if (n.includes("voetbal international") || n.includes("nos")) return "NL";
+
+  // UK
+  if (n.includes("bbc") || n.includes("guardian") || n.includes("sky sports")) return "UK";
+
+  // US
+  if (n.includes("espn")) return "US";
+
+  // Internationaal
+  if (n.includes("uefa") || n.includes("fifa")) return "INT";
+
+  return "INT";
+}
+
+function flagFromCountry(code) {
+  switch (code) {
+    case "BE": return "🇧🇪";
+    case "NL": return "🇳🇱";
+    case "UK": return "🇬🇧";
+    case "US": return "🇺🇸";
+    default: return "🌍";
+  }
+}
 for (const feed of feeds) {
   try {
     const result = await parser.parseURL(feed.url);
@@ -50,22 +80,30 @@ for (const feed of feeds) {
     const perFeedLimit = feed.limit || 5;
     const items = (result.items || []).slice(0, perFeedLimit);
 
-    items.forEach((item) => {
-      const title = cleanText(item.title);
-      const link = item.link || item.guid || null;
+items.forEach((item) => {
+  const title = cleanText(item.title);
+  const link = item.link || item.guid || null;
 
-      const sourceSlug = feed.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-      
-      allItems.push({
-        type: "rss",
-        source: feed.name,
-        sourceSlug,
-        title: title || "Zonder titel",
-        link,
-        summary: cleanText(item.contentSnippet || item.content || ""),
-        publishedAt: pickDate(item),
-      });
-    });
+  const sourceSlug = feed.name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
+  const country = countryFromSourceName(feed.name);
+  const flag = flagFromCountry(country);
+
+  allItems.push({
+    type: "rss",
+    source: feed.name,
+    sourceSlug,
+    country,
+    flag,
+    title: title || "Zonder titel",
+    link,
+    summary: cleanText(item.contentSnippet || item.content || ""),
+    publishedAt: pickDate(item),
+  });
+});
   } catch (err) {
     console.error("Fout bij feed:", feed.name, err.message);
   }
