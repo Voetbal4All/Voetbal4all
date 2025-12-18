@@ -361,7 +361,10 @@
           const summary = item.summary || item.teaser || "";
           const publishedRaw = item.publishedAt || item.datum || null;
           const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
-
+            // NIEUW: land + vlag uit news.json (fallback = 📰)
+          const country = item.country || "";
+          const flag = item.flag || "📰";
+          
           // Land/flag ondersteunen voor beide formaten:
           // RSS: item.country / item.flag
           // Demo: item.land
