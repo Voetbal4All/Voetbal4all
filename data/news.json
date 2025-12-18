@@ -1,27 +1,38 @@
 {
-  "generatedAt": "2025-12-18T19:42:42.544Z",
+  "generatedAt": "2025-12-18T20:00:58.164Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Simpele avond FC Twente, RKC leidt, AZ leeft toe naar aftrap",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-conference-league",
-      "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
-      "publishedAt": "2025-12-18T19:27:36.000Z"
-    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "UK",
       "flag": "🇬🇧",
-      "title": "Best player? Favourite to win WSL? Emma Sanders Q&A",
-      "link": "https://www.bbc.com/sport/football/articles/cd74j2v5xgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "As women's domestic and European football takes a pause for the winter break, we asked football fans on Reddit for their questions for BBC Sport reporter Emma Sanders.",
-      "publishedAt": "2025-12-18T19:00:57.000Z"
+      "title": "Henry honoured with Lifetime Achievement award",
+      "link": "https://www.bbc.com/sport/football/articles/c7vmje07mjro?at_medium=RSS&at_campaign=rss",
+      "summary": "Thierry Henry is honoured with the Lifetime Achievement award at BBC Sports Personality of the Year on Thursday.",
+      "publishedAt": "2025-12-18T19:48:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: RKC maakt gehakt van HSC'21, AZ leeft toe naar aftrap",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-conference-league",
+      "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
+      "publishedAt": "2025-12-18T19:45:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Twente bekert verder ondanks drie tegentreffers bij Spakenburg",
+      "link": "https://www.vi.nl/nieuws/twente-bekert-verder-ondanks-drie-tegentreffers-bij-spakenburg",
+      "summary": "FC Twente is een ronde verder in de Eurojackpot KNVB Beker. De Tukkers wonnen donderdagavond relatief eenvoudig op bezoek bij Spakenburg, dat de hoop op een nieuw bekersprookje zoals in 2023 – toen ze de halve finale haalden – zo al voor de kerst moet staken.",
+      "publishedAt": "2025-12-18T19:44:58.000Z"
     },
     {
       "type": "rss",
@@ -154,17 +165,6 @@
       "link": "https://www.vi.nl/nieuws/ac-milan-met-arabische-spelersnamen-op-shirt-voor-halve-finale-supercoppa",
       "summary": "AC Milan speelt donderdagavond tegen Napoli in de halve finale van de Supercoppa Italiana. Dat gebeurt niet in Rome, maar in Riyad, de hoofdstad van Saoedi-Arabië. Daarom heeft de topclub speciale shirts laten maken.",
       "publishedAt": "2025-12-18T18:06:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Gabriel Jesus wil bij Arsenal blijven: 'We kunnen de slapende reus wakker maken'",
-      "link": "https://www.vi.nl/nieuws/gabriel-jesus-wil-bij-arsenal-blijven-we-kunnen-de-slapende-reus-wakker-maken",
-      "summary": "Gabriel Jesus is eindelijk weer fit en voelt dat zijn tijd bij Arsenal nog niet voorbij is. Dat vertelt de spits in gesprek met The Players' Tribune.",
-      "publishedAt": "2025-12-18T17:37:11.000Z"
     },
     {
       "type": "rss",
