@@ -4,16 +4,24 @@
   <meta charset="UTF-8" />
   <title>Voetbal4All - Artikels & stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
 <div class="page">
 
-  <!-- NAVBAR -->
+  <!-- =======================
+       NAVBAR
+       ======================= -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
+
         <a href="index.html" class="brand">
           <div class="brand-mark">V4</div>
           <div>
@@ -22,100 +30,105 @@
           </div>
         </a>
 
-       <nav class="nav-links">
-  <a href="index.html" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
-    </div>
-  </div>
+          <!-- EVENTS -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stages & kampen</a>
+              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
+              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+            </div>
+          </div>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
 
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
+          <!-- SPORTIEF -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
 
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
+          <!-- VOETBAL4ALL -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
 
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor & Ads</span>
+          </a>
+        </nav>
 
         <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
 
+  <!-- =======================
+       CONTENT
+       ======================= -->
   <main>
+
     <section class="section-main">
       <div class="shell">
 
-        <!-- KORTE INTRO -->
+        <!-- INTRO -->
         <article class="card" style="margin-bottom:12px; max-width:900px;">
           <div class="card-header">
             <div>
               <div class="card-caption">Artikels</div>
-              <div class="card-title">Stories, team/vrijwilliger in de kijker &amp; analyses</div>
+              <div class="card-title">Stories, interviews & analyses</div>
             </div>
-            <span class="pill-small">België · Nederland · Internationaal</span>
+            <span class="pill-small">BE · NL · Internationaal</span>
           </div>
           <p class="note">
-            Een verzameling artikels over clubs, trainers, spelers en vrijwilligers. 
-            Op deze pagina tonen we <strong>foto/flyer</strong> en <strong>vlag</strong> bij elk artikel. 
-            In de live versie kunnen clubs en redacteurs artikels aanleveren via hun account.
+            Verhalen over clubs, trainers, spelers en vrijwilligers.
+            Deze pagina wordt automatisch gevoed via geselecteerde voetbalbronnen.
           </p>
         </article>
 
-        <!-- GRID: LINKS ARTIKELS + FILTER · RECHTS INFO / ADS -->
-        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
+        <!-- GRID -->
+        <div class="lower-grid-layout"
+             style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
 
-          <!-- LINKERKOLOM: FILTERS + ARTIKELS -->
+          <!-- =======================
+               LINKERKOLOM
+               ======================= -->
           <div>
 
-            <!-- ZOEK- EN FILTERBALK -->
+            <!-- FILTERS -->
             <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
-              <input
-                type="text"
-                id="article-search-text"
-                class="search-input"
-                placeholder="Zoek op club, titel, thema, regio..."
-              />
+              <input id="article-search-text"
+                     type="text"
+                     class="search-input"
+                     placeholder="Zoek op titel, bron of thema..." />
+
               <div class="search-filters-row">
                 <select id="article-filter-country" class="search-select">
                   <option value="">Land (alles)</option>
@@ -123,81 +136,209 @@
                   <option value="NL">🇳🇱 Nederland</option>
                   <option value="INT">🌍 Internationaal</option>
                 </select>
+
                 <select id="article-filter-category" class="search-select">
                   <option value="">Categorie (alles)</option>
-                  <option value="team">Team in de kijker</option>
-                  <option value="vrijwilliger">Vrijwilliger in de kijker</option>
-                  <option value="analyse">Analyse / data</option>
+                  <option value="nieuws">Nieuws</option>
+                  <option value="analyse">Analyse</option>
                   <option value="interview">Interview</option>
-                  <option value="best-practice">Best practice clubwerking</option>
                 </select>
               </div>
+
               <div class="form-helper">
-                Filter artikels op land en categorie. De tekstzoeker kijkt in titel, intro en tags.
+                Filters werken op titel, samenvatting en bron.
               </div>
             </div>
 
-            <!-- OVERZICHT ARTIKELS: 3 KOLOMMEN -->
+            <!-- ARTIKELS -->
             <section class="section-main" style="padding-top:0;">
               <div class="card">
+
                 <div class="card-header">
                   <div>
                     <div class="card-caption">Overzicht</div>
-                    <div class="card-title">Laatste artikels &amp; verhalen</div>
+                    <div class="card-title">Laatste artikels</div>
                   </div>
-                  <span class="pill-small">3 per rij · met foto &amp; vlag</span>
+                  <span class="pill-small">Automatisch</span>
                 </div>
-
-                <p class="note">
-                  De beelden kunnen copyrightvrij of door AI gegenereerd zijn. In de live versie kunnen we hier 
-                  automatisch foto’s koppelen aan artikels.
-                </p>
 
                 <div id="article-list" class="ad-card-list ad-card-grid">
-                  <!-- Wordt gevuld via data/news.json -->
+                  <!-- Dynamisch via data/news.json -->
                 </div>
 
-                <p id="news-status" class="note" style="margin-top:10px; display:none;"></p>
+                <p id="news-status"
+                   class="note"
+                   style="margin-top:10px; display:none;"></p>
+
               </div>
             </section>
 
-          </div> <!-- einde linkerkolom -->
+          </div>
 
-          <!-- RECHTERKOLOM: UITLEG + ADVERTENTIES -->
+          <!-- =======================
+               RECHTERKOLOM
+               ======================= -->
           <aside>
-            ...
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Redactie</div>
+                  <div class="card-title">Artikels aanleveren</div>
+                </div>
+              </div>
+              <p class="note">
+                In de toekomst kunnen clubs en redacteurs hier zelf artikels publiceren
+                via hun Voetbal4All-account.
+              </p>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentie</div>
+                  <div class="card-title">Opleidingen & media</div>
+                </div>
+                <span class="pill-small">Partner</span>
+              </div>
+              <div class="ad-placeholder">
+                300 × 250 px<br>
+                <span class="ad-size">Training · coaching · media</span>
+              </div>
+            </article>
+
+            <article class="card" style="margin-top:12px;">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Advertentie</div>
+                  <div class="card-title">Drukwerk & visuals</div>
+                </div>
+                <span class="pill-small">Partner</span>
+              </div>
+              <div class="ad-placeholder">
+                Flyers · banners · clubwear<br>
+                <span class="ad-size">300 × 250 px</span>
+              </div>
+            </article>
+
           </aside>
 
         </div>
 
       </div>
     </section>
+
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
+  <!-- =======================
+       FOOTER
+       ======================= -->
+  <footer class="footer">
     <div class="shell">
       <div class="footer-grid">
         <div class="footer-brand">
           <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
           <div class="footer-legal">
             &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
           </div>
         </div>
         <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+          Footer advertentie / partner
         </div>
       </div>
     </div>
   </footer>
 
 </div>
+
+<!-- =======================
+     SCRIPTS
+     ======================= -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  const articleListEl = document.getElementById("article-list");
+  const statusEl = document.getElementById("news-status");
+
+  const searchInput = document.getElementById("article-search-text");
+  const filterCountry = document.getElementById("article-filter-country");
+  const filterCategory = document.getElementById("article-filter-category");
+
+  let articleCards = [];
+
+  function normalize(str) {
+    return (str || "").toLowerCase();
+  }
+
+  function filterArticles() {
+    const text = normalize(searchInput.value);
+    const country = filterCountry.value;
+    const category = filterCategory.value;
+
+    articleCards.forEach(card => {
+      let visible = true;
+
+      if (country && card.dataset.country && card.dataset.country !== country) visible = false;
+      if (category && card.dataset.category && card.dataset.category !== category) visible = false;
+
+      if (visible && text) {
+        const haystack = normalize(card.textContent);
+        if (!haystack.includes(text)) visible = false;
+      }
+
+      card.style.display = visible ? "" : "none";
+    });
+  }
+
+  async function loadNews() {
+    try {
+      const res = await fetch("data/news.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("news.json niet gevonden");
+
+      const data = await res.json();
+      const items = (data.items || []).slice(0, 20);
+
+      articleListEl.innerHTML = "";
+
+      items.forEach((item, i) => {
+        const card = document.createElement("article");
+        card.className = "ad-card";
+        card.dataset.country = item.country || "";
+        card.dataset.category = item.category || "";
+
+        card.innerHTML = `
+          <div class="home-article-media">
+            <div class="home-article-image">${item.source || "Nieuws"}</div>
+            <div class="home-article-flag"><span class="flag-badge">📰</span></div>
+          </div>
+          <div class="home-article-content">
+            <div class="article-meta">${item.source || ""}</div>
+            <h3 class="article-title">
+              <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+            </h3>
+            <p class="article-excerpt">${item.summary || ""}</p>
+          </div>
+        `;
+
+        articleListEl.appendChild(card);
+      });
+
+      articleCards = Array.from(document.querySelectorAll("#article-list .ad-card"));
+      filterArticles();
+
+    } catch (err) {
+      statusEl.style.display = "block";
+      statusEl.textContent = "Nieuws kon niet geladen worden.";
+      console.error(err);
+    }
+  }
+
+  searchInput.addEventListener("input", filterArticles);
+  filterCountry.addEventListener("change", filterArticles);
+  filterCategory.addEventListener("change", filterArticles);
+
+  loadNews();
+</script>
 
 </body>
 </html>
