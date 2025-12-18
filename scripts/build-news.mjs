@@ -44,4 +44,4 @@ fs.writeFileSync(
   JSON.stringify({ items: limitedItems }, null, 2)
 );
 
-console.log("news.json gegenereerd:", allItems.length, "items");
+console.log("news.json gegenereerd:", limitedItems.length, "items (max " + maxItems + ")");
