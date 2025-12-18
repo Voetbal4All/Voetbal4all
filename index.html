@@ -579,7 +579,9 @@
         card.className = "card home-article-card--compact";
 
         card.innerHTML = `
-          const sourceLogo = getSourceLogo(source);
+          <div class="home-article-media-thumb">
+            <img src="${sourceLogo}" alt="${source}" loading="lazy">
+          </div>
           <div class="home-article-content">
             <div class="article-meta">${source}</div>
             <h3 class="article-title">
@@ -588,7 +590,6 @@
             <p class="article-excerpt">${summary}</p>
           </div>
         `;
-
         homeListEl.appendChild(card);
       });
 
