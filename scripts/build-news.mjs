@@ -16,7 +16,7 @@ for (const feed of feeds) {
   try {
     const result = await parser.parseURL(feed.url);
 
-    result.items.slice(0, feed.limit || 5).forEach(item => {
+    result.items.slice(0, 5).forEach(item => {
       allItems.push({
         source: feed.name,
         title: item.title,
