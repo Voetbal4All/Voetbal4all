@@ -1,20 +1,144 @@
-[
-  {
-    "id": 1,
-    "titel": "Spectaculaire topper in de Jupiler Pro League",
-    "land": "BE",
-    "competitie": "Jupiler Pro League",
-    "datum": "2025-11-24",
-    "teaser": "Een spectaculaire wedstrijd met veel doelpunten en spanning tot de laatste minuut.",
-    "image": "assets/img/news/news_1.png"
-  },
-  {
-    "id": 2,
-    "titel": "Nieuwe talenten breken door in de Eredivisie",
-    "land": "NL",
-    "competitie": "Eredivisie",
-    "datum": "2025-11-24",
-    "teaser": "Jonge spelers laten zich opmerken in de Nederlandse hoogste afdeling.",
-    "image": "assets/img/news/news_2.png"
-  }
-]
+{
+  "items": [
+    {
+      "source": "Voetbal International",
+      "title": "VI Live: FC Twente loopt weg bij Spakenburg, AZ mikt op plek in topacht",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-conference-league",
+      "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
+      "publishedAt": "Thu, 18 Dec 2025 20:07:03 +0100"
+    },
+    {
+      "source": "BBC Sport - Football",
+      "title": "Best player? Favourite to win WSL? Emma Sanders Q&A",
+      "link": "https://www.bbc.com/sport/football/articles/cd74j2v5xgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "As women's domestic and European football takes a pause for the winter break, we asked football fans on Reddit for their questions for BBC Sport reporter Emma Sanders.",
+      "publishedAt": "Thu, 18 Dec 2025 19:00:57 GMT"
+    },
+    {
+      "source": "Voetbal International",
+      "title": "Marokko wint Arab Cup na weergaloze treffer Tannane",
+      "link": "https://www.vi.nl/nieuws/marokko-wint-arab-cup-na-weergaloze-treffer-tannane",
+      "summary": "Prachtig scoren is fantastisch, prachtig scoren voor je land misschien nog wel beter. Wat nog beter is? Prachtig scoren voor je land in een finale. Het overkwam donderdag Oussama Tannane, met een uitgebreid verleden in Nederland.",
+      "publishedAt": "Thu, 18 Dec 2025 19:58:39 +0100"
+    },
+    {
+      "source": "BBC Sport - Football",
+      "title": "Salah seeks Afcon success with Egypt as Morocco eye home glory",
+      "link": "https://www.bbc.com/sport/football/articles/c201749690lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Two of African football's biggest names, Achraf Hakimi and Mohamed Salah, are hoping to lead their nations to glory as the Africa Cup of Nations gets ready to kick off in Morocco.",
+      "publishedAt": "Thu, 18 Dec 2025 18:47:04 GMT"
+    },
+    {
+      "source": "Voetbal International",
+      "title": "Hoefkens in beeld bij Genk: vertrek onbespreekbaar voor NAC",
+      "link": "https://www.vi.nl/pro/hoefkens-in-beeld-bij-genk-vertrek-onbespreekbaar-voor-nac",
+      "summary": "Carl Hoefkens (47) is in beeld als hoofdtrainer van Racing Genk. De oefenmeester van NAC Breda zou zelf wel oren hebben naar de vacante functie bij de Belgische topclub. Dat bevestigen ingewijden.",
+      "publishedAt": "Thu, 18 Dec 2025 19:39:46 +0100"
+    },
+    {
+      "source": "BBC Sport - Football",
+      "title": "Sutton's predictions v Zambian rapper Sampa the Great",
+      "link": "https://www.bbc.com/sport/football/articles/cj4qyrxggglo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport football expert Chris Sutton takes on Zambian rapper Sampa the Great - and AI - with his predictions for this weekend's Premier League fixtures.",
+      "publishedAt": "Thu, 18 Dec 2025 18:37:13 GMT"
+    },
+    {
+      "source": "Sky Sports - Football",
+      "title": "World Darts Championship: Van Gerwen, Sherrock headline bumper evening LIVE!",
+      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
+      "summary": "",
+      "publishedAt": "Thu, 18 Dec 2025 18:32:00 GMT"
+    },
+    {
+      "source": "ESPN - Soccer",
+      "title": "Will another injury derail Adams' World Cup prep for USMNT?",
+      "link": "https://www.espn.com/soccer/story/_/id/47335912/will-another-injury-derail-tyler-adamsworld-cup-prep-usmnt",
+      "summary": "Tyler Adams has been unlucky with injuries, and an MCL sprain suffered on Monday will rob him of valuable prep time ahead of next summer's World Cup.",
+      "publishedAt": "Thu, 18 Dec 2025 13:31:27 EST"
+    },
+    {
+      "source": "ESPN - Soccer",
+      "title": "Coffee talk: Pep invites Brentford boss to debate",
+      "link": "https://www.espn.com/soccer/story/_/id/47339469/pep-guardiola-invites-keith-andrews-coffee-discuss-man-city-vs-brentford-controversy",
+      "summary": "Pep Guardiola has invited Keith Andrews to \"discuss\" the Brentford boss's claim that Abdukodir Khusanov should have been sent off",
+      "publishedAt": "Thu, 18 Dec 2025 13:31:02 EST"
+    },
+    {
+      "source": "ESPN - Soccer",
+      "title": "Kane: Only World Cup win would satisfy England",
+      "link": "https://www.espn.com/soccer/story/_/id/47335377/harry-kane-only-world-cup-trophy-satisfy-england-fans",
+      "summary": "Harry Kane has said that only a win at next year's FIFA World Cup will satisfy both the England team and the whole country.",
+      "publishedAt": "Thu, 18 Dec 2025 13:31:02 EST"
+    },
+    {
+      "source": "ESPN - Soccer",
+      "title": "NWSLPA opposes cap plan for stars like Rodman",
+      "link": "https://www.espn.com/soccer/story/_/id/47347061/nwslpa-puts-brakes-new-salary-cap-proposal-star-players",
+      "summary": "The NWSLPA has expressed opposition to an NWSL proposal to create a new rule to pay star players outside of the cap, further clouding the league's next steps in competing with top European clubs for elite players such as Trinity Rodman.",
+      "publishedAt": "Thu, 18 Dec 2025 13:31:02 EST"
+    },
+    {
+      "source": "ESPN - Soccer",
+      "title": "Finalissima pits Messi vs. Yamal for first time",
+      "link": "https://www.espn.com/soccer/story/_/id/47345295/argentina-spain-finalissima-pits-lionel-messi-lamine-yamal-march-27",
+      "summary": "Spain and Argentina will compete in the Finalissima on March 27 in a match which will pit Lamine Yamal against Lionel Messi for the first time.",
+      "publishedAt": "Thu, 18 Dec 2025 13:31:01 EST"
+    },
+    {
+      "source": "Voetbal International",
+      "title": "AC Milan met Arabische spelersnamen op shirt voor halve finale Supercoppa",
+      "link": "https://www.vi.nl/nieuws/ac-milan-met-arabische-spelersnamen-op-shirt-voor-halve-finale-supercoppa",
+      "summary": "AC Milan speelt donderdagavond tegen Napoli in de halve finale van de Supercoppa Italiana. Dat gebeurt niet in Rome, maar in Riyad, de hoofdstad van Saoedi-Arabië. Daarom heeft de topclub speciale shirts laten maken.",
+      "publishedAt": "Thu, 18 Dec 2025 19:06:38 +0100"
+    },
+    {
+      "source": "Voetbal International",
+      "title": "Gabriel Jesus wil bij Arsenal blijven: 'We kunnen de slapende reus wakker maken'",
+      "link": "https://www.vi.nl/nieuws/gabriel-jesus-wil-bij-arsenal-blijven-we-kunnen-de-slapende-reus-wakker-maken",
+      "summary": "Gabriel Jesus is eindelijk weer fit en voelt dat zijn tijd bij Arsenal nog niet voorbij is. Dat vertelt de spits in gesprek met The Players' Tribune.",
+      "publishedAt": "Thu, 18 Dec 2025 18:37:11 +0100"
+    },
+    {
+      "source": "Sky Sports - Football",
+      "title": "Fernandes on his Man Utd loyalty: I want to get club back to where they were",
+      "link": "https://www.skysports.com/football/news/12040/13485294/man-utd-captain-bruno-fernandes-on-his-loyalty-wanting-to-win-trophies-and-leadership",
+      "summary": "Bruno Fernandes has discussed his loyalty to Manchester United, saying he believes the club can return to former glories and win multiple trophies.",
+      "publishedAt": "Thu, 18 Dec 2025 17:30:00 GMT"
+    },
+    {
+      "source": "Sky Sports - Football",
+      "title": "Debutants Munyua and Sakai stun at World Championship as De Decker hits out at crowd",
+      "link": "https://www.skysports.com/darts/news/12040/13485321/world-darts-championship-david-munyua-beats-mike-de-decker-as-fellow-debutant-motomu-sakai-also-wins-in-dramatic-alexandra-palace-scenes",
+      "summary": "World Darts Championship debutants David Munyua and Motomu Sakai delivered stunning upset victories amid dramatic first-round scenes at Alexandra Palace on Thursday.",
+      "publishedAt": "Thu, 18 Dec 2025 16:58:00 GMT"
+    },
+    {
+      "source": "Sky Sports - Football",
+      "title": "'Kempton dies, the King George dies' | Unbridled",
+      "link": "https://www.skysports.com/racing/news/12040/13485311/king-george-vi-chase-kempton-closure-would-completely-change-race-says-matt-chapman-on-unbridled",
+      "summary": "The King George VI Chase will die with Kempton if the racecourse is closed to make way for housing developments, according to Matt Chapman.",
+      "publishedAt": "Thu, 18 Dec 2025 16:31:00 GMT"
+    },
+    {
+      "source": "BBC Sport - Football",
+      "title": "West Ham sack Skinner after one win in 11 games",
+      "link": "https://www.bbc.com/sport/football/articles/c87lqgp4l50o?at_medium=RSS&at_campaign=rss",
+      "summary": "West Ham sack head coach Rehanne Skinner after winning only one of their opening 11 Women's Super League games this season.",
+      "publishedAt": "Thu, 18 Dec 2025 15:54:58 GMT"
+    },
+    {
+      "source": "BBC Sport - Football",
+      "title": "Worst start in Old Firm history - how does Celtic manager Nancy compare?",
+      "link": "https://www.bbc.com/sport/articles/c0q59jwqgk2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Wilfried Nancy is the first Old Firm boss to lose his opening four matches - can he recover Celtic's season and survive?",
+      "publishedAt": "Thu, 18 Dec 2025 14:48:17 GMT"
+    },
+    {
+      "source": "The Guardian Football",
+      "title": "Rehanne Skinner sacked as West Ham manager with club second-bottom of WSL",
+      "link": "https://www.theguardian.com/football/2025/dec/18/rehanne-skinner-west-ham-manager-exit-wsl",
+      "summary": "West Ham have one win from 11 league game this season\n\nSkinner has been in charge of club since July 2023\n\nWest Ham have sacked their women’s team manager, Rehanne Skinner, with the club second-bottom of the Women’s Super League. A statement said “recent results have not matched expectations” and that a change was deemed necessary.\nSkinner had been in charge since July 2023 and departs after securing one win from 11 WSL matches this season. The news comes three days before West Ham host Manchester City in the League Cup quarter-finals.\n Continue reading...",
+      "publishedAt": "Thu, 18 Dec 2025 13:46:18 GMT"
+    }
+  ]
+}
