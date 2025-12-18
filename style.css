@@ -566,6 +566,19 @@ footer {
   line-height: 1.5;
 }
 
+/* Verberg lege AdSense slots om "gaten" te vermijden */
+.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
+}
+
+/* Maak echte AdSense containers clean (geen placeholder look) */
+.ad-slot-header,
+.ad-infeed,
+.ad-vertical {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
 /* =======================
    ARTIKELS / OVERZICHTEN
    ======================= */
