@@ -548,15 +548,18 @@ footer {
 
 /* Generieke AdSense container */
 .ad-slot {
-  margin: 10px auto;
+  margin: 10px auto;      /* subtieler */
   max-width: 1100px;
-  opacity: 1;
+  opacity: 0.96;          /* net iets minder dominant */
 }
 
+.ad-slot-header {
+  opacity: 0.97;
+}
 /* Header-ad onder live banner, gewoon in de flow (niet sticky) */
 .sticky-ad-header {
   position: static;
-  background: #050814;
+  background: transparent;  /* subtieler: geen donkere balk */
   padding: 2px 0;
 }
 
@@ -584,13 +587,11 @@ footer {
 
 /* (Optioneel placeholder-styling, maar niet op echte AdSense containers) */
 .ad-vertical {
-  border-radius: var(--radius-lg);
-  border: 1px dashed rgba(255, 255, 255, 0.18);
-  padding: 12px 8px;
-  font-size: 11px;
-  color: var(--muted);
-  background: rgba(2, 3, 8, 0.8);
-  min-height: 220px;
+  margin-top: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.06); /* subtiel i.p.v. dashed */
+  background: transparent;
+  padding: 4px 0;                            /* klein, niet blokkerig */
 }
 
 .ad-label {
@@ -626,7 +627,8 @@ footer {
 
 /* In-content AdSense: compacter en rustiger */
 .ad-infeed {
-  margin: 10px 0;
+  margin: 10px 0;          /* ok */
+  padding: 0;              /* expliciet */
   display: flex;
   justify-content: center;
 }
@@ -635,12 +637,14 @@ footer {
 .ad-infeed .adsbygoogle {
   width: 100%;
   max-width: 1100px;
-  max-height: 200px;
+  max-height: 220px;   /* iets realistischer voor auto-format */
+  overflow: hidden;
 }
 
 /* Subtiele rounding voor grote AdSense blocks */
 .ad-slot .adsbygoogle,
-.ad-infeed .adsbygoogle {
+.ad-infeed .adsbygoogle,
+.ad-vertical .adsbygoogle {
   border-radius: 14px;
   overflow: hidden;
 }
