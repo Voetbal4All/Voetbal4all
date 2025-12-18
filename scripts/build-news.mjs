@@ -35,6 +35,8 @@ allItems.sort(
     new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)
 );
 
+const limitedItems = allItems.slice(0, maxItems);
+
 fs.mkdirSync("data", { recursive: true });
 
 fs.writeFileSync(
