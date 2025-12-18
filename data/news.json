@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titel": "Spectaculaire topper in de Jupiler Pro League",
+    "land": "BE",
+    "competitie": "Jupiler Pro League",
+    "datum": "2025-11-24",
+    "teaser": "Een spectaculaire wedstrijd met veel doelpunten en spanning tot de laatste minuut.",
+    "image": "assets/img/news/news_1.png"
+  },
+  {
+    "id": 2,
+    "titel": "Nieuwe talenten breken door in de Eredivisie",
+    "land": "NL",
+    "competitie": "Eredivisie",
+    "datum": "2025-11-24",
+    "teaser": "Jonge spelers laten zich opmerken in de Nederlandse hoogste afdeling.",
+    "image": "assets/img/news/news_2.png"
+  }
+]
