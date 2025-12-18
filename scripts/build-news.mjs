@@ -41,6 +41,29 @@ function makeKey(obj) {
   return `title:${obj.source}|${obj.title}`.toLowerCase();
 }
 
+function metaFromSource(sourceName) {
+  const s = (sourceName || "").trim().toLowerCase();
+
+  // België
+  if (s.includes("sporza")) return { country: "BE", flag: "🇧🇪" };
+  if (s.includes("hln")) return { country: "BE", flag: "🇧🇪" };
+
+  // Nederland
+  if (s.includes("voetbal international")) return { country: "NL", flag: "🇳🇱" };
+  if (s.includes("nos")) return { country: "NL", flag: "🇳🇱" };
+
+  // Internationaal
+  if (s.includes("bbc")) return { country: "INT", flag: "🌍" };
+  if (s.includes("the guardian")) return { country: "INT", flag: "🌍" };
+  if (s.includes("sky sports")) return { country: "INT", flag: "🌍" };
+  if (s.includes("espn")) return { country: "INT", flag: "🌍" };
+  if (s.includes("uefa")) return { country: "INT", flag: "🌍" };
+  if (s.includes("fifa")) return { country: "INT", flag: "🌍" };
+
+  // Default
+  return { country: "INT", flag: "🌍" };
+}
+
 const allItems = [];
 
 function countryFromSourceName(name) {
