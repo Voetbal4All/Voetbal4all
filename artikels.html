@@ -76,10 +76,14 @@
       const res = await fetch("data/news.json", { cache: "no-store" });
       if (!res.ok) throw new Error("news.json niet bereikbaar: " + res.status);
 
-      const data = await res.json();
-      const items = (data.items || []).slice(0, 20);
+      cconst data = await res.json();
 
-      articleListEl.innerHTML = "";
+      // Support 2 formaten:
+      // A) { items: [...] }  (RSS build)
+      // B) [ ... ]           (jouw huidige demo json)
+      const itemsRaw = Array.isArray(data) ? data : (data.items || []);
+      const items = itemsRaw.slice(0, 20);
+            articleListEl.innerHTML = "";
 
       items.forEach((item, idx) => {
         const id = "news-" + (idx + 1);
