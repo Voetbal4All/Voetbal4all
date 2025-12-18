@@ -87,11 +87,12 @@
 
       items.forEach((item, idx) => {
         const id = "news-" + (idx + 1);
-        const source = item.source || "Nieuws";
-        const title = item.title || "Zonder titel";
+        const source = item.source || item.competitie || "Nieuws";
+        const title = item.title || item.titel || "Zonder titel";
         const link = item.link || "#";
-        const summary = item.summary || "";
-        const published = item.publishedAt ? new Date(item.publishedAt).toLocaleString() : "";
+        const summary = item.summary || item.teaser || "";
+        const publishedRaw = item.publishedAt || item.datum || null;
+        const published = publishedRaw ? new Date(publishedRaw).toLocaleDateString() : "";
 
         const tags = (source + " " + title + " " + summary).toLowerCase();
 
