@@ -1039,29 +1039,19 @@ footer {
    ======================= */
 
 @media (max-width: 900px) {
-  .navbar-inner {
-    height: 58px;
-  }
+  .navbar-inner { height: 58px; }
+  .nav-links { display: none; }
+  .nav-burger { display: block; }
 
-  .nav-links {
-    display: none; /* (Later kan hier een mobiel menu komen) */
-  }
-
-  .nav-burger {
-    display: block;
-  }
-
-  .lower-grid-layout {
+  /* Alleen de varianten aanpassen, niet alles */
+  .lower-grid-layout.grid-2,
+  .lower-grid-layout.grid-3,
+  .lower-grid-layout.grid-4 {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .ad-card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .footer-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
+  .ad-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 600px) {
