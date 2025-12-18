@@ -41,7 +41,7 @@ fs.mkdirSync("data", { recursive: true });
 
 fs.writeFileSync(
   "data/news.json",
-  JSON.stringify({ items: allItems }, null, 2)
+  JSON.stringify({ items: limitedItems }, null, 2)
 );
 
 console.log("news.json gegenereerd:", allItems.length, "items");
