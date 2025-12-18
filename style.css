@@ -589,9 +589,9 @@ footer {
 .ad-vertical {
   margin-top: 12px;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.06); /* subtiel i.p.v. dashed */
+  border: 0;
   background: transparent;
-  padding: 4px 0;                            /* klein, niet blokkerig */
+  padding: 0;
 }
 
 .ad-label {
