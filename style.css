@@ -734,7 +734,8 @@ footer {
 }
 
 .flag-badge {
-  display: inline-flex;
+   line-height: 1;
+   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
