@@ -375,7 +375,7 @@ if (country && country !== "BE" && country !== "NL") country = "INT";
 
 const flag =
   item.flag ||
-  (country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : (country ? "🌍" : "📰"));
+  (country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : country ? "🌍" : "📰");
 
 const category = item.category || "";
 const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
