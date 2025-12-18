@@ -115,12 +115,14 @@ items.forEach((item) => {
   const country = countryFromSourceName(feed.name);
   const flag = flagFromCountry(country);
 
+const meta = metaFromSource(feed.name);
+
   allItems.push({
     type: "rss",
     source: feed.name,
     sourceSlug,
-    country,
-    flag,
+    country: meta.country,
+    flag: meta.flag,
     title: title || "Zonder titel",
     link,
     summary: cleanText(item.contentSnippet || item.content || ""),
