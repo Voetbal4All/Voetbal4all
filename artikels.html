@@ -98,8 +98,7 @@
             </div>
             <p class="note">
               Een verzameling artikels over clubs, trainers, spelers en vrijwilligers.
-              Op deze pagina tonen we <strong>foto/flyer</strong> en <strong>vlag</strong> bij elk artikel.
-              In de live versie kunnen clubs en redacteurs artikels aanleveren via hun account.
+              Op deze pagina tonen we <strong>bronlogo</strong> en <strong>vlag</strong> bij elk artikel.
             </p>
           </article>
 
@@ -146,12 +145,11 @@
                       <div class="card-caption">Overzicht</div>
                       <div class="card-title">Laatste artikels &amp; verhalen</div>
                     </div>
-                    <span class="pill-small">3 per rij · met foto &amp; vlag</span>
+                    <span class="pill-small">3 per rij · met logo &amp; vlag</span>
                   </div>
 
                   <p class="note">
-                    De beelden kunnen copyrightvrij of door AI gegenereerd zijn. In de live versie kunnen we hier
-                    automatisch foto’s koppelen aan artikels.
+                    De feed komt uit <strong>data/news.json</strong> (GitHub Actions).
                   </p>
 
                   <div id="article-list" class="ad-card-list ad-card-grid">
@@ -178,20 +176,6 @@
                   In de live versie kunnen clubs, trainers en redacteurs zelf artikels aanleveren
                   via hun Voetbal4All-account.
                 </p>
-                <ul class="events-list">
-                  <li class="event-item">
-                    <div class="event-title">Team/vrijwilliger in de kijker</div>
-                    <div class="event-meta">Highlight je ploeg, vrijwilligers of medewerkers.</div>
-                  </li>
-                  <li class="event-item">
-                    <div class="event-title">Best practices delen</div>
-                    <div class="event-meta">Deel formats voor trainingen, communicatie en clubwerking.</div>
-                  </li>
-                  <li class="event-item">
-                    <div class="event-title">Data &amp; analyse</div>
-                    <div class="event-meta">Koppeling mogelijk met sportieve stats uit het sportief-luik.</div>
-                  </li>
-                </ul>
               </article>
 
               <article class="card" style="margin-top:12px;">
@@ -297,7 +281,7 @@
 
         let visible = true;
 
-        // Alleen filteren als de kaart effectief een waarde heeft (professionele default bij RSS)
+        // Alleen filteren als de kaart effectief een waarde heeft
         if (country && cardCountry && cardCountry !== country) visible = false;
         if (category && cardCategory && cardCategory !== category) visible = false;
 
@@ -326,35 +310,24 @@
 
     function getSourceLogo(source) {
       const s = (source || "").toLowerCase();
-    
-      if (s.includes("voetbal international") || s.includes("vi")) {
-        return "assets/img/sources/vi.png";
-      }
-      if (s.includes("sporza")) {
-        return "assets/img/sources/sporza.png";
-      }
-      if (s.includes("hln")) {
-        return "assets/img/sources/hln.png";
-      }
-      if (s.includes("nos")) {
-        return "assets/img/sources/nos.png";
-      }
-      if (s.includes("bbc")) {
-        return "assets/img/sources/bbc.png";
-      }
-      if (s.includes("guardian")) {
-        return "assets/img/sources/guardian.png";
-      }
-      if (s.includes("sky")) {
-        return "assets/img/sources/sky.png";
-      }
-      if (s.includes("espn")) {
-        return "assets/img/sources/espn.png";
-      }
-    
+      if (s.includes("voetbal international") || s.includes("vi")) return "assets/img/sources/vi.png";
+      if (s.includes("sporza")) return "assets/img/sources/sporza.png";
+      if (s.includes("hln")) return "assets/img/sources/hln.png";
+      if (s.includes("nos")) return "assets/img/sources/nos.png";
+      if (s.includes("bbc")) return "assets/img/sources/bbc.png";
+      if (s.includes("guardian")) return "assets/img/sources/guardian.png";
+      if (s.includes("sky")) return "assets/img/sources/sky.png";
+      if (s.includes("espn")) return "assets/img/sources/espn.png";
       return "assets/img/sources/default.png";
-    }    
-    
+    }
+
+    function getFlagFromCountry(country) {
+      if (country === "BE") return "🇧🇪";
+      if (country === "NL") return "🇳🇱";
+      if (country === "INT") return "🌍";
+      return "📰";
+    }
+
     // ----------------------------
     // RSS/NEWS JSON -> cards
     // ----------------------------
@@ -387,31 +360,28 @@
           const id = "news-" + (idx + 1);
 
           const source = item.source || item.competitie || "Nieuws";
-          const title = item.title || item.titel || "Zonder titel";
           const sourceLogo = getSourceLogo(source);
+
+          const title = item.title || item.titel || "Zonder titel";
           const link = item.link || "#";
           const summary = item.summary || item.teaser || "";
+
           const publishedRaw = item.publishedAt || item.datum || null;
           const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
-            // NIEUW: land + vlag uit news.json (fallback = 📰)
-          const country = item.country || "";
-          const flag = item.flag || "📰";
-          
-          // Land/flag ondersteunen voor beide formaten:
-          // RSS: item.country / item.flag
-          // Demo: item.land
+
+          // Land/flag (RSS: item.country / item.flag) (demo: item.land)
           let country = item.country || item.land || "";
           if (country && country !== "BE" && country !== "NL") country = "INT";
 
-          const flag = item.flag || (country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : (country ? "🌍" : "📰"));
+          const flag = item.flag || getFlagFromCountry(country);
 
-          // (Categorie voorlopig leeg, tenzij je later toevoegt in generator)
           const category = item.category || "";
           const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
 
           const card = document.createElement("article");
           card.className = "ad-card";
           card.id = id;
+
           card.dataset.articleId = String(idx + 1);
           card.dataset.country = country;
           card.dataset.category = category;
@@ -421,6 +391,9 @@
             <div class="home-article-media">
               <div class="home-article-image">
                 <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
+              </div>
+              <div class="home-article-flag">
+                <span class="flag-badge" title="${country || 'Internationaal'}">${flag}</span>
               </div>
             </div>
 
@@ -467,7 +440,7 @@
       } catch (err) {
         statusEl.style.display = "block";
         statusEl.textContent =
-          "Nieuws kon niet geladen worden. Controleer of data/news.json bestaat en of je GitHub workflow (RSS) gelopen heeft.";
+          "Nieuws kon niet geladen worden. Controleer of data/news.json bestaat en of je GitHub workflow gelopen heeft.";
         console.error(err);
       }
     }
