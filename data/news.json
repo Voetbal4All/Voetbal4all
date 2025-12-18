@@ -1,16 +1,60 @@
 {
-  "generatedAt": "2025-12-18T21:31:22.417Z",
+  "generatedAt": "2025-12-18T22:42:16.846Z",
   "items": [
     {
       "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Let Nancy cook and judge at end of season - Henry",
+      "link": "https://www.bbc.com/sport/football/articles/cn98pgq4v88o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thierry Henry urges Celtic's management and fans to give their new manager Wilfried Nancy more time, saying they must \"let him cook\" and judge him at the end of the season.",
+      "publishedAt": "2025-12-18T22:34:29.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Volendam dicht bij ontsnapping, AZ tegen tien man Jagiellonia",
+      "title": "Deze twee teams kan AZ loten in de tussenronde van de Conference League",
+      "link": "https://www.vi.nl/nieuws/deze-twee-teams-kan-az-loten-in-de-tussenronde-van-de-conference-league",
+      "summary": "AZ heeft zich donderdagavond geplaatst voor de tussenronde van de Conference League, waarin een tweeluik volgt met een tegenstander uit Armenië of Kosovo. FC Noah is een potentiële tegenstander in de volgende ronde, een weerzien met KF Drita behoort ook tot de mogelijkheden.",
+      "publishedAt": "2025-12-18T22:32:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Mijnans en Smit laken AZ na Europese domper: 'Eigenlijk gewoon slecht'",
+      "link": "https://www.vi.nl/nieuws/mijnans-en-smit-laken-az-na-europese-domper-eigenlijk-gewoon-slecht",
+      "summary": "Sven Mijnans en Kees Smit waren niet tevreden met de remise van AZ tegen Jagiellonia Bialystok. De Alkmaarders verzekerden zich van Europese overwintering, maar het gevoel dat er meer in had gezeten, overheerste. Bij winst had AZ de tussenronde over mogen slaan.",
+      "publishedAt": "2025-12-18T22:22:42.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dit verdiende AZ in de competitiefase van de Conference League",
+      "link": "https://www.vi.nl/nieuws/dit-verdiende-az-in-de-competitiefase-van-de-conference-league",
+      "summary": "AZ vervolgt de Conference League in de tussenronde, de club uit Alkmaar sloot donderdagavond de competitiefase af als nummer veertien. VI zet op een rijtje wat AZ verdiende in de competitiefase van de Conference League.",
+      "publishedAt": "2025-12-18T22:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: FC Porto op voorsprong in bekertoernooi",
       "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-conference-league",
       "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
-      "publishedAt": "2025-12-18T21:27:24.000Z"
+      "publishedAt": "2025-12-18T22:19:13.000Z"
     },
     {
       "type": "rss",
@@ -18,32 +62,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Afgang Getafe in Copa del Rey, Athletic Bilbao ontsnapt aan blamage",
-      "link": "https://www.vi.nl/nieuws/afgang-getafe-in-copa-del-rey-athletic-bilbao-ontsnapt-aan-blamage",
-      "summary": "De Copa del Rey stelde donderdagavond niet teleur. Getafe verloor op bezoek bij Burgos FC dankzij een voormalig Eredivisie-aanvaller, terwijl Athletic Bilbao ontsnapte aan een blamage bij een derdedivisionist.",
-      "publishedAt": "2025-12-18T21:24:16.000Z"
+      "title": "AZ op Rapport: aanvallers zakken door het ijs, Penetra de beste",
+      "link": "https://www.vi.nl/nieuws/az-op-rapport-aanvallers-zakken-door-het-ijs-penetra-de-beste",
+      "summary": "AZ overtuigde niet in de laatste wedstrijd van de competitiefase van de Conference League. Op eigen veld eindigde het duel met Jagiellonia Bialystok in een bloedeloos gelijkspel. De aanvallers overtuigden niet in Alkmaar. De rapportcijfers.",
+      "publishedAt": "2025-12-18T22:16:54.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Coffee talk: Pep invites Brentford boss to debate",
-      "link": "https://www.espn.com/soccer/story/_/id/47339469/pep-guardiola-invites-keith-andrews-coffee-discuss-man-city-vs-brentford-controversy",
-      "summary": "Pep Guardiola has invited Keith Andrews to \"discuss\" the Brentford boss's claim that Abdukodir Khusanov should have been sent off",
-      "publishedAt": "2025-12-18T21:19:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kane: Only World Cup win would satisfy England",
-      "link": "https://www.espn.com/soccer/story/_/id/47335377/harry-kane-only-world-cup-trophy-satisfy-england-fans",
-      "summary": "Harry Kane has said that only a win at next year's FIFA World Cup will satisfy both the England team and the whole country.",
-      "publishedAt": "2025-12-18T21:19:30.000Z"
+      "title": "Crystal Palace in Conference playoffs after blowing lead against KuPS",
+      "link": "https://www.theguardian.com/football/2025/dec/18/crystal-palace-kups-conference-league-match-report",
+      "summary": "The bad news for Oliver Glasner is that Crystal Palace’s marathon season is about to get even longer. A thrilling draw against Finnish side KuPS in their 27th game of the campaign means that they must now contest a two-leg playoff at the end of February after finishing outside the top eight in the Conference League table. Having selected an entirely different starting lineup that included four teenagers from the side that lost to Manchester City at the weekend, Glasner saw his second string impress as Christantus Uche gave them a deserved lead at half-time. Continue reading...",
+      "publishedAt": "2025-12-18T22:03:16.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +87,29 @@
       "title": "Finalissima pits Messi vs. Yamal for first time",
       "link": "https://www.espn.com/soccer/story/_/id/47345295/argentina-spain-finalissima-pits-lionel-messi-lamine-yamal-march-27",
       "summary": "Spain and Argentina will compete in the Finalissima on March 27 in a match which will pit Lamine Yamal against Lionel Messi for the first time.",
-      "publishedAt": "2025-12-18T21:19:29.000Z"
+      "publishedAt": "2025-12-18T21:57:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Coffee talk: Pep invites Brentford boss to debate",
+      "link": "https://www.espn.com/soccer/story/_/id/47339469/pep-guardiola-invites-keith-andrews-coffee-discuss-man-city-vs-brentford-controversy",
+      "summary": "Pep Guardiola has invited Keith Andrews to \"discuss\" the Brentford boss's claim that Abdukodir Khusanov should have been sent off",
+      "publishedAt": "2025-12-18T21:57:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kane: Only World Cup win would satisfy England",
+      "link": "https://www.espn.com/soccer/story/_/id/47335377/harry-kane-only-world-cup-trophy-satisfy-england-fans",
+      "summary": "Harry Kane has said that only a win at next year's FIFA World Cup will satisfy both the England team and the whole country.",
+      "publishedAt": "2025-12-18T21:57:43.000Z"
     },
     {
       "type": "rss",
@@ -65,18 +120,40 @@
       "title": "Højlund fires Napoli past Milan in Supercoppa semi",
       "link": "https://www.espn.com/soccer/report/_/gameId/758975",
       "summary": "A goal by Rasmus Højlund helped Napoli book a place in the Italian Supercoppa final with a 2-0 victory over AC Milan.",
-      "publishedAt": "2025-12-18T21:19:29.000Z"
+      "publishedAt": "2025-12-18T21:57:42.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "RKC verpulvert Derde Divisonist HSC, De Treffers ook naar achtste finale",
-      "link": "https://www.vi.nl/nieuws/rkc-verpulvert-derde-divisonist-hsc-de-treffers-ook-naar-achtste-finale",
-      "summary": "RKC Waalwijk mag zich melden in de achtste finale van de Eurojackpot KNVB Beker. De Brabanders lieten geen spaan heel van Derde Divisionist HSC'21. De Treffers plaatste zich ondertussen als eerste amateurclub voor de volgende ronde, terwijl Volendam zwijnde tegen Genemuiden.",
-      "publishedAt": "2025-12-18T20:59:17.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "FIFA only harming itself with absurd World Cup ticket prices",
+      "link": "https://www.espn.com/soccer/story/_/id/47338572/fifa-only-harming-absurd-world-cup-ticket-prices",
+      "summary": "FIFA's sky-high ticket prices for next summer's World Cup could come at the cost of the soul of the game: the fans who make it such a special event.",
+      "publishedAt": "2025-12-18T21:57:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "HUGE upset on the cards? | Tatsunami wins first set against MVG",
+      "link": "https://www.skysports.com/watch/video/13485394/world-darts-championship-tatsunami-wins-first-set-against-mvg",
+      "summary": "Mitsuhiko Tatsunami takes the first set against Michael van Gerwen in their first round World Championship match.",
+      "publishedAt": "2025-12-18T21:43:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "PL Predictions: Liverpool to shutout 'relegation level' Spurs attack",
+      "link": "https://www.skysports.com/football/news/12040/13485317/premier-league-predictions-and-best-bets-liverpool-to-shutout-relegation-level-spurs-attack-and-13-1-weekend-treble",
+      "summary": "Our football betting expert Jones Knows provides his insight across the Premier League card and tips up a 13/1 weekend treble with Sky Bet.",
+      "publishedAt": "2025-12-18T21:00:00.000Z"
     },
     {
       "type": "rss",
@@ -88,17 +165,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c4g4d2zllvvo?at_medium=RSS&at_campaign=rss",
       "summary": "England forward Michelle Agyemang is named BBC Young Sports Personality of the Year 2025.",
       "publishedAt": "2025-12-18T20:57:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Napoli stuurt AC Milan via Neres en Højlund naar huis",
-      "link": "https://www.vi.nl/nieuws/napoli-stuurt-ac-milan-via-neres-en-h-jlund-naar-huis",
-      "summary": "Napoli heeft donderdagavond de finale van de Italiaanse Super Cup bereikt ten koste van AC Milan. Het duel in Saoedi-Arabië werd opengebroken door ex-Ajacied David Neres en eindigde in 2-0.",
-      "publishedAt": "2025-12-18T20:56:00.000Z"
     },
     {
       "type": "rss",
@@ -124,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dit staat er voor AZ op het spel op de slotdag van de Conference League",
-      "link": "https://www.vi.nl/nieuws/hier-zit-de-spanning-in-de-conference-league-en-dit-staat-er-voor-az-op-het-spel",
-      "summary": "AZ maakt zich op voor de laatste speelronde van de Conference League. De Alkmaarders kunnen de volgende ronde ruiken, maar zijn daar nog niet helemaal zeker van. In het meest onwaarschijnlijke geval kan de ploeg van Maarten Martens zelfs nog uitgeschakeld worden.",
-      "publishedAt": "2025-12-18T20:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -150,21 +205,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Van Gerwen in action after Chisnall beats Sherrock LIVE!",
+      "title": "World Darts Championship: Ratajski vs Toylo after MVG drama LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-18T18:32:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Will another injury derail Adams' World Cup prep for USMNT?",
-      "link": "https://www.espn.com/soccer/story/_/id/47335912/will-another-injury-derail-tyler-adamsworld-cup-prep-usmnt",
-      "summary": "Tyler Adams has been unlucky with injuries, and an MCL sprain suffered on Monday will rob him of valuable prep time ahead of next summer's World Cup.",
-      "publishedAt": "2025-12-18T18:31:27.000Z"
     },
     {
       "type": "rss",
@@ -176,50 +220,6 @@
       "link": "https://www.skysports.com/boxing/news/12040/13485180/jake-paul-vs-anthony-joshua-british-heavyweight-star-weighs-inside-245lbs-limit-for-fight-against-youtube-star",
       "summary": "Anthony Joshua has successfully made the weight limit for his fight against Jake Paul but will boast an almost two-stone advantage over the YouTuber-turned-boxer.",
       "publishedAt": "2025-12-18T18:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fernandes on his Man Utd loyalty: I want to get club back to where they were",
-      "link": "https://www.skysports.com/football/news/12040/13485294/man-utd-captain-bruno-fernandes-on-his-loyalty-wanting-to-win-trophies-and-leadership",
-      "summary": "Bruno Fernandes has discussed his loyalty to Manchester United, saying he believes the club can return to former glories and win multiple trophies.",
-      "publishedAt": "2025-12-18T17:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Debutants Munyua and Sakai stun at World Championship as De Decker hits out at crowd",
-      "link": "https://www.skysports.com/darts/news/12040/13485321/world-darts-championship-david-munyua-beats-mike-de-decker-as-fellow-debutant-motomu-sakai-also-wins-in-dramatic-alexandra-palace-scenes",
-      "summary": "World Darts Championship debutants David Munyua and Motomu Sakai delivered stunning upset victories amid dramatic first-round scenes at Alexandra Palace on Thursday.",
-      "publishedAt": "2025-12-18T16:58:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Ham sack Skinner after one win in 11 games",
-      "link": "https://www.bbc.com/sport/football/articles/c87lqgp4l50o?at_medium=RSS&at_campaign=rss",
-      "summary": "West Ham sack head coach Rehanne Skinner after winning only one of their opening 11 Women's Super League games this season.",
-      "publishedAt": "2025-12-18T15:54:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Worst start in Old Firm history - how does Celtic manager Nancy compare?",
-      "link": "https://www.bbc.com/sport/articles/c0q59jwqgk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Wilfried Nancy is the first Old Firm boss to lose his opening four matches - can he recover Celtic's season and survive?",
-      "publishedAt": "2025-12-18T14:48:17.000Z"
     }
   ]
 }
