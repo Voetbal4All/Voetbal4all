@@ -510,9 +510,9 @@ footer {
 
 /* Generieke AdSense container */
 .ad-slot {
-  margin: 10px auto;     /* subtieler */
-  max-width: 1100px;     /* iets minder breed dan content */
-  opacity: 0.96;         /* net iets minder dominant */
+  margin: 10px auto;
+  max-width: 1100px;
+  opacity: 0.96;
 }
 
 /* Header-ad onder live banner, gewoon in de flow (niet sticky) */
@@ -537,14 +537,6 @@ footer {
   max-width: 320px;
 }
 
-/* Echte AdSense in-content advertentie */
-.ad-infeed {
-  margin: 18px 0;
-  padding: 0;
-  border: none;
-  background: transparent;
-}
-
 .ad-size {
   font-size: 10px;
   margin-top: 3px;
@@ -552,6 +544,7 @@ footer {
   display: block;
 }
 
+/* (Optioneel placeholder-styling, maar niet op echte AdSense containers) */
 .ad-vertical {
   border-radius: var(--radius-lg);
   border: 1px dashed rgba(255, 255, 255, 0.18);
@@ -596,9 +589,6 @@ footer {
 /* In-content AdSense: compacter en rustiger */
 .ad-infeed {
   margin: 10px 0;
-  padding: 0;
-  border: none;
-  background: transparent;
   display: flex;
   justify-content: center;
 }
@@ -606,30 +596,17 @@ footer {
 /* Beperk overdreven hoge creatives */
 .ad-infeed .adsbygoogle {
   width: 100%;
-  max-width: 1100px;     /* matcht met .ad-slot */
-  max-height: 200px;     /* minder hoog = subtieler */
-  border-radius: 14px;   /* zachtere look */
-  overflow: hidden;
+  max-width: 1100px;
+  max-height: 200px;
 }
 
-
+/* Subtiele rounding voor grote AdSense blocks */
 .ad-slot .adsbygoogle,
 .ad-infeed .adsbygoogle {
-  border-radius: 14px;        /* zachtere randen */
-  overflow: hidden;           /* ronding werkt ook bij creatives */
-}
-
-/* Geef de ad-zone een heel subtiele “container” zonder echte box-look */
-.ad-slot {
-  max-width: 1100px;          /* iets minder breed dan content */
-  opacity: 0.96;              /* net iets subtieler */
-}
-
-/* Subtiele rounding voor alle grote AdSense blocks */
-.ad-slot .adsbygoogle {
   border-radius: 14px;
   overflow: hidden;
 }
+
 /* =======================
    ARTIKELS / OVERZICHTEN
    ======================= */
