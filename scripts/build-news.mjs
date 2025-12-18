@@ -3,9 +3,12 @@ import Parser from "rss-parser";
 
 const parser = new Parser();
 
-const feeds = JSON.parse(
+const config = JSON.parse(
   fs.readFileSync("data/feeds.json", "utf-8")
 );
+
+const feeds = config.feeds || [];
+const maxItems = config.maxItems || 20;
 
 const allItems = [];
 
