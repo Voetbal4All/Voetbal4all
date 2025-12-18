@@ -2,7 +2,7 @@ name: Update news
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # elke 30 minuten
+    - cron: "*/0 * * * *"   # elk uur
   workflow_dispatch:
 
 jobs:
