@@ -359,58 +359,60 @@
         items.forEach((item, idx) => {
           const id = "news-" + (idx + 1);
 
-          const source = item.source || item.competitie || "Nieuws";
-          const sourceLogo = getSourceLogo(source);
+const source = item.source || item.competitie || "Nieuws";
+const title = item.title || item.titel || "Zonder titel";
+const sourceLogo = getSourceLogo(source);
+const link = item.link || "#";
+const summary = item.summary || item.teaser || "";
+const publishedRaw = item.publishedAt || item.datum || null;
+const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
 
-          const title = item.title || item.titel || "Zonder titel";
-          const link = item.link || "#";
-          const summary = item.summary || item.teaser || "";
+// Land/flag ondersteunen voor beide formaten:
+// RSS: item.country / item.flag
+// Demo: item.land
+let country = item.country || item.land || "";
+if (country && country !== "BE" && country !== "NL") country = "INT";
 
-          const publishedRaw = item.publishedAt || item.datum || null;
-          const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
+const flag =
+  item.flag ||
+  (country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : (country ? "🌍" : "📰"));
 
-          // Land/flag (RSS: item.country / item.flag) (demo: item.land)
-          let country = item.country || item.land || "";
-          if (country && country !== "BE" && country !== "NL") country = "INT";
+const category = item.category || "";
+const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
 
-          const flag = item.flag || getFlagFromCountry(country);
+const card = document.createElement("article");
+card.className = "ad-card";
+card.id = id;
+card.dataset.articleId = String(idx + 1);
+card.dataset.country = country;
+card.dataset.category = category;
+card.dataset.tags = tags;
 
-          const category = item.category || "";
-          const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
+card.innerHTML = `
+  <div class="home-article-media">
+    <div class="home-article-image">
+      <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
+    </div>
+    <div class="home-article-flag">
+      <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
+    </div>
+  </div>
 
-          const card = document.createElement("article");
-          card.className = "ad-card";
-          card.id = id;
+  <div class="home-article-content">
+    <div class="article-meta">${source}${published ? " · " + published : ""}</div>
+    <h3 class="article-title">
+      <a href="${link}" target="_blank" rel="noopener">${title}</a>
+    </h3>
+    <p class="article-excerpt">${summary}</p>
 
-          card.dataset.articleId = String(idx + 1);
-          card.dataset.country = country;
-          card.dataset.category = category;
-          card.dataset.tags = tags;
+    <div class="ad-card-actions">
+      <a href="${link}" target="_blank" rel="noopener" class="btn-ghost-sm">Lees op bron</a>
+      <a href="#" class="btn-ghost-sm btn-share" data-share-article="${idx + 1}">Delen</a>
+    </div>
+  </div>
+`;
 
-          card.innerHTML = `
-            <div class="home-article-media">
-              <div class="home-article-image">
-                <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
-              </div>
-              <div class="home-article-flag">
-                <span class="flag-badge" title="${country || 'Internationaal'}">${flag}</span>
-              </div>
-            </div>
-
-            <div class="home-article-content">
-              <div class="article-meta">${source}${published ? " · " + published : ""}</div>
-              <h3 class="article-title">
-                <a href="${link}" target="_blank" rel="noopener">${title}</a>
-              </h3>
-              <p class="article-excerpt">${summary}</p>
-              <div class="ad-card-actions">
-                <a href="${link}" target="_blank" rel="noopener" class="btn-ghost-sm">Lees op bron</a>
-                <a href="#" class="btn-ghost-sm btn-share" data-share-article="${idx + 1}">Delen</a>
-              </div>
-            </div>
-          `;
-
-          articleListEl.appendChild(card);
+articleListEl.appendChild(card);
 
           // Voorbeeld: insert in-feed ad na item 6 en 14
           if (idx === 5 || idx === 13) {
