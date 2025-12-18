@@ -1,27 +1,16 @@
 {
-  "generatedAt": "2025-12-18T22:42:16.846Z",
+  "generatedAt": "2025-12-18T23:35:15.312Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Let Nancy cook and judge at end of season - Henry",
-      "link": "https://www.bbc.com/sport/football/articles/cn98pgq4v88o?at_medium=RSS&at_campaign=rss",
-      "summary": "Thierry Henry urges Celtic's management and fans to give their new manager Wilfried Nancy more time, saying they must \"let him cook\" and judge him at the end of the season.",
-      "publishedAt": "2025-12-18T22:34:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Deze twee teams kan AZ loten in de tussenronde van de Conference League",
-      "link": "https://www.vi.nl/nieuws/deze-twee-teams-kan-az-loten-in-de-tussenronde-van-de-conference-league",
-      "summary": "AZ heeft zich donderdagavond geplaatst voor de tussenronde van de Conference League, waarin een tweeluik volgt met een tegenstander uit Armenië of Kosovo. FC Noah is een potentiële tegenstander in de volgende ronde, een weerzien met KF Drita behoort ook tot de mogelijkheden.",
-      "publishedAt": "2025-12-18T22:32:00.000Z"
+      "title": "Papers: Man Utd hope Pep uncertainty will help their Semenyo pursuit",
+      "link": "https://www.skysports.com/football/news/12040/13485413/man-utd-hope-pep-guardiola-uncertainty-will-help-them-land-antoine-semenyo-amid-man-city-competition-paper-talk-and-football-gossip",
+      "summary": "The top stories and transfer rumours from Friday's newspapers...",
+      "publishedAt": "2025-12-18T23:00:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "Mijnans en Smit laken AZ na Europese domper: 'Eigenlijk gewoon slecht'",
       "link": "https://www.vi.nl/nieuws/mijnans-en-smit-laken-az-na-europese-domper-eigenlijk-gewoon-slecht",
       "summary": "Sven Mijnans en Kees Smit waren niet tevreden met de remise van AZ tegen Jagiellonia Bialystok. De Alkmaarders verzekerden zich van Europese overwintering, maar het gevoel dat er meer in had gezeten, overheerste. Bij winst had AZ de tussenronde over mogen slaan.",
-      "publishedAt": "2025-12-18T22:22:42.000Z"
+      "publishedAt": "2025-12-18T22:59:21.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +29,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Dit verdiende AZ in de competitiefase van de Conference League",
-      "link": "https://www.vi.nl/nieuws/dit-verdiende-az-in-de-competitiefase-van-de-conference-league",
-      "summary": "AZ vervolgt de Conference League in de tussenronde, de club uit Alkmaar sloot donderdagavond de competitiefase af als nummer veertien. VI zet op een rijtje wat AZ verdiende in de competitiefase van de Conference League.",
-      "publishedAt": "2025-12-18T22:20:00.000Z"
+      "title": "Deze twee teams kan AZ loten in de tussenronde van de Conference League",
+      "link": "https://www.vi.nl/nieuws/deze-twee-teams-kan-az-loten-in-de-tussenronde-van-de-conference-league",
+      "summary": "AZ heeft zich donderdagavond geplaatst voor de tussenronde van de Conference League, waarin een tweeluik volgt met een tegenstander uit Armenië of Kosovo. FC Noah is een potentiële tegenstander in de volgende ronde, een weerzien met KF Drita behoort ook tot de mogelijkheden.",
+      "publishedAt": "2025-12-18T22:58:28.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +40,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: FC Porto op voorsprong in bekertoernooi",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-conference-league",
+      "title": "Martens ziet dat het beter moet bij AZ: 'Worden soms andere dingen gevraagd'",
+      "link": "https://www.vi.nl/nieuws/martens-ziet-dat-het-beter-moet-bij-az-worden-soms-andere-dingen-gevraagd",
+      "summary": "Ook Maarten Martens was niet geheel tevreden na de remise van AZ tegen Jagiellonia Biallystok. De Alkmaarders plaatsten zich voor de tussenronde van de Conference League. Martens over de moeilijkheden en lessen voor zijn ploeg in het Europese toernooi.",
+      "publishedAt": "2025-12-18T22:52:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Farioli met FC Porto naar kwartfinales, Sporting ontsnapt",
+      "link": "https://www.vi.nl/nieuws/lees-terug-farioli-met-fc-porto-naar-kwartfinales-sporting-ontsnapt",
       "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
-      "publishedAt": "2025-12-18T22:19:13.000Z"
+      "publishedAt": "2025-12-18T22:48:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "MVG survives HUGE scare to produce edgy comeback win",
+      "link": "https://www.skysports.com/watch/video/13485414/world-darts-championship-mvg-survives-huge-scare-to-produce-edgy-comeback-win",
+      "summary": "Michael van Gerwen had to come from behind to beat Mitsuhiko Tatsunami in the first round of the World Championship.",
+      "publishedAt": "2025-12-18T22:48:00.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +73,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "AZ op Rapport: aanvallers zakken door het ijs, Penetra de beste",
-      "link": "https://www.vi.nl/nieuws/az-op-rapport-aanvallers-zakken-door-het-ijs-penetra-de-beste",
-      "summary": "AZ overtuigde niet in de laatste wedstrijd van de competitiefase van de Conference League. Op eigen veld eindigde het duel met Jagiellonia Bialystok in een bloedeloos gelijkspel. De aanvallers overtuigden niet in Alkmaar. De rapportcijfers.",
-      "publishedAt": "2025-12-18T22:16:54.000Z"
+      "title": "Doorgaan van AZ is pure coëfficiëntenbonus voor Nederland",
+      "link": "https://www.vi.nl/nieuws/doorgaan-van-az-is-pure-coefficientenbonus-voor-nederland",
+      "summary": "Omdat concurrenten Portugal en België geen clubs in de Conference League hebben, was de donderdagavond pure coëfficiëntenwinst voor Nederland. Via het gelijkspel van AZ én de ranglijstbonus liep Nederland als nummer zes van de UEFA-lijst uit.",
+      "publishedAt": "2025-12-18T22:43:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Let Nancy 'cook' and judge at end of season - Henry",
+      "link": "https://www.bbc.com/sport/football/articles/cn98pgq4v88o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thierry Henry urges Celtic's management and fans to give their new manager Wilfried Nancy more time, saying they must \"let him cook\" and judge him at the end of the season.",
+      "publishedAt": "2025-12-18T22:34:29.000Z"
     },
     {
       "type": "rss",
@@ -75,7 +97,7 @@
       "flag": "🌍",
       "title": "Crystal Palace in Conference playoffs after blowing lead against KuPS",
       "link": "https://www.theguardian.com/football/2025/dec/18/crystal-palace-kups-conference-league-match-report",
-      "summary": "The bad news for Oliver Glasner is that Crystal Palace’s marathon season is about to get even longer. A thrilling draw against Finnish side KuPS in their 27th game of the campaign means that they must now contest a two-leg playoff at the end of February after finishing outside the top eight in the Conference League table. Having selected an entirely different starting lineup that included four teenagers from the side that lost to Manchester City at the weekend, Glasner saw his second string impress as Christantus Uche gave them a deserved lead at half-time. Continue reading...",
+      "summary": "The bad news for Oliver Glasner is that Crystal Palace’s marathon season is about to get even longer. A thrilling draw against Finnish side KuPS in their 27th game of the campaign means that they must now contest a two-leg playoff at the end of February after finishing just outside the top eight in the Conference League table. Having selected an entirely different starting lineup including four teenagers from the side who lost to Manchester City at the weekend, the Palace manager saw his second string impress as Christantus Uche gave them a deserved half-time lead. Continue reading...",
       "publishedAt": "2025-12-18T22:03:16.000Z"
     },
     {
@@ -139,21 +161,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "HUGE upset on the cards? | Tatsunami wins first set against MVG",
+      "title": "Tatsunami stuns MVG to win first set!",
       "link": "https://www.skysports.com/watch/video/13485394/world-darts-championship-tatsunami-wins-first-set-against-mvg",
       "summary": "Mitsuhiko Tatsunami takes the first set against Michael van Gerwen in their first round World Championship match.",
       "publishedAt": "2025-12-18T21:43:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "PL Predictions: Liverpool to shutout 'relegation level' Spurs attack",
-      "link": "https://www.skysports.com/football/news/12040/13485317/premier-league-predictions-and-best-bets-liverpool-to-shutout-relegation-level-spurs-attack-and-13-1-weekend-treble",
-      "summary": "Our football betting expert Jones Knows provides his insight across the Premier League card and tips up a 13/1 weekend treble with Sky Bet.",
-      "publishedAt": "2025-12-18T21:00:00.000Z"
     },
     {
       "type": "rss",
@@ -205,21 +216,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship: Ratajski vs Toylo after MVG drama LIVE!",
+      "title": "World Darts Championship: Ratajski beats Toylo after MVG drama LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-18T18:32:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "AJ weighs in nearly two stone heavier than Jake Paul",
-      "link": "https://www.skysports.com/boxing/news/12040/13485180/jake-paul-vs-anthony-joshua-british-heavyweight-star-weighs-inside-245lbs-limit-for-fight-against-youtube-star",
-      "summary": "Anthony Joshua has successfully made the weight limit for his fight against Jake Paul but will boast an almost two-stone advantage over the YouTuber-turned-boxer.",
-      "publishedAt": "2025-12-18T18:30:00.000Z"
     }
   ]
 }
