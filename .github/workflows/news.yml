@@ -16,7 +16,6 @@ jobs:
   build-news:
     runs-on: ubuntu-latest
 
-    # Alles met "run:" gebeurt standaard in /Voetbal4all
     defaults:
       run:
         working-directory: Voetbal4all
@@ -27,30 +26,30 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Debug: toont je mappenstructuur zodat je meteen ziet of /Voetbal4all bestaat
       - name: Debug folders
         run: |
-          echo "PWD:"
+          echo "PWD (should be .../Voetbal4all):"
           pwd
-          echo "List repo root:"
-          ls -la ..
-          echo "List Voetbal4all:"
-          ls -la .
+          echo "List current (Voetbal4all):"
+          ls -la
+          echo "List scripts:"
+          ls -la scripts || true
+          echo "List data:"
+          ls -la data || true
+          echo "Show package.json:"
+          cat package.json || true
 
       - name: Use Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
-          cache-dependency-path: Voetbal4all/package-lock.json
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build news.json
         run: npm run build:news
 
-      # Commit moet in repo-root runnen, dus working-directory overrulen
       - name: Commit changes (if any)
         working-directory: .
         run: |
