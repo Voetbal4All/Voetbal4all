@@ -564,6 +564,7 @@
 
       items.forEach((item) => {
         const source = item.source || item.competitie || "Nieuws";
+        const sourceLogo = getSourceLogo(source);
         const title = item.title || item.titel || "Zonder titel";
         const link = item.link || "#";
         const summary = item.summary || item.teaser || "";
