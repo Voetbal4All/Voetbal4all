@@ -365,6 +365,44 @@ footer {
   letter-spacing: 0.16em;
 }
 
+/* Kolommen in grid (home) */
+.column-middle,
+.column-right {
+  display: grid;
+  gap: 12px;
+}
+
+/* Weekendlijst (events blok) */
+.weekend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.weekend-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.weekend-item a {
+  color: var(--accent);
+}
+
+/* Artikellijst */
+.article-list {
+  display: grid;
+  gap: 10px;
+}
+
+.article-item {
+  margin: 0;
+}
+
+
 /* =======================
    KAARTEN & LIJSTEN
    ======================= */
@@ -512,7 +550,7 @@ footer {
 .ad-slot {
   margin: 10px auto;
   max-width: 1100px;
-  opacity: 0.96;
+  opacity: 1;
 }
 
 /* Header-ad onder live banner, gewoon in de flow (niet sticky) */
@@ -578,9 +616,9 @@ footer {
 }
 
 /* Maak echte AdSense containers clean (geen placeholder look) */
+/* Alleen echte AdSense containers “clean” maken */
 .ad-slot-header,
-.ad-infeed,
-.ad-vertical {
+.ad-infeed {
   border: none !important;
   background: transparent !important;
   padding: 0 !important;
