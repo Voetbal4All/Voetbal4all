@@ -331,6 +331,18 @@ footer {
   gap: 16px;
 }
 
+/* Grid helpers */
+.lower-grid-layout.grid-2 {
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.1fr);
+}
+
+.lower-grid-layout.grid-3 {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
+}
+
+.lower-grid-layout.grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 /* Kleine typografie helpers */
 
 .page-title {
