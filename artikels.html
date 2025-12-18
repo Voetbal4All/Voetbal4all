@@ -391,7 +391,8 @@ card.dataset.tags = tags;
 card.innerHTML = `
   <div class="home-article-media">
     <div class="home-article-image">
-      <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
+      <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy"
+           onerror="this.onerror=null;this.src='assets/img/sources/default.png';" />
     </div>
     <div class="home-article-flag">
       <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
@@ -404,7 +405,6 @@ card.innerHTML = `
       <a href="${link}" target="_blank" rel="noopener">${title}</a>
     </h3>
     <p class="article-excerpt">${summary}</p>
-
     <div class="ad-card-actions">
       <a href="${link}" target="_blank" rel="noopener" class="btn-ghost-sm">Lees op bron</a>
       <a href="#" class="btn-ghost-sm btn-share" data-share-article="${idx + 1}">Delen</a>
