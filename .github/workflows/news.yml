@@ -3,38 +3,66 @@ name: Build news.json from RSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"  # elk uur
+    - cron: "0 * * * *" # elk uur
 
 permissions:
   contents: write
 
+concurrency:
+  group: build-news
+  cancel-in-progress: true
+
 jobs:
   build-news:
     runs-on: ubuntu-latest
+
+    # Alles met "run:" gebeurt standaard in /Voetbal4all
+    defaults:
+      run:
+        working-directory: Voetbal4all
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Debug: toont je mappenstructuur zodat je meteen ziet of /Voetbal4all bestaat
+      - name: Debug folders
+        run: |
+          echo "PWD:"
+          pwd
+          echo "List repo root:"
+          ls -la ..
+          echo "List Voetbal4all:"
+          ls -la .
 
       - name: Use Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
+          cache-dependency-path: Voetbal4all/package-lock.json
 
-          - name: Debug repo structure
-  run: |
-    pwd
-    ls -la
-    ls -la scripts || true
-    ls -la data || true
       - name: Install dependencies
-        run: npm ci || npm install
+        run: npm ci
 
       - name: Build news.json
         run: npm run build:news
 
+      # Commit moet in repo-root runnen, dus working-directory overrulen
       - name: Commit changes (if any)
+        working-directory: .
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
-          git diff --staged --quiet || (git commit -m "Update news.json" && git push)
+
+          git add Voetbal4all/data/news.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update news.json"
+          git push
