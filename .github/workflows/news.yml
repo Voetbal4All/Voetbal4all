@@ -16,28 +16,22 @@ jobs:
   build-news:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: Voetbal4all
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Debug folders
+      - name: Debug folders (repo root)
         run: |
-          echo "PWD (should be .../Voetbal4all):"
+          echo "PWD:"
           pwd
-          echo "List current (Voetbal4all):"
+          echo "List repo root:"
           ls -la
           echo "List scripts:"
           ls -la scripts || true
           echo "List data:"
           ls -la data || true
-          echo "Show package.json:"
-          cat package.json || true
 
       - name: Use Node
         uses: actions/setup-node@v4
@@ -51,12 +45,11 @@ jobs:
         run: npm run build:news
 
       - name: Commit changes (if any)
-        working-directory: .
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Voetbal4all/data/news.json
+          git add data/news.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit."
