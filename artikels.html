@@ -388,6 +388,7 @@
 
           const source = item.source || item.competitie || "Nieuws";
           const title = item.title || item.titel || "Zonder titel";
+          const sourceLogo = getSourceLogo(source);
           const link = item.link || "#";
           const summary = item.summary || item.teaser || "";
           const publishedRaw = item.publishedAt || item.datum || null;
@@ -418,11 +419,8 @@
 
           card.innerHTML = `
             <div class="home-article-media">
-              const sourceLogo = getSourceLogo(source);
-              <div class="home-article-flag">
-                <span class="flag-badge" title="${country || 'Internationaal'}">
-                  ${flag}
-                </span>
+              <div class="home-article-image">
+                <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy" />
               </div>
             </div>
 
