@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2025-12-19T10:00:00Z",
+  "leagues": [
+    {
+      "key": "JPL",
+      "name": "Jupiler Pro League",
+      "matches": [
+        { "home": "Club Brugge", "away": "Anderlecht", "score": "1-0", "minute": 53, "status": "LIVE" }
+      ]
+    },
+    {
+      "key": "CPL",
+      "name": "Challenger Pro League",
+      "matches": []
+    },
+    {
+      "key": "ERE",
+      "name": "Eredivisie",
+      "matches": []
+    },
+    {
+      "key": "KKD",
+      "name": "Keuken Kampioen Divisie",
+      "matches": []
+    }
+  ]
+}
