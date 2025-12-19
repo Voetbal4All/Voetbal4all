@@ -1263,45 +1263,7 @@ footer {
    Activeer met .live-banner.is-marquee
    ======================= */
 
-.live-banner .live-text {
-  font-size: 14px;
-  line-height: 1.35;
-}
 
-.live-banner .live-text-main {
-  display: block;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 4px;
-}
-
-/* ticker container */
-.live-text-ticker {
-  position: relative;
-  min-height: 22px;
-  overflow: hidden;
-}
-
-/* marquee track */
-.live-banner.is-marquee .live-text-ticker {
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.live-banner.is-marquee .live-text-ticker .marquee-track {
-  display: inline-block;
-  padding-left: 100%;
-  animation: liveMarquee 18s linear infinite;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text);
-}
-
-@keyframes liveMarquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
 
 .live-banner .live-updated {
   margin-top: 4px;
