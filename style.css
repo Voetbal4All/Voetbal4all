@@ -94,10 +94,17 @@ footer {
 
 .brand--logo-only { gap: 0; }
 
+.brand--logo-only { gap: 0; }
+
 .brand-logo{
   height: 52px;
   width: auto;
   display: block;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  padding: 6px;
+  box-shadow: 0 0 18px rgba(24,160,251,0.25);
 }
 
 @media (max-width: 600px){
@@ -121,17 +128,6 @@ footer {
   justify-content: center;
   font-weight: 700;
   font-size: 18px;
-}
-
-.brand-logo{
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  object-fit: contain;
-  display: block;
-  background: rgba(255,255,255,0.06);
-  padding: 4px;
-  box-shadow: 0 0 18px rgba(24,160,251,0.25);
 }
 
 .brand-text-main {
