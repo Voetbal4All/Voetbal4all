@@ -515,22 +515,24 @@
   const homeListEl = document.getElementById("home-news-list");
   const homeStatusEl = document.getElementById("home-news-status");
 
-function getSourceLogo(source) {
-  const s = (source || "").toLowerCase();
+  // GitHub Pages repo base (BELANGRIJK)
+  const ASSET_BASE = "/Voetbal4all/assets/img/sources/";
 
-  const base = "/Voetbal4all/assets/img/sources/";
+  function getSourceLogo(source) {
+    const s = (source || "").toLowerCase();
 
-  if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
-  if (s.includes("sporza")) return base + "sporza.png";
-  if (s.includes("hln")) return base + "hln.png";
-  if (s.includes("nos")) return base + "nos.png";
-  if (s.includes("bbc")) return base + "bbc.png";
-  if (s.includes("guardian")) return base + "guardian.png";
-  if (s.includes("sky")) return base + "sky.png";
-  if (s.includes("espn")) return base + "espn.png";
+    if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return ASSET_BASE + "vi.png";
+    if (s.includes("sporza")) return ASSET_BASE + "sporza.png";
+    if (s.includes("hln")) return ASSET_BASE + "hln.png";
+    if (s.includes("nos")) return ASSET_BASE + "nos.png";
+    if (s.includes("bbc")) return ASSET_BASE + "bbc.png";
+    if (s.includes("guardian")) return ASSET_BASE + "guardian.png";
+    if (s.includes("sky")) return ASSET_BASE + "sky.png";
+    if (s.includes("espn")) return ASSET_BASE + "espn.png";
 
-  return base + "default.png";
-}
+    return ASSET_BASE + "default.png";
+  }
+
   function getFlagFromCountry(country) {
     if (country === "BE") return "🇧🇪";
     if (country === "NL") return "🇳🇱";
@@ -540,7 +542,7 @@ function getSourceLogo(source) {
 
   async function loadHomeNews() {
     try {
-      if (!homeListEl || !homeStatusEl) return; // voorkomt errors als block niet bestaat
+      if (!homeListEl || !homeStatusEl) return;
 
       homeStatusEl.style.display = "block";
       homeStatusEl.textContent = "Nieuws wordt geladen…";
@@ -549,12 +551,8 @@ function getSourceLogo(source) {
       if (!res.ok) throw new Error("news.json niet bereikbaar: " + res.status);
 
       const data = await res.json();
-
-      // Support 2 formaten:
-      // A) { items: [...] }  (RSS build)
-      // B) [ ... ]           (oude demo json)
       const itemsRaw = Array.isArray(data) ? data : (data.items || []);
-      const items = itemsRaw.slice(0, 10); // homepage: 10 items
+      const items = itemsRaw.slice(0, 10);
 
       homeListEl.innerHTML = "";
 
@@ -572,10 +570,8 @@ function getSourceLogo(source) {
         const link = item.link || "#";
         const summary = item.summary || item.teaser || "";
 
-        // land/country uit RSS of demo
         let country = item.country || item.land || "";
         if (country && country !== "BE" && country !== "NL") country = "INT";
-
         const flag = item.flag || getFlagFromCountry(country);
 
         const card = document.createElement("article");
@@ -583,16 +579,20 @@ function getSourceLogo(source) {
 
         card.innerHTML = `
           <div class="home-article-media-thumb">
-            <img src="${sourceLogo}" alt="${source}" loading="lazy"
-                 onerror="this.onerror=null;this.src='assets/img/sources/default.png';" />
+            <img
+              src="${sourceLogo}"
+              alt="${source}"
+              loading="lazy"
+              onerror="this.onerror=null;this.src='${ASSET_BASE}default.png';"
+            />
           </div>
-        
+
           <div class="home-article-content">
             <div class="home-article-header">
               <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
               <div class="article-meta">${source}</div>
             </div>
-        
+
             <h3 class="article-title">
               <a href="${link}" target="_blank" rel="noopener">${title}</a>
             </h3>
@@ -600,14 +600,17 @@ function getSourceLogo(source) {
           </div>
         `;
 
+        homeListEl.appendChild(card);
+      });
+
     } catch (err) {
       homeStatusEl.style.display = "block";
-      homeStatusEl.textContent = "Nieuws kon niet geladen worden. Controleer data/news.json en workflow.";
+      homeStatusEl.textContent = "Nieuws kon niet geladen worden. Controleer data/news.json en console.";
       console.error(err);
     }
   }
 
   loadHomeNews();
-</script>  
+</script>
 </body>
 </html>
