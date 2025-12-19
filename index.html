@@ -515,28 +515,30 @@
   const homeListEl = document.getElementById("home-news-list");
   const homeStatusEl = document.getElementById("home-news-status");
 
-  // GitHub Pages repo base (BELANGRIJK)
-  const ASSET_BASE = "/Voetbal4all/assets/img/sources/";
+  // Werkt op GitHub Pages én op eigen domein
+  const REPO_BASE =
+    (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
+      ? "/Voetbal4all"
+      : "";
 
-const REPO_BASE = (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
-  ? "/Voetbal4all"
-  : "";
+  // Maak 'm globaal zodat onerror ook werkt
+  window.REPO_BASE = REPO_BASE;
 
-function getSourceLogo(source) {
-  const s = (source || "").toLowerCase();
-  const base = REPO_BASE + "/assets/img/sources/";
+  function getSourceLogo(source) {
+    const s = (source || "").toLowerCase();
+    const base = REPO_BASE + "/assets/img/sources/";
 
-  if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
-  if (s.includes("sporza")) return base + "sporza.png";
-  if (s.includes("hln")) return base + "hln.png";
-  if (s.includes("nos")) return base + "nos.png";
-  if (s.includes("bbc")) return base + "bbc.png";
-  if (s.includes("guardian")) return base + "guardian.png";
-  if (s.includes("sky")) return base + "sky.png";
-  if (s.includes("espn")) return base + "espn.png";
+    if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
+    if (s.includes("sporza")) return base + "sporza.png";
+    if (s.includes("hln")) return base + "hln.png";
+    if (s.includes("nos")) return base + "nos.png";
+    if (s.includes("bbc")) return base + "bbc.png";
+    if (s.includes("guardian")) return base + "guardian.png";
+    if (s.includes("sky")) return base + "sky.png";
+    if (s.includes("espn")) return base + "espn.png";
 
-  return base + "default.png";
-}
+    return base + "default.png";
+  }
 
   function getFlagFromCountry(country) {
     if (country === "BE") return "🇧🇪";
@@ -588,7 +590,7 @@ function getSourceLogo(source) {
               src="${sourceLogo}"
               alt="${source}"
               loading="lazy"
-              onerror="this.onerror=null;this.src=(window.REPO_BASE?window.REPO_BASE:'') + '/assets/img/sources/default.png';"
+              onerror="this.onerror=null;this.src='${REPO_BASE}/assets/img/sources/default.png';"
             />
           </div>
 
