@@ -1201,12 +1201,36 @@ footer {
   gap: 4px;
 }
 
-/* Container die “clipped” (alleen voor de ticker-lijn) */
+/* Live scores ticker */
 .live-text-ticker {
   position: relative;
   overflow: hidden;
-  height: 18px;              /* 1 regel */
-  line-height: 18px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* De bewegende tekst */
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+
+  /* START RECHTS IN DE BALK */
+  transform: translateX(100%);
+
+  animation: marquee 45s linear infinite;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Rustige, professionele beweging */
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 /* Elk ticker-item */
