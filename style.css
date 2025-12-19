@@ -1178,34 +1178,28 @@ footer {
 }
 
 /* =========================
-   ADSENSE – INFEED SUBTIEL (GEEN AFSNIJDEN)
+   ADSENSE – HEADER ULTRA COMPACT
    ========================= */
 
-/* Container: minder verticale impact */
-.ad-infeed {
-  margin: 6px 0 !important;     /* minder witruimte */
+.ad-slot-header {
+  margin: 4px auto !important;      /* minder witruimte */
   padding: 0 !important;
-  display: flex;
-  justify-content: center;
+  max-width: 1000px;                /* iets smaller = minder dominant */
+  opacity: 0.9;
 }
 
-/* Ad zelf: NIET afsnijden */
-.ad-infeed .adsbygoogle {
+/* Ad zelf */
+.ad-slot-header .adsbygoogle {
+  display: block;
   width: 100%;
-  max-width: 900px;             /* iets smaller = rustiger */
-  height: auto !important;      /* cruciaal: geen afsnijden */
+  height: auto !important;          /* NIET afsnijden */
   min-height: unset !important;
   overflow: visible !important;
 }
 
-/* Subtiele visuele integratie (optioneel maar aanbevolen) */
-.ad-infeed {
-  opacity: 0.92;                /* minder schreeuwerig */
-}
-
-/* Geen randen / blokgevoel */
-.ad-infeed,
-.ad-infeed * {
-  border: none !important;
+/* Geen donkere balk of rand */
+.ad-slot-header,
+.ad-slot-header * {
   background: transparent !important;
+  border: none !important;
 }
