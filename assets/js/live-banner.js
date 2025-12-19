@@ -4,10 +4,27 @@
   if (!banner) return;
 
   const textEl = banner.querySelector(".live-text");
-  const ctaBtn = banner.querySelector(".live-cta");
   if (!textEl) return;
 
-  // Competities die jij wil tonen (labels/structuur blijven hetzelfde bij opschalen)
+  const updatedEl =
+    banner.querySelector(".live-updated") ||
+    (() => {
+      const el = document.createElement("div");
+      el.className = "live-updated";
+      textEl.appendChild(el);
+      return el;
+    })();
+
+  // Zorg dat we NIET heel .live-text overschrijven (anders verdwijnt live-updated)
+  let mainTextEl = textEl.querySelector(".live-text-main");
+  if (!mainTextEl) {
+    mainTextEl = document.createElement("span");
+    mainTextEl.className = "live-text-main";
+    // Zet main text voor de updatedEl
+    textEl.insertBefore(mainTextEl, updatedEl);
+  }
+
+  // Competities (labels blijven identiek bij opschalen)
   const competitions = [
     { key: "BE1", label: "Jupiler Pro League" },
     { key: "BE2", label: "Challenger/Proximus League" },
@@ -15,73 +32,56 @@
     { key: "NL2", label: "Keuken Kampioen Divisie" }
   ];
 
-  // -------------------------------------------------------
-  // GRATIS modus:
-  // - We tonen “LIVE” indien gratis bron live data geeft
-  // - Anders tonen we een nette fallback (geen lege banner)
-  // -------------------------------------------------------
-
-  const state = {
-    lines: [],
-    lastUpdated: null
-  };
-
-  function setText(str) {
-    textEl.textContent = str;
-  }
-
   function formatTime(d) {
     const hh = String(d.getHours()).padStart(2, "0");
     const mm = String(d.getMinutes()).padStart(2, "0");
     return `${hh}:${mm}`;
   }
 
-  function renderFallback() {
-    // Subtiel en professioneel: je laat de gebruiker “in het systeem”
-    const labelLine = competitions.map(c => c.label).join(" · ");
-    setText(`Live resultaten: ${labelLine} — geen live wedstrijden of gratis bron beperkt.`);
+  function setMainText(str) {
+    mainTextEl.textContent = str;
   }
 
-  // Deze functie is bewust “plugbaar”.
-  // Later vervangen we enkel deze functie door API-Football/SportMonks calls.
+  function setUpdated(d) {
+    updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
+  }
+
+  function renderFallback() {
+    const labelLine = competitions.map(c => c.label).join(" · ");
+    setMainText(`Live resultaten: ${labelLine} — geen live wedstrijden of gratis bron beperkt.`);
+  }
+
+  // Plugbare datafunctie (later vervangen door API)
   async function fetchFreeLiveLines() {
-    // Gratis bronnen zijn inconsistent voor jouw gewenste leagues.
-    // Daarom: retourneer [] => fallback, of voeg hier later een gratis endpoint toe.
+    // Gratis modus: voorlopig geen externe calls (stabiel en zonder keys)
+    // Later: hier echte API-call(s) toevoegen.
     return [];
   }
 
   async function refresh() {
     try {
-      setText("Live resultaten laden…");
+      setMainText("Live resultaten laden…");
+      setUpdated(null);
 
       const lines = await fetchFreeLiveLines();
 
       if (!Array.isArray(lines) || lines.length === 0) {
         renderFallback();
-        state.lastUpdated = new Date();
+        setUpdated(new Date());
         return;
       }
 
-      // Max 4 items in de banner (strak)
       const show = lines.slice(0, 4).join(" · ");
-      setText(show);
-      state.lastUpdated = new Date();
-
+      setMainText(show);
+      setUpdated(new Date());
     } catch (e) {
       console.warn("Live banner error:", e);
       renderFallback();
-      state.lastUpdated = new Date();
+      setUpdated(new Date());
     }
   }
 
-  // CTA naar jouw resultatenpagina (pas aan als je andere URL wil)
-  if (ctaBtn) {
-    ctaBtn.addEventListener("click", () => {
-      window.location.href = "sportief-resultaten.html";
-    });
-  }
-
-  // Init + refresh interval
+  // Init + interval
   refresh();
-  setInterval(refresh, 60 * 1000); // elke 60s refresh (gratis modus blijft licht)
+  setInterval(refresh, 60 * 1000);
 })();
