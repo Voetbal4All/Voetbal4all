@@ -1213,3 +1213,15 @@ footer {
   border: none !important;
   box-shadow: none !important;
 }
+
+/* =========================
+   ADSENSE – EXTRA (DESKTOP)
+   Nog compacter op brede schermen
+   ========================= */
+
+@media (min-width: 900px) {
+  .ad-slot-header,
+  .ad-infeed {
+    max-width: 920px;
+  }
+}
