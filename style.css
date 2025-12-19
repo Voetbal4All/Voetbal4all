@@ -1176,3 +1176,40 @@ footer {
     font-size: 9px;
   }
 }
+
+/* =========================
+   ADSENSE – HEADER & INFEED COMPACT
+   ========================= */
+
+/* ALGEMEEN: minder verticale ruimte */
+.ad-slot-header,
+.ad-infeed {
+  margin: 4px auto !important;
+  padding: 0 !important;
+}
+
+/* Header-ad (onder live banner) */
+.ad-slot-header .adsbygoogle {
+  max-height: 90px;          /* klassieke leaderboard-hoogte */
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 0 !important;
+  overflow: hidden;
+}
+
+/* In-feed advertentie (tussen premium & artikels) */
+.ad-infeed .adsbygoogle {
+  max-height: 120px;         /* rustiger in content */
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 0 !important;
+  overflow: hidden;
+}
+
+/* Extra veiligheid: container mag niet rekken */
+.ad-slot-header,
+.ad-infeed {
+  overflow: hidden;
+  background: transparent !important;
+  border: none !important;
+}
