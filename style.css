@@ -109,14 +109,24 @@ footer {
 
 /* Logo (houdt ratio correct + vult navbar bijna volledig) */
 .brand-logo {
-  height: 64px;          /* bijna volledige navbarhoogte (64px) */
+  height: 62px;
   width: auto;
   display: block;
   object-fit: contain;
-  border-radius: 0px;
-  background: rgba(255, 255, 255, 0.06);
+
+   .brand-logo {
+  transition: transform 0.15s ease;
+}
+
+   .brand-logo:hover {
+     transform: scale(1.03);
+   }
+  /* VERWIJDERD */
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+
   padding: 0;
-  box-shadow: 0 0 0px rgba(24, 160, 251, 0.25);
 }
 
 @media (max-width: 600px) {
