@@ -1111,3 +1111,13 @@ footer {
     max-width: 920px;
   }
 }
+/* Forceer logo look op alle pagina's */
+.navbar .brand-logo {
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  object-fit: contain !important;
+  display: block;
+}
