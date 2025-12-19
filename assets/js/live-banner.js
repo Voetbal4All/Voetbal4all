@@ -131,10 +131,20 @@ function renderFallback() {
         return;
       }
 
-      const show = lines.slice(0, 4).join(" · ");
-      setMainText(show);
+      // Zet de “hoofdlijn” kort en vast (strak)
+      setMainText("Live wedstrijden (ticker)");
+
+      // Start ticker met alle lijnen
+      const started = renderTicker(lines);
+
+      if (!started) {
+        renderFallback();
+      }
+
       setUpdated(new Date());
-    } catch (e) {
+      
+    } 
+    catch (e) {
       console.warn("Live banner error:", e);
       renderFallback();
       setUpdated(new Date());
