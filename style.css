@@ -1267,3 +1267,51 @@ footer {
   .live-banner .live-text-main { font-size: 18px; }
   .live-banner.is-marquee .live-text-ticker .marquee-track { font-size: 18px; }
 }
+
+/* LIVE banner: marquee-track aansturen via JS variabelen */
+.live-text-ticker { width: 100%; overflow: hidden; white-space: nowrap; }
+.marquee-track{
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+
+  /* JS zet deze variabelen */
+  transform: translateX(var(--live-marquee-start, 100%));
+  animation: liveMarqueeVars var(--live-marquee-duration, 20s) linear infinite;
+}
+
+@keyframes liveMarqueeVars{
+  from { transform: translateX(var(--live-marquee-start, 100%)); }
+  to   { transform: translateX(var(--live-marquee-end, -100%)); }
+}
+
+/* Social icons rechts in de banner */
+.live-socials{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* verdeeld over hoogte */
+  align-items: center;
+  height: 100%;
+  min-height: 44px;
+}
+
+.live-social{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 255, 157, 0.6);
+  color: #7dfccb;                 /* zelfde groen als je knop */
+  background: rgba(1, 10, 6, 0.85);
+}
+
+.live-social svg{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;             /* cruciaal: anders blijft het zwart */
+}
