@@ -50,39 +50,74 @@ function renderFallback() {
   setMainText("Momenteel geen live wedstrijden in België en Nederland beschikbaar.");
 }
 
-  // Plugbare datafunctie (later vervangen door API)
-async function fetchFreeLiveLines() {
-  // Werkt op GitHub Pages (/Voetbal4all/) én op eigen domein
-  const REPO_BASE =
-    (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
-      ? "/Voetbal4all"
-      : "";
+  // ----------------------------
+  // Ticker state
+  // ----------------------------
+  let tickerLines = [];
+  let tickerIndex = 0;
+  let tickerTimer = null;
 
-  const url = `${REPO_BASE}/data/live.json`;
+  // We tonen 1 regel tegelijk, wisselt automatisch
+  function renderTicker(lines) {
+    // stop vorige timer
+    if (tickerTimer) {
+      clearInterval(tickerTimer);
+      tickerTimer = null;
+    }
 
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) return [];
+    tickerLines = Array.isArray(lines) ? lines.filter(Boolean) : [];
+    tickerIndex = 0;
 
-  const data = await res.json();
-  const items = Array.isArray(data) ? data : (data.items || []);
+    // Geen lijnen => fallback tekst in mainText
+    if (!tickerLines.length) return false;
 
-  const LIVE_STATUSES = new Set(["LIVE", "1H", "2H", "HT"]);
+    // Zorg dat er een ticker container bestaat in de banner
+    let tickerWrap = textEl.querySelector(".live-text-ticker");
+    if (!tickerWrap) {
+      tickerWrap = document.createElement("div");
+      tickerWrap.className = "live-text-ticker";
+      // ticker komt onder mainTextEl, maar boven updatedEl
+      textEl.insertBefore(tickerWrap, updatedEl);
+    }
 
-  const leagueShort = {
-    BE1: "JPL",
-    BE2: "CHL",
-    NL1: "ED",
-    NL2: "KKD"
-  };
+    // Helper om één item te tonen
+    function showLine(nextText) {
+      const current = tickerWrap.querySelector(".live-ticker-item.is-active");
 
-  return items
-    .filter(m => LIVE_STATUSES.has(String(m.status).toUpperCase()))
-    .filter(m => ["BE1", "BE2", "NL1", "NL2"].includes(m.leagueKey))
-    .map(m =>
-      `${leagueShort[m.leagueKey]}: ${m.home} ${m.homeGoals}–${m.awayGoals} ${m.away} (${m.minute}′)`
-    );
-}
+      const next = document.createElement("div");
+      next.className = "live-ticker-item";
+      next.textContent = nextText;
 
+      tickerWrap.appendChild(next);
+
+      // force reflow zodat transitions zeker starten
+      void next.offsetWidth;
+
+      // laat huidige wegschuiven
+      if (current) {
+        current.classList.remove("is-active");
+        current.classList.add("is-exiting");
+        setTimeout(() => current.remove(), 520);
+      }
+
+      // zet nieuwe actief
+      next.classList.add("is-active");
+    }
+
+    // Init: eerste item tonen
+    showLine(tickerLines[tickerIndex]);
+
+    // Als er maar 1 lijn is, geen interval nodig
+    if (tickerLines.length === 1) return true;
+
+    // Interval: om de X seconden wisselen
+    tickerTimer = setInterval(() => {
+      tickerIndex = (tickerIndex + 1) % tickerLines.length;
+      showLine(tickerLines[tickerIndex]);
+    }, 3500);
+
+    return true;
+  }
   async function refresh() {
     try {
       setMainText("Live resultaten laden…");
