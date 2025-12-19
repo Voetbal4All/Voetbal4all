@@ -1197,16 +1197,19 @@ footer {
 }
 
 /* =======================
-   LIVE BANNER – TICKER
+   LIVE BANNER – CONTINU MARQUEE (zonder pauze)
    ======================= */
 
-.live-text {
+/* Zorg dat de middenkolom echt ruimte krijgt */
+.live-banner .live-text {
+  flex: 1 1 auto;
+  min-width: 0;                 /* belangrijk in flex layouts */
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-/* Live scores ticker */
+/* ticker container */
 .live-text-ticker {
   position: relative;
   overflow: hidden;
@@ -1214,53 +1217,37 @@ footer {
   white-space: nowrap;
 }
 
-/* De bewegende tekst */
+/* track bevat 2 identieke spans naast elkaar */
 .marquee-track {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   white-space: nowrap;
   will-change: transform;
-
-  /* START RECHTS IN DE BALK */
-  transform: translateX(100%);
-
-  animation: marquee 45s linear infinite;
+  gap: 40px;                    /* afstand tussen “copies” */
+  animation: marquee 35s linear infinite;
   font-size: 16px;
   font-weight: 600;
+  color: var(--text);
 }
 
-/* Rustige, professionele beweging */
+/* elke copy */
+.marquee-track > span {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+/* Continu: verschuif 1 copy breedte (50% van dubbele content) */
 @keyframes marquee {
-  from {
-    transform: translateX(100%);
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* Op desktop iets groter */
+@media (min-width: 900px) {
+  .marquee-track {
+    font-size: 18px;
+    animation-duration: 40s;     /* iets trager desktop */
   }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-/* Elk ticker-item */
-.live-ticker-item {
-  position: absolute;
-  left: 0;
-  right: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  transform: translateY(120%);
-  opacity: 0;
-  transition: transform 420ms ease, opacity 420ms ease;
-}
-
-/* Actieve regel in beeld */
-.live-ticker-item.is-active {
-  transform: translateY(0);
-  opacity: 1;
-}
-
-/* Vorige regel naar boven weg */
-.live-ticker-item.is-exiting {
-  transform: translateY(-120%);
-  opacity: 0;
 }
 
 /* =======================
