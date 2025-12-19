@@ -1131,7 +1131,7 @@ footer {
   .nav-links {
     display: none;                /* blijft dicht tot .is-open */
     position: absolute;
-    top: 64px;                    /* onder navbar */
+    top: 58px;                   /* onder navbar */
     left: 0;
     right: 0;
     padding: 12px 16px 16px;
@@ -1161,6 +1161,17 @@ footer {
     background: rgba(2, 3, 8, 0.55);
   }
 
+     /* BELANGRIJK: hover/focus gedrag uitschakelen op mobiel */
+  .nav-item--dropdown:hover .nav-dropdown,
+  .nav-item--dropdown:focus-within .nav-dropdown {
+    display: none;            /* forceer: niet via hover tonen */
+  }
+
+  /* Alleen tonen via JS class */
+  .nav-item--dropdown.is-open .nav-dropdown {
+    display: block;
+  }
+   
   .nav-item--dropdown.is-open .nav-dropdown {
     display: block;
   }
