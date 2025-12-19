@@ -339,6 +339,11 @@ footer {
   letter-spacing: 0.16em;
 }
 
+.live-updated {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
 /* =======================
    SECTIONS & LAYOUT
    ======================= */
