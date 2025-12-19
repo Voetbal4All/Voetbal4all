@@ -1178,28 +1178,38 @@ footer {
 }
 
 /* =========================
-   ADSENSE – HEADER ULTRA COMPACT
+   ADSENSE – UNIFORM & COMPACT
+   Header + In-feed identiek
    ========================= */
 
-.ad-slot-header {
-  margin: 4px auto !important;      /* minder witruimte */
+/* Gedeelde wrapper-stijl */
+.ad-slot-header,
+.ad-infeed {
+  margin: 6px auto !important;      /* dun */
   padding: 0 !important;
-  max-width: 1000px;                /* iets smaller = minder dominant */
+  max-width: 1000px;                /* compacter */
   opacity: 0.9;
+  display: flex;
+  justify-content: center;
 }
 
-/* Ad zelf */
-.ad-slot-header .adsbygoogle {
+/* De advertentie zelf */
+.ad-slot-header .adsbygoogle,
+.ad-infeed .adsbygoogle {
   display: block;
   width: 100%;
-  height: auto !important;          /* NIET afsnijden */
+  height: auto !important;          /* nooit afsnijden */
   min-height: unset !important;
   overflow: visible !important;
+  border-radius: 12px;              /* zachte afronding */
 }
 
-/* Geen donkere balk of rand */
+/* Volledig neutraal – geen bakgevoel */
 .ad-slot-header,
-.ad-slot-header * {
+.ad-infeed,
+.ad-slot-header *,
+.ad-infeed * {
   background: transparent !important;
   border: none !important;
+  box-shadow: none !important;
 }
