@@ -1,0 +1,37 @@
+name: Update live scores JSON
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # elke 5 minuten (minimum)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install (optional)
+        run: npm -v
+
+      - name: Fetch live scores
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: node scripts/fetch-live-scores.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/live-scores.json
+          git commit -m "Update live scores" || exit 0
+          git push
