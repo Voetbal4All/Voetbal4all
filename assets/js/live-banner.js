@@ -52,11 +52,37 @@
   }
 
   // Plugbare datafunctie (later vervangen door API)
-  async function fetchFreeLiveLines() {
-    // Gratis modus: voorlopig geen externe calls (stabiel en zonder keys)
-    // Later: hier echte API-call(s) toevoegen.
-    return [];
-  }
+async function fetchFreeLiveLines() {
+  // Werkt op GitHub Pages (/Voetbal4all/) én op eigen domein
+  const REPO_BASE =
+    (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
+      ? "/Voetbal4all"
+      : "";
+
+  const url = `${REPO_BASE}/data/live.json`;
+
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) return [];
+
+  const data = await res.json();
+  const items = Array.isArray(data) ? data : (data.items || []);
+
+  const LIVE_STATUSES = new Set(["LIVE", "1H", "2H", "HT"]);
+
+  const leagueShort = {
+    BE1: "JPL",
+    BE2: "CHL",
+    NL1: "ED",
+    NL2: "KKD"
+  };
+
+  return items
+    .filter(m => LIVE_STATUSES.has(String(m.status).toUpperCase()))
+    .filter(m => ["BE1", "BE2", "NL1", "NL2"].includes(m.leagueKey))
+    .map(m =>
+      `${leagueShort[m.leagueKey]}: ${m.home} ${m.homeGoals}–${m.awayGoals} ${m.away} (${m.minute}′)`
+    );
+}
 
   async function refresh() {
     try {
