@@ -6,6 +6,11 @@
   const textEl = banner.querySelector(".live-text");
   if (!textEl) return;
 
+  /* ----------------------------
+     Sub-elementen
+  ---------------------------- */
+
+  // Updated-timestamp
   const updatedEl =
     banner.querySelector(".live-updated") ||
     (() => {
@@ -15,22 +20,28 @@
       return el;
     })();
 
-  // Zorg dat we NIET heel .live-text overschrijven (anders verdwijnt live-updated)
+  // Hoofdtekst (boven de ticker)
   let mainTextEl = textEl.querySelector(".live-text-main");
   if (!mainTextEl) {
     mainTextEl = document.createElement("span");
     mainTextEl.className = "live-text-main";
-    // Zet main text voor de updatedEl
     textEl.insertBefore(mainTextEl, updatedEl);
   }
 
-  // Competities (labels blijven identiek bij opschalen)
+  /* ----------------------------
+     Competities (vast, schaalbaar)
+  ---------------------------- */
+
   const competitions = [
     { key: "BE1", label: "Jupiler Pro League" },
-    { key: "BE2", label: "Challenger/Proximus League" },
+    { key: "BE2", label: "Challenger Pro League" },
     { key: "NL1", label: "Eredivisie" },
     { key: "NL2", label: "Keuken Kampioen Divisie" }
   ];
+
+  /* ----------------------------
+     Helpers
+  ---------------------------- */
 
   function formatTime(d) {
     const hh = String(d.getHours()).padStart(2, "0");
@@ -43,144 +54,97 @@
   }
 
   function setUpdated(d) {
-    updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
+    updatedEl.textContent = d
+      ? `Laatst bijgewerkt: ${formatTime(d)}`
+      : "";
   }
 
-function renderFallback() {
-  setMainText("Momenteel geen live wedstrijden in België en Nederland beschikbaar.");
-}
+  /* ----------------------------
+     Fallback (geen live data)
+     👉 HIER pas je de tekst aan
+  ---------------------------- */
 
-  // ----------------------------
-  // Ticker state
-  // ----------------------------
-  let tickerLines = [];
-  let tickerIndex = 0;
-  let tickerTimer = null;
+  function renderFallback() {
+    const labelLine = competitions.map(c => c.label).join(" · ");
+    setMainText(
+      `Momenteel geen live wedstrijden (${labelLine}).`
+    );
+    banner.classList.remove("is-marquee");
+  }
 
-  // We tonen 1 regel tegelijk, wisselt automatisch
-  function renderTicker(lines) {
-    // stop vorige timer
-    if (tickerTimer) {
-      clearInterval(tickerTimer);
-      tickerTimer = null;
-    }
+  /* ======================================================
+     STAP 3A — DEMO DATA (werkt NU, geen API nodig)
+     Later vervangen door echte API (Stap 3B)
+  ====================================================== */
 
-    tickerLines = Array.isArray(lines) ? lines.filter(Boolean) : [];
-    tickerIndex = 0;
+  async function fetchFreeLiveLines() {
+    // DEMO — altijd zichtbaar, ideaal om layout te testen
+    return [
+      "🇧🇪 JPL · Club Brugge 2–1 Anderlecht (72’)",
+      "🇳🇱 Eredivisie · Ajax 1–0 PSV (55’)",
+      "🇧🇪 CPL · Beerschot 0–0 Zulte Waregem (33’)",
+      "🇳🇱 KKD · Willem II 2–2 ADO Den Haag (81’)"
+    ];
+  }
 
-    // Geen lijnen => fallback tekst in mainText
-    if (!tickerLines.length) return false;
+  /* ----------------------------
+     Marquee / bewegende banner
+  ---------------------------- */
 
-    // Zorg dat er een ticker container bestaat in de banner
+  function renderMarquee(lines) {
+    if (!Array.isArray(lines) || !lines.length) return false;
+
     let tickerWrap = textEl.querySelector(".live-text-ticker");
     if (!tickerWrap) {
       tickerWrap = document.createElement("div");
       tickerWrap.className = "live-text-ticker";
-      // ticker komt onder mainTextEl, maar boven updatedEl
       textEl.insertBefore(tickerWrap, updatedEl);
     }
 
-    // Helper om één item te tonen
-    function showLine(nextText) {
-      const current = tickerWrap.querySelector(".live-ticker-item.is-active");
+    banner.classList.add("is-marquee");
 
-      const next = document.createElement("div");
-      next.className = "live-ticker-item";
-      next.textContent = nextText;
+    const joined = lines.join("   •   ");
 
-      tickerWrap.appendChild(next);
-
-      // force reflow zodat transitions zeker starten
-      void next.offsetWidth;
-
-      // laat huidige wegschuiven
-      if (current) {
-        current.classList.remove("is-active");
-        current.classList.add("is-exiting");
-        setTimeout(() => current.remove(), 520);
-      }
-
-      // zet nieuwe actief
-      next.classList.add("is-active");
-    }
-
-    // Init: eerste item tonen
-    showLine(tickerLines[tickerIndex]);
-
-    // Als er maar 1 lijn is, geen interval nodig
-    if (tickerLines.length === 1) return true;
-
-    // Interval: om de X seconden wisselen
-    tickerTimer = setInterval(() => {
-      tickerIndex = (tickerIndex + 1) % tickerLines.length;
-      showLine(tickerLines[tickerIndex]);
-    }, 3500);
+    tickerWrap.innerHTML = `
+      <div class="marquee-track">
+        ${joined}
+      </div>
+    `;
 
     return true;
   }
-  // ----------------------------
-  // DEMO: tijdelijke “live” data (geen API nodig)
-  // ----------------------------
-  async function fetchFreeLiveLines() {
-    const DEMO_MODE = true; // later op false zetten voor echte live data
-    if (!DEMO_MODE) return [];
 
-    const scenarios = [
-      [
-        "JPL: Genk 1–0 Club Brugge (67’)",
-        "JPL: Anderlecht 0–0 Gent (HT)",
-        "ED: Ajax 2–1 PSV (78’)",
-        "KKD: Willem II 1–2 NAC (81’)"
-      ],
-      [
-        "JPL: Genk 1–1 Club Brugge (74’)",
-        "CL: Beerschot 2–0 Lommel (52’)",
-        "ED: Feyenoord 0–0 AZ (33’)"
-      ],
-      [
-        "ED: Utrecht 1–0 Twente (90+2’)",
-        "KKD: Roda JC 0–1 Emmen (61’)"
-      ],
-      [] // bewust leeg: test je fallbacktekst
-    ];
+  /* ----------------------------
+     Refresh-cyclus
+  ---------------------------- */
 
-    const idx = Math.floor(Date.now() / 60000) % scenarios.length;
-    return scenarios[idx];
-  }  
   async function refresh() {
     try {
-      setMainText("Live resultaten laden…");
+      setMainText("Live wedstrijden");
       setUpdated(null);
 
       const lines = await fetchFreeLiveLines();
 
-      if (!Array.isArray(lines) || lines.length === 0) {
+      if (!lines || !lines.length) {
         renderFallback();
         setUpdated(new Date());
         return;
       }
 
-      // Zet de “hoofdlijn” kort en vast (strak)
-      setMainText("Live wedstrijden (ticker)");
-
-      // Start ticker met alle lijnen
-      const started = renderTicker(lines);
-
-      if (!started) {
-        renderFallback();
-      }
-
+      renderMarquee(lines);
       setUpdated(new Date());
-      
-    } 
-    catch (e) {
-      console.warn("Live banner error:", e);
+
+    } catch (err) {
+      console.warn("Live banner fout:", err);
       renderFallback();
       setUpdated(new Date());
     }
   }
 
-  // Init + interval
+  /* ----------------------------
+     Init
+  ---------------------------- */
+
   refresh();
-  setInterval(refresh, 60 * 1000);
+  setInterval(refresh, 60 * 1000); // elke minuut verversen
 })();
