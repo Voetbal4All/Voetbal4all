@@ -1182,43 +1182,40 @@ footer {
    Header + In-feed identiek
    ========================= */
 
-/* Gedeelde wrapper-stijl */
+/* Wrapper: enkel spacing/styling, geen clipping */
 .ad-slot-header,
 .ad-infeed {
-  margin: 6px auto !important;      /* dun */
+  margin: 6px auto !important;
   padding: 0 !important;
-  max-width: 1000px;                /* compacter */
-  opacity: 0.9;
+  max-width: 1000px;
+  opacity: 0.92;
   display: flex;
   justify-content: center;
+  overflow: visible !important;   /* <-- belangrijk: ook wrapper nooit knijpen */
 }
 
-/* De advertentie zelf */
-.ad-slot-header .adsbygoogle,
-.ad-infeed .adsbygoogle {
-  display: block;
-  width: 100%;
-  height: auto !important;          /* nooit afsnijden */
-  min-height: unset !important;
+/* AdSense element zelf */
+.ad-slot-header ins.adsbygoogle,
+.ad-infeed ins.adsbygoogle {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
   overflow: visible !important;
-  border-radius: 12px;              /* zachte afronding */
+  border-radius: 12px;
 }
 
-/* Volledig neutraal – geen bakgevoel */
+/* Alles neutraal (geen bakgevoel) */
 .ad-slot-header,
 .ad-infeed,
-.ad-slot-header *,
+.ad-slot-header * ,
 .ad-infeed * {
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
 }
 
-/* =========================
-   ADSENSE – EXTRA (DESKTOP)
-   Nog compacter op brede schermen
-   ========================= */
-
+/* Desktop iets compacter */
 @media (min-width: 900px) {
   .ad-slot-header,
   .ad-infeed {
