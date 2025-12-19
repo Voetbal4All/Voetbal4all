@@ -48,7 +48,7 @@
 
   function renderFallback() {
     const labelLine = competitions.map(c => c.label).join(" · ");
-    setMainText(`Live resultaten: ${labelLine} — geen live wedstrijden of gratis bron beperkt.`);
+    setMainText(`Live resultaten: ${labelLine} — geen live wedstrijden of bron niet beschikbaar.`);
   }
 
   // Plugbare datafunctie (later vervangen door API)
