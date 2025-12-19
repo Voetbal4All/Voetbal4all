@@ -114,13 +114,6 @@ footer {
   display: block;
   object-fit: contain;
 
-   .brand-logo {
-  transition: transform 0.15s ease;
-}
-
-   .brand-logo:hover {
-     transform: scale(1.03);
-   }
   /* VERWIJDERD */
   background: none;
   box-shadow: none;
