@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-19T03:53:17.305Z",
+  "generatedAt": "2025-12-19T04:59:20.806Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "The Ashes LIVE! England take third as Australia lead passes 200",
+      "link": "https://www.skysports.com/cricket/live-blog/12040/13484192/the-ashes-australia-vs-england-third-test-live-score-and-updates-from-adelaide-oval-in-must-win-game-for-ben-stokes-side",
+      "summary": "",
+      "publishedAt": "2025-12-19T04:20:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -121,17 +132,6 @@
       "link": "https://www.vi.nl/nieuws/lees-terug-farioli-met-fc-porto-naar-kwartfinales-sporting-ontsnapt",
       "summary": "Deze donderdag staan de laatste vijf wedstrijden in de tweede ronde van de Eurojackpot KNVB Beker op het programma. Onder meer FC Twente, Sparta Rotterdam en FC Volendam komen in actie. Mis niets met VI Live!",
       "publishedAt": "2025-12-18T22:48:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "MVG survives HUGE scare to produce edgy comeback win",
-      "link": "https://www.skysports.com/watch/video/13485414/world-darts-championship-mvg-survives-huge-scare-to-produce-edgy-comeback-win",
-      "summary": "Michael van Gerwen had to come from behind to beat Mitsuhiko Tatsunami in the first round of the World Championship.",
-      "publishedAt": "2025-12-18T22:48:00.000Z"
     },
     {
       "type": "rss",
