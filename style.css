@@ -656,7 +656,7 @@ footer {
 .ad-infeed .adsbygoogle {
   width: 100%;
   max-width: 1100px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Subtiele rounding voor grote AdSense blocks */
@@ -664,7 +664,7 @@ footer {
 .ad-infeed .adsbygoogle,
 .ad-vertical .adsbygoogle {
   border-radius: 14px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* =======================
