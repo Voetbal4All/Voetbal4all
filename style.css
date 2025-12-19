@@ -1178,38 +1178,34 @@ footer {
 }
 
 /* =========================
-   ADSENSE – HEADER & INFEED COMPACT
+   ADSENSE – INFEED SUBTIEL (GEEN AFSNIJDEN)
    ========================= */
 
-/* ALGEMEEN: minder verticale ruimte */
-.ad-slot-header,
+/* Container: minder verticale impact */
 .ad-infeed {
-  margin: 4px auto !important;
+  margin: 6px 0 !important;     /* minder witruimte */
   padding: 0 !important;
+  display: flex;
+  justify-content: center;
 }
 
-/* Header-ad (onder live banner) */
-.ad-slot-header .adsbygoogle {
-  max-height: 90px;          /* klassieke leaderboard-hoogte */
-  min-height: 0 !important;
-  height: auto !important;
-  line-height: 0 !important;
-  overflow: hidden;
-}
-
-/* In-feed advertentie (tussen premium & artikels) */
+/* Ad zelf: NIET afsnijden */
 .ad-infeed .adsbygoogle {
-  max-height: 120px;         /* rustiger in content */
-  min-height: 0 !important;
-  height: auto !important;
-  line-height: 0 !important;
-  overflow: hidden;
+  width: 100%;
+  max-width: 900px;             /* iets smaller = rustiger */
+  height: auto !important;      /* cruciaal: geen afsnijden */
+  min-height: unset !important;
+  overflow: visible !important;
 }
 
-/* Extra veiligheid: container mag niet rekken */
-.ad-slot-header,
+/* Subtiele visuele integratie (optioneel maar aanbevolen) */
 .ad-infeed {
-  overflow: hidden;
-  background: transparent !important;
+  opacity: 0.92;                /* minder schreeuwerig */
+}
+
+/* Geen randen / blokgevoel */
+.ad-infeed,
+.ad-infeed * {
   border: none !important;
+  background: transparent !important;
 }
