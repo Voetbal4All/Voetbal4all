@@ -30,7 +30,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;                 /* belangrijk */
+  height: 100%;
 }
 
 body {
@@ -52,17 +52,17 @@ img {
 
 /* Pagina-structuur zodat footer onderaan blijft */
 .page {
-  min-height: 100vh;            /* <<< DIT IS DE FIX */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 main {
-  flex: 1 0 auto;               /* duwt footer naar onder */
+  flex: 1 0 auto;
 }
 
 footer {
-  margin-top: auto;             /* footer kleeft aan onderzijde */
+  margin-top: auto;
 }
 
 .shell {
@@ -81,7 +81,12 @@ footer {
   top: 0;
   z-index: 40;
   backdrop-filter: blur(16px);
-  background: linear-gradient(to bottom, rgba(5, 8, 20, 0.93), rgba(5, 8, 20, 0.85), transparent);
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 8, 20, 0.93),
+    rgba(5, 8, 20, 0.85),
+    transparent
+  );
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
@@ -92,29 +97,31 @@ footer {
   height: 64px;
 }
 
-.brand--logo-only { gap: 0; }
-
-.brand--logo-only { gap: 0; }
-
-.brand-logo{
-  height: 60px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.06);
-  padding: 0px;
-  box-shadow: 0 0 18px rgba(24,160,251,0.25);
-}
-
-@media (max-width: 600px){
-  .brand-logo{ height: 50px; }
-}
-
 .brand {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.brand--logo-only {
+  gap: 0;
+}
+
+/* Logo (houdt ratio correct + vult navbar bijna volledig) */
+.brand-logo {
+  height: 60px;          /* bijna volledige navbarhoogte (64px) */
+  width: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0;
+  box-shadow: 0 0 18px rgba(24, 160, 251, 0.25);
+}
+
+@media (max-width: 600px) {
+  .navbar-inner { height: 58px; }
+  .brand-logo { height: 50px; }
 }
 
 .brand-mark {
@@ -170,7 +177,6 @@ footer {
 }
 
 /* CTA in navbar */
-
 .nav-cta {
   display: inline-flex;
   align-items: center;
@@ -193,7 +199,6 @@ footer {
 }
 
 /* Burger */
-
 .nav-burger {
   display: none;
   background: none;
@@ -203,7 +208,6 @@ footer {
 }
 
 /* Dropdown structuren */
-
 .nav-item {
   position: relative;
   display: flex;
@@ -236,7 +240,6 @@ footer {
 }
 
 /* Dropdown menu */
-
 .nav-dropdown {
   position: absolute;
   top: 100%;
@@ -269,7 +272,6 @@ footer {
 }
 
 /* Tonen bij hover / focus */
-
 .nav-item--dropdown:hover .nav-dropdown,
 .nav-item--dropdown:focus-within .nav-dropdown {
   opacity: 1;
@@ -288,7 +290,8 @@ footer {
 .live-banner {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(0, 255, 157, 0.4);
-  background: radial-gradient(circle at left, rgba(0, 255, 157, 0.18), transparent 55%), rgba(2, 12, 6, 0.92);
+  background: radial-gradient(circle at left, rgba(0, 255, 157, 0.18), transparent 55%),
+              rgba(2, 12, 6, 0.92);
   padding: 10px 14px;
   display: flex;
   align-items: center;
@@ -362,8 +365,8 @@ footer {
 .lower-grid-layout.grid-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-/* Kleine typografie helpers */
 
+/* Kleine typografie helpers */
 .page-title {
   font-size: 22px;
   font-weight: 600;
@@ -421,7 +424,6 @@ footer {
   margin: 0;
 }
 
-
 /* =======================
    KAARTEN & LIJSTEN
    ======================= */
@@ -462,7 +464,6 @@ footer {
 }
 
 /* Event/overzichtslijsten */
-
 .events-list {
   list-style: none;
   padding: 0;
@@ -537,7 +538,6 @@ footer {
 }
 
 /* Jouw advertentie-knop (home) */
-
 .btn-advert {
   padding: 9px 16px;
   border-radius: 999px;
@@ -562,39 +562,30 @@ footer {
 }
 
 /* =======================
-   AD ZONES & ADSENSE
+   AD ZONES (GENERIC)
    ======================= */
 
-/* Generieke AdSense container */
+/* Generieke ad container (voor non-AdSense placeholders) */
 .ad-slot {
-  margin: 10px auto;      /* subtieler */
+  margin: 10px auto;
   max-width: 1100px;
-  opacity: 0.96;          /* net iets minder dominant */
+  opacity: 0.96;
 }
 
-.ad-slot-header {
-  opacity: 0.97;
-}
 /* Header-ad onder live banner, gewoon in de flow (niet sticky) */
 .sticky-ad-header {
   position: static;
-  background: transparent;  /* subtieler: geen donkere balk */
+  background: transparent;
   padding: 2px 0;
 }
 
-/* Bovenaan horizontale banner */
-.ad-slot-top-horizontal {
-  margin-top: 8px;
-}
-
-/* In-content / in-feed advertentie */
-.ad-slot-incontent {
-  margin: 16px auto;
-}
-
-/* Linker verticale advertentieblok onder events */
-.ad-slot-vertical-left {
-  max-width: 320px;
+/* Sidebar ad wrapper (rechts) */
+.ad-vertical {
+  margin-top: 12px;
+  border-radius: 14px;
+  border: 0;
+  background: transparent;
+  padding: 0;
 }
 
 .ad-size {
@@ -602,15 +593,6 @@ footer {
   margin-top: 3px;
   opacity: 0.8;
   display: block;
-}
-
-/* (Optioneel placeholder-styling, maar niet op echte AdSense containers) */
-.ad-vertical {
-  margin-top: 12px;
-  border-radius: 14px;
-  border: 0;
-  background: transparent;
-  padding: 0;
 }
 
 .ad-label {
@@ -635,42 +617,9 @@ footer {
   display: none !important;
 }
 
-/* Maak echte AdSense containers clean (geen placeholder look) */
-/* Alleen echte AdSense containers “clean” maken */
-.ad-slot-header,
-.ad-infeed {
-  border: none !important;
-  background: transparent !important;
-  padding: 0 !important;
-}
-
-/* In-content AdSense: compacter en rustiger */
-.ad-infeed {
-  margin: 10px 0;          /* ok */
-  padding: 0;              /* expliciet */
-  display: flex;
-  justify-content: center;
-}
-
-/* Beperk overdreven hoge creatives */
-.ad-infeed .adsbygoogle {
-  width: 100%;
-  max-width: 1100px;
-  overflow: visible;
-}
-
-/* Subtiele rounding voor grote AdSense blocks */
-.ad-slot .adsbygoogle,
-.ad-infeed .adsbygoogle,
-.ad-vertical .adsbygoogle {
-  border-radius: 14px;
-  overflow: visible;
-}
-
 /* =======================
    ARTIKELS / OVERZICHTEN
    ======================= */
-
 
 /* Meta-rij: logo + bron */
 .article-meta-row {
@@ -728,70 +677,31 @@ footer {
   margin-top: 8px;
 }
 
-/* Home/Artikel-kaarten met afbeelding + vlag (grote generieke variant – nog bruikbaar elders) */
-
-.home-article-media {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.home-article-image {
-  border-radius: 14px;
-  background: radial-gradient(circle at 10% 0, rgba(24, 160, 251, 0.75), transparent 55%),
-              radial-gradient(circle at 80% 100%, rgba(255, 51, 102, 0.75), transparent 55%),
-              #040715;
-  aspect-ratio: 4/3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.75);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  text-align: center;
-  padding: 6px;
-}
-
-.home-article-flag {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.flag-badge {
-   line-height: 1;
-   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-}
-
-/* Nieuwe compacte artikelvariant met kleine foto links */
-
+/* Home/Artikel-kaarten (compact) */
 .home-article-card--compact {
   display: flex;
   gap: 10px;
   align-items: flex-start;
 }
 
-/* Thumbnail links van de tekst */
 .home-article-media-thumb {
-  flex: 0 0 80px;
-  height: 60px;
-  border-radius: 6px;
-  background: #1c2230;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10px;
-  color: #ccd3e6;
-  text-align: center;
-  padding: 4px;
-  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
 }
 
-/* Algemene contentcontainer voor artikelen */
+.home-article-media-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .home-article-content {
   display: flex;
   flex-direction: column;
@@ -799,12 +709,19 @@ footer {
   flex: 1 1 auto;
 }
 
-/* Header boven titel met vlag + meta */
 .home-article-header {
   display: flex;
   align-items: center;
   gap: 6px;
   margin-bottom: 4px;
+}
+
+.flag-badge {
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }
 
 .article-meta {
@@ -834,48 +751,16 @@ footer {
   margin: 0;
 }
 
-/* Kleinere typografie binnen compacte kaarten */
-.home-article-card--compact .article-title {
-  font-size: 15px;
-  margin: 0 0 4px;
-}
-
-.home-article-card--compact .article-excerpt {
-  font-size: 13px;
-  line-height: 1.4;
-}
-
-.source-logo{
+.source-logo {
   width: 40px;
   height: 40px;
   object-fit: contain;
   display: block;
   border-radius: 10px;
-  background: rgba(255,255,255,0.06);
+  background: rgba(255, 255, 255, 0.06);
   padding: 6px;
 }
 
-/* =========================
-   HOME – NEWS SOURCE LOGOS
-   ========================= */
-
-.home-article-media-thumb {
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255,255,255,0.06);
-  border-radius: 10px;
-}
-
-.home-article-media-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
 /* =======================
    SEARCH & FILTERS
    ======================= */
@@ -1048,7 +933,6 @@ footer {
 }
 
 /* Pill checkbox (land/positie, enz.) */
-
 .pill-checkbox {
   display: inline-flex;
   align-items: center;
@@ -1066,7 +950,6 @@ footer {
 }
 
 /* Kleine vlag bij land */
-
 .flag-label {
   display: inline-flex;
   align-items: center;
@@ -1137,11 +1020,9 @@ footer {
    ======================= */
 
 @media (max-width: 900px) {
-  .navbar-inner { height: 58px; }
   .nav-links { display: none; }
   .nav-burger { display: block; }
 
-  /* Alleen de varianten aanpassen, niet alles */
   .lower-grid-layout.grid-2,
   .lower-grid-layout.grid-3,
   .lower-grid-layout.grid-4 {
@@ -1171,9 +1052,8 @@ footer {
   }
 
   .home-article-media-thumb {
-    flex: 0 0 60px;
-    height: 50px;
-    font-size: 9px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -1185,16 +1065,16 @@ footer {
 /* Wrapper: enkel spacing/styling, geen clipping */
 .ad-slot-header,
 .ad-infeed {
-  margin: 6px auto !important;
+  margin: 2px auto !important;      /* dunner = minder verticale ruimte */
   padding: 0 !important;
   max-width: 1000px;
   opacity: 0.92;
   display: flex;
   justify-content: center;
-  overflow: visible !important;   /* <-- belangrijk: ook wrapper nooit knijpen */
+  overflow: visible !important;
 }
 
-/* AdSense element zelf */
+/* AdSense element zelf (ins) */
 .ad-slot-header ins.adsbygoogle,
 .ad-infeed ins.adsbygoogle {
   display: block !important;
@@ -1205,7 +1085,13 @@ footer {
   border-radius: 12px;
 }
 
-/* Alles neutraal (geen bakgevoel) */
+/* Extra: creatives zitten vaak in iframes */
+.ad-slot-header iframe,
+.ad-infeed iframe {
+  max-width: 100% !important;
+}
+
+/* Neutraal (geen bakgevoel) */
 .ad-slot-header,
 .ad-infeed,
 .ad-slot-header * ,
