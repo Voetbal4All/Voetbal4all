@@ -588,7 +588,7 @@ function getSourceLogo(source) {
               src="${sourceLogo}"
               alt="${source}"
               loading="lazy"
-              onerror="this.onerror=null;this.src='${ASSET_BASE}default.png';"
+              onerror="this.onerror=null;this.src=(window.REPO_BASE?window.REPO_BASE:'') + '/assets/img/sources/default.png';"
             />
           </div>
 
