@@ -1066,6 +1066,11 @@ footer {
     width: 44px;
     height: 44px;
   }
+
+     /* Mobile nav correct onder lagere navbar */
+  .nav-links {
+    top: 58px;
+  }
 }
 
 /* =========================
