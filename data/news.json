@@ -1,13 +1,24 @@
 {
-  "generatedAt": "2025-12-19T04:59:20.806Z",
+  "generatedAt": "2025-12-19T05:46:25.384Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Succescoach Hareide overleden op 72-jarige leeftijd",
+      "link": "https://www.vi.nl/nieuws/succescoach-hareide-overleden-op-72-jarige-leeftijd",
+      "summary": "Age Hareide, oud-voetballer en voormalig (bonds)coach van bijvoorbeeld Molde FK, Rosenborg BK, Noorwegen, Denemarken en IJsland, is op 72-jarige leeftijd overleden. Vorig jaar werd kanker vastgesteld bij de Noor, die in zijn trainerscarrière een unieke prestatie neerzette.",
+      "publishedAt": "2025-12-19T05:23:13.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "The Ashes LIVE! England take third as Australia lead passes 200",
+      "title": "The Ashes LIVE! Australia lead passes 250 despite quick England double",
       "link": "https://www.skysports.com/cricket/live-blog/12040/13484192/the-ashes-australia-vs-england-third-test-live-score-and-updates-from-adelaide-oval-in-must-win-game-for-ben-stokes-side",
       "summary": "",
       "publishedAt": "2025-12-19T04:20:00.000Z"
@@ -88,17 +99,6 @@
       "link": "https://www.skysports.com/football/news/12040/13485413/man-utd-hope-pep-guardiola-uncertainty-will-help-them-land-antoine-semenyo-amid-man-city-competition-paper-talk-and-football-gossip",
       "summary": "The top stories and transfer rumours from Friday's newspapers...",
       "publishedAt": "2025-12-18T23:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mijnans en Smit laken AZ na Europese domper: 'Eigenlijk gewoon slecht'",
-      "link": "https://www.vi.nl/nieuws/mijnans-en-smit-laken-az-na-europese-domper-eigenlijk-gewoon-slecht",
-      "summary": "Sven Mijnans en Kees Smit waren niet tevreden met de remise van AZ tegen Jagiellonia Bialystok. De Alkmaarders verzekerden zich van Europese overwintering, maar het gevoel dat er meer in had gezeten, overheerste. Bij winst had AZ de tussenronde over mogen slaan.",
-      "publishedAt": "2025-12-18T22:59:21.000Z"
     },
     {
       "type": "rss",
