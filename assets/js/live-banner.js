@@ -46,10 +46,9 @@
     updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
   }
 
-  function renderFallback() {
-    const labelLine = competitions.map(c => c.label).join(" · ");
-    setMainText(`Live resultaten: ${labelLine} — geen live wedstrijden of bron niet beschikbaar.`);
-  }
+function renderFallback() {
+  setMainText("Momenteel geen live wedstrijden in België en Nederland beschikbaar.");
+}
 
   // Plugbare datafunctie (later vervangen door API)
 async function fetchFreeLiveLines() {
