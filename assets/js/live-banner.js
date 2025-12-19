@@ -10,7 +10,7 @@
      Sub-elementen
   ---------------------------- */
 
-  // Updated-timestamp
+  // Timestamp
   const updatedEl =
     banner.querySelector(".live-updated") ||
     (() => {
@@ -20,7 +20,7 @@
       return el;
     })();
 
-  // Hoofdtekst (boven de ticker)
+  // Hoofdtekst (boven ticker)
   let mainTextEl = textEl.querySelector(".live-text-main");
   if (!mainTextEl) {
     mainTextEl = document.createElement("span");
@@ -29,14 +29,14 @@
   }
 
   /* ----------------------------
-     Competities (vast, schaalbaar)
+     Competities
   ---------------------------- */
 
   const competitions = [
-    { key: "BE1", label: "Jupiler Pro League" },
-    { key: "BE2", label: "Challenger Pro League" },
-    { key: "NL1", label: "Eredivisie" },
-    { key: "NL2", label: "Keuken Kampioen Divisie" }
+    "Jupiler Pro League",
+    "Challenger Pro League",
+    "Eredivisie",
+    "Keuken Kampioen Divisie"
   ];
 
   /* ----------------------------
@@ -44,13 +44,9 @@
   ---------------------------- */
 
   function formatTime(d) {
-    const hh = String(d.getHours()).padStart(2, "0");
-    const mm = String(d.getMinutes()).padStart(2, "0");
-    return `${hh}:${mm}`;
-  }
-
-  function setMainText(str) {
-    mainTextEl.textContent = str;
+    return `${String(d.getHours()).padStart(2, "0")}:${String(
+      d.getMinutes()
+    ).padStart(2, "0")}`;
   }
 
   function setUpdated(d) {
@@ -60,35 +56,33 @@
   }
 
   /* ----------------------------
-     Fallback (geen live data)
-     👉 HIER pas je de tekst aan
+     Fallback tekst
   ---------------------------- */
 
   function renderFallback() {
-    const labelLine = competitions.map(c => c.label).join(" · ");
-    setMainText(
-      `Momenteel geen live wedstrijden (${labelLine}).`
-    );
+    mainTextEl.textContent =
+      `Momenteel geen live wedstrijden (${competitions.join(" · ")}).`;
     banner.classList.remove("is-marquee");
+
+    const ticker = textEl.querySelector(".live-text-ticker");
+    if (ticker) ticker.remove();
   }
 
   /* ======================================================
-     STAP 3A — DEMO DATA (werkt NU, geen API nodig)
-     Later vervangen door echte API (Stap 3B)
+     STAP 3A — DEMO DATA
   ====================================================== */
 
   async function fetchFreeLiveLines() {
-    // DEMO — altijd zichtbaar, ideaal om layout te testen
     return [
-      "🇧🇪 JPL · Club Brugge 2–1 Anderlecht (72’)",
-      "🇳🇱 Eredivisie · Ajax 1–0 PSV (55’)",
-      "🇧🇪 CPL · Beerschot 0–0 Zulte Waregem (33’)",
-      "🇳🇱 KKD · Willem II 2–2 ADO Den Haag (81’)"
+      "🇧🇪 Club Brugge 2–1 Anderlecht (72’)",
+      "🇳🇱 Ajax 1–0 PSV (55’)",
+      "🇧🇪 Beerschot 0–0 Zulte Waregem (33’)",
+      "🇳🇱 Willem II 2–2 ADO Den Haag (81’)"
     ];
   }
 
   /* ----------------------------
-     Marquee / bewegende banner
+     CONTINUE MARQUEE RENDER
   ---------------------------- */
 
   function renderMarquee(lines) {
@@ -105,9 +99,11 @@
 
     const joined = lines.join("   •   ");
 
+    // BELANGRIJK: 2x dezelfde span
     tickerWrap.innerHTML = `
       <div class="marquee-track">
-        ${joined}
+        <span>${joined}</span>
+        <span>${joined}</span>
       </div>
     `;
 
@@ -120,7 +116,7 @@
 
   async function refresh() {
     try {
-      setMainText("Live wedstrijden");
+      mainTextEl.textContent = ""; // geen "Live wedstrijden"
       setUpdated(null);
 
       const lines = await fetchFreeLiveLines();
@@ -146,5 +142,5 @@
   ---------------------------- */
 
   refresh();
-  setInterval(refresh, 60 * 1000); // elke minuut verversen
+  setInterval(refresh, 60 * 1000);
 })();
