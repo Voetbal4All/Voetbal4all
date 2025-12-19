@@ -118,6 +118,35 @@ function renderFallback() {
 
     return true;
   }
+  // ----------------------------
+  // DEMO: tijdelijke “live” data (geen API nodig)
+  // ----------------------------
+  async function fetchFreeLiveLines() {
+    const DEMO_MODE = true; // later op false zetten voor echte live data
+    if (!DEMO_MODE) return [];
+
+    const scenarios = [
+      [
+        "JPL: Genk 1–0 Club Brugge (67’)",
+        "JPL: Anderlecht 0–0 Gent (HT)",
+        "ED: Ajax 2–1 PSV (78’)",
+        "KKD: Willem II 1–2 NAC (81’)"
+      ],
+      [
+        "JPL: Genk 1–1 Club Brugge (74’)",
+        "CL: Beerschot 2–0 Lommel (52’)",
+        "ED: Feyenoord 0–0 AZ (33’)"
+      ],
+      [
+        "ED: Utrecht 1–0 Twente (90+2’)",
+        "KKD: Roda JC 0–1 Emmen (61’)"
+      ],
+      [] // bewust leeg: test je fallbacktekst
+    ];
+
+    const idx = Math.floor(Date.now() / 60000) % scenarios.length;
+    return scenarios[idx];
+  }  
   async function refresh() {
     try {
       setMainText("Live resultaten laden…");
