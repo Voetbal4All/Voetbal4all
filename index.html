@@ -518,20 +518,25 @@
   // GitHub Pages repo base (BELANGRIJK)
   const ASSET_BASE = "/Voetbal4all/assets/img/sources/";
 
-  function getSourceLogo(source) {
-    const s = (source || "").toLowerCase();
+const REPO_BASE = (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
+  ? "/Voetbal4all"
+  : "";
 
-    if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return ASSET_BASE + "vi.png";
-    if (s.includes("sporza")) return ASSET_BASE + "sporza.png";
-    if (s.includes("hln")) return ASSET_BASE + "hln.png";
-    if (s.includes("nos")) return ASSET_BASE + "nos.png";
-    if (s.includes("bbc")) return ASSET_BASE + "bbc.png";
-    if (s.includes("guardian")) return ASSET_BASE + "guardian.png";
-    if (s.includes("sky")) return ASSET_BASE + "sky.png";
-    if (s.includes("espn")) return ASSET_BASE + "espn.png";
+function getSourceLogo(source) {
+  const s = (source || "").toLowerCase();
+  const base = REPO_BASE + "/assets/img/sources/";
 
-    return ASSET_BASE + "default.png";
-  }
+  if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
+  if (s.includes("sporza")) return base + "sporza.png";
+  if (s.includes("hln")) return base + "hln.png";
+  if (s.includes("nos")) return base + "nos.png";
+  if (s.includes("bbc")) return base + "bbc.png";
+  if (s.includes("guardian")) return base + "guardian.png";
+  if (s.includes("sky")) return base + "sky.png";
+  if (s.includes("espn")) return base + "espn.png";
+
+  return base + "default.png";
+}
 
   function getFlagFromCountry(country) {
     if (country === "BE") return "🇧🇪";
