@@ -1190,3 +1190,46 @@ footer {
     justify-content: space-between;
   }
 }
+
+/* =======================
+   LIVE BANNER – TICKER
+   ======================= */
+
+.live-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Container die “clipped” (alleen voor de ticker-lijn) */
+.live-text-ticker {
+  position: relative;
+  overflow: hidden;
+  height: 18px;              /* 1 regel */
+  line-height: 18px;
+}
+
+/* Elk ticker-item */
+.live-ticker-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform: translateY(120%);
+  opacity: 0;
+  transition: transform 420ms ease, opacity 420ms ease;
+}
+
+/* Actieve regel in beeld */
+.live-ticker-item.is-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Vorige regel naar boven weg */
+.live-ticker-item.is-exiting {
+  transform: translateY(-120%);
+  opacity: 0;
+}
