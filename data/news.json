@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2025-12-19T17:34:31.397Z",
+  "generatedAt": "2025-12-19T18:58:00.269Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Vlak speler van tweede periode, twee Bronzen Schilden naar De Graafschap",
+      "link": "https://www.vi.nl/nieuws/vlak-beste-speler-van-tweede-periode-twee-bronzen-schilden-naar-de-graafschap",
+      "summary": "Jari Vlak is verkozen tot Beste Speler van de tweede periode in de Keuken Kampioen Divisie. Ook De Graafschap en TOP Oss vielen in de prijzen bij de verkiezingen voor de Bronzen Schilden.",
+      "publishedAt": "2025-12-19T18:51:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Transfers Ajax: zestienjarige verdediger ondertekent eerste profcontract",
+      "link": "https://www.vi.nl/nieuws/transfers-ajax-zestienjarige-verdediger-ondertekent-eerste-profcontract",
+      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Ajax op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Amsterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2025-12-19T18:47:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Adams (torn MCL) out up to 3 months",
+      "link": "https://www.espn.com/soccer/story/_/id/47358655/usa-tyler-adams-injury-bournemouth-3-months-torn-mcl",
+      "summary": "United States international Tyler Adams will be out for up to three months after tearing a medial collateral ligament, Bournemouth coach Andoni Iraola said Friday.",
+      "publishedAt": "2025-12-19T18:42:49.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +43,7 @@
       "title": "Chelsea's Maresca knocks back Man City rumors",
       "link": "https://www.espn.com/soccer/story/_/id/47355796/chelsea-enzo-maresca-knocks-back-man-city-job-rumours",
       "summary": "Chelsea head coach Enzo Maresca dismissed as \"100% speculation\" reports that he could replace Pep Guardiola at Manchester City.",
-      "publishedAt": "2025-12-19T17:28:30.000Z"
+      "publishedAt": "2025-12-19T18:42:49.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +54,7 @@
       "title": "Amorim: United's next title won't take 10 years",
       "link": "https://www.espn.com/soccer/story/_/id/47358447/ruben-amorim-manchester-united-fighting-title-next-years",
       "summary": "Ruben Amorim believes Manchester United will be fighting for the Premier League title far sooner than the 10 or 11 years that Sir Alex Ferguson fears it could take.",
-      "publishedAt": "2025-12-19T17:28:30.000Z"
+      "publishedAt": "2025-12-19T18:42:49.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +62,65 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "USMNT's Adams out up to 3 months with torn MCL",
-      "link": "https://www.espn.com/soccer/story/_/id/47358655/usa-tyler-adams-injury-bournemouth-3-months-torn-mcl",
-      "summary": "United States international Tyler Adams will be out for up to three months after tearing a medial collateral ligament, Bournemouth coach Andoni Iraola said on Friday.",
-      "publishedAt": "2025-12-19T17:28:29.000Z"
+      "title": "PSG GK fractured hand during shootout heroics",
+      "link": "https://www.espn.com/soccer/story/_/id/47358963/psg-goalkeeper-matvei-safonov-intercontinental-cup-shootout",
+      "summary": "Paris Saint-Germain goalkeeper Matvey Safonov has been left with a fractured hand following his penalty shootout heroics to win the Intercontinental Cup.",
+      "publishedAt": "2025-12-19T18:42:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Laurens' weekend preview: Mbappé's quest to overtake Ronaldo, Spurs-Liverpool search for form, more",
+      "link": "https://www.espn.com/soccer/story/_/id/47358449/julien-laurens-weekend-soccer-preview-kylian-mbappe-quest-overtake-cristiano-ronaldo-real-madrid-history",
+      "summary": "What is Julien Laurens watching this weekend? For starters, Kylian Mbappé's quest to make Madrid history, plus the Africa Cup of Nations kicks off.",
+      "publishedAt": "2025-12-19T18:42:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Swiss star Wawrinka announces 2026 will be his final year on tour",
+      "link": "https://www.skysports.com/tennis/news/12040/13485685/three-time-grand-slam-winner-stan-wawrinka-announces-2026-will-be-his-final-year-on-tour",
+      "summary": "Known for possessing one of the most elegant one-handed backhands in the game, Stan Wawrinka has announced that 2026 will be his last year on tour.",
+      "publishedAt": "2025-12-19T18:35:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Crisis Nice duurt voort: voorzitter vertrekt omdat hij verandering wil",
+      "link": "https://www.vi.nl/nieuws/crisis-nice-duurt-voort-voorzitter-vertrekt-omdat-hij-verandering-wil",
+      "summary": "Het jaar van OGC Nice eindigt vrij belabberd. De club verkeert in een gigantische sportieve crisis, die nu ook voorzitter Fabrice Bocquet (foto) de kop kost. De club maakte bekend dat beide partijen het erover eens zijn geworden om per direct uit elkaar te gaan.",
+      "publishedAt": "2025-12-19T18:15:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Op bezoek bij een laatbloeier met prijzenhonger: het topjaar van Tijjani Reijnders",
+      "link": "https://www.vi.nl/pro/op-bezoek-bij-een-laatbloeier-met-prijzenhonger-het-topjaar-van-tijjani-reijnders",
+      "summary": "Tijjani Reijnders (27) heeft een droomjaar achter de rug. De middenvelder ging van AC Milan naar Manchester City, waar hij meteen indruk maakte, en groeide uit tot drijvende kracht in het Nederlands elftal. Op bezoek bij de speler voor wie 2026 nog veel mooier moet gaan worden. ‘Ik wil prijzen gaan pakken.’",
+      "publishedAt": "2025-12-19T18:11:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Reijnders vertelt over zijn droomtransfer",
+      "link": "https://www.vi.nl/nieuws/reijnders-vertelt-over-zijn-droomtransfer",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-19T18:09:00.000Z"
     },
     {
       "type": "rss",
@@ -40,43 +128,32 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Crystal Palace target Brennan Johnson, Maresca on Manchester City links: football – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/19/maresca-on-chelsea-future-premier-league-news-and-more-football-live",
-      "summary": "⚽ All the latest news going into the weekend programme ⚽ Premier League: 10 things to look out for | Mail Dom Re the players that have made it to Afcon, this is a handy explainer of the extent to which Premier League teams will be affected. Some of the names not featuring at Afcon are remarkable, and feature some of the most talented footballers from the continent. The main reason for this is that their nation has not qualified (for example, Ghana), but there have also been omissions from squads that have made it (unexpectedly Ivory Coast’s Simon Adingra, who was voted the best young player at Afcon 2023, providing a fine assist for the winner in the final) and there has even been an unexpected retirement on the eve of the tournament (Nigeria’s William Troost-Ekong, who was voted the player of the tournament at the last Afcon). Continue reading...",
-      "publishedAt": "2025-12-19T17:19:33.000Z"
+      "title": "Premier League news: Guardiola dismisses exit talk and Slot has ‘moved on’ from Salah fallout",
+      "link": "https://www.theguardian.com/football/2025/dec/19/premier-league-news-guardiola-dismisses-exit-talk-and-slot-has-moved-on-from-salah-fallout",
+      "summary": "Word from the top-tier press conferences, including updates on Viktor Gyökeres, Tyler Adams and Leeds reinforcements Continue reading...",
+      "publishedAt": "2025-12-19T18:00:07.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Penaltyheld PSG breekt hand: 'Hij heeft zelf geen idee hoe het gebeurd is'",
-      "link": "https://www.vi.nl/nieuws/penaltyheld-psg-breekt-hand-hij-heeft-zelf-geen-idee-hoe-het-gebeurd-is",
-      "summary": "Paris Saint-Germain won woensdag de FIFA Intercontinental Cup en in de finale tegen Flamengo werd keeper Matvey Safonov de grote held. De 26-jarige Rus pakte vier strafschoppen. Vervolgens verging het lachen hem echter snel. Hij liep in die penaltyreeks op uiterst mysterieuze wijze een blessure op.",
-      "publishedAt": "2025-12-19T17:14:47.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kenyan hero Munyua wants to keep Ally Pally wasp as lucky charm",
+      "link": "https://www.skysports.com/darts/news/12040/13485667/kenyan-hero-david-munyua-wants-to-keep-ally-pally-wasp-as-it-plays-starring-role-at-world-darts-championship",
+      "summary": "Kenyan darts hero David Munyua wanted to keep the Ally Pally wasp as a good luck charm after his historic World Championship win - but why is the insect playing a starring role this year?",
+      "publishedAt": "2025-12-19T17:48:00.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers PSV: zoektocht naar vervanger Veerman, enkele namen gevallen",
-      "link": "https://www.vi.nl/nieuws/transfers-psv-zoektocht-naar-vervanger-veerman-enkele-namen-gevallen",
-      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij PSV op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2025-12-19T17:13:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Verrassing in de maak: Veerman nadert transfer naar Fenerbahçe",
-      "link": "https://www.vi.nl/nieuws/verrassing-in-de-maak-veerman-nadert-transfer-naar-fenerbah-e",
-      "summary": "Veel wijst erop dat Joey Veerman (27) deze winter PSV verlaat voor Fenerbahçe. Hij is voor een vast bedrag op te pikken en ziet een stap naar de Turkse topclub wel zitten.",
-      "publishedAt": "2025-12-19T17:01:39.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fifa owes fans thousands for resold World Cup tickets",
+      "link": "https://www.bbc.com/sport/football/articles/cd0krvpmpzlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Customers who resold World Cup tickets on Fifa’s official platform say they are still waiting for thousands of pounds in payments.",
+      "publishedAt": "2025-12-19T17:32:32.000Z"
     },
     {
       "type": "rss",
@@ -102,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Loting achtste finale beker: Ajax op bezoek bij AZ, PSV naar Den Bosch",
-      "link": "https://www.vi.nl/nieuws/loting-achtste-finale-beker-ajax-op-bezoek-bij-az-psv-naar-den-bosch",
-      "summary": "Vrijdagmiddag heeft de loting voor de achtste finale van de Eurojackpot KNVB Beker plaatsgevonden.",
-      "publishedAt": "2025-12-19T16:51:42.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -130,7 +196,7 @@
       "flag": "🌍",
       "title": "Alex Ferguson claims Manchester United could be 10 years from winning title",
       "link": "https://www.theguardian.com/football/2025/dec/19/alex-ferguson-manchester-united-10-years-title-ruben-amorim-entitlement",
-      "summary": "‘We will not take that long,’ says Amorim in response Amorim criticises sense of ‘entitlement’ at United Sir Alex Ferguson has stated it could take Manchester United another “10 or 11 years” to win the title, prompting Ruben Amorim to publicly disagree with the club’s most successful manager. Ferguson won 13 championships – including the club’s most recent, in May 2013 – and was asked when a 21st may be added to the trophy cabinet. Continue reading...",
+      "summary": "‘We will not take that long,’ says Amorim in response Amorim criticises sense of ‘entitlement’ at United Sir Alex Ferguson has stated it could take Manchester United another “10 or 11 years” to win the title, prompting Ruben Amorim to publicly disagree with the club’s most successful manager. Ferguson won 13 of United’s 20 league titles, the last in 2013, and was asked when a 21st may be added to the trophy cabinet. Continue reading...",
       "publishedAt": "2025-12-19T16:46:31.000Z"
     },
     {
@@ -150,76 +216,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Will Afcon 2025 be a defining moment for Morocco?",
-      "link": "https://www.bbc.com/sport/football/articles/czj092k4zjgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Morocco has spent more than a decade reshaping its football, but will hosting Afcon 2025 allow the country to end a 50-year wait for the trophy?",
-      "publishedAt": "2025-12-19T16:38:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Blessure houdt Poku aan de kant in topper tegen Leipzig",
-      "link": "https://www.vi.nl/nieuws/blessure-houdt-poku-aan-de-kant-in-topper-tegen-leipzig",
-      "summary": "Bayer Leverkusen-trainer Kasper Hjulmand kan zaterdag niet beschikken over Ernest Poku. De Nederlandse buitenspeler is geblesseerd en moet de topper tegen RB Leipzig aan zich voorbij laten gaan. Zuur voor Leverkusen, die sowieso een volle ziekenboeg hebben.",
-      "publishedAt": "2025-12-19T16:13:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League Future Power Rankings: Long-term projections for all 20 teams",
-      "link": "https://www.espn.com/soccer/story/_/id/47349773/premier-league-future-power-rankings-projections-all-20-teams",
-      "summary": "We ranked all 20 Premier League clubs' expectations for the next few years. Which teams are set up to thrive in the future?",
-      "publishedAt": "2025-12-19T15:43:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Gyökeres' transfer was meant to change Arsenal. So what happened?",
-      "link": "https://www.espn.com/soccer/story/_/id/47355159/gyokeres-transfer-was-meant-change-arsenal-happened",
-      "summary": "Arsenal are caught between the team they wanted to be with Gyökeres and the team they were without him.",
-      "publishedAt": "2025-12-19T15:43:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'What's happening here!?' | Mansell, Gates can't finish nightmare 66-dart leg!",
-      "link": "https://www.skysports.com/watch/video/13485634/mickey-mansell-v-leonard-gates-players-cant-finish-nightmare-66-dart-leg",
-      "summary": "Mickey Mansell and Leonard Gates struggled to finish off a leg, which ended up seeing 66 darts thrown!",
-      "publishedAt": "2025-12-19T15:33:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Amorim attacks 'feeling of entitlement' at Man Utd",
       "link": "https://www.bbc.com/sport/football/articles/c865dv797zzo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United head coach Ruben Amorim condemns the \"sense of entitlement\" at the club and says players should use criticism as fuel to prove him wrong.",
       "publishedAt": "2025-12-19T15:32:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Look at the dance moves! Ally Pally loving Leonard Gates' walk-on!",
-      "link": "https://www.skysports.com/watch/video/13485607/leonard-gates-walk-on-at-ally-pally",
-      "summary": "Ally Pally was loving Leonard Gates' walk-on, as he showed off his best moves in ski goggles.",
-      "publishedAt": "2025-12-19T14:35:00.000Z"
     }
   ]
 }
