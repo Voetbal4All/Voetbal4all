@@ -1288,3 +1288,46 @@ footer { margin-top: auto; }
     z-index: 5 !important;
   }
 }
+
+/* =======================
+   MOBIEL: logo gecentreerd + burger altijd rechts (robust)
+   Plaats onderaan style.css
+   ======================= */
+@media (max-width: 600px) {
+  .navbar-inner {
+    position: relative !important;
+    height: 58px; /* zoals je al had */
+  }
+
+  /* Logo exact in het midden */
+  .brand.brand--logo-only {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 3 !important;
+  }
+
+  /* Burger altijd rechts, onafhankelijk van flex */
+  .nav-burger {
+    position: absolute !important;
+    right: 12px !important;
+    left: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+
+    z-index: 5 !important;
+
+    margin: 0 !important;
+    order: 0 !important; /* neutraliseert order hacks */
+  }
+}
+
+/* iPhone notch/safe-area extra marge rechts */
+@supports (padding: max(0px)) {
+  @media (max-width: 600px) {
+    .nav-burger {
+      right: max(12px, env(safe-area-inset-right)) !important;
+    }
+  }
+}
