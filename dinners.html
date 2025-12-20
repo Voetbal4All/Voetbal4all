@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
     crossorigin="anonymous"></script>
 
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Eetdagen & dinners</title>
+  <title>Voetbal4All - Dinners & eetdagen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<!-- Live banner NIET op mobiel -->
 <body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- Zelfde navbar als algemene-events (om consistent te blijven) -->
-  <!-- TIP: kopieer exact dezelfde navbar van algemene-events.html -->
-
+  <!-- ================= NAVBAR ================= -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
+
         <a href="index.html" class="brand brand--logo-only">
-          <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" loading="eager"/>
+          <img
+            src="assets/img/brand/logo-voetbal4all.svg"
+            alt="Voetbal4All"
+            class="brand-logo"
+            loading="eager"
+          />
         </a>
 
         <nav class="nav-links">
-          <a href="/" class="nav-link">Home</a>
+          <a href="index.html" class="nav-link">Home</a>
           <a href="artikels.html" class="nav-link">Artikels</a>
 
+          <!-- SPORTIEVE EVENTS -->
           <div class="nav-item nav-item--dropdown">
             <button type="button" class="nav-link nav-link--dropdown">
               Sportieve events <span class="nav-link-caret">▾</span>
             </button>
             <div class="nav-dropdown">
-              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijk</a>
+              <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
               <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-              <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+              <a href="stages.html" class="nav-dropdown-link">Stages</a>
               <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              <a href="events.html" class="nav-dropdown-link">Andere sportieve events</a>
             </div>
           </div>
 
+          <!-- CLUB & FUN -->
           <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
               Club &amp; fun <span class="nav-link-caret">▾</span>
             </button>
             <div class="nav-dropdown">
-              <a href="algemene-events.html?type=Dinner" class="nav-dropdown-link">Eetdagen &amp; dinners</a>
-              <a href="algemene-events.html?type=Bingo" class="nav-dropdown-link">Bingo</a>
-              <a href="algemene-events.html?type=Darts" class="nav-dropdown-link">Darts</a>
-              <a href="algemene-events.html?type=Quiz" class="nav-dropdown-link">Quiz</a>
+              <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+              <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+              <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
               <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+              <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              <a href="algemene-events.html" class="nav-dropdown-link">Andere clubevents</a>
             </div>
           </div>
 
-          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-          <a href="trainers.html" class="nav-link">Trainers</a>
-          <a href="spelers.html" class="nav-link">Spelers</a>
+          <!-- VACATURES & PROFIELEN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
 
+          <!-- SPORTIEF -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL -->
           <div class="nav-item nav-item--dropdown">
             <button type="button" class="nav-link nav-link--dropdown">
               Voetbal4All <span class="nav-link-caret">▾</span>
@@ -68,19 +103,20 @@
               <a href="contact.html" class="nav-dropdown-link">Contact</a>
             </div>
           </div>
-
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
         </nav>
+
+        <!-- CTA buiten nav -->
+        <a href="adverteren.html" class="nav-cta">
+          <span>Adverteer nu</span>
+          <span>Sponsor &amp; Ads</span>
+        </a>
 
         <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
 
-  <!-- Live banner (PC/tablet) -->
+  <!-- ================= LIVE BANNER ================= -->
   <section class="live-banner-top">
     <div class="shell">
       <div class="live-banner">
@@ -97,7 +133,7 @@
     </div>
   </section>
 
-  <!-- Header ad -->
+  <!-- ================= HEADER AD ================= -->
   <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
     <div class="shell">
       <div class="ad-slot ad-slot-header sticky-ad-header">
@@ -112,45 +148,159 @@
     </div>
   </section>
 
+  <!-- ================= CONTENT ================= -->
   <main>
     <section class="section-main">
       <div class="shell">
 
-        <article class="card">
+        <article class="card" style="margin-bottom:12px;">
           <div class="card-header">
             <div>
-              <div class="card-caption">Eetdagen &amp; dinners</div>
-              <div class="card-title">Spaghettiavond, BBQ, ontbijtactie, pannenkoeken…</div>
+              <div class="card-caption">Club &amp; fun</div>
+              <div class="card-title">Dinners &amp; eetdagen</div>
             </div>
             <span class="pill-small">Fundraising</span>
           </div>
           <p class="note">
-            Op zoek naar een eetdag van een voetbalclub? Hieronder vind je het overzicht van alle eetdagen en dinners die clubs posten op Voetbal4All.
+            Spaghettiavond, BBQ, ontbijtactie, pannenkoeken… Hier bundelen we alle eetdagen en dinners die clubs posten op Voetbal4All.
           </p>
 
           <div class="ad-card-actions" style="margin-top:10px;">
-            <a class="btn-ghost-sm" href="algemene-events.html?type=Dinner">Bekijk alle eetdagen &amp; dinners</a>
+            <a class="btn-ghost-sm" href="algemene-events.html">Bekijk alle Club &amp; Fun events</a>
+            <a class="btn-ghost-sm" href="algemene-events.html?type=Eetdag">Toon eetdagen</a>
             <a class="btn-ghost-sm" href="adverteren.html">Adverteer op deze pagina</a>
           </div>
         </article>
+
+        <div class="v4-layout-sidebar">
+
+          <!-- LINKS -->
+          <div class="v4-content">
+
+            <!-- Zoek/filters (voor later uitbreidbaar) -->
+            <div class="search-bar" style="margin-bottom:12px;">
+              <input class="search-input" id="dinner-search" type="text" placeholder="Zoek op club, gemeente, actie..." />
+              <div class="search-filters-row">
+                <select class="search-select" id="dinner-country">
+                  <option value="">Land (alles)</option>
+                  <option value="BE">🇧🇪 België</option>
+                  <option value="NL">🇳🇱 Nederland</option>
+                </select>
+                <select class="search-select" id="dinner-type">
+                  <option value="">Type (alles)</option>
+                  <option value="Spaghetti">Spaghetti</option>
+                  <option value="BBQ">BBQ</option>
+                  <option value="Ontbijt">Ontbijt</option>
+                  <option value="Pannenkoeken">Pannenkoeken</option>
+                  <option value="Andere">Andere</option>
+                </select>
+                <select class="search-select" id="dinner-month">
+                  <option value="">Maand (alles)</option>
+                  <option value="01">Januari</option>
+                  <option value="02">Februari</option>
+                  <option value="03">Maart</option>
+                  <option value="04">April</option>
+                  <option value="05">Mei</option>
+                  <option value="06">Juni</option>
+                  <option value="07">Juli</option>
+                  <option value="08">Augustus</option>
+                  <option value="09">September</option>
+                  <option value="10">Oktober</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+              </div>
+              <div class="form-helper">Demo-filters: in live versie wordt dit gekoppeld aan echte events.</div>
+            </div>
+
+            <!-- Lijst -->
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Overzicht</div>
+                  <div class="card-title">Eetdagen &amp; dinners (demo)</div>
+                </div>
+                <span class="pill-small">Onder elkaar</span>
+              </div>
+
+              <div class="events-list" id="dinner-list">
+                <div class="event-item" data-country="BE" data-type="Spaghetti" data-month="02">
+                  <div class="event-title">Spaghettiavond – K. ASV Geel</div>
+                  <div class="event-meta">🇧🇪 België · Kempen · Februari</div>
+                </div>
+                <div class="event-item" data-country="BE" data-type="BBQ" data-month="05">
+                  <div class="event-title">BBQ – Supportersclub</div>
+                  <div class="event-meta">🇧🇪 België · Antwerpen · Mei</div>
+                </div>
+                <div class="event-item" data-country="NL" data-type="Ontbijt" data-month="03">
+                  <div class="event-title">Ontbijtactie – Jeugdwerking</div>
+                  <div class="event-meta">🇳🇱 Nederland · Noord-Brabant · Maart</div>
+                </div>
+              </div>
+
+              <div class="note" style="margin-top:10px;">
+                Tip: laat clubs deze events posten via <strong>algemene-events.html</strong>, en toon ze hier gefilterd als “Dinners &amp; eetdagen”.
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RECHTS: ADS -->
+          <aside class="v4-sidebar">
+            <div class="v4-sidebar-sticky">
+
+              <article class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Advertentie</div>
+                    <div class="card-title">Horeca &amp; lokale sponsors</div>
+                  </div>
+                  <span class="pill-small">Top match</span>
+                </div>
+                <div class="ad-placeholder">
+                  Ideaal voor restaurants, traiteurs, drankhandels, foodtrucks, lokale sponsors.<br />
+                  <span class="ad-size">300 × 250 / 300 × 600</span>
+                </div>
+              </article>
+
+              <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="6032627042"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+              </div>
+
+            </div>
+          </aside>
+
+        </div>
 
       </div>
     </section>
   </main>
 
+  <!-- ================= FOOTER ================= -->
   <footer class="footer" id="footer-contact">
     <div class="shell">
       <div class="footer-grid">
         <div class="footer-brand">
           <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">&copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.</div>
+          <div class="footer-legal">
+            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+          </div>
           <div class="footer-social">
             <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
             <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
             <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
           </div>
         </div>
-        <div class="footer-ad">FOOTER ADVERTENTIE / PARTNERLOGO<br><span class="ad-size">Footer-banner</span></div>
+        <div class="footer-ad">
+          FOOTER ADVERTENTIE / PARTNERLOGO<br>
+          <span class="ad-size">Footer-banner</span>
+        </div>
       </div>
     </div>
   </footer>
@@ -159,6 +309,32 @@
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Demo-filtering
+  (function(){
+    const q = document.getElementById("dinner-search");
+    const c = document.getElementById("dinner-country");
+    const t = document.getElementById("dinner-type");
+    const m = document.getElementById("dinner-month");
+    const items = Array.from(document.querySelectorAll("#dinner-list .event-item"));
+
+    function apply(){
+      const qv = (q.value || "").toLowerCase().trim();
+      items.forEach(el => {
+        let ok = true;
+        if (qv && !el.textContent.toLowerCase().includes(qv)) ok = false;
+        if (c.value && el.dataset.country !== c.value) ok = false;
+        if (t.value && el.dataset.type !== t.value) ok = false;
+        if (m.value && el.dataset.month !== m.value) ok = false;
+        el.style.display = ok ? "" : "none";
+      });
+    }
+
+    [q,c,t,m].forEach(x => {
+      x.addEventListener("input", apply);
+      x.addEventListener("change", apply);
+    });
+  })();
 </script>
 
 <script src="assets/js/nav-mobile.js"></script>
