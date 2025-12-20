@@ -1487,15 +1487,22 @@ footer { margin-top: auto; }
   }
 }
 
+/* Tablet: toon 1 zij-ad (links), verberg rechts */
 @media (max-width: 900px){
   .v4-legal-3col{
-    grid-template-columns: minmax(0, 1fr); /* 1 kolom */
+    grid-template-columns: 180px minmax(0, 1fr);
   }
-  .v4-legal-sticky{
-    position: static;
-    top: auto;
+  .v4-legal-3col > aside:last-of-type{
+    display: none;
+  }
+}
+
+/* Enkel op mobiel alles verbergen */
+@media (max-width: 600px){
+  .v4-legal-3col{
+    grid-template-columns: minmax(0, 1fr);
   }
   .v4-legal-ad{
-    display: none; /* op tablet/phone: verberg zij-ads voor leesbaarheid */
+    display: none;
   }
 }
