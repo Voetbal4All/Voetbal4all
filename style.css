@@ -1472,8 +1472,13 @@ footer { margin-top: auto; }
 }
 
 .v4-legal-ad{
-  display: grid;
-  gap: 12px;
+  min-width: 160px;
+  max-width: 200px;
+}
+
+.v4-legal-ad ins.adsbygoogle{
+  display: block;
+  min-height: 250px; /* cruciaal */
 }
 
 .v4-legal-ad .ad-slot{
