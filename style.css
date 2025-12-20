@@ -1410,3 +1410,59 @@ footer {
   fill: #00ff9d !important;
   stroke: #00ff9d !important;
 }
+
+/* =======================
+   LIVE BANNER – SOCIALS (override / finetune)
+   ======================= */
+
+.live-socials {
+  display: flex;
+  flex-direction: row;          /* naast elkaar */
+  align-items: center;
+  gap: 10px;
+  margin-left: 8px;
+}
+
+.live-socials .live-social-label {
+  font-size: 11px;              /* kleiner zodat 1 lijn blijft */
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #7dfccb;               /* groen zoals Live resultaten */
+  white-space: nowrap;          /* nooit afbreken */
+  line-height: 1;
+}
+
+.live-socials .live-social {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 255, 157, 0.60);
+  background: rgba(1, 10, 6, 0.85);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* kleur + subtielere glow */
+  color: #7dfccb;
+  filter: drop-shadow(0 0 4px rgba(0, 255, 157, 0.22));
+  transition: transform 160ms ease, filter 160ms ease;
+
+  /* rustiger “slow effect” */
+  animation: liveSocialPulse 7s ease-in-out infinite;
+}
+
+.live-socials .live-social svg {
+  width: 20px;                  /* logo groter in dezelfde cirkel */
+  height: 20px;
+  fill: currentColor;           /* altijd groen (geen wit) */
+}
+
+.live-socials .live-social:hover {
+  transform: translateY(-1px);
+  filter: drop-shadow(0 0 7px rgba(0, 255, 157, 0.30));
+}
+
+@keyframes liveSocialPulse {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(0, 255, 157, 0.18)); }
+  50%      { filter: drop-shadow(0 0 6px rgba(0, 255, 157, 0.26)); }
+}
