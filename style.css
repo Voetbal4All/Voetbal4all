@@ -734,6 +734,7 @@ footer { margin-top: auto; }
   text-align: center;
   font-size: 12px;
   line-height: 1.5;
+  Min-height: 250px;
 }
 
 /* Verberg lege AdSense slots om "gaten" te vermijden */
@@ -1537,3 +1538,32 @@ footer { margin-top: auto; }
 .ad-slot-infeed {
   min-height: 180px;
 }
+
+/* =========================
+   CLS FIXES – GLOBAL
+   ========================= */
+
+/* Live banner: reserveer ruimte zodat JS-invulling niet “springt” */
+.live-banner { min-height: 64px; }
+.live-text-main { display: inline-block; min-width: 240px; }
+.live-updated { min-height: 16px; }
+.live-socials-icons { display:flex; gap:10px; min-width: 130px; min-height: 24px; }
+
+/* Header ad: reserveer stabieler (minder 0px→hoogte) */
+.ad-slot-header { min-height: 110px; }
+
+/* Sidebar/legal ad containers: reserveer stabiele hoogte */
+.v4-legal-ad,
+.v4-sidebar .ad-slot,
+.v4-sidebar ins.adsbygoogle,
+.v4-legal-ad ins.adsbygoogle,
+.ad-placeholder {
+  display: block;
+  min-height: 250px;
+}
+
+/* Sticky container zelf ook stabiel */
+.v4-sidebar-sticky { min-height: 260px; top: 92px; }
+
+/* (Als je in-feed ads gebruikt) */
+.ad-slot-infeed { min-height: 180px; }
