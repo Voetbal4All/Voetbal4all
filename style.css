@@ -1572,3 +1572,30 @@ footer {
   align-items: center !important;
   justify-content: center !important;
 }
+
+/* Banner moet referentie worden voor absolute overlay */
+.live-banner{
+  position:relative !important;
+}
+
+/* Update overlay: rood, glow, gecentreerd, buiten layout flow */
+.live-banner .live-updated{
+  position:absolute !important;
+  top:-10px !important;                 /* “voor de border” (erboven) */
+  left:50% !important;
+  transform:translateX(-50%) !important;
+
+  font-size:10px !important;
+  line-height:1 !important;
+  padding:4px 10px !important;
+  border-radius:999px !important;
+
+  color:#ff3366 !important;
+  background:rgba(5, 8, 20, 0.75) !important;
+  border:1px solid rgba(255, 51, 102, 0.55) !important;
+  box-shadow:0 0 14px rgba(255, 51, 102, 0.45) !important;
+
+  pointer-events:none !important;
+  z-index:5 !important;
+  white-space:nowrap !important;
+}
