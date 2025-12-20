@@ -1244,13 +1244,16 @@ footer { margin-top: auto; }
 }
 
 /* =======================
-   MOBIEL: LOGO CENTREREN (tegen ads overlap)
+   MOBIEL: LOGO CENTREREN + BURGER RECHTS
    ======================= */
 
 @media (max-width: 600px) {
-  .navbar-inner { position: relative; }
+  .navbar-inner {
+    position: relative;
+    justify-content: flex-end; /* burger als anker rechts */
+  }
 
-  /* center logo binnen de navbar */
+  /* Logo exact gecentreerd */
   .brand.brand--logo-only {
     position: absolute;
     left: 50%;
@@ -1258,7 +1261,9 @@ footer { margin-top: auto; }
     z-index: 3;
   }
 
+  /* Burger altijd rechts, boven ads */
   .nav-burger {
+    margin-left: auto;
     position: relative;
     z-index: 4;
   }
