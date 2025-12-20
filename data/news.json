@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-20T03:43:11.335Z",
+  "generatedAt": "2025-12-20T04:48:37.451Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "The Ashes LIVE! England lose Root, three down chasing record 435 to save Ashes",
+      "link": "https://www.skysports.com/cricket/live-blog/12040/13484192/the-ashes-australia-vs-england-third-test-live-score-and-updates-from-adelaide-oval-in-must-win-game-for-ben-stokes-side",
+      "summary": "",
+      "publishedAt": "2025-12-20T04:20:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13485650/world-darts-championship-beau-greaves-beaten-in-final-set-thriller-by-daryl-gurney-to-suffer-first-round-exit-at-alexandra-palace",
       "summary": "Beau Greaves narrowly missed out on becoming the second woman in history to win a match at the World Darts Championship after a dramatic 3-2 defeat to Daryl Gurney at Alexandra Palace.",
       "publishedAt": "2025-12-19T21:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'One of the best shots at this year's World Championship' | Gurney takes out 144",
-      "link": "https://www.skysports.com/watch/video/13485736/world-darts-championship-daryl-gurney-takes-out-144-vs-beau-greaves",
-      "summary": "Daryl Gurney finished 144 under huge pressure as he went on to win his World Darts Championship opener against Beau Greaves.",
-      "publishedAt": "2025-12-19T21:11:00.000Z"
     }
   ]
 }
