@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Artikels & stories</title>
+  <title>Voetbal4All - Artikels & verhalen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
-
-  <style>
-    /* Navbar 3-zone layout: logo links, menu gecentreerd, CTA rechts */
-    .navbar-inner{display:flex;align-items:center;width:100%;}
-    .brand{flex-shrink:0;}
-    .nav-links{flex:1;display:flex;align-items:center;justify-content:center;gap:18px;}
-    .nav-cta{flex-shrink:0;white-space:nowrap;}
-  </style>
-
 </head>
 
 <body class="v4-hide-live-mobile">
@@ -25,6 +20,7 @@
     <header class="navbar">
       <div class="shell">
         <div class="navbar-inner">
+
           <a href="index.html" class="brand brand--logo-only">
             <img
               src="assets/img/brand/logo-voetbal4all.svg"
@@ -108,6 +104,7 @@
             </div>
           </nav>
 
+          <!-- CTA (buiten nav, voor nette uitlijning) -->
           <a href="adverteren.html" class="nav-cta">
             <span>Adverteer nu</span>
             <span>Sponsor &amp; Ads</span>
@@ -118,59 +115,101 @@
       </div>
     </header>
 
+    <!-- LIVE BANNER (PC + tablet, niet op mobiel via body class) -->
+    <section class="live-banner-top">
+      <div class="shell">
+        <div class="live-banner">
+          <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+          <div class="live-text">
+            <span class="live-text-main"></span>
+            <div class="live-updated"></div>
+          </div>
+          <div class="live-socials" aria-label="Volg Voetbal4All">
+            <div class="live-socials-label">Volg ons</div>
+            <div class="live-socials-icons"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HEADER AD -->
+    <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+      <div class="shell">
+        <div class="ad-slot ad-slot-header sticky-ad-header">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="3518144343"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+    </section>
+
     <main>
       <section class="section-main">
         <div class="shell">
 
-          <!-- KORTE INTRO -->
-          <article class="card" style="margin-bottom:12px; max-width:900px;">
+          <!-- INTRO -->
+          <article class="card" style="margin-bottom:12px;">
             <div class="card-header">
               <div>
                 <div class="card-caption">Artikels</div>
-                <div class="card-title">Stories, team/vrijwilliger in de kijker &amp; analyses</div>
+                <div class="card-title">Laatste voetbalnieuws &amp; verhalen (BE &amp; NL)</div>
               </div>
-              <span class="pill-small">België · Nederland · Internationaal</span>
+              <span class="pill-small">Onder elkaar · beter leesbaar</span>
             </div>
             <p class="note">
-              Een verzameling artikels over clubs, trainers, spelers en vrijwilligers.
-              Op deze pagina tonen we <strong>bronlogo</strong> en <strong>vlag</strong> bij elk artikel.
+              Filter op land en categorie, en zoek op club/competitie. De feed komt uit <strong>data/news.json</strong>.
             </p>
           </article>
 
-          <!-- GRID: LINKS ARTIKELS + FILTER · RECHTS INFO / ADS -->
-          <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
+          <div class="v4-layout-sidebar">
 
-            <!-- LINKERKOLOM -->
-            <div>
+            <!-- LINKS -->
+            <div class="v4-content">
 
-              <!-- ZOEK- EN FILTERBALK -->
+              <!-- ZOEK + FILTERS -->
               <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
-                <input
-                  type="text"
-                  id="article-search-text"
-                  class="search-input"
-                  placeholder="Zoek op club, titel, thema, regio..."
-                />
+                <input type="text" id="article-search-text" class="search-input" placeholder="Zoek op titel, club, competitie..." />
                 <div class="search-filters-row">
                   <select id="article-filter-country" class="search-select">
                     <option value="">Land (alles)</option>
                     <option value="BE">🇧🇪 België</option>
                     <option value="NL">🇳🇱 Nederland</option>
-                    <option value="INT">🌍 Internationaal</option>
                   </select>
+
                   <select id="article-filter-category" class="search-select">
                     <option value="">Categorie (alles)</option>
-                    <option value="team">Team in de kijker</option>
-                    <option value="vrijwilliger">Vrijwilliger in de kijker</option>
-                    <option value="analyse">Analyse / data</option>
-                    <option value="interview">Interview</option>
-                    <option value="best-practice">Best practice clubwerking</option>
+                    <option value="Jupiler Pro League">Jupiler Pro League</option>
+                    <option value="Challenger Pro League">Challenger Pro League</option>
+                    <option value="Beker">Beker</option>
+                    <option value="Amateur">Amateur</option>
+                    <option value="Jeugd">Jeugd</option>
+                    <option value="Internationaal">Internationaal</option>
+                    <option value="Vrouwen">Vrouwen</option>
+                    <option value="Transfers">Transfers</option>
+                    <option value="Algemeen">Algemeen</option>
                   </select>
                 </div>
                 <div class="form-helper">
-                  Filter artikels op land en categorie. De tekstzoeker kijkt in titel, intro en tags.
+                  Tip: klik op “Open artikel” om de bron te openen. Deel via “Delen”.
                 </div>
               </div>
+
+              <!-- TOP INFEED AD -->
+              <section class="section-main" style="padding-top:0;padding-bottom:10px;">
+                <div class="ad-infeed">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="4831226012"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+              </section>
 
               <!-- OVERZICHT -->
               <section class="section-main" style="padding-top:0;">
@@ -180,15 +219,11 @@
                       <div class="card-caption">Overzicht</div>
                       <div class="card-title">Laatste artikels &amp; verhalen</div>
                     </div>
-                    <span class="pill-small">3 per rij · met logo &amp; vlag</span>
+                    <span class="pill-small" id="news-count">—</span>
                   </div>
 
-                  <p class="note">
-                    De feed komt uit <strong>data/news.json</strong> (GitHub Actions).
-                  </p>
-
-                  <div id="article-list" class="ad-card-list ad-card-grid">
-                    <!-- Wordt gevuld via data/news.json -->
+                  <div id="article-list" class="ad-card-list ad-card-list--stack">
+                    <!-- gevuld via data/news.json -->
                   </div>
 
                   <p id="news-status" class="note" style="margin-top:10px; display:none;"></p>
@@ -197,50 +232,37 @@
 
             </div>
 
-            <!-- RECHTERKOLOM -->
-            <aside>
+            <!-- RECHTS -->
+            <aside class="v4-sidebar">
+              <div class="v4-sidebar-sticky">
 
-              <article class="card">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Redactie</div>
-                    <div class="card-title">Artikels aanleveren</div>
+                <article class="card">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Advertentie</div>
+                      <div class="card-title">Sponsor / Partner</div>
+                    </div>
+                    <span class="pill-small">Premium</span>
                   </div>
-                </div>
-                <p class="note">
-                  In de live versie kunnen clubs, trainers en redacteurs zelf artikels aanleveren
-                  via hun Voetbal4All-account.
-                </p>
-              </article>
-
-              <article class="card" style="margin-top:12px;">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Advertentiezone</div>
-                    <div class="card-title">Media &amp; opleidingen</div>
+                  <div class="ad-placeholder">
+                    Vaste partnerzone naast artikels. Ideaal voor sponsors, lokale ondernemers en sportdiensten.
+                    <br/>
+                    <span class="ad-size">Aanrader: 300 × 250 of 300 × 600</span>
                   </div>
-                  <span class="pill-small">Partners</span>
-                </div>
-                <div class="ad-placeholder">
-                  Perfect voor partners rond opleidingen, coach-the-coach of clubcommunicatie.<br />
-                  <span class="ad-size">Bv. 300 × 250 px</span>
-                </div>
-              </article>
+                </article>
 
-              <article class="card" style="margin-top:12px;">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Advertentiezone</div>
-                    <div class="card-title">Drukwerk &amp; visuals</div>
-                  </div>
-                  <span class="pill-small">Flyers · banners · kleding</span>
+                <!-- Sticky AdSense -->
+                <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="6032627042"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
-                <div class="ad-placeholder">
-                  Advertentieruimte voor drukwerk, clubwear of grafisch ontwerp.<br />
-                  <span class="ad-size">Bv. 300 × 250 px</span>
-                </div>
-              </article>
 
+              </div>
             </aside>
 
           </div>
@@ -257,16 +279,16 @@
             <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
             <div class="footer-legal">
               &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-              · Mogelijkheden voor hoofdsponsor, partners en advertenties.
             </div>
             <div class="footer-social">
-              <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-              <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+              <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+              <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+              <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
             </div>
           </div>
           <div class="footer-ad">
             FOOTER ADVERTENTIE / PARTNERLOGO<br>
-            <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+            <span class="ad-size">Footer-banner</span>
           </div>
         </div>
       </div>
@@ -278,219 +300,158 @@
     // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // ----------------------------
-    // Element refs
-    // ----------------------------
-    const articleListEl = document.getElementById("article-list");
-    const statusEl = document.getElementById("news-status");
+    // Data path (GitHub Pages vs custom domain)
+    const isGithubPages = window.location.hostname.includes("github.io");
+    const DATA_BASE = isGithubPages ? "/voetbal4all/data/" : "data/";
+    const NEWS_URL = DATA_BASE + "news.json";
 
-    const articleSearchInput = document.getElementById("article-search-text");
+    const articleList = document.getElementById("article-list");
+    const newsStatus = document.getElementById("news-status");
+    const newsCount = document.getElementById("news-count");
+
+    const articleSearchText = document.getElementById("article-search-text");
     const articleFilterCountry = document.getElementById("article-filter-country");
     const articleFilterCategory = document.getElementById("article-filter-category");
 
-    let articleCards = [];
+    let allItems = [];
 
-    function normalize(str) {
-      return (str || "").toLowerCase();
+    function safe(s){ return (s ?? "").toString(); }
+    function norm(s){ return safe(s).toLowerCase().trim(); }
+
+    function flag(country){
+      const c = norm(country);
+      if (c === "be" || c.includes("belg")) return "🇧🇪";
+      if (c === "nl" || c.includes("neder")) return "🇳🇱";
+      return "🌍";
     }
 
-    function refreshArticleCards() {
-      articleCards = Array.from(document.querySelectorAll("#article-list .ad-card"));
-      filterArticles();
+    function fmtDate(iso){
+      if (!iso) return "";
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return safe(iso);
+      return d.toLocaleDateString("nl-BE", { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    function filterArticles() {
-      const text = normalize(articleSearchInput.value);
-      const country = articleFilterCountry.value;
-      const category = articleFilterCategory.value;
+    function shareUrl(url){
+      return "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+    }
 
-      articleCards.forEach(card => {
-        const cardCountry = card.dataset.country || "";
-        const cardCategory = card.dataset.category || "";
-        const tags = normalize(card.dataset.tags || "");
+    function renderAdInfeed(slot){
+      return `
+        <div class="ad-infeed" style="margin: 10px 0;">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="${slot}"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        </div>
+      `;
+    }
 
-        const titleEl = card.querySelector(".article-title");
-        const excerptEl = card.querySelector(".article-excerpt");
-        const titleText = normalize(titleEl ? titleEl.textContent : "");
-        const excerptText = normalize(excerptEl ? excerptEl.textContent : "");
+    function renderCard(a){
+      const title = safe(a.title);
+      const url = safe(a.url);
+      const source = safe(a.source || a.publisher || "Bron");
+      const country = safe(a.country || "");
+      const category = safe(a.category || "Algemeen");
+      const date = safe(a.date || a.publishedAt || "");
 
-        let visible = true;
+      return `
+        <article class="ad-card" data-country="${safe(country)}" data-category="${safe(category)}">
+          <div class="ad-card-header">
+            <div>
+              <div class="ad-card-title">${title}</div>
+              <div class="ad-card-meta">${flag(country)} ${country || "—"} · ${category} · ${source}</div>
+            </div>
+            <div class="ad-card-meta">${fmtDate(date)}</div>
+          </div>
+          <div class="ad-card-actions">
+            <a class="btn-ghost-sm" href="${url}" target="_blank" rel="noopener noreferrer">Open artikel</a>
+            <a class="btn-ghost-sm" href="${shareUrl(url)}" target="_blank" rel="noopener noreferrer">Delen</a>
+          </div>
+        </article>
+      `;
+    }
 
-        // Alleen filteren als de kaart effectief een waarde heeft
-        if (country && cardCountry && cardCountry !== country) visible = false;
-        if (category && cardCategory && cardCategory !== category) visible = false;
+    function applyFilters(){
+      const q = norm(articleSearchText.value);
+      const c = articleFilterCountry.value;
+      const cat = articleFilterCategory.value;
 
-        if (visible && text) {
-          const haystack = titleText + " " + excerptText + " " + tags;
-          if (!haystack.includes(text)) visible = false;
+      const filtered = allItems.filter(a => {
+        const text = norm((a.title||"") + " " + (a.source||a.publisher||"") + " " + (a.category||"") + " " + (a.country||""));
+        if (q && !text.includes(q)) return false;
+
+        if (c) {
+          const cc = safe(a.country || "");
+          if (cc !== c) return false;
         }
+        if (cat) {
+          const ca = safe(a.category || "");
+          if (ca !== cat) return false;
+        }
+        return true;
+      });
 
-        card.style.display = visible ? "" : "none";
+      articleList.innerHTML = "";
+      newsCount.textContent = filtered.length ? (filtered.length + " artikels") : "0 artikels";
+
+      if (!filtered.length){
+        newsStatus.style.display = "block";
+        newsStatus.textContent = "Geen artikels gevonden met deze filters.";
+        return;
+      } else {
+        newsStatus.style.display = "none";
+      }
+
+      filtered.forEach((a, i) => {
+        articleList.insertAdjacentHTML("beforeend", renderCard(a));
+
+        // In-feed ads na 6 en 14 artikels (max return zonder te agressief te zijn)
+        if (i === 5) {
+          articleList.insertAdjacentHTML("beforeend", renderAdInfeed("5761272101"));
+          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+        }
+        if (i === 13) {
+          articleList.insertAdjacentHTML("beforeend", renderAdInfeed("4831226012"));
+          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+        }
       });
     }
 
-    function updateArticleShareLinks() {
-      const baseUrl = window.location.origin + window.location.pathname;
-      document.querySelectorAll("[data-share-article]").forEach(link => {
-        const id = link.getAttribute("data-share-article");
-        const targetId = "news-" + id;
-        const urlWithAnchor = baseUrl + "#" + targetId;
-        const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
-
-        link.setAttribute("href", fbShare);
-        link.setAttribute("target", "_blank");
-        link.setAttribute("rel", "noopener");
-      });
-    }
-
-    function getSourceLogo(source) {
-      const s = (source || "").toLowerCase();
-      if (s.includes("voetbal international") || s.includes("vi")) return "assets/img/sources/vi.png";
-      if (s.includes("sporza")) return "assets/img/sources/sporza.png";
-      if (s.includes("hln")) return "assets/img/sources/hln.png";
-      if (s.includes("nos")) return "assets/img/sources/nos.png";
-      if (s.includes("bbc")) return "assets/img/sources/bbc.png";
-      if (s.includes("guardian")) return "assets/img/sources/guardian.png";
-      if (s.includes("sky")) return "assets/img/sources/sky.png";
-      if (s.includes("espn")) return "assets/img/sources/espn.png";
-      return "assets/img/sources/default.png";
-    }
-
-    function getFlagFromCountry(country) {
-      if (country === "BE") return "🇧🇪";
-      if (country === "NL") return "🇳🇱";
-      if (country === "INT") return "🌍";
-      return "📰";
-    }
-
-    // ----------------------------
-    // RSS/NEWS JSON -> cards
-    // ----------------------------
-    async function loadNewsIntoArticles() {
-      try {
-        statusEl.style.display = "block";
-        statusEl.textContent = "Nieuws wordt geladen…";
-
-        const res = await fetch("data/news.json", { cache: "no-store" });
-        if (!res.ok) throw new Error("news.json niet bereikbaar: " + res.status);
+    async function loadNews(){
+      try{
+        const res = await fetch(NEWS_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
 
         const data = await res.json();
+        allItems = Array.isArray(data) ? data : (data.articles || []);
 
-        // Support 2 formaten:
-        // A) { items: [...] } (RSS build)
-        // B) [ ... ]          (oude demo json)
-        const itemsRaw = Array.isArray(data) ? data : (data.items || []);
-        const items = itemsRaw.slice(0, 20);
-
-        articleListEl.innerHTML = "";
-
-        if (!items.length) {
-          statusEl.textContent = "Geen nieuws gevonden. Probeer later opnieuw.";
-          return;
-        }
-
-        statusEl.style.display = "none";
-
-        items.forEach((item, idx) => {
-          const id = "news-" + (idx + 1);
-
-const source = item.source || item.competitie || "Nieuws";
-const title = item.title || item.titel || "Zonder titel";
-const sourceLogo = getSourceLogo(source);
-const link = item.link || "#";
-const summary = item.summary || item.teaser || "";
-const publishedRaw = item.publishedAt || item.datum || null;
-const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
-
-// Land/flag ondersteunen voor beide formaten:
-// RSS: item.country / item.flag
-// Demo: item.land
-let country = item.country || item.land || "";
-if (country && country !== "BE" && country !== "NL") country = "INT";
-
-const flag =
-  item.flag ||
-  (country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : country ? "🌍" : "📰");
-
-const category = item.category || "";
-const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
-
-const card = document.createElement("article");
-card.className = "ad-card";
-card.id = id;
-card.dataset.articleId = String(idx + 1);
-card.dataset.country = country;
-card.dataset.category = category;
-card.dataset.tags = tags;
-
-card.innerHTML = `
-  <div class="home-article-media">
-    <div class="home-article-image">
-      <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy"
-           onerror="this.onerror=null;this.src='assets/img/sources/default.png';" />
-    </div>
-    <div class="home-article-flag">
-      <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
-    </div>
-  </div>
-
-  <div class="home-article-content">
-    <div class="article-meta">${source}${published ? " · " + published : ""}</div>
-    <h3 class="article-title">
-      <a href="${link}" target="_blank" rel="noopener">${title}</a>
-    </h3>
-    <p class="article-excerpt">${summary}</p>
-    <div class="ad-card-actions">
-      <a href="${link}" target="_blank" rel="noopener" class="btn-ghost-sm">Lees op bron</a>
-      <a href="#" class="btn-ghost-sm btn-share" data-share-article="${idx + 1}">Delen</a>
-    </div>
-  </div>
-`;
-
-articleListEl.appendChild(card);
-
-          // Voorbeeld: insert in-feed ad na item 6 en 14
-          if (idx === 5 || idx === 13) {
-            const adWrap = document.createElement("div");
-            adWrap.className = "ad-infeed";
-            adWrap.innerHTML = `
-              <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-4062633211824348"
-                data-ad-slot="5761272101"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
-            `;
-            articleListEl.appendChild(adWrap);
-
-            try {
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            } catch (e) {
-              console.warn("Adsense push failed", e);
-            }
-          }
+        // sort newest first (if date exists)
+        allItems.sort((a,b) => {
+          const da = new Date(a.date || a.publishedAt || 0).getTime();
+          const db = new Date(b.date || b.publishedAt || 0).getTime();
+          return db - da;
         });
 
-        updateArticleShareLinks();
-        refreshArticleCards();
-
-      } catch (err) {
-        statusEl.style.display = "block";
-        statusEl.textContent =
-          "Nieuws kon niet geladen worden. Controleer of data/news.json bestaat en of je GitHub workflow gelopen heeft.";
-        console.error(err);
+        applyFilters();
+      } catch (e) {
+        articleList.innerHTML = "";
+        newsCount.textContent = "—";
+        newsStatus.style.display = "block";
+        newsStatus.textContent = "Kon artikels niet laden. Controleer data/news.json en de bestandsstructuur.";
       }
     }
 
-    // Events
-    articleSearchInput.addEventListener("input", filterArticles);
-    articleFilterCountry.addEventListener("change", filterArticles);
-    articleFilterCategory.addEventListener("change", filterArticles);
+    articleSearchText.addEventListener("input", applyFilters);
+    articleFilterCountry.addEventListener("change", applyFilters);
+    articleFilterCategory.addEventListener("change", applyFilters);
 
-    // Init
-    loadNewsIntoArticles();
+    loadNews();
   </script>
 
-<script src="assets/js/nav-mobile.js"></script>  
+  <script src="assets/js/nav-mobile.js"></script>
+  <script src="assets/js/live-banner.js"></script>
 </body>
 </html>
