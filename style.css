@@ -1579,3 +1579,10 @@ footer { margin-top: auto; }
     min-height: 600px;
   }
 }
+
+@media (min-width: 901px){
+  /* Header ad kan op desktop groter worden; reserveer zodat het niet verspringt */
+  .ad-slot-header{
+    min-height: 250px;
+  }
+}
