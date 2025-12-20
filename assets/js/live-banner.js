@@ -8,14 +8,20 @@
     if (!textEl) return;
 
     // Timestamp
+    const labelEl = banner.querySelector(".live-label");
+    
     const updatedEl =
       banner.querySelector(".live-updated") ||
       (() => {
         const el = document.createElement("div");
         el.className = "live-updated";
-        textEl.appendChild(el);
         return el;
       })();
+    
+    // Zet 'Update: uu:mm' subtiel onder "Live resultaten"
+    if (labelEl && updatedEl.parentElement !== labelEl) {
+      labelEl.appendChild(updatedEl);
+    }
 
     // Hoofdtekst (leeg houden)
     let mainTextEl = textEl.querySelector(".live-text-main");
@@ -167,7 +173,7 @@ function makeSocialButton(href, label, svg) {
     }
 
     function setUpdated(d) {
-      updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
+      updatedEl.textContent = d ? `Update: ${formatTime(d)}` : "";
     }
 
     function renderFallback() {
