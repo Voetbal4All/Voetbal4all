@@ -7,88 +7,7 @@
     const textEl = banner.querySelector(".live-text");
     if (!textEl) return;
 
-    /* ============================
-       Runtime CSS (tijdelijk)
-       ============================ */
-    const STYLE_ID = "live-banner-runtime-css";
-    if (!document.getElementById(STYLE_ID)) {
-      const style = document.createElement("style");
-      style.id = STYLE_ID;
-      style.textContent = `
-        .live-text { flex: 1 1 auto; min-width: 0; }
-
-        .live-text-ticker {
-          position: relative;
-          overflow: hidden;
-          width: 100%;
-          white-space: nowrap;
-          min-height: 26px;
-        }
-
-        .live-marquee-track {
-          display: inline-block;
-          white-space: nowrap;
-          will-change: transform;
-          font-size: 18px;
-          font-weight: 700;
-          color: #f4f6fc;
-        }
-
-        /* Socials */
-        .live-socials {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 6px;
-          margin-left: 12px;
-          flex: 0 0 auto;
-        }
-
-        .live-socials-label {
-          font-size: 11px;
-          text-transform: uppercase;
-          letter-spacing: 0.16em;
-          color: #00ff9d;
-          text-shadow: 0 0 10px rgba(0,255,157,0.6);
-        }
-
-        .live-socials-icons {
-          display: inline-flex;
-          gap: 10px;
-        }
-
-        .live-social {
-          width: 34px;
-          height: 34px;
-          border-radius: 999px;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          border: 1px solid rgba(0,255,157,0.6);
-          background: rgba(1,10,6,0.85);
-          color: #00ff9d;
-          box-shadow: 0 0 16px rgba(0,255,157,0.35);
-          transition: transform 0.45s ease, box-shadow 0.45s ease;
-        }
-
-        .live-social:hover {
-          transform: translateY(-1px) scale(1.06);
-          box-shadow: 0 0 22px rgba(0,255,157,0.6);
-        }
-
-        .live-social svg {
-          width: 22px;
-          height: 22px;
-          fill: currentColor;
-          filter: drop-shadow(0 0 8px rgba(0,255,157,0.55));
-        }
-      `;
-      document.head.appendChild(style);
-    }
-
-    /* ============================
-       Timestamp
-       ============================ */
+    // Timestamp
     const updatedEl =
       banner.querySelector(".live-updated") ||
       (() => {
@@ -98,17 +17,7 @@
         return el;
       })();
 
-    function formatTime(d) {
-      return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
-    }
-
-    function setUpdated(d) {
-      updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
-    }
-
-    /* ============================
-       Hoofdtekst leeg
-       ============================ */
+    // Hoofdtekst (leeg houden)
     let mainTextEl = textEl.querySelector(".live-text-main");
     if (!mainTextEl) {
       mainTextEl = document.createElement("span");
@@ -117,9 +26,7 @@
     }
     mainTextEl.textContent = "";
 
-    /* ============================
-       Ticker wrapper
-       ============================ */
+    // Ticker wrapper
     let tickerWrap = textEl.querySelector(".live-text-ticker");
     if (!tickerWrap) {
       tickerWrap = document.createElement("div");
@@ -127,56 +34,91 @@
       textEl.insertBefore(tickerWrap, updatedEl);
     }
 
-    /* ============================
-       CTA verwijderen
-       ============================ */
+    // Verwijder oude CTA knop (Bekijk live)
     const oldCta = banner.querySelector(".live-cta");
     if (oldCta) oldCta.remove();
 
-    /* ============================
-       Socials rechts
-       ============================ */
+    // Socials rechts
     let socials = banner.querySelector(".live-socials");
     if (!socials) {
       socials = document.createElement("div");
       socials.className = "live-socials";
       banner.appendChild(socials);
     }
-    socials.innerHTML = `
-      <div class="live-socials-label">Volg ons op:</div>
-      <div class="live-socials-icons"></div>
-    `;
-    const socialsIcons = socials.querySelector(".live-socials-icons");
 
-    const ICON_FB = `<svg viewBox="0 0 24 24"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.2 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.9h-2.34V22C18.34 21.2 22 17.08 22 12.06z"/></svg>`;
+    // Label boven socials
+    let socialsLabel = socials.querySelector(".live-socials-label");
+    if (!socialsLabel) {
+      socialsLabel = document.createElement("div");
+      socialsLabel.className = "live-socials-label";
+      socials.prepend(socialsLabel);
+    }
+    socialsLabel.textContent = "Volg ons op:";
+
+    // Correcte iconen (Instagram = 3 paths -> camera)
+    const ICON_FB = `
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.2 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.9h-2.34V22C18.34 21.2 22 17.08 22 12.06z"/>
+      </svg>`;
+
     const ICON_IG = `
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <!-- Buitenframe -->
-      <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2z"/>
-      <!-- Camera lens -->
-      <path d="M12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6a2.8 2.8 0 0 0 0-5.6z"/>
-      <!-- Kleine stip -->
-      <path d="M17.5 6.3a1.2 1.2 0 1 1 0 2.4a1.2 1.2 0 0 1 0-2.4z"/>
-    </svg>
-    `;
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2z"/>
+        <path d="M12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6a2.8 2.8 0 0 0 0-5.6z"/>
+        <path d="M17.5 6.3a1.2 1.2 0 1 1 0 2.4a1.2 1.2 0 0 1 0-2.4z"/>
+      </svg>`;
 
-    function addSocial(href, label, svg) {
-      const a = document.createElement("a");
-      a.className = "live-social";
+    function ensureSocialButton(cls, href, label, svg) {
+      let a = socials.querySelector(`a.${cls}`);
+      if (!a) {
+        a = document.createElement("a");
+        a.className = `live-social ${cls}`;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.setAttribute("aria-label", label);
+        socials.appendChild(a);
+      }
+      // FORCE: altijd opnieuw vullen (geen "oude html" die blijft hangen)
       a.href = href;
-      a.target = "_blank";
-      a.rel = "noopener";
-      a.setAttribute("aria-label", label);
       a.innerHTML = svg;
-      socialsIcons.appendChild(a);
     }
 
-    addSocial("https://www.facebook.com/voetbal4all", "Facebook", ICON_FB);
-    addSocial("https://www.instagram.com/voetbal4all", "Instagram", ICON_IG);
+    ensureSocialButton(
+      "is-facebook",
+      "https://www.facebook.com/voetbal4all",
+      "Voetbal4All op Facebook",
+      ICON_FB
+    );
 
-    /* ============================
-       DEMO DATA
-       ============================ */
+    ensureSocialButton(
+      "is-instagram",
+      "https://www.instagram.com/voetbal4all",
+      "Voetbal4All op Instagram",
+      ICON_IG
+    );
+
+    const competitions = [
+      "Jupiler Pro League",
+      "Challenger Pro League",
+      "Eredivisie",
+      "Keuken Kampioen Divisie"
+    ];
+
+    function formatTime(d) {
+      return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+    }
+
+    function setUpdated(d) {
+      updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
+    }
+
+    function renderFallback() {
+      mainTextEl.textContent = `Momenteel geen live wedstrijden (${competitions.join(" · ")}).`;
+      tickerWrap.innerHTML = "";
+      banner.classList.remove("is-marquee");
+    }
+
+    // DEMO data
     async function fetchFreeLiveLines() {
       return [
         "🇧🇪 Club Brugge 2–1 Anderlecht (72’)",
@@ -186,53 +128,72 @@
       ];
     }
 
-    /* ============================
-       Marquee (correct reset)
-       ============================ */
-    let currentAnim = null;
-    let currentText = "";
+    function renderMarquee(lines) {
+      if (!Array.isArray(lines) || !lines.length) return false;
 
-    function startMarquee(text) {
-      if (currentAnim) currentAnim.cancel();
+      banner.classList.add("is-marquee");
+      mainTextEl.textContent = "";
 
-      tickerWrap.innerHTML = `<div class="live-marquee-track"></div>`;
-      const track = tickerWrap.firstElementChild;
-      track.textContent = text;
+      // Meer spacing tussen scores
+      const joined = lines.join("        •        ");
+
+      tickerWrap.innerHTML = `<div class="marquee-track"></div>`;
+      const track = tickerWrap.querySelector(".marquee-track");
+      track.textContent = joined;
 
       requestAnimationFrame(() => {
-        const startX = tickerWrap.clientWidth;
-        const endX = -track.scrollWidth;
-        const pxPerSec = 55;
-        const duration = Math.max(12000, ((startX - endX) / pxPerSec) * 1000);
+        const containerW = tickerWrap.clientWidth || 0;
+        const textW = track.scrollWidth || 0;
+        if (!containerW || !textW) return;
 
-        currentAnim = track.animate(
-          [
-            { transform: `translateX(${startX}px)` },
-            { transform: `translateX(${endX}px)` }
-          ],
-          { duration, easing: "linear", fill: "forwards" }
-        );
+        // Start volledig rechts buiten beeld, eind volledig links buiten beeld
+        const startX = containerW;
+        const endX = -textW;
 
-        currentAnim.onfinish = () => startMarquee(text);
+        // Rustige snelheid
+        const pxPerSec = 70;
+        const distance = startX - endX;
+        const durationSec = Math.max(14, distance / pxPerSec);
+
+        track.style.setProperty("--live-marquee-start", `${startX}px`);
+        track.style.setProperty("--live-marquee-end", `${endX}px`);
+        track.style.setProperty("--live-marquee-duration", `${durationSec}s`);
+
+        track.style.animation = "none";
+        void track.offsetHeight;
+        track.style.animation = "";
       });
+
+      return true;
     }
 
     async function refresh() {
-      const lines = await fetchFreeLiveLines();
-      const joined = lines.join("        •        "); // MEER SPANNING
+      try {
+        setUpdated(null);
 
-      if (joined !== currentText) {
-        currentText = joined;
-        startMarquee(joined);
+        const lines = await fetchFreeLiveLines();
+        if (!lines || !lines.length) {
+          renderFallback();
+          setUpdated(new Date());
+          return;
+        }
+
+        renderMarquee(lines);
+        setUpdated(new Date());
+      } catch (err) {
+        console.warn("Live banner fout:", err);
+        renderFallback();
+        setUpdated(new Date());
       }
-      setUpdated(new Date());
     }
 
     refresh();
-    setInterval(refresh, 60000);
+    setInterval(refresh, 60 * 1000);
   }
 
-  document.readyState === "loading"
-    ? document.addEventListener("DOMContentLoaded", init)
-    : init();
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 })();
