@@ -372,6 +372,14 @@ footer {
   animation: socialBreath 6s ease-in-out infinite;
 }
 
+.live-social:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  box-shadow:
+    0 0 14px rgba(125, 252, 203, 0.7),
+    0 0 28px rgba(125, 252, 203, 0.45);
+}
+
 /* =======================
    SECTIONS & LAYOUT
    ======================= */
