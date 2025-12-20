@@ -1586,3 +1586,20 @@ footer { margin-top: auto; }
     min-height: 250px;
   }
 }
+
+/* =========================
+   CLS FIXES – MOBILE INDEX
+   ========================= */
+@media (max-width: 600px){
+  /* Header ad: reserveer extra hoogte tegen auto-resize */
+  .ad-slot-header{
+    min-height: 180px;
+  }
+
+  /* Sponsor / banner blokken op mobile */
+  .banner-box,
+  .hero-sponsor,
+  .sponsor-box{
+    min-height: 120px;
+  }
+}
