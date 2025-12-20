@@ -21,6 +21,15 @@
       location.replace("/");
     }
   </script>
+
+  <style>
+    /* Navbar 3-zone layout: logo links, menu gecentreerd, CTA rechts */
+    .navbar-inner{display:flex;align-items:center;width:100%;}
+    .brand{flex-shrink:0;}
+    .nav-links{flex:1;display:flex;align-items:center;justify-content:center;gap:18px;}
+    .nav-cta{flex-shrink:0;white-space:nowrap;}
+  </style>
+
 </head>
 
 <body>
@@ -40,11 +49,11 @@
           </a>
 
           <nav class="nav-links">
-            <a href="/" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link nav-link--active">Home</a>
             <a href="artikels.html" class="nav-link">Artikels</a>
 
-            <!-- EVENTS DROPDOWN -->
-                        <div class="nav-item nav-item--dropdown">
+            <!-- SPORTIEVE EVENTS -->
+            <div class="nav-item nav-item--dropdown">
               <button type="button" class="nav-link nav-link--dropdown">
                 Sportieve events <span class="nav-link-caret">▾</span>
               </button>
@@ -58,6 +67,7 @@
               </div>
             </div>
 
+            <!-- CLUB & FUN -->
             <div class="nav-item nav-item--dropdown">
               <button type="button" class="nav-link nav-link--dropdown">
                 Club &amp; fun <span class="nav-link-caret">▾</span>
@@ -72,6 +82,7 @@
               </div>
             </div>
 
+            <!-- VACATURES & PROFIELEN -->
             <div class="nav-item nav-item--dropdown">
               <button type="button" class="nav-link nav-link--dropdown">
                 Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
@@ -82,7 +93,8 @@
                 <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
               </div>
             </div>
-<!-- SPORTIEF DROPDOWN -->
+
+            <!-- SPORTIEF -->
             <div class="nav-item nav-item--dropdown">
               <button type="button" class="nav-link nav-link--dropdown">
                 Sportief <span class="nav-link-caret">▾</span>
@@ -97,7 +109,7 @@
               </div>
             </div>
 
-            <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
+            <!-- VOETBAL4ALL -->
             <div class="nav-item nav-item--dropdown">
               <button type="button" class="nav-link nav-link--dropdown">
                 Voetbal4All <span class="nav-link-caret">▾</span>
@@ -108,14 +120,12 @@
                 <a href="contact.html" class="nav-dropdown-link">Contact</a>
               </div>
             </div>
-
-
-            </a>
           </nav>
 
-            <a href="adverteren.html" class="nav-cta">
-              <span>Adverteer nu</span>
-              <span>Sponsor &amp; Ads</span>
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
 
           <button class="nav-burger" aria-label="Menu">☰</button>
         </div>
