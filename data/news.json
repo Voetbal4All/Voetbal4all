@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2025-12-20T14:38:39.363Z",
+  "generatedAt": "2025-12-20T15:35:30.209Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Heracles en Heerenveen zijn eraan begonnen",
+      "link": "https://www.vi.nl/nieuws/vi-live-heracles-en-heerenveen-zijn-eraan-begonnen",
+      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
+      "publishedAt": "2025-12-20T15:34:10.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City v West Ham, Brighton v Sunderland, and more: football – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/20/manchester-city-v-west-ham-brighton-v-sunderland-and-more-football-live",
+      "summary": "⚽ Updates from Saturday afternoon’s big matches ⚽ Scores | Tables | Follow us on Bluesky | Mail Emillia Championship games (3pm unless otherwise stated) Preston North End 1-1 Norwich City FT Blackburn Rovers 2-0 Millwall FT Southampton 1-1 Coventry City FT Hull City v West Brom Bristol City v Middlesbrough Sheffield United v Birmingham City Watford v Stoke City Derby County v Portsmouth Ipswich Town v Sheffield Wednesday Charlton Athletic v Oxford United QPR v Leicester City Continue reading...",
+      "publishedAt": "2025-12-20T15:28:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League live updates: Man City host West Ham with chance to go top of table",
+      "link": "https://www.espn.com/soccer/story/_/id/47326642/premier-league-live-updates-newcastle-united-chelsea-manchester-city-west-ham-tottenham-liverpool",
+      "summary": "null",
+      "publishedAt": "2025-12-20T15:26:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea ratings: James 8/10 for stunning free kick in thrilling draw",
+      "link": "https://www.espn.com/soccer/story/_/id/47366433/chelsea-ratings-reece-james-stars-thrilling-draw-newcastle",
+      "summary": "Chelsea completed a remarkable comeback to leave Newcastle with a 2-2 draw.",
+      "publishedAt": "2025-12-20T15:26:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Championship roundup: angry Lampard sparks confrontation as Coventry draw with Saints",
+      "link": "https://www.theguardian.com/football/2025/dec/20/championship-roundup-angry-lampard-sparks-confrontation-as-coventry-draw-with-saints",
+      "summary": "Championship leaders shrug off illness crisis Blackburn beat Millwall to ease relegation worries Coventry shrugged off an illness crisis and a half with 10 men as the Championship leaders secured a 1-1 draw at Southampton. Frank Lampard – having been abused throughout the match by the home supporters – gestured multiple times at the Saints fans after the match to spark a melee on the pitch. Tatsuhiro Sakamoto and the first-choice centre-backs, Bobby Thomas and Liam Kitching, all missed the game with a flu bug and Jay Dasilva was sent off 85 seconds into the second half. Ephron Mason-Clark had given the Sky Blues a first-half lead but they could not hold out as Nathan Wood levelled after the break. This story will be updated Continue reading...",
+      "publishedAt": "2025-12-20T15:20:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Verrassing in Portugal: Farioli versterkt zich met Thiago Silva (41)",
+      "link": "https://www.vi.nl/nieuws/verrassing-in-portugal-farioli-versterkt-zich-met-thiago-silva-41",
+      "summary": "FC Porto heeft zich verrassend versterkt met Thiago Silva. De 41-jarige Braziliaan tekent een contract tot het einde van het seizoen bij de club van Francesco Farioli, waar hij twintig jaar geleden ook al speelde.",
+      "publishedAt": "2025-12-20T15:16:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Africa Cup of Nations springs surprise move to every four years",
+      "link": "https://www.theguardian.com/football/2025/dec/20/africa-cup-of-nations-springs-surprise-move-to-every-four-years",
+      "summary": "Patrice Motsepe reveals change on eve of tournament Caf event held every two years since its inception in 1957 The Africa Cup of Nations will be held every four years instead of every two years from 2028, the Confederation of African Football (Caf) has announced. The tournament, which brings in an estimated 80% of CAF’s revenue, has been held every two years since its inception in 1957. Sunday marks the start of the 35th edition, hosted in Morocco with the home team taking on Comoros. The Caf president, Patrice Motsepe, said the next finals, scheduled for 2027 in Kenya, Tanzania and Uganda, will go ahead and another tournament would be held in 2028, but after that it will be hosted every four years. Continue reading...",
+      "publishedAt": "2025-12-20T14:57:38.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -9,8 +86,30 @@
       "flag": "🌍",
       "title": "Afcon to be held every four years from 2028",
       "link": "https://www.bbc.com/sport/football/articles/cgjnx6x4281o?at_medium=RSS&at_campaign=rss",
-      "summary": "In a huge change to the football calendar, the Africa Cup of Nations will be held every four years from 2028, switching away from biennial finals.",
-      "publishedAt": "2025-12-20T14:36:33.000Z"
+      "summary": "In a huge change to the football calendar, the Africa Cup of Nations will be held every four years from 2028 - switching away from biennial finals.",
+      "publishedAt": "2025-12-20T14:55:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "João Pedro rescues Chelsea draw as Newcastle squander two-goal lead",
+      "link": "https://www.theguardian.com/football/2025/dec/20/newcastle-chelsea-premier-league-match-report",
+      "summary": "Eddie Howe is synonymous with tidiness, efficiency and time management. Given that there is absolutely nothing slapdash, careless or wasteful about Newcastle’s manager his team’s increasing penchant for losing control is proving a puzzling paradoxes. Newcastle have developed a habit of throwing leads away this season and, 2-0 up thanks to a Nick Woltemade double, they were at it again here. Second-half goals from Reece James – who was outstanding at both ends – and João Pedro ensured a much-improved Chelsea atoned for an abject first 45 minutes by departing with a point that could conceivably have been three. Newcastle have now dropped 13 points from winning positions this season. Continue reading...",
+      "publishedAt": "2025-12-20T14:53:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wanneer start de Afrika Cup en waar worden de duels uitgezonden?",
+      "link": "https://www.vi.nl/nieuws/wanneer-start-afrika-cup-en-waar-worden-de-duels-uitgezonden",
+      "summary": "Aan het einde van 2025 gaat de Afrika Cup van start. Voor veel Europese clubs betekent dat dat zij spelers een tijdje kwijt zijn, maar voor Afrika is het vooral een groot voetbalfeest. Voetbal International praat je bij over het toernooi.",
+      "publishedAt": "2025-12-20T14:51:14.000Z"
     },
     {
       "type": "rss",
@@ -25,36 +124,14 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Newcastle 2-2 Chelsea: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/20/newcastle-v-chelsea-premier-league-live",
-      "summary": "⚽ Updates from the 12.30pm GMT kick-off ⚽ Live scores | Table | Clockwatch | Mail Niall Thanks to Chris Greenhough and Nick Whitbread, who emailed me within seconds of each other to nominate Paul Warhurst – as both noted, a utility phenomenon in the Premier League and Championship Manager, where he could play pretty much anywhere. “One memorable utility shift was Ryan Bertrand, moved up to left wing in the 2012 Champions League final, sitting in front of Ashley Cole to track Arjen Robben. I believe he’s still the only player to have made his Champions League debut in the final,” says Rob Hobson. Continue reading...",
-      "publishedAt": "2025-12-20T14:30:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester City v West Ham, Brighton v Sunderland, and more: football – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/20/manchester-city-v-west-ham-brighton-v-sunderland-and-more-football-live",
-      "summary": "⚽ Updates from Saturday afternoon’s big matches ⚽ Scores | Tables | Follow us on Bluesky | Mail Emillia Championship games (3pm unless otherwise stated) Preston North End v Norwich City Blackburn Rovers v Millwall Southampton v Coventry City Hull City v West Brom Bristol City v Middlesbrough Sheffield United v Birmingham City Watford v Stoke City Derby County v Portsmouth Ipswich Town v Sheffield Wednesday Charlton Athletic v Oxford United QPR v Leicester City Continue reading...",
-      "publishedAt": "2025-12-20T14:26:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: veel Nederlanders in actie in Premier League",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-de-wedstrijden-van-zaterdag-20-december",
-      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
-      "publishedAt": "2025-12-20T14:22:03.000Z"
+      "title": "Lampard at centre of huge melee as tensions spill over at St Mary's!",
+      "link": "https://www.skysports.com/watch/video/13485938/frank-lampard-at-centre-of-huge-brawl-as-tensions-spill-over-at-st-marys",
+      "summary": "Tensions spilt over at St Mary's as Southampton drew 1-1 with Frank Lampard's Coventry.",
+      "publishedAt": "2025-12-20T14:33:00.000Z"
     },
     {
       "type": "rss",
@@ -91,39 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Adeyemi wil meteen douchen na wissel en krijgt boete: 'Dat hoort niet'",
-      "link": "https://www.vi.nl/nieuws/adeyemi-wil-meteen-douchen-na-wissel-en-krijgt-boete-dat-hoort-niet",
-      "summary": "Karim Adeyemi heeft zich opnieuw niet populair gemaakt bij Borussia Dortmund. De vleugelaanvaller wilde na zijn wissel tegen Borussia Mönchengladbach meteen gaan douchen, maar stuitte onderweg naar de kleedkamer op Sebastian Kehl. 'Hij krijgt straf.'",
-      "publishedAt": "2025-12-20T13:34:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Startende spits FC Utrecht levert niet",
-      "link": "https://www.vi.nl/video/startende-spits-fc-utrecht-levert-niet",
-      "summary": "Cijferman Bart Frouws vertelt je in Scorebordjournalistiek wat er opvalt richting speelronde 17 van de Eredivisie. Samen met Sjoerd Keizer bespreekt hij deze keer de spitsen van FC Utrecht.",
-      "publishedAt": "2025-12-20T13:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'It's a nightmare!' | Calamitous Millwall defending gifts Blackburn tap-in!",
-      "link": "https://www.skysports.com/watch/video/13485909/calamitous-millwall-defending-gifts-blackburn-a-second-its-a-nightmare",
-      "summary": "Take a look as Blackburn Rovers doubled their advantage against Millwall after some calamitous defending.",
-      "publishedAt": "2025-12-20T13:19:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -131,17 +175,6 @@
       "title": "Arteta on Arsenal future: I have to earn new deal",
       "link": "https://www.espn.com/soccer/story/_/id/47358037/mikel-arteta-arsenal-manager-future-earn-new-contract",
       "summary": "Mikel Arteta has hinted he could stay at Arsenal beyond his current contract but suggested he would have to earn any new deal.",
-      "publishedAt": "2025-12-20T12:31:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham boss defends keeper after derby blunder",
-      "link": "https://www.espn.com/soccer/story/_/id/47361516/wrexham-phil-parkinson-goalkeeper-arthur-okonkwo-error-swansea",
-      "summary": "Phil Parkinson defended \"colossus\" Arthur Okonkwo after the Wrexham goalkeeper's 90th-minute howler gifted Swansea a 2-1 victory in a hard-fought Welsh derby.",
       "publishedAt": "2025-12-20T12:31:15.000Z"
     },
     {
@@ -168,22 +201,11 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League live updates: Newcastle and Chelsea draw in action-packed clash",
-      "link": "https://www.espn.com/soccer/story/_/id/47326642/premier-league-live-updates-newcastle-united-chelsea-manchester-city-west-ham-tottenham-liverpool",
-      "summary": "null",
-      "publishedAt": "2025-12-20T12:31:11.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Chelsea fight back to draw thriller at Newcastle amid penalty controversy LIVE!",
+      "title": "Newcastle 2-2 Chelsea: As it happened & rate the players",
       "link": "https://www.skysports.com/football/newcastle-united-vs-chelsea/live/531296",
       "summary": "",
       "publishedAt": "2025-12-20T11:00:00.000Z"
@@ -198,28 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cvg8j5nv543o?at_medium=RSS&at_campaign=rss",
       "summary": "Mohamed Salah's angry outburst is \"in the past\" and \"just part of wanting to be a winner\", says his Liverpool team-mate Curtis Jones.",
       "publishedAt": "2025-12-20T09:24:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester United target Rúben Neves and Conor Gallagher as January signings",
-      "link": "https://www.theguardian.com/football/2025/dec/19/antoine-semenyo-january-target-liverpool-manchester-united-manchester-city",
-      "summary": "Antoine Semenyo thought to favour move to Liverpool Neves would cost around £20m but wages may be issue Manchester United are monitoring Al-Hilal’s Rúben Neves and Atlético Madrid’s Conor Gallagher as potential January signings to strengthen Ruben Amorim’s squad. Bournemouth’s Tyler Adams is also of interest but any deal for the American is not likely until the close season. United are also vying with Liverpool and Manchester City to sign Antoine Semenyo from Bournemouth in early January but the forward is thought to favour joining Liverpool, with City his second choice, so Amorim faces a fight to convince him. Continue reading...",
-      "publishedAt": "2025-12-20T08:45:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
-      "link": "https://www.theguardian.com/football/2025/dec/20/ousmane-dembele-quietly-becomes-the-main-man-after-long-journey-to-the-top",
-      "summary": "The Frenchman, who has been named the best male footballer in the world by the Guardian, has benefitted from PSG’s focus on the team rather than individuals What makes a good player great, and a great player the best? This question has been occupying me since 2014, when the Guardian first asked me to contribute to its inaugural Next Generation feature. My job was to look for a France-based talent born in 1997 who could go on to have a stellar career. After a great deal of research, I narrowed it down from my shortlist of five by asking questions not about the players’ football ability, but about other attributes: resilience, adaptability, decision-making, creativity, work ethic, response to feedback and willingness to learn. Qualities we cannot see, and are harder to measure. Continue reading...",
-      "publishedAt": "2025-12-20T08:00:25.000Z"
     }
   ]
 }
