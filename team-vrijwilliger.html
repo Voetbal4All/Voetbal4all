@@ -1,208 +1,238 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
-  <title>Team / vrijwilliger in de kijker - Voetbal4All</title>
+  <title>Team / Medewerker in de kijker - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-
-  <style>
-    :root {
-      --bg: #050814;
-      --bg-soft: #0b1022;
-      --bg-softer: #10162a;
-      --accent: #18a0fb;
-      --accent-soft: rgba(24,160,251,0.2);
-      --text: #f4f6fc;
-      --muted: #9aa3c1;
-      --border-subtle: rgba(255,255,255,0.06);
-      --radius-lg: 18px;
-      --radius-xl: 24px;
-      --shadow-subtle: 0 8px 24px rgba(0,0,0,0.45);
-      --max-width: 800px;
-    }
-
-    *{box-sizing:border-box;}
-    body{
-      margin:0;
-      font-family:"Montserrat",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      background:radial-gradient(circle at top left,#18213d 0,#050814 45%,#020308 100%);
-      color:var(--text);
-      -webkit-font-smoothing:antialiased;
-    }
-    a{color:inherit;text-decoration:none;}
-    .page{min-height:100vh;display:flex;flex-direction:column;}
-    .shell{width:100%;max-width:var(--max-width);margin:0 auto;padding:0 16px;}
-
-    .navbar{position:sticky;top:0;z-index:40;backdrop-filter:blur(16px);background:linear-gradient(to bottom,rgba(5,8,20,.93),rgba(5,8,20,.85),transparent);border-bottom:1px solid rgba(255,255,255,.04);}
-    .navbar-inner{display:flex;align-items:center;justify-content:space-between;height:64px;}
-    .brand{display:flex;align-items:center;gap:10px;}
-    .brand-mark{width:34px;height:34px;border-radius:12px;background:radial-gradient(circle at 30% 10%,#fff 0,#ffd86f 18%,#ff3366 50%,#050814 100%);box-shadow:0 0 18px rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;}
-    .brand-text-main{font-weight:700;letter-spacing:.04em;font-size:18px;}
-    .brand-text-sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.16em;}
-    .nav-links{display:flex;align-items:center;gap:18px;font-size:14px;}
-    .nav-link{color:var(--muted);font-weight:500;padding-bottom:2px;border-bottom:2px solid transparent;transition:color .18s,border-color .18s,transform .18s;}
-    .nav-link:hover{color:var(--text);border-color:var(--accent);transform:translateY(-1px);}
-    .nav-cta{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;background:linear-gradient(135deg,#18a0fb,#00d4ff);color:#020308;font-size:13px;font-weight:600;box-shadow:0 12px 26px rgba(0,212,255,.45);border:1px solid rgba(255,255,255,.16);}
-    .nav-cta span:last-child{font-size:11px;opacity:.85;text-transform:uppercase;letter-spacing:.16em;}
-    .nav-burger{display:none;background:none;border:none;color:var(--text);font-size:22px;}
-
-    .article-wrap{padding:22px 0 24px;}
-    .article{border-radius:var(--radius-xl);background:var(--bg-soft);border:1px solid var(--border-subtle);box-shadow:var(--shadow-subtle);padding:18px 18px 16px;}
-    .article-label{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin-bottom:6px;}
-    .article-title{font-size:22px;font-weight:600;margin-bottom:4px;}
-    .article-meta{font-size:11px;color:var(--muted);margin-bottom:12px;}
-    .article-meta span+span::before{content:"·";margin:0 4px;color:var(--muted);}
-    .article-body{font-size:13px;color:var(--text);line-height:1.6;display:grid;gap:10px;}
-    .article-body h2{font-size:15px;margin:10px 0 4px;}
-    .article-body p{margin:0;}
-    .highlight{border-radius:var(--radius-lg);background:var(--bg-softer);border:1px solid rgba(255,255,255,.06);padding:10px 12px;font-size:12px;color:var(--muted);}
-    .highlight strong{color:var(--text);}
-    .cta-block{margin-top:14px;font-size:12px;color:var(--muted);}
-    .cta-block a{color:var(--accent);}
-
-    .footer{margin-top:auto;border-top:1px solid rgba(255,255,255,.06);background:radial-gradient(circle at top,#141a33 0,#050814 55%,#020308 100%);padding:18px 0 20px;position:sticky;bottom:0;z-index:20;font-size:12px;color:var(--muted);}
-    .footer-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1.1fr);gap:16px;align-items:center;}
-    .footer-brand{display:flex;flex-direction:column;gap:4px;}
-    .footer-legal{font-size:11px;opacity:.85;}
-    .footer-social{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;}
-    .footer-social-link{font-size:11px;padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:var(--muted);}
-    .footer-social-link:hover{border-color:var(--accent);color:var(--text);}
-    .footer-ad{border-radius:var(--radius-lg);border:1px dashed rgba(255,255,255,.2);padding:10px;text-align:center;}
-
-    @media(max-width:900px){
-      .navbar-inner{height:58px;}
-      .nav-links{display:none;}
-      .nav-burger{display:block;}
-      .footer-grid{grid-template-columns:minmax(0,1fr);}
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-          <img
-            src="assets/img/brand/logo-voetbal4all.svg"
-            alt="Voetbal4All"
-            class="brand-logo"
-            loading="eager"
-          />
-        </a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-        <nav class="nav-links">
-          <a href="/" class="nav-link">Home</a>
-          <a href="artikels.html" class="nav-link">Artikels</a>
-          <a href="events.html" class="nav-link">Events</a>
-          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-          <a href="trainers.html" class="nav-link">Trainers</a>
-          <a href="spelers.html" class="nav-link">Spelers</a>
-          <a href="sportief.html" class="nav-link">Sportief</a>
-          <a href="#footer-contact" class="nav-link">Contact</a>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo">
+      </a>
 
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
-        </nav>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
 
-        <button class="nav-burger" aria-label="Menu">☰</button>
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners & eetdagen</a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">
+              Team/Medewerker in de kijker
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
       </div>
     </div>
-  </header>
+  </div>
+</section>
 
-  <!-- ARTICLE -->
-  <main>
-    <section class="article-wrap">
-      <div class="shell">
-        <article class="article">
-          <div class="article-label">Team / vrijwilliger in de kijker</div>
-          <h1 class="article-title">Vrijwilliger van de maand: Sarah (Jeugdcoördinatie)</h1>
-          <div class="article-meta">
-            <span>Geplaatst door Voetbal4All</span>
-            <span>Voor clubs, ouders &amp; vrijwilligers</span>
+<!-- ================= HEADER ADSENSE ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <div class="v4-layout-sidebar">
+
+    <!-- LINKS -->
+    <div class="v4-content">
+
+      <article class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-caption">Team / Medewerker in de kijker</div>
+            <div class="card-title">Vrijwilliger van de maand: Sarah (Jeugdcoördinatie)</div>
+          </div>
+          <span class="pill-small">Clubs · Vrijwilligers</span>
+        </div>
+
+        <div class="legal-content">
+          <p>
+            Achter elke goed draaiende club staat een leger vrijwilligers dat alles in goede banen leidt.
+            Deze maand zetten we <strong>Sarah</strong>, jeugdcoördinator bij een regionale club, in de kijker.
+          </p>
+
+          <p>
+            Sarah zorgt al jaren voor een vlotte communicatie met ouders, plant tornooien en ondersteunt trainers
+            achter de schermen. Ze is het aanspreekpunt voor nieuwe gezinnen en bewaakt de clubwerking.
+          </p>
+
+          <h3>Waarom zetten we Sarah in de kijker?</h3>
+          <ul>
+            <li>Onmisbare schakel in de jeugdwerking</li>
+            <li>Structuur en continuïteit binnen de club</li>
+            <li>Verbindt trainers, ouders en bestuur</li>
+          </ul>
+
+          <div class="note">
+            <strong>Clubtip:</strong> zet vrijwilligers, teams en medewerkers in de kijker
+            via Voetbal4All om betrokkenheid en waardering te tonen.
           </div>
 
-          <div class="article-body">
-            <p>
-              Achter elke goed draaiende club staat een leger vrijwilligers dat alles in goede banen leidt.
-              Deze maand zetten we <strong>Sarah</strong>, jeugdcoördinator bij een regionale club, in de kijker.
-            </p>
+          <h3>Ook iemand aanmelden?</h3>
+          <p>
+            Ken jij iemand die dit verdient? Meld hem of haar aan via
+            <a href="contact.html">het contactformulier</a>.
+          </p>
+        </div>
+      </article>
 
-            <p>
-              Sarah zorgt al jaren voor een vlotte communicatie met ouders, plant tornooien en ondersteunt trainers
-              achter de schermen. Ze is het aanspreekpunt voor nieuwe gezinnen in de club en houdt het overzicht
-              over ploegen, trainingen en events.
-            </p>
+    </div>
 
-            <h2>Waarom zetten we Sarah in de kijker?</h2>
-            <p>
-              Vrijwilligers als Sarah zijn onmisbaar. Ze:
-            </p>
-            <ul style="margin:0 0 0 18px; padding:0; font-size:13px; color:var(--text);">
-              <li>zijn de stille kracht achter de organisatie van trainingen en wedstrijden,</li>
-              <li>bieden structuur aan trainers en ouders,</li>
-              <li>houden de lange termijn in het oog: doorstroom, planning en clubwerking.</li>
-            </ul>
+    <!-- RECHTS -->
+    <aside class="v4-sidebar">
+      <div class="v4-sidebar-sticky">
 
-            <div class="highlight">
-              <strong>Clubtip:</strong> gebruik Voetbal4All om je vrijwilligers, teams en acties extra in de kijker te
-              zetten. Zo toon je waardering én trek je nieuwe helpende handen aan.
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Advertentie</div>
+              <div class="card-title">Vrijwilligers & clubwerking</div>
             </div>
-
-            <h2>Ook iemand aanmelden?</h2>
-            <p>
-              Heb jij in jouw club een vrijwilliger, team of medewerkersgroep die het verschil maakt? Meld ze dan aan
-              voor “Team / vrijwilliger in de kijker”. We bouwen samen een kort artikel dat andere clubs kan inspireren.
-            </p>
           </div>
-
-          <div class="cta-block">
-            Iemand aanmelden? Stuur een mail naar
-            <a href="mailto:contact@voetbal4all.be?subject=Aanmelding%20team%20of%20vrijwilliger%20in%20de%20kijker">
-              contact@voetbal4all.be
-            </a>
-            met een korte omschrijving en we nemen contact op.
+          <div class="ad-placeholder">
+            Ideaal voor partners die clubs ondersteunen (verzekeringen, tools, opleidingen).
+            <span class="ad-size">300 × 250 / 300 × 600</span>
           </div>
         </article>
-      </div>
-    </section>
-  </main>
 
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
-          </div>
+      </div>
+    </aside>
+
+  </div>
+
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">
+          &copy; <span id="year"></span> Voetbal4All.
         </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Extra zichtbaarheid voor partners die vrijwilligerswerk willen ondersteunen.</span>
-        </div>
+      </div>
+      <div class="footer-ad">
+        FOOTER ADVERTENTIE / PARTNERLOGO
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </div>
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
