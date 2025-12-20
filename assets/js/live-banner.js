@@ -21,9 +21,13 @@
         .replace(/\s+/g, " ")
         .trim();
 
-      // reset label en bouw opnieuw op: dot + LIVE (regel1) + RESULTATEN (regel2)
+      // reset label en bouw opnieuw op: DOT + (tekstwrap)
       labelEl.innerHTML = "";
-      if (dot) labelEl.appendChild(dot);
+      
+      // DOT opnieuw aanmaken zodat hij altijd links staat
+      const newDot = document.createElement("span");
+      newDot.className = "live-dot";
+      labelEl.appendChild(newDot);
 
       const parts = rawText ? rawText.split(" ") : ["Live", "resultaten"];
       const first = (parts[0] || "Live").toUpperCase();
