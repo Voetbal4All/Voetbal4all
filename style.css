@@ -1511,3 +1511,29 @@ footer { margin-top: auto; }
     display: none;
   }
 }
+
+/* Vermijd layout shift (CLS) */
+.ad-slot-header { min-height: 90px; }
+.v4-ad-sticky, .v4-legal-ad { min-height: 250px; }
+
+/* =========================
+   ADSENSE – MIN HEIGHTS
+   (voorkomt CLS & verhoogt viewability)
+   ========================= */
+
+/* Header / banner advertenties */
+.ad-slot-header {
+  min-height: 90px;
+}
+
+/* Sticky sidebar advertenties */
+.v4-ad-sticky,
+.v4-sidebar-sticky .adsbygoogle,
+.v4-legal-ad {
+  min-height: 250px;
+}
+
+/* In-feed / in-article advertenties */
+.ad-slot-infeed {
+  min-height: 180px;
+}
