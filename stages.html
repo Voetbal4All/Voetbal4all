@@ -1,477 +1,244 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
-  <title>Stages & voetbalkampen - Voetbal4All</title>
+  <title>Voetbal4All - Stages & voetbalkampen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!-- Fonts -->
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
-        </a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-<nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo">
+      </a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
+
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages & voetbalkampen</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
+        </div>
+
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners & eetdagen</a>
+            <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden & acties</a>
+            <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+            <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor & netwerk</a>
+          </div>
+        </div>
+
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">
+              Team/Medewerker in de kijker
+            </a>
+            <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
     </div>
   </div>
+</header>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
-
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
-
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
-
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
-
-        <button class="nav-burger" aria-label="Menu">☰</button>
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
       </div>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
+<!-- ================= HEADER AD ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
 
-    <!-- PAGINA-INTRO / HERO -->
-    <section class="section-main">
-      <div class="shell">
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <article class="card" style="margin-bottom:12px;">
+    <div class="card-header">
+      <div>
+        <div class="card-caption">Sportieve events</div>
+        <div class="card-title">Stages & voetbalkampen</div>
+      </div>
+      <span class="pill-small">België · Nederland · internationaal</span>
+    </div>
+    <p class="note">
+      Overzicht van voetbalstages, vakantiekampen, techniek- en keepersstages georganiseerd door clubs,
+      academies en partners.
+    </p>
+  </article>
+
+  <div class="v4-layout-sidebar">
+
+    <!-- LINKS -->
+    <div class="v4-content">
+
+      <!-- ZOEK & FILTER -->
+      <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+        <input id="stage-search" class="search-input"
+               placeholder="Zoek op stage, club, regio of type..." />
+        <div class="search-filters-row">
+          <select id="stage-country" class="search-select">
+            <option value="">Land (alles)</option>
+            <option value="BE">🇧🇪 België</option>
+            <option value="NL">🇳🇱 Nederland</option>
+            <option value="INT">🌍 Internationaal</option>
+          </select>
+          <select id="stage-type" class="search-select">
+            <option value="">Type (alles)</option>
+            <option value="dagkamp">Dagkamp</option>
+            <option value="meerdaags">Meerdaags kamp</option>
+            <option value="keepers">Keepersstage</option>
+            <option value="techniek">Techniekstage</option>
+            <option value="advertorial">Partner / advertorial</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- STAGES LIJST -->
+      <div class="article-list" id="stage-list">
+        <!-- jouw bestaande stage-cards kunnen hier blijven -->
+      </div>
+
+    </div>
+
+    <!-- RECHTS -->
+    <aside class="v4-sidebar">
+      <div class="v4-sidebar-sticky">
+
         <article class="card">
           <div class="card-header">
             <div>
-              <div class="card-caption">Stages &amp; voetbalkampen</div>
-              <div class="card-title">Voetbalstages, vakantiekampen &amp; techniekweken.</div>
+              <div class="card-caption">Advertentie</div>
+              <div class="card-title">Stages & kampen</div>
             </div>
-            <span class="pill-small">België · Nederland · internationaal</span>
           </div>
-          <p class="note">
-            Op deze pagina komen alle voetbalstages en voetbalkampen die clubs, academies of partners
-            organiseren. Dagkampen, meerdaagse kampen, techniekweken of keepersstages – telkens met
-            flyer of visual en duidelijke landvlag.
-          </p>
-
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="events.html" class="btn-secondary">Terug naar alle events</a>
+          <div class="ad-placeholder">
+            Ideaal voor kamporganisatoren, sportacademies en partners.<br>
+            <span class="ad-size">300 × 250 / 300 × 600</span>
           </div>
         </article>
+
       </div>
-    </section>
+    </aside>
 
-    <!-- ZOEKFUNCTIE STAGES -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="stage-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. paasstage, zomer, techniek, keepers...)"
-          />
-          <div class="search-filters-row">
-            <select id="stage-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="stage-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="stage-type" class="search-select">
-              <option value="">Alle types</option>
-              <option value="dagkamp">Dagkamp</option>
-              <option value="meerdaags">Meerdaags kamp</option>
-              <option value="keepers">Keepersstage</option>
-              <option value="techniek">Techniekstage</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
+  </div>
+
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">&copy; <span id="year"></span> Voetbal4All.</div>
       </div>
-    </section>
-
-    <!-- STAGES + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
-
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · STAGES &amp; KAMPEN (TOP)
-          <span class="ad-size">
-            Ideaal voor sportkamporganisatoren, all-in vakantiekampen of partners rond sportmateriaal.
-          </span>
-        </div>
-
-        <!-- Layout: stages links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: STAGES -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Stage 1 - België - paasstage dagkamp -->
-              <article class="article-item"
-                       data-title="Paasstage dagkamp U7 U13 België Kempen vakantie">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer paasstage
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Dagkamp · paasstage</div>
-                    <h2 class="article-title">
-                      <a href="#">Paasstage U7–U13 · dagkamp in regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Vierdaags dagkamp met techniek, wedstrijdvormen en fun-momenten.
-                      Opvang voorzien voor werkende ouders, inclusief warme maaltijd.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Stage 2 - België - zomerstage meerdaags -->
-              <article class="article-item"
-                       data-title="Zomerstage meerdaags kamp België Limburg overnachting">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer zomerstage
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Meerdaags kamp · zomer</div>
-                    <h2 class="article-title">
-                      <a href="#">Zomerstage met overnachting · regio Limburg</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Vijfdaags voetbalkamp met verblijf, drie trainingen per dag, avondactiviteiten
-                      en afsluitend mini-tornooi. Beperkt aantal plaatsen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Stage 3 - Nederland - techniekstage -->
-              <article class="article-item"
-                       data-title="Techniekstage Nederland Randstad dribbels passing afwerking">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto techniekstage
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Techniekstage</div>
-                    <h2 class="article-title">
-                      <a href="#">Techniekstage · dribbels, passing &amp; afwerking</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Kort traject van drie dagen waarin spelers werken rond balcontrole, 1-tegen-1,
-                      passinglijnen en afwerkvormen met video-feedback.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Stage 4 - Nederland - keepersstage -->
-              <article class="article-item"
-                       data-title="Keepersstage Nederland gespecialiseerde training jeugd en seniors">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto keepersstage
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Keepersstage</div>
-                    <h2 class="article-title">
-                      <a href="#">Keepersstage voor jeugd &amp; seniors</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Doelgerichte trainingen rond positie, timing, voetenwerk en spelhervattingen.
-                      Groepen opgedeeld per leeftijd en niveau, met kleine groepjes per trainer.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Stage 5 - internationaal - elite kamp -->
-              <article class="article-item"
-                       data-title="Internationaal elite kamp internationaal talentscouts hoog niveau">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto elite kamp
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Internationaal kamp</div>
-                    <h2 class="article-title">
-                      <a href="#">Internationaal elite kamp · met aanwezigheid van scouts</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Camp op hoog niveau met buitenlandse trainersstaf, testing en wedstrijdvormen
-                      onder het oog van talentscouts. Beperkt tot geselecteerde spelers.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner rond stages -->
-              <article class="article-item"
-                       data-title="Advertorial partner kamporganisatie verzekeringen uitrusting">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Partner voor kamporganisatie &amp; extra verzekering</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Dienstverlener die inschrijvingen, betalingen en extra verzekeringsdekkingen
-                      voor voetbalkampen centraliseert. Duidelijk als partnercontent aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-            </div>
-          </section>
-
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners rond stages &amp; kampen</div>
-                </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
-              </div>
-
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Sportmateriaal &amp; tenues</div>
-                  <div class="event-meta">Pakketten met shirts, ballen en gadgets voor kampen.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Catering &amp; gezonde snacks</div>
-                  <div class="event-meta">Leveren van lunches, tussendoortjes en drankjes voor stages.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">All-in kamporganisatie</div>
-                  <div class="event-meta">Externe partner die volledige sportkampen mee uitwerkt.</div>
-                </li>
-              </ul>
-            </article>
-
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · STAGES ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor partners die zich aan voetbalkampen willen koppelen.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
-              </div>
-            </div>
-          </aside>
-
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
-          </div>
-        </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
-        </div>
-      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // Uitgebreide zoekfunctie voor stages
-  const stageSearchInput = document.getElementById('stage-search');
-  const stageCountrySelect = document.getElementById('stage-country');
-  const stageRegionInput = document.getElementById('stage-region');
-  const stageTypeSelect = document.getElementById('stage-type');
-  const stageItems = document.querySelectorAll('.article-list .article-item');
-
-  function getCountryFromStageItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
-
-  function getTypeFromStageItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('dagkamp') || metaText.includes('paasstage') || metaText.includes('zomerstage') && !metaText.includes('overnachting')) return 'dagkamp';
-    if (metaText.includes('meerdaags') || metaText.includes('overnachting') || metaText.includes('kamp')) return 'meerdaags';
-    if (metaText.includes('keepersstage') || metaText.includes('keeper')) return 'keepers';
-    if (metaText.includes('techniekstage') || metaText.includes('techniek')) return 'techniek';
-
-    return '';
-  }
-
-  function applyStageFilter() {
-    const textQuery = (stageSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (stageRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (stageCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (stageTypeSelect?.value || '').toLowerCase();
-
-    stageItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromStageItem(item);
-      const itemType = getTypeFromStageItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
-    });
-  }
-
-  if (stageItems.length) {
-    stageSearchInput?.addEventListener('input', applyStageFilter);
-    stageCountrySelect?.addEventListener('change', applyStageFilter);
-    stageRegionInput?.addEventListener('input', applyStageFilter);
-    stageTypeSelect?.addEventListener('change', applyStageFilter);
-  }
 </script>
-
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
