@@ -1,88 +1,155 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Voetbal4All - Clubvacatures</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<!-- Live banner NIET op mobiel (zoals artikels/events/algemene-events) -->
+<body class="v4-hide-live-mobile">
 <div class="page">
 
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
+
         <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
+          <img
+            src="assets/img/brand/logo-voetbal4all.svg"
+            alt="Voetbal4All"
+            class="brand-logo"
+            loading="eager"
+          />
         </a>
 
         <nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
-    </div>
-  </div>
+          <!-- SPORTIEVE EVENTS -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportieve events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Oefenwedstrijden</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
+              <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              <a href="events.html" class="nav-dropdown-link">Andere sportieve events</a>
+            </div>
+          </div>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
+          <!-- CLUB & FUN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Club &amp; fun <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+              <a href="algemene-events.html?type=Eetdag" class="nav-dropdown-link">Eetdagen &amp; acties</a>
+              <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden</a>
+              <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+              <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              <a href="algemene-events.html" class="nav-dropdown-link">Andere clubevents</a>
+            </div>
+          </div>
 
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
+          <!-- VACATURES & PROFIELEN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
 
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
+          <!-- SPORTIEF -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
 
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
+              <!-- HIER: aangepaste tekst -->
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
+
+          <!-- VOETBAL4ALL -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- CTA buiten nav -->
+        <a href="adverteren.html" class="nav-cta">
+          <span>Adverteer nu</span>
+          <span>Sponsor &amp; Ads</span>
+        </a>
 
         <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
+
+  <!-- LIVE BANNER -->
+  <section class="live-banner-top">
+    <div class="shell">
+      <div class="live-banner">
+        <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+        <div class="live-text">
+          <span class="live-text-main"></span>
+          <div class="live-updated"></div>
+        </div>
+        <div class="live-socials">
+          <div class="live-socials-label">Volg ons</div>
+          <div class="live-socials-icons"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEADER AD -->
+  <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+    <div class="shell">
+      <div class="ad-slot ad-slot-header sticky-ad-header">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-4062633211824348"
+          data-ad-slot="3518144343"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+    </div>
+  </section>
 
   <main>
     <section class="section-main">
@@ -111,12 +178,7 @@
 
             <!-- ZOEK- EN FILTERBALK -->
             <div class="search-bar" style="margin-bottom:12px;">
-              <input
-                type="text"
-                id="vacancy-search-text"
-                class="search-input"
-                placeholder="Zoek op club, functie, niveau, regio..."
-              />
+              <input type="text" id="vacancy-search-text" class="search-input" placeholder="Zoek op club, functie, niveau, regio..." />
               <div class="search-filters-row">
                 <select id="vacancy-filter-country" class="search-select">
                   <option value="">Land (alles)</option>
@@ -154,72 +216,41 @@
               <form id="vacancy-form">
                 <div class="form-grid form-grid--2cols">
 
-                  <!-- Clubnaam -->
                   <div class="form-field">
-                    <label class="form-label" for="vacancy-club">
-                      Clubnaam <span class="required">*</span>
-                    </label>
+                    <label class="form-label" for="vacancy-club">Clubnaam <span class="required">*</span></label>
                     <input id="vacancy-club" type="text" class="form-input" placeholder="Bv. K. ASV Geel" required />
-                    <div class="form-helper">
-                      Deze naam wordt getoond in de advertentie.
-                    </div>
+                    <div class="form-helper">Deze naam wordt getoond in de advertentie.</div>
                   </div>
 
-                  <!-- Contactpersoon (optioneel, kan verborgen) -->
                   <div class="form-field">
-                    <label class="form-label" for="vacancy-contact">
-                      Contactpersoon <span class="required">(optioneel)</span>
-                    </label>
+                    <label class="form-label" for="vacancy-contact">Contactpersoon <span class="required">(optioneel)</span></label>
                     <input id="vacancy-contact" type="text" class="form-input" placeholder="Naam contactpersoon" />
                     <div class="form-helper">
-                      <label>
-                        <input type="checkbox" id="vacancy-hide-contact" checked />
-                        Naam niet tonen in de advertentie
-                      </label>
+                      <label><input type="checkbox" id="vacancy-hide-contact" checked /> Naam niet tonen in de advertentie</label>
                     </div>
                   </div>
 
-                  <!-- E-mailadres (verplicht, maar verborgen) -->
                   <div class="form-field" style="grid-column:1/-1;">
-                    <label class="form-label" for="vacancy-email">
-                      E-mailadres club <span class="required">*</span>
-                    </label>
+                    <label class="form-label" for="vacancy-email">E-mailadres club <span class="required">*</span></label>
                     <input id="vacancy-email" type="email" class="form-input" placeholder="club@email.be" required />
-                    <div class="form-helper">
-                      Nodig om reacties door te sturen. Dit adres wordt <strong>niet</strong> publiek getoond.
-                    </div>
+                    <div class="form-helper">Nodig om reacties door te sturen. Dit adres wordt <strong>niet</strong> publiek getoond.</div>
                   </div>
 
-                  <!-- Land -->
                   <div class="form-field">
                     <span class="form-label">Land <span class="required">*</span></span>
                     <div class="form-checkbox-row">
-                      <label class="flag-label">
-                        <input type="radio" name="vacancy-country" value="BE" id="vacancy-country-be" required />
-                        <span>🇧🇪 België</span>
-                      </label>
-                      <label class="flag-label">
-                        <input type="radio" name="vacancy-country" value="NL" id="vacancy-country-nl" />
-                        <span>🇳🇱 Nederland</span>
-                      </label>
+                      <label class="flag-label"><input type="radio" name="vacancy-country" value="BE" id="vacancy-country-be" required /> <span>🇧🇪 België</span></label>
+                      <label class="flag-label"><input type="radio" name="vacancy-country" value="NL" id="vacancy-country-nl" /> <span>🇳🇱 Nederland</span></label>
                     </div>
-                    <div class="form-helper">
-                      Regio’s en niveaus passen zich aan per land.
-                    </div>
+                    <div class="form-helper">Regio’s en niveaus passen zich aan per land.</div>
                   </div>
 
-                  <!-- Regio -->
                   <div class="form-field">
                     <span class="form-label">Regio <span class="required">*</span></span>
-                    <div id="vacancy-region-wrapper" class="form-checkbox-row">
-                      <!-- JS per land -->
-                    </div>
-                    <div class="form-helper">
-                      Eén of meerdere regio’s waarin de vacature geldt.
-                    </div>
+                    <div id="vacancy-region-wrapper" class="form-checkbox-row"></div>
+                    <div class="form-helper">Eén of meerdere regio’s waarin de vacature geldt.</div>
                   </div>
 
-                  <!-- Type vacature -->
                   <div class="form-field" style="grid-column:1/-1;">
                     <span class="form-label">Type vacature <span class="required">*</span></span>
                     <div id="vacancy-type-wrapper" class="form-checkbox-row">
@@ -229,35 +260,22 @@
                       <label class="pill-checkbox"><input type="checkbox" value="Vrijwilliger" /> Vrijwilliger</label>
                       <label class="pill-checkbox"><input type="checkbox" value="Bestuur" /> Bestuurslid / ondersteuning</label>
                     </div>
-                    <div class="form-helper">
-                      Meerdere types mogelijk, bv. trainer én coördinator.
-                    </div>
+                    <div class="form-helper">Meerdere types mogelijk, bv. trainer én coördinator.</div>
                   </div>
 
-                  <!-- Niveau -->
                   <div class="form-field" style="grid-column:1/-1;">
                     <span class="form-label">Niveau <span class="required">*</span></span>
-                    <div id="vacancy-level-wrapper" class="form-checkbox-row">
-                      <!-- JS per land -->
-                    </div>
-                    <div class="form-helper">
-                      Bv. Gewestelijk, Provinciaal, Interprovinciaal, Elite of Nederlandse niveaus.
-                    </div>
+                    <div id="vacancy-level-wrapper" class="form-checkbox-row"></div>
+                    <div class="form-helper">Bv. Gewestelijk, Provinciaal, Interprovinciaal, Elite of Nederlandse niveaus.</div>
                   </div>
 
-                  <!-- Ploeg / doelgroep -->
                   <div class="form-field" style="grid-column:1/-1;">
-                    <label class="form-label" for="vacancy-team">
-                      Ploeg / doelgroep <span class="required">*</span>
-                    </label>
+                    <label class="form-label" for="vacancy-team">Ploeg / doelgroep <span class="required">*</span></label>
                     <input id="vacancy-team" type="text" class="form-input" placeholder="Bv. U13, 1e ploeg heren, dames A" required />
                   </div>
 
-                  <!-- Beschrijving -->
                   <div class="form-field" style="grid-column:1/-1;">
-                    <label class="form-label" for="vacancy-description">
-                      Korte beschrijving / profiel
-                    </label>
+                    <label class="form-label" for="vacancy-description">Korte beschrijving / profiel</label>
                     <textarea id="vacancy-description" class="form-textarea" placeholder="Omschrijf kort de functie, verwachtingen, trainingsmomenten, vergoeding, ..."></textarea>
                   </div>
 
@@ -265,14 +283,12 @@
 
                 <div class="form-actions">
                   <button type="submit" class="btn-primary">Vacature plaatsen (demo)</button>
-                  <span class="form-helper">
-                    In deze demo wordt je vacature onderaan op deze pagina toegevoegd (nog geen permanente opslag).
-                  </span>
+                  <span class="form-helper">In deze demo wordt je vacature onderaan op deze pagina toegevoegd (nog geen permanente opslag).</span>
                 </div>
               </form>
             </div>
 
-            <!-- OVERZICHT CLUBVACATURES: 3 KOLOMMEN -->
+            <!-- OVERZICHT -->
             <section class="section-main" style="padding-top:10px;">
               <div class="card">
                 <div class="card-header">
@@ -282,12 +298,12 @@
                   </div>
                   <span class="pill-small">3 per rij · delen &amp; reageren</span>
                 </div>
+
                 <p class="note">
                   Elke vacature kan gedeeld worden via sociale netwerken. De link gaat automatisch naar de juiste vacature.
                 </p>
 
                 <div id="vacancy-ads" class="ad-card-list ad-card-grid">
-                  <!-- Voorbeeldvacature -->
                   <article class="ad-card" id="vacancy-ad-1" data-ad-id="1" data-country="BE">
                     <div class="ad-card-header">
                       <div>
@@ -313,7 +329,7 @@
 
           </div>
 
-          <!-- RECHTERKOLOM: UITLEG + ADVERTENTIES -->
+          <!-- RECHTERKOLOM -->
           <aside>
             <article class="card">
               <div class="card-header">
@@ -322,9 +338,7 @@
                   <div class="card-title">Hoe werkt het?</div>
                 </div>
               </div>
-              <p class="note">
-                In de live versie kan je als club:
-              </p>
+              <p class="note">In de live versie kan je als club:</p>
               <ul class="events-list">
                 <li class="event-item">
                   <div class="event-title">Gratis vacature plaatsen</div>
@@ -387,8 +401,9 @@
             · Mogelijkheden voor hoofdsponsor, partners en advertenties.
           </div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+            <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
           </div>
         </div>
         <div class="footer-ad">
@@ -404,7 +419,6 @@
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Regio's en niveaus per land (zelfde logica als spelers/trainers)
   const VACANCY_REGIONS = {
     BE: ["Antwerpen", "Limburg", "Vlaams-Brabant", "Oost-Vlaanderen", "West-Vlaanderen", "Brussel"],
     NL: ["Noord-Brabant", "Limburg (NL)", "Gelderland", "Noord-Holland", "Zuid-Holland", "Overijssel", "Utrecht"]
@@ -433,20 +447,15 @@
     renderPillCheckboxes("vacancy-level-wrapper", VACANCY_LEVELS[country], "vacancy-level");
   }
 
-  const vacancyCountryBE = document.getElementById("vacancy-country-be");
-  const vacancyCountryNL = document.getElementById("vacancy-country-nl");
-
-  vacancyCountryBE.addEventListener("change", e => {
+  document.getElementById("vacancy-country-be").addEventListener("change", e => {
     if (e.target.checked) updateVacancyFields("BE");
   });
-
-  vacancyCountryNL.addEventListener("change", e => {
+  document.getElementById("vacancy-country-nl").addEventListener("change", e => {
     if (e.target.checked) updateVacancyFields("NL");
   });
 
-  // Overzicht vacatures
   const vacancyAdsContainer = document.getElementById("vacancy-ads");
-  let nextVacancyAdId = 2; // 1 is demo
+  let nextVacancyAdId = 2;
 
   function addVacancyAd(ad) {
     const idAttr = `vacancy-ad-${ad.id}`;
@@ -460,7 +469,7 @@
     card.dataset.regions = ad.regions.join("|");
 
     const flag = ad.country === "BE" ? "🇧🇪" : "🇳🇱";
-    const displayContact = ad.anonymousContact || !ad.contact ? "" : " · " + ad.contact;
+    const displayContact = ad.anonymousContact || !ad.contact ? "" : ad.contact;
 
     card.innerHTML = `
       <div class="ad-card-header">
@@ -472,7 +481,7 @@
       </div>
       <div class="ad-card-body">
         <strong>Ploeg / doelgroep:</strong> ${ad.team}<br />
-        ${displayContact ? `<strong>Contactpersoon:</strong> ${displayContact}<br />` : ""}
+        ${displayContact ? `<strong>Contactpersoon:</strong> ${displayContact}<br />` : ``}
         <br />
         ${ad.description ? ad.description : ""}
       </div>
@@ -481,11 +490,11 @@
         <a href="#" class="btn-ghost-sm btn-share" data-share-vacancy="${ad.id}">Delen</a>
       </div>
     `;
+
     vacancyAdsContainer.prepend(card);
     updateVacancyShareLinks();
   }
 
-  // Formulier submit (demo)
   document.getElementById("vacancy-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -496,51 +505,30 @@
     const team = document.getElementById("vacancy-team").value.trim();
     const description = document.getElementById("vacancy-description").value.trim();
 
-    if (!club) {
-      alert("Clubnaam is verplicht.");
-      return;
-    }
-    if (!email) {
-      alert("E-mailadres van de club is verplicht.");
-      return;
-    }
-    if (!team) {
-      alert("Ploeg / doelgroep is verplicht.");
-      return;
-    }
+    if (!club) return alert("Clubnaam is verplicht.");
+    if (!email) return alert("E-mailadres van de club is verplicht.");
+    if (!team) return alert("Ploeg / doelgroep is verplicht.");
 
     const countryInput = document.querySelector("input[name='vacancy-country']:checked");
-    if (!countryInput) {
-      alert("Kies een land.");
-      return;
-    }
+    if (!countryInput) return alert("Kies een land.");
     const country = countryInput.value;
     const countryLabel = country === "BE" ? "België" : "Nederland";
 
     const regions = Array.from(document.querySelectorAll("#vacancy-region-wrapper input:checked")).map(i => i.value);
-    if (!regions.length) {
-      alert("Kies minstens één regio.");
-      return;
-    }
+    if (!regions.length) return alert("Kies minstens één regio.");
 
     const types = Array.from(document.querySelectorAll("#vacancy-type-wrapper input:checked")).map(i => i.value);
-    if (!types.length) {
-      alert("Kies minstens één type vacature.");
-      return;
-    }
+    if (!types.length) return alert("Kies minstens één type vacature.");
 
     const levels = Array.from(document.querySelectorAll("#vacancy-level-wrapper input:checked")).map(i => i.value);
-    if (!levels.length) {
-      alert("Kies minstens één niveau.");
-      return;
-    }
+    if (!levels.length) return alert("Kies minstens één niveau.");
 
-    const ad = {
+    addVacancyAd({
       id: nextVacancyAdId++,
       club,
       contact,
       anonymousContact,
-      email, // later voor backend
+      email,
       country,
       countryLabel,
       regions,
@@ -548,56 +536,48 @@
       levels,
       team,
       description
-    };
+    });
 
-    addVacancyAd(ad);
     e.target.reset();
     document.getElementById("vacancy-hide-contact").checked = true;
-    alert("Demo: je clubvacature is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
+    alert("Demo: je clubvacature is toegevoegd (nog geen permanente opslag).");
   });
 
-  // REAGEREN: knop + akkoord + e-mail, via Voetbal4All
   document.addEventListener("click", function (e) {
-    if (e.target.matches("[data-reply-vacancy]")) {
-      const adId = e.target.getAttribute("data-reply-vacancy");
-      const ok = confirm(
-        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
-      );
-      if (!ok) return;
+    const btn = e.target.closest("[data-reply-vacancy]");
+    if (!btn) return;
 
-      const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
-      if (!replyEmail) {
-        alert("E-mailadres is nodig om te kunnen reageren.");
-        return;
-      }
+    const adId = btn.getAttribute("data-reply-vacancy");
+    const ok = confirm("Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All.");
+    if (!ok) return;
 
-      const subject = encodeURIComponent("Reactie via Voetbal4All op clubvacature " + adId);
-      const body = encodeURIComponent(
-        "Vacature-ID: " + adId +
-        "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
-        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
-      );
+    const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
+    if (!replyEmail) return alert("E-mailadres is nodig om te kunnen reageren.");
 
-      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
-    }
+    const subject = encodeURIComponent("Reactie via Voetbal4All op clubvacature " + adId);
+    const body = encodeURIComponent(
+      "Vacature-ID: " + adId +
+      "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
+      "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
+    );
+
+    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
   });
 
-  // Social sharing: link naar specifieke clubvacature
   function updateVacancyShareLinks() {
     const baseUrl = window.location.origin + window.location.pathname;
     document.querySelectorAll("[data-share-vacancy]").forEach(link => {
       const adId = link.getAttribute("data-share-vacancy");
-      const targetId = "vacancy-ad-" + adId;
-      const urlWithAnchor = baseUrl + "#" + targetId;
-      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
-      link.setAttribute("href", fbShare);
-      link.setAttribute("target", "_blank");
+      const urlWithAnchor = baseUrl + "#vacancy-ad-" + adId;
+      link.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
     });
   }
-
   updateVacancyShareLinks();
 </script>
 
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
