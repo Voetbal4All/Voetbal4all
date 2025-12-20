@@ -1288,35 +1288,43 @@ footer {
   to   { transform: translateX(var(--live-marquee-end, -100%)); }
 }
 
-/* Social icons rechts in de banner: naast elkaar en groter */
-.live-socials{
+/* Social container in live banner */
+.live-social {
   display: flex;
-  flex-direction: row;          /* naast elkaar */
   align-items: center;
   gap: 10px;
-  height: 100%;
 }
 
-.live-social{
-  display: inline-flex;
+/* Cirkel blijft identiek */
+.live-social a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 255, 157, 0.6);
+  background: rgba(1, 10, 6, 0.85);
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;                  /* groter */
-  height: 44px;                 /* groter */
-  border-radius: 999px;
-  border: 1px solid rgba(0, 255, 157, 0.6);
-  color: #7dfccb;               /* groen zoals jouw knop */
-  background: rgba(1, 10, 6, 0.85);
+
+  color: #7dfccb;
+  text-decoration: none;
+
+  /* subtiele gloed */
+  box-shadow: 0 0 0 rgba(0, 255, 157, 0.0);
+
+  /* SLOW EFFECT */
+  animation: socialPulse 4.5s ease-in-out infinite;
 }
 
-.live-social svg{
-  width: 30px;                  /* groter */
-  height: 30px;                 /* groter */
+/* SVG expliciet groter + schaal */
+.live-social svg {
+  width: 30px;
+  height: 30px;
+
+  /* DIT maakt het verschil */
+  transform: scale(1.15);
+  transform-origin: center;
+
   fill: currentColor;
-}
-
-.live-social svg{
-  width: 18px;
-  height: 18px;
-  fill: currentColor;             /* cruciaal: anders blijft het zwart */
 }
