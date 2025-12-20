@@ -58,7 +58,7 @@
     }
 
     function setUpdated(d) {
-      updatedEl.textContent = d ? `Update: ${formatTime(d)}` : "";
+      updatedEl.textContent = d ? `Laatst Bijgewerkt: ${formatTime(d)}` : "";
     }
 
     /* ----------------------------
