@@ -77,9 +77,9 @@
 
     const ICON_IG = `
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2z"/>
-        <path d="M12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6a2.8 2.8 0 0 0 0-5.6z"/>
-        <path d="M17.5 6.3a1.2 1.2 0 1 1 0 2.4a1.2 1.2 0 0 1 0-2.4z"/>
+        <rect x="4" y="4" width="16" height="16" rx="4" ry="4"></rect>
+        <circle cx="12" cy="12" r="4"></circle>
+        <circle cx="17" cy="7" r="1"></circle>
       </svg>`;
 
 function makeSocialButton(href, label, svg) {
