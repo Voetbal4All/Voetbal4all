@@ -1412,3 +1412,14 @@ footer { margin-top: auto; }
     display: none !important;
   }
 }
+
+/* Live banner: socials altijd klikbaar boven andere lagen */
+.live-socials {
+  position: relative;
+  z-index: 5;
+}
+
+.live-text {
+  position: relative;
+  z-index: 1;
+}
