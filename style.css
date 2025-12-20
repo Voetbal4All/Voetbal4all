@@ -1599,3 +1599,14 @@ footer {
   z-index:5 !important;
   white-space:nowrap !important;
 }
+
+/* Zorg dat overlay update altijd zichtbaar is */
+.live-banner{
+  overflow: visible !important;   /* voorkomt afknippen */
+  position: relative !important;
+}
+
+/* Update overlay definitief boven alles */
+.live-banner .live-updated{
+  z-index: 999 !important;        /* boven labels, ticker, socials */
+}
