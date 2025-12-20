@@ -113,12 +113,9 @@ footer {
   width: auto;
   display: block;
   object-fit: contain;
-
-  /* VERWIJDERD */
   background: none;
   box-shadow: none;
   border-radius: 0;
-
   padding: 0;
 }
 
@@ -293,8 +290,9 @@ footer {
 .live-banner {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(0, 255, 157, 0.4);
-  background: radial-gradient(circle at left, rgba(0, 255, 157, 0.18), transparent 55%),
-              rgba(2, 12, 6, 0.92);
+  background:
+    radial-gradient(circle at left, rgba(0, 255, 157, 0.18), transparent 55%),
+    rgba(2, 12, 6, 0.92);
   padding: 10px 14px;
   display: flex;
   align-items: center;
@@ -304,14 +302,16 @@ footer {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
+/* Linker labelblok (dot + stacked tekst + update onderaan) */
 .live-label {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;              /* dot niet boven het blok laten “springen” */
   gap: 8px;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: #7dfccb;
+  line-height: 1.05;
 }
 
 .live-dot {
@@ -320,13 +320,39 @@ footer {
   border-radius: 999px;
   background: #00ff9d;
   box-shadow: 0 0 14px rgba(0, 255, 157, 0.9);
+  margin-top: 3px;                      /* visueel mooi naast de eerste regel */
+  flex: 0 0 auto;
 }
 
+/* JS injecteert deze wrapper */
+.live-label-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.live-label-top,
+.live-label-bottom {
+  white-space: nowrap;
+}
+
+/* Update onder LIVE RESULTATEN (in labelEl) */
+.live-label .live-updated {
+  margin-top: 4px;
+  font-size: 10px;                      /* kleiner & subtieler */
+  letter-spacing: 0.08em;
+  text-transform: none;                 /* leesbaarder */
+  color: rgba(255, 255, 255, 0.65);
+  opacity: 0.85;
+}
+
+/* Middenkolom (ticker area) – basis (fijnafstemming komt in later deel) */
 .live-text {
   color: var(--muted);
   font-size: 12px;
 }
 
+/* CTA bestaat mogelijk nog in HTML; JS verwijdert hem. Mag blijven als fallback. */
 .live-cta {
   font-size: 11px;
   padding: 6px 10px;
@@ -339,45 +365,82 @@ footer {
   letter-spacing: 0.16em;
 }
 
-.live-updated {
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.65);
+/* Rechter socials (JS maakt .live-socials + label + icons) */
+.live-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-end;
+  flex: 0 0 auto;
 }
 
-.live-text-main { display: block; }
-.live-updated { margin-top: 4px; font-size: 11px; opacity: 0.85; }
+.live-socials-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #7dfccb;
+  white-space: nowrap;
+}
+
+.live-socials-icons {
+  display: inline-flex;                 /* naast elkaar */
+  align-items: center;
+  gap: 8px;
+}
+
+.live-social {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 255, 157, 0.55);
+  background: rgba(1, 10, 6, 0.85);
+  color: #7dfccb;                       /* SVG volgt currentColor */
+  text-decoration: none;
+  opacity: 0.95;
+  transition: transform 220ms ease, box-shadow 220ms ease, opacity 220ms ease;
+}
+
+.live-social svg {
+  width: 20px;                          /* icon groter in dezelfde cirkel */
+  height: 20px;
+  display: block;
+  fill: currentColor;                   /* essentieel: geen “gevuld vierkant” */
+}
 
 @keyframes socialBreath {
   0% {
     transform: scale(1);
     box-shadow:
-      0 0 6px rgba(125, 252, 203, 0.30),
-      0 0 12px rgba(125, 252, 203, 0.22);
+      0 0 6px rgba(125, 252, 203, 0.22),
+      0 0 12px rgba(125, 252, 203, 0.16);
   }
   50% {
-    transform: scale(1.04);
+    transform: scale(1.03);             /* minder fel dan 1.04+ */
     box-shadow:
-      0 0 10px rgba(125, 252, 203, 0.45),
-      0 0 18px rgba(125, 252, 203, 0.30);
+      0 0 10px rgba(125, 252, 203, 0.34),
+      0 0 18px rgba(125, 252, 203, 0.22);
   }
   100% {
     transform: scale(1);
     box-shadow:
-      0 0 6px rgba(125, 252, 203, 0.30),
-      0 0 12px rgba(125, 252, 203, 0.22);
+      0 0 6px rgba(125, 252, 203, 0.22),
+      0 0 12px rgba(125, 252, 203, 0.16);
   }
 }
 
 .live-social {
-  animation: socialBreath 6s ease-in-out infinite;
+  animation: socialBreath 7s ease-in-out infinite; /* rustiger */
 }
 
 .live-social:hover {
   opacity: 1;
-  transform: scale(1.08);
+  transform: scale(1.06);
   box-shadow:
-    0 0 14px rgba(125, 252, 203, 0.7),
-    0 0 28px rgba(125, 252, 203, 0.45);
+    0 0 14px rgba(125, 252, 203, 0.55),
+    0 0 28px rgba(125, 252, 203, 0.34);
 }
 
 /* =======================
@@ -436,6 +499,7 @@ footer {
 .column-right {
   display: grid;
   gap: 12px;
+  min-width: 0; /* voorkomt overflow issues bij lange content */
 }
 
 /* Weekendlijst (events blok) */
@@ -452,6 +516,7 @@ footer {
   justify-content: space-between;
   gap: 10px;
   font-size: 13px;
+  min-width: 0; /* veilig voor ellipsis/overflow later */
 }
 
 .weekend-item a {
@@ -486,6 +551,7 @@ footer {
   justify-content: space-between;
   gap: 8px;
   margin-bottom: 10px;
+  min-width: 0; /* flex overflow safety */
 }
 
 .card-title {
@@ -521,6 +587,7 @@ footer {
   flex-direction: column;
   gap: 2px;
   font-size: 13px;
+  min-width: 0;
 }
 
 .event-title {
@@ -670,6 +737,7 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-width: 0;
 }
 
 .ad-card-list {
@@ -696,6 +764,7 @@ footer {
   justify-content: space-between;
   gap: 8px;
   margin-bottom: 4px;
+  min-width: 0;
 }
 
 .ad-card-title {
@@ -726,6 +795,7 @@ footer {
   display: flex;
   gap: 10px;
   align-items: flex-start;
+  min-width: 0;
 }
 
 .home-article-media-thumb {
@@ -751,6 +821,7 @@ footer {
   flex-direction: column;
   gap: 4px;
   flex: 1 1 auto;
+  min-width: 0;
 }
 
 .home-article-header {
@@ -758,6 +829,7 @@ footer {
   align-items: center;
   gap: 6px;
   margin-bottom: 4px;
+  min-width: 0;
 }
 
 .flag-badge {
@@ -819,32 +891,20 @@ footer {
   gap: 8px;
 }
 
-.search-bar--advanced {
-  gap: 10px;
-}
+.search-bar--advanced { gap: 10px; }
 
-.search-input {
+.search-input,
+.search-select {
   width: 100%;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(2, 3, 8, 0.8);
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(2,3,8,0.85);
   color: var(--text);
   font-size: 13px;
   padding: 7px 11px;
 }
 
-.search-input::placeholder {
-  color: var(--muted);
-}
-
-.search-select {
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(2, 3, 8, 0.9);
-  color: var(--text);
-  font-size: 13px;
-  padding: 7px 11px;
-}
+.search-input::placeholder { color: var(--muted); }
 
 .search-filters-row {
   display: flex;
@@ -866,47 +926,13 @@ footer {
   max-width: 900px;
 }
 
-.form-card--compact {
-  font-size: 12px;
-}
-
-.form-title {
-  font-size: 15px;
-  font-weight: 600;
-  margin: 0 0 4px;
-}
-
-.form-sub {
-  font-size: 12px;
-  color: var(--muted);
-  margin: 0 0 10px;
-}
-
-.form-section {
-  padding-top: 10px;
-  margin-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.form-section-title {
-  font-size: 13px;
-  font-weight: 600;
-  margin: 0 0 2px;
-}
-
-.form-section-sub {
-  font-size: 12px;
-  color: var(--muted);
-  margin: 0 0 8px;
-}
-
 .form-grid {
   display: grid;
   gap: 8px 14px;
 }
 
 .form-grid--2cols {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0,1fr));
 }
 
 .form-field {
@@ -916,35 +942,15 @@ footer {
   font-size: 12px;
 }
 
-.form-label {
-  font-size: 12px;
-  font-weight: 500;
-}
-
-.form-label .required {
-  color: var(--danger);
-  font-weight: 600;
-}
-
-.form-label small {
-  font-weight: 400;
-  color: var(--muted);
-}
-
 .form-input,
 .form-select,
 .form-textarea {
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  background: rgba(2, 3, 8, 0.85);
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(2,3,8,0.85);
   color: var(--text);
   font-size: 12px;
   padding: 6px 9px;
-}
-
-.form-input::placeholder,
-.form-textarea::placeholder {
-  color: var(--muted);
 }
 
 .form-textarea {
@@ -952,111 +958,22 @@ footer {
   min-height: 80px;
 }
 
-.form-checkbox-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 10px;
-  font-size: 12px;
-}
-
-.form-checkbox-row label {
-  cursor: pointer;
-}
-
-.form-helper {
-  font-size: 11px;
-  color: var(--muted);
-}
-
-.form-actions {
-  margin-top: 12px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-}
-
-/* Pill checkbox (land/positie, enz.) */
-.pill-checkbox {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 5px 9px;
-  font-size: 12px;
-  cursor: pointer;
-  background: rgba(2, 3, 8, 0.75);
-}
-
-.pill-checkbox input {
-  accent-color: var(--accent);
-}
-
-/* Kleine vlag bij land */
-.flag-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-}
-
 /* =======================
    FOOTER
    ======================= */
 
 .footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(255,255,255,0.06);
   background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
-  padding-top: 18px;
-  padding-bottom: 20px;
+  padding: 18px 0 20px;
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
+  grid-template-columns: minmax(0,1.5fr) minmax(0,1.1fr);
   gap: 16px;
-  align-items: center;
   font-size: 12px;
   color: var(--muted);
-}
-
-.footer-brand {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.footer-legal {
-  font-size: 11px;
-  opacity: 0.8;
-}
-
-.footer-social {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 6px;
-}
-
-.footer-social-link {
-  font-size: 11px;
-  padding: 4px 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: var(--muted);
-}
-
-.footer-social-link:hover {
-  border-color: var(--accent);
-  color: var(--text);
-}
-
-.footer-ad {
-  border-radius: var(--radius-lg);
-  border: 1px dashed rgba(255, 255, 255, 0.08);
-  padding: 10px;
-  text-align: center;
 }
 
 /* =======================
@@ -1070,575 +987,165 @@ footer {
   .lower-grid-layout.grid-2,
   .lower-grid-layout.grid-3,
   .lower-grid-layout.grid-4 {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: 1fr;
   }
-
-  .ad-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .footer-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 600px) {
-  .ad-card-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
+  .form-grid--2cols { grid-template-columns: 1fr; }
 
-  .form-grid--2cols {
-    grid-template-columns: minmax(0, 1fr);
-  }
+  /* mobiel logo gecentreerd */
+  .navbar-inner { position: relative; }
 
-  .live-banner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .home-article-card--compact {
-    gap: 8px;
-  }
-
-  .home-article-media-thumb {
-    width: 44px;
-    height: 44px;
-  }
-
-     /* Mobile nav correct onder lagere navbar */
-  .nav-links {
-    top: 58px;
-  }
-}
-
-/* =========================
-   ADSENSE – UNIFORM & COMPACT
-   Header + In-feed identiek
-   ========================= */
-
-/* Wrapper: enkel spacing/styling, geen clipping */
-.ad-slot-header,
-.ad-infeed {
-  margin: 2px auto !important;      /* dunner = minder verticale ruimte */
-  padding: 0 !important;
-  max-width: 1000px;
-  opacity: 0.92;
-  display: flex;
-  justify-content: center;
-  overflow: visible !important;
-}
-
-/* AdSense element zelf (ins) */
-.ad-slot-header ins.adsbygoogle,
-.ad-infeed ins.adsbygoogle {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  min-height: 0 !important;
-  overflow: visible !important;
-  border-radius: 12px;
-}
-
-/* Extra: creatives zitten vaak in iframes */
-.ad-slot-header iframe,
-.ad-infeed iframe {
-  max-width: 100% !important;
-}
-
-/* Neutraal (geen bakgevoel) */
-.ad-slot-header,
-.ad-infeed,
-.ad-slot-header * ,
-.ad-infeed * {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Desktop iets compacter */
-@media (min-width: 900px) {
-  .ad-slot-header,
-  .ad-infeed {
-    max-width: 920px;
-  }
-}
-/* Forceer logo look op alle pagina's */
-.navbar .brand-logo {
-  background: none !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-  padding: 0 !important;
-  width: auto !important;
-  object-fit: contain !important;
-  display: block;
-}
-
-/* =======================
-   MOBILE NAV (burger menu)
-   ======================= */
-
-@media (max-width: 900px) {
-  /* nav default dicht */
-  .nav-links {
-    display: none;                /* blijft dicht tot .is-open */
+  .brand.brand--logo-only {
     position: absolute;
-    top: 64px;                   /* onder navbar */
-    left: 0;
-    right: 0;
-    padding: 12px 16px 16px;
-    background: rgba(5, 8, 20, 0.98);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(16px);
-    z-index: 80;
-    flex-direction: column;
-    gap: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
   }
 
-  /* open toestand */
-  .nav-links.is-open {
-    display: flex;
+  .nav-burger {
+    position: relative;
+    z-index: 4;
   }
 
-  /* dropdown menu: op mobiel niet hover-based */
-  .nav-item--dropdown .nav-dropdown {
-    position: static;
-    margin-top: 8px;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-    display: none;                /* dicht tot .is-open op item */
-    box-shadow: none;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(2, 3, 8, 0.55);
-  }
-
-     /* BELANGRIJK: hover/focus gedrag uitschakelen op mobiel */
-  .nav-item--dropdown:hover .nav-dropdown,
-  .nav-item--dropdown:focus-within .nav-dropdown {
-    display: none;            /* forceer: niet via hover tonen */
-  }
-
-  /* Alleen tonen via JS class */
-  .nav-item--dropdown.is-open .nav-dropdown {
-    display: block;
-  }
-   
-  .nav-item--dropdown.is-open .nav-dropdown {
-    display: block;
-  }
-
-  /* dropdown button: volledige breedte */
-  .nav-item--dropdown .nav-link--dropdown {
-    width: 100%;
-    justify-content: space-between;
-  }
+  .live-banner-top { margin-top: 10px; }
 }
 
 /* =======================
-   LIVE BANNER – CONTINU MARQUEE (zonder pauze)
+   LIVE BANNER – BASIS
    ======================= */
 
-/* Zorg dat de middenkolom echt ruimte krijgt */
-.live-banner .live-text {
-  flex: 1 1 auto;
-  min-width: 0;                 /* belangrijk in flex layouts */
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-/* ticker container */
-.live-text-ticker {
+.live-banner {
   position: relative;
-  overflow: hidden;
-  width: 100%;
-  white-space: nowrap;
+  overflow: visible;
+  isolation: isolate;
 }
 
-/* track bevat 2 identieke spans naast elkaar */
-.marquee-track {
-  display: inline-flex;
-  align-items: center;
-  white-space: nowrap;
-  will-change: transform;
-  gap: 40px;                    /* afstand tussen “copies” */
-  animation: marquee 35s linear infinite;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text);
-}
-
-/* elke copy */
-.marquee-track > span {
-  display: inline-block;
-  padding-right: 40px;
-}
-
-/* Continu: verschuif 1 copy breedte (50% van dubbele content) */
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
-/* Op desktop iets groter */
-@media (min-width: 900px) {
-  .marquee-track {
-    font-size: 18px;
-    animation-duration: 40s;     /* iets trager desktop */
-  }
-}
-
-/* =======================
-   LIVE BANNER – MARQUEE (scroll)
-   Activeer met .live-banner.is-marquee
-   ======================= */
-
-
-
-.live-banner .live-updated{
-  position:absolute !important;
-  top:-12px !important;
-  left:50% !important;
-  transform:translateX(-50%) !important;
-
-  font-size:11px !important;
-  font-weight:600 !important;
-  letter-spacing:0.04em !important;
-
-  padding:4px 12px !important;
-  border-radius:999px !important;
-
-  color:#ff4d6d !important; /* iets feller rood */
-  background:rgba(5, 8, 20, 0.9) !important;
-
-  border:1px solid rgba(255, 77, 109, 0.75) !important;
-
-  box-shadow:
-    0 0 10px rgba(255, 77, 109, 0.55),
-    0 0 22px rgba(255, 77, 109, 0.35) !important;
-
-  white-space:nowrap !important;
-  pointer-events:none !important;
-  z-index:999 !important;
-}
-
-@media (min-width: 900px) {
-  .live-banner .live-text-main { font-size: 18px; }
-  .live-banner.is-marquee .live-text-ticker .marquee-track { font-size: 18px; }
-}
-
-/* LIVE banner: marquee-track aansturen via JS variabelen */
-.live-text-ticker { width: 100%; overflow: hidden; white-space: nowrap; }
-.marquee-track{
-  display: inline-block;
-  white-space: nowrap;
-  will-change: transform;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text);
-
-  /* JS zet deze variabelen */
-  transform: translateX(var(--live-marquee-start, 100%));
-  animation: liveMarqueeVars var(--live-marquee-duration, 20s) linear infinite;
-}
-
-@keyframes liveMarqueeVars{
-  from { transform: translateX(var(--live-marquee-start, 100%)); }
-  to   { transform: translateX(var(--live-marquee-end, -100%)); }
-}
-
-/* Live banner socials: altijd naast elkaar */
-.live-social {
-  display: flex;
-  flex-direction: row;   /* dit voorkomt onder elkaar */
-  align-items: center;
-  gap: 10px;
-}
-
-.live-social {
-  width: 42px;
-  height: 42px;
-  border-radius: 999px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #7dfccb; /* groen */
-  border: 1px solid rgba(125, 252, 203, 0.45);
-
-  /* ZACHTERE glow */
-  box-shadow:
-    0 0 6px rgba(125, 252, 203, 0.35),
-    0 0 14px rgba(125, 252, 203, 0.25);
-
-  background: rgba(1, 10, 6, 0.85);
-
-  transition:
-    box-shadow 0.4s ease,
-    transform 0.4s ease,
-    opacity 0.4s ease;
-
-  opacity: 0.85;
-}
-
-/* SVG expliciet groter + schaal */
-.live-social svg {
-  width: 30px;
-  height: 30px;
-
-  /* DIT maakt het verschil */
-  transform: scale(1.15);
-  transform-origin: center;
-
-  fill: currentColor;
-}
-
-@keyframes socialPulse {
-  0% {
-    box-shadow: 0 0 0 rgba(0, 255, 157, 0.0);
-    transform: scale(1);
-  }
-  50% {
-    box-shadow: 0 0 14px rgba(0, 255, 157, 0.45);
-    transform: scale(1.05);
-  }
-  100% {
-    box-shadow: 0 0 0 rgba(0, 255, 157, 0.0);
-    transform: scale(1);
-  }
-}
-
-.live-social a:nth-child(2) {
-  animation-delay: 1.2s;
-}
-
-/* Maak de iconen groen + glow */
-.live-social a {
-  border: 1px solid rgba(0, 255, 157, 0.6);
-  background: rgba(1, 10, 6, 0.85);
-  box-shadow: 0 0 14px rgba(0, 255, 157, 0.35);
-}
-
-/* Inline SVG: forceer groen */
-.live-social a svg {
-  width: 22px;              /* pas aan naar wens */
-  height: 22px;
-  color: #00ff9d;           /* voor icons die currentColor gebruiken */
-  filter: drop-shadow(0 0 6px rgba(0,255,157,0.55));
-}
-
-/* Voor SVG paths met fill/stroke */
-.live-social a svg path,
-.live-social a svg circle,
-.live-social a svg rect,
-.live-social a svg line {
-  fill: #00ff9d !important;
-  stroke: #00ff9d !important;
-}
-
-/* =======================
-   LIVE BANNER – SOCIALS (override / finetune)
-   ======================= */
-
-.live-socials {
-  display: flex;
-  flex-direction: row;          /* naast elkaar */
-  align-items: center;
-  gap: 10px;
-  margin-left: 8px;
-}
-
-.live-socials .live-social-label {
-  font-size: 11px;              /* kleiner zodat 1 lijn blijft */
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: #7dfccb;               /* groen zoals Live resultaten */
-  white-space: nowrap;          /* nooit afbreken */
-  line-height: 1;
-}
-
-.live-socials .live-social {
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
-  border: 1px solid rgba(0, 255, 157, 0.60);
-  background: rgba(1, 10, 6, 0.85);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  /* kleur + subtielere glow */
-  color: #7dfccb;
-  filter: drop-shadow(0 0 4px rgba(0, 255, 157, 0.22));
-  transition: transform 160ms ease, filter 160ms ease;
-
-  /* rustiger “slow effect” */
-  animation: liveSocialPulse 7s ease-in-out infinite;
-}
-
-.live-socials .live-social svg {
-  width: 20px;                  /* logo groter in dezelfde cirkel */
-  height: 20px;
-  fill: currentColor;           /* altijd groen (geen wit) */
-}
-
-.live-socials .live-social:hover {
-  transform: translateY(-1px);
-  filter: drop-shadow(0 0 7px rgba(0, 255, 157, 0.30));
-}
-
-@keyframes liveSocialPulse {
-  0%, 100% { filter: drop-shadow(0 0 4px rgba(0, 255, 157, 0.18)); }
-  50%      { filter: drop-shadow(0 0 6px rgba(0, 255, 157, 0.26)); }
-}
-
-/* Update onder "Live resultaten" subtieler */
 .live-label {
   display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.live-label-text {
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
+  line-height: 1.05;
 }
 
-.live-label .live-updated {
-  margin: 0;
-  font-size: 10px;
-  opacity: 0.55;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(125, 252, 203, 0.75); /* groen, maar subtiel */
+/* -----------------------
+   Update badge (overlay)
+   ----------------------- */
+
+.live-banner .live-updated {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ff5a7a;
+  background: rgba(5,8,20,0.98);
+  border: 1px solid rgba(255,90,122,0.85);
+  box-shadow:
+    0 0 10px rgba(255,90,122,0.55),
+    0 0 22px rgba(255,90,122,0.35);
+  pointer-events: none;
+  z-index: 999;
 }
 
-/* Live scores groter + verticaal centreren in de balk */
-.live-banner .live-text {
+/* =======================
+   LIVE BANNER – MARQUEE
+   ======================= */
+
+.live-text {
   flex: 1 1 auto;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* verticaal midden */
+  justify-content: center;
 }
 
 .live-text-ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
   display: flex;
-  align-items: center;      /* verticaal midden binnen ticker */
-  min-height: 26px;
+  align-items: center;
+  min-height: 28px;
 }
 
 .marquee-track {
-  font-size: 18px;          /* groter */
-  line-height: 1.2;
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  transform: translateX(var(--live-marquee-start,100%));
+  animation: liveMarqueeVars var(--live-marquee-duration,20s) linear infinite;
+}
+
+@keyframes liveMarqueeVars {
+  from { transform: translateX(var(--live-marquee-start,100%)); }
+  to   { transform: translateX(var(--live-marquee-end,-100%)); }
 }
 
 @media (min-width: 900px) {
-  .marquee-track {
-    font-size: 20px;
-  }
+  .marquee-track { font-size: 20px; }
 }
 
 /* =======================
-   LIVE BANNER – FIX LABEL + SOCIALS
-   (override onderaan)
+   LIVE BANNER – SOCIALS
    ======================= */
 
-/* FORCE: dot links naast labeltekst */
-.live-label{
-  display:flex !important;
-  flex-direction:row !important;
-  align-items:center !important;
-  justify-content:flex-start !important;
-  gap:8px !important;
-  white-space:nowrap !important;
-}
-
-.live-label .live-dot{
-  flex:0 0 auto !important;
-  display:block !important;
-  margin:0 !important;
-}
-
-.live-label .live-label-text{
-  display:flex !important;
-  flex-direction:column !important;
-  line-height:1.05 !important;
-}
-
-/* De tekstkolom (LIVE / RESULTATEN) naast de dot */
-.live-label-text {
-  display: flex !important;
-  flex-direction: column !important;
-  line-height: 1.05 !important;
-}
-
-/* "Volg ons op:" groen en subtiel zoals label */
-.live-socials-label {
-  color: #7dfccb !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.16em !important;
-  font-size: 10px !important;        /* 1 regel */
-  white-space: nowrap !important;
-  opacity: 0.9 !important;
-}
-
-/* Socials rechts: label boven, iconen naast elkaar */
 .live-socials {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 6px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
 }
 
-/* Iconen naast elkaar (niet onder elkaar) */
+.live-socials-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #7dfccb;
+  white-space: nowrap;
+}
+
 .live-socials-icons {
-  display: flex !important;
-  flex-direction: row !important;
-  gap: 10px !important;
-  align-items: center !important;
-  justify-content: center !important;
+  display: flex;
+  gap: 10px;
 }
 
-/* Banner moet referentie worden voor absolute overlay */
-/* Zorg dat overlay update correct “bovenop” ligt en niet vreemd overlapt */
-.live-banner{
-  position: relative !important;
-  overflow: visible !important;
-  isolation: isolate; /* voorkomt rare overlap/stacking issues */
+.live-social {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,255,157,0.6);
+  background: rgba(1,10,6,0.85);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #7dfccb;
+  animation: liveSocialPulse 7s ease-in-out infinite;
 }
 
-/* Update badge: top gelijk met top van de groene banner-box */
-.live-banner .live-updated{
-  position: absolute !important;
-  top: 0 !important;              /* bovenzijde badge = bovenzijde banner */
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-
-  display: inline-flex !important;
-  align-items: center !important;
-
-  font-size: 11px !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.03em !important;
-
-  padding: 4px 10px !important;
-  border-radius: 999px !important;
-
-  color: #ff5a7a !important;                 /* iets feller */
-  background: rgba(5, 8, 20, 0.98) !important; /* bijna opaque => geen “doorlekken” */
-  border: 1px solid rgba(255, 90, 122, 0.85) !important;
-
-  box-shadow:
-    0 0 10px rgba(255, 90, 122, 0.55),
-    0 0 22px rgba(255, 90, 122, 0.35) !important;
-
-  white-space: nowrap !important;
-  pointer-events: none !important;
-  z-index: 999 !important;
+.live-social svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
-/* Zorg dat overlay update altijd zichtbaar is */
-.live-banner{
-  overflow: visible !important;   /* voorkomt afknippen */
-  position: relative !important;
-}
-
-/* Update overlay definitief boven alles */
-.live-banner .live-updated{
-  z-index: 999 !important;        /* boven labels, ticker, socials */
+@keyframes liveSocialPulse {
+  0%,100% { filter: drop-shadow(0 0 4px rgba(0,255,157,0.18)); }
+  50%     { filter: drop-shadow(0 0 6px rgba(0,255,157,0.28)); }
 }
