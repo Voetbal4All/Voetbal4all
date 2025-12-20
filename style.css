@@ -40,10 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+a { color: inherit; text-decoration: none; }
 
 img {
   max-width: 100%;
@@ -57,13 +54,8 @@ img {
   flex-direction: column;
 }
 
-main {
-  flex: 1 0 auto;
-}
-
-footer {
-  margin-top: auto;
-}
+main { flex: 1 0 auto; }
+footer { margin-top: auto; }
 
 .shell {
   width: 100%;
@@ -103,9 +95,7 @@ footer {
   gap: 10px;
 }
 
-.brand--logo-only {
-  gap: 0;
-}
+.brand--logo-only { gap: 0; }
 
 /* Logo (houdt ratio correct + vult navbar bijna volledig) */
 .brand-logo {
@@ -113,10 +103,22 @@ footer {
   width: auto;
   display: block;
   object-fit: contain;
+
   background: none;
   box-shadow: none;
   border-radius: 0;
   padding: 0;
+}
+
+/* Forceer logo look op alle pagina's (defensief) */
+.navbar .brand-logo {
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  object-fit: contain !important;
+  display: block;
 }
 
 @media (max-width: 600px) {
@@ -271,7 +273,7 @@ footer {
   color: var(--text);
 }
 
-/* Tonen bij hover / focus */
+/* Tonen bij hover / focus (desktop) */
 .nav-item--dropdown:hover .nav-dropdown,
 .nav-item--dropdown:focus-within .nav-dropdown {
   opacity: 1;
@@ -283,9 +285,7 @@ footer {
    LIVE BANNER
    ======================= */
 
-.live-banner-top {
-  margin-top: 4px;
-}
+.live-banner-top { margin-top: 4px; }
 
 .live-banner {
   border-radius: var(--radius-lg);
@@ -298,20 +298,23 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  font-size: 13px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+  /* voor update overlay */
+  position: relative;
+  overflow: visible;
+  isolation: isolate;
 }
 
-/* Linker labelblok (dot + stacked tekst + update onderaan) */
 .live-label {
   display: inline-flex;
-  align-items: flex-start;              /* dot niet boven het blok laten “springen” */
+  align-items: center;
   gap: 8px;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: #7dfccb;
-  line-height: 1.05;
+  white-space: nowrap;
 }
 
 .live-dot {
@@ -320,140 +323,150 @@ footer {
   border-radius: 999px;
   background: #00ff9d;
   box-shadow: 0 0 14px rgba(0, 255, 157, 0.9);
-  margin-top: 3px;                      /* visueel mooi naast de eerste regel */
-  flex: 0 0 auto;
 }
 
-/* JS injecteert deze wrapper */
 .live-label-text {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  line-height: 1.05;
 }
 
-.live-label-top,
-.live-label-bottom {
-  white-space: nowrap;
-}
-
-/* Update onder LIVE RESULTATEN (in labelEl) */
-.live-label .live-updated {
-  margin-top: 4px;
-  font-size: 10px;                      /* kleiner & subtieler */
-  letter-spacing: 0.08em;
-  text-transform: none;                 /* leesbaarder */
-  color: rgba(255, 255, 255, 0.65);
-  opacity: 0.85;
-}
-
-/* Middenkolom (ticker area) – basis (fijnafstemming komt in later deel) */
 .live-text {
+  flex: 1 1 auto;
+  min-width: 0;
   color: var(--muted);
-  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* CTA bestaat mogelijk nog in HTML; JS verwijdert hem. Mag blijven als fallback. */
-.live-cta {
-  font-size: 11px;
-  padding: 6px 10px;
+.live-text-main { display: block; }
+
+/* Update badge (overlay, centraal boven de banner) */
+.live-banner .live-updated {
+  position: absolute;
+  top: 0;               /* bovenzijde badge = bovenzijde banner */
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+
+  padding: 4px 10px;
   border-radius: 999px;
-  border: 1px solid rgba(0, 255, 157, 0.6);
-  color: #7dfccb;
-  background: rgba(1, 10, 6, 0.85);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+
+  color: #ff5a7a;
+  background: rgba(5, 8, 20, 0.98);
+  border: 1px solid rgba(255, 90, 122, 0.85);
+
+  box-shadow:
+    0 0 10px rgba(255, 90, 122, 0.55),
+    0 0 22px rgba(255, 90, 122, 0.35);
+
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 999;
 }
 
-/* Rechter socials (JS maakt .live-socials + label + icons) */
+/* Ticker container */
+.live-text-ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  min-height: 28px;
+}
+
+/* Marquee track via JS variabelen (start buiten rechts, eind buiten links) */
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+
+  transform: translateX(var(--live-marquee-start, 100%));
+  animation: liveMarqueeVars var(--live-marquee-duration, 20s) linear infinite;
+}
+
+@keyframes liveMarqueeVars {
+  from { transform: translateX(var(--live-marquee-start, 100%)); }
+  to   { transform: translateX(var(--live-marquee-end, -100%)); }
+}
+
+/* Socials rechts */
 .live-socials {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
-  align-items: flex-end;
-  flex: 0 0 auto;
+  margin-left: 8px;
 }
 
 .live-socials-label {
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: #7dfccb;
   white-space: nowrap;
+  opacity: 0.9;
+  line-height: 1;
 }
 
 .live-socials-icons {
-  display: inline-flex;                 /* naast elkaar */
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
 }
 
 .live-social {
   width: 34px;
   height: 34px;
   border-radius: 999px;
+  border: 1px solid rgba(0, 255, 157, 0.60);
+  background: rgba(1, 10, 6, 0.85);
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(0, 255, 157, 0.55);
-  background: rgba(1, 10, 6, 0.85);
-  color: #7dfccb;                       /* SVG volgt currentColor */
-  text-decoration: none;
-  opacity: 0.95;
-  transition: transform 220ms ease, box-shadow 220ms ease, opacity 220ms ease;
+
+  color: #7dfccb;
+  animation: liveSocialPulse 7s ease-in-out infinite;
+  transition: transform 160ms ease, filter 160ms ease, opacity 160ms ease;
+  opacity: 0.9;
 }
 
 .live-social svg {
-  width: 20px;                          /* icon groter in dezelfde cirkel */
+  width: 20px;
   height: 20px;
-  display: block;
-  fill: currentColor;                   /* essentieel: geen “gevuld vierkant” */
-}
-
-@keyframes socialBreath {
-  0% {
-    transform: scale(1);
-    box-shadow:
-      0 0 6px rgba(125, 252, 203, 0.22),
-      0 0 12px rgba(125, 252, 203, 0.16);
-  }
-  50% {
-    transform: scale(1.03);             /* minder fel dan 1.04+ */
-    box-shadow:
-      0 0 10px rgba(125, 252, 203, 0.34),
-      0 0 18px rgba(125, 252, 203, 0.22);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow:
-      0 0 6px rgba(125, 252, 203, 0.22),
-      0 0 12px rgba(125, 252, 203, 0.16);
-  }
-}
-
-.live-social {
-  animation: socialBreath 7s ease-in-out infinite; /* rustiger */
+  fill: currentColor; /* altijd groen */
 }
 
 .live-social:hover {
-  opacity: 1;
-  transform: scale(1.06);
-  box-shadow:
-    0 0 14px rgba(125, 252, 203, 0.55),
-    0 0 28px rgba(125, 252, 203, 0.34);
+  transform: translateY(-1px);
+  filter: drop-shadow(0 0 7px rgba(0, 255, 157, 0.30));
+}
+
+@keyframes liveSocialPulse {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(0, 255, 157, 0.18)); }
+  50%      { filter: drop-shadow(0 0 6px rgba(0, 255, 157, 0.26)); }
 }
 
 /* =======================
    SECTIONS & LAYOUT
    ======================= */
 
-.section-main {
-  padding: 18px 0;
-}
-
-.home-intro {
-  padding-top: 14px;
-}
+.section-main { padding: 18px 0; }
+.home-intro { padding-top: 14px; }
 
 .lower-grid-layout {
   display: grid;
@@ -499,7 +512,6 @@ footer {
 .column-right {
   display: grid;
   gap: 12px;
-  min-width: 0; /* voorkomt overflow issues bij lange content */
 }
 
 /* Weekendlijst (events blok) */
@@ -516,12 +528,9 @@ footer {
   justify-content: space-between;
   gap: 10px;
   font-size: 13px;
-  min-width: 0; /* veilig voor ellipsis/overflow later */
 }
 
-.weekend-item a {
-  color: var(--accent);
-}
+.weekend-item a { color: var(--accent); }
 
 /* Artikellijst */
 .article-list {
@@ -529,9 +538,7 @@ footer {
   gap: 10px;
 }
 
-.article-item {
-  margin: 0;
-}
+.article-item { margin: 0; }
 
 /* =======================
    KAARTEN & LIJSTEN
@@ -551,7 +558,6 @@ footer {
   justify-content: space-between;
   gap: 8px;
   margin-bottom: 10px;
-  min-width: 0; /* flex overflow safety */
 }
 
 .card-title {
@@ -587,17 +593,10 @@ footer {
   flex-direction: column;
   gap: 2px;
   font-size: 13px;
-  min-width: 0;
 }
 
-.event-title {
-  font-weight: 500;
-}
-
-.event-meta {
-  font-size: 12px;
-  color: var(--muted);
-}
+.event-title { font-weight: 500; }
+.event-meta { font-size: 12px; color: var(--muted); }
 
 .event-link {
   font-size: 12px;
@@ -732,12 +731,10 @@ footer {
    ARTIKELS / OVERZICHTEN
    ======================= */
 
-/* Meta-rij: logo + bron */
 .article-meta-row {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  min-width: 0;
 }
 
 .ad-card-list {
@@ -764,7 +761,6 @@ footer {
   justify-content: space-between;
   gap: 8px;
   margin-bottom: 4px;
-  min-width: 0;
 }
 
 .ad-card-title {
@@ -795,7 +791,6 @@ footer {
   display: flex;
   gap: 10px;
   align-items: flex-start;
-  min-width: 0;
 }
 
 .home-article-media-thumb {
@@ -821,7 +816,6 @@ footer {
   flex-direction: column;
   gap: 4px;
   flex: 1 1 auto;
-  min-width: 0;
 }
 
 .home-article-header {
@@ -829,7 +823,6 @@ footer {
   align-items: center;
   gap: 6px;
   margin-bottom: 4px;
-  min-width: 0;
 }
 
 .flag-badge {
@@ -853,13 +846,8 @@ footer {
   margin: 0;
 }
 
-.article-title a {
-  color: var(--text);
-}
-
-.article-title a:hover {
-  text-decoration: underline;
-}
+.article-title a { color: var(--text); }
+.article-title a:hover { text-decoration: underline; }
 
 .article-excerpt {
   font-size: 13px;
@@ -893,18 +881,26 @@ footer {
 
 .search-bar--advanced { gap: 10px; }
 
-.search-input,
-.search-select {
+.search-input {
   width: 100%;
   border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.15);
-  background: rgba(2,3,8,0.85);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(2, 3, 8, 0.8);
   color: var(--text);
   font-size: 13px;
   padding: 7px 11px;
 }
 
 .search-input::placeholder { color: var(--muted); }
+
+.search-select {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(2, 3, 8, 0.9);
+  color: var(--text);
+  font-size: 13px;
+  padding: 7px 11px;
+}
 
 .search-filters-row {
   display: flex;
@@ -926,13 +922,45 @@ footer {
   max-width: 900px;
 }
 
+.form-card--compact { font-size: 12px; }
+
+.form-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.form-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+
+.form-section {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.form-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.form-section-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
 .form-grid {
   display: grid;
   gap: 8px 14px;
 }
 
 .form-grid--2cols {
-  grid-template-columns: repeat(2, minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .form-field {
@@ -942,20 +970,83 @@ footer {
   font-size: 12px;
 }
 
+.form-label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.form-label .required {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.form-label small {
+  font-weight: 400;
+  color: var(--muted);
+}
+
 .form-input,
 .form-select,
 .form-textarea {
   border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.16);
-  background: rgba(2,3,8,0.85);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(2, 3, 8, 0.85);
   color: var(--text);
   font-size: 12px;
   padding: 6px 9px;
 }
 
+.form-input::placeholder,
+.form-textarea::placeholder { color: var(--muted); }
+
 .form-textarea {
   resize: vertical;
   min-height: 80px;
+}
+
+.form-checkbox-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  font-size: 12px;
+}
+
+.form-checkbox-row label { cursor: pointer; }
+
+.form-helper {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.form-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Pill checkbox (land/positie, enz.) */
+.pill-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5px 9px;
+  font-size: 12px;
+  cursor: pointer;
+  background: rgba(2, 3, 8, 0.75);
+}
+
+.pill-checkbox input { accent-color: var(--accent); }
+
+/* Kleine vlag bij land */
+.flag-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
 }
 
 /* =======================
@@ -963,17 +1054,57 @@ footer {
    ======================= */
 
 .footer {
-  border-top: 1px solid rgba(255,255,255,0.06);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   background: radial-gradient(circle at top, #141a33 0, #050814 55%, #020308 100%);
-  padding: 18px 0 20px;
+  padding-top: 18px;
+  padding-bottom: 20px;
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: minmax(0,1.5fr) minmax(0,1.1fr);
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
   gap: 16px;
+  align-items: center;
   font-size: 12px;
   color: var(--muted);
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-legal {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.footer-social-link {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--muted);
+}
+
+.footer-social-link:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.footer-ad {
+  border-radius: var(--radius-lg);
+  border: 1px dashed rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  text-align: center;
 }
 
 /* =======================
@@ -987,16 +1118,139 @@ footer {
   .lower-grid-layout.grid-2,
   .lower-grid-layout.grid-3,
   .lower-grid-layout.grid-4 {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
+
+  .ad-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 600px) {
-  .form-grid--2cols { grid-template-columns: 1fr; }
+  .ad-card-grid { grid-template-columns: minmax(0, 1fr); }
+  .form-grid--2cols { grid-template-columns: minmax(0, 1fr); }
 
-  /* mobiel logo gecentreerd */
+  .live-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-article-card--compact { gap: 8px; }
+
+  .home-article-media-thumb {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* Mobile nav correct onder lagere navbar */
+  .nav-links { top: 58px; }
+}
+
+/* =========================
+   ADSENSE – UNIFORM & COMPACT
+   Header + In-feed identiek
+   ========================= */
+
+.ad-slot-header,
+.ad-infeed {
+  margin: 2px auto !important;
+  padding: 0 !important;
+  max-width: 1000px;
+  opacity: 0.92;
+  display: flex;
+  justify-content: center;
+  overflow: visible !important;
+}
+
+.ad-slot-header ins.adsbygoogle,
+.ad-infeed ins.adsbygoogle {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+  border-radius: 12px;
+}
+
+.ad-slot-header iframe,
+.ad-infeed iframe { max-width: 100% !important; }
+
+.ad-slot-header,
+.ad-infeed,
+.ad-slot-header *,
+.ad-infeed * {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 900px) {
+  .ad-slot-header,
+  .ad-infeed {
+    max-width: 920px;
+  }
+}
+
+/* =======================
+   MOBILE NAV (burger menu)
+   ======================= */
+
+@media (max-width: 900px) {
+  /* nav default dicht */
+  .nav-links {
+    display: none;                 /* blijft dicht tot .is-open */
+    position: absolute;
+    top: 64px;                     /* onder navbar (gevraagd) */
+    left: 0;
+    right: 0;
+    padding: 12px 16px 16px;
+    background: rgba(5, 8, 20, 0.98);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+    z-index: 80;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* open toestand */
+  .nav-links.is-open { display: flex; }
+
+  /* dropdown menu: op mobiel niet hover-based */
+  .nav-item--dropdown .nav-dropdown {
+    position: static;
+    margin-top: 8px;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    display: none;                 /* dicht tot .is-open op item */
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(2, 3, 8, 0.55);
+  }
+
+  /* hover/focus gedrag uitschakelen op mobiel */
+  .nav-item--dropdown:hover .nav-dropdown,
+  .nav-item--dropdown:focus-within .nav-dropdown {
+    display: none;
+  }
+
+  /* Alleen tonen via JS class */
+  .nav-item--dropdown.is-open .nav-dropdown { display: block; }
+
+  /* dropdown button: volledige breedte */
+  .nav-item--dropdown .nav-link--dropdown {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* =======================
+   MOBIEL: LOGO CENTREREN (tegen ads overlap)
+   ======================= */
+
+@media (max-width: 600px) {
   .navbar-inner { position: relative; }
 
+  /* center logo binnen de navbar */
   .brand.brand--logo-only {
     position: absolute;
     left: 50%;
@@ -1008,144 +1262,4 @@ footer {
     position: relative;
     z-index: 4;
   }
-
-  .live-banner-top { margin-top: 10px; }
-}
-
-/* =======================
-   LIVE BANNER – BASIS
-   ======================= */
-
-.live-banner {
-  position: relative;
-  overflow: visible;
-  isolation: isolate;
-}
-
-.live-label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  white-space: nowrap;
-}
-
-.live-label-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
-}
-
-/* -----------------------
-   Update badge (overlay)
-   ----------------------- */
-
-.live-banner .live-updated {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #ff5a7a;
-  background: rgba(5,8,20,0.98);
-  border: 1px solid rgba(255,90,122,0.85);
-  box-shadow:
-    0 0 10px rgba(255,90,122,0.55),
-    0 0 22px rgba(255,90,122,0.35);
-  pointer-events: none;
-  z-index: 999;
-}
-
-/* =======================
-   LIVE BANNER – MARQUEE
-   ======================= */
-
-.live-text {
-  flex: 1 1 auto;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.live-text-ticker {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  min-height: 28px;
-}
-
-.marquee-track {
-  display: inline-block;
-  white-space: nowrap;
-  will-change: transform;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--text);
-  transform: translateX(var(--live-marquee-start,100%));
-  animation: liveMarqueeVars var(--live-marquee-duration,20s) linear infinite;
-}
-
-@keyframes liveMarqueeVars {
-  from { transform: translateX(var(--live-marquee-start,100%)); }
-  to   { transform: translateX(var(--live-marquee-end,-100%)); }
-}
-
-@media (min-width: 900px) {
-  .marquee-track { font-size: 20px; }
-}
-
-/* =======================
-   LIVE BANNER – SOCIALS
-   ======================= */
-
-.live-socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  margin-left: 8px;
-}
-
-.live-socials-label {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: #7dfccb;
-  white-space: nowrap;
-}
-
-.live-socials-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.live-social {
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
-  border: 1px solid rgba(0,255,157,0.6);
-  background: rgba(1,10,6,0.85);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: #7dfccb;
-  animation: liveSocialPulse 7s ease-in-out infinite;
-}
-
-.live-social svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
-@keyframes liveSocialPulse {
-  0%,100% { filter: drop-shadow(0 0 4px rgba(0,255,157,0.18)); }
-  50%     { filter: drop-shadow(0 0 6px rgba(0,255,157,0.28)); }
 }
