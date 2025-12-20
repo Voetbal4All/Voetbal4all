@@ -115,7 +115,17 @@ function makeSocialButton(href, label, svg) {
     svgEl.style.width = "26px";
     svgEl.style.height = "26px";
     svgEl.style.display = "block";
-    svgEl.style.fill = "currentColor";
+  
+    // Instagram = outline (stroke), Facebook = fill
+    if (label.toLowerCase().includes("instagram")) {
+      svgEl.style.fill = "none";
+      svgEl.style.stroke = "currentColor";
+      svgEl.style.strokeWidth = "2";
+      svgEl.style.strokeLinecap = "round";
+      svgEl.style.strokeLinejoin = "round";
+    } else {
+      svgEl.style.fill = "currentColor";
+    }
   }
 
   return a;
