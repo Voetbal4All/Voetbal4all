@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2025-12-20T13:35:05.322Z",
+  "generatedAt": "2025-12-20T14:38:39.363Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon to be held every four years from 2028",
+      "link": "https://www.bbc.com/sport/football/articles/cgjnx6x4281o?at_medium=RSS&at_campaign=rss",
+      "summary": "In a huge change to the football calendar, the Africa Cup of Nations will be held every four years from 2028, switching away from biennial finals.",
+      "publishedAt": "2025-12-20T14:36:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dubbelslag Woltemade niet genoeg voor Newcastle: Chelsea ontsnapt aan nederlaag",
+      "link": "https://www.vi.nl/nieuws/dubbelslag-woltemade-niet-genoeg-voor-newcastle-chelsea-ontsnapt-aan-nederlaag",
+      "summary": "Intro",
+      "publishedAt": "2025-12-20T14:36:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle 2-2 Chelsea: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/20/newcastle-v-chelsea-premier-league-live",
+      "summary": "⚽ Updates from the 12.30pm GMT kick-off ⚽ Live scores | Table | Clockwatch | Mail Niall Thanks to Chris Greenhough and Nick Whitbread, who emailed me within seconds of each other to nominate Paul Warhurst – as both noted, a utility phenomenon in the Premier League and Championship Manager, where he could play pretty much anywhere. “One memorable utility shift was Ryan Bertrand, moved up to left wing in the 2012 Champions League final, sitting in front of Ashley Cole to track Arjen Robben. I believe he’s still the only player to have made his Champions League debut in the final,” says Rob Hobson. Continue reading...",
+      "publishedAt": "2025-12-20T14:30:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City v West Ham, Brighton v Sunderland, and more: football – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/20/manchester-city-v-west-ham-brighton-v-sunderland-and-more-football-live",
+      "summary": "⚽ Updates from Saturday afternoon’s big matches ⚽ Scores | Tables | Follow us on Bluesky | Mail Emillia Championship games (3pm unless otherwise stated) Preston North End v Norwich City Blackburn Rovers v Millwall Southampton v Coventry City Hull City v West Brom Bristol City v Middlesbrough Sheffield United v Birmingham City Watford v Stoke City Derby County v Portsmouth Ipswich Town v Sheffield Wednesday Charlton Athletic v Oxford United QPR v Leicester City Continue reading...",
+      "publishedAt": "2025-12-20T14:26:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: veel Nederlanders in actie in Premier League",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-de-wedstrijden-van-zaterdag-20-december",
+      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
+      "publishedAt": "2025-12-20T14:22:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VfL Wolfsburg beloont interim-coach die het overnam van Simonis",
+      "link": "https://www.vi.nl/nieuws/reijnders-vertelt-over-zijn-droomtransfer",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-20T14:14:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Iroko proves National credentials again with Ascot triumph",
+      "link": "https://www.skysports.com/racing/news/12040/13485927/ascot-iroko-proves-grand-national-credentials-again-with-graduation-chase-triumph",
+      "summary": "Iroko maintained his position at the head of the Grand National betting with a fine victory in the Howden Graduation Chase at Ascot.",
+      "publishedAt": "2025-12-20T14:07:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'100 per cent it is!' | Mike Dean reacts to Newcastle penalty claim",
+      "link": "https://www.skysports.com/watch/video/13485921/newcastle-vs-chelsea-mike-dean-reacts-to-newcastle-penalty-claim",
+      "summary": "Mike Dean reacts as Newcastle are denied a penalty in their Premier League clash against Chelsea.",
+      "publishedAt": "2025-12-20T13:49:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +98,7 @@
       "title": "Adeyemi wil meteen douchen na wissel en krijgt boete: 'Dat hoort niet'",
       "link": "https://www.vi.nl/nieuws/adeyemi-wil-meteen-douchen-na-wissel-en-krijgt-boete-dat-hoort-niet",
       "summary": "Karim Adeyemi heeft zich opnieuw niet populair gemaakt bij Borussia Dortmund. De vleugelaanvaller wilde na zijn wissel tegen Borussia Mönchengladbach meteen gaan douchen, maar stuitte onderweg naar de kleedkamer op Sebastian Kehl. 'Hij krijgt straf.'",
-      "publishedAt": "2025-12-20T13:32:00.000Z"
+      "publishedAt": "2025-12-20T13:34:40.000Z"
     },
     {
       "type": "rss",
@@ -25,17 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Newcastle v Chelsea: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/20/newcastle-v-chelsea-premier-league-live",
-      "summary": "⚽ Premier League updates from the 12.30pm GMT kick-off ⚽ Live scores | Table | Ten things to look out for | Mail Niall Thanks to Chris Greenhough and Nick Whitbread, who emailed me within seconds of each other to nominate Paul Warhurst – as both noted, a utility phenomenon in the Premier League and Championship Manager, where he could play pretty much anywhere. “One memorable utility shift was Ryan Bertrand, moved up to left wing in the 2012 Champions League final, sitting in front of Ashley Cole to track Arjen Robben. I believe he’s still the only player to have made his Champions League debut in the final,” says Rob Hobson. Continue reading...",
-      "publishedAt": "2025-12-20T13:21:47.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -44,39 +121,6 @@
       "link": "https://www.skysports.com/watch/video/13485909/calamitous-millwall-defending-gifts-blackburn-a-second-its-a-nightmare",
       "summary": "Take a look as Blackburn Rovers doubled their advantage against Millwall after some calamitous defending.",
       "publishedAt": "2025-12-20T13:19:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: neefje van Rob Jetten debuteert in wedstrijdselectie van Ajax",
-      "link": "https://www.vi.nl/nieuws/vi-live-neefje-van-rob-jetten-debuteert-in-wedstrijdselectie-van-ajax",
-      "summary": "Zaterdagavond staan de nummers vier en drie van de Eredivisie tegenover elkaar: NEC en Ajax. Het verschil tussen beide ploegen is één punt. Lukt het NEC over de Amsterdammers heen te gaan? Volg het in deze VI Live.",
-      "publishedAt": "2025-12-20T13:11:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: goudhaantje Woltemade pijnigt Chelsea met snelle dubbelslag",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-de-wedstrijden-van-zaterdag-20-december",
-      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
-      "publishedAt": "2025-12-20T12:53:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Tsjechië met nieuwe bondscoach en bekende assistent naar play-offs voor WK",
-      "link": "https://www.vi.nl/nieuws/tsjechi-met-nieuwe-bondscoach-en-bekende-assistent-naar-play-offs-voor-wk",
-      "summary": "Jaroslav Koubek moet Tsjechië naar het WK zien te loodsen. De Tsjechische voetbalbond (FACR) heeft de 74-jarige trainer aangesteld als opvolger van Ivan Hasek, die moest wijken na de pijnlijke nederlaag tegen Faeröer.",
-      "publishedAt": "2025-12-20T12:49:53.000Z"
     },
     {
       "type": "rss",
@@ -128,7 +172,7 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Premier League live updates: Chelsea travel to Newcastle",
+      "title": "Premier League live updates: Newcastle and Chelsea draw in action-packed clash",
       "link": "https://www.espn.com/soccer/story/_/id/47326642/premier-league-live-updates-newcastle-united-chelsea-manchester-city-west-ham-tottenham-liverpool",
       "summary": "null",
       "publishedAt": "2025-12-20T12:31:11.000Z"
@@ -139,21 +183,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Woltemade double has Newcastle in control vs Chelsea LIVE!",
+      "title": "Chelsea fight back to draw thriller at Newcastle amid penalty controversy LIVE!",
       "link": "https://www.skysports.com/football/newcastle-united-vs-chelsea/live/531296",
       "summary": "",
       "publishedAt": "2025-12-20T11:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Have England blinked with Bazball approach en route to Ashes defeat?",
-      "link": "https://www.skysports.com/cricket/news/12040/13485848/the-ashes-have-england-blinked-with-bazball-approach-as-they-head-towards-series-defeat-in-adelaide",
-      "summary": "Michael Atherton believes \"England have blinked\" in terms of their Bazball approach to batting as they stare at an Ashes series defeat with two Tests to play.",
-      "publishedAt": "2025-12-20T10:45:00.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/20/ousmane-dembele-quietly-becomes-the-main-man-after-long-journey-to-the-top",
       "summary": "The Frenchman, who has been named the best male footballer in the world by the Guardian, has benefitted from PSG’s focus on the team rather than individuals What makes a good player great, and a great player the best? This question has been occupying me since 2014, when the Guardian first asked me to contribute to its inaugural Next Generation feature. My job was to look for a France-based talent born in 1997 who could go on to have a stellar career. After a great deal of research, I narrowed it down from my shortlist of five by asking questions not about the players’ football ability, but about other attributes: resilience, adaptability, decision-making, creativity, work ethic, response to feedback and willingness to learn. Qualities we cannot see, and are harder to measure. Continue reading...",
       "publishedAt": "2025-12-20T08:00:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wilfried Nancy’s Venn diagram and the optics of controlling the controllables | Max Rushden",
-      "link": "https://www.theguardian.com/football/2025/dec/20/wilfried-nancys-venn-diagram-and-the-optics-of-controlling-the-controlables",
-      "summary": "The Celtic manager wants to focus on the things that matter but after starting with four defeats he may not have the chance Years ago when sport was good, you didn’t have optics. You just had what happened. And what happened was what you had seen happen. Things are different now. If you haven’t lent into optics when discussing your underperforming team, then you’re missing out. One dictionary definition for you: Optics (1) “The way in which an event or course of action is perceived by the public.” Continue reading...",
-      "publishedAt": "2025-12-20T08:00:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dubois showcases power in dominant world title win",
-      "link": "https://www.skysports.com/boxing/news/12040/13485812/caroline-dubois-drops-camilla-panatta-in-sixth-round-as-she-defends-wbc-lightweight-title-with-points-win-in-miami",
-      "summary": "Caroline Dubois floored Camilla Panatta in the sixth round as Britain's WBC lightweight champion defended her title with a dominant points win.",
-      "publishedAt": "2025-12-20T07:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Most attacking keeper in league' - why Raya is key for Arsenal",
-      "link": "https://www.bbc.com/sport/articles/cx231l7z32do?at_medium=RSS&at_campaign=rss",
-      "summary": "David Raya has been described as the most attacking goalkeeper in the league by Arsenal boss Mikel Arteta. BBC Sport analyse the importance of the Spaniard.",
-      "publishedAt": "2025-12-20T07:42:39.000Z"
     }
   ]
 }
