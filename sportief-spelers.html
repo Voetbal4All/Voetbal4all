@@ -1,388 +1,312 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Voetbal4All - Spelersstatistieken</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
-        </a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-        <nav class="nav-links">
-          <a href="/" class="nav-link">Home</a>
-          <a href="artikels.html" class="nav-link">Artikels</a>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg"
+             alt="Voetbal4All"
+             class="brand-logo"
+             loading="eager">
+      </a>
 
-          <!-- EVENTS DROPDOWN -->
-          <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown">
-              Events <span class="nav-link-caret">▾</span>
-            </button>
-            <div class="nav-dropdown">
-              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
-            </div>
-          </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
 
-          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-          <a href="trainers.html" class="nav-link">Trainers</a>
-          <a href="spelers.html" class="nav-link">Spelers</a>
-
-          <!-- SPORTIEF DROPDOWN -->
-          <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown nav-link--active">
-              Sportief <span class="nav-link-caret">▾</span>
-            </button>
-            <div class="nav-dropdown">
-              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-            </div>
-          </div>
-
-          <!-- VOETBAL4ALL DROPDOWN -->
-          <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown">
-              Voetbal4All <span class="nav-link-caret">▾</span>
-            </button>
-            <div class="nav-dropdown">
-              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-              <a href="contact.html" class="nav-dropdown-link">Contact</a>
-            </div>
-          </div>
-
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
-        </nav>
-
-        <button class="nav-burger" aria-label="Menu">☰</button>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="section-main">
-      <div class="shell">
-
-        <!-- INTRO-BLOK -->
-        <article class="card" style="margin-bottom:12px;">
-          <div class="card-header">
-            <div>
-              <div class="card-caption">Sportief</div>
-              <div class="card-title">Spelersstatistieken</div>
-            </div>
-            <span class="pill-small">Belgische &amp; Nederlandse competities (demo)</span>
-          </div>
-          <p class="note">
-            Overzicht van spelersstatistieken per competitie, seizoen en club.
-            In de live versie kunnen deze gegevens automatisch ingeladen worden uit een databron (bv. bond, clubsoftware
-            of een eigen Voetbal4All-database).
-          </p>
-        </article>
-
-        <!-- FILTERBALK -->
-        <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
-          <input
-            type="text"
-            id="player-search-text"
-            class="search-input"
-            placeholder="Zoek op speler, club of competitie..."
-          />
-          <div class="search-filters-row">
-            <select id="player-filter-country" class="search-select">
-              <option value="">Land (alles)</option>
-              <option value="BE">🇧🇪 België</option>
-              <option value="NL">🇳🇱 Nederland</option>
-            </select>
-
-            <select id="player-filter-season" class="search-select">
-              <option value="">Seizoen (alles)</option>
-              <option value="2024-2025">2024–2025</option>
-              <option value="2023-2024">2023–2024</option>
-            </select>
-
-            <select id="player-filter-competition" class="search-select">
-              <option value="">Competitie (alles)</option>
-              <option value="BE_Provinciaal">Provinciaal (BE)</option>
-              <option value="BE_Interprovinciaal">Interprovinciaal (BE)</option>
-              <option value="BE_Elite">Elite jeugd (BE)</option>
-              <option value="NL_JeugdHoofdklasse">Jeugd Hoofdklasse (NL)</option>
-              <option value="NL_AmateurHoog">Hoog amateurniveau (NL)</option>
-            </select>
-
-            <select id="player-filter-position" class="search-select">
-              <option value="">Positie (alles)</option>
-              <option value="GK">Doelman</option>
-              <option value="DEF">Verdediger</option>
-              <option value="MID">Middenvelder</option>
-              <option value="FWD">Aanvaller</option>
-            </select>
-          </div>
-          <div class="form-helper">
-            Filters zijn nu visueel uitgewerkt. In de live versie kan hier logica komen om de tabel hieronder dynamisch te filteren
-            (via database, API of CSV-import).
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Oefenwedstrijden</a>
+            <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+            <a href="events.html" class="nav-dropdown-link">Andere sportieve events</a>
           </div>
         </div>
 
-        <!-- OVERZICHT BLOK -->
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="algemene-events.html?type=Eetdag" class="nav-dropdown-link">Eetdagen &amp; acties</a>
+            <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden</a>
+            <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+            <a href="algemene-events.html" class="nav-dropdown-link">Andere clubevents</a>
+          </div>
+        </div>
+
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">
+              Team/Medewerker in de kijker
+            </a>
+            <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HEADER AD ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <article class="card" style="margin-bottom:12px;">
+    <div class="card-header">
+      <div>
+        <div class="card-caption">Sportief</div>
+        <div class="card-title">Spelersstatistieken</div>
+      </div>
+      <span class="pill-small">België · Nederland</span>
+    </div>
+    <p class="note">
+      Overzicht van spelersstatistieken per competitie en seizoen. Voorbereid op automatische koppelingen met databronnen.
+    </p>
+  </article>
+
+  <div class="v4-layout-sidebar">
+
+    <!-- LINKS -->
+    <div class="v4-content">
+
+      <!-- FILTERS -->
+      <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+        <input id="player-search-text" class="search-input" type="text"
+               placeholder="Zoek op speler, club of competitie..." />
+        <div class="search-filters-row">
+          <select id="player-filter-country" class="search-select">
+            <option value="">Land (alles)</option>
+            <option value="BE">🇧🇪 België</option>
+            <option value="NL">🇳🇱 Nederland</option>
+          </select>
+          <select id="player-filter-season" class="search-select">
+            <option value="">Seizoen (alles)</option>
+            <option value="2024-2025">2024–2025</option>
+            <option value="2023-2024">2023–2024</option>
+          </select>
+          <select id="player-filter-competition" class="search-select">
+            <option value="">Competitie (alles)</option>
+            <option value="BE_Provinciaal">Provinciaal (BE)</option>
+            <option value="BE_Interprovinciaal">Interprovinciaal (BE)</option>
+            <option value="BE_Elite">Elite jeugd (BE)</option>
+            <option value="NL_JeugdHoofdklasse">Jeugd Hoofdklasse (NL)</option>
+            <option value="NL_AmateurHoog">Hoog amateurniveau (NL)</option>
+          </select>
+          <select id="player-filter-position" class="search-select">
+            <option value="">Positie (alles)</option>
+            <option value="GK">Doelman</option>
+            <option value="DEF">Verdediger</option>
+            <option value="MID">Middenvelder</option>
+            <option value="FWD">Aanvaller</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- TABEL -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-caption">Overzicht</div>
+            <div class="card-title">Spelers per competitie</div>
+          </div>
+        </div>
+
+        <div style="overflow-x:auto;">
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th>Land</th><th>Seizoen</th><th>Competitie</th><th>Club</th><th>Speler</th>
+                <th>Positie</th><th>Matchen</th><th>Goals</th><th>Assists</th><th>Clean sheets</th>
+              </tr>
+            </thead>
+            <tbody id="player-stats-body">
+              <!-- jouw demo-rijen kunnen hier blijven -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RECHTS -->
+    <aside class="v4-sidebar">
+      <div class="v4-sidebar-sticky">
+
         <article class="card">
           <div class="card-header">
             <div>
-              <div class="card-caption">Overzicht</div>
-              <div class="card-title">Topspelers per competitie</div>
+              <div class="card-caption">Advertentie</div>
+              <div class="card-title">Analyse & performance</div>
             </div>
-            <span class="pill-small">Demo-data · 1 rij = 1 speler / seizoen / competitie</span>
           </div>
-
-          <p class="note" style="margin-bottom:10px;">
-            Onderstaande tabel toont fictieve voorbeelddata. In de live versie kunnen clubs en/of Voetbal4All
-            deze gegevens automatisch laten invullen en updaten.
-          </p>
-
-          <!-- TABEL MET SPELERSSTATISTIEKEN -->
-          <div style="overflow-x:auto;">
-            <table style="width:100%; border-collapse:collapse; font-size:12px;">
-              <thead>
-                <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
-                  <th style="text-align:left; padding:6px 4px;">Land</th>
-                  <th style="text-align:left; padding:6px 4px;">Seizoen</th>
-                  <th style="text-align:left; padding:6px 4px;">Competitie</th>
-                  <th style="text-align:left; padding:6px 4px;">Club</th>
-                  <th style="text-align:left; padding:6px 4px;">Speler</th>
-                  <th style="text-align:left; padding:6px 4px;">Positie</th>
-                  <th style="text-align:right; padding:6px 4px;">Matches</th>
-                  <th style="text-align:right; padding:6px 4px;">Goals</th>
-                  <th style="text-align:right; padding:6px 4px;">Assists</th>
-                  <th style="text-align:right; padding:6px 4px;">Clean sheets</th>
-                </tr>
-              </thead>
-              <tbody id="player-stats-body">
-                <!-- Voorbeeldrijen (demo) -->
-                <tr data-country="BE" data-season="2024-2025" data-competition="BE_Provinciaal" data-position="FWD">
-                  <td style="padding:6px 4px;">🇧🇪</td>
-                  <td style="padding:6px 4px;">2024–2025</td>
-                  <td style="padding:6px 4px;">Provinciaal (BE)</td>
-                  <td style="padding:6px 4px;">ASV Geel U17</td>
-                  <td style="padding:6px 4px;">J. Peeters</td>
-                  <td style="padding:6px 4px;">Aanvaller</td>
-                  <td style="padding:6px 4px; text-align:right;">18</td>
-                  <td style="padding:6px 4px; text-align:right;">21</td>
-                  <td style="padding:6px 4px; text-align:right;">7</td>
-                  <td style="padding:6px 4px; text-align:right;">-</td>
-                </tr>
-                <tr data-country="BE" data-season="2024-2025" data-competition="BE_Interprovinciaal" data-position="MID">
-                  <td style="padding:6px 4px;">🇧🇪</td>
-                  <td style="padding:6px 4px;">2024–2025</td>
-                  <td style="padding:6px 4px;">Interprovinciaal (BE)</td>
-                  <td style="padding:6px 4px;">KVC Westerlo U16</td>
-                  <td style="padding:6px 4px;">S. Janssens</td>
-                  <td style="padding:6px 4px;">Middenvelder</td>
-                  <td style="padding:6px 4px; text-align:right;">20</td>
-                  <td style="padding:6px 4px; text-align:right;">9</td>
-                  <td style="padding:6px 4px; text-align:right;">12</td>
-                  <td style="padding:6px 4px; text-align:right;">-</td>
-                </tr>
-                <tr data-country="NL" data-season="2024-2025" data-competition="NL_JeugdHoofdklasse" data-position="FWD">
-                  <td style="padding:6px 4px;">🇳🇱</td>
-                  <td style="padding:6px 4px;">2024–2025</td>
-                  <td style="padding:6px 4px;">Jeugd Hoofdklasse (NL)</td>
-                  <td style="padding:6px 4px;">VV Eindhoven JO17-1</td>
-                  <td style="padding:6px 4px;">D. van Dijk</td>
-                  <td style="padding:6px 4px;">Aanvaller</td>
-                  <td style="padding:6px 4px; text-align:right;">19</td>
-                  <td style="padding:6px 4px; text-align:right;">18</td>
-                  <td style="padding:6px 4px; text-align:right;">6</td>
-                  <td style="padding:6px 4px; text-align:right;">-</td>
-                </tr>
-                <tr data-country="NL" data-season="2023-2024" data-competition="NL_AmateurHoog" data-position="GK">
-                  <td style="padding:6px 4px;">🇳🇱</td>
-                  <td style="padding:6px 4px;">2023–2024</td>
-                  <td style="padding:6px 4px;">Hoog amateurniveau (NL)</td>
-                  <td style="padding:6px 4px;">SV Tilburg 1</td>
-                  <td style="padding:6px 4px;">M. de Boer</td>
-                  <td style="padding:6px 4px;">Doelman</td>
-                  <td style="padding:6px 4px; text-align:right;">26</td>
-                  <td style="padding:6px 4px; text-align:right;">0</td>
-                  <td style="padding:6px 4px; text-align:right;">1</td>
-                  <td style="padding:6px 4px; text-align:right;">11</td>
-                </tr>
-                <tr data-country="BE" data-season="2023-2024" data-competition="BE_Elite" data-position="DEF">
-                  <td style="padding:6px 4px;">🇧🇪</td>
-                  <td style="padding:6px 4px;">2023–2024</td>
-                  <td style="padding:6px 4px;">Elite jeugd (BE)</td>
-                  <td style="padding:6px 4px;">KAA Gent U15</td>
-                  <td style="padding:6px 4px;">L. Vermeulen</td>
-                  <td style="padding:6px 4px;">Verdediger</td>
-                  <td style="padding:6px 4px; text-align:right;">22</td>
-                  <td style="padding:6px 4px; text-align:right;">3</td>
-                  <td style="padding:6px 4px; text-align:right;">5</td>
-                  <td style="padding:6px 4px; text-align:right;">7</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="ad-placeholder">
+            Ideaal voor scoutingsoftware, data-analyse en performance tracking.<br>
+            <span class="ad-size">300 × 250 / 300 × 600</span>
           </div>
-
-          <p class="form-helper" style="margin-top:8px;">
-            <!-- Instructie voor later (backend) -->
-            <!--
-              In de live versie kan deze tabel gevoed worden via:
-              - Een koppeling met een externe databron (bv. API van bond of dataleverancier)
-              - Een CSV/Excel-import in een beheermodule van Voetbal4All
-              - Een eigen admin-tool waarop clubs hun statistieken kunnen ingeven of bevestigen
-
-              De filters bovenaan kunnen dan gebruikt worden om query's / API-calls te sturen.
-            -->
-            Instructie: in de live versie worden deze statistieken automatisch gevuld (API, CSV-import of admin-tool).
-            De huidige data is puur demonstratief.
-          </p>
         </article>
 
-        <!-- ONDERSTE ADVERTENTIEZONES / INFO -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0,2fr) minmax(0,1fr); margin-top:16px;">
-          <div>
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Instructies voor clubs &amp; dataleveranciers</div>
-                  <div class="card-title">Hoe statistieken aanleveren?</div>
-                </div>
-              </div>
-              <p class="note">
-                Clubs en organisaties kunnen in de live versie:
-              </p>
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-title">Periodiek statistieken uploaden</div>
-                  <div class="event-meta">
-                    Bijvoorbeeld via een beveiligd CSV/Excel-bestand per seizoen of per speeldag.
-                  </div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Koppeling met eigen software</div>
-                  <div class="event-meta">
-                    Via een API-koppeling kunnen wedstrijdgegevens automatisch gesynchroniseerd worden.
-                  </div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Controleronde</div>
-                  <div class="event-meta">
-                    Voordat statistieken online komen, kan een beheerder ze nakijken en goedkeuren.
-                  </div>
-                </li>
-              </ul>
-            </article>
-          </div>
-
-          <aside>
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertentiezone</div>
-                  <div class="card-title">Analyse &amp; performance partners</div>
-                </div>
-              </div>
-              <div class="ad-placeholder">
-                Partner voor datavisualisatie, scoutingsoftware of statistiekplatformen.<br>
-                <span class="ad-size">Bv. 300 × 250 px</span>
-              </div>
-            </article>
-          </aside>
+        <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="6032627042"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
 
       </div>
-    </section>
-  </main>
+    </aside>
 
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-          </div>
-        </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
-        </div>
+  </div>
+
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">&copy; <span id="year"></span> Voetbal4All.</div>
       </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </div>
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Optioneel: eenvoudige client-side filter (demo)
-  (function initPlayerFilters() {
-    const textInput = document.getElementById("player-search-text");
-    const country = document.getElementById("player-filter-country");
-    const season = document.getElementById("player-filter-season");
-    const competition = document.getElementById("player-filter-competition");
-    const position = document.getElementById("player-filter-position");
+  // eenvoudige demo-filter (behouden)
+  (function initPlayerFilters(){
+    const q = document.getElementById("player-search-text");
+    const c = document.getElementById("player-filter-country");
+    const s = document.getElementById("player-filter-season");
+    const comp = document.getElementById("player-filter-competition");
+    const pos = document.getElementById("player-filter-position");
     const rows = Array.from(document.querySelectorAll("#player-stats-body tr"));
 
-    function applyFilters() {
-      const q = (textInput.value || "").toLowerCase();
-      const c = country.value;
-      const s = season.value;
-      const comp = competition.value;
-      const pos = position.value;
-
-      rows.forEach(row => {
-        const rowCountry = row.getAttribute("data-country") || "";
-        const rowSeason = row.getAttribute("data-season") || "";
-        const rowComp = row.getAttribute("data-competition") || "";
-        const rowPos = row.getAttribute("data-position") || "";
-        const text = row.textContent.toLowerCase();
-
-        let visible = true;
-
-        if (q && !text.includes(q)) visible = false;
-        if (c && rowCountry !== c) visible = false;
-        if (s && rowSeason !== s) visible = false;
-        if (comp && rowComp !== comp) visible = false;
-        if (pos && rowPos !== pos) visible = false;
-
-        row.style.display = visible ? "" : "none";
+    function apply(){
+      rows.forEach(r=>{
+        let ok = true;
+        if(q.value && !r.textContent.toLowerCase().includes(q.value.toLowerCase())) ok=false;
+        if(c.value && r.dataset.country!==c.value) ok=false;
+        if(s.value && r.dataset.season!==s.value) ok=false;
+        if(comp.value && r.dataset.competition!==comp.value) ok=false;
+        if(pos.value && r.dataset.position!==pos.value) ok=false;
+        r.style.display = ok ? "" : "none";
       });
     }
-
-    [textInput, country, season, competition, position].forEach(el => {
-      if (!el) return;
-      el.addEventListener("input", applyFilters);
-      el.addEventListener("change", applyFilters);
-    });
+    [q,c,s,comp,pos].forEach(el=>el.addEventListener("input",apply));
+    [c,s,comp,pos].forEach(el=>el.addEventListener("change",apply));
   })();
 </script>
 
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
