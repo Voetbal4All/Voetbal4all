@@ -83,8 +83,7 @@ footer { margin-top: auto; }
 }
 
 .navbar-inner {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
   align-items: center;
 }
 
@@ -1433,4 +1432,8 @@ footer { margin-top: auto; }
 .nav-cta--compact {
   margin-left: 12px;
   white-space: nowrap;
+}
+
+.nav-links {
+  margin: 0 auto;
 }
