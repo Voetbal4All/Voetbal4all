@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense (zoals homepage) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Voetbal4All - Artikels & stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
+  <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,17 +17,17 @@
 <body>
   <div class="page">
 
-    <!-- NAVBAR -->
+    <!-- NAVBAR (identiek patroon als index) -->
     <header class="navbar">
       <div class="shell">
         <div class="navbar-inner">
           <a href="index.html" class="brand brand--logo-only">
-          <img
-            src="assets/img/brand/logo-voetbal4all.svg"
-            alt="Voetbal4All"
-            class="brand-logo"
-            loading="eager"
-          />
+            <img
+              src="assets/img/brand/logo-voetbal4all.svg"
+              alt="Voetbal4All"
+              class="brand-logo"
+              loading="eager"
+            />
           </a>
 
           <nav class="nav-links">
@@ -62,7 +67,7 @@
               </div>
             </div>
 
-            <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
+            <!-- VOETBAL4ALL DROPDOWN -->
             <div class="nav-item nav-item--dropdown">
               <button type="button" class="nav-link nav-link--dropdown">
                 Voetbal4All <span class="nav-link-caret">▾</span>
@@ -85,12 +90,29 @@
       </div>
     </header>
 
+    <!-- HEADER AD (hoog rendement: boven de fold, maar onder navbar) -->
+    <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+      <div class="shell">
+        <div class="ad-slot ad-slot-header sticky-ad-header">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="3518144343"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>
+    </section>
+
     <main>
       <section class="section-main">
         <div class="shell">
 
-          <!-- KORTE INTRO -->
-          <article class="card" style="margin-bottom:12px; max-width:900px;">
+          <!-- INTRO (compact, zoals home cards) -->
+          <article class="card" style="margin-bottom:12px;">
             <div class="card-header">
               <div>
                 <div class="card-caption">Artikels</div>
@@ -104,11 +126,11 @@
             </p>
           </article>
 
-          <!-- GRID: LINKS ARTIKELS + FILTER · RECHTS INFO / ADS -->
-          <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:18px; align-items:flex-start;">
+          <!-- CONTENT LINKS + STICKY ADS RECHTS -->
+          <div class="v4-layout-sidebar">
 
-            <!-- LINKERKOLOM -->
-            <div>
+            <!-- LINKS: CONTENT -->
+            <div class="v4-content">
 
               <!-- ZOEK- EN FILTERBALK -->
               <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
@@ -139,6 +161,21 @@
                 </div>
               </div>
 
+              <!-- IN-CONTENT AD (net onder filters; vaak sterke CTR zonder te storen) -->
+              <section class="section-main" style="padding-top:0;padding-bottom:10px;">
+                <div class="ad-infeed">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="4831226012"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+              </section>
+
               <!-- OVERZICHT -->
               <section class="section-main" style="padding-top:0;">
                 <div class="card">
@@ -147,14 +184,15 @@
                       <div class="card-caption">Overzicht</div>
                       <div class="card-title">Laatste artikels &amp; verhalen</div>
                     </div>
-                    <span class="pill-small">3 per rij · met logo &amp; vlag</span>
+                    <span class="pill-small">Onder elkaar · beter leesbaar</span>
                   </div>
 
                   <p class="note">
                     De feed komt uit <strong>data/news.json</strong> (GitHub Actions).
                   </p>
 
-                  <div id="article-list" class="ad-card-list ad-card-grid">
+                  <!-- Belangrijk: stack i.p.v. 3-kolom grid -->
+                  <div id="article-list" class="ad-card-list ad-card-list--stack">
                     <!-- Wordt gevuld via data/news.json -->
                   </div>
 
@@ -164,50 +202,51 @@
 
             </div>
 
-            <!-- RECHTERKOLOM -->
-            <aside>
+            <!-- RECHTS: STICKY SIDEBAR ADS -->
+            <aside class="v4-sidebar">
+              <div class="v4-sidebar-sticky">
 
-              <article class="card">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Redactie</div>
-                    <div class="card-title">Artikels aanleveren</div>
+                <article class="card">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Advertentie</div>
+                      <div class="card-title">Sponsor / Partner</div>
+                    </div>
+                    <span class="pill-small">Premium</span>
                   </div>
-                </div>
-                <p class="note">
-                  In de live versie kunnen clubs, trainers en redacteurs zelf artikels aanleveren
-                  via hun Voetbal4All-account.
-                </p>
-              </article>
-
-              <article class="card" style="margin-top:12px;">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Advertentiezone</div>
-                    <div class="card-title">Media &amp; opleidingen</div>
+                  <div class="ad-placeholder">
+                    Vaste partnerzone (premium).<br />
+                    <span class="ad-size">Aanrader: 300 × 250 of 300 × 600</span>
                   </div>
-                  <span class="pill-small">Partners</span>
-                </div>
-                <div class="ad-placeholder">
-                  Perfect voor partners rond opleidingen, coach-the-coach of clubcommunicatie.<br />
-                  <span class="ad-size">Bv. 300 × 250 px</span>
-                </div>
-              </article>
+                </article>
 
-              <article class="card" style="margin-top:12px;">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Advertentiezone</div>
-                    <div class="card-title">Drukwerk &amp; visuals</div>
+                <!-- Sticky AdSense (hoog rendement op desktop) -->
+                <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="6032627042"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+
+                <article class="card" style="margin-top:12px;">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Redactie</div>
+                      <div class="card-title">Artikels aanleveren</div>
+                    </div>
                   </div>
-                  <span class="pill-small">Flyers · banners · kleding</span>
-                </div>
-                <div class="ad-placeholder">
-                  Advertentieruimte voor drukwerk, clubwear of grafisch ontwerp.<br />
-                  <span class="ad-size">Bv. 300 × 250 px</span>
-                </div>
-              </article>
+                  <p class="note">
+                    In de live versie kunnen clubs, trainers en redacteurs zelf artikels aanleveren
+                    via hun Voetbal4All-account.
+                  </p>
+                </article>
 
+              </div>
             </aside>
 
           </div>
@@ -216,7 +255,7 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER (ongewijzigd patroon) -->
     <footer class="footer" id="footer-contact">
       <div class="shell">
         <div class="footer-grid">
@@ -255,6 +294,14 @@
     const articleFilterCountry = document.getElementById("article-filter-country");
     const articleFilterCategory = document.getElementById("article-filter-category");
 
+    // Werkt op GitHub Pages én op eigen domein (zoals home)
+    const REPO_BASE =
+      (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
+        ? "/Voetbal4all"
+        : "";
+
+    window.REPO_BASE = REPO_BASE;
+
     let articleCards = [];
 
     function normalize(str) {
@@ -283,7 +330,6 @@
 
         let visible = true;
 
-        // Alleen filteren als de kaart effectief een waarde heeft
         if (country && cardCountry && cardCountry !== country) visible = false;
         if (category && cardCategory && cardCategory !== category) visible = false;
 
@@ -312,15 +358,18 @@
 
     function getSourceLogo(source) {
       const s = (source || "").toLowerCase();
-      if (s.includes("voetbal international") || s.includes("vi")) return "assets/img/sources/vi.png";
-      if (s.includes("sporza")) return "assets/img/sources/sporza.png";
-      if (s.includes("hln")) return "assets/img/sources/hln.png";
-      if (s.includes("nos")) return "assets/img/sources/nos.png";
-      if (s.includes("bbc")) return "assets/img/sources/bbc.png";
-      if (s.includes("guardian")) return "assets/img/sources/guardian.png";
-      if (s.includes("sky")) return "assets/img/sources/sky.png";
-      if (s.includes("espn")) return "assets/img/sources/espn.png";
-      return "assets/img/sources/default.png";
+      const base = REPO_BASE + "/assets/img/sources/";
+
+      if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
+      if (s.includes("sporza")) return base + "sporza.png";
+      if (s.includes("hln")) return base + "hln.png";
+      if (s.includes("nos")) return base + "nos.png";
+      if (s.includes("bbc")) return base + "bbc.png";
+      if (s.includes("guardian")) return base + "guardian.png";
+      if (s.includes("sky")) return base + "sky.png";
+      if (s.includes("espn")) return base + "espn.png";
+
+      return base + "default.png";
     }
 
     function getFlagFromCountry(country) {
@@ -342,10 +391,6 @@
         if (!res.ok) throw new Error("news.json niet bereikbaar: " + res.status);
 
         const data = await res.json();
-
-        // Support 2 formaten:
-        // A) { items: [...] } (RSS build)
-        // B) [ ... ]          (oude demo json)
         const itemsRaw = Array.isArray(data) ? data : (data.items || []);
         const items = itemsRaw.slice(0, 20);
 
@@ -361,62 +406,62 @@
         items.forEach((item, idx) => {
           const id = "news-" + (idx + 1);
 
-const source = item.source || item.competitie || "Nieuws";
-const title = item.title || item.titel || "Zonder titel";
-const sourceLogo = getSourceLogo(source);
-const link = item.link || "#";
-const summary = item.summary || item.teaser || "";
-const publishedRaw = item.publishedAt || item.datum || null;
-const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
+          const source = item.source || item.competitie || "Nieuws";
+          const title = item.title || item.titel || "Zonder titel";
+          const sourceLogo = getSourceLogo(source);
+          const link = item.link || "#";
+          const summary = item.summary || item.teaser || "";
+          const publishedRaw = item.publishedAt || item.datum || null;
+          const published = publishedRaw ? new Date(publishedRaw).toLocaleString() : "";
 
-// Land/flag ondersteunen voor beide formaten:
-// RSS: item.country / item.flag
-// Demo: item.land
-let country = item.country || item.land || "";
-if (country && country !== "BE" && country !== "NL") country = "INT";
+          let country = item.country || item.land || "";
+          if (country && country !== "BE" && country !== "NL") country = "INT";
+          const flag = item.flag || getFlagFromCountry(country);
 
-const flag =
-  item.flag ||
-  (country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : country ? "🌍" : "📰");
+          const category = item.category || "";
+          const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
 
-const category = item.category || "";
-const tags = normalize((item.tags || "") + " " + source + " " + title + " " + summary);
+          const card = document.createElement("article");
+          card.className = "ad-card ad-card--row";
+          card.id = id;
+          card.dataset.articleId = String(idx + 1);
+          card.dataset.country = country;
+          card.dataset.category = category;
+          card.dataset.tags = tags;
 
-const card = document.createElement("article");
-card.className = "ad-card";
-card.id = id;
-card.dataset.articleId = String(idx + 1);
-card.dataset.country = country;
-card.dataset.category = category;
-card.dataset.tags = tags;
+          card.innerHTML = `
+            <div class="home-article-media-thumb v4-source-thumb">
+              <img
+                src="${sourceLogo}"
+                alt="${source}"
+                title="${source}"
+                loading="lazy"
+                onerror="this.onerror=null;this.src='${REPO_BASE}/assets/img/sources/default.png';"
+              />
+            </div>
 
-card.innerHTML = `
-  <div class="home-article-media">
-    <div class="home-article-image">
-      <img class="source-logo" src="${sourceLogo}" alt="${source}" title="${source}" loading="lazy"
-           onerror="this.onerror=null;this.src='assets/img/sources/default.png';" />
-    </div>
-    <div class="home-article-flag">
-      <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
-    </div>
-  </div>
+            <div class="home-article-content">
+              <div class="home-article-header">
+                <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
+                <div class="article-meta">${source}${published ? " · " + published : ""}</div>
+              </div>
 
-  <div class="home-article-content">
-    <div class="article-meta">${source}${published ? " · " + published : ""}</div>
-    <h3 class="article-title">
-      <a href="${link}" target="_blank" rel="noopener">${title}</a>
-    </h3>
-    <p class="article-excerpt">${summary}</p>
-    <div class="ad-card-actions">
-      <a href="${link}" target="_blank" rel="noopener" class="btn-ghost-sm">Lees op bron</a>
-      <a href="#" class="btn-ghost-sm btn-share" data-share-article="${idx + 1}">Delen</a>
-    </div>
-  </div>
-`;
+              <h3 class="article-title">
+                <a href="${link}" target="_blank" rel="noopener">${title}</a>
+              </h3>
 
-articleListEl.appendChild(card);
+              <p class="article-excerpt">${summary}</p>
 
-          // Voorbeeld: insert in-feed ad na item 6 en 14
+              <div class="ad-card-actions">
+                <a href="${link}" target="_blank" rel="noopener" class="btn-ghost-sm">Lees op bron</a>
+                <a href="#" class="btn-ghost-sm btn-share" data-share-article="${idx + 1}">Delen</a>
+              </div>
+            </div>
+          `;
+
+          articleListEl.appendChild(card);
+
+          // In-feed ad: na item 6 en 14 (behouden patroon)
           if (idx === 5 || idx === 13) {
             const adWrap = document.createElement("div");
             adWrap.className = "ad-infeed";
@@ -449,15 +494,13 @@ articleListEl.appendChild(card);
       }
     }
 
-    // Events
     articleSearchInput.addEventListener("input", filterArticles);
     articleFilterCountry.addEventListener("change", filterArticles);
     articleFilterCategory.addEventListener("change", filterArticles);
 
-    // Init
     loadNewsIntoArticles();
   </script>
 
-<script src="assets/js/nav-mobile.js"></script>  
+  <script src="assets/js/nav-mobile.js"></script>
 </body>
 </html>
