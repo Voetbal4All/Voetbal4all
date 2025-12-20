@@ -1567,3 +1567,15 @@ footer { margin-top: auto; }
 
 /* (Als je in-feed ads gebruikt) */
 .ad-slot-infeed { min-height: 180px; }
+
+/* =========================
+   CLS FIXES – DESKTOP RESERVE
+   ========================= */
+@media (min-width: 901px){
+  /* Sidebar: reserveer 300x600 zodat de pagina niet verspringt */
+  .v4-sidebar-sticky,
+  .v4-sidebar ins.adsbygoogle,
+  .ad-placeholder{
+    min-height: 600px;
+  }
+}
