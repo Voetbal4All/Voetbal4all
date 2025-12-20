@@ -157,6 +157,12 @@
         <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
       </svg>`;
 
+	// TikTok (simple mark; gebruikt currentColor zoals de rest)
+	const ICON_TT = `
+ 	 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  	  <path d="M21 8.5a6.6 6.6 0 0 1-4.3-1.6v7.2a6.5 6.5 0 1 1-6.5-6.5c.4 0 .8 0 1.2.1v3.3a3.2 3.2 0 1 0 2 3V2h3.3a6.6 6.6 0 0 0 4.3 4.3v2.2Z"/>
+ 	 </svg>`;
+
     function addSocial(href, label, svg, cls) {
       const a = document.createElement("a");
       a.className = `live-social ${cls}`;
@@ -180,6 +186,12 @@
       ICON_IG,
       "is-instagram"
     );
+	addSocial(
+ 	 "https://www.tiktok.com/@voetbal4all",
+ 	 "Voetbal4All op TikTok",
+ 	 ICON_TT,
+ 	 "is-tiktok"
+	);
 
     /* =========================================================
        6) Data + marquee render (start buiten rechts, eind buiten links)
