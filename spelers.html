@@ -1,88 +1,152 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Voetbal4All - Speler zoekt club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<!-- Live banner NIET op mobiel (zoals afgesproken voor niet-home pagina’s) -->
+<body class="v4-hide-live-mobile">
 <div class="page">
 
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
+
         <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
+          <img
+            src="assets/img/brand/logo-voetbal4all.svg"
+            alt="Voetbal4All"
+            class="brand-logo"
+            loading="eager"
+          />
         </a>
 
-<nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
-    </div>
-  </div>
+          <!-- SPORTIEVE EVENTS -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportieve events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Oefenwedstrijden</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
+              <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              <a href="events.html" class="nav-dropdown-link">Andere sportieve events</a>
+            </div>
+          </div>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
+          <!-- CLUB & FUN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Club &amp; fun <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+              <a href="algemene-events.html?type=Eetdag" class="nav-dropdown-link">Eetdagen &amp; acties</a>
+              <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden</a>
+              <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+              <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              <a href="algemene-events.html" class="nav-dropdown-link">Andere clubevents</a>
+            </div>
+          </div>
 
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
+          <!-- VACATURES & PROFIELEN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
 
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
+          <!-- SPORTIEF -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportief <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+            </div>
+          </div>
 
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
+          <!-- VOETBAL4ALL -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- CTA buiten nav -->
+        <a href="adverteren.html" class="nav-cta">
+          <span>Adverteer nu</span>
+          <span>Sponsor &amp; Ads</span>
+        </a>
 
         <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
+
+  <!-- LIVE BANNER -->
+  <section class="live-banner-top">
+    <div class="shell">
+      <div class="live-banner">
+        <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+        <div class="live-text">
+          <span class="live-text-main"></span>
+          <div class="live-updated"></div>
+        </div>
+        <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+          <div class="live-socials-label">Volg ons</div>
+          <div class="live-socials-icons"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEADER AD -->
+  <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+    <div class="shell">
+      <div class="ad-slot ad-slot-header sticky-ad-header">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-4062633211824348"
+          data-ad-slot="3518144343"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+    </div>
+  </section>
 
   <main>
     <section class="section-main">
@@ -171,9 +235,7 @@
                         <span>🇳🇱 Nederland</span>
                       </label>
                     </div>
-                    <div class="form-helper">
-                      Regio’s en niveaus passen zich aan per land.
-                    </div>
+                    <div class="form-helper">Regio’s en niveaus passen zich aan per land.</div>
                   </div>
 
                   <!-- Leeftijd -->
@@ -187,12 +249,8 @@
                   <!-- Regio -->
                   <div class="form-field" style="grid-column:1/-1;">
                     <span class="form-label">Gewenste regio <span class="required">*</span></span>
-                    <div id="player-region-wrapper" class="form-checkbox-row">
-                      <!-- JS vult dit in per land -->
-                    </div>
-                    <div class="form-helper">
-                      Eén of meerdere regio’s waarin je wil spelen.
-                    </div>
+                    <div id="player-region-wrapper" class="form-checkbox-row"></div>
+                    <div class="form-helper">Eén of meerdere regio’s waarin je wil spelen.</div>
                   </div>
 
                   <!-- Positie(s) -->
@@ -205,27 +263,19 @@
                       <label class="pill-checkbox"><input type="checkbox" value="Aanvaller" /> Aanvaller</label>
                       <label class="pill-checkbox"><input type="checkbox" value="Vleugelspeler" /> Vleugelspeler</label>
                     </div>
-                    <div class="form-helper">
-                      Meerdere posities mogelijk.
-                    </div>
+                    <div class="form-helper">Meerdere posities mogelijk.</div>
                   </div>
 
                   <!-- Niveau -->
                   <div class="form-field" style="grid-column:1/-1;">
                     <span class="form-label">Gewenst niveau <span class="required">*</span></span>
-                    <div id="player-level-wrapper" class="form-checkbox-row">
-                      <!-- JS vult dit in per land -->
-                    </div>
-                    <div class="form-helper">
-                      Bv. Provinciaal, Interprovinciaal, Elite of de Nederlandse niveaus.
-                    </div>
+                    <div id="player-level-wrapper" class="form-checkbox-row"></div>
+                    <div class="form-helper">Bv. Provinciaal, Interprovinciaal, Elite of de Nederlandse niveaus.</div>
                   </div>
 
                   <!-- Beschrijving -->
                   <div class="form-field" style="grid-column:1/-1;">
-                    <label class="form-label" for="player-description">
-                      Korte beschrijving / extra info
-                    </label>
+                    <label class="form-label" for="player-description">Korte beschrijving / extra info</label>
                     <textarea id="player-description" class="form-textarea" placeholder="Beschrijf jezelf kort als speler, beschikbaarheid, sterke punten..."></textarea>
                   </div>
 
@@ -240,7 +290,7 @@
               </form>
             </div>
 
-            <!-- OVERZICHT SPELERS: 3 KOLOMMEN -->
+            <!-- OVERZICHT SPELERS -->
             <section class="section-main" style="padding-top:10px;">
               <div class="card">
                 <div class="card-header">
@@ -280,57 +330,56 @@
 
           </div>
 
-          <!-- RECHTERKOLOM: ANONIMITEIT + ADVERTENTIES -->
-          <aside>
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Anonimiteit</div>
-                  <div class="card-title">Wat ziet een club?</div>
-                </div>
-              </div>
-              <p class="note">
-                In een publieke spelersadvertentie tonen we:
-              </p>
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-title">Naam &amp; woonplaats</div>
-                  <div class="event-meta">Alleen zichtbaar als je anonimiteit uitzet.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">E-mailadres</div>
-                  <div class="event-meta">Nooit zichtbaar. Reacties lopen via Voetbal4All.</div>
-                </li>
-              </ul>
-            </article>
+          <!-- RECHTERKOLOM: INFO + STICKY ADS -->
+          <aside class="v4-sidebar">
+            <div class="v4-sidebar-sticky">
 
-            <article class="card" style="margin-top:12px;">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertentiezone</div>
-                  <div class="card-title">Extra zichtbaarheid (boven)</div>
+              <article class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Anonimiteit</div>
+                    <div class="card-title">Wat ziet een club?</div>
+                  </div>
                 </div>
-                <span class="pill-small">Google AdSense / partners</span>
-              </div>
-              <div class="ad-placeholder">
-                Ruimte voor een banner gericht op spelers en ouders.<br />
-                <span class="ad-size">Bv. 300 × 250 px</span>
-              </div>
-            </article>
+                <p class="note">In een publieke spelersadvertentie tonen we:</p>
+                <ul class="events-list">
+                  <li class="event-item">
+                    <div class="event-title">Naam &amp; woonplaats</div>
+                    <div class="event-meta">Alleen zichtbaar als je anonimiteit uitzet.</div>
+                  </li>
+                  <li class="event-item">
+                    <div class="event-title">E-mailadres</div>
+                    <div class="event-meta">Nooit zichtbaar. Reacties lopen via Voetbal4All.</div>
+                  </li>
+                </ul>
+              </article>
 
-            <article class="card" style="margin-top:12px;">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertentiezone</div>
-                  <div class="card-title">Extra zichtbaarheid (onder)</div>
+              <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="6032627042"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+              </div>
+
+              <article class="card" style="margin-top:12px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Ook adverteren?</div>
+                    <div class="card-title">Bereik spelers & ouders</div>
+                  </div>
                 </div>
-                <span class="pill-small">Clubs / sponsors</span>
-              </div>
-              <div class="ad-placeholder">
-                Tweede advertentiezone in de rechter kolom.<br />
-                <span class="ad-size">Bv. 300 × 250 px</span>
-              </div>
-            </article>
+                <p class="note">
+                  Ideaal voor sportkleding, sportscholen, kinesisten, voetbalacademies, voeding en lokale sponsors.
+                </p>
+                <div class="ad-card-actions">
+                  <a href="adverteren.html" class="btn-ghost-sm">Bekijk mogelijkheden</a>
+                </div>
+              </article>
+
+            </div>
           </aside>
 
         </div>
@@ -350,8 +399,9 @@
             · Mogelijkheden voor hoofdsponsor, partners en advertenties.
           </div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+            <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
           </div>
         </div>
         <div class="footer-ad">
@@ -396,13 +446,10 @@
     renderPillCheckboxes("player-level-wrapper", LEVELS[country], "level");
   }
 
-  const countryBE = document.getElementById("player-country-be");
-  const countryNL = document.getElementById("player-country-nl");
-
-  countryBE.addEventListener("change", e => {
+  document.getElementById("player-country-be").addEventListener("change", e => {
     if (e.target.checked) updateCountrySpecificFields("BE");
   });
-  countryNL.addEventListener("change", e => {
+  document.getElementById("player-country-nl").addEventListener("change", e => {
     if (e.target.checked) updateCountrySpecificFields("NL");
   });
 
@@ -456,41 +503,23 @@
     const description = document.getElementById("player-description").value.trim();
 
     const countryInput = document.querySelector("input[name='country']:checked");
-    if (!countryInput) {
-      alert("Kies een land.");
-      return;
-    }
+    if (!countryInput) return alert("Kies een land.");
     const country = countryInput.value;
     const countryLabel = country === "BE" ? "België" : "Nederland";
 
-    if (!email) {
-      alert("E-mailadres is verplicht.");
-      return;
-    }
-    if (!age) {
-      alert("Leeftijd is verplicht.");
-      return;
-    }
+    if (!email) return alert("E-mailadres is verplicht.");
+    if (!age) return alert("Leeftijd is verplicht.");
 
     const regions = Array.from(document.querySelectorAll("#player-region-wrapper input:checked")).map(i => i.value);
-    if (!regions.length) {
-      alert("Kies minstens één regio.");
-      return;
-    }
+    if (!regions.length) return alert("Kies minstens één regio.");
 
     const positions = Array.from(document.querySelectorAll("#player-position-wrapper input:checked")).map(i => i.value);
-    if (!positions.length) {
-      alert("Kies minstens één positie.");
-      return;
-    }
+    if (!positions.length) return alert("Kies minstens één positie.");
 
     const levels = Array.from(document.querySelectorAll("#player-level-wrapper input:checked")).map(i => i.value);
-    if (!levels.length) {
-      alert("Kies minstens één niveau.");
-      return;
-    }
+    if (!levels.length) return alert("Kies minstens één niveau.");
 
-    const ad = {
+    addPlayerAd({
       id: nextAdId++,
       name,
       anonymousName,
@@ -503,40 +532,35 @@
       levels,
       regions,
       description,
-      email // later voor backend, nu enkel conceptueel
-    };
+      email
+    });
 
-    addPlayerAd(ad);
     e.target.reset();
     document.getElementById("player-hide-name").checked = true;
     document.getElementById("player-hide-city").checked = true;
-    alert("Demo: je advertentie is toegevoegd onderaan deze pagina (nog geen permanente opslag).");
+    alert("Demo: je advertentie is toegevoegd (nog geen permanente opslag).");
   });
 
-  // REAGEREN: enkel knop + akkoord + e-mail
+  // Reageren via mailto (zelfde patroon)
   document.addEventListener("click", function (e) {
-    if (e.target.matches("[data-reply-ad]")) {
-      const adId = e.target.getAttribute("data-reply-ad");
-      const ok = confirm(
-        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
-      );
-      if (!ok) return;
+    const btn = e.target.closest("[data-reply-ad]");
+    if (!btn) return;
 
-      const clubEmail = prompt("Vul je e-mailadres in om mee te geven aan de speler:");
-      if (!clubEmail) {
-        alert("E-mailadres is nodig om te kunnen reageren.");
-        return;
-      }
+    const adId = btn.getAttribute("data-reply-ad");
+    const ok = confirm("Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All.");
+    if (!ok) return;
 
-      const subject = encodeURIComponent("Reactie via Voetbal4All op spelersadvertentie " + adId);
-      const body = encodeURIComponent(
-        "Advertentie-ID: " + adId +
-        "\n\nE-mailadres van de club/contactpersoon: " + clubEmail +
-        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de speler toe.)"
-      );
+    const clubEmail = prompt("Vul je e-mailadres in om mee te geven aan de speler:");
+    if (!clubEmail) return alert("E-mailadres is nodig om te kunnen reageren.");
 
-      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
-    }
+    const subject = encodeURIComponent("Reactie via Voetbal4All op spelersadvertentie " + adId);
+    const body = encodeURIComponent(
+      "Advertentie-ID: " + adId +
+      "\n\nE-mailadres van de club/contactpersoon: " + clubEmail +
+      "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de speler toe.)"
+    );
+
+    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
   });
 
   // Social sharing: link naar specifieke advertentie
@@ -544,17 +568,16 @@
     const baseUrl = window.location.origin + window.location.pathname;
     document.querySelectorAll("[data-share-ad]").forEach(link => {
       const adId = link.getAttribute("data-share-ad");
-      const targetId = "player-ad-" + adId;
-      const urlWithAnchor = baseUrl + "#" + targetId;
-      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
-      link.setAttribute("href", fbShare);
-      link.setAttribute("target", "_blank");
+      const urlWithAnchor = baseUrl + "#player-ad-" + adId;
+      link.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
     });
   }
-
   updateShareLinks();
 </script>
 
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
