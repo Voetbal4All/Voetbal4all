@@ -1516,11 +1516,26 @@ footer {
    (override onderaan)
    ======================= */
 
-/* Bullet links, tekst ernaast (en tekst zelf 2 regels) */
-.live-label {
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 8px !important;
+/* FORCE: dot links naast labeltekst */
+.live-label{
+  display:flex !important;
+  flex-direction:row !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  gap:8px !important;
+  white-space:nowrap !important;
+}
+
+.live-label .live-dot{
+  flex:0 0 auto !important;
+  display:block !important;
+  margin:0 !important;
+}
+
+.live-label .live-label-text{
+  display:flex !important;
+  flex-direction:column !important;
+  line-height:1.05 !important;
 }
 
 /* De tekstkolom (LIVE / RESULTATEN) naast de dot */
