@@ -7,7 +7,76 @@
     const textEl = banner.querySelector(".live-text");
     if (!textEl) return;
 
+    // ----------------------------
+    // Injecteer minimale CSS (zodat het NU werkt, zonder style.css)
+    // ----------------------------
+    const STYLE_ID = "live-banner-runtime-css";
+    if (!document.getElementById(STYLE_ID)) {
+      const style = document.createElement("style");
+      style.id = STYLE_ID;
+      style.textContent = `
+        /* Zorg dat de ticker echt ruimte krijgt */
+        .live-banner .live-text { flex: 1 1 auto; min-width: 0; }
+
+        .live-text-ticker {
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          white-space: nowrap;
+          min-height: 24px;
+        }
+
+        .live-marquee-track {
+          display: inline-block;
+          white-space: nowrap;
+          will-change: transform;
+          font-size: 18px;
+          font-weight: 700;
+          color: var(--text, #f4f6fc);
+        }
+
+        /* Socials rechts: naast elkaar + groter + groen + glow */
+        .live-socials {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          margin-left: 10px;
+          flex: 0 0 auto;
+        }
+
+        .live-social {
+          width: 34px;
+          height: 34px;
+          border-radius: 999px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(0, 255, 157, 0.6);
+          background: rgba(1, 10, 6, 0.85);
+          color: #00ff9d;
+          box-shadow: 0 0 16px rgba(0,255,157,0.35);
+          transition: transform 0.45s ease, box-shadow 0.45s ease, filter 0.45s ease;
+        }
+
+        .live-social:hover {
+          transform: translateY(-1px) scale(1.06);
+          box-shadow: 0 0 22px rgba(0,255,157,0.6);
+          filter: drop-shadow(0 0 10px rgba(0,255,157,0.55));
+        }
+
+        .live-social svg {
+          width: 22px;
+          height: 22px;
+          fill: currentColor;
+          filter: drop-shadow(0 0 8px rgba(0,255,157,0.55));
+        }
+      `;
+      document.head.appendChild(style);
+    }
+
+    // ----------------------------
     // Timestamp
+    // ----------------------------
     const updatedEl =
       banner.querySelector(".live-updated") ||
       (() => {
@@ -17,16 +86,28 @@
         return el;
       })();
 
+    function formatTime(d) {
+      return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+    }
+
+    function setUpdated(d) {
+      updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
+    }
+
+    // ----------------------------
     // Hoofdtekst (leeg houden)
+    // ----------------------------
     let mainTextEl = textEl.querySelector(".live-text-main");
     if (!mainTextEl) {
       mainTextEl = document.createElement("span");
       mainTextEl.className = "live-text-main";
       textEl.insertBefore(mainTextEl, updatedEl);
     }
-    mainTextEl.textContent = "";
+    mainTextEl.textContent = ""; // GEEN "Live wedstrijden"
 
+    // ----------------------------
     // Ticker wrapper
+    // ----------------------------
     let tickerWrap = textEl.querySelector(".live-text-ticker");
     if (!tickerWrap) {
       tickerWrap = document.createElement("div");
@@ -34,16 +115,20 @@
       textEl.insertBefore(tickerWrap, updatedEl);
     }
 
-    // Verwijder oude CTA knop (Bekijk live)
+    // Verwijder oude CTA knop (Bekijk live) indien die nog bestaat
     const oldCta = banner.querySelector(".live-cta");
     if (oldCta) oldCta.remove();
 
-    // Socials rechts
+    // ----------------------------
+    // Socials rechts (naast elkaar)
+    // ----------------------------
     let socials = banner.querySelector(".live-socials");
     if (!socials) {
       socials = document.createElement("div");
       socials.className = "live-socials";
       banner.appendChild(socials);
+    } else {
+      socials.innerHTML = "";
     }
 
     const ICON_FB = `
@@ -58,23 +143,23 @@
         <path d="M17.5 6.2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/>
       </svg>`;
 
-    function ensureSocialButton(cls, href, label, svg) {
-      let a = socials.querySelector(`.${cls}`);
-      if (!a) {
-        a = document.createElement("a");
-        a.className = `live-social ${cls}`;
-        a.target = "_blank";
-        a.rel = "noopener";
-        a.setAttribute("aria-label", label);
-        socials.appendChild(a);
-      }
+    function addSocial(href, label, svg) {
+      const a = document.createElement("a");
+      a.className = "live-social";
       a.href = href;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.setAttribute("aria-label", label);
       a.innerHTML = svg;
+      socials.appendChild(a);
     }
 
-    ensureSocialButton("is-facebook", "https://www.facebook.com/voetbal4all", "Voetbal4All op Facebook", ICON_FB);
-    ensureSocialButton("is-instagram", "https://www.instagram.com/voetbal4all", "Voetbal4All op Instagram", ICON_IG);
+    addSocial("https://www.facebook.com/voetbal4all", "Voetbal4All op Facebook", ICON_FB);
+    addSocial("https://www.instagram.com/voetbal4all", "Voetbal4All op Instagram", ICON_IG);
 
+    // ----------------------------
+    // Fallback
+    // ----------------------------
     const competitions = [
       "Jupiler Pro League",
       "Challenger Pro League",
@@ -82,21 +167,15 @@
       "Keuken Kampioen Divisie"
     ];
 
-    function formatTime(d) {
-      return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
-    }
-
-    function setUpdated(d) {
-      updatedEl.textContent = d ? `Laatst bijgewerkt: ${formatTime(d)}` : "";
-    }
-
     function renderFallback() {
       mainTextEl.textContent = `Momenteel geen live wedstrijden (${competitions.join(" · ")}).`;
       tickerWrap.innerHTML = "";
-      banner.classList.remove("is-marquee");
+      stopAnimation();
     }
 
-    // DEMO data (werkt)
+    // ----------------------------
+    // DEMO data (blijft voorlopig)
+    // ----------------------------
     async function fetchFreeLiveLines() {
       return [
         "🇧🇪 Club Brugge 2–1 Anderlecht (72’)",
@@ -106,19 +185,27 @@
       ];
     }
 
-    function renderMarquee(lines) {
-      if (!Array.isArray(lines) || !lines.length) return false;
+    // ----------------------------
+    // Marquee animatie: pas reset NA volledig uit beeld
+    // ----------------------------
+    let currentAnim = null;
+    let currentText = "";
 
-      banner.classList.add("is-marquee");
-      mainTextEl.textContent = "";
+    function stopAnimation() {
+      if (currentAnim) {
+        try { currentAnim.cancel(); } catch (_) {}
+        currentAnim = null;
+      }
+    }
 
-      const joined = lines.join("   •   ");
+    function startMarquee(text) {
+      stopAnimation();
 
-      // BELANGRIJK: class = marquee-track (matcht je CSS)
-      tickerWrap.innerHTML = `<div class="marquee-track"></div>`;
-      const track = tickerWrap.querySelector(".marquee-track");
-      track.textContent = joined;
+      tickerWrap.innerHTML = `<div class="live-marquee-track"></div>`;
+      const track = tickerWrap.querySelector(".live-marquee-track");
+      track.textContent = text;
 
+      // Volgende frame: meten + animeren
       requestAnimationFrame(() => {
         const containerW = tickerWrap.clientWidth || 0;
         const textW = track.scrollWidth || 0;
@@ -128,24 +215,48 @@
         const startX = containerW;
         const endX = -textW;
 
-        // Rustige snelheid (px/sec)
-        const pxPerSec = 70;
+        // Snelheid: lager = trager
+        const pxPerSec = 55;
         const distance = startX - endX;
-        const durationSec = Math.max(12, distance / pxPerSec);
+        const durationMs = Math.max(12000, (distance / pxPerSec) * 1000);
 
-        track.style.setProperty("--live-marquee-start", `${startX}px`);
-        track.style.setProperty("--live-marquee-end", `${endX}px`);
-        track.style.setProperty("--live-marquee-duration", `${durationSec}s`);
+        // Web Animations API: geen “pauze”, en we weten exact wanneer het klaar is
+        currentAnim = track.animate(
+          [
+            { transform: `translateX(${startX}px)` },
+            { transform: `translateX(${endX}px)` }
+          ],
+          {
+            duration: durationMs,
+            iterations: 1,
+            easing: "linear",
+            fill: "forwards"
+          }
+        );
 
-        // Herstart animatie clean
-        track.style.animation = "none";
-        void track.offsetHeight;
-        track.style.animation = "";
+        // Herstart pas wanneer effectief volledig uit beeld (finish)
+        currentAnim.onfinish = () => {
+          // onmiddelijk opnieuw starten vanaf volledig rechts
+          startMarquee(text);
+        };
       });
+    }
 
+    function renderMarquee(lines) {
+      if (!Array.isArray(lines) || lines.length === 0) return false;
+      mainTextEl.textContent = "";
+
+      // Gebruik bullets, netjes
+      const joined = lines.join("   •   ");
+      currentText = joined;
+      startMarquee(joined);
       return true;
     }
 
+    // ----------------------------
+    // Refresh: NIET elke minuut resetten.
+    // Alleen hertekenen als de inhoud wijzigt.
+    // ----------------------------
     async function refresh() {
       try {
         setUpdated(null);
@@ -157,7 +268,10 @@
           return;
         }
 
-        renderMarquee(lines);
+        const joined = lines.join("   •   ");
+        if (joined !== currentText) {
+          renderMarquee(lines);
+        }
         setUpdated(new Date());
       } catch (err) {
         console.warn("Live banner fout:", err);
@@ -166,11 +280,11 @@
       }
     }
 
+    // Init + periodic update (zonder animatie te onderbreken)
     refresh();
     setInterval(refresh, 60 * 1000);
   }
 
-  // Zorg dat DOM bestaat
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {
