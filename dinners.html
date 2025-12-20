@@ -1,397 +1,156 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
-  <title>Dinners & clubavonden - Voetbal4All</title>
+  <title>Voetbal4All - Eetdagen & dinners</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-  <!-- Fonts -->
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
+  <!-- Zelfde navbar als algemene-events (om consistent te blijven) -->
+  <!-- TIP: kopieer exact dezelfde navbar van algemene-events.html -->
+
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
         <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
+          <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" loading="eager"/>
         </a>
 
-       <nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+        <nav class="nav-links">
+          <a href="/" class="nav-link">Home</a>
+          <a href="artikels.html" class="nav-link">Artikels</a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
-    </div>
-  </div>
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Sportieve events <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijk</a>
+              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
+              <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+            </div>
+          </div>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Club &amp; fun <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="algemene-events.html?type=Dinner" class="nav-dropdown-link">Eetdagen &amp; dinners</a>
+              <a href="algemene-events.html?type=Bingo" class="nav-dropdown-link">Bingo</a>
+              <a href="algemene-events.html?type=Darts" class="nav-dropdown-link">Darts</a>
+              <a href="algemene-events.html?type=Quiz" class="nav-dropdown-link">Quiz</a>
+              <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+            </div>
+          </div>
 
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
+          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
+          <a href="trainers.html" class="nav-link">Trainers</a>
+          <a href="spelers.html" class="nav-link">Spelers</a>
 
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Voetbal4All <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </div>
+          </div>
 
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+        </nav>
 
         <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
 
-  <main>
+  <!-- Live banner (PC/tablet) -->
+  <section class="live-banner-top">
+    <div class="shell">
+      <div class="live-banner">
+        <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+        <div class="live-text">
+          <span class="live-text-main"></span>
+          <div class="live-updated"></div>
+        </div>
+        <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+          <div class="live-socials-label">Volg ons</div>
+          <div class="live-socials-icons"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- PAGINA-INTRO / HERO -->
+  <!-- Header ad -->
+  <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+    <div class="shell">
+      <div class="ad-slot ad-slot-header sticky-ad-header">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-4062633211824348"
+          data-ad-slot="3518144343"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+    </div>
+  </section>
+
+  <main>
     <section class="section-main">
       <div class="shell">
+
         <article class="card">
           <div class="card-header">
             <div>
-              <div class="card-caption">Dinners &amp; clubavonden</div>
-              <div class="card-title">Mosselfestijnen, BBQ’s, galabals en andere clubdiners.</div>
+              <div class="card-caption">Eetdagen &amp; dinners</div>
+              <div class="card-title">Spaghettiavond, BBQ, ontbijtactie, pannenkoeken…</div>
             </div>
-            <span class="pill-small">Fundraising · beleving · community</span>
+            <span class="pill-small">Fundraising</span>
           </div>
           <p class="note">
-            Op deze pagina komen alle dinners en clubavonden: mosselfestijnen, spaghetti-avonden,
-            BBQ’s, galabals, sponsoravonden, brunches... Telkens met flyer of visual en duidelijke landvlag.
+            Op zoek naar een eetdag van een voetbalclub? Hieronder vind je het overzicht van alle eetdagen en dinners die clubs posten op Voetbal4All.
           </p>
 
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="events.html" class="btn-secondary">Terug naar alle events</a>
+          <div class="ad-card-actions" style="margin-top:10px;">
+            <a class="btn-ghost-sm" href="algemene-events.html?type=Dinner">Bekijk alle eetdagen &amp; dinners</a>
+            <a class="btn-ghost-sm" href="adverteren.html">Adverteer op deze pagina</a>
           </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE DINNERS -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="dinner-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. mossel, pasta, BBQ, gala, brunch...)"
-          />
-          <div class="search-filters-row">
-            <select id="dinner-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="dinner-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="dinner-type" class="search-select">
-              <option value="">Alle types</option>
-              <option value="eetfestijn">Eetfestijn / spaghetti</option>
-              <option value="bbq">BBQ</option>
-              <option value="mosselfestijn">Mosselfestijn</option>
-              <option value="galabal">Galabal / feestavond</option>
-              <option value="sponsoravond">Sponsoravond / netwerk</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- DINNERS + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
-
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · DINNERS &amp; CLUBAVONDEN (TOP)
-          <span class="ad-size">
-            Ideaal voor traiteurs, drankleveranciers, feestzalen of evenementenpartners.
-          </span>
-        </div>
-
-        <!-- Layout: dinners links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: DINNERS -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Dinner 1 - België - mosselfestijn -->
-              <article class="article-item"
-                       data-title="Mosselfestijn België Kempen eetfestijn fundraising">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer mosselfestijn
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Mosselfestijn · eetfestijn</div>
-                    <h2 class="article-title">
-                      <a href="#">Mosselfestijn ten voordele van jeugdwerking · regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Klassiek eetfestijn met mosselen, vol-au-vent en kindermenu.
-                      Time-slots via inschrijving, handig voor clubs die alles strak willen organiseren.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Dinner 2 - België - spaghetti-avond -->
-              <article class="article-item"
-                       data-title="Spaghetti avond eetfestijn België Limburg spaghettiavond">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer spaghetti avond
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Eetfestijn · spaghetti-avond</div>
-                    <h2 class="article-title">
-                      <a href="#">Spaghetti-avond · steun je favoriete club</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Spaghetti, penne en vegetarische opties, met randanimatie voor kinderen
-                      en een korte voorstelling van de sportieve plannen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Dinner 3 - Nederland - BBQ -->
-              <article class="article-item"
-                       data-title="Zomer BBQ Nederland Randstad bbq feestavond">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer zomer BBQ
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">BBQ · seizoensafsluiter</div>
-                    <h2 class="article-title">
-                      <a href="#">Zomer-BBQ &amp; seizoensafsluiting · eerste elftallen &amp; jeugd</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Gezellige BBQ met prijsuitreikingen, speech van het bestuur en
-                      DJ tot in de late uurtjes. Uitnodiging open voor spelers, ouders en sponsors.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Dinner 4 - Nederland - galabal -->
-              <article class="article-item"
-                       data-title="Galabal Nederland clubfeest chic gala">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto galabal
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Galabal · feestavond</div>
-                    <h2 class="article-title">
-                      <a href="#">Galabal met diner &amp; live band</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Formele clubavond met driegangenmenu, live muziek en
-                      een korte veiling ten voordele van jeugdwerking en infrastructuur.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Dinner 5 - Internationaal - sponsoravond -->
-              <article class="article-item"
-                       data-title="Sponsoravond internationaal netwerk event business seats">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto sponsoravond
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Sponsoravond · netwerk</div>
-                    <h2 class="article-title">
-                      <a href="#">Sponsoravond &amp; netwerkdiner met keynote</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Avond voor (potentiële) sponsors met keynote, clubpresentatie en
-                      tafeldiner. Ideaal om zakelijke partners aan de club te verbinden.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner rond dinners -->
-              <article class="article-item"
-                       data-title="Advertorial partner traiteur feestzaal drankleverancier">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Traiteur &amp; feestzaalpartner voor clubs</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Partner die eetfestijnen, BBQ’s en galabals volledig mee uitwerkt:
-                      catering, zaal, bediening en facturatie. Duidelijk als partnercontent aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-            </div>
-          </section>
-
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners rond dinners &amp; events</div>
-                </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
-              </div>
-
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Brouwerij &amp; drankenleverancier</div>
-                  <div class="event-meta">Formules voor drankafname met steun voor de clubkas.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Feestmateriaal &amp; tentverhuur</div>
-                  <div class="event-meta">Tenten, stoelen, tafels en licht/geluid voor clubavonden.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Ticketing &amp; inschrijvingsplatform</div>
-                  <div class="event-meta">Online tickets &amp; inschrijvingen met veilige betaling.</div>
-                </li>
-              </ul>
-            </article>
-
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · DINNERS ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor traiteurs, drank- en feestpartners.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
-              </div>
-            </div>
-          </aside>
-
-        </div>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer" id="footer-contact">
     <div class="shell">
       <div class="footer-grid">
         <div class="footer-brand">
           <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
+          <div class="footer-legal">&copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.</div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+            <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
           </div>
         </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
-        </div>
+        <div class="footer-ad">FOOTER ADVERTENTIE / PARTNERLOGO<br><span class="ad-size">Footer-banner</span></div>
       </div>
     </div>
   </footer>
@@ -399,80 +158,10 @@
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // Uitgebreide zoekfunctie voor dinners
-  const dinnerSearchInput  = document.getElementById('dinner-search');
-  const dinnerCountrySelect = document.getElementById('dinner-country');
-  const dinnerRegionInput  = document.getElementById('dinner-region');
-  const dinnerTypeSelect   = document.getElementById('dinner-type');
-  const dinnerItems        = document.querySelectorAll('.article-list .article-item');
-
-  function getCountryFromDinnerItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
-
-  function getTypeFromDinnerItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('mosselfestijn') || metaText.includes('mossel')) return 'mosselfestijn';
-    if (metaText.includes('bbq')) return 'bbq';
-    if (metaText.includes('spaghetti') || metaText.includes('eetfestijn')) return 'eetfestijn';
-    if (metaText.includes('galabal') || metaText.includes('gala') || metaText.includes('feestavond')) return 'galabal';
-    if (metaText.includes('sponsoravond') || metaText.includes('netwerk')) return 'sponsoravond';
-
-    return '';
-  }
-
-  function applyDinnerFilter() {
-    const textQuery   = (dinnerSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (dinnerRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (dinnerCountrySelect?.value || '').toUpperCase();
-    const typeFilter    = (dinnerTypeSelect?.value || '').toLowerCase();
-
-    dinnerItems.forEach(item => {
-      const fullText   = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromDinnerItem(item);
-      const itemType    = getTypeFromDinnerItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
-    });
-  }
-
-  if (dinnerItems.length) {
-    dinnerSearchInput?.addEventListener('input', applyDinnerFilter);
-    dinnerCountrySelect?.addEventListener('change', applyDinnerFilter);
-    dinnerRegionInput?.addEventListener('input', applyDinnerFilter);
-    dinnerTypeSelect?.addEventListener('change', applyDinnerFilter);
-  }
 </script>
- 
-<script src="assets/js/nav-mobile.js"></script>  
+
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
