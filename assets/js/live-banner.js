@@ -193,7 +193,7 @@ function makeSocialButton(href, label, svg) {
       mainTextEl.textContent = "";
 
       // EXTRA spacing tussen scores (unicode spaces werken overal)
-      const SEP = " \u00A0\u00A0\u00A0\u00A0\u00A0 • \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ";
+      const SEP = " \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 • \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ";
       const joined = lines.join(SEP);
 
       tickerWrap.innerHTML = `<div class="marquee-track"></div>`;
