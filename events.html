@@ -1,445 +1,470 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <!-- Google AdSense (zoals homepage/artikels) -->
+  <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
     crossorigin="anonymous"></script>
 
   <meta charset="UTF-8" />
-  <title>Voetbal4All - Events & tornooien</title>
+  <title>Voetbal4All - Sportieve events</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Fonts + CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <!-- Live banner NIET op mobiel voor niet-home pagina’s -->
 <body class="v4-hide-live-mobile">
-<div class="page">
+  <div class="page">
 
-  <!-- NAVBAR (zelfde patroon als andere pagina’s) -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-          <img
-            src="assets/img/brand/logo-voetbal4all.svg"
-            alt="Voetbal4All"
-            class="brand-logo"
-            loading="eager"
-          />
-        </a>
-
-        <nav class="nav-links">
-          <a href="/" class="nav-link">Home</a>
-          <a href="artikels.html" class="nav-link">Artikels</a>
-
-          <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown">
-              Events <span class="nav-link-caret">▾</span>
-            </button>
-            <div class="nav-dropdown">
-              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-              <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-              <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-              <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-              <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
-            </div>
-          </div>
-
-          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-          <a href="trainers.html" class="nav-link">Trainers</a>
-          <a href="spelers.html" class="nav-link">Spelers</a>
-
-          <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown">
-              Sportief <span class="nav-link-caret">▾</span>
-            </button>
-            <div class="nav-dropdown">
-              <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-              <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-              <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-              <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-              <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-              <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-            </div>
-          </div>
-
-          <div class="nav-item nav-item--dropdown">
-            <button type="button" class="nav-link nav-link--dropdown">
-              Voetbal4All <span class="nav-link-caret">▾</span>
-            </button>
-            <div class="nav-dropdown">
-              <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-              <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-              <a href="contact.html" class="nav-dropdown-link">Contact</a>
-            </div>
-          </div>
-
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
-        </nav>
-
-        <button class="nav-burger" aria-label="Menu">☰</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- LIVE SCORES BANNER (PC + tablet zichtbaar; mobiel verborgen via body class) -->
-  <section class="live-banner-top">
-    <div class="shell">
-      <div class="live-banner">
-        <div class="live-label">
-          <span class="live-dot"></span>
-          Live resultaten
-        </div>
-        <div class="live-text">
-          <span class="live-text-main"></span>
-          <div class="live-updated"></div>
-        </div>
-        <div class="live-socials" aria-label="Volg Voetbal4All op social media">
-          <div class="live-socials-label">Volg ons</div>
-          <!-- deze iconen worden in de praktijk ook door live-banner.js opgebouwd; HTML blijft als fallback -->
-          <div class="live-socials-icons">
-            <a class="live-social" href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.76-1.61 1.54V12h2.74l-.44 2.89h-2.3v6.99A10 10 0 0 0 22 12Z"/>
-              </svg>
-            </a>
-            <a class="live-social" href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4Zm-4.5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.1-2.3a1.05 1.05 0 1 1-1.05 1.05 1.05 1.05 0 0 1 1.05-1.05Z"/>
-              </svg>
-            </a>
-            <a class="live-social" href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M21 8.5a6.6 6.6 0 0 1-4.3-1.6v7.2a6.5 6.5 0 1 1-6.5-6.5c.4 0 .8 0 1.2.1v3.3a3.2 3.2 0 1 0 2 3V2h3.3a6.6 6.6 0 0 0 4.3 4.3v2.2Z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HEADER AD (boven de fold, onder navbar/banner) -->
-  <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
-    <div class="shell">
-      <div class="ad-slot ad-slot-header sticky-ad-header">
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-4062633211824348"
-          data-ad-slot="3518144343"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </div>
-  </section>
-
-  <main>
-    <section class="section-main">
+    <!-- NAVBAR -->
+    <header class="navbar">
       <div class="shell">
+        <div class="navbar-inner">
 
-        <!-- INTRO -->
-        <article class="card" style="margin-bottom:12px;">
-          <div class="card-header">
-            <div>
-              <div class="card-caption">Events</div>
-              <div class="card-title">Vriendschappelijke wedstrijden, tornooien, stages &amp; dinners</div>
-            </div>
-            <span class="pill-small">België · Nederland</span>
-          </div>
-          <p class="note">
-            Clubs kunnen hier events plaatsen zoals vriendschappelijke wedstrijden, jeugdtornooien, stages/kampen,
-            dinners en algemene clubactiviteiten. Events blijven online tot de dag na het event
-            (in deze demo: we verbergen events waarvan de datum + 1 dag voorbij is).
-          </p>
-        </article>
+          <a href="index.html" class="brand brand--logo-only">
+            <img
+              src="assets/img/brand/logo-voetbal4all.svg"
+              alt="Voetbal4All"
+              class="brand-logo"
+              loading="eager"
+            />
+          </a>
 
-        <!-- CONTENT LINKS + STICKY SIDEBAR RECHTS -->
-        <div class="v4-layout-sidebar">
+          <nav class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="artikels.html" class="nav-link">Artikels</a>
 
-          <!-- LINKS: CONTENT -->
-          <div class="v4-content">
-
-            <!-- ZOEK + FILTERS -->
-            <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
-              <input
-                type="text"
-                id="event-search-text"
-                class="search-input"
-                placeholder="Zoek op club, eventnaam, type, regio..."
-              />
-              <div class="search-filters-row">
-                <select id="event-filter-country" class="search-select">
-                  <option value="">Land (alles)</option>
-                  <option value="BE">🇧🇪 België</option>
-                  <option value="NL">🇳🇱 Nederland</option>
-                </select>
-                <select id="event-filter-type" class="search-select">
-                  <option value="">Type event</option>
-                  <option value="Vriendschappelijk">Vriendschappelijke wedstrijd</option>
-                  <option value="Tornooi">Tornooi</option>
-                  <option value="Stage">Stage / voetbalkamp</option>
-                  <option value="Dinner">Wedstrijddinner</option>
-                  <option value="Algemeen">Algemeen club- of supporters­event</option>
-                </select>
-                <select id="event-filter-month" class="search-select">
-                  <option value="">Maand (alles)</option>
-                  <option value="01">Januari</option>
-                  <option value="02">Februari</option>
-                  <option value="03">Maart</option>
-                  <option value="04">April</option>
-                  <option value="05">Mei</option>
-                  <option value="06">Juni</option>
-                  <option value="07">Juli</option>
-                  <option value="08">Augustus</option>
-                  <option value="09">September</option>
-                  <option value="10">Oktober</option>
-                  <option value="11">November</option>
-                  <option value="12">December</option>
-                </select>
-              </div>
-              <div class="form-helper">
-                Filter events op land, type en maand. De keuze uit de navigatie (dropdown Events) stelt automatisch het type in.
+            <!-- SPORTIEVE EVENTS -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Sportieve events <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijk</a>
+                <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+                <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
+                <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
               </div>
             </div>
 
-            <!-- IN-CONTENT AD (net onder filters: vaak goede CTR) -->
-            <section class="section-main" style="padding-top:0;padding-bottom:10px;">
-              <div class="ad-infeed">
-                <ins class="adsbygoogle"
-                  style="display:block"
-                  data-ad-client="ca-pub-4062633211824348"
-                  data-ad-slot="4831226012"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"></ins>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+            <!-- CLUB & FUN -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Club &amp; fun <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="algemene-events.html?type=Dinner" class="nav-dropdown-link">Eetdagen &amp; dinners</a>
+                <a href="algemene-events.html?type=Bingo" class="nav-dropdown-link">Bingo</a>
+                <a href="algemene-events.html?type=Darts" class="nav-dropdown-link">Darts</a>
+                <a href="algemene-events.html?type=Quiz" class="nav-dropdown-link">Quiz</a>
+                <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
               </div>
-            </section>
-
-            <!-- OVERZICHT -->
-            <section class="section-main" style="padding-top:0;">
-              <div class="card">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Overzicht</div>
-                    <div class="card-title">Events &amp; tornooien</div>
-                  </div>
-                  <span class="pill-small">Onder elkaar · beter leesbaar</span>
-                </div>
-
-                <p class="note">
-                  Events met een datum in het verleden worden automatisch verborgen (dag na het event).
-                </p>
-
-                <!-- BELANGRIJK: stack i.p.v. 3-kolom grid -->
-                <div id="event-ads" class="ad-card-list ad-card-list--stack">
-                  <!-- VOORBEELD-EVENT (inhoud behouden uit je vorige versie) -->
-                  <article class="ad-card" id="event-ad-1" data-ad-id="1" data-country="BE" data-type="Tornooi" data-date="2025-08-15">
-                    <div class="ad-card-header">
-                      <div>
-                        <div class="ad-card-title">Zomertornooi U8–U11</div>
-                        <div class="ad-card-meta">🇧🇪 België · Regio Kempen · K. ASV Geel</div>
-                      </div>
-                      <div class="ad-card-meta">Tornooi · 15–16 augustus</div>
-                    </div>
-                    <div class="ad-card-body">
-                      <strong>Locatie:</strong> Sportpark De Leunen, Geel<br />
-                      <strong>Doelgroep:</strong> U8–U11 · clubs uit heel België welkom<br /><br />
-                      Tweedaags jeugdtornooi met poules, finales en randanimatie.
-                    </div>
-                    <div class="ad-card-actions">
-                      <button type="button" class="btn-ghost-sm" data-reply-event="1">Inschrijven / contact</button>
-                      <a href="#" class="btn-ghost-sm btn-share" data-share-event="1">Delen</a>
-                    </div>
-                  </article>
-                </div>
-
-              </div>
-            </section>
-
-          </div>
-
-          <!-- RECHTS: STICKY ADS -->
-          <aside class="v4-sidebar">
-            <div class="v4-sidebar-sticky">
-
-              <article class="card">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Advertentie</div>
-                    <div class="card-title">Sponsor / Partner</div>
-                  </div>
-                  <span class="pill-small">Premium</span>
-                </div>
-                <div class="ad-placeholder">
-                  Vaste partnerzone (premium) voor event-organisatoren, bekers/trofeeën, stages, busreizen, …
-                  <br />
-                  <span class="ad-size">Aanrader: 300 × 250 of 300 × 600</span>
-                </div>
-              </article>
-
-              <!-- Sticky AdSense (hoog rendement op desktop) -->
-              <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
-                <ins class="adsbygoogle"
-                  style="display:block"
-                  data-ad-client="ca-pub-4062633211824348"
-                  data-ad-slot="6032627042"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"></ins>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-              </div>
-
-              <article class="card" style="margin-top:12px;">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Waarom via Voetbal4All?</div>
-                    <div class="card-title">Meer bereik, minder gedoe</div>
-                  </div>
-                </div>
-                <ul class="events-list">
-                  <li class="event-item">
-                    <div class="event-title">Clubs bereiken</div>
-                    <div class="event-meta">Promoot je event naar clubs in jouw regio en daarbuiten.</div>
-                  </li>
-                  <li class="event-item">
-                    <div class="event-title">Inschrijvingen centraliseren</div>
-                    <div class="event-meta">Reacties verlopen via Voetbal4All, zonder jouw e-mailadres publiek te tonen.</div>
-                  </li>
-                  <li class="event-item">
-                    <div class="event-title">Planning en overzicht</div>
-                    <div class="event-meta">Combineer vriendschappelijke wedstrijden, tornooien en stages.</div>
-                  </li>
-                </ul>
-              </article>
-
             </div>
-          </aside>
 
+            <!-- VACATURES & PROFIELEN -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+                <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+                <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+              </div>
+            </div>
+
+            <!-- SPORTIEF -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Sportief <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+                <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+                <a href="sportief-teams.html" class="nav-dropdown-link">Teams</a>
+                <a href="sportief-spelers.html" class="nav-dropdown-link">Spelers</a>
+              </div>
+            </div>
+
+            <!-- VOETBAL4ALL -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Voetbal4All <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+                <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+                <a href="contact.html" class="nav-dropdown-link">Contact</a>
+              </div>
+            </div>
+
+            <!-- CTA (blijft staan zoals nu) -->
+            <a href="adverteren.html" class="nav-cta nav-cta--compact">Adverteren</a>
+          </nav>
+
+          <button class="nav-burger" aria-label="Menu">☰</button>
         </div>
+      </div>
+    </header>
 
+    <!-- LIVE BANNER (PC + tablet, mobiel hidden via body class) -->
+    <section class="live-banner-top">
+      <div class="shell">
+        <div class="live-banner">
+          <div class="live-label">
+            <span class="live-dot"></span>
+            Live resultaten
+          </div>
+          <div class="live-text">
+            <span class="live-text-main"></span>
+            <div class="live-updated"></div>
+          </div>
+          <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+            <div class="live-socials-label">Volg ons</div>
+            <div class="live-socials-icons"></div>
+          </div>
+        </div>
       </div>
     </section>
-  </main>
 
-  <!-- FOOTER (met correcte IG + TikTok) -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
-            <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
-          </div>
-        </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+    <!-- HEADER AD -->
+    <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+      <div class="shell">
+        <div class="ad-slot ad-slot-header sticky-ad-header">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="3518144343"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-</div>
+    <main>
+      <section class="section-main">
+        <div class="shell">
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
+          <!-- INTRO -->
+          <article class="card" style="margin-bottom:12px;">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Sportieve events</div>
+                <div class="card-title">Vriendschappelijk, tornooi, stage &amp; voetbalkamp</div>
+              </div>
+              <span class="pill-small">Clubs · trainers · teams</span>
+            </div>
+            <p class="note">
+              Dit overzicht is uitsluitend voor sportieve events. Voor eetdagen, bingo, darts, quiz of fuif ga je naar <strong>Club &amp; fun</strong>.
+            </p>
+          </article>
 
-  // 1) Auto-filter op basis van ?type=... uit de URL
-  (function initEventTypeFromUrl() {
-    const params = new URLSearchParams(window.location.search);
-    const t = params.get("type");
-    if (!t) return;
-    const select = document.getElementById("event-filter-type");
-    if (!select) return;
-    for (const opt of select.options) {
-      if (opt.value === t) {
-        select.value = t;
-        break;
+          <!-- CONTENT LINKS + STICKY ADS RECHTS -->
+          <div class="v4-layout-sidebar">
+
+            <!-- LINKS -->
+            <div class="v4-content">
+
+              <!-- ZOEK- EN FILTERBALK -->
+              <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
+                <input
+                  type="text"
+                  id="event-search-text"
+                  class="search-input"
+                  placeholder="Zoek op club, eventnaam, regio..."
+                />
+                <div class="search-filters-row">
+                  <select id="event-filter-country" class="search-select">
+                    <option value="">Land (alles)</option>
+                    <option value="BE">🇧🇪 België</option>
+                    <option value="NL">🇳🇱 Nederland</option>
+                  </select>
+
+                  <select id="event-filter-type" class="search-select">
+                    <option value="">Type (alles)</option>
+                    <option value="Vriendschappelijk">Vriendschappelijk</option>
+                    <option value="Tornooi">Tornooi</option>
+                    <option value="Stage">Stage</option>
+                    <option value="Voetbalkamp">Voetbalkamp</option>
+                  </select>
+
+                  <select id="event-filter-month" class="search-select">
+                    <option value="">Maand (alles)</option>
+                    <option value="01">Januari</option>
+                    <option value="02">Februari</option>
+                    <option value="03">Maart</option>
+                    <option value="04">April</option>
+                    <option value="05">Mei</option>
+                    <option value="06">Juni</option>
+                    <option value="07">Juli</option>
+                    <option value="08">Augustus</option>
+                    <option value="09">September</option>
+                    <option value="10">Oktober</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                  </select>
+                </div>
+                <div class="form-helper">
+                  Tip: via de navigatie zet je automatisch een type-filter (bv. Tornooien).
+                </div>
+              </div>
+
+              <!-- IN-CONTENT AD -->
+              <section class="section-main" style="padding-top:0;padding-bottom:10px;">
+                <div class="ad-infeed">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="4831226012"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+              </section>
+
+              <!-- OVERZICHT -->
+              <section class="section-main" style="padding-top:0;">
+                <div class="card">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Overzicht</div>
+                      <div class="card-title">Sportieve events</div>
+                    </div>
+                    <span class="pill-small">Onder elkaar</span>
+                  </div>
+
+                  <p class="note">
+                    Events met een datum in het verleden worden automatisch verborgen (dag na het event).
+                  </p>
+
+                  <div id="event-list" class="ad-card-list ad-card-list--stack">
+
+                    <!-- VOORBEELD EVENT -->
+                    <article class="ad-card" id="event-ad-1"
+                      data-ad-id="1"
+                      data-country="BE"
+                      data-type="Tornooi"
+                      data-date="2026-01-20">
+                      <div class="ad-card-header">
+                        <div>
+                          <div class="ad-card-title">Jeugdtornado U8–U11</div>
+                          <div class="ad-card-meta">🇧🇪 België · Regio Kempen · K. Voorbeeld FC</div>
+                        </div>
+                        <div class="ad-card-meta">Tornooi · 20 januari</div>
+                      </div>
+                      <div class="ad-card-body">
+                        <strong>Locatie:</strong> Sportpark · Gemeente<br/>
+                        <strong>Doelgroep:</strong> U8–U11 · meerdere poules + finales<br/><br/>
+                        Inschrijven mogelijk per team. Randanimatie en eet/drinkstanden aanwezig.
+                      </div>
+                      <div class="ad-card-actions">
+                        <button type="button" class="btn-ghost-sm" data-reply-event="1">Inschrijven / contact</button>
+                        <a href="#" class="btn-ghost-sm btn-share" data-share-event="1">Delen</a>
+                      </div>
+                    </article>
+
+                  </div>
+
+                  <p id="event-status" class="note" style="margin-top:10px; display:none;"></p>
+                </div>
+              </section>
+
+            </div>
+
+            <!-- RECHTS -->
+            <aside class="v4-sidebar">
+              <div class="v4-sidebar-sticky">
+
+                <article class="card">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Advertentie</div>
+                      <div class="card-title">Sponsor / Partner</div>
+                    </div>
+                    <span class="pill-small">Premium</span>
+                  </div>
+                  <div class="ad-placeholder">
+                    Ideaal voor event-organisatoren, bekers/trofeeën, busreizen, stages, sportkleding, …
+                    <br/>
+                    <span class="ad-size">Aanrader: 300 × 250 of 300 × 600</span>
+                  </div>
+                </article>
+
+                <!-- Sticky AdSense -->
+                <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="6032627042"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+
+                <article class="card" style="margin-top:12px;">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Organiseer je een sportief event?</div>
+                      <div class="card-title">Meer teams, meer bereik</div>
+                    </div>
+                  </div>
+                  <p class="note">
+                    Plaats je tornooi, stage of vriendschappelijke wedstrijd en bereik clubs en teams in jouw regio én daarbuiten.
+                  </p>
+                </article>
+
+              </div>
+            </aside>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer-contact">
+      <div class="shell">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+            <div class="footer-legal">
+              &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+            </div>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+              <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+              <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
+            </div>
+          </div>
+          <div class="footer-ad">
+            FOOTER ADVERTENTIE / PARTNERLOGO<br>
+            <span class="ad-size">Footer-banner</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Auto type filter via ?type=
+    (function initTypeFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const t = params.get("type");
+      if (!t) return;
+
+      const sel = document.getElementById("event-filter-type");
+      if (!sel) return;
+
+      for (const opt of sel.options) {
+        if (opt.value === t) { sel.value = t; break; }
       }
-    }
-  })();
+    })();
 
-  // 2) Verberg events waarvan datum + 1 dag < vandaag
-  (function hidePastEvents() {
-    const cards = document.querySelectorAll("#event-ads .ad-card[data-date]");
-    const today = new Date();
-    today.setHours(0,0,0,0);
+    const listEl = document.getElementById("event-list");
+    const searchEl = document.getElementById("event-search-text");
+    const countryEl = document.getElementById("event-filter-country");
+    const typeEl = document.getElementById("event-filter-type");
+    const monthEl = document.getElementById("event-filter-month");
 
-    cards.forEach(card => {
-      const dateStr = card.getAttribute("data-date");
-      if (!dateStr) return;
-      const d = new Date(dateStr);
-      if (isNaN(d.getTime())) return;
-      d.setDate(d.getDate() + 1); // dag na het event
-      d.setHours(0,0,0,0);
-      if (d < today) {
-        card.style.display = "none";
-      }
-    });
-  })();
+    function norm(s){ return (s || "").toLowerCase(); }
 
-  // 3) Social sharing per event
-  function updateEventShareLinks() {
-    const baseUrl = window.location.origin + window.location.pathname;
-    document.querySelectorAll("[data-share-event]").forEach(link => {
-      const adId = link.getAttribute("data-share-event");
-      const targetId = "event-ad-" + adId;
-      const urlWithAnchor = baseUrl + "#" + targetId;
-      const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
-      link.setAttribute("href", fbShare);
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-    });
-  }
-  updateEventShareLinks();
+    // Verberg events waarvan datum + 1 dag < vandaag
+    (function hidePastEvents() {
+      const cards = document.querySelectorAll("#event-list .ad-card[data-date]");
+      const today = new Date();
+      today.setHours(0,0,0,0);
 
-  // 4) Reageren via verborgen e-mail
-  document.addEventListener("click", function (e) {
-    const btn = e.target.closest("[data-reply-event]");
-    if (!btn) return;
+      cards.forEach(card => {
+        const dateStr = card.getAttribute("data-date");
+        if (!dateStr) return;
+        const d = new Date(dateStr);
+        if (isNaN(d.getTime())) return;
 
-    const adId = btn.getAttribute("data-reply-event");
-    const ok = confirm(
-      "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
-    );
-    if (!ok) return;
+        d.setDate(d.getDate() + 1);
+        d.setHours(0,0,0,0);
 
-    const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
-    if (!replyEmail) {
-      alert("E-mailadres is nodig om te kunnen reageren.");
-      return;
+        if (d < today) card.style.display = "none";
+      });
+    })();
+
+    function filterCards(){
+      const q = norm(searchEl.value);
+      const c = countryEl.value;
+      const t = typeEl.value;
+      const m = monthEl.value;
+
+      const cards = listEl.querySelectorAll(".ad-card");
+      cards.forEach(card => {
+        const cc = card.dataset.country || "";
+        const tt = card.dataset.type || "";
+        const dd = card.dataset.date || ""; // YYYY-MM-DD
+        const hay = norm(card.textContent);
+
+        let ok = true;
+        if (c && cc && cc !== c) ok = false;
+        if (t && tt && tt !== t) ok = false;
+        if (m && dd && dd.slice(5,7) !== m) ok = false;
+        if (ok && q && !hay.includes(q)) ok = false;
+
+        card.style.display = ok ? "" : "none";
+      });
     }
 
-    const subject = encodeURIComponent("Reactie via Voetbal4All op event " + adId);
-    const body = encodeURIComponent(
-      "Event-ID: " + adId +
-      "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
-      "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
-    );
+    searchEl.addEventListener("input", filterCards);
+    countryEl.addEventListener("change", filterCards);
+    typeEl.addEventListener("change", filterCards);
+    monthEl.addEventListener("change", filterCards);
 
-    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
-  });
-</script>
+    // Share links per event
+    (function updateShareLinks(){
+      const baseUrl = location.origin + location.pathname;
+      document.querySelectorAll("[data-share-event]").forEach(a => {
+        const id = a.getAttribute("data-share-event");
+        const targetId = "event-ad-" + id;
+        const url = baseUrl + "#" + targetId;
+        a.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      });
+    })();
 
-<script src="assets/js/nav-mobile.js"></script>
-<!-- cache-bust is aanbevolen als je net wijzigingen deed -->
-<script src="assets/js/live-banner.js?v=20251220-1"></script>
+    // Reply flow via mailto (zelfde patroon)
+    document.addEventListener("click", function(e){
+      const btn = e.target.closest("[data-reply-event]");
+      if (!btn) return;
+
+      const id = btn.getAttribute("data-reply-event");
+      const ok = confirm("Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All.");
+      if (!ok) return;
+
+      const email = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
+      if (!email) return alert("E-mailadres is nodig om te kunnen reageren.");
+
+      const subject = encodeURIComponent("Reactie via Voetbal4All op sportief event " + id);
+      const body = encodeURIComponent(
+        "Event-ID: " + id +
+        "\n\nE-mailadres: " + email +
+        "\n\nBericht:\n(Voeg je bericht toe.)"
+      );
+
+      location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    });
+  </script>
+
+  <script src="assets/js/nav-mobile.js"></script>
+  <script src="assets/js/live-banner.js"></script>
 </body>
 </html>
