@@ -8,42 +8,78 @@
     const labelEl = banner.querySelector(".live-label");
     if (!textEl || !labelEl) return;
 
-    /* ----------------------------
-       1) LIVE RESULTATEN terug op 2 regels (zonder HTML te wijzigen)
-    ---------------------------- */
+    /* =========================================================
+       0) Opruimen: verwijder ALLE oude/dubbele elementen
+          - live-updated mag enkel onder live-label bestaan
+          - socials mogen enkel één keer bestaan
+    ========================================================= */
+    const keepLabelUpdated = labelEl.querySelector(".live-updated");
+
+    banner.querySelectorAll(".live-updated").forEach((el) => {
+      // we houden enkel degene die al in labelEl zit
+      if (keepLabelUpdated && el === keepLabelUpdated) return;
+      if (!labelEl.contains(el)) el.remove();
+    });
+
+    // Verwijder dubbele socials containers (houd de eerste)
+    const socialsAll = banner.querySelectorAll(".live-socials");
+    socialsAll.forEach((el, idx) => {
+      if (idx > 0) el.remove();
+    });
+
+    /* =========================================================
+       1) LIVE RESULTATEN terug op 2 regels (zonder HTML aan te passen)
+          + Zorg dat dot naast tekst staat (niet erboven)
+    ========================================================= */
     if (!labelEl.dataset.stacked) {
-      const dot = labelEl.querySelector(".live-dot");
-      // haal alle tekst (zonder dot) op
       const rawText = Array.from(labelEl.childNodes)
-        .filter(n => !(n.nodeType === 1 && n.classList && n.classList.contains("live-dot")))
-        .map(n => n.textContent || "")
+        .filter(
+          (n) =>
+            !(
+              n.nodeType === 1 &&
+              n.classList &&
+              n.classList.contains("live-dot")
+            )
+        )
+        .map((n) => n.textContent || "")
         .join(" ")
         .replace(/\s+/g, " ")
         .trim();
 
-      // reset label en bouw opnieuw op: DOT + (tekstwrap)
+      // reset label volledig
       labelEl.innerHTML = "";
-      
-      // DOT opnieuw aanmaken zodat hij altijd links staat
+
+      // wrapper: dot links + tekst rechts
+      const labelRow = document.createElement("div");
+      labelRow.className = "live-label-row";
+      labelEl.appendChild(labelRow);
+
+      // dot
       const newDot = document.createElement("span");
       newDot.className = "live-dot";
-      labelEl.appendChild(newDot);
+      labelRow.appendChild(newDot);
 
+      // tekst (2 regels)
       const parts = rawText ? rawText.split(" ") : ["Live", "resultaten"];
       const first = (parts[0] || "Live").toUpperCase();
       const second = (parts.slice(1).join(" ") || "resultaten").toUpperCase();
 
       const wrap = document.createElement("div");
       wrap.className = "live-label-text";
-      wrap.innerHTML = `<div class="live-label-top">${first}</div><div class="live-label-bottom">${second}</div>`;
-      labelEl.appendChild(wrap);
+      wrap.innerHTML = `
+        <div class="live-label-top">${first}</div>
+        <div class="live-label-bottom">${second}</div>
+      `;
+      labelRow.appendChild(wrap);
 
       labelEl.dataset.stacked = "1";
     }
 
-    /* ----------------------------
-       2) Update-element: onder LIVE RESULTATEN, maar NIET als anchor gebruiken
-    ---------------------------- */
+    /* =========================================================
+       2) Update-element: uitsluitend onder LIVE RESULTATEN (labelEl)
+          - Tekst: "Laatst Bijgewerkt: uu:mm"
+          - Geen duplicaten elders
+    ========================================================= */
     let updatedEl = labelEl.querySelector(".live-updated");
     if (!updatedEl) {
       updatedEl = document.createElement("div");
@@ -61,10 +97,9 @@
       updatedEl.textContent = d ? `Laatst Bijgewerkt: ${formatTime(d)}` : "";
     }
 
-    /* ----------------------------
-       3) Zorg dat ticker altijd bestaat in .live-text
-    ---------------------------- */
-    // hoofdtekst leeg houden (zoals je wenst)
+    /* =========================================================
+       3) Ticker in .live-text (main text blijft leeg)
+    ========================================================= */
     let mainTextEl = textEl.querySelector(".live-text-main");
     if (!mainTextEl) {
       mainTextEl = document.createElement("span");
@@ -73,7 +108,6 @@
     }
     mainTextEl.textContent = "";
 
-    // ticker wrapper
     let tickerWrap = textEl.querySelector(".live-text-ticker");
     if (!tickerWrap) {
       tickerWrap = document.createElement("div");
@@ -81,21 +115,27 @@
       textEl.appendChild(tickerWrap);
     }
 
-    /* ----------------------------
-       4) Verwijder CTA knop (Bekijk live) zodat geen 404
-    ---------------------------- */
+    /* =========================================================
+       4) Verwijder oude CTA knop (Bekijk live) om 404 te vermijden
+    ========================================================= */
     const oldCta = banner.querySelector(".live-cta");
     if (oldCta) oldCta.remove();
 
-    /* ----------------------------
-       5) Socials rechts: "Volg ons op:" + 2 iconen naast elkaar, geen duplicaten
-    ---------------------------- */
+    /* =========================================================
+       5) Socials rechts (één set)
+          - label "Volg ons op:" (styling via CSS)
+          - iconen naast elkaar
+          - GEEN duplicaten
+          - Instagram SVG = outline paths (geen "gevuld vierkant")
+    ========================================================= */
     let socials = banner.querySelector(".live-socials");
     if (!socials) {
       socials = document.createElement("div");
       socials.className = "live-socials";
       banner.appendChild(socials);
     }
+
+    // bouw intern DOM altijd opnieuw (voorkomt opbouw van extra iconen)
     socials.innerHTML = `
       <div class="live-socials-label">Volg ons op:</div>
       <div class="live-socials-icons"></div>
@@ -103,16 +143,18 @@
 
     const iconsWrap = socials.querySelector(".live-socials-icons");
 
+    // Facebook (simple path)
     const ICON_FB = `
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.2 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.9h-2.34V22C18.34 21.2 22 17.08 22 12.06z"/>
       </svg>`;
 
+    // Instagram (outline: geen gevulde achtergrond)
     const ICON_IG = `
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4z"/>
-        <path d="M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
-        <path d="M17.5 6.2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/>
+        <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
       </svg>`;
 
     function addSocial(href, label, svg, cls) {
@@ -126,13 +168,27 @@
       iconsWrap.appendChild(a);
     }
 
-    addSocial("https://www.facebook.com/voetbal4all", "Voetbal4All op Facebook", ICON_FB, "is-facebook");
-    addSocial("https://www.instagram.com/voetbal4all", "Voetbal4All op Instagram", ICON_IG, "is-instagram");
+    addSocial(
+      "https://www.facebook.com/voetbal4all",
+      "Voetbal4All op Facebook",
+      ICON_FB,
+      "is-facebook"
+    );
+    addSocial(
+      "https://www.instagram.com/voetbal4all",
+      "Voetbal4All op Instagram",
+      ICON_IG,
+      "is-instagram"
+    );
 
-    /* ----------------------------
-       6) Demo data + marquee render (met extra spacing)
-    ---------------------------- */
+    /* =========================================================
+       6) Data + marquee render (start buiten rechts, eind buiten links)
+          - Extra spacing tussen scores
+          - Reset pas nadat laatste karakter links uit beeld is
+          - En start terug volledig rechts (geen “instant vullen”)
+    ========================================================= */
     async function fetchFreeLiveLines() {
+      // DEMO: later vervangen door echte live data
       return [
         "🇧🇪 Club Brugge 2–1 Anderlecht (72’)",
         "🇳🇱 Ajax 1–0 PSV (55’)",
@@ -148,10 +204,15 @@
         "Eredivisie",
         "Keuken Kampioen Divisie"
       ];
-      mainTextEl.textContent = `Momenteel geen live wedstrijden (${competitions.join(" · ")}).`;
+      mainTextEl.textContent = `Momenteel geen live wedstrijden (${competitions.join(
+        " · "
+      )}).`;
       tickerWrap.innerHTML = "";
       banner.classList.remove("is-marquee");
     }
+
+    // Houd één timer bij om dubbele init te vermijden
+    let marqueeRestartTimer = null;
 
     function renderMarquee(lines) {
       if (!Array.isArray(lines) || !lines.length) return false;
@@ -159,22 +220,31 @@
       banner.classList.add("is-marquee");
       mainTextEl.textContent = "";
 
-      const SEP = " \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 • \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ";
+      // Meer “lucht” tussen scores
+      const SEP =
+        " \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 • \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ";
       const joined = lines.join(SEP);
 
       tickerWrap.innerHTML = `<div class="marquee-track"></div>`;
       const track = tickerWrap.querySelector(".marquee-track");
       track.textContent = joined;
 
-      // herstart animatie obv echte breedtes (start buiten rechts, eind buiten links)
+      // Clear eventuele vorige restart timer
+      if (marqueeRestartTimer) {
+        clearTimeout(marqueeRestartTimer);
+        marqueeRestartTimer = null;
+      }
+
       requestAnimationFrame(() => {
         const containerW = tickerWrap.clientWidth || 0;
         const textW = track.scrollWidth || 0;
         if (!containerW || !textW) return;
 
+        // Start volledig rechts buiten beeld, eind volledig links buiten beeld
         const startX = containerW;
         const endX = -textW;
 
+        // Snelheid (px/sec) -> bepaalt leesbaarheid
         const pxPerSec = 70;
         const distance = startX - endX;
         const durationSec = Math.max(14, distance / pxPerSec);
@@ -183,9 +253,21 @@
         track.style.setProperty("--live-marquee-end", `${endX}px`);
         track.style.setProperty("--live-marquee-duration", `${durationSec}s`);
 
+        // Force restart animatie (betrouwbaar)
         track.style.animation = "none";
         void track.offsetHeight;
         track.style.animation = "";
+
+        // Belangrijk:
+        // - refresh() kan om de minuut opnieuw renderen en zo “resetten” middenin.
+        // - Daarom: we her-renderen pas nadat de huidige run klaar is.
+        // We gebruiken durationSec als “run klaar”-moment.
+        marqueeRestartTimer = setTimeout(() => {
+          // herstart exact met dezelfde content (start weer buiten rechts)
+          track.style.animation = "none";
+          void track.offsetHeight;
+          track.style.animation = "";
+        }, Math.ceil(durationSec * 1000));
       });
 
       return true;
@@ -202,6 +284,7 @@
           return;
         }
 
+        // Render pas opnieuw wanneer de oude cyclus klaar is (zie timer in renderMarquee)
         renderMarquee(lines);
         setUpdated(new Date());
       } catch (err) {
@@ -211,7 +294,10 @@
       }
     }
 
+    // Init
     refresh();
+
+    // Let op: refresh elke minuut is ok, maar marquee restart timer voorkomt “mid-run reset”
     setInterval(refresh, 60 * 1000);
   }
 
