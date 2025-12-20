@@ -1288,9 +1288,10 @@ footer {
   to   { transform: translateX(var(--live-marquee-end, -100%)); }
 }
 
-/* Social container in live banner */
+/* Live banner socials: altijd naast elkaar */
 .live-social {
   display: flex;
+  flex-direction: row;   /* dit voorkomt onder elkaar */
   align-items: center;
   gap: 10px;
 }
@@ -1346,4 +1347,28 @@ footer {
 
 .live-social a:nth-child(2) {
   animation-delay: 1.2s;
+}
+
+/* Maak de iconen groen + glow */
+.live-social a {
+  border: 1px solid rgba(0, 255, 157, 0.6);
+  background: rgba(1, 10, 6, 0.85);
+  box-shadow: 0 0 14px rgba(0, 255, 157, 0.35);
+}
+
+/* Inline SVG: forceer groen */
+.live-social a svg {
+  width: 22px;              /* pas aan naar wens */
+  height: 22px;
+  color: #00ff9d;           /* voor icons die currentColor gebruiken */
+  filter: drop-shadow(0 0 6px rgba(0,255,157,0.55));
+}
+
+/* Voor SVG paths met fill/stroke */
+.live-social a svg path,
+.live-social a svg circle,
+.live-social a svg rect,
+.live-social a svg line {
+  fill: #00ff9d !important;
+  stroke: #00ff9d !important;
 }
