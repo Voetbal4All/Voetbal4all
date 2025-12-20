@@ -1401,3 +1401,14 @@ footer { margin-top: auto; }
 .v4-ad-sticky{
   overflow: visible;
 }
+
+/* =======================
+   Live banner: op niet-home pagina’s verbergen op mobiel
+   - Index.html: geen class => banner blijft zichtbaar op mobiel
+   - Andere pagina’s: body krijgt class "v4-hide-live-mobile"
+   ======================= */
+@media (max-width: 600px) {
+  body.v4-hide-live-mobile .live-banner-top {
+    display: none !important;
+  }
+}
