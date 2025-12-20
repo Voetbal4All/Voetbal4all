@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-20T16:45:34.542Z",
+  "generatedAt": "2025-12-20T17:33:51.265Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Heracles en Heerenveen begonnen aan tweede helft",
-      "link": "https://www.vi.nl/nieuws/vi-live-heracles-en-heerenveen-begonnen-aan-tweede-helft",
-      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
-      "publishedAt": "2025-12-20T16:41:21.000Z"
+      "title": "Sterke comeback bezorgt De Graafschap fijn einde van 2025",
+      "link": "https://www.vi.nl/nieuws/sterke-comeback-bezorgt-de-graafschap-fijn-einde-van-2025",
+      "summary": "De Graafschap heeft 2025 met een overwinning afgesloten. Daar zag het lang niet naar uit: het team van Marinus Dijkhuizen begon erg zwak aan de wedstrijd bij TOP Oss. Een prima comeback leverde toch nog een zege op.",
+      "publishedAt": "2025-12-20T17:33:28.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +18,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Opmars Wolfsburg en ongelukkige Seelt gestuit, Van den Berg pakt rood",
-      "link": "https://www.vi.nl/nieuws/opmars-wolfsburg-en-ongelukkige-seelt-gestuit-van-den-berg-pakt-rood",
-      "summary": "VfL Wolfsburg heeft zaterdagmiddag de derde zege op rij geboekt in de Bundesliga. Voor eigen publiek wonnen Die Wölfe mede dankzij een blunder van keeper Noah Atubolu van SC Freiburg.",
-      "publishedAt": "2025-12-20T16:40:56.000Z"
+      "title": "SC Heerenveen bekroont droomweek ondanks VAR-tegenvallers",
+      "link": "https://www.vi.nl/nieuws/sc-heerenveen-bekroont-droomweek-ondanks-var-tegenvallers",
+      "summary": "SC Heerenveen heeft drie dagen na de bekerstunt in De Kuip ook zijn laatste duel van 2025 gewonnen. Heracles Almelo bood PSV vorige week nog knap weerstand in Eindhoven, maar kon tegen de Friezen geen vuist maken en leed de tweede nederlaag op rij.",
+      "publishedAt": "2025-12-20T17:31:28.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +29,98 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Manchester City v West Ham, Brighton v Sunderland, and more: football – live",
+      "title": "Armando Broja snatches late equaliser as Burnley earn point at Bournemouth",
+      "link": "https://www.theguardian.com/football/2025/dec/20/bournemouth-burnley-premier-league-match-report",
+      "summary": "Armando Broja scored a last-minute equaliser to end Burnley’s seven-game losing run and leave Bournemouth winless in eight after a 1-1 draw. Bournemouth thought they had won it when the sought-after Antoine Semenyo scored his eighth goal of the season to finally break through Burnley’s spirited defence after 67 minutes. Continue reading...",
+      "publishedAt": "2025-12-20T17:20:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Shit Gerrard' Lampard door het stof na opstootje bij Southampton",
+      "link": "https://www.vi.nl/nieuws/shit-gerrard-lampard-door-het-stof-na-opstootje-bij-southampton",
+      "summary": "Coventry City-manager Frank Lampard heeft zich zaterdag verontschuldigd voor zijn gedrag na de uitwedstrijd tegen Southampton. Lampard reageerde na het laatste fluitsignaal op spreekkoren van fans van de thuisclub, waarna op het veld een opstootje ontstond.",
+      "publishedAt": "2025-12-20T17:19:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tottenham v Liverpool: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/20/tottenham-v-liverpool-premier-league-live",
+      "summary": "⚽ Updates from the 5.30pm Premier League kick-off ⚽ Scores | Table | Follow us on Bluesky | Mail Barry Liverpool: Curtis Jones has revealed Mo Salah apologised to the Liverpool squad for the fallout from his interview criticising the club and Arne Slot before hightailing it to Morocco for Afcon. Andy Hunter reports … Tottenham Hotspur: Thomas Frank has asked for time and patience from Tottenham fans who are increasingly frustrated by his team’s stodgy performances. Whether or not he is given either could well hinge on the performance of his team in tonight’s match, whatever the result. David Hytner reports … Continue reading...",
+      "publishedAt": "2025-12-20T17:18:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City 3-0 West Ham, Bournemouth 1-1 Burnley, and more: football – live",
       "link": "https://www.theguardian.com/football/live/2025/dec/20/manchester-city-v-west-ham-brighton-v-sunderland-and-more-football-live",
-      "summary": "⚽ Updates from Saturday afternoon’s big matches ⚽ Scores | Tables | Follow us on Bluesky | Mail Emillia Championship games (3pm unless otherwise stated) Preston North End 1-1 Norwich City FT Blackburn Rovers 2-0 Millwall FT Southampton 1-1 Coventry City FT Hull City v West Brom Bristol City v Middlesbrough Sheffield United v Birmingham City Watford v Stoke City Derby County v Portsmouth Ipswich Town v Sheffield Wednesday Charlton Athletic v Oxford United QPR v Leicester City Continue reading...",
-      "publishedAt": "2025-12-20T16:36:28.000Z"
+      "summary": "⚽ Wolves 0-2 Brentford, Brighton 0-0 Sunderland ⚽ Scores | Tables | Follow us on Bluesky | Mail Emillia Championship games (3pm unless otherwise stated) Preston North End 1-1 Norwich City FT Blackburn Rovers 2-0 Millwall FT Southampton 1-1 Coventry City FT Hull City v West Brom Bristol City v Middlesbrough Sheffield United v Birmingham City Watford v Stoke City Derby County v Portsmouth Ipswich Town v Sheffield Wednesday Charlton Athletic v Oxford United QPR v Leicester City Continue reading...",
+      "publishedAt": "2025-12-20T17:17:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Howe: Newcastle denied 'clear penalty' vs. Chelsea",
+      "link": "https://www.espn.com/soccer/story/_/id/47368166/eddie-howe-newcastle-were-denied-clear-penalty-chelsea",
+      "summary": "Eddie Howe was left fuming after Newcastle were denied a \"clear\" penalty as Chelsea fought back to snatch a Premier League draw.",
+      "publishedAt": "2025-12-20T17:13:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Haaland brace sees City keep pressure on Arsenal",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740760",
+      "summary": "Erling Haaland scored twice as Manchester City beat West Ham United 3-0 on Saturday.",
+      "publishedAt": "2025-12-20T17:13:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Adams (torn MCL) out up to 3 months",
+      "link": "https://www.espn.com/soccer/story/_/id/47358655/usa-tyler-adams-injury-bournemouth-3-months-torn-mcl",
+      "summary": "United States international Tyler Adams will be out for up to three months after tearing a medial collateral ligament, Bournemouth coach Andoni Iraola said Friday.",
+      "publishedAt": "2025-12-20T17:13:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wolves’ winless run continues as Lewis-Potter doubles up for Brentford",
+      "link": "https://www.theguardian.com/football/2025/dec/20/wolves-brentford-premier-league-match-report",
+      "summary": "Being bottom at Christmas need not mean the drop. Three years ago, Wolves were in such a position, the difference being they kicked off Boxing Day, though with 10 points rather than two. Wolves’s is a historic incompetence, the worst losing run in club history. Keane Lewis-Potter’s second-half double, Caoimhin Kelleher’s save of Jørgen Strand Larsen’s penalty adding insult to injury, left them marooned on two points. Only three teams have previously lost 10 Premier League matches in succession. Each of them finished rock-bottom come May. It had been a week of change and tragedy at Molineux. Jeff Shi, an unpopular club chair who recently described relegation as a “technicality”, departed on Friday, replaced by Nathan Shi, the interim appointment a namesake but no relation. Ahead of the game, Ethan McLeod, the Wolves trainee and Macclesfield forward who died in a car accident, received a minute’s silence. His brother, Conor, a current Under-21 squad member, was among extended family on the sidelines. Continue reading...",
+      "publishedAt": "2025-12-20T17:12:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Broja rescues late point for Burnley after Semenyo scores again!",
+      "link": "https://www.skysports.com/watch/video/13486060/bournemouth-1-1-burnley-premier-league-highlights",
+      "summary": "FREE TO WATCH: Highlights from Bournemouth's draw against Burnley in the Premier League.",
+      "publishedAt": "2025-12-20T17:12:00.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +128,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Afrika Cup wordt in toekomst minder vaak gehouden",
-      "link": "https://www.vi.nl/nieuws/afrika-cup-wordt-in-toekomst-minder-vaak-gehouden",
-      "summary": "De Afrika Cup wordt vanaf 2028 nog maar eens in de vier jaar gehouden in plaats van om het jaar, zo heeft de Afrikaanse voetbalfederatie CAF zaterdag verrassend aangekondigd.",
-      "publishedAt": "2025-12-20T16:33:39.000Z"
+      "title": "VI Live: Zagaritis lijkt de wedstrijd te beslissen in Almelo",
+      "link": "https://www.vi.nl/nieuws/vi-live-heracles-en-heerenveen-begonnen-aan-tweede-helft",
+      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
+      "publishedAt": "2025-12-20T17:11:54.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +139,43 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Antwerp wil door met Janssen: 'Het gaat voor mij niet om geld'",
-      "link": "https://www.vi.nl/nieuws/antwerp-wil-door-met-janssen-het-gaat-voor-mij-niet-om-geld",
-      "summary": "Antwerp FC wil graag langer door met Vincent Janssen , wiens contract aan het einde van het seizoen afloopt. Zelf zegt de 31-jarige spits nog niets van de club vernomen te hebben.",
-      "publishedAt": "2025-12-20T16:31:00.000Z"
+      "title": "Ontketende Haaland en Reijnders pakken de spotlights bij Manchester City",
+      "link": "https://www.vi.nl/nieuws/ontketende-haaland-en-reijnders-pakken-de-spotlights-bij-manchester-city",
+      "summary": "-",
+      "publishedAt": "2025-12-20T17:08:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bournemouth denied first win since October as Burnley snatch late point",
+      "link": "https://www.skysports.com/football/bournemouth-vs-burnley/report/531290",
+      "summary": "Bournemouth were denied their first Premier League win since October as Armando Broja's late goal snatched a 1-1 draw for Burnley.",
+      "publishedAt": "2025-12-20T17:05:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Haaland hits new heights as Man City go top with win over lowly West Ham",
+      "link": "https://www.skysports.com/football/manchester-city-vs-west-ham-united/report/531295",
+      "summary": "Manchester City cruised to a simple 3-0 victory over struggling West Ham to pile more misery on Nuno Espirito Santo, with his side now guaranteed to spend Christmas in the relegation zone.",
+      "publishedAt": "2025-12-20T17:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Which teams have reached the NFL playoffs?",
+      "link": "https://www.skysports.com/nfl/news/12040/13486008/2025-nfl-playoff-picture-afc-nfc-seedings-schedule-uk-times-and-how-to-watch-on-road-to-super-bowl-lx-at-levis-stadium-in-california",
+      "summary": "Which teams have reached the 2025 NFL playoffs? Who is still in the hunt? We look at the current standings on the road to Super Bowl LX in Santa Clara, California...",
+      "publishedAt": "2025-12-20T16:23:00.000Z"
     },
     {
       "type": "rss",
@@ -69,25 +190,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "PSV hoopt Jong-aanvaller Abed te verkopen",
-      "link": "https://www.vi.nl/nieuws/psv-hoopt-jong-aanvaller-abed-te-verkopen",
-      "summary": "Tekst",
-      "publishedAt": "2025-12-20T16:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Impose Toi steps up for Long Walk win",
-      "link": "https://www.skysports.com/racing/news/12040/13485987/ascot-nicky-hendersons-impose-toi-steps-up-for-long-walk-hurdle-win",
-      "summary": "Impose Toi continued his progression with a determined display to win the Howden Long Walk Hurdle at Ascot.",
-      "publishedAt": "2025-12-20T15:33:00.000Z"
+      "title": "Howe 'devastated' with Newcastle United draw",
+      "link": "https://www.bbc.com/sport/football/videos/c8dy79m9qevo?at_medium=RSS&at_campaign=rss",
+      "summary": "Newcastle United manager Eddie Howe says he is \"devastated\" that his side did not win against Chelsea, after a dominant first-half performance.",
+      "publishedAt": "2025-12-20T15:27:06.000Z"
     },
     {
       "type": "rss",
@@ -95,7 +205,7 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Premier League live updates: Man City host West Ham with chance to go top of table",
+      "title": "Premier League live updates: Man City go top of table with win over West Ham",
       "link": "https://www.espn.com/soccer/story/_/id/47326642/premier-league-live-updates-newcastle-united-chelsea-manchester-city-west-ham-tottenham-liverpool",
       "summary": "null",
       "publishedAt": "2025-12-20T15:26:06.000Z"
@@ -110,116 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47366433/chelsea-ratings-reece-james-stars-thrilling-draw-newcastle",
       "summary": "Chelsea completed a remarkable comeback to leave Newcastle with a 2-2 draw.",
       "publishedAt": "2025-12-20T15:26:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Championship roundup: Lampard ‘out of order’ as abuse sparks melee",
-      "link": "https://www.theguardian.com/football/2025/dec/20/championship-roundup-angry-lampard-sparks-confrontation-as-coventry-draw-with-saints",
-      "summary": "10-man leaders shrug off illness crisis to earn point Blackburn beat Millwall to ease relegation worries Frank Lampard admitted he was “out of order” after sparking a post-match melee following Coventry’s 1-1 draw at Southampton. Saints fans had showered the visitors’ manager with abuse in the latter stages of the match. After the full-time whistle, Lampard went on to the pitch and repeatedly gestured to the home supporters, which led to players reacting. “I was probably emotional,” said Lampard. “The fans had given me a bit in the last 10 minutes and I went on the pitch to give them a bit back. It was really out of order but I wouldn’t have had as long in this game if I wasn’t sometimes emotional on the pitch, and not a bad bloke off it. This story will be updated Continue reading...",
-      "publishedAt": "2025-12-20T15:20:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Africa Cup of Nations springs surprise move to every four years",
-      "link": "https://www.theguardian.com/football/2025/dec/20/africa-cup-of-nations-springs-surprise-move-to-every-four-years",
-      "summary": "Patrice Motsepe reveals change on eve of tournament Caf event held every two years since inception in 1957 The Africa Cup of Nations will be held every four years instead of every two from 2028, the Confederation of African Football (Caf) has announced. The tournament, which brings in an estimated 80% of Caf’s revenue, has been held every two years since its inception in 1957. Sunday marks the start of the 35th edition, hosted in Morocco with the home team taking on Comoros. The Caf president, Patrice Motsepe, said the next finals, scheduled for 2027 in Kenya, Tanzania and Uganda, will go ahead and another tournament would be held in 2028, but after that it will be hosted every four years. Continue reading...",
-      "publishedAt": "2025-12-20T14:57:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon to be held every four years from 2028",
-      "link": "https://www.bbc.com/sport/football/articles/cgjnx6x4281o?at_medium=RSS&at_campaign=rss",
-      "summary": "In a huge change to the football calendar, the Africa Cup of Nations will be held every four years from 2028 - switching away from biennial finals.",
-      "publishedAt": "2025-12-20T14:55:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "João Pedro rescues Chelsea draw as Newcastle squander two-goal lead",
-      "link": "https://www.theguardian.com/football/2025/dec/20/newcastle-chelsea-premier-league-match-report",
-      "summary": "Eddie Howe is synonymous with tidiness, efficiency, time management and, above all, control. Given that there is nothing remotely slapdash, careless or wasteful about Newcastle’s manager, his team’s increasing penchant for losing often hard-won authority is proving the most puzzling of paradoxes. Newcastle have developed a habit of throwing leads away this season and, 2-0 up thanks to a Nick Woltemade double, they were at it again. Continue reading...",
-      "publishedAt": "2025-12-20T14:53:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Lampard at centre of huge melee as tensions spill over at St Mary's!",
-      "link": "https://www.skysports.com/watch/video/13485938/frank-lampard-at-centre-of-huge-brawl-as-tensions-spill-over-at-st-marys",
-      "summary": "Tensions spilt over at St Mary's as Southampton drew 1-1 with Frank Lampard's Coventry.",
-      "publishedAt": "2025-12-20T14:33:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Iroko proves National credentials again with Ascot triumph",
-      "link": "https://www.skysports.com/racing/news/12040/13485927/ascot-iroko-proves-grand-national-credentials-again-with-graduation-chase-triumph",
-      "summary": "Iroko maintained his position at the head of the Grand National betting with a fine victory in the Howden Graduation Chase at Ascot.",
-      "publishedAt": "2025-12-20T14:07:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'100 per cent it is!' | Mike Dean reacts to Newcastle penalty claim",
-      "link": "https://www.skysports.com/watch/video/13485921/newcastle-vs-chelsea-mike-dean-reacts-to-newcastle-penalty-claim",
-      "summary": "Mike Dean reacts as Newcastle are denied a penalty in their Premier League clash against Chelsea.",
-      "publishedAt": "2025-12-20T13:49:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta on Arsenal future: I have to earn new deal",
-      "link": "https://www.espn.com/soccer/story/_/id/47358037/mikel-arteta-arsenal-manager-future-earn-new-contract",
-      "summary": "Mikel Arteta has hinted he could stay at Arsenal beyond his current contract but suggested he would have to earn any new deal.",
-      "publishedAt": "2025-12-20T12:31:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Adams (torn MCL) out up to 3 months",
-      "link": "https://www.espn.com/soccer/story/_/id/47358655/usa-tyler-adams-injury-bournemouth-3-months-torn-mcl",
-      "summary": "United States international Tyler Adams will be out for up to three months after tearing a medial collateral ligament, Bournemouth coach Andoni Iraola said Friday.",
-      "publishedAt": "2025-12-20T12:31:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "PSG GK fractured hand during shootout heroics",
-      "link": "https://www.espn.com/soccer/story/_/id/47358963/psg-goalkeeper-matvei-safonov-intercontinental-cup-shootout",
-      "summary": "Paris Saint-Germain goalkeeper Matvey Safonov has been left with a fractured hand following his penalty shootout heroics to win the Intercontinental Cup.",
-      "publishedAt": "2025-12-20T12:31:14.000Z"
     }
   ]
 }
