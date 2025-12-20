@@ -181,7 +181,7 @@
       "is-facebook"
     );
     addSocial(
-      "https://www.instagram.com/voetbal.4.all",
+      "https://www.instagram.com/voetbal.4.all/",
       "Voetbal4All op Instagram",
       ICON_IG,
       "is-instagram"
