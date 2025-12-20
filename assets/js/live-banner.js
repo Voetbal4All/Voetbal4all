@@ -59,10 +59,12 @@
     const socialsLabel = document.createElement("div");
     socialsLabel.className = "live-socials-label";
     socialsLabel.textContent = "Volg ons op:";
-    socialsLabel.style.fontSize = "11px";
+    socialsLabel.style.fontSize = "10px";          // iets kleiner
     socialsLabel.style.textTransform = "uppercase";
-    socialsLabel.style.letterSpacing = "0.16em";
+    socialsLabel.style.letterSpacing = "0.12em";  // minder spacing
     socialsLabel.style.fontWeight = "600";
+    socialsLabel.style.whiteSpace = "nowrap";     // 🔑 voorkomt 2 lijnen
+    socialsLabel.style.lineHeight = "1";
     socialsLabel.style.color = "currentColor"; // groen
     banner.appendChild(socials);
     socials.appendChild(socialsLabel);
