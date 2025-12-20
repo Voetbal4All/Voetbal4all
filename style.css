@@ -1466,3 +1466,47 @@ footer {
   0%, 100% { filter: drop-shadow(0 0 4px rgba(0, 255, 157, 0.18)); }
   50%      { filter: drop-shadow(0 0 6px rgba(0, 255, 157, 0.26)); }
 }
+
+/* Update onder "Live resultaten" subtieler */
+.live-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.live-label .live-updated {
+  margin: 0;
+  font-size: 10px;
+  opacity: 0.55;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(125, 252, 203, 0.75); /* groen, maar subtiel */
+}
+
+/* Live scores groter + verticaal centreren in de balk */
+.live-banner .live-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* verticaal midden */
+}
+
+.live-text-ticker {
+  display: flex;
+  align-items: center;      /* verticaal midden binnen ticker */
+  min-height: 26px;
+}
+
+.marquee-track {
+  font-size: 18px;          /* groter */
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  .marquee-track {
+    font-size: 20px;
+  }
+}
