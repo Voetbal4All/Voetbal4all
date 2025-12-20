@@ -1290,10 +1290,31 @@ footer {
 
 
 
-.live-banner .live-updated {
-  margin-top: 4px;
-  font-size: 12px;
-  color: var(--muted);
+.live-banner .live-updated{
+  position:absolute !important;
+  top:-12px !important;
+  left:50% !important;
+  transform:translateX(-50%) !important;
+
+  font-size:11px !important;
+  font-weight:600 !important;
+  letter-spacing:0.04em !important;
+
+  padding:4px 12px !important;
+  border-radius:999px !important;
+
+  color:#ff4d6d !important; /* iets feller rood */
+  background:rgba(5, 8, 20, 0.9) !important;
+
+  border:1px solid rgba(255, 77, 109, 0.75) !important;
+
+  box-shadow:
+    0 0 10px rgba(255, 77, 109, 0.55),
+    0 0 22px rgba(255, 77, 109, 0.35) !important;
+
+  white-space:nowrap !important;
+  pointer-events:none !important;
+  z-index:999 !important;
 }
 
 @media (min-width: 900px) {
