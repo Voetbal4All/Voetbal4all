@@ -1595,30 +1595,41 @@ footer {
 }
 
 /* Banner moet referentie worden voor absolute overlay */
+/* Zorg dat overlay update correct “bovenop” ligt en niet vreemd overlapt */
 .live-banner{
-  position:relative !important;
+  position: relative !important;
+  overflow: visible !important;
+  isolation: isolate; /* voorkomt rare overlap/stacking issues */
 }
 
-/* Update overlay: rood, glow, gecentreerd, buiten layout flow */
+/* Update badge: top gelijk met top van de groene banner-box */
 .live-banner .live-updated{
-  position:absolute !important;
-  top:-10px !important;                 /* “voor de border” (erboven) */
-  left:50% !important;
-  transform:translateX(-50%) !important;
+  position: absolute !important;
+  top: 0 !important;              /* bovenzijde badge = bovenzijde banner */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 
-  font-size:10px !important;
-  line-height:1 !important;
-  padding:4px 10px !important;
-  border-radius:999px !important;
+  display: inline-flex !important;
+  align-items: center !important;
 
-  color:#ff3366 !important;
-  background:rgba(5, 8, 20, 0.75) !important;
-  border:1px solid rgba(255, 51, 102, 0.55) !important;
-  box-shadow:0 0 14px rgba(255, 51, 102, 0.45) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em !important;
 
-  pointer-events:none !important;
-  z-index:5 !important;
-  white-space:nowrap !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+
+  color: #ff5a7a !important;                 /* iets feller */
+  background: rgba(5, 8, 20, 0.98) !important; /* bijna opaque => geen “doorlekken” */
+  border: 1px solid rgba(255, 90, 122, 0.85) !important;
+
+  box-shadow:
+    0 0 10px rgba(255, 90, 122, 0.55),
+    0 0 22px rgba(255, 90, 122, 0.35) !important;
+
+  white-space: nowrap !important;
+  pointer-events: none !important;
+  z-index: 999 !important;
 }
 
 /* Zorg dat overlay update altijd zichtbaar is */
