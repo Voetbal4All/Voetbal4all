@@ -1,478 +1,245 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Sportief & data - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!-- Fonts -->
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
-        </a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-<nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo">
+      </a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
+
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
+            <a href="vrienden.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
+        </div>
+
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+          </div>
+        </div>
+
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">
+              Team/Medewerker in de kijker
+            </a>
+            <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+          </div>
+        </div>
+
+        <!-- VOETBAL4ALL -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
     </div>
   </div>
+</header>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
-
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
-
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
-
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
-
-        <button class="nav-burger" aria-label="Menu">☰</button>
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
       </div>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
+<!-- ================= HEADER ADSENSE ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
 
-    <!-- PAGINA-INTRO / HERO -->
-    <section class="section-main">
-      <div class="shell">
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <article class="card" style="margin-bottom:12px;">
+    <div class="card-header">
+      <div>
+        <div class="card-caption">Sportief &amp; data</div>
+        <div class="card-title">Statistieken, analyses &amp; sportieve tools</div>
+      </div>
+      <span class="pill-small">België · Nederland · Internationaal</span>
+    </div>
+    <p class="note">
+      Overzicht van spelers- en teamstatistieken, eenvoudige dashboards,
+      sportieve analyses en tools voor amateur- en semiprofessionele clubs.
+    </p>
+  </article>
+
+  <div class="v4-layout-sidebar">
+
+    <!-- LINKS -->
+    <div class="v4-content">
+
+      <!-- ZOEK & FILTER -->
+      <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+        <input id="sportief-search" class="search-input"
+          placeholder="Zoek op U17, teamstatistiek, analyse, dashboard..." />
+        <div class="search-filters-row">
+          <select id="sportief-country" class="search-select">
+            <option value="">Alle landen</option>
+            <option value="BE">🇧🇪 België</option>
+            <option value="NL">🇳🇱 Nederland</option>
+            <option value="INT">🌍 Internationaal</option>
+          </select>
+          <input id="sportief-region" class="search-input search-input--small"
+            placeholder="Regio" />
+          <select id="sportief-type" class="search-select">
+            <option value="">Alle types</option>
+            <option value="spelerstats">Spelersstatistieken</option>
+            <option value="teamstats">Teamstatistieken</option>
+            <option value="tool">Tools / dashboards</option>
+            <option value="analyse">Analyses</option>
+            <option value="advertorial">Partner</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="article-list">
+        <!-- JOUW BESTAANDE SPORTIEF ITEMS KUN JE HIER 1-OP-1 LATEN STAAN -->
+      </div>
+
+    </div>
+
+    <!-- RECHTS -->
+    <aside class="v4-sidebar">
+      <div class="v4-sidebar-sticky">
+
         <article class="card">
           <div class="card-header">
             <div>
-              <div class="card-caption">Sportief &amp; data</div>
-              <div class="card-title">Spelers- en teamstatistieken, tools &amp; analyses.</div>
+              <div class="card-caption">Advertentie</div>
+              <div class="card-title">Sportieve tools &amp; partners</div>
             </div>
-            <span class="pill-small">België · Nederland · internationaal</span>
           </div>
-          <p class="note">
-            Deze pagina bundelt alles wat sportief en data-gericht is: spelers- en teamstatistieken,
-            eenvoudige dashboards voor amateurclubs, tools voor analyse en inspirerende voorbeelden
-            van hoe clubs met cijfers werken.
-          </p>
-
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="#sportief-overzicht" class="btn-primary">Sportieve items bekijken</a>
-            <a href="artikels.html" class="btn-secondary">Lees meer achtergrondartikels</a>
+          <div class="ad-placeholder">
+            Ideaal voor analyse-tools, GPS-tracking, video-analyse en dashboards.<br>
+            <span class="ad-size">300 × 250 / 300 × 600</span>
           </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE SPORTIEF -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="sportief-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. U17, expected goals, teamstatistiek, dashboard...)"
-          />
-          <div class="search-filters-row">
-            <select id="sportief-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="sportief-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="sportief-type" class="search-select">
-              <option value="">Alle types</option>
-              <option value="spelerstats">Spelersstatistieken</option>
-              <option value="teamstats">Teamstatistieken</option>
-              <option value="tool">Tools / dashboards</option>
-              <option value="analyse">Analyses &amp; voorbeelden</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
+      </div>
+    </aside>
+
+  </div>
+
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">
+          &copy; <span id="year"></span> Voetbal4All.
         </div>
       </div>
-    </section>
-
-    <!-- SPORTIEF OVERZICHT + ADVERTENTIES -->
-    <section class="section-main" id="sportief-overzicht">
-      <div class="shell">
-
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · SPORTIEF (TOP)
-          <span class="ad-size">
-            Ideaal voor analyse-tools, dataplatformen of GPS-trackingpartners.
-          </span>
-        </div>
-
-        <!-- Layout: sportief items links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: SPORTIEVE ITEMS -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Item 1 - spelersstatistieken België -->
-              <article class="article-item"
-                       data-title="Spelersstatistieken U17 België Kempen goals assists overzicht">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Visual spelersstats
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Spelersstatistieken</div>
-                    <h2 class="article-title">
-                      <a href="#">Spelersstatistieken U17 · regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Overzicht van goals, assists en gespeelde minuten per speler.
-                      Simpel exporteerbaar naar Excel of PDF voor de jeugdcoördinator.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Item 2 - teamstatistieken Nederland -->
-              <article class="article-item"
-                       data-title="Teamstatistieken U15 Nederland Randstad resultaten ontwikkeling">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Visual teamstats
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Teamstatistieken</div>
-                    <h2 class="article-title">
-                      <a href="#">Teamstatistieken U15 · regio Randstad</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Analyse van resultaten, doelpunten voor/tegen en evolutie doorheen het seizoen.
-                      Handig voor trainersbesprekingen en ouderavonden.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Item 3 - tool/dashboard België -->
-              <article class="article-item"
-                       data-title="Dashboard jeugdwerking België tool statistiek overzicht">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Visual dashboard
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Tool / dashboard</div>
-                    <h2 class="article-title">
-                      <a href="#">Eenvoudig dashboard voor de jeugdwerking</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Eén overzicht met aantal spelers per ploeg, bezetting per positie en doorstroming
-                      naar hogere reeksen. Ideaal voor sportieve cel en bestuur.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Item 4 - analyse internationaal -->
-              <article class="article-item"
-                       data-title="Analyse intensiteit trainingen internationaal gps load monitoring">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Visual analyse
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Analyse &amp; voorbeelden</div>
-                    <h2 class="article-title">
-                      <a href="#">Analyse van trainingsintensiteit met eenvoudige tools</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Hoe clubs met beperkte middelen toch inzicht krijgen in belasting en intensiteit,
-                      zonder fulltime data-analist of duur GPS-systeem.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Item 5 - spelersstatistieken Nederland (individuele ontwikkeling) -->
-              <article class="article-item"
-                       data-title="Individuele ontwikkeling speler Nederland progressie statistiek">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Visual individuele stats
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Spelersstatistieken</div>
-                    <h2 class="article-title">
-                      <a href="#">Individuele ontwikkeling van spelers opvolgen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Voorbeeld van hoe je technische, fysieke en mentale parameters kan samenbrengen
-                      in één overzicht per speler, seizoen na seizoen.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner sportieve tools -->
-              <article class="article-item"
-                       data-title="Advertorial partner analyse tool data platform">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Analyseplatform: koppel wedstrijddata aan je teamplanning</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Partnertool die wedstrijdgegevens, training attendance en individuele data combineert.
-                      Duidelijk als advertentie aangeduid, maar sportief relevant.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-            </div>
-          </section>
-
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Sportieve partners &amp; tools</div>
-                </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
-              </div>
-
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">GPS-vesten &amp; trackers</div>
-                  <div class="event-meta">Monitor afstanden, intensiteit en sprints voor je eerste ploegen.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Video-analyse &amp; tagging</div>
-                  <div class="event-meta">Analyseer wedstrijden met simpele tagging-workflows voor trainers.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Online dataplatform voor clubs</div>
-                  <div class="event-meta">Bundel leden, wedstrijden, statistieken en scouting in één omgeving.</div>
-                </li>
-              </ul>
-            </article>
-
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · SPORTIEF ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor sportieve tools, analysepartners of GPS-leveranciers.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
-              </div>
-            </div>
-          </aside>
-
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
-          </div>
-        </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
-        </div>
-      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // Uitgebreide zoekfunctie voor sportieve items
-  const sportiefSearchInput = document.getElementById('sportief-search');
-  const sportiefCountrySelect = document.getElementById('sportief-country');
-  const sportiefRegionInput = document.getElementById('sportief-region');
-  const sportiefTypeSelect = document.getElementById('sportief-type');
-  const sportiefItems = document.querySelectorAll('.article-list .article-item');
-
-  function getCountryFromSportiefItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
-
-  function getTypeFromSportiefItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('spelersstatistieken')) return 'spelerstats';
-    if (metaText.includes('teamstatistieken')) return 'teamstats';
-    if (metaText.includes('tool') || metaText.includes('dashboard')) return 'tool';
-    if (metaText.includes('analyse') || metaText.includes('voorbeelden')) return 'analyse';
-
-    return '';
-  }
-
-  function applySportiefFilter() {
-    const textQuery = (sportiefSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (sportiefRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (sportiefCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (sportiefTypeSelect?.value || '').toLowerCase();
-
-    sportiefItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromSportiefItem(item);
-      const itemType = getTypeFromSportiefItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
-    });
-  }
-
-  if (sportiefItems.length) {
-    sportiefSearchInput?.addEventListener('input', applySportiefFilter);
-    sportiefCountrySelect?.addEventListener('change', applySportiefFilter);
-    sportiefRegionInput?.addEventListener('input', applySportiefFilter);
-    sportiefTypeSelect?.addEventListener('change', applySportiefFilter);
-  }
 </script>
- 
-<script src="assets/js/nav-mobile.js"></script>  
+
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
