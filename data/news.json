@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2025-12-20T05:41:54.814Z",
+  "generatedAt": "2025-12-20T06:56:31.894Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Cambuur als eerste KKD-ploeg een heel jaar ongeslagen in eigen huis",
+      "link": "https://www.vi.nl/nieuws/cambuur-als-eerste-ploeg-een-heel-jaar-ongeslagen-in-eigen-huis",
+      "summary": "Cambuur kroonde zich vrijdagavond tot de eerste ploeg ooit die een heel kalenderjaar geen wedstrijd verloor in de Eerste Divisie. De ploeg uit Leeuwarden won overtuigend van MVV waarmee het totaal van 2025 op zeventien overwinningen en drie remises eindigt.",
+      "publishedAt": "2025-12-20T05:59:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mancini, sibling rivalry and wanting to excite fans - the Yaya Toure story",
+      "link": "https://www.bbc.com/sport/football/articles/cgqzg33jwn4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Yaya Toure reflects on a glittering career at clubs such as Barcelona and Manchester City as well as with his country, Ivory Coast.",
+      "publishedAt": "2025-12-20T05:57:09.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -29,7 +51,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "The Ashes LIVE! England reach 150-3 chasing record 435 to save Ashes",
+      "title": "The Ashes LIVE! England six down chasing record 435 to keep Ashes alive",
       "link": "https://www.skysports.com/cricket/live-blog/12040/13484192/the-ashes-australia-vs-england-third-test-live-score-and-updates-from-adelaide-oval-in-must-win-game-for-ben-stokes-side",
       "summary": "",
       "publishedAt": "2025-12-20T04:20:00.000Z"
@@ -198,28 +220,6 @@
       "link": "https://www.skysports.com/watch/video/13485747/world-darts-championship-lourence-ilagan-terrified-by-ally-pally-wasp",
       "summary": "Relive the hilarious moment Lourence Ilagan was left frightened by the infamous Ally Pally wasp!",
       "publishedAt": "2025-12-19T21:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Cambuur als eerste KKD-ploeg een heel jaar ongeslagen in eigen huis",
-      "link": "https://www.vi.nl/nieuws/cambuur-als-eerste-ploeg-een-heel-jaar-ongeslagen-in-eigen-huis",
-      "summary": "Cambuur kroonde zich vrijdagavond tot de eerste ploeg ooit die een heel kalenderjaar geen wedstrijd verloor in de Eerste Divisie. De ploeg uit Leeuwarden won overtuigend van MVV waarmee het totaal van 2025 op zeventien overwinningen en drie remises eindigt.",
-      "publishedAt": "2025-12-19T21:33:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Greaves loses Gurney epic as Aspinall makes winning start to Worlds",
-      "link": "https://www.skysports.com/darts/news/12040/13485650/world-darts-championship-beau-greaves-beaten-in-final-set-thriller-by-daryl-gurney-to-suffer-first-round-exit-at-alexandra-palace",
-      "summary": "Beau Greaves narrowly missed out on becoming the second woman in history to win a match at the World Darts Championship after a dramatic 3-2 defeat to Daryl Gurney at Alexandra Palace.",
-      "publishedAt": "2025-12-19T21:30:00.000Z"
     }
   ]
 }
