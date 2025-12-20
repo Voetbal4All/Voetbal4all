@@ -1422,3 +1422,15 @@ footer { margin-top: auto; }
   position: relative;
   z-index: 1;
 }
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-cta--compact {
+  margin-left: 12px;
+  white-space: nowrap;
+}
