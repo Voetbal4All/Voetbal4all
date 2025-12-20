@@ -1603,3 +1603,43 @@ footer { margin-top: auto; }
     min-height: 120px;
   }
 }
+
+/* =========================
+   CLS FIXES – CARD / IMAGE STABILITY
+   ========================= */
+
+/* Voorkom dat images de layout later doen verschuiven */
+img {
+  height: auto;
+}
+
+/* Als je thumbnails/afbeeldingen in kaarten gebruikt */
+.card img,
+.article-card img,
+.event-card img,
+.card-media img {
+  width: 100%;
+  display: block;
+}
+
+/* Reserveer altijd ruimte voor media in cards (werkt ook als sommige selectors niet bestaan) */
+.card-media,
+.article-thumb,
+.event-thumb,
+.thumb,
+.card-thumb {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+/* Zorg dat de afbeelding netjes de gereserveerde ruimte vult */
+.card-media img,
+.article-thumb img,
+.event-thumb img,
+.thumb img,
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
