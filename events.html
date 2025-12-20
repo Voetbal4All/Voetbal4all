@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense (zoals homepage/artikels) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Voetbal4All - Events & tornooien</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,24 +12,24 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<!-- Live banner NIET op mobiel voor niet-home pagina’s -->
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
+  <!-- NAVBAR (zelfde patroon als andere pagina’s) -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
-          <a href="index.html" class="brand brand--logo-only">
+        <a href="index.html" class="brand brand--logo-only">
           <img
             src="assets/img/brand/logo-voetbal4all.svg"
             alt="Voetbal4All"
             class="brand-logo"
             loading="eager"
           />
-          </a>
+        </a>
 
-        <!-- NAV (NIEUWE VERSIE) -->
-        <!-- kopieer ditzelfde nav-blok naar ALLE pagina's -->
         <nav class="nav-links">
           <a href="/" class="nav-link">Home</a>
           <a href="artikels.html" class="nav-link">Artikels</a>
@@ -83,12 +87,66 @@
     </div>
   </header>
 
+  <!-- LIVE SCORES BANNER (PC + tablet zichtbaar; mobiel verborgen via body class) -->
+  <section class="live-banner-top">
+    <div class="shell">
+      <div class="live-banner">
+        <div class="live-label">
+          <span class="live-dot"></span>
+          Live resultaten
+        </div>
+        <div class="live-text">
+          <span class="live-text-main"></span>
+          <div class="live-updated"></div>
+        </div>
+        <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+          <div class="live-socials-label">Volg ons</div>
+          <!-- deze iconen worden in de praktijk ook door live-banner.js opgebouwd; HTML blijft als fallback -->
+          <div class="live-socials-icons">
+            <a class="live-social" href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.76-1.61 1.54V12h2.74l-.44 2.89h-2.3v6.99A10 10 0 0 0 22 12Z"/>
+              </svg>
+            </a>
+            <a class="live-social" href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4Zm-4.5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.1-2.3a1.05 1.05 0 1 1-1.05 1.05 1.05 1.05 0 0 1 1.05-1.05Z"/>
+              </svg>
+            </a>
+            <a class="live-social" href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21 8.5a6.6 6.6 0 0 1-4.3-1.6v7.2a6.5 6.5 0 1 1-6.5-6.5c.4 0 .8 0 1.2.1v3.3a3.2 3.2 0 1 0 2 3V2h3.3a6.6 6.6 0 0 0 4.3 4.3v2.2Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEADER AD (boven de fold, onder navbar/banner) -->
+  <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+    <div class="shell">
+      <div class="ad-slot ad-slot-header sticky-ad-header">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-4062633211824348"
+          data-ad-slot="3518144343"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </section>
+
   <main>
     <section class="section-main">
       <div class="shell">
 
-        <!-- KORTE INTRO -->
-        <article class="card" style="margin-bottom:12px; max-width:900px;">
+        <!-- INTRO -->
+        <article class="card" style="margin-bottom:12px;">
           <div class="card-header">
             <div>
               <div class="card-caption">Events</div>
@@ -99,18 +157,18 @@
           <p class="note">
             Clubs kunnen hier events plaatsen zoals vriendschappelijke wedstrijden, jeugdtornooien, stages/kampen,
             dinners en algemene clubactiviteiten. Events blijven online tot de dag na het event
-            of tot de plaatser/beheerder het event verwijdert (in deze demo: we verbergen events waarvan de datum + 1 dag voorbij is).
+            (in deze demo: we verbergen events waarvan de datum + 1 dag voorbij is).
           </p>
         </article>
 
-        <!-- GRID: LINKS FORMULIER + OVERZICHT · RECHTS INFO / ADS -->
-        <div class="lower-grid-layout" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr); align-items:flex-start;">
+        <!-- CONTENT LINKS + STICKY SIDEBAR RECHTS -->
+        <div class="v4-layout-sidebar">
 
-          <!-- LINKERKOLOM -->
-          <div>
+          <!-- LINKS: CONTENT -->
+          <div class="v4-content">
 
-            <!-- ZOEK- EN FILTERBALK -->
-            <div class="search-bar" style="margin-bottom:12px;">
+            <!-- ZOEK + FILTERS -->
+            <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
               <input
                 type="text"
                 id="event-search-text"
@@ -152,11 +210,22 @@
               </div>
             </div>
 
-            <!-- FORMULIER: NIEUW EVENT -->
-            <!-- (inhoud zoals eerder: identiek gehouden, niet opnieuw uitschrijven om dit bericht niet te lang te maken) -->
-            <!-- Je kan hier je bestaande events-formulier laten staan; CSS blijft compatibel. -->
+            <!-- IN-CONTENT AD (net onder filters: vaak goede CTR) -->
+            <section class="section-main" style="padding-top:0;padding-bottom:10px;">
+              <div class="ad-infeed">
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="4831226012"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </section>
 
-            <!-- OVERZICHT EVENTS: 3 KOLOMMEN -->
+            <!-- OVERZICHT -->
             <section class="section-main" style="padding-top:0;">
               <div class="card">
                 <div class="card-header">
@@ -164,14 +233,16 @@
                     <div class="card-caption">Overzicht</div>
                     <div class="card-title">Events &amp; tornooien</div>
                   </div>
-                  <span class="pill-small">3 per rij · delen &amp; inschrijven</span>
+                  <span class="pill-small">Onder elkaar · beter leesbaar</span>
                 </div>
+
                 <p class="note">
                   Events met een datum in het verleden worden automatisch verborgen (dag na het event).
                 </p>
 
-                <div id="event-ads" class="ad-card-list ad-card-grid">
-                  <!-- VOORBEELD-EVENT (idem als eerder) -->
+                <!-- BELANGRIJK: stack i.p.v. 3-kolom grid -->
+                <div id="event-ads" class="ad-card-list ad-card-list--stack">
+                  <!-- VOORBEELD-EVENT (inhoud behouden uit je vorige versie) -->
                   <article class="ad-card" id="event-ad-1" data-ad-id="1" data-country="BE" data-type="Tornooi" data-date="2025-08-15">
                     <div class="ad-card-header">
                       <div>
@@ -191,52 +262,68 @@
                     </div>
                   </article>
                 </div>
+
               </div>
             </section>
 
           </div>
 
-          <!-- RECHTERKOLOM: UITLEG + ADVERTENTIES -->
-          <aside>
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Events</div>
-                  <div class="card-title">Waarom via Voetbal4All?</div>
-                </div>
-              </div>
-              <p class="note">
-                In de live versie kan je via Voetbal4All:
-              </p>
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-title">Clubs bereiken</div>
-                  <div class="event-meta">Promoot je event naar clubs in jouw regio en daarbuiten.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Inschrijvingen centraliseren</div>
-                  <div class="event-meta">Reacties verlopen via Voetbal4All, zonder jouw e-mailadres publiek te tonen.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Planning en overzicht</div>
-                  <div class="event-meta">Combineer events met vriendschappelijke wedstrijden, tornooien en stages.</div>
-                </li>
-              </ul>
-            </article>
+          <!-- RECHTS: STICKY ADS -->
+          <aside class="v4-sidebar">
+            <div class="v4-sidebar-sticky">
 
-            <article class="card" style="margin-top:12px;">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertentiezone</div>
-                  <div class="card-title">Tournament partners</div>
+              <article class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Advertentie</div>
+                    <div class="card-title">Sponsor / Partner</div>
+                  </div>
+                  <span class="pill-small">Premium</span>
                 </div>
-                <span class="pill-small">Shirts · bekers · reizen</span>
+                <div class="ad-placeholder">
+                  Vaste partnerzone (premium) voor event-organisatoren, bekers/trofeeën, stages, busreizen, …
+                  <br />
+                  <span class="ad-size">Aanrader: 300 × 250 of 300 × 600</span>
+                </div>
+              </article>
+
+              <!-- Sticky AdSense (hoog rendement op desktop) -->
+              <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="6032627042"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
               </div>
-              <div class="ad-placeholder">
-                Adverteren met tornooipakketten, bekers, trofeeën of voetbalkampen.<br />
-                <span class="ad-size">Bv. 300 × 250 px</span>
-              </div>
-            </article>
+
+              <article class="card" style="margin-top:12px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Waarom via Voetbal4All?</div>
+                    <div class="card-title">Meer bereik, minder gedoe</div>
+                  </div>
+                </div>
+                <ul class="events-list">
+                  <li class="event-item">
+                    <div class="event-title">Clubs bereiken</div>
+                    <div class="event-meta">Promoot je event naar clubs in jouw regio en daarbuiten.</div>
+                  </li>
+                  <li class="event-item">
+                    <div class="event-title">Inschrijvingen centraliseren</div>
+                    <div class="event-meta">Reacties verlopen via Voetbal4All, zonder jouw e-mailadres publiek te tonen.</div>
+                  </li>
+                  <li class="event-item">
+                    <div class="event-title">Planning en overzicht</div>
+                    <div class="event-meta">Combineer vriendschappelijke wedstrijden, tornooien en stages.</div>
+                  </li>
+                </ul>
+              </article>
+
+            </div>
           </aside>
 
         </div>
@@ -245,7 +332,7 @@
     </section>
   </main>
 
-  <!-- FOOTER -->
+  <!-- FOOTER (met correcte IG + TikTok) -->
   <footer class="footer" id="footer-contact">
     <div class="shell">
       <div class="footer-grid">
@@ -256,8 +343,9 @@
             · Mogelijkheden voor hoofdsponsor, partners en advertenties.
           </div>
           <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+            <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+            <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+            <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
           </div>
         </div>
         <div class="footer-ad">
@@ -317,37 +405,41 @@
       const fbShare = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlWithAnchor);
       link.setAttribute("href", fbShare);
       link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
     });
   }
   updateEventShareLinks();
 
-  // 4) Reageren via verborgen e-mail (zelfde principe als spelers/trainers)
+  // 4) Reageren via verborgen e-mail
   document.addEventListener("click", function (e) {
-    if (e.target.matches("[data-reply-event]")) {
-      const adId = e.target.getAttribute("data-reply-event");
-      const ok = confirm(
-        "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
-      );
-      if (!ok) return;
+    const btn = e.target.closest("[data-reply-event]");
+    if (!btn) return;
 
-      const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
-      if (!replyEmail) {
-        alert("E-mailadres is nodig om te kunnen reageren.");
-        return;
-      }
+    const adId = btn.getAttribute("data-reply-event");
+    const ok = confirm(
+      "Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All."
+    );
+    if (!ok) return;
 
-      const subject = encodeURIComponent("Reactie via Voetbal4All op event " + adId);
-      const body = encodeURIComponent(
-        "Event-ID: " + adId +
-        "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
-        "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
-      );
-
-      window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+    const replyEmail = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
+    if (!replyEmail) {
+      alert("E-mailadres is nodig om te kunnen reageren.");
+      return;
     }
+
+    const subject = encodeURIComponent("Reactie via Voetbal4All op event " + adId);
+    const body = encodeURIComponent(
+      "Event-ID: " + adId +
+      "\n\nE-mailadres van de geïnteresseerde: " + replyEmail +
+      "\n\nBericht:\n(Voeg hier in jouw mail je bericht aan de club toe.)"
+    );
+
+    window.location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
   });
 </script>
- 
-<script src="assets/js/nav-mobile.js"></script>  
+
+<script src="assets/js/nav-mobile.js"></script>
+<!-- cache-bust is aanbevolen als je net wijzigingen deed -->
+<script src="assets/js/live-banner.js?v=20251220-1"></script>
 </body>
 </html>
