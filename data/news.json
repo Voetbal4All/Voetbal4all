@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-19T23:34:37.483Z",
+  "generatedAt": "2025-12-20T03:43:11.335Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Milik na anderhalf jaar weer bij wedstrijdselectie Juventus",
-      "link": "https://www.vi.nl/nieuws/milik-na-anderhalf-jaar-weer-bij-wedstrijdselectie-juventus",
-      "summary": "Heuglijk nieuws voor Arkadiusz Milik: de Poolse spits zit voor het eerst in ruim anderhalf jaar weer eens bij de wedstrijdselectie van Juventus. In die periode werd Milik geteisterd door blessureproblemen.",
-      "publishedAt": "2025-12-19T22:45:13.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Adams (torn MCL) out up to 3 months",
+      "link": "https://www.espn.com/soccer/story/_/id/47358655/usa-tyler-adams-injury-bournemouth-3-months-torn-mcl",
+      "summary": "United States international Tyler Adams will be out for up to three months after tearing a medial collateral ligament, Bournemouth coach Andoni Iraola said Friday.",
+      "publishedAt": "2025-12-20T00:28:09.000Z"
     },
     {
       "type": "rss",
@@ -21,18 +21,7 @@
       "title": "Arteta on Arsenal future: I have to earn new deal",
       "link": "https://www.espn.com/soccer/story/_/id/47358037/mikel-arteta-arsenal-manager-future-earn-new-contract",
       "summary": "Mikel Arteta has hinted he could stay at Arsenal beyond his current contract but suggested he would have to earn any new deal.",
-      "publishedAt": "2025-12-19T22:39:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Adams (torn MCL) out up to 3 months",
-      "link": "https://www.espn.com/soccer/story/_/id/47358655/usa-tyler-adams-injury-bournemouth-3-months-torn-mcl",
-      "summary": "United States international Tyler Adams will be out for up to three months after tearing a medial collateral ligament, Bournemouth coach Andoni Iraola said Friday.",
-      "publishedAt": "2025-12-19T22:39:47.000Z"
+      "publishedAt": "2025-12-20T00:28:09.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +32,7 @@
       "title": "PSG GK fractured hand during shootout heroics",
       "link": "https://www.espn.com/soccer/story/_/id/47358963/psg-goalkeeper-matvei-safonov-intercontinental-cup-shootout",
       "summary": "Paris Saint-Germain goalkeeper Matvey Safonov has been left with a fractured hand following his penalty shootout heroics to win the Intercontinental Cup.",
-      "publishedAt": "2025-12-19T22:39:47.000Z"
+      "publishedAt": "2025-12-20T00:28:09.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +40,32 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Wrexham sunk by keeper's late error at Swansea",
-      "link": "https://www.espn.com/soccer/report/_/gameId/744859",
-      "summary": "Swansea claimed the Welsh bragging rights over Wrexham with a dramatic 2-1 comeback home win.",
-      "publishedAt": "2025-12-19T22:39:47.000Z"
+      "title": "Wrexham boss defends keeper after derby blunder",
+      "link": "https://www.espn.com/soccer/story/_/id/47361516/wrexham-phil-parkinson-goalkeeper-arthur-okonkwo-error-swansea",
+      "summary": "Phil Parkinson defended \"colossus\" Arthur Okonkwo after the Wrexham goalkeeper's 90th-minute howler gifted Swansea a 2-1 victory in a hard-fought Welsh derby.",
+      "publishedAt": "2025-12-20T00:28:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League news: Guardiola dismisses exit talk and Wolves chief steps down",
+      "link": "https://www.theguardian.com/football/2025/dec/19/premier-league-news-guardiola-dismisses-exit-talk-and-slot-has-moved-on-from-salah-fallout",
+      "summary": "Press conference updates on Viktor Gyökeres, Tyler Adams and Arne Slot discussing Mohamed Salah Continue reading...",
+      "publishedAt": "2025-12-19T23:13:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Milik na anderhalf jaar weer bij wedstrijdselectie Juventus",
+      "link": "https://www.vi.nl/nieuws/milik-na-anderhalf-jaar-weer-bij-wedstrijdselectie-juventus",
+      "summary": "Heuglijk nieuws voor Arkadiusz Milik: de Poolse spits zit voor het eerst in ruim anderhalf jaar weer eens bij de wedstrijdselectie van Juventus. In die periode werd Milik geteisterd door blessureproblemen.",
+      "publishedAt": "2025-12-19T22:45:13.000Z"
     },
     {
       "type": "rss",
@@ -124,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mohamed Salah apologised to Liverpool squad for outburst, reveals Curtis Jones",
-      "link": "https://www.theguardian.com/football/2025/dec/19/mohamed-salah-apologised-to-liverpool-squad-for-outburst-reveals-curtis-jones",
-      "summary": "Liverpool teammate discusses fallout from interview Slot says Wirtz is adapting by bulking up in the gym Curtis Jones has revealed Mohamed Salah apologised to the Liverpool squad for the fallout from his interview criticising the club and Arne Slot. Salah was omitted from Liverpool’s Champions League win against Inter having accused the club of throwing him under a bus in response to a poor run of results. The striker also claimed his relationship with Slot had broken down and that he had earned his position in the team after eight phenomenal seasons. Continue reading...",
-      "publishedAt": "2025-12-19T22:30:05.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -164,7 +164,7 @@
       "title": "Alfred Schreuder begint weer na hartproblemen: 'Bewust even gestopt'",
       "link": "https://www.vi.nl/nieuws/alfred-schreuder-begint-weer-na-hartproblemen-bewust-even-gestopt",
       "summary": "Alfred Schreuder is sinds kort weer trainer. De 53-jarige oefenmeester ging aan de slag bij Al-Diriyah uit Saoedi-Arabië. In de maanden daarvoor koos Schreuder er bewust voor om het even rustig aan te doen. Hij vertelt openhartig over de fysieke problemen die hij heeft gehad.",
-      "publishedAt": "2025-12-19T22:06:08.000Z"
+      "publishedAt": "2025-12-19T21:55:00.000Z"
     },
     {
       "type": "rss",
