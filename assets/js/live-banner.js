@@ -80,42 +80,44 @@
         <path d="M17.5 6.3a1.2 1.2 0 1 1 0 2.4a1.2 1.2 0 0 1 0-2.4z"/>
       </svg>`;
 
-    function makeSocialButton(href, label, svg) {
-      const a = document.createElement("a");
-      a.className = "live-social";
-      a.href = href;
-      a.target = "_blank";
-      a.rel = "noopener";
-      a.setAttribute("aria-label", label);
+function makeSocialButton(href, label, svg) {
+  const a = document.createElement("a");
+  a.className = "live-social";
+  a.href = href;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.setAttribute("aria-label", label);
 
-      // Rondje + center (zonder CSS)
-      a.style.width = "44px";
-      a.style.height = "44px";
-      a.style.borderRadius = "999px";
-      a.style.display = "inline-flex";
-      a.style.alignItems = "center";
-      a.style.justifyContent = "center";
-      a.style.border = "1px solid rgba(0,255,157,0.65)";
-      a.style.background = "rgba(1,10,6,0.85)";
-      a.style.color = "currentColor"; // groen
-      a.style.transition = "transform 0.25s ease";
+  // RONDE container (BELANGRIJK)
+  a.style.width = "44px";
+  a.style.height = "44px";
+  a.style.borderRadius = "999px";
+  a.style.display = "inline-flex";
+  a.style.alignItems = "center";
+  a.style.justifyContent = "center";
+  a.style.border = "1px solid rgba(0,255,157,0.65)";
+  a.style.background = "rgba(1,10,6,0.85)";
+  a.style.color = "#00ff9d";
+  a.style.overflow = "hidden";          // 🔑 FIX voor Instagram
+  a.style.filter = "drop-shadow(0 0 8px rgba(0,255,157,0.8))";
+  a.style.transition = "transform 0.25s ease";
 
-      a.addEventListener("mouseenter", () => (a.style.transform = "scale(1.06)"));
-      a.addEventListener("mouseleave", () => (a.style.transform = "scale(1)"));
+  a.addEventListener("mouseenter", () => (a.style.transform = "scale(1.06)"));
+  a.addEventListener("mouseleave", () => (a.style.transform = "scale(1)"));
 
-      a.innerHTML = svg;
+  a.innerHTML = svg;
 
-      // Forceer SVG groen + groter
-      const svgEl = a.querySelector("svg");
-      if (svgEl) {
-        svgEl.style.width = "26px";
-        svgEl.style.height = "26px";
-        svgEl.style.display = "block";
-        svgEl.style.fill = "currentColor"; // groen
-      }
+  // SVG correct schalen + centreren
+  const svgEl = a.querySelector("svg");
+  if (svgEl) {
+    svgEl.style.width = "26px";
+    svgEl.style.height = "26px";
+    svgEl.style.display = "block";
+    svgEl.style.fill = "currentColor";
+  }
 
-      return a;
-    }
+  return a;
+}
 
     const row = document.createElement("div");
     row.style.display = "flex";
