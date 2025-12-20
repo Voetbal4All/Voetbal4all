@@ -1,475 +1,243 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
-  <title>Tornooien - Voetbal4All</title>
+  <title>Voetbal4All - Tornooien</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!-- Fonts -->
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
-        </a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-<nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo">
+      </a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
+
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
+        </div>
+
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+            <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+            <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+          </div>
+        </div>
+
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">
+              Team/Medewerker in de kijker
+            </a>
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
     </div>
   </div>
+</header>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
-
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
-
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
-
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
-
-        <button class="nav-burger" aria-label="Menu">☰</button>
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
       </div>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
+<!-- ================= HEADER ADSENSE ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
 
-    <!-- PAGINA-INTRO / HERO -->
-    <section class="section-main">
-      <div class="shell">
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <article class="card" style="margin-bottom:12px;">
+    <div class="card-header">
+      <div>
+        <div class="card-caption">Sportieve events</div>
+        <div class="card-title">Tornooien</div>
+      </div>
+      <span class="pill-small">Jeugd · Senioren · Indoor · Outdoor</span>
+    </div>
+    <p class="note">
+      Overzicht van jeugd- en seniortornooien in België, Nederland en internationaal.
+      Ideaal om je sportieve kalender te vullen of je eigen tornooi zichtbaar te maken.
+    </p>
+  </article>
+
+  <div class="v4-layout-sidebar">
+
+    <!-- LINKS -->
+    <div class="v4-content">
+
+      <!-- ZOEK & FILTER -->
+      <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+        <input id="tornooi-search" class="search-input"
+               placeholder="Zoek op U11, indoor, zomer, regio..." />
+        <div class="search-filters-row">
+          <select id="tornooi-country" class="search-select">
+            <option value="">Alle landen</option>
+            <option value="BE">🇧🇪 België</option>
+            <option value="NL">🇳🇱 Nederland</option>
+            <option value="INT">🌍 Internationaal</option>
+          </select>
+          <select id="tornooi-type" class="search-select">
+            <option value="">Alle types</option>
+            <option value="jeugd">Jeugdtornooi</option>
+            <option value="seniors">Seniortornooi</option>
+            <option value="meerdaags">Meerdaags</option>
+            <option value="advertorial">Partner</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- TORNOOIEN -->
+      <div class="article-list">
+        <!-- JOUW BESTAANDE TORNOOI-CARDS KUN JE HIER 1-OP-1 LATEN STAAN -->
+      </div>
+
+    </div>
+
+    <!-- RECHTS -->
+    <aside class="v4-sidebar">
+      <div class="v4-sidebar-sticky">
+
         <article class="card">
           <div class="card-header">
             <div>
-              <div class="card-caption">Tornooien</div>
-              <div class="card-title">Jeugd- en seniortornooien in België, Nederland &amp; internationaal.</div>
+              <div class="card-caption">Advertentie</div>
+              <div class="card-title">Partners rond tornooien</div>
             </div>
-            <span class="pill-small">Eendags · meerdaags · indoor · outdoor</span>
           </div>
-          <p class="note">
-            Op deze pagina komen alle tornooien die clubs aanmelden: jeugdtornooien, seniorentornooien,
-            indoor- en zomertornooien. Elke entry toont een flyer of visual met landvlag. Ideaal om
-            je kalender te vullen of je eigen tornooi zichtbaar te maken.
-          </p>
-
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="events.html" class="btn-secondary">Terug naar alle events</a>
+          <div class="ad-placeholder">
+            Ideaal voor drukwerk, bekers &amp; medailles, catering en logistiek.<br>
+            <span class="ad-size">300 × 250 / 300 × 600</span>
           </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE TORNOOIEN -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="tornooi-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. U11, paastornooi, indoor, ladies...)"
-          />
-          <div class="search-filters-row">
-            <select id="tornooi-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="tornooi-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="tornooi-type" class="search-select">
-              <option value="">Alle types</option>
-              <option value="jeugd">Jeugdtornooi</option>
-              <option value="seniors">Seniortornooi</option>
-              <option value="meerdaags">Meerdaags / weekend</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
+      </div>
+    </aside>
+
+  </div>
+
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">
+          &copy; <span id="year"></span> Voetbal4All.
         </div>
       </div>
-    </section>
-
-    <!-- TORNOOIEN + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
-
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · TORNOOIEN (TOP)
-          <span class="ad-size">
-            Ideaal voor drukwerkpartners, medaille- &amp; bekerleveranciers, catering of logistieke partners.
-          </span>
-        </div>
-
-        <!-- Layout: tornooien links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: TORNOOIEN -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Tornooi 1 - België - jeugd - eendags -->
-              <article class="article-item"
-                       data-title="Jeugdtornooi U8 U9 België Kempen eendags paastornooi">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer jeugdtornooi
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Jeugdtornooi · U8–U9</div>
-                    <h2 class="article-title">
-                      <a href="#">Paastornooi U8–U9 · regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Compact eendagstornooi met poules en finaleronde. Ideaal als seizoensafsluiter
-                      voor onderbouwteams, met randanimatie en catering.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Tornooi 2 - België - jeugd - meerdaags -->
-              <article class="article-item"
-                       data-title="Zomertornooi U10 U11 België Limburg tweedaags">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer zomertornooi
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Jeugdtornooi · meerdaags</div>
-                    <h2 class="article-title">
-                      <a href="#">Zomertornooi U10–U11 · tweedaags tornooi</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Twee speeldagen met ploegen uit verschillende provincies, met mogelijkheid tot
-                      overnachting in de buurt en avondactiviteiten.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Tornooi 3 - Nederland - seniors -->
-              <article class="article-item"
-                       data-title="Seniortornooi voorbereiding Nederland Randstad eerste elftal">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto seniortornooi
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Seniortornooi</div>
-                    <h2 class="article-title">
-                      <a href="#">Voorbereidingstornooi eerste elftallen · Randstad</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Vierploegentornooi voor eerste elftallen op 2e/3e klasse niveau. Perfect
-                      als voorbereiding op de competitiestart.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Tornooi 4 - Nederland - jeugd - indoor -->
-              <article class="article-item"
-                       data-title="Indoor wintertornooi U12 Nederland zaalvoetbal wintersessie">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer indoor tornooi
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Jeugdtornooi · indoor</div>
-                    <h2 class="article-title">
-                      <a href="#">Indoor wintertornooi U12 · zaalvoetbal</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Korte wedstrijden in zaalformaat met vaste speeltijd. Ideaal
-                      als winterprikkel voor teams die graag blijven spelen tijdens de break.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Tornooi 5 - internationaal - meerdaags -->
-              <article class="article-item"
-                       data-title="Internationaal jeugdtornooi U13 U15 meerdaags internationaal">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto internationaal tornooi
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Internationaal · meerdaags</div>
-                    <h2 class="article-title">
-                      <a href="#">Internationaal jeugdtornooi U13–U15 · weekend met overnachting</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Uitnodigingstornooi met ploegen uit verschillende landen. Inclusief
-                      overnachting, gezamenlijke teambuilding en afsluitende ceremonie.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner rond tornooien -->
-              <article class="article-item"
-                       data-title="Advertorial partner medailles bekers drukwerk sponsorborden">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Partner voor bekers, medailles &amp; sponsorborden</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Leverancier die bekers, medailles, beachflags en sponsorborden op maat maakt
-                      voor tornooien. Duidelijk als partnercontent aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-            </div>
-          </section>
-
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners rond tornooien</div>
-                </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
-              </div>
-
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Drukwerk &amp; affiches</div>
-                  <div class="event-meta">Affiches, flyers en programmaboekjes voor jouw tornooi.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Online inschrijving &amp; betaling</div>
-                  <div class="event-meta">Laat ploegen online inschrijven en direct betalen.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Logistieke partner tornooien</div>
-                  <div class="event-meta">Tenten, tribunes, koelwagens en randanimatie voor grote events.</div>
-                </li>
-              </ul>
-            </article>
-
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · TORNOOIEN ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor partners die zich aan tornooien willen koppelen.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
-              </div>
-            </div>
-          </aside>
-
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
-          </div>
-        </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
-        </div>
-      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // Uitgebreide zoekfunctie voor tornooien
-  const tornooiSearchInput = document.getElementById('tornooi-search');
-  const tornooiCountrySelect = document.getElementById('tornooi-country');
-  const tornooiRegionInput = document.getElementById('tornooi-region');
-  const tornooiTypeSelect = document.getElementById('tornooi-type');
-  const tornooiItems = document.querySelectorAll('.article-list .article-item');
-
-  function getCountryFromTornooiItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
-
-  function getTypeFromTornooiItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('seniortornooi') || metaText.includes('seniors')) return 'seniors';
-    if (metaText.includes('jeugdtornooi') || metaText.includes('jeugd')) return 'jeugd';
-    if (metaText.includes('meerdaags') || metaText.includes('tweedaags') || metaText.includes('weekend')) return 'meerdaags';
-
-    return '';
-  }
-
-  function applyTornooiFilter() {
-    const textQuery = (tornooiSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (tornooiRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (tornooiCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (tornooiTypeSelect?.value || '').toLowerCase();
-
-    tornooiItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromTornooiItem(item);
-      const itemType = getTypeFromTornooiItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
-    });
-  }
-
-  if (tornooiItems.length) {
-    tornooiSearchInput?.addEventListener('input', applyTornooiFilter);
-    tornooiCountrySelect?.addEventListener('change', applyTornooiFilter);
-    tornooiRegionInput?.addEventListener('input', applyTornooiFilter);
-    tornooiTypeSelect?.addEventListener('change', applyTornooiFilter);
-  }
 </script>
-
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
