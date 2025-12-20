@@ -1,474 +1,244 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <title>Vriendschappelijke wedstrijden - Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-  <!-- Fonts -->
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="shell">
-      <div class="navbar-inner">
-        <a href="index.html" class="brand brand--logo-only">
-        <img
-          src="assets/img/brand/logo-voetbal4all.svg"
-          alt="Voetbal4All"
-          class="brand-logo"
-          loading="eager"
-        />
-        </a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-<nav class="nav-links">
-  <a href="/" class="nav-link">Home</a>
-  <a href="artikels.html" class="nav-link">Artikels</a>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo">
+      </a>
 
-  <!-- EVENTS DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Events <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-      <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-      <a href="events.html?type=Stage" class="nav-dropdown-link">Stage &amp; voetbalkampen</a>
-      <a href="events.html?type=Dinner" class="nav-dropdown-link">Wedstrijddinners</a>
-      <a href="events.html?type=Algemeen" class="nav-dropdown-link">Algemene events</a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
+
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="tornooien.html" class="nav-dropdown-link">Tornooien</a>
+            <a href="vrienden.html" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
+        </div>
+
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+          </div>
+        </div>
+
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">
+              Team/Medewerker in de kijker
+            </a>
+          </div>
+        </div>
+
+        <!-- VOETBAL4ALL -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
     </div>
   </div>
+</header>
 
-  <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-  <a href="trainers.html" class="nav-link">Trainers</a>
-  <a href="spelers.html" class="nav-link">Spelers</a>
-
-  <!-- SPORTIEF DROPDOWN -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Sportief <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-      <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-      <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-      <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-      <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Teams in de kijker</a>
-      <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-    </div>
-  </div>
-
-  <!-- VOETBAL4ALL DROPDOWN (LEGAL + CONTACT) -->
-  <div class="nav-item nav-item--dropdown">
-    <button type="button" class="nav-link nav-link--dropdown">
-      Voetbal4All <span class="nav-link-caret">▾</span>
-    </button>
-    <div class="nav-dropdown">
-      <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-      <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-      <a href="contact.html" class="nav-dropdown-link">Contact</a>
-    </div>
-  </div>
-
-  <a href="adverteren.html" class="nav-cta">
-    <span>Adverteer nu</span>
-    <span>Sponsor &amp; Ads</span>
-  </a>
-</nav>
-        <button class="nav-burger" aria-label="Menu">☰</button>
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
       </div>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
+<!-- ================= HEADER ADSENSE ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
 
-    <!-- PAGINA-INTRO / HERO -->
-    <section class="section-main">
-      <div class="shell">
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <article class="card" style="margin-bottom:12px;">
+    <div class="card-header">
+      <div>
+        <div class="card-caption">Sportieve events</div>
+        <div class="card-title">Vriendschappelijke wedstrijden</div>
+      </div>
+      <span class="pill-small">Jeugd · Seniors · Internationaal</span>
+    </div>
+    <p class="note">
+      Overzicht van vriendschappelijke wedstrijden tussen clubs uit België,
+      Nederland en daarbuiten. Ideaal om snel een extra oefenmatch te vinden.
+    </p>
+  </article>
+
+  <div class="v4-layout-sidebar">
+
+    <!-- LINKS -->
+    <div class="v4-content">
+
+      <!-- ZOEK & FILTER -->
+      <div class="search-bar search-bar--advanced" style="margin-bottom:14px;">
+        <input id="vrienden-search" class="search-input"
+          placeholder="Zoek op U15, seniors, voorbereiding, regio..." />
+        <div class="search-filters-row">
+          <select id="vrienden-country" class="search-select">
+            <option value="">Alle landen</option>
+            <option value="BE">🇧🇪 België</option>
+            <option value="NL">🇳🇱 Nederland</option>
+            <option value="INT">🌍 Internationaal</option>
+          </select>
+          <input id="vrienden-region" class="search-input search-input--small"
+            placeholder="Regio (bv. Kempen, Limburg)" />
+          <select id="vrienden-type" class="search-select">
+            <option value="">Alle types</option>
+            <option value="jeugd">Jeugd</option>
+            <option value="seniors">Seniors</option>
+            <option value="gemengd">Gemengd / U21</option>
+            <option value="advertorial">Partner</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- MATCHEN -->
+      <div class="article-list">
+        <!-- JOUW BESTAANDE MATCH-CARDS KUN JE HIER 1-OP-1 LATEN STAAN -->
+      </div>
+
+    </div>
+
+    <!-- RECHTS -->
+    <aside class="v4-sidebar">
+      <div class="v4-sidebar-sticky">
+
         <article class="card">
           <div class="card-header">
             <div>
-              <div class="card-caption">Vriendschappelijke wedstrijden</div>
-              <div class="card-title">Oefenwedstrijden tussen clubs uit België, Nederland &amp; daarbuiten.</div>
+              <div class="card-caption">Advertentie</div>
+              <div class="card-title">Partners rond oefenmatchen</div>
             </div>
-            <span class="pill-small">Jeugd · seniors · gemengd</span>
           </div>
-          <p class="note">
-            Op deze pagina komen alle vriendschappelijke wedstrijden die clubs aanmelden. Handig om
-            snel een extra oefenmatch te vinden in jouw regio of op het juiste niveau. Elke match
-            toont een flyer of visual met landvlag.
-          </p>
-
-          <div class="hero-actions" style="margin-top: 8px;">
-            <a href="events.html" class="btn-secondary">Terug naar alle events</a>
+          <div class="ad-placeholder">
+            Ideaal voor sportwinkels, scheidsrechters, verzekeringen en waspartners.<br>
+            <span class="ad-size">300 × 250 / 300 × 600</span>
           </div>
         </article>
-      </div>
-    </section>
 
-    <!-- ZOEKFUNCTIE VRIENDSCHAPPELIJKE MATCHEN -->
-    <section class="section-main">
-      <div class="shell">
-        <div class="search-bar search-bar--advanced">
-          <input
-            type="text"
-            id="vrienden-search"
-            class="search-input"
-            placeholder="Zoek op trefwoord (bv. U15, U21, dames, voorbereiding, toernooiweekend...)"
-          />
-          <div class="search-filters-row">
-            <select id="vrienden-country" class="search-select">
-              <option value="">Alle landen</option>
-              <option value="BE">België</option>
-              <option value="NL">Nederland</option>
-              <option value="INT">Internationaal</option>
-            </select>
-            <input
-              type="text"
-              id="vrienden-region"
-              class="search-input search-input--small"
-              placeholder="Regio (bv. Kempen, Limburg, Randstad)"
-            />
-            <select id="vrienden-type" class="search-select">
-              <option value="">Alle types</option>
-              <option value="jeugd">Jeugd</option>
-              <option value="seniors">Seniors</option>
-              <option value="gemengd">Gemengd / U21</option>
-              <option value="advertorial">Partner / advertorial</option>
-            </select>
-          </div>
+      </div>
+    </aside>
+
+  </div>
+
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">
+          &copy; <span id="year"></span> Voetbal4All.
         </div>
       </div>
-    </section>
-
-    <!-- VRIENDSCHAPPELIJKE MATCHEN + ADVERTENTIES -->
-    <section class="section-main">
-      <div class="shell">
-
-        <!-- Top advertentiebanner -->
-        <div class="ad-horizontal" style="margin-bottom: 14px;">
-          ADVERTENTIEZONE · VRIENDSCHAPPELIJKE WEDSTRIJDEN (TOP)
-          <span class="ad-size">
-            Ideaal voor sportwinkels, waspartners of match-ballensponsors.
-          </span>
-        </div>
-
-        <!-- Layout: matchen links, advertenties rechts -->
-        <div class="lower-grid-layout" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);">
-
-          <!-- LINKERKOLOM: MATCHEN -->
-          <section class="column-middle">
-            <div class="article-list">
-
-              <!-- Match 1 - jeugd - België -->
-              <article class="article-item"
-                       data-title="U15 vriendschappelijke wedstrijd België Kempen zaterdagvoormiddag">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer match
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Jeugd · U15</div>
-                    <h2 class="article-title">
-                      <a href="#">U15 vriendschappelijk · regio Kempen</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Club zoekt U15 tegenstander voor oefenmatch op zaterdagvoormiddag.
-                      Kunstgras beschikbaar, kleedkamers en kantine open.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Match 2 - jeugd - Nederland -->
-              <article class="article-item"
-                       data-title="U13 oefenwedstrijd Nederland Randstad midweek match">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer match
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Jeugd · U13</div>
-                    <h2 class="article-title">
-                      <a href="#">U13 oefenwedstrijd · regio Randstad</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Op zoek naar een tegenstander voor een midweek match, aftrap rond 18u30.
-                      Wedstrijd kan bij jullie of bij ons doorgaan.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Match 3 - seniors - België -->
-              <article class="article-item"
-                       data-title="Seniors eerste ploeg vriendschappelijk België Limburg voorbereiding seizoen">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto seniorsmatch
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇧🇪</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Seniors · eerste ploeg</div>
-                    <h2 class="article-title">
-                      <a href="#">Eerste ploeg · voorbereidingswedstrijd in Limburg</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Ambitieuze club in 3e provinciale zoekt tegenstander in aanloop naar de competitiestart.
-                      Voorkeur voor club op gelijkaardig niveau.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Match 4 - gemengd / U21 - Nederland -->
-              <article class="article-item"
-                       data-title="U21 vriendschappelijk Nederland gemengd selectie zondag namiddag">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer U21 match
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🇳🇱</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Gemengd · U21</div>
-                    <h2 class="article-title">
-                      <a href="#">U21 selectie · oefenwedstrijd op zondag</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      U21-team zoekt tegenstander voor oefenmatch op zondag namiddag.
-                      Liefst tegenstander met klemtoon op balbezit en opbouw van achteruit.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Match 5 - internationaal - jeugd -->
-              <article class="article-item"
-                       data-title="Internationale vriendschappelijke wedstrijd U17 internationaal weekend">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Foto internationale match
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Jeugd · U17 · internationaal</div>
-                    <h2 class="article-title">
-                      <a href="#">Internationale oefenwedstrijd U17 · weekend</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Club zoekt internationale tegenstander (BE/NL/DE/LU) voor oefenmatch en eventueel
-                      terugmatch. Mogelijkheid tot gezamenlijk teammoment achteraf.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Advertorial / partner rond vriendschappelijke matchen -->
-              <article class="article-item"
-                       data-title="Advertorial partner veldreservatie tool planning scheidsrechters">
-                <div class="home-article-card">
-                  <div class="home-article-media">
-                    <div class="home-article-image">
-                      Flyer partner
-                    </div>
-                    <div class="home-article-flag">
-                      <span class="flag-badge">🌍</span>
-                    </div>
-                  </div>
-                  <div class="home-article-content">
-                    <div class="article-meta">Advertorial · partner</div>
-                    <h2 class="article-title">
-                      <a href="#">Tool voor planning van vriendschappelijke wedstrijden</a>
-                    </h2>
-                    <p class="article-excerpt">
-                      Online tool om velden, kleedkamers en scheidsrechters te plannen voor oefenmatchen.
-                      Duidelijk als partnercontent aangeduid.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-            </div>
-          </section>
-
-          <!-- RECHTERKOLOM: ADVERTENTIES (FOTO/FLYER + VLAG) -->
-          <aside class="column-right">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Advertenties</div>
-                  <div class="card-title">Partners rond oefenmatchen</div>
-                </div>
-                <span class="pill-small">Betaalde zichtbaarheid</span>
-              </div>
-
-              <ul class="events-list">
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇧🇪</span>
-                  </div>
-                  <div class="event-title">Sportdrank &amp; herstel</div>
-                  <div class="event-meta">Aanbiedingen voor drank en snacks rond oefenmatchen.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🇳🇱</span>
-                  </div>
-                  <div class="event-title">Scheidsrechtersplatform</div>
-                  <div class="event-meta">Vind officiële of ervaren scheidsrechters voor oefenwedstrijden.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-media-row">
-                    <div class="event-thumb">Flyer / logo</div>
-                    <span class="flag-badge">🌍</span>
-                  </div>
-                  <div class="event-title">Verzekering voor oefenmatchen</div>
-                  <div class="event-meta">Extra dekking voor vriendschappelijke wedstrijden en tornooien.</div>
-                </li>
-              </ul>
-            </article>
-
-            <div class="ad-vertical" style="margin-top: 14px;">
-              <div class="ad-label">ADVERTENTIE · VRIENDSCHAPPELIJK ZIJKOLom</div>
-              <div class="ad-placeholder">
-                Extra advertentieruimte voor partners die zich willen koppelen aan oefenwedstrijden.<br/>
-                <span class="ad-size">Bijvoorbeeld 300 × 600 px met flyer en landvlag.</span>
-              </div>
-            </div>
-          </aside>
-
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer" id="footer-contact">
-    <div class="shell">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-          <div class="footer-legal">
-            &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            · Mogelijkheden voor hoofdsponsor, partners en advertenties.
-          </div>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
-            <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
-          </div>
-        </div>
-        <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
-        </div>
-      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 </div>
 
 <script>
-  // Jaar in footer
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // Uitgebreide zoekfunctie voor vriendschappelijke wedstrijden
-  const vriendenSearchInput = document.getElementById('vrienden-search');
-  const vriendenCountrySelect = document.getElementById('vrienden-country');
-  const vriendenRegionInput = document.getElementById('vrienden-region');
-  const vriendenTypeSelect = document.getElementById('vrienden-type');
-  const vriendenItems = document.querySelectorAll('.article-list .article-item');
-
-  function getCountryFromVriendenItem(item) {
-    const flagEl = item.querySelector('.flag-badge');
-    const flag = flagEl ? flagEl.textContent.trim() : '';
-    if (flag === '🇧🇪') return 'BE';
-    if (flag === '🇳🇱') return 'NL';
-    if (flag === '🌍')  return 'INT';
-    return '';
-  }
-
-  function getTypeFromVriendenItem(item) {
-    const metaEl = item.querySelector('.article-meta');
-    const metaText = metaEl ? metaEl.textContent.toLowerCase() : item.textContent.toLowerCase();
-
-    if (metaText.includes('advertorial') || metaText.includes('partner')) return 'advertorial';
-    if (metaText.includes('seniors') || metaText.includes('eerste ploeg')) return 'seniors';
-    if (metaText.includes('jeugd') || metaText.includes('u15') || metaText.includes('u13') || metaText.includes('u17')) return 'jeugd';
-    if (metaText.includes('gemengd') || metaText.includes('u21')) return 'gemengd';
-
-    return '';
-  }
-
-  function applyVriendenFilter() {
-    const textQuery = (vriendenSearchInput?.value || '').toLowerCase().trim();
-    const regionQuery = (vriendenRegionInput?.value || '').toLowerCase().trim();
-    const countryFilter = (vriendenCountrySelect?.value || '').toUpperCase();
-    const typeFilter = (vriendenTypeSelect?.value || '').toLowerCase();
-
-    vriendenItems.forEach(item => {
-      const fullText = (item.dataset.title || item.textContent || '').toLowerCase();
-      const itemCountry = getCountryFromVriendenItem(item);
-      const itemType = getTypeFromVriendenItem(item);
-
-      let visible = true;
-
-      if (textQuery && !fullText.includes(textQuery)) {
-        visible = false;
-      }
-
-      if (visible && countryFilter && itemCountry !== countryFilter) {
-        visible = false;
-      }
-
-      if (visible && regionQuery && !fullText.includes(regionQuery)) {
-        visible = false;
-      }
-
-      if (visible && typeFilter && itemType !== typeFilter) {
-        visible = false;
-      }
-
-      item.style.display = visible ? '' : 'none';
-    });
-  }
-
-  if (vriendenItems.length) {
-    vriendenSearchInput?.addEventListener('input', applyVriendenFilter);
-    vriendenCountrySelect?.addEventListener('change', applyVriendenFilter);
-    vriendenRegionInput?.addEventListener('input', applyVriendenFilter);
-    vriendenTypeSelect?.addEventListener('change', applyVriendenFilter);
-  }
 </script>
 
-<script src="assets/js/nav-mobile.js"></script>  
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
