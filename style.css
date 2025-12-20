@@ -1268,3 +1268,23 @@ footer { margin-top: auto; }
     z-index: 4;
   }
 }
+
+/* =======================
+   MOBIEL PORTRAIT: burger ALTIJD rechts
+   (override onderaan plaatsen)
+   ======================= */
+@media (max-width: 600px) and (orientation: portrait) {
+  .navbar-inner {
+    justify-content: flex-end !important;
+  }
+
+  .nav-burger {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    order: 99 !important;         /* wint van eventuele order:-1 elders */
+    left: auto !important;
+    right: auto !important;
+    position: relative !important;
+    z-index: 5 !important;
+  }
+}
