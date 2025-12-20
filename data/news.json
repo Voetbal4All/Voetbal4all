@@ -1,16 +1,71 @@
 {
-  "generatedAt": "2025-12-20T06:56:31.894Z",
+  "generatedAt": "2025-12-20T07:33:15.172Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Joshua: Fight me Fury, if you're a real bad boy!",
+      "link": "https://www.skysports.com/boxing/news/12040/13485826/anthony-joshua-calls-for-tyson-fury-to-fight-him-if-he-is-a-real-bad-boy-after-knockout-win-over-jake-paul",
+      "summary": "Anthony Joshua reiterated his desire to finally fight Tyson Fury after he had knocked out Jake Paul in Miami.",
+      "publishedAt": "2025-12-20T07:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England on brink of Ashes series defeat after late collapse in pursuit of record target",
+      "link": "https://www.skysports.com/cricket/news/12040/13485824/the-ashes-england-suffer-late-collapse-at-hands-of-nathan-lyon-as-australia-set-tourists-test-record-target-in-adelaide",
+      "summary": "England are on the brink of an Ashes series defeat inside 11 days' play after they stumbled to 207-6 in pursuit of a Test-record 435 to win the third Test in Adelaide.",
+      "publishedAt": "2025-12-20T07:10:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Cambuur als eerste KKD-ploeg een heel jaar ongeslagen in eigen huis",
-      "link": "https://www.vi.nl/nieuws/cambuur-als-eerste-ploeg-een-heel-jaar-ongeslagen-in-eigen-huis",
-      "summary": "Cambuur kroonde zich vrijdagavond tot de eerste ploeg ooit die een heel kalenderjaar geen wedstrijd verloor in de Eerste Divisie. De ploeg uit Leeuwarden won overtuigend van MVV waarmee het totaal van 2025 op zeventien overwinningen en drie remises eindigt.",
-      "publishedAt": "2025-12-20T05:59:50.000Z"
+      "title": "FC Porto pal achter Farioli: 'Het gaat hier om een vertrouwenscrisis'",
+      "link": "https://www.vi.nl/nieuws/fc-porto-pal-achter-farioli-het-gaat-hier-om-een-vertrouwenscrisis",
+      "summary": "FC Porto heeft een statement naar buiten gebracht over de kwaliteit van de arbitrage in Portugal. Eerder uitte trainer Francesco Farioli felle kritiek op de scheidsrechter van de wedstrijd tussen FC Porto en Famalicão. Porto steunt zijn opvatting volledig en meent dat er een groter probleem is.",
+      "publishedAt": "2025-12-20T07:10:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Slot met Liverpool tegen Spurs, Arsenal naar Everton en Italiaanse topper",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-de-wedstrijden-van-zaterdag-20-december",
+      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
+      "publishedAt": "2025-12-20T07:01:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Crambo bids to complete Long Walk hat-trick",
+      "link": "https://www.skysports.com/racing/news/12040/13485324/today-on-sky-sports-racing-ascot-hereford-newcastle-and-wolverhampton",
+      "summary": "We have a busy day’s racing on Saturday with action from Ascot, Hereford, Newcastle and Wolverhampton, live on Sky Sports Racing...",
+      "publishedAt": "2025-12-20T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Schecter: I fear for Packers' Super Bowl hopes - things have changed!",
+      "link": "https://www.skysports.com/nfl/news/12040/13485530/micah-parsons-injury-game-changing-for-green-bay-packers-against-chicago-bears-says-phoebe-schecter",
+      "summary": "The Green Bay Packers' entire season is under threat after losing star pass rusher Micah Parsons to injury, believes Phoebe Schecter.",
+      "publishedAt": "2025-12-20T07:00:00.000Z"
     },
     {
       "type": "rss",
@@ -51,7 +106,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "The Ashes LIVE! England six down chasing record 435 to keep Ashes alive",
+      "title": "The Ashes LIVE! England stumble to 207-6 by stumps, chasing record 435",
       "link": "https://www.skysports.com/cricket/live-blog/12040/13484192/the-ashes-australia-vs-england-third-test-live-score-and-updates-from-adelaide-oval-in-must-win-game-for-ben-stokes-side",
       "summary": "",
       "publishedAt": "2025-12-20T04:20:00.000Z"
@@ -124,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'That is how you put a game to bed!' | Aspinall wins with Big Fish",
-      "link": "https://www.skysports.com/watch/video/13485784/world-darts-championship-nathan-aspinall-wins-with-big-fish",
-      "summary": "An incredible 170 checkout saw Nathan Aspinall secure the hard-fought first round win over Lourence Ilagan.",
-      "publishedAt": "2025-12-19T22:31:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -176,50 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/19/mikel-arteta-admits-long-term-future-at-arsenal-dependent-on-winning-silverware",
       "summary": "Spaniard approaches sixth anniversary in charge Arteta ‘has to earn the right to be here tomorrow’ Mikel Arteta has conceded his long-term future at Arsenal is dependent on winning silverware as he prepares to celebrate his sixth anniversary in charge. The Spaniard was appointed on 20 December 2019 and led Arsenal to the FA Cup a few months later but that remains his only major trophy since replacing Unai Emery. Arteta will mark six years in the job against his former club Everton on Saturday night – the same opponents Arsenal faced a day after he was announced as their manager. He watched that game from the stands before officially beginning his role the next day. Continue reading...",
       "publishedAt": "2025-12-19T22:30:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FIFA straft Al Nassr met transferban",
-      "link": "https://www.vi.nl/nieuws/fifa-straft-al-nassr-met-transferban",
-      "summary": "Een flinke tegenvaller voor Al Nassr: de FIFA heeft de Saoedische club gestraft met een transferban. De club van Cristiano Ronaldo mag per direct geen nieuwe spelers meer inschrijven.",
-      "publishedAt": "2025-12-19T22:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Alfred Schreuder begint weer na hartproblemen: 'Bewust even gestopt'",
-      "link": "https://www.vi.nl/nieuws/alfred-schreuder-begint-weer-na-hartproblemen-bewust-even-gestopt",
-      "summary": "Alfred Schreuder is sinds kort weer trainer. De 53-jarige oefenmeester ging aan de slag bij Al-Diriyah uit Saoedi-Arabië. In de maanden daarvoor koos Schreuder er bewust voor om het even rustig aan te doen. Hij vertelt openhartig over de fysieke problemen die hij heeft gehad.",
-      "publishedAt": "2025-12-19T21:55:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Under-fire Wolves chief Shi steps down",
-      "link": "https://www.bbc.com/sport/football/articles/cx2p11555e4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Wolves' under-fire executive chairman Jeff Shi steps down, after a desperate start to the season for the club who sit bottom of the Premier League.",
-      "publishedAt": "2025-12-19T21:45:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'It's not a tiger!' | Ilagan TERRIFIED by Ally Pally wasp",
-      "link": "https://www.skysports.com/watch/video/13485747/world-darts-championship-lourence-ilagan-terrified-by-ally-pally-wasp",
-      "summary": "Relive the hilarious moment Lourence Ilagan was left frightened by the infamous Ally Pally wasp!",
-      "publishedAt": "2025-12-19T21:40:00.000Z"
     }
   ]
 }
