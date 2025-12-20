@@ -82,15 +82,31 @@ footer { margin-top: auto; }
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
+/* NAVBAR: professioneel 3-zone layout */
 .navbar-inner {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
+/* Logo links blijft zoals hij is */
 .brand {
+  flex-shrink: 0;
+}
+
+/* Navigatie exact gecentreerd tussen logo en CTA */
+.nav-links {
+  flex: 1;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 18px;
+}
+
+/* CTA exact rechts, uitgelijnd met bannerbox */
+.nav-cta {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .brand--logo-only { gap: 0; }
