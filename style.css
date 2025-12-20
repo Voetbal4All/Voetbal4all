@@ -1510,3 +1510,50 @@ footer {
     font-size: 20px;
   }
 }
+
+/* =======================
+   LIVE BANNER – FIX LABEL + SOCIALS
+   (override onderaan)
+   ======================= */
+
+/* Bullet links, tekst ernaast (en tekst zelf 2 regels) */
+.live-label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+/* De tekstkolom (LIVE / RESULTATEN) naast de dot */
+.live-label-text {
+  display: flex !important;
+  flex-direction: column !important;
+  line-height: 1.05 !important;
+}
+
+/* "Volg ons op:" groen en subtiel zoals label */
+.live-socials-label {
+  color: #7dfccb !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.16em !important;
+  font-size: 10px !important;        /* 1 regel */
+  white-space: nowrap !important;
+  opacity: 0.9 !important;
+}
+
+/* Socials rechts: label boven, iconen naast elkaar */
+.live-socials {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+}
+
+/* Iconen naast elkaar (niet onder elkaar) */
+.live-socials-icons {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 10px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
