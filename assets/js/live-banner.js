@@ -181,13 +181,13 @@
       "is-facebook"
     );
     addSocial(
-      "https://www.instagram.com/voetbal4all",
+      "https://www.instagram.com/voetbal.4.all",
       "Voetbal4All op Instagram",
       ICON_IG,
       "is-instagram"
     );
 	addSocial(
- 	 "https://www.tiktok.com/@voetbal4all",
+ 	 "https://www.tiktok.com/@voetbal4all.eu",
  	 "Voetbal4All op TikTok",
  	 ICON_TT,
  	 "is-tiktok"
