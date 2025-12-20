@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
     crossorigin="anonymous"></script>
 
@@ -12,52 +13,69 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<!-- Live banner niet op mobiel -->
 <body class="v4-hide-live-mobile">
 <div class="page">
 
-  <!-- NAVBAR (zelfde als andere pagina’s) -->
+  <!-- NAVBAR -->
   <header class="navbar">
     <div class="shell">
       <div class="navbar-inner">
+
         <a href="index.html" class="brand brand--logo-only">
-          <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" loading="eager"/>
+          <img src="assets/img/brand/logo-voetbal4all.svg"
+               alt="Voetbal4All"
+               class="brand-logo"
+               loading="eager"/>
         </a>
 
         <nav class="nav-links">
-          <a href="/" class="nav-link">Home</a>
+          <a href="index.html" class="nav-link">Home</a>
           <a href="artikels.html" class="nav-link">Artikels</a>
 
-          <!-- Sportieve events -->
+          <!-- SPORTIEVE EVENTS -->
           <div class="nav-item nav-item--dropdown">
             <button type="button" class="nav-link nav-link--dropdown">
               Sportieve events <span class="nav-link-caret">▾</span>
             </button>
             <div class="nav-dropdown">
-              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijk</a>
+              <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
               <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+              <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Oefenwedstrijden</a>
               <a href="events.html?type=Stage" class="nav-dropdown-link">Stages</a>
               <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              <a href="events.html" class="nav-dropdown-link">Andere sportieve events</a>
             </div>
           </div>
 
-          <!-- Club & fun -->
+          <!-- CLUB & FUN -->
           <div class="nav-item nav-item--dropdown">
             <button type="button" class="nav-link nav-link--dropdown">
               Club &amp; fun <span class="nav-link-caret">▾</span>
             </button>
             <div class="nav-dropdown">
-              <a href="algemene-events.html?type=Dinner" class="nav-dropdown-link">Eetdagen &amp; dinners</a>
-              <a href="algemene-events.html?type=Bingo" class="nav-dropdown-link">Bingo</a>
-              <a href="algemene-events.html?type=Darts" class="nav-dropdown-link">Darts</a>
-              <a href="algemene-events.html?type=Quiz" class="nav-dropdown-link">Quiz</a>
+              <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+              <a href="algemene-events.html?type=Eetdag" class="nav-dropdown-link">Eetdagen &amp; acties</a>
+              <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden</a>
               <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+              <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              <a href="algemene-events.html" class="nav-dropdown-link">Andere clubevents</a>
             </div>
           </div>
 
-          <a href="clubvacatures.html" class="nav-link">Clubvacatures</a>
-          <a href="trainers.html" class="nav-link">Trainers</a>
-          <a href="spelers.html" class="nav-link">Spelers</a>
+          <!-- VACATURES & PROFIELEN -->
+          <div class="nav-item nav-item--dropdown">
+            <button type="button" class="nav-link nav-link--dropdown">
+              Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+            </button>
+            <div class="nav-dropdown">
+              <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+              <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+              <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+            </div>
+          </div>
 
+          <!-- SPORTIEF -->
           <div class="nav-item nav-item--dropdown">
             <button type="button" class="nav-link nav-link--dropdown">
               Sportief <span class="nav-link-caret">▾</span>
@@ -72,6 +90,7 @@
             </div>
           </div>
 
+          <!-- INFO -->
           <div class="nav-item nav-item--dropdown">
             <button type="button" class="nav-link nav-link--dropdown">
               Voetbal4All <span class="nav-link-caret">▾</span>
@@ -82,19 +101,20 @@
               <a href="contact.html" class="nav-dropdown-link">Contact</a>
             </div>
           </div>
-
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
         </nav>
+
+        <!-- CTA BUITEN NAV -->
+        <a href="adverteren.html" class="nav-cta">
+          <span>Adverteer nu</span>
+          <span>Sponsor &amp; Ads</span>
+        </a>
 
         <button class="nav-burger" aria-label="Menu">☰</button>
       </div>
     </div>
   </header>
 
-  <!-- LIVE BANNER (PC/tablet; mobiel hidden via body class) -->
+  <!-- LIVE BANNER -->
   <section class="live-banner-top">
     <div class="shell">
       <div class="live-banner">
@@ -103,7 +123,7 @@
           <span class="live-text-main"></span>
           <div class="live-updated"></div>
         </div>
-        <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+        <div class="live-socials">
           <div class="live-socials-label">Volg ons</div>
           <div class="live-socials-icons"></div>
         </div>
@@ -130,26 +150,30 @@
     <section class="section-main">
       <div class="shell">
 
+        <!-- INTRO -->
         <article class="card" style="margin-bottom:12px;">
           <div class="card-header">
             <div>
               <div class="card-caption">Club &amp; fun</div>
-              <div class="card-title">Eetdagen, bingo, darts, quiz, fuif…</div>
+              <div class="card-title">Fundraising &amp; sociale clubactiviteiten</div>
             </div>
-            <span class="pill-small">Fundraising · clubwerking</span>
+            <span class="pill-small">Niet-sportief</span>
           </div>
           <p class="note">
-            Niet-sportieve clubactiviteiten (fundraising en sociale events). Voor tornooien, stages en kampen ga je naar <strong>Sportieve events</strong>.
+            Eetdagen, spelavonden, sponsoractiviteiten en andere clubinitiatieven.
+            Voor tornooien, stages en kampen ga je naar <strong>Sportieve events</strong>.
           </p>
         </article>
 
         <div class="v4-layout-sidebar">
 
+          <!-- CONTENT -->
           <div class="v4-content">
 
-            <!-- Filters -->
+            <!-- FILTERS -->
             <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
-              <input type="text" id="event-search-text" class="search-input" placeholder="Zoek op club, eventnaam, regio..."/>
+              <input id="event-search-text" class="search-input" type="text"
+                     placeholder="Zoek op club, eventnaam, regio...">
               <div class="search-filters-row">
                 <select id="event-filter-country" class="search-select">
                   <option value="">Land (alles)</option>
@@ -159,28 +183,26 @@
 
                 <select id="event-filter-type" class="search-select">
                   <option value="">Type (alles)</option>
-                  <option value="Dinner">Eetdag / dinner</option>
-                  <option value="Bingo">Bingo</option>
-                  <option value="Darts">Darts</option>
-                  <option value="Quiz">Quiz</option>
-                  <option value="Fuif">Fuif / afterparty</option>
-                  <option value="Tombola">Tombola</option>
-                  <option value="Sponsoravond">Sponsoravond</option>
-                  <option value="Algemeen">Algemeen</option>
+                  <option value="Eetdag">Eetdag / actie</option>
+                  <option value="Spelavond">Spelavond</option>
+                  <option value="Fuif">Fuif</option>
+                  <option value="Sponsor">Sponsor / netwerk</option>
+                  <option value="Overig">Overig</option>
                 </select>
 
                 <select id="event-filter-month" class="search-select">
                   <option value="">Maand (alles)</option>
-                  <option value="01">Januari</option><option value="02">Februari</option><option value="03">Maart</option>
-                  <option value="04">April</option><option value="05">Mei</option><option value="06">Juni</option>
-                  <option value="07">Juli</option><option value="08">Augustus</option><option value="09">September</option>
-                  <option value="10">Oktober</option><option value="11">November</option><option value="12">December</option>
+                  <option value="01">Januari</option><option value="02">Februari</option>
+                  <option value="03">Maart</option><option value="04">April</option>
+                  <option value="05">Mei</option><option value="06">Juni</option>
+                  <option value="07">Juli</option><option value="08">Augustus</option>
+                  <option value="09">September</option><option value="10">Oktober</option>
+                  <option value="11">November</option><option value="12">December</option>
                 </select>
               </div>
-              <div class="form-helper">Tip: via de navigatie zet je automatisch een type-filter (bv. Bingo of Darts).</div>
             </div>
 
-            <!-- In-content ad -->
+            <!-- INFEED AD -->
             <section class="section-main" style="padding-top:0;padding-bottom:10px;">
               <div class="ad-infeed">
                 <ins class="adsbygoogle"
@@ -193,7 +215,7 @@
               </div>
             </section>
 
-            <!-- List -->
+            <!-- LIST -->
             <section class="section-main" style="padding-top:0;">
               <div class="card">
                 <div class="card-header">
@@ -205,34 +227,14 @@
                 </div>
 
                 <div id="event-list" class="ad-card-list ad-card-list--stack">
-                  <!-- Laat je bestaande cards staan en zet data-* correct (type/country/date) -->
-                  <!-- Voorbeeld -->
-                  <article class="ad-card" id="fun-ad-1" data-ad-id="1" data-country="BE" data-type="Dinner" data-date="2026-01-17">
-                    <div class="ad-card-header">
-                      <div>
-                        <div class="ad-card-title">Spaghettiavond jeugdwerking</div>
-                        <div class="ad-card-meta">🇧🇪 België · K. Voorbeeld FC · Regio</div>
-                      </div>
-                      <div class="ad-card-meta">Dinner · 17 januari</div>
-                    </div>
-                    <div class="ad-card-body">
-                      <strong>Locatie:</strong> Kantine · 17:00–22:00<br/>
-                      <strong>Doel:</strong> steun jeugdwerking + gezelligheid.
-                    </div>
-                    <div class="ad-card-actions">
-                      <button type="button" class="btn-ghost-sm" data-reply-event="1">Tickets / contact</button>
-                      <a href="#" class="btn-ghost-sm btn-share" data-share-event="1">Delen</a>
-                    </div>
-                  </article>
+                  <!-- bestaande cards blijven -->
                 </div>
-
-                <p id="event-status" class="note" style="margin-top:10px; display:none;"></p>
               </div>
             </section>
 
           </div>
 
-          <!-- Sidebar -->
+          <!-- SIDEBAR -->
           <aside class="v4-sidebar">
             <div class="v4-sidebar-sticky">
 
@@ -240,13 +242,13 @@
                 <div class="card-header">
                   <div>
                     <div class="card-caption">Advertentie</div>
-                    <div class="card-title">Lokale sponsor</div>
+                    <div class="card-title">Lokale partner</div>
                   </div>
                   <span class="pill-small">Premium</span>
                 </div>
                 <div class="ad-placeholder">
-                  Ideaal voor traiteurs, restaurants, drankleveranciers, zalen, drukwerk, …
-                  <br><span class="ad-size">Aanrader: 300×250 of 300×600</span>
+                  Ideaal voor traiteurs, drankleveranciers, drukwerk, …
+                  <br><span class="ad-size">300 × 250 / 300 × 600</span>
                 </div>
               </article>
 
@@ -269,7 +271,8 @@
     </section>
   </main>
 
-  <footer class="footer" id="footer-contact">
+  <!-- FOOTER -->
+  <footer class="footer">
     <div class="shell">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -284,8 +287,7 @@
           </div>
         </div>
         <div class="footer-ad">
-          FOOTER ADVERTENTIE / PARTNERLOGO<br>
-          <span class="ad-size">Footer-banner</span>
+          FOOTER ADVERTENTIE / PARTNERLOGO
         </div>
       </div>
     </div>
@@ -293,86 +295,10 @@
 
 </div>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-
-  // Auto type filter via ?type=
-  (function initTypeFromUrl(){
-    const params = new URLSearchParams(location.search);
-    const t = params.get("type");
-    if (!t) return;
-    const sel = document.getElementById("event-filter-type");
-    if (!sel) return;
-    for (const opt of sel.options) {
-      if (opt.value === t) { sel.value = t; break; }
-    }
-  })();
-
-  const listEl = document.getElementById("event-list");
-  const searchEl = document.getElementById("event-search-text");
-  const countryEl = document.getElementById("event-filter-country");
-  const typeEl = document.getElementById("event-filter-type");
-  const monthEl = document.getElementById("event-filter-month");
-
-  function norm(s){ return (s || "").toLowerCase(); }
-
-  function filterCards(){
-    const q = norm(searchEl.value);
-    const c = countryEl.value;
-    const t = typeEl.value;
-    const m = monthEl.value;
-
-    const cards = listEl.querySelectorAll(".ad-card");
-    cards.forEach(card => {
-      const cc = card.dataset.country || "";
-      const tt = card.dataset.type || "";
-      const dd = card.dataset.date || ""; // YYYY-MM-DD
-      const hay = norm(card.textContent);
-
-      let ok = true;
-      if (c && cc && cc !== c) ok = false;
-      if (t && tt && tt !== t) ok = false;
-      if (m && dd && dd.slice(5,7) !== m) ok = false;
-      if (ok && q && !hay.includes(q)) ok = false;
-
-      card.style.display = ok ? "" : "none";
-    });
-  }
-
-  searchEl.addEventListener("input", filterCards);
-  countryEl.addEventListener("change", filterCards);
-  typeEl.addEventListener("change", filterCards);
-  monthEl.addEventListener("change", filterCards);
-
-  // Share links
-  (function updateShare(){
-    const baseUrl = location.origin + location.pathname;
-    document.querySelectorAll("[data-share-event]").forEach(a => {
-      const id = a.getAttribute("data-share-event");
-      const targetId = "fun-ad-" + id;
-      const url = baseUrl + "#" + targetId;
-      a.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-    });
-  })();
-
-  // Reply flow (zelfde patroon)
-  document.addEventListener("click", function(e){
-    const btn = e.target.closest("[data-reply-event]");
-    if (!btn) return;
-    const id = btn.getAttribute("data-reply-event");
-    if (!confirm("Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All.")) return;
-    const email = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
-    if (!email) return alert("E-mailadres is nodig om te kunnen reageren.");
-
-    const subject = encodeURIComponent("Reactie via Voetbal4All op club & fun event " + id);
-    const body = encodeURIComponent("Event-ID: " + id + "\n\nE-mailadres: " + email + "\n\nBericht:\n(Voeg je bericht toe.)");
-    location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
-  });
-</script>
-
 <script src="assets/js/nav-mobile.js"></script>
 <script src="assets/js/live-banner.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
