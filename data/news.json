@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-21T05:44:12.996Z",
+  "generatedAt": "2025-12-21T06:57:21.108Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Reijnders moet lachen om beeldvorming bij Oranje: 'Discussie weer voorbij'",
+      "link": "https://www.vi.nl/nieuws/reijnders-moet-lachen-om-beeldvorming-bij-oranje-discussie-weer-voorbij",
+      "summary": "Tijjani Reijnders kijkt uit naar het WK van komende zomer met het Nederlands elftal. Vijftien jaar geleden zat hij als elfjarige jongen voor de tv toen Oranje de finale haalde met Zuid-Afrika. Dat hij Nederland nu zelf mag vertegenwoordigen op het hoogste podium, vindt de 27-jarige middenvelder van Manchester City erg bijzonder.",
+      "publishedAt": "2025-12-21T06:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Today on Sky Sports Racing: Lingfield hosts seven-race jumps card",
+      "link": "https://www.skysports.com/racing/news/12040/13485526/today-on-sky-sports-racing-lingfield-hosts-seven-race-jumps-card-live-on-sunday",
+      "summary": "All eyes are on Lingfield Park today, with a seven-race National Hunt card scheduled - live on Sky Sports Racing.",
+      "publishedAt": "2025-12-21T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'I didn't get that right' - McCullum admits error on England Ashes preparation",
+      "link": "https://www.skysports.com/cricket/news/12040/13485890/the-ashes-england-coach-brendon-mccullum-admits-to-error-on-tourists-preparation-after-australia-seal-victory",
+      "summary": "Brendon McCullum has accepted responsibility for not getting England's Ashes preparation right after his side succumbed to a series defeat to Australia by losing the third Test.",
+      "publishedAt": "2025-12-21T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Luke is a different breed' - NHS worker Davies looking to upset Littler",
+      "link": "https://www.skysports.com/darts/news/12040/13485657/luke-littler-nhs-worker-david-davies-says-teenager-is-a-different-breed-as-he-aims-to-cause-major-upset-at-world-darts-championship",
+      "summary": "David Davies says Luke Littler is a “different breed” but is hoping to cause a major upset when the pair meet in the second round of the World Darts Championship on Sunday night.",
+      "publishedAt": "2025-12-21T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Emotional' Stokes laments end of Ashes dream | 'It hurts'",
+      "link": "https://www.skysports.com/cricket/news/12040/13486267/ben-stokes-england-captain-says-end-of-their-ashes-dream-hurts-and-sucks-as-australia-clinch-series-win-in-adelaide",
+      "summary": "Ben Stokes said the death of his England side's Ashes dream \"hurts\" and \"sucks\" as Australia clinched a series win inside 11 days with an 82-run victory on the final day of the third Test in Adelaide.",
+      "publishedAt": "2025-12-21T05:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -66,17 +121,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47369396/liverpool-alexander-isak-limps-injured-scoring-spurs",
       "summary": "Liverpool forward Alexander Isak could be facing a lengthy spell on the sidelines after suffering an injury in his team's Premier League clash with Tottenham Hotspur.",
       "publishedAt": "2025-12-21T00:46:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal land Christmas No 1! Arteta has ‘belief and confidence’ in title bid",
-      "link": "https://www.skysports.com/football/news/12040/13486261/arsenal-land-christmas-no-1-mikel-arteta-has-belief-and-confidence-in-premier-league-title-bid",
-      "summary": "Arsenal manager Mikel Arteta insisted being top at Christmas again gave him belief and confidence to finally turn that advantage into success.",
-      "publishedAt": "2025-12-20T23:38:00.000Z"
     },
     {
       "type": "rss",
@@ -176,50 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/c4g98ldpx5qo?at_medium=RSS&at_campaign=rss",
       "summary": "Substitute Alexander Isak scores for Liverpool before being forced off with injury as Arne Slot's side win a chaotic Premier League match at nine-man Tottenham.",
       "publishedAt": "2025-12-20T22:28:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea fight back to claim draw at Newcastle",
-      "link": "https://www.bbc.com/sport/football/videos/c2k4n5d7l2po?at_medium=RSS&at_campaign=rss",
-      "summary": "Nick Woltemade scores an early double, but Chelsea fight back to claim a 2-2 draw against Newcastle United at St James' Park.",
-      "publishedAt": "2025-12-20T22:28:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Former winner Smith sent packing as emotional Bunting marches on",
-      "link": "https://www.skysports.com/darts/news/12040/13485981/world-darts-championship-former-winner-michael-smith-sent-packing-as-peoples-champion-stephen-bunting-marches-through-to-third-round",
-      "summary": "Former winner Michael Smith was sent packing from the World Darts Championship on Saturday as an emotional Stephen Bunting marched through.",
-      "publishedAt": "2025-12-20T22:24:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "PSG besluit voortreffelijk 2025 met zorgeloos bekeravondje in Nantes",
-      "link": "https://www.vi.nl/nieuws/vi-live-psg-besluit-voortreffelijk-2025-met-zorgeloos-bekeravondje-in-nantes",
-      "summary": "Zaterdag staat ons weer een druk programma te wachten. Naast de vier wedstrijden in de Eredivisie wordt er ook in Engeland, Duitsland, Spanje en Italië gevoetbald. Zo neemt Arne Slot het bijvoorbeeld met Liverpool op tegen Tottenham Hotspur. Volg de zaterdagduels in de VI Live.",
-      "publishedAt": "2025-12-20T22:21:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool's win marred by Isak injury as pressure mounts on Spurs' Frank",
-      "link": "https://www.espn.com/soccer/story/_/id/47370514/liverpool-win-marred-isak-injury-frank-pressure-builds",
-      "summary": "Liverpool's third straight win in all competitions came at a cost while furthering Spurs fans' frustration with Thomas Frank.",
-      "publishedAt": "2025-12-20T22:19:00.000Z"
     }
   ]
 }
