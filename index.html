@@ -178,63 +178,84 @@
     </section>
 
     <main>
-      <!-- HERO / INTRO (compact) -->
-      <section class="section-main home-intro">
-        <div class="shell">
-          <div class="lower-grid-layout grid-2">
-
-            <!-- LINKERKANT: KORTE INTRO + KNOPPEN -->
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
-                  <div class="card-title">Snel naar clubvacatures, trainers, spelers &amp; events.</div>
-                </div>
-                <span class="pill-small">België · Nederland · internationaal</span>
-              </div>
-
-              <p class="note">
-                Gebruik Voetbal4All als vertrekpunt om een club, trainer, speler of event te vinden.
-                Geen lange uitleg, gewoon meteen naar wat je nodig hebt.
-              </p>
-
-              <!-- Snelkeuzes -->
-              <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
-                <a href="spelers.html" class="btn-primary">Speler zoekt club</a>
-                <a href="trainers.html" class="btn-secondary"><span>Trainer zoekt club</span></a>
-                <a href="clubvacatures.html" class="btn-secondary"><span>Clubvacature plaatsen</span></a>
-                <a href="events.html" class="btn-secondary"><span>Event aanmelden</span></a>
-              </div>
-
-              <!-- JOUW ADVERTENTIE KNOP -->
-              <a href="adverteren.html" class="btn-advert" style="margin-top:10px; display:inline-flex;">
-                <span>Jouw advertentie</span>
-                <span class="sub">Meer bereik · meer zichtbaarheid</span>
-              </a>
-            </article>
-
-            <!-- RECHTERKANT: HOOFSPONSOR HEADER -->
-            <aside class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Hoofdsponsor</div>
-                  <div class="card-title">Premium header advertentie</div>
-                </div>
-                <span class="pill-small">Max. 1 positie</span>
-              </div>
-              <p class="note">
-                Grootste zichtbaarheid op het platform: bovenaan de homepage, nog voor alle andere
-                content. Ideaal voor 1 merk dat Voetbal4All mee wil dragen.
-              </p>
-              <div class="ad-placeholder" style="margin-top:8px;">
-                Plaats voor logo, korte slogan en call-to-action van de hoofdsponsor.
-                <div class="ad-size">Bijvoorbeeld 1200 × 200 px</div>
-              </div>
-            </aside>
-
-          </div>
+<!-- HERO (rustig, 1 kolom) -->
+<section class="section-main home-intro home-hero-min">
+  <div class="shell">
+    <article class="card hero-card">
+      <div class="card-header">
+        <div>
+          <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
+          <div class="card-title">Alles voor voetbal op één plek.</div>
         </div>
-      </section>
+        <span class="pill-small">België · Nederland · internationaal</span>
+      </div>
+
+      <p class="note" style="margin-top:6px;">
+        Vind snel een clubvacature, trainer, speler of event. Kies hieronder wat je zoekt.
+      </p>
+
+      <div class="hero-cta-row">
+        <a href="clubvacatures.html" class="btn-primary">Bekijk clubvacatures</a>
+        <a href="adverteren.html" class="btn-secondary"><span>Adverteer / sponsor</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- WAT ZOEK JE? (actie net onder hero) -->
+<section class="section-main home-quick-actions">
+  <div class="shell">
+    <div class="lower-grid-layout grid-4 quick-grid">
+      <a class="card quick-card" href="spelers.html">
+        <div class="quick-kicker">Spelers</div>
+        <div class="quick-title">Speler zoekt club</div>
+        <div class="note">Bekijk profielen of plaats jouw profiel.</div>
+      </a>
+
+      <a class="card quick-card" href="trainers.html">
+        <div class="quick-kicker">Trainers</div>
+        <div class="quick-title">Trainer zoekt club</div>
+        <div class="note">Zoek trainers of bied jezelf aan.</div>
+      </a>
+
+      <a class="card quick-card" href="events.html">
+        <div class="quick-kicker">Events</div>
+        <div class="quick-title">Zoek of plaats events</div>
+        <div class="note">Tornooien, stages, kampen en meer.</div>
+      </a>
+
+      <a class="card quick-card quick-card--highlight" href="adverteren.html">
+        <div class="quick-kicker">Sponsor &amp; Ads</div>
+        <div class="quick-title">Jouw advertentie hier</div>
+        <div class="note">Premium zichtbaarheid op Voetbal4All.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- HOOFDSPONSOR (verplaatst uit hero) -->
+<section class="section-main home-sponsor-band">
+  <div class="shell">
+    <article class="card sponsor-card">
+      <div class="card-header">
+        <div>
+          <div class="card-caption">Hoofdsponsor</div>
+          <div class="card-title">Premium header advertentie</div>
+        </div>
+        <span class="pill-small">Max. 1 positie</span>
+      </div>
+
+      <p class="note">
+        Grootste zichtbaarheid op het platform: bovenaan de homepage, nog voor alle andere content.
+      </p>
+
+      <div class="ad-placeholder" style="margin-top:8px;">
+        Plaats voor logo, korte slogan en call-to-action van de hoofdsponsor.
+        <div class="ad-size">Bijvoorbeeld 1200 × 200 px</div>
+      </div>
+    </article>
+  </div>
+</section>
 
       <!-- PREMIUM LIJN: CLUBVACATURES · EVENTS · TRAINERS · SPELERS -->
       <section class="section-main premium-row">

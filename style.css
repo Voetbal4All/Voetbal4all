@@ -1643,3 +1643,22 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+/* Home B: rustige hero + keuzes eronder */
+.home-hero-min .hero-card { max-width: 980px; margin: 0 auto; }
+.hero-cta-row { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; }
+
+.quick-grid .quick-card { text-decoration:none; display:block; transition: transform .12s ease; }
+.quick-grid .quick-card:hover { transform: translateY(-2px); }
+
+.quick-kicker { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; opacity: .75; }
+.quick-title { font-size: 18px; font-weight: 700; margin-top: 6px; }
+
+.quick-card--highlight { border: 1px solid rgba(24,160,251,.45); }
+
+@media (max-width: 900px){
+  .home-hero-min .hero-card { max-width: 100%; }
+}
+@media (max-width: 700px){
+  .hero-cta-row { flex-direction: column; }
+}
