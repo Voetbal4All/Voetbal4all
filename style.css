@@ -1728,7 +1728,7 @@ img {
 .thanks-logo-img{
   width: 100%;
   height: auto;
-  transform: translateY(-30px); 
+  transform: translateY(-0px); 
   /* ↑ hiermee schuif je het beeld omhoog/omlaag
      positief = meer onderkant zichtbaar
      negatief = meer bovenkant zichtbaar */
