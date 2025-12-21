@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-21T16:47:27.802Z",
+  "generatedAt": "2025-12-21T17:35:44.873Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,153 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Sierhuis zet Fortuna weer naast AZ, Lamine Yamal verdubbelt voorsprong",
+      "title": "VI Live: Fortuna slaat in de slotfase toe tegen AZ in doelpuntenfestijn",
       "link": "https://www.vi.nl/nieuws/vi-live-az-sluit-het-jaar-af-in-sittard-raphinha-schiet-barcelona-op-0-1",
       "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
-      "publishedAt": "2025-12-21T16:41:05.000Z"
+      "publishedAt": "2025-12-21T17:33:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hearts bereikt fraaie mijlpaal en houdt zwalkend Celtic op afstand",
+      "link": "https://www.vi.nl/nieuws/hearts-bereikt-fraaie-mijlpaal-en-houdt-zwalkend-celtic-op-afstand",
+      "summary": "Heart of Midlothian gaat met een heel lekker gevoel het nieuwe jaar in. De verrassende koploper van Schotland heeft door een 2-0-zege op Rangers namelijk de koppositie verder verstevigd én een nieuw record gepakt.",
+      "publishedAt": "2025-12-21T17:29:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aston Villa v Manchester United: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/21/aston-villa-v-manchester-united-premier-league-live",
+      "summary": "⚽ Premier League updates from the 4.30pm GMT kick-off ⚽ Live scores | Table | Follow us on Bluesky | Email Tim 2 min United win a throw-in on the right, and then a free kick, which comes to nothing. We have a minor celebrity in the tunnel! Kelly Osbourne, daughter of the late lamented Ozzy, is there and she’s wearing a Villa shirt. Is she playing? No, her son Sid is a mascot today. He’s not holding hands with John McGinn in the traditional fashion – he’s in his arms. Continue reading...",
+      "publishedAt": "2025-12-21T17:29:10.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "London City Lionesses sack manager Precheur",
+      "link": "https://www.bbc.com/sport/football/articles/c4gpy4x1k17o?at_medium=RSS&at_campaign=rss",
+      "summary": "London City Lionesses sack manager Jocelyn Precheur midway through their debut season in the Women's Super League.",
+      "publishedAt": "2025-12-21T17:27:44.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Liverpool fear 'significant' Isak injury",
+      "link": "https://www.espn.com/soccer/story/_/id/47379407/alexander-isak-injury-liverpool-premier-league",
+      "summary": "Sources have told ESPN that Liverpool fear Alexander Isak's injury may be significant.",
+      "publishedAt": "2025-12-21T17:19:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mbappé equals Ronaldo record, hits 'Siu' celeb",
+      "link": "https://www.espn.com/soccer/story/_/id/47245759/kylian-mbappe-cristiano-ronaldo-record-real-madrid-goals-year",
+      "summary": "Kylian Mbappé added his name to another line in the record books on Saturday, tying Cristiano Ronaldo for the most goals by a Real Madrid player in a calendar year.",
+      "publishedAt": "2025-12-21T17:19:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USA's Pepi scores again in PSV comeback win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/741127",
+      "summary": "United States forward Ricardo Pepi continued his excellent run of form with a goal that helped PSV Eindhoven beat Utrecht 2-1 on Sunday.",
+      "publishedAt": "2025-12-21T17:19:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League live updates: Man United travel to Aston Villa",
+      "link": "https://www.espn.com/soccer/story/_/id/47326889/premier-league-live-updates-aston-villa-manchester-united",
+      "summary": "null",
+      "publishedAt": "2025-12-21T17:19:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aston Villa couldn't be crowned Premier League champions, could they?",
+      "link": "https://www.espn.com/soccer/story/_/id/47333295/aston-villa-couldnt-crowned-premier-league-champions-they",
+      "summary": "Aston Villa started poorly, but they're now in the running for the Premier League title.",
+      "publishedAt": "2025-12-21T17:19:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De Jong viert basisrentree bij Barça met belangrijke zege op Villarreal",
+      "link": "https://www.vi.nl/nieuws/barcelona-boekt-zege-bij-villarreal-bij-basisrentree-de-jong",
+      "summary": "Intro",
+      "publishedAt": "2025-12-21T17:13:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Polen benoemt mogelijke oorzaak voor 'domme' rode kaart Valente",
+      "link": "https://www.vi.nl/nieuws/van-polen-kraakt-valente-na-rode-kaart-echt-een-heel-dom-moment",
+      "summary": "Voor Luciano Valente eindigde de laatste wedstrijd van 2025 al voor het laatste fluitsignaal. De revelatie van de eerste seizoenshelft bij Feyenoord pakte twee keer geel tegen FC Twente. Analyticus Bram van Polen was niet te spreken over de actie van de middenvelder.",
+      "publishedAt": "2025-12-21T17:05:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ekitike's chance to become Reds' first-choice No 9 with Isak set to miss key games",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "summary": "",
+      "publishedAt": "2025-12-21T17:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wanneer is het seizoen nog geslaagd voor Feyenoord en Van Persie?",
+      "link": "https://www.vi.nl/video/wanneer-is-het-seizoen-nog-geslaagd-voor-feyenoord-en-van-persie",
+      "summary": "Voor Feyenoord is het seizoen geslaagd als het zich verzekert van de Champions League, aldus Robin van Persie. De trainer vindt dat zijn club in de eerste seizoenshelft tegen veel uitdagingen is aangelopen.",
+      "publishedAt": "2025-12-21T17:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool fear Alexander Isak sustained significant injury at Tottenham",
+      "link": "https://www.theguardian.com/football/2025/dec/21/liverpool-fear-alexander-isak-sustained-significant-injury-at-tottenham",
+      "summary": "Striker hurt by Van de Ven tackle when opening scoring MRI scan results to reveal length of spell on sidelines Liverpool fear their record signing Alexander Isak has sustained a significant injury and is facing a lengthy period on the sidelines. The league champions are waiting on the results of an MRI scan after the £125m man was injured against Tottenham in the Premier League clash on Saturday night. The 26-year-old sustained the problem while scoring the opener against Spurs – his second league goal of an already injury-hit debut season – in the 2-1 win after defender Micky van de Ven slid across and caught his leg as the striker planted it on the floor. Continue reading...",
+      "publishedAt": "2025-12-21T16:51:14.000Z"
     },
     {
       "type": "rss",
@@ -29,131 +172,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship: Cross wins after frustrated Cullen crashes out LIVE!",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2025-12-21T16:38:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Persie ziet gelijkspel met Twente als gewonnen punt: 'Hoe raar dat ook klinkt'",
-      "link": "https://www.vi.nl/nieuws/van-persie-ziet-gelijkspel-met-twente-als-gewonnen-punt-hoe-raar-dat-ook-klinkt",
-      "summary": "De winterstop is 'een welkome break', vertelde Robin van Persie na het duel met FC Twente. Het gelijkspel tegen Twente voelt als een gewonnen punt voor de trainer van Feyenoord. Dat zat hem vooral in het kwakkelende spel van de Rotterdammers in de eerste helft. Ook vertelde Van Persie over een uitgaande transfer, die aanstaande lijkt.",
-      "publishedAt": "2025-12-21T16:37:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Go Ahead sluit bijzonder jaar af: 'Mogen trots zijn op deze kleine club'",
-      "link": "https://www.vi.nl/nieuws/go-ahead-sluit-bijzonder-jaar-af-mogen-trots-zijn-op-deze-kleine-club",
-      "summary": "Melvin Boel kijkt tevreden terug op de eerste seizoenshelft van Go Ahead Eagles. De Deventenaren liepen zondag tegen FC Groningen op de laatste benen na het drukke schema met Europese wedstrijden en pakten een punt. Boel is trots op zijn ploeg, maar ziet ook verbeterpunten.",
-      "publishedAt": "2025-12-21T16:37:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Borges keek goal af van 'goede vriend' Quaresma: 'Hij is een soort broer'",
-      "link": "https://www.vi.nl/nieuws/borges-keek-goal-af-van-goede-vriend-quaresma-hij-is-een-soort-broer",
-      "summary": "Feyenoord speelde zondagmiddag een hele moeizame wedstrijd tegen FC Twente, maar Gonçalo Borges gold als één van de weinige lichtpuntjes in De Kuip. Met een weergaloze goal redde de Portugees een punt voor de Rotterdammers. Dat had hij van een goede, beroemde vriend.",
-      "publishedAt": "2025-12-21T16:30:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Aston Villa v Manchester United: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/21/aston-villa-v-manchester-united-premier-league-live",
-      "summary": "⚽ Premier League updates from the 4.30pm GMT kick-off ⚽ Live scores | Table | Follow us on Bluesky | Email Tim We have a minor celebrity in the tunnel! Kelly Osbourne, daughter of the late lamented Ozzy, is there and she’s wearing a Villa shirt. Is she playing? No, her son Sid is a mascot today. He’s not holding hands with John McGinn in the traditional fashion – he’s in his arms. That United XI doesn’t look very hard to beat. Patrick Dorgu, a regular earlier this year, went down the pecking order because of being “anxious” with his final ball, as Amorim put it. Manuel Ugarte has been trusted with a start only three times this season – in the 3-0 defeat at Man City, the 3-1 defeat at Brentford, and the 2-2 embarrassment at Grimsby. (Plus one game for Uruguay – the 5-1 thrashing by the USA.) Continue reading...",
-      "publishedAt": "2025-12-21T16:28:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Cullen says Suljovic's behaviour is 'not darts' after defeat in feisty encounter",
       "link": "https://www.skysports.com/darts/news/12040/13486317/world-darts-championship-joe-cullen-says-mensur-suljovics-behaviour-on-stage-is-not-darts-after-defeat-at-alexandra-palace",
       "summary": "Joe Cullen has responded with fury after being dumped out of the World Darts Championship by Mensur Suljovic, saying the Austrian's behaviour on stage is \"not darts\".",
       "publishedAt": "2025-12-21T16:27:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Twente baalt na: 'We hebben Feyenoord helemaal aan gort gespeeld'",
-      "link": "https://www.vi.nl/nieuws/fc-twente-baalt-na-we-hebben-feyenoord-helemaal-aan-gort-gespeeld",
-      "summary": "Bij FC Twente overheerst de teleurstelling na het gelijkspel in De Kuip tegen Feyenoord . Daan Rots vond zelfs dat de Tukkers de Rotterdammers helemaal aan gort hebben gespeeld.",
-      "publishedAt": "2025-12-21T16:11:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Isak injured while scoring in Liverpool win at Spurs",
-      "link": "https://www.espn.com/soccer/story/_/id/47369396/liverpool-alexander-isak-limps-injured-scoring-spurs",
-      "summary": "Liverpool forward Alexander Isak could be facing a lengthy spell on the sidelines after suffering an injury in his team's Premier League clash with Tottenham Hotspur.",
-      "publishedAt": "2025-12-21T15:31:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USA's Pepi scores again in PSV comeback win",
-      "link": "https://www.espn.com/soccer/report/_/gameId/741127",
-      "summary": "United States forward Ricardo Pepi continued his excellent run of form with a goal that helped PSV Eindhoven beat Utrecht 2-1 on Sunday.",
-      "publishedAt": "2025-12-21T15:31:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mbappé equals Ronaldo record, hits 'Siu' celeb",
-      "link": "https://www.espn.com/soccer/story/_/id/47245759/kylian-mbappe-cristiano-ronaldo-record-real-madrid-goals-year",
-      "summary": "Kylian Mbappé added his name to another line in the record books on Saturday, tying Cristiano Ronaldo for the most goals by a Real Madrid player in a calendar year.",
-      "publishedAt": "2025-12-21T15:31:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barcelona's Christensen sidelined with ACL injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47378435/andreas-christensen-acl-injury-barcelona",
-      "summary": "Andreas Christensen faces a long spell on the sidelines after suffering an ACL injury.",
-      "publishedAt": "2025-12-21T15:31:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta: Arsenal unfazed by Man City title charge",
-      "link": "https://www.espn.com/soccer/story/_/id/47372494/mikel-arteta-arsenal-manchester-city-premier-league-title",
-      "summary": "Mikel Arteta said Arsenal were not distracted by Manchester City moving top of the Premier League before the Gunners reclaimed number one spot hours later with a 1-0 win at Everton.",
-      "publishedAt": "2025-12-21T15:31:21.000Z"
     },
     {
       "type": "rss",
@@ -185,7 +207,7 @@
       "flag": "🌍",
       "title": "Chelsea hammer dismal Liverpool 9-1 and storm into Women’s League Cup semis",
       "link": "https://www.theguardian.com/football/2025/dec/21/liverpool-chelsea-womens-league-cup-quarter-final-match-report",
-      "summary": "Quarter-final: Liverpool 1-9 Chelsea Rytting Kaneryd scores hat-trick as Blues run riot It is not supposed to be this easy, in a quarter-final between two top-flight sides. Chelsea barely broke sweat as they put nine goals past woeful Liverpool, including a hat-trick from Johanna Rytting Kaneryd and two goals from an in-form Sam Kerr. It took just 13 minutes for Chelsea to take the lead. Niamh Charles’s low ball into the box found Kerr, who darted in front of her marker with ease and found the near, bottom corner. Continue reading...",
+      "summary": "Quarter-final: Liverpool 1-9 Chelsea Rytting Kaneryd scores hat-trick as Blues run riot Humiliated, humbled and, frankly, embarrassed, it was probably a relief for Liverpool when the clock reached 90:00 and the referee Grace Lowe immediately blew the final whistle without adding any stoppage time, bringing a sympathetically early end to a chastening afternoon for the Reds, dismantled by a Chelsea side who barely needed to break sweat. It is not supposed to be this easy in a quarter-final between top-flight sides. The scoreboard read 9-1. “At least it wasn’t 10,” one home fan said while trudging back to the car. The truth is, it could have been worse, had Chelsea not rather bizarrely had two set-piece goals ruled out for soft-looking fouls in the box that no Liverpool player seemed to appeal for. Continue reading...",
       "publishedAt": "2025-12-21T15:05:19.000Z"
     },
     {
@@ -198,28 +220,6 @@
       "link": "https://www.skysports.com/golf/news/12040/13486331/afrasia-bank-mauritius-open-jayden-schaper-wins-second-dp-world-tour-tournament-in-a-row-via-play-off-eagle",
       "summary": "Jayden Schaper secured his second DP World Tour title in as many weeks after a hole-out eagle at the second play-off hole saw him win the AfrAsia Bank Mauritius Open.",
       "publishedAt": "2025-12-21T14:10:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Taylor sorry for 'blatant lying' after failed drugs test",
-      "link": "https://www.skysports.com/darts/news/12040/13486345/dom-taylor-darts-player-apologises-after-failed-drugs-test-led-to-exclusion-at-world-championship",
-      "summary": "Dom Taylor has apologised for \"blatant lying\" after he was thrown out of the World Darts Championship for failing a drugs test at the tournament.",
-      "publishedAt": "2025-12-21T13:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "NZ openers make Test history with centuries each in both innings",
-      "link": "https://www.skysports.com/cricket/news/12040/13486333/new-zealand-vs-west-indies-tom-latham-devon-conway-make-test-cricket-history-with-centuries-apiece-in-both-innings",
-      "summary": "Tom Latham and Devon Conway earned a unique place in Test history when their 192-run second innings partnership paved the way for New Zealand's declaration at 306-2 on the fourth day of the third Test against West Indies.",
-      "publishedAt": "2025-12-21T12:16:00.000Z"
     }
   ]
 }
