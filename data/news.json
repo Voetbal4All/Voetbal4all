@@ -1,27 +1,16 @@
 {
-  "generatedAt": "2025-12-21T20:40:44.991Z",
+  "generatedAt": "2025-12-21T21:32:51.131Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bondscoach Egypte neemt het op voor 'voetbalicoon' Salah",
-      "link": "https://www.vi.nl/video/bondscoach-egypte-neemt-het-op-voor-voetbalicoon-salah",
-      "summary": "Hossam Hassan heeft het opgenomen voor Mohamed Salah. De bondscoach van Egypte denkt dat het 'voetbalicoon' gaat schitteren op de Afrika Cup.",
-      "publishedAt": "2025-12-21T20:39:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Morocco v Comoros: Africa Cup of Nations opener – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/21/morocco-v-comoros-africa-cup-of-nations-opener-live",
-      "summary": "⚽ Afcon updates from the 7pm GMT kick-off in Morocco ⚽ Live scores | Fixtures | Follow us on Bluesky | Mail John The teams take to the field in Rabat, the stadium looks close to full, the home fans are expectant. Can Morocco set a standard? On the field at Rabat, at the Complexe Sportif Prince Moulay Abdellah, CAF President Dr Pratrice Motsepe has takes to declare the AFCON open. Sadly, UK coverage of the opening ceremony has been non-existent. Continue reading...",
-      "publishedAt": "2025-12-21T20:33:38.000Z"
+      "title": "Kane smashes Arjen Robben record in Bayern rout",
+      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
+      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
+      "publishedAt": "2025-12-21T21:26:50.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "United's Fernandes out a 'while' with injury blow",
       "link": "https://www.espn.com/soccer/story/_/id/47380002/aston-villa-vs-man-united-bruno-fernandes-substituted-apparent-injury",
       "summary": "Manchester United's Bruno Fernandes was substituted at halftime of the team's Premier League clash against Aston Villa with an apparent hamstring issue.",
-      "publishedAt": "2025-12-21T20:30:54.000Z"
+      "publishedAt": "2025-12-21T21:26:50.000Z"
     },
     {
       "type": "rss",
@@ -40,21 +29,76 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Barça look to Jan. window after Christensen ACL",
-      "link": "https://www.espn.com/soccer/story/_/id/47380691/barcelona-looking-january-window-christensen-acl",
-      "summary": "Hansi Flick said Barcelona could look to sign a defender in January after Andreas Christensen's ACL injury left them short at centre-back before Sunday's 2-0 win at Villarreal in LaLiga.",
-      "publishedAt": "2025-12-21T20:30:54.000Z"
+      "title": "Hosts Morocco seal AFCON opener on stellar goal",
+      "link": "https://www.espn.com/soccer/story/_/id/47382361/hosts-morocco-seal-afcon-opener-comoros-stellar-goal",
+      "summary": "Brahim Diaz's opener and a stunning Ayoub El Kaabi overhead kick saw AFCON hosts Morocco defeat Comoros 2-0 in the tournament opener on Sunday.",
+      "publishedAt": "2025-12-21T21:26:50.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Kane smashes Arjen Robben record in Bayern rout",
-      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
-      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
-      "publishedAt": "2025-12-21T20:30:53.000Z"
+      "title": "Morocco 2-0 Comoros: Africa Cup of Nations opener – live reaction",
+      "link": "https://www.theguardian.com/football/live/2025/dec/21/morocco-v-comoros-africa-cup-of-nations-opener-live",
+      "summary": "The hosts and favourites got off to a winning start after goals from Brahim Diaz and Ayoub El Kaabi The teams take to the field in Rabat, the stadium looks close to full, the home fans are expectant. Can Morocco set a standard? On the field at Rabat, at the Complexe Sportif Prince Moulay Abdellah, CAF President Dr Pratrice Motsepe has takes to declare the AFCON open. Sadly, UK coverage of the opening ceremony has been non-existent. Continue reading...",
+      "publishedAt": "2025-12-21T21:24:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Marokko opent Afrika Cup met zege én weergaloze omhaal",
+      "link": "https://www.vi.nl/nieuws/marokko-opent-afrika-cup-met-zege-n-weergaloze-omhaal",
+      "summary": "Marokko heeft het openingsduel op de Afrika Cup winnend afgesloten. Ismael Saibari en Anass Salah-Eddine speelden de hele wedstrijd tegen de Comoren, maar het was Ayoub El Kaabi die de show stal met een weergaloze omhaal.",
+      "publishedAt": "2025-12-21T21:20:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Antony belangrijk voor Real Betis tegen Getafe",
+      "link": "https://www.vi.nl/nieuws/vi-live-saibari-en-salah-eddine-in-marokko-basis-rogers-doet-man-utd-w-r-pijn",
+      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
+      "publishedAt": "2025-12-21T21:05:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Niet alléén euforie in Sittard na spektakelzege: 'Fortuna staat op tweesprong'",
+      "link": "https://www.vi.nl/pro/niet-all-n-euforie-in-sittard-na-spektakelzege-fortuna-staat-op-tweesprong",
+      "summary": "Na een krankzinnige slotfase, met een glansrol voor doelman Mattijs Branderhorst, verzekerde Fortuna Sittard zich van een 4-3 zege op AZ. De ploeg van Danny Buijs gaat als elfde de winterstop in, tot tevredenheid van velen in en om de club. De trainer zelf waarschuwt maar weer eens. ‘Er móét een visie komen.’",
+      "publishedAt": "2025-12-21T21:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man Utd face up to 'massive' loss of injured Fernandes",
+      "link": "https://www.bbc.com/sport/football/articles/clyde060x52o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United's injury problems worsened as captain and talisman Bruno Fernandes was replaced in a 2-1 defeat by Aston Villa.",
+      "publishedAt": "2025-12-21T20:54:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bondscoach Egypte neemt het op voor 'voetbalicoon' Salah",
+      "link": "https://www.vi.nl/video/bondscoach-egypte-neemt-het-op-voor-voetbalicoon-salah",
+      "summary": "Hossam Hassan heeft het opgenomen voor Mohamed Salah. De bondscoach van Egypte denkt dat het 'voetbalicoon' gaat schitteren op de Afrika Cup.",
+      "publishedAt": "2025-12-21T20:39:38.000Z"
     },
     {
       "type": "rss",
@@ -84,17 +128,6 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Saibari en Salah-Eddine in basis, Díaz schiet Marokko op 1-0",
-      "link": "https://www.vi.nl/nieuws/vi-live-saibari-en-salah-eddine-in-marokko-basis-rogers-doet-man-utd-w-r-pijn",
-      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
-      "publishedAt": "2025-12-21T20:25:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "Yilmaz na onderbreking van vier dagen toch weer coach van Gaziantep",
       "link": "https://www.vi.nl/nieuws/yilmaz-na-onderbreking-van-vier-dagen-toch-weer-coach-van-gaziantep",
       "summary": "Na een korte onderbreking is Burak Yimaz weer trainer van Gaziantep. Onlangs kondigde de voormalig speler van Fortuna Sittard zijn vertrek bij de club aan, maar vier dagen daarna zijn alle plooien toch weer gladgestreken.",
@@ -113,28 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers PSV: Bosz laat zich uit over mogelijke opvolging van Veerman",
-      "link": "https://www.vi.nl/nieuws/transfers-psv-bosz-laat-zich-uit-over-mogelijke-opvolging-van-veerman",
-      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij PSV op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2025-12-21T19:36:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Ik heb Feyenoord dit seizoen nog niet zó slecht gezien'",
-      "link": "https://www.vi.nl/nieuws/ik-heb-feyenoord-dit-seizoen-nog-niet-z-slecht-gezien",
-      "summary": "Marciano Vink en Kenneth Perez zagen een slecht Feyenoord in de Eredivisie tegen FC Twente. De analytici zijn het erover eens dat de Rotterdammers dit seizoen nog niet zó slecht voor de dag zijn gekomen als zondagmiddag in De Kuip.",
-      "publishedAt": "2025-12-21T19:25:59.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -150,7 +161,7 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'Hearts have arrived'...but McInnes warns they can get better",
+      "title": "'Hearts have arrived'... but McInnes warns they can get better",
       "link": "https://www.bbc.com/sport/football/articles/cr4d7vw46d0o?at_medium=RSS&at_campaign=rss",
       "summary": "Hearts \"have arrived\" as Scottish Premiership title contenders after beating Rangers for the second time this season, says Kris Boyd.",
       "publishedAt": "2025-12-21T19:01:23.000Z"
@@ -174,7 +185,7 @@
       "flag": "🌍",
       "title": "Morgan Rogers double sinks Manchester United and keeps Aston Villa on leaders’ heels",
       "link": "https://www.theguardian.com/football/2025/dec/21/aston-villa-manchester-united-premier-league-match-report",
-      "summary": "There is simply no stopping this Aston Villa machine, cylinders pumping, exclusively handcrafted by Unai Emery, the manager who reacted to Morgan Rogers’ winning goal against Manchester United by launching his jacket into the night sky. “Birmingham, are you listening?” came the chorus from the home support but this was another victory with wider implications. For now Villa, third and three points behind Premier League leaders Arsenal, are firmly in the title race, two more brilliant Rogers goals earning a 10th straight win in all competitions and rendering Matheus Cunha’s well-taken equaliser nothing more than a consolation. A frustrating defeat for Ruben Amorim was compounded by his captain, Bruno Fernandes, being forced off through injury at half-time. Continue reading...",
+      "summary": "On another evening of theatre at Villa Park, it was fitting that the match-winner Morgan Rogers was last to leave the stage. There is simply no stopping this Aston Villa machine, cylinders pumping, handcrafted by Unai Emery, who reacted to ­Rogers’s second goal against Manchester United by launching his jacket into the night sky. “Birmingham, are you listening?” came the chorus from the home support but this was a victory with far wider implications. Approaching the halfway stage of the season, Villa, third and three points behind Premier League leaders Arsenal, are ensconced in the title race, two more Rogers goals earning a 10th straight win in all competitions and rendering Matheus Cunha’s well-taken equaliser a consolation. The discourse and debate will run wild after this latest Villa win, a seventh in a row in the league, but it was one that undoubtedly belonged to Rogers’s individual brilliance. After his second goal, Rogers spread his arms, screwed up his face and shrugged as if to say: “Well, what am I supposed to do?” Continue reading...",
       "publishedAt": "2025-12-21T18:44:35.000Z"
     },
     {
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/watch/video/13486461/86-year-old-lee-trevino-holes-out-for-a-sensational-eagle-at-the-pnc-championship",
       "summary": "During the closing round of the 2025 PNC Championship, Lee Trevino holes out for an eagle on the par-four 13th hole at the Ritz-Carlton Golf Club.",
       "publishedAt": "2025-12-21T18:28:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Ham set to appoint Guarino as manager",
-      "link": "https://www.bbc.com/sport/football/articles/cr5zjpmmd4lo?at_medium=RSS&at_campaign=rss",
-      "summary": "West Ham are set to appoint Rita Guarino as their women's team manager following the sacking of Rehanne Skinner.",
-      "publishedAt": "2025-12-21T18:11:10.000Z"
     }
   ]
 }
