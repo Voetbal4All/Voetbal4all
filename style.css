@@ -1662,3 +1662,53 @@ img {
 @media (max-width: 700px){
   .hero-cta-row { flex-direction: column; }
 }
+
+/* ----------------------------
+   HOOFDSPONSOR – COMPACTE VERSIE
+   ---------------------------- */
+
+.home-sponsor-band .sponsor-card {
+  padding: 14px 18px;          /* was veel groter via .card */
+}
+
+.home-sponsor-band .card-header {
+  margin-bottom: 6px;
+}
+
+.home-sponsor-band .card-title {
+  font-size: 18px;             /* kleiner, maar nog premium */
+  line-height: 1.2;
+}
+
+.home-sponsor-band .card-caption {
+  font-size: 11px;
+  letter-spacing: .08em;
+}
+
+.home-sponsor-band .note {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.home-sponsor-band .ad-placeholder {
+  min-height: 90px;            /* ⬅️ BELANGRIJK: hoogte beperken */
+  padding: 10px;
+  font-size: 13px;
+}
+
+.home-sponsor-band .ad-size {
+  font-size: 11px;
+  opacity: .65;
+}
+
+/* Mobile: nog compacter */
+@media (max-width: 700px) {
+  .home-sponsor-band .sponsor-card {
+    padding: 12px 14px;
+  }
+
+  .home-sponsor-band .ad-placeholder {
+    min-height: 70px;
+  }
+}
