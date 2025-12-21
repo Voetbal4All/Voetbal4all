@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-21T06:57:21.108Z",
+  "generatedAt": "2025-12-21T07:34:24.422Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Go Ahead tegen Groningen, AZ naar Sittard en volop buitenlands voetbal",
+      "link": "https://www.vi.nl/nieuws/vi-live-go-ahead-tegen-groningen-az-naar-sittard-en-volop-buitenlands-voetbal",
+      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
+      "publishedAt": "2025-12-21T07:31:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Excelsior hoopt op aanvallende impulsen en goals van Bergraaf",
+      "link": "https://www.vi.nl/pro/excelsior-hoopt-op-aanvallende-impulsen-en-goals-van-bergraaf",
+      "summary": "Excelsior gaat na de 2-1 zege op PEC Zwolle met negentien punten uit zestien wedstrijden de winterstop in. Tevredenheid alom op Woudestein, maar reden om gerust te zijn op een goede afloop is er niet. ‘We zijn er nog lang niet’, weet clubtopscorer (met vijf treffers) Noah Naujoks.",
+      "publishedAt": "2025-12-21T07:20:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: PSV sluit jaar af met uitwedstrijd tegen FC Utrecht",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-het-eredivisie-duel-tussen-psv-en-fc-utrecht",
+      "summary": "PSV sluit zondag het jaar af met een uitwedstrijd tegen FC Utrecht. Om 12.15 uur is de aftrap van het duel. Volg de ontmoeting tussen Utrecht en PSV in deze VI Live.",
+      "publishedAt": "2025-12-21T07:01:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "AJ: I had to decide if I wanted to carry on boxing",
+      "link": "https://www.skysports.com/boxing/news/12040/13486206/anthony-joshua-explains-why-he-needed-a-year-away-from-boxing-before-jake-paul-fight-as-tyson-fury-clash-looms",
+      "summary": "Anthony Joshua admits he needed time to decide if he wanted to carry on boxing after his knockout defeat to Daniel Dubois in 2024. The answer? He does.",
+      "publishedAt": "2025-12-21T07:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -31,7 +75,7 @@
       "flag": "🌍",
       "title": "'I didn't get that right' - McCullum admits error on England Ashes preparation",
       "link": "https://www.skysports.com/cricket/news/12040/13485890/the-ashes-england-coach-brendon-mccullum-admits-to-error-on-tourists-preparation-after-australia-seal-victory",
-      "summary": "Brendon McCullum has accepted responsibility for not getting England's Ashes preparation right after his side succumbed to a series defeat to Australia by losing the third Test.",
+      "summary": "Brendon McCullum has accepted responsibility for not getting England's Ashes preparation right after his side lost the third Test and succumbed to a series defeat to Australia in just 11 days of cricket..",
       "publishedAt": "2025-12-21T06:00:00.000Z"
     },
     {
@@ -44,17 +88,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13485657/luke-littler-nhs-worker-david-davies-says-teenager-is-a-different-breed-as-he-aims-to-cause-major-upset-at-world-darts-championship",
       "summary": "David Davies says Luke Littler is a “different breed” but is hoping to cause a major upset when the pair meet in the second round of the World Darts Championship on Sunday night.",
       "publishedAt": "2025-12-21T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Emotional' Stokes laments end of Ashes dream | 'It hurts'",
-      "link": "https://www.skysports.com/cricket/news/12040/13486267/ben-stokes-england-captain-says-end-of-their-ashes-dream-hurts-and-sucks-as-australia-clinch-series-win-in-adelaide",
-      "summary": "Ben Stokes said the death of his England side's Ashes dream \"hurts\" and \"sucks\" as Australia clinched a series win inside 11 days with an 82-run victory on the final day of the third Test in Adelaide.",
-      "publishedAt": "2025-12-21T05:30:00.000Z"
     },
     {
       "type": "rss",
@@ -75,7 +108,7 @@
       "flag": "🌍",
       "title": "Australia beat England to go 3-0 up and retain Ashes",
       "link": "https://www.skysports.com/cricket/news/12040/13485885/the-ashes-australia-seal-series-win-over-england-by-going-3-0-up-with-third-test-victory-in-adelaide",
-      "summary": "England's dismal Ashes series defeat was confirmed as Australia sealed a 82-run victory on the final day of the third Test in Adelaide.",
+      "summary": "England's dismal Ashes series defeat was confirmed as Australia sealed an 82-run victory on the final day of the third Test in Adelaide.",
       "publishedAt": "2025-12-21T03:50:00.000Z"
     },
     {
@@ -154,39 +187,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/20/european-football-bayer-leverkusen-rb-leipzig-real-madrid-roma-juventus",
       "summary": "Mbappé makes it 59 goals in a year in win over Sevilla Juventus stay in Serie A race with 2-1 win over Roma Kylian Mbappé equalled Cristiano Ronaldo’s record of 59 goals in a calendar year for Real Madrid with a late penalty in his side’s 2-0 home win over Sevilla in La Liga on Saturday, the French forward celebrating his 27th birthday in style. Mbappé missed several earlier chances before getting his chance from the spot four minutes from time and he made no mistake to net his 59th goal in as many games across all competitions in 2025 to level Ronaldo’s 2013 haul. Continue reading...",
       "publishedAt": "2025-12-20T22:44:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Grim is kritisch na gelijkspel Ajax: 'Dat moet echt beter'",
-      "link": "https://www.vi.nl/video/grim-is-kritisch-na-gelijkspel-ajax-dat-moet-echt-beter",
-      "summary": "Ajax gaat met een derde plaats de winterstop in. Trainer Fred Grim weet precies wat er na de onderbreking beter moet bij zijn ploeg.",
-      "publishedAt": "2025-12-20T22:40:33.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Trotse Telstar-trainer Correia: 'Waar we nu staan, is meer dan verdiend'",
-      "link": "https://www.vi.nl/nieuws/trotse-telstar-trainer-correia-waar-we-nu-staan-is-meer-dan-verdiend",
-      "summary": "Telstar-trainer Anthony Correia is bijzonder trots op hoe zijn ploeg zich in de eerste seizoenshelft heeft gepresenteerd. Dankzij de overwinning op NAC Breda staat de nieuwkomer in de Eredivisie halverwege deze jaargang op de vijftiende plaats.",
-      "publishedAt": "2025-12-20T22:39:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Grafstemming bij hekkensluiter NAC: 'We raakten het helemaal kwijt'",
-      "link": "https://www.vi.nl/nieuws/grafstemming-bij-hekkensluiter-nac-we-raakten-het-helemaal-kwijt",
-      "summary": "NAC Breda wist dat het zaterdagavond onder geen beding mocht verliezen van Telstar, maar de Brabanders lieten dat wel gebeuren. Dat liet nogal zijn sporen na in het Rat Verlegh Stadion, bleek uit de reacties van geel-zwarte zijde.",
-      "publishedAt": "2025-12-20T22:38:25.000Z"
     },
     {
       "type": "rss",
