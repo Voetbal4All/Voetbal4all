@@ -1,16 +1,60 @@
 {
-  "generatedAt": "2025-12-21T22:41:03.014Z",
+  "generatedAt": "2025-12-21T23:34:25.644Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Match of the Day",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "summary": "Mark Chapman presents highlights of Aston Villa v Manchester United.",
-      "publishedAt": "2025-12-21T23:02:00.000Z"
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Samenvatting: winstreeks Ajax stokt na gelijkspel tegen tiental van NEC",
+      "link": "https://www.vi.nl/video/samenvatting-winstreeks-ajax-stokt-na-gelijkspel-tegen-tiental-van-nec",
+      "summary": "Ajax sloot het kalenderjaar zaterdagavond af met een gelijkspel bij NEC. In het Goffertstadion gaven de Amsterdammers een voorsprong uit handen en speelden zij ruim een halfuur tegen tien man.",
+      "publishedAt": "2025-12-22T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Samenvatting: Feyenoord wint ook niet van sterker FC Twente",
+      "link": "https://www.vi.nl/video/samenvatting-feyenoord-wint-ook-niet-van-sterker-fc-twente",
+      "summary": "Feyenoord heeft het jaar zondag afgesloten met een gelijkspel in de Eredivisie. FC Twente schoot liefst 29 keer, maar scoorde net als de Rotterdammers maar één keer. De goal van Feyenoord-aanvaller Gonçalo Borges was een zeer fraaie.",
+      "publishedAt": "2025-12-21T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Samenvatting: PSV boekt recordzege in de Eredivisie tegen FC Utrecht",
+      "link": "https://www.vi.nl/video/samenvatting-psv-boekt-recordzege-in-de-eredivisie-tegen-fc-utrecht",
+      "summary": "PSV heeft het kalenderjaar zondag afgesloten met een recordzege. Voor de veertiende keer op rij werd er een uitwedstrijd gewonnen in de Eredivisie en dat is in de geschiedenis van de Eredivisie nog nooit gebeurd. Ricardo Pepi en Ivan Perisic waren de goudhaantjes voor de regerend landskampioen,",
+      "publishedAt": "2025-12-21T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Memphis helpt Corinthians voor het eerst in zestien jaar aan de Braziliaanse beker",
+      "link": "https://www.vi.nl/nieuws/memphis-helpt-corinthians-voor-het-eerst-in-zestien-jaar-aan-de-braziliaanse-beker",
+      "summary": "Memphis Depay heeft zijn tweede prijs te pakken met Corinthians. De topscorer aller tijden van het Nederlands elftal was zelfs de matchwinner in de finale van de Copa do Brasil tegen Vasco da Gama.",
+      "publishedAt": "2025-12-21T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Martens laakt arbitrage: 'Dit was een honderd procent penalty'",
+      "link": "https://www.vi.nl/nieuws/martens-laakt-arbitrage-dit-was-een-honderd-procent-penalty",
+      "summary": "AZ heeft het jaar teleurstellend afgesloten. In de laatste minuut van het duel met Fortuna Sittard ( 4-3 ) kregen de Alkmaarders nog een penalty, maar die werd na ingrijpen van de VAR teruggedraaid. Dat zorgde achteraf voor grote woede bij Maarten Martens en Troy Parrott.",
+      "publishedAt": "2025-12-21T22:47:29.000Z"
     },
     {
       "type": "rss",
@@ -25,47 +69,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Feyenoord heeft er baat bij dat het project Van Persie slaagt'",
-      "link": "https://www.vi.nl/nieuws/feyenoord-heeft-er-baat-bij-dat-het-project-van-persie-slaagt",
-      "summary": "Feyenoord is erbij gebaat dat het project met Robin van Persie als trainer slaagt, zo denkt Pierre van Hooijdonk. De analyticus snapt daarom dat de trainer wat meer tijd krijgt bij de Rotterdammers. Als het aan Wim Kieft zou liggen, dan zou Feyenoord Van Persie ook moeten houden als trainer.",
-      "publishedAt": "2025-12-21T22:27:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Antony sluit het jaar af met weer een belangrijke rol bij zege Real Betis",
-      "link": "https://www.vi.nl/nieuws/antony-sluit-het-jaar-af-met-weer-een-belangrijke-rol-bij-zege-real-betis",
-      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
-      "publishedAt": "2025-12-21T22:21:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Salah-Eddine straalt na zege Marokko: 'Beleven het alsof je leven ervan afhangt'",
-      "link": "https://www.vi.nl/nieuws/salah-eddine-straalt-na-zege-marokko-beleven-het-alsof-je-leven-ervan-afhangt",
-      "summary": "Anass Salah-Eddine heeft een succesvol debuut beleefd bij Marokko. In het openingsduel met de Comoren werd met 2-0 gewonnen en gaf de PSV’er een assist bij een weergaloze omhaal van Ayoub El Kaabi.",
-      "publishedAt": "2025-12-21T22:19:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Saibari kan het niveau van Tottenham Hotspur of Bayern München aan'",
-      "link": "https://www.vi.nl/nieuws/saibari-kan-het-niveau-van-tottenham-hotspur-of-bayern-m-nchen-aan",
-      "summary": "Ismael Saibari heeft met Marokko een zakelijke zege geboekt in het openingsduel van de Afrika Cup. De PSV’er werd vooraf al bestempeld als een potentiële speler van het toernooi, maar kwam tegen de Comoren nog niet volledig uit de verf.",
-      "publishedAt": "2025-12-21T22:14:59.000Z"
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "European football: Lamine Yamal on target as Barcelona battle past 10-man Villarreal",
+      "link": "https://www.theguardian.com/football/2025/dec/21/european-football-lamine-yamal-barcelona-atletico-madrid-bayern-munich",
+      "summary": "Barcelona head into new year on top of La Liga Kane scores again in Bayern’s 4-0 rout of Heidenheim Barcelona enjoyed a composed 2-0 La Liga victory at Villarreal on Sunday thanks to goals from Raphinha and Lamine Yamal in a match that tilted firmly in the visitors’ favour when the hosts were reduced to 10 men just before the break. It took only 12 minutes for Barcelona to take the lead from the penalty spot after Santi Comesana blocked Raphinha with his back as the winger tried to break through and the Brazilian calmly converted the spot-kick. Continue reading...",
+      "publishedAt": "2025-12-21T22:31:43.000Z"
     },
     {
       "type": "rss",
@@ -77,17 +88,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/21/liverpool-fear-alexander-isak-sustained-significant-injury-at-tottenham",
       "summary": "Striker hurt by Van de Ven tackle when opening scoring MRI scan results to reveal length of spell on sidelines Liverpool fear their record signing Alexander Isak has fractured his left leg and will face months on the sidelines. The league champions are waiting on the results of an MRI scan after the £125m man was injured against Tottenham in Saturday’s Premier League game. The 26-year-old sustained the problem while scoring the opener against Spurs – his second league goal of an already injury-hit debut season – in the 2-1 win after defender Micky van de Ven slid across and caught his leg as the striker planted it on the ground. Continue reading...",
       "publishedAt": "2025-12-21T22:05:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Kerstnummer 2025: 'Leer te dansen in de regen'",
-      "link": "https://www.vi.nl/nieuws/vi-kerstnummer-2025-leer-te-dansen-in-de-regen",
-      "summary": "Als Rob Jetten binnen afzienbare tijd daadwerkelijk aantreedt als volgende premier van Nederland, zal zijn vader Anton apetrots zijn. Tegelijk zal de grote voetballiefhebber zich altijd blijven afvragen hoe ver de snelle rechtsback van UDI ’19 het zou hebben geschopt als hij er niet ineens de brui aan had gegeven als B-junior. Een scout van NEC had hem net in het vizier gekregen… ‘Of ik hem niet had kunnen overhalen om toch door te gaan met voetballen? Dat hoefde je bij Rob echt niet te proberen.’",
-      "publishedAt": "2025-12-21T22:05:00.000Z"
     },
     {
       "type": "rss",
@@ -216,10 +216,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Stunning Rogers double secures Villa win over Man Utd",
-      "link": "https://www.bbc.com/sport/football/videos/cvgr3nez9x9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Morgan Rogers scores twice for Aston Villa in their 2-1 win against Manchester United, extending Villa's unbeaten run to 10 matches in all competitions.",
-      "publishedAt": "2025-12-21T19:12:03.000Z"
+      "title": "'Not at end of storm, but light amid darkness for Nancy at Celtic'",
+      "link": "https://www.bbc.com/sport/football/articles/ce86kxkj309o?at_medium=RSS&at_campaign=rss",
+      "summary": "On the winter solstice, some light finally illuminated the darkness of Wilfried Nancy's opening 17 days as Celtic manager.",
+      "publishedAt": "2025-12-21T19:47:22.000Z"
     }
   ]
 }
