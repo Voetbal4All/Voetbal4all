@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2025-12-21T21:32:51.131Z",
+  "generatedAt": "2025-12-21T22:41:03.014Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Match of the Day",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "summary": "Mark Chapman presents highlights of Aston Villa v Manchester United.",
+      "publishedAt": "2025-12-21T23:02:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City to weigh players before Forest game",
+      "link": "https://www.bbc.com/sport/football/articles/cm20dd4md8qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City manager Pep Guardiola says his players will be weighed when they return to training to check they are fit enough to play against Nottingham Forest.",
+      "publishedAt": "2025-12-21T22:32:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Feyenoord heeft er baat bij dat het project Van Persie slaagt'",
+      "link": "https://www.vi.nl/nieuws/feyenoord-heeft-er-baat-bij-dat-het-project-van-persie-slaagt",
+      "summary": "Feyenoord is erbij gebaat dat het project met Robin van Persie als trainer slaagt, zo denkt Pierre van Hooijdonk. De analyticus snapt daarom dat de trainer wat meer tijd krijgt bij de Rotterdammers. Als het aan Wim Kieft zou liggen, dan zou Feyenoord Van Persie ook moeten houden als trainer.",
+      "publishedAt": "2025-12-21T22:27:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Antony sluit het jaar af met weer een belangrijke rol bij zege Real Betis",
+      "link": "https://www.vi.nl/nieuws/antony-sluit-het-jaar-af-met-weer-een-belangrijke-rol-bij-zege-real-betis",
+      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
+      "publishedAt": "2025-12-21T22:21:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Salah-Eddine straalt na zege Marokko: 'Beleven het alsof je leven ervan afhangt'",
+      "link": "https://www.vi.nl/nieuws/salah-eddine-straalt-na-zege-marokko-beleven-het-alsof-je-leven-ervan-afhangt",
+      "summary": "Anass Salah-Eddine heeft een succesvol debuut beleefd bij Marokko. In het openingsduel met de Comoren werd met 2-0 gewonnen en gaf de PSV’er een assist bij een weergaloze omhaal van Ayoub El Kaabi.",
+      "publishedAt": "2025-12-21T22:19:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Saibari kan het niveau van Tottenham Hotspur of Bayern München aan'",
+      "link": "https://www.vi.nl/nieuws/saibari-kan-het-niveau-van-tottenham-hotspur-of-bayern-m-nchen-aan",
+      "summary": "Ismael Saibari heeft met Marokko een zakelijke zege geboekt in het openingsduel van de Afrika Cup. De PSV’er werd vooraf al bestempeld als een potentiële speler van het toernooi, maar kwam tegen de Comoren nog niet volledig uit de verf.",
+      "publishedAt": "2025-12-21T22:14:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool fear Alexander Isak has fractured leg after horror injury against Spurs",
+      "link": "https://www.theguardian.com/football/2025/dec/21/liverpool-fear-alexander-isak-sustained-significant-injury-at-tottenham",
+      "summary": "Striker hurt by Van de Ven tackle when opening scoring MRI scan results to reveal length of spell on sidelines Liverpool fear their record signing Alexander Isak has fractured his left leg and will face months on the sidelines. The league champions are waiting on the results of an MRI scan after the £125m man was injured against Tottenham in Saturday’s Premier League game. The 26-year-old sustained the problem while scoring the opener against Spurs – his second league goal of an already injury-hit debut season – in the 2-1 win after defender Micky van de Ven slid across and caught his leg as the striker planted it on the ground. Continue reading...",
+      "publishedAt": "2025-12-21T22:05:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Kerstnummer 2025: 'Leer te dansen in de regen'",
+      "link": "https://www.vi.nl/nieuws/vi-kerstnummer-2025-leer-te-dansen-in-de-regen",
+      "summary": "Als Rob Jetten binnen afzienbare tijd daadwerkelijk aantreedt als volgende premier van Nederland, zal zijn vader Anton apetrots zijn. Tegelijk zal de grote voetballiefhebber zich altijd blijven afvragen hoe ver de snelle rechtsback van UDI ’19 het zou hebben geschopt als hij er niet ineens de brui aan had gegeven als B-junior. Een scout van NEC had hem net in het vizier gekregen… ‘Of ik hem niet had kunnen overhalen om toch door te gaan met voetballen? Dat hoefde je bij Rob echt niet te proberen.’",
+      "publishedAt": "2025-12-21T22:05:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Fighter' Rogers shows importance as Villa stay in title race",
+      "link": "https://www.bbc.com/sport/football/articles/cm21jdy1wjeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Morgan Rogers shows his importance to Aston Villa with two goals in a win over Manchester United, as Unai Emery's side remain in the title hunt.",
+      "publishedAt": "2025-12-21T21:40:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "El Kaabi’s stunning strike caps Morocco’s win over Comoros in Afcon opener",
+      "link": "https://www.theguardian.com/football/2025/dec/21/morocco-comoros-africa-cup-of-nations-match-report",
+      "summary": "The Africa Cup of Nations hosts, Morocco, overcame a nervy start to beat Comoros in the tournament’s opening game on Sunday after Brahim Díaz and the substitute Ayoub El Kaabi scored second-half goals. It was a far from convincing showing, however, from highly fancied Morocco who are 97 places above the small Indian Ocean island nation in the world rankings and had to toil hard for the points in the rain at Rabat’s Prince Moulay Abdellah stadium. Continue reading...",
+      "publishedAt": "2025-12-21T21:40:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Nev: Man Utd can build on this week - but Keane blasts 'corner cutting' defending",
+      "link": "https://www.skysports.com/football/news/12040/13486500/gary-neville-man-utd-can-build-on-aston-villa-and-bournemouth-performances-but-roy-keane-blasts-corner-cutting",
+      "summary": "Gary Neville feels Ruben Amorim has given himself a blueprint to move forward after a notable change in style this week - but Roy Keane remains unimpressed with \"one of the worst teams in the league\" without the ball.",
+      "publishedAt": "2025-12-21T21:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -36,47 +157,14 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Morocco 2-0 Comoros: Africa Cup of Nations opener – live reaction",
-      "link": "https://www.theguardian.com/football/live/2025/dec/21/morocco-v-comoros-africa-cup-of-nations-opener-live",
-      "summary": "The hosts and favourites got off to a winning start after goals from Brahim Diaz and Ayoub El Kaabi The teams take to the field in Rabat, the stadium looks close to full, the home fans are expectant. Can Morocco set a standard? On the field at Rabat, at the Complexe Sportif Prince Moulay Abdellah, CAF President Dr Pratrice Motsepe has takes to declare the AFCON open. Sadly, UK coverage of the opening ceremony has been non-existent. Continue reading...",
-      "publishedAt": "2025-12-21T21:24:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Marokko opent Afrika Cup met zege én weergaloze omhaal",
-      "link": "https://www.vi.nl/nieuws/marokko-opent-afrika-cup-met-zege-n-weergaloze-omhaal",
-      "summary": "Marokko heeft het openingsduel op de Afrika Cup winnend afgesloten. Ismael Saibari en Anass Salah-Eddine speelden de hele wedstrijd tegen de Comoren, maar het was Ayoub El Kaabi die de show stal met een weergaloze omhaal.",
-      "publishedAt": "2025-12-21T21:20:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Antony belangrijk voor Real Betis tegen Getafe",
-      "link": "https://www.vi.nl/nieuws/vi-live-saibari-en-salah-eddine-in-marokko-basis-rogers-doet-man-utd-w-r-pijn",
-      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
-      "publishedAt": "2025-12-21T21:05:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Niet alléén euforie in Sittard na spektakelzege: 'Fortuna staat op tweesprong'",
-      "link": "https://www.vi.nl/pro/niet-all-n-euforie-in-sittard-na-spektakelzege-fortuna-staat-op-tweesprong",
-      "summary": "Na een krankzinnige slotfase, met een glansrol voor doelman Mattijs Branderhorst, verzekerde Fortuna Sittard zich van een 4-3 zege op AZ. De ploeg van Danny Buijs gaat als elfde de winterstop in, tot tevredenheid van velen in en om de club. De trainer zelf waarschuwt maar weer eens. ‘Er móét een visie komen.’",
-      "publishedAt": "2025-12-21T21:00:00.000Z"
+      "title": "Chaos! Ally Pally goes wild for Littler's 'fake' big fish and Davies walks off early!",
+      "link": "https://www.skysports.com/watch/video/13486520/world-darts-championship-funny-60-seconds-between-luke-littler-and-david-davies",
+      "summary": "Watch a funny 60 seconds between Luke Littler and David Davies as we have a fake 170 checkout and premature walk off!",
+      "publishedAt": "2025-12-21T21:21:00.000Z"
     },
     {
       "type": "rss",
@@ -88,17 +176,6 @@
       "link": "https://www.bbc.com/sport/football/articles/clyde060x52o?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United's injury problems worsened as captain and talisman Bruno Fernandes was replaced in a 2-1 defeat by Aston Villa.",
       "publishedAt": "2025-12-21T20:54:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bondscoach Egypte neemt het op voor 'voetbalicoon' Salah",
-      "link": "https://www.vi.nl/video/bondscoach-egypte-neemt-het-op-voor-voetbalicoon-salah",
-      "summary": "Hossam Hassan heeft het opgenomen voor Mohamed Salah. De bondscoach van Egypte denkt dat het 'voetbalicoon' gaat schitteren op de Afrika Cup.",
-      "publishedAt": "2025-12-21T20:39:38.000Z"
     },
     {
       "type": "rss",
@@ -124,25 +201,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Yilmaz na onderbreking van vier dagen toch weer coach van Gaziantep",
-      "link": "https://www.vi.nl/nieuws/yilmaz-na-onderbreking-van-vier-dagen-toch-weer-coach-van-gaziantep",
-      "summary": "Na een korte onderbreking is Burak Yimaz weer trainer van Gaziantep. Onlangs kondigde de voormalig speler van Fortuna Sittard zijn vertrek bij de club aan, maar vier dagen daarna zijn alle plooien toch weer gladgestreken.",
-      "publishedAt": "2025-12-21T20:11:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'Not at end of storm, but light amid darkness for Nancy at Celtic'",
-      "link": "https://www.bbc.com/sport/football/articles/ce86kxkj309o?at_medium=RSS&at_campaign=rss",
-      "summary": "On the winter solstice, some light finally illuminated the darkness of Wilfried Nancy's opening 17 days as Celtic manager.",
-      "publishedAt": "2025-12-21T19:47:22.000Z"
+      "title": "Amorim warns against panic buying after Fernandes joins Manchester United injury list",
+      "link": "https://www.theguardian.com/football/2025/dec/21/manchester-united-will-not-go-panic-buying-in-january-says-amorim",
+      "summary": "Captain Fernandes injured in defeat at Aston Villa ‘We need to find solutions, we continue with our plan’ Ruben Amorim insisted Manchester United risk making mistakes in the January transfer window if they panic after Bruno Fernandes joined their growing injury list. Amorim said he expects the United captain to miss their home Boxing Day game against Newcastle and fears Fernandes will be sidelined “for a while” after being forced off at half-time in the defeat against Aston Villa. Fernandes clutched his left calf after a sixth-minute tackle from Boubacar Kamara and was later fouled by another Villa midfielder, Amadou Onana. He was replaced by Lisandro Martínez at the interval. The Argentina centre-back played alongside Manuel Ugarte at the base of United’s midfield, with Kobbie Mainoo absent with a calf issue sustained in training on Saturday. Continue reading...",
+      "publishedAt": "2025-12-21T20:25:39.000Z"
     },
     {
       "type": "rss",
@@ -154,72 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/cvgr3nez9x9o?at_medium=RSS&at_campaign=rss",
       "summary": "Morgan Rogers scores twice for Aston Villa in their 2-1 win against Manchester United, extending Villa's unbeaten run to 10 matches in all competitions.",
       "publishedAt": "2025-12-21T19:12:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Hearts have arrived'... but McInnes warns they can get better",
-      "link": "https://www.bbc.com/sport/football/articles/cr4d7vw46d0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Hearts \"have arrived\" as Scottish Premiership title contenders after beating Rangers for the second time this season, says Kris Boyd.",
-      "publishedAt": "2025-12-21T19:01:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Gallagher Premiership: Bath show dominance away over Newcastle",
-      "link": "https://www.skysports.com/rugby-union/news/12040/13486477/gallagher-premiership-bath-show-dominance-at-newcastle-as-they-extend-time-at-top-of-table",
-      "summary": "Bath head of rugby Johann van Graan hailed a \"satisfying performance\" as his side completed a dominant 50-14 Gallagher Premiership win over Newcastle Red Bulls.",
-      "publishedAt": "2025-12-21T18:46:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Morgan Rogers double sinks Manchester United and keeps Aston Villa on leaders’ heels",
-      "link": "https://www.theguardian.com/football/2025/dec/21/aston-villa-manchester-united-premier-league-match-report",
-      "summary": "On another evening of theatre at Villa Park, it was fitting that the match-winner Morgan Rogers was last to leave the stage. There is simply no stopping this Aston Villa machine, cylinders pumping, handcrafted by Unai Emery, who reacted to ­Rogers’s second goal against Manchester United by launching his jacket into the night sky. “Birmingham, are you listening?” came the chorus from the home support but this was a victory with far wider implications. Approaching the halfway stage of the season, Villa, third and three points behind Premier League leaders Arsenal, are ensconced in the title race, two more Rogers goals earning a 10th straight win in all competitions and rendering Matheus Cunha’s well-taken equaliser a consolation. The discourse and debate will run wild after this latest Villa win, a seventh in a row in the league, but it was one that undoubtedly belonged to Rogers’s individual brilliance. After his second goal, Rogers spread his arms, screwed up his face and shrugged as if to say: “Well, what am I supposed to do?” Continue reading...",
-      "publishedAt": "2025-12-21T18:44:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rogers steals the show AGAIN as Villa continue winning run against Man Utd",
-      "link": "https://www.skysports.com/watch/video/13486469/aston-villa-2-1-manchester-united-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Aston Villa’s win against Manchester United in the Premier League.",
-      "publishedAt": "2025-12-21T18:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rogers' stunning double downs Man Utd as Villa win again",
-      "link": "https://www.skysports.com/football/aston-villa-vs-manchester-united/report/531289",
-      "summary": "Morgan Rogers scored twice for Aston Villa as they beat Manchester United 2-1 at Villa Park to make it 10 wins in a row in all competitions.",
-      "publishedAt": "2025-12-21T18:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Incredible moment 86-year-old Lee Trevino holes out for an eagle!",
-      "link": "https://www.skysports.com/watch/video/13486461/86-year-old-lee-trevino-holes-out-for-a-sensational-eagle-at-the-pnc-championship",
-      "summary": "During the closing round of the 2025 PNC Championship, Lee Trevino holes out for an eagle on the par-four 13th hole at the Ritz-Carlton Golf Club.",
-      "publishedAt": "2025-12-21T18:28:00.000Z"
     }
   ]
 }
