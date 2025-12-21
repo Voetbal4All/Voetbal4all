@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-21T03:58:33.228Z",
+  "generatedAt": "2025-12-21T04:59:39.942Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Australia beat England to go 3-0 up and retain Ashes",
+      "link": "https://www.skysports.com/cricket/news/12040/13485885/the-ashes-australia-seal-series-win-over-england-by-going-3-0-up-with-third-test-victory-in-adelaide",
+      "summary": "England's dismal Ashes series defeat was confirmed as Australia sealed a 82-run victory on the final day of the third Test in Adelaide.",
+      "publishedAt": "2025-12-21T03:50:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -209,17 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47370514/liverpool-win-marred-isak-injury-frank-pressure-builds",
       "summary": "Liverpool's third straight win in all competitions came at a cost while furthering Spurs fans' frustration with Thomas Frank.",
       "publishedAt": "2025-12-20T22:19:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dominic Calvert-Lewin double fires Leeds to victory against Crystal Palace",
-      "link": "https://www.theguardian.com/football/2025/dec/20/leeds-crystal-palace-premier-league-match-report",
-      "summary": "Dominic Calvert-Lewin became the first Leeds striker to score in five consecutive Premier League games in 22 years to down a lethargic Crystal Palace, and open up a six-point gap on the relegation zone. Mark Viduka achieved the same feat in 2003, helping secure his side’s top-flight status with his instinctive finishing, another achievement the latest Elland Road No 9 is aiming to replicate. The former Everton striker cannot have imagined almost 40,000 singing his name at Christmas when he was unemployed for much of the summer, reminding everyone that sometimes the best gifts are free. It took until mid-August for newly promoted Leeds to convince Calvert-Lewin this was the right place to rebuild his career and they are proving one another right, helped by the scorer of the third goal Ethan Ampadu’s long-throws. Continue reading...",
-      "publishedAt": "2025-12-20T22:15:53.000Z"
     }
   ]
 }
