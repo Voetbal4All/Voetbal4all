@@ -1,16 +1,71 @@
 {
-  "generatedAt": "2025-12-21T14:40:07.824Z",
+  "generatedAt": "2025-12-21T15:35:13.587Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "El Ahmadi hard over Feyenoord: 'Alsof je naar de nummer achttien kijkt'",
-      "link": "https://www.vi.nl/nieuws/el-ahmadi-hard-over-feyenoord-alsof-je-naar-de-nummer-achttien-kijkt",
-      "summary": "Feyenoord speelde zondagmiddag een belabberde eerste helft tegen FC Twente. Bij rust stond het 'maar' 0-1 voor de bezoekers, maar dat had een stuk hoger uit kunnen vallen. Analytici Karim El Ahmadi en Bram van Polen oordeelden keihard in de rust.",
-      "publishedAt": "2025-12-21T14:38:47.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Isak injured while scoring in Liverpool win at Spurs",
+      "link": "https://www.espn.com/soccer/story/_/id/47369396/liverpool-alexander-isak-limps-injured-scoring-spurs",
+      "summary": "Liverpool forward Alexander Isak could be facing a lengthy spell on the sidelines after suffering an injury in his team's Premier League clash with Tottenham Hotspur.",
+      "publishedAt": "2025-12-21T15:31:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USA's Pepi scores again in PSV comeback win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/741127",
+      "summary": "United States forward Ricardo Pepi continued his excellent run of form with a goal that helped PSV Eindhoven beat Utrecht 2-1 on Sunday.",
+      "publishedAt": "2025-12-21T15:31:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mbappé equals Ronaldo record, hits 'Siu' celeb",
+      "link": "https://www.espn.com/soccer/story/_/id/47245759/kylian-mbappe-cristiano-ronaldo-record-real-madrid-goals-year",
+      "summary": "Kylian Mbappé added his name to another line in the record books on Saturday, tying Cristiano Ronaldo for the most goals by a Real Madrid player in a calendar year.",
+      "publishedAt": "2025-12-21T15:31:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barcelona's Christensen sidelined with ACL injury",
+      "link": "https://www.espn.com/soccer/story/_/id/47378435/andreas-christensen-acl-injury-barcelona",
+      "summary": "Andreas Christensen faces a long spell on the sidelines after suffering an ACL injury.",
+      "publishedAt": "2025-12-21T15:31:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arteta: Arsenal unfazed by Man City title charge",
+      "link": "https://www.espn.com/soccer/story/_/id/47372494/mikel-arteta-arsenal-manchester-city-premier-league-title",
+      "summary": "Mikel Arteta said Arsenal were not distracted by Manchester City moving top of the Premier League before the Gunners reclaimed number one spot hours later with a 1-0 win at Everton.",
+      "publishedAt": "2025-12-21T15:31:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool fear significant lower leg injury for Isak",
+      "link": "https://www.bbc.com/sport/football/articles/crrk881yy17o?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool fear Alexander Isak has sustained a significant lower leg injury after the striker was forced off against Tottenham on Saturday.",
+      "publishedAt": "2025-12-21T15:31:15.000Z"
     },
     {
       "type": "rss",
@@ -18,21 +73,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Eerst kritiek, daarna lof voor Pepi: 'Hier staat hij voor, een topspitsengoal'",
-      "link": "https://www.vi.nl/nieuws/pepi-krijgt-kritiek-door-hem-komt-psv-niet-aan-voetballen-toe",
-      "summary": "Ricardo Pepi speelt niet zijn beste wedstrijd in dienst van PSV. De spits komt tegen FC Utrecht nauwelijks in het spel voor. ESPN-analyticus vertelt waar het aan schort in Stadion Galgenwaard.",
-      "publishedAt": "2025-12-21T14:32:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bosz zag PSV na goede start wegzakken: 'Een beetje het euvel van de laatste tijd'",
-      "link": "https://www.vi.nl/nieuws/bosz-zag-psv-na-goede-start-wegzakken-een-beetje-het-euvel-van-de-laatste-tijd",
-      "summary": "Dat PSV met een overwinning en een nieuw record de winterstop ingaat, stemde trainer Peter Bosz tevreden. Hij vond dat zijn ploeg twee tandjes moest bijschakelen na een slordige fase, waarin FC Utrecht de leiding nam. Voor Joey Veerman was het mogelijk zijn laatste wedstrijd voor PSV, maar Bosz wilde niet zeggen of zijn wissel daarmee te maken had.",
-      "publishedAt": "2025-12-21T14:29:00.000Z"
+      "title": "Bosz gaat winterstop in 'met beste gevoel dat je kan hebben' bij PSV",
+      "link": "https://www.vi.nl/video/bosz-gaat-winterstop-in-met-beste-gevoel-dat-je-kan-hebben-bij-psv",
+      "summary": "Peter Bosz gaat met een lekker gevoel de feestdagen in. De trainer van PSV was allesbehalve chagrijnig na de overwinning bij FC Utrecht. Wat daar ook aan bijdraagt, is dat de landskampioen al veel lastige uitwedstrijden heeft gespeeld.",
+      "publishedAt": "2025-12-21T15:31:00.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +84,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Hearts v Rangers, European action and Afcon kicks off – matchday live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/21/aston-villa-looking-for-10th-consecutive-win-and-afcon-begins-matchday-live",
-      "summary": "⚽ Discussion, news and buildup to all Sunday’s action ⚽ Live scores | Tables | Saturday’s reports | Mail us here There’s some interesting debate raging below the line about the tempestuous meeting between Tottenham and Liverpool last night, where Xavi Simons and Cristian Romero were sent off but Micky van de Ven, whose challenge ended Alexander Isak’s involvement was not. Thomas Frank was certainly of the view that Simons sending off was unjust. “I don’t like those types of red card because I think the game is gone if that’s a red card,” he told the BBC soon after the game finished. “I don’t think it’s a reckless tackle. I don’t think it’s exceptional force. We have the referee’s call and that was a yellow, so that’s why I don’t think that’s a red.” Continue reading...",
-      "publishedAt": "2025-12-21T14:28:41.000Z"
+      "title": "Aston Villa v Manchester United: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/21/aston-villa-v-manchester-united-premier-league-live",
+      "summary": "⚽ Premier League updates from the 4.30pm GMT kick-off ⚽ Live scores | Table | Follow us on Bluesky | Email Tim Just when a first start of the season was beckoning to him, Kobbie Mainoo has picked up a minor injury, so he’s not even on the bench and Manuel Ugarte has a shot at redemption. Ruben Amorim also brings back Patrick Dorgu, which suggests he’s sticking with his much-disliked formation. Could anyone make sense of the 4-4 farrago last Monday? Probably not, but I had a go for United Writing, the Substack newsletter Rob Smyth and I started for fellow supporters sufferers. Continue reading...",
+      "publishedAt": "2025-12-21T15:30:58.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +95,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Jans blikt terug op kalenderjaar FC Utrecht, Til blij met productie",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-het-eredivisie-duel-tussen-psv-en-fc-utrecht",
-      "summary": "PSV sluit zondag het jaar af met een uitwedstrijd tegen FC Utrecht. Om 12.15 uur is de aftrap van het duel. Volg de ontmoeting tussen Utrecht en PSV in deze VI Live.",
-      "publishedAt": "2025-12-21T14:21:20.000Z"
+      "title": "VI Live: AZ sluit het jaar af in Sittard, Raphinha schiet Barcelona op 0-1",
+      "link": "https://www.vi.nl/nieuws/vi-live-az-sluit-het-jaar-af-in-sittard-raphinha-schiet-barcelona-op-0-1",
+      "summary": "Naast de duels van PSV en Feyenoord die we in een apart liveblog volgen, staan er nog drie Eredivisie-duels op het programma. Daarnaast wordt er ook volop gevoetbald in het buitenland. In deze VI Live blijf je daarvan volledig op de hoogte.",
+      "publishedAt": "2025-12-21T15:30:33.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +106,54 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Feyenoord uitgejoeld in De Kuip na zwakke eerste helft",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-het-eredivisie-duel-tussen-feyenoord-en-fc-twente",
-      "summary": "Feyenoord krijgt zondag bezoek van FC Twente. De Rotterdammers verloren drie wedstrijden op rij en azen dus op eerherstel. Zeker na de bekerexit van deze week tegen SC Heerenveen. Volg het duel met FC Twente in deze VI Live.",
-      "publishedAt": "2025-12-21T14:18:00.000Z"
+      "title": "Willem II weer als nummer negen de winterstop in, maar dit keer in de KKD",
+      "link": "https://www.vi.nl/nieuws/willem-ii-weer-als-nummer-negen-de-winterstop-in-maar-dit-keer-in-de-kkd",
+      "summary": "Door een gelijkspel bij Helmond Sport gaat Willem II net als vorig seizoen als nummer negen de winterstop in. Toen in de Eredivisie, nu in de Keuken Kampioen Divisie.",
+      "publishedAt": "2025-12-21T15:30:10.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Druk neemt toe op Van Persie na uiterst moeizame wedstrijd tegen Twente",
+      "link": "https://www.vi.nl/nieuws/druk-neemt-toe-op-van-persie-na-uiterst-moeizame-wedstrijd-tegen-twente",
+      "summary": "Voor Feyenoord eindigt het jaar in mineur. Na drie opeenvolgende nederlagen speelden de Rotterdammers zondagmiddag ook een uiterst moeilijke wedstrijd in eigen huis tegen FC Twente. De ploeg van trainer Robin van Persie sleepte met de grootst mogelijke moeite een punt uit het vuur in de laatste wedstrijd van 2025.",
+      "publishedAt": "2025-12-21T15:29:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Hearts tighten grip on Premiership top spot as Shankland strikes to down Rangers",
+      "link": "https://www.theguardian.com/football/2025/dec/21/hearts-rangers-scottish-premiership-match-report",
+      "summary": "Rangers arrived in Edinburgh with a view to reminding onlookers they can be a key component in this season’s Scottish title race. They departed as the latest victims of the Hearts juggernaut. Back to back wins against Celtic had already been secured before Hearts repeated the trick against Rangers. Dreams of a first Hearts title since 1960 are not merely alive. They are growing. Rangers are a dozen points adrift of Derek McInnes’s team after this, a first away league defeat of 2025. Hearts are 18 games and halfway towards the promised land. Rangers had arguably been the better side before Hearts whacked them with two, decisive first-half goals. Stuart Findlay claimed the first of them, the centre back rising highest after Alexandros Kyziridis combined with Claudio Braga for a short corner. Kyziridis’s cross was pinpoint. The Greek winger had earlier threatened the Rangers goal twice, the visitors having a potential opener ruled out for an offside against Bojan Miovski. Continue reading...",
+      "publishedAt": "2025-12-21T15:29:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Open huis Feyenoord: waarom FC Twente kans op kans kreeg",
+      "link": "https://www.vi.nl/pro/tactische-analyse-feyenoord-fc-twente-open-huis-robin-van-persie",
+      "summary": "Inleiding",
+      "publishedAt": "2025-12-21T15:29:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea hammer dismal Liverpool 9-1 and storm into Women’s League Cup semis",
+      "link": "https://www.theguardian.com/football/2025/dec/21/liverpool-chelsea-womens-league-cup-quarter-final-match-report",
+      "summary": "Quarter-final: Liverpool 1-9 Chelsea Rytting Kaneryd scores hat-trick as Blues run riot It is not supposed to be this easy, in a quarter-final between two top-flight sides. Chelsea barely broke sweat as they put nine goals past woeful Liverpool, including a hat-trick from Johanna Rytting Kaneryd and two goals from an in-form Sam Kerr. It took just 13 minutes for Chelsea to take the lead. Niamh Charles’s low ball into the box found Kerr, who darted in front of her marker with ease and found the near, bottom corner. Continue reading...",
+      "publishedAt": "2025-12-21T15:05:19.000Z"
     },
     {
       "type": "rss",
@@ -80,50 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mbappé equals Ronaldo record, hits 'Siu' celeb",
-      "link": "https://www.espn.com/soccer/story/_/id/47245759/kylian-mbappe-cristiano-ronaldo-record-real-madrid-goals-year",
-      "summary": "Kylian Mbappé added his name to another line in the record books on Saturday, tying Cristiano Ronaldo for the most goals by a Real Madrid player in a calendar year.",
-      "publishedAt": "2025-12-21T13:52:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barcelona's Christensen sidelined with ACL injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47378435/andreas-christensen-acl-injury-barcelona",
-      "summary": "Andreas Christensen faces a long spell on the sidelines after suffering an ACL injury.",
-      "publishedAt": "2025-12-21T13:52:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Isak injured while scoring in Liverpool win at Spurs",
-      "link": "https://www.espn.com/soccer/story/_/id/47369396/liverpool-alexander-isak-limps-injured-scoring-spurs",
-      "summary": "Liverpool forward Alexander Isak could be facing a lengthy spell on the sidelines after suffering an injury in his team's Premier League clash with Tottenham Hotspur.",
-      "publishedAt": "2025-12-21T13:52:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta: Arsenal unfazed by Man City title charge",
-      "link": "https://www.espn.com/soccer/story/_/id/47372494/mikel-arteta-arsenal-manchester-city-premier-league-title",
-      "summary": "Mikel Arteta said Arsenal were not distracted by Manchester City moving top of the Premier League before the Gunners reclaimed number one spot hours later with a 1-0 win at Everton.",
-      "publishedAt": "2025-12-21T13:52:37.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -135,14 +179,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Aston Villa couldn't be crowned Premier League champions, could they?",
-      "link": "https://www.espn.com/soccer/story/_/id/47333295/aston-villa-couldnt-crowned-premier-league-champions-they",
-      "summary": "Aston Villa started poorly but they're now in running for the Premier League title. Can they sustain a challenge, and are they the 2024 Kansas City Chiefs of soccer?",
-      "publishedAt": "2025-12-21T13:05:11.000Z"
+      "title": "NZ openers make Test history with centuries each in both innings",
+      "link": "https://www.skysports.com/cricket/news/12040/13486333/new-zealand-vs-west-indies-tom-latham-devon-conway-make-test-cricket-history-with-centuries-apiece-in-both-innings",
+      "summary": "Tom Latham and Devon Conway earned a unique place in Test history when their 192-run second innings partnership paved the way for New Zealand's declaration at 306-2 on the fourth day of the third Test against West Indies.",
+      "publishedAt": "2025-12-21T12:16:00.000Z"
     },
     {
       "type": "rss",
@@ -150,7 +194,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Hearts two up on Rangers as Nancy looks for Celtic win vs Aberdeen LIVE!",
+      "title": "Hearts edge Rangers as Nancy looks for Celtic win vs Aberdeen LIVE!",
       "link": "https://www.skysports.com/football/live-blog/12040/13485608/scottish-premiership-live-rangers-face-leaders-hearts-live-on-sky-as-celtic-host-aberdeen",
       "summary": "",
       "publishedAt": "2025-12-21T12:00:00.000Z"
@@ -161,21 +205,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship: 'The Rockstar' Cullen in action with Cross to come LIVE!",
+      "title": "World Darts Championship: Frustrated Cullen out with Cross to come LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-21T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Where did England go wrong in dismal bid to regain Ashes?",
-      "link": "https://www.skysports.com/cricket/news/12040/13485507/the-ashes-2025-26-where-did-it-all-go-wrong-for-england-as-australia-retain-the-urn-in-dominant-fashion",
-      "summary": "England's bid to regain the Ashes is over after three comprehensive defeats in the first three Tests of the five-match series in Australia, but where did it all go wrong for Ben Stokes' side?",
-      "publishedAt": "2025-12-21T10:00:00.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cd74jyv33rzo?at_medium=RSS&at_campaign=rss",
       "summary": "Aston Villa have won nine straight matches to emerge as title contenders despite a poor start to the season. Could 2026 be their year?",
       "publishedAt": "2025-12-21T09:51:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘I made such a bond’: Jesse Lingard on life in South Korea and his next challenge",
-      "link": "https://www.theguardian.com/football/2025/dec/21/i-made-such-a-bond-jesse-lingard-on-life-in-south-korea-and-his-next-challenge",
-      "summary": "Former Manchester United player discusses culinary and cultural surprises, feeling more mature and how he learned Korean Jesse Lingard says his Korean is decent, good enough to make himself understood when out for dinner and the shocks do not stop there. The former Manchester United and England midfielder was always going to throw himself into his K-League adventure with FC Seoul and now that it is over after two years, a new chapter beckoning when the January transfer window opens, the 33-year-old certainly has the tales to tell. It was the little things as much as anything else, the cultural quirks. And the bigger ones, of course – such as the time he watched an octopus squirm in front of him before eating it. “The food is different, obviously, and I tried live octopus,” Lingard says. “It was moving. I was scared at first but it was all right.” Continue reading...",
-      "publishedAt": "2025-12-21T08:00:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘We feel excluded’: expensive tickets and Trump’s shadow dampen World Cup excitement in Mexico",
-      "link": "https://www.theguardian.com/football/2025/dec/21/expensive-tickets-and-trumps-shadow-dampen-world-cup-excitement-in-mexico",
-      "summary": "The feeling among fans is anticlimatic as ‘businessmen have appropriated the ball that used to belong to the people’ Jonathan Zamora was seven years old the last time Mexico hosted the World Cup in 1986. “I witnessed perhaps one of the most sublime moments in the history of football,” he says, retelling a story that has become a pillar of his life. Zamora, a Mexican football fan, does not remember how his father, Antonio, got tickets to the 1986 World Cup quarter-final between Argentina and England at the Azteca Stadium in Mexico City. But he does clearly remember the goals: first when Diego Maradona used his “hand of God” to push the ball past England goalkeeper Peter Shilton. And then the “goal of the century”, where the Argentinian went on a slalom run, dribbling past half the England team before scoring. Continue reading...",
-      "publishedAt": "2025-12-21T08:00:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Top and bottom at Christmas - what does it mean?",
-      "link": "https://www.bbc.com/sport/football/articles/c87lqlw9ej2o?at_medium=RSS&at_campaign=rss",
-      "summary": "As we approach the halfway point of the season, what do the ghosts of Christmas past tell us about the Premier League title race and relegation battle?",
-      "publishedAt": "2025-12-20T23:21:18.000Z"
     }
   ]
 }
