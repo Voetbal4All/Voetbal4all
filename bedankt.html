@@ -4,12 +4,19 @@
   <meta charset="UTF-8" />
   <title>Bedankt – Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
+
   <style>
-    .thanks-wrap{padding:28px 0 60px;}
+    .thanks-wrap{padding:18px 0 60px;}
     .thanks-card{max-width:980px;margin:0 auto;text-align:center;}
-    .thanks-logo{width:min(420px, 80vw);height:auto;display:block;margin:10px auto 18px;}
+    .thanks-logo{
+      width:min(520px, 92vw);
+      height:auto;
+      display:block;
+      margin:6px auto 18px;
+    }
     .thanks-cta{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);}
     .thanks-cta-title{font-size:18px;font-weight:700;margin-bottom:10px;}
     .thanks-cta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
@@ -25,34 +32,127 @@
 <body class="v4-hide-live-mobile">
 <div class="page">
 
+<!-- ================= NAVBAR (zelfde als Contact) ================= -->
 <header class="navbar">
   <div class="shell">
     <div class="navbar-inner">
+
       <a href="index.html" class="brand brand--logo-only">
         <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" />
       </a>
+
       <nav class="nav-links">
         <a href="index.html" class="nav-link">Home</a>
         <a href="artikels.html" class="nav-link">Artikels</a>
-        <a href="events.html" class="nav-link">Events</a>
-        <a href="adverteren.html" class="nav-link">Adverteren</a>
+
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
+        </div>
+
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+            <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+            <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+            <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+          </div>
+        </div>
+
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+            <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+          </div>
+        </div>
+
+        <!-- VOETBAL4ALL -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown nav-link--active">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
       </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
       <button class="nav-burger">☰</button>
     </div>
   </div>
 </header>
 
+<!-- ================= LIVE BANNER (zelfde als Contact) ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <main>
   <section class="section-main thanks-wrap">
     <div class="shell">
       <article class="card thanks-card">
-        <img class="thanks-logo" src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All">
+        <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
+        <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
+        <img class="thanks-logo" src="assets/img/brand/logo-voetbal4all_Bedankt.png" alt="Voetbal4All">
+
         <div class="card-title">Bedankt voor je bericht</div>
         <p class="note" style="margin-top:8px;">
           We hebben je aanvraag goed ontvangen en nemen zo snel mogelijk contact met je op.
         </p>
 
-        <!-- CTA BLOK -->
         <div class="thanks-cta">
           <div class="thanks-cta-title">Misschien wil je ook dit bekijken</div>
           <div class="thanks-cta-grid">
@@ -73,7 +173,6 @@
             </a>
           </div>
         </div>
-
       </article>
     </div>
   </section>
@@ -99,5 +198,6 @@
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 <script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 </body>
 </html>
