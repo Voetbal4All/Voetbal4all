@@ -4,19 +4,100 @@
   <meta charset="UTF-8" />
   <title>Bedankt – Voetbal4All</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
   <style>
-    .thanks-wrap{text-align:center;padding:80px 20px;}
-    .thanks-wrap img{max-width:260px;margin-bottom:30px;}
+    .thanks-wrap{padding:28px 0 60px;}
+    .thanks-card{max-width:980px;margin:0 auto;text-align:center;}
+    .thanks-logo{width:min(420px, 80vw);height:auto;display:block;margin:10px auto 18px;}
+    .thanks-cta{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);}
+    .thanks-cta-title{font-size:18px;font-weight:700;margin-bottom:10px;}
+    .thanks-cta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+    .thanks-cta-card{display:block;text-decoration:none;padding:14px;border-radius:16px;
+      border:1px solid rgba(24,160,251,.35);background:rgba(24,160,251,.06);transition:transform .12s ease;}
+    .thanks-cta-card:hover{transform:translateY(-2px);}
+    .thanks-cta-kicker{font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.75;}
+    .thanks-cta-title-card{font-size:16px;font-weight:700;margin-top:6px;}
+    @media (max-width:900px){.thanks-cta-grid{grid-template-columns:1fr;}}
   </style>
 </head>
-<body>
-<div class="thanks-wrap">
-  <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All">
-  <h1>Bedankt voor je bericht</h1>
-  <p>We hebben je aanvraag goed ontvangen en nemen zo snel mogelijk contact met je op.</p>
-  <a href="index.html" class="btn-primary" style="margin-top:20px;display:inline-block;">Terug naar home</a>
+
+<body class="v4-hide-live-mobile">
+<div class="page">
+
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link">Artikels</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="adverteren.html" class="nav-link">Adverteren</a>
+      </nav>
+      <button class="nav-burger">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section-main thanks-wrap">
+    <div class="shell">
+      <article class="card thanks-card">
+        <img class="thanks-logo" src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All">
+        <div class="card-title">Bedankt voor je bericht</div>
+        <p class="note" style="margin-top:8px;">
+          We hebben je aanvraag goed ontvangen en nemen zo snel mogelijk contact met je op.
+        </p>
+
+        <!-- CTA BLOK -->
+        <div class="thanks-cta">
+          <div class="thanks-cta-title">Misschien wil je ook dit bekijken</div>
+          <div class="thanks-cta-grid">
+            <a class="thanks-cta-card" href="adverteren.html">
+              <div class="thanks-cta-kicker">Sponsor &amp; Ads</div>
+              <div class="thanks-cta-title-card">Adverteer nu</div>
+              <div class="note">Vergroot je zichtbaarheid op Voetbal4All.</div>
+            </a>
+            <a class="thanks-cta-card" href="events.html">
+              <div class="thanks-cta-kicker">Events</div>
+              <div class="thanks-cta-title-card">Plaats een event</div>
+              <div class="note">Tornooien, stages, kampen en meer.</div>
+            </a>
+            <a class="thanks-cta-card" href="clubvacatures.html">
+              <div class="thanks-cta-kicker">Vacatures</div>
+              <div class="thanks-cta-title-card">Plaats een vacature</div>
+              <div class="note">Bereik trainers en spelers.</div>
+            </a>
+          </div>
+        </div>
+
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">
+          &copy; <span id="year"></span> Voetbal4All.
+        </div>
+      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
+    </div>
+  </div>
+</footer>
+
 </div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script src="assets/js/nav-mobile.js"></script>
 </body>
 </html>
