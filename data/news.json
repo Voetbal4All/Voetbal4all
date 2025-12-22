@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-22T16:31:13.739Z",
+  "generatedAt": "2025-12-22T17:21:51.051Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Box-office' Evans dumps out seventh seed Wade in Ally Pally classic",
+      "link": "https://www.skysports.com/darts/news/12040/13486654/world-darts-championship-rapid-ricky-evans-dumps-out-seventh-seed-james-wade-in-alexandra-palace-classic",
+      "summary": "'Rapid' Ricky Evans called himself \"box-office\" after he dumped out seventh seed James Wade in a World Championship classic at Alexandra Palace on Monday.",
+      "publishedAt": "2025-12-22T17:10:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Just reach out' - Man Utd's Bennett on his father's suicide",
+      "link": "https://www.bbc.com/sport/football/articles/cx2e5jn466go?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United defender Rhys Bennett discusses his father's death in October to help raise awareness of mental health issues.",
+      "publishedAt": "2025-12-22T17:03:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Rav van den Berg kent zijn straf voor zeer opmerkelijke rode kaart",
+      "link": "https://www.vi.nl/nieuws/rav-van-den-berg-kent-zijn-straf-voor-zeer-opmerkelijke-rode-kaart",
+      "summary": "Rav van den Berg kan FC Köln de komende twee wedstrijden niet helpen. De Zwollenaar kreeg zaterdag in de wedstrijd tegen Union Berlin een opmerkelijke rode kaart, maandag werd zijn straf bekend.",
+      "publishedAt": "2025-12-22T17:00:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wolves’ freefall leaves even Derby’s misery within reach",
+      "link": "https://www.theguardian.com/football/2025/dec/22/wolves-premier-league-freefall-derby-county-record",
+      "summary": "A side that once looked resilient has collapsed into historic futility, with Wolves now facing the grim task of avoiding the worst season English league football has ever seen Saturday’s defeat at home to Brentford means Wolves have taken just two points for 17 games. No side in the entire history of English league football, in any division, has ever made a worse start than that. To reach 11 points, the record low for a Premier League season set by Derby County in 2007-08, would require a significant improvement. How can this have happened? Wolves finished 16th last season, recovering after a dismal start. When Vitor Pereira took over on 19 December last year, they were second bottom on nine points from 16 games. They picked up 23 points from the final 22 games of the season and effectively ended any prospect of relegation with a run of six successive victories in the spring. How can a team go from averaging near enough a point a game to a tenth of that? The drop-off is extraordinary. This is an extract from Soccer with Jonathan Wilson, a weekly look from the Guardian US at the game in Europe and beyond. Subscribe for free here. Have a question for Jonathan? Email soccerwithjw@theguardian.com, and he’ll answer the best in a future edition. Continue reading...",
+      "publishedAt": "2025-12-22T16:53:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Absolute droomtransfer lonkt voor voormalig Ajax-doelman Ramaj'",
+      "link": "https://www.vi.nl/nieuws/absolute-droomtransfer-lonkt-voor-voormalig-ajax-doelman-ramaj",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-22T16:33:44.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,6 +66,28 @@
       "link": "https://www.vi.nl/video/met-een-wereldster-als-karl-zou-het-oranje-probleem-zijn-opgelost",
       "summary": "In Rondje Buitenland bespreken Süleyman Öztürk en Matthijs Vegter het ideale middenveld van Oranje én het luxeprobleem bij Bayern München rond de 17-jarige wereldster Lennart Karl.",
       "publishedAt": "2025-12-22T16:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Dalot: Fernandes injury 'massive' blow to Utd",
+      "link": "https://www.espn.com/soccer/story/_/id/47388137/bruno-fernandes-injury-massive-blow-man-united-diogo-dalot",
+      "summary": "Diogo Dalot called Bruno Fernandes' injury a \"massive\" blow as Manchester United wait to find out the severity of the skipper's setback.",
+      "publishedAt": "2025-12-22T16:29:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Patson Daka’s diving header earns Zambia dramatic late Afcon draw with Mali",
+      "link": "https://www.theguardian.com/football/live/2025/dec/22/mali-v-zambia-africa-cup-of-nations-live",
+      "summary": "Patson Daka’s injury-time equaliser earned Zambia a 1-1 draw with Mali in Group A at the Africa Cup of Nations She’s offered £36k under asking price. Surely she has no chance. We are the business end of A Place in the Sun on 4Seven before the football starts. Will they make an offer on a property? The tension is palpable!. Continue reading...",
+      "publishedAt": "2025-12-22T16:17:41.000Z"
     },
     {
       "type": "rss",
@@ -25,17 +102,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mali 1-1 Zambia: Africa Cup of Nations – live reaction",
-      "link": "https://www.theguardian.com/football/live/2025/dec/22/mali-v-zambia-africa-cup-of-nations-live",
-      "summary": "Patson Daka’s injury-time leveller earned Zambia a point against Mali She’s offered £36k under asking price. Surely she has no chance. We are the business end of A Place in the Sun on 4Seven before the football starts. Will they make an offer on a property? The tension is palpable!. Continue reading...",
-      "publishedAt": "2025-12-22T16:05:27.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -47,17 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Rondje Buitenland: wie is de Morgan Rogers van Nederland?",
-      "link": "https://www.vi.nl/pro/rondje-buitenland-wie-is-de-morgan-rogers-van-nederland",
-      "summary": "In een nieuwe aflevering van Rondje Buitenland schuift kenner buitenlands voetbal Süleyman Öztürk weer aan bij presentator Matthijs Vegter om het afgelopen voetbalweekend uitgebreid te bespreken. Uiteraard komt de rode kaart van Xavi Simons aan bod, een weergaloze Morgan Rogers én natuurlijk nog veel meer.",
-      "publishedAt": "2025-12-22T16:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -65,17 +120,6 @@
       "title": "Kane smashes Arjen Robben record in Bayern rout",
       "link": "https://www.espn.com/soccer/report/_/gameId/746846",
       "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
-      "publishedAt": "2025-12-22T15:58:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dalot: Fernandes injury 'massive' blow to Utd",
-      "link": "https://www.espn.com/soccer/story/_/id/47388137/bruno-fernandes-injury-massive-blow-man-united-diogo-dalot",
-      "summary": "Diogo Dalot called Bruno Fernandes' injury a \"massive\" blow as Manchester United wait to find out the severity of the skipper's setback.",
       "publishedAt": "2025-12-22T15:58:35.000Z"
     },
     {
@@ -110,28 +154,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c1dz1exq616o?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United are still evaluating the extent of Bruno Fernandes' injury, but who are the contenders to replace him if he is ruled out?",
       "publishedAt": "2025-12-22T15:56:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FREE STREAM: Watch The Transfer Show LIVE!",
-      "link": "https://www.skysports.com/football/news/12040/13376037/free-stream-the-transfer-show-live-latest-football-transfer-news-updates-and-rumours",
-      "summary": "",
-      "publishedAt": "2025-12-22T15:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transferklapper lijkt aanstaande: Engelse topclubs in de rij voor Bournemouth-ster",
-      "link": "https://www.vi.nl/nieuws/transferklapper-lijkt-aanstaande-engelse-topclubs-in-de-rij-voor-bournemouth-ster",
-      "summary": "Voor Antoine Semenyo breekt een spannende periode aan. De aanvaller van AFC Bournemouth is bezig aan een erg sterk seizoen en gaat dat waarschijnlijk beloond zien worden met een wintertransfer. De Engelse topclubs staan voor hem in de rij.",
-      "publishedAt": "2025-12-22T15:45:00.000Z"
     },
     {
       "type": "rss",
@@ -194,32 +216,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Leverkusen level up as Hjulmand oversees rebuild after Ten Hag debacle",
-      "link": "https://www.theguardian.com/football/2025/dec/22/bayer-leverkusen-rise-kasper-hjulmand-erik-ten-hag-bundesliga",
-      "summary": "A fightback win over RB Leipzig before the Christmas break is just reward for coach who faced a thankless task Leipzig might not be every Bundesliga fan’s idea of a weekend idyll but as the sun set on 2025, the venue for the final Saturday night Topspiel of the year might have been the scene of a minor Christmas miracle. It had already been a worthy showpiece to draw the curtains on pre-Christmas Bundesliga but the end result – achieved not without a smidgeon of controversy – left us with a satisfying tale to tell by an open fire over holiday season. Bayer Leverkusen can enjoy their brief break with a rosy glow of satisfaction with their win against a direct competitor a clear measure of how far they have come; or, if you like, a measure of how far Kasper Hjulmand has taken them. Leverkusen sit third over the bridge to the new year which, if we were to return to the closure of the summer transfer window, looked a long way off. Continue reading...",
-      "publishedAt": "2025-12-22T13:52:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Glasner hopes to gee up jaded Palace as he eyes Carabao Cup revenge over Arsenal",
       "link": "https://www.theguardian.com/football/2025/dec/22/oliver-glasner-jaded-crystal-palace-carabao-cup-arsenal",
       "summary": "Tuesday’s quarter-final will be the Eagles’ 29th game of the season and Gabriel Jesus is set to line up against them Oliver Glasner could be forgiven for preferring to enjoy a rest with his family in Austria a few days before Christmas rather than preparing for Crystal Palace’s 29th game of the season – a Carabao Cup quarter-final against Arsenal on Tuesday night. However, any suggestion that Palace may have to prioritise given they remain in four competitions was unsurprisingly dismissed. “No, I don’t think so,” said Glasner after his team’s 4-1 hammering by Leeds on Saturday. “If somebody tells me that we lose on purpose, the next day I’m not the manager any more.” Continue reading...",
       "publishedAt": "2025-12-22T13:30:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool win again, but lose Isak to injury. Now what? Plus: Barça ride their luck, more",
-      "link": "https://www.espn.com/soccer/story/_/id/47386120/liverpool-win-isak-injured-tottenham-barcelona-laliga-analysis-monday-musings-gab-marcotti",
-      "summary": "Liverpool won a third straight game, but Alexander Isak's injury and some familiar issues mean the Reds still have a lot of work to do.",
-      "publishedAt": "2025-12-22T13:10:05.000Z"
     }
   ]
 }
