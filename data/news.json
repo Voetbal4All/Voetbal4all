@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2025-12-22T19:20:07.407Z",
+  "generatedAt": "2025-12-22T20:27:30.400Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fulham v Nottingham Forest: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/22/fulham-v-nottingham-forest-premier-league-live",
+      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Table | Ten things we learned | Mail Scott 2 min: Hudson-Odoi makes his presence felt up the other end, pulling a cross back for Jesus, whose shot is instantly blocked. Both teams already showing signs of being well up for this! 1 min: The first minute of the game still isn’t up, and Anderson’s clearing header hits Hudson-Odoi on the chest, the ball then rearing up and brushing the arm. A huge shout for a penalty kick. It’s never going to be given. Continue reading...",
+      "publishedAt": "2025-12-22T20:25:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Büttner is kraakhelder: 'Moet klaar zijn met die buitenlandse eigenaren in Arnhem'",
+      "link": "https://www.vi.nl/nieuws/buttner-kraakhelder-moet-klaar-zijn-met-die-buitenlandse-eigenaren-bij-vitesse",
+      "summary": "Alexander Büttner staat symbool voor de wonderlijke wederopstanding van Vitesse en maakt zich hard voor een sterke club in Nederlandse handen. Dit sprak hij uit in het VI Kerstnummer.",
+      "publishedAt": "2025-12-22T20:24:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Madrid's Endrick heads to Lyon on loan",
+      "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
+      "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
+      "publishedAt": "2025-12-22T20:16:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kane smashes Arjen Robben record in Bayern rout",
+      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
+      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
+      "publishedAt": "2025-12-22T20:16:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Alves buys Portuguese club, may play",
+      "link": "https://www.espn.com/soccer/story/_/id/47388411/dani-alves-buys-portuguese-club-mulls-return-42-sources",
+      "summary": "Former Barcelona and Brazil defender Dani Alves has finalised details to acquire Portuguese third division club Sporting Clube de São João de Ver, sources told ESPN Brazil's Bruno Andrade.",
+      "publishedAt": "2025-12-22T20:16:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Minamino tears ACL, WC with Japan a major doubt",
+      "link": "https://www.espn.com/soccer/story/_/id/47391377/japan-takumi-minamino-tears-acl-miss-world-cup",
+      "summary": "Japan midfielder Takumi Minamino has torn the ACL in his left knee while playing for Monaco and will almost certainly miss the World Cup.",
+      "publishedAt": "2025-12-22T20:16:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brighton latest: 'Leverkusen eye move for Seagulls teenager'",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2025-12-22T20:11:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Transferban Al Nassr is na drie dagen al voorbij",
+      "link": "https://www.vi.nl/nieuws/transferban-al-nassr-is-na-drie-dagen-al-voorbij",
+      "summary": "Al Nassr mag gewoon weer spelers kopen. De Saoedische club werd eind vorige week op de FIFA-lijst gezet met clubs die geen nieuwe voetballers mogen inschrijven, maar daar zijn ze inmiddels ook weer van afgehaald.",
+      "publishedAt": "2025-12-22T20:00:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Neymar ligt weer in ziekenhuisbed: operatie brengt WK-droom niet in gevaar",
+      "link": "https://www.vi.nl/nieuws/neymar-ligt-weer-in-ziekenhuisbed-operatie-brengt-wk-droom-niet-in-gevaar",
+      "summary": "Neymar (33) is maandag met succes geopereerd aan een scheurtje in zijn meniscus. Dat maakt zijn club Santos bekend. De ingreep heeft geen langdurige revalidatie tot gevolg: het WK van volgend jaar zomer blijft haalbaar voor de Braziliaanse aanvaller.",
+      "publishedAt": "2025-12-22T19:59:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brazil forward Neymar has successful knee surgery",
+      "link": "https://www.bbc.com/sport/football/articles/c3r70vpjd3wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Brazil and Santos forward Neymar has a successful operation on his left knee to repair a damaged meniscus.",
+      "publishedAt": "2025-12-22T19:50:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hartverscheurend eerbetoon aan overleden vriendin Jong Ajax-speler Verkuijl",
+      "link": "https://www.vi.nl/nieuws/hartverscheurend-eerbetoon-aan-overleden-vriendin-jong-ajax-speler-verkuijl",
+      "summary": "Jong Ajax speelt op het moment dat dit artikel verschijnt thuis tegen RKC Waalwijk, maar de spelers van de Amsterdamse beloftenploeg zullen met het hoofd niet volledig bij het voetbal zitten. Voor aanvang van het duel was er een emotioneel eerbetoon aan de overleden vriendin van Jong Ajax-speler Mark Verkuijl.",
+      "publishedAt": "2025-12-22T19:35:21.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,113 +135,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'NEC-smaakmaker Sano kan zijn eigen broer opvolgen in Duitsland'",
-      "link": "https://www.vi.nl/nieuws/az-anticipeert-met-hornkamp-op-mogelijke-transfer-parrott",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2025-12-22T19:04:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fulham v Nottingham Forest: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/22/fulham-v-nottingham-forest-premier-league-live",
-      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Table | Ten things we learned | Mail Scott Nottingham Forest boss Sean Dyche speaks to Sky Sports. “Doug [Luiz] has certainly got Premier League experience … a very good footballer … on the verge of being fully match fit … Mats [Sels] has only had four days training … a bad finger … a groin … we’ve had to be careful with that … but John [Victor] has earned the right for this one with two very strong performances … [the 3-0 win over Spurs] was certainly the most consistent performance [this season] … we want the players to keep building and delivering at that level … we know we’re going to have to be strong tonight.” Fulham make one change from the starting XI selected for last Wednesday’s 2-1 League Cup defeat at Newcastle. Bernd Leno comes back into the team, with cup keeper Benjamin Lecomte dropping to the bench. Calvin Bassey, Samuel Chukwueze and Alex Iwobi are all on Afcon duty with Nigeria. Continue reading...",
-      "publishedAt": "2025-12-22T19:02:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kane smashes Arjen Robben record in Bayern rout",
-      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
-      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
-      "publishedAt": "2025-12-22T18:54:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dalot: Fernandes injury 'massive' blow to Utd",
-      "link": "https://www.espn.com/soccer/story/_/id/47388137/bruno-fernandes-injury-massive-blow-man-united-diogo-dalot",
-      "summary": "Diogo Dalot called Bruno Fernandes' injury a \"massive\" blow as Manchester United wait to find out the severity of the skipper's setback.",
-      "publishedAt": "2025-12-22T18:54:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Alves buys Portuguese club, may play",
-      "link": "https://www.espn.com/soccer/story/_/id/47388411/dani-alves-buys-portuguese-club-mulls-return-42-sources",
-      "summary": "Former Barcelona and Brazil defender Dani Alves has finalised details to acquire Portuguese third division club Sporting Clube de São João de Ver, sources told ESPN Brazil's Bruno Andrade.",
-      "publishedAt": "2025-12-22T18:54:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Nigeria using WC 'pain' as motivation at AFCON",
-      "link": "https://www.espn.com/soccer/story/_/id/47390865/nigeria-using-wc-pain-motivation-afcon",
-      "summary": "Stung by their failure to qualify for the 2026 FIFA World Cup, Victor Osimhen said Nigeria are determined to use the Africa Cup of Nations to channel their disappointment into tournament success in Morocco.",
-      "publishedAt": "2025-12-22T18:54:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Real Madrid akkoord met tijdelijk vertrek van WK dromende Endrick'",
-      "link": "https://www.vi.nl/nieuws/real-madrid-akkoord-met-tijdelijk-vertrek-van-wk-dromende-endrick",
-      "summary": "Real Madrid lijkt een oplossing te hebben gevonden voor de behoorlijk uitzichtloze situatie waarin tienerster Endrick zich bevindt. L'Equipe pakt uit met het nieuws dat de Braziliaanse aanvaller op huurbasis naar Olympique Lyon zal gaan.",
-      "publishedAt": "2025-12-22T18:46:54.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship LIVE! Humphries vs Lim headlines bumper evening session",
+      "title": "World Darts Championship: Aspinall in action after Van Veen races through LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
-      "publishedAt": "2025-12-22T18:33:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kafka in Kameroen: bondscoach Brys niet ontslagen, maar ook niet op de Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/kafka-in-kameroen-bondscoach-brys-niet-ontslagen-maar-ook-niet-op-de-afrika-cup",
-      "summary": "Kameroen is onder leiding van trainer David Pagou afgereisd naar Marokko, waar de ploeg woensdag aan de Afrika Cup begint. De soap met bondscoach Marc Brys gaat tegelijkertijd onverminderd verder: de Vlaming stelt dat hij nog altijd geen communicatie heeft gehad waaruit blijkt dat hij niet langer de keuzeheer is.",
-      "publishedAt": "2025-12-22T18:29:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Genk stelt na afzegging Hoefkens nieuwe hoofdtrainer aan",
-      "link": "https://www.vi.nl/nieuws/genk-stelt-na-afzegging-hoefkens-nieuwe-hoofdtrainer-aan",
-      "summary": "RC Genk heeft een nieuwe hoofdtrainer gevonden. De Belgische club, die eerder zonder succes een lijntje uitwierp naar NAC-coach Carl Hoefkens, maakt via de officiële website melding van de komst van Nicky Hayen.",
-      "publishedAt": "2025-12-22T18:15:05.000Z"
+      "publishedAt": "2025-12-22T19:00:00.000Z"
     },
     {
       "type": "rss",
@@ -143,17 +165,6 @@
       "link": "https://www.skysports.com/football/news/12040/13486739/sheffield-united-saudi-prince-threatened-new-blades-owners-with-liquidation-over-10m-debt",
       "summary": "Former Sheffield United owner Prince Abdullah of Saudi Arabia was poised to issue a winding-up order on the club over a £10m debt owed to him by new owners COH Sports.",
       "publishedAt": "2025-12-22T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Box-office' Evans dumps out seventh seed Wade in Ally Pally classic",
-      "link": "https://www.skysports.com/darts/news/12040/13486654/world-darts-championship-rapid-ricky-evans-dumps-out-seventh-seed-james-wade-in-alexandra-palace-classic",
-      "summary": "'Rapid' Ricky Evans produced a \"box-office\" display as he dumped out seventh seed James Wade in a World Championship classic at Alexandra Palace on Monday.",
-      "publishedAt": "2025-12-22T17:10:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47358780/sunderland-premier-league-return-newcastle-granit-xhaka-bruce-schoenfeld-sunderland-til-die-netflix",
       "summary": "By any measure, Sunderland is one of the revelations of the season. The question now is no longer whether they'll stay up, but how high they can finish and, after all their fans have gone through, whether that even matters.",
       "publishedAt": "2025-12-22T15:37:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Milan agree loan deal for Niclas Füllkrug as West Ham look to sign new striker",
-      "link": "https://www.theguardian.com/football/2025/dec/22/milan-agree-loan-deal-for-niclas-fullkrug-as-west-ham-look-to-sign-new-striker",
-      "summary": "Milan have option to buy German at end of season West Ham interested in Wolves’s Jørgen Strand Larsen Milan have agreed to sign West Ham’s Niclas Füllkrug on loan with an option to buy at the end of the season. The Germany striker has toiled since moving to the London Stadium from Borussia Dortmund for £27.5m in the summer of 2024 and it is hoped that his exit will free up funds for Nuno Espírito Santo to boost his side’s fight against relegation by bringing in a new forward during next month’s transfer window. West Ham are interested in Wolves’s Jørgen Strand Larsen but are reluctant to meet his valuation. It is believed that the Premier League’s bottom-placed side want £40m for the Norwegian. West Ham’s budget is limited and they feel that the package for Strand Larsen, who has scored once in the league this season, is too expensive. Continue reading...",
-      "publishedAt": "2025-12-22T15:12:02.000Z"
     }
   ]
 }
