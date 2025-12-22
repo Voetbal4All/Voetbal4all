@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T22:24:15.069Z",
+  "generatedAt": "2025-12-22T23:23:12.853Z",
   "items": [
     {
       "type": "rss",
@@ -9,8 +9,8 @@
       "flag": "🌍",
       "title": "Liverpool say 'no timetable' for Isak after surgery",
       "link": "https://www.espn.com/soccer/story/_/id/47392583/liverpool-alexander-isak-indefinitely-surgery",
-      "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery on Monday on a broken ankle and fibula.",
-      "publishedAt": "2025-12-22T22:17:39.000Z"
+      "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery Monday on a broken ankle and fibula.",
+      "publishedAt": "2025-12-22T23:05:08.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +21,18 @@
       "title": "Salah scores late winner in Egypt's AFCON opener",
       "link": "https://www.espn.com/soccer/story/_/id/47392751/mohamed-salah-scores-late-winner-egypt-opener-afcon",
       "summary": "Liverpool forward Mohamed Salah scored a stoppage-time goal to give Egypt a 2-1 win over Zimbabwe to start their Africa Cup of Nations campaign on Monday.",
-      "publishedAt": "2025-12-22T22:17:39.000Z"
+      "publishedAt": "2025-12-22T23:05:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Neymar has minor surgery, WC with Brazil in play",
+      "link": "https://www.espn.com/soccer/story/_/id/47392004/neymar-knee-surgery-brazil-world-cup-alive",
+      "summary": "Neymar underwent minor surgery on his left knee, his club Santos said on Monday.",
+      "publishedAt": "2025-12-22T23:05:08.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +43,7 @@
       "title": "Sources: Madrid's Endrick heads to Lyon on loan",
       "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
       "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
-      "publishedAt": "2025-12-22T22:17:38.000Z"
+      "publishedAt": "2025-12-22T23:05:07.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +51,76 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Kane smashes Arjen Robben record in Bayern rout",
-      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
-      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
-      "publishedAt": "2025-12-22T22:17:38.000Z"
+      "title": "Hunter's midseason LaLiga verdicts: Barca lead the way, but is there a title race?",
+      "link": "https://www.espn.com/soccer/story/_/id/47388430/laliga-midseason-verdict-barcelona-real-madrid-graham-hunter-atletico-madrid-awards",
+      "summary": "Some things changed in the first half of LaLiga's 2025-26 season (Espanyol a contender?) and some things, like Lamine Yamal's brilliance, have stayed the same. Here's what Graham Hunter made of things before we hit 2026.",
+      "publishedAt": "2025-12-22T23:05:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Extra spits voor Milan in aantocht: concurrent voor Gimenez is al geland",
+      "link": "https://www.vi.nl/nieuws/milan-bereikt-akkoord-met-west-ham-over-concurrent-voor-gim-nez",
+      "summary": "Santiago Gimenez lijkt er een concurrent bij te gaan krijgen in de komende transferwindow bij AC Milan. De Mexicaan kampt met blessures en voldoet niet aan de verwachtingen, waardoor er volgens meerdere bronnen al een akkoord zou zijn gesloten met zijn opvolger.",
+      "publishedAt": "2025-12-22T22:58:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fulham latest: Jimenez works and fights like he is 18, says Silva",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2025-12-22T22:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Pavlidis wordt na Nederlandse dreun matchwinner voor Benfica",
+      "link": "https://www.vi.nl/nieuws/pavlidis-wordt-na-nederlandse-dreun-matchwinner-voor-benfica",
+      "summary": "Benfica heeft maandag met een minimale marge gewonnen van Famalicão. Vangelis Pavlidis maakte het enige doelpunt van de avond, door een strafschop binnen te schieten. De topscorer mocht aanleggen na een overtreding van Justin de Haas.",
+      "publishedAt": "2025-12-22T22:45:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Steelers' Metcalf banned for rest of NFL regular season after altercation with Lions fan",
+      "link": "https://www.skysports.com/nfl/news/12040/13486898/dk-metcalf-pittsburgh-steelers-wide-receiver-given-two-game-ban-and-will-miss-rest-of-regular-season-after-altercation-with-detroit-lions-fan",
+      "summary": "Pittsburgh Steelers wide receiver DK Metcalf has been suspended for two games without pay by the NFL and will now miss the rest of the regular season after \"initiating a physical confrontation\" with a Detroit Lions fan during Sunday's victory at Ford Field.",
+      "publishedAt": "2025-12-22T22:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Jong Ajax-aanvoerder Chourak: 'Hartverscheurend om Mark zo te zien'",
+      "link": "https://www.vi.nl/nieuws/jong-ajax-aanvoerder-chourak-hartverscheurend-om-mark-zo-te-zien",
+      "summary": "Het resultaat van de wedstrijd tussen Jong Ajax en RKC Waalwijk deed er maandagavond niet echt toe. Boven de wedstrijd hing een sluier van rouw, veroorzaakt door het overlijden van Elisa, de vriendin van Jong Ajax-speler Mark Verkuijl.",
+      "publishedAt": "2025-12-22T22:37:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Top and bottom at Christmas - what does it mean?",
+      "link": "https://www.bbc.com/sport/football/articles/c87lqlw9ej2o?at_medium=RSS&at_campaign=rss",
+      "summary": "As we approach the halfway point of the season, what do the ghosts of Christmas past tell us about the Premier League title race and relegation battle?",
+      "publishedAt": "2025-12-22T22:31:38.000Z"
     },
     {
       "type": "rss",
@@ -58,6 +135,17 @@
     },
     {
       "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah scores injury-time winner to rescue Egypt",
+      "link": "https://www.skysports.com/football/egypt-vs-zimbabwe/report/526795",
+      "summary": "Mohamed Salah netted an injury-time winner as Egypt fought back from a goal down to win 2-1 against Zimbabwe in their Africa Cup of Nations Group B opener.",
+      "publishedAt": "2025-12-22T22:04:00.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -66,28 +154,6 @@
       "link": "https://www.vi.nl/nieuws/de-beste-penaltynemer-van-de-premier-league-speelt-bij-fulham",
       "summary": "Fulham heeft maandagavond dankzij de specialiteit van Raúl Jiménez van Nottingham Forest gewonnen. De spits van de Londenaren bleef zoals altijd koel vanaf elf meter en mag zich de beste penaltynemer van de Premier League noemen.",
       "publishedAt": "2025-12-22T22:02:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ponderous Fulham hang on to seal narrow victory over Forest",
-      "link": "https://www.skysports.com/football/fulham-vs-nottingham-forest/report/531293",
-      "summary": "Raul Jimenez's first-half penalty moved Fulham 10 points clear of the drop despite an underwhelming showing in their 1-0 win over Nottingham Forest at Craven Cottage.",
-      "publishedAt": "2025-12-22T22:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Extraordinary day' as Chiefs announce plans to move to 'other Kansas City'",
-      "link": "https://www.skysports.com/nfl/news/12040/13486877/nfl-kansas-city-chiefs-to-move-states-from-missouri-to-kansas-ahead-of-2031-season",
-      "summary": "The Kansas City Chiefs have announced that they will move from their long-time home in Missouri to a domed stadium in the state of Kansas from the 2031 NFL season.",
-      "publishedAt": "2025-12-22T22:00:00.000Z"
     },
     {
       "type": "rss",
@@ -113,39 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Ham latest: Fullkrug flying to Italy to complete Milan medical",
-      "link": "https://www.skysports.com/football/live-blog/12040/13210475/west-ham-latest-news",
-      "summary": "",
-      "publishedAt": "2025-12-22T21:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Sneijder: 'Ik heb een goed gesprek gehad met Geelen'",
-      "link": "https://www.vi.nl/nieuws/sneijder-ik-heb-een-goed-gesprek-gehad-met-geelen",
-      "summary": "Wesley Sneijder heeft een gesprek gehad met Menno Geelen over een functie binnen Ajax. Wat die rol precies inhoudt, dat wilde de gewezen middenvelder nog niet verder specificeren.",
-      "publishedAt": "2025-12-22T21:22:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Nachtmerrie voor Isak: Liverpool-spits geopereerd aan kuitbeenbreuk",
-      "link": "https://www.vi.nl/nieuws/nachtmerrie-voor-isak-liverpool-spits-geopereerd-aan-kuitbeenbreuk",
-      "summary": "Liverpool is Alexander Isak voorlopig kwijt. Uit onderzoek is gebleken dat de Zweedse spits zijn been gebroken heeft in de wedstrijd tegen Tottenham Hotspur (1-2).",
-      "publishedAt": "2025-12-22T21:13:34.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -168,28 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool confirm Isak leg fracture",
-      "link": "https://www.skysports.com/football/news/12040/13486859/alexander-isak-injury-liverpool-confirm-sweden-striker-suffered-leg-fracture-after-micky-van-de-ven-challenge",
-      "summary": "Liverpool have confirmed Alexander Isak suffered a leg fracture during Liverpool's 2-1 win over Tottenham on Saturday.",
-      "publishedAt": "2025-12-22T21:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Roda klimt naar vierde plek, RKC te sterk voor gebroken Jong Ajax",
-      "link": "https://www.vi.nl/nieuws/roda-klimt-naar-vierde-plek-rkc-te-sterk-voor-gebroken-jong-ajax",
-      "summary": "Roda JC Kerkrade heeft de knappe uitzege bij De Graafschap een vervolg gegeven met een driepunter bij Jong FC Utrecht. De Limburgers staan daardoor nu vierde in de Keuken Kampioen Divisie. RKC Waalwijk maakte een einde aan een reeks van drie competitienederlagen op rij, door het gebroken Jong Ajax aan de kant te zetten.",
-      "publishedAt": "2025-12-22T20:56:52.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/22/milans-serie-a-match-in-australia-called-off-after-unacceptable-requests",
       "summary": "Milan v Como was intended for Perth on 8 February Asian Football Confederation wanted to impose conditions The proposal to play a Serie A match between Milan and Como in Perth, Australia, has been cancelled due to football sanctions and conditions imposed by the Asian Football Confederation (AFC). The game was set to become the first major European domestic league fixture to be played outside its home country but will now not go ahead because of the financial risks and last-minute complications. Continue reading...",
       "publishedAt": "2025-12-22T17:07:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Just reach out' - Man Utd's Bennett on his father's suicide",
-      "link": "https://www.bbc.com/sport/football/articles/cx2e5jn466go?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United defender Rhys Bennett discusses his father's death in October to help raise awareness of mental health issues.",
-      "publishedAt": "2025-12-22T17:03:55.000Z"
     }
   ]
 }
