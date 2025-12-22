@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2025-12-22T21:21:51.326Z",
+  "generatedAt": "2025-12-22T22:24:15.069Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool say 'no timetable' for Isak after surgery",
+      "link": "https://www.espn.com/soccer/story/_/id/47392583/liverpool-alexander-isak-indefinitely-surgery",
+      "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery on Monday on a broken ankle and fibula.",
+      "publishedAt": "2025-12-22T22:17:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah scores late winner in Egypt's AFCON opener",
+      "link": "https://www.espn.com/soccer/story/_/id/47392751/mohamed-salah-scores-late-winner-egypt-opener-afcon",
+      "summary": "Liverpool forward Mohamed Salah scored a stoppage-time goal to give Egypt a 2-1 win over Zimbabwe to start their Africa Cup of Nations campaign on Monday.",
+      "publishedAt": "2025-12-22T22:17:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Madrid's Endrick heads to Lyon on loan",
+      "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
+      "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
+      "publishedAt": "2025-12-22T22:17:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kane smashes Arjen Robben record in Bayern rout",
+      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
+      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
+      "publishedAt": "2025-12-22T22:17:38.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Fulham v Nottingham Forest: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/22/fulham-v-nottingham-forest-premier-league-live",
-      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Table | Ten things we learned | Mail Scott 2 min: Hudson-Odoi makes his presence felt up the other end, pulling a cross back for Jesus, whose shot is instantly blocked. Both teams already showing signs of being well up for this! 1 min: The first minute of the game still isn’t up, and Anderson’s clearing header hits Hudson-Odoi on the chest, the ball then rearing up and brushing the arm. A huge shout for a penalty kick. It’s never going to be given. Continue reading...",
-      "publishedAt": "2025-12-22T21:17:06.000Z"
+      "title": "Raúl Jiménez dents Nottingham Forest’s revival to lift Fulham clear of danger",
+      "link": "https://www.theguardian.com/football/2025/dec/22/fulham-nottingham-forest-premier-league-match-report",
+      "summary": "Fulham are battling. Marco Silva’s options are limited and he does not have many ways to freshen up his side, but at least he can count on an experienced core and a group willing to scrap when they are at risk of being dragged towards the relegation zone. It is putting it kindly to say this game will not live long in the memory. It was scrappy, stop-start and overly physical. Both teams were disappointing in the final third and it probably would have finished goalless but for Douglas Luiz’s rush of blood to the head gifting Raul Jiménez to score the goal that lifted Fulham 10 points above the bottom three before their trip to West Ham on Saturday. Continue reading...",
+      "publishedAt": "2025-12-22T22:07:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De beste penaltynemer van de Premier League speelt bij Fulham",
+      "link": "https://www.vi.nl/nieuws/de-beste-penaltynemer-van-de-premier-league-speelt-bij-fulham",
+      "summary": "Fulham heeft maandagavond dankzij de specialiteit van Raúl Jiménez van Nottingham Forest gewonnen. De spits van de Londenaren bleef zoals altijd koel vanaf elf meter en mag zich de beste penaltynemer van de Premier League noemen.",
+      "publishedAt": "2025-12-22T22:02:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ponderous Fulham hang on to seal narrow victory over Forest",
+      "link": "https://www.skysports.com/football/fulham-vs-nottingham-forest/report/531293",
+      "summary": "Raul Jimenez's first-half penalty moved Fulham 10 points clear of the drop despite an underwhelming showing in their 1-0 win over Nottingham Forest at Craven Cottage.",
+      "publishedAt": "2025-12-22T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Extraordinary day' as Chiefs announce plans to move to 'other Kansas City'",
+      "link": "https://www.skysports.com/nfl/news/12040/13486877/nfl-kansas-city-chiefs-to-move-states-from-missouri-to-kansas-ahead-of-2031-season",
+      "summary": "The Kansas City Chiefs have announced that they will move from their long-time home in Missouri to a domed stadium in the state of Kansas from the 2031 NFL season.",
+      "publishedAt": "2025-12-22T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Clinical' Humphries thrashes Lim to progress to third round",
+      "link": "https://www.skysports.com/darts/news/12040/13486711/world-darts-championship-luke-humphries-thrashes-paul-lim-in-second-round-as-gian-van-veen-nathan-aspinall-also-win",
+      "summary": "Luke Humphries thrashed Paul Lim 3-0 with a dominant display in the second round of the World Darts Championship on Monday night.",
+      "publishedAt": "2025-12-22T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Salah bezorgt Egypte op de valreep succesvolle start op de Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/salah-bezorgt-egypte-op-de-valreep-succesvolle-start-op-de-afrika-cup",
+      "summary": "Egypte heeft zijn eerste wedstrijd op de Afrika Cup gewonnen. Eén van de favorieten voor de eindzege won maandagavond met 2-1 van Zimbabwe, met dank aan een late goal van Mohamed Slaah. In de andere wedstrijd in Poule B was Zuid-Afrika te sterk voor Angola.",
+      "publishedAt": "2025-12-22T21:57:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "West Ham latest: Fullkrug flying to Italy to complete Milan medical",
+      "link": "https://www.skysports.com/football/live-blog/12040/13210475/west-ham-latest-news",
+      "summary": "",
+      "publishedAt": "2025-12-22T21:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Sneijder: 'Ik heb een goed gesprek gehad met Geelen'",
+      "link": "https://www.vi.nl/nieuws/sneijder-ik-heb-een-goed-gesprek-gehad-met-geelen",
+      "summary": "Wesley Sneijder heeft een gesprek gehad met Menno Geelen over een functie binnen Ajax. Wat die rol precies inhoudt, dat wilde de gewezen middenvelder nog niet verder specificeren.",
+      "publishedAt": "2025-12-22T21:22:36.000Z"
     },
     {
       "type": "rss",
@@ -29,9 +150,9 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Alexander Isak set to miss several months of season after Liverpool confirm fractured leg",
+      "title": "Alexander Isak set to miss several months of season after Liverpool confirm fractured ankle",
       "link": "https://www.theguardian.com/football/2025/dec/22/alexander-isak-set-to-miss-several-months-of-season-after-liverpool-confirm-fractured-leg",
-      "summary": "Record signing injured in win at Tottenham Striker underwent surgery after scan on Monday Alexander Isak is facing several months on the sidelines after undergoing surgery on a leg fracture suffered in Liverpool’s win at Tottenham. Liverpool have confirmed that Isak fractured his left leg when putting Arne Slot’s team ahead in Saturday’s 2-1 victory and being caught in a challenge from Micky van de Ven. Continue reading...",
+      "summary": "Record signing injured while scoring at Tottenham Swedish striker had surgery after scan on Monday Liverpool’s record signing, Alexander Isak, is facing several months on the sidelines after undergoing surgery on an ankle injury that included a fractured fibula. Isak sustained the injury as a result of a heavy challenge from Micky van de Ven while in the process of scoring in Liverpool’s 2-1 win against Tottenham on Saturday. The 26-year-old was helped off in considerable pain and MRI scans confirmed Liverpool’s initial fears of a serious problem. Continue reading...",
       "publishedAt": "2025-12-22T21:08:03.000Z"
     },
     {
@@ -58,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Humphries vs 'legendary' Lim after Aspinall, Van Veen win LIVE!",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2025-12-22T21:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -80,83 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heerlijke goals Neres bezorgen Napoli in spookdecor de Supercoppa",
-      "link": "https://www.vi.nl/nieuws/heerlijke-goals-neres-bezorgen-napoli-in-spookdecor-de-supercoppa",
-      "summary": "Napoli heeft maandag beslag gelegd op de Supercoppa. In de finale in Saoedi-Arabië was de landskampioen met 2-0 te sterk voor bekerwinnaar Bologna. David Neres besliste de partij met twee ragfijne goals.",
-      "publishedAt": "2025-12-22T20:56:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Madrid's Endrick heads to Lyon on loan",
-      "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
-      "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
-      "publishedAt": "2025-12-22T20:51:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kane smashes Arjen Robben record in Bayern rout",
-      "link": "https://www.espn.com/soccer/report/_/gameId/746846",
-      "summary": "Harry Kane scored his 30th club goal of the season as Bayern Munich shrugged off an injury and illness crisis to sweep past Heidenheim 4-0 on Sunday and go into the Bundesliga's winter break with a nine-point lead.",
-      "publishedAt": "2025-12-22T20:51:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neymar has minor surgery, WC with Brazil in play",
-      "link": "https://www.espn.com/soccer/story/_/id/47392004/neymar-knee-surgery-brazil-world-cup-alive",
-      "summary": "Neymar underwent minor surgery on his left knee, his club Santos said on Monday.",
-      "publishedAt": "2025-12-22T20:51:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Alves buys Portuguese club, may play",
-      "link": "https://www.espn.com/soccer/story/_/id/47388411/dani-alves-buys-portuguese-club-mulls-return-42-sources",
-      "summary": "Former Barcelona and Brazil defender Dani Alves has finalised details to acquire Portuguese third division club Sporting Clube de São João de Ver, sources told ESPN Brazil's Bruno Andrade.",
-      "publishedAt": "2025-12-22T20:51:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Farioli schuift zonder ook maar één competitienederlaag aan voor het kerstdiner",
-      "link": "https://www.vi.nl/nieuws/farioli-schuift-zonder-ook-maar-n-competitienederlaag-aan-voor-het-kerstdiner",
-      "summary": "Francesco Farioli kan met een goed gevoel onder de kerstboom kruipen. De coach van FC Porto zag zijn ploeg in de laatste wedstrijd voor de feestdagen (maar niet van dit kalenderjaar) met klinkende cijfers winnen van middenmoter Alverca.",
-      "publishedAt": "2025-12-22T20:44:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Büttner is kraakhelder: 'Moet klaar zijn met die buitenlandse eigenaren in Arnhem'",
-      "link": "https://www.vi.nl/nieuws/buttner-kraakhelder-moet-klaar-zijn-met-die-buitenlandse-eigenaren-bij-vitesse",
-      "summary": "Alexander Büttner staat symbool voor de wonderlijke wederopstanding van Vitesse en maakt zich hard voor een sterke club in Nederlandse handen. Dit sprak hij uit in het VI Kerstnummer.",
-      "publishedAt": "2025-12-22T20:24:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -165,28 +198,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cqxq7zejvnno?at_medium=RSS&at_campaign=rss",
       "summary": "Fifa is testing new technology which can determine if the ball went out of play before a goal was scored.",
       "publishedAt": "2025-12-22T20:21:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Christmas Day NBA on Sky Sports: LeBron, Curry, Wembanyama and more!",
-      "link": "https://www.skysports.com/nba/news/12040/13486802/christmas-day-nba-on-sky-sports-og-anunoby-shai-gilgeous-alexander-vs-victor-wembanyama-lebron-james-steph-curry-nikola-jokic-and-more",
-      "summary": "The NBA's Christmas Day game has been a tradition since 1947 and continues to showcase some of the league's biggest teams and superstars.",
-      "publishedAt": "2025-12-22T18:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Saudi Prince threatened Sheff Utd with wind-up order",
-      "link": "https://www.skysports.com/football/news/12040/13486739/sheffield-united-saudi-prince-threatened-new-blades-owners-with-liquidation-over-10m-debt",
-      "summary": "Former Sheffield United owner Prince Abdullah of Saudi Arabia was poised to issue a winding-up order on the club over a £10m debt owed to him by new owners COH Sports.",
-      "publishedAt": "2025-12-22T18:00:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cx2e5jn466go?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United defender Rhys Bennett discusses his father's death in October to help raise awareness of mental health issues.",
       "publishedAt": "2025-12-22T17:03:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wolves’ freefall leaves even Derby’s dismal record low a lofty goal",
-      "link": "https://www.theguardian.com/football/2025/dec/22/wolves-premier-league-freefall-derby-county-record",
-      "summary": "A side that once looked resilient has collapsed into historic futility, with Wolves now facing the grim task of avoiding the worst season English league football has ever seen Saturday’s defeat at home to Brentford means Wolves have taken just two points for 17 games. No side in the entire history of English league football, in any division, has ever made a worse start than that. To reach 11 points, the record low for a Premier League season set by Derby County in 2007-08, would require a significant improvement. How can this have happened? Wolves finished 16th last season, recovering after a dismal start. When Vitor Pereira took over on 19 December last year, they were second bottom on nine points from 16 games. They picked up 23 points from the final 22 games of the season and effectively ended any prospect of relegation with a run of six successive victories in the spring. How can a team go from averaging near enough a point a game to a 10th of that? The drop-off is extraordinary. This is an extract from Soccer with Jonathan Wilson, a weekly look from the Guardian US at the game in Europe and beyond. Subscribe for free here. Have a question for Jonathan? Email soccerwithjw@theguardian.com, and he’ll answer the best in a future edition. Continue reading...",
-      "publishedAt": "2025-12-22T16:53:33.000Z"
     }
   ]
 }
