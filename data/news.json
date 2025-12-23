@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-23T17:23:53.023Z",
+  "generatedAt": "2025-12-23T18:36:04.114Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Fortuna onderzoekt juridische stappen na sponsorsof: 'Enorm gat in begroting'",
+      "link": "https://www.vi.nl/pro/fortuna-sittard-onderzoekt-juridische-stappen-na-sponsorsof-met-syneo",
+      "summary": "Nog maar drie maanden geleden was Fortuna Sittard opgelucht: eindelijk een nieuwe hoofdsponsor. Het Duitse cosmeticabedrijf syNeo zou vijf seizoenen lang jaarlijks zes ton in de club steken. In werkelijkheid ontving Fortuna nog geen euro. Ook wonderlijk: syNeo ontkent nu zelf een deal met de Eredivisionist gemaakt te hebben. Directeur Martijn Merks van Fortuna reageert. Fortuna Sittard gaat met een hoofdpijndossier de winterstop in. De club heeft de stekker getrokken uit een overeenkomst met hoofdsponsor syNeo, die nog maar drie maanden geleden met trots en opluchting werd gepresenteerd. Fortuna had de voorgaande vijf seizoenen met de naam van een gokbedrijf op het shirt gespeeld, maar zag die samenwerking stranden op aangescherpte wetgeving. De zoektocht naar een vervangende hoofdsponsor duurde lang.",
+      "publishedAt": "2025-12-23T18:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle contact refs' boss over Chelsea call",
+      "link": "https://www.espn.com/soccer/story/_/id/47397430/newcastle-contact-refs-boss-howard-webb-chelsea-penalty-call",
+      "summary": "Newcastle United have contacted referees' chief Howard Webb over the controversial decision which denied them a potentially crucial penalty against Chelsea.",
+      "publishedAt": "2025-12-23T18:28:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Man Utd delay Zirkzee exit decision",
+      "link": "https://www.espn.com/soccer/story/_/id/47396910/man-united-delay-joshua-zirkzee-exit-decision-sources",
+      "summary": "Manchester United are set to delay any decision on Joshua Zirkzee's future until later in the January window, sources have told ESPN.",
+      "publishedAt": "2025-12-23T18:28:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Baleba: I want to show I can be the world's best midfielder at AFCON",
+      "link": "https://www.skysports.com/football/news/12040/13486916/carlos-baleba-brighton-and-cameroon-midfielder-hoping-to-light-up-the-africa-cup-of-nations",
+      "summary": "Paul Pogba, Thiago Alcantara, Sergio Busquets and Kevin De Bruyne.",
+      "publishedAt": "2025-12-23T18:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Nog een hoofdstuk: 'stokoude' Miura (58) gaat weer door",
+      "link": "https://www.vi.nl/nieuws/nog-een-hoofdstuk-stokoude-miura-58-gaat-weer-door",
+      "summary": "Kazuyoshi Miura blijft records breken. De Japanse voetballegende staat op het punt om op huurbasis aan te sluiten bij Fukushima United, een club uit de Japanse derde divisie. Daarmee begint hij aan zijn 41ste seizoen als profvoetballer, op een leeftijd waarop vrijwel al zijn generatiegenoten al decennia met pensioen zijn.",
+      "publishedAt": "2025-12-23T17:54:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSV bindt succesdirecteur Brands langer aan zich",
+      "link": "https://www.vi.nl/nieuws/psv-bindt-succesdirecteur-brands-langer-aan-zich",
+      "summary": "Marcel Brands blijft langer aan PSV verbonden als algemeen directeur. De oud-voetballer lag nog tot medio 2027 vast in Eindhoven en heeft daar twee jaar aan vastgeplakt.",
+      "publishedAt": "2025-12-23T17:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "NWSL OK's 'Rodman rule' even as union objects",
+      "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
+      "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
+      "publishedAt": "2025-12-23T17:34:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot calls tackle 'reckless'; Isak out 2 months",
+      "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
+      "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
+      "publishedAt": "2025-12-23T17:34:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Semenyo to finalise future as Chelsea also show interest",
+      "link": "https://www.bbc.com/sport/football/articles/cx2djq1jdrdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Antoine Semenyo starts the process of deciding his future as Chelsea become the latest club to register an interest in the Bournemouth attacker.",
+      "publishedAt": "2025-12-23T17:29:31.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +109,7 @@
       "title": "'Vinícius moet zijn excuses aanbieden voor ongepaste actie'",
       "link": "https://www.vi.nl/nieuws/vinicius-moet-zijn-excuses-aanbieden-voor-ongepaste-actie",
       "summary": "De handelingen van Vinícius Júnior op Instagram na de wedstrijd van Real Madrid tegen Sevilla afgelopen weekend kunnen volgens Mundo Deportivo niet zomaar in de doofpot worden gestopt. De Braziliaan veranderde zijn profielfoto en deelde een controversiële post na het duel in La Liga.",
-      "publishedAt": "2025-12-23T17:10:55.000Z"
+      "publishedAt": "2025-12-23T17:28:56.000Z"
     },
     {
       "type": "rss",
@@ -58,24 +157,13 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van de Ven gesteund: 'Doet een verdediger dat niet, is hij geen verdediger'",
-      "link": "https://www.vi.nl/nieuws/slot-tegengesproken-in-isak-blessurezaak",
-      "summary": "Tottenham Hotspur-manager Thomas Frank is het niet eens met de lezing van Liverpool-coach Arne Slot in de blessurezaak van Alexander Isak. Slot noemde de sliding van Micky van de Ven een 'roekeloze actie' , dat ziet Frank anders.",
-      "publishedAt": "2025-12-23T16:20:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Frank hits back at Slot over claim of ‘reckless’ Van de Ven challenge on Isak",
       "link": "https://www.theguardian.com/football/2025/dec/23/liverpool-arne-slot-accuses-van-de-ven-reckless-tackle-alexander-isak-fractured-leg",
-      "summary": "Liverpool head coach says Isak out for ‘couple of months’ Spurs counterpart says ‘true defenders’ have to challenge Thomas Frank has hit back at Arne Slot after the Liverpool head coach criticised Micky van de Ven for a “reckless” challenge that left Alexander Isak with a fractured leg. Frank said Van de Ven’s attempt to prevent Isak from scoring in Liverpool’s 2-1 win at Tottenham was the “natural reaction” of a true defender and that his player had spoken to the Sweden international to apologise. Continue reading...",
+      "summary": "Liverpool head coach says Isak out for ‘couple of months’ Spurs counterpart says ‘true defenders’ have to challenge Thomas Frank has hit back at Arne Slot after the Liverpool head coach criticised Micky van de Ven for a “reckless” challenge that left Alexander Isak with a fractured leg. Tottenham’s head coach said Van de Ven’s attempt to prevent Isak from scoring in Liverpool’s 2-1 win at Tottenham was the “natural reaction” of a true defender and that his player had spoken to the Sweden international to apologise. Liverpool will be without their record £125m signing “for a couple of months”, Slot confirmed on Tuesday. Isak had surgery on Monday to repair an ankle injury that includes a fractured fibula. Continue reading...",
       "publishedAt": "2025-12-23T16:16:02.000Z"
     },
     {
@@ -91,50 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot calls tackle 'reckless'; Isak out 2 months",
-      "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
-      "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
-      "publishedAt": "2025-12-23T16:10:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Newcastle contact refs' boss over Chelsea call",
-      "link": "https://www.espn.com/soccer/story/_/id/47397430/newcastle-contact-refs-boss-howard-webb-chelsea-penalty-call",
-      "summary": "Newcastle United have contacted referees' chief Howard Webb over the controversial decision which denied them a potentially crucial penalty against Chelsea.",
-      "publishedAt": "2025-12-23T16:10:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Man Utd delay Zirkzee exit decision",
-      "link": "https://www.espn.com/soccer/story/_/id/47396910/man-united-delay-joshua-zirkzee-exit-decision-sources",
-      "summary": "Manchester United are set to delay any decision on Joshua Zirkzee's future until later in the January window, sources have told ESPN.",
-      "publishedAt": "2025-12-23T16:10:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rapids hire Tottenham assistant Wells as coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47399075/colorado-rapids-hire-tottenham-assistant-matt-wells-coach",
-      "summary": "The Colorado Rapids hired Tottenham Hotspur assistant Matt Wells as coach to replace Chris Armas.",
-      "publishedAt": "2025-12-23T16:10:31.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -143,17 +187,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c62le1978e8o?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Sport analyses how Liverpool manager Arne Slot might set up following striker Alexander Isak being ruled out for about two months with a broken leg.",
       "publishedAt": "2025-12-23T16:00:28.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kijkje in de ziel van Wout Weghorst: portret van een eigenzinnige streber",
-      "link": "https://www.vi.nl/pro/kijkje-in-de-ziel-van-wout-weghorst-portret-van-een-eigenzinnige-streber",
-      "summary": "Ajax heeft een studieobject in de aanval. Aan de talkshowtafels werden in 2025 aan geen Eredivisie-voetballer zoveel uren besteed als aan selfmade spits Wout Weghorst. Inspiratie- en irritatiebron ineen.",
-      "publishedAt": "2025-12-23T16:00:00.000Z"
     },
     {
       "type": "rss",
@@ -168,17 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Reijnders kijkt zijn ogen uit: 'Die cijfers van Haaland slaan nergens op'",
-      "link": "https://www.vi.nl/nieuws/reijnders-kijkt-zijn-ogen-uit-die-cijfers-van-haaland-slaan-nergens-op",
-      "summary": "Sinds Tijjani Reijnders deze zomer bij Manchester City neerstreek, kreeg hij te maken met het fenomeen Erling Haaland. In het Kerstnummer van VI kijkt de Oranje-international naar de doelpuntenmachine.",
-      "publishedAt": "2025-12-23T15:25:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -190,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Röhl: Rangers need winning run to have title race chance",
-      "link": "https://www.skysports.com/football/news/12040/13487049/danny-r246hl-rangers-need-winning-run-to-have-a-chance-in-scottish-premiership-title-race-after-hearts-defeat",
-      "summary": "Rangers head coach Danny Röhl believes his side can still \"have a chance\" in the Scottish Premiership title race, despite falling 12 points behind league leaders Hearts.",
-      "publishedAt": "2025-12-23T13:50:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/23/moving-goalposts-germany-frauen-bundesliga-wsl",
       "summary": "Ownership of Frauen-Bundesliga is being taken over by the clubs, who want to keep pace with game in England “The reason we started this whole process was a fear of losing more and more the connection to the top,” says Katharina Kiel, the head of women’s football at Eintracht Frankfurt. Alongside her role at one of Germany’s more successful women’s football teams, Kiel was this month elected president of the new Women’s Bundesliga Association, after all 14 clubs agreed to split from the German Football Federation (DFB) and form their own committee to take ownership of the league to further commercialise and grow it, with the 2027-28 campaign a targeted start date. Continue reading...",
       "publishedAt": "2025-12-23T13:37:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea are using Strasbourg as a 'farm team' -- is this the new blueprint for top clubs?",
-      "link": "https://www.espn.com/soccer/story/_/id/47392653/chelsea-using-strasbourg-farm-team-new-premier-league-blueprint",
-      "summary": "Strasbourg now exists as a training ground for Chelsea prospects, akin to baseball's farm system. Is this the future of European soccer?",
-      "publishedAt": "2025-12-23T13:20:24.000Z"
     }
   ]
 }
