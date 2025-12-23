@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-23T21:22:33.259Z",
+  "generatedAt": "2025-12-23T22:23:26.133Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Benítez ondanks eerherstel tegen Arsenal klaar in bekertoernooi met Palace",
+      "link": "https://www.vi.nl/nieuws/benitez-ondanks-eerherstel-tegen-arsenal-klaar-in-bekertoernooi-met-palace",
+      "summary": "Arsenal is dinsdagavond doorgedrongen tot de halve finale van de League Cup. Dit gebeurde ten koste van Crystal Palace, dat mede door een uitblinkende Walter Benítez zijn huid duur verkocht in eigen huis. Het duel werd pas na zestien strafschoppen beslist.",
+      "publishedAt": "2025-12-23T22:20:00.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,7 +21,18 @@
       "title": "Arsenal v Crystal Palace: Carabao Cup quarter-final – live",
       "link": "https://www.theguardian.com/football/live/2025/dec/23/arsenal-v-crystal-palace-carabao-cup-quarter-final-live",
       "summary": "⚽ Updates from 8pm GMT kick-off as Chelsea await victors ⚽ Live scores | Follow us on Bluesky | Mail Taha 3 min: Madueke intercepts a Palace throw on the Arsenal right, plays to Martinelli, his pass cuts straight through the Palace defence. The onrushing Madueke receives … and really should do better. He shoots straight at Benítez. 2 min: Madueke shows off some quick feet to thump a cross in from the right before Arsenal wheel it around in defence. Continue reading...",
-      "publishedAt": "2025-12-23T21:15:15.000Z"
+      "publishedAt": "2025-12-23T22:19:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Richards stretchered off in Carabao Cup",
+      "link": "https://www.espn.com/soccer/story/_/id/47401228/usmnt-chris-richards-stretchered-carabao-cup",
+      "summary": "Crystal Palace and United States defender Chris Richards was taken from the field on a stretcher during his team's Carabao Cup game against Arsenal on Tuesday.",
+      "publishedAt": "2025-12-23T21:52:12.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +43,7 @@
       "title": "NWSL OK's 'Rodman rule' even as union objects",
       "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
       "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
-      "publishedAt": "2025-12-23T21:14:12.000Z"
+      "publishedAt": "2025-12-23T21:52:12.000Z"
     },
     {
       "type": "rss",
@@ -32,18 +54,29 @@
       "title": "Sources: City making progress on Semenyo move",
       "link": "https://www.espn.com/soccer/story/_/id/47400981/manchester-city-progress-antoine-semenyo-move",
       "summary": "Manchester City are pushing ahead with a move for Antoine Semenyo, sources have told ESPN, after positive talks with the Bournemouth winger.",
-      "publishedAt": "2025-12-23T21:14:12.000Z"
+      "publishedAt": "2025-12-23T21:52:12.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Slot calls tackle 'reckless'; Isak out 2 months",
-      "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
-      "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
-      "publishedAt": "2025-12-23T21:14:12.000Z"
+      "title": "Manchester City favourites to sign Antoine Semenyo after Chelsea withdraw interest",
+      "link": "https://www.theguardian.com/football/2025/dec/23/chelsea-enter-hunt-for-65m-antoine-semenyo-with-inquiry-about-his-terms",
+      "summary": "Manchester City in advanced talks over £65m winger Bournemouth winger has release clause in January Manchester City are in pole position to sign Antoine Semenyo after Chelsea cooled their interest in the Bournemouth winger. Liverpool and Manchester United have also been pushing for Semenyo, whose contract contains a £65m release clause that becomes active for the first two weeks of January, but it is believed that the 25-year-old’s preference is to join City. The clause is made up of a £60m fixed fee and £5m in add-ons. Nothing has been agreed yet. Continue reading...",
+      "publishedAt": "2025-12-23T21:51:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Büttner trots op Manchester United-periode. 'Een droom'",
+      "link": "https://www.vi.nl/nieuws/buttner-trots-op-manchester-united-periode-een-droom",
+      "summary": "Alexander Büttner is een jongen van de club Vitesse, maar dat betekent niet dat zijn andere avonturen geen waarde hebben. Met name bij Manchester United heeft de inmiddels 36-jarige verdediger genoten. Hij vertelt erover in het VI Kerstnummer.",
+      "publishedAt": "2025-12-23T21:33:00.000Z"
     },
     {
       "type": "rss",
@@ -53,7 +86,7 @@
       "flag": "🌍",
       "title": "Incredible DOUBLE save as Benitez keeps out Jesus and Madueke!",
       "link": "https://www.skysports.com/watch/video/13487146/walter-benitez-keeps-the-scores-level-as-he-pulls-off-a-great-save-from-point-blank-to-keep-out-gabriel-jesus-header",
-      "summary": "Walter Benitez pulls off an incredible point-blank save from a Gabriel Jesus header to keep the score at 0-0.",
+      "summary": "Walter Benitez pulls off an incredible point-blank save to stop Gabriel Jesus' header and denies Noni Madueke on the rebound in Arsenal's Carabao Cup clash with Crystal Palace.",
       "publishedAt": "2025-12-23T20:50:00.000Z"
     },
     {
@@ -146,22 +179,11 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea decide against move for £65m Antoine Semenyo after making inquiries",
-      "link": "https://www.theguardian.com/football/2025/dec/23/chelsea-enter-hunt-for-65m-antoine-semenyo-with-inquiry-about-his-terms",
-      "summary": "Bournemouth winger has release clause in January Liverpool and Manchester City favourites to sign him Chelsea are not planning to pursue their interest in Antoine Semenyo after making a check on the Bournemouth winger. Semenyo, who is being targeted by Manchester City, Manchester United and Liverpool, has a £65m release clause in his contract that becomes active for a limited timeframe in January. Chelsea have never been serious players in the race to sign Semenyo but they contacted the player’s camp to explore the conditions of a deal during the winter transfer window. The move was made simply due to a desire to find out what it would take to sign a forward who is being courted by some of the Premier League’s biggest teams. Continue reading...",
-      "publishedAt": "2025-12-23T19:15:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Anderson in action after Noppert beaten in epic, Van Gerwen to come LIVE!",
+      "title": "Van Gerwen leads after Anderson wins, Noppert beaten in epic LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-23T18:38:00.000Z"
@@ -179,17 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Fortuna onderzoekt juridische stappen na sponsorsof: 'Enorm gat in begroting'",
-      "link": "https://www.vi.nl/pro/fortuna-sittard-onderzoekt-juridische-stappen-na-sponsorsof-met-syneo",
-      "summary": "Nog maar drie maanden geleden was Fortuna Sittard opgelucht: eindelijk een nieuwe hoofdsponsor. Het Duitse cosmeticabedrijf syNeo zou vijf seizoenen lang jaarlijks zes ton in de club steken. In werkelijkheid ontving Fortuna nog geen euro. Ook wonderlijk: syNeo ontkent nu zelf een deal met de Eredivisionist gemaakt te hebben. Directeur Martijn Merks van Fortuna reageert. Fortuna Sittard gaat met een hoofdpijndossier de winterstop in. De club heeft de stekker getrokken uit een overeenkomst met hoofdsponsor syNeo, die nog maar drie maanden geleden met trots en opluchting werd gepresenteerd. Fortuna had de voorgaande vijf seizoenen met de naam van een gokbedrijf op het shirt gespeeld, maar zag die samenwerking stranden op aangescherpte wetgeving. De zoektocht naar een vervangende hoofdsponsor duurde lang.",
-      "publishedAt": "2025-12-23T18:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -198,17 +209,6 @@
       "link": "https://www.skysports.com/football/news/12040/13486916/carlos-baleba-brighton-and-cameroon-midfielder-hoping-to-light-up-the-africa-cup-of-nations",
       "summary": "Paul Pogba, Thiago Alcantara, Sergio Busquets and Kevin De Bruyne.",
       "publishedAt": "2025-12-23T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Nog een hoofdstuk: 'stokoude' Miura (58) gaat weer door",
-      "link": "https://www.vi.nl/nieuws/nog-een-hoofdstuk-stokoude-miura-58-gaat-weer-door",
-      "summary": "Kazuyoshi Miura blijft records breken. De Japanse voetballegende staat op het punt om op huurbasis aan te sluiten bij Fukushima United, een club uit de Japanse derde divisie. Daarmee begint hij aan zijn 41ste seizoen als profvoetballer, op een leeftijd waarop vrijwel al zijn generatiegenoten al decennia met pensioen zijn.",
-      "publishedAt": "2025-12-23T17:54:15.000Z"
     },
     {
       "type": "rss",
