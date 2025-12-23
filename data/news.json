@@ -1,38 +1,16 @@
 {
-  "generatedAt": "2025-12-23T09:29:38.213Z",
+  "generatedAt": "2025-12-23T10:28:17.969Z",
   "items": [
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool confirm Isak broken ankle, out indefinitely",
-      "link": "https://www.espn.com/soccer/story/_/id/47392583/liverpool-alexander-isak-indefinitely-surgery",
-      "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery Monday on a broken ankle and fibula.",
-      "publishedAt": "2025-12-23T09:26:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Salah scores late winner in Egypt's AFCON opener",
-      "link": "https://www.espn.com/soccer/story/_/id/47392751/mohamed-salah-scores-late-winner-egypt-opener-afcon",
-      "summary": "Liverpool forward Mohamed Salah scored a stoppage-time goal to give Egypt a 2-1 win over Zimbabwe to start their Africa Cup of Nations campaign on Monday.",
-      "publishedAt": "2025-12-23T09:26:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Madrid's Endrick heads to Lyon on loan",
-      "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
-      "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
-      "publishedAt": "2025-12-23T09:26:17.000Z"
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Na 210 dagen kan rodelantaarndrager Fiorentina weer eens juichen in de Serie A",
+      "link": "https://www.vi.nl/nieuws/na-210-dagen-kan-rodelantaarndrager-fiorentina-weer-eens-juichen-in-de-serie-a",
+      "summary": "Het is al maanden crisis bij Fiorentina, maar zondag gaf de verrassende hekkensluiter een teken van hoop. Na 210 dagen boekte de ploeg van Paolo Vanoli, bovendien voor het eerst dit seizoen, een overwinning tegen Udinese. Is het lek dan nu toch eindelijk boven?",
+      "publishedAt": "2025-12-23T10:18:32.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +18,43 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "'Milan verscheurt contract Origi (30) anderhalf jaar na laatste profduel'",
-      "link": "https://www.vi.nl/nieuws/milan-verscheurt-contract-origi-30-anderhalf-jaar-na-laatste-profduel",
-      "summary": "AC Milan neemt per direct afscheid van Divock Origi. De dertigjarige Belg had nog een contract tot het einde van dit seizoen, maar dat is nu in onderling overleg ontbonden, melden diverse Italiaanse media. Origi heeft al anderhalf jaar geen profduel meer gespeeld, maar deed onlangs nog wel mee bij de B-ploeg van Milan.",
-      "publishedAt": "2025-12-23T09:25:47.000Z"
+      "title": "'Haller-gevalletje' bij Mali roept woede op: 'Met dank aan de FIFA'",
+      "link": "https://www.vi.nl/nieuws/bondscoach-mali-boos-na-remise-op-afrika-cup-met-dank-aan-de-fifa",
+      "summary": "Bij Mali was er groot chagrijn na de openingswedstrijd in de Afrika Cup. In Groep A was het land hard op weg naar een zege, maar in blessuretijd kwam Zambia nog langszij. Bondscoach Tom Saintfiet sneerde na afloop naar de FIFA.",
+      "publishedAt": "2025-12-23T10:16:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Man Utd delay Zirkzee exit decision",
+      "link": "https://www.espn.com/soccer/story/_/id/47396910/man-united-delay-joshua-zirkzee-exit-decision-sources",
+      "summary": "Manchester United are set to delay any decision on Joshua Zirkzee's future until later in the January window, sources have told ESPN.",
+      "publishedAt": "2025-12-23T10:13:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot decries 'reckless' Van de Ven tackle on Isak",
+      "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
+      "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
+      "publishedAt": "2025-12-23T10:13:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool's Isak out for 'couple months' - Slot",
+      "link": "https://www.espn.com/soccer/story/_/id/47396758/liverpool-alexander-isak-injury-arne-slot-couple-months",
+      "summary": "Arne Slot said he expects striker Alexander Isak to be sidelined for \"a couple of months\" after sustaining a broken leg in Liverpool's win over Tottenham.",
+      "publishedAt": "2025-12-23T10:13:01.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +65,7 @@
       "title": "Transfer window preview: What do Europe's big clubs need?",
       "link": "https://www.espn.com/soccer/story/_/id/47334380/transfer-window-preview-do-europes-big-clubs-need",
       "summary": "The transfer window is set to open across Europe in January, so what are the top clubs planning? Who comes in? Who will go?",
-      "publishedAt": "2025-12-23T09:25:43.000Z"
+      "publishedAt": "2025-12-23T10:04:49.000Z"
     },
     {
       "type": "rss",
@@ -65,7 +76,7 @@
       "title": "WSL transfer preview: Man United, Arsenal need depth; Liverpool need anyone",
       "link": "https://www.espn.com/soccer/story/_/id/47387768/wsl-transfer-preview-man-united-arsenal-need-depth-liverpool-need-anyone",
       "summary": "Man United need depth, Arsenal have to lower their average age, while you name it, Liverpool need it. What will the WSL window bring?",
-      "publishedAt": "2025-12-23T09:25:43.000Z"
+      "publishedAt": "2025-12-23T10:04:49.000Z"
     },
     {
       "type": "rss",
@@ -76,7 +87,7 @@
       "title": "Head coach Rowett sacked by Oxford United",
       "link": "https://www.bbc.com/sport/football/articles/cvgrxx7nn5zo?at_medium=RSS&at_campaign=rss",
       "summary": "Oxford United head coach Gary Rowett is sacked with the club in the Championship relegation zone.",
-      "publishedAt": "2025-12-23T09:22:59.000Z"
+      "publishedAt": "2025-12-23T09:50:49.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +95,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Tackle Van de Ven levert felle discussie op: 'Ik ben verbijsterd'",
-      "link": "https://www.vi.nl/nieuws/tackle-van-de-ven-levert-felle-discussie-op-ik-ben-verbijsterd",
-      "summary": "De tackle van Micky van de Ven op Alexander Isak was voer voor stevige discussies in Engeland. De Nederlander blesseerde Isak ernstig met een stevige charge tijdens Tottenham Hotspur tegen Liverpool zaterdag. Had Van de Ven rood moeten krijgen?",
-      "publishedAt": "2025-12-23T09:21:45.000Z"
+      "title": "Zicht op Liverpool-rentree Gakpo, Slot hoopt nog op Isak",
+      "link": "https://www.vi.nl/nieuws/zicht-op-liverpool-rentree-gakpo-slot-hoopt-nog-op-isak",
+      "summary": "Cody Gakpo zou komend weekend zijn rentree kunnen maken bij Liverpool. Zijn manager Arne Slot noemt de kans fifty-fify. Verder heeft Slot de hoop dat het seizoen voor Isak nog niet voorbij is.",
+      "publishedAt": "2025-12-23T09:48:42.000Z"
     },
     {
       "type": "rss",
@@ -95,10 +106,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "FIFA test nieuwe technologie om randzaken rond doelpunten te tackelen",
-      "link": "https://www.vi.nl/nieuws/fifa-test-nieuwe-technologie-om-randzaken-rond-doelpunten-te-tackelen",
-      "summary": "De FIFA test nieuwe technologie die moet vaststellen of de bal over de lijn is gegaan voordat een doelpunt valt. De zogenoemde Out of Bounds -technologie werd deze maand getest tijdens drie wedstrijden van de Intercontinental Cup in Qatar.",
-      "publishedAt": "2025-12-23T09:20:00.000Z"
+      "title": "'Milan verscheurt contract Origi (30) anderhalf jaar na laatste profduel'",
+      "link": "https://www.vi.nl/nieuws/milan-verscheurt-contract-origi-30-anderhalf-jaar-na-laatste-profduel",
+      "summary": "AC Milan neemt per direct afscheid van Divock Origi. De dertigjarige Belg had nog een contract tot het einde van dit seizoen, maar dat is nu in onderling overleg ontbonden, melden diverse Italiaanse media. Origi heeft al anderhalf jaar geen profduel meer gespeeld, maar deed onlangs nog wel mee bij de B-ploeg van Milan.",
+      "publishedAt": "2025-12-23T09:43:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Isak facing two months out after 'reckless' tackle - Slot",
+      "link": "https://www.bbc.com/sport/football/articles/c1dz1y29e93o?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool manager Arne Slot says Alexander Isak faces \"a couple of months\" out injured after a \"reckless\" challenge by Tottenham defender Micky van de Ven.",
+      "publishedAt": "2025-12-23T09:33:39.000Z"
     },
     {
       "type": "rss",
@@ -106,21 +128,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Financiële klapper voor RKC: Altena al na een half jaar verkocht",
-      "link": "https://www.vi.nl/nieuws/financi-le-klapper-voor-rkc-altena-al-na-een-half-jaar-verkocht",
-      "summary": "Jordi Altena (22) speelde afgelopen zomer nog bij de amateurs van De Treffers, maar maakt een half jaar na zijn transfer naar RKC Waalwijk alweer een volgende transfer. De rechtsback vertrekt naar de Schotse koploper Hearts.",
-      "publishedAt": "2025-12-23T08:52:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Carragher kiest voor Roefs als beste Premier League-keeper",
-      "link": "https://www.vi.nl/nieuws/carragher-kiest-voor-roefs-als-beste-premier-league-keeper",
-      "summary": "Jamie Carragher is erg onder de indruk van Robin Roefs. De Nederlandse doelman speelde een uitstekende eerste seizoenshelft voor Sunderland bij de Premier League-rentree van de club. Carragher had een plekje voor hem in zijn beste elf van het eerste halfjaar.",
-      "publishedAt": "2025-12-23T08:42:46.000Z"
+      "title": "Plotselinge doelpuntenmaker Zagaritis zet hoog in: 'Heerenveen kan vierde worden'",
+      "link": "https://www.vi.nl/pro/plotselinge-doelpuntenmaker-zagaritis-zet-hoog-in-heerenveen-kan-vierde-worden",
+      "summary": "INTRO",
+      "publishedAt": "2025-12-23T09:30:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/golf/news/12040/13481758/rory-mcilroy-exclusive-grand-slam-glory-winning-the-masters-and-why-2025-was-the-best-year-of-his-golfing-career",
       "summary": "Rory McIlroy has admitted he feared he may never win The Masters before he completed the career Grand Slam during the 'best year' of his golfing career.",
       "publishedAt": "2025-12-23T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Australia's Cummins and Lyon out of fourth Ashes Test in Melbourne",
-      "link": "https://www.skysports.com/cricket/news/12040/13486917/the-ashes-australias-pat-cummins-and-nathan-lyon-out-of-fourth-test-against-england-in-melbourne-from-boxing-day",
-      "summary": "Australia captain Pat Cummins has been rested for the fourth Ashes Test against England as his back issue is managed, while the injured Nathan Lyon has been replaced by fellow off-spinner Todd Murphy for the game in Melbourne.",
-      "publishedAt": "2025-12-23T00:06:00.000Z"
     }
   ]
 }
