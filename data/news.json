@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2025-12-23T22:23:26.133Z",
+  "generatedAt": "2025-12-23T23:22:28.077Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "NWSL OK's 'Rodman rule' even as union objects",
+      "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
+      "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
+      "publishedAt": "2025-12-23T22:52:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Richards stretchered off in Carabao Cup",
+      "link": "https://www.espn.com/soccer/story/_/id/47401228/usmnt-chris-richards-stretchered-carabao-cup",
+      "summary": "Crystal Palace and United States defender Chris Richards was taken from the field on a stretcher during his team's Carabao Cup game against Arsenal on Tuesday.",
+      "publishedAt": "2025-12-23T22:52:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal win epic shootout to reach Carabao semis",
+      "link": "https://www.espn.com/soccer/report/_/gameId/760341",
+      "summary": "Arsenal secured their place in the semi-finals of the Carabao Cup after a marathon 8-7 sudden-death penalty shoot-out victory over Crystal Palace.",
+      "publishedAt": "2025-12-23T22:52:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Felbegeerde Semenyo hakt knoop door en kiest voor Man City'",
+      "link": "https://www.vi.nl/nieuws/semenyo-hakt-knoop-door-en-kiest-voor-man-city",
+      "summary": "Antoine Semenyo had de clubs voor het uitkiezen en lijkt dat nu te hebben gedaan. De productieve aanvaller van Bournemouth heeft zijn zinnen naar verluidt gezet op een transfer naar Manchester City.",
+      "publishedAt": "2025-12-23T22:47:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Nigeria squeeze past Tanzania as Jackson double helps Senegal win",
+      "link": "https://www.theguardian.com/football/2025/dec/23/afcon-roundup-nigeria-squeeze-past-tanzania-as-senegal-cruise-to-win",
+      "summary": "Group C: Nigeria 2-1 Tanzania; Tunisia 3-1 Uganda Group D: Senegal 3-0 Botswana; DR Congo 1-0 Benin Ademola Lookman scored a superb second-half winner as Nigeria earned a 2-1 Group C victory against Tanzania in the pouring rain in Fes, a positive start for the silver medallists from the previous tournament, but one that was not without moments of alarm. Nigeria were more dominant than the scoreline suggests in terms of possession and chances, but they failed to finish off the contest and were almost made to pay for their wastefulness in front of goal. Continue reading...",
+      "publishedAt": "2025-12-23T22:43:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arrizabalaga Arsenal’s shootout hero at expense of Lacroix and Crystal Palace",
+      "link": "https://www.theguardian.com/football/2025/dec/23/arsenal-crystal-palace-carabao-cup-quarter-final-match-report",
+      "summary": "This competition may not be Mikel Arteta or Oliver Glasner’s top priority this season but that didn’t stop their sides from producing a spectacle full of blood and thunder. It was one-way traffic for Arsenal in the first half but they found Crystal Palace’s second-string goalkeeper Walter Benítez in an inspired mood as he kept his side in the contest with some fine saves. An own goal from Maxence Lacroix looked to have booked a semi-final against Chelsea after Chris Richards had been carried off for Palace with a nasty gash to his ankle. But Marc Guéhi had other ideas and his goal in the fifth minute of injury-time took this rematch of last year’s quarter-final to penalties. The first 15 were all successful before the unfortunate Lacroix saw his spot-kick saved by Kepa Arrizabalaga to send Arsenal through in dramatic style. Continue reading...",
+      "publishedAt": "2025-12-23T22:39:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "WK als potentiële halte in bijzondere reis Locadia: 'Zag ik zelf ook niet meer aankomen'",
+      "link": "https://www.vi.nl/nieuws/wk-met-curacao-als-potenti-le-halte-in-bijzondere-reis-locadia",
+      "summary": "Met Curaçao plaatste Jürgen Locadia zich in november voor het WK, de aanvaller werd uit het niets bij de selectie van bondscoach Dick Advocaat gehaald. In het Kerstnummer van VI vertelt Locadia over de bijzondere gang van zaken.",
+      "publishedAt": "2025-12-23T22:35:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van Gerwen, Anderson progress after Noppert beaten in final-leg EPIC",
+      "link": "https://www.skysports.com/darts/news/12040/13487098/world-darts-championship-michael-van-gerwen-gary-anderson-reach-third-round-after-danny-noppert-loses-sudden-death-epic-at-alexandra-palace",
+      "summary": "Former champions Michael van Gerwen and Gary Anderson booked their third-round spots at the World Darts Championship, as sixth seed Danny Noppert crashed out in a final-leg epic at the Alexandra Palace.",
+      "publishedAt": "2025-12-23T22:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,47 +102,14 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arsenal v Crystal Palace: Carabao Cup quarter-final – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/23/arsenal-v-crystal-palace-carabao-cup-quarter-final-live",
-      "summary": "⚽ Updates from 8pm GMT kick-off as Chelsea await victors ⚽ Live scores | Follow us on Bluesky | Mail Taha 3 min: Madueke intercepts a Palace throw on the Arsenal right, plays to Martinelli, his pass cuts straight through the Palace defence. The onrushing Madueke receives … and really should do better. He shoots straight at Benítez. 2 min: Madueke shows off some quick feet to thump a cross in from the right before Arsenal wheel it around in defence. Continue reading...",
-      "publishedAt": "2025-12-23T22:19:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Richards stretchered off in Carabao Cup",
-      "link": "https://www.espn.com/soccer/story/_/id/47401228/usmnt-chris-richards-stretchered-carabao-cup",
-      "summary": "Crystal Palace and United States defender Chris Richards was taken from the field on a stretcher during his team's Carabao Cup game against Arsenal on Tuesday.",
-      "publishedAt": "2025-12-23T21:52:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "NWSL OK's 'Rodman rule' even as union objects",
-      "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
-      "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
-      "publishedAt": "2025-12-23T21:52:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: City making progress on Semenyo move",
-      "link": "https://www.espn.com/soccer/story/_/id/47400981/manchester-city-progress-antoine-semenyo-move",
-      "summary": "Manchester City are pushing ahead with a move for Antoine Semenyo, sources have told ESPN, after positive talks with the Bournemouth winger.",
-      "publishedAt": "2025-12-23T21:52:12.000Z"
+      "title": "Arsenal edge Palace on penalties to reach Carabao Cup semi-finals",
+      "link": "https://www.skysports.com/football/arsenal-vs-crystal-palace/report/549755",
+      "summary": "Maxence Lacroix was the villain for Crystal Palace as he scored an own-goal, then missed the crucial penalty to earn Arsenal a Carabao Cup semi-final spot after a dramatic tie that went to spot kicks.",
+      "publishedAt": "2025-12-23T22:18:00.000Z"
     },
     {
       "type": "rss",
@@ -88,17 +143,6 @@
       "link": "https://www.skysports.com/watch/video/13487146/walter-benitez-keeps-the-scores-level-as-he-pulls-off-a-great-save-from-point-blank-to-keep-out-gabriel-jesus-header",
       "summary": "Walter Benitez pulls off an incredible point-blank save to stop Gabriel Jesus' header and denies Noni Madueke on the rebound in Arsenal's Carabao Cup clash with Crystal Palace.",
       "publishedAt": "2025-12-23T20:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon roundup: Nigeria squeeze past Tanzania as Senegal cruise to win",
-      "link": "https://www.theguardian.com/football/2025/dec/23/afcon-roundup-nigeria-squeeze-past-tanzania-as-senegal-cruise-to-win",
-      "summary": "Nigeria 2-1 Tanzania; DR Congo 1-0 Benin Nicolas Jackson scores twice in Senegal victory Ademola Lookman scored a superb second-half winner as Nigeria earned a 2-1 Group C victory against Tanzania in the pouring rain in Fes, a positive start for the silver medallists from the previous tournament, but one that was not without moments of alarm. Nigeria were more dominant than the scoreline suggests in terms of possession and chances, but they failed to finish off the contest and were almost made to pay for their wastefulness in front of goal. Continue reading...",
-      "publishedAt": "2025-12-23T20:48:07.000Z"
     },
     {
       "type": "rss",
@@ -157,47 +201,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Cerny zorgt in Turkije voor bekerverrassing met Besiktas",
-      "link": "https://www.vi.nl/nieuws/cerny-zorgt-in-turkije-voor-bekerverrassing-met-besiktas",
-      "summary": "Besiktas is dinsdagavond goed begonnen aan het Turkse bekeravontuur. Aan de hand van Václav Cerny werd Fenerbahçe verslagen. Uitschakeling betekent dat niet voor de Turkse topclub, omdat het bekertoernooi in Turkije een groepsfase kent.",
-      "publishedAt": "2025-12-23T19:42:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Lookman knalt Nigeria naar openingszege op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/lookman-knalt-nigeria-naar-openingszege-op-afrika-cup",
-      "summary": "Ademola Lookman heeft Nigeria aan een goede start van de Afrika Cup geholpen. De aanvaller van Atalanta kroonde zich tot matchwinner in het openingsduel met een heerlijke uithaal.",
-      "publishedAt": "2025-12-23T19:22:39.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Van Gerwen leads after Anderson wins, Noppert beaten in epic LIVE!",
+      "title": "Rock thrashes Comito after Van Gerwen, Anderson progress in EPIC night LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-23T18:38:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City emerge as Semenyo frontrunners after Chelsea end interest",
-      "link": "https://www.skysports.com/football/news/12040/13487124/antoine-semenyo-transfer-news-chelsea-will-not-sign-bournemouth-forward-after-making-enquiry",
-      "summary": "Manchester City are emerging as the frontrunners to sign Antoine Semenyo.",
-      "publishedAt": "2025-12-23T18:37:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13486916/carlos-baleba-brighton-and-cameroon-midfielder-hoping-to-light-up-the-africa-cup-of-nations",
       "summary": "Paul Pogba, Thiago Alcantara, Sergio Busquets and Kevin De Bruyne.",
       "publishedAt": "2025-12-23T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'I just beat a legend' - Debutant Merk shocks two-time world champion Wright",
-      "link": "https://www.skysports.com/darts/news/12040/13487069/world-darts-championship-arno-merk-shocks-two-time-champion-peter-wright-at-alexandra-palace",
-      "summary": "Two-time champion Peter Wright was sent tumbling out of this year's World Darts Championship by German Arno Merk after an enthralling Tuesday afternoon at Alexandra Palace.",
-      "publishedAt": "2025-12-23T17:00:00.000Z"
     }
   ]
 }
