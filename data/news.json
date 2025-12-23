@@ -1,16 +1,38 @@
 {
-  "generatedAt": "2025-12-23T08:34:37.608Z",
+  "generatedAt": "2025-12-23T09:29:38.213Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Liverpool overweegt aantrekken aanvaller na zware blessure Isak'",
-      "link": "https://www.vi.nl/nieuws/blessure-isak-zet-liverpool-aan-het-denken-spits-van-bournemouth-in-beeld",
-      "summary": "Vanwege de zware blessure van Alexander Isak is het de vraag of Liverpool in de winterstop een spits aan gaat trekken. In de Engelse media komt één naam steeds terug: Antoine Semenyo, spits van Bournemouth.",
-      "publishedAt": "2025-12-23T08:28:13.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool confirm Isak broken ankle, out indefinitely",
+      "link": "https://www.espn.com/soccer/story/_/id/47392583/liverpool-alexander-isak-indefinitely-surgery",
+      "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery Monday on a broken ankle and fibula.",
+      "publishedAt": "2025-12-23T09:26:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah scores late winner in Egypt's AFCON opener",
+      "link": "https://www.espn.com/soccer/story/_/id/47392751/mohamed-salah-scores-late-winner-egypt-opener-afcon",
+      "summary": "Liverpool forward Mohamed Salah scored a stoppage-time goal to give Egypt a 2-1 win over Zimbabwe to start their Africa Cup of Nations campaign on Monday.",
+      "publishedAt": "2025-12-23T09:26:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Madrid's Endrick heads to Lyon on loan",
+      "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
+      "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
+      "publishedAt": "2025-12-23T09:26:17.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +40,87 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Voorzitter Corinthians weet niet of Memphis blijft",
-      "link": "https://www.vi.nl/nieuws/corinthians-moet-herstructureren-is-er-nog-plek-voor-dure-memphis",
-      "summary": "De toekomst van Memphis Depay bij Corinthians is onzeker. De Braziliaanse club moet herstructureren om weer financieel gezond te raken. De grote vraag is of het hoge salaris van de Nederlandse aanvaller daarin past.",
-      "publishedAt": "2025-12-23T08:15:53.000Z"
+      "title": "'Milan verscheurt contract Origi (30) anderhalf jaar na laatste profduel'",
+      "link": "https://www.vi.nl/nieuws/milan-verscheurt-contract-origi-30-anderhalf-jaar-na-laatste-profduel",
+      "summary": "AC Milan neemt per direct afscheid van Divock Origi. De dertigjarige Belg had nog een contract tot het einde van dit seizoen, maar dat is nu in onderling overleg ontbonden, melden diverse Italiaanse media. Origi heeft al anderhalf jaar geen profduel meer gespeeld, maar deed onlangs nog wel mee bij de B-ploeg van Milan.",
+      "publishedAt": "2025-12-23T09:25:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Transfer window preview: What do Europe's big clubs need?",
+      "link": "https://www.espn.com/soccer/story/_/id/47334380/transfer-window-preview-do-europes-big-clubs-need",
+      "summary": "The transfer window is set to open across Europe in January, so what are the top clubs planning? Who comes in? Who will go?",
+      "publishedAt": "2025-12-23T09:25:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "WSL transfer preview: Man United, Arsenal need depth; Liverpool need anyone",
+      "link": "https://www.espn.com/soccer/story/_/id/47387768/wsl-transfer-preview-man-united-arsenal-need-depth-liverpool-need-anyone",
+      "summary": "Man United need depth, Arsenal have to lower their average age, while you name it, Liverpool need it. What will the WSL window bring?",
+      "publishedAt": "2025-12-23T09:25:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Head coach Rowett sacked by Oxford United",
+      "link": "https://www.bbc.com/sport/football/articles/cvgrxx7nn5zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Oxford United head coach Gary Rowett is sacked with the club in the Championship relegation zone.",
+      "publishedAt": "2025-12-23T09:22:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Tackle Van de Ven levert felle discussie op: 'Ik ben verbijsterd'",
+      "link": "https://www.vi.nl/nieuws/tackle-van-de-ven-levert-felle-discussie-op-ik-ben-verbijsterd",
+      "summary": "De tackle van Micky van de Ven op Alexander Isak was voer voor stevige discussies in Engeland. De Nederlander blesseerde Isak ernstig met een stevige charge tijdens Tottenham Hotspur tegen Liverpool zaterdag. Had Van de Ven rood moeten krijgen?",
+      "publishedAt": "2025-12-23T09:21:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FIFA test nieuwe technologie om randzaken rond doelpunten te tackelen",
+      "link": "https://www.vi.nl/nieuws/fifa-test-nieuwe-technologie-om-randzaken-rond-doelpunten-te-tackelen",
+      "summary": "De FIFA test nieuwe technologie die moet vaststellen of de bal over de lijn is gegaan voordat een doelpunt valt. De zogenoemde Out of Bounds -technologie werd deze maand getest tijdens drie wedstrijden van de Intercontinental Cup in Qatar.",
+      "publishedAt": "2025-12-23T09:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Financiële klapper voor RKC: Altena al na een half jaar verkocht",
+      "link": "https://www.vi.nl/nieuws/financi-le-klapper-voor-rkc-altena-al-na-een-half-jaar-verkocht",
+      "summary": "Jordi Altena (22) speelde afgelopen zomer nog bij de amateurs van De Treffers, maar maakt een half jaar na zijn transfer naar RKC Waalwijk alweer een volgende transfer. De rechtsback vertrekt naar de Schotse koploper Hearts.",
+      "publishedAt": "2025-12-23T08:52:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Carragher kiest voor Roefs als beste Premier League-keeper",
+      "link": "https://www.vi.nl/nieuws/carragher-kiest-voor-roefs-als-beste-premier-league-keeper",
+      "summary": "Jamie Carragher is erg onder de indruk van Robin Roefs. De Nederlandse doelman speelde een uitstekende eerste seizoenshelft voor Sunderland bij de Premier League-rentree van de club. Carragher had een plekje voor hem in zijn beste elf van het eerste halfjaar.",
+      "publishedAt": "2025-12-23T08:42:46.000Z"
     },
     {
       "type": "rss",
@@ -36,36 +135,36 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ineens is Dylan Mbayo derde keuze bij PEC: 'Ik moet het accepteren'",
-      "link": "https://www.vi.nl/pro/ineens-is-dylan-mbayo-derde-keuze-bij-pec-ik-moet-het-accepteren",
-      "summary": "Intro",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Infantino gets his way but countries fear Afcon switch will hit them in the pocket | Ed Aarons",
+      "link": "https://www.theguardian.com/football/2025/dec/23/infantino-gets-his-way-but-countries-fear-afcon-switch-will-hit-them-in-the-pocket",
+      "summary": "Political backbiting has led to accusations Fifa is running the show as tournament switches to four-year cycle It was a decision that took many by surprise, although not those who have been watching closely since February 2020. Members of the Confederation of African Football’s (Caf) executive committee, along with various other dignitaries including George Weah, the former Ballon d’Or winner and president of Liberia at the time, were assembled in Rabat at a seminar to hear Gianni Infantino outline his plan for the development of competitions and infrastructure in African football. As well as improving standards in refereeing and mobilising investment in the continent’s infrastructure, the president of Fifa floated the prospect of holding its most important tournament, the Africa Cup of Nations, every four years instead of every two and described the current arrangement as “useless”. The argument ran that it would be more beneficial for countries “at the commercial level” and would help to “project African football to the top of the world”. “Let us show the world what we can do,” added Infantino. “This day is special – it’s the start of a new chapter for African football.” Continue reading...",
+      "publishedAt": "2025-12-23T08:00:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Zvonimir Boban: ‘If I didn’t do this it would be a betrayal of every value I have lived for’",
+      "link": "https://www.theguardian.com/football/2025/dec/23/zvonimir-boban-if-i-didnt-do-this-it-would-be-a-betrayal-of-every-value-i-have-lived-for",
+      "summary": "The Croatia legend on his return to Dinamo Zagreb, his fall out with Uefa and the ‘shameful’ actions of Gianni Infantino An afternoon mist is descending over Maksimir Stadion, enhancing the severity of its dramatic, precipitous angles. In a building across the way, Zvonimir Boban is explaining what brought him back. We are eating squid ink risotto in one corner of a room now configured as Dinamo Zagreb’s canteen; diagonally opposite is the spot where, fighting through the club’s youth system, a young arrival from Dalmatia used to sleep. “Emotionally it’s the biggest story of my life, this one,” Boban says, memories of this former dormitory leaping into his mind’s eye. “Where, if not here?” He has, in some shape or form, been almost everywhere else. Boban has burned brightly but briefly in each of his various lives as a football administrator. The sport would look different were it not for his influence in senior roles at Fifa and Uefa across the past decade. Almost two years have passed since his high-profile resignation from the latter and there was always the sense Boban, opinionated and deeply principled, had further rungs to climb. Continue reading...",
+      "publishedAt": "2025-12-23T08:00:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Key backs McCullum, Stokes to spearhead England's post-Ashes recovery",
+      "link": "https://www.skysports.com/cricket/news/12040/13486947/rob-key-backs-brendon-mccullum-to-remain-as-england-head-coach-despite-ashes-defeat",
+      "summary": "Rob Key insists Brendon McCullum is the best man to continue leading England but admits he does not know what the ECB have planned in the wake of their abject Ashes defeat.",
       "publishedAt": "2025-12-23T08:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Farioli volgt voorbeeld Guardiola: 'Spelers FC Porto moeten op de weegschaal'",
-      "link": "https://www.vi.nl/nieuws/farioli-volgt-voorbeeld-guardiola-spelers-moeten-zich-wegen",
-      "summary": "Francesco Farioli gaat als ongeslagen koploper de kerst in met FC Porto. Hoewel de oud-trainer van Ajax trots is op zijn ploeg, wil hij absoluut niet dat de spelers verslappen. Er moet in december immers nog een wedstrijd worden gespeeld.",
-      "publishedAt": "2025-12-23T07:45:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Neres zet Italië op zijn kop met 'monsterlijke prestatie': 'Klasse apart'",
-      "link": "https://www.vi.nl/nieuws/neres-zet-itali-op-zijn-kop-met-monsterlijke-prestatie-klasse-apart",
-      "summary": "David Neres staat er goed op in Italië. De Braziliaanse vleugelspeler schitterde maandagavond in de door Napoli van Bologna gewonnen finale van de Italiaanse Supercoppa. Hij was goed voor twee fraaie goals en de Italiaanse media kwamen superlatieven tekort om zijn prestatie te duiden.",
-      "publishedAt": "2025-12-23T07:32:10.000Z"
     },
     {
       "type": "rss",
@@ -113,50 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool confirm Alexander Isak suffered broken ankle, out indefinitely",
-      "link": "https://www.espn.com/soccer/story/_/id/47392583/liverpool-alexander-isak-indefinitely-surgery",
-      "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery Monday on a broken ankle and fibula.",
-      "publishedAt": "2025-12-23T04:20:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neymar has minor surgery, WC with Brazil in play",
-      "link": "https://www.espn.com/soccer/story/_/id/47392004/neymar-knee-surgery-brazil-world-cup-alive",
-      "summary": "Neymar underwent minor surgery on his left knee, his club Santos said on Monday.",
-      "publishedAt": "2025-12-23T04:20:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Salah scores late winner in Egypt's AFCON opener",
-      "link": "https://www.espn.com/soccer/story/_/id/47392751/mohamed-salah-scores-late-winner-egypt-opener-afcon",
-      "summary": "Liverpool forward Mohamed Salah scored a stoppage-time goal to give Egypt a 2-1 win over Zimbabwe to start their Africa Cup of Nations campaign on Monday.",
-      "publishedAt": "2025-12-23T04:20:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Madrid's Endrick heads to Lyon on loan",
-      "link": "https://www.espn.com/soccer/story/_/id/47391651/real-madrid-endrick-headed-lyon-loan-sources",
-      "summary": "Lyon and Real Madrid agreed on Monday to a six-month loan for striker Endrick, sources told ESPN. The loan does not include an option to make the move permanent.",
-      "publishedAt": "2025-12-23T04:20:36.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -165,61 +220,6 @@
       "link": "https://www.skysports.com/cricket/news/12040/13486917/the-ashes-australias-pat-cummins-and-nathan-lyon-out-of-fourth-test-against-england-in-melbourne-from-boxing-day",
       "summary": "Australia captain Pat Cummins has been rested for the fourth Ashes Test against England as his back issue is managed, while the injured Nathan Lyon has been replaced by fellow off-spinner Todd Murphy for the game in Melbourne.",
       "publishedAt": "2025-12-23T00:06:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Penalty king Jimenez equals record - who are the Premier League's best?",
-      "link": "https://www.bbc.com/sport/football/articles/cwyg4k0kl9wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Fulham's Raul Jimenez scored his 11th Premier League penalty from 11 attempts, but who are the best spot-kick takers?",
-      "publishedAt": "2025-12-22T23:20:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Steelers' Metcalf banned for rest of NFL regular season after altercation with Lions fan",
-      "link": "https://www.skysports.com/nfl/news/12040/13486898/dk-metcalf-pittsburgh-steelers-wide-receiver-given-two-game-ban-and-will-miss-rest-of-regular-season-after-altercation-with-detroit-lions-fan",
-      "summary": "Pittsburgh Steelers wide receiver DK Metcalf has been suspended for two games without pay by the NFL and will now miss the rest of the regular season after \"initiating a physical confrontation\" with a Detroit Lions fan during Sunday's victory at Ford Field.",
-      "publishedAt": "2025-12-22T22:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Penalty king Jiménez dents Forest’s revival to lift Fulham clear of danger",
-      "link": "https://www.theguardian.com/football/2025/dec/22/fulham-nottingham-forest-premier-league-match-report",
-      "summary": "The one moment of true quality came when Raúl Jiménez stood 12 yards from goal and looked at John Victor. It was a battle of wits but there was only going to be one winner. Jiménez stuttered, moved towards the ball at a leisurely pace, waited for Nottingham Forest’s goalkeeper to move left and then set Fulham on the path to a vital victory by sending a clinical penalty into the opposite corner. This was Jiménez in his element. The Mexican is not the quickest striker around but the 34-year-old is still one of the game’s sharpest thinkers. Few, after all, can match Jiménez for accuracy from the spot. He is calmness personified in those situations and, remarkably, is now joint top with Yaya Touré when it comes to players with a 100% conversion rate from penalty kicks in the history of the Premier League. Continue reading...",
-      "publishedAt": "2025-12-22T22:07:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Alexander Isak set to miss several months of season after Liverpool confirm fractured ankle",
-      "link": "https://www.theguardian.com/football/2025/dec/22/alexander-isak-set-to-miss-several-months-of-season-after-liverpool-confirm-fractured-leg",
-      "summary": "Record signing injured while scoring at Tottenham Swedish striker had surgery after scan on Monday Liverpool’s record signing, Alexander Isak, is facing several months on the sidelines after undergoing surgery on an ankle injury that included a fractured fibula. Isak sustained the injury as a result of a heavy challenge from Micky van de Ven while in the process of scoring in Liverpool’s 2-1 win against Tottenham on Saturday. The 26-year-old was helped off in considerable pain and MRI scans confirmed Liverpool’s initial fears of a serious problem. Continue reading...",
-      "publishedAt": "2025-12-22T21:08:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool striker Isak has surgery on broken leg",
-      "link": "https://www.bbc.com/sport/football/articles/c5y9d7xl8dvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Scans confirm striker Alexander Isak's left leg was broken during Liverpool's victory against Tottenham Hotspur on Saturday.",
-      "publishedAt": "2025-12-22T21:02:33.000Z"
     }
   ]
 }
