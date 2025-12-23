@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-23T20:27:12.847Z",
+  "generatedAt": "2025-12-23T21:22:33.259Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Baas zoekt de leider in zichzelf en wijst twee voorbeelden aan",
-      "link": "https://www.vi.nl/nieuws/baas-zoekt-de-leider-in-zichzelf-en-wijst-twee-voorbeelden-aan",
-      "summary": "Youri Baas vindt dat hij stappen heeft gezet in het ontwikkelen van zijn leiderschap, maar ziet ook nog genoeg ruimte voor verbetering. De 22-jarige Ajacied blikt in een uitgebreid interview terug op zijn ‘bizarre’ 2025.",
-      "publishedAt": "2025-12-23T20:25:00.000Z"
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal v Crystal Palace: Carabao Cup quarter-final – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/23/arsenal-v-crystal-palace-carabao-cup-quarter-final-live",
+      "summary": "⚽ Updates from 8pm GMT kick-off as Chelsea await victors ⚽ Live scores | Follow us on Bluesky | Mail Taha 3 min: Madueke intercepts a Palace throw on the Arsenal right, plays to Martinelli, his pass cuts straight through the Palace defence. The onrushing Madueke receives … and really should do better. He shoots straight at Benítez. 2 min: Madueke shows off some quick feet to thump a cross in from the right before Arsenal wheel it around in defence. Continue reading...",
+      "publishedAt": "2025-12-23T21:15:15.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +21,18 @@
       "title": "NWSL OK's 'Rodman rule' even as union objects",
       "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
       "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
-      "publishedAt": "2025-12-23T20:22:21.000Z"
+      "publishedAt": "2025-12-23T21:14:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: City making progress on Semenyo move",
+      "link": "https://www.espn.com/soccer/story/_/id/47400981/manchester-city-progress-antoine-semenyo-move",
+      "summary": "Manchester City are pushing ahead with a move for Antoine Semenyo, sources have told ESPN, after positive talks with the Bournemouth winger.",
+      "publishedAt": "2025-12-23T21:14:12.000Z"
     },
     {
       "type": "rss",
@@ -32,29 +43,18 @@
       "title": "Slot calls tackle 'reckless'; Isak out 2 months",
       "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
       "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
-      "publishedAt": "2025-12-23T20:22:21.000Z"
+      "publishedAt": "2025-12-23T21:14:12.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Current to hire Armas as new head coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47400585/kansas-city-current-hire-chris-armas-head-coach",
-      "summary": "The Kansas City Current have agreed to terms to hire Chris Armas as the team's new head coach, multiple sources confirmed to ESPN.",
-      "publishedAt": "2025-12-23T20:22:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Lookman goal hands Nigeria win in AFCON opener",
-      "link": "https://www.espn.com/soccer/report/_/gameId/732138",
-      "summary": "Ademola Lookman's second-half winner helped Nigeria overcome a Tanzania fightback and begin their Africa Cup of Nations campaign with a bright 2-1 Group C victory.",
-      "publishedAt": "2025-12-23T20:22:21.000Z"
+      "title": "Incredible DOUBLE save as Benitez keeps out Jesus and Madueke!",
+      "link": "https://www.skysports.com/watch/video/13487146/walter-benitez-keeps-the-scores-level-as-he-pulls-off-a-great-save-from-point-blank-to-keep-out-gabriel-jesus-header",
+      "summary": "Walter Benitez pulls off an incredible point-blank save from a Gabriel Jesus header to keep the score at 0-0.",
+      "publishedAt": "2025-12-23T20:50:00.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +62,65 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arsenal v Crystal Palace: Carabao Cup quarter-final – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/23/arsenal-v-crystal-palace-carabao-cup-quarter-final-live",
-      "summary": "⚽ Updates from 8pm GMT kick-off as Chelsea await victors ⚽ Live scores | Follow us on Bluesky | Mail Taha 3 min: Madueke intercepts a Palace throw on the Arsenal right, plays to Martinelli, his pass cuts straight through the Palace defence. The onrushing Madueke receives … and really should do better. He shoots straight at Benítez. 2 min: Madueke shows off some quick feet to thump a cross in from the right before Arsenal wheel it around in defence. Continue reading...",
-      "publishedAt": "2025-12-23T20:20:00.000Z"
+      "title": "Afcon roundup: Nigeria squeeze past Tanzania as Senegal cruise to win",
+      "link": "https://www.theguardian.com/football/2025/dec/23/afcon-roundup-nigeria-squeeze-past-tanzania-as-senegal-cruise-to-win",
+      "summary": "Nigeria 2-1 Tanzania; DR Congo 1-0 Benin Nicolas Jackson scores twice in Senegal victory Ademola Lookman scored a superb second-half winner as Nigeria earned a 2-1 Group C victory against Tanzania in the pouring rain in Fes, a positive start for the silver medallists from the previous tournament, but one that was not without moments of alarm. Nigeria were more dominant than the scoreline suggests in terms of possession and chances, but they failed to finish off the contest and were almost made to pay for their wastefulness in front of goal. Continue reading...",
+      "publishedAt": "2025-12-23T20:48:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Baas zoekt de leider in zichzelf en wijst twee voorbeelden aan",
+      "link": "https://www.vi.nl/nieuws/baas-zoekt-de-leider-in-zichzelf-en-wijst-twee-voorbeelden-aan",
+      "summary": "Youri Baas vindt dat hij stappen heeft gezet in het ontwikkelen van zijn leiderschap, maar ziet ook nog genoeg ruimte voor verbetering. De 22-jarige Ajacied blikt in een uitgebreid interview terug op zijn ‘bizarre’ 2025.",
+      "publishedAt": "2025-12-23T20:42:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City in advanced talks with Bournemouth's Semenyo",
+      "link": "https://www.bbc.com/sport/football/articles/cx2djq1jdrdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Antoine Semenyo is set to make a final decision on his future with Manchester City in advanced talks over a January move for the Bournemouth forward.",
+      "publishedAt": "2025-12-23T20:34:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "After years away, Sunderland's Premier League return has revived the club and its city",
+      "link": "https://www.espn.com/soccer/story/_/id/47358780/sunderland-premier-league-return-newcastle-granit-xhaka-bruce-schoenfeld-sunderland-til-die-netflix",
+      "summary": "By any measure, Sunderland is one of the revelations of the season. How high they can finish?",
+      "publishedAt": "2025-12-23T20:25:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League overreactions: Are Villa in the title race? Can Wolves avoid history?",
+      "link": "https://www.espn.com/soccer/story/_/id/47390309/premier-league-overreactions-aston-villa-title-race-chelsea-maresca-nick-woltemade-analysis",
+      "summary": "Just before we hit the crowded festive fixtures, we have plenty to overreact to in the Premier League, from the title race down to a potential record-breaking worst season.",
+      "publishedAt": "2025-12-23T20:25:44.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Stewart joins Snoop Dogg and Modric as Swans co-owner",
+      "link": "https://www.bbc.com/sport/football/articles/c0kdmkkz3jno?at_medium=RSS&at_campaign=rss",
+      "summary": "The 84-year-old American businesswoman has become the latest celebrity owner of Swansea City.",
+      "publishedAt": "2025-12-23T20:14:04.000Z"
     },
     {
       "type": "rss",
@@ -91,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Semenyo to finalise future as Chelsea end interest",
-      "link": "https://www.bbc.com/sport/football/articles/cx2djq1jdrdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea decide not to pursue their interest in Antoine Semenyo as the Bournemouth forward starts the process of deciding his future.",
-      "publishedAt": "2025-12-23T19:15:40.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -117,7 +161,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Noppert vs Hood in epic tie-break, Anderson and MVG to come LIVE!",
+      "title": "Anderson in action after Noppert beaten in epic, Van Gerwen to come LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-23T18:38:00.000Z"
@@ -128,9 +172,9 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Chelsea end interest in Semenyo",
+      "title": "Man City emerge as Semenyo frontrunners after Chelsea end interest",
       "link": "https://www.skysports.com/football/news/12040/13487124/antoine-semenyo-transfer-news-chelsea-will-not-sign-bournemouth-forward-after-making-enquiry",
-      "summary": "Chelsea will not sign Antoine Semenyo despite making an enquiry for the Bournemouth forward.",
+      "summary": "Manchester City are emerging as the frontrunners to sign Antoine Semenyo.",
       "publishedAt": "2025-12-23T18:37:00.000Z"
     },
     {
@@ -176,50 +220,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13487069/world-darts-championship-arno-merk-shocks-two-time-champion-peter-wright-at-alexandra-palace",
       "summary": "Two-time champion Peter Wright was sent tumbling out of this year's World Darts Championship by German Arno Merk after an enthralling Tuesday afternoon at Alexandra Palace.",
       "publishedAt": "2025-12-23T17:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon 2025: Jackson double seals Senegal win, DR Congo edge Benin – as it happened",
-      "link": "https://www.theguardian.com/football/live/2025/dec/23/senegal-v-botswana-africa-cup-of-nations-live",
-      "summary": "Nicolas Jackson scored twice as Senegal strolled to victory over Botswana, while DR Congo also won their Group D opener 1 min Peep peep! Senegal kick off from left to right as we watch. Full time: DR Congo 1-0 Benin Theo Bongonda’s goal has given DR Congo victory in the opening game of Group D. They play Senegal next on Saturday; Benin will meet Botswana. Continue reading...",
-      "publishedAt": "2025-12-23T16:56:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Nancy wants 'really happy' Maeda to stay at Celtic",
-      "link": "https://www.bbc.com/sport/football/articles/c709g0w8249o?at_medium=RSS&at_campaign=rss",
-      "summary": "Celtic manager Wilfried Nancy is eager to retain Daizen Maeda and insists the forward is \"really happy\" at the Scottish champions after a possible summer exit was blocked.",
-      "publishedAt": "2025-12-23T16:45:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Frank hits back at Slot over claim of ‘reckless’ Van de Ven challenge on Isak",
-      "link": "https://www.theguardian.com/football/2025/dec/23/liverpool-arne-slot-accuses-van-de-ven-reckless-tackle-alexander-isak-fractured-leg",
-      "summary": "Liverpool head coach says Isak out for ‘couple of months’ Spurs counterpart says ‘true defenders’ have to challenge Thomas Frank has hit back at Arne Slot after the Liverpool head coach criticised Micky van de Ven for a “reckless” challenge that left Alexander Isak with a fractured leg. Tottenham’s head coach said Van de Ven’s attempt to prevent Isak from scoring in Liverpool’s 2-1 win at Spurs was the “natural reaction” of a true defender and that his player had spoken to the Sweden international to apologise. Liverpool will be without their record £125m signing “for a couple of months”, Slot confirmed on Tuesday. Isak had surgery on Monday to repair an ankle injury that includes a fractured fibula. Continue reading...",
-      "publishedAt": "2025-12-23T16:16:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Isak facing two months out after 'reckless' tackle - Slot",
-      "link": "https://www.bbc.com/sport/football/articles/c1dz1y29e93o?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool manager Arne Slot says Alexander Isak faces \"a couple of months\" out injured after a \"reckless\" challenge by Tottenham defender Micky van de Ven.",
-      "publishedAt": "2025-12-23T16:15:37.000Z"
     }
   ]
 }
