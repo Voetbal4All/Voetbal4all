@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2025-12-23T19:19:51.896Z",
+  "generatedAt": "2025-12-23T20:27:12.847Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Baas zoekt de leider in zichzelf en wijst twee voorbeelden aan",
+      "link": "https://www.vi.nl/nieuws/baas-zoekt-de-leider-in-zichzelf-en-wijst-twee-voorbeelden-aan",
+      "summary": "Youri Baas vindt dat hij stappen heeft gezet in het ontwikkelen van zijn leiderschap, maar ziet ook nog genoeg ruimte voor verbetering. De 22-jarige Ajacied blikt in een uitgebreid interview terug op zijn ‘bizarre’ 2025.",
+      "publishedAt": "2025-12-23T20:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "NWSL OK's 'Rodman rule' even as union objects",
+      "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
+      "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
+      "publishedAt": "2025-12-23T20:22:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot calls tackle 'reckless'; Isak out 2 months",
+      "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
+      "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
+      "publishedAt": "2025-12-23T20:22:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Current to hire Armas as new head coach",
+      "link": "https://www.espn.com/soccer/story/_/id/47400585/kansas-city-current-hire-chris-armas-head-coach",
+      "summary": "The Kansas City Current have agreed to terms to hire Chris Armas as the team's new head coach, multiple sources confirmed to ESPN.",
+      "publishedAt": "2025-12-23T20:22:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Lookman goal hands Nigeria win in AFCON opener",
+      "link": "https://www.espn.com/soccer/report/_/gameId/732138",
+      "summary": "Ademola Lookman's second-half winner helped Nigeria overcome a Tanzania fightback and begin their Africa Cup of Nations campaign with a bright 2-1 Group C victory.",
+      "publishedAt": "2025-12-23T20:22:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal v Crystal Palace: Carabao Cup quarter-final – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/23/arsenal-v-crystal-palace-carabao-cup-quarter-final-live",
+      "summary": "⚽ Updates from 8pm GMT kick-off as Chelsea await victors ⚽ Live scores | Follow us on Bluesky | Mail Taha 3 min: Madueke intercepts a Palace throw on the Arsenal right, plays to Martinelli, his pass cuts straight through the Palace defence. The onrushing Madueke receives … and really should do better. He shoots straight at Benítez. 2 min: Madueke shows off some quick feet to thump a cross in from the right before Arsenal wheel it around in defence. Continue reading...",
+      "publishedAt": "2025-12-23T20:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Cerny zorgt in Turkije voor bekerverrassing met Besiktas",
+      "link": "https://www.vi.nl/nieuws/cerny-zorgt-in-turkije-voor-bekerverrassing-met-besiktas",
+      "summary": "Besiktas is dinsdagavond goed begonnen aan het Turkse bekeravontuur. Aan de hand van Václav Cerny werd Fenerbahçe verslagen. Uitschakeling betekent dat niet voor de Turkse topclub, omdat het bekertoernooi in Turkije een groepsfase kent.",
+      "publishedAt": "2025-12-23T19:42:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Lookman knalt Nigeria naar openingszege op Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/lookman-knalt-nigeria-naar-openingszege-op-afrika-cup",
+      "summary": "Ademola Lookman heeft Nigeria aan een goede start van de Afrika Cup geholpen. De aanvaller van Atalanta kroonde zich tot matchwinner in het openingsduel met een heerlijke uithaal.",
+      "publishedAt": "2025-12-23T19:22:39.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -18,54 +106,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arsenal v Crystal Palace: Carabao Cup quarter-final – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/23/arsenal-v-crystal-palace-carabao-cup-quarter-final-live",
-      "summary": "⚽ Updates from 8pm GMT kick-off as Chelsea await victors ⚽ Live scores | Follow us on Bluesky | Mail Taha Arsenal look radically different from the side that beat Everton, while Oliver Glasner makes just three changes to his Palace team. Gabriel Jesus makes his first start since January and it’s his 100th appearance for the Gunners, too. Mikel Merino is Arsenal’s captain as Eberechi Eze lines up against his old pals. Dean Henderson is the big Palace name left on the bench, with Argentina’s Walter Benítez taking the gloves. Continue reading...",
-      "publishedAt": "2025-12-23T19:09:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "NWSL OK's 'Rodman rule' even as union objects",
-      "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
-      "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
-      "publishedAt": "2025-12-23T18:38:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot calls tackle 'reckless'; Isak out 2 months",
-      "link": "https://www.espn.com/soccer/story/_/id/47397140/liverpool-slot-criticises-reckless-van-de-ven-tackle-isak",
-      "summary": "Liverpool head coach Arne Slot has described the challenge from Tottenham Hotspur defender Micky van de Ven which broke Alexander Isak's leg as \"reckless.\"",
-      "publishedAt": "2025-12-23T18:38:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Newcastle contact refs' boss over Chelsea call",
-      "link": "https://www.espn.com/soccer/story/_/id/47397430/newcastle-contact-refs-boss-howard-webb-chelsea-penalty-call",
-      "summary": "Newcastle United have contacted referees' chief Howard Webb over the controversial decision which denied them a potentially crucial penalty against Chelsea.",
-      "publishedAt": "2025-12-23T18:38:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Real Madrid's Endrick completes loan move to Lyon",
-      "link": "https://www.espn.com/soccer/story/_/id/47399861/real-madrid-endrick-completes-loan-move-lyon",
-      "summary": "Lyon have completed the loan signing of Real Madrid teenager Endrick until the end of the season.",
-      "publishedAt": "2025-12-23T18:38:41.000Z"
+      "title": "Chelsea decide against move for £65m Antoine Semenyo after making inquiries",
+      "link": "https://www.theguardian.com/football/2025/dec/23/chelsea-enter-hunt-for-65m-antoine-semenyo-with-inquiry-about-his-terms",
+      "summary": "Bournemouth winger has release clause in January Liverpool and Manchester City favourites to sign him Chelsea are not planning to pursue their interest in Antoine Semenyo after making a check on the Bournemouth winger. Semenyo, who is being targeted by Manchester City, Manchester United and Liverpool, has a £65m release clause in his contract that becomes active for a limited timeframe in January. Chelsea have never been serious players in the race to sign Semenyo but they contacted the player’s camp to explore the conditions of a deal during the winter transfer window. The move was made simply due to a desire to find out what it would take to sign a forward who is being courted by some of the Premier League’s biggest teams. Continue reading...",
+      "publishedAt": "2025-12-23T19:15:00.000Z"
     },
     {
       "type": "rss",
@@ -73,7 +117,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship: Anderson, Van Gerwen headline evening session LIVE!",
+      "title": "Noppert vs Hood in epic tie-break, Anderson and MVG to come LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2025-12-23T18:38:00.000Z"
@@ -124,28 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "PSV bindt succesdirecteur Brands langer aan zich",
-      "link": "https://www.vi.nl/nieuws/psv-bindt-succesdirecteur-brands-langer-aan-zich",
-      "summary": "Marcel Brands blijft langer aan PSV verbonden als algemeen directeur. De oud-voetballer lag nog tot medio 2027 vast in Eindhoven en heeft daar twee jaar aan vastgeplakt.",
-      "publishedAt": "2025-12-23T17:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Vinícius moet zijn excuses aanbieden voor ongepaste actie'",
-      "link": "https://www.vi.nl/nieuws/vinicius-moet-zijn-excuses-aanbieden-voor-ongepaste-actie",
-      "summary": "De handelingen van Vinícius Júnior op Instagram na de wedstrijd van Real Madrid tegen Sevilla afgelopen weekend kunnen volgens Mundo Deportivo niet zomaar in de doofpot worden gestopt. De Braziliaan veranderde zijn profielfoto en deelde een controversiële post na het duel in La Liga.",
-      "publishedAt": "2025-12-23T17:28:56.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -179,24 +201,13 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Real Madrid akkoord met tijdelijk vertrek van WK dromende Endrick",
-      "link": "https://www.vi.nl/nieuws/real-madrid-akkoord-met-tijdelijk-vertrek-van-wk-dromende-endrick",
-      "summary": "Real Madrid lijkt een oplossing te hebben gevonden voor de behoorlijk uitzichtloze situatie waarin tienerster Endrick zich bevindt. L'Equipe pakt uit met het nieuws dat de Braziliaanse aanvaller op huurbasis naar Olympique Lyon zal gaan.",
-      "publishedAt": "2025-12-23T16:39:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Frank hits back at Slot over claim of ‘reckless’ Van de Ven challenge on Isak",
       "link": "https://www.theguardian.com/football/2025/dec/23/liverpool-arne-slot-accuses-van-de-ven-reckless-tackle-alexander-isak-fractured-leg",
-      "summary": "Liverpool head coach says Isak out for ‘couple of months’ Spurs counterpart says ‘true defenders’ have to challenge Thomas Frank has hit back at Arne Slot after the Liverpool head coach criticised Micky van de Ven for a “reckless” challenge that left Alexander Isak with a fractured leg. Tottenham’s head coach said Van de Ven’s attempt to prevent Isak from scoring in Liverpool’s 2-1 win at Tottenham was the “natural reaction” of a true defender and that his player had spoken to the Sweden international to apologise. Liverpool will be without their record £125m signing “for a couple of months”, Slot confirmed on Tuesday. Isak had surgery on Monday to repair an ankle injury that includes a fractured fibula. Continue reading...",
+      "summary": "Liverpool head coach says Isak out for ‘couple of months’ Spurs counterpart says ‘true defenders’ have to challenge Thomas Frank has hit back at Arne Slot after the Liverpool head coach criticised Micky van de Ven for a “reckless” challenge that left Alexander Isak with a fractured leg. Tottenham’s head coach said Van de Ven’s attempt to prevent Isak from scoring in Liverpool’s 2-1 win at Spurs was the “natural reaction” of a true defender and that his player had spoken to the Sweden international to apologise. Liverpool will be without their record £125m signing “for a couple of months”, Slot confirmed on Tuesday. Isak had surgery on Monday to repair an ankle injury that includes a fractured fibula. Continue reading...",
       "publishedAt": "2025-12-23T16:16:02.000Z"
     },
     {
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c1dz1y29e93o?at_medium=RSS&at_campaign=rss",
       "summary": "Liverpool manager Arne Slot says Alexander Isak faces \"a couple of months\" out injured after a \"reckless\" challenge by Tottenham defender Micky van de Ven.",
       "publishedAt": "2025-12-23T16:15:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "How will Liverpool cope without Isak?",
-      "link": "https://www.bbc.com/sport/football/articles/c62le1978e8o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport analyses how Liverpool manager Arne Slot might set up following striker Alexander Isak being ruled out for about two months with a broken leg.",
-      "publishedAt": "2025-12-23T16:00:28.000Z"
     }
   ]
 }
