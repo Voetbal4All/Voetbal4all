@@ -299,9 +299,7 @@
     document.getElementById("year").textContent = new Date().getFullYear();
 
     // Data path (GitHub Pages vs custom domain)
-    const isGithubPages = window.location.hostname.includes("github.io");
-    const DATA_BASE = isGithubPages ? "/voetbal4all/data/" : "data/";
-    const NEWS_URL = DATA_BASE + "news.json";
+    const NEWS_URL = "https://voetbal4all-backend.onrender.com/api/news";
 
     const articleList = document.getElementById("article-list");
     const newsStatus = document.getElementById("news-status");
