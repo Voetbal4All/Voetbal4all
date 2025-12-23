@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-22T23:23:12.853Z",
+  "generatedAt": "2025-12-23T01:57:28.901Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Australia's Cummins and Lyon out of fourth Ashes Test in Melbourne",
+      "link": "https://www.skysports.com/cricket/news/12040/13486917/the-ashes-australias-pat-cummins-and-nathan-lyon-out-of-fourth-test-against-england-in-melbourne-from-boxing-day",
+      "summary": "Australia captain Pat Cummins has been rested for the fourth Ashes Test against England as his back issue is managed, while the injured Nathan Lyon has been replaced by fellow off-spinner Todd Murphy for the game in Melbourne.",
+      "publishedAt": "2025-12-23T00:06:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Humphries: Why 'superstar' Van Veen is major threat to me and Littler",
+      "link": "https://www.skysports.com/darts/news/12040/13486825/luke-humphries-explains-why-superstar-gian-van-veen-is-major-threat-to-himself-and-luke-littler-at-world-darts-championship",
+      "summary": "Luke Humphries picked out Gian van Veen as a major threat to himself and Luke Littler at this year's World Darts Championship.",
+      "publishedAt": "2025-12-22T23:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Who has made Troy's Premier League team of the week?",
+      "link": "https://www.bbc.com/sport/football/articles/crmdrkykyx2o?at_medium=RSS&at_campaign=rss",
+      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
+      "publishedAt": "2025-12-22T23:33:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Penalty king Jimenez equals record - who are the Premier League's best?",
+      "link": "https://www.bbc.com/sport/football/articles/cwyg4k0kl9wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fulham's Raul Jimenez scored his 11th Premier League penalty from 11 attempts, but who are the best spot-kick takers?",
+      "publishedAt": "2025-12-22T23:20:21.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -69,17 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fulham latest: Jimenez works and fights like he is 18, says Silva",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "summary": "",
-      "publishedAt": "2025-12-22T22:55:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -128,9 +161,9 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Raúl Jiménez dents Nottingham Forest’s revival to lift Fulham clear of danger",
+      "title": "Penalty king Jiménez dents Forest’s revival to lift Fulham clear of danger",
       "link": "https://www.theguardian.com/football/2025/dec/22/fulham-nottingham-forest-premier-league-match-report",
-      "summary": "Fulham are battling. Marco Silva’s options are limited and he does not have many ways to freshen up his side, but at least he can count on an experienced core and a group willing to scrap when they are at risk of being dragged towards the relegation zone. It is putting it kindly to say this game will not live long in the memory. It was scrappy, stop-start and overly physical. Both teams were disappointing in the final third and it probably would have finished goalless but for Douglas Luiz’s rush of blood to the head gifting Raul Jiménez to score the goal that lifted Fulham 10 points above the bottom three before their trip to West Ham on Saturday. Continue reading...",
+      "summary": "The one moment of true quality came when Raúl Jiménez stood 12 yards from goal and looked at John Victor. It was a battle of wits but there was only going to be one winner. Jiménez stuttered, moved towards the ball at a leisurely pace, waited for Nottingham Forest’s goalkeeper to move left and then set Fulham on the path to a vital victory by sending a clinical penalty into the opposite corner. This was Jiménez in his element. The Mexican is not the quickest striker around but the 34-year-old is still one of the game’s sharpest thinkers. Few, after all, can match Jiménez for accuracy from the spot. He is calmness personified in those situations and, remarkably, is now joint top with Yaya Touré when it comes to players with a 100% conversion rate from penalty kicks in the history of the Premier League. Continue reading...",
       "publishedAt": "2025-12-22T22:07:27.000Z"
     },
     {
@@ -154,17 +187,6 @@
       "link": "https://www.vi.nl/nieuws/de-beste-penaltynemer-van-de-premier-league-speelt-bij-fulham",
       "summary": "Fulham heeft maandagavond dankzij de specialiteit van Raúl Jiménez van Nottingham Forest gewonnen. De spits van de Londenaren bleef zoals altijd koel vanaf elf meter en mag zich de beste penaltynemer van de Premier League noemen.",
       "publishedAt": "2025-12-22T22:02:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Clinical' Humphries thrashes Lim to progress to third round",
-      "link": "https://www.skysports.com/darts/news/12040/13486711/world-darts-championship-luke-humphries-thrashes-paul-lim-in-second-round-as-gian-van-veen-nathan-aspinall-also-win",
-      "summary": "Luke Humphries thrashed Paul Lim 3-0 with a dominant display in the second round of the World Darts Championship on Monday night.",
-      "publishedAt": "2025-12-22T22:00:00.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c5y9d7xl8dvo?at_medium=RSS&at_campaign=rss",
       "summary": "Scans confirm Liverpool striker Alexander Isak's left leg was broken during the club's victory against Tottenham Hotspur on Saturday.",
       "publishedAt": "2025-12-22T21:02:33.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fifa tests new technology for ball out of play and offside",
-      "link": "https://www.bbc.com/sport/football/articles/cqxq7zejvnno?at_medium=RSS&at_campaign=rss",
-      "summary": "Fifa is testing new technology which can determine if the ball went out of play before a goal was scored.",
-      "publishedAt": "2025-12-22T20:21:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Milan’s Serie A match in Australia called off after ‘unacceptable requests’",
-      "link": "https://www.theguardian.com/football/2025/dec/22/milans-serie-a-match-in-australia-called-off-after-unacceptable-requests",
-      "summary": "Milan v Como was intended for Perth on 8 February Asian Football Confederation wanted to impose conditions The proposal to play a Serie A match between Milan and Como in Perth, Australia, has been cancelled due to football sanctions and conditions imposed by the Asian Football Confederation (AFC). The game was set to become the first major European domestic league fixture to be played outside its home country but will now not go ahead because of the financial risks and last-minute complications. Continue reading...",
-      "publishedAt": "2025-12-22T17:07:35.000Z"
     }
   ]
 }
