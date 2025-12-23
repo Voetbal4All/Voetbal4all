@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-23T06:39:01.548Z",
+  "generatedAt": "2025-12-23T07:27:08.946Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kees Smit: 'Die jongens gingen me ook Pedri noemen, Wouter Goes voorop'",
+      "link": "https://www.vi.nl/nieuws/kees-smit-die-jongens-gingen-me-ook-pedri-noemen-wouter-goes-voorop",
+      "summary": "Kees Smit deed bondscoach Ronald Koeman denken aan Barcelona-middenvelder Pedri en dat was voor zijn ploeggenoten uiteraard munitie voor plagerijtjes. 'Is toch mooi? Ik kan het wel hebben allemaal.'",
+      "publishedAt": "2025-12-23T07:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'A step ahead' - why Wharton holds key for Palace",
+      "link": "https://www.bbc.com/sport/football/articles/clyx6q9y8wpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Adam Wharton holds the key to Crystal Palace enjoying more success and becoming a consistent presence in European football.",
+      "publishedAt": "2025-12-23T07:03:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Er is een reden dat Salah honderd miljoen waard is'",
+      "link": "https://www.vi.nl/video/er-is-een-reden-dat-salah-honderd-miljoen-waard-is",
+      "summary": "Mohamed Salah kreeg maandagavond de complimenten van de Zimbabwaanse bondscoach Marian Marinica. Op de Afrika Cup schoot de Liverpool-aanvaller Egypte langs Zimbabwe na enkele bewogen weken in Engeland. Volgens Marinica is Salah niet voor niets veel geld waard. 'Hij is een exceptionele speler. Hij is altijd de grote ster en behoort tot de beste spelers ter wereld.'",
+      "publishedAt": "2025-12-23T06:52:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Who could succeed Guardiola at Man City?",
+      "link": "https://www.bbc.com/sport/football/articles/cx25jp0jd02o?at_medium=RSS&at_campaign=rss",
+      "summary": "At least two candidates have already been identified as potential replacements for Pep Guardiola, but who could take over from him at Manchester City?",
+      "publishedAt": "2025-12-23T06:35:28.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -51,7 +95,7 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Liverpool say 'no timetable' for Isak after surgery",
+      "title": "Liverpool confirm Alexander Isak suffered broken ankle, out indefinitely",
       "link": "https://www.espn.com/soccer/story/_/id/47392583/liverpool-alexander-isak-indefinitely-surgery",
       "summary": "Liverpool striker Alexander Isak will be sidelined indefinitely after undergoing surgery Monday on a broken ankle and fibula.",
       "publishedAt": "2025-12-23T04:20:37.000Z"
@@ -106,17 +150,6 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Who has made Troy's Premier League team of the week?",
-      "link": "https://www.bbc.com/sport/football/articles/crmdrkykyx2o?at_medium=RSS&at_campaign=rss",
-      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
-      "publishedAt": "2025-12-22T23:33:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Penalty king Jimenez equals record - who are the Premier League's best?",
       "link": "https://www.bbc.com/sport/football/articles/cwyg4k0kl9wo?at_medium=RSS&at_campaign=rss",
       "summary": "Fulham's Raul Jimenez scored his 11th Premier League penalty from 11 attempts, but who are the best spot-kick takers?",
@@ -131,18 +164,18 @@
       "title": "Extra spits voor Milan in aantocht: concurrent voor Gimenez is al geland",
       "link": "https://www.vi.nl/nieuws/milan-bereikt-akkoord-met-west-ham-over-concurrent-voor-gim-nez",
       "summary": "Santiago Gimenez lijkt er een concurrent bij te gaan krijgen in de komende transferwindow bij AC Milan. De Mexicaan kampt met blessures en voldoet niet aan de verwachtingen, waardoor er volgens meerdere bronnen al een akkoord zou zijn gesloten met zijn opvolger.",
-      "publishedAt": "2025-12-22T22:58:08.000Z"
+      "publishedAt": "2025-12-22T22:58:03.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Pavlidis wordt na Nederlandse dreun matchwinner voor Benfica",
-      "link": "https://www.vi.nl/nieuws/pavlidis-wordt-na-nederlandse-dreun-matchwinner-voor-benfica",
-      "summary": "Benfica heeft maandag met een minimale marge gewonnen van Famalicão. Vangelis Pavlidis maakte het enige doelpunt van de avond, door een strafschop binnen te schieten. De topscorer mocht aanleggen na een overtreding van Justin de Haas.",
-      "publishedAt": "2025-12-22T22:45:01.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man Utd eye Gallagher loan deal - Tuesday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/cx2e54gl8y9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United are seeking a loan deal for Conor Gallager, three Premier League clubs are vying for Antoine Semenyo, Aston Villa join the race for Brennan Johnson, plus more.",
+      "publishedAt": "2025-12-22T22:53:40.000Z"
     },
     {
       "type": "rss",
@@ -154,28 +187,6 @@
       "link": "https://www.skysports.com/nfl/news/12040/13486898/dk-metcalf-pittsburgh-steelers-wide-receiver-given-two-game-ban-and-will-miss-rest-of-regular-season-after-altercation-with-detroit-lions-fan",
       "summary": "Pittsburgh Steelers wide receiver DK Metcalf has been suspended for two games without pay by the NFL and will now miss the rest of the regular season after \"initiating a physical confrontation\" with a Detroit Lions fan during Sunday's victory at Ford Field.",
       "publishedAt": "2025-12-22T22:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Jong Ajax-aanvoerder Chourak: 'Hartverscheurend om Mark zo te zien'",
-      "link": "https://www.vi.nl/nieuws/jong-ajax-aanvoerder-chourak-hartverscheurend-om-mark-zo-te-zien",
-      "summary": "Het resultaat van de wedstrijd tussen Jong Ajax en RKC Waalwijk deed er maandagavond niet echt toe. Boven de wedstrijd hing een sluier van rouw, veroorzaakt door het overlijden van Elisa, de vriendin van Jong Ajax-speler Mark Verkuijl.",
-      "publishedAt": "2025-12-22T22:37:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Top and bottom at Christmas - what does it mean?",
-      "link": "https://www.bbc.com/sport/football/articles/c87lqlw9ej2o?at_medium=RSS&at_campaign=rss",
-      "summary": "As we approach the halfway point of the season, what do the ghosts of Christmas past tell us about the Premier League title race and relegation battle?",
-      "publishedAt": "2025-12-22T22:31:38.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c5y9d7xl8dvo?at_medium=RSS&at_campaign=rss",
       "summary": "Scans confirm Liverpool striker Alexander Isak's left leg was broken during the club's victory against Tottenham Hotspur on Saturday.",
       "publishedAt": "2025-12-22T21:02:33.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Milan’s Serie A match in Australia called off after ‘unacceptable requests’",
-      "link": "https://www.theguardian.com/football/2025/dec/22/milans-serie-a-match-in-australia-called-off-after-unacceptable-requests",
-      "summary": "Milan v Como was intended for Perth on 8 February Asian Football Confederation wanted to impose conditions The proposal to play a Serie A match between Milan and Como in Perth, Australia, has been cancelled due to football sanctions and conditions imposed by the Asian Football Confederation (AFC). The game was set to become the first major European domestic league fixture to be played outside its home country but will now not go ahead because of the financial risks and last-minute complications. Continue reading...",
-      "publishedAt": "2025-12-22T17:07:35.000Z"
     }
   ]
 }
