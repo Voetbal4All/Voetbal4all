@@ -1259,48 +1259,6 @@ footer { margin-top: auto; }
 }
 
 /* =======================
-   MOBIEL: logo gecentreerd + burger altijd rechts (robust)
-   Plaats onderaan style.css
-   ======================= */
-@media (max-width: 600px) {
-  .navbar-inner {
-    position: relative !important;
-    height: 58px; /* zoals je al had */
-  }
-
-  /* Logo exact in het midden */
-  .brand.brand--logo-only {
-    position: absolute !important;
-    left: 50% !important;
-    top: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    z-index: 3 !important;
-  }
-
-  /* Burger altijd rechts, onafhankelijk van flex */
-  .nav-burger {
-    position: absolute !important;
-    right: 12px !important;
-    left: auto !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-
-    z-index: 5 !important;
-
-    margin: 0 !important;
-    order: 0 !important; /* neutraliseert order hacks */
-  }
-}
-
-/* iPhone notch/safe-area extra marge rechts */
-@supports (padding: max(0px)) {
-  @media (max-width: 600px) {
-    .nav-burger {
-      right: max(12px, env(safe-area-inset-right)) !important;
-    }
-  }
-}
-/* =======================
    V4: CONTENT LINKS + STICKY SIDEBAR RECHTS
    (template voor veel pagina’s)
    ======================= */
@@ -1391,22 +1349,6 @@ footer { margin-top: auto; }
 .live-text {
   position: relative;
   z-index: 1;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18px;
-}
-
-.nav-cta--compact {
-  margin-left: 12px;
-  white-space: nowrap;
-}
-
-.nav-links {
-  margin: 0 auto;
 }
 
 /* =======================
@@ -1699,44 +1641,26 @@ img {
 }
 
 /* =======================
-   MOBIEL: ADVERTEERKNOP COMPACT & VEILIG
-   ======================= */
-@media (max-width: 600px) {
-
-  /* Alleen CTA-knoppen in navbar */
-  .navbar .nav-cta,
-  .navbar .btn-adverteer {
-    padding: 5px 9px;
-    font-size: 11px;
-    line-height: 1;
-    border-radius: 999px;
-
-    white-space: nowrap;
-    max-width: 32vw;          /* strakker dan 38vw */
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    box-shadow: none;         /* voorkomt visuele overlap */
-  }
-
-  /* CTA nooit boven burger of logo */
-  .navbar .nav-cta,
-  .navbar .btn-adverteer {
-    position: relative;
-    z-index: 2;
-  }
-}
-
-/* =======================
-   FIX: CTA + BURGER (mobile)
-   - burger altijd klikbaar
+   MOBILE HEADER FIX (ENIGE BRON)
+   - logo exact gecentreerd
    - CTA links van burger
+   - burger altijd klikbaar
    ======================= */
 @media (max-width: 600px) {
 
   .navbar-inner{
     position: relative !important;
     height: 58px;
+  }
+
+  /* Logo exact in het midden */
+  .brand.brand--logo-only{
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 10 !important;
+    pointer-events: auto !important;
   }
 
   /* Burger: altijd boven alles en klikbaar */
@@ -1749,11 +1673,11 @@ img {
     pointer-events: auto !important;
   }
 
-  /* CTA: zet hem expliciet links van de burger */
+  /* CTA: expliciet links van burger, zodat hij nooit eronder kan komen */
   .navbar .nav-cta,
   .navbar .btn-adverteer{
     position: absolute !important;
-    right: calc(max(12px, env(safe-area-inset-right)) + 44px) !important; /* 44px reserve voor burger */
+    right: calc(max(12px, env(safe-area-inset-right)) + 52px) !important; /* reserve voor burger + ruimte */
     top: 50% !important;
     transform: translateY(-50%) !important;
     z-index: 900 !important;
@@ -1765,9 +1689,10 @@ img {
     max-width: 30vw !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
+    box-shadow: none !important;
   }
 
-  /* Belangrijk: als nav-links open staat, mag die de burger nooit blokkeren */
+  /* Open nav-panel mag nooit boven burger komen */
   .nav-links{
     z-index: 500 !important;
   }
