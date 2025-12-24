@@ -372,8 +372,8 @@
 
     function applyFilters(){
       const q = norm(articleSearchText.value);
-      const c = articleFilterCountry.value;
-      const cat = articleFilterCategory.value;
+      const c = "";   // backend levert (nog) geen country
+      const cat = ""; // backend levert (nog) geen category
 
       const filtered = allItems.filter(a => {
         const text = norm((a.title||"") + " " + (a.source||a.publisher||"") + " " + (a.category||"") + " " + (a.country||""));
