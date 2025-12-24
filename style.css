@@ -1743,3 +1743,36 @@ img {
     transparent 100%
   );
 }
+
+/* =======================
+   MOBIEL: ADVERTEERKNOP COMPACT
+   ======================= */
+@media (max-width: 600px) {
+  .navbar .btn-adverteer,
+  .navbar .ad-btn,
+  .navbar a[href*="adverteer"],
+  .navbar a[href*="adverteren"] {
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 999px;
+    white-space: nowrap;
+    max-width: 38vw;          /* voorkomt dat hij te breed wordt */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Als je de knop rechts in de header hebt staan: */
+  .navbar .btn-adverteer { margin-left: 8px; }
+}
+
+/* =======================
+   NAV: MENU DICHT (standaard) - OPEN via .is-open
+   ======================= */
+.nav-links {
+  display: none;
+}
+
+.nav-links.is-open {
+  display: block;
+}
