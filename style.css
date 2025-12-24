@@ -1699,23 +1699,30 @@ img {
 }
 
 /* =======================
-   MOBIEL: ADVERTEERKNOP COMPACT
+   MOBIEL: ADVERTEERKNOP COMPACT & VEILIG
    ======================= */
 @media (max-width: 600px) {
-  .navbar .btn-adverteer,
-  .navbar .ad-btn,
-  .navbar a[href*="adverteer"],
-  .navbar a[href*="adverteren"] {
-    padding: 6px 10px;
-    font-size: 12px;
+
+  /* Alleen CTA-knoppen in navbar */
+  .navbar .nav-cta,
+  .navbar .btn-adverteer {
+    padding: 5px 9px;
+    font-size: 11px;
     line-height: 1;
     border-radius: 999px;
+
     white-space: nowrap;
-    max-width: 38vw;          /* voorkomt dat hij te breed wordt */
+    max-width: 32vw;          /* strakker dan 38vw */
     overflow: hidden;
     text-overflow: ellipsis;
+
+    box-shadow: none;         /* voorkomt visuele overlap */
   }
 
-  /* Als je de knop rechts in de header hebt staan: */
-  .navbar .btn-adverteer { margin-left: 8px; }
+  /* CTA nooit boven burger of logo */
+  .navbar .nav-cta,
+  .navbar .btn-adverteer {
+    position: relative;
+    z-index: 2;
+  }
 }
