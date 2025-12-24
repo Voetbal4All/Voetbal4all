@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-24T21:21:53.491Z",
+  "generatedAt": "2025-12-24T22:23:36.742Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Belgische bond ving bot bij De Grand: 'Het was Oranje of niets'",
+      "link": "https://www.vi.nl/nieuws/belgische-bond-ving-bot-bij-de-grand-het-was-oranje-of-niets",
+      "summary": "Sam de Grand (21) werd geboren in Den Bosch, maar verhuisde vier weken later al naar België, waar hij nu dus al bijna zijn hele leven woont en voetbalt. Toch wees hij verschillende toenaderingen van de KBVB om voor België te gaan spelen steeds af. 'Het was Oranje of niets', vertelt de Jong Oranje-international in het VI Kerstnummer.",
+      "publishedAt": "2025-12-24T22:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kameroen wint burenruzie zonder te overtuigen",
+      "link": "https://www.vi.nl/nieuws/kameroen-wint-burenruzie-zonder-te-overtuigen",
+      "summary": "Voor Kameroen is het eerste duel op de Afrika Cup succesvol verlopen.",
+      "publishedAt": "2025-12-24T21:57:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Algeria beat 10-man Sudan and Côte d’Ivoire start defence with win",
+      "link": "https://www.theguardian.com/football/2025/dec/24/afcon-roundup-burkina-faso-equatorial-guinea-algeria-sudan",
+      "summary": "Algeria win 3-0 after Salah Adel is sent off Burkina Faso 2-1 E Guinea | Côte d’Ivoire 1-0 Mozambique Riyad Mahrez scored twice as Algeria launched their Africa Cup of Nations campaign with a comfortable 3-0 Group E win over 10-man Sudan in Rabat. The Desert Warriors were ahead within two minutes when the former Leicester and Manchester City winger ran on to Hicham Boudaoui’s clever backheel and fired past the Sudan keeper Monged Abuzaid. Continue reading...",
+      "publishedAt": "2025-12-24T21:40:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Afrika Cup Quiz: raad de spelers van Nederlandse clubs",
+      "link": "https://www.vi.nl/nieuws/afrika-cup-quiz-raad-de-spelers-van-nederlandse-clubs",
+      "summary": "De Afrika Cup gaat deze week weer van start. Daarom testen we jullie geheugen met deze hersenkraker van een quiz. Welke spelers van Nederlandse clubs zaten deze eeuw in de selectie van een Afrika Cup-deelnemer?",
+      "publishedAt": "2025-12-24T21:22:30.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -69,39 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Met deze voetbalpotjes kun je je vermaken tijdens kerst",
-      "link": "https://www.vi.nl/nieuws/met-deze-voetbalpotjes-kun-je-je-vermaken-tijdens-kerst",
-      "summary": "Sommigen vinden het the most wonderful time of the year , anderen hebben er niets mee. Voor hen goed nieuws: ook tijdens kerst wordt er gevoetbald. Voetbal International neemt je mee door het programma tijdens de feestdagen.",
-      "publishedAt": "2025-12-24T19:50:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ivoorkust start Afrika Cup met moeizame zege",
-      "link": "https://www.vi.nl/nieuws/ivoorkust-start-afrika-cup-met-moeizame-zege",
-      "summary": "Ivoorkust",
-      "publishedAt": "2025-12-24T19:24:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Gaal emotioneel om recordopbrengst Serious Request",
-      "link": "https://www.vi.nl/nieuws/van-gaal-emotioneel-om-recordopbrengst-serious-request",
-      "summary": "Serious Request heeft dit jaar ruim 18,4 miljoen euro opgehaald voor Spieren voor Spieren, een recordopbrengst. Dat werd woensdagavond bekendgemaakt in Den Bosch. Op het podium stonden ook Louis van Gaal en zijn vrouw Truus.",
-      "publishedAt": "2025-12-24T19:14:57.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -110,17 +121,6 @@
       "link": "https://www.skysports.com/football/chelsea-vs-aston-villa/live/531302",
       "summary": "",
       "publishedAt": "2025-12-24T17:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon roundup: Mahrez double gives Algeria victory over 10-man Sudan",
-      "link": "https://www.theguardian.com/football/2025/dec/24/afcon-roundup-burkina-faso-equatorial-guinea-algeria-sudan",
-      "summary": "Algeria win 3-0 after Salah Adel sent off Tapsoba seals dramatic turnaround for Burkina Faso Riyad Mahrez scored twice as Algeria launched their Africa Cup of Nations campaign with a comfortable 3-0 Group E win over 10-man Sudan in Rabat. The Desert Warriors were ahead within two minutes when the former Leicester and Manchester City winger ran on to Hicham Boudaoui’s clever backheel and fired past the Sudan keeper Monged Abuzaid. Continue reading...",
-      "publishedAt": "2025-12-24T17:04:18.000Z"
     },
     {
       "type": "rss",
