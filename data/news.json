@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2025-12-24T15:25:37.195Z",
+  "generatedAt": "2025-12-24T16:30:20.790Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ex-poker player Bord is preferred Sheff Wed bidder",
+      "link": "https://www.bbc.com/sport/football/articles/cpd6020z01po?at_medium=RSS&at_campaign=rss",
+      "summary": "Former professional poker player James Bord is chosen as the preferred bidder for Sheffield Wednesday, BBC Sport can confirm.",
+      "publishedAt": "2025-12-24T16:16:44.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sunderland vs Leeds live on Sky: Longstaff and James out, Nmecha could return",
+      "link": "https://www.skysports.com/football/sunderland-vs-leeds-united/live/531307",
+      "summary": "",
+      "publishedAt": "2025-12-24T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wednesday takeover administrators grant 'preferred bidder' status to consortium",
+      "link": "https://www.skysports.com/football/news/12040/13487275/sheffield-wednesday-takeover-latest-administrators-grant-preferred-bidder-status-to-consortium",
+      "summary": "The administrators of Sheffield Wednesday have announced they intend to grant preferred bidder status to a consortium ahead of a takeover of the club.",
+      "publishedAt": "2025-12-24T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Het jaar van Telstar en Correia: dit is de man achter de stuntclub",
+      "link": "https://www.vi.nl/pro/het-jaar-van-telstar-en-correia-dit-is-de-man-achter-de-stuntclub",
+      "summary": "Met de promotie naar de Eredivisie en een winstpartij bij PSV zorgde Anthony Correia (43) voor de twee grootste voetbalstunts van het jaar. En dat deed de trainer van Telstar op geheel eigen wijze. ‘Volharding is onze grote kracht.’",
+      "publishedAt": "2025-12-24T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Franse amateurs krijgen gigantische donatie van noodlijdend Olympique Lyon",
+      "link": "https://www.vi.nl/nieuws/franse-amateurs-krijgen-gigantische-donatie-van-noodlijdend-olympique-lyon",
+      "summary": "In het Franse dorp Saint-Cyr-au-Mont-d'Or worden het buitengewoon vrolijke kerstdagen. De plaatselijke voetbalclub heeft een gigantische donatie gekregen van Olympique Lyon, naar aanleiding van de recente onderlinge bekerwedstrijd tussen beide ploegen.",
+      "publishedAt": "2025-12-24T15:55:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man Utd latest: Club have to be certain of players to sign, says Amorim",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "summary": "",
+      "publishedAt": "2025-12-24T15:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Joey Veerman gooit transferdeur dicht en blijft bij PSV",
+      "link": "https://www.vi.nl/nieuws/joey-veerman-gooit-transferdeur-dicht-en-blijft-bij-psv",
+      "summary": "in",
+      "publishedAt": "2025-12-24T15:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +87,29 @@
       "title": "FC Groningen verlengt contract van zelfopgeleide aanvaller",
       "link": "https://www.vi.nl/nieuws/fc-groningen-verlengt-contract-van-zelfopgeleide-aanvaller",
       "summary": "Thom van Bergen blijft langer bij FC Groningen. De zelfopegeleide aanvaller uit Haren heeft getekend onder een contract dat hem tot medio 2028 verbindt aan de Trots van het Noorden , zo is woensdag wereldkundig geworden.",
-      "publishedAt": "2025-12-24T15:13:00.000Z"
+      "publishedAt": "2025-12-24T15:29:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Tapsoba seals dramatic injury-time comeback for Burkina Faso",
+      "link": "https://www.theguardian.com/football/2025/dec/24/afcon-roundup-burkina-faso-equatorial-guinea-algeria-sudan",
+      "summary": "Burkina Faso win 2-1 against 10-man Equatorial Guinea Two goals in three minutes of added time cap turnaround Edmond Tapsoba headed Burkina Faso to a dramatic 2-1 Africa Cup of Nations victory over 10-man Equatorial Guinea as they struck twice in stoppage time to snatch the points. The Stallions dominated the first half of the opening Group E encounter at the Stade Mohammed V in Casablanca, with Sunderland’s Bertrand Traoré and Brentford’s Dango Ouattara causing problems down the flanks, but ultimately had nothing to show for their efforts at the break. This story will be updated later on Continue reading...",
+      "publishedAt": "2025-12-24T15:26:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim challenges Manchester United to ‘step up’ after Bruno Fernandes injury",
+      "link": "https://www.theguardian.com/football/2025/dec/24/bruno-amorim-manchester-united-fernandes-injury-newcastle-premier-league",
+      "summary": "‘It’s impossible to replace Bruno … we need more leaders’ United host Newcastle in Premier League on Boxing Day Ruben Amorim has described Bruno Fernandes as “impossible to replace” but has told Manchester United’s players the captain’s injury is a chance for them to step up. Fernandes was forced off at half-time of Sunday’s loss at Aston Villa owing to a soft-tissue injury that will rule him out for a prolonged period. United host Newcastle in Boxing Day’s only Premier League fixture and Amorim was asked how he could compensate for Fernandes’s absence when the 31-year-old’s deputy, Kobbie Mainoo, is also injured. Continue reading...",
+      "publishedAt": "2025-12-24T15:14:19.000Z"
     },
     {
       "type": "rss",
@@ -20,7 +119,7 @@
       "flag": "🌍",
       "title": "Are we heading for a Littler vs Humphries showdown at Ally Pally?",
       "link": "https://www.skysports.com/darts/news/12040/13487229/world-darts-championship-are-we-heading-for-a-luke-littler-vs-luke-humphries-final-and-why-are-so-many-seeds-tumbling-out-at-ally-pally",
-      "summary": "Are we heading for a Luke Littler vs Luke Humphries dream final at the World Darts Championship and why are so many seeds tumbling out at Ally Pally?",
+      "summary": "Are we heading for a Luke Littler vs Luke Humphries final at the World Darts Championship and why are so many seeds tumbling out at Ally Pally?",
       "publishedAt": "2025-12-24T15:05:00.000Z"
     },
     {
@@ -44,17 +143,6 @@
       "link": "https://www.vi.nl/nieuws/bruno-fernandes-tijdelijk-uitgeschakeld-hoop-voor-de-ligt",
       "summary": "Bruno Fernandes kan voorlopig niet in actie komen voor Manchester United. De 31-jarige Portugees raakte zondag geblesseerd aan zijn hamstring in het verloren duel met Aston Villa. Voor Matthijs de Ligt is er meer hoop.",
       "publishedAt": "2025-12-24T14:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Burkina Faso 2-1 Equatorial Guinea: Africa Cup of Nations – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/24/burkina-faso-v-equatorial-guinea-africa-cup-of-nations-live",
-      "summary": "Two goals in injury-time secured the points for Burkina Faso against 10-man Equatorial Guinea It looks a touch damp in Casablanca but is brightening up slightly. Rain has really been an issue in the opening few games. The crowd, like in Mali v Zambia, is very sparse. Will Mohamed Salah still be a Liverpool player by the time Afcon concludes? John Duerden looks at the prospect of the Egyptian forward moving to Saudi. Continue reading...",
-      "publishedAt": "2025-12-24T14:36:17.000Z"
     },
     {
       "type": "rss",
@@ -102,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Houdini-act van Burkina Faso met twee extreem late treffers in Casablanca",
-      "link": "https://www.vi.nl/nieuws/houdini-act-van-burkina-faso-met-twee-extreem-late-treffers-in-casablanca",
-      "summary": "Intro",
-      "publishedAt": "2025-12-24T14:33:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -121,50 +198,6 @@
       "link": "https://www.skysports.com/football/news/12040/13487264/bruno-fernandes-man-utd-boss-ruben-amorim-says-it-is-impossible-to-replace-captain-amid-injury-absence",
       "summary": "Manchester United head coach Ruben Amorim says it is \"impossible\" to replace Bruno Fernandes as the captain faces a spell on the sidelines with a muscle injury.",
       "publishedAt": "2025-12-24T14:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Knock-outfase Youth League: op deze datums spelen AZ, Ajax en PSV",
-      "link": "https://www.vi.nl/nieuws/knock-outfase-youth-league-op-deze-datums-spelen-az-ajax-en-psv",
-      "summary": "Waar de competitiefase van de Champions League nog in volle gang is, is de Youth League al aanbeland bij de knock-outfase. In de 'mini-Champions League' zijn de jeugdteams van AZ, Ajax en PSV nog actief. Dit is hun programma voor de zestiende finale.",
-      "publishedAt": "2025-12-24T13:55:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd latest: We can win games despite injuries, says Amorim",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "summary": "",
-      "publishedAt": "2025-12-24T13:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Zidane steunde zoon in keuze voor Algerije: WK-treffen met Frankrijk reëel",
-      "link": "https://www.vi.nl/nieuws/zidane-steunde-zoon-in-keuze-voor-algerije-wk-treffen-met-frankrijk-re-el",
-      "summary": "Een poosje geleden koos Luca Zidane ervoor om niet voor Frankrijk, maar voor Algerije uit te komen. Bij het maken van die keuze kreeg de doelman volledige steun van Zinedine Zidane, de legendarische Franse voetballer die als opvolger van Didier Deschamps wordt gezien.",
-      "publishedAt": "2025-12-24T13:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Ferrari are the obvious target' | Could Bearman be a future Hamilton replacement?",
-      "link": "https://www.skysports.com/watch/video/13487256/could-oliver-bearman-be-a-future-lewis-hamilton-replacement-ferrari-are-the-obvious-target",
-      "summary": "Oliver Bearman discusses his ambition to one day be in a Ferrari seat, but admits he's 'just getting started' with Haas.",
-      "publishedAt": "2025-12-24T12:56:00.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/24/enticing-salah-would-be-a-coup-for-saudi-league-searching-for-an-identity",
       "summary": "Egypt forward could change face of a league so far mostly reliant on ageing stars and alter perception of football in the Arab world Mohamed Salah has made an impact in Morocco with an injury-time winner to spare Egypt’s blushes in their Africa Cup of Nations opener against Zimbabwe but his future intervention in Saudi Arabia could be more meaningful. A Saudi Pro League (SPL) that had been moving away from signing big-name veterans is tempted by a player who will be 34 just as this season ends. Although players such as Cristiano Ronaldo and Karim Benzema have been successes on and off the pitch, albeit incredibly expensive ones, the powers that be don’t want the SPL to be regarded as a retirement league in the sun for stars whose powers are waning. But Salah is different, the attraction intensified by the fact that he is the biggest-name player in the Arab world. Continue reading...",
       "publishedAt": "2025-12-24T12:00:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Martha Stewart becomes latest celebrity to invest in Swansea City FC",
-      "link": "https://www.theguardian.com/football/2025/dec/24/martha-stewart-becomes-latest-celebrity-to-invest-in-swansea-city-fc",
-      "summary": "US lifestyle entrepreneur joins Snoop Dogg and Luka Modric by making minority investment in the Welsh club The American lifestyle personality Martha Stewart has become the latest celebrity to become a co-owner of Swansea City football club. Stewart will join the rapper Snoop Dogg and the footballer Luka Modric as a minority owner of the Welsh club, which plays in the second tier of England’s football pyramid. The announcement was made in a post on the club’s website by two of its owners, Brett Cravatt and Jason Cohen. The post did not disclose the size of the investment. Continue reading...",
-      "publishedAt": "2025-12-24T11:36:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal conceding late goals is not a defence issue - it's an attack one",
-      "link": "https://www.skysports.com/football/news/12040/13487234/arsenal-conceding-late-goals-is-not-a-defensive-problem-for-mikel-arteta-its-an-attacking-one",
-      "summary": "Another fright before Christmas. Arsenal never seem to do it the easy way.",
-      "publishedAt": "2025-12-24T10:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "The 50 best women's soccer players in the world for 2025, ranked!",
-      "link": "https://www.espn.com/soccer/story/_/id/47101532/best-50-women-soccer-players-ranked-world-2025-espn-fc",
-      "summary": "Here are the 50 best women's soccer players in the world for 2025, as ranked by an expert panel of coaches, GMs and journalists.",
-      "publishedAt": "2025-12-24T10:02:26.000Z"
     }
   ]
 }
