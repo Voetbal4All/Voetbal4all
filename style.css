@@ -1765,14 +1765,3 @@ img {
   /* Als je de knop rechts in de header hebt staan: */
   .navbar .btn-adverteer { margin-left: 8px; }
 }
-
-/* =======================
-   NAV: MENU DICHT (standaard) - OPEN via .is-open
-   ======================= */
-.nav-links {
-  display: none;
-}
-
-.nav-links.is-open {
-  display: block;
-}
