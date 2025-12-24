@@ -1259,52 +1259,6 @@ footer { margin-top: auto; }
 }
 
 /* =======================
-   MOBIEL: LOGO CENTREREN + BURGER RECHTS
-   ======================= */
-
-@media (max-width: 600px) {
-  .navbar-inner {
-    position: relative;
-    justify-content: flex-end; /* burger als anker rechts */
-  }
-
-  /* Logo exact gecentreerd */
-  .brand.brand--logo-only {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 3;
-  }
-
-  /* Burger altijd rechts, boven ads */
-  .nav-burger {
-    margin-left: auto;
-    position: relative;
-    z-index: 4;
-  }
-}
-
-/* =======================
-   MOBIEL PORTRAIT: burger ALTIJD rechts
-   (override onderaan plaatsen)
-   ======================= */
-@media (max-width: 600px) and (orientation: portrait) {
-  .navbar-inner {
-    justify-content: flex-end !important;
-  }
-
-  .nav-burger {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-    order: 99 !important;         /* wint van eventuele order:-1 elders */
-    left: auto !important;
-    right: auto !important;
-    position: relative !important;
-    z-index: 5 !important;
-  }
-}
-
-/* =======================
    MOBIEL: logo gecentreerd + burger altijd rechts (robust)
    Plaats onderaan style.css
    ======================= */
