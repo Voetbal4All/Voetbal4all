@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2025-12-24T06:39:02.939Z",
+  "generatedAt": "2025-12-24T07:27:02.366Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Waarom drie keer scheepsrecht zelden zó van toepassing is geweest op Kepa",
+      "link": "https://www.vi.nl/nieuws/waarom-drie-keer-scheepsrecht-zelden-z-van-toepassing-is-geweest-op-arrizabalaga",
+      "summary": "Kepa Arrizabalaga was dinsdagavond dé man bij Arsenal in de kwartfinale van de League Cup tegen Crystal Palace. De Spanjaard pakte de beslissende strafschop in wat toch wel een beetje zijn toernooi aan het worden is.",
+      "publishedAt": "2025-12-24T07:16:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sutton's predictions v The Wellermen's Jonny Stewart",
+      "link": "https://www.bbc.com/sport/football/articles/cyvg0my1zvyo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport football expert Chris Sutton takes on The Wellermen's Jonny Stewart - and AI - with his predictions for this weekend's Premier League fixtures.",
+      "publishedAt": "2025-12-24T07:14:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van de Ven maakte excuses aan Isak",
+      "link": "https://www.vi.nl/nieuws/van-de-ven-maakte-excuses-aan-isak",
+      "summary": "Micky van de Ven heeft zijn excuses aangeboden aan Alexander Isak. Door toedoen van de Nederlander brak Isak zijn kuitbeen . De Liverpool-spits waardeerde het berichtje van Van de Ven.",
+      "publishedAt": "2025-12-24T07:13:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Archer ruled out of Ashes while Bethell replaces Pope for Boxing Day Test",
+      "link": "https://www.skysports.com/cricket/news/12040/13487200/the-ashes-england-bowler-jofra-archer-ruled-out-of-rest-of-series-by-injury-as-gus-atkinson-and-jacob-bethell-start-boxing-day-test",
+      "summary": "England's Ashes tour lurched to a fresh low as their player of the series, Jofra Archer, was ruled out of the remaining two Tests through injury.",
+      "publishedAt": "2025-12-24T07:03:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kelly: Finding happiness after darkest of times",
+      "link": "https://www.skysports.com/football/news/12040/13487067/chloe-kelly-arsenal-and-england-lioness-on-finding-happiness-after-darkest-of-times",
+      "summary": "From a dramatic Transfer Deadline Day in January to success with England and Arsenal, 2025 has been a year of contrasts for Chloe Kelly, writes Anton Toloui...",
+      "publishedAt": "2025-12-24T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "McIlroy on Ryder Cup heroics: Lowry was more than my bodyguard!",
+      "link": "https://www.skysports.com/golf/news/12040/13481763/ryder-cup-2025-rory-mcilroy-on-why-shane-lowry-was-more-than-a-bodyguard-during-historic-win-for-team-europe-at-bethpage-black",
+      "summary": "Team Europe’s historic Ryder Cup success at Bethpage Black is, for many, remembered for the behaviour by those off the course rather than the performances by those on it.",
+      "publishedAt": "2025-12-24T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Muur' Benítez maakt indruk tegen Arsenal: 'Briljant, sensationeel, excellent'",
+      "link": "https://www.vi.nl/nieuws/muur-ben-tez-maakt-indruk-tegen-arsenal-briljant-sensationeel-excellent",
+      "summary": "Crystal Palace verloor dinsdagavond dan wel in de kwartfinale van de League Cup van Arsenal, maar de man van de wedstrijd liep volgens Engelse media toch echt aan hun kant. The Gunners stuitte vrijwel de hele wedstrijd op 'een muur', met de naam Walter Benítez.",
+      "publishedAt": "2025-12-24T06:52:14.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -91,17 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Van Gerwen: Time for Wright to retire",
-      "link": "https://www.skysports.com/darts/news/12040/13487116/michael-van-gerwen-says-peter-wright-should-retire-from-darts-after-second-round-defeat-at-world-darts-championship",
-      "summary": "Michael van Gerwen says Peter Wright should retire from darts and was \"not surprised\" the two-time world champion was knocked out in the second round of the World Championship.",
-      "publishedAt": "2025-12-23T23:45:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -146,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "WK als potentiële halte in bijzondere reis Locadia: 'Zag ik zelf ook niet meer aankomen'",
-      "link": "https://www.vi.nl/nieuws/wk-met-curacao-als-potenti-le-halte-in-bijzondere-reis-locadia",
-      "summary": "Met Curaçao plaatste Jürgen Locadia zich in november voor het WK, de aanvaller werd uit het niets bij de selectie van bondscoach Dick Advocaat gehaald. In het Kerstnummer van VI vertelt Locadia over de bijzondere gang van zaken.",
-      "publishedAt": "2025-12-23T22:35:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -165,61 +220,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13487098/world-darts-championship-michael-van-gerwen-gary-anderson-reach-third-round-after-danny-noppert-loses-sudden-death-epic-at-alexandra-palace",
       "summary": "Former champions Michael van Gerwen and Gary Anderson booked their third-round spots at the World Darts Championship, as sixth seed Danny Noppert crashed out in a final-leg epic at the Alexandra Palace.",
       "publishedAt": "2025-12-23T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Benítez ondanks eerherstel tegen Arsenal klaar in bekertoernooi met Palace",
-      "link": "https://www.vi.nl/nieuws/benitez-ondanks-eerherstel-tegen-arsenal-klaar-in-bekertoernooi-met-palace",
-      "summary": "Arsenal is dinsdagavond doorgedrongen tot de halve finale van de League Cup. Dit gebeurde ten koste van Crystal Palace, dat mede door een uitblinkende Walter Benítez zijn huid duur verkocht in eigen huis. Het duel werd pas na zestien strafschoppen beslist.",
-      "publishedAt": "2025-12-23T22:20:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal edge Palace on penalties to reach Carabao Cup semi-finals",
-      "link": "https://www.skysports.com/football/arsenal-vs-crystal-palace/report/549755",
-      "summary": "Maxence Lacroix was the villain for Crystal Palace as he scored an own-goal, then missed the crucial penalty to earn Arsenal a Carabao Cup semi-final spot after a dramatic tie that went to spot kicks.",
-      "publishedAt": "2025-12-23T22:18:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester City favourites to sign Antoine Semenyo after Chelsea withdraw interest",
-      "link": "https://www.theguardian.com/football/2025/dec/23/chelsea-enter-hunt-for-65m-antoine-semenyo-with-inquiry-about-his-terms",
-      "summary": "Manchester City in advanced talks over £65m winger Bournemouth winger has release clause in January Manchester City are in pole position to sign Antoine Semenyo after Chelsea cooled their interest in the Bournemouth winger. Liverpool and Manchester United have also been pushing for Semenyo, whose contract contains a £65m release clause that becomes active for the first two weeks of January, but it is believed that the 25-year-old’s preference is to join City. The clause is made up of a £60m fixed fee and £5m in add-ons. Nothing has been agreed yet. Continue reading...",
-      "publishedAt": "2025-12-23T21:51:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Büttner trots op Manchester United-periode. 'Een droom'",
-      "link": "https://www.vi.nl/nieuws/buttner-trots-op-manchester-united-periode-een-droom",
-      "summary": "Alexander Büttner is een jongen van de club Vitesse, maar dat betekent niet dat zijn andere avonturen geen waarde hebben. Met name bij Manchester United heeft de inmiddels 36-jarige verdediger genoten. Hij vertelt erover in het VI Kerstnummer.",
-      "publishedAt": "2025-12-23T21:33:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hood aiming for nine-darter against Littler in final",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2025-12-23T18:38:00.000Z"
     }
   ]
 }
