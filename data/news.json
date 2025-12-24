@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-24T05:28:02.233Z",
+  "generatedAt": "2025-12-24T06:39:02.939Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Why I was always driving home for Christmas'",
+      "link": "https://www.bbc.com/sport/football/articles/cwyw0q74rn9o?at_medium=RSS&at_campaign=rss",
+      "summary": "In his BBC Sport column, ex-Premier League boss Tony Pulis reflects on what the festive period was like as a player and manager.",
+      "publishedAt": "2025-12-24T06:27:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Transfer window preview: What do Europe's big clubs need?",
+      "link": "https://www.espn.com/soccer/story/_/id/47334380/transfer-window-preview-do-europes-big-clubs-need",
+      "summary": "The transfer window is set to open across Europe in January, so what are the top clubs planning? Who comes in? Who will go?",
+      "publishedAt": "2025-12-24T06:23:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "WSL transfer preview: Man United, Arsenal need depth; Liverpool need anyone",
+      "link": "https://www.espn.com/soccer/story/_/id/47387768/wsl-transfer-preview-man-united-arsenal-need-depth-liverpool-need-anyone",
+      "summary": "What will the Women's Super League window bring?",
+      "publishedAt": "2025-12-24T06:23:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "The funniest moments in Rugby League on Sky Sports in 2025!",
+      "link": "https://www.skysports.com/watch/video/13482677/super-league-the-funniest-moments-in-rugby-league-on-sky-sports-in-2025",
+      "summary": "Sit back and enjoy the funniest moments from this year's Rugby League coverage on Sky Sports.",
+      "publishedAt": "2025-12-24T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Arnold Bruggink over stress in het voetbal: 'Het is goed als dat wordt benoemd'",
+      "link": "https://www.vi.nl/pro/arnold-bruggink-over-zijn-bewogen-jaar-dit-is-wie-ik-ben",
+      "summary": "Arnold Bruggink (48) nam dit jaar een rigoureus besluit. Hij koos voor zijn gezondheid en stopte als technisch directeur van FC Twente. Bruggink blikt terug op een ingrijpende periode, ­waarin hij ook afscheid moest nemen van zijn moeder. ‘Ik ben in een bekende valkuil gestapt.’",
+      "publishedAt": "2025-12-24T06:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -33,28 +88,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47401228/usmnt-chris-richards-stretchered-carabao-cup",
       "summary": "Crystal Palace and United States defender Chris Richards was taken from the field on a stretcher during his team's Carabao Cup game against Arsenal on Tuesday.",
       "publishedAt": "2025-12-24T01:18:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Transfer window preview: What do Europe's big clubs need?",
-      "link": "https://www.espn.com/soccer/story/_/id/47334380/transfer-window-preview-do-europes-big-clubs-need",
-      "summary": "The transfer window is set to open across Europe in January, so what are the top clubs planning? Who comes in? Who will go?",
-      "publishedAt": "2025-12-24T01:02:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "WSL transfer preview: Man United, Arsenal need depth; Liverpool need anyone",
-      "link": "https://www.espn.com/soccer/story/_/id/47387768/wsl-transfer-preview-man-united-arsenal-need-depth-liverpool-need-anyone",
-      "summary": "What will the Women's Super League window bring?",
-      "publishedAt": "2025-12-24T01:02:43.000Z"
     },
     {
       "type": "rss",
@@ -176,39 +209,6 @@
       "link": "https://www.vi.nl/nieuws/buttner-trots-op-manchester-united-periode-een-droom",
       "summary": "Alexander Büttner is een jongen van de club Vitesse, maar dat betekent niet dat zijn andere avonturen geen waarde hebben. Met name bij Manchester United heeft de inmiddels 36-jarige verdediger genoten. Hij vertelt erover in het VI Kerstnummer.",
       "publishedAt": "2025-12-23T21:33:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Incredible DOUBLE save as Benitez keeps out Jesus and Madueke!",
-      "link": "https://www.skysports.com/watch/video/13487146/walter-benitez-keeps-the-scores-level-as-he-pulls-off-a-great-save-from-point-blank-to-keep-out-gabriel-jesus-header",
-      "summary": "Walter Benitez pulls off an incredible point-blank save to stop Gabriel Jesus' header and denies Noni Madueke on the rebound in Arsenal's Carabao Cup clash with Crystal Palace.",
-      "publishedAt": "2025-12-23T20:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Baas zoekt de leider in zichzelf en wijst twee voorbeelden aan",
-      "link": "https://www.vi.nl/nieuws/baas-zoekt-de-leider-in-zichzelf-en-wijst-twee-voorbeelden-aan",
-      "summary": "Youri Baas vindt dat hij stappen heeft gezet in het ontwikkelen van zijn leiderschap, maar ziet ook nog genoeg ruimte voor verbetering. De 22-jarige Ajacied blikt in een uitgebreid interview terug op zijn ‘bizarre’ 2025.",
-      "publishedAt": "2025-12-23T20:42:26.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Stewart joins Snoop Dogg and Modric as Swans co-owner",
-      "link": "https://www.bbc.com/sport/football/articles/c0kdmkkz3jno?at_medium=RSS&at_campaign=rss",
-      "summary": "The 84-year-old American businesswoman has become the latest celebrity owner of Swansea City.",
-      "publishedAt": "2025-12-23T20:14:04.000Z"
     },
     {
       "type": "rss",
