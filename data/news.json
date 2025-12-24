@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2025-12-24T19:18:42.610Z",
+  "generatedAt": "2025-12-24T20:27:06.661Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Fenerbahçe bevestigt arrestatie van voorzitter in drugszaak",
+      "link": "https://www.vi.nl/nieuws/fenerbah-e-bevestigt-arrestatie-van-voorzitter-in-drugszaak",
+      "summary": "Sadettin Saran, de voorzitter van Fenerbahçe, is woensdagavond gearresteerd. Dat bevestigt de topclub uit Istanbul op de clubwebsite. Zelf geven ze verder geen informatie, maar lokale politie bevestigt in de Turkse pers dat het om een drugszaak gaat.",
+      "publishedAt": "2025-12-24T20:20:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Richards on U.S., Palace return: 'Won't be long'",
+      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
+      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
+      "publishedAt": "2025-12-24T19:57:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Zidane in stands for son Luca's Algeria clean sheet",
+      "link": "https://www.espn.com/soccer/story/_/id/47407784/zidane-sees-son-luca-keep-clean-sheet-algeria-win",
+      "summary": "France great Zinedine Zidane watched his goalkeeper son's safe hands as Algeria started its Africa Cup of Nations campaign with a 3-0 win over 10-man Sudan on Wednesday.",
+      "publishedAt": "2025-12-24T19:57:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barça's Bonmatí aims for April return to training",
+      "link": "https://www.espn.com/soccer/story/_/id/47390516/barcelona-aitana-bonmati-aims-april-return-training",
+      "summary": "Aitana Bonmatí said that breaking her leg is giving her the chance to relax for the first time in five years after topping ESPN FC Women's Rank for the third time in a row.",
+      "publishedAt": "2025-12-24T19:57:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal survive 'emotionally tough' Palace shootout",
+      "link": "https://www.espn.com/soccer/story/_/id/47402336/arsenal-survive-crystal-palace-shootout",
+      "summary": "Arsenal manager Mikel Arteta said it was \"emotionally tough\" to accept Crystal Palace's stoppage-time equaliser before his team went on to win 8-7 on penalties following a 1-1 draw in their Carabao Cup quarterfinal.",
+      "publishedAt": "2025-12-24T19:57:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Met deze voetbalpotjes kun je je vermaken tijdens kerst",
+      "link": "https://www.vi.nl/nieuws/met-deze-voetbalpotjes-kun-je-je-vermaken-tijdens-kerst",
+      "summary": "Sommigen vinden het the most wonderful time of the year , anderen hebben er niets mee. Voor hen goed nieuws: ook tijdens kerst wordt er gevoetbald. Voetbal International neemt je mee door het programma tijdens de feestdagen.",
+      "publishedAt": "2025-12-24T19:50:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ivoorkust start Afrika Cup met moeizame zege",
+      "link": "https://www.vi.nl/nieuws/ivoorkust-start-afrika-cup-met-moeizame-zege",
+      "summary": "Ivoorkust",
+      "publishedAt": "2025-12-24T19:24:29.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -25,72 +102,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barça's Bonmatí aims for April return to training",
-      "link": "https://www.espn.com/soccer/story/_/id/47390516/barcelona-aitana-bonmati-aims-april-return-training",
-      "summary": "Aitana Bonmatí said that breaking her leg is giving her the chance to relax for the first time in five years after topping ESPN FC Women's Rank for the third time in a row.",
-      "publishedAt": "2025-12-24T18:21:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Richards on U.S., Palace return: 'Won't be long'",
-      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
-      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
-      "publishedAt": "2025-12-24T18:21:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal survive 'emotionally tough' Palace shootout",
-      "link": "https://www.espn.com/soccer/story/_/id/47402336/arsenal-survive-crystal-palace-shootout",
-      "summary": "Arsenal manager Mikel Arteta said it was \"emotionally tough\" to accept Crystal Palace's stoppage-time equaliser before his team went on to win 8-7 on penalties following a 1-1 draw in their Carabao Cup quarterfinal.",
-      "publishedAt": "2025-12-24T18:21:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "NWSL OK's 'Rodman rule' even as union objects",
-      "link": "https://www.espn.com/soccer/story/_/id/47399385/nwsl-implements-new-rodman-rule-star-players",
-      "summary": "The NWSL on Tuesday announced the creation of what has been referred to internally as the \"High Impact Player\" rule (HIP), which would allow teams to spend up to $1 million outside of the salary cap on star players.",
-      "publishedAt": "2025-12-24T18:21:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Griekse passie bij Heerenveen? 'Mensen die voor de club leven, daar houd ik van'",
-      "link": "https://www.vi.nl/nieuws/griekse-passie-bij-heerenveen-mensen-die-voor-de-club-leven-daar-houd-ik-van",
-      "summary": "Tussen de Friese meren en natuur voelt SC Heerenveen-verdediger Vasilios Zagaritis zich als een vis in het water. De sfeer in het Abe Lenstra Stadion heeft de Griek positief verrast. De passie bij Heerenveen doet hem zelfs een klein beetje denken aan zijn thuisland, zo vertelde hij aan VI.",
-      "publishedAt": "2025-12-24T18:20:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Al Nassr sluit Aziatische groepsfase af met ruime overwinning",
-      "link": "https://www.vi.nl/nieuws/al-nassr-sluit-aziatische-groepsfase-af-met-ruime-overwinning",
-      "summary": "Al Nassr heeft woensdag een ruime overwinning geboekt in de laatste poulewedstrijd in de Champions League Two, het Aziatische equivalent van de Europa League. Het Iraakse Al Zawraa was geen partij: 5-1.",
-      "publishedAt": "2025-12-24T17:54:46.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -99,17 +110,6 @@
       "link": "https://www.skysports.com/football/chelsea-vs-aston-villa/live/531302",
       "summary": "",
       "publishedAt": "2025-12-24T17:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ex-sponsor Fortuna zegt nooit een deal te hebben gehad, maar was wel aanwezig",
-      "link": "https://www.vi.nl/nieuws/ex-sponsor-fortuna-zegt-nooit-een-deal-te-hebben-gehad-maar-was-wel-aanwezig",
-      "summary": "De sponsorsituatie van Fortuna Sittard houdt de gemoederen bezig. De Limburgse Eredivisionist trok de stekker uit een overeenkomst met hoofdsponsor syNeo. Al beweert het bedrijf zelf nooit een deal te hebben gesloten, ondanks de aanwezigheid op de presentatie.",
-      "publishedAt": "2025-12-24T17:20:14.000Z"
     },
     {
       "type": "rss",
