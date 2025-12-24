@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2025-12-24T22:23:36.742Z",
+  "generatedAt": "2025-12-24T23:22:49.625Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Na Lyon staat ook Crystal Palace recette af aan minderbedeelde opponent",
+      "link": "https://www.vi.nl/nieuws/na-lyon-staat-ook-crystal-palace-recette-af-aan-minderbedeelde-opponent",
+      "summary": "Crystal Palace heeft Macclesfield FC een plezier gedaan richting hun onderlinge bekerwedstrijd: de FA Cup-houder heeft beloofd om de opbrengsten uit kaartverkoop voor het uitvak te doneren aan de tegenstander uit de National League North, het zesde niveau van Engeland.",
+      "publishedAt": "2025-12-24T22:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Algeria beat 10-man Sudan and Côte d’Ivoire start defence with win",
+      "link": "https://www.theguardian.com/football/2025/dec/24/afcon-roundup-burkina-faso-equatorial-guinea-algeria-sudan",
+      "summary": "Algeria win 3-0 as Adel sees red | Burkina Faso 2-1 E Guinea Côte d’Ivoire 1-0 Mozambique | Cameroon 1-0 Gabon Riyad Mahrez scored twice as Algeria launched their Africa Cup of Nations campaign with a comfortable 3-0 Group E win over 10-man Sudan in Rabat. The Desert Warriors were ahead within two minutes when the former Leicester and Manchester City winger ran on to Hicham Boudaoui’s clever backheel and fired past the Sudan keeper Monged Abuzaid. Continue reading...",
+      "publishedAt": "2025-12-24T22:43:02.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,6 +36,17 @@
     },
     {
       "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Take on our BBC Gameshows ultimate football quiz",
+      "link": "https://www.bbc.com/sport/football/articles/c898kv2zp58o?at_medium=RSS&at_campaign=rss",
+      "summary": "We've built five quizzes to celebrate five BBC shows - but only those with the biggest football trivia brains can beat them all.",
+      "publishedAt": "2025-12-24T22:10:50.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -22,17 +55,6 @@
       "link": "https://www.vi.nl/nieuws/kameroen-wint-burenruzie-zonder-te-overtuigen",
       "summary": "Voor Kameroen is het eerste duel op de Afrika Cup succesvol verlopen.",
       "publishedAt": "2025-12-24T21:57:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon roundup: Algeria beat 10-man Sudan and Côte d’Ivoire start defence with win",
-      "link": "https://www.theguardian.com/football/2025/dec/24/afcon-roundup-burkina-faso-equatorial-guinea-algeria-sudan",
-      "summary": "Algeria win 3-0 after Salah Adel is sent off Burkina Faso 2-1 E Guinea | Côte d’Ivoire 1-0 Mozambique Riyad Mahrez scored twice as Algeria launched their Africa Cup of Nations campaign with a comfortable 3-0 Group E win over 10-man Sudan in Rabat. The Desert Warriors were ahead within two minutes when the former Leicester and Manchester City winger ran on to Hicham Boudaoui’s clever backheel and fired past the Sudan keeper Monged Abuzaid. Continue reading...",
-      "publishedAt": "2025-12-24T21:40:02.000Z"
     },
     {
       "type": "rss",
@@ -55,17 +77,6 @@
       "link": "https://www.vi.nl/nieuws/geen-wrok-van-jansen-richting-az-leiding-heb-ook-veel-aan-ze-te-danken",
       "summary": "Het is bijna twee jaar geleden dat Pascal Jansen tot zijn eigen verbazing moest vertrekken bij AZ, de directeuren die hem ontsloegen vertrekken binnenkort bij de Alkmaarse club. In het VI Kerstnummer is Jansen, ondanks de verbazing van toen, erg lovend over Robert Eenhoorn en Max Huiberts.",
       "publishedAt": "2025-12-24T20:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Fenerbahçe bevestigt arrestatie van voorzitter in drugszaak",
-      "link": "https://www.vi.nl/nieuws/fenerbah-e-bevestigt-arrestatie-van-voorzitter-in-drugszaak",
-      "summary": "Sadettin Saran, de voorzitter van Fenerbahçe, is woensdagavond gearresteerd. Dat bevestigt de topclub uit Istanbul op de clubwebsite. Zelf geven ze verder geen informatie, maar lokale politie bevestigt in de Turkse pers dat het om een drugszaak gaat.",
-      "publishedAt": "2025-12-24T20:20:02.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c75v0q99e7eo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United head coach Ruben Amorim says it is \"impossible\" to replace Bruno Fernandes as he faces up to a month without him.",
       "publishedAt": "2025-12-24T14:57:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Always hungry, always brave' - why Man City want Semenyo",
-      "link": "https://www.bbc.com/sport/football/articles/c9qeryx8vn4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Every transfer window, there is a player whose future becomes the defining saga of the month. This January, it looks set to be Bournemouth's Antoine Semenyo.",
-      "publishedAt": "2025-12-24T12:06:50.000Z"
     }
   ]
 }
