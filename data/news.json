@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2025-12-25T21:22:13.845Z",
+  "generatedAt": "2025-12-25T22:23:25.904Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Een leven lang FC Groningen: 'Mijn moeders camera was meteen nat van het bier'",
+      "link": "https://www.vi.nl/nieuws/een-leven-lang-fc-groningen-mijn-moeders-camera-was-meteen-nat-van-het-bier",
+      "summary": "Thom van Bergen, Jorg Schreuders en David van der Werff (allen uit 2004) groeiden op als supporters van FC Groningen; nu zijn ze belangrijke spelers in het eerste elftal. In het VI Kerstnummer halen de drie voetbalvrienden herinneringen op.",
+      "publishedAt": "2025-12-25T22:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bondscoach van Mali uit woede over minder Afrika Cups",
+      "link": "https://www.vi.nl/nieuws/bondscoach-van-mali-uit-woede-over-minder-afrika-cups",
+      "summary": "Tom Saintfiet vindt het enorm zonde dat het toernooi om de Afrika Cup in de toekomst nog maar eens in de vier jaar wordt georganiseerd. De Belgische bondscoach van Mali heeft zich uitgesproken over dat besluit.",
+      "publishedAt": "2025-12-25T21:49:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Alles over de Afrika Cup: poules, stadions, speelschema en tv-zender",
+      "link": "https://www.vi.nl/nieuws/alles-over-de-afrika-cup-poules-stadions-speelschema-en-tv-zender",
+      "summary": "Aan het einde van 2025 gaat de Afrika Cup van start. Voor veel Europese clubs betekent dat dat zij spelers een tijdje kwijt zijn, maar voor Afrika is het vooral een groot voetbalfeest. Voetbal International praat je bij over het toernooi.",
+      "publishedAt": "2025-12-25T21:28:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Forest's 'greatest' John Robertson dies at 72",
+      "link": "https://www.espn.com/soccer/story/_/id/47411055/european-cup-winner-nottingham-forest-greatest-john-robertson-dies-72",
+      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72, the Premier League club have announced.",
+      "publishedAt": "2025-12-25T21:23:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Richards on U.S., Palace return: 'Won't be long'",
+      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
+      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
+      "publishedAt": "2025-12-25T21:23:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Zidane in stands for son Luca's Algeria clean sheet",
+      "link": "https://www.espn.com/soccer/story/_/id/47407784/zidane-sees-son-luca-keep-clean-sheet-algeria-win",
+      "summary": "France great Zinedine Zidane watched his goalkeeper son's safe hands as Algeria started its Africa Cup of Nations campaign with a 3-0 win over 10-man Sudan on Wednesday.",
+      "publishedAt": "2025-12-25T21:23:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barça's Bonmatí aims for April return to training",
+      "link": "https://www.espn.com/soccer/story/_/id/47390516/barcelona-aitana-bonmati-aims-april-return-training",
+      "summary": "Aitana Bonmatí said that breaking her leg is giving her the chance to relax for the first time in five years after topping ESPN FC Women's Rank for the third time in a row.",
+      "publishedAt": "2025-12-25T21:23:04.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,50 +91,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Zidane in stands for son Luca's Algeria clean sheet",
-      "link": "https://www.espn.com/soccer/story/_/id/47407784/zidane-sees-son-luca-keep-clean-sheet-algeria-win",
-      "summary": "France great Zinedine Zidane watched his goalkeeper son's safe hands as Algeria started its Africa Cup of Nations campaign with a 3-0 win over 10-man Sudan on Wednesday.",
-      "publishedAt": "2025-12-25T21:15:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barça's Bonmatí aims for April return to training",
-      "link": "https://www.espn.com/soccer/story/_/id/47390516/barcelona-aitana-bonmati-aims-april-return-training",
-      "summary": "Aitana Bonmatí said that breaking her leg is giving her the chance to relax for the first time in five years after topping ESPN FC Women's Rank for the third time in a row.",
-      "publishedAt": "2025-12-25T21:15:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "John Robertson dies at 72",
-      "link": "https://www.espn.com/soccer/story/_/id/47411055/european-cup-winner-nottingham-forest-greatest-john-robertson-dies-72",
-      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72, the Premier League club have announced.",
-      "publishedAt": "2025-12-25T21:15:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Richards on U.S., Palace return: 'Won't be long'",
-      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
-      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
-      "publishedAt": "2025-12-25T21:15:44.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -66,39 +99,6 @@
       "link": "https://www.vi.nl/nieuws/wijnaldum-geeft-zijn-kerst-kleur-met-w-r-een-goal",
       "summary": "Georginio Wijnaldum heeft zich op eerste kerstdag met onder meer een doelpunt laten zien bij Al-Ettifaq. Voor de 35-jarige Nederlander en zijn teamgenoten was de overwinning op Al Riyadh pas de vierde van het seizoen in de Saoedische competitie.",
       "publishedAt": "2025-12-25T20:15:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Espanyol leeft met vrees naar derby tegen Barça toe en hangt netten op",
-      "link": "https://www.vi.nl/nieuws/espanyol-leeft-met-vrees-naar-derby-tegen-bar-a-toe-en-hangt-netten-op",
-      "summary": "Bij Espanyol is de vrees voor ongeregeldheden in de beladen thuiswedstrijd tegen Barcelona groot. Daarom heeft de club besloten grote netten te laten ophangen.",
-      "publishedAt": "2025-12-25T19:59:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Premier League voorspellen: dit wordt de topvijf van Engeland",
-      "link": "https://www.vi.nl/video/premier-league-voorspellen-dit-wordt-de-topvijf-van-engeland",
-      "summary": "In Rondje Boxing Day voorspellen kenners buitenlands voetbal Süleyman Öztürk en Bas van den Hoven de top-vijf in de Premier League.",
-      "publishedAt": "2025-12-25T19:42:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Waarom er dit jaar maar één wedstrijd op Boxing Day is",
-      "link": "https://www.vi.nl/nieuws/waarom-er-dit-jaar-maar-een-wedstrijd-op-boxing-day-is",
-      "summary": "Boxing Day wordt traditioneel gezien als een van de hoogtepunten van de Premier League, maar het heeft er alle schijn van dat op tweede kerstdag slechts één wedstrijd wordt gespeeld. Dat heeft te maken met de uitzendrechten.",
-      "publishedAt": "2025-12-25T19:00:12.000Z"
     },
     {
       "type": "rss",
