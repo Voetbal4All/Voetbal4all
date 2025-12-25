@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-25T16:30:39.524Z",
+  "generatedAt": "2025-12-25T17:21:15.844Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Met deze voetbalpotjes kun je je vermaken tijdens kerst",
+      "link": "https://www.vi.nl/nieuws/met-deze-voetbalpotjes-kun-je-je-vermaken-tijdens-kerst",
+      "summary": "Sommigen vinden het the most wonderful time of the year , anderen hebben er niets mee. Voor hen goed nieuws: ook tijdens kerst wordt er gevoetbald. Voetbal International neemt je mee door het programma tijdens de feestdagen.",
+      "publishedAt": "2025-12-25T17:03:26.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -33,17 +44,6 @@
       "link": "https://www.vi.nl/nieuws/onana-ziet-langer-verblijf-in-turkije-zeker-zitten",
       "summary": "Andre Onana heeft nooit in zijn carrière lekkerder in zijn vel gezeten dan nu. De 29-jarige doelman is door Manchester United verhuurd aan Trabzonspor. Een langer verblijf in Turkije is zeker niet uitgesloten, is op te maken uit de woorden van de ex-Ajacied.",
       "publishedAt": "2025-12-25T15:31:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Vleermuizen dwarsbomen renovatieproject Southgate",
-      "link": "https://www.vi.nl/nieuws/beschermde-vleermuizensoort-dwarsboomt-renovatieproject-southgate",
-      "summary": "Gareth Southgate wil zijn landhuis een Grand Designs -achtige make-over geven. De oud-bondscoach van Engeland heeft plannen om een enorme schuur op zijn terrein om te toveren tot gym, sauna en kantoorruimte. Eén partij gooit roet in het eten: de vleermuizen.",
-      "publishedAt": "2025-12-25T14:40:51.000Z"
     },
     {
       "type": "rss",
