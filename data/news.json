@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2025-12-25T10:26:36.120Z",
+  "generatedAt": "2025-12-25T11:21:05.466Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FA klaagt Romero aan na rode kaart tegen Liverpool",
+      "link": "https://www.vi.nl/nieuws/fa-klaagt-romero-aan-na-rode-kaart-tegen-liverpool",
+      "summary": "Niemand bij Tottenham Hotspur was het eens met de rode kaart van Cristian Romero tegen Liverpool, maar de Argentijnse aanvoerder dreigt nu ook nog eens extra gestraft te worden door de FA. De bond heeft een onderzoek ingesteld naar Romero.",
+      "publishedAt": "2025-12-25T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sitting with Ferguson and getting 'knocked out' - a photographer's tales",
+      "link": "https://www.bbc.com/sport/football/articles/cwylx81311qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Magi Haroun, the first Premier League-accredited female photographer, shares her stories about sitting in the dugout with Sir Alex Ferguson and more.",
+      "publishedAt": "2025-12-25T10:51:10.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -43,17 +65,6 @@
       "title": "Van Real Madrid gehuurde Endrick verpulvert social media-record Lyon",
       "link": "https://www.vi.nl/nieuws/van-real-madrid-gehuurde-endrick-verpulvert-social-media-record-lyon",
       "summary": "De Braziliaan Endrick heeft nu al zijn impact op Olympique Lyon. De van Real Madrid gehuurde aanvaller brak het social media-record van de Franse club.",
-      "publishedAt": "2025-12-25T09:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Premier League voorspellen: dit wordt de topvijf van Engeland",
-      "link": "https://www.vi.nl/video/premier-league-voorspellen-dit-wordt-de-topvijf-van-engeland",
-      "summary": "In Rondje Boxing Day voorspellen kenners buitenlands voetbal Süleyman Öztürk en Bas van den Hoven de top-vijf in de Premier League.",
       "publishedAt": "2025-12-25T09:30:00.000Z"
     },
     {
@@ -187,17 +198,6 @@
       "link": "https://www.skysports.com/football/chelsea-vs-aston-villa/live/531302",
       "summary": "",
       "publishedAt": "2025-12-24T17:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ex-poker player Bord is preferred Sheff Wed bidder",
-      "link": "https://www.bbc.com/sport/football/articles/cpd6020z01po?at_medium=RSS&at_campaign=rss",
-      "summary": "Former professional poker player James Bord is chosen as the preferred bidder for Sheffield Wednesday, BBC Sport can confirm.",
-      "publishedAt": "2025-12-24T16:16:44.000Z"
     },
     {
       "type": "rss",
