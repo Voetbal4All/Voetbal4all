@@ -1,48 +1,62 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const burger = document.querySelector(".nav-burger");
-  const menu = document.querySelector(".nav-menu"); // pas aan indien andere class
+// assets/js/nav-mobile.js
+(() => {
+  let burger = null;
+  let nav = null;
 
-  if (!burger || !menu) return;
-
-  // Zorg dat hij altijd start als "dicht"
-  menu.classList.remove("is-open");
-  burger.setAttribute("aria-expanded", "false");
-
-  const closeMenu = () => {
-    menu.classList.remove("is-open");
+  function closeAll() {
+    if (!nav || !burger) return;
+    nav.classList.remove("is-open");
     burger.setAttribute("aria-expanded", "false");
-  };
+    document
+      .querySelectorAll(".nav-item--dropdown.is-open")
+      .forEach((x) => x.classList.remove("is-open"));
+  }
 
-  burger.addEventListener("click", (e) => {
-    e.preventDefault();
-    const open = menu.classList.toggle("is-open");
-    burger.setAttribute("aria-expanded", open ? "true" : "false");
-  });
+  document.addEventListener("DOMContentLoaded", () => {
+    burger = document.querySelector(".nav-burger");
+    nav = document.querySelector(".nav-links");
+    if (!burger || !nav) return;
 
-  // Sluit menu bij klik op een link
-  menu.addEventListener("click", (e) => {
-    const a = e.target.closest("a");
-    if (a) closeMenu();
-  });
+    // Forceer start: menu dicht
+    closeAll();
 
-  // Sluit menu bij klik buiten menu/burger
-  document.addEventListener("click", (e) => {
-    if (e.target.closest(".nav-menu")) return;
-    if (e.target.closest(".nav-burger")) return;
-    closeMenu();
-  });
+    // Burger togglet hoofdmenu
+    burger.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
 
-  // Sluit menu bij resize naar desktop
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 600) closeMenu();
-  });
-});
+      const open = nav.classList.toggle("is-open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
 
-  // Sluit menu bij resize / orientation change
-  window.addEventListener("resize", () => {
-    if (window.matchMedia("(min-width: 901px)").matches) {
-      nav.classList.remove("is-open");
-      burger.setAttribute("aria-expanded", "false");
-      dropdownItems.forEach((d) => d.classList.remove("is-open"));
-    }
+      if (!open) {
+        document
+          .querySelectorAll(".nav-item--dropdown.is-open")
+          .forEach((x) => x.classList.remove("is-open"));
+      }
+    });
+
+    // Dropdowns in burger-menu
+    nav.querySelectorAll(".nav-item--dropdown > .nav-link--dropdown").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const item = btn.closest(".nav-item--dropdown");
+        if (!item) return;
+
+        // Sluit andere dropdowns
+        nav.querySelectorAll(".nav-item--dropdown").forEach((x) => {
+          if (x !== item) x.classList.remove("is-open");
+        });
+
+        // Toggle deze dropdown
+        item.classList.toggle("is-open");
+      });
+    });
+
+    // Klik buiten menu = sluiten
+    document.addEventListener("click", closeAll);
+
+    // Klik binnen nav mag het menu niet sluiten
+    nav.addEventListener("click", (e) => e.stopPropagation());
   });
+})();
