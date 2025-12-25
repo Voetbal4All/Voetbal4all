@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-25T07:25:07.868Z",
+  "generatedAt": "2025-12-25T08:33:13.431Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Jansen raakt belangrijke pion kwijt bij New York City FC",
+      "link": "https://www.vi.nl/nieuws/spaanse-media-linken-de-vrij-en-senesi-aan-barcelona",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-25T08:31:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De succescoach die later bij zijn kampioensduel arriveerde om geld in te zamelen",
+      "link": "https://www.vi.nl/pro/de-succescoach-die-later-bij-zijn-kampioensduel-arriveerde-om-geld-in-te-zamelen",
+      "summary": "En dan nu, de Trainer van het Jaar: Stephen Bradley. Wie? De Ier pakte de dubbel met Shamrock Rovers, maar dat was bijzaak. Bradley toonde dit jaar aan dat voetbal nooit alleen om voetbal gaat, en hoe één bescheiden mens een groot verschil kan maken.",
+      "publishedAt": "2025-12-25T08:20:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Voetbal wordt geleid door mensen die hun verantwoordelijkheden niet snappen'",
+      "link": "https://www.vi.nl/nieuws/de-laurentiis-haalt-weer-uit-naar-uefa-ze-bezorgen-ons-een-nachtmerrie",
+      "summary": "Aurelio De Laurentiis heeft de feestdagen aangegrepen om hard uit te halen naar de voetbalautoriteiten. De voorzitter van Napoli vindt dat de leiding in het professionele voetbal tekortschiet, te veel naar eigen belangen kijkt en het spel kapotmaakt met een overvol speelschema.",
+      "publishedAt": "2025-12-25T08:08:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kerstgroeten uit de voetbalwereld: ook Ajax en Feyenoord laten zich horen",
+      "link": "https://www.vi.nl/nieuws/clubs-doen-kerstgroeten-nederlandse-milan-legendes-zijn-weer-samen",
+      "summary": "Ook de voetbalclubs doen een dezer dagen massaal de kerstgroeten de deur uit. De één met een digitale kaart, de ander met een gelikte video. Voetbal International zet alle kerstgroeten van de clubs uit binnen- en buitenland voor je op een rij.",
+      "publishedAt": "2025-12-25T07:46:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Franse club doet bod op aanvaller De Graafschap",
+      "link": "https://www.vi.nl/nieuws/az-anticipeert-met-hornkamp-op-mogelijke-transfer-parrott",
+      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2025-12-25T07:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -25,17 +80,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Na Lyon staat ook Crystal Palace recette af aan minderbedeelde opponent",
-      "link": "https://www.vi.nl/nieuws/na-lyon-staat-ook-crystal-palace-recette-af-aan-minderbedeelde-opponent",
-      "summary": "Crystal Palace heeft Macclesfield FC een plezier gedaan richting hun onderlinge bekerwedstrijd: de FA Cup-houder heeft beloofd om de opbrengsten uit kaartverkoop voor het uitvak te doneren aan de tegenstander uit de National League North, het zesde niveau van Engeland.",
-      "publishedAt": "2025-12-24T22:45:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -47,17 +91,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Belgische bond ving bot bij De Grand: 'Het was Oranje of niets'",
-      "link": "https://www.vi.nl/nieuws/belgische-bond-ving-bot-bij-de-grand-het-was-oranje-of-niets",
-      "summary": "Sam de Grand (21) werd geboren in Den Bosch, maar verhuisde vier weken later al naar België, waar hij nu dus al bijna zijn hele leven woont en voetbalt. Toch wees hij verschillende toenaderingen van de KBVB om voor België te gaan spelen steeds af. 'Het was Oranje of niets', vertelt de Jong Oranje-international in het VI Kerstnummer.",
-      "publishedAt": "2025-12-24T22:25:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -66,39 +99,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c898kv2zp58o?at_medium=RSS&at_campaign=rss",
       "summary": "We've built five quizzes to celebrate five BBC shows - but only those with the biggest football trivia brains can beat them all.",
       "publishedAt": "2025-12-24T22:10:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kameroen wint burenruzie zonder te overtuigen",
-      "link": "https://www.vi.nl/nieuws/kameroen-wint-burenruzie-zonder-te-overtuigen",
-      "summary": "Voor Kameroen is het eerste duel op de Afrika Cup succesvol verlopen.",
-      "publishedAt": "2025-12-24T21:57:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Afrika Cup Quiz: raad de spelers van Nederlandse clubs",
-      "link": "https://www.vi.nl/nieuws/afrika-cup-quiz-raad-de-spelers-van-nederlandse-clubs",
-      "summary": "De Afrika Cup gaat deze week weer van start. Daarom testen we jullie geheugen met deze hersenkraker van een quiz. Welke spelers van Nederlandse clubs zaten deze eeuw in de selectie van een Afrika Cup-deelnemer?",
-      "publishedAt": "2025-12-24T21:22:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Geen wrok van Jansen richting AZ-leiding: 'Heb ook veel aan ze te danken'",
-      "link": "https://www.vi.nl/nieuws/geen-wrok-van-jansen-richting-az-leiding-heb-ook-veel-aan-ze-te-danken",
-      "summary": "Het is bijna twee jaar geleden dat Pascal Jansen tot zijn eigen verbazing moest vertrekken bij AZ, de directeuren die hem ontsloegen vertrekken binnenkort bij de Alkmaarse club. In het VI Kerstnummer is Jansen, ondanks de verbazing van toen, erg lovend over Robert Eenhoorn en Max Huiberts.",
-      "publishedAt": "2025-12-24T20:45:00.000Z"
     },
     {
       "type": "rss",
