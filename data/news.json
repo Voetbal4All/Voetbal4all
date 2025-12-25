@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2025-12-25T22:23:25.904Z",
+  "generatedAt": "2025-12-25T23:22:59.348Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Conte laat oog vallen op Goretzka, Barça denkt aan Senesi'",
+      "link": "https://www.vi.nl/nieuws/spaanse-media-linken-de-vrij-en-senesi-aan-barcelona",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-25T22:58:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle stadium plans in limbo - Howe",
+      "link": "https://www.bbc.com/sport/football/articles/cgexw48p3v1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Eddie Howe says Newcastle's stadium and training ground plans are \"in limbo\" and there is a \"99.9% chance\" he will not be in charge when they are realised.",
+      "publishedAt": "2025-12-25T22:36:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Players can only leave if replacements come in - Amorim",
+      "link": "https://www.bbc.com/sport/football/articles/c5yqeqjy3d0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United head coach Ruben Amorim is not willing to let any players leave in the January transfer window unless replacements come in.",
+      "publishedAt": "2025-12-25T22:33:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kobbie Mainoo is ‘the future of Manchester United’, insists Amorim",
+      "link": "https://www.theguardian.com/football/2025/dec/25/kobbie-mainoo-is-the-future-of-manchester-united-insists-amorim",
+      "summary": "Midfielder has not started a league match this season Head coach says ‘everything can change in two days’ Ruben Amorim has claimed that ­Kobbie Mainoo is “the future of ­Manchester United” and that the 20-year-old’s versatility increases his chances of breaking into the team soon. Mainoo has a calf problem that rules him out of Newcastle’s visit to Old Trafford on Boxing Day but Amorim offered his firmest backing yet for a player he has not started in any of United’s 17 Premier League matches. Continue reading...",
+      "publishedAt": "2025-12-25T22:30:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Eddie Howe challenges Newcastle owners to end ‘limbo’ over stadium plans",
+      "link": "https://www.theguardian.com/football/2025/dec/25/eddie-howe-challenges-newcastle-owners-to-end-limbo-over-stadium-plans",
+      "summary": "Manager would like ‘clarity’ on future of facilities He wants show of ambition over academy setup Eddie Howe has challenged Newcastle’s owners to end the club’s “limbo” by declaring whether they intend building a new training ground and stadium and to show their ambition by revamping the academy facilities. Although Howe is “99.9%” certain he will no longer be Newcastle’s manager by the time any training ground or stadium project is completed, he believes the release of a blueprint could prove “gamechanging”. Continue reading...",
+      "publishedAt": "2025-12-25T22:30:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim: Mainoo is the future of Man Utd",
+      "link": "https://www.skysports.com/football/news/12040/13487265/kobbie-mainoo-manchester-united-boss-ruben-amorim-insists-the-midfielder-is-still-the-future-of-the-club",
+      "summary": "Ruben Amorim believes Kobbie Mainoo is the future of Manchester United despite the speculation surrounding the midfielder's future.",
+      "publishedAt": "2025-12-25T22:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Forest's 'greatest' John Robertson dies at 72",
+      "link": "https://www.espn.com/soccer/story/_/id/47411055/european-cup-winner-nottingham-forest-greatest-john-robertson-dies-72",
+      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72, the Premier League club have announced.",
+      "publishedAt": "2025-12-25T22:29:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Richards on U.S., Palace return: 'Won't be long'",
+      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
+      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
+      "publishedAt": "2025-12-25T22:29:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Saliba: Arsenal targeting quadruple for this season",
+      "link": "https://www.espn.com/soccer/story/_/id/47412989/william-saliba-sets-sights-historic-quadruple-arsenal",
+      "summary": "Arsenal defender William Saliba has boldly predicted that the Gunners are capable of clinching an unprecedented quadruple this season to end their long-standing trophy drought.",
+      "publishedAt": "2025-12-25T22:29:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Zidane in stands for son Luca's Algeria clean sheet",
+      "link": "https://www.espn.com/soccer/story/_/id/47407784/zidane-sees-son-luca-keep-clean-sheet-algeria-win",
+      "summary": "France great Zinedine Zidane watched his goalkeeper son's safe hands as Algeria started its Africa Cup of Nations campaign with a 3-0 win over 10-man Sudan on Wednesday.",
+      "publishedAt": "2025-12-25T22:29:32.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -36,50 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Forest's 'greatest' John Robertson dies at 72",
-      "link": "https://www.espn.com/soccer/story/_/id/47411055/european-cup-winner-nottingham-forest-greatest-john-robertson-dies-72",
-      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72, the Premier League club have announced.",
-      "publishedAt": "2025-12-25T21:23:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Richards on U.S., Palace return: 'Won't be long'",
-      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
-      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
-      "publishedAt": "2025-12-25T21:23:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Zidane in stands for son Luca's Algeria clean sheet",
-      "link": "https://www.espn.com/soccer/story/_/id/47407784/zidane-sees-son-luca-keep-clean-sheet-algeria-win",
-      "summary": "France great Zinedine Zidane watched his goalkeeper son's safe hands as Algeria started its Africa Cup of Nations campaign with a 3-0 win over 10-man Sudan on Wednesday.",
-      "publishedAt": "2025-12-25T21:23:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barça's Bonmatí aims for April return to training",
-      "link": "https://www.espn.com/soccer/story/_/id/47390516/barcelona-aitana-bonmati-aims-april-return-training",
-      "summary": "Aitana Bonmatí said that breaking her leg is giving her the chance to relax for the first time in five years after topping ESPN FC Women's Rank for the third time in a row.",
-      "publishedAt": "2025-12-25T21:23:04.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -88,17 +154,6 @@
       "link": "https://www.vi.nl/nieuws/ten-hag-weghorst-kon-niet-goed-koppen-maar-wel-goed-denken",
       "summary": "Wout Weghorst was in de eerste seizoenshelft, tot zijn blessure, de aanvalsleider van Ajax. Purist Rafael van der Vaart constateerde onlangs in de Pak Schaal Podcast met frisse tegenzin dat hij hem steeds meer ging waarderen. 'Ik krijg het niet uit mijn strot, maar ik raak langzaam gecharmeerd van Weghorst.'",
       "publishedAt": "2025-12-25T21:21:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wijnaldum geeft zijn kerst kleur met wéér een goal",
-      "link": "https://www.vi.nl/nieuws/wijnaldum-geeft-zijn-kerst-kleur-met-w-r-een-goal",
-      "summary": "Georginio Wijnaldum heeft zich op eerste kerstdag met onder meer een doelpunt laten zien bij Al-Ettifaq. Voor de 35-jarige Nederlander en zijn teamgenoten was de overwinning op Al Riyadh pas de vierde van het seizoen in de Saoedische competitie.",
-      "publishedAt": "2025-12-25T20:15:02.000Z"
     },
     {
       "type": "rss",
@@ -165,61 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/25/liverpool-praying-for-a-golden-sky-after-seven-months-of-storms",
       "summary": "Despair and disorder have engulfed the club since their title party, leaving all concerned in need of previous serenity As Virgil van Dijk raised the Premier League trophy on a cool May afternoon at Anfield, the cap was sealed on a serenely glorious season for Liverpool. For sure there had been challenges en route to a 20th league title, but not many, and those that did arise were dealt with in a calm, orderly fashion. The ultimate prize had been captured with minimum sweat. Cue the celebrations after a final‑day 1-1 draw with Crystal Palace: players and staff dancing on the pitch, supporters doing the same in the stands, and no sense this was as good as it was going to get for the just-crowned champions. It took less than 24 hours for everything to change and set in motion an astonishing seven‑month period in the history of a club where it was probably thought they had seen and done it all. Continue reading...",
       "publishedAt": "2025-12-25T12:00:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League and EFL to hold talks over ending Saturday 3pm blackout",
-      "link": "https://www.theguardian.com/football/2025/dec/25/premier-league-efl-talks-saturday-3pm-blackout-football-tv-rights",
-      "summary": "Leagues eager to sell all games in next rights cycle Auction for televised rights expected in 2027 The Premier League and EFL will hold talks early next year about combining to permit 3pm Saturday kick-offs to be broadcast live each week for the first time. The UK is the last country in Europe to apply the so-called 3pm blackout, and with the Premier League and EFL eager to sell all their games to domestic broadcasters in the next rights cycle they want an early agreement before the next tender. Continue reading...",
-      "publishedAt": "2025-12-25T12:00:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘A quick learner’: how Declan Rice went from Chelsea reject to Arsenal’s Rolls-Royce",
-      "link": "https://www.theguardian.com/football/2025/dec/25/a-quick-learner-how-declan-rice-went-from-chelsea-reject-to-arsenals-rolls-royce",
-      "summary": "Midfielder will be part of the conversation for a Ballon d’Or if he continues his ascent with trophies for club and country Declan Rice likes to call it “clean feedback”, which sounds like a euphemism for a bollocking, though he would probably say that is a misconception. Rather, it is part of the reason why Rice is being discussed as one of the best players in the world. “You can’t eff and blind, you can’t bully people,” says Terry Westley, the head of West Ham’s academy when Rice was there. “But we should be able to have a conversation and say: ‘Look, that ain’t quite good enough and we want to help you because this is what we need to do.’ Continue reading...",
-      "publishedAt": "2025-12-25T09:00:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wiegman: How England won the Euros - again",
-      "link": "https://www.skysports.com/football/news/12040/13487094/sarina-wiegman-england-women-head-coach-reflects-on-euro-2025-win-hannah-hamptons-impact-and-thomas-tuchel",
-      "summary": "As Sarina Wiegman reflects on Euro 2025, a smile spreads across her face.",
-      "publishedAt": "2025-12-25T09:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bewildering and bewitching Newcastle seek solution to end chaos",
-      "link": "https://www.theguardian.com/football/2025/dec/25/eddie-howe-newcastle-manchester-united-premier-league",
-      "summary": "Despite tactical flaws and a fixture pile-up, Eddie Howe still has a ‘glass half full’ attitude before Manchester United trip Newcastle supporters are starting to regard Eddie Howe’s team as an unreliable friend. Catch them on the right night and they invariably prove the life and soul of the thrillingly high-intensity party but, on other days, the once-dependable Sandro Tonali and company simply fail to turn up. As if that were not bad enough, their second-half game management has become suffused with a chaotic streak. Howe’s players visit Manchester United on Boxing Day having dropped 13 Premier League points from winning positions this season and are without a clean sheet in 10 games in all competitions. Victory at Old Trafford would be only their second away league win. Continue reading...",
-      "publishedAt": "2025-12-25T08:00:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Coolest thing I've done' - Lowry on Ryder Cup win after 'horrific' leaderboard",
-      "link": "https://www.skysports.com/golf/news/12040/13481833/ryder-cup-2025-shane-lowry-on-creating-history-for-team-europe-in-new-york-after-horrific-final-day-leaderboard",
-      "summary": "Shane Lowry secured Team Europe's historic Ryder Cup title defence in New York, having been concerned about victory slipping through their grasp during a nail-biting Sunday.",
-      "publishedAt": "2025-12-25T07:00:00.000Z"
     }
   ]
 }
