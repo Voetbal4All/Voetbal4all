@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Artikel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <main class="shell" style="padding:24px 0;">
+      <a href="artikels.html" class="btn" style="display:inline-block;margin-bottom:16px;">← Terug naar artikels</a>
+
+      <div id="article-status" style="margin:12px 0; color:#c00; display:none;"></div>
+
+      <article class="card" style="padding:18px;">
+        <h1 id="article-title" style="margin:0 0 10px 0;"></h1>
+        <div id="article-meta" style="opacity:.8; margin-bottom:14px;"></div>
+        <img id="article-image" alt="" style="max-width:100%; border-radius:12px; display:none; margin:12px 0;" />
+        <p id="article-snippet" style="margin:12px 0;"></p>
+
+        <div style="margin-top:16px;">
+          <a id="article-source" href="#" target="_blank" rel="noopener" style="display:none;">Lees bij de bron</a>
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      const API_BASE = "https://voetbal4all-backend.onrender.com";
+
+      const qs = new URLSearchParams(location.search);
+      const file = qs.get("file");
+
+      const statusEl = document.getElementById("article-status");
+      const titleEl = document.getElementById("article-title");
+      const metaEl = document.getElementById("article-meta");
+      const imgEl = document.getElementById("article-image");
+      const snippetEl = document.getElementById("article-snippet");
+      const sourceEl = document.getElementById("article-source");
+
+      function showErr(msg) {
+        statusEl.style.display = "block";
+        statusEl.textContent = msg;
+      }
+
+      if (!file) {
+        showErr("Geen artikel gekozen (parameter 'file' ontbreekt).");
+        return;
+      }
+
+      // Backend endpoint verwacht id; server.js ondersteunt ook fileName indien id eindigt op .json
+      const url = API_BASE + "/api/news/" + encodeURIComponent(file);
+
+      fetch(url, { cache: "no-store" })
+        .then(r => {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then(d => {
+          if (!d || d.ok === false) throw new Error(d?.error || "Onbekende fout");
+
+          const a = d.item || d.article || d; // toleranter voor varianten
+
+          titleEl.textContent = a.title || "Artikel";
+          const published = a.publishedAt ? new Date(a.publishedAt).toLocaleString("nl-BE") : "";
+          metaEl.textContent = published ? ("Gepubliceerd: " + published) : "";
+
+          snippetEl.textContent = a.snippet || a.summary || "";
+
+          const imgPath = a.image?.publicPath || a.image || null;
+          if (imgPath) {
+            imgEl.src = imgPath.startsWith("http") ? imgPath : (API_BASE + imgPath);
+            imgEl.style.display = "block";
+          }
+
+          const src = a.originalSource || a.url || a.link || "";
+          if (src) {
+            sourceEl.href = src;
+            sourceEl.style.display = "inline-block";
+          }
+        })
+        .catch(e => {
+          console.error("ARTICLE FETCH ERROR:", e);
+          showErr("Artikel kon niet geladen worden: " + (e?.message || e));
+        });
+    })();
+  </script>
+</body>
+</html>
