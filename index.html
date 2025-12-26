@@ -605,13 +605,19 @@
   
         if (homeStatusEl) homeStatusEl.style.display = "none";
   
-        homeListEl.innerHTML = data.items.map(a => `
-          <article class="article-item">
-            <a class="article-link" href="artikel.html?file=${encodeURIComponent(a.fileName)}">
-              <h4>${a.title || ""}</h4>
-            </a>
-          </article>
-        `).join("");
+        const IMG_BASE = "https://voetbal4all-backend.onrender.com";
+
+          homeListEl.innerHTML = data.items.map(a => {
+            const img = a?.image?.publicPath ? (IMG_BASE + a.image.publicPath) : "";
+            return `
+              <article class="article-item">
+                <a class="article-link" href="artikel.html?file=${encodeURIComponent(a.fileName)}">
+                  ${img ? `<img class="article-thumb" src="${img}" alt="${(a.title||"").replace(/"/g, "&quot;")}" loading="lazy">` : ``}
+                  <h4>${a.title || ""}</h4>
+                </a>
+              </article>
+            `;
+            }).join("");
       } catch (e) {
         console.error("[HOME] loadHomeNews error:", e);
         if (homeStatusEl) {
