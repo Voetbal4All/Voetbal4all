@@ -1714,23 +1714,3 @@ img {
     z-index: 500 !important;
   }
 }
-@media (max-width: 900px) {
-  .nav-cta{
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 60;
-
-    padding: 5px 10px;
-    font-size: 11px;
-    line-height: 1;
-    box-shadow: none;
-    gap: 0;
-  }
-
-  /* 2e label (“Sponsor & Ads”) verbergen op mobiel zodat alles past */
-  .nav-cta span:last-child{
-    display: none;
-  }
-}
