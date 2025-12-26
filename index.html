@@ -575,116 +575,46 @@
     });
   </script>
 
-  <script>
-    // ----------------------------
-    // Home: RSS/NEWS JSON -> cards
-    // ----------------------------
-    const homeListEl = document.getElementById("home-news-list");
-    const homeStatusEl = document.getElementById("home-news-status");
-
-    // Werkt op GitHub Pages én op eigen domein
-    const REPO_BASE =
-      (location.hostname.endsWith("github.io") || location.pathname.startsWith("/Voetbal4all/"))
-        ? "/Voetbal4all"
-        : "";
-
-    // Maak 'm globaal zodat onerror ook werkt
-    window.REPO_BASE = REPO_BASE;
-
-    function getSourceLogo(source) {
-      const s = (source || "").toLowerCase();
-      const base = REPO_BASE + "/assets/img/sources/";
-
-      if (s.includes("voetbal international") || s === "vi" || s.includes("vi live")) return base + "vi.png";
-      if (s.includes("sporza")) return base + "sporza.png";
-      if (s.includes("hln")) return base + "hln.png";
-      if (s.includes("nos")) return base + "nos.png";
-      if (s.includes("bbc")) return base + "bbc.png";
-      if (s.includes("guardian")) return base + "guardian.png";
-      if (s.includes("sky")) return base + "sky.png";
-      if (s.includes("espn")) return base + "espn.png";
-
-      return base + "default.png";
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+  
+    const homeListEl = document.getElementById("latest-news-grid");
+    const homeStatusEl = document.getElementById("latest-news-status");
+  
+    if (!homeListEl || !homeStatusEl) {
+      console.error("Home nieuws containers niet gevonden");
+      return;
     }
-
-    function getFlagFromCountry(country) {
-      if (country === "BE") return "🇧🇪";
-      if (country === "NL") return "🇳🇱";
-      if (country === "INT") return "🌍";
-      return "📰";
-    }
-
+  
     async function loadHomeNews() {
       try {
-        if (!homeListEl || !homeStatusEl) return;
-
-        homeStatusEl.style.display = "block";
-        homeStatusEl.textContent = "Nieuws wordt geladen…";
-
-        const res = await fetch("https://voetbal4all-backend.onrender.com/api/news", { cache: "no-store" });
-        if (!res.ok) throw new Error("news.json niet bereikbaar: " + res.status);
-
+        const res = await fetch("https://voetbal4all-backend.onrender.com/api/news?limit=6");
         const data = await res.json();
-        const itemsRaw = Array.isArray(data) ? data : (data.items || []);
-        const items = itemsRaw.slice(0, 10);
-
-        homeListEl.innerHTML = "";
-
-        if (!items.length) {
-          homeStatusEl.textContent = "Geen nieuws gevonden. Probeer later opnieuw.";
+  
+        if (!data.items || !data.items.length) {
+          homeStatusEl.style.display = "block";
+          homeStatusEl.textContent = "Geen nieuws gevonden...";
           return;
         }
-
+  
         homeStatusEl.style.display = "none";
-
-        items.forEach((item) => {
-          const source = "Voetbal4All";
-          const sourceLogo = getSourceLogo(source);
-          const title = item.title || item.titel || "Zonder titel";
-          const link = "artikel.html?file=" + item.fileName;
-          const summary = item.snippet || "";
-
-          let country = item.country || item.land || "";
-          if (country && country !== "BE" && country !== "NL") country = "INT";
-          const flag = item.flag || getFlagFromCountry(country);
-
-          const card = document.createElement("article");
-          card.className = "card home-article-card--compact";
-
-          card.innerHTML = `
-            <div class="home-article-media-thumb">
-              <img
-                src="${sourceLogo}"
-                alt="${source}"
-                loading="lazy"
-                onerror="this.onerror=null;this.src='${REPO_BASE}/assets/img/sources/default.png';"
-              />
-            </div>
-
-            <div class="home-article-content">
-              <div class="home-article-header">
-                <span class="flag-badge" title="${country || "Internationaal"}">${flag}</span>
-                <div class="article-meta">${source}</div>
-              </div>
-
-              <h3 class="article-title">
-                <a href="${link}">${title}</a>
-              </h3>
-              <p class="article-excerpt">${summary}</p>
-            </div>
-          `;
-
-          homeListEl.appendChild(card);
-        });
-
+  
+        homeListEl.innerHTML = data.items.map(a => `
+          <article class="article-item">
+            <h4>${a.title}</h4>
+          </article>
+        `).join("");
+  
       } catch (err) {
+        console.error("Fout bij laden home nieuws:", err);
+        homeStatusEl.textContent = "Nieuws kon niet geladen worden.";
         homeStatusEl.style.display = "block";
-        homeStatusEl.textContent = "Nieuws kon niet geladen worden. Controleer data/news.json en console.";
-        console.error(err);
       }
     }
-
+  
     loadHomeNews();
+  
+  });
   </script>
 
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
