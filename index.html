@@ -417,8 +417,8 @@
                 </p>
               </div>
 
-              <div id="home-news-list" class="article-list"></div>
-              <p id="home-news-status" class="note" style="display:none;"></p>
+              <div id="latest-news-grid" class="article-list"></div>
+              <p id="latest-news-status" class="note" style="display:none;"></p>
             </section>
 
             <!-- RECHTERKOLOM: LAATSTE TRAINERS + LAATSTE SPELERS -->
@@ -621,7 +621,7 @@
         homeStatusEl.style.display = "block";
         homeStatusEl.textContent = "Nieuws wordt geladen…";
 
-        const res = await fetch("data/news.json", { cache: "no-store" });
+        const res = await fetch("https://voetbal4all-backend.onrender.com/api/news", { cache: "no-store" });
         if (!res.ok) throw new Error("news.json niet bereikbaar: " + res.status);
 
         const data = await res.json();
@@ -638,11 +638,11 @@
         homeStatusEl.style.display = "none";
 
         items.forEach((item) => {
-          const source = item.source || item.competitie || "Nieuws";
+          const source = "Voetbal4All";
           const sourceLogo = getSourceLogo(source);
           const title = item.title || item.titel || "Zonder titel";
-          const link = item.link || "#";
-          const summary = item.summary || item.teaser || "";
+          const link = "artikel.html?file=" + item.fileName;
+          const summary = item.snippet || "";
 
           let country = item.country || item.land || "";
           if (country && country !== "BE" && country !== "NL") country = "INT";
@@ -668,7 +668,7 @@
               </div>
 
               <h3 class="article-title">
-                <a href="${link}" target="_blank" rel="noopener">${title}</a>
+                <a href="${link}">${title}</a>
               </h3>
               <p class="article-excerpt">${summary}</p>
             </div>
