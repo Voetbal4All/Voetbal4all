@@ -1694,19 +1694,22 @@ img {
   .navbar .nav-cta,
   .navbar .btn-adverteer{
     position: absolute !important;
-    right: calc(max(12px, env(safe-area-inset-right)) + 52px) !important; /* reserve voor burger + ruimte */
+    left: max(10px, env(safe-area-inset-left)) !important; /* verder naar links */
     top: 50% !important;
     transform: translateY(-50%) !important;
     z-index: 900 !important;
 
-    padding: 5px 9px !important;
-    font-size: 11px !important;
+    padding: 4px 8px !important;
+    font-size: 10px !important;
     line-height: 1 !important;
-    white-space: nowrap !important;
-    max-width: 30vw !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
     box-shadow: none !important;
+    border-radius: 999px !important;
+    max-width: none !important;
+  }
+
+  /* Op mobiel enkel hoofdtekst tonen */
+  .navbar .nav-cta span:last-child{
+    display: none !important;
   }
 
   /* Open nav-panel mag nooit boven burger komen */
