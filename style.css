@@ -654,7 +654,30 @@ footer { margin-top: auto; }
   font-size: 11px;
   cursor: pointer;
 }
+/* =======================
+   LIVE BANNER – MOBILE FIX
+   ======================= */
+   @media (max-width: 600px) {
 
+    /* Live tekst volledig binnen banner laten starten */
+    .live-text {
+      width: 100%;
+      align-items: flex-start;
+    }
+  
+    /* Social icons onderaan gecentreerd */
+    .live-socials {
+      width: 100%;
+      margin-top: 10px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .live-socials-label {
+      display: none; /* label weglaten op mobiel */
+    }
+  }
 /* Jouw advertentie-knop (home) */
 .btn-advert {
   padding: 9px 16px;
