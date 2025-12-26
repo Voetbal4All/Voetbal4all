@@ -422,7 +422,7 @@
         if (!res.ok) throw new Error("HTTP " + res.status);
 
         const data = await res.json();
-        allItems = Array.isArray(data) ? data : (data.articles || []);
+        allItems = Array.isArray(data?.items) ? data.items : [];
 
         // sort newest first (if date exists)
         allItems.sort((a,b) => {
@@ -436,7 +436,7 @@
         articleList.innerHTML = "";
         newsCount.textContent = "—";
         newsStatus.style.display = "block";
-        newsStatus.textContent = "Kon artikels niet laden. Controleer data/news.json en de bestandsstructuur.";
+        newsStatus.textContent = "Kon artikels niet laden. Controleer de backend /api/news en CORS.";
       }
     }
 
