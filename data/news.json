@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-25T23:22:59.348Z",
+  "generatedAt": "2025-12-26T01:56:42.559Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Forest's 'greatest' John Robertson dies at 72",
+      "link": "https://www.espn.com/soccer/story/_/id/47411055/european-cup-winner-nottingham-forest-greatest-john-robertson-dies-72",
+      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72, the Premier League club have announced.",
+      "publishedAt": "2025-12-25T23:42:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Richards on U.S., Palace return: 'Won't be long'",
+      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
+      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
+      "publishedAt": "2025-12-25T23:42:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim: Mainoo is the 'future of Manchester United'",
+      "link": "https://www.espn.com/soccer/story/_/id/47413190/ruben-amorim-kobbie-mainoo-future-manchester-united",
+      "summary": "Manchester United head coach Ruben Amorim has insisted Kobbie Mainoo represents the future of the club but may have to wait for his chance to prove it.",
+      "publishedAt": "2025-12-25T23:42:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Saliba: Arsenal targeting quadruple for this season",
+      "link": "https://www.espn.com/soccer/story/_/id/47412989/william-saliba-sets-sights-historic-quadruple-arsenal",
+      "summary": "Arsenal defender William Saliba has boldly predicted that the Gunners are capable of clinching an unprecedented quadruple this season to end their long-standing trophy drought.",
+      "publishedAt": "2025-12-25T23:42:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ball-by-ball updates: England face Australia in fourth Ashes Test at MCG",
+      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/fe02e167-7f01-579e-aea6-511c9478a970",
+      "summary": "",
+      "publishedAt": "2025-12-25T23:25:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -66,50 +121,6 @@
       "link": "https://www.skysports.com/football/news/12040/13487265/kobbie-mainoo-manchester-united-boss-ruben-amorim-insists-the-midfielder-is-still-the-future-of-the-club",
       "summary": "Ruben Amorim believes Kobbie Mainoo is the future of Manchester United despite the speculation surrounding the midfielder's future.",
       "publishedAt": "2025-12-25T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Forest's 'greatest' John Robertson dies at 72",
-      "link": "https://www.espn.com/soccer/story/_/id/47411055/european-cup-winner-nottingham-forest-greatest-john-robertson-dies-72",
-      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72, the Premier League club have announced.",
-      "publishedAt": "2025-12-25T22:29:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Richards on U.S., Palace return: 'Won't be long'",
-      "link": "https://www.espn.com/soccer/story/_/id/47407490/usmnt-chris-richards-optimistic-quick-palace-return",
-      "summary": "United States defender Chris Richards said it \"won't be long\" until he's back for Crystal Palace.",
-      "publishedAt": "2025-12-25T22:29:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Saliba: Arsenal targeting quadruple for this season",
-      "link": "https://www.espn.com/soccer/story/_/id/47412989/william-saliba-sets-sights-historic-quadruple-arsenal",
-      "summary": "Arsenal defender William Saliba has boldly predicted that the Gunners are capable of clinching an unprecedented quadruple this season to end their long-standing trophy drought.",
-      "publishedAt": "2025-12-25T22:29:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Zidane in stands for son Luca's Algeria clean sheet",
-      "link": "https://www.espn.com/soccer/story/_/id/47407784/zidane-sees-son-luca-keep-clean-sheet-algeria-win",
-      "summary": "France great Zinedine Zidane watched his goalkeeper son's safe hands as Algeria started its Africa Cup of Nations campaign with a 3-0 win over 10-man Sudan on Wednesday.",
-      "publishedAt": "2025-12-25T22:29:32.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47393252/why-premier-league-quietest-boxing-day-ever",
       "summary": "The day after Christmas is usually jam-packed with great Premier League matchups, but not this year. What gives?",
       "publishedAt": "2025-12-25T12:43:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool praying for a golden sky after seven months of storms",
-      "link": "https://www.theguardian.com/football/2025/dec/25/liverpool-praying-for-a-golden-sky-after-seven-months-of-storms",
-      "summary": "Despair and disorder have engulfed the club since their title party, leaving all concerned in need of previous serenity As Virgil van Dijk raised the Premier League trophy on a cool May afternoon at Anfield, the cap was sealed on a serenely glorious season for Liverpool. For sure there had been challenges en route to a 20th league title, but not many, and those that did arise were dealt with in a calm, orderly fashion. The ultimate prize had been captured with minimum sweat. Cue the celebrations after a final‑day 1-1 draw with Crystal Palace: players and staff dancing on the pitch, supporters doing the same in the stands, and no sense this was as good as it was going to get for the just-crowned champions. It took less than 24 hours for everything to change and set in motion an astonishing seven‑month period in the history of a club where it was probably thought they had seen and done it all. Continue reading...",
-      "publishedAt": "2025-12-25T12:00:42.000Z"
     }
   ]
 }
