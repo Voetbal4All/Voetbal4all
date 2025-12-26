@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2025-12-26T22:23:36.779Z",
+  "generatedAt": "2025-12-26T23:22:41.991Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Marokko komt niet langs stug Mali in tweede groepsduel op de Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/marokko-komt-niet-langs-stug-mali-in-tweede-groepsduel-op-de-afrika-cup",
-      "summary": "Het is Marokko op Tweede Kerstdag niet gelukt om van Mali te winnen op de Afrika Cup. De Leeuwen van de Atlas beten zich stuk op de stugge Malinezen. Na twee strafschoppen eindigde de wedstrijd in een gelijkspel: 1-1.",
-      "publishedAt": "2025-12-26T22:21:50.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -21,7 +10,117 @@
       "title": "Premier League Boxing Day recap: Man United hold off Newcastle",
       "link": "https://www.espn.com/soccer/story/_/id/47327131/premier-league-boxing-day-updates-manchester-united-newcastle-united",
       "summary": "null",
-      "publishedAt": "2025-12-26T22:16:52.000Z"
+      "publishedAt": "2025-12-26T23:08:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Mohamed Salah strikes again as 10-man Egypt hold off South Africa",
+      "link": "https://www.theguardian.com/football/2025/dec/26/afcon-roundup-mohamed-salah-strikes-again-as-10-man-egypt-hold-off-south-africa",
+      "summary": "Salah penalty puts Egypt into last 16 Hosts Morocco held by Mali in 1-1 draw Mohamed Salah scored a first-half penalty as 10-man Egypt defeated South Africa 1-0 in their Africa Cup of Nations Group B clash in Agadir to become the first team into the knockout stages of the competition. Egypt have six points from their opening two games and cannot finish outside of the top two in the group. South Africa have three points from their two games. Continue reading...",
+      "publishedAt": "2025-12-26T23:05:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Vervanger van De Ligt bewierookt: 'Hij was fenomenaal'",
+      "link": "https://www.vi.nl/nieuws/vervanger-van-de-ligt-bewierookt-hij-was-fenomenaal",
+      "summary": "De verdediging van Manchester United heeft dit seizoen al veel te verduren gehad, maar hield in het gewonnen Boxing Day-duel met Newcastle United eindelijk weer eens de nul. Dat leverde na afloop de nodige complimenten op, met name voor de vervanger van de geblesseerde Matthijs de Ligt.",
+      "publishedAt": "2025-12-26T22:56:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bondscoach Mali snapt niets van arbitrage: 'Maar als je voor 69.000 mensen fluit'",
+      "link": "https://www.vi.nl/nieuws/bondscoach-mali-snapt-niets-van-arbitrage-maar-als-je-voor-69-000-mensen-fluit",
+      "summary": "Bij Mali zijn ze niet honderd procent tevreden met het gelijkspel tegen Marokko op de Afrika Cup . Tom Saintfiet - de bondscoach van Mali die van Belgische aard is - vind dat zijn elftal nog een strafschop had kunnen krijgen.",
+      "publishedAt": "2025-12-26T22:55:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dorgu schiet Man Utd met prachtvolley naar Boxing Day-zege",
+      "link": "https://www.vi.nl/nieuws/dorgu-schiet-man-utd-met-prachtvolley-naar-boxing-day-zege",
+      "summary": "Patrick Dorgu heeft alle mensen die Manchester United een warm hart toedragen een fijne tweede kerstdag bezorgd. De linksback van The Mancunians was met een prachtige volley de matchwinner voor het Boxing Day-duel met Newcastle United.",
+      "publishedAt": "2025-12-26T22:43:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Stunning Dorgu volley gives Man Utd win over Newcastle",
+      "link": "https://www.bbc.com/sport/football/videos/cewje9eyqwyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United hold on to take all three points in a hard-fought 1-0 win against Newcastle, with Ruben Amorim's side moving into the top five.",
+      "publishedAt": "2025-12-26T22:32:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Mali weerhoudt Marokko voor het eerst in anderhalfjaar tijd van zege",
+      "link": "https://www.vi.nl/nieuws/marokko-komt-niet-langs-stug-mali-in-tweede-groepsduel-op-de-afrika-cup",
+      "summary": "Het is Marokko op Tweede Kerstdag niet gelukt om van Mali te winnen op de Afrika Cup. De Leeuwen van de Atlas beten zich stuk op de stugge Malinezen. Na twee strafschoppen eindigde de wedstrijd in een gelijkspel: 1-1.",
+      "publishedAt": "2025-12-26T22:24:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Dorgu volley gives Man United win vs. Newcastle",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740769",
+      "summary": "Patrick Dorgu opened his Manchester United account in spectacular fashion as the makeshift right winger's rasping volley sealed a win against Newcastle.",
+      "publishedAt": "2025-12-26T22:22:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham's Moore delighted with brace vs. ex-club",
+      "link": "https://www.espn.com/soccer/story/_/id/47421148/wrexham-kieffer-moore-delighted-double-vs-former-club-sheffield-united",
+      "summary": "Kieffer Moore was pleased to silence the Sheffield United fans after his double inspired a superb Wrexham fightback on Boxing Day.",
+      "publishedAt": "2025-12-26T22:22:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot needed to 'convince' Ekitike to reach best form",
+      "link": "https://www.espn.com/soccer/story/_/id/47417740/liverpool-hugo-ekitike-needed-convincing-reach-best-form-arne-slot",
+      "summary": "Liverpool striker Hugo Ekitike's five goals in four matches suggest he is starting to get to grips with the Premier League but head coach Arne Slot admits he had to push the player to reach his current levels.",
+      "publishedAt": "2025-12-26T22:22:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arteta 'hacked off' by Rice's time-wasting red card",
+      "link": "https://www.espn.com/soccer/story/_/id/47406419/arsenal-vs-brighton-mikel-arteta-hacked-declan-rice-premier-league",
+      "summary": "Mikel Arteta has revealed he was \"hacked off\" by Arsenal's draw with Brighton & Hove Albionlast season but hailed his side's improved disciplinary record this term.",
+      "publishedAt": "2025-12-26T22:22:23.000Z"
     },
     {
       "type": "rss",
@@ -33,61 +132,6 @@
       "link": "https://www.vi.nl/nieuws/marokko-nog-koploper-in-groep-c-vanwege-gelijkspel-comoren-en-zambia",
       "summary": "Traditiegetrouw wordt er in Engeland gevoetbald op Boxing Day. Ditmaal geen uitgebreid programma, maar slechts één duel: Manchester United tegen Newcastle United. Daarnaast speelt Marokko om 21.00 uur in de Afrika Cup tegen Mali. Volg de duels in deze VI Live.",
       "publishedAt": "2025-12-26T22:13:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dorgu schiet Man Utd met prachtvolley naar Boxing Day-zege",
-      "link": "https://www.vi.nl/nieuws/dorgu-schiet-man-utd-met-prachtvolley-naar-boxing-day-zege",
-      "summary": "Patrick Dorgu heeft alle mensen die Manchester United een warm hart toedragen een fijne tweede kerstdag bezorgd. De linksback van The Mancunians was met een prachtige volley de matchwinner voor het Boxing Day-duel met Newcastle United.",
-      "publishedAt": "2025-12-26T22:11:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot needed to 'convince' Ekitike to reach best form",
-      "link": "https://www.espn.com/soccer/story/_/id/47417740/liverpool-hugo-ekitike-needed-convincing-reach-best-form-arne-slot",
-      "summary": "Liverpool striker Hugo Ekitike's five goals in four matches suggest he is starting to get to grips with the Premier League but head coach Arne Slot admits he had to push the player to reach his current levels.",
-      "publishedAt": "2025-12-26T22:11:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta 'hacked off' by Rice's time-wasting red card",
-      "link": "https://www.espn.com/soccer/story/_/id/47406419/arsenal-vs-brighton-mikel-arteta-hacked-declan-rice-premier-league",
-      "summary": "Mikel Arteta has revealed he was \"hacked off\" by Arsenal's draw with Brighton & Hove Albionlast season but hailed his side's improved disciplinary record this term.",
-      "publishedAt": "2025-12-26T22:11:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham's Moore delighted with brace vs. ex-club",
-      "link": "https://www.espn.com/soccer/story/_/id/47421148/wrexham-kieffer-moore-delighted-double-vs-former-club-sheffield-united",
-      "summary": "Kieffer Moore was pleased to silence the Sheffield United fans after his double inspired a superb Wrexham fightback on Boxing Day.",
-      "publishedAt": "2025-12-26T22:11:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "SA boss claims Salah 'surprised' by penalty call",
-      "link": "https://www.espn.com/espn/story/_/id/47420330/mohamed-salah-was-surprised-granted-penalty-claims-bafana-boss-hugo-broos",
-      "summary": "South Africa head coach Hugo Broos claimed that Mohamed Salah admitted his surprise at receiving the penalty from which he scored the winning goal in Egypt's 1-0 triumph on Friday in Agadir.",
-      "publishedAt": "2025-12-26T22:11:18.000Z"
     },
     {
       "type": "rss",
@@ -106,10 +150,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Manchester United v Newcastle: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/26/manchester-united-v-newcastle-premer-league-live",
-      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Table | Mail Scott The teams are out! It’s a heartwarming festive scene, because whenever these storied old clubs meet, both get to keep on their famous kits. Manchester United in red and black, Newcastle United in black and white. A classic look as everyone trots out to the strains of This Is The One. A poignant chime to the track tonight, Manchester having said farewell to one of United’s biggest fans earlier this week. Go well, Mani. Our pre-match postbag is positively brimming with festive cheer. “A goal-glut for the ages, eh? Why do I feel like I’m in for the biggest Christmas let-down since I asked my da for the Barcelona Subbuteo team and opened up the box under the tree to find… Burnley? Yours, Scrooge and the Grinch” – Justin Kavanagh Continue reading...",
-      "publishedAt": "2025-12-26T22:08:07.000Z"
+      "title": "Patrick Dorgu volley powers Manchester United into fifth as Newcastle misfire",
+      "link": "https://www.theguardian.com/football/2025/dec/26/manchester-united-newcastle-united-premier-league-match-report",
+      "summary": "Boxing Day’s sole Premier League fixture tingled the senses and was graced by Patrick Dorgu’s killer finish that claimed the points and moved Manchester United up to a season-high fifth. They could – and maybe should – have been limited to a draw because Newcastle dominated the second period as their hosts’ rhythm went awry. But the visitors’ problem was a lack of teeth. Towards the end Joelinton pulled the trigger with the goal begging but he drilled into Senne Lammens’ gloves. Later, Joe Willock did the same with a cross. Then Anthony Gordon missed another clear chance. Continue reading...",
+      "publishedAt": "2025-12-26T22:04:57.000Z"
     },
     {
       "type": "rss",
@@ -121,28 +165,6 @@
       "link": "https://www.skysports.com/football/manchester-united-vs-newcastle-united/report/531305",
       "summary": "Patrick Dorgu's first-half volley sent Manchester United fifth in the Premier League table with a 1-0 win over Newcastle at Old Trafford as Ruben Amorim went to a back four.",
       "publishedAt": "2025-12-26T22:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Courtois verliest eretegel bij Atlético Madrid",
-      "link": "https://www.vi.nl/nieuws/courtois-verliest-eretegel-bij-atl-tico-madrid",
-      "summary": "Thibaut Courtois is zijn eretegel bij Atlético Madrid kwijtgeraakt. De club plaatst nieuwe stenen voor twintig clublegendes, maar de Belgische doelman, die jarenlang onder de lat stond, behoort daar niet langer toe.",
-      "publishedAt": "2025-12-26T21:32:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Waarom Gertjan Verbeek een Vijfdeklasser op Terschelling ondersteunt",
-      "link": "https://www.vi.nl/nieuws/waarom-gertjan-verbeek-een-vijfdeklasser-op-terschelling-ondersteunt",
-      "summary": "We kennen Gertjan Verbeek als trainer op het hoogste niveau in Nederland, maar anno 2025 is hij regelmatig op Terschelling te vinden om Vijfdeklasser AVV te ondersteunen. In gesprek met Voetbal International vertelt Verbeek hoe dat zo gekomen is.",
-      "publishedAt": "2025-12-26T21:16:00.000Z"
     },
     {
       "type": "rss",
@@ -179,17 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon roundup: Mohamed Salah strikes again as 10-man Egypt hold off South Africa",
-      "link": "https://www.theguardian.com/football/2025/dec/26/afcon-roundup-mohamed-salah-strikes-again-as-10-man-egypt-hold-off-south-africa",
-      "summary": "Salah penalty gives Egypt second win in two Angola and Zimbabwe battle to 1-1 draw Mohamed Salah scored a first-half penalty as 10-man Egypt defeated South Africa 1-0 in their Africa Cup of Nations Group B clash in Agadir on Friday to become the first team into the knockout stages of the competition. Egypt have six points from their opening two games and cannot finish outside of the top two in the group. South Africa have three points from their two games, while Zimbabwe and Angola have one each after they drew 1-1 earlier in the day. Continue reading...",
-      "publishedAt": "2025-12-26T20:17:29.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/clyx073nxljo?at_medium=RSS&at_campaign=rss",
       "summary": "Nottingham Forest are to rename a stand at the City Ground to honour their \"great hero\" John Robertson, who died at the age of 72 this week.",
       "publishedAt": "2025-12-26T18:37:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Cautious Middlesbrough lose ground on leaders with goalless Blackburn draw",
-      "link": "https://www.theguardian.com/football/2025/dec/26/middlesbrough-blackburn-championship-match-report",
-      "summary": "Kim Hellberg’s determination to succeed as Middlesbrough manager runs deep. So deep that he decided it would be best if his wife and two small children spent Christmas in their native Sweden while he continued to put in long days on Teesside. Given that the Hellberg family will soon be reunited in a new home in North Yorkshire and Blackburn’s visit represented the first of four games in nine days it seemed a sensible sacrifice – even if such pragmatism failed to pay the desired Boxing Day dividends. The former Hammarby head coach had hoped to celebrate the completion of his first month in charge at the Riverside Stadium after succeeding the Wolves-bound Rob Edwards with three points but Blackburn, and their irrepressible midfielder Todd Cantwell in particular, had different ideas. Continue reading...",
-      "publishedAt": "2025-12-26T17:24:25.000Z"
     }
   ]
 }
