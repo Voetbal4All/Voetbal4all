@@ -1691,3 +1691,13 @@ img {
     z-index: 500 !important;
   }
 }
+@media (max-width: 900px) {
+  .nav-cta {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 60;
+    white-space: nowrap;
+  }
+}
