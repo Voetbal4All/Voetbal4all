@@ -347,24 +347,23 @@
 
     function renderCard(a){
       const title = safe(a.title);
-      const url = safe(a.url);
-      const source = safe(a.source || a.publisher || "Bron");
+      const url = "artikel.html?file=" + encodeURIComponent(a.fileName);
+      const source = "Voetbal4All";
       const country = safe(a.country || "");
       const category = safe(a.category || "Algemeen");
-      const date = safe(a.date || a.publishedAt || "");
+      const date = safe(a.publishedAt || "");
 
       return `
-        <article class="ad-card" data-country="${safe(country)}" data-category="${safe(category)}">
+        <article class="ad-card">
           <div class="ad-card-header">
             <div>
               <div class="ad-card-title">${title}</div>
-              <div class="ad-card-meta">${flag(country)} ${country || "—"} · ${category} · ${source}</div>
+              <div class="ad-card-meta">${flag(country)} ${category} · ${source}</div>
             </div>
             <div class="ad-card-meta">${fmtDate(date)}</div>
           </div>
           <div class="ad-card-actions">
-            <a class="btn-ghost-sm" href="${url}" target="_blank" rel="noopener noreferrer">Open artikel</a>
-            <a class="btn-ghost-sm" href="${shareUrl(url)}" target="_blank" rel="noopener noreferrer">Delen</a>
+            <a class="btn-ghost-sm" href="${url}">Lees artikel</a>
           </div>
         </article>
       `;
