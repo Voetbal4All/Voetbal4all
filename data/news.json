@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-26T06:37:49.133Z",
+  "generatedAt": "2025-12-26T07:25:08.669Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Waarom er dit jaar maar één wedstrijd op Boxing Day is",
+      "link": "https://www.vi.nl/nieuws/waarom-er-dit-jaar-maar-een-wedstrijd-op-boxing-day-is",
+      "summary": "Boxing Day wordt traditioneel gezien als een van de hoogtepunten van de Premier League, maar het heeft er alle schijn van dat op tweede kerstdag slechts één wedstrijd wordt gespeeld. Dat heeft te maken met de uitzendrechten.",
+      "publishedAt": "2025-12-26T07:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Today on Sky Sports Racing: Fontwell, Sedgefield and Wolverhampton host live action",
+      "link": "https://www.skysports.com/racing/news/12040/13487027/today-on-sky-sports-racing-fontwell-sedgefield-and-wolverhampton-host-live-action",
+      "summary": "Watch every race from Fontwell, Sedgefield and Wolverhampton - live on Sky Sports Racing.",
+      "publishedAt": "2025-12-26T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England rolled for 110 after Tongue five-for on 20-wicket day at MCG",
+      "link": "https://www.skysports.com/cricket/news/12040/13487378/the-ashes-england-rolled-for-110-after-skittling-australia-for-152-on-20-wicket-boxing-day-at-melbourne-cricket-ground",
+      "summary": "England were bundled out for 110 inside 30 overs after Josh Tongue’s five-for had rolled Australia for 152 on a breathless, 20-wicket opening day of the Boxing Day Ashes Test in Melbourne.",
+      "publishedAt": "2025-12-26T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Littler 'expecting the worst' from Suljovic as styles expected to clash",
+      "link": "https://www.skysports.com/darts/news/12040/13487104/luke-littler-reigning-champion-expecting-the-worst-from-mensur-suljovic-in-third-round-of-world-darts-championship",
+      "summary": "Luke Littler says he's \"expecting the worst\" from Mensur Suljovic when they meet in the third round of the World Darts Championship on Saturday night.",
+      "publishedAt": "2025-12-26T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Statement year for women's sport: Record successes and England glory",
+      "link": "https://www.skysports.com/football/news/12040/13482542/womens-sports-biggest-moments-in-2025-lionesses-red-roses-beau-greaves-indian-cricket-netball-super-league-and-aja-wilson",
+      "summary": "This year was set to be a big year for women's sports and it certainly lived up to those expectations with endless success from female athletes.",
+      "publishedAt": "2025-12-26T07:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -44,17 +99,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47412989/william-saliba-sets-sights-historic-quadruple-arsenal",
       "summary": "Arsenal defender William Saliba has boldly predicted that the Gunners are capable of clinching an unprecedented quadruple this season to end their long-standing trophy drought.",
       "publishedAt": "2025-12-25T23:42:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ball-by-ball Ashes updates: England pass 100 nine down on 19-wicket day",
-      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/fe02e167-7f01-579e-aea6-511c9478a970",
-      "summary": "",
-      "publishedAt": "2025-12-25T23:25:00.000Z"
     },
     {
       "type": "rss",
@@ -157,17 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ten Hag: 'Weghorst kon niet goed koppen, maar wel goed denken'",
-      "link": "https://www.vi.nl/nieuws/ten-hag-weghorst-kon-niet-goed-koppen-maar-wel-goed-denken",
-      "summary": "Wout Weghorst was in de eerste seizoenshelft, tot zijn blessure, de aanvalsleider van Ajax. Purist Rafael van der Vaart constateerde onlangs in de Pak Schaal Podcast met frisse tegenzin dat hij hem steeds meer ging waarderen. 'Ik krijg het niet uit mijn strot, maar ik raak langzaam gecharmeerd van Weghorst.'",
-      "publishedAt": "2025-12-25T21:21:23.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -179,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ex-Nottingham Forest and Scotland winger Robertson dies aged 72",
-      "link": "https://www.skysports.com/football/news/12040/13487340/john-robertson-ex-nottingham-forest-and-scotland-winger-dies-aged-72",
-      "summary": "Former Nottingham Forest and Scotland winger John Robertson has died at the age of 72.",
-      "publishedAt": "2025-12-25T14:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cwywvy9yj9po?at_medium=RSS&at_campaign=rss",
       "summary": "Former Scotland, Nottingham Forest and Derby County winger John Robertson - once described by manager Brian Clough as \"a Picasso of our game\" - dies at the age of 72.",
       "publishedAt": "2025-12-25T13:53:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "John Robertson, Nottingham Forest and Scotland legend, dies aged 72",
-      "link": "https://www.theguardian.com/football/2025/dec/25/john-robertson-nottingham-forest-and-scotland-legend-dies-aged-72",
-      "summary": "Winger was described by Clough as ‘Picasso of our game’ Scored in Scotland’s 1981 win over England at Wembley John Robertson, the Nottingham Forest and Scotland legend, has died at the age of 72. Robertson was a hugely important part of the great Forest team that under Brian Clough rose from the second tier of English football to win multiple major honours, most famously back-to-back European Cups. Robertson assisted the decisive goal in the first European Cup triumph in 1979 and scored the decisive goal in the second, contributions that mark him out as one of the most remarkable players in British football history. He earned 28 Scotland caps, notably scoring the winning goal in a Home Championship victory over England at Wembley in May 1981. Clough described him as “the Picasso of our game”. Continue reading...",
-      "publishedAt": "2025-12-25T13:52:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "This will be the Premier League's quietest Boxing Day ever: Where did all the games go?",
-      "link": "https://www.espn.com/soccer/story/_/id/47393252/why-premier-league-quietest-boxing-day-ever",
-      "summary": "The day after Christmas is usually jam-packed with great Premier League matchups, but not this year. What gives?",
-      "publishedAt": "2025-12-25T12:43:50.000Z"
     }
   ]
 }
