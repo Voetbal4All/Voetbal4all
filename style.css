@@ -1223,58 +1223,57 @@ footer { margin-top: auto; }
 }
 
 /* =======================
-   MOBILE NAV (burger menu)
+   MOBILE NAV (burger menu) — SINGLE SOURCE
    ======================= */
 
-@media (max-width: 900px) {
-  /* nav default dicht */
-  .nav-links {
-    display: none;                 /* blijft dicht tot .is-open */
-    position: absolute;
-    top: 58px;                     /* onder navbar (gevraagd) */
-    left: 0;
-    right: 0;
-    padding: 12px 16px 16px;
-    background: rgba(5, 8, 20, 0.98);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(16px);
-    z-index: 80;
-    flex-direction: column;
-    gap: 12px;
+   @media (max-width: 900px) {
+    /* nav default dicht */
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 58px;              /* altijd onder de mobile navbar */
+      left: 0;
+      right: 0;
+      padding: 12px 16px 16px;
+      background: rgba(5, 8, 20, 0.98);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(16px);
+      z-index: 500;           /* lager dan burger (1000) */
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    /* open toestand */
+    .nav-links.is-open { display: flex; }
+  
+    /* dropdown menu: op mobiel niet hover-based */
+    .nav-item--dropdown .nav-dropdown {
+      position: static;
+      margin-top: 8px;
+      transform: none;
+      opacity: 1;
+      visibility: visible;
+      display: none;          /* dicht tot .is-open op item */
+      box-shadow: none;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(2, 3, 8, 0.55);
+    }
+  
+    /* hover/focus gedrag uitschakelen op mobiel */
+    .nav-item--dropdown:hover .nav-dropdown,
+    .nav-item--dropdown:focus-within .nav-dropdown {
+      display: none;
+    }
+  
+    /* Alleen tonen via JS class */
+    .nav-item--dropdown.is-open .nav-dropdown { display: block; }
+  
+    /* dropdown button: volledige breedte */
+    .nav-item--dropdown .nav-link--dropdown {
+      width: 100%;
+      justify-content: space-between;
+    }
   }
-
-  /* open toestand */
-  .nav-links.is-open { display: flex; }
-
-  /* dropdown menu: op mobiel niet hover-based */
-  .nav-item--dropdown .nav-dropdown {
-    position: static;
-    margin-top: 8px;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-    display: none;                 /* dicht tot .is-open op item */
-    box-shadow: none;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(2, 3, 8, 0.55);
-  }
-
-  /* hover/focus gedrag uitschakelen op mobiel */
-  .nav-item--dropdown:hover .nav-dropdown,
-  .nav-item--dropdown:focus-within .nav-dropdown {
-    display: none;
-  }
-
-  /* Alleen tonen via JS class */
-  .nav-item--dropdown.is-open .nav-dropdown { display: block; }
-
-  /* dropdown button: volledige breedte */
-  .nav-item--dropdown .nav-link--dropdown {
-    width: 100%;
-    justify-content: space-between;
-  }
-}
-
 /* =======================
    V4: CONTENT LINKS + STICKY SIDEBAR RECHTS
    (template voor veel pagina’s)
@@ -1656,64 +1655,133 @@ img {
     transparent 100%
   );
 }
-
 /* =======================
-   MOBILE HEADER FIX (ENIGE BRON)
-   - logo exact gecentreerd
-   - CTA links van burger
+   MOBILE NAV + HEADER FIX (SINGLE SOURCE OF TRUTH)
+   - menu standaard dicht (ook als JS faalt)
    - burger altijd klikbaar
+   - dropdowns klikbaar (via .is-open uit nav-mobile.js)
+   - CTA links op mobiel, nooit over logo
    ======================= */
-@media (max-width: 600px) {
+
+/* Desktop/algemeen: support “click-open” dropdown (JS toggelt .is-open) */
+.nav-item--dropdown.is-open .nav-dropdown{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px){
 
   .navbar-inner{
-    position: relative !important;
+    position: relative;
+  }
+
+  /* Burger altijd zichtbaar en boven alle lagen */
+  .nav-burger{
+    display: block;
+    position: absolute;
+    right: max(12px, env(safe-area-inset-right));
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    pointer-events: auto;
+  }
+
+  /* Mobile panel: standaard dicht */
+  .nav-links{
+    display: none !important;   /* hard dicht (voorkomt open bij load) */
+    position: absolute;
+    top: 58px;                  /* onder mobile navbar */
+    left: 0;
+    right: 0;
+    padding: 12px 16px 16px;
+    background: rgba(5, 8, 20, 0.98);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+    z-index: 900;
+
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+
+    pointer-events: auto;
+  }
+
+  .nav-links.is-open{
+    display: flex !important;
+  }
+
+  /* Links/buttons in panel full width */
+  .nav-links .nav-item,
+  .nav-links .nav-link,
+  .nav-links .nav-link--dropdown{
+    width: 100%;
+  }
+
+  /* Dropdowns: op mobiel enkel via class (geen hover) */
+  .nav-item--dropdown .nav-dropdown{
+    position: static;
+    margin-top: 8px;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+
+    display: none;              /* dicht tot .is-open */
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(2, 3, 8, 0.55);
+  }
+
+  .nav-item--dropdown:hover .nav-dropdown,
+  .nav-item--dropdown:focus-within .nav-dropdown{
+    display: none;
+  }
+
+  .nav-item--dropdown.is-open .nav-dropdown{
+    display: block;
+  }
+
+  .nav-item--dropdown .nav-link--dropdown{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    pointer-events: auto;
+  }
+}
+
+@media (max-width: 600px){
+
+  .navbar-inner{
     height: 58px;
   }
 
-  /* Logo exact in het midden */
+  /* Logo exact midden */
   .brand.brand--logo-only{
-    position: absolute !important;
-    left: 50% !important;
-    top: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    z-index: 10 !important;
-    pointer-events: auto !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
   }
 
-  /* Burger: altijd boven alles en klikbaar */
-  .nav-burger{
-    position: absolute !important;
-    right: max(12px, env(safe-area-inset-right)) !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    z-index: 1000 !important;
-    pointer-events: auto !important;
-  }
-
-  /* CTA: expliciet links van burger, zodat hij nooit eronder kan komen */
+  /* CTA links, compact, onder burger qua z-index */
   .navbar .nav-cta,
   .navbar .btn-adverteer{
-    position: absolute !important;
-    left: max(10px, env(safe-area-inset-left)) !important; /* verder naar links */
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    z-index: 900 !important;
+    position: absolute;
+    left: max(12px, env(safe-area-inset-left));
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;                 /* lager dan burger */
 
-    padding: 4px 8px !important;
-    font-size: 10px !important;
-    line-height: 1 !important;
-    box-shadow: none !important;
-    border-radius: 999px !important;
-    max-width: none !important;
-  }
+    max-width: 34vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
-  /* Op mobiel enkel hoofdtekst tonen */
-  .navbar .nav-cta span:last-child{
-    display: none !important;
-  }
-
-  /* Open nav-panel mag nooit boven burger komen */
-  .nav-links{
-    z-index: 500 !important;
+    padding: 5px 9px;
+    font-size: 11px;
+    line-height: 1;
+    box-shadow: none;
   }
 }
