@@ -577,43 +577,51 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-  
     const homeListEl = document.getElementById("latest-news-grid");
     const homeStatusEl = document.getElementById("latest-news-status");
   
-    if (!homeListEl || !homeStatusEl) {
-      console.error("Home nieuws containers niet gevonden");
+    if (!homeListEl) {
+      console.error("Container #latest-news-grid niet gevonden");
       return;
     }
   
     async function loadHomeNews() {
       try {
-        const res = await fetch("https://voetbal4all-backend.onrender.com/api/news?limit=6");
+        const url = "https://voetbal4all-backend.onrender.com/api/news?limit=6&ts=" + Date.now();
+        const res = await fetch(url, { cache: "no-store" });
+        console.log("[HOME] fetch", url, "->", res.status);
+  
         const data = await res.json();
+        console.log("[HOME] items:", (data.items || []).length);
   
         if (!data.items || !data.items.length) {
-          homeStatusEl.style.display = "block";
-          homeStatusEl.textContent = "Geen nieuws gevonden...";
+          if (homeStatusEl) {
+            homeStatusEl.style.display = "block";
+            homeStatusEl.textContent = "Geen nieuws gevonden...";
+          }
+          homeListEl.innerHTML = "";
           return;
         }
   
-        homeStatusEl.style.display = "none";
+        if (homeStatusEl) homeStatusEl.style.display = "none";
   
         homeListEl.innerHTML = data.items.map(a => `
           <article class="article-item">
-            <h4>${a.title}</h4>
+            <a class="article-link" href="artikel.html?file=${encodeURIComponent(a.fileName)}">
+              <h4>${a.title || ""}</h4>
+            </a>
           </article>
         `).join("");
-  
-      } catch (err) {
-        console.error("Fout bij laden home nieuws:", err);
-        homeStatusEl.textContent = "Nieuws kon niet geladen worden.";
-        homeStatusEl.style.display = "block";
+      } catch (e) {
+        console.error("[HOME] loadHomeNews error:", e);
+        if (homeStatusEl) {
+          homeStatusEl.style.display = "block";
+          homeStatusEl.textContent = "Nieuws laden mislukt.";
+        }
       }
     }
   
     loadHomeNews();
-  
   });
   </script>
 
