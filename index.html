@@ -578,7 +578,7 @@
 
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-      const CACHE_KEY = "v4a_home_news_cache_v1";
+      const CACHE_KEY = "home_news_html_v3";
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
 
       let hasRenderedHomeNews = false;
@@ -641,22 +641,45 @@
           }
 
           const html = renderItems.map(a => {
-            // filter: als title eruitziet als een slug/filename (veel - en eindigt op .json)
+            // 1) title check (zoals je al had)
             const rawTitle = a?.title || "";
             const looksLikeSlug =
               rawTitle.endsWith(".json") ||
               (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
 
             const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : rawTitle;
-
-            // veilig voor in HTML (minimaal: quotes)
             const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
 
-            // BELANGRIJK: alles hieronder zit in backticks
+            // 2) JUISTE file-naam (backend gebruikt fileName)
+            const file = a?.file || a?.fileName || "";
+
+            // 3) JUISTE image (zit genest in image.publicPath)
+            const imgPath =
+              a?.imageUrl ||
+              a?.image?.publicPath ||
+              a?.image?.path ||
+              a?.imagePath ||
+              "";
+
+            // 4) vlag op basis van country
+            const country = (a?.country || "").toUpperCase();
+            const flag =
+              country === "BE" ? "🇧🇪" :
+              country === "NL" ? "🇳🇱" :
+              country ? "🌍" : "";
+
             return `
               <article class="home-news__item">
-                <a href="artikel.html?file=${encodeURIComponent(a.file || "")}">
-                  <h4>${safeTitle}</h4>
+                <a class="home-news__link" href="artikel.html?file=${encodeURIComponent(file)}">
+                  <div class="home-news__thumbWrap">
+                    ${imgPath ? `<img class="home-news__thumb" src="${imgPath}" alt="${safeTitle}" loading="lazy">` : ``}
+                  </div>
+                  <div class="home-news__meta">
+                    <div class="home-news__titleRow">
+                      <span class="home-news__flag">${flag}</span>
+                      <h4 class="home-news__title">${safeTitle}</h4>
+                    </div>
+                  </div>
                 </a>
               </article>
             `;
