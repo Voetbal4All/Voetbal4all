@@ -314,28 +314,42 @@
     function safe(s){ return (s ?? "").toString(); }
     function norm(s){ return safe(s).toLowerCase().trim(); }
 
-    function flag(country) {
-      const raw = (country ?? "").toString().trim();
-      if (!raw) return "🌍";
+    function inferCountry(a){
+      // 1) Neem backend-country als die bruikbaar is
+      const raw = norm(a?.country || "");
+      if (raw && raw !== "int" && raw !== "international" && raw !== "internationaal") {
+        if (raw === "be" || raw.includes("belg")) return "be";
+        if (raw === "nl" || raw.includes("neder")) return "nl";
+        if (raw === "uk" || raw === "gb" || raw.includes("eng")) return "gb";
+        if (raw === "fr" || raw.includes("fran")) return "fr";
+        if (raw === "de" || raw.includes("duit")) return "de";
+        if (raw === "es" || raw.includes("span")) return "es";
+        if (raw === "it" || raw.includes("ital")) return "it";
+        return raw; // onbekend maar wel ingevuld
+      }
 
-      const c = raw.toLowerCase();
+      // 2) Anders: leid af uit bron / url / publisher / snippet (werkt nu voor jouw .be/.nl cases)
+      const hay = norm(
+        (a?.sourceUrl || a?.url || a?.link || "") + " " +
+        (a?.publisher || a?.source || "") + " " +
+        (a?.snippet || "")
+      );
 
-      // ISO-2
+      if (hay.includes(".be") || hay.includes("sporza") || hay.includes("hln") || hay.includes("nieuwsblad") || hay.includes("gva")) return "be";
+      if (hay.includes(".nl") || hay.includes("vi.nl") || hay.includes("voetbalprimeur") || hay.includes("ad.nl") || hay.includes("nos")) return "nl";
+
+      return "int";
+    }
+
+    function flagFromCode(code){
+      const c = norm(code);
       if (c === "be") return "🇧🇪";
       if (c === "nl") return "🇳🇱";
-
-      // ISO-3
-      if (c === "bel") return "🇧🇪";
-      if (c === "nld") return "🇳🇱";
-
-      // Volledige namen / varianten
-      if (c.includes("belg")) return "🇧🇪";         // belgium, belgië, belgique
-      if (c.includes("neder")) return "🇳🇱";        // nederland, nederlands
-      if (c.includes("nether")) return "🇳🇱";       // netherlands
-
-      // UK/GB (komt vaak voor bij Engelse bronnen)
-      if (c === "uk" || c === "gb" || c.includes("united kingdom")) return "🇬🇧";
-
+      if (c === "gb" || c === "uk") return "🇬🇧";
+      if (c === "fr") return "🇫🇷";
+      if (c === "de") return "🇩🇪";
+      if (c === "es") return "🇪🇸";
+      if (c === "it") return "🇮🇹";
       return "🌍";
     }
 
@@ -373,7 +387,7 @@
         const fileName = a.fileName || "";
         const url = fileName ? ("artikel.html?file=" + encodeURIComponent(fileName)) : "#";
 
-        const country = safe(a.country || "");
+        const cc = inferCountry(a);
         const category = safe(a.category || "Algemeen");
         const date = safe(a.publishedAt || a.date || a.createdAt || "");
         const snippet = safe(a.snippet || "");
@@ -395,7 +409,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flag(country)} ${country || "—"} · ${category} · Voetbal4All</div>
+                <div class="ad-card-meta">${flagFromCode(cc)} ${safe(a.category || "Algemeen")} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
