@@ -601,7 +601,6 @@
         hasRenderedHomeNews = true;
         hideStatus();
       }
-
       async function loadHomeNews() {
         try {
           const url = `${API_BASE}/api/news?limit=6&ts=${Date.now()}`;
@@ -654,12 +653,6 @@
             const file = a?.file || a?.fileName || "";
 
             // 3) JUISTE image (zit genest in image.publicPath)
-            const imgPath =
-              a?.imageUrl ||
-              a?.image?.publicPath ||
-              a?.image?.path ||
-              a?.imagePath ||
-              "";
 
             // 4) vlag op basis van country
             const country = (a?.country || "").toUpperCase();
@@ -668,6 +661,18 @@
               country === "NL" ? "🇳🇱" :
               country ? "🌍" : "";
 
+              let imgPath =
+                a?.imageUrl ||
+                a?.image?.publicPath ||
+                a?.image?.path ||
+                a?.imagePath ||
+                "";
+
+              // 👉 FIX: maak image-URL absoluut
+              if (imgPath && imgPath.startsWith("/")) {
+                imgPath = API_BASE + imgPath;
+              }
+              
             return `
               <article class="home-news__item">
                 <a class="home-news__link" href="artikel.html?file=${encodeURIComponent(file)}">
