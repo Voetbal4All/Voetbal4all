@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2025-12-27T10:23:54.855Z",
+  "generatedAt": "2025-12-27T11:19:32.505Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Can Hibs stop Premiership leaders Hearts? LIVE!",
+      "link": "https://www.skysports.com/football/live-blog/12040/13487703/scottish-premiership-live-hibs-vs-hearts-celtics-trip-to-livingston-live-on-sky-rangers-face-motherwell-as-part-of-full-card",
+      "summary": "",
+      "publishedAt": "2025-12-27T11:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Lampard en 'stoomwals' Coventry City kunnen zich vast opmaken voor Premier League",
-      "link": "https://www.vi.nl/nieuws/lampard-en-stoomwals-coventry-city-kunnen-zich-vast-opmaken-voor-premier-league",
-      "summary": "Frank Lampard is hard op weg naar de Premier League met zijn Coventry City. De 106-voudig international van Engeland is bezig aan een zeer succesvol seizoen in het Championship. Hij kan dan ook fraaie cijfers overleggen.",
-      "publishedAt": "2025-12-27T10:25:00.000Z"
+      "title": "Union sluit kerst chagrijnig af, El Hadj botst met eigen aanhang",
+      "link": "https://www.vi.nl/nieuws/union-sluit-kerst-chagrijnig-af-el-hadj-botst-met-eigen-aanhang",
+      "summary": "Union Sint-Gillis is het even kwijt. De Belgische titelverdediger bleef vrijdag op bezoek bij Cercle Brugge op een gelijkspel steken en won slechts één van de laatste vijf competitieduels. In het Jan Breydel Stadion botste Anouar Ait El Hadj bovendien met de supporters van Union.",
+      "publishedAt": "2025-12-27T10:51:10.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +32,29 @@
       "title": "Premier League buildup, Old Trafford reaction and latest news – matchday live",
       "link": "https://www.theguardian.com/football/live/2025/dec/27/premier-league-buildup-old-trafford-reaction-and-latest-news-matchday-live",
       "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here A few Optas ahead of today’s 12:30pm kick-off between Nottingham Forest and Manchester City. The Dyche v Guardiola one doesn’t bode well for those hoping for an upset. ● Nottingham Forest won their last Premier League match against Man City 1-0 in March last season, last winning consecutive league games against the Citizens in September 1995. Continue reading...",
-      "publishedAt": "2025-12-27T10:10:54.000Z"
+      "publishedAt": "2025-12-27T10:50:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Lampard en 'stoomwals' Coventry kunnen zich vast opmaken voor Premier League",
+      "link": "https://www.vi.nl/nieuws/lampard-en-stoomwals-coventry-city-kunnen-zich-vast-opmaken-voor-premier-league",
+      "summary": "Frank Lampard is hard op weg naar de Premier League met zijn Coventry City. De 106-voudig international van Engeland is bezig aan een zeer succesvol seizoen in het Championship. Hij kan dan ook fraaie cijfers overleggen.",
+      "publishedAt": "2025-12-27T10:27:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Nott'm Forest vs Man City team news LIVE!",
+      "link": "https://www.skysports.com/football/nottingham-forest-vs-manchester-city/live/531306",
+      "summary": "",
+      "publishedAt": "2025-12-27T10:00:00.000Z"
     },
     {
       "type": "rss",
@@ -69,17 +102,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Engelse titelkandidaten in actie op volle voetbalzaterdag",
-      "link": "https://www.vi.nl/nieuws/vi-live-engelse-titelkandidaten-in-actie-op-volle-voetbalzaterdag",
-      "summary": "Goedendag en welkom in de VI Live van zaterdag 27 december. Hopelijk had u een fijne kerstperiode, en bent u klaar voor een fraaie dag vol voetbal. In dit blog hoeft u niks te missen van mooie affiches in onder meer Italië, Engeland en Marokko.",
-      "publishedAt": "2025-12-27T09:18:54.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -95,7 +117,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Ashes Verdict: Athers and Nas on England's 'extraordinary victory'",
+      "title": "Ashes Verdict: Athers and Nas react to 'farcical' fourth Test in Melbourne",
       "link": "https://www.skysports.com/watch/video/13487693/the-ashes-athers-and-nas-share-their-verdict-on-englands-extraordinary-victory",
       "summary": "Nasser Hussain and Michael Atherton reflect on England's 'extraordinary victory' over Australia, which ends England 18-Test winless streak in Australia.",
       "publishedAt": "2025-12-27T08:48:00.000Z"
@@ -135,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "England win first Test in Australia in 15 years after thrilling two-dayer at MCG",
-      "link": "https://www.skysports.com/cricket/news/12040/13487677/the-ashes-england-win-first-test-in-australia-since-2011-and-end-danger-of-whitewash-after-two-day-victory-at-mcg",
-      "summary": "England avoided any danger of an Ashes whitewash after ending an 18-Test and 15-year winless streak in Australia with a two-day victory in a remarkable match at Melbourne to cut their hosts' lead to 3-1 with one game to go.",
-      "publishedAt": "2025-12-27T06:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -176,17 +187,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47327131/premier-league-boxing-day-updates-manchester-united-newcastle-united",
       "summary": "Take a look back at the Premier League action from the holiday.",
       "publishedAt": "2025-12-27T04:46:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "MCG madness! How England ended long wait for Test win in Australia",
-      "link": "https://www.skysports.com/cricket/live-blog/12040/13486857/the-ashes-australia-vs-england-fourth-test-live-score-and-updates-from-melbourne-as-england-aim-for-first-win",
-      "summary": "",
-      "publishedAt": "2025-12-27T04:20:00.000Z"
     },
     {
       "type": "rss",
