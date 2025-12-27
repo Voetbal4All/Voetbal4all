@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-27T06:36:10.345Z",
+  "generatedAt": "2025-12-27T07:21:46.802Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De herinneringen van Clarence Seedorf aan 1995: 'Ik waande me in het paradijs'",
+      "link": "https://www.vi.nl/pro/de-herinneringen-van-clarence-seedorf-aan-1995-ik-waande-me-in-het-paradijs",
+      "summary": "Voetbal International viert dit jaar zijn zestigjarig jubileum. Naar aanleiding daarvan herplaatsen we elke dag in het weekeinde een verhaal uit ons rijke archief. Ditmaal uit 2015, als Clarence Seedorf in Milaan twintig jaar na dato terugkijkt op zijn Europese triomftocht met Ajax. ‘Vlak voor de aftrap keken we elkaar aan en iedereen wist: Nu is het showtime.’",
+      "publishedAt": "2026-01-03T05:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van Gerwen: I don't care about two Lukes right now",
+      "link": "https://www.skysports.com/darts/news/12040/13487415/michael-van-gerwen-dutch-player-says-i-dont-care-about-luke-littler-and-luke-humphries-yet-at-world-darts-championship",
+      "summary": "Michael van Gerwen says he \"does not care\" about Luke Littler and Luke Humphries until he faces one of the two title favourites at the World Darts Championship.",
+      "publishedAt": "2025-12-27T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Duel tussen Nottingham Forest en Manchester City zaterdag niet bij Viaplay te zien",
+      "link": "https://www.vi.nl/nieuws/duel-tussen-nottingham-forest-en-manchester-city-zaterdag-niet-bij-viaplay-te-zien",
+      "summary": "Hoewel de Premier League-rechten bij Viaplay liggen, wordt de wedstrijd tussen Nottingham Forest en Manchester City zaterdag niet uitgezonden door de streamingdienst. Door een deal met Prime Video is die pot op dat platform exclusief te zien.",
+      "publishedAt": "2025-12-27T06:50:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England win first Test in Australia in 15 years after thrilling two-dayer at MCG",
+      "link": "https://www.skysports.com/cricket/news/12040/13487677/the-ashes-england-win-first-test-in-australia-since-2011-and-end-danger-of-whitewash-after-two-day-victory-at-mcg",
+      "summary": "England avoided any danger of an Ashes whitewash after ending an 18-Test and 15-year winless streak in Australia with a two-day victory in a remarkable match at Melbourne to cut their hosts' lead to 3-1 with one game to go.",
+      "publishedAt": "2025-12-27T06:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -40,7 +84,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "The Ashes LIVE! England win at MCG for first Test victory in Australia since 2011",
+      "title": "Stokes 'over the moon' as England win at MCG and avoid Ashes whitewash",
       "link": "https://www.skysports.com/cricket/live-blog/12040/13486857/the-ashes-australia-vs-england-fourth-test-live-score-and-updates-from-melbourne-as-england-aim-for-first-win",
       "summary": "",
       "publishedAt": "2025-12-27T04:20:00.000Z"
@@ -77,17 +121,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47422160/morocco-historic-winning-streak-snapped-mali",
       "summary": "Morocco and Mali played to a 1-1 draw on Friday in their second AFCON Group A match, with both sides converting penalties awarded after VAR interventions.",
       "publishedAt": "2025-12-27T01:23:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mali weerhoudt Marokko voor het eerst in anderhalfjaar tijd van zege",
-      "link": "https://www.vi.nl/nieuws/marokko-komt-niet-langs-stug-mali-in-tweede-groepsduel-op-de-afrika-cup",
-      "summary": "Het is Marokko op Tweede Kerstdag niet gelukt om van Mali te winnen op de Afrika Cup. De Leeuwen van de Atlas beten zich stuk op de stugge Malinezen. Na twee strafschoppen eindigde de wedstrijd in een gelijkspel: 1-1.",
-      "publishedAt": "2025-12-27T00:39:08.000Z"
     },
     {
       "type": "rss",
@@ -157,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dorgu schiet Man Utd met prachtvolley naar Boxing Day-zege",
-      "link": "https://www.vi.nl/nieuws/dorgu-schiet-man-utd-met-prachtvolley-naar-boxing-day-zege",
-      "summary": "Patrick Dorgu heeft alle mensen die Manchester United een warm hart toedragen een fijne tweede kerstdag bezorgd. De linksback van The Mancunians was met een prachtige volley de matchwinner voor het Boxing Day-duel met Newcastle United.",
-      "publishedAt": "2025-12-26T22:43:40.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -190,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd hang on for home win thanks to STUNNING Dorgu volley",
-      "link": "https://www.skysports.com/watch/video/13487652/man-united-1-0-newcastle-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Manchester United’s match against Newcastle United in the Premier League.",
-      "publishedAt": "2025-12-26T22:09:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/26/manchester-united-newcastle-united-premier-league-match-report",
       "summary": "Boxing Day’s sole Premier League fixture tingled the senses and was graced by Patrick Dorgu’s finish that moved Manchester United up to a season-high fifth. They could – and maybe should – have been limited to a draw because Newcastle United dominated the second period. The visitors’ problem was a lack of cutting edge. Towards the end Joelinton pulled the trigger with the goal begging but drilled only into Senne Lammens’ gloves. Joe Willock did the same with a cross. Then, Anthony Gordon spurned one more clear chance. Continue reading...",
       "publishedAt": "2025-12-26T22:04:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dorgu volley sees off Newcastle as Amorim's back-four switch pays off",
-      "link": "https://www.skysports.com/football/manchester-united-vs-newcastle-united/report/531305",
-      "summary": "Patrick Dorgu's first-half volley sent Manchester United fifth in the Premier League table with a 1-0 win over Newcastle at Old Trafford as Ruben Amorim went to a back four.",
-      "publishedAt": "2025-12-26T22:00:00.000Z"
     }
   ]
 }
