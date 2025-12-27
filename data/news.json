@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2025-12-27T04:35:22.518Z",
+  "generatedAt": "2025-12-27T05:25:10.178Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Makeshift Man United scrap to win over Newcastle, offering hope for rough stretch ahead",
+      "link": "https://www.espn.com/soccer/story/_/id/47421416/man-united-depleted-showed-fight-win-newcastle",
+      "summary": "Man United's win over Newcastle on Boxing Day may be Ruben Amorim's most satisfying yet as they overcame a depleted squad.",
+      "publishedAt": "2025-12-27T04:46:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League Boxing Day recap: Man United hold off Newcastle",
+      "link": "https://www.espn.com/soccer/story/_/id/47327131/premier-league-boxing-day-updates-manchester-united-newcastle-united",
+      "summary": "Take a look back at the Premier League action from the holiday.",
+      "publishedAt": "2025-12-27T04:46:34.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -66,28 +88,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c4gv11reqleo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United head coach Ruben Amorim was rewarded for a change in style and formation with a hard-fought win over Newcastle in the Premier League.",
       "publishedAt": "2025-12-27T00:21:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Makeshift Man United scrap to win over Newcastle, offering hope for rough stretch ahead",
-      "link": "https://www.espn.com/soccer/story/_/id/47421416/man-united-depleted-showed-fight-win-newcastle",
-      "summary": "Man United's win over Newcastle on Boxing Day may be Ruben Amorim's most satisfying yet as they overcame a depleted squad.",
-      "publishedAt": "2025-12-27T00:12:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League Boxing Day recap: Man United hold off Newcastle",
-      "link": "https://www.espn.com/soccer/story/_/id/47327131/premier-league-boxing-day-updates-manchester-united-newcastle-united",
-      "summary": "null",
-      "publishedAt": "2025-12-27T00:12:11.000Z"
     },
     {
       "type": "rss",
