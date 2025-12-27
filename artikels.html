@@ -35,32 +35,32 @@
             <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
 
             <!-- SPORTIEVE EVENTS -->
-<div class="nav-item nav-item--dropdown">
-  <button class="nav-link nav-link--dropdown">
-    Sportieve events <span class="nav-link-caret">▾</span>
-  </button>
-  <div class="nav-dropdown">
-    <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
-    <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-    <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-    <a href="stages.html" class="nav-dropdown-link">Stages</a>
-    <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
-  </div>
-</div>
+            <div class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-link--dropdown">
+                Sportieve events <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+                <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+                <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+                <a href="stages.html" class="nav-dropdown-link">Stages</a>
+                <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              </div>
+            </div>
 
             <!-- CLUB & FUN -->
-<div class="nav-item nav-item--dropdown">
-  <button class="nav-link nav-link--dropdown">
-    Club &amp; fun <span class="nav-link-caret">▾</span>
-  </button>
-  <div class="nav-dropdown">
-    <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
-    <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
-    <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
-    <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
-    <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
-  </div>
-</div>
+            <div class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-link--dropdown">
+                Club &amp; fun <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+                <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+                <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+                <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+                <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              </div>
+            </div>
 
             <!-- VACATURES & PROFIELEN -->
             <div class="nav-item nav-item--dropdown">
@@ -102,7 +102,6 @@
             </div>
           </nav>
 
-          <!-- CTA (buiten nav, voor nette uitlijning) -->
           <a href="adverteren.html" class="nav-cta">
             <span>Adverteer nu</span>
             <span>Sponsor &amp; Ads</span>
@@ -113,7 +112,7 @@
       </div>
     </header>
 
-    <!-- LIVE BANNER (PC + tablet, niet op mobiel via body class) -->
+    <!-- LIVE BANNER -->
     <section class="live-banner-top">
       <div class="shell">
         <div class="live-banner">
@@ -156,10 +155,10 @@
                 <div class="card-caption">Artikels</div>
                 <div class="card-title">Laatste voetbalnieuws &amp; verhalen (BE &amp; NL)</div>
               </div>
-              <span class="pill-small">Onder elkaar · beter leesbaar</span>
+              <span class="pill-small" id="news-count">—</span>
             </div>
             <p class="note">
-              Filter op land en categorie, en zoek op club/competitie. De feed komt uit <strong>data/news.json</strong>.
+              Filter op land en categorie, en zoek op club/competitie. De feed komt uit de backend via <strong>/api/news</strong>.
             </p>
           </article>
 
@@ -192,7 +191,7 @@
                   </select>
                 </div>
                 <div class="form-helper">
-                  Tip: klik op “Open artikel” om de bron te openen. Deel via “Delen”.
+                  Tip: klik op “Lees artikel” om jouw Voetbal4All-artikelpagina te openen.
                 </div>
               </div>
 
@@ -217,11 +216,11 @@
                       <div class="card-caption">Overzicht</div>
                       <div class="card-title">Laatste artikels &amp; verhalen</div>
                     </div>
-                    <span class="pill-small" id="news-count">—</span>
+                    <span class="pill-small" id="news-count-2">—</span>
                   </div>
 
                   <div id="article-list" class="ad-card-list ad-card-list--stack">
-                    <!-- gevuld via data/news.json -->
+                    <!-- gevuld via backend -->
                   </div>
 
                   <p id="news-status" class="note" style="margin-top:10px; display:none;"></p>
@@ -249,7 +248,6 @@
                   </div>
                 </article>
 
-                <!-- Sticky AdSense -->
                 <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
                   <ins class="adsbygoogle"
                     style="display:block"
@@ -298,12 +296,14 @@
     // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Data path (GitHub Pages vs custom domain)
-   const NEWS_URL = "https://voetbal4all-backend.onrender.com/api/news";
+    // Backend endpoints
+    const IMG_BASE = "https://voetbal4all-backend.onrender.com";
+    const NEWS_URL = IMG_BASE + "/api/news";
 
     const articleList = document.getElementById("article-list");
     const newsStatus = document.getElementById("news-status");
-    const newsCount = document.getElementById("news-count");
+    const newsCountTop = document.getElementById("news-count");
+    const newsCountTop2 = document.getElementById("news-count-2");
 
     const articleSearchText = document.getElementById("article-search-text");
     const articleFilterCountry = document.getElementById("article-filter-country");
@@ -328,8 +328,13 @@
       return d.toLocaleDateString("nl-BE", { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    function shareUrl(url){
-      return "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+    function toImgUrl(publicPath){
+      const p = safe(publicPath);
+      if (!p) return "";
+      // publicPath verwacht zoals "/images/articles/xyz.jpg"
+      if (p.startsWith("http://") || p.startsWith("https://")) return p;
+      if (p.startsWith("/")) return IMG_BASE + p;
+      return IMG_BASE + "/" + p;
     }
 
     function renderAdInfeed(slot){
@@ -347,22 +352,32 @@
 
     function renderCard(a){
       const title = safe(a.title);
-      const url = "artikel.html?file=" + encodeURIComponent(a.fileName);
-      const source = "Voetbal4All";
+      const url = "artikel.html?file=" + encodeURIComponent(a.fileName || "");
       const country = safe(a.country || "");
       const category = safe(a.category || "Algemeen");
-      const date = safe(a.publishedAt || "");
+      const date = safe(a.publishedAt || a.date || "");
+      const snippet = safe(a.snippet || "");
+      const imgUrl = toImgUrl(a?.image?.publicPath);
 
       return `
         <article class="ad-card">
           <div class="ad-card-header">
             <div>
               <div class="ad-card-title">${title}</div>
-              <div class="ad-card-meta">${flag(country)} ${category} · ${source}</div>
+              <div class="ad-card-meta">${flag(country)} ${category} · Voetbal4All</div>
             </div>
             <div class="ad-card-meta">${fmtDate(date)}</div>
           </div>
-          <div class="ad-card-actions">
+
+          ${imgUrl ? `
+            <a href="${url}" class="article-link" style="display:block; margin-top:10px;">
+              <img class="article-thumb" src="${imgUrl}" alt="${title.replace(/"/g,"&quot;")}" loading="lazy" style="width:100%; height:auto; border-radius:12px; display:block;" />
+            </a>
+          ` : ""}
+
+          ${snippet ? `<p class="note" style="margin-top:10px;">${snippet}</p>` : ""}
+
+          <div class="ad-card-actions" style="margin-top:10px;">
             <a class="btn-ghost-sm" href="${url}">Lees artikel</a>
           </div>
         </article>
@@ -371,11 +386,11 @@
 
     function applyFilters(){
       const q = norm(articleSearchText.value);
-      const c = "";   // backend levert (nog) geen country
-      const cat = ""; // backend levert (nog) geen category
+      const c = safe(articleFilterCountry.value);
+      const cat = safe(articleFilterCategory.value);
 
       const filtered = allItems.filter(a => {
-        const text = norm((a.title||"") + " " + (a.source||a.publisher||"") + " " + (a.category||"") + " " + (a.country||""));
+        const text = norm((a.title||"") + " " + (a.snippet||"") + " " + (a.source||a.publisher||"") + " " + (a.category||"") + " " + (a.country||""));
         if (q && !text.includes(q)) return false;
 
         if (c) {
@@ -390,7 +405,9 @@
       });
 
       articleList.innerHTML = "";
-      newsCount.textContent = filtered.length ? (filtered.length + " artikels") : "0 artikels";
+      const countLabel = filtered.length ? (filtered.length + " artikels") : "0 artikels";
+      newsCountTop.textContent = countLabel;
+      newsCountTop2.textContent = countLabel;
 
       if (!filtered.length){
         newsStatus.style.display = "block";
@@ -403,7 +420,7 @@
       filtered.forEach((a, i) => {
         articleList.insertAdjacentHTML("beforeend", renderCard(a));
 
-        // In-feed ads na 6 en 14 artikels (max return zonder te agressief te zijn)
+        // In-feed ads
         if (i === 5) {
           articleList.insertAdjacentHTML("beforeend", renderAdInfeed("5761272101"));
           try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
@@ -423,19 +440,20 @@
         const data = await res.json();
         allItems = Array.isArray(data?.items) ? data.items : [];
 
-        // sort newest first (if date exists)
+        // sort newest first
         allItems.sort((a,b) => {
-          const da = new Date(a.date || a.publishedAt || 0).getTime();
-          const db = new Date(b.date || b.publishedAt || 0).getTime();
+          const da = new Date(a.publishedAt || a.date || 0).getTime();
+          const db = new Date(b.publishedAt || b.date || 0).getTime();
           return db - da;
         });
 
         applyFilters();
       } catch (e) {
         articleList.innerHTML = "";
-        newsCount.textContent = "—";
+        newsCountTop.textContent = "—";
+        newsCountTop2.textContent = "—";
         newsStatus.style.display = "block";
-        newsStatus.textContent = "Kon artikels niet laden. Controleer de backend /api/news en CORS.";
+        newsStatus.textContent = "Kon artikels niet laden. Controleer /api/news en CORS.";
       }
     }
 
