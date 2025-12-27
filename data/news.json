@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-27T05:25:10.178Z",
+  "generatedAt": "2025-12-27T06:36:10.345Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "How Guardiola made Man City title contenders again - tactical analysis",
+      "link": "https://www.bbc.com/sport/articles/c87lv4yx240o?at_medium=RSS&at_campaign=rss",
+      "summary": "After their Premier League domination came to an abrupt end last season, how has Pep Guardiola changed things tactically to bring about Manchester City's recent revival?",
+      "publishedAt": "2025-12-27T06:10:51.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -29,7 +40,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "The Ashes LIVE! England chasing 175 to win wild MCG Test on day two",
+      "title": "The Ashes LIVE! England win at MCG for first Test victory in Australia since 2011",
       "link": "https://www.skysports.com/cricket/live-blog/12040/13486857/the-ashes-australia-vs-england-fourth-test-live-score-and-updates-from-melbourne-as-england-aim-for-first-win",
       "summary": "",
       "publishedAt": "2025-12-27T04:20:00.000Z"
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/football/manchester-united-vs-newcastle-united/report/531305",
       "summary": "Patrick Dorgu's first-half volley sent Manchester United fifth in the Premier League table with a 1-0 win over Newcastle at Old Trafford as Ruben Amorim went to a back four.",
       "publishedAt": "2025-12-26T22:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Championship roundup: Wrexham stun Sheffield United in eight-goal thriller",
-      "link": "https://www.theguardian.com/football/2025/dec/26/championship-roundup-coventry-leicester-southampton-sheffield-united-ipswich",
-      "summary": "Wrexham roar back to win 5-3; Coventry stretch lead Ipswich and Millwall draw; Bristol City beat Albion Kieffer Moore struck twice against his old club as Wrexham recovered from 3-1 down to beat Sheffield United 5-3 in a late afternoon Boxing Day thriller at STōK Cae Ras. Patrick Bamford had looked like stealing the headlines with a well-taken early double for the visitors but Wrexham powered back to claim their first win in six league outings. With his short-term contract due to expire on New Year’s Day, Bamford put himself in the shop window as he scored either side of a Tyler Bindon own goal. Callum O’Hare added a third for Chris Wilder’s side but Wrexham responded through Moore and levelled through Ryan Longman. Moore put them ahead for the first time and a Josh Windass penalty completed the fightback. Continue reading...",
-      "publishedAt": "2025-12-26T20:41:46.000Z"
     }
   ]
 }
