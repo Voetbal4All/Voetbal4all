@@ -6,6 +6,9 @@
     crossorigin="anonymous"></script>
 
   <meta charset="UTF-8" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Voetbal4All - Home</title>
   <link rel="canonical" href="https://www.voetbal4all.eu/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +16,7 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <!-- Hoofd-stylesheet -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20251227a" />
 
   <!-- Redirect: /index.html -> / -->
   <script>
@@ -579,6 +582,8 @@
   document.addEventListener("DOMContentLoaded", () => {
     const homeListEl = document.getElementById("latest-news-grid");
     const homeStatusEl = document.getElementById("latest-news-status");
+
+    let hasRenderedHomeNews = false;
   
     if (!homeListEl) {
       console.error("Container #latest-news-grid niet gevonden");
@@ -587,37 +592,62 @@
   
     async function loadHomeNews() {
       try {
+        const CACHE_KEY = "v4a_home_news_cache_v1";
+        const cachedHtml = localStorage.getItem(CACHE_KEY);
+        if (cachedHtml && homeListEl && !homeListEl.innerHTML.trim()) {
+        homeListEl.innerHTML = cachedHtml;
+        hasRenderedHomeNews = true;          // <-- TOEVOEGEN
+        if (homeStatusEl) homeStatusEl.style.display = "none";
+        return;
+      }
+
         const url = "https://voetbal4all-backend.onrender.com/api/news?limit=6&ts=" + Date.now();
         const res = await fetch(url, { cache: "no-store" });
         console.log("[HOME] fetch", url, "->", res.status);
-  
+
+        if (!res.ok) {
+          throw new Error("[HOME] API error: " + res.status);
+        }
+
+        const ct = res.headers.get("content-type") || "";
+        if (!ct.includes("application/json")) {
+          const txt = await res.text();
+          throw new Error("[HOME] Expected JSON, got: " + ct + " / " + txt.slice(0, 200));
+        }
+
         const data = await res.json();
         console.log("[HOME] items:", (data.items || []).length);
   
         if (!data.items || !data.items.length) {
-          if (homeStatusEl) {
-            homeStatusEl.style.display = "block";
-            homeStatusEl.textContent = "Geen nieuws gevonden...";
-          }
-          homeListEl.innerHTML = "";
-          return;
+        // BELANGRIJK:
+        // - niets wissen
+        // - enkel iets tonen als er NOG NOOIT gerenderd is
+        if (!hasRenderedHomeNews) {
+          homeStatusEl.style.display = "block";
+          homeStatusEl.textContent = "Artikels worden geladen…";
         }
+        return;
+      }
   
         if (homeStatusEl) homeStatusEl.style.display = "none";
   
         const IMG_BASE = "https://voetbal4all-backend.onrender.com";
 
-          homeListEl.innerHTML = data.items.map(a => {
+        homeListEl.innerHTML = (data.items || []).map(a => {
+          hasRenderedHomeNews = true;
             const img = a?.image?.publicPath ? (IMG_BASE + a.image.publicPath) : "";
+            const safeTitle = (a.title || "").replace(/"/g, "&quot;");
             return `
               <article class="article-item">
                 <a class="article-link" href="artikel.html?file=${encodeURIComponent(a.fileName)}">
-                  ${img ? `<img class="article-thumb" src="${img}" alt="${(a.title||"").replace(/"/g, "&quot;")}" loading="lazy">` : ``}
+                  ${img ? `<img class="article-thumb" src="${img}" alt="${safeTitle}" loading="lazy">` : ``}
                   <h4>${a.title || ""}</h4>
                 </a>
               </article>
             `;
-            }).join("");
+          }).join("");
+          hasRenderedHomeNews = true;
+          localStorage.setItem(CACHE_KEY, homeListEl.innerHTML);
       } catch (e) {
         console.error("[HOME] loadHomeNews error:", e);
         if (homeStatusEl) {
