@@ -1794,3 +1794,31 @@ img {
   display: block;
   margin-bottom: 10px;
 }
+
+/* ================================
+   HOME – COMPACT ARTICLE THUMBNAILS (FINAL)
+   ================================ */
+
+   .home-articles .article-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .home-articles .article-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex: 0 0 auto;
+  }
+  
+  .home-articles h4 {
+    font-size: 15px;
+    line-height: 1.3;
+    margin: 0;
+  }
+  
+  .home-articles img:not(.article-thumb) {
+    display: none;
+  }
