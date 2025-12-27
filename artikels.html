@@ -314,10 +314,28 @@
     function safe(s){ return (s ?? "").toString(); }
     function norm(s){ return safe(s).toLowerCase().trim(); }
 
-    function flag(country){
-      const c = norm(country);
-      if (c === "be" || c.includes("belg")) return "🇧🇪";
-      if (c === "nl" || c.includes("neder")) return "🇳🇱";
+    function flag(country) {
+      const raw = (country ?? "").toString().trim();
+      if (!raw) return "🌍";
+
+      const c = raw.toLowerCase();
+
+      // ISO-2
+      if (c === "be") return "🇧🇪";
+      if (c === "nl") return "🇳🇱";
+
+      // ISO-3
+      if (c === "bel") return "🇧🇪";
+      if (c === "nld") return "🇳🇱";
+
+      // Volledige namen / varianten
+      if (c.includes("belg")) return "🇧🇪";         // belgium, belgië, belgique
+      if (c.includes("neder")) return "🇳🇱";        // nederland, nederlands
+      if (c.includes("nether")) return "🇳🇱";       // netherlands
+
+      // UK/GB (komt vaak voor bij Engelse bronnen)
+      if (c === "uk" || c === "gb" || c.includes("united kingdom")) return "🇬🇧";
+
       return "🌍";
     }
 
