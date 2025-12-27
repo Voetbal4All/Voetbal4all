@@ -642,13 +642,18 @@
 
           const html = renderItems.map(a => {
             const img = a?.image?.publicPath ? (IMG_BASE + a.image.publicPath) : "";
-            const safeTitle = (a.title || "").replace(/"/g, "&quot;");
+            const rawTitle = (a.title || "").trim();
 
-            return `
-              <article class="article-item">
-                <a class="article-link" href="artikel.html?file=${encodeURIComponent(a.fileName || "")}">
-                  ${img ? `<img class="article-thumb" src="${img}" alt="${safeTitle}" loading="lazy">` : ``}
-                  <h4>${a.title || ""}</h4>
+            // filter: als title eruitziet als een slug/filename (veel - en eindigt op .json), toon het niet
+            const looksLikeSlug =
+              rawTitle.endsWith(".json") ||
+              (rawTitle.length > 40 && (rawTitle.split("-").length >= 6));
+
+            const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : rawTitle;
+
+            const safeTitle = displayTitle.replace(/"/g, "&quot;");
+            ...
+            <h4>${safeTitle}</h4>
                 </a>
               </article>
             `;
