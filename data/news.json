@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2025-12-26T23:22:41.991Z",
+  "generatedAt": "2025-12-27T01:54:40.870Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim hails 'spirit' of depleted Man Utd in win",
+      "link": "https://www.espn.com/soccer/story/_/id/47422409/ruben-amorim-hails-manchester-united-spirit-gritty-newcastle-win",
+      "summary": "Manchester United boss Ruben Amorim lauded his team's spirit and togetherness after a depleted squad beat Newcastle on Friday.",
+      "publishedAt": "2025-12-27T01:23:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham's Moore delighted with brace vs. ex-club",
+      "link": "https://www.espn.com/soccer/story/_/id/47421148/wrexham-kieffer-moore-delighted-double-vs-former-club-sheffield-united",
+      "summary": "Kieffer Moore was pleased to silence the Sheffield United fans after his double inspired a superb Wrexham fightback on Boxing Day.",
+      "publishedAt": "2025-12-27T01:23:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Morocco's historic winning streak snapped by Mali",
+      "link": "https://www.espn.com/soccer/story/_/id/47422160/morocco-historic-winning-streak-snapped-mali",
+      "summary": "Morocco and Mali played to a 1-1 draw on Friday in their second AFCON Group A match, with both sides converting penalties awarded after VAR interventions.",
+      "publishedAt": "2025-12-27T01:23:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Mali weerhoudt Marokko voor het eerst in anderhalfjaar tijd van zege",
+      "link": "https://www.vi.nl/nieuws/marokko-komt-niet-langs-stug-mali-in-tweede-groepsduel-op-de-afrika-cup",
+      "summary": "Het is Marokko op Tweede Kerstdag niet gelukt om van Mali te winnen op de Afrika Cup. De Leeuwen van de Atlas beten zich stuk op de stugge Malinezen. Na twee strafschoppen eindigde de wedstrijd in een gelijkspel: 1-1.",
+      "publishedAt": "2025-12-27T00:39:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'We suffered together' - Amorim changes style as Man Utd win",
+      "link": "https://www.bbc.com/sport/football/articles/c4gv11reqleo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United head coach Ruben Amorim was rewarded for a change in style and formation with a hard-fought win over Newcastle in the Premier League.",
+      "publishedAt": "2025-12-27T00:21:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Makeshift Man United scrap to win over Newcastle, offering hope for rough stretch ahead",
+      "link": "https://www.espn.com/soccer/story/_/id/47421416/man-united-depleted-showed-fight-win-newcastle",
+      "summary": "Man United's win over Newcastle on Boxing Day may be Ruben Amorim's most satisfying yet as they overcame a depleted squad.",
+      "publishedAt": "2025-12-27T00:12:11.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +76,40 @@
       "title": "Premier League Boxing Day recap: Man United hold off Newcastle",
       "link": "https://www.espn.com/soccer/story/_/id/47327131/premier-league-boxing-day-updates-manchester-united-newcastle-united",
       "summary": "null",
-      "publishedAt": "2025-12-26T23:08:13.000Z"
+      "publishedAt": "2025-12-27T00:12:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Sometimes you need to adapt': Why Amorim finally changed Man Utd formation",
+      "link": "https://www.skysports.com/football/news/12040/13487661/man-utd-1-0-newcastle-ruben-amorim-explains-change-in-formation-in-old-trafford-win",
+      "summary": "\"Sometimes you need to adapt and there is no tactic in that moment,\" said Ruben Amorim after Manchester United's 1-0 win over Newcastle. He was responding after acknowledging that he had gone with a back six late in the game.",
+      "publishedAt": "2025-12-27T00:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Scorecard: Australia vs England, fourth Ashes Test, Melbourne",
+      "link": "https://www.skysports.com/cricket/australia-v-england/scorecard/fe02e167-7f01-579e-aea6-511c9478a970",
+      "summary": "",
+      "publishedAt": "2025-12-26T23:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ball-by-ball Ashes updates: England and Australia resume Boxing Day Test",
+      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/fe02e167-7f01-579e-aea6-511c9478a970",
+      "summary": "",
+      "publishedAt": "2025-12-26T23:25:00.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +128,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Vervanger van De Ligt bewierookt: 'Hij was fenomenaal'",
-      "link": "https://www.vi.nl/nieuws/vervanger-van-de-ligt-bewierookt-hij-was-fenomenaal",
-      "summary": "De verdediging van Manchester United heeft dit seizoen al veel te verduren gehad, maar hield in het gewonnen Boxing Day-duel met Newcastle United eindelijk weer eens de nul. Dat leverde na afloop de nodige complimenten op, met name voor de vervanger van de geblesseerde Matthijs de Ligt.",
-      "publishedAt": "2025-12-26T22:56:25.000Z"
+      "title": "Bondscoach Mali snapt niets van arbitrage: 'Maar als je voor 69.000 mensen fluit'",
+      "link": "https://www.vi.nl/nieuws/bondscoach-mali-snapt-niets-van-arbitrage-maar-als-je-voor-69-000-mensen-fluit",
+      "summary": "Bij Mali zijn ze niet honderd procent tevreden met het gelijkspel tegen Marokko op de Afrika Cup . Tom Saintfiet - de bondscoach van Mali die van Belgische aard is - vind dat zijn elftal nog een strafschop had kunnen krijgen.",
+      "publishedAt": "2025-12-26T22:56:35.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +139,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Bondscoach Mali snapt niets van arbitrage: 'Maar als je voor 69.000 mensen fluit'",
-      "link": "https://www.vi.nl/nieuws/bondscoach-mali-snapt-niets-van-arbitrage-maar-als-je-voor-69-000-mensen-fluit",
-      "summary": "Bij Mali zijn ze niet honderd procent tevreden met het gelijkspel tegen Marokko op de Afrika Cup . Tom Saintfiet - de bondscoach van Mali die van Belgische aard is - vind dat zijn elftal nog een strafschop had kunnen krijgen.",
-      "publishedAt": "2025-12-26T22:55:25.000Z"
+      "title": "Vervanger van De Ligt bewierookt: 'Hij was fenomenaal'",
+      "link": "https://www.vi.nl/nieuws/vervanger-van-de-ligt-bewierookt-hij-was-fenomenaal",
+      "summary": "De verdediging van Manchester United heeft dit seizoen al veel te verduren gehad, maar hield in het gewonnen Boxing Day-duel met Newcastle United eindelijk weer eens de nul. Dat leverde na afloop de nodige complimenten op, met name voor de vervanger van de geblesseerde Matthijs de Ligt.",
+      "publishedAt": "2025-12-26T22:56:25.000Z"
     },
     {
       "type": "rss",
@@ -66,61 +165,6 @@
       "link": "https://www.bbc.com/sport/football/videos/cewje9eyqwyo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United hold on to take all three points in a hard-fought 1-0 win against Newcastle, with Ruben Amorim's side moving into the top five.",
       "publishedAt": "2025-12-26T22:32:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mali weerhoudt Marokko voor het eerst in anderhalfjaar tijd van zege",
-      "link": "https://www.vi.nl/nieuws/marokko-komt-niet-langs-stug-mali-in-tweede-groepsduel-op-de-afrika-cup",
-      "summary": "Het is Marokko op Tweede Kerstdag niet gelukt om van Mali te winnen op de Afrika Cup. De Leeuwen van de Atlas beten zich stuk op de stugge Malinezen. Na twee strafschoppen eindigde de wedstrijd in een gelijkspel: 1-1.",
-      "publishedAt": "2025-12-26T22:24:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dorgu volley gives Man United win vs. Newcastle",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740769",
-      "summary": "Patrick Dorgu opened his Manchester United account in spectacular fashion as the makeshift right winger's rasping volley sealed a win against Newcastle.",
-      "publishedAt": "2025-12-26T22:22:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham's Moore delighted with brace vs. ex-club",
-      "link": "https://www.espn.com/soccer/story/_/id/47421148/wrexham-kieffer-moore-delighted-double-vs-former-club-sheffield-united",
-      "summary": "Kieffer Moore was pleased to silence the Sheffield United fans after his double inspired a superb Wrexham fightback on Boxing Day.",
-      "publishedAt": "2025-12-26T22:22:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot needed to 'convince' Ekitike to reach best form",
-      "link": "https://www.espn.com/soccer/story/_/id/47417740/liverpool-hugo-ekitike-needed-convincing-reach-best-form-arne-slot",
-      "summary": "Liverpool striker Hugo Ekitike's five goals in four matches suggest he is starting to get to grips with the Premier League but head coach Arne Slot admits he had to push the player to reach his current levels.",
-      "publishedAt": "2025-12-26T22:22:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta 'hacked off' by Rice's time-wasting red card",
-      "link": "https://www.espn.com/soccer/story/_/id/47406419/arsenal-vs-brighton-mikel-arteta-hacked-declan-rice-premier-league",
-      "summary": "Mikel Arteta has revealed he was \"hacked off\" by Arsenal's draw with Brighton & Hove Albionlast season but hailed his side's improved disciplinary record this term.",
-      "publishedAt": "2025-12-26T22:22:23.000Z"
     },
     {
       "type": "rss",
@@ -152,7 +196,7 @@
       "flag": "🌍",
       "title": "Patrick Dorgu volley powers Manchester United into fifth as Newcastle misfire",
       "link": "https://www.theguardian.com/football/2025/dec/26/manchester-united-newcastle-united-premier-league-match-report",
-      "summary": "Boxing Day’s sole Premier League fixture tingled the senses and was graced by Patrick Dorgu’s killer finish that claimed the points and moved Manchester United up to a season-high fifth. They could – and maybe should – have been limited to a draw because Newcastle dominated the second period as their hosts’ rhythm went awry. But the visitors’ problem was a lack of teeth. Towards the end Joelinton pulled the trigger with the goal begging but he drilled into Senne Lammens’ gloves. Later, Joe Willock did the same with a cross. Then Anthony Gordon missed another clear chance. Continue reading...",
+      "summary": "Boxing Day’s sole Premier League fixture tingled the senses and was graced by Patrick Dorgu’s finish that moved Manchester United up to a season-high fifth. They could – and maybe should – have been limited to a draw because Newcastle United dominated the second period. The visitors’ problem was a lack of cutting edge. Towards the end Joelinton pulled the trigger with the goal begging but drilled only into Senne Lammens’ gloves. Joe Willock did the same with a cross. Then, Anthony Gordon spurned one more clear chance. Continue reading...",
       "publishedAt": "2025-12-26T22:04:57.000Z"
     },
     {
@@ -168,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler reveals corrective eye surgery in childhood",
-      "link": "https://www.skysports.com/darts/news/12040/13487645/luke-littler-darts-sensation-reveals-corrective-eye-surgery-in-childhood-im-thankful-parents-got-it-sorted",
-      "summary": "Luke Littler has revealed his life could have taken a different path had he not had corrective eye surgery when he was a child.",
-      "publishedAt": "2025-12-26T21:03:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -187,39 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/26/championship-roundup-coventry-leicester-southampton-sheffield-united-ipswich",
       "summary": "Wrexham roar back to win 5-3; Coventry stretch lead Ipswich and Millwall draw; Bristol City beat Albion Kieffer Moore struck twice against his old club as Wrexham recovered from 3-1 down to beat Sheffield United 5-3 in a late afternoon Boxing Day thriller at STōK Cae Ras. Patrick Bamford had looked like stealing the headlines with a well-taken early double for the visitors but Wrexham powered back to claim their first win in six league outings. With his short-term contract due to expire on New Year’s Day, Bamford put himself in the shop window as he scored either side of a Tyler Bindon own goal. Callum O’Hare added a third for Chris Wilder’s side but Wrexham responded through Moore and levelled through Ryan Longman. Moore put them ahead for the first time and a Josh Windass penalty completed the fightback. Continue reading...",
       "publishedAt": "2025-12-26T20:41:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd consider Garner move - Saturday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/c5yjn6mk1eeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United are considering a move for James Garner, Chelsea want to offload Raheem Sterling and Axel Disasi, Sandro Tonali is a target for Juventus, plus more.",
-      "publishedAt": "2025-12-26T20:39:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Draper to miss Australian Open due to injury recovery",
-      "link": "https://www.skysports.com/tennis/news/12040/13487632/jack-draper-british-no-1-announces-he-will-miss-australian-open-grand-slam-due-to-arm-injury-recovery",
-      "summary": "Jack Draper has announced he will miss next month's Australian Open after admitting he is not quite ready for a return to top-level competition.",
-      "publishedAt": "2025-12-26T19:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Forest to rename stand in honour of Robertson",
-      "link": "https://www.bbc.com/sport/football/articles/clyx073nxljo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nottingham Forest are to rename a stand at the City Ground to honour their \"great hero\" John Robertson, who died at the age of 72 this week.",
-      "publishedAt": "2025-12-26T18:37:31.000Z"
     }
   ]
 }
