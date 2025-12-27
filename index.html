@@ -641,19 +641,22 @@
           }
 
           const html = renderItems.map(a => {
-            const img = a?.image?.publicPath ? (IMG_BASE + a.image.publicPath) : "";
-            const rawTitle = (a.title || "").trim();
-
-            // filter: als title eruitziet als een slug/filename (veel - en eindigt op .json), toon het niet
+            // filter: als title eruitziet als een slug/filename (veel - en eindigt op .json)
+            const rawTitle = a?.title || "";
             const looksLikeSlug =
               rawTitle.endsWith(".json") ||
-              (rawTitle.length > 40 && (rawTitle.split("-").length >= 6));
+              (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
 
             const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : rawTitle;
 
-            const safeTitle = displayTitle.replace(/"/g, "&quot;");
-            ...
-            <h4>${safeTitle}</h4>
+            // veilig voor in HTML (minimaal: quotes)
+            const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
+
+            // BELANGRIJK: alles hieronder zit in backticks
+            return `
+              <article class="home-news__item">
+                <a href="artikel.html?file=${encodeURIComponent(a.file || "")}">
+                  <h4>${safeTitle}</h4>
                 </a>
               </article>
             `;
