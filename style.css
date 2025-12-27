@@ -1822,12 +1822,3 @@ img {
   .home-articles img:not(.article-thumb) {
     display: none;
   }
-
- /* ARTICLE THUMBS – default (niet home) */
-.article-thumb{
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
-}
