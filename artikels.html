@@ -341,15 +341,41 @@
       return "int";
     }
 
-    function flagFromCode(code){
-      const c = norm(code);
-      if (c === "be") return "🇧🇪";
-      if (c === "nl") return "🇳🇱";
-      if (c === "gb" || c === "uk") return "🇬🇧";
-      if (c === "fr") return "🇫🇷";
-      if (c === "de") return "🇩🇪";
-      if (c === "es") return "🇪🇸";
-      if (c === "it") return "🇮🇹";
+    function detectCountry(a){
+      // Verzamel mogelijke bronnen waar "land" in kan zitten
+      const candidates = [
+        a?.country,
+        a?.source,
+        a?.publisher,
+        a?.site,
+        a?.domain,
+        a?.url,
+        a?.link,
+        a?.originalUrl,
+        a?.sourceUrl,
+        a?.feedUrl,
+      ]
+        .filter(Boolean)
+        .map(s => String(s).toLowerCase().trim());
+
+      // 1) Eerst: echte ISO-code als die er is
+      const c0 = String(a?.country || "").toLowerCase().trim();
+      if (c0 === "be") return "BE";
+      if (c0 === "nl") return "NL";
+
+      // 2) Dan: afleiden uit domein/bron-tekst
+      for (const s of candidates) {
+        if (s.includes(".be") || s.includes("belg")) return "BE";
+        if (s.includes(".nl") || s.includes("neder")) return "NL";
+      }
+
+      return "INT";
+    }
+
+    function flag(a){
+      const cc = detectCountry(a);
+      if (cc === "BE") return "🇧🇪";
+      if (cc === "NL") return "🇳🇱";
       return "🌍";
     }
 
@@ -409,7 +435,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flagFromCode(cc)} ${safe(a.category || "Algemeen")} · Voetbal4All</div>
+                <div class="ad-card-meta">${flag(a)} ${detectCountry(a)} · ${category} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
