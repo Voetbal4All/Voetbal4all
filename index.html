@@ -631,8 +631,7 @@
             return true;
           });
 
-          // Gebruik vanaf hier enkel uniqueItems
-          const renderItems = uniqueItems.slice(0, 6);
+          const renderItems = items.slice(0, 6);
           console.log("[HOME] items:", items.length);
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
