@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2025-12-27T11:19:32.505Z",
+  "generatedAt": "2025-12-27T12:47:01.731Z",
   "items": [
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Can Hibs stop Premiership leaders Hearts? LIVE!",
-      "link": "https://www.skysports.com/football/live-blog/12040/13487703/scottish-premiership-live-hibs-vs-hearts-celtics-trip-to-livingston-live-on-sky-rangers-face-motherwell-as-part-of-full-card",
-      "summary": "",
-      "publishedAt": "2025-12-27T11:00:00.000Z"
+      "title": "Premier League live updates: Man City can go top with win at Forest",
+      "link": "https://www.espn.com/soccer/story/_/id/47327288/premier-league-live-updates-nottingham-forest-manchester-city-arsenal-brighton-liverpool-wolves-chelsea-aston-villa",
+      "summary": "null",
+      "publishedAt": "2025-12-27T12:39:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Gutting and frustrating' - Wood undergoes surgery",
+      "link": "https://www.bbc.com/sport/football/articles/cqxq5935879o?at_medium=RSS&at_campaign=rss",
+      "summary": "Nottingham Forest striker Chris Wood is set for extended spell on sidelines after undergoing surgery.",
+      "publishedAt": "2025-12-27T12:38:41.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +29,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Union sluit kerst chagrijnig af, El Hadj botst met eigen aanhang",
-      "link": "https://www.vi.nl/nieuws/union-sluit-kerst-chagrijnig-af-el-hadj-botst-met-eigen-aanhang",
-      "summary": "Union Sint-Gillis is het even kwijt. De Belgische titelverdediger bleef vrijdag op bezoek bij Cercle Brugge op een gelijkspel steken en won slechts één van de laatste vijf competitieduels. In het Jan Breydel Stadion botste Anouar Ait El Hadj bovendien met de supporters van Union.",
-      "publishedAt": "2025-12-27T10:51:10.000Z"
+      "title": "VI Live: Man City met Reijnders in de basis begonnen tegen Forest",
+      "link": "https://www.vi.nl/nieuws/vi-live-man-city-met-reijnders-in-de-basis-op-bezoek-bij-forest",
+      "summary": "Goedendag en welkom in de VI Live van zaterdag 27 december. Hopelijk had u een fijne kerstperiode, en bent u klaar voor een fraaie dag vol voetbal. In dit blog hoeft u niks te missen van mooie affiches in onder meer Italië, Engeland en Marokko.",
+      "publishedAt": "2025-12-27T12:30:12.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +40,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Premier League buildup, Old Trafford reaction and latest news – matchday live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/27/premier-league-buildup-old-trafford-reaction-and-latest-news-matchday-live",
-      "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here A few Optas ahead of today’s 12:30pm kick-off between Nottingham Forest and Manchester City. The Dyche v Guardiola one doesn’t bode well for those hoping for an upset. ● Nottingham Forest won their last Premier League match against Man City 1-0 in March last season, last winning consecutive league games against the Citizens in September 1995. Continue reading...",
-      "publishedAt": "2025-12-27T10:50:38.000Z"
+      "title": "Nottingham Forest v Manchester City: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/27/nottingam-forest-v-manchester-city-premier-league-live",
+      "summary": "⚽ Premier League updates from 12.30pm GMT kick-off ⚽ Live scores | Table | Mail Barry Manchester City: Although nothing has officially been agree between the two clubs, Manchester City are in pole position to sign Antoine Semenyo in January after Chelsea cooled their interest in the Bournemouth winger. Jacob Steinberg reports … Referee: Rob Jones Assistants: Neil Davies and Nick Greenhalgh Fourth official: Gavin Ward VAR: Andy Madley Assistant VAR: Dan Robathan Continue reading...",
+      "publishedAt": "2025-12-27T12:26:59.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +51,65 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Lampard en 'stoomwals' Coventry kunnen zich vast opmaken voor Premier League",
-      "link": "https://www.vi.nl/nieuws/lampard-en-stoomwals-coventry-city-kunnen-zich-vast-opmaken-voor-premier-league",
-      "summary": "Frank Lampard is hard op weg naar de Premier League met zijn Coventry City. De 106-voudig international van Engeland is bezig aan een zeer succesvol seizoen in het Championship. Hij kan dan ook fraaie cijfers overleggen.",
-      "publishedAt": "2025-12-27T10:27:24.000Z"
+      "title": "Duel tussen Nottingham Forest en Manchester City zaterdag niet bij Viaplay te zien",
+      "link": "https://www.vi.nl/nieuws/duel-tussen-nottingham-forest-en-manchester-city-zaterdag-niet-bij-viaplay-te-zien",
+      "summary": "Hoewel de Premier League-rechten bij Viaplay liggen, wordt de wedstrijd tussen Nottingham Forest en Manchester City zaterdag niet uitgezonden door de streamingdienst. Door een deal met Prime Video is die pot op dat platform exclusief te zien.",
+      "publishedAt": "2025-12-27T12:24:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bruggink blikt zelfkritisch terug: 'We lieten Ltaief aan zijn lot over'",
+      "link": "https://www.vi.nl/nieuws/bruggink-blikt-zelfkritisch-terug-we-lieten-ltaief-aan-zijn-lot-over",
+      "summary": "In het kerstnummer van VI kijkt Arnold Bruggink terug op zijn tweeënhalf jaar als technisch directeur van FC Twente. De ex-prof besloot na afloop van het vorige seizoen te stoppen om gezondheidsredenen. Hij vertelt er openhartig over.",
+      "publishedAt": "2025-12-27T12:23:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim hails 'spirit' of depleted Man Utd in win",
+      "link": "https://www.espn.com/soccer/story/_/id/47422409/ruben-amorim-hails-manchester-united-spirit-gritty-newcastle-win",
+      "summary": "Manchester United boss Ruben Amorim lauded his team's spirit and togetherness after a depleted squad beat Newcastle on Friday.",
+      "publishedAt": "2025-12-27T12:10:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot needed to 'convince' Ekitike to reach best form",
+      "link": "https://www.espn.com/soccer/story/_/id/47417740/liverpool-hugo-ekitike-needed-convincing-reach-best-form-arne-slot",
+      "summary": "Liverpool striker Hugo Ekitike's five goals in four matches suggest he is starting to get to grips with the Premier League but head coach Arne Slot admits he had to push the player to reach his current levels.",
+      "publishedAt": "2025-12-27T12:10:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham's Moore delighted with brace vs. ex-club",
+      "link": "https://www.espn.com/soccer/story/_/id/47421148/wrexham-kieffer-moore-delighted-double-vs-former-club-sheffield-united",
+      "summary": "Kieffer Moore was pleased to silence the Sheffield United fans after his double inspired a superb Wrexham fightback on Boxing Day.",
+      "publishedAt": "2025-12-27T12:10:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Morocco's historic winning streak snapped by Mali",
+      "link": "https://www.espn.com/soccer/story/_/id/47422160/morocco-historic-winning-streak-snapped-mali",
+      "summary": "Morocco and Mali played to a 1-1 draw on Friday in their second AFCON Group A match, with both sides converting penalties awarded after VAR interventions.",
+      "publishedAt": "2025-12-27T12:10:35.000Z"
     },
     {
       "type": "rss",
@@ -51,7 +117,51 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Nott'm Forest vs Man City team news LIVE!",
+      "title": "World Darts Championship LIVE! Ratajski, Gilding and Clayton headline this afternoon",
+      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
+      "summary": "",
+      "publishedAt": "2025-12-27T12:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Mijlpaal bij Man Utd is dichtbij voor comeback kid Malacia",
+      "link": "https://www.vi.nl/nieuws/mijlpaal-bij-man-utd-is-dichtbij-voor-comeback-kid-malacia",
+      "summary": "Zijn invalbeurt tegen Newcastle United op Boxing Day was kort, maar betekende ongetwijfeld veel voor Tyrell Malacia. De 26-jarige linksback maakte vrijdagavond zijn eerste speelminuten in de Premier League sinds 26 januari van dit jaar.",
+      "publishedAt": "2025-12-27T11:59:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Turpin beste scheidsrechter ter wereld, geen Nederlanders in toptien",
+      "link": "https://www.vi.nl/nieuws/turpin-beste-scheidsrechter-ter-wereld-geen-nederlanders-in-toptien",
+      "summary": "Clément Turpin is door de IFFHS uitgeroepen tot de beste scheidsrechter ter wereld in 2025. De Fransman volgt daarmee zijn landgenoot François Letexier op. In de toptien is geen enkele Nederlandse scheidsrechter te vinden.",
+      "publishedAt": "2025-12-27T11:16:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Hibs take early lead vs Hearts LIVE on Sky!",
+      "link": "https://www.skysports.com/football/hibernian-vs-hearts/live/531837",
+      "summary": "",
+      "publishedAt": "2025-12-27T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City pushing for win to go top vs Forest LIVE!",
       "link": "https://www.skysports.com/football/nottingham-forest-vs-manchester-city/live/531306",
       "summary": "",
       "publishedAt": "2025-12-27T10:00:00.000Z"
@@ -69,39 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Terell Ondaan weet nu wat écht geluk is: 'Voetbal was niks voor mij'",
-      "link": "https://www.vi.nl/pro/terell-ondaan-weet-nu-wat-cht-geluk-is-voetbal-was-niks-voor-mij",
-      "summary": "Terell Ondaan (32) zou qua leeftijd nog prima kunnen voetballen, maar speelde vier jaar geleden al zijn laatste profwedstrijd. Hij voelde zich lang niet altijd gelukkig in het wereldje, ging door donkere dagen heen, maar weet nu wat écht belangrijk is. Hij werkt bij een autoverhuurbedrijf en zorgt voor zijn autistische zoon. ‘Mijn enige droom is dat hij gelukkig is.’",
-      "publishedAt": "2025-12-27T10:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Klaassen dart tegen ex-wereldkampioen Price: 'Wilde een koptelefoon opzetten'",
-      "link": "https://www.vi.nl/nieuws/weghorst-en-klaassen-spelen-potje-darts-met-ex-wereldkampioen-price-en-smith",
-      "summary": "Dat Wout Weghorst en Davy Klaassen een aardig balletje kunnen trappen, is bekend. Maar kan het Ajax-duo ook een beetje darten? Dat mochten Weghorst en Klaassen laten zien tijdens de Ajax Darts Challenge, waaraan ook Ross Smith en oud-wereldkampioen Gerwyn Price meededen.",
-      "publishedAt": "2025-12-27T09:50:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Premier League-debutanten op rapport: een 11 voor Robin Roefs!",
-      "link": "https://www.vi.nl/video/premier-league-debutanten-op-rapport-een-11-voor-robin-roefs",
-      "summary": "In Rondje Boxing Day geven kenners buitenlands voetbal Süleyman Öztürk en Bas van den Hoven de Nederlandse debutanten in de Premier League een rapportcijfer op basis van de eerste seizoenshelft. In dit fragment komt Robin Roefs aan bod.",
-      "publishedAt": "2025-12-27T09:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -113,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ashes Verdict: Athers and Nas react to 'farcical' fourth Test in Melbourne",
-      "link": "https://www.skysports.com/watch/video/13487693/the-ashes-athers-and-nas-share-their-verdict-on-englands-extraordinary-victory",
-      "summary": "Nasser Hussain and Michael Atherton reflect on England's 'extraordinary victory' over Australia, which ends England 18-Test winless streak in Australia.",
-      "publishedAt": "2025-12-27T08:48:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -131,17 +197,6 @@
       "title": "I was there: England’s Euro 2025 glory was a surreal, almost psychedelic blur",
       "link": "https://www.theguardian.com/football/2025/dec/27/i-was-there-england-survive-setbacks-and-shootouts-to-seal-euro-2025-glory",
       "summary": "Sarina Wiegman’s champions took supporters on the most thrilling and nail-biting ride in Switzerland that was in many ways even more enjoyable to cover than their 2022 triumph Surreal. Utterly surreal. A home Euros in 2022 had provided wave after wave of emotion, England’s win at Wembley the culmination of decades of growth, setbacks, fight and deep longing. Everyone sang from the same hymn sheet for that maiden Euros win: the written press, broadcasters, fans, sponsors, Football Association, players and Sarina Wiegman and her staff. There were tears – lots. Having begun covering women’s football for the Guardian via a weekly column before the 2017 Euros, then gone full-time before the 2019 World Cup, I felt as if I had lived that progression, journeyed with them, contributed, in some small way, to that growth. The 2025 edition was different, surreal, an almost psychedelic experience. In many ways better than 2022. This was England’s first major tournament win – male or female – away from home. Expectations were high but injuries, retirements and inconsistent performances and results had made most aware that a title defence wouldn’t be a procession. That made it all the more magnificent. Continue reading...",
-      "publishedAt": "2025-12-27T08:00:33.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Morocco no longer continental pariah as Afcon showcases its global standing",
-      "link": "https://www.theguardian.com/football/2025/dec/27/morocco-no-longer-continental-pariah-as-afcon-showcases-its-global-standing",
-      "summary": "Country pulled out of hosting 2015 tournament but has since become central figure within world football It is hard to conceive that Morocco, now the nerve centre for staging Africa’s marquee football events, was a continental pariah 10 years ago. Abruptly pulling out of hosting the 2015 Africa Cup of Nations, over fears it would lead to the spread of the Ebola virus in the kingdom, forced the Confederation of African Football to move the tournament to Equatorial Guinea, with less than 90 days to prepare for its staging. Continue reading...",
       "publishedAt": "2025-12-27T08:00:33.000Z"
     },
     {
@@ -165,61 +220,6 @@
       "link": "https://www.bbc.com/sport/articles/c87lv4yx240o?at_medium=RSS&at_campaign=rss",
       "summary": "After their Premier League domination came to an abrupt end last season, how has Pep Guardiola changed things tactically to bring about Manchester City's recent revival?",
       "publishedAt": "2025-12-27T06:10:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Makeshift Man United scrap to win over Newcastle, offering hope for rough stretch ahead",
-      "link": "https://www.espn.com/soccer/story/_/id/47421416/man-united-depleted-showed-fight-win-newcastle",
-      "summary": "Man United's win over Newcastle on Boxing Day may be Ruben Amorim's most satisfying yet as they overcame a depleted squad.",
-      "publishedAt": "2025-12-27T04:46:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League Boxing Day recap: Man United hold off Newcastle",
-      "link": "https://www.espn.com/soccer/story/_/id/47327131/premier-league-boxing-day-updates-manchester-united-newcastle-united",
-      "summary": "Take a look back at the Premier League action from the holiday.",
-      "publishedAt": "2025-12-27T04:46:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim hails 'spirit' of depleted Man Utd in win",
-      "link": "https://www.espn.com/soccer/story/_/id/47422409/ruben-amorim-hails-manchester-united-spirit-gritty-newcastle-win",
-      "summary": "Manchester United boss Ruben Amorim lauded his team's spirit and togetherness after a depleted squad beat Newcastle on Friday.",
-      "publishedAt": "2025-12-27T01:23:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham's Moore delighted with brace vs. ex-club",
-      "link": "https://www.espn.com/soccer/story/_/id/47421148/wrexham-kieffer-moore-delighted-double-vs-former-club-sheffield-united",
-      "summary": "Kieffer Moore was pleased to silence the Sheffield United fans after his double inspired a superb Wrexham fightback on Boxing Day.",
-      "publishedAt": "2025-12-27T01:23:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Morocco's historic winning streak snapped by Mali",
-      "link": "https://www.espn.com/soccer/story/_/id/47422160/morocco-historic-winning-streak-snapped-mali",
-      "summary": "Morocco and Mali played to a 1-1 draw on Friday in their second AFCON Group A match, with both sides converting penalties awarded after VAR interventions.",
-      "publishedAt": "2025-12-27T01:23:55.000Z"
     }
   ]
 }
