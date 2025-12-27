@@ -350,39 +350,47 @@
       `;
     }
 
-    function renderCard(a){
-      const title = safe(a.title);
-      const url = "artikel.html?file=" + encodeURIComponent(a.fileName || "");
-      const country = safe(a.country || "");
-      const category = safe(a.category || "Algemeen");
-      const date = safe(a.publishedAt || a.date || "");
-      const snippet = safe(a.snippet || "");
-      const imgUrl = toImgUrl(a?.image?.publicPath);
+      function renderCard(a){
+        const title = safe(a.title);
+        const fileName = a.fileName || "";
+        const url = fileName ? ("artikel.html?file=" + encodeURIComponent(fileName)) : "#";
 
-      return `
-        <article class="ad-card">
-          <div class="ad-card-header">
-            <div>
-              <div class="ad-card-title">${title}</div>
-              <div class="ad-card-meta">${flag(country)} ${category} · Voetbal4All</div>
+        const country = safe(a.country || "");
+        const category = safe(a.category || "Algemeen");
+        const date = safe(a.publishedAt || a.date || a.createdAt || "");
+        const snippet = safe(a.snippet || "");
+
+        const imgUrl = toImgUrl(a?.image?.publicPath);
+        const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
+
+        return `
+          <article class="ad-card">
+            <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
+              ${imgUrl ? `
+                <img
+                  src="${imgUrl}"
+                  alt="${safeTitleAttr}"
+                  loading="lazy"
+                  style="width:96px;height:64px;object-fit:cover;border-radius:10px;flex:0 0 auto;"
+                >
+              ` : ``}
+
+              <div style="min-width:0;flex:1;">
+                <div class="ad-card-title">${title}</div>
+                <div class="ad-card-meta">${flag(country)} ${country || "—"} · ${category} · Voetbal4All</div>
+                <div class="ad-card-meta">${fmtDate(date)}</div>
+              </div>
             </div>
-            <div class="ad-card-meta">${fmtDate(date)}</div>
-          </div>
 
-          ${imgUrl ? `
-            <a href="${url}" class="article-link" style="display:block; margin-top:10px;">
-              <img class="article-thumb" src="${imgUrl}" alt="${title.replace(/"/g,"&quot;")}" loading="lazy" style="width:100%; height:auto; border-radius:12px; display:block;" />
-            </a>
-          ` : ""}
+            ${snippet ? `<p class="note" style="margin-top:10px;">${snippet}</p>` : ""}
 
-          ${snippet ? `<p class="note" style="margin-top:10px;">${snippet}</p>` : ""}
-
-          <div class="ad-card-actions" style="margin-top:10px;">
-            <a class="btn-ghost-sm" href="${url}">Lees artikel</a>
-          </div>
-        </article>
-      `;
-    }
+            <div class="ad-card-actions" style="margin-top:10px;">
+              <a class="btn-ghost-sm" href="${url}">Lees artikel</a>
+            </div>
+          </article>
+        `;
+      }
+    
 
     function applyFilters(){
       const q = norm(articleSearchText.value);
