@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-27T08:31:05.965Z",
+  "generatedAt": "2025-12-27T09:24:27.197Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Engelse titelkandidaten in actie op volle voetbalzaterdag",
+      "link": "https://www.vi.nl/nieuws/vi-live-engelse-titelkandidaten-in-actie-op-volle-voetbalzaterdag",
+      "summary": "Goedendag en welkom in de VI Live van zaterdag 27 december. Hopelijk had u een fijne kerstperiode, en bent u klaar voor een fraaie dag vol voetbal. In dit blog hoeft u niks te missen van mooie affiches in onder meer Italië, Engeland en Marokko.",
+      "publishedAt": "2025-12-27T09:18:54.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -9,8 +20,41 @@
       "flag": "🌍",
       "title": "Premier League buildup, Old Trafford reaction and latest news – matchday live",
       "link": "https://www.theguardian.com/football/live/2025/dec/27/premier-league-buildup-old-trafford-reaction-and-latest-news-matchday-live",
-      "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here Manchester United are up to fifth. Despite the rare absence of Bruno Fernandes, they jumped above Liverpool after a 1-0 win over Newcastle at Old Trafford last night. A great goal too. I didn’t rate Patrick Dorgu at all until seeing him play for Denmark but he bettered his goal against the Scots with a crunching left-foot volley here. And yet, despite moving to a flat back four – the equivalent of Dylan going electric we were led to believe – it was still highly unconvincing stuff from Ruben Amorim’s men and Newcastle must have been kicking themselves not to have taken at least a draw. Here’s Jamie Jackson’s report. Continue reading...",
-      "publishedAt": "2025-12-27T08:23:58.000Z"
+      "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here Heading to a Premier League match today? Send your thoughts and hopes to matchday.live@theguardian.com Just in case you woke up a bit confused, finished off a chocolate orange and then dived straight into this blog, perhaps you missed events Down Under. Well, get this, England have won the fourth Test in Melbourne! Here’s Ali Martin’s report: Continue reading...",
+      "publishedAt": "2025-12-27T09:10:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Frank: We're in a transition phase - but we can create something very magical",
+      "link": "https://www.skysports.com/football/news/12040/13487268/thomas-frank-exclusive-tottenham-boss-feels-they-are-in-a-transition-phase-but-can-create-something-very-magical",
+      "summary": "\"I think we are in a transition phase, because yes, we are a Champions League club, but are we a Champions League club? We only qualified because we won the Europa League. We didn't qualify because we were one of the four or five best clubs in the Premier League last season. We finished 17th.\"",
+      "publishedAt": "2025-12-27T09:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wat Van Dijk deed na pijnlijke nederlaag tegen PSV: 'Toen kon ik slapen'",
+      "link": "https://www.vi.nl/nieuws/wat-van-dijk-deed-na-nederlaag-tegen-psv-toen-kon-ik-slapen",
+      "summary": "Virgil van Dijk was na de stevige Champions League-nederlaag tegen PSV erg teleurgesteld in zichzelf. Dat vertelt de aanvoerder van Liverpool in een uitgebreide terugblik op de bewogen eerste maanden van het seizoen. 'Ik praatte met mijn vrouw, haalde wat frisse lucht en kon toen slapen.'",
+      "publishedAt": "2025-12-27T08:53:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ashes Verdict: Athers and Nas on England's 'extraordinary victory'",
+      "link": "https://www.skysports.com/watch/video/13487693/the-ashes-athers-and-nas-share-their-verdict-on-englands-extraordinary-victory",
+      "summary": "Nasser Hussain and Michael Atherton reflect on England's 'extraordinary victory' over Australia, which ends England 18-Test winless streak in Australia.",
+      "publishedAt": "2025-12-27T08:48:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +76,7 @@
       "title": "Kushandje van Martínez voor Stretford End: 'Man Utd heeft zijn krijger terug'",
       "link": "https://www.vi.nl/nieuws/kushandje-van-mart-nez-voor-stretford-end-man-utd-heeft-zijn-krijger-terug",
       "summary": "Lisandro Martínez maakte vrijdag indruk in het gewonnen thuisduel met Newcastle United. De verdediger van Manchester United begon voor het eerst dit seizoen in de basis en droeg meteen de aanvoerdersband. '",
-      "publishedAt": "2025-12-27T08:07:38.000Z"
+      "publishedAt": "2025-12-27T08:11:04.000Z"
     },
     {
       "type": "rss",
@@ -77,39 +121,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cn7k3kpxkl8o?at_medium=RSS&at_campaign=rss",
       "summary": "There are plenty of wonderkids catching the eye outside of Europe's big-five leagues - BBC Sport takes a look at the top 10 as ranked by the CIES Football Observatory research group.",
       "publishedAt": "2025-12-27T07:51:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Regragui ziet gelijkspel tegen Mali als leermoment en hint op terugkeer Hakimi",
-      "link": "https://www.vi.nl/nieuws/regragui-ziet-gelijkspel-tegen-mali-als-leermoment-en-hint-op-terugkeer-hakimi",
-      "summary": "Marokko stapte donderdag met een chagrijnig gevoel van het veld na het gelijkspel tegen Mali. Bondscoach Walid Regragui en middenvelder Neil El Aynaoui spraken van een grote teleurstelling. 'We beginnen weer vanaf nul.'",
-      "publishedAt": "2025-12-27T07:38:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Geen Hato bij Chelsea zaterdag",
-      "link": "https://www.vi.nl/nieuws/geen-hato-bij-chelsea-zaterdag",
-      "summary": "Jorrel Hato mist het duel van Chelsea met Aston Villa. De verdediger raakte vorige week zaterdag geblesseerd in de warming-up voor het duel met Newcastle United. Een week later is hij daarvan nog niet hersteld.",
-      "publishedAt": "2025-12-27T07:22:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Van Gerwen: I don't care about two Lukes right now",
-      "link": "https://www.skysports.com/darts/news/12040/13487415/michael-van-gerwen-dutch-player-says-i-dont-care-about-luke-littler-and-luke-humphries-yet-at-world-darts-championship",
-      "summary": "Michael van Gerwen says he \"does not care\" about Luke Littler and Luke Humphries until he faces one of the two title favourites at the World Darts Championship.",
-      "publishedAt": "2025-12-27T07:00:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c4gv11reqleo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United head coach Ruben Amorim was rewarded for a change in style and formation with a hard-fought win over Newcastle in the Premier League.",
       "publishedAt": "2025-12-27T00:21:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Sometimes you need to adapt': Why Amorim finally changed Man Utd formation",
-      "link": "https://www.skysports.com/football/news/12040/13487661/man-utd-1-0-newcastle-ruben-amorim-explains-change-in-formation-in-old-trafford-win",
-      "summary": "\"Sometimes you need to adapt and there is no tactic in that moment,\" said Ruben Amorim after Manchester United's 1-0 win over Newcastle. He was responding after acknowledging that he had gone with a back six late in the game.",
-      "publishedAt": "2025-12-27T00:00:00.000Z"
     }
   ]
 }
