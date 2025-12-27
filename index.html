@@ -579,6 +579,7 @@
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
       const CACHE_KEY = "home_news_html_v4";
+      localStorage.removeItem(CACHE_KEY);
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
 
       let hasRenderedHomeNews = false;
@@ -661,17 +662,13 @@
               country === "NL" ? "🇳🇱" :
               country ? "🌍" : "";
 
-              let imgPath =
-                a?.imageUrl ||
-                a?.image?.publicPath ||
-                a?.image?.path ||
-                a?.imagePath ||
-                "";
+            // 3) JUISTE image: API levert image.publicPath
+            let imgPath = a?.image?.publicPath || "";
 
-              // 👉 FIX: maak image-URL absoluut
-              if (imgPath && imgPath.startsWith("/")) {
-                imgPath = API_BASE + imgPath;
-              }
+            // maak absoluut (belangrijk: IMG_BASE, niet API_BASE)
+            if (imgPath && imgPath.startsWith("/")) {
+              imgPath = IMG_BASE + imgPath;
+            }
               
             return `
               <article class="home-news__item">
