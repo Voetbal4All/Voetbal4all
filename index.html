@@ -618,6 +618,19 @@
 
           const data = await res.json();
           const items = Array.isArray(data.items) ? data.items : [];
+          // 🔒 Deduplicate by canonical key (title + publishedAt)
+          const seen = new Set();
+          const uniqueItems = [];
+
+          for (const a of items) {
+            const key = `${(a.title || "").toLowerCase().trim()}|${a.publishedAt || ""}`;
+            if (seen.has(key)) continue;
+            seen.add(key);
+            uniqueItems.push(a);
+          }
+
+          // Gebruik vanaf hier enkel uniqueItems
+          const renderItems = uniqueItems.slice(0, 6);
           console.log("[HOME] items:", items.length);
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
@@ -626,7 +639,7 @@
             return;
           }
 
-          const html = items.map(a => {
+          const html = renderItems.map(a => {
             const img = a?.image?.publicPath ? (IMG_BASE + a.image.publicPath) : "";
             const safeTitle = (a.title || "").replace(/"/g, "&quot;");
 
