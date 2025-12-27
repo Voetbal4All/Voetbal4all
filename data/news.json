@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2025-12-27T22:22:33.620Z",
+  "generatedAt": "2025-12-27T23:22:46.175Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Match of the Day",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "summary": "Highlights from eight Premier League matches, including Arsenal versus Brighton.",
+      "publishedAt": "2025-12-27T23:55:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Blown the Bullet away!' | Hurrell dumps out fourth seed Bunting!",
+      "link": "https://www.skysports.com/watch/video/13487938/world-darts-championships-james-hurrell-dumps-out-fourth-seed-stephen-bunting",
+      "summary": "James Hurrell beats Stephen Bunting to make the last 16 of the World Darts Championships.",
+      "publishedAt": "2025-12-27T22:48:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Juventus komt laat op gang, maar wint Buffon-derby in de Serie A",
+      "link": "https://www.vi.nl/nieuws/juventus-komt-laat-op-gang-maar-wint-buffon-derby-in-de-serie-a",
+      "summary": "Juventus kwam zaterdagavond laat op gang tegen Pisa. De Oude Dame had alle moeite met de promovendus, maar wist het duel in de slotfase naar zich toe te trekken.",
+      "publishedAt": "2025-12-27T22:32:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Nigeria overleeft zinderend einde en plaatst zich voor knock-outfase Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/nigeria-overleeft-zinderend-einde-en-plaatst-zich-voor-knock-outfase-afrika-cup",
+      "summary": "Nigeria is zeker van de knock-outfase van de Afrika Cup. The Super Eagles maakten het zaterdag nog enorm spannend tegen Tunesië, maar mochten na negentig minuten toch drie punten bijschrijven. Omdat Oeganda en Tanzania elkaar eerder op de avond nog in evenwicht hielden, hoeven ook de Tunesiërs nog niet te vrezen",
+      "publishedAt": "2025-12-27T22:30:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Maresca legt uit waarom hij Palmer wisselde bij Chelsea",
+      "link": "https://www.vi.nl/video/maresca-legt-uit-waarom-hij-palmer-wisselde-bij-chelsea",
+      "summary": "Chelsea verloor zaterdagavond van Aston Villa . Bij een gelijke tussenstand haalde Enzo Maresca Cole Palmer naar de kant. De Spaanse manager legde uit waarom hij dat deed.",
+      "publishedAt": "2025-12-27T22:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Leinster hold on for feisty Irish derby win at Munster as ref booed off",
+      "link": "https://www.skysports.com/rugby-union/munster-vs-leinster/report/110582",
+      "summary": "Leinster held on to register a feisty URC interprovincial Irish derby win against Munster, winning 13-8 at Thomond Park.",
+      "publishedAt": "2025-12-27T22:20:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -22,17 +88,6 @@
       "link": "https://www.vi.nl/nieuws/vi-live-liverpool-met-frimpong-en-chiesa-timber-ontbreekt-bij-arsenal",
       "summary": "Goedendag en welkom in de VI Live van zaterdag 27 december. Hopelijk had u een fijne kerstperiode, en bent u klaar voor een fraaie dag vol voetbal. In dit blog hoeft u niks te missen van mooie affiches in onder meer Italië, Engeland en Marokko.",
       "publishedAt": "2025-12-27T22:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Nigeria overleeft zinderend einde en plaatst zich voor knock-outfase Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/nigeria-overleeft-zinderend-einde-en-plaatst-zich-voor-knock-outfase-afrika-cup",
-      "summary": "Nigeria is zeker van de knock-outfase van de Afrika Cup. The Super Eagles maakten het zaterdag nog enorm spannend tegen Tunesië, maar mochten na negentig minuten toch drie punten bijschrijven. Omdat Oeganda en Tanzania elkaar eerder op de avond nog in evenwicht hielden, hoeven ook de Tunesiërs nog niet te vrezen",
-      "publishedAt": "2025-12-27T21:58:22.000Z"
     },
     {
       "type": "rss",
@@ -69,17 +124,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Juventus komt laat op gang, maar wint Buffon-derby in de Serie A",
-      "link": "https://www.vi.nl/nieuws/juventus-komt-laat-op-gang-maar-wint-buffon-derby-in-de-serie-a",
-      "summary": "Juventus kwam zaterdagavond laat op gang tegen Pisa. De Oude Dame had alle moeite met de promovendus, maar wist het duel in de slotfase naar zich toe te trekken.",
-      "publishedAt": "2025-12-27T21:48:56.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -113,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot blikt terug op emotionele Jota-dag: 'Engelse fans zijn speciaal'",
-      "link": "https://www.vi.nl/video/slot-blikt-terug-op-emotionele-jota-dag-engelse-fans-zijn-speciaal",
-      "summary": "Arne Slot heeft een groot compliment gemaakt aan de fans van Liverpool, maar ook aan die van Wolverhampton Wanderers. De Nederlandse manager vond het heel speciaal hoe de Engelse fans Diogo Jota eerden.",
-      "publishedAt": "2025-12-27T20:27:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -132,17 +165,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/27/football-tactics-new-era-pep-guardiola-set-pieces",
       "summary": "The old ways are over and nobody is entirely sure what is to follow but football revolutions once experienced are never forgotten If you want a picture of the future, imagine Michael Kayode winding up to take a long throw – forever. Or at least that was how it seemed in October. Already, though, the picture has begun to change. This was the year of the backlash, and then a bit of a backlash to the backlash. For almost two decades football had accepted the guardiolista consensus. Football was about possession, about the press, but most of all about position, about the careful manipulation of space. Much-improved pitches meant first touches could be taken for granted: players receiving the ball didn’t have to focus on getting it under control but could instead be parsing their options. The game had become chess with a ball, a matter of strategy more than physicality. Continue reading...",
       "publishedAt": "2025-12-27T20:00:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Schade fires hat-trick as Brentford thrash Bournemouth",
-      "link": "https://www.bbc.com/sport/football/videos/cgqzx9kwljxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Kevin Schade scores a hat-trick as Brentford beat Bournemouth 4-1.",
-      "publishedAt": "2025-12-27T20:00:14.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/27/chelsea-aston-villa-premier-league-match-report",
       "summary": "Unai Emery had to tear up the plan. Aston Villa had started this game in a compact 4-2-2-2 formation but they were desperate for much of the first hour. Their passing was lethargic, they had no width, they were 1-0 down to a dominant Chelsea and it seemed the story was going to centre on Emery’s decision not to start Ollie Watkins up front. Yet few managers are as effective as Emery when it comes to altering the flow with a few smart tweaks. The Spaniard never stops plotting, never stops hunting for weaknesses in his opponents, and perhaps it was not a surprise when Villa’s tactical mastermind found a way to ensure that the travelling fans were belting out songs about winning the league at full time. Continue reading...",
       "publishedAt": "2025-12-27T19:42:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Unstoppable! Villa make it ELEVEN wins in a row at stunned Stamford Bridge",
-      "link": "https://www.skysports.com/watch/video/13487902/chelsea-1-2-aston-villa-premier-league-highlights",
-      "summary": "Highlights from the Premier League clash between Chelsea and Aston Villa.",
-      "publishedAt": "2025-12-27T19:35:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "World Darts Championship: Bunting in thrilling deciding set, Littler to come LIVE!",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2025-12-27T18:32:00.000Z"
     }
   ]
 }
