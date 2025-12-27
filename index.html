@@ -617,17 +617,19 @@
           }
 
           const data = await res.json();
-          const items = Array.isArray(data.items) ? data.items : [];
-          // 🔒 Deduplicate by canonical key (title + publishedAt)
-          const seen = new Set();
-          const uniqueItems = [];
+          const rawItems = Array.isArray(data.items) ? data.items : [];
 
-          for (const a of items) {
-            const key = `${(a.title || "").toLowerCase().trim()}|${a.publishedAt || ""}`;
-            if (seen.has(key)) continue;
+          // DEDUPE: eerst op fileName, fallback op title+publishedAt
+          const seen = new Set();
+          const items = rawItems.filter(a => {
+            const key =
+              (a && a.fileName) ? `f:${a.fileName}` :
+              `t:${(a?.title || "").trim().toLowerCase()}|p:${a?.publishedAt || ""}`;
+
+            if (seen.has(key)) return false;
             seen.add(key);
-            uniqueItems.push(a);
-          }
+            return true;
+          });
 
           // Gebruik vanaf hier enkel uniqueItems
           const renderItems = uniqueItems.slice(0, 6);
