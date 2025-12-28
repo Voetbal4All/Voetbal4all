@@ -330,9 +330,8 @@
 
       // 2) Anders: leid af uit bron / url / publisher / snippet (werkt nu voor jouw .be/.nl cases)
       const hay = norm(
-        (a?.sourceUrl || a?.url || a?.link || "") + " " +
-        (a?.publisher || a?.source || "") + " " +
-        (a?.snippet || "")
+        (a?.snippet || "") + " " +
+        (a?.title || "")
       );
 
       if (hay.includes(".be") || hay.includes("sporza") || hay.includes("hln") || hay.includes("nieuwsblad") || hay.includes("gva")) return "be";
@@ -345,15 +344,9 @@
       // Verzamel mogelijke bronnen waar "land" in kan zitten
       const candidates = [
         a?.country,
-        a?.source,
-        a?.publisher,
-        a?.site,
-        a?.domain,
-        a?.url,
-        a?.link,
-        a?.originalUrl,
-        a?.sourceUrl,
-        a?.feedUrl,
+        a?.category,
+        a?.title,
+        a?.snippet
       ]
         .filter(Boolean)
         .map(s => String(s).toLowerCase().trim());
@@ -418,7 +411,7 @@
         const date = safe(a.publishedAt || a.date || a.createdAt || "");
         const snippet = safe(a.snippet || "");
 
-        const imgUrl = toImgUrl(a?.image?.publicPath);
+        const imgUrl = toImgUrl(a?.image);
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         return `
@@ -456,7 +449,7 @@
       const cat = safe(articleFilterCategory.value);
 
       const filtered = allItems.filter(a => {
-        const text = norm((a.title||"") + " " + (a.snippet||"") + " " + (a.source||a.publisher||"") + " " + (a.category||"") + " " + (a.country||""));
+        const text = norm((a.title||"") + " " + (a.snippet||"") + " " + (a.category||"") + " " + (a.country||""));
         if (q && !text.includes(q)) return false;
 
         if (c) {
