@@ -663,7 +663,7 @@
               country ? "🌍" : "";
 
             // 3) JUISTE image: API levert image.publicPath
-            let imgPath = a?.image?.publicPath || "";
+            let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
 
             // maak absoluut (belangrijk: IMG_BASE, niet API_BASE)
             if (imgPath && imgPath.startsWith("/")) {
