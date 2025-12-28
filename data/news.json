@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2025-12-28T15:23:47.134Z",
+  "generatedAt": "2025-12-28T16:29:17.260Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pulisic nets in Milan win, on pace for best campaign",
+      "link": "https://www.espn.com/soccer/report/_/gameId/736949",
+      "summary": "Christian Pulisic is on pace for the best season of his career -- in a season that will conclude with a home World Cup for the United States.",
+      "publishedAt": "2025-12-28T16:17:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van Dijk: More to come from Wirtz for Liverpool",
+      "link": "https://www.espn.com/soccer/story/_/id/47433289/virgil-van-dijk-says-more-come-florian-writz-first-liverpool-goal",
+      "summary": "Virgil van Dijk has heaped praise on teammate Florian Wirtz and backed him to continue delivering for Liverpool after he scored his first goal for the club in Saturday's 2-1 victory over Wolverhampton Wanderers.",
+      "publishedAt": "2025-12-28T16:17:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ødegaard: Rice has put Arsenal in charge again",
+      "link": "https://www.espn.com/soccer/story/_/id/47433404/declan-rice-put-arsenal-back-charge-premier-league-title-race-insists-martin-odegaard",
+      "summary": "Martin Odegaard believes Declan Rice's \"unbelievable\" performance as an emergency right-back demonstrates that Arsenal are \"ready to do whatever it takes\" to win the Premier League.",
+      "publishedAt": "2025-12-28T16:17:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "James: Only Chelsea to blame for Villa collapse",
+      "link": "https://www.espn.com/soccer/story/_/id/47433351/reece-james-says-chelsea-blame-aston-villa-collapse",
+      "summary": "Captain Reece James feels Chelsea have themselves to blame after throwing away a half-time lead to lose 2-1 to Aston Villa.",
+      "publishedAt": "2025-12-28T16:17:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Højlund en Napoli hebben aan één helft genoeg voor winst in Cremona",
+      "link": "https://www.vi.nl/nieuws/h-jlund-en-napoli-hebben-aan-n-helft-genoeg-voor-winst-in-cremona",
+      "summary": "Napoli heeft het voor hen schitterende kalenderjaar 2025 zondagmiddag passend afgesloten. Bij Cremonese deed de landskampioen in de eerste helft zaken: spits-in-topvorm Rasmus Højlund maakte het verschil.",
+      "publishedAt": "2025-12-28T16:13:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Calvert-Lewin scores AGAIN as Leeds secure point at Sunderland",
+      "link": "https://www.skysports.com/watch/video/13488054/sunderland-1-1-leeds-premier-league-highlights",
+      "summary": "FREE TO WATCH: Highlights from Sunderland’s draw against Leeds in the Premier League.",
+      "publishedAt": "2025-12-28T16:06:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Calvert-Lewin continues scoring run as Leeds secure point at Sunderland",
+      "link": "https://www.skysports.com/football/sunderland-vs-leeds-united/report/531307",
+      "summary": "Dominic Calvert-Lewin's incredible goalscoring run continued as he found the net in a sixth consecutive Premier League game to secure Leeds a 1-1 draw at Sunderland.",
+      "publishedAt": "2025-12-28T16:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sunderland v Leeds United: Premier League – live",
+      "title": "Sunderland 1-1 Leeds United: Premier League – live reaction",
       "link": "https://www.theguardian.com/football/live/2025/dec/28/sunderland-v-leeds-united-premier-league-live",
       "summary": "⚽ Updates from the 2pm Premier League kick-off ⚽ Live scores | Table | Follow us on Bluesky 1 min Leeds, in their blue change strip, kick off from left to right as we watch. There’s a minute’s silence for Patrick Treuer, a non-executive director of the club who has died aged just 52. Continue reading...",
-      "publishedAt": "2025-12-28T15:20:02.000Z"
+      "publishedAt": "2025-12-28T15:59:19.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +95,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Van de Ven draagt aanvoerdersband bij Spurs",
-      "link": "https://www.vi.nl/nieuws/vi-live-laatste-voetbalzondag-van-2025-is-zeker-de-moeite",
-      "summary": "Goedendag en welkom in de VI Live van zondag 28 december! De laatste zondag van 2025 zit vol met leuke wedstrijden, en in dit liveblog hoeft u niks te missen.",
-      "publishedAt": "2025-12-28T15:20:00.000Z"
+      "title": "Alleen in topvorm verkerende Calvert-Lewin kan Roefs kloppen",
+      "link": "https://www.vi.nl/nieuws/alleen-in-topvorm-verkerende-calvert-lewin-kan-roefs-kloppen",
+      "summary": "Robin Roefs heeft met Sunderland in eigen huis een punt gepakt tegen Leeds United. De Nederlandse doelman werd kort na rust geklopt door Dominic Calvert-Lewin die voor het zesde Premier League-duel op rij trefzeker was.",
+      "publishedAt": "2025-12-28T15:57:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Crystal Palace v Tottenham: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/28/crystal-palace-v-tottenham-premier-league-live",
+      "summary": "⚽ Updates from the 4.30pm Premier League kick-off ⚽ Scores | Table | Follow us on Bluesky | Mail John Here’s an obituary of one of British football’s very best players. Last time out, both teams coming off a defeat: Continue reading...",
+      "publishedAt": "2025-12-28T15:56:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'OH Gary, Gary!' | Anderson SO close to nine-darter in tie-break thriller!",
+      "link": "https://www.skysports.com/watch/video/13488052/world-darts-championship-gary-anderson-goes-so-close-to-nine-darter-against-jermaine-wattimena",
+      "summary": "Gary Anderson misses the double 12 as he almost hits a nine-darter during the tiebreak seventh set against Jermaine Wattimena.",
+      "publishedAt": "2025-12-28T15:54:00.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +128,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Excelsior zwaait Booth uit, NEC neemt definitief afscheid van Larsen",
-      "link": "https://www.vi.nl/nieuws/az-anticipeert-met-hornkamp-op-mogelijke-transfer-parrott",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2025-12-28T14:58:00.000Z"
+      "title": "'Girona moet WK-droom Ter Stegen redden'",
+      "link": "https://www.vi.nl/nieuws/girona-moet-wk-droom-ter-stegen-redden",
+      "summary": "Girona heeft zich bij FC Barcelona gemeld voor Marc-André Ter Stegen. De huidige nummer achttien van de La Liga draait een draak van een seizoen en incasseert de meeste tegentreffers op het hoogste niveau van Spanje. De club is op zoek naar een nieuw doelman en Ter Stegen - die droomt van het WK - kan daar uitkomst voor bieden.",
+      "publishedAt": "2025-12-28T15:53:02.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +139,43 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Fitte Hakimi zorgt voor vreugde bij Marokko-bondscoach: 'Laat me PSG bedanken'",
-      "link": "https://www.vi.nl/nieuws/fitte-hakimi-zorgt-voor-vreugde-bij-marokko-bondscoach-laat-me-psg-bedanken",
-      "summary": "Marokko kan tijdens het laatste groepsduel van de Afrika Cup weer een beroep doen op Achraf Hakimi. De verdediger is hersteld van een enkelblessure, tot grote vreugde bij bondscoach Walid Regragui. De fitheid van Hakimi is volgens hem te danken aan zijn werkgever bij Paris Saint-Germain.",
-      "publishedAt": "2025-12-28T14:50:00.000Z"
+      "title": "Read bovenaan in prestigieuze talentenlijst, ook Smit in topvijf",
+      "link": "https://www.vi.nl/nieuws/read-bovenaan-in-prestigieuze-talentenlijst-ook-smit-in-topvijf",
+      "summary": "Givairo Read is volgens de Zwitserse sportonderzoekers CIES Football Observatory (CIES) het grootste talent buiten de top-5-competities. De rechtsback van Feyenoord houdt in het klassement, van spelers die na 2005 zijn geboren, toptalenten als Geovany Quenda (Sporting Portugal) en Kees Smit (AZ) achter zich.",
+      "publishedAt": "2025-12-28T15:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Cancelo wil terug naar Europa, Portugal en Engeland lonken'",
+      "link": "https://www.vi.nl/nieuws/cancelo-wil-terug-naar-europa-portugal-en-engeland-lonken",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-28T15:28:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Mozambique stun Gabon to end 40-year wait for win",
+      "link": "https://www.theguardian.com/football/2025/dec/28/afcon-roundup-mozambique-beat-gabon-to-end-40-year-wait-for-a-win",
+      "summary": "Bangal, Catamo and Calila score in 3-2 victory Defeat leaves Gabon’s hopes hanging by a thread Mozambique ended a 40-year wait for victory at the Africa Cup of Nations as they beat Gabon 3-2 in Agadir. Goals from Faisal Bangal, Geny Catamo and Diogo Calila earned the southern African side a deserved victory in which they were led by 42-year-old winger Elias Pelembe. It is their first win at the continental finals since their debut in 1986 in what was their 17th game. This story will be updated Continue reading...",
+      "publishedAt": "2025-12-28T15:18:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Affordale Fury and Sam Ewing strike in the Savills",
+      "link": "https://www.skysports.com/racing/news/12040/13488048/affordale-fury-brushes-aside-big-names-to-secure-savills-chase-title",
+      "summary": "Affordale Fury rallied to great effect to land Grade One honours in the Savills Chase at Leopardstown.",
+      "publishedAt": "2025-12-28T15:12:00.000Z"
     },
     {
       "type": "rss",
@@ -55,94 +187,6 @@
       "link": "https://www.skysports.com/racing/news/12040/13488031/teahupoo-sweeps-to-christmas-hurdle-success",
       "summary": "Teahupoo stamped his authority on the staying division with a dominant performance in the Grade One Christmas Hurdle at Leopardstown.",
       "publishedAt": "2025-12-28T14:42:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Aubameyang en Gabon moeten vrezen voor vroegtijdige uitschakeling op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/aubameyang-en-gabon-moeten-vrezen-voor-vroegtijdige-uitschakeling-op-afrika-cup",
-      "summary": "Gabon lijkt al in de eerste ronde van de Afrika Cup te stranden. Pierre-Emerick Aubameyang heeft met zijn land een wonder nodig om als een van de beste nummers drie te tweede ronde te bereiken.",
-      "publishedAt": "2025-12-28T14:39:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Serie A roundup: Christopher Nkunku at the double to send Milan to summit",
-      "link": "https://www.theguardian.com/football/2025/dec/28/serie-a-roundup-milan-napoli-bologna-atalanta-inter",
-      "summary": "Forward scores twice in 3-0 win over Verona Inter can return to top on Sunday evening Milan beat Hellas Verona 3-0 on Sunday to leapfrog leaders Inter and provisionally move top of the Serie A standings thanks to a brace from Christopher Nkunku. Milan struggled to break down a disciplined Verona side in the first half but made the breakthrough from a corner in added time when Christian Pulisic volleyed home near the far post. This story will be updated Continue reading...",
-      "publishedAt": "2025-12-28T14:38:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Van Dijk: More to come from Wirtz for Liverpool",
-      "link": "https://www.espn.com/soccer/story/_/id/47433289/virgil-van-dijk-says-more-come-florian-writz-first-liverpool-goal",
-      "summary": "Virgil van Dijk has heaped praise on teammate Florian Wirtz and backed him to continue delivering for Liverpool after he scored his first goal for the club in Saturday's 2-1 victory over Wolverhampton Wanderers.",
-      "publishedAt": "2025-12-28T14:37:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ødegaard: Rice has put Arsenal in charge again",
-      "link": "https://www.espn.com/soccer/story/_/id/47433404/declan-rice-put-arsenal-back-charge-premier-league-title-race-insists-martin-odegaard",
-      "summary": "Martin Odegaard believes Declan Rice's \"unbelievable\" performance as an emergency right-back demonstrates that Arsenal are \"ready to do whatever it takes\" to win the Premier League.",
-      "publishedAt": "2025-12-28T14:37:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "James: Only Chelsea to blame for Villa collapse",
-      "link": "https://www.espn.com/soccer/story/_/id/47433351/reece-james-says-chelsea-blame-aston-villa-collapse",
-      "summary": "Captain Reece James feels Chelsea have themselves to blame after throwing away a half-time lead to lose 2-1 to Aston Villa.",
-      "publishedAt": "2025-12-28T14:37:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Jorge Jesus en Cristiano Ronaldo breken record met Al Nassr",
-      "link": "https://www.vi.nl/nieuws/jorge-jesus-en-cristiano-ronaldo-breken-record-met-al-nassr",
-      "summary": "Voor het eerst in de geschiedenis van het Saoedische profvoetbal heeft een club tien competitiewedstrijden op rij een gewonnen vanaf de start. Al Nassr kreeg het zaterdag voor elkaar, mede dankzij twee doelpunten van Cristiano Ronaldo.",
-      "publishedAt": "2025-12-28T14:35:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "What was better? Xhaka’s assist or Adingra’s finish?!",
-      "link": "https://www.skysports.com/watch/video/13488026/what-was-better-xhakas-assist-or-adingras-finish",
-      "summary": "Sunderland go ahead against Leeds, courtesy of a superb goal from Simon Adingra.",
-      "publishedAt": "2025-12-28T14:34:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Eriksen: Amorim's United criticism 'did not help'",
-      "link": "https://www.espn.com/soccer/story/_/id/47433905/christian-eriksen-hits-ruben-amorim-man-united-criticism-did-not-help",
-      "summary": "Former Manchester United midfielder Christian Eriksen has criticised manager Ruben Amorim for claiming last year's side was the \"worst\" in the club's history.",
-      "publishedAt": "2025-12-28T14:32:41.000Z"
     },
     {
       "type": "rss",
@@ -168,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Root: 'Silly' to change England management after Ashes defeat",
-      "link": "https://www.skysports.com/cricket/news/12040/13488014/the-ashes-englands-joe-root-says-it-would-be-silly-to-change-management-after-series-defeat-in-australia",
-      "summary": "Joe Root says it would be \"silly\" for England to change their management team after the Ashes defeat and insists the players are \"absolutely committed\" to the current set-up.",
-      "publishedAt": "2025-12-28T12:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c62np1lg445o?at_medium=RSS&at_campaign=rss",
       "summary": "Chelsea will look into an incident after a plastic bottle containing what looked like water was thrown at Aston Villa's staff and players.",
       "publishedAt": "2025-12-28T12:00:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "World Darts Championship LIVE! Anderson leading Wattimena in blistering contest",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2025-12-28T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ex-England striker Carroll due in court after arrest",
-      "link": "https://www.bbc.com/sport/football/articles/cwyp02j550xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Newcastle United, Liverpool and England forward Andy Carroll is due to appear in court on Tuesday after he was charged with breaching a non-molestation order.",
-      "publishedAt": "2025-12-28T11:07:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ian Darke's Premier League Best XI: Who stands out halfway through the season?",
-      "link": "https://www.espn.com/soccer/story/_/id/47406402/ian-darke-premier-league-best-xi-rice-szoboszlai-haaland",
-      "summary": "Will it be Donnarumma or Raya for best goalkeeper? Which two Sunderland players are in? Here are the season's top players as we near the halfway point.",
-      "publishedAt": "2025-12-28T10:53:51.000Z"
     }
   ]
 }
