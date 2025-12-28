@@ -328,15 +328,7 @@
         return raw; // onbekend maar wel ingevuld
       }
 
-      // 2) Anders: leid af uit bron / url / publisher / snippet (werkt nu voor jouw .be/.nl cases)
-      const hay = norm(
-        (a?.snippet || "") + " " +
-        (a?.title || "")
-      );
-
-      if (hay.includes(".be") || hay.includes("sporza") || hay.includes("hln") || hay.includes("nieuwsblad") || hay.includes("gva")) return "be";
-      if (hay.includes(".nl") || hay.includes("vi.nl") || hay.includes("voetbalprimeur") || hay.includes("ad.nl") || hay.includes("nos")) return "nl";
-
+      
       return "int";
     }
 
@@ -356,11 +348,7 @@
       if (c0 === "be") return "BE";
       if (c0 === "nl") return "NL";
 
-      // 2) Dan: afleiden uit domein/bron-tekst
-      for (const s of candidates) {
-        if (s.includes(".be") || s.includes("belg")) return "BE";
-        if (s.includes(".nl") || s.includes("neder")) return "NL";
-      }
+
 
       return "INT";
     }
@@ -410,6 +398,12 @@
         const category = safe(a.category || "Algemeen");
         const date = safe(a.publishedAt || a.date || a.createdAt || "");
         const snippet = safe(a.snippet || "");
+        const snippetClean = snippet
+          // verwijder "Bron: ..." of "Source: ..."
+          .replace(/\b(bron|source)\s*:\s*.*$/i, "")
+          // verwijder typische trailing " - HLN" / " — NOS" / " | Sporza" achtige suffixen
+          .replace(/\s*[-—|]\s*[A-Za-zÀ-ÿ0-9 .]{2,40}\s*$/i, "")
+          .trim();
 
         const imgUrl = toImgUrl(a?.image);
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
@@ -433,7 +427,7 @@
               </div>
             </div>
 
-            ${snippet ? `<p class="note" style="margin-top:10px;">${snippet}</p>` : ""}
+            ${snippetClean ? `<p class="note" style="margin-top:10px;">${snippetClean}</p>` : ""}
 
             <div class="ad-card-actions" style="margin-top:10px;">
               <a class="btn-ghost-sm" href="${url}">Lees artikel</a>
@@ -453,7 +447,7 @@
         if (q && !text.includes(q)) return false;
 
         if (c) {
-          const cc = safe(a.country || "");
+          const cc = safe(a.country || "").toUpperCase();
           if (cc !== c) return false;
         }
         if (cat) {
