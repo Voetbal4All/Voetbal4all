@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-28T11:20:16.190Z",
+  "generatedAt": "2025-12-28T12:37:22.974Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van Dijk: More to come from Wirtz for Liverpool",
+      "link": "https://www.espn.com/soccer/story/_/id/47433289/virgil-van-dijk-says-more-come-florian-writz-first-liverpool-goal",
+      "summary": "Virgil van Dijk has heaped praise on teammate Florian Wirtz and backed him to continue delivering for Liverpool after he scored his first goal for the club in Saturday's 2-1 victory over Wolverhampton Wanderers.",
+      "publishedAt": "2025-12-28T12:31:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ødegaard: Rice has put Arsenal in charge again",
+      "link": "https://www.espn.com/soccer/story/_/id/47433404/declan-rice-put-arsenal-back-charge-premier-league-title-race-insists-martin-odegaard",
+      "summary": "Martin Odegaard believes Declan Rice's \"unbelievable\" performance as an emergency right-back demonstrates that Arsenal are \"ready to do whatever it takes\" to win the Premier League.",
+      "publishedAt": "2025-12-28T12:31:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "James: Only Chelsea to blame for Villa collapse",
+      "link": "https://www.espn.com/soccer/story/_/id/47433351/reece-james-says-chelsea-blame-aston-villa-collapse",
+      "summary": "Captain Reece James feels Chelsea have themselves to blame after throwing away a half-time lead to lose 2-1 to Aston Villa.",
+      "publishedAt": "2025-12-28T12:31:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Watkins brace seals Villa an 11th consecutive win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740766",
+      "summary": "Aston Villa's remarkable winning run continued as Ollie Watkins came off the bench in the second half to score twice and earn a valuable 2-1 victory over Chelsea.",
+      "publishedAt": "2025-12-28T12:31:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Pulisic zet Milan op slag van rust op voorsprong",
+      "link": "https://www.vi.nl/nieuws/vi-live-laatste-voetbalzondag-van-2025-is-zeker-de-moeite",
+      "summary": "Goedendag en welkom in de VI Live van zondag 28 december! De laatste zondag van 2025 zit vol met leuke wedstrijden, en in dit liveblog hoeft u niks te missen.",
+      "publishedAt": "2025-12-28T12:30:02.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,7 +65,51 @@
       "title": "Premier League and Afcon buildup, plus latest news – matchday live",
       "link": "https://www.theguardian.com/football/live/2025/dec/28/matchday-live-premier-league-buildup",
       "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here Wissa needs more time to get over knee injury Yoane Wissa is still not ready to make regular starts for Newcastle but Eddie Howe is keen to find the Congolese striker more opportunities in the coming weeks. I think with Yoane, we’ve got to look after him, he’s still relatively early in his return. He did really well in his one start against Fulham, I was really pleased with him that day and there’ll be other opportunities. The problem for us is with our schedule playing every three, four days, I don’t think he’s in a condition where he could start regularly at the moment. Hopefully we can manage him to that point at some stage. Continue reading...",
-      "publishedAt": "2025-12-28T11:11:14.000Z"
+      "publishedAt": "2025-12-28T12:19:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Danjuma sluit terugkeer bij jeugdliefde uit: 'Als ik naar Nederland kom, dan voor een topclub'",
+      "link": "https://www.vi.nl/nieuws/danjuma-sluit-terugkeer-bij-jeugdliefde-uit-als-ik-naar-nederland-kom-dan-voor-een-topclub",
+      "summary": "Arnaut Danjuma zit op zijn plek bij Valencia, dat vecht tegen degradatie, maar kende zijn debuut als profvoetballer bij NEC. Ziet hij een terugkeer naar Nijmegen zitten?",
+      "publishedAt": "2025-12-28T12:09:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea investigate after bottle thrown at Villa bench",
+      "link": "https://www.bbc.com/sport/football/articles/c62np1lg445o?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea will look into an incident after a plastic bottle containing what looked like water was thrown at Aston Villa's staff and players.",
+      "publishedAt": "2025-12-28T12:00:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "World Darts Championship LIVE! Schindler, Cross and Anderson headline this afternoon",
+      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
+      "summary": "",
+      "publishedAt": "2025-12-28T12:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wolves stoot Sheffield United van de troon als slechtste presterende club ooit in Premier League",
+      "link": "https://www.vi.nl/nieuws/wolves-stoot-sheffield-united-van-de-troon-als-slechtste-presterende-club-ooit-in-premier-league",
+      "summary": "Wolverhampton Wanderers is de slechtst presterende club ooit in de geschiedenis van de Premier League. Geen enkele ploeg had twee punten na achttien speelronden. Sheffield United is sinds zaterdag deze twijfelachtige eer kwijt.",
+      "publishedAt": "2025-12-28T11:53:37.000Z"
     },
     {
       "type": "rss",
@@ -22,50 +121,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cwyp02j550xo?at_medium=RSS&at_campaign=rss",
       "summary": "Former Newcastle United, Liverpool and England forward Andy Carroll is due to appear in court on Tuesday after he was charged with breaching a non-molestation order.",
       "publishedAt": "2025-12-28T11:07:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot: Wirtz 'relieved' after Liverpool goal",
-      "link": "https://www.espn.com/soccer/story/_/id/47427446/special-florian-wirtz-relieved-first-liverpool-goal-arne-slot",
-      "summary": "Arne Slot has described Florian Wirtz display in Liverpool's 2-1 victory over Wolverhampton Wanderers as \"special\".",
-      "publishedAt": "2025-12-28T11:01:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Watkins brace seals Villa an 11th consecutive win",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740766",
-      "summary": "Aston Villa's remarkable winning run continued as Ollie Watkins came off the bench in the second half to score twice and earn a valuable 2-1 victory over Chelsea.",
-      "publishedAt": "2025-12-28T11:01:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta warns Arsenal's composure must improve",
-      "link": "https://www.espn.com/soccer/story/_/id/47427413/mikel-arteta-warns-arsenal-improve-composure-close-games",
-      "summary": "Mikel Arteta has warned that Arsenal must show more composure to close out games after his team secured a nervy 2-1 win over Brighton on Saturday.",
-      "publishedAt": "2025-12-28T11:01:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Villa not in title fight despite win - Emery",
-      "link": "https://www.espn.com/soccer/story/_/id/47428027/aston-villa-not-really-title-fight-chelsea-win-unai-emery",
-      "summary": "Unai Emery said Aston Villa are \"not really\" in the race and are instead locked in a battle for fourth.",
-      "publishedAt": "2025-12-28T11:01:39.000Z"
     },
     {
       "type": "rss",
@@ -95,43 +150,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: laatste voetbalzondag van 2025 is zeker de moeite",
-      "link": "https://www.vi.nl/nieuws/vi-live-laatste-voetbalzondag-van-2025-is-zeker-de-moeite",
-      "summary": "Goedendag en welkom in de VI Live van zondag 28 december! De laatste zondag van 2025 zit vol met leuke wedstrijden, en in dit liveblog hoeft u niks te missen.",
-      "publishedAt": "2025-12-28T10:51:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "Ex-directeur FC Groningen: 'Gemeente is in feite eigenaar van de club'",
       "link": "https://www.vi.nl/nieuws/ex-directeur-fc-groningen-gemeente-is-in-feite-eigenaar-van-de-club",
       "summary": "Een conflict met de gemeente was voor Wouter Gudde de voornaamste reden om in 2024 te vertrekken als algemeen directeur bij FC Groningen. Destijds was hij ver met een Amerikaanse partij die 49 procent wilde kopen. De gemeente blokkeerde de deal. 'In Groningen is de gemeente in feite eigenaar van de club.'",
       "publishedAt": "2025-12-28T10:35:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Vaarwel supersterren, welkom succes: de volmaakte wervelwind van Luis Enrique",
-      "link": "https://www.vi.nl/pro/vaarwel-supersterren-welkom-succes-de-volmaakte-wervelwind-van-luis-enrique",
-      "summary": "Paris Saint-Germain strandde twaalf keer op rij in de knock-outfase, maar in 2025 was het raak in de Champions League. Uitgerekend in het seizoen na het vertrek van de laatste superster kroonden de Parijzenaars zich tot kampioen van Europa. Vooruitgestuwd door de eigenzinnige Luis Enrique.",
-      "publishedAt": "2025-12-28T10:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Magical december' voor Antwerp, dankzij Oranje-trio Kerk, Janssen én Oosting",
-      "link": "https://www.vi.nl/nieuws/magical-december-voor-antwerp-dankzij-oranje-trio-kerk-janssen-n-oosting",
-      "summary": "Antwerp FC is terug op weg naar de top van België. Sinds de aanstelling van trainer Joseph Oosting gaat het The Great Old voor de wind. Met dank aan twee Nederlandse spitsen: Gyrano Kerk en Vincent Janssen. Ook zaterdag werd er gewonnen. Van Zulte-Waregem: 2-1.",
-      "publishedAt": "2025-12-28T09:45:56.000Z"
     },
     {
       "type": "rss",
@@ -143,17 +165,6 @@
       "link": "https://www.skysports.com/cricket/news/12040/13487981/the-ashes-england-cope-with-the-chaos-on-and-off-the-field-to-give-fans-some-christmas-cheer-in-astonishing-mcg-test",
       "summary": "Here is a little rundown for you.",
       "publishedAt": "2025-12-28T09:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Heaven will not switch from England to Ghana",
-      "link": "https://www.bbc.com/sport/football/articles/c3r7g2wn87ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United defender Ayden Heaven, who qualifies for Ghana through a grandparent, wants to play for England at senior level.",
-      "publishedAt": "2025-12-28T09:26:36.000Z"
     },
     {
       "type": "rss",
@@ -187,17 +198,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13487806/world-darts-championship-luke-littler-thrashes-mensur-suljovic-with-statement-third-round-win-as-stephen-bunting-beaten-by-james-hurrell",
       "summary": "Luke Littler thrashed Mensur Suljovic with a statement 4-0 win in the third round as Stephen Bunting was knocked out of the World Darts Championship by James Hurrell.",
       "publishedAt": "2025-12-27T23:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leinster hold on for feisty Irish derby win at Munster as ref booed off",
-      "link": "https://www.skysports.com/rugby-union/munster-vs-leinster/report/110582",
-      "summary": "Leinster held on to register a feisty URC interprovincial Irish derby win against Munster, winning 13-8 at Thomond Park.",
-      "publishedAt": "2025-12-27T22:20:00.000Z"
     },
     {
       "type": "rss",
