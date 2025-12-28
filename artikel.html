@@ -20,7 +20,7 @@
         <p id="article-snippet" style="margin:12px 0;"></p>
 
         <div style="margin-top:16px;">
-          <a id="article-source" href="#" target="_blank" rel="noopener" style="display:none;">Lees bij de bron</a>
+
         </div>
       </article>
     </main>
@@ -38,7 +38,7 @@
       const metaEl = document.getElementById("article-meta");
       const imgEl = document.getElementById("article-image");
       const snippetEl = document.getElementById("article-snippet");
-      const sourceEl = document.getElementById("article-source");
+
 
       function showErr(msg) {
         statusEl.style.display = "block";
@@ -69,17 +69,14 @@
 
           snippetEl.textContent = a.snippet || a.summary || "";
 
-          const imgPath = a.image?.publicPath || a.image || null;
+          const imgPath = (typeof a.image === "string" ? a.image : null);
           if (imgPath) {
             imgEl.src = imgPath.startsWith("http") ? imgPath : (API_BASE + imgPath);
             imgEl.style.display = "block";
           }
 
-          const src = a.originalSource || a.url || a.link || "";
-          if (src) {
-            sourceEl.href = src;
-            sourceEl.style.display = "inline-block";
-          }
+          
+
         })
         .catch(e => {
           console.error("ARTICLE FETCH ERROR:", e);
