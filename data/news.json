@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2025-12-28T10:24:39.663Z",
+  "generatedAt": "2025-12-28T11:20:16.190Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League and Afcon buildup, plus latest news – matchday live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/28/matchday-live-premier-league-buildup",
+      "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here Wissa needs more time to get over knee injury Yoane Wissa is still not ready to make regular starts for Newcastle but Eddie Howe is keen to find the Congolese striker more opportunities in the coming weeks. I think with Yoane, we’ve got to look after him, he’s still relatively early in his return. He did really well in his one start against Fulham, I was really pleased with him that day and there’ll be other opportunities. The problem for us is with our schedule playing every three, four days, I don’t think he’s in a condition where he could start regularly at the moment. Hopefully we can manage him to that point at some stage. Continue reading...",
+      "publishedAt": "2025-12-28T11:11:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ex-England striker Carroll due in court after arrest",
+      "link": "https://www.bbc.com/sport/football/articles/cwyp02j550xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Former Newcastle United, Liverpool and England forward Andy Carroll is due to appear in court on Tuesday after he was charged with breaching a non-molestation order.",
+      "publishedAt": "2025-12-28T11:07:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot: Wirtz 'relieved' after Liverpool goal",
+      "link": "https://www.espn.com/soccer/story/_/id/47427446/special-florian-wirtz-relieved-first-liverpool-goal-arne-slot",
+      "summary": "Arne Slot has described Florian Wirtz display in Liverpool's 2-1 victory over Wolverhampton Wanderers as \"special\".",
+      "publishedAt": "2025-12-28T11:01:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Watkins brace seals Villa an 11th consecutive win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740766",
+      "summary": "Aston Villa's remarkable winning run continued as Ollie Watkins came off the bench in the second half to score twice and earn a valuable 2-1 victory over Chelsea.",
+      "publishedAt": "2025-12-28T11:01:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arteta warns Arsenal's composure must improve",
+      "link": "https://www.espn.com/soccer/story/_/id/47427413/mikel-arteta-warns-arsenal-improve-composure-close-games",
+      "summary": "Mikel Arteta has warned that Arsenal must show more composure to close out games after his team secured a nervy 2-1 win over Brighton on Saturday.",
+      "publishedAt": "2025-12-28T11:01:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Villa not in title fight despite win - Emery",
+      "link": "https://www.espn.com/soccer/story/_/id/47428027/aston-villa-not-really-title-fight-chelsea-win-unai-emery",
+      "summary": "Unai Emery said Aston Villa are \"not really\" in the race and are instead locked in a battle for fourth.",
+      "publishedAt": "2025-12-28T11:01:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Afrika Cup Quiz: raad de spelers van Nederlandse clubs",
+      "link": "https://www.vi.nl/nieuws/afrika-cup-quiz-raad-de-spelers-van-nederlandse-clubs",
+      "summary": "De Afrika Cup gaat deze week weer van start. Daarom testen we jullie geheugen met deze hersenkraker van een quiz. Welke spelers van Nederlandse clubs zaten deze eeuw in de selectie van een Afrika Cup-deelnemer?",
+      "publishedAt": "2025-12-28T10:58:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ian Darke's Premier League Best XI: Who stands out halfway through the season?",
+      "link": "https://www.espn.com/soccer/story/_/id/47406402/ian-darke-premier-league-best-xi-rice-szoboszlai-haaland",
+      "summary": "Will it be Donnarumma or Raya for best goalkeeper? Which two Sunderland players are in? Here are the season's top players as we near the halfway point.",
+      "publishedAt": "2025-12-28T10:53:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: laatste voetbalzondag van 2025 is zeker de moeite",
+      "link": "https://www.vi.nl/nieuws/vi-live-laatste-voetbalzondag-van-2025-is-zeker-de-moeite",
+      "summary": "Goedendag en welkom in de VI Live van zondag 28 december! De laatste zondag van 2025 zit vol met leuke wedstrijden, en in dit liveblog hoeft u niks te missen.",
+      "publishedAt": "2025-12-28T10:51:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ex-directeur FC Groningen: 'Gemeente is in feite eigenaar van de club'",
+      "link": "https://www.vi.nl/nieuws/ex-directeur-fc-groningen-gemeente-is-in-feite-eigenaar-van-de-club",
+      "summary": "Een conflict met de gemeente was voor Wouter Gudde de voornaamste reden om in 2024 te vertrekken als algemeen directeur bij FC Groningen. Destijds was hij ver met een Amerikaanse partij die 49 procent wilde kopen. De gemeente blokkeerde de deal. 'In Groningen is de gemeente in feite eigenaar van de club.'",
+      "publishedAt": "2025-12-28T10:35:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,17 +121,6 @@
       "link": "https://www.vi.nl/pro/vaarwel-supersterren-welkom-succes-de-volmaakte-wervelwind-van-luis-enrique",
       "summary": "Paris Saint-Germain strandde twaalf keer op rij in de knock-outfase, maar in 2025 was het raak in de Champions League. Uitgerekend in het seizoen na het vertrek van de laatste superster kroonden de Parijzenaars zich tot kampioen van Europa. Vooruitgestuwd door de eigenzinnige Luis Enrique.",
       "publishedAt": "2025-12-28T10:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League buildup and latest news – matchday live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/28/matchday-live-premier-league-buildup",
-      "summary": "News, discussion and buildup to the day’s action Get in touch! Email us with your thoughts here Wissa needs more time to get over knee injury Yoane Wissa is still not ready to make regular starts for Newcastle but Eddie Howe is keen to find the Congolese striker more opportunities in the coming weeks. I think with Yoane, we’ve got to look after him, he’s still relatively early in his return. He did really well in his one start against Fulham, I was really pleased with him that day and there’ll be other opportunities. The problem for us is with our schedule playing every three, four days, I don’t think he’s in a condition where he could start regularly at the moment. Hopefully we can manage him to that point at some stage. Continue reading...",
-      "publishedAt": "2025-12-28T09:59:11.000Z"
     },
     {
       "type": "rss",
@@ -47,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Lof voor Frimpong en Wirtz bij zege Liverpool: 'Hij had wat meer tijd nodig'",
-      "link": "https://www.vi.nl/nieuws/lof-voor-frimpong-en-wirtz-bij-zege-liverpool-hij-had-wat-meer-tijd-nodig",
-      "summary": "Liverpool stormde dankzij de zege op Wolverhampton Wanderers de topvier binnen. Wat schreven de Engelse media over de ploeg van manager Arne Slot? Een overzicht.",
-      "publishedAt": "2025-12-28T09:36:33.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -66,39 +154,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c3r7g2wn87ro?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United defender Ayden Heaven, who qualifies for Ghana through a grandparent, wants to play for England at senior level.",
       "publishedAt": "2025-12-28T09:26:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Spalletti kritisch op Koopmeiners: 'Niet kwaliteiten getoond die nodig zijn'",
-      "link": "https://www.vi.nl/nieuws/spalletti-kritisch-op-koopmeiners-niet-kwaliteiten-getoond-die-nodig-zijn",
-      "summary": "Luciano Spalletti is niet tevreden over Teun Koopmeiners. Dat liet de trainer van Juventus zaterdag weten na de uitzege op Pisa (0-2). De middenvelder van het Nederlands elftal viel de coach in negatieve zin op.",
-      "publishedAt": "2025-12-28T09:05:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Waarom Diba salaris van NAC weigert: 'Doe maar twee seizoenkaarten'",
-      "link": "https://www.vi.nl/pro/waarom-anouar-diba-vrijheid-opgeeft-uit-loyaliteit-naar-nac",
-      "summary": "Niet iedereen die Anouar Diba (42) vroeger volgde als voetballer, zou er een latere trainer ingezien hebben. Vanaf het nieuwe jaar wordt de voormalige pingelaar echter toegevoegd aan de technische staf van NAC Breda . De linkspoot weigert een salaris te ontvangen, maar heeft wél een zeer bijzondere prestatiebonus voor ogen: twee seizoenkaarten.",
-      "publishedAt": "2025-12-28T09:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea & Leeds monitoring McAtee - Sunday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/cvgq2n32ddlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea and Leeds United among clubs interested in James McAtee, Arsenal considering move for Davide Bartesaghi, Manu Kone set to move to Manchester United in the summer, plus more.",
-      "publishedAt": "2025-12-28T07:09:09.000Z"
     },
     {
       "type": "rss",
@@ -124,61 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Who should everyone else worry about? Aston Villa, the Premier League's hottest team",
-      "link": "https://www.espn.com/soccer/story/_/id/47428091/who-arsenal-man-city-worry-aston-villa-premier-league-hottest-team",
-      "summary": "Aston Villa are on a historic hot streak, and they can absolutely challenge for the Premier League title.",
-      "publishedAt": "2025-12-28T06:29:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "For a team topping the Premier League table, Arsenal haven't looked convincing enough",
-      "link": "https://www.espn.com/soccer/story/_/id/47427390/arsenal-go-top-premier-league-again-looked-unconvincing",
-      "summary": "Arsenal relied on an own goal for their fourth straight match, and it's not convincing enough.",
-      "publishedAt": "2025-12-28T06:29:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Watkins brace seals Villa an 11th consecutive win",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740766",
-      "summary": "Aston Villa's remarkable winning run continued as Ollie Watkins came off the bench in the second half to score twice and earn a valuable 2-1 victory over Chelsea.",
-      "publishedAt": "2025-12-28T06:27:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot: Wirtz 'relieved' after Liverpool goal",
-      "link": "https://www.espn.com/soccer/story/_/id/47427446/special-florian-wirtz-relieved-first-liverpool-goal-arne-slot",
-      "summary": "Arne Slot has described Florian Wirtz display in Liverpool's 2-1 victory over Wolverhampton Wanderers as \"special\".",
-      "publishedAt": "2025-12-28T06:27:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta warns Arsenal's composure must improve",
-      "link": "https://www.espn.com/soccer/story/_/id/47427413/mikel-arteta-warns-arsenal-improve-composure-close-games",
-      "summary": "Mikel Arteta has warned that Arsenal must show more composure to close out games after his team secured a nervy 2-1 win over Brighton on Saturday.",
-      "publishedAt": "2025-12-28T06:27:32.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -201,6 +201,17 @@
     },
     {
       "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aston Villa lodge complaint after bottle thrown at their bench at end of Chelsea win",
+      "link": "https://www.theguardian.com/football/2025/dec/27/aston-villa-complaint-bottle-thrown-bench-chelsea-premier-league-unai-emery-enzo-maresca",
+      "summary": "Chelsea intend to cooperate with the investigation Emery plays down title talk after 11th consecutive win Aston Villa lodged a complaint to Chelsea after a bottle of water was thrown at their bench at the end of their 2-1 victory at Stamford Bridge. There were jubilant scenes at full time after a stunning comeback moved Villa three points off Arsenal at the top of the Premier League. However, the celebrations also featured the away dugout being showered with water when the final whistle was blown. It was not clear if the bottle was thrown by someone from the Chelsea bench or whether it came from the crowd. Chelsea intend to cooperate with the investigation. Continue reading...",
+      "publishedAt": "2025-12-27T21:30:09.000Z"
+    },
+    {
+      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c33mg5l7g8xo?at_medium=RSS&at_campaign=rss",
       "summary": "Aston Villa have been here before and fallen away - but they must now be taken seriously as title contenders, writes Phil McNulty.",
       "publishedAt": "2025-12-27T21:21:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Monolithic belief of Guardiolismo has fractured in new era for tactics | Jonathan Wilson",
-      "link": "https://www.theguardian.com/football/2025/dec/27/football-tactics-new-era-pep-guardiola-set-pieces",
-      "summary": "The old ways are over and nobody is entirely sure what is to follow but football revolutions once experienced are never forgotten If you want a picture of the future, imagine Michael Kayode winding up to take a long throw – forever. Or at least that was how it seemed in October. Already, though, the picture has begun to change. This was the year of the backlash, and then a bit of a backlash to the backlash. For almost two decades football had accepted the guardiolista consensus. Football was about possession, about the press, but most of all about position, about the careful manipulation of space. Much-improved pitches meant first touches could be taken for granted: players receiving the ball didn’t have to focus on getting it under control but could instead be parsing their options. The game had become chess with a ball, a matter of strategy more than physicality. Continue reading...",
-      "publishedAt": "2025-12-27T20:00:46.000Z"
     }
   ]
 }
