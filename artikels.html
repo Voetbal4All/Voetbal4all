@@ -369,7 +369,7 @@
 
     function toImgUrl(publicPath){
       const p = safe(publicPath);
-      if (!p) return null;  // ✅ return null instead of ""
+      if (!p) return null; // ❗ CRITICAL: return null instead of ""
       // publicPath verwacht zoals "/images/articles/xyz.jpg"
       if (p.startsWith("http://") || p.startsWith("https://")) return p;
       if (p.startsWith("/")) return IMG_BASE + p;

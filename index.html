@@ -662,7 +662,7 @@
               country === "NL" ? "🇳🇱" :
               country ? "🌍" : "";
 
-            // 3) JUISTE image: API levert image.publicPath
+            // 3) JUISTE image: backend levert image als STRING
             let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
 
             // maak absoluut (belangrijk: IMG_BASE, niet API_BASE)
