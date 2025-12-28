@@ -404,21 +404,26 @@
           // verwijder typische trailing " - HLN" / " — NOS" / " | Sporza" achtige suffixen
           .replace(/\s*[-—|]\s*[A-Za-zÀ-ÿ0-9 .]{2,40}\s*$/i, "")
           .trim();
+        // STAP 1: forceer altijd een geldige afbeelding (nooit leeg)
+        const fallbackImg =
+          "https://voetbal4all-backend-database.onrender.com/images/placeholder.svg";
 
-        const imgUrl = toImgUrl(a?.image);
-        const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
+          const imgUrl = toImgUrl(a?.image);
+          const imgUrlFinal =
+            imgUrl ||
+            toImgUrl(`/images/placeholder.svg?title=${encodeURIComponent(String(a.title || "Voetbal4All").slice(0, 80))}`);
+          const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         return `
           <article class="ad-card">
             <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
-              ${imgUrl ? `
-                <img
-                  src="${imgUrl}"
-                  alt="${safeTitleAttr}"
-                  loading="lazy"
-                  style="width:96px;height:64px;object-fit:cover;border-radius:10px;flex:0 0 auto;"
-                >
-              ` : ``}
+            <img
+              src="${imgUrlFinal}"
+              alt="${safeTitleAttr}"
+              loading="lazy"
+              onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/placeholder.svg';"
+              style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
+            >
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
