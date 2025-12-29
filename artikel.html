@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="style.css" />
   
   <style>
-    /* Article-specific styles */
     .article-hero-image {
       width: 100%;
       max-height: 500px;
@@ -45,6 +44,15 @@
     
     .article-body p {
       margin-bottom: 1.2em;
+    }
+    
+    .share-section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     
     .share-buttons {
@@ -77,10 +85,14 @@
       transform: translateY(-2px);
     }
     
-    .share-btn-facebook { background: rgba(24, 119, 242, 0.2); }
-    .share-btn-twitter { background: rgba(29, 155, 240, 0.2); }
-    .share-btn-whatsapp { background: rgba(37, 211, 102, 0.2); }
-    .share-btn-linkedin { background: rgba(10, 102, 194, 0.2); }
+    .share-btn svg {
+      flex-shrink: 0;
+    }
+    
+    .share-btn-facebook:hover { background: rgba(24, 119, 242, 0.3); }
+    .share-btn-twitter:hover { background: rgba(29, 155, 240, 0.3); }
+    .share-btn-whatsapp:hover { background: rgba(37, 211, 102, 0.3); }
+    .share-btn-linkedin:hover { background: rgba(10, 102, 194, 0.3); }
     
     .article-tags {
       display: flex;
@@ -131,7 +143,6 @@
         <a href="index.html" class="nav-link">Home</a>
         <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
 
-        <!-- SPORTIEVE EVENTS -->
         <div class="nav-item nav-item--dropdown">
           <button class="nav-link nav-link--dropdown">
             Sportieve events <span class="nav-link-caret">▾</span>
@@ -145,7 +156,6 @@
           </div>
         </div>
 
-        <!-- CLUB & FUN -->
         <div class="nav-item nav-item--dropdown">
           <button class="nav-link nav-link--dropdown">
             Club &amp; fun <span class="nav-link-caret">▾</span>
@@ -159,7 +169,6 @@
           </div>
         </div>
 
-        <!-- VACATURES & PROFIELEN -->
         <div class="nav-item nav-item--dropdown">
           <button class="nav-link nav-link--dropdown">
             Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
@@ -171,7 +180,6 @@
           </div>
         </div>
 
-        <!-- SPORTIEF -->
         <div class="nav-item nav-item--dropdown">
           <button class="nav-link nav-link--dropdown">
             Sportief <span class="nav-link-caret">▾</span>
@@ -186,7 +194,6 @@
           </div>
         </div>
 
-        <!-- VOETBAL4ALL -->
         <div class="nav-item nav-item--dropdown">
           <button class="nav-link nav-link--dropdown">
             Voetbal4All <span class="nav-link-caret">▾</span>
@@ -246,14 +253,10 @@
 <section class="section-main">
 <div class="shell">
 
-  <!-- LOADING STATE -->
   <div id="loading-state" class="loading-state">
-    <div class="card">
-      <p>Artikel laden...</p>
-    </div>
+    <div class="card"><p>Artikel laden...</p></div>
   </div>
 
-  <!-- ERROR STATE -->
   <div id="error-state" class="error-state" style="display:none;">
     <div class="card">
       <h2>Artikel niet gevonden</h2>
@@ -262,18 +265,12 @@
     </div>
   </div>
 
-  <!-- ARTICLE CONTENT -->
   <div id="article-content" style="display:none;">
-    
     <div class="v4-layout-sidebar">
       
-      <!-- MAIN CONTENT -->
       <div class="v4-content">
-        
-        <!-- Article Card -->
         <article class="card">
           
-          <!-- Breadcrumb -->
           <div style="margin-bottom:16px;">
             <a href="index.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Home</a>
             <span style="color:rgba(255,255,255,0.4); margin:0 8px;">›</span>
@@ -282,7 +279,6 @@
             <span style="color:rgba(255,255,255,0.8);" id="breadcrumb-title">Artikel</span>
           </div>
           
-          <!-- Article Header -->
           <div class="card-header">
             <div>
               <div class="card-caption" id="article-caption">Voetbal4All · Nieuws</div>
@@ -291,41 +287,51 @@
             <span class="pill-small" id="article-type">Artikel</span>
           </div>
           
-          <!-- Article Meta -->
           <div class="article-meta">
             <span class="pill-small" id="article-country"></span>
             <span style="color:rgba(255,255,255,0.6); font-size:14px;" id="article-date"></span>
           </div>
           
-          <!-- Featured Image -->
           <img id="article-image" src="" alt="" class="article-hero-image" />
           
-          <!-- Standfirst / Lead -->
           <div class="note" id="article-standfirst" style="font-size:18px; font-weight:500; line-height:1.6; margin-bottom:24px;"></div>
           
-          <!-- Share Buttons Top -->
+          <div class="share-section-title">Deel dit artikel op:</div>
           <div class="share-buttons">
             <a href="#" id="share-facebook" class="share-btn share-btn-facebook" target="_blank" rel="noopener">
-              <span>📘</span> Facebook
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Facebook
             </a>
             <a href="#" id="share-twitter" class="share-btn share-btn-twitter" target="_blank" rel="noopener">
-              <span>🐦</span> Twitter
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+              Twitter
             </a>
             <a href="#" id="share-whatsapp" class="share-btn share-btn-whatsapp" target="_blank" rel="noopener">
-              <span>💬</span> WhatsApp
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              WhatsApp
             </a>
             <a href="#" id="share-linkedin" class="share-btn share-btn-linkedin" target="_blank" rel="noopener">
-              <span>💼</span> LinkedIn
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
             </a>
             <button id="share-copy" class="share-btn" style="background:rgba(255,255,255,0.1); border:none; cursor:pointer;">
-              <span>🔗</span> <span id="copy-text">Kopieer link</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+              </svg>
+              <span id="copy-text">Kopieer link</span>
             </button>
           </div>
           
-          <!-- Article Body -->
           <div class="article-body" id="article-body"></div>
           
-          <!-- In-Article Ad -->
           <div class="ad-slot" style="margin:32px 0; padding:20px; background:rgba(255,255,255,0.05); border-radius:8px;">
             <ins class="adsbygoogle"
               style="display:block"
@@ -336,39 +342,45 @@
             <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           </div>
           
-          <!-- Tags -->
           <div class="article-tags" id="article-tags"></div>
           
-          <!-- Share Buttons Bottom -->
+          <div class="share-section-title">Deel dit artikel op:</div>
           <div class="share-buttons">
             <a href="#" id="share-facebook-2" class="share-btn share-btn-facebook" target="_blank" rel="noopener">
-              <span>📘</span> Facebook
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Facebook
             </a>
             <a href="#" id="share-twitter-2" class="share-btn share-btn-twitter" target="_blank" rel="noopener">
-              <span>🐦</span> Twitter
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+              Twitter
             </a>
             <a href="#" id="share-whatsapp-2" class="share-btn share-btn-whatsapp" target="_blank" rel="noopener">
-              <span>💬</span> WhatsApp
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              WhatsApp
             </a>
             <button id="share-copy-2" class="share-btn" style="background:rgba(255,255,255,0.1); border:none; cursor:pointer;">
-              <span>🔗</span> <span id="copy-text-2">Kopieer link</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+              </svg>
+              <span id="copy-text-2">Kopieer link</span>
             </button>
           </div>
           
-          <!-- Back Button -->
           <div style="margin-top:32px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.1);">
             <a href="artikels.html" class="btn" style="background:rgba(255,255,255,0.1);">← Terug naar overzicht</a>
           </div>
           
         </article>
-        
       </div>
       
-      <!-- SIDEBAR -->
       <aside class="v4-sidebar">
         <div class="v4-sidebar-sticky">
-          
-          <!-- Related Articles (placeholder) -->
           <article class="card">
             <div class="card-header">
               <div>
@@ -376,13 +388,10 @@
                 <div class="card-title">Gerelateerde artikels</div>
               </div>
             </div>
-            <p class="note">
-              Ontdek meer voetbalnieuws op onze artikelpagina.
-            </p>
+            <p class="note">Ontdek meer voetbalnieuws op onze artikelpagina.</p>
             <a href="artikels.html" class="btn btn-primary" style="margin-top:12px;">Bekijk alle artikels →</a>
           </article>
           
-          <!-- Sidebar Ad -->
           <article class="card" style="margin-top:12px;">
             <div class="card-header">
               <div>
@@ -400,12 +409,10 @@
               <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             </div>
           </article>
-          
         </div>
       </aside>
       
     </div>
-    
   </div>
 
 </div>
@@ -418,9 +425,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-        <div class="footer-legal">
-          &copy; <span id="year"></span> Voetbal4All.
-        </div>
+        <div class="footer-legal">&copy; <span id="year"></span> Voetbal4All.</div>
       </div>
       <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
@@ -429,48 +434,30 @@
 
 </div>
 
-<!-- Scripts -->
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="assets/js/nav-mobile.js"></script>
 <script src="assets/js/live-banner.js"></script>
 
 <script>
 (function(){
-  // Get article filename from URL parameter
   const params = new URLSearchParams(window.location.search);
   const fileName = params.get('file');
-  
-  if (!fileName) {
-    showError();
-    return;
-  }
+  if (!fileName) { showError(); return; }
   
   const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
   
-  // Fetch article data
-  fetch(`${API_BASE}/api/news?limit=500`)
+  fetch(API_BASE + '/api/news?limit=500')
     .then(res => res.json())
     .then(data => {
       const articles = data.items || [];
       const article = articles.find(a => {
-        // Match by filename or id
         const articleFile = a.fileName || a.id || '';
         return articleFile === fileName || articleFile.includes(fileName);
       });
-      
-      if (!article) {
-        showError();
-        return;
-      }
-      
+      if (!article) { showError(); return; }
       displayArticle(article);
     })
-    .catch(err => {
-      console.error('Failed to load article:', err);
-      showError();
-    });
+    .catch(err => { console.error('Failed to load article:', err); showError(); });
   
   function showError() {
     document.getElementById('loading-state').style.display = 'none';
@@ -478,129 +465,89 @@
   }
   
   function displayArticle(article) {
-    // Hide loading, show content
     document.getElementById('loading-state').style.display = 'none';
     document.getElementById('article-content').style.display = 'block';
     
-    // Update page title & meta
     const title = article.title || 'Voetbal4All Artikel';
     document.getElementById('page-title').textContent = title + ' - Voetbal4All';
     document.getElementById('og-title').setAttribute('content', title);
     document.getElementById('page-description').setAttribute('content', article.snippet || '');
     document.getElementById('og-description').setAttribute('content', article.snippet || '');
     
-    // Update breadcrumb
     const shortTitle = title.length > 50 ? title.substring(0, 47) + '...' : title;
     document.getElementById('breadcrumb-title').textContent = shortTitle;
-    
-    // Article header
     document.getElementById('article-title').textContent = title;
-    document.getElementById('article-caption').textContent = `Voetbal4All · ${article.country || 'Nieuws'}`;
+    document.getElementById('article-caption').textContent = 'Voetbal4All · ' + (article.country || 'Nieuws');
     
-    // Article type
-    const type = article._meta?.type === 'merged' 
-      ? `Samengesteld (${article._meta?.sourceCount || 0} bronnen)` 
-      : 'Artikel';
+    const type = article._meta?.type === 'merged' ? 'Samengesteld (' + (article._meta?.sourceCount || 0) + ' bronnen)' : 'Artikel';
     document.getElementById('article-type').textContent = type;
     
-    // Country flag
     const countryEl = document.getElementById('article-country');
-    if (article.country === 'BE') {
-      countryEl.textContent = '🇧🇪 België';
-    } else if (article.country === 'NL') {
-      countryEl.textContent = '🇳🇱 Nederland';
-    } else {
-      countryEl.style.display = 'none';
-    }
+    if (article.country === 'BE') countryEl.textContent = '🇧🇪 België';
+    else if (article.country === 'NL') countryEl.textContent = '🇳🇱 Nederland';
+    else if (article.country === 'INT') countryEl.textContent = '🌍 Internationaal';
+    else countryEl.style.display = 'none';
     
-    // Date
     if (article.publishedAt) {
       const date = new Date(article.publishedAt);
-      const formatted = date.toLocaleDateString('nl-NL', { 
-        day: 'numeric', 
-        month: 'long', 
-        year: 'numeric' 
-      });
+      const formatted = date.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
       document.getElementById('article-date').textContent = formatted;
     }
     
-    // Image
     const imageEl = document.getElementById('article-image');
     if (article.image) {
-      imageEl.src = article.image.startsWith('http') ? article.image : API_BASE + article.image;
+      const cleanImage = article.image.split('?')[0];
+      imageEl.src = cleanImage.startsWith('http') ? cleanImage : API_BASE + cleanImage;
       imageEl.alt = title;
-      if (article.image.endsWith('.svg')) {
-        imageEl.style.maxHeight = '300px';
-      }
-    } else {
-      imageEl.style.display = 'none';
-    }
+      if (cleanImage.endsWith('.svg')) imageEl.style.maxHeight = '300px';
+    } else { imageEl.style.display = 'none'; }
     
-    // Update OG image
     if (article.image) {
-      const fullImageUrl = article.image.startsWith('http') 
-        ? article.image 
-        : window.location.origin + article.image;
+      const cleanImage = article.image.split('?')[0];
+      const fullImageUrl = cleanImage.startsWith('http') ? cleanImage : window.location.origin + cleanImage;
       document.getElementById('og-image').setAttribute('content', fullImageUrl);
     }
     
-    // Standfirst
     if (article.snippet) {
       document.getElementById('article-standfirst').textContent = article.snippet;
     } else {
       document.getElementById('article-standfirst').style.display = 'none';
     }
     
-    // Body
     const bodyEl = document.getElementById('article-body');
     if (article.body) {
-      // Convert line breaks to paragraphs
-      const paragraphs = article.body
-        .split('\n')
-        .filter(p => p.trim())
-        .map(p => `<p>${p.trim()}</p>`)
-        .join('');
+      const paragraphs = article.body.split('\n').filter(p => p.trim()).map(p => '<p>' + p.trim() + '</p>').join('');
       bodyEl.innerHTML = paragraphs;
     } else {
       bodyEl.innerHTML = '<p>Geen inhoud beschikbaar.</p>';
     }
     
-    // Tags
     const tagsEl = document.getElementById('article-tags');
     if (article.tags && article.tags.length > 0) {
-      tagsEl.innerHTML = article.tags
-        .slice(0, 10)
-        .map(tag => `<span class="article-tag">${tag}</span>`)
-        .join('');
+      tagsEl.innerHTML = article.tags.slice(0, 10).map(tag => '<span class="article-tag">' + tag + '</span>').join('');
     } else {
       tagsEl.style.display = 'none';
     }
     
-    // Share buttons
     const articleUrl = window.location.href;
     const encodedUrl = encodeURIComponent(articleUrl);
     const encodedTitle = encodeURIComponent(title);
     
-    // Facebook
-    const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+    const fbUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl;
     document.getElementById('share-facebook').href = fbUrl;
     document.getElementById('share-facebook-2').href = fbUrl;
     
-    // Twitter
-    const twitterUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`;
+    const twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodedTitle;
     document.getElementById('share-twitter').href = twitterUrl;
     document.getElementById('share-twitter-2').href = twitterUrl;
     
-    // WhatsApp
-    const waUrl = `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`;
+    const waUrl = 'https://wa.me/?text=' + encodedTitle + '%20' + encodedUrl;
     document.getElementById('share-whatsapp').href = waUrl;
     document.getElementById('share-whatsapp-2').href = waUrl;
     
-    // LinkedIn
-    const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
+    const liUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodedUrl;
     document.getElementById('share-linkedin').href = liUrl;
     
-    // Copy link buttons
     setupCopyButton('share-copy', 'copy-text', articleUrl);
     setupCopyButton('share-copy-2', 'copy-text-2', articleUrl);
   }
@@ -611,9 +558,7 @@
         await navigator.clipboard.writeText(url);
         const textEl = document.getElementById(textId);
         textEl.textContent = '✓ Gekopieerd!';
-        setTimeout(() => {
-          textEl.textContent = 'Kopieer link';
-        }, 2000);
+        setTimeout(() => { textEl.textContent = 'Kopieer link'; }, 2000);
       } catch (err) {
         alert('Kon link niet kopiëren');
       }
