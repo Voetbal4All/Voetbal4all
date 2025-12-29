@@ -98,306 +98,112 @@
                 <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
                 <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
                 <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-                <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
-                <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-              </div>
-            </div>
-
-            <!-- VOETBAL4ALL -->
-            <div class="nav-item nav-item--dropdown">
-              <button type="button" class="nav-link nav-link--dropdown">
-                Voetbal4All <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-                <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-                <a href="contact.html" class="nav-dropdown-link">Contact</a>
               </div>
             </div>
           </nav>
 
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
+          <button class="nav-toggle" type="button" aria-label="Open menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
 
-          <button class="nav-burger" aria-label="Menu">☰</button>
         </div>
       </div>
     </header>
 
-    <!-- LIVE SCORES BANNER NET ONDER NAVBAR -->
-    <section class="live-banner-top">
-      <div class="shell">
-        <div class="live-banner">
-          <div class="live-label">
-            <span class="live-dot"></span>
-            Live resultaten
-          </div>
-          <div class="live-text">
-            <span class="live-text-main"></span>
-            <div class="live-updated"></div>
-          </div>
-          <div class="live-socials" aria-label="Volg Voetbal4All op social media">
-            <a class="live-social" href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.76-1.61 1.54V12h2.74l-.44 2.89h-2.3v6.99A10 10 0 0 0 22 12Z"/>
-              </svg>
-            </a>
+    <!-- LIVE BANNER (PLACEHOLDER) -->
+    <div id="live-banner"></div>
 
-            <a class="live-social" href="https://www.instagram.com/voetbal4all" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4Zm-4.5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.1-2.3a1.05 1.05 0 1 1-1.05 1.05 1.05 1.05 0 0 1 1.05-1.05Z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- AdSense: HEADER advertentie ONDER de live banner -->
-    <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
-      <div class="shell">
-        <div class="ad-slot ad-slot-header sticky-ad-header">
-          <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4062633211824348"
-            data-ad-slot="3518144343"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </div>
-      </div>
-    </section>
-
-    <main>
-      <!-- HERO -->
-      <section class="section-main home-intro home-hero-min">
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO: Live scores + topwedstrijd -->
+      <section class="banner" id="banner-hero">
         <div class="shell">
-          <article class="card hero-card">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
-                <div class="card-title">Alles voor voetbal op één plek.</div>
+          <div class="banner-inner">
+            <div class="banner-content">
+              <div class="banner-eyebrow">Ontdek meer</div>
+              <h1 class="banner-title">Voetbal4All</h1>
+              <p class="banner-text">Alle voetbalartikels, resultaten, evenementen en vacatures verzameld.</p>
+              <div class="banner-buttons">
+                <a href="artikels.html" class="btn btn--cta">Bekijk alle artikels</a>
+                <a href="#footer-contact" class="btn btn--secondary">Adverteer nu</a>
               </div>
-              <span class="pill-small">België · Nederland · internationaal</span>
             </div>
-
-            <p class="note" style="margin-top:6px;">
-              Vind snel een clubvacature, trainer, speler of event. Kies hieronder wat je zoekt.
-            </p>
-
-            <div class="hero-cta-row">
-              <a href="clubvacatures.html" class="btn-primary">Bekijk clubvacatures</a>
-              <a href="adverteren.html" class="btn-secondary"><span>Adverteer / sponsor</span></a>
+            <div class="banner-image">
+              <img src="assets/img/content/herobeeld-voetbal.webp" alt="Voetbal4All" class="hero-img" loading="eager" />
             </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- WAT ZOEK JE? -->
-      <section class="section-main home-quick-actions">
-        <div class="shell">
-          <div class="lower-grid-layout grid-4 quick-grid">
-            <a class="card quick-card" href="spelers.html">
-              <div class="quick-kicker">Spelers</div>
-              <div class="quick-title">Speler zoekt club</div>
-              <div class="note">Bekijk profielen of plaats jouw profiel.</div>
-            </a>
-
-            <a class="card quick-card" href="trainers.html">
-              <div class="quick-kicker">Trainers</div>
-              <div class="quick-title">Trainer zoekt club</div>
-              <div class="note">Zoek trainers of bied jezelf aan.</div>
-            </a>
-
-            <a class="card quick-card" href="events.html">
-              <div class="quick-kicker">Events</div>
-              <div class="quick-title">Zoek of plaats events</div>
-              <div class="note">Tornooien, stages, kampen en meer.</div>
-            </a>
-
-            <a class="card quick-card quick-card--highlight" href="adverteren.html">
-              <div class="quick-kicker">Sponsor &amp; Ads</div>
-              <div class="quick-title">Jouw advertentie hier</div>
-              <div class="note">Premium zichtbaarheid op Voetbal4All.</div>
-            </a>
           </div>
         </div>
       </section>
 
-      <!-- HOOFDSPONSOR -->
-      <section class="section-main home-sponsor-band">
-        <div class="shell">
-          <article class="card sponsor-card">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Hoofdsponsor</div>
-                <div class="card-title">Premium header advertentie</div>
-              </div>
-              <span class="pill-small">Max. 1 positie</span>
-            </div>
+      <section class="content">
+        <div class="shell shell--wide">
 
-            <p class="note">
-              Grootste zichtbaarheid op het platform: bovenaan de homepage, nog voor alle andere content.
-            </p>
+          <div class="grid-layout">
 
-            <div class="ad-placeholder" style="margin-top:8px;">
-              Plaats voor logo, korte slogan en call-to-action van de hoofdsponsor.
-              <div class="ad-size">Bijvoorbeeld 1200 × 200 px</div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- PREMIUM RIJ -->
-      <section class="section-main premium-row">
-        <div class="shell">
-          <div class="lower-grid-layout grid-4">
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Premium</div>
-                  <div class="card-title">Premium clubvacatures</div>
-                </div>
-                <span class="pill-small">Betalend</span>
-              </div>
-              <ul class="events-list premium-list" id="premium-clubvacatures-list">
-                <li class="event-item">
-                  <div class="event-title">Jeugdcoördinator U6–U13 · Regio Kempen</div>
-                  <div class="event-meta">Provinciaal niveau · focus op opleiding &amp; structuur.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Trainer U17 · Interprovinciaal</div>
-                  <div class="event-meta">Diploma min. UEFA C · avondtrainingen.</div>
-                </li>
-              </ul>
-              <a href="clubvacatures.html" class="event-link">Alle clubvacatures →</a>
-            </article>
-
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Premium</div>
-                  <div class="card-title">Premium events</div>
-                </div>
-                <span class="pill-small">Betalend</span>
-              </div>
-              <ul class="events-list premium-list" id="premium-events-list">
-                <li class="event-item">
-                  <div class="event-title">Zomertornooi U8–U11</div>
-                  <div class="event-meta">15–16 augustus · Regio Kempen · tornooi met 2 speeldagen.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Zomerstage U7–U13</div>
-                  <div class="event-meta">Dagkamp eerste week juli · techniek &amp; fun.</div>
-                </li>
-              </ul>
-              <a href="events.html" class="event-link">Alle events →</a>
-            </article>
-
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Premium</div>
-                  <div class="card-title">Premium trainers</div>
-                </div>
-                <span class="pill-small">Betalend</span>
-              </div>
-              <ul class="events-list premium-list" id="premium-trainers-list">
-                <li class="event-item">
-                  <div class="event-title">UEFA B-trainer zoekt U21 of 1e ploeg</div>
-                  <div class="event-meta">Regio Antwerpen · ervaring interprovinciaal / nationaal jeugd.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Jeugdtrainer U8–U10 · startend</div>
-                  <div class="event-meta">Zoekt club met sterk opleidingsplan en begeleiding.</div>
-                </li>
-              </ul>
-              <a href="trainers.html" class="event-link">Alle trainers →</a>
-            </article>
-
-            <article class="card">
-              <div class="card-header">
-                <div>
-                  <div class="card-caption">Premium</div>
-                  <div class="card-title">Premium spelers</div>
-                </div>
-                <span class="pill-small">Betalend</span>
-              </div>
-              <ul class="events-list premium-list" id="premium-spelers-list">
-                <li class="event-item">
-                  <div class="event-title">Linksvoetige flankspeler U17</div>
-                  <div class="event-meta">Regio Limburg · zoekt provinciale of interprovinciale club.</div>
-                </li>
-                <li class="event-item">
-                  <div class="event-title">Centrale verdediger 1e ploeg</div>
-                  <div class="event-meta">3e provinciale · zoekt ambitieuze club met jonge kern.</div>
-                </li>
-              </ul>
-              <a href="spelers.html" class="event-link">Alle spelers →</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- IN-CONTENT AD -->
-      <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
-        <div class="shell">
-          <div class="ad-infeed">
-            <ins class="adsbygoogle"
-              style="display:block"
-              data-ad-client="ca-pub-4062633211824348"
-              data-ad-slot="4831226012"
-              data-ad-format="auto"
-              data-full-width-responsive="true"></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
-        </div>
-      </section>
-
-      <!-- ONDERSTE GRID -->
-      <section class="section-main">
-        <div class="shell">
-          <div class="lower-grid-layout grid-3">
-
-            <!-- LINKS -->
-            <section class="column-middle">
+            <!-- LINKS: PREMIUM EVENTS -->
+            <aside class="column-left">
               <article class="card">
                 <div class="card-header">
                   <div>
-                    <div class="card-caption">Aankomend weekend</div>
-                    <div class="card-title">Aankomende events</div>
+                    <div class="card-caption">Premium</div>
+                    <div class="card-title">In de kijker</div>
                   </div>
-                  <span class="pill-small">Vanuit eventspagina’s</span>
+                  <span class="pill-small">Roterend elke 5 sec</span>
                 </div>
 
-                <ul class="weekend-list" id="weekend-events-list">
-                  <li class="weekend-item">
-                    <span>Za 10:00 · Jeugddag U6–U9</span>
-                    <span><a href="tornooien.html">Tornooi / jeugdevent</a></span>
+                <ul class="events-list" id="premium-events-list">
+                  <li class="event-item">
+                    <div class="event-title">⚡ Uw evenement hier?</div>
+                    <div class="event-meta">Bereik 1000+ bezoekers per dag met Premium-plaatsing.</div>
+                    <a href="#footer-contact" class="event-link">Meer info →</a>
                   </li>
-                  <li class="weekend-item">
-                    <span>Za &amp; zo · Mosselfestijn</span>
-                    <span><a href="dinners.html">Dinner &amp; clubfeest</a></span>
+                  <li class="event-item">
+                    <div class="event-title">⚡ Uw evenement hier?</div>
+                    <div class="event-meta">Bereik 1000+ bezoekers per dag met Premium-plaatsing.</div>
+                    <a href="#footer-contact" class="event-link">Meer info →</a>
                   </li>
-                  <li class="weekend-item">
-                    <span>Zo 09:30 · Vriendschappelijke wedstrijd U15</span>
-                    <span><a href="vrienden.html">Vriendschappelijke match</a></span>
+                </ul>
+              </article>
+
+              <div class="ad-vertical" style="margin-top:12px;">
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="6032627042"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+
+              <article class="card" style="margin-top:12px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Nieuw</div>
+                    <div class="card-title">Laatste clubvacatures</div>
+                  </div>
+                  <span class="pill-small">Laatste 10, roterend</span>
+                </div>
+
+                <ul class="events-list" id="latest-vacatures-list">
+                  <li class="event-item">
+                    <div class="event-title">Hoofdtrainer U16 gezocht</div>
+                    <div class="event-meta">Regio West-Vlaanderen · minimaal UEFA B.</div>
+                  </li>
+                  <li class="event-item">
+                    <div class="event-title">Keeperstrainer eerste ploeg</div>
+                    <div class="event-meta">Regio Antwerpen · nationale reeks.</div>
                   </li>
                 </ul>
 
-                <p class="note">
-                  Later kan dit blok automatisch gevoed worden op basis van alle events in de verschillende eventspagina’s.
-                </p>
-
-                <a href="events.html" class="event-link">Volledig eventsoverzicht →</a>
+                <a href="clubvacatures.html" class="event-link">Bekijk alle vacatures →</a>
               </article>
-            </section>
+            </aside>
 
             <!-- MIDDEN: ARTIKELS -->
             <section class="column-middle">
@@ -499,9 +305,28 @@
               <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
             </div>
           </div>
-          <div class="footer-ad">
-            FOOTER ADVERTENTIE / PARTNERLOGO<br>
-            <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+
+          <div class="footer-nav">
+            <strong>Navigatie</strong>
+            <a href="index.html">Home</a>
+            <a href="artikels.html">Artikels</a>
+            <a href="events.html">Sportieve events</a>
+            <a href="algemene-events.html">Club &amp; fun</a>
+          </div>
+
+          <div class="footer-nav">
+            <strong>Vacatures &amp; profielen</strong>
+            <a href="clubvacatures.html">Clubvacatures</a>
+            <a href="trainers.html">Trainers</a>
+            <a href="spelers.html">Spelers</a>
+          </div>
+
+          <div class="footer-nav">
+            <strong>Sportief</strong>
+            <a href="sportief-spelers.html">Spelersstatistieken</a>
+            <a href="sportief-teams.html">Teamstatistieken</a>
+            <a href="sportief-resultaten.html">Resultaten</a>
+            <a href="sportief-rangschikkingen.html">Rangschikkingen</a>
           </div>
         </div>
       </div>
@@ -510,43 +335,20 @@
   </div>
 
   <script>
-    // Jaar in footer
+    // JS voor dynamic year in footer
     document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
-    // Generieke rotatiefunctie
-    function makeRotatingList(selector, visibleCount, intervalMs) {
-      const list = document.querySelector(selector);
+  <script>
+    // Script voor premium events
+    document.addEventListener("DOMContentLoaded", () => {
+      const list = document.getElementById("premium-events-list");
       if (!list) return;
-      const items = Array.from(list.children);
-      if (items.length <= visibleCount) return;
+      const items = Array.from(list.querySelectorAll(".event-item"));
 
-      let startIndex = 0;
-
-      function render() {
-        items.forEach((item, index) => {
-          const inWindow = index >= startIndex && index < startIndex + visibleCount;
-          item.style.display = inWindow ? "" : "none";
-        });
-
-        startIndex += visibleCount;
-        if (startIndex >= items.length) startIndex = 0;
-      }
-
-      render();
-      setInterval(render, intervalMs);
-    }
-
-    makeRotatingList("#weekend-events-list", 2, 5000);
-    makeRotatingList("#latest-trainers-list", 2, 4000);
-    makeRotatingList("#latest-players-list", 2, 4000);
-
-    // Premiumlijsten roteren indien meer dan 2 items
-    document.querySelectorAll(".premium-list").forEach(list => {
-      const items = Array.from(list.children);
-
-      if (!items.length) {
+      if (items.length === 0) {
         const msg = document.createElement("p");
-        msg.className = "note premium-empty";
+        msg.className = "note";
         msg.textContent = "Uw profiel / event / vacature hier? Druk op de knop voor extra zichtbaarheid.";
         list.parentElement.appendChild(msg);
         return;
@@ -578,9 +380,9 @@
 
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-      const CACHE_KEY = "home_news_html_v4";
+      const CACHE_KEY = "home_news_html_v5"; // Updated cache version
       localStorage.removeItem(CACHE_KEY);
-      const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
+      const REFRESH_MS = 5 * 60 * 1000; // 5 min
 
       let hasRenderedHomeNews = false;
 
@@ -602,9 +404,11 @@
         hasRenderedHomeNews = true;
         hideStatus();
       }
+      
       async function loadHomeNews() {
         try {
-          const url = `${API_BASE}/api/news?limit=6&ts=${Date.now()}`;
+          // 🔥 FIX 1: Load 50 articles instead of 6 (for better distribution)
+          const url = `${API_BASE}/api/news?limit=50&ts=${Date.now()}`;
           const res = await fetch(url, { cache: "no-store" });
           console.log("[HOME] fetch", url, "->", res.status);
 
@@ -621,7 +425,7 @@
 
           // DEDUPE: eerst op fileName, fallback op title+publishedAt
           const seen = new Set();
-          const items = rawItems.filter(a => {
+          let items = rawItems.filter(a => {
             const key =
               (a && a.fileName) ? `f:${a.fileName}` :
               `t:${(a?.title || "").trim().toLowerCase()}|p:${a?.publishedAt || ""}`;
@@ -631,17 +435,53 @@
             return true;
           });
 
-          const renderItems = items.slice(0, 6);
-          console.log("[HOME] items:", items.length);
+          // 🔥 FIX 2: FOOTBALL FILTER - Remove non-football content
+          const footballKeywords = [
+            'voetbal', 'football', 'club', 'speler', 'doelpunt', 'wedstrijd',
+            'match', 'trainer', 'competitie', 'league', 'transfer', 'ajax',
+            'feyenoord', 'psv', 'anderlecht', 'club brugge', 'standard',
+            'premier league', 'eredivisie', 'jupiler pro league', 'champions league',
+            'europa league', 'world cup', 'fifa', 'uefa', 'goal', 'goalkeeper',
+            'striker', 'midfielder', 'defender', 'penalty', 'corner', 'offside'
+          ];
+          
+          const nonFootballKeywords = [
+            'darts', 'dart', 'snooker', 'tennis', 'basketbal', 'hockey',
+            'handbal', 'volleybal', 'formule 1', 'f1', 'wielrennen', 'cycling',
+            'schaatsen', 'zwemmen', 'atletiek', 'golf', 'rugby'
+          ];
+          
+          const filteredItems = items.filter(article => {
+            const text = `${article.title || ''} ${article.snippet || ''}`.toLowerCase();
+            
+            // Exclude non-football sports immediately
+            if (nonFootballKeywords.some(keyword => text.includes(keyword))) {
+              console.log(`[FILTER] ❌ Excluded (non-football): ${article.title}`);
+              return false;
+            }
+            
+            // Include if contains football keywords
+            const isFootball = footballKeywords.some(keyword => text.includes(keyword));
+            if (!isFootball) {
+              console.log(`[FILTER] ❌ Excluded (no football keywords): ${article.title}`);
+            }
+            return isFootball;
+          });
+
+          console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
+
+          // Take first 6 for display on homepage
+          const renderItems = filteredItems.slice(0, 6);
+          console.log("[HOME] items to render:", renderItems.length);
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
-          if (!items.length) {
+          if (!renderItems.length) {
             showStatusOnceIfEmpty("Artikels worden geladen…");
             return;
           }
 
           const html = renderItems.map(a => {
-            // 1) title check (zoals je al had)
+            // 1) title check
             const rawTitle = a?.title || "";
             const looksLikeSlug =
               rawTitle.endsWith(".json") ||
@@ -653,16 +493,14 @@
             // 2) JUISTE file-naam (backend gebruikt fileName)
             const file = a?.file || a?.fileName || "";
 
-            // 3) JUISTE image (zit genest in image.publicPath)
-
-            // 4) vlag op basis van country
+            // 3) vlag op basis van country
             const country = (a?.country || "").toUpperCase();
             const flag =
               country === "BE" ? "🇧🇪" :
               country === "NL" ? "🇳🇱" :
               country ? "🌍" : "";
 
-            // 3) JUISTE image: backend levert image als STRING
+            // 4) JUISTE image: backend levert image als STRING
             let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
 
             // maak absoluut (belangrijk: IMG_BASE, niet API_BASE)
