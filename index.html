@@ -619,17 +619,19 @@
           const data = await res.json();
           const rawItems = Array.isArray(data.items) ? data.items : [];
 
-          // DEDUPE: eerst op fileName, fallback op title+publishedAt
+          // 🔥 DEDUPE: Remove duplicates by title only (simplified)
           const seen = new Set();
-          const items = rawItems.filter(a => {
-            const key =
-              (a && a.fileName) ? `f:${a.fileName}` :
-              `t:${(a?.title || "").trim().toLowerCase()}|p:${a?.publishedAt || ""}`;
-
-            if (seen.has(key)) return false;
-            seen.add(key);
+          let items = rawItems.filter(a => {
+            const normalizedTitle = (a?.title || "").trim().toLowerCase();
+            if (seen.has(normalizedTitle)) {
+              console.log(`[DEDUPE] ❌ Removed duplicate: "${a.title}"`);
+              return false;
+            }
+            seen.add(normalizedTitle);
             return true;
           });
+
+          console.log(`[DEDUPE] ${rawItems.length} → ${items.length} articles (removed ${rawItems.length - items.length} duplicates)`);
 
           // Don't slice here - we need all items for filtering
           console.log("[HOME] items:", items.length);
@@ -668,6 +670,16 @@
           });
 
           console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
+
+          // 🔥 FIX: Sort by country - BE/NL first, then INT
+          filteredItems.sort((a, b) => {
+            const countryOrder = { 'BE': 1, 'NL': 2, 'INT': 3 };
+            const aOrder = countryOrder[a.country] || 99;
+            const bOrder = countryOrder[b.country] || 99;
+            return aOrder - bOrder;
+          });
+          
+          console.log('[SORT] ✅ Sorted: BE/NL first, then INT');
 
           // Take first 50 for display (from filtered results)
           const displayItems = filteredItems.slice(0, 50);
