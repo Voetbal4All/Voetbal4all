@@ -1,16 +1,38 @@
 {
-  "generatedAt": "2025-12-29T16:30:37.503Z",
+  "generatedAt": "2025-12-29T17:22:14.129Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sutton's predictions v singer-songwriter & Sunderland fan Tom A Smith",
+      "link": "https://www.bbc.com/sport/football/articles/c9qe884715jo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport football expert Chris Sutton takes on singer-songwriter and Sunderland fan Tom A Smith - and AI - with his predictions for this week's Premier League fixtures.",
+      "publishedAt": "2025-12-29T17:17:44.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Zimbabwe laat Zuid-Afrika na heerlijke goal zweten op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/vi-live-zimbabwe-laat-zuid-afrika-na-heerlijke-goal-zweten-op-afrika-cup",
+      "title": "Beestenboel in Ally Pally: Kees Smit aandachtig toeschouwer bij WK Darts",
+      "link": "https://www.vi.nl/nieuws/beestenboel-in-ally-pally-kees-smit-aandachtig-toeschouwer-bij-wk-darts",
+      "summary": "Kees Smit brengt een deel zijn vrije dagen met zijn vrienden door. De middenvelder van AZ doet dat verkleed als Shaun het Schaap, tijdens het WK darts in Alexandra Palace.",
+      "publishedAt": "2025-12-29T17:14:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Zuid-Afrika kan knockout-fase Afrika Cup ruiken",
+      "link": "https://www.vi.nl/nieuws/vi-live-zuid-afrika-kan-knockout-fase-afrika-cup-ruiken",
       "summary": "Ook maandag wordt er weer gevoetbald in de Afrika Cup. Het Egypte van Mohamed Salah staat tegenover Angola en Marokko treft Zambia. Volg het belangrijkste voetbal van maandag in deze VI Live.",
-      "publishedAt": "2025-12-29T16:22:32.000Z"
+      "publishedAt": "2025-12-29T17:10:54.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +43,7 @@
       "title": "Angola v Egypt: Africa Cup of Nations 2025 – live",
       "link": "https://www.theguardian.com/football/live/2025/dec/29/angola-v-egypt-africa-cup-of-nations-2025-live",
       "summary": "Updates from 4pm kick-off (GMT) in Group B Get in touch: you can email Will about the game The stadium in Agadir looks rather empty. The transfer window is almost upon us. Continue reading...",
-      "publishedAt": "2025-12-29T16:14:08.000Z"
+      "publishedAt": "2025-12-29T17:09:32.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +54,117 @@
       "title": "Dit vindt Weghorst van de aanstelling van Cruijff bij Ajax",
       "link": "https://www.vi.nl/nieuws/dit-vindt-weghorst-van-de-aanstelling-van-cruijff-bij-ajax",
       "summary": "Wout Weghorst gelooft erin dat Jordi Cruijff ervoor kan zorgen dat de rust terugkeert binnen de bestuurskamer van Ajax. De spits kent de nieuwe technisch directeur niet persoonlijk, maar denkt dat zijn komst heel belangrijk is voor zijn Amsterdamse werkgever.",
-      "publishedAt": "2025-12-29T15:51:25.000Z"
+      "publishedAt": "2025-12-29T17:05:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van de Ven lifts lid on Spurs' hectic 2025",
+      "link": "https://www.skysports.com/football/news/12040/13487993/micky-van-de-ven-interview-spurs-defender-opens-up-on-europa-league-win-unacceptable-home-form-and-thomas-franks-changes",
+      "summary": "It has been a topsy-turvy year at Tottenham Hotspur, with Micky van de Ven lifting the lid on a memorable but ever-changing year at Spurs.",
+      "publishedAt": "2025-12-29T17:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Maresca bevestigt: Hato mist ook laatste wedstrijd van 2025",
+      "link": "https://www.vi.nl/nieuws/maresca-bevestigt-hato-mist-ook-laatste-wedstrijd-van-2025",
+      "summary": "Voor Jorrel Hato zit 2025 erop. De verdediger van Chelsea raakte anderhalve week geleden geblesseerd. Na de wedstrijd tegen Aston Villa komt ook de afsluiter van het kalenderjaar te vroeg voor Hato.",
+      "publishedAt": "2025-12-29T16:58:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ronaldo wants 1k goals; open to Europe return",
+      "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
+      "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
+      "publishedAt": "2025-12-29T16:40:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot frustrated over injuries to Liverpool signings",
+      "link": "https://www.espn.com/soccer/story/_/id/47441766/arne-slot-frustrated-injuries-liverpool-signings",
+      "summary": "Liverpool have yet to get full value from their huge summer spending spree because of the injuries they have suffered, according to head coach Arne Slot.",
+      "publishedAt": "2025-12-29T16:40:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arteta: Arsenal 'actively looking' for January deals",
+      "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
+      "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
+      "publishedAt": "2025-12-29T16:37:41.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: City in advanced talks for Semenyo",
+      "link": "https://www.espn.com/soccer/story/_/id/47443162/manchester-city-advanced-talks-bournemouth-antoine-semenyo-sources",
+      "summary": "Manchester City are in advanced talks to sign Antoine Semenyo, sources have told ESPN.",
+      "publishedAt": "2025-12-29T16:37:41.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aston Villa's 11th straight win might be the most impressive. Plus: Inter must sharpen up",
+      "link": "https://www.espn.com/soccer/story/_/id/47442504/aston-villa-chelsea-premier-league-inter-milan-serie-analysis-monday-musings-gab-marcotti",
+      "summary": "Some leagues are on break but the Premier League -- led by Villa's impressive comeback win at Chelsea -- and Serie A are still in full swing. Gab Marcotti breaks down the weekend.",
+      "publishedAt": "2025-12-29T16:37:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax laat McConnell per direct terug naar Liverpool gaan",
+      "link": "https://www.vi.nl/nieuws/ajax-laat-mcconnell-per-direct-terug-naar-liverpool-gaan",
+      "summary": "Het verblijf van James McConnell bij Ajax blijft beperkt tot een half jaar. De huurovereenkomst met Liverpool gaat ontbonden worden en dus zal de middenvelder (21) teruggaan naar Engeland.",
+      "publishedAt": "2025-12-29T16:35:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Lautaro Martínez continues to do the most difficult thing in firing Inter back to the top",
+      "link": "https://www.theguardian.com/football/2025/dec/29/lautaro-martinez-continues-most-difficult-thing-inter-milan-serie-a",
+      "summary": "The Argentinian captain has his critics but is the leader and inspiration behind a team finding their feet again Leave it to a 20-year-old, with three Serie A starts under his belt, to provide a most perceptive analysis of the Italian top flight as we head into a new year. “The most difficult thing to do in this game,” said Francesco Pio Esposito on Sunday night, “is to stick the ball in the net.” He was speaking in praise of his Inter teammate, Lautaro Martínez, whom he set up for the decisive goal in a 1-0 win away to Atalanta. Pio Esposito had barely entered as a second-half substitute when he was gifted possession by an opponent, Berat Djimsiti. Instead of taking the chance on himself, he froze the last defender and released Lautaro to score with a side-footed through-ball. Continue reading...",
+      "publishedAt": "2025-12-29T16:26:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Forest lodge formal complaint over officiating in Man City defeat",
+      "link": "https://www.skysports.com/football/news/12040/13488351/nottingham-forest-lodge-complaint-over-officiating-in-man-city-defeat-and-ask-for-audio-from-refereeing-body",
+      "summary": "Nottingham Forest have formally complained about the officiating in their 2-1 defeat to Manchester City in the Premier League.",
+      "publishedAt": "2025-12-29T16:26:00.000Z"
     },
     {
       "type": "rss",
@@ -47,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Krijgt Roefs de voorkeur boven Courtois in het Elftal van het Jaar?",
-      "link": "https://www.vi.nl/video/krijgt-roefs-de-voorkeur-boven-courtois-in-het-elftal-van-het-jaar",
-      "summary": "Natúúrlijk maakt VI ook nu weer een Elftal van het Jaar met spelers die actief zijn in de buitenlandse topcompetities. Kleine verandering: dit keer kijken kenners buitenlands voetbal Süleyman Öztürk en Bas van den Hoven alleen naar de eerste seizoenshelft. In dit fragment gaan de heren dieper in op de keepers Robin Roefs en Thibaut Courtois.",
-      "publishedAt": "2025-12-29T15:35:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -66,17 +187,6 @@
       "link": "https://www.skysports.com/racing/news/12040/13488332/newbury-no-drama-for-paul-nicholls-hotpot-in-challow-novices-hurdle",
       "summary": "No Drama This End lived up to his increasingly lofty reputation with a straightforward victory in the Coral Challow Novices' Hurdle at Newbury.",
       "publishedAt": "2025-12-29T15:34:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wijzigingen in technische staf AZ: twee assistenten vertrekken",
-      "link": "https://www.vi.nl/nieuws/wijzigingen-in-technische-staf-az-twee-assistenten-vertrekken",
-      "summary": "Vlak voor de jaarwisseling zijn er twee wijzigingen doorgevoerd in de technische staf van AZ. Maarten Martens ziet assistent-trainer Kenneth Goudmijn vertrekken, net als keepers- en assistent-trainer Nick van Aart.",
-      "publishedAt": "2025-12-29T15:15:00.000Z"
     },
     {
       "type": "rss",
@@ -91,28 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ronaldo wants 1k goals; open to Europe return",
-      "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
-      "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
-      "publishedAt": "2025-12-29T14:53:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot frustrated over injuries to Liverpool signings",
-      "link": "https://www.espn.com/soccer/story/_/id/47441766/arne-slot-frustrated-injuries-liverpool-signings",
-      "summary": "Liverpool have yet to get full value from their huge summer spending spree because of the injuries they have suffered, according to head coach Arne Slot.",
-      "publishedAt": "2025-12-29T14:53:14.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -124,28 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Amorim vreesde ontslag als hij systeem Man United eerder omgegooid had",
-      "link": "https://www.vi.nl/nieuws/amorim-kon-systeem-manchester-united-niet-veranderen-vanwege-mediadruk",
-      "summary": "Rúben Amorim heeft benadrukt dat zijn systeemwijziging bij Manchester United niets te maken heeft met druk vanuit de media of de supporters. Tegen Newcastle United stapte de Portugese trainer voor het eerst af van zijn bekende formatie met drie verdedigers en wingbacks, en koos hij voor een viermansdefensie met twee controleurs op het middenveld.",
-      "publishedAt": "2025-12-29T14:46:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta: Arsenal 'actively looking' for January deals",
-      "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
-      "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
-      "publishedAt": "2025-12-29T14:12:25.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -154,72 +220,6 @@
       "link": "https://www.skysports.com/cricket/news/12040/13488222/the-ashes-stuart-broad-backs-ben-stokes-and-brendon-mccullum-to-stay-in-england-roles",
       "summary": "Stuart Broad has warned that removing ECB managing director Rob Key could trigger a domino effect that puts Ben Stokes' position as England captain at risk.",
       "publishedAt": "2025-12-29T14:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "I thought I was going to die after collapse - Rush",
-      "link": "https://www.bbc.com/sport/football/articles/ckglg42y6zjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool legend Ian Rush says he thought he was close to dying after contracting superflu earlier in December and spending five days in hospital.",
-      "publishedAt": "2025-12-29T13:49:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Time is right to change Man Utd formation - Amorim",
-      "link": "https://www.bbc.com/sport/football/articles/c62l28499jjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Head coach Ruben Amorim says if he had changed Manchester United's formation because of media pressure it would have been \"the end\" for him.",
-      "publishedAt": "2025-12-29T13:31:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ruben Amorim praises Bruno Fernandes for being a leader even when injured",
-      "link": "https://www.theguardian.com/football/2025/dec/29/manchester-united-ruben-amorim-bruno-fernandes",
-      "summary": "‘I don’t know if he wants my job, but he’s a leader’ Mason Mount a doubt for Wolves game Ruben Amorim has joked that Bruno Fernandes may want his job as Manchester United head coach after the captain observed training sessions and remained a vocal leader despite being injured. Fernandes could be out for up to three more weeks after sustaining a hamstring problem in United’s 2-1 defeat at Aston Villa on 21 December. Amorim was asked if the 31-year-old is still an influence on the team and offered a humorous response regarding his own role. Continue reading...",
-      "publishedAt": "2025-12-29T13:30:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim: Man Utd couldn't change formation due to media pressure",
-      "link": "https://www.skysports.com/football/news/12040/13488066/man-utd-boss-ruben-amorim-promises-to-be-flexible-over-team-formation-moving-forward-as-bruno-fernandes-remains-on-sidelines",
-      "summary": "Ruben Amorim says Manchester United's days of solely playing with a back three are over and revealed he refrained from changing formation earlier to ensure his players did not feel he was caving in to media pressure.",
-      "publishedAt": "2025-12-29T13:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Men’s transfer window January 2026: all deals from Europe’s top five leagues",
-      "link": "https://www.theguardian.com/football/ng-interactive/2025/dec/29/mens-transfer-window-january-2026-all-deals-europe-top-five-leagues",
-      "summary": "All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Continue reading...",
-      "publishedAt": "2025-12-29T13:00:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Women’s transfer window January 2026: all deals from world’s top six leagues",
-      "link": "https://www.theguardian.com/football/ng-interactive/2025/dec/29/womens-transfer-window-january-2026-all-deals-world-top-six-leagues",
-      "summary": "Every deal in the WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide Continue reading...",
-      "publishedAt": "2025-12-29T13:00:35.000Z"
     }
   ]
 }
