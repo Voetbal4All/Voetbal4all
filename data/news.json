@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2025-12-29T21:22:12.138Z",
+  "generatedAt": "2025-12-29T22:23:42.812Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Porto en Farioli nemen na rust afstand van hekkensluiter en verruimen voorsprong",
+      "link": "https://www.vi.nl/nieuws/porto-en-farioli-nemen-na-rust-afstand-van-hekkensluiter-en-verruimen-voorsprong",
+      "summary": "FC Porto heeft 2025 met drie punten afgesloten. In eigen huis duurde het nog redelijk lang voordat de koploper afrekende met hekkensluiter AVS. Twee goals van Samu maakten het verschil.",
+      "publishedAt": "2025-12-29T22:17:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Riedewald met een schaars maar belangrijk doelpunt",
+      "link": "https://www.vi.nl/nieuws/vi-live-riedewald-met-een-schaars-maar-belangrijk-doelpunt",
+      "summary": "Ook maandag wordt er weer gevoetbald in de Afrika Cup. Het Egypte van Mohamed Salah staat tegenover Angola en Marokko treft Zambia. Volg het belangrijkste voetbal van maandag in deze VI Live.",
+      "publishedAt": "2025-12-29T22:17:03.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Coventry v Ipswich, Middlesbrough v Hull, Afcon 2025 and more: Football League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/29/leicester-v-derby-middlesbrough-v-hull-and-more-efl-clockwatch-live",
-      "summary": "Updates from Championship, League One and Two Get in touch: contact Rob via email if you like Zambia (poss 4-2-3-1) Mwanza; M Banda, B Sakala, Chanda, L Musonda; Chongo, Chaiwa; Hamansenya, Kangwa, Liteta; Daka. Subs: O Chisala, F Musonda, Lahne, L Banda, Sabobo, W Chisala, Sunzu, Kalusa, Mulenga, Mwansa, K Musonda, Phiri, Mphande, Tembo, Mandanji. Continue reading...",
-      "publishedAt": "2025-12-29T21:05:19.000Z"
+      "title": "Jordan James completes double over Derby to lift sour mood at Leicester",
+      "link": "https://www.theguardian.com/football/2025/dec/29/leicester-derby-championship-match-report",
+      "summary": "Doing a December double over Derby may have offered Leicester fans some festive cheer but it is unlikely to brook the longstanding resentment against a board whose treatment of staff over Christmas has only exacerbated ill will at the King Power Stadium. First-half goals from Bobby De Cordova-Reid and Jordan James sandwiched Rhian Brewster’s equaliser to earn manager Martí Cifuentes some respite after successive defeats. Leicester are four points off the playoff zone ahead of Thursday’s visit to in-form Sheffield United. Continue reading...",
+      "publishedAt": "2025-12-29T22:02:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Hakimi returns as Morocco seal AFCON knockouts",
+      "link": "https://www.espn.com/soccer/story/_/id/47446867/achraf-hakimi-returns-morocco-afcon-knockouts",
+      "summary": "Africa Cup of Nations hosts Morocco dispatched Zambia 3-0 at a fervid Prince Moulay Abdellah Stadium in Rabat on Monday to round off their Group A campaign in style and ease into the round of 16.",
+      "publishedAt": "2025-12-29T22:01:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arteta: Arsenal 'actively looking' for January deals",
+      "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
+      "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
+      "publishedAt": "2025-12-29T22:01:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ronaldo wants 1k goals; open to Europe return",
+      "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
+      "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
+      "publishedAt": "2025-12-29T22:01:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham into top half of Championship after win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/744881",
+      "summary": "null",
+      "publishedAt": "2025-12-29T22:01:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Morocco outclass Zambia to storm into last 16 while Mali squeeze through",
+      "link": "https://www.theguardian.com/football/2025/dec/29/africa-cup-of-nations-morocco-zambia-mali-comoros-south-africa-zimbabwe-egypt",
+      "summary": "Morocco 3-0 Zambia | Mali 0-0 Comoros South Africa and Egypt through, Angola face nervous wait Morocco forward Ayoub El Kaabi netted a double and the midfield maestro Brahim Díaz added another as the Africa Cup of Nations hosts turned in a convincing performance in outclassing Zambia 3-0 on Monday to top Group A. El Kaabi powered home an early headed goal and then scored with one of his trademark bicycle kicks while Díaz netted for the third successive game as Morocco swept their opponents aside to finish on seven points ahead of second-placed Mali on three. Continue reading...",
+      "publishedAt": "2025-12-29T22:00:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aston Villa defy gravity again as winning run rolls on at Chelsea",
+      "link": "https://www.theguardian.com/football/2025/dec/29/aston-villa-chelsea-winning-run-title-race-newsletter",
+      "summary": "Villa keep coming from behind, keep winning by the odd goal and keep confounding the numbers. At some point it must stop – but not yet It can’t go on. It makes no sense that it goes on. And yet it goes on. Aston Villa went into Saturday’s Premier Leage game at Chelsea having won 10 games in a row, looking to match a record set in 1897 and 1914. For an hour there seemed no chance they would achieve it, as Chelsea outplayed them, took the lead and could have had several more. But Chelsea are vulnerable with a lead, especially at home, and Villa have developed a baffling habit of winning away games having gone behind. This is an extract from Soccer with Jonathan Wilson, a weekly look from the Guardian US at the game in Europe and beyond. Subscribe for free here. Have a question for Jonathan? Email soccerwithjw@theguardian.com, and he’ll answer the best in a future edition. Continue reading...",
+      "publishedAt": "2025-12-29T21:52:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "AS Roma bezorgt clublegende De Rossi terugkeer met twee gezichten",
+      "link": "https://www.vi.nl/nieuws/as-roma-bezorgt-clublegende-de-rossi-terugkeer-met-twee-gezichten",
+      "summary": "Daniele De Rossi kan in sportief opzicht niet terugkijken op een fijne terugkeer bij zijn oude werkgever AS Roma. De Romeinen hadden aan één helft genoeg om Genoa van al hun aspiraties te beroven: 3-1.",
+      "publishedAt": "2025-12-29T21:48:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bournemouth eye Johnson - Tuesday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/c87l7y0l3z7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Bournemouth identify Brennan Johnson and Abdul Fatawu as potential replacements for Antoine Semenyo, Liverpool want to wait until the summer to sign Marc Guehi, and Everton are interested in Manchester United duo Kobbie Mainoo and Joshua Zirkzee, plus more.",
+      "publishedAt": "2025-12-29T21:25:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Deze landen kan Marokko in de achtste- en kwartfinale treffen op de Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/deze-landen-kan-marokko-in-de-achtste-en-kwartfinale-treffen-op-de-afrika-cup",
+      "summary": "Marokko verzekerde zich maandagavond als winnaar van Groep A voor de knockout-fase van de Afrika Cup. De Leeuwen van de Atlas hebben zich dus bij de laatste zestien van het toernooi gevoegd en dat biedt kans om alvast vooruit te kijken tegen wie er mogelijk gespeeld gaat worden.",
+      "publishedAt": "2025-12-29T21:24:31.000Z"
     },
     {
       "type": "rss",
@@ -25,91 +146,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Mali en zijn Belgische bondscoach zijn een ronde verder op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/vi-live-mali-en-zijn-belgische-bondscoach-zijn-een-ronde-verder-op-afrika-cup",
-      "summary": "Ook maandag wordt er weer gevoetbald in de Afrika Cup. Het Egypte van Mohamed Salah staat tegenover Angola en Marokko treft Zambia. Volg het belangrijkste voetbal van maandag in deze VI Live.",
-      "publishedAt": "2025-12-29T20:55:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slegers won CL met Arsenal: 'Iets geflikt wat op voorhand onmogelijk leek'",
-      "link": "https://www.vi.nl/nieuws/slegers-won-cl-met-arsenal-iets-geflikt-wat-op-voorhand-onmogelijk-leek",
-      "summary": "Renée Slegers won dit jaar met de vrouwen van Arsenal de Champions League. In de finale werd het onaantastbaar geachte Barcelona met 1-0 verslagen. Slegers blikt in het VI Kerstnummer terug op misschien wel de meest ondergesneeuwde sportprestatie van 2025.",
-      "publishedAt": "2025-12-29T20:43:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ronaldo wants 1k goals; open to Europe return",
-      "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
-      "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
-      "publishedAt": "2025-12-29T20:42:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfer van Hartman naar Ajax gaat niet door",
-      "link": "https://www.vi.nl/nieuws/transfer-van-hartman-naar-ajax-gaat-niet-door",
-      "summary": "Quilindschy Hartman gaat niet naar Ajax. De linksback werd de voorbije uren veelal aan een overgang van Burnley naar Amsterdam gelinkt, maar dat is van de baan.",
-      "publishedAt": "2025-12-29T20:40:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Denver to sign Oke for NWSL record fee",
-      "link": "https://www.espn.com/soccer/story/_/id/47445806/nwsl-denver-sign-ayo-oke-pachuca-sources",
-      "summary": "Denver Summit FC has agreed to a transfer with Mexico's Pachuca for defender Ayo Oke for what would be the highest incoming transfer fee for an American player in NWSL history, sources told ESPN.",
-      "publishedAt": "2025-12-29T20:28:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta: Arsenal 'actively looking' for January deals",
-      "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
-      "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
-      "publishedAt": "2025-12-29T20:28:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot frustrated over injuries to Liverpool signings",
-      "link": "https://www.espn.com/soccer/story/_/id/47441766/arne-slot-frustrated-injuries-liverpool-signings",
-      "summary": "Liverpool have yet to get full value from their huge summer spending spree because of the injuries they have suffered, according to head coach Arne Slot.",
-      "publishedAt": "2025-12-29T20:28:53.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Afcon roundup: South Africa join Egypt in last 16 after win against Zimbabwe",
-      "link": "https://www.theguardian.com/football/2025/dec/29/africa-cup-of-nations-morocco-zambia-mali-comoros-south-africa-zimbabwe-egypt",
-      "summary": "South Africa 3-2 Zimbabwe | Egypt 0-0 Angola Angola face wait to qualify but Zimbabwe out Oswin Appollis scored a penalty in the final 10 minutes to hand South Africa a 3-2 victory over Zimbabwe in Marrakech on Monday and seal second spot in Group B at the Africa Cup of Nations, dumping their southern African rivals out of the tournament. South Africa finish with six points in the group, one behind Egypt. Both those advance to the last 16 as Angola, on two points, finish in third and face an anxious wait to see if that is enough as one of the four best third-placed sides. Continue reading...",
-      "publishedAt": "2025-12-29T20:14:24.000Z"
+      "title": "Ipswich stun leaders Coventry to breathe life into Championship promotion race",
+      "link": "https://www.theguardian.com/football/2025/dec/29/coventry-ipswich-championship-match-report",
+      "summary": "Ipswich narrowed the gap on the Championship’s top two with an impressive 2-0 win at Coventry, ending the leaders’ unbeaten home record this season. Jack Clarke opened the scoring after 72 minutes and Wes Burns’ first goal since April 2024 doubled the visitors’ lead 11 minutes later. The Tractor Boys had started the day 13 points behind Frank Lampard’s team and five behind second-placed Middlesbrough after a run of four away matches without a win. Continue reading...",
+      "publishedAt": "2025-12-29T20:32:53.000Z"
     },
     {
       "type": "rss",
@@ -135,22 +179,11 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Arsenal wil revanche na vorige duel met Aston Villa dat 'wreed einde' had",
-      "link": "https://www.vi.nl/video/arsenal-wil-revanche-na-vorige-duel-met-aston-villa-dat-wreed-einde-had",
-      "summary": "Mikel Arteta heeft wel een idee hoe hij Aston Villa dinsdag wél kan verslaan met Arsenal. De Spaanse manager heeft geleerd van wat er eerder deze maand gebeurde.",
-      "publishedAt": "2025-12-29T19:48:35.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Hull ahead at Boro; Leicester, Wrexham, Sheff Utd lead - EFL LIVE!",
+      "title": "Ipswich win at Coventry to close gap on Boro; Leicester, Wrexham win - EFL highlights",
       "link": "https://www.skysports.com/football/birmingham-city-vs-southampton/live/534595",
       "summary": "",
       "publishedAt": "2025-12-29T17:30:00.000Z"
@@ -187,39 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13487993/micky-van-de-ven-interview-spurs-defender-opens-up-on-europa-league-win-unacceptable-home-form-and-thomas-franks-changes",
       "summary": "It has been a topsy-turvy year at Tottenham Hotspur, with Micky van de Ven lifting the lid on a memorable but ever-changing year at Spurs.",
       "publishedAt": "2025-12-29T17:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Keep, dump or extend: What transfers should Man United make in January?",
-      "link": "https://www.espn.com/soccer/story/_/id/47442824/what-transfers-man-united-make-january-window",
-      "summary": "The January transfer window opens this week, and big clubs like Man United have plenty of big decisions to make -- including with Ruben Amorim himself.",
-      "publishedAt": "2025-12-29T16:46:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Can 'tactical genius' Emery get the better of Arteta again in key title race clash?",
-      "link": "https://www.skysports.com/football/news/12040/13488357/arsenal-vs-aston-villa-can-unai-emery-get-the-better-of-mikel-arteta-once-again-in-premier-league-title-race-battle",
-      "summary": "Unai Emery says going to Arsenal on Tuesday night is Aston Villa's \"biggest challenge\" yet - but Mikel Arteta may be feeling the same way about his visitors at the Emirates.",
-      "publishedAt": "2025-12-29T16:42:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bournemouth target Brennan Johnson as potential Semenyo replacement",
-      "link": "https://www.theguardian.com/football/2025/dec/29/bournemouth-brennan-johnson-antoine-semenyo-tottenham-premier-league",
-      "summary": "Spurs open to doing business for £47.5m forward Semenyo primed to join Manchester City in £65m deal Bournemouth have identified Tottenham’s Brennan Johnson as a potential replacement for Antoine Semenyo, who is primed to join Manchester City in a deal worth £65m. City are accelerating talks with Semenyo’s camp and are at the front of the queue to trigger the Ghana winger’s release clause, inserted last summer when Semenyo extended his contract at Bournemouth. Continue reading...",
-      "publishedAt": "2025-12-29T15:45:32.000Z"
     }
   ]
 }
