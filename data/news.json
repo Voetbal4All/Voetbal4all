@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2025-12-29T06:40:53.010Z",
+  "generatedAt": "2025-12-29T07:29:10.574Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Today on Sky Sports Racing: No Drama This End tackles the Challow Hurdle",
+      "link": "https://www.skysports.com/racing/news/12040/13488058/today-on-sky-sports-racing-newbury-doncaster-and-newcastle-feature-live-on-monday-with-no-drama-this-end-in-challow-hurdle",
+      "summary": "We have a busy day's racing on Monday with action from Newbury, Doncaster and Newcastle, live on Sky Sports Racing...",
+      "publishedAt": "2025-12-29T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Duel met FC Utrecht komt Isco duur te staan",
+      "link": "https://www.vi.nl/nieuws/drama-voor-isco-betis-spelmaker-moet-weer-onder-het-mes",
+      "summary": "Het blessuredrama van Isco lijkt bijna geen einde te hebben. De sterspeler van Real Betis kwam dit seizoen pas twee keer in actie voor de Andalusiërs en moet volgens Spaanse media alweer onder het mes, waardoor zijn club het nog wel een poos zonder de smaakmaker moet stellen.",
+      "publishedAt": "2025-12-29T06:50:47.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -168,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Sporting wint eenvoudig en haakt aan in Portugese titelstrijd",
-      "link": "https://www.vi.nl/nieuws/vi-live-algerije-op-weg-naar-volgende-afrika-cup-overwinning",
-      "summary": "Goedendag en welkom in de VI Live van zondag 28 december! De laatste zondag van 2025 zit vol met leuke wedstrijden, en in dit liveblog hoeft u niks te missen.",
-      "publishedAt": "2025-12-28T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c4g4nn0j2v4o?at_medium=RSS&at_campaign=rss",
       "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
       "publishedAt": "2025-12-28T20:47:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Watkins has the edge - but Calvert-Lewin could yet make World Cup'",
-      "link": "https://www.bbc.com/sport/football/articles/cj69lj0w858o?at_medium=RSS&at_campaign=rss",
-      "summary": "Dominic Calvert-Lewin is the top English scorer in the Premier League this season - can he force his way back into the national squad five years after his last cap?",
-      "publishedAt": "2025-12-28T19:47:44.000Z"
     }
   ]
 }
