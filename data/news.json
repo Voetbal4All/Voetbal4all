@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2025-12-29T13:39:57.056Z",
+  "generatedAt": "2025-12-29T14:26:03.381Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Are Chelsea subs good enough – or should Maresca be blamed?",
-      "link": "https://www.bbc.com/sport/football/articles/c80x82l2y9xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea dropping more points from winning positions than any other Premier League team is \"not random\" says manager Enzo Maresca as he tries \"to understand why\".",
-      "publishedAt": "2025-12-29T13:32:14.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -21,7 +10,7 @@
       "title": "Ronaldo wants 1k goals; open to Europe return",
       "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
       "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
-      "publishedAt": "2025-12-29T13:31:59.000Z"
+      "publishedAt": "2025-12-29T14:12:25.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "Arteta: Arsenal 'actively looking' for January deals",
       "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
       "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
-      "publishedAt": "2025-12-29T13:31:59.000Z"
+      "publishedAt": "2025-12-29T14:12:25.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +32,40 @@
       "title": "Slot frustrated over injuries to Liverpool signings",
       "link": "https://www.espn.com/soccer/story/_/id/47441766/arne-slot-frustrated-injuries-liverpool-signings",
       "summary": "Liverpool have yet to get full value from their huge summer spending spree because of the injuries they have suffered, according to head coach Arne Slot.",
-      "publishedAt": "2025-12-29T13:31:59.000Z"
+      "publishedAt": "2025-12-29T14:12:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Oud-AZ'er mogelijk al weg bij Torino, Barça meldt zich bij Vlahovic'",
+      "link": "https://www.vi.nl/nieuws/cancelo-wil-terug-naar-europa-portugal-en-engeland-lonken",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-29T13:59:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Zielinski geeft Inzaghi trap na: 'Ik was een C-keuze'",
+      "link": "https://www.vi.nl/nieuws/zielinski-geeft-inzaghi-trap-na-ik-was-een-c-keuze",
+      "summary": "Piotr Zielinski is niet bepaald rouwig om het vertrek van trainer Simone Inzaghi van Inter naar Al-Hilal. De Poolse middenvelder voelt veel meer vertrouwen van Inzaghi's opvolger Cristian Chivu, die volgens Zielinski meer spelers in de plannen betrekt.",
+      "publishedAt": "2025-12-29T13:55:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "I thought I was going to die after collapse - Rush",
+      "link": "https://www.bbc.com/sport/football/articles/ckglg42y6zjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool legend Ian Rush says he thought he was close to dying after contracting superflu earlier in December and spending five days in hospital.",
+      "publishedAt": "2025-12-29T13:49:22.000Z"
     },
     {
       "type": "rss",
@@ -55,6 +77,17 @@
       "link": "https://www.bbc.com/sport/football/articles/c62l28499jjo?at_medium=RSS&at_campaign=rss",
       "summary": "Head coach Ruben Amorim says if he had changed Manchester United's formation because of media pressure it would have been \"the end\" for him.",
       "publishedAt": "2025-12-29T13:31:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ruben Amorim praises Bruno Fernandes for being a leader even when injured",
+      "link": "https://www.theguardian.com/football/2025/dec/29/manchester-united-ruben-amorim-bruno-fernandes",
+      "summary": "‘I don’t know if he wants my job, but he’s a leader’ Mason Mount a doubt for Wolves game Ruben Amorim has joked that Bruno Fernandes may want his job as Manchester United head coach after the captain observed training sessions and remained a vocal leader despite being injured. Fernandes could be out for up to three more weeks after sustaining a hamstring problem in United’s 2-1 defeat at Aston Villa on 21 December. Amorim was asked if the 31-year-old is still an influence on the team and offered a humorous response regarding his own role. Continue reading...",
+      "publishedAt": "2025-12-29T13:30:36.000Z"
     },
     {
       "type": "rss",
@@ -139,17 +172,6 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "'Oud-AZ'er na half jaar mogelijk al weg bij Torino'",
-      "link": "https://www.vi.nl/nieuws/cancelo-wil-terug-naar-europa-portugal-en-engeland-lonken",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2025-12-29T13:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "Bondscoach uit zorgen over WK-kansen Kroatië: 'We zitten in de problemen'",
       "link": "https://www.vi.nl/nieuws/bondscoach-uit-zorgen-over-wk-kansen-kroati-we-zitten-in-de-problemen",
       "summary": "Zlatko Dalic maakt zich grote zorgen over de WK-kansen van Kroatië en de toekomst van het voetbal in zijn thuisland. De bondscoach vindt dat Kroatië in de sterkst mogelijke poule is ingedeeld en twijfelt daarnaast over de aanvallende kwaliteiten van zijn ploeg. 'Er wordt gezocht naar jong talent, maar die komen kwaliteit tekort.'",
@@ -179,17 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Clichy nieuwe trainer bij club van Mbappé",
-      "link": "https://www.vi.nl/nieuws/clichy-nieuwe-trainer-bij-club-van-mbapp",
-      "summary": "Gaël Clichy is de nieuwe trainer van Caen, de club waar Kylian Mbappé eigenaar van is. Dat maakt de club bekend op haar website. Het is voor de veertigjarige Clichy zijn eerste klus als hoofdtrainer.",
-      "publishedAt": "2025-12-29T12:30:12.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/29/mikel-arteta-arsenal-aston-villa-premier-league-football",
       "summary": "Aston Villa snatched last-gasp win earlier in December Arteta: ‘It was quite cruel, the way we lost it’ Mikel Arteta has said he wants every visiting team to suffer at the Emirates Stadium, as Arsenal host Aston Villa on Tuesday night bidding to avenge their “cruel” defeat from the reverse fixture earlier this month. Arteta’s league leaders lost 2-1 at Villa Park three weeks ago, when Emi Buendía scored a 95th-minute winner with the last kick of the game. Continue reading...",
       "publishedAt": "2025-12-29T12:00:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal 'actively looking' at January signings",
-      "link": "https://www.bbc.com/sport/football/articles/cz0nkzm8d1zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal will be \"actively looking\" at potential signings during the January transfer window, says manager Mikel Arteta.",
-      "publishedAt": "2025-12-29T12:00:05.000Z"
     }
   ]
 }
