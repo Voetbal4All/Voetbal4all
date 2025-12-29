@@ -2,633 +2,625 @@
 <html lang="nl">
 <head>
   <!-- Google AdSense -->
-  <script async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
     crossorigin="anonymous"></script>
 
   <meta charset="UTF-8" />
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-
   <title id="page-title">Voetbal4All - Artikel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" id="page-description" content="Lees het nieuwste voetbalnieuws op Voetbal4All" />
   
-  <!-- SEO Meta Tags (dynamically filled) -->
-  <meta name="description" id="meta-description" content="">
-  <meta property="og:title" id="og-title" content="">
-  <meta property="og:description" id="og-description" content="">
-  <meta property="og:image" id="og-image" content="">
-  <meta property="og:url" id="og-url" content="">
-  <meta name="twitter:card" content="summary_large_image">
-
-  <!-- Fonts -->
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" id="og-title" content="Voetbal4All - Artikel" />
+  <meta property="og:description" id="og-description" content="Lees het nieuwste voetbalnieuws" />
+  <meta property="og:image" id="og-image" content="/images/placeholder.svg" />
+  <meta property="og:type" content="article" />
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <!-- Hoofd-stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20251227a" />
+  <link rel="stylesheet" href="style.css" />
   
   <style>
     /* Article-specific styles */
+    .article-hero-image {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+    
+    .article-meta {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    
     .article-body {
-      font-size: 1.1rem;
+      font-size: 18px;
       line-height: 1.8;
-      color: #333;
-      margin: 24px 0;
+      color: var(--text-primary);
     }
     
     .article-body p {
       margin-bottom: 1.2em;
     }
     
-    .article-standfirst {
-      font-size: 1.25rem;
-      font-weight: 500;
-      color: #555;
-      margin: 16px 0 24px 0;
-      line-height: 1.6;
-      border-left: 4px solid var(--brand-primary, #1a5490);
-      padding-left: 16px;
-    }
-    
-    .article-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 24px 0;
-    }
-    
-    .article-tag {
-      background: #f0f0f0;
-      padding: 6px 12px;
-      border-radius: 4px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-    
     .share-buttons {
       display: flex;
       gap: 12px;
-      margin: 32px 0;
-      padding: 20px;
-      background: #f8f9fa;
-      border-radius: 8px;
       flex-wrap: wrap;
+      padding: 20px 0;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin: 24px 0;
     }
     
-    .share-button {
+    .share-btn {
       display: inline-flex;
       align-items: center;
       gap: 8px;
       padding: 10px 16px;
-      background: #fff;
-      border: 1px solid #ddd;
       border-radius: 6px;
+      background: rgba(255,255,255,0.1);
+      color: white;
       text-decoration: none;
-      color: #333;
+      font-size: 14px;
       font-weight: 500;
       transition: all 0.2s;
+      border: 1px solid rgba(255,255,255,0.2);
     }
     
-    .share-button:hover {
+    .share-btn:hover {
+      background: rgba(255,255,255,0.2);
       transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     
-    .share-button--facebook { border-color: #1877f2; color: #1877f2; }
-    .share-button--facebook:hover { background: #1877f2; color: white; }
+    .share-btn-facebook { background: rgba(24, 119, 242, 0.2); }
+    .share-btn-twitter { background: rgba(29, 155, 240, 0.2); }
+    .share-btn-whatsapp { background: rgba(37, 211, 102, 0.2); }
+    .share-btn-linkedin { background: rgba(10, 102, 194, 0.2); }
     
-    .share-button--twitter { border-color: #1da1f2; color: #1da1f2; }
-    .share-button--twitter:hover { background: #1da1f2; color: white; }
-    
-    .share-button--whatsapp { border-color: #25d366; color: #25d366; }
-    .share-button--whatsapp:hover { background: #25d366; color: white; }
-    
-    .share-button--linkedin { border-color: #0077b5; color: #0077b5; }
-    .share-button--linkedin:hover { background: #0077b5; color: white; }
-    
-    .ad-slot {
-      margin: 32px 0;
-      padding: 24px;
-      background: #f8f9fa;
-      border: 1px dashed #ddd;
-      border-radius: 8px;
-      text-align: center;
-      min-height: 250px;
+    .article-tags {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #999;
-    }
-    
-    .article-meta-info {
-      display: flex;
-      gap: 16px;
+      gap: 8px;
       flex-wrap: wrap;
-      align-items: center;
-      margin: 16px 0;
-      padding: 12px 0;
-      border-bottom: 1px solid #eee;
-      font-size: 0.95rem;
-      color: #666;
+      margin-top: 24px;
     }
     
-    .meta-item {
-      display: flex;
-      align-items: center;
-      gap: 6px;
+    .article-tag {
+      padding: 6px 12px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 4px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.8);
     }
     
-    .meta-icon {
-      font-size: 1.1em;
+    .loading-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: rgba(255,255,255,0.6);
+    }
+    
+    .error-state {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    
+    .error-state h2 {
+      color: #ff6b6b;
+      margin-bottom: 12px;
     }
   </style>
 </head>
 
-<body>
-  <div class="page">
-    
-    <!-- NAVBAR (same as index.html) -->
-    <header class="navbar">
-      <div class="shell">
-        <div class="navbar-inner">
-          <a href="index.html" class="brand brand--logo-only">
-            <img
-              src="assets/img/brand/logo-voetbal4all.svg"
-              alt="Voetbal4All"
-              class="brand-logo"
-              loading="eager"
-            />
-          </a>
+<body class="v4-hide-live-mobile">
+<div class="page">
 
-          <nav class="nav-links">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
 
-            <!-- SPORTIEVE EVENTS -->
-            <div class="nav-item nav-item--dropdown">
-              <button class="nav-link nav-link--dropdown">
-                Sportieve events <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
-                <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-                <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-                <a href="stages.html" class="nav-dropdown-link">Stages</a>
-                <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
-              </div>
-            </div>
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" />
+      </a>
 
-            <!-- CLUB & FUN -->
-            <div class="nav-item nav-item--dropdown">
-              <button class="nav-link nav-link--dropdown">
-                Club &amp; fun <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
-                <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
-                <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
-                <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
-                <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
-              </div>
-            </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
 
-            <!-- VACATURES & PROFIELEN -->
-            <div class="nav-item nav-item--dropdown">
-              <button type="button" class="nav-link nav-link--dropdown">
-                Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
-                <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
-                <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
-              </div>
-            </div>
-
-            <!-- SPORTIEF -->
-            <div class="nav-item nav-item--dropdown">
-              <button type="button" class="nav-link nav-link--dropdown">
-                Sportief <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-                <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-                <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-                <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-              </div>
-            </div>
-          </nav>
-
-          <!-- Mobile toggle -->
-          <button class="navbar-toggler" aria-label="Menu">
-            <span></span>
-            <span></span>
-            <span></span>
+        <!-- SPORTIEVE EVENTS -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportieve events <span class="nav-link-caret">▾</span>
           </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
         </div>
-      </div>
-    </header>
 
-    <!-- LIVE SCORES BANNER -->
-    <div class="live-banner" id="live-banner" style="display:none;">
-      <div class="shell">
-        <div class="live-banner-inner">
-          <span class="live-dot"></span>
-          <span class="live-text">LIVE</span>
-          <div class="live-matches" id="live-matches"></div>
+        <!-- CLUB & FUN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+            <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+            <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+            <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <!-- BREADCRUMB -->
-    <div class="shell" style="padding: 16px 0 0 0;">
-      <nav class="breadcrumb" style="font-size: 0.9rem; color: #666;">
-        <a href="index.html" style="color: inherit; text-decoration: none;">Home</a>
-        <span style="margin: 0 8px;">›</span>
-        <a href="artikels.html" style="color: inherit; text-decoration: none;">Artikels</a>
-        <span style="margin: 0 8px;">›</span>
-        <span id="breadcrumb-title" style="color: #333;">...</span>
+        <!-- VACATURES & PROFIELEN -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <!-- SPORTIEF -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+            <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+          </div>
+        </div>
+
+        <!-- VOETBAL4ALL -->
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
       </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
     </div>
+  </div>
+</header>
 
-    <!-- MAIN CONTENT -->
-    <main class="shell" style="padding:24px 0;">
-      
-      <!-- Error/Loading status -->
-      <div id="article-status" style="margin:12px 0; padding: 16px; background: #fff3cd; border-left: 4px solid #ffc107; display:none; border-radius: 4px;">
-        <strong>Let op:</strong> <span id="status-message"></span>
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
       </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <!-- Article Container -->
-      <div class="content-layout" style="display: grid; grid-template-columns: 1fr; gap: 32px; max-width: 1200px; margin: 0 auto;">
+<!-- ================= HEADER ADSENSE ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <!-- LOADING STATE -->
+  <div id="loading-state" class="loading-state">
+    <div class="card">
+      <p>Artikel laden...</p>
+    </div>
+  </div>
+
+  <!-- ERROR STATE -->
+  <div id="error-state" class="error-state" style="display:none;">
+    <div class="card">
+      <h2>Artikel niet gevonden</h2>
+      <p>Het artikel dat je zoekt bestaat niet of is verwijderd.</p>
+      <a href="artikels.html" class="btn btn-primary" style="margin-top:20px;">Terug naar overzicht</a>
+    </div>
+  </div>
+
+  <!-- ARTICLE CONTENT -->
+  <div id="article-content" style="display:none;">
+    
+    <div class="v4-layout-sidebar">
+      
+      <!-- MAIN CONTENT -->
+      <div class="v4-content">
         
-        <!-- Main Article -->
-        <article class="card" style="padding: 32px;">
+        <!-- Article Card -->
+        <article class="card">
+          
+          <!-- Breadcrumb -->
+          <div style="margin-bottom:16px;">
+            <a href="index.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Home</a>
+            <span style="color:rgba(255,255,255,0.4); margin:0 8px;">›</span>
+            <a href="artikels.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Artikels</a>
+            <span style="color:rgba(255,255,255,0.4); margin:0 8px;">›</span>
+            <span style="color:rgba(255,255,255,0.8);" id="breadcrumb-title">Artikel</span>
+          </div>
           
           <!-- Article Header -->
-          <header>
-            <h1 id="article-title" style="font-size: 2.2rem; line-height: 1.3; margin: 0 0 16px 0; color: #1a1a1a;">
-              Artikel wordt geladen...
-            </h1>
-            
-            <div class="article-meta-info">
-              <div class="meta-item" id="meta-published">
-                <span class="meta-icon">📅</span>
-                <span id="article-date">...</span>
-              </div>
-              <div class="meta-item" id="meta-country" style="display: none;">
-                <span id="country-flag"></span>
-                <span id="country-name"></span>
-              </div>
-              <div class="meta-item" id="meta-type" style="display: none;">
-                <span class="meta-icon">📰</span>
-                <span id="article-type"></span>
-              </div>
+          <div class="card-header">
+            <div>
+              <div class="card-caption" id="article-caption">Voetbal4All · Nieuws</div>
+              <h1 class="card-title" id="article-title">Laden...</h1>
             </div>
-          </header>
-
-          <!-- Featured Image -->
-          <div id="article-image-container" style="margin: 24px 0; display: none;">
-            <img id="article-image" alt="" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px;" />
+            <span class="pill-small" id="article-type">Artikel</span>
           </div>
-
-          <!-- Share Buttons (Top) -->
+          
+          <!-- Article Meta -->
+          <div class="article-meta">
+            <span class="pill-small" id="article-country"></span>
+            <span style="color:rgba(255,255,255,0.6); font-size:14px;" id="article-date"></span>
+          </div>
+          
+          <!-- Featured Image -->
+          <img id="article-image" src="" alt="" class="article-hero-image" />
+          
+          <!-- Standfirst / Lead -->
+          <div class="note" id="article-standfirst" style="font-size:18px; font-weight:500; line-height:1.6; margin-bottom:24px;"></div>
+          
+          <!-- Share Buttons Top -->
           <div class="share-buttons">
-            <strong style="width: 100%; margin-bottom: 8px;">Deel dit artikel:</strong>
-            <a href="#" id="share-facebook" class="share-button share-button--facebook" target="_blank" rel="noopener">
+            <a href="#" id="share-facebook" class="share-btn share-btn-facebook" target="_blank" rel="noopener">
               <span>📘</span> Facebook
             </a>
-            <a href="#" id="share-twitter" class="share-button share-button--twitter" target="_blank" rel="noopener">
-              <span>🐦</span> Twitter/X
+            <a href="#" id="share-twitter" class="share-btn share-btn-twitter" target="_blank" rel="noopener">
+              <span>🐦</span> Twitter
             </a>
-            <a href="#" id="share-whatsapp" class="share-button share-button--whatsapp" target="_blank" rel="noopener">
+            <a href="#" id="share-whatsapp" class="share-btn share-btn-whatsapp" target="_blank" rel="noopener">
               <span>💬</span> WhatsApp
             </a>
-            <a href="#" id="share-linkedin" class="share-button share-button--linkedin" target="_blank" rel="noopener">
+            <a href="#" id="share-linkedin" class="share-btn share-btn-linkedin" target="_blank" rel="noopener">
               <span>💼</span> LinkedIn
             </a>
-            <button id="share-copy" class="share-button" style="cursor: pointer; background: #fff; border: 1px solid #ddd;">
+            <button id="share-copy" class="share-btn" style="background:rgba(255,255,255,0.1); border:none; cursor:pointer;">
               <span>🔗</span> <span id="copy-text">Kopieer link</span>
             </button>
           </div>
-
-          <!-- Standfirst (Lead paragraph) -->
-          <div id="article-standfirst-container" style="display: none;">
-            <p id="article-standfirst" class="article-standfirst"></p>
-          </div>
-
+          
           <!-- Article Body -->
-          <div id="article-body" class="article-body">
-            <p style="color: #999; text-align: center; padding: 40px 0;">Artikel wordt geladen...</p>
+          <div class="article-body" id="article-body"></div>
+          
+          <!-- In-Article Ad -->
+          <div class="ad-slot" style="margin:32px 0; padding:20px; background:rgba(255,255,255,0.05); border-radius:8px;">
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4062633211824348"
+              data-ad-slot="6032627042"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           </div>
-
+          
           <!-- Tags -->
-          <div id="article-tags-container" style="display: none;">
-            <hr style="margin: 32px 0; border: none; border-top: 1px solid #eee;">
-            <div>
-              <strong style="display: block; margin-bottom: 12px;">Tags:</strong>
-              <div id="article-tags" class="article-tags"></div>
-            </div>
-          </div>
-
-          <!-- Ad Slot (In-Article) -->
-          <div class="ad-slot">
-            <div>
-              <strong>Advertentieruimte</strong><br>
-              <span style="font-size: 0.9rem;">728 × 90 px banner</span>
-            </div>
-          </div>
-
-          <!-- Share Buttons (Bottom) -->
+          <div class="article-tags" id="article-tags"></div>
+          
+          <!-- Share Buttons Bottom -->
           <div class="share-buttons">
-            <strong style="width: 100%; margin-bottom: 8px;">Was dit artikel interessant? Deel het!</strong>
-            <a href="#" id="share-facebook-2" class="share-button share-button--facebook" target="_blank" rel="noopener">
+            <a href="#" id="share-facebook-2" class="share-btn share-btn-facebook" target="_blank" rel="noopener">
               <span>📘</span> Facebook
             </a>
-            <a href="#" id="share-twitter-2" class="share-button share-button--twitter" target="_blank" rel="noopener">
-              <span>🐦</span> Twitter/X
+            <a href="#" id="share-twitter-2" class="share-btn share-btn-twitter" target="_blank" rel="noopener">
+              <span>🐦</span> Twitter
             </a>
-            <a href="#" id="share-whatsapp-2" class="share-button share-button--whatsapp" target="_blank" rel="noopener">
+            <a href="#" id="share-whatsapp-2" class="share-btn share-btn-whatsapp" target="_blank" rel="noopener">
               <span>💬</span> WhatsApp
             </a>
+            <button id="share-copy-2" class="share-btn" style="background:rgba(255,255,255,0.1); border:none; cursor:pointer;">
+              <span>🔗</span> <span id="copy-text-2">Kopieer link</span>
+            </button>
           </div>
-
-          <!-- Back to articles -->
-          <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #eee;">
-            <a href="artikels.html" class="btn" style="display:inline-block;">← Terug naar alle artikels</a>
-          </div>
-
-        </article>
-
-        <!-- Sidebar Ad Slots (future) -->
-        <!-- Can add 300x250 ad units here if needed -->
-
-      </div>
-
-      <!-- Related Articles (future enhancement) -->
-      <!-- <section style="margin-top: 48px;">...</section> -->
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="shell">
-        <div class="footer-grid">
           
-          <div class="footer-col">
-            <div class="footer-brand">
-              <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" style="height: 40px; margin-bottom: 16px;">
-            </div>
-            <p style="opacity: 0.8; font-size: 0.95rem; line-height: 1.6;">
-              Jouw platform voor voetbalnieuws, events, vacatures en meer uit België en Nederland.
-            </p>
-            <div style="margin-top: 16px; display: flex; gap: 12px;">
-              <a href="https://www.facebook.com/profile.php?id=61571506114088" target="_blank" rel="noopener" style="color: inherit; font-size: 1.5rem;">📘</a>
-              <a href="https://www.instagram.com/voetbal4all.eu/" target="_blank" rel="noopener" style="color: inherit; font-size: 1.5rem;">📷</a>
-            </div>
+          <!-- Back Button -->
+          <div style="margin-top:32px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.1);">
+            <a href="artikels.html" class="btn" style="background:rgba(255,255,255,0.1);">← Terug naar overzicht</a>
           </div>
-
-          <div class="footer-col">
-            <h4 class="footer-title">Navigatie</h4>
-            <ul class="footer-links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="artikels.html">Artikels</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="clubvacatures.html">Vacatures</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4 class="footer-title">Informatie</h4>
-            <ul class="footer-links">
-              <li><a href="over-ons.html">Over ons</a></li>
-              <li><a href="adverteren.html">Adverteren</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4 class="footer-title">Contact</h4>
-            <p style="opacity: 0.8; font-size: 0.95rem;">
-              Email: <a href="mailto:info@voetbal4all.eu" style="color: inherit; text-decoration: underline;">info@voetbal4all.eu</a>
-            </p>
-          </div>
-
-        </div>
-
-        <div class="footer-bottom">
-          <p style="opacity: 0.7; font-size: 0.9rem;">
-            © 2025 Voetbal4All. Alle rechten voorbehouden.
-          </p>
-        </div>
+          
+        </article>
+        
       </div>
-    </footer>
-
+      
+      <!-- SIDEBAR -->
+      <aside class="v4-sidebar">
+        <div class="v4-sidebar-sticky">
+          
+          <!-- Related Articles (placeholder) -->
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Meer nieuws</div>
+                <div class="card-title">Gerelateerde artikels</div>
+              </div>
+            </div>
+            <p class="note">
+              Ontdek meer voetbalnieuws op onze artikelpagina.
+            </p>
+            <a href="artikels.html" class="btn btn-primary" style="margin-top:12px;">Bekijk alle artikels →</a>
+          </article>
+          
+          <!-- Sidebar Ad -->
+          <article class="card" style="margin-top:12px;">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Advertentie</div>
+                <div class="card-title">Sponsor</div>
+              </div>
+            </div>
+            <div class="ad-slot" style="padding:12px;">
+              <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-4062633211824348"
+                data-ad-slot="6032627042"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+          </article>
+          
+        </div>
+      </aside>
+      
+    </div>
+    
   </div>
 
-  <script>
-    (function () {
-      const API_BASE = "https://voetbal4all-backend-database.onrender.com";
-      const SITE_URL = "https://voetbal4all.eu";
+</div>
+</section>
+</main>
 
-      // Get article file from URL
-      const qs = new URLSearchParams(location.search);
-      const file = qs.get("file");
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">
+          &copy; <span id="year"></span> Voetbal4All.
+        </div>
+      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
+    </div>
+  </div>
+</footer>
 
-      // Elements
-      const statusEl = document.getElementById("article-status");
-      const statusMessage = document.getElementById("status-message");
-      const titleEl = document.getElementById("article-title");
-      const metaDateEl = document.getElementById("article-date");
-      const imgContainer = document.getElementById("article-image-container");
-      const imgEl = document.getElementById("article-image");
-      const standfirstContainer = document.getElementById("article-standfirst-container");
-      const standfirstEl = document.getElementById("article-standfirst");
-      const bodyEl = document.getElementById("article-body");
-      const tagsContainer = document.getElementById("article-tags-container");
-      const tagsEl = document.getElementById("article-tags");
-      const breadcrumbTitle = document.getElementById("breadcrumb-title");
+</div>
 
-      // Country meta
-      const metaCountry = document.getElementById("meta-country");
-      const countryFlag = document.getElementById("country-flag");
-      const countryName = document.getElementById("country-name");
+<!-- Scripts -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 
-      // Type meta
-      const metaType = document.getElementById("meta-type");
-      const articleType = document.getElementById("article-type");
-
-      function showErr(msg) {
-        statusEl.style.display = "block";
-        statusMessage.textContent = msg;
-        bodyEl.innerHTML = "";
-      }
-
-      function hideErr() {
-        statusEl.style.display = "none";
-      }
-
-      if (!file) {
-        showErr("Geen artikel gekozen. Ga terug naar de artikelpagina en kies een artikel.");
+<script>
+(function(){
+  // Get article filename from URL parameter
+  const params = new URLSearchParams(window.location.search);
+  const fileName = params.get('file');
+  
+  if (!fileName) {
+    showError();
+    return;
+  }
+  
+  const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
+  
+  // Fetch article data
+  fetch(`${API_BASE}/api/news?limit=500`)
+    .then(res => res.json())
+    .then(data => {
+      const articles = data.items || [];
+      const article = articles.find(a => {
+        // Match by filename or id
+        const articleFile = a.fileName || a.id || '';
+        return articleFile === fileName || articleFile.includes(fileName);
+      });
+      
+      if (!article) {
+        showError();
         return;
       }
-
-      // Fetch article
-      const url = `${API_BASE}/api/news/${encodeURIComponent(file)}`;
-
-      fetch(url, { cache: "no-store" })
-        .then(r => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`);
-          return r.json();
-        })
-        .then(data => {
-          if (!data || data.ok === false) {
-            throw new Error(data?.error || "Artikel niet gevonden");
-          }
-
-          const article = data.item || data.article || data;
-
-          // Title
-          const title = article.title || "Voetbalnieuws";
-          titleEl.textContent = title;
-          document.getElementById("page-title").textContent = `${title} - Voetbal4All`;
-          breadcrumbTitle.textContent = title.length > 40 ? title.slice(0, 40) + "..." : title;
-
-          // Meta tags for SEO/sharing
-          const description = article.standfirst || article.snippet || title;
-          document.getElementById("meta-description").content = description;
-          document.getElementById("og-title").content = title;
-          document.getElementById("og-description").content = description;
-          
-          // Published date
-          if (article.publishedAt) {
-            const date = new Date(article.publishedAt);
-            metaDateEl.textContent = date.toLocaleDateString("nl-BE", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-              hour: "2-digit",
-              minute: "2-digit"
-            });
-          }
-
-          // Country flag
-          const country = (article.country || "").toUpperCase();
-          if (country) {
-            const flagEmoji = country === "BE" ? "🇧🇪" : country === "NL" ? "🇳🇱" : "🌍";
-            const countryText = country === "BE" ? "België" : country === "NL" ? "Nederland" : "Internationaal";
-            countryFlag.textContent = flagEmoji;
-            countryName.textContent = countryText;
-            metaCountry.style.display = "flex";
-          }
-
-          // Article type (merged vs single)
-          if (article._meta?.type === "merged") {
-            articleType.textContent = `Samengevoegd artikel (${article._meta.sourceCount || 0} bronnen)`;
-            metaType.style.display = "flex";
-          }
-
-          // Image
-          const imgPath = typeof article.image === "string" ? article.image : null;
-          if (imgPath) {
-            const imgSrc = imgPath.startsWith("http") ? imgPath : `${API_BASE}${imgPath}`;
-            imgEl.src = imgSrc;
-            imgEl.alt = title;
-            imgContainer.style.display = "block";
-            document.getElementById("og-image").content = imgSrc;
-          }
-
-          // Standfirst (lead paragraph)
-          if (article.standfirst) {
-            standfirstEl.textContent = article.standfirst;
-            standfirstContainer.style.display = "block";
-          }
-
-          // Body - CRITICAL FIX: Show full body, not just snippet!
-          const body = article.body || article.content || article.snippet || "";
-          if (body) {
-            // Convert plain text to paragraphs
-            const paragraphs = body.split("\n\n").filter(p => p.trim());
-            bodyEl.innerHTML = paragraphs.map(p => `<p>${p.trim()}</p>`).join("");
-          } else {
-            bodyEl.innerHTML = "<p><em>Geen inhoud beschikbaar.</em></p>";
-          }
-
-          // Tags
-          if (Array.isArray(article.tags) && article.tags.length > 0) {
-            tagsEl.innerHTML = article.tags
-              .map(tag => `<span class="article-tag">${tag}</span>`)
-              .join("");
-            tagsContainer.style.display = "block";
-          }
-
-          // Setup share buttons
-          const articleUrl = `${SITE_URL}/artikel.html?file=${encodeURIComponent(file)}`;
-          const shareTitle = encodeURIComponent(title);
-          const shareText = encodeURIComponent(`${title} - via Voetbal4All`);
-
-          document.getElementById("og-url").content = articleUrl;
-
-          // Facebook
-          const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`;
-          document.getElementById("share-facebook").href = fbUrl;
-          document.getElementById("share-facebook-2").href = fbUrl;
-
-          // Twitter/X
-          const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(articleUrl)}&text=${shareText}`;
-          document.getElementById("share-twitter").href = twitterUrl;
-          document.getElementById("share-twitter-2").href = twitterUrl;
-
-          // WhatsApp
-          const waUrl = `https://wa.me/?text=${shareText}%20${encodeURIComponent(articleUrl)}`;
-          document.getElementById("share-whatsapp").href = waUrl;
-          document.getElementById("share-whatsapp-2").href = waUrl;
-
-          // LinkedIn
-          const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}`;
-          document.getElementById("share-linkedin").href = liUrl;
-
-          // Copy link button
-          document.getElementById("share-copy").addEventListener("click", async function(e) {
-            e.preventDefault();
-            try {
-              await navigator.clipboard.writeText(articleUrl);
-              const copyText = document.getElementById("copy-text");
-              const original = copyText.textContent;
-              copyText.textContent = "✓ Gekopieerd!";
-              setTimeout(() => { copyText.textContent = original; }, 2000);
-            } catch (err) {
-              alert("Kon link niet kopiëren. URL: " + articleUrl);
-            }
-          });
-
-          hideErr();
-        })
-        .catch(e => {
-          console.error("ARTICLE FETCH ERROR:", e);
-          showErr(`Artikel kon niet geladen worden: ${e?.message || e}`);
-        });
-
-      // DEEP LINK PROTECTION (only allow opens from Facebook/Instagram or voetbal4all.eu)
-      const referrer = document.referrer.toLowerCase();
-      const hostname = window.location.hostname.toLowerCase();
       
-      const allowedReferrers = ['facebook.com', 'instagram.com', 't.co', 'linkedin.com'];
-      const isAllowedReferrer = allowedReferrers.some(domain => referrer.includes(domain));
-      const isOwnSite = hostname.includes('voetbal4all.eu') || hostname.includes('localhost');
-      
-      if (!isOwnSite && !isAllowedReferrer && referrer !== '') {
-        // External site trying to embed/open article - redirect to main site
-        const targetUrl = `${SITE_URL}/artikel.html${location.search}`;
-        if (window.location.href !== targetUrl) {
-          window.location.replace(targetUrl);
-        }
+      displayArticle(article);
+    })
+    .catch(err => {
+      console.error('Failed to load article:', err);
+      showError();
+    });
+  
+  function showError() {
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('error-state').style.display = 'block';
+  }
+  
+  function displayArticle(article) {
+    // Hide loading, show content
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('article-content').style.display = 'block';
+    
+    // Update page title & meta
+    const title = article.title || 'Voetbal4All Artikel';
+    document.getElementById('page-title').textContent = title + ' - Voetbal4All';
+    document.getElementById('og-title').setAttribute('content', title);
+    document.getElementById('page-description').setAttribute('content', article.snippet || '');
+    document.getElementById('og-description').setAttribute('content', article.snippet || '');
+    
+    // Update breadcrumb
+    const shortTitle = title.length > 50 ? title.substring(0, 47) + '...' : title;
+    document.getElementById('breadcrumb-title').textContent = shortTitle;
+    
+    // Article header
+    document.getElementById('article-title').textContent = title;
+    document.getElementById('article-caption').textContent = `Voetbal4All · ${article.country || 'Nieuws'}`;
+    
+    // Article type
+    const type = article._meta?.type === 'merged' 
+      ? `Samengesteld (${article._meta?.sourceCount || 0} bronnen)` 
+      : 'Artikel';
+    document.getElementById('article-type').textContent = type;
+    
+    // Country flag
+    const countryEl = document.getElementById('article-country');
+    if (article.country === 'BE') {
+      countryEl.textContent = '🇧🇪 België';
+    } else if (article.country === 'NL') {
+      countryEl.textContent = '🇳🇱 Nederland';
+    } else {
+      countryEl.style.display = 'none';
+    }
+    
+    // Date
+    if (article.publishedAt) {
+      const date = new Date(article.publishedAt);
+      const formatted = date.toLocaleDateString('nl-NL', { 
+        day: 'numeric', 
+        month: 'long', 
+        year: 'numeric' 
+      });
+      document.getElementById('article-date').textContent = formatted;
+    }
+    
+    // Image
+    const imageEl = document.getElementById('article-image');
+    if (article.image) {
+      imageEl.src = article.image.startsWith('http') ? article.image : API_BASE + article.image;
+      imageEl.alt = title;
+      if (article.image.endsWith('.svg')) {
+        imageEl.style.maxHeight = '300px';
       }
-    })();
-  </script>
+    } else {
+      imageEl.style.display = 'none';
+    }
+    
+    // Update OG image
+    if (article.image) {
+      const fullImageUrl = article.image.startsWith('http') 
+        ? article.image 
+        : window.location.origin + article.image;
+      document.getElementById('og-image').setAttribute('content', fullImageUrl);
+    }
+    
+    // Standfirst
+    if (article.snippet) {
+      document.getElementById('article-standfirst').textContent = article.snippet;
+    } else {
+      document.getElementById('article-standfirst').style.display = 'none';
+    }
+    
+    // Body
+    const bodyEl = document.getElementById('article-body');
+    if (article.body) {
+      // Convert line breaks to paragraphs
+      const paragraphs = article.body
+        .split('\n')
+        .filter(p => p.trim())
+        .map(p => `<p>${p.trim()}</p>`)
+        .join('');
+      bodyEl.innerHTML = paragraphs;
+    } else {
+      bodyEl.innerHTML = '<p>Geen inhoud beschikbaar.</p>';
+    }
+    
+    // Tags
+    const tagsEl = document.getElementById('article-tags');
+    if (article.tags && article.tags.length > 0) {
+      tagsEl.innerHTML = article.tags
+        .slice(0, 10)
+        .map(tag => `<span class="article-tag">${tag}</span>`)
+        .join('');
+    } else {
+      tagsEl.style.display = 'none';
+    }
+    
+    // Share buttons
+    const articleUrl = window.location.href;
+    const encodedUrl = encodeURIComponent(articleUrl);
+    const encodedTitle = encodeURIComponent(title);
+    
+    // Facebook
+    const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+    document.getElementById('share-facebook').href = fbUrl;
+    document.getElementById('share-facebook-2').href = fbUrl;
+    
+    // Twitter
+    const twitterUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`;
+    document.getElementById('share-twitter').href = twitterUrl;
+    document.getElementById('share-twitter-2').href = twitterUrl;
+    
+    // WhatsApp
+    const waUrl = `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`;
+    document.getElementById('share-whatsapp').href = waUrl;
+    document.getElementById('share-whatsapp-2').href = waUrl;
+    
+    // LinkedIn
+    const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
+    document.getElementById('share-linkedin').href = liUrl;
+    
+    // Copy link buttons
+    setupCopyButton('share-copy', 'copy-text', articleUrl);
+    setupCopyButton('share-copy-2', 'copy-text-2', articleUrl);
+  }
+  
+  function setupCopyButton(btnId, textId, url) {
+    document.getElementById(btnId).addEventListener('click', async function() {
+      try {
+        await navigator.clipboard.writeText(url);
+        const textEl = document.getElementById(textId);
+        textEl.textContent = '✓ Gekopieerd!';
+        setTimeout(() => {
+          textEl.textContent = 'Kopieer link';
+        }, 2000);
+      } catch (err) {
+        alert('Kon link niet kopiëren');
+      }
+    });
+  }
+})();
+</script>
 
-  <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
-  <script src="assets/js/nav-mobile.js" defer></script>
-  <script src="assets/js/live-banner.js" defer></script>
 </body>
 </html>
