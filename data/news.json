@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2025-12-29T12:53:19.498Z",
+  "generatedAt": "2025-12-29T13:39:57.056Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bondscoach uit zorgen over WK-kansen Kroatië: 'We zitten in de problemen'",
-      "link": "https://www.vi.nl/nieuws/bondscoach-uit-zorgen-over-wk-kansen-kroati-we-zitten-in-de-problemen",
-      "summary": "Zlatko Dalic maakt zich grote zorgen over de WK-kansen van Kroatië en de toekomst van het voetbal in zijn thuisland. De bondscoach vindt dat Kroatië in de sterkst mogelijke poule is ingedeeld en twijfelt daarnaast over de aanvallende kwaliteiten van zijn ploeg. 'Er wordt gezocht naar jong talent, maar die komen kwaliteit tekort.'",
-      "publishedAt": "2025-12-29T12:51:35.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Are Chelsea subs good enough – or should Maresca be blamed?",
+      "link": "https://www.bbc.com/sport/football/articles/c80x82l2y9xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea dropping more points from winning positions than any other Premier League team is \"not random\" says manager Enzo Maresca as he tries \"to understand why\".",
+      "publishedAt": "2025-12-29T13:32:14.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +21,7 @@
       "title": "Ronaldo wants 1k goals; open to Europe return",
       "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
       "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
-      "publishedAt": "2025-12-29T12:40:18.000Z"
+      "publishedAt": "2025-12-29T13:31:59.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +32,7 @@
       "title": "Arteta: Arsenal 'actively looking' for January deals",
       "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
       "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
-      "publishedAt": "2025-12-29T12:40:18.000Z"
+      "publishedAt": "2025-12-29T13:31:59.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +43,117 @@
       "title": "Slot frustrated over injuries to Liverpool signings",
       "link": "https://www.espn.com/soccer/story/_/id/47441766/arne-slot-frustrated-injuries-liverpool-signings",
       "summary": "Liverpool have yet to get full value from their huge summer spending spree because of the injuries they have suffered, according to head coach Arne Slot.",
-      "publishedAt": "2025-12-29T12:40:18.000Z"
+      "publishedAt": "2025-12-29T13:31:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Time is right to change Man Utd formation - Amorim",
+      "link": "https://www.bbc.com/sport/football/articles/c62l28499jjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Head coach Ruben Amorim says if he had changed Manchester United's formation because of media pressure it would have been \"the end\" for him.",
+      "publishedAt": "2025-12-29T13:31:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim: Man Utd couldn't change formation due to media pressure",
+      "link": "https://www.skysports.com/football/news/12040/13488066/man-utd-boss-ruben-amorim-promises-to-be-flexible-over-team-formation-moving-forward-as-bruno-fernandes-remains-on-sidelines",
+      "summary": "Ruben Amorim says Manchester United's days of solely playing with a back three are over and revealed he refrained from changing formation earlier to ensure his players did not feel he was caving in to media pressure.",
+      "publishedAt": "2025-12-29T13:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Gravenberch en Reijnders geprezen: 'Begint te laten zien wat hij bij Milan deed'",
+      "link": "https://www.vi.nl/nieuws/deeney-kiest-voor-gravenberch-en-reijnders-in-zijn-elftal-van-de-week",
+      "summary": "Troy Deeney heeft Ryan Gravenberch en Tijjani Reijnders opgenomen in zijn Premier League-elftal van de Week, dat hij voor de BBC maakt. De voormalig topspits is onder de indruk van de twee Nederlanders na hun optredens tegen respectievelijk Wolverhampton Wandereres en Nottingham Forest.",
+      "publishedAt": "2025-12-29T13:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Infantino defends World Cup ticket prices",
+      "link": "https://www.bbc.com/sport/football/articles/cn4d41p7v2zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fifa president Gianni Infantino defends the cost of World Cup tickets following \"absolutely crazy\" demand from the public.",
+      "publishedAt": "2025-12-29T13:13:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Elftal van het Jaar: twee Nederlanders krijgen voorkeur boven wereldtoppers",
+      "link": "https://www.vi.nl/nieuws/elftal-van-het-jaar-twee-nederlanders-krijgen-voorkeur-boven-wereldtoppers",
+      "summary": "Op maandag om 14.00 uur gaat de speciale uitzending van Elftal van het Jaar van Voetbal International in première op YouTube. Zoals ieder seizoen stelt VI een elftal samen met spelers uit de grootste buitenlandse competities, maar ditmaal op basis van de eerste seizoenshelft.",
+      "publishedAt": "2025-12-29T13:13:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Men’s transfer window January 2026: all deals from Europe’s top five leagues",
+      "link": "https://www.theguardian.com/football/ng-interactive/2025/dec/29/mens-transfer-window-january-2026-all-deals-europe-top-five-leagues",
+      "summary": "All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Continue reading...",
+      "publishedAt": "2025-12-29T13:00:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Women’s transfer window January 2026: all deals from world’s top six leagues",
+      "link": "https://www.theguardian.com/football/ng-interactive/2025/dec/29/womens-transfer-window-january-2026-all-deals-world-top-six-leagues",
+      "summary": "Every deal in the WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide Continue reading...",
+      "publishedAt": "2025-12-29T13:00:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Joshua injured in car crash that killed two",
+      "link": "https://www.skysports.com/boxing/news/12040/13488269/anthony-joshua-video-footage-shows-british-former-world-heavyweight-champion-injured-in-car-accident-in-nigeria-with-two-reportedly-dead",
+      "summary": "Anthony Joshua has been injured in a car crash in Nigeria that killed two people.",
+      "publishedAt": "2025-12-29T13:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Oud-AZ'er na half jaar mogelijk al weg bij Torino'",
+      "link": "https://www.vi.nl/nieuws/cancelo-wil-terug-naar-europa-portugal-en-engeland-lonken",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-29T13:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bondscoach uit zorgen over WK-kansen Kroatië: 'We zitten in de problemen'",
+      "link": "https://www.vi.nl/nieuws/bondscoach-uit-zorgen-over-wk-kansen-kroati-we-zitten-in-de-problemen",
+      "summary": "Zlatko Dalic maakt zich grote zorgen over de WK-kansen van Kroatië en de toekomst van het voetbal in zijn thuisland. De bondscoach vindt dat Kroatië in de sterkst mogelijke poule is ingedeeld en twijfelt daarnaast over de aanvallende kwaliteiten van zijn ploeg. 'Er wordt gezocht naar jong talent, maar die komen kwaliteit tekort.'",
+      "publishedAt": "2025-12-29T12:50:00.000Z"
     },
     {
       "type": "rss",
@@ -110,116 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cz0nkzm8d1zo?at_medium=RSS&at_campaign=rss",
       "summary": "Arsenal will be \"actively looking\" at potential signings during the January transfer window, says manager Mikel Arteta.",
       "publishedAt": "2025-12-29T12:00:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "2025: The Year in Pictures",
-      "link": "https://www.skysports.com/football/story-telling/12040/13487013/50-most-striking-sports-images-of-2025",
-      "summary": "",
-      "publishedAt": "2025-12-29T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "World Darts Championship LIVE! Hood, Evans vs Manby, Aspinall headline this afternoon",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2025-12-29T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Droomjaar in cijfers: Kylian Mbappé is nu op zijn best",
-      "link": "https://www.vi.nl/pro/droomjaar-in-cijfers-kylian-mbapp-is-nu-op-zijn-best",
-      "summary": "Hoewel nog niet alle sterren van Real Madrid",
-      "publishedAt": "2025-12-29T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bosz voelde Ajax knakken na 2-3 in De Kuip: 'Ze zaten op roze wolk'",
-      "link": "https://www.vi.nl/nieuws/bosz-voelde-ajax-knakken-na-2-3-in-de-kuip-ze-zaten-op-roze-wolk",
-      "summary": "Peter Bosz denkt nog wel eens terug aan de bizarre apotheose van het vorige seizoen. Hij werd kampioen met PSV, maar gaf daar na de nederlaag tegen Ajax (0-2) geen stuiver meer voor.",
-      "publishedAt": "2025-12-29T11:57:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Spannendste competitie ter wereld? Elf punten tussen koploper en hekkensluiter",
-      "link": "https://www.vi.nl/nieuws/waanzin-in-polen-elf-punten-tussen-koploper-en-hekkensluiter-promovendus-aan-kop",
-      "summary": "Een promovendus die de lijst aanvoert, een recordkampioen in degradatienood en zelfs een hekkensluiter die in het meest gekke scenario nog een gooi naar de titel zou kunnen doen. Nee, in de Poolse Ekstraklasa is dit seizoen werkelijk niets te gek. Welkom bij de spannendste competitie ter wereld, die wekelijks garant staat voor spektakel.",
-      "publishedAt": "2025-12-29T11:55:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bunting reveals 'hurt' at hateful messages directed at son",
-      "link": "https://www.skysports.com/darts/news/12040/13488235/world-darts-championship-stephen-bunting-reveals-hateful-messages-directed-at-his-son-following-alexandra-palace-exit",
-      "summary": "Stephen Bunting says his family have been hurt by social media \"hate\" directed at his son following his exit from the World Darts Championship.",
-      "publishedAt": "2025-12-29T11:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Why Cherki's creativity has changed the title picture for Man City",
-      "link": "https://www.skysports.com/football/news/12040/13488225/rayan-cherkis-assists-for-man-city-alter-the-title-race-plus-jeremie-frimpongs-pace-and-ayden-heaven-in-the-debrief",
-      "summary": "",
-      "publishedAt": "2025-12-29T10:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ronaldo will not retire until he scores 1,000 goals",
-      "link": "https://www.bbc.com/sport/football/articles/cy070d71xj3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Portugal captain Cristiano Ronaldo says he will not end his playing career until he scores his 1,000th career goal.",
-      "publishedAt": "2025-12-29T07:39:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘We should have pulled the Big Sam ripcord’: Premier League fans assess the season so far",
-      "link": "https://www.theguardian.com/football/2025/dec/29/we-should-have-pulled-the-big-sam-ripcord-premier-league-fans-assess-the-season-so-far",
-      "summary": "The Guardian’s fans’ network on 2025-26 at the halfway stage: best games, worst setbacks, and their January window wish lists Story so far It would be pretty churlish to be anything other than super-chuffed, with those displays over Bayern Munich and our neighbours among the highlights. But, as we know, there are no prizes for being top at Christmas. Our success so far has largely been due to our defensive resilience; it’s the most talented squad we’ve had in many a moon but we’ve only shone going forward in fits and spurts. Find that spark on a consistent basis and we really will be firing. Bernard Azulay onlinegooner.com; @GoonerN5 Continue reading...",
-      "publishedAt": "2025-12-29T06:00:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Energetic Manchester City have lifted last season’s fog, says Pep Guardiola",
-      "link": "https://www.theguardian.com/football/2025/dec/28/pep-guardiola-admits-he-and-manchester-city-players-lacked-energy-last-season",
-      "summary": "City second after six straight Premier League wins ‘We have to improve but this mindset is better’ Pep Guardiola believes Manchester City have regained the energy that eluded them last season and lifted the “fog” that clouded a disappointing campaign. City finished without a major trophy for the first time since 2016-17, Guardiola’s first in charge, but are hunting a seventh Premier League title under him after six straight wins. Rayan Cherki struck late on at Nottingham Forest on Saturday to maintain City’s impressive winning run, which extends to eight in all competitions. Second-placed City are two points behind leaders Arsenal, who host third-placed Aston Villa at the Emirates Stadium on Tuesday. City do not return to action until Thursday, when they face high-flying Sunderland at the Stadium of Light. Continue reading...",
-      "publishedAt": "2025-12-28T22:30:18.000Z"
     }
   ]
 }
