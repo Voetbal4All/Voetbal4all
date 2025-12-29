@@ -259,124 +259,225 @@
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 
 <script>
-(function(){
-  const params = new URLSearchParams(window.location.search);
-  const fileName = params.get('file');
-  if (!fileName) { showError(); return; }
+  // ===========================================
+  // ARTIKEL PAGE - COMPLETE FIX
+  // ===========================================
   
-  const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
+  const API_BASE = 'https://voetbal4all-backend-database.onrender.com/api';
   
-  fetch(API_BASE + '/api/news?limit=500')
-    .then(res => res.ok ? res.json() : Promise.reject('API error'))
-    .then(data => {
-      const articles = data.items || [];
-      const article = articles.find(a => {
-        const articleFile = a.fileName || a.id || '';
-        return articleFile === fileName || articleFile.includes(fileName);
-      });
-      if (!article) { showError(); return; }
-      displayArticle(article);
-    })
-    .catch(err => { console.error('Failed to load article:', err); showError(); });
+  // Get article ID from URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const articleId = urlParams.get('id');
   
-  function showError() {
-    document.getElementById('loading-state').style.display = 'none';
-    document.getElementById('error-state').style.display = 'block';
+  if (!articleId) {
+    document.body.innerHTML = '<div class="container py-5"><h1>Artikel niet gevonden</h1></div>';
   }
   
-  function displayArticle(article) {
-    document.getElementById('loading-state').style.display = 'none';
-    document.getElementById('article-content').style.display = 'block';
-    
-    const title = article.title || 'Voetbal4All Artikel';
-    document.getElementById('page-title').textContent = title + ' - Voetbal4All';
-    document.getElementById('og-title').setAttribute('content', title);
-    document.getElementById('page-description').setAttribute('content', article.snippet || '');
-    document.getElementById('og-description').setAttribute('content', article.snippet || '');
-    
-    const shortTitle = title.length > 50 ? title.substring(0, 47) + '...' : title;
-    document.getElementById('breadcrumb-title').textContent = shortTitle;
-    document.getElementById('article-title').textContent = title;
-    document.getElementById('article-caption').textContent = 'Voetbal4All · ' + (article.country || 'Nieuws');
-    
-    const type = article._meta?.type === 'merged' ? 'Samengesteld (' + (article._meta?.sourceCount || 0) + ' bronnen)' : 'Artikel';
-    document.getElementById('article-type').textContent = type;
-    
-    const countryEl = document.getElementById('article-country');
-    if (article.country === 'BE') countryEl.textContent = '🇧🇪 België';
-    else if (article.country === 'NL') countryEl.textContent = '🇳🇱 Nederland';
-    else if (article.country === 'INT') countryEl.textContent = '🌍 Internationaal';
-    else countryEl.style.display = 'none';
-    
-    if (article.publishedAt) {
-      const date = new Date(article.publishedAt);
-      const formatted = date.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
-      document.getElementById('article-date').textContent = formatted;
-    }
-    
-    const imageEl = document.getElementById('article-image');
-    if (article.image) {
-      const cleanImage = article.image.split('?')[0];
-      imageEl.src = cleanImage.startsWith('http') ? cleanImage : API_BASE + cleanImage;
-      imageEl.alt = title;
-      if (cleanImage.endsWith('.svg')) imageEl.style.maxHeight = '300px';
-      imageEl.style.display = 'block';
+  // ===========================================
+  // LOAD ARTICLE DATA
+  // ===========================================
+  
+  async function loadArticle() {
+    try {
+      console.log('[ARTIKEL] Loading article:', articleId);
       
-      const fullImageUrl = cleanImage.startsWith('http') ? cleanImage : window.location.origin + cleanImage;
-      document.getElementById('og-image').setAttribute('content', fullImageUrl);
-    } else { 
-      imageEl.style.display = 'none'; 
-    }
-    
-    if (article.snippet) {
-      document.getElementById('article-standfirst').textContent = article.snippet;
-    } else {
-      document.getElementById('article-standfirst').style.display = 'none';
-    }
-    
-    const bodyEl = document.getElementById('article-body');
-    if (article.body && article.body.trim()) {
-      const paragraphs = article.body.split('\n').filter(p => p.trim()).map(p => '<p>' + escapeHtml(p.trim()) + '</p>').join('');
-      bodyEl.innerHTML = paragraphs;
-    } else {
-      bodyEl.innerHTML = '<div class="empty-body-notice">De volledige inhoud van dit artikel wordt momenteel geladen. Probeer de pagina over enkele momenten te vernieuwen.</div>';
-    }
-    
-    const tagsEl = document.getElementById('article-tags');
-    if (article.tags && article.tags.length > 0) {
-      tagsEl.innerHTML = article.tags.slice(0, 10).map(tag => '<span class="article-tag">' + escapeHtml(tag) + '</span>').join('');
-    } else {
-      tagsEl.style.display = 'none';
-    }
-    
-    const articleUrl = window.location.href;
-    const encodedUrl = encodeURIComponent(articleUrl);
-    const encodedTitle = encodeURIComponent(title);
-    
-    document.getElementById('share-facebook').href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl;
-    document.getElementById('share-twitter').href = 'https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodedTitle;
-    document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + encodedTitle + '%20' + encodedUrl;
-    document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodedUrl;
-    
-    document.getElementById('share-copy').addEventListener('click', async function() {
-      try {
-        await navigator.clipboard.writeText(articleUrl);
-        const textEl = document.getElementById('copy-text');
-        textEl.textContent = '✓ Gekopieerd!';
-        setTimeout(() => { textEl.textContent = 'Kopieer link'; }, 2000);
-      } catch (err) {
-        alert('Kon link niet kopiëren');
+      const response = await fetch(`${API_BASE}/news/${articleId}`);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
       }
+      
+      const article = await response.json();
+      console.log('[ARTIKEL] Loaded:', article.title);
+      
+      // Update page
+      renderArticle(article);
+      
+    } catch (error) {
+      console.error('[ARTIKEL] Load error:', error);
+      document.getElementById('loading').innerHTML = `
+        <div class="alert alert-danger">
+          <h4>Fout bij laden artikel</h4>
+          <p>${error.message}</p>
+          <a href="index.html" class="btn btn-primary">Terug naar home</a>
+        </div>
+      `;
+    }
+  }
+  
+  // ===========================================
+  // RENDER ARTICLE
+  // ===========================================
+  
+  function renderArticle(article) {
+    // Remove loading indicator
+    const loadingEl = document.getElementById('loading');
+    if (loadingEl) {
+      loadingEl.remove();
+    }
+    
+    // Set page title
+    document.title = `${article.title} - Voetbal4All`;
+    
+    // Update meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', article.snippet || article.title);
+    }
+    
+    // Render hero section
+    document.getElementById('article-category').textContent = article.country || 'VOETBAL';
+    document.getElementById('article-category').className = `badge ${getCountryClass(article.country)}`;
+    document.getElementById('article-title').textContent = article.title;
+    document.getElementById('article-date').textContent = formatDate(article.publishedAt);
+    
+    // Render main image
+    const imageEl = document.getElementById('article-image');
+    if (article.imageUrl) {
+      imageEl.src = article.imageUrl;
+      imageEl.alt = article.title;
+    } else {
+      imageEl.src = '/images/placeholder-article.jpg';
+      imageEl.alt = 'Voetbal4All';
+    }
+    
+    // Render article body
+    const bodyEl = document.getElementById('article-body');
+    if (article.body && article.body.length > 100) {
+      bodyEl.innerHTML = formatArticleBody(article.body);
+    } else {
+      bodyEl.innerHTML = `
+        <p class="lead">${article.snippet || 'Geen artikelinhoud beschikbaar.'}</p>
+        <p><a href="${article.url}" target="_blank" rel="noopener" class="btn btn-primary">
+          Lees volledig artikel op bron →
+        </a></p>
+      `;
+    }
+    
+    // Load related articles
+    loadRelatedArticles(article);
+  }
+  
+  // ===========================================
+  // FORMAT ARTICLE BODY
+  // ===========================================
+  
+  function formatArticleBody(body) {
+    // Split into paragraphs
+    const paragraphs = body.split('\n\n').filter(p => p.trim().length > 0);
+    
+    let html = '';
+    
+    paragraphs.forEach((para, index) => {
+      // Remove markdown-style headers
+      para = para.replace(/^#{1,6}\s+/gm, '');
+      
+      // Add lead class to first paragraph
+      if (index === 0) {
+        html += `<p class="lead">${para.trim()}</p>`;
+      } else {
+        html += `<p>${para.trim()}</p>`;
+      }
+      
+      // Add ad after paragraph 3 and 7
+      if (index === 2 || index === 6) {
+        html += `
+          <div class="my-4 p-3 bg-light border rounded text-center">
+            <small class="text-muted d-block mb-2">Advertentie</small>
+            <div style="min-height: 100px; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
+              <span class="text-muted">Google AdSense Placeholder</span>
+            </div>
+          </div>
+        `;
+      }
+    });
+    
+    return html;
+  }
+  
+  // ===========================================
+  // LOAD RELATED ARTICLES
+  // ===========================================
+  
+  async function loadRelatedArticles(currentArticle) {
+    try {
+      const response = await fetch(`${API_BASE}/news?limit=6`);
+      const data = await response.json();
+      
+      // Filter out current article and take 3 random
+      const related = data.items
+        .filter(a => a._id !== currentArticle._id)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3);
+      
+      const container = document.getElementById('related-articles');
+      container.innerHTML = related.map(article => `
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 hover-shadow">
+            <img src="${article.imageUrl || '/images/placeholder.jpg'}" 
+                 class="card-img-top" 
+                 alt="${article.title}"
+                 style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <span class="badge ${getCountryClass(article.country)} mb-2">
+                ${article.country || 'VOETBAL'}
+              </span>
+              <h5 class="card-title">${article.title}</h5>
+              <p class="card-text text-muted small">${formatDate(article.publishedAt)}</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="artikel.html?id=${article._id}" class="btn btn-sm btn-outline-primary">
+                Lees meer →
+              </a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+      
+    } catch (error) {
+      console.error('[RELATED] Load error:', error);
+    }
+  }
+  
+  // ===========================================
+  // HELPER FUNCTIONS
+  // ===========================================
+  
+  function getCountryClass(country) {
+    const classes = {
+      'BE': 'bg-dark text-white',
+      'NL': 'bg-warning text-dark',
+      'INT': 'bg-primary text-white'
+    };
+    return classes[country] || 'bg-secondary text-white';
+  }
+  
+  function formatDate(dateString) {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diffMs = now - date;
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMins / 60);
+    const diffDays = Math.floor(diffHours / 24);
+    
+    if (diffMins < 60) return `${diffMins} minuten geleden`;
+    if (diffHours < 24) return `${diffHours} uur geleden`;
+    if (diffDays === 1) return 'Gisteren';
+    if (diffDays < 7) return `${diffDays} dagen geleden`;
+    
+    return date.toLocaleDateString('nl-NL', { 
+      day: 'numeric', 
+      month: 'long', 
+      year: 'numeric' 
     });
   }
   
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
-})();
-</script>
+  // ===========================================
+  // INITIALIZE
+  // ===========================================
+  
+  loadArticle();
+  </script>
 
 </body>
 </html>
