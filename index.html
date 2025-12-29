@@ -228,30 +228,6 @@
         </div>
       </section>
 
-      <!-- HOOFDSPONSOR -->
-      <section class="section-main home-sponsor-band">
-        <div class="shell">
-          <article class="card sponsor-card">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Hoofdsponsor</div>
-                <div class="card-title">Premium header advertentie</div>
-              </div>
-              <span class="pill-small">Max. 1 positie</span>
-            </div>
-
-            <p class="note">
-              Grootste zichtbaarheid op het platform: bovenaan de homepage, nog voor alle andere content.
-            </p>
-
-            <div class="ad-placeholder" style="margin-top:8px;">
-              Plaats voor logo, korte slogan en call-to-action van de hoofdsponsor.
-              <div class="ad-size">Bijvoorbeeld 1200 × 200 px</div>
-            </div>
-          </article>
-        </div>
-      </section>
-
       <!-- PREMIUM RIJ -->
       <section class="section-main premium-row">
         <div class="shell">
@@ -653,37 +629,40 @@
           // Don't slice here - we need all items for filtering
           console.log("[HOME] items:", items.length);
 
-          // 🔥 FOOTBALL FILTER - Remove non-football content
-          const footballKeywords = [
-            'voetbal', 'football', 'club', 'speler', 'doelpunt', 'wedstrijd',
-            'match', 'trainer', 'competitie', 'league', 'transfer', 'ajax',
-            'feyenoord', 'psv', 'anderlecht', 'club brugge', 'standard',
-            'premier league', 'eredivisie', 'jupiler pro league', 'champions league',
-            'europa league', 'world cup', 'fifa', 'uefa', 'goal', 'goalkeeper',
-            'striker', 'midfielder', 'defender', 'penalty', 'corner', 'offside'
-          ];
-          
+          // 🔥 FOOTBALL FILTER - SOFT VERSION: Only exclude explicit non-football sports
+          // Do NOT require football keywords (to avoid false negatives)
           const nonFootballKeywords = [
-            'darts', 'dart', 'snooker', 'tennis', 'basketbal', 'hockey',
-            'handbal', 'volleybal', 'formule 1', 'f1', 'wielrennen', 'cycling',
-            'schaatsen', 'zwemmen', 'atletiek', 'golf', 'rugby'
+            'darts', 'dart', 'dartsnieuws', 'dartswedstrijd',
+            'snooker', 'snookertafel',
+            'tennis', 'tennisbal', 'tennisbaan', 'tenniskampioen',
+            'basketbal', 'basketball', 'nba',
+            'hockey', 'hockeystick', 'hockeyveld',
+            'handbal', 'handbalwedstrijd',
+            'volleybal', 'volleyball',
+            'formule 1', 'formule1', 'f1-coureur', 'grand prix', 'verstappen',
+            'wielrennen', 'wielrenner', 'cycling', 'ronde van',
+            'schaatsen', 'schaatser', 'ijsbaan',
+            'zwemmen', 'zwemmer', 'zwembad', 'zwemkampioen',
+            'atletiek', 'atleet', 'hardlopen', 'marathon',
+            'golf', 'golfer', 'golfbaan',
+            'rugby', 'rugbywedstrijd',
+            'boksen', 'bokser', 'boksring',
+            'motorsport', 'motorracing'
           ];
           
           const filteredItems = items.filter(article => {
             const text = `${article.title || ''} ${article.snippet || ''}`.toLowerCase();
             
-            // Exclude non-football sports immediately
-            if (nonFootballKeywords.some(keyword => text.includes(keyword))) {
-              console.log(`[FILTER] ❌ Excluded (non-football): ${article.title}`);
+            // ONLY exclude if explicitly contains non-football keywords
+            const hasNonFootball = nonFootballKeywords.some(keyword => text.includes(keyword));
+            
+            if (hasNonFootball) {
+              console.log(`[FILTER] ❌ Excluded (non-football sport): ${article.title}`);
               return false;
             }
             
-            // Include if contains football keywords
-            const isFootball = footballKeywords.some(keyword => text.includes(keyword));
-            if (!isFootball) {
-              console.log(`[FILTER] ❌ Excluded (no football keywords): ${article.title}`);
-            }
-            return isFootball;
+            // Include everything else (assume football if not explicitly other sport)
+            return true;
           });
 
           console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
@@ -842,19 +821,30 @@
           const dayOfWeek = (adjustedFirstDay + day - 1) % 7;
           const isWeekend = dayOfWeek === 5 || dayOfWeek === 6;
           
-          let style = 'padding: 7px 4px; border-radius: 3px; font-size: 12px;';
+          let bgColor = '';
+          let textColor = '';
+          let fontWeight = '';
+          let cursor = '';
           
           if (isToday) {
-            style += ' background: #1a5490; color: white; font-weight: 600;';
+            bgColor = 'background: #1a5490;';
+            textColor = 'color: white;';
+            fontWeight = 'font-weight: 600;';
           } else if (hasEvent) {
-            style += ' background: #e3f2fd; color: #1a5490; font-weight: 500; cursor: pointer;';
+            bgColor = 'background: #e3f2fd;';
+            textColor = 'color: #1a5490;';
+            fontWeight = 'font-weight: 500;';
+            cursor = 'cursor: pointer;';
           } else if (isWeekend) {
-            style += ' color: #999;';
+            textColor = 'color: #999;';
           } else {
-            style += ' color: #333;';
+            textColor = 'color: #333;';
           }
           
-          html += `<div style="${style}" ${hasEvent ? 'title="Event deze dag"' : ''}>${day}</div>`;
+          const styleAttr = `padding: 7px 4px; border-radius: 3px; font-size: 12px; ${bgColor} ${textColor} ${fontWeight} ${cursor}`;
+          const titleAttr = hasEvent ? 'title="Event deze dag"' : '';
+          
+          html += `<div style="${styleAttr}" ${titleAttr}>${day}</div>`;
         }
         
         html += '</div>';
