@@ -631,7 +631,7 @@
             return true;
           });
 
-          const renderItems = items.slice(0, 6);
+          // Don't slice here - we need all items for filtering
           console.log("[HOME] items:", items.length);
 
           // 🔥 FOOTBALL FILTER - Remove non-football content
@@ -669,8 +669,8 @@
 
           console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
 
-          // Take first 6 for display (from filtered results)
-          const displayItems = filteredItems.slice(0, 6);
+          // Take first 50 for display (from filtered results)
+          const displayItems = filteredItems.slice(0, 50);
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
           if (!displayItems.length) {
