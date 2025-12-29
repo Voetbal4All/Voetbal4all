@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-29T15:27:11.547Z",
+  "generatedAt": "2025-12-29T16:30:37.503Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Zimbabwe laat Zuid-Afrika na heerlijke goal zweten op Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/vi-live-zimbabwe-laat-zuid-afrika-na-heerlijke-goal-zweten-op-afrika-cup",
+      "summary": "Ook maandag wordt er weer gevoetbald in de Afrika Cup. Het Egypte van Mohamed Salah staat tegenover Angola en Marokko treft Zambia. Volg het belangrijkste voetbal van maandag in deze VI Live.",
+      "publishedAt": "2025-12-29T16:22:32.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -9,8 +20,52 @@
       "flag": "🌍",
       "title": "Angola v Egypt: Africa Cup of Nations 2025 – live",
       "link": "https://www.theguardian.com/football/live/2025/dec/29/angola-v-egypt-africa-cup-of-nations-2025-live",
-      "summary": "Updates from 4pm kick-off (GMT) in Group B Get in touch: you can email Will about the game In shocking domestic news … my neighbours have put out their green bin in anticipation of a collection tomorrow but there is not one this week. When will people learn? In eight previous meetings, Angola have never beaten Egypt. The Pharaohs have been victorious on four occasions, with the same amount of draws. It would be a good day for Angola to notch their first triumph. Continue reading...",
-      "publishedAt": "2025-12-29T15:16:52.000Z"
+      "summary": "Updates from 4pm kick-off (GMT) in Group B Get in touch: you can email Will about the game The stadium in Agadir looks rather empty. The transfer window is almost upon us. Continue reading...",
+      "publishedAt": "2025-12-29T16:14:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dit vindt Weghorst van de aanstelling van Cruijff bij Ajax",
+      "link": "https://www.vi.nl/nieuws/dit-vindt-weghorst-van-de-aanstelling-van-cruijff-bij-ajax",
+      "summary": "Wout Weghorst gelooft erin dat Jordi Cruijff ervoor kan zorgen dat de rust terugkeert binnen de bestuurskamer van Ajax. De spits kent de nieuwe technisch directeur niet persoonlijk, maar denkt dat zijn komst heel belangrijk is voor zijn Amsterdamse werkgever.",
+      "publishedAt": "2025-12-29T15:51:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bournemouth target Brennan Johnson as potential Semenyo replacement",
+      "link": "https://www.theguardian.com/football/2025/dec/29/bournemouth-brennan-johnson-antoine-semenyo-tottenham-premier-league",
+      "summary": "Tottenham open to doing business for £47.5m forward Semenyo primed to join Manchester City in £65m deal Bournemouth have identified Tottenham’s Brennan Johnson as a potential replacement for Antoine Semenyo, who is primed to join Manchester City in a deal worth £65m. City are accelerating talks with Semenyo’s camp and are at the front of the queue to trigger the Ghana winger’s release clause, inserted last summer when Semenyo extended his contract at Bournemouth. Continue reading...",
+      "publishedAt": "2025-12-29T15:45:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Krijgt Roefs de voorkeur boven Courtois in het Elftal van het Jaar?",
+      "link": "https://www.vi.nl/video/krijgt-roefs-de-voorkeur-boven-courtois-in-het-elftal-van-het-jaar",
+      "summary": "Natúúrlijk maakt VI ook nu weer een Elftal van het Jaar met spelers die actief zijn in de buitenlandse topcompetities. Kleine verandering: dit keer kijken kenners buitenlands voetbal Süleyman Öztürk en Bas van den Hoven alleen naar de eerste seizoenshelft. In dit fragment gaan de heren dieper in op de keepers Robin Roefs en Thibaut Courtois.",
+      "publishedAt": "2025-12-29T15:35:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "No Drama for Nicholls hotpot in Challow Hurdle",
+      "link": "https://www.skysports.com/racing/news/12040/13488332/newbury-no-drama-for-paul-nicholls-hotpot-in-challow-novices-hurdle",
+      "summary": "No Drama This End lived up to his increasingly lofty reputation with a straightforward victory in the Coral Challow Novices' Hurdle at Newbury.",
+      "publishedAt": "2025-12-29T15:34:00.000Z"
     },
     {
       "type": "rss",
@@ -33,17 +88,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cm212k0r32zo?at_medium=RSS&at_campaign=rss",
       "summary": "Relegation-threatened West Ham are committed to backing manager Nuno Espirito Santo in the transfer market next month.",
       "publishedAt": "2025-12-29T15:03:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Salah en Egypte tegen Angola, Marokko later tegen Zambia",
-      "link": "https://www.vi.nl/nieuws/vi-live-salah-en-egypte-tegen-angola-marokko-later-tegen-zambia",
-      "summary": "Ook maandag wordt er weer gevoetbald in de Afrika Cup. Het Egypte van Mohamed Salah staat tegenover Angola en Marokko treft Zambia. Volg het belangrijkste voetbal van maandag in deze VI Live.",
-      "publishedAt": "2025-12-29T15:00:00.000Z"
     },
     {
       "type": "rss",
@@ -91,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Elftal van het Jaar: twee Nederlanders krijgen voorkeur boven wereldtoppers",
-      "link": "https://www.vi.nl/pro/elftal-van-het-jaar-twee-nederlanders-krijgen-voorkeur-boven-wereldtoppers",
-      "summary": "Natúúrlijk maakt VI ook nu weer een Elftal van het Jaar met spelers die actief zijn in de buitenlandse topcompetities. Kleine verandering: dit keer kijken kenners buitenlands voetbal Süleyman Öztürk en Bas van den Hoven alleen naar de eerste seizoenshelft. Er moeten harde keuzes worden gemaakt! Welke keeper krijgt de voorkeur boven Thibaut Courtois? En kan Lamine Yamal wel rekenen op een plaats in dit bijzondere gezelschap?",
-      "publishedAt": "2025-12-29T14:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -121,17 +154,6 @@
       "link": "https://www.skysports.com/cricket/news/12040/13488222/the-ashes-stuart-broad-backs-ben-stokes-and-brendon-mccullum-to-stay-in-england-roles",
       "summary": "Stuart Broad has warned that removing ECB managing director Rob Key could trigger a domino effect that puts Ben Stokes' position as England captain at risk.",
       "publishedAt": "2025-12-29T14:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Oud-AZ'er mogelijk al weg bij Torino, Barça meldt zich bij Vlahovic'",
-      "link": "https://www.vi.nl/nieuws/cancelo-wil-terug-naar-europa-portugal-en-engeland-lonken",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2025-12-29T13:59:29.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/ng-interactive/2025/dec/29/womens-transfer-window-january-2026-all-deals-world-top-six-leagues",
       "summary": "Every deal in the WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide Continue reading...",
       "publishedAt": "2025-12-29T13:00:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Joshua injured in car crash that killed two",
-      "link": "https://www.skysports.com/boxing/news/12040/13488269/anthony-joshua-video-footage-shows-british-former-world-heavyweight-champion-injured-in-car-accident-in-nigeria-with-two-reportedly-dead",
-      "summary": "Anthony Joshua has been injured in a car crash in Nigeria that killed two people.",
-      "publishedAt": "2025-12-29T13:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ranked: The top 50 women's soccer players in the world",
-      "link": "https://www.espn.com/soccer/story/_/id/47101532/best-50-women-soccer-players-ranked-world-2025-espn-fc",
-      "summary": "An expert panel of coaches, GMs and journalists ranked the 50 best women's soccer players in the world.",
-      "publishedAt": "2025-12-29T12:40:11.000Z"
     }
   ]
 }
