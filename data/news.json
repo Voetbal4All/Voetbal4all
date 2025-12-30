@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-30T03:43:00.271Z",
+  "generatedAt": "2025-12-30T04:41:37.338Z",
   "items": [
     {
       "type": "rss",
@@ -29,17 +29,6 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arteta: Arsenal 'actively looking' for January deals",
-      "link": "https://www.espn.com/soccer/story/_/id/47442809/arsenal-actively-looking-sign-players-january-mikel-arteta",
-      "summary": "Arsenal manager Mikel Arteta has said the club are prepared to ease their injury problems by \"actively looking\" at signing new players when the transfer window reopens next month.",
-      "publishedAt": "2025-12-30T03:28:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Wrexham into top half of Championship after win",
       "link": "https://www.espn.com/soccer/report/_/gameId/744881",
       "summary": "null",
@@ -51,10 +40,21 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Brits abroad: Why the trickle of homegrown talents leaving for Europe is becoming a flood",
-      "link": "https://www.espn.com/soccer/story/_/id/47418751/brits-abroad-why-trickle-homegrown-talents-leaving-england-scotland-european-football-becoming-flood",
-      "summary": "In the 2000s, you could count the number of homegrown players leaving Britain for European football on one hand. Now, though, it's a well-trod path.",
-      "publishedAt": "2025-12-29T23:50:29.000Z"
+      "title": "Why is the USWNT so low on the top 50 of ESPN FC Women's Rank?",
+      "link": "https://www.espn.com/soccer/story/_/id/47393181/why-uswnt-low-top-50-espn-fc-women-rank",
+      "summary": "For the first time ever, a USWNT player isn't in the top 20 of ESPN FC Women's Rank, our list of the top 50 players in the world. Why?",
+      "publishedAt": "2025-12-30T03:28:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ranked: The top 50 women's soccer players in the world",
+      "link": "https://www.espn.com/soccer/story/_/id/47101532/best-50-women-soccer-players-ranked-world-2025-espn-fc",
+      "summary": "An expert panel of coaches, GMs and journalists ranked the 50 best women's soccer players in the world.",
+      "publishedAt": "2025-12-30T03:28:43.000Z"
     },
     {
       "type": "rss",
