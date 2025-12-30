@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-30T06:38:43.455Z",
+  "generatedAt": "2025-12-30T07:26:11.592Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wiegman krijgt eervolle onderscheiding uit handen van koning Charles",
+      "link": "https://www.vi.nl/nieuws/wiegman-krijgt-eervolle-onderscheiding-uit-handen-van-koning-charles",
+      "summary": "Sarina Wiegman heeft een fraaie onderscheiding ontvangen uit handen van de Britse koning Charles. Ze is maandag benoemd tot Honorary Dame Commander of the Most Excellent Order of the British Empire (DBE) vanwege haar uitzonderlijke verdiensten voor het Engelse voetbal.",
+      "publishedAt": "2025-12-30T07:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Can 'Champagne Charlie' upset Van Veen and reach Ally Pally quarter-finals?",
+      "link": "https://www.skysports.com/darts/news/12040/13488376/world-darts-championship-champagne-charlie-manby-looks-to-continue-dream-run-against-gian-van-veen-at-alexandra-palace",
+      "summary": "'Champagne' Charlie Manby takes on Gian van Veen at the World Darts Championship on Tuesday with a quarter-final spot on the line.",
+      "publishedAt": "2025-12-30T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Archer, Tongue named in England's T20 World Cup squad",
+      "link": "https://www.skysports.com/cricket/news/12040/13488602/england-t20-world-cup-squad-jofra-archer-and-josh-tongue-named-in-provisional-group-for-2026-tournament",
+      "summary": "Jofra Archer has been included in England's provisional T20 World Cup squad after his Ashes-ending injury, with fellow fast bowler Josh Tongue also named in a 15-player group for February and March's tournament in India and Sri Lanka.",
+      "publishedAt": "2025-12-30T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Farioli lijkt na bijna perfecte seizoenshelft Benfica al kwijt in titelrace",
+      "link": "https://www.vi.nl/nieuws/farioli-lijkt-na-bijna-perfecte-seizoenshelft-benfica-al-kwijt-in-titelrace",
+      "summary": "FC Porto pakte in het eerste deel van dit seizoen liefst 46 van de mogelijke 48 punten onder Francesco Farioli. Hoewel het tegen hekkensluiter AVS in de eerste helft behoorlijk moeizaam ging , werd er wel weer gewonnen. Daarmee is volgens de Portugese media concurrent Benfica al min of meer afgeschreven, maar over een titel wilde Farioli niet spreken.",
+      "publishedAt": "2025-12-30T06:45:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -63,7 +107,7 @@
       "country": "INT",
       "flag": "🌍",
       "title": "Hakimi returns as Morocco seal AFCON knockouts",
-      "link": "https://www.espn.com/soccer/story/_/id/47446867/achraf-hakimi-returns-morocco-afcon-knockouts",
+      "link": "https://www.espn.com/espn/story/_/id/47446867/achraf-hakimi-returns-morocco-afcon-knockouts",
       "summary": "Africa Cup of Nations hosts Morocco dispatched Zambia 3-0 at a fervid Prince Moulay Abdellah Stadium in Rabat on Monday to round off their Group A campaign in style and ease into the round of 16.",
       "publishedAt": "2025-12-30T03:28:47.000Z"
     },
@@ -157,28 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Serie A komt klagers tegemoet en prikt de oranje ballen lek",
-      "link": "https://www.vi.nl/nieuws/serie-a-komt-klagers-tegemoet-en-prikt-de-oranje-ballen-lek",
-      "summary": "De Serie A is één van de vele competities waar in de koude maanden een oranje bal wordt gebruikt, omdat die beter zichtbaar is bij winterweer. In Italië klaagden kleurenblinde kijkers, en ze hebben gelijk gekregen. De oranje bal gaat verdwijnen.",
-      "publishedAt": "2025-12-29T22:29:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Riedewald met een schaars maar belangrijk doelpunt",
-      "link": "https://www.vi.nl/nieuws/vi-live-riedewald-met-een-schaars-maar-belangrijk-doelpunt",
-      "summary": "Ook maandag wordt er weer gevoetbald in de Afrika Cup. Het Egypte van Mohamed Salah staat tegenover Angola en Marokko treft Zambia. Volg het belangrijkste voetbal van maandag in deze VI Live.",
-      "publishedAt": "2025-12-29T22:17:03.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/29/aston-villa-chelsea-winning-run-title-race-newsletter",
       "summary": "Villa keep coming from behind, keep winning by the odd goal and keep confounding the numbers. At some point it must stop – but not yet It can’t go on. It makes no sense that it goes on. And yet it goes on. Aston Villa went into Saturday’s Premier Leage game at Chelsea having won 10 games in a row, looking to match a record set in 1897 and 1914. For an hour there seemed no chance they would achieve it, as Chelsea outplayed them, took the lead and could have had several more. But Chelsea are vulnerable with a lead, especially at home, and Villa have developed a baffling habit of winning away games having gone behind. This is an extract from Soccer with Jonathan Wilson, a weekly look from the Guardian US at the game in Europe and beyond. Subscribe for free here. Have a question for Jonathan? Email soccerwithjw@theguardian.com, and he’ll answer the best in a future edition. Continue reading...",
       "publishedAt": "2025-12-29T21:52:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ipswich stun leaders Coventry to breathe life into Championship promotion race",
-      "link": "https://www.theguardian.com/football/2025/dec/29/coventry-ipswich-championship-match-report",
-      "summary": "Ipswich narrowed the gap on the Championship’s top two with an impressive 2-0 win at Coventry, ending the leaders’ unbeaten home record this season. Jack Clarke opened the scoring after 72 minutes and Wes Burns’ first goal since April 2024 doubled the visitors’ lead 11 minutes later. Kieran McKenna thought his side fully deserved their victory. The Ipswich manager said: “In the first half there was a real confidence, a composure. We took the game on, controlled the game and had some really good chances. Continue reading...",
-      "publishedAt": "2025-12-29T20:32:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Forest ask for VAR audio after Man City defeat",
-      "link": "https://www.bbc.com/sport/football/articles/c7vmv8n4nj6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Nottingham Forest have asked to hear the VAR audio as they consider making an official complaint following the Premier League defeat by Manchester City.",
-      "publishedAt": "2025-12-29T20:07:10.000Z"
     }
   ]
 }
