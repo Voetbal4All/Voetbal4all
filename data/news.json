@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2025-12-30T08:34:19.692Z",
+  "generatedAt": "2025-12-30T09:29:19.259Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Inter zet deur open voor De Vrij: verdediger mag vertrekken'",
+      "link": "https://www.vi.nl/nieuws/cancelo-wil-terug-naar-europa-portugal-en-engeland-lonken",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2025-12-30T09:14:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Prominent owner Sheikh Mohammed Obaid Al Maktoum dies",
+      "link": "https://www.skysports.com/racing/news/12040/13488649/sheikh-mohammed-obaid-al-maktoum-prominent-owner-and-breeder-dies",
+      "summary": "Trainer Karl Burke paid tribute to Sheikh Mohammed Obaid Al Maktoum following the leading owner and breeder’s death on Monday.",
+      "publishedAt": "2025-12-30T09:04:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hartverwarmend welkom voor De Rossi in 'eigen' Olimpico eindigt met chagrijn",
+      "link": "https://www.vi.nl/nieuws/hartverwarmend-welkom-voor-de-rossi-in-eigen-olimpico-eindigt-met-chagrijn",
+      "summary": "Daniele de Rossi keerde maandag even terug in 'zijn' Stadio Olimpico. De trainer van Genoa ging onderuit bij voetballiefde AS Roma . Eindeloos zongen de fans hem toe, maar genieten kon de Italiaan niet.",
+      "publishedAt": "2025-12-30T08:49:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Woede Nottingham nog niet bekoeld: club vraagt VAR-audio op",
+      "link": "https://www.vi.nl/nieuws/nottingham-forest-vraagt-var-audio-op-na-winnende-goal-city",
+      "summary": "Nottingham Forest legt zich niet zomaar neer bij de nederlaag tegen Manchester City . De club heeft het audiofragment opgevraagd van het gesprek dat arbiter Rob Jones had met de VAR over de veelbesproken winnende goal van Ryan Cherki.",
+      "publishedAt": "2025-12-30T08:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tiger turns 50 - but when will he return to competitive golf?",
+      "link": "https://www.skysports.com/golf/news/12040/13481065/tiger-woods-when-will-he-return-from-injury-15-time-major-champion-offers-updates-on-2026-schedule-hopes",
+      "summary": "Tiger Woods is celebrating his 50th birthday – but when will golf fans be toasting the 15-time major champion’s return to competitive action?",
+      "publishedAt": "2025-12-30T08:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -55,39 +110,6 @@
       "link": "https://www.skysports.com/watch/video/13484817/joe-root-glenn-phillips-deepti-sharma-who-took-the-best-catch-of-2025",
       "summary": "Watch some of the best cricket catches hat happened in front of the Sky Sports cameras in 2025, including beauties from Harry Brook, Will Jacks, Glenn Phillips, Deepti Sharma, Charlie Dean and Joe Root.",
       "publishedAt": "2025-12-30T08:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Beste commentator van Nederland: bekijk hier de hele uitslag",
-      "link": "https://www.vi.nl/pro/beste-commentator-van-nederland-bekijk-hier-de-hele-uitslag",
-      "summary": "Wytse van der Goot van Ziggo Sport is door een overweldigende meerderheid van de VI-lezers ­uitgeroepen tot beste tv-voetbalcommentator van Nederland. Van der Goot ontving 59 procent van de ruim 16.000 stemmen. Sierd de Vos (Ziggo) en Vincent Schildkamp (ESPN & Ziggo) pakten respectievelijk het zilver en brons met 14 en 13 procent.",
-      "publishedAt": "2025-12-30T08:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Egyptische bondscoach legt uit waarom Salah en Marmoush niet speelden",
-      "link": "https://www.vi.nl/video/egyptische-bondscoach-legt-uit-waarom-salah-en-marmoush-niet-speelden",
-      "summary": "Egypte was na twee speelrondes al zeker van de knock-outfase van de Afrika Cup. Dat was voor bondscoach Hossam Hassan reden om onder andere sterspelers Mohamed Salah en Omar Marmoush rust te geven in het laatste groepsduel met Angola. Dat was direct terug te zien in het resultaat ( 0-0 ) en dus gaf Hassan na het duel tekst en uitleg over zijn keuzes.",
-      "publishedAt": "2025-12-30T07:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Diba overstag na gesprek met Hoefkens: 'Hij raakte echt de juiste snaar'",
-      "link": "https://www.vi.nl/nieuws/diba-overstag-na-gesprek-met-hoefkens-hij-raakte-echt-de-juiste-snaar",
-      "summary": "Anouar Diba (42) is toegevoegd aan de technische staf van NAC Breda. Aanvankelijk zag de oud-spelmaker het helemaal niet zitten, om bij het eerste elftal aan de slag te gaan. Maar na het zien van de wedstrijden en een goed gesprek met trainer Carl Hoefkens sloeg dat om.",
-      "publishedAt": "2025-12-30T07:44:46.000Z"
     },
     {
       "type": "rss",
@@ -146,17 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wolverhampton hosts nine-race card on Tuesday",
-      "link": "https://www.skysports.com/racing/news/12040/13488198/today-on-sky-sports-racing-wolverhampton-hosts-nine-race-all-weather-card",
-      "summary": "Intervention and Accrual are set to face off in the feature contest tonight at Wolverhampton - live on Sky Sports Racing.",
-      "publishedAt": "2025-12-30T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47101532/best-50-women-soccer-players-ranked-world-2025-espn-fc",
       "summary": "An expert panel of coaches, GMs and journalists ranked the 50 best women's soccer players in the world.",
       "publishedAt": "2025-12-30T03:28:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler 'given a work-out' but battles past Cross",
-      "link": "https://www.skysports.com/watch/video/13488539/world-darts-championship-luke-littler-given-a-work-out-but-battles-past-rob-cross",
-      "summary": "Rob Cross made the world number one work for it, but Luke Littler stood firm to book his place in the quarter finals.",
-      "publishedAt": "2025-12-29T22:41:00.000Z"
     }
   ]
 }
