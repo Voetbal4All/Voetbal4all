@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2025-12-30T21:23:17.651Z",
+  "generatedAt": "2025-12-30T22:23:31.921Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Alleen op papier een topper: Arsenal vermorzelt Aston Villa",
+      "link": "https://www.vi.nl/nieuws/arsenal-sluit-2025-als-koploper-af-na-galashow-tegen-aston-villa",
+      "summary": "Arsenal heeft zijn status als titelkandidaat andermaal bevestigd. In de topper tegen Aston Villa was de ploeg van Mikel Arteta heer en meester: 4-1.",
+      "publishedAt": "2025-12-30T22:20:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Dortmund lead race for Bobb - Wednesday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/ckg9gg5369eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Borussia Dortmund lead a number of clubs wanting to sign Oscar Bobb from Manchester City, Marc Guehi has his eye on a Real Madrid move, Juventus want Guido Rodriguez, plus more.",
+      "publishedAt": "2025-12-30T22:17:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester United 1-1 Wolves: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2025/dec/30/chelsea-v-bournemouth-manchester-united-v-wolves-and-more-premier-league-live",
+      "summary": "⚽ Premier League updates, kicking off from 7.30pm GMT ⚽ Live scores | Follow us on Bluesky | And email Billy Starting lineups from Old Trafford: Man Utd (4-4-2): Lammens; Dalot, Heaven, Martínez, Shaw; Dorgu, Casemiro, Ugarte, Cunha; Sesko, Zirkzee. Subs: Bayindir, Fredericson, Malacia, Yoro, J Fletcher, L Fletcher, Lacey, Mantato, Obi. Continue reading...",
+      "publishedAt": "2025-12-30T22:13:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Scorende Zirkzee kan pijnlijke misstap Man Utd niet voorkomen",
+      "link": "https://www.vi.nl/nieuws/scorende-zirkzee-kan-misstap-man-utd-niet-voorkomen",
+      "summary": "Intro",
+      "publishedAt": "2025-12-30T22:13:31.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,7 +54,62 @@
       "title": "Arsenal v Aston Villa: Premier League – live",
       "link": "https://www.theguardian.com/football/live/2025/dec/30/arsenal-v-aston-villa-premier-league-live",
       "summary": "⚽ Premier League updates from the 8.15pm GMT kick-off ⚽ Live scores | Follow us on Bluesky | And email Scott 3 min: Odegaard tries to release Trossard into the Villa box down the inside-left channel. Clank. Goal kick, so another chance for the home fans to indulge their love of interactive festive theatre. 1 min: Villa work the ball back to their keeper Martinez, formerly of Arsenal. The Argentinian World Cup winner cops the expected abuse. It is pantomime season, to be fair. Continue reading...",
-      "publishedAt": "2025-12-30T21:10:21.000Z"
+      "publishedAt": "2025-12-30T22:13:10.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal's Arteta: Rice knee injury only short term",
+      "link": "https://www.espn.com/soccer/story/_/id/47456368/arsenal-declan-rice-knee-injury-only-short-term-mikel-arteta",
+      "summary": "Arsenal boss Mikel Arteta has said Declan Rice's knee injury is a short-term issue, although it means he miss Tuesday's top-of-the-table clash with Aston Villa.",
+      "publishedAt": "2025-12-30T22:11:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ronaldo wants 1k goals; open to Europe return",
+      "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
+      "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
+      "publishedAt": "2025-12-30T22:11:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England group warns FIFA: WC fans priced out",
+      "link": "https://www.espn.com/soccer/story/_/id/47453724/alarm-bells-fifa-england-fans-wc-ticket-snub-supporters-group",
+      "summary": "A fans' group says \"alarm bells should be ringing\" at FIFA with England's fans having failed to take up their full ticket allocation for next summer's World Cup final.",
+      "publishedAt": "2025-12-30T22:11:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Maresca under fire again after Chelsea draw",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740778",
+      "summary": "Chelsea's poor Premier League form extended to one win in seven games as Bournemouth held on for a 2-2 draw at Stamford Bridge.",
+      "publishedAt": "2025-12-30T22:11:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rangers close gap to Celtic after beating St Mirren",
+      "link": "https://www.skysports.com/football/rangers-vs-st-mirren/report/531846",
+      "summary": "Rangers closed the gap to second-placed Celtic after beating St Mirren 2-1 at Ibrox, although still remain six points adrift of Scottish Premiership leaders Hearts.",
+      "publishedAt": "2025-12-30T22:10:00.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +117,21 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Chelsea v Bournemouth, Manchester United v Wolves, and more: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2025/dec/30/chelsea-v-bournemouth-manchester-united-v-wolves-and-more-premier-league-live",
-      "summary": "⚽ Premier League updates, kicking off from 7.30pm GMT ⚽ Live scores | Follow us on Bluesky | And email Billy Starting lineups from Old Trafford: Man Utd (4-4-2): Lammens; Dalot, Heaven, Martínez, Shaw; Dorgu, Casemiro, Ugarte, Cunha; Sesko, Zirkzee. Subs: Bayindir, Fredericson, Malacia, Yoro, J Fletcher, L Fletcher, Lacey, Mantato, Obi. Continue reading...",
-      "publishedAt": "2025-12-30T21:10:21.000Z"
+      "title": "Guimarães shuts down Burnley’s late fightback to end Newcastle’s poor away run",
+      "link": "https://www.theguardian.com/football/2025/dec/30/burnley-newcastle-premier-league-match-report",
+      "summary": "It is, ultimately, only the result that matters in football. Newcastle almost stopped playing after going two goals ahead inside seven minutes and spent the remainder of the game desperately holding on for their second away win of the season, leaving Burnley wondering what more they could have done. Burnley were dominant in all areas after the early shock, showing the spirit and grit required in a relegation battle, but the truth of the matter is they have two points from the last possible 30 and are facing an immediate return to the Championship. Josh Laurent ignited hope when there was none after Joelinton and Yoane Wissa scored, a flame that was finally put out by Bruno Guimarães late on. Continue reading...",
+      "publishedAt": "2025-12-30T22:05:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Enzo Maresca jeered by Chelsea fans amid wild draw with Bournemouth",
+      "link": "https://www.theguardian.com/football/2025/dec/30/chelsea-bournemouth-premier-league-match-report",
+      "summary": "Enzo Maresca has been talking up his relationship with Chelsea’s supporters but the love was not returned during this 2-2 draw with Bournemouth. There was open dissent from the Stamford Bridge crowd when Cole Palmer, who is still feeling his way back from a groin injury, went off midway through the second half and there was more grumbling when a wild game was over. This was another bad night for Chelsea. Maresca’s erratic side defended poorly, have one win in their past seven league games and remain incapable of capitalising on dominant spells. They have now dropped 13 points from winning positions at home – more than any other side in the Premier League – after being held by Andoni Iraola’s Bournemouth, who ended grateful to Antoine Semenyo giving his all in what might be his final appearance for the club before a likely move to Manchester City. Continue reading...",
+      "publishedAt": "2025-12-30T21:53:06.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +139,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Senegal als groepswinnaar door naar volgende ronde Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/senegal-als-groepswinnaar-door-naar-volgende-ronde-afrika-cup",
-      "summary": "Senegal, D.R Congo en Benin gaan uit Groep D door naar de volgende ronde van de Afrika Cup. Senegal en Congo als nummers één en twee, Benin behoort tot de beste nummers drie en mag ook door.",
-      "publishedAt": "2025-12-30T21:05:51.000Z"
+      "title": "Celtic gaat onderuit bij Motherwell en verliest weer terrein in titelstrijd",
+      "link": "https://www.vi.nl/nieuws/celtic-gaat-onderuit-bij-motherwell-en-verliest-weer-terrein-in-titelstrijd",
+      "summary": "Celtic dacht de boel weer enigszins op de rit te hebben, maar de Schotse grootmacht kreeg dinsdag een nieuwe dreun. Het bezoek aan Motherwell leverde alweer de vijfde competitienederlaag van het seizoen op.",
+      "publishedAt": "2025-12-30T21:50:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wissa scores as Newcastle bag rare away win at Burnley",
+      "link": "https://www.skysports.com/football/burnley-vs-newcastle-united/report/531311",
+      "summary": "Newcastle recorded just a second away win in their last 13 Premier League games with a 3-1 victory at Burnley.",
+      "publishedAt": "2025-12-30T21:50:00.000Z"
     },
     {
       "type": "rss",
@@ -40,21 +161,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Transfers PSV: bod Fulham op Pepi van tafel geveegd",
-      "link": "https://www.vi.nl/nieuws/transfers-psv-bod-fulham-op-pepi-van-tafel-geveegd",
-      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij PSV op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2025-12-30T20:46:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Zirkzee bezorgt Manchester United de voorsprong op Wolves",
+      "title": "VI Live: Arsenal is heer en meester tegen Aston Villa",
       "link": "https://www.vi.nl/nieuws/vi-live-afrika-cup-wedstrijden-en-engelse-kraker",
       "summary": "Dinsdag gaat het weer los in de Premier League. Koploper Arsenal ontvangt Aston Villa, dat zich lijkt te gaan mengen in de titelstrijd, en Manchester United neemt het op tegen hekkensluiter Wolverhampton Wanderers. Op de Afrika Cup zijn vier potjes, en in Schotland zetten Celtic en Rangers hun achtervolging op koploper Heart of Midlothian voort. Volg het belangrijkste voetbal van dinsdag in deze VI Live.",
-      "publishedAt": "2025-12-30T20:42:17.000Z"
+      "publishedAt": "2025-12-30T21:42:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barry finishes the job for Everton after Garner returns to haunt ailing Forest",
+      "link": "https://www.theguardian.com/football/2025/dec/30/nottingham-forest-everton-premier-league-match-report",
+      "summary": "Things are beginning to get a little twitchy for Nottingham Forest and Sean Dyche. Forest have made strides under Ange Postecoglou’s successor but after a miserable defeat by Everton, Dyche’s previous club, it is now three straight defeats and a bruising January run of fixtures are on the horizon. Five of their next six matches are away, including a trip to West Ham, now only four points behind Forest. For David Moyes and his threadbare squad, this was a triumph, goals by the former Forest loanee James Garner and Thierno Barry earning a deserved victory. Forest submitted a complaint to Professional Game Match Officials, the referees’ body, regarding the officiating in the defeat at home by Manchester City at the weekend. The club were adamant significant decisions counted against them and requested the audio between on-pitch officials that determined key moments. But Forest only had themselves to blame for a lethargic start against an Everton side that arrived without a victory or even a goal since the reverse fixture at Hill Dickinson Stadium almost four weeks ago. Continue reading...",
+      "publishedAt": "2025-12-30T21:36:41.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Spektakel op laatste Premier League-dag van het jaar, hoofdrol Kluivert en Veltman",
+      "link": "https://www.vi.nl/nieuws/spektakel-op-laatste-premier-league-dag-van-het-jaar-hoofdrol-kluivert-en-veltman",
+      "summary": "Intro",
+      "publishedAt": "2025-12-30T21:31:29.000Z"
     },
     {
       "type": "rss",
@@ -69,77 +201,11 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Eindejaarsquiz: Nederlanders in de Premier League in 2025",
-      "link": "https://www.vi.nl/nieuws/eindejaarsquiz-2-nederlanders-in-de-premier-league-in-2025",
-      "summary": "In de laatste dagen van 2025 blikt VI terug op het voetbaljaar met een dagelijkse quiz. Vandaag gaan we op zoek naar de Nederlanders die dit jaar in actie zijn gekomen in de Premier League.",
-      "publishedAt": "2025-12-30T20:24:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Groen licht voor De Treffers en NEC: KNVB Bekerduel 'gewoon' in Groesbeek",
-      "link": "https://www.vi.nl/nieuws/groen-licht-voor-de-treffers-en-nec-knvb-bekerduel-gewoon-in-groesbeek",
-      "summary": "Het Eurojackpot KNVB Bekerduel van De Treffers met NEC mag op Sportpark Zuid in Groesbeek worden gespeeld. Dat heeft burgemeester Mark Slinkman van gemeente Berg en Dal bepaald.",
-      "publishedAt": "2025-12-30T20:07:44.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "England group warns FIFA: WC fans priced out",
-      "link": "https://www.espn.com/soccer/story/_/id/47453724/alarm-bells-fifa-england-fans-wc-ticket-snub-supporters-group",
-      "summary": "A fans' group says \"alarm bells should be ringing\" at FIFA with England's fans having failed to take up their full ticket allocation for next summer's World Cup final.",
-      "publishedAt": "2025-12-30T20:07:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal's Arteta: Rice knee injury only short term",
-      "link": "https://www.espn.com/soccer/story/_/id/47456368/arsenal-declan-rice-knee-injury-only-short-term-mikel-arteta",
-      "summary": "Arsenal boss Mikel Arteta has said Declan Rice's knee injury is a short-term issue, although it means he miss Tuesday's top-of-the-table clash with Aston Villa.",
-      "publishedAt": "2025-12-30T20:07:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ronaldo wants 1k goals; open to Europe return",
-      "link": "https://www.espn.com/soccer/story/_/id/47441885/cristiano-ronaldo-reiterates-desire-reach-1000-goals-retiring",
-      "summary": "Portugal captain Cristiano Ronaldo has reiterated his desire to reach 1,000 career goals before he calls time on his playing career.",
-      "publishedAt": "2025-12-30T20:07:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hakimi returns as Morocco seal AFCON knockouts",
-      "link": "https://www.espn.com/espn/story/_/id/47446867/achraf-hakimi-returns-morocco-afcon-knockouts",
-      "summary": "Africa Cup of Nations hosts Morocco dispatched Zambia 3-0 at a fervid Prince Moulay Abdellah Stadium in Rabat on Monday to round off their Group A campaign in style and ease into the round of 16.",
-      "publishedAt": "2025-12-30T20:07:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League live updates: Villa-Arsenal scoreless at halftime",
+      "title": "Premier League live updates: Arsenal take second half lead over Villa",
       "link": "https://www.espn.com/soccer/story/_/id/47439115/premier-league-live-updates-chelsea-bournemouth-aston-villa-arsenal-man-united-wolverhampton-wanderers",
       "summary": "null",
       "publishedAt": "2025-12-30T19:35:34.000Z"
@@ -154,72 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13488776/yan-diomande-transfer-news-man-utd-interested-in-rb-leipzig-forward-but-face-competition-from-bayern-munich-and-psg",
       "summary": "Manchester United are one of the clubs monitoring RB Leipzig winger Yan Diomande.",
       "publishedAt": "2025-12-30T19:34:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon roundup: Nigeria stay perfect as 10-man Uganda use three goalkeepers",
-      "link": "https://www.theguardian.com/football/2025/dec/30/afcon-roundup-nigeria-uganda-tanzania-tunisia-benin-senegal-botswana-dr-congo",
-      "summary": "Uganda knocked out after 3-1 defeat by Super Eagles Tanzania into last 16 after 1-1 draw with Tunisia Raphael Onyedika scored twice and Paul Onuachu netted his first international goal in four years as Nigeria beat 10-man Uganda 3-1 in Fes on Tuesday to record a third win in Group C at the Africa Cup of Nations and send the east African side home. Nigeria finished top of the group with nine points followed by Tunisia and then Tanzania, who drew 1-1, with the latter reaching the last 16 as one of the four best third-placed sides. Continue reading...",
-      "publishedAt": "2025-12-30T19:27:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Toone: MBE a 'pinch-me' moment and 'amazing' Wiegman deserves damehood",
-      "link": "https://www.skysports.com/football/news/12040/13488774/ella-toone-mbe-is-a-pinch-me-moment-says-england-and-manchester-united-star-after-being-named-in-new-year-honours-list",
-      "summary": "Ella Toone admits she was beyond surprised to be named in the New Year Honours List.",
-      "publishedAt": "2025-12-30T19:12:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City close to agreeing terms with Semenyo",
-      "link": "https://www.bbc.com/sport/football/articles/cp9jr5evy3xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City are close to agreeing terms with Bournemouth to sign Antoine Semenyo for £65m.",
-      "publishedAt": "2025-12-30T18:01:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Brighton level at West Ham in game of THREE penalties LIVE!",
-      "link": "https://www.skysports.com/football/west-ham-united-vs-brighton-and-hove-albion/live/531318",
-      "summary": "",
-      "publishedAt": "2025-12-30T17:57:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Gyokeres goes close for Arsenal against Aston Villa LIVE!",
-      "link": "https://www.skysports.com/football/arsenal-vs-aston-villa/live/531309",
-      "summary": "",
-      "publishedAt": "2025-12-30T17:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hamilton players threaten no-show after pay delay",
-      "link": "https://www.bbc.com/sport/football/articles/cx2yn5ed0zeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Hamilton Academical players are considering refusing to play Saturday's Scottish League 1 match against East Fife if they are not paid on time.",
-      "publishedAt": "2025-12-30T17:25:19.000Z"
     }
   ]
 }
