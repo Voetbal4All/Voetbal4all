@@ -1,16 +1,60 @@
 {
-  "generatedAt": "2025-12-31T21:22:08.629Z",
+  "generatedAt": "2025-12-31T22:24:16.939Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ivoorkust na fraaie comeback groepswinnaar op Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/ivoorkust-na-fraaie-comeback-groepswinnaar-op-afrika-cup",
+      "summary": "Het al geplaatste Ivoorkust heeft zich woensdag tijdens de laatste duels in Groep F de kaas van het brood laten eten door het al uitgeschakelde Gabon. De titelverdediger moet daardoor voorrang verlenen aan Kameroen, dat geen fout maakte tegen Mozambique.",
+      "publishedAt": "2025-12-31T22:05:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2025-12-31T22:01:49.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Gabon 2-3 Côte d’Ivoire: Africa Cup of Nations 2025 – live reaction",
-      "link": "https://www.theguardian.com/football/live/2025/dec/31/gabon-v-cote-divoire-africa-cup-of-nations-2025-live",
-      "summary": "⚽ Côte d’Ivoire seal top spot in Group F with late win ⚽ Live scores | Tables | Follow us on Bluesky | Email Niall 4 mins: Emmanuel Agbadou gets back to clear the danger from a Gabon long ball upfield. 2 mins: Cote d’Ivoire have started on the front foot, zipping the ball around nicely before a deep cross is punched clear by Bekale. Continue reading...",
-      "publishedAt": "2025-12-31T21:16:10.000Z"
+      "title": "Afcon roundup: Côte d’Ivoire pip Cameroon with dramatic win over Gabon",
+      "link": "https://www.theguardian.com/football/2025/dec/31/afcon-roundup-burkina-faso-sudan-algeria-equatorial-guinea-cote-divoire-cameroon-gabon-mozambique",
+      "summary": "Holders come from two goals down to win 3-2 Burkina Faso beat Sudan as both sides progress Côte d’Ivoire came from two goals down to beat already eliminated Gabon 3-2 in Group F at the Africa Cup of Nations on Wednesday as the teenager Bazoumana Touré’s headed winner in added time in Marrakech handed them top spot in the pool. The Ivorians finished on seven points from their three games, ahead of Cameroon on goal difference after the latter beat third-placed Mozambique. Continue reading...",
+      "publishedAt": "2025-12-31T21:32:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Seven questions Liverpool must answer in the transfer window",
+      "link": "https://www.espn.com/soccer/story/_/id/47456664/the-january-transfer-window-moves-liverpool-make",
+      "summary": "The January transfer window opens soon, and top clubs like Liverpool have big and expensive decisions to make.",
+      "publishedAt": "2025-12-31T21:32:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What should Man United do in January?",
+      "link": "https://www.espn.com/soccer/story/_/id/47442824/what-transfers-man-united-make-january-window",
+      "summary": "There are plenty of big decisions to be made at Old Trafford, including concerning manager Ruben Amorim.",
+      "publishedAt": "2025-12-31T21:32:36.000Z"
     },
     {
       "type": "rss",
@@ -22,17 +66,6 @@
       "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-achtste-finale-van-de-afrika-cup",
       "summary": "In slechts elf dagen tijd is de groepsfase van de Afrika Cup afgewerkt. Na twee rustdagen gaat het toernooi zaterdag verder met de achtste finale. We zetten de wedstrijden op een rij.",
       "publishedAt": "2025-12-31T21:08:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ivoorkust na fraaie comeback groepswinnaar op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/ivoorkust-na-fraaie-comeback-groepswinnaar-op-afrika-cup",
-      "summary": "Het al geplaatste Ivoorkust heeft zich woensdag tijdens de laatste duels in Groep F de kaas van het brood laten eten door het al uitgeschakelde Gabon. De titelverdediger moet daardoor voorrang verlenen aan Kameroen, dat geen fout maakte tegen Mozambique.",
-      "publishedAt": "2025-12-31T20:58:41.000Z"
     },
     {
       "type": "rss",
@@ -66,28 +99,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47462746/real-madrid-great-roberto-carlos-preventive-heart-surgery",
       "summary": "Brazil and Real Madrid legend Roberto Carlos confirmed on Wednesday that he underwent a \"preventive\" heart procedure, but clarified that he did not suffer a heart attack and that he is \"doing well\" while recovering in a hospital in São Paulo.",
       "publishedAt": "2025-12-31T20:47:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Keep, dump or extend? Seven questions Liverpool must answer in the January transfer window",
-      "link": "https://www.espn.com/soccer/story/_/id/47456664/the-january-transfer-window-moves-liverpool-make",
-      "summary": "The January transfer window opens soon, and top clubs like Liverpool have big and expensive decisions to make.",
-      "publishedAt": "2025-12-31T20:47:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Seven of the latest innovations that could alter the future of football",
-      "link": "https://www.espn.com/soccer/story/_/id/47452783/7-latest-innovations-alter-future-soccer",
-      "summary": "Agents picking clubs for their clients like a video game? Here's what the future could hold.",
-      "publishedAt": "2025-12-31T20:47:18.000Z"
     },
     {
       "type": "rss",
@@ -132,17 +143,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/31/west-ham-close-in-on-gil-vicentes-pablo-after-going-cold-on-jrgen-strand-larsen",
       "summary": "Costs for Strand Larsen high, with Wolves wanting £40m Gil Vicente’s Pablo has nine goals in Portuguese top flight West Ham are in advanced talks over a deal for the Gil Vicente forward Pablo after having second thoughts about bidding for the Wolves striker Jørgen Strand Larsen. Nuno Espírito Santo, whose side are at major risk of relegation from the Premier League, wants attacking reinforcements and club sources indicated on Tuesday that an opening offer for Strand Larsen was being prepared. However, there is a scattergun feel to West Ham’s recruitment and they have developed cold feet over the finances around Strand Larsen. Wolves want £40m for the Norwegian, whose wage demands are high. Continue reading...",
       "publishedAt": "2025-12-31T19:11:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Maresca steeds meer onder druk bij Chelsea'",
-      "link": "https://www.vi.nl/nieuws/maresca-steeds-meer-onder-druk-bij-chelsea",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2025-12-31T19:05:57.000Z"
     },
     {
       "type": "rss",
