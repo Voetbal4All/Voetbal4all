@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2025-12-31T15:25:06.101Z",
+  "generatedAt": "2025-12-31T16:30:33.080Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Madrid's Mbappé (knee) doubtful for Supercopa",
+      "link": "https://www.espn.com/soccer/story/_/id/47462555/kylian-mbappe-sidelined-knee-injury-doubt-supercopa-sources",
+      "summary": "Kylian Mbappé will miss Real Madrid's LaLiga game with Real Betis and is a doubt for next week's Spanish Supercopa, sources have told ESPN, due to a knee injury.",
+      "publishedAt": "2025-12-31T16:21:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
+      "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
+      "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
+      "publishedAt": "2025-12-31T16:21:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Napoli 'formality' to keep Man United's Højlund",
+      "link": "https://www.espn.com/soccer/story/_/id/47462321/rasmus-hojlund-formality-stay-napoli-amid-man-united-clause",
+      "summary": "Napoli sporting director Giovanni Manna considers Rasmus Højlund s permanent transfer from Manchester United a \"formality\".",
+      "publishedAt": "2025-12-31T16:21:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Meer impulsen voor NAC Breda zeker niet uit te sluiten",
+      "link": "https://www.vi.nl/nieuws/nac-stunt-met-komst-ayew-transfer-boussaid-naar-griekenland-is-officieel",
+      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2025-12-31T16:18:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hoe NAC plots aan de lijn kwam met Ghanese voetbalprins André Ayew",
+      "link": "https://www.vi.nl/pro/hoe-nac-plots-aan-de-lijn-kwam-met-ghanese-voetbalprins-andr-ayew",
+      "summary": "Tekst",
+      "publishedAt": "2025-12-31T16:15:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hartman maakt duidelijk: 'Ik ga niet naar Ajax'",
+      "link": "https://www.vi.nl/nieuws/hartman-maakt-duidelijk-ik-ga-niet-naar-ajax",
+      "summary": "Quilindschy Hartman heeft laten weten dat hij niet naar Ajax gaat, zoals VI eerder al meldde. De linkervleugelverdediger laat in een uitgebreide story op Instagram van zich horen.",
+      "publishedAt": "2025-12-31T15:44:41.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Maresca in danger of losing Chelsea job if results do not improve in January",
+      "link": "https://www.skysports.com/football/news/12040/13489075/enzo-maresca-in-danger-of-losing-chelsea-job-unless-results-improve-in-january-after-run-of-one-win-in-seven-league-games",
+      "summary": "Enzo Maresca will have to improve results at Chelsea quickly if he wants to keep his job after a run of one win in seven Premier League games.",
+      "publishedAt": "2025-12-31T15:32:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Loughnane chalks up record-breaking 222nd win of the year",
+      "link": "https://www.skysports.com/racing/news/12040/13489074/billy-loughnane-makes-history-as-he-breaks-kieren-fallons-record-for-most-wins-in-a-calendar-year-this-century",
+      "summary": "Billy Loughnane broke the 21st century record for winners in a calendar year after he registered his 222nd success on Invited at Lingfield Park on New Year’s Eve.",
+      "publishedAt": "2025-12-31T15:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kuijt ziet sterkhouder Drakpe verkassen naar Tsjechië",
+      "link": "https://www.vi.nl/nieuws/kuijt-ziet-sterkhouder-drakpe-verkassen-naar-tsjechi",
+      "summary": "Augustin Drakpe heeft bij het scheiden van de markt van 2025 nog een fraaie stap gemaakt. De 24-jarige verdediger verruilt FC Dordrecht voor Slovan Liberec.",
+      "publishedAt": "2025-12-31T15:25:36.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -22,83 +121,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/31/napoli-rasmus-hojlund-permanent-move-manchester-united-formality",
       "summary": "Striker has scored nine goals since joining on loan Champions League qualification brings obligation to buy The Napoli sporting director, Giovanni Manna, considers Rasmus Højlund’s permanent transfer from Manchester United a “formality”. Højlund joined the Serie A champions on loan last summer and the Denmark striker has scored nine goals in 20 appearances, including a double in Sunday’s 2-0 win at Cremonese. Napoli are third in Serie A, occupying one of Italy’s four Champions League places. Continue reading...",
       "publishedAt": "2025-12-31T15:10:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Hier wordt gevoetbald op oudjaars- en nieuwjaarsdag",
-      "link": "https://www.vi.nl/nieuws/hier-wordt-gevoetbald-op-oudjaars-en-nieuwjaarsdag",
-      "summary": "De bal rolt, altijd. Zo ook op oudjaars- en nieuwjaarsdag. Voetbalfans kunnen zodoende rond de jaarwisseling genieten van bijvoorbeeld de Premier League en de Afrika Cup. Een overzicht van de wedstrijden.",
-      "publishedAt": "2025-12-31T14:30:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot baalt van bibber-slotfases bij Liverpool: 'Missen wisselmogelijkheden'",
-      "link": "https://www.vi.nl/nieuws/slot-baalt-van-bibber-slotfases-bij-liverpool-missen-wisselmogelijkheden",
-      "summary": "Eén van de problemen voor Liverpool dit seizoen is dat de ploeg heel ver terugzakt in niveau als ze een goal tegen krijgen. Dat vindt ook manager Arne Slot. Voordat Slot zich bij zijn dierbaren kon voegen om feestelijk het nieuwe jaar in te luiden, stond er nog één verplichting in de agenda: Hij schoof aan voor de persconferentie in aanloop naar het competitieduel met Leeds United, dat ons op nieuwjaarsdag zal verblijden.",
-      "publishedAt": "2025-12-31T14:25:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot verdedigt zomeraankopen: 'Je leven staat een beetje op zijn kop'",
-      "link": "https://www.vi.nl/video/slot-verdedigt-zomeraankopen-je-leven-staat-een-beetje-op-zijn-kop",
-      "summary": "Arne Slot verwelkomde deze zomer voor meer dan 500 miljoen euro aan nieuwe aankopen. De manager van Liverpool kende een moeizaam eerste halfjaar en vraagt om geduld. 'De grootste aanpassing die je moet maken als je vanuit het buitenland komt, is dat je ervaart hoe intens de Premier League is.'",
-      "publishedAt": "2025-12-31T14:09:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Waarom Huiberts Mijnans niet naar PSV liet vertrekken, ADO haalt spits terug",
-      "link": "https://www.vi.nl/nieuws/nac-stunt-met-komst-ayew-transfer-boussaid-naar-griekenland-is-officieel",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2025-12-31T14:03:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Napoli 'formality' to keep Man United's Højlund",
-      "link": "https://www.espn.com/soccer/story/_/id/47462321/rasmus-hojlund-formality-stay-napoli-amid-man-united-clause",
-      "summary": "Napoli sporting director Giovanni Manna considers Rasmus Højlund s permanent transfer from Manchester United a \"formality\".",
-      "publishedAt": "2025-12-31T14:00:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Guardiola on Semenyo reports: 'I have no news'",
-      "link": "https://www.espn.com/soccer/story/_/id/47462335/pep-guardiola-refuses-talk-antoine-semenyo-man-city-transfer",
-      "summary": "Pep Guardiola has refused to be drawn on Manchester City's interest in signing Antoine Semenyo in January.",
-      "publishedAt": "2025-12-31T14:00:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
-      "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
-      "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
-      "publishedAt": "2025-12-31T14:00:07.000Z"
     },
     {
       "type": "rss",
@@ -168,6 +190,17 @@
     },
     {
       "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Dazn ordered to honour €84m Belgian football TV deal after terminating contract",
+      "link": "https://www.theguardian.com/football/2025/dec/31/dazn-ordered-to-honour-belgian-football-tv-deal-after-terminating-contract",
+      "summary": "Dazn must resume €6.6m-a-month payments It said agreement was not viable without carriage deal Dazn has been ordered to honour the remainder of an €84.2m (£73.5m) TV deal with Belgium’s Pro League this season after the streaming service announced last month it was terminating the contract. In a judgment from Belgium’s centre for arbitration and mediation (Cepani), sent to the clubs on Wednesday morning, Dazn has been told it must continue broadcasting and paying for the Pro League until 30 June, unless Cepani declares otherwise. That would cost it about €53m. Continue reading...",
+      "publishedAt": "2025-12-31T12:18:04.000Z"
+    },
+    {
+      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -185,41 +218,8 @@
       "flag": "🌍",
       "title": "Martin Ødegaard relocates his missing rhythm to dictate Arsenal’s tempo again",
       "link": "https://www.theguardian.com/football/2025/dec/31/martin-odegaard-arsenal-tempo-aston-villa-premier-league",
-      "summary": "Rejuvenated by his goal on Saturday and free from injuries that have disrupted his season, Arsenal’s captain led their destruction of Villa When Arsenal really needed Martin Ødegaard, the captain finally rediscovered his magic touch. Gabriel Magalhães had just opened the scoring against Aston Villa after a first half in which Mikel Arteta’s nervous side were struggling without the influential Declan Rice. Then it happened. Jadon Sancho was waiting to receive a pass from Youri Tielemens inside Villa’s half but, before the forward knew it, Ødegaard had pinched the ball and was haring towards Emiliano Martínez’s goal. A jink back on to his left foot fooled Tielemens and allowed Ødegaard to play through the perfect through ball for Martín Zubimendi to score the crucial second. It was the fifth goal or assist that Zubimendi has contributed to since he joined in the summer – the joint-best return of his club career – and the Spaniard’s impact was rightly hailed by a delighted Arteta. “Credit to his teammates as well, how easy they make it for him,” said the Arsenal manager in a nod to Ødegaard. Continue reading...",
+      "summary": "Rejuvenated by his goal on Saturday and free from injuries that have disrupted his season, Arsenal’s captain led their destruction of Villa When Arsenal really needed Martin Ødegaard, the captain finally rediscovered his magic touch. Gabriel Magalhães had just opened the scoring against Aston Villa after a first half in which Mikel Arteta’s nervous side were struggling without the influential Declan Rice. Then it happened. Jadon Sancho was waiting to receive a pass from Youri Tielemans inside Villa’s half but, before the forward knew it, Ødegaard had pinched the ball and was haring towards Emiliano Martínez’s goal. A jink back on to his left foot fooled Tielemans and allowed Ødegaard to play through the perfect through ball for Martín Zubimendi to score the crucial second. It was the fifth goal or assist that Zubimendi has contributed to since he joined in the summer – the joint-best return of his club career – and the Spaniard’s impact was rightly hailed by a delighted Arteta. “Credit to his teammates as well, how easy they make it for him,” said the Arsenal manager in a nod to Ødegaard. Continue reading...",
       "publishedAt": "2025-12-31T12:00:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Joshua spends second night in hospital after fatal car crash in Nigeria",
-      "link": "https://www.skysports.com/boxing/news/12040/13488627/anthony-joshua-british-boxer-spends-second-night-in-hospital-after-fatal-nigeria-car-crash",
-      "summary": "Anthony Joshua remains in a Nigerian hospital recovering from the car crash that killed two of the British boxer's close friends.",
-      "publishedAt": "2025-12-31T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "January transfer window 2026: what every Premier League club needs",
-      "link": "https://www.theguardian.com/football/2025/dec/31/january-transfer-window-2026-what-every-premier-league-club-needs",
-      "summary": "Aston Villa have a decision to make about Harvey Elliott, Brentford have money to spend and Burnley and Everton need goalscorers A busy summer with the arrival of more than £250m in reinforcements has proved to be invaluable given the number of injuries that have hit Arsenal, particularly in defence. But that also makes any more expensive incomings unlikely in January, especially after the timely return of the influential Gabriel Magalhães this week. A loan signing or two could be on the cards, however, with Arsenal not having filled either slot so far after bringing in Neto from Bournemouth and Raheem Sterling from Chelsea last season. Mikel Arteta could do with more cover at right-back and must also decide whether to allow Ethan Nwaneri to go on loan with the 18-year-old having made only three starts in all competitions. Ed Aarons Continue reading...",
-      "publishedAt": "2025-12-31T08:00:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "From breakups to contract minefields: it’s make or break time for academy players",
-      "link": "https://www.theguardian.com/football/2025/dec/31/academy-system-club-contracts-max-dowman-arsenal",
-      "summary": "Young footballers have big decisions to make at this time of year as academy directors aim to sign the most talented Any 15- or 16-year-olds who should be revising for their mock GCSEs are probably finding that the end of December is a testing time of year. For those in academy football, it can often be make or break. While the very best – such as Arsenal’s record-breaking Max Dowman, who made headlines in October when he agreed terms on a scholarship deal – secured their futures in good time, many discovered their fates just before the 31 December deadline. “It’s always the sort of classic breakup. It’s not you, it’s us,” says Dr Chris Platts, who has studied the academy system for more than a decade and offers support to young players and their families. “Being released before Christmas isn’t nice for a kid. Then they’ve got about five months before their GCSEs and those five months are now going to include a lot of trials and uncertainty going into the following year.” Continue reading...",
-      "publishedAt": "2025-12-31T08:00:05.000Z"
     }
   ]
 }
