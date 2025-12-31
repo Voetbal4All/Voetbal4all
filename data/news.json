@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2025-12-31T22:24:16.939Z",
+  "generatedAt": "2025-12-31T23:23:05.186Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De beste wensen voor 2026",
+      "link": "https://www.vi.nl/nieuws/de-beste-wensen-voor-2026",
+      "summary": "Voetbal International wenst u een mooi, sportief en voorspoedig 2026. Een jaar waarin wij met de grootste voetbalredactie van Nederland weer op elk moment van de dag u maximaal naar wens voorzien van alle ontwikkelingen in het voetballandschap.",
+      "publishedAt": "2025-12-31T23:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Madrid's Mbappé (knee) doubtful for Supercopa",
+      "link": "https://www.espn.com/soccer/story/_/id/47462555/kylian-mbappe-sidelined-knee-injury-doubt-supercopa-sources",
+      "summary": "Kylian Mbappé will miss Real Madrid's LaLiga game with Real Betis and is a doubt for next week's Spanish Supercopa, sources have told ESPN, due to a knee injury.",
+      "publishedAt": "2025-12-31T22:47:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Holders Ivory Coast rally to win group at AFCON",
+      "link": "https://www.espn.com/soccer/story/_/id/47465955/defending-champs-ivory-coast-rally-top-afcon-group",
+      "summary": "Defending Africa Cup of Nations champions Ivory Coast came from two goals down to defeat Gabon 3-2 in their final Group F fixture in Marrakesh on Wednesday, qualifying them as group winners to set up a round of 16 showdown with Burkina Faso.",
+      "publishedAt": "2025-12-31T22:47:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
+      "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
+      "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
+      "publishedAt": "2025-12-31T22:47:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City welcome Rodri back with Guardiola ‘prouder than ever’ of 2025 efforts",
+      "link": "https://www.theguardian.com/football/2025/dec/31/manchester-city-welcome-rodri-back-with-guardiola-prouder-than-ever-of-2025-efforts",
+      "summary": "Manager praises his team’s turnaround in past 12 months January arrivals also hailed for making a key difference Pep Guardiola has praised Manchester City for turning their form around to become the best-performing Premier League team in 2025 and warned rivals they will improve once Rodri returns to full fitness. Despite a rare trophyless season, City go to Sunderland on New Year’s Day with 2025’s best points-per-game ratio, narrowly ahead of Arsenal, who played two more league matches. Continue reading...",
+      "publishedAt": "2025-12-31T22:30:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Vroege' CL-finale en gekortwiekte play-offs: 10 belangrijke voetbaldata in 2026",
+      "link": "https://www.vi.nl/nieuws/vroege-cl-finale-en-gekortwiekte-play-offs-10-belangrijke-voetbaldata-in-2026",
+      "summary": "Met een XXL-WK voor de deur wordt het sowieso een bijzonder voetbaljaar. VI zet alvast tien belangrijke data in 2026 op een rij.",
+      "publishedAt": "2025-12-31T22:29:59.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -31,7 +97,7 @@
       "flag": "🌍",
       "title": "Afcon roundup: Côte d’Ivoire pip Cameroon with dramatic win over Gabon",
       "link": "https://www.theguardian.com/football/2025/dec/31/afcon-roundup-burkina-faso-sudan-algeria-equatorial-guinea-cote-divoire-cameroon-gabon-mozambique",
-      "summary": "Holders come from two goals down to win 3-2 Burkina Faso beat Sudan as both sides progress Côte d’Ivoire came from two goals down to beat already eliminated Gabon 3-2 in Group F at the Africa Cup of Nations on Wednesday as the teenager Bazoumana Touré’s headed winner in added time in Marrakech handed them top spot in the pool. The Ivorians finished on seven points from their three games, ahead of Cameroon on goal difference after the latter beat third-placed Mozambique. Continue reading...",
+      "summary": "Holders come from two goals down to win 3-2 Burkina Faso beat Sudan as both sides progress Côte d’Ivoire came from two goals down to beat already eliminated Gabon 3-2 in Group F at the Africa Cup of Nations on Wednesday as the teenager Bazoumana Touré’s headed winner in added time in Marrakech handed them top spot. The Ivorians finished on seven points from their three games, ahead of Cameroon on goals scored after the latter beat third-placed Mozambique. Gabon were ahead on 11 minutes when Guélor Kanga profited from a mistake from the goalkeeper Alban Lafont as he spilled a tame shot, allowing the forward to score from close range. It was 2-0 on 21 minutes and this time Lafont had no chance. Denis Bouanga curled a superb shot from the left-hand side of the box across the goal and into the far corner. Continue reading...",
       "publishedAt": "2025-12-31T21:32:52.000Z"
     },
     {
@@ -69,50 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid's Mbappé (knee) doubtful for Supercopa",
-      "link": "https://www.espn.com/soccer/story/_/id/47462555/kylian-mbappe-sidelined-knee-injury-doubt-supercopa-sources",
-      "summary": "Kylian Mbappé will miss Real Madrid's LaLiga game with Real Betis and is a doubt for next week's Spanish Supercopa, sources have told ESPN, due to a knee injury.",
-      "publishedAt": "2025-12-31T20:47:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
-      "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
-      "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
-      "publishedAt": "2025-12-31T20:47:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid great Roberto Carlos has heart surgery",
-      "link": "https://www.espn.com/soccer/story/_/id/47462746/real-madrid-great-roberto-carlos-preventive-heart-surgery",
-      "summary": "Brazil and Real Madrid legend Roberto Carlos confirmed on Wednesday that he underwent a \"preventive\" heart procedure, but clarified that he did not suffer a heart attack and that he is \"doing well\" while recovering in a hospital in São Paulo.",
-      "publishedAt": "2025-12-31T20:47:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Theo Bos gooide een paar groene rochels in die omeletjes'",
-      "link": "https://www.vi.nl/nieuws/theo-bos-gooide-een-paar-groene-rochels-in-die-omeletjes",
-      "summary": "De Graafschap-voorzitter Mart de Kruif kan bogen op een lange loopbaan bij de Nederlandse landmacht. Ook in het leger maakte hij kennis met profvoetballers. Bijvoorbeeld met Theo Bos, die als jonge verdediger van Vitesse onder De Kruif zijn dienstplicht vervulde in Arnhem.",
-      "publishedAt": "2025-12-31T20:20:25.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -121,17 +143,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/31/enzo-maresca-at-risk-of-chelsea-sack-january",
       "summary": "‘Worst 48 hours’ comment and league form are problems Palmer substitution and Bournemouth result were booed Enzo Maresca will be in danger of losing his job as Chelsea’s head coach if he cannot improve results before the end of January. The Italian, who was booed by home supporters during the disappointing 2-2 draw with Bournemouth at Stamford Bridge on Tuesday, is under mounting pressure after a poor run of form, and a series of self-inflicted wounds have raised doubts over his position. Chelsea have one win from their past seven league games and although Maresca is set to be in charge for Sunday’s trip to Manchester City his position is increasingly uncertain. Concern over the 45-year-old’s decisions during games and away from the pitch have grown in recent weeks and there can be no guarantee that Maresca will survive beyond the end of January if he proves incapable of reversing the slump. Continue reading...",
       "publishedAt": "2025-12-31T19:58:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Voormalig trainerstalent in Bundesliga kiest voor job bij McDonald's",
-      "link": "https://www.vi.nl/nieuws/voormalig-trainerstalent-in-bundesliga-kiest-voor-job-bij-mcdonald-s",
-      "summary": "Voormalig Bundesliga-trainer Alexander Nouri kiest in 2026 voor een heel nieuwe uitdaging. De ex-oefenmeester van onder meer Werder Bremen gaat aan de slag als manager van twee filialen van McDonald's.",
-      "publishedAt": "2025-12-31T19:42:37.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c23rle944x8o?at_medium=RSS&at_campaign=rss",
       "summary": "Pep Guardiola has questioned whether the Premier League title race this season is a two-horse race between his Manchester City side and leaders Arsenal.",
       "publishedAt": "2025-12-31T13:37:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Masters Snooker 2026: Draw and schedule as Murphy aims to defend title",
-      "link": "https://www.skysports.com/snooker/news/12040/13489039/masters-snooker-2026-draw-schedule-and-results-ronnie-osullivan-judd-trump-ding-junhui-mark-williams-mark-selby-and-more-at-alexandra-palace",
-      "summary": "The 2026 edition of snooker's Masters runs from January 11-18 at London's Alexandra Palace with Shaun Murphy the defending champion and Ronnie O'Sullivan a star attraction.",
-      "publishedAt": "2025-12-31T13:00:00.000Z"
     }
   ]
 }
