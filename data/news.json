@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2025-12-31T05:28:32.506Z",
+  "generatedAt": "2025-12-31T06:38:51.903Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Arsenal gaat de Premier League vrij eenvoudig winnen'",
+      "link": "https://www.vi.nl/nieuws/arsenal-gaat-de-premier-league-vrij-eenvoudig-winnen",
+      "summary": "Arsenal maakte dinsdag dusdanig veel indruk dat de titelrace al bijna beslecht lijkt. Althans, als we afgaan op de Britse media, daags na de glorieuze overwinning op Aston Villa.",
+      "publishedAt": "2025-12-31T06:31:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tyrrhenian Sea seeks second Quebec Stakes win at Lingfield",
+      "link": "https://www.skysports.com/racing/news/12040/13488653/today-on-sky-sports-racing-tyrrhenian-sea-looks-to-retain-listed-crown-at-lingfield",
+      "summary": "Lingfield takes centre stage this afternoon, with Listed action in the Quebec Stakes headlining the all-weather card at 2pm.",
+      "publishedAt": "2025-12-31T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Toptransfers, talenten en stevig fundament: Max Huiberts kijkt terug op 10 jaar AZ",
+      "link": "https://www.vi.nl/pro/toptransfers-talenten-en-stevig-fundament-max-huiberts-kijkt-terug-op-10-jaar-az",
+      "summary": "‘Het ongeduld is tegenwoordig extreem’",
+      "publishedAt": "2025-12-31T06:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -187,39 +220,6 @@
       "link": "https://www.theguardian.com/football/2025/dec/30/arsenal-aston-villa-premier-league-match-report",
       "summary": "Arsenal will begin 2026 with a five-point lead at the top of the Premier League as they continue their quest for the club’s very own holy grail, and judging by this game of two halves against putative title rivals they may need it. A scrappy, angst-ridden opening 45 minutes was followed by a performance of complete dominance kickstarted by two goals in the space of five minutes from Gabriel Magalhães and Martín Zubimendi at the start of the second half. Leandro Trossard added a third with 20 minutes to go before the substitute Gabriel Jesus rubbed salt in Aston Villa’s wounds to compound their first defeat in 12 matches and leave them six points adrift of the leaders in third. Continue reading...",
       "publishedAt": "2025-12-30T22:22:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Krejci grabs point for Wolves as Manchester United continue to flounder",
-      "link": "https://www.theguardian.com/football/2025/dec/30/manchester-united-wolves-premier-league-match-report",
-      "summary": "Manchester United missed eight frontline players so Wolves, who arrived as the bottom team with only two points, seemed ideal opponents. Yet Ruben Amorim’s side struggled – badly – and while Bruno Fernandes, Bryan Mbeumo and Harry Maguire headed those unavailable, the display provokes questions regarding United’s cohesion. In the contest’s closing phase they were potent only sporadically – as throughout. Their opening-half goal was a fortunate one for Joshua Zirkzee, rebounding in off Ladislav Krejci, and after the Czech’s equaliser just before the interval, Wolves might have recorded a first – and famous – victory of the season. Continue reading...",
-      "publishedAt": "2025-12-30T22:21:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Scorende Zirkzee kan pijnlijke misstap Man Utd niet voorkomen",
-      "link": "https://www.vi.nl/nieuws/scorende-zirkzee-kan-misstap-man-utd-niet-voorkomen",
-      "summary": "Intro",
-      "publishedAt": "2025-12-30T22:13:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Guimarães adds gloss after Newcastle’s quickfire start hurts Burnley",
-      "link": "https://www.theguardian.com/football/2025/dec/30/burnley-newcastle-premier-league-match-report",
-      "summary": "Bruno Guimarães was sprinting towards a euphoric away end in the 93rd minute to celebrate a second Premier League away win of the season, while the home supporters searched for an exit. All the glory was Newcastle’s, the points that took them up to 10th secured and the performance did not matter. Burnley deserved more but once again were left with nothing, except a feeling of resignation to their fate. Within seven minutes Joelinton and Yoane Wissa had given the visitors a two-goal lead, and ­Newcastle’s travelling woes looked a distant memory. Considering Burnley’s own recent form a comeback looked highly unlikely but Eddie Howe’s side are fragile, not knowing what to do with a lead nor how to control a game against a team who have ­collected two points from 10 games. Josh Laurent’s volley ignited hope, a flame that was finally extinguished by ­Guimarães in injury time. Continue reading...",
-      "publishedAt": "2025-12-30T22:05:07.000Z"
     }
   ]
 }
