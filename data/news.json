@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-01T22:23:52.474Z",
+  "generatedAt": "2026-01-01T23:23:55.237Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,65 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'Heavy metal? It's not even aluminium foil football'",
-      "link": "https://www.bbc.com/sport/articles/cr7j5z1m835o?at_medium=RSS&at_campaign=rss",
-      "summary": "As Liverpool are booed off following a goalless draw against Leeds, it was hardly the start to the New Year that Arne Slot's side would have wanted.",
-      "publishedAt": "2026-01-01T22:11:21.000Z"
+      "title": "Match of the Day",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbctwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Highlights from the four Premier League matches played on New Year’s Day.",
+      "publishedAt": "2026-01-01T23:41:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City held by stubborn Sunderland in entertaining draw",
+      "link": "https://www.bbc.com/sport/football/videos/cd9e82jzx07o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City fall four points behind Arsenal in the Premier League title race after being held to a goalless draw by Sunderland, who maintain their unbeaten home record.",
+      "publishedAt": "2026-01-01T22:57:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Guardiola ziet ploeg falen in afronding: 'Waren niet eens moeilijke kansen'",
+      "link": "https://www.vi.nl/nieuws/guardiola-ziet-zijn-ploeg-falen-in-afronding-waren-niet-eens-moeilijke-kansen",
+      "summary": "Pep Guardiola baalde na afloop van het gelijkspel van Manchester City op bezoek bij Sunderland vooral van het grote aantal gemiste kansen. De Spanjaard zag zijn ploeg genoeg creëren, maar falen in de afronding.",
+      "publishedAt": "2026-01-01T22:49:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Leeds hold Liverpool to goalless draw at Anfield",
+      "link": "https://www.bbc.com/sport/football/videos/cp82ly9eg32o?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool draw 0-0 with Leeds to start 2026 with their first goalless draw of Arne Slot's tenure at Anfield.",
+      "publishedAt": "2026-01-01T22:31:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Cairney scores stunning late equaliser for Fulham at Palace",
+      "link": "https://www.bbc.com/sport/football/videos/cvgnw1pdze1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tom Cairney scores late to earn Fulham a 1-1 draw and extend Crystal Palace's winless run across competitions.",
+      "publishedAt": "2026-01-01T22:30:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs draw on Frank's return to Brentford",
+      "link": "https://www.bbc.com/sport/football/videos/clyw52dly9zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Spurs are unable to produce a win at manager Thomas Frank's former club as they draw 0-0 against Brentford.",
+      "publishedAt": "2026-01-01T22:30:49.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +73,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man City lose ground on Arsenal with Sunderland draw",
-      "link": "https://www.skysports.com/football/sunderland-vs-manchester-city/report/531317",
-      "summary": "Manchester City missed the chance to go back within two points of leaders Arsenal as Sunderland held out for a goalless draw to maintain their unbeaten record at the Stadium of Light.",
-      "publishedAt": "2026-01-01T22:10:00.000Z"
+      "title": "'No cure' - Searle opens up on eye condition ahead of semi-final with Littler",
+      "link": "https://www.skysports.com/darts/news/12040/13489334/ryan-searle-heavy-metal-opens-up-on-rare-eye-condition-ahead-of-world-darts-championship-semi-final-against-luke-littler",
+      "summary": "Ryan Searle has opened up on his rare eye conditions as he looks to shock Luke Littler in the semi-finals of the World Darts Championship.",
+      "publishedAt": "2026-01-01T22:30:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +87,7 @@
       "title": "Chelsea confirm Maresca exit amid poor PL run",
       "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
       "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
-      "publishedAt": "2026-01-01T22:08:47.000Z"
+      "publishedAt": "2026-01-01T22:26:43.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +98,18 @@
       "title": "Liverpool disappointed as unbeaten run goes to 8",
       "link": "https://www.espn.com/soccer/story/_/id/47474640/liverpool-disappointed-unbeaten-run-8-leeds-draw",
       "summary": "Arne Slot described Liverpool's 0-0 draw with Leeds United as a \"disappointment\" despite his team extending their unbeaten run to eight games in all competitions.",
-      "publishedAt": "2026-01-01T22:08:47.000Z"
+      "publishedAt": "2026-01-01T22:26:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "City lose ground to Arsenal with Sunderland draw",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740784",
+      "summary": "Sunderland extended their unbeaten Premier League home record to 10 games after holding Manchester City to a goalless draw.",
+      "publishedAt": "2026-01-01T22:26:42.000Z"
     },
     {
       "type": "rss",
@@ -54,18 +120,29 @@
       "title": "Sources: Spurs' Johnson agrees move to Palace",
       "link": "https://www.espn.com/soccer/story/_/id/47472822/tottenham-transfers-brennan-johnson-agrees-35m-crystal-palace-move",
       "summary": "Tottenham winger Brennan Johnson has agreed to join Crystal Palace in a deal worth £35 million ($47.2m), sources have told ESPN.",
-      "publishedAt": "2026-01-01T22:08:47.000Z"
+      "publishedAt": "2026-01-01T22:26:42.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Villas-Boas vergelijkt Farioli's Porto met de ploeg die in 2011 de treble won",
+      "link": "https://www.vi.nl/nieuws/villas-boas-vergelijkt-farioli-s-porto-met-de-ploeg-die-in-2011-de-treble-won",
+      "summary": "André Villas-Boas is zeer onder de indruk van FC Porto. De voorzitter van de club vergeleek de ploeg van Francesco Farioli zelfs met het Porto dat in het seizoen 2010/11 de treble won.",
+      "publishedAt": "2026-01-01T22:23:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Gabon govt. suspends team over AFCON flop",
-      "link": "https://www.espn.com/soccer/story/_/id/47472240/gabon-government-suspends-national-team-axe-aubameyang-afcon-calamity",
-      "summary": "Gabon's government have come down hard on the country's national team following their shambolic performance at the Africa Cup of Nations (AFCON).",
-      "publishedAt": "2026-01-01T22:08:47.000Z"
+      "title": "Thomas Frank’s Spurs booed off after toiling to point on his Brentford return",
+      "link": "https://www.theguardian.com/football/2026/jan/01/brentford-spurs-premier-league-match-report",
+      "summary": "There was an extraordinary moment just before kick-off here when Thomas Frank strode 20 yards on to the pitch and applauded all four corners of the stadium. The Tottenham head coach was applauded back by the Brentford fans because he will always be a hero to them. His work over a near seven-year period as their manager has seen to that. But what of the followers in his new gig? It is safe to say the jury remains out after this driest of January performances, one that had the supporters in the away enclosure adapting a barb they have historically reserved for their rivals, Arsenal. “Boring, boring Tottenham,” they chorused in the 85th minute. Continue reading...",
+      "publishedAt": "2026-01-01T22:09:15.000Z"
     },
     {
       "type": "rss",
@@ -135,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Another OUTSTANDING save!' | Roefs' 'brilliant reflex' save denies Gvardiol",
-      "link": "https://www.skysports.com/watch/video/13489530/save-r-roefs-65-sunderland-0-0-man-city",
-      "summary": "Roefs produces a 'brilliant reflex' save to deny Gvardiol during Manchester City's Premier League match against Sunderland.",
-      "publishedAt": "2026-01-01T21:32:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -154,72 +220,6 @@
       "link": "https://www.vi.nl/nieuws/eerste-0-0-van-liverpool-onder-slot-liverpool-is-zijn-magie-kwijt",
       "summary": "De Engelse media concludeerden na de remise van Liverpool tegen Leeds United dat het nog altijd niet goed zit bij de ploeg van Arne Slot. Liverpool toonde de afgelopen weken herstel met vier zeges op rij, maar liet in het eerste duel van 2026 weer punten liggen. 'Ze oogden futloos en voorspelbaar.'",
       "publishedAt": "2026-01-01T21:23:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Zaakwaarnemer' Valente doet aan klantenbinding met gewilde Resink",
-      "link": "https://www.vi.nl/nieuws/zaakwaarnemer-valente-doet-aan-klantenbinding-met-gewilde-resink",
-      "summary": "Tijdens de voetbalpauzes zoeken voetballers elkaar regelmatig op om op vakantie te gaan, waarbij eilanden een geliefde bestemming zijn. Zo ook voor Luciano Valente, Stije Resink en Thijmen Blokzijl, die naar Curaçao trokken om de winterse kou in Nederland te ontlopen. Mogelijk heeft Valente aan klantenbinding gedaan.",
-      "publishedAt": "2026-01-01T21:16:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot legt vinger op zere Liverpool-plek: 'Helaas wordt dat niet erkend'",
-      "link": "https://www.vi.nl/nieuws/slot-legt-vinger-op-zere-liverpool-plek-helaas-wordt-dat-niet-erkend",
-      "summary": "Arne Slot baalt flink van de remise van Liverpool thuis tegen promovendus Leeds United . De Nederlandse manager zag zijn ploeg moeite hebben met een compact georganiseerde opponent. Hij legde de vinger op de zere plek.",
-      "publishedAt": "2026-01-01T20:38:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior leading contender for Chelsea job",
-      "link": "https://www.bbc.com/sport/football/articles/c0er1wx3v28o?at_medium=RSS&at_campaign=rss",
-      "summary": "Strasbourg boss Liam Rosenior is the leading contender to be the next Chelsea manager, but others remain under consideration.",
-      "publishedAt": "2026-01-01T19:58:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Glasner’s Crystal Palace in ‘survival mode’ as Fulham leveller extends winless run",
-      "link": "https://www.theguardian.com/football/2026/jan/01/crystal-palace-fulham-premier-league-match-report",
-      "summary": "It is a strange quirk of this fixture that the away side has not lost for the last 10 Premier League meetings between Crystal Palace and Fulham, with the substitute Tom Cairney’s late equaliser ensuring that streak goes on. Only a brilliant save in added time from Dean Henderson and a glaring miss from the former Palace player Joachim Andersen denied Marco Silva’s side all the points after falling behind to Jean-Philippe Mateta’s first goal from open play since 1 November. But Oliver Glasner was still bitterly disappointed that his team could not end a sequence of six games without a victory in all competitions after running out of steam again in their 31st match of the season. “We are a little bit in survival mode,” said the Palace manager, whose team now face three games in the space of seven days. Continue reading...",
-      "publishedAt": "2026-01-01T19:57:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ipswich rise into Championship’s top two as rivals Coventry and Boro slip up",
-      "link": "https://www.theguardian.com/football/2026/jan/01/championship-roundup-wrexham-blackburn-charlton-coventry-derby-middlesbrough",
-      "summary": "Philogene and Akpom goals secure 2-1 win over Oxford Charlton hold Coventry 1-1; Derby upset Middlesbrough Ipswich climbed into the automatic promotion places in the Championship following a 2-1 victory over struggling Oxford. Their success came via first-half goals from leading scorer Jaden Philogene and Chuba Akpom, while Will Lankshear replied for the visitors. Ipswich moved a point above Middlesbrough after they fell to a 1-0 defeat at Derby, while Oxford remain three points from safety. Continue reading...",
-      "publishedAt": "2026-01-01T19:52:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Obdurate Leeds keep toiling Liverpool at arm’s length to earn point",
-      "link": "https://www.theguardian.com/football/2026/jan/01/liverpool-leeds-premier-league-match-report",
-      "summary": "Two unbeaten records were maintained at Anfield but only one team took satisfaction along with their point. Leeds succeeded in stifling and frustrating Liverpool as the first goalless draw of Arne Slot’s reign underlined the limitations that linger behind the Premier League champions’ recent recovery. A drab scoreless draw, the first in 84 Liverpool games under Slot, owed much to the defensive excellence of Jaka Bijol and Pascal Struijk as Daniel Farke’s depleted visitors extended their unbeaten run to six matches and moved seven points clear of the relegation zone. But Liverpool’s contribution to a meagre spectacle was significant too. Continue reading...",
-      "publishedAt": "2026-01-01T19:43:09.000Z"
     }
   ]
 }
