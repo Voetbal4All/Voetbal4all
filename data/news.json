@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-01-01T08:33:50.589Z",
+  "generatedAt": "2026-01-01T09:29:12.141Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De beste wensen voor 2026",
+      "link": "https://www.vi.nl/nieuws/de-beste-wensen-voor-2026",
+      "summary": "Voetbal International wenst u een mooi, sportief en voorspoedig 2026. Een jaar waarin wij met de grootste voetbalredactie van Nederland weer op elk moment van de dag u maximaal naar wens voorzien van alle ontwikkelingen in het voetballandschap.",
+      "publishedAt": "2026-01-01T09:23:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Neymar blijft nog een jaar langer bij jeugdliefde'",
+      "link": "https://www.vi.nl/nieuws/neymar-gaat-zijn-contract-bij-santos-met-een-jaar-verlengen-en-hoopt-op-het-wk",
+      "summary": "Neymar blijft zo goed als zeker nog een jaar langer bij zijn jeugdliefde Santos. Braziliaanse en Franse media melden dat de 33-jarige aanvaller zijn met de jaarwisseling afgelopen contract met een jaar heeft verlengd tot het einde van het kalenderjaar 2026.",
+      "publishedAt": "2026-01-01T09:12:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Semenyo latest: £65m release clause now active",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FC Transfervrij: deze sterren zijn in de zomer gratis op te halen",
+      "link": "https://www.vi.nl/pro/fc-transfervrij-deze-sterren-mogen-nu-praten-met-andere-clubs",
+      "summary": "Lopen grote namen als Mike Maignan, Bernardo Silva en Dusan Vlahovic komende zomer gratis de deur uit? Het zou zomaar kunnen, want per 1 januari mogen alle voetballers met een aflopend contract in gesprek gaan met potentiële nieuwe werkgevers. VI stelde een elftal samen van topspelers die medio 2026 uit hun contract lopen.",
+      "publishedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax houdt rekening met eigen talenten in selectie: 'Geborgd bij de directie'",
+      "link": "https://www.vi.nl/nieuws/ajax-houdt-rekening-met-eigen-talenten-in-selectie-geborgd-bij-de-directie",
+      "summary": "Ajax houdt in de A-selectie altijd ruimte voor een aantal zelfopgeleide talenten. Op die manier hoopt de club de doorstroming te bevorderen, legt Stef Wijlaars, hoofd midden- en bovenbouw bij de jeugd van de Amsterdammers, uit.",
+      "publishedAt": "2026-01-01T08:53:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Eight men's footballers hoping for a big 2026",
+      "link": "https://www.bbc.com/sport/football/articles/c70rjq0x728o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport looks at some of the players hoping for a big 2026 for various reasons.",
+      "publishedAt": "2026-01-01T08:44:55.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -47,28 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De beste wensen voor 2026 aan enkele voetbalprominenten",
-      "link": "https://www.vi.nl/pro/de-beste-wensen-voor-2026-aan-enkele-voetbalprominenten",
-      "summary": "Bij de start van het nieuwe groet columnist Frank Heinen enkele mensen uit de voetbalwereld.",
-      "publishedAt": "2026-01-01T08:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Boegbeeld Gross staat voor bijzondere terugkeer bij Brighton'",
-      "link": "https://www.vi.nl/nieuws/maresca-steeds-meer-onder-druk-bij-chelsea",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-01T07:48:09.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -77,17 +121,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c2dzd789185o?at_medium=RSS&at_campaign=rss",
       "summary": "With the January transfer window opening in the Women's Super League, which players could be on the move and who is out of contract?",
       "publishedAt": "2026-01-01T07:40:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Einde van Maresca als manager van Chelsea nabij'",
-      "link": "https://www.vi.nl/nieuws/maresca-wordt-snel-ontslagen-als-manager-van-chelsea",
-      "summary": "Enzo Maresca (45) staat op het punt ontslagen te worden als manager van Chelsea. Dat melden diverse Engelse media.",
-      "publishedAt": "2026-01-01T07:15:01.000Z"
     },
     {
       "type": "rss",
@@ -157,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De beste wensen voor 2026",
-      "link": "https://www.vi.nl/nieuws/de-beste-wensen-voor-2026",
-      "summary": "Voetbal International wenst u een mooi, sportief en voorspoedig 2026. Een jaar waarin wij met de grootste voetbalredactie van Nederland weer op elk moment van de dag u maximaal naar wens voorzien van alle ontwikkelingen in het voetballandschap.",
-      "publishedAt": "2025-12-31T23:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
       "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
       "publishedAt": "2025-12-31T22:47:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Afcon roundup: Côte d’Ivoire pip Cameroon with dramatic win over Gabon",
-      "link": "https://www.theguardian.com/football/2025/dec/31/afcon-roundup-burkina-faso-sudan-algeria-equatorial-guinea-cote-divoire-cameroon-gabon-mozambique",
-      "summary": "Holders come from two goals down to win 3-2 Burkina Faso beat Sudan as both sides progress Côte d’Ivoire came from two goals down to beat already eliminated Gabon 3-2 in Group F at the Africa Cup of Nations on Wednesday as the teenager Bazoumana Touré’s headed winner in added time in Marrakech handed them top spot. The Ivorians finished on seven points from their three games, ahead of Cameroon on goals scored after the latter beat third-placed Mozambique. Gabon were ahead on 11 minutes when Guélor Kanga profited from a mistake from the goalkeeper Alban Lafont as he spilled a tame shot, allowing the forward to score from close range. It was 2-0 on 21 minutes and this time Lafont had no chance. Denis Bouanga curled a superb shot from the left-hand side of the box across the goal and into the far corner. Continue reading...",
-      "publishedAt": "2025-12-31T21:32:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Seven questions Liverpool must answer in the transfer window",
-      "link": "https://www.espn.com/soccer/story/_/id/47456664/the-january-transfer-window-moves-liverpool-make",
-      "summary": "The January transfer window opens soon, and top clubs like Liverpool have big and expensive decisions to make.",
-      "publishedAt": "2025-12-31T21:32:36.000Z"
     }
   ]
 }
