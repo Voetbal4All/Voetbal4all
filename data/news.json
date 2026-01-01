@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-01-01T07:26:30.510Z",
+  "generatedAt": "2026-01-01T08:33:50.589Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hadj Moussa maakt indruk met 'historische mijlpaal' bij Algerije",
+      "link": "https://www.vi.nl/nieuws/anis-hadj-moussa-krijgt-complimenten-na-duel-op-afrika-cup-met-equatoriaal-guinea",
+      "summary": "Anis Hadj Moussa heeft indruk gemaakt tijdens de zege op Equatoriaal-Guinea ( 1-3 ). De aanvaller van Feyenoord verzilverde zijn eerste basisplek op de Afrika Cup met twee asissts en dat kwam hem op complimenten te staan.",
+      "publishedAt": "2026-01-01T08:21:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brazil legend Roberto Carlos recovering in hospital",
+      "link": "https://www.bbc.com/sport/football/articles/cqxyrj9dv5go?at_medium=RSS&at_campaign=rss",
+      "summary": "Brazil and Real Madrid legend Roberto Carlos is \"recovering well\" after undergoing what he describes as \"a preventative medical procedure\".",
+      "publishedAt": "2026-01-01T08:12:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What I have learned from watching all 20 Premier League teams this season | John Brewin",
+      "link": "https://www.theguardian.com/football/2026/jan/01/what-i-have-learned-from-watching-all-20-premier-league-teams-this-season",
+      "summary": "Set pieces on the rise, fans transformed to customers and conspiracies seen in every decision – is football losing its fun? English football has always mirrored the passions, conflicts, identities and inequalities of the age. After the golden 1960s, the decay of the 1970s and ensuing disasters of the 1980s came the cap-sleeved, rebounding self-confidence of the 1990s. The 21st century so far has taken in globalisation and wanton commercialism. After that rabid, often reckless push for continued growth, society and the game alight on the uncertainties that encapsulated 2025. To catch the 20 Premier League clubs in live action this season, and this writer completed the full set on Tuesday witnessing Arsenal’s second-half demolition of Aston Villa, has been a study in that uncertainty. From the grumbling of fans, to the ever-fragile egos of managers, to players slugging through the gristle of 90 minutes of hard-pressing slog, a leading question comes to mind: is anyone actually still enjoying this? Continue reading...",
+      "publishedAt": "2026-01-01T08:00:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rodman’s future and Liverpool in need to buy – welcome to the women’s transfer window",
+      "link": "https://www.theguardian.com/football/2026/jan/01/trinity-rodman-liverpool-women-football-transfer-window",
+      "summary": "With an unusually high number of elite-level players out of contract in 2026 it promises to be an intriguing January Transfer fees in women’s football have been rising at a rate of inflation that would cause anguish at the Bank of England. Last January alone, $5.8m (£4.3m) was spent in the women’s game globally and then a record $12.3m (£9.1m) was splashed in the 2025 summer transfer window, which was nearly twice as much as 12 months earlier and a four-fold increase on 2023. What can January 2026 possibly have in store? The upcoming winter window – which opens for English women’s clubs on 2 January and closes on 3 February – has already got off to a blockbuster start even before officially opening. The Germany striker Lea Schüller and Norway’s attacking midfielder Signe Gaupset are among those to have already signed for Women’s Super League clubs, but this is set to be a unique window for a different reason than merely the usual clamour for reinforcements. Continue reading...",
+      "publishedAt": "2026-01-01T08:00:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De beste wensen voor 2026 aan enkele voetbalprominenten",
+      "link": "https://www.vi.nl/pro/de-beste-wensen-voor-2026-aan-enkele-voetbalprominenten",
+      "summary": "Bij de start van het nieuwe groet columnist Frank Heinen enkele mensen uit de voetbalwereld.",
+      "publishedAt": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Boegbeeld Gross staat voor bijzondere terugkeer bij Brighton'",
+      "link": "https://www.vi.nl/nieuws/maresca-steeds-meer-onder-druk-bij-chelsea",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-01T07:48:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Who might be on move in January in WSL?",
+      "link": "https://www.bbc.com/sport/football/articles/c2dzd789185o?at_medium=RSS&at_campaign=rss",
+      "summary": "With the January transfer window opening in the Women's Super League, which players could be on the move and who is out of contract?",
+      "publishedAt": "2026-01-01T07:40:50.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -128,39 +205,6 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Manchester City welcome Rodri back with Guardiola ‘prouder than ever’ of 2025 efforts",
-      "link": "https://www.theguardian.com/football/2025/dec/31/manchester-city-welcome-rodri-back-with-guardiola-prouder-than-ever-of-2025-efforts",
-      "summary": "Manager praises his team’s turnaround in past 12 months January arrivals also hailed for making a key difference Pep Guardiola has praised Manchester City for turning their form around to become the best-performing Premier League team in 2025 and warned rivals they will improve once Rodri returns to full fitness. Despite a rare trophyless season, City go to Sunderland on New Year’s Day with 2025’s best points-per-game ratio, narrowly ahead of Arsenal, who played two more league matches. Continue reading...",
-      "publishedAt": "2025-12-31T22:30:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Vroege' CL-finale en gekortwiekte play-offs: 10 belangrijke voetbaldata in 2026",
-      "link": "https://www.vi.nl/nieuws/vroege-cl-finale-en-gekortwiekte-play-offs-10-belangrijke-voetbaldata-in-2026",
-      "summary": "Met een XXL-WK voor de deur wordt het sowieso een bijzonder voetbaljaar. VI zet alvast tien belangrijke data in 2026 op een rij.",
-      "publishedAt": "2025-12-31T22:29:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
-      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
-      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
-      "publishedAt": "2025-12-31T22:01:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Afcon roundup: Côte d’Ivoire pip Cameroon with dramatic win over Gabon",
       "link": "https://www.theguardian.com/football/2025/dec/31/afcon-roundup-burkina-faso-sudan-algeria-equatorial-guinea-cote-divoire-cameroon-gabon-mozambique",
       "summary": "Holders come from two goals down to win 3-2 Burkina Faso beat Sudan as both sides progress Côte d’Ivoire came from two goals down to beat already eliminated Gabon 3-2 in Group F at the Africa Cup of Nations on Wednesday as the teenager Bazoumana Touré’s headed winner in added time in Marrakech handed them top spot. The Ivorians finished on seven points from their three games, ahead of Cameroon on goals scored after the latter beat third-placed Mozambique. Gabon were ahead on 11 minutes when Guélor Kanga profited from a mistake from the goalkeeper Alban Lafont as he spilled a tame shot, allowing the forward to score from close range. It was 2-0 on 21 minutes and this time Lafont had no chance. Denis Bouanga curled a superb shot from the left-hand side of the box across the goal and into the far corner. Continue reading...",
@@ -176,50 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47456664/the-january-transfer-window-moves-liverpool-make",
       "summary": "The January transfer window opens soon, and top clubs like Liverpool have big and expensive decisions to make.",
       "publishedAt": "2025-12-31T21:32:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "What should Man United do in January?",
-      "link": "https://www.espn.com/soccer/story/_/id/47442824/what-transfers-man-united-make-january-window",
-      "summary": "There are plenty of big decisions to be made at Old Trafford, including concerning manager Ruben Amorim.",
-      "publishedAt": "2025-12-31T21:32:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dit is het schema van de achtste finale van de Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-achtste-finale-van-de-afrika-cup",
-      "summary": "In slechts elf dagen tijd is de groepsfase van de Afrika Cup afgewerkt. Na twee rustdagen gaat het toernooi zaterdag verder met de achtste finale. We zetten de wedstrijden op een rij.",
-      "publishedAt": "2025-12-31T21:08:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Ham close in on Gil Vicente’s Pablo after going cold on Jørgen Strand Larsen",
-      "link": "https://www.theguardian.com/football/2025/dec/31/west-ham-close-in-on-gil-vicentes-pablo-after-going-cold-on-jrgen-strand-larsen",
-      "summary": "Costs for Strand Larsen high, with Wolves wanting £40m Gil Vicente’s Pablo has nine goals in Portuguese top flight West Ham are in advanced talks over a deal for the Gil Vicente forward Pablo after having second thoughts about bidding for the Wolves striker Jørgen Strand Larsen. Nuno Espírito Santo, whose side are at major risk of relegation from the Premier League, wants attacking reinforcements and club sources indicated on Tuesday that an opening offer for Strand Larsen was being prepared. However, there is a scattergun feel to West Ham’s recruitment and they have developed cold feet over the finances around Strand Larsen. Wolves want £40m for the Norwegian, whose wage demands are high. Continue reading...",
-      "publishedAt": "2025-12-31T19:11:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Not just results - why Maresca is under pressure",
-      "link": "https://www.bbc.com/sport/football/articles/cj0n8d913d8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea boss Enzo Maresca needs results to improve but issues off the pitch are adding to the pressure, BBC Sport's Nizaar Kinsella explains.",
-      "publishedAt": "2025-12-31T18:21:17.000Z"
     }
   ]
 }
