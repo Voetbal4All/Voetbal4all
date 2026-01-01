@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-01-01T18:35:08.569Z",
+  "generatedAt": "2026-01-01T19:19:35.256Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Van Dijk verzuimt Liverpool op voorsprong te zetten, tijd dringt",
+      "link": "https://www.vi.nl/nieuws/vi-live-liverpool-man-city-en-spurs-komen-in-actie",
+      "summary": "Namens de redactie van VI nogmaals de beste wensen! Op deze nieuwjaarsdag is er traditioneel voetbal uit de Premier League. Uiteraard volgen we dat in deze VI Live allemaal op de voet.. Veel plezier.",
+      "publishedAt": "2026-01-01T19:09:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior leading contender for Chelsea job",
+      "link": "https://www.bbc.com/sport/football/articles/c0er1wx3v28o?at_medium=RSS&at_campaign=rss",
+      "summary": "Strasbourg boss Liam Rosenior is the leading contender to be the next Chelsea manager, but others remain under consideration.",
+      "publishedAt": "2026-01-01T19:07:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sunderland v Manchester City: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/01/sunderland-v-manchester-city-premier-league-live",
+      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Tables | Follow us on Bluesky | Mail John Sunderland: Roefs, Hume, Mukiele, Alderete, Cirkin, Xhaka, Geertruida, Mayenda, Le Fee, Adingra, Brobbey. Subs: Patterson, Neil, Rigg, O’Nien, Mundle, Isidor, Hjelde, Harrison Jones, Tutierov. Man City: Donnarumma, Matheus Luiz, Dias, Ake, O’Reilly, Silva, Gonzalez, Foden, Savio, Cherki, Haaland. Subs: Trafford, Reijnders, Doku, Rodri, Gvardiol, Khusanov, Mukasa, Lewis, Reigan Heskey. Continue reading...",
+      "publishedAt": "2026-01-01T19:05:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool v Leeds United: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/01/liverpool-v-leeds-united-premier-league-live",
+      "summary": "⚽ Premier League updates from the 5.30pm GMT kick-off ⚽ Live scores | Tables | Follow us on Bluesky | Mail Michael 2 min: Liverpool immediately concede a free-kick on their own byline, which immediately allows Leeds’ looming back-line to come up from the back. Liverpool, remember, are joint last in the Premier League for goals conceded from set pieces, and sacked their set-piece coach last week. Liverpool survive here, though, with Alisson punching away. Continue reading...",
+      "publishedAt": "2026-01-01T19:03:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Modric vertelt wat Mourinho zo bijzonder maakt: 'Kreeg Ronaldo aan het huilen'",
+      "link": "https://www.vi.nl/nieuws/modric-vertelt-wat-mourinho-zo-bijzonder-maakte-kreeg-ronaldo-aan-het-huilen",
+      "summary": "Luka Modric heeft positieve herinneringen overgehouden aan de samenwerking met José Mourinho. De middenvelder van AC Milan had de markante Portugees een jaar als trainer bij Real Madrid. Vooral de eerlijkheid van Mourinho maakte indruk op Modric.",
+      "publishedAt": "2026-01-01T18:49:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea confirm Maresca exit amid poor PL run",
+      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
+      "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
+      "publishedAt": "2026-01-01T18:47:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Villa sign Grêmio wonderkid Alysson Edward, 19",
+      "link": "https://www.espn.com/soccer/story/_/id/47472069/aston-villa-alysson-edward-gremio-signing",
+      "summary": "Aston Villa have announced the signing of winger Alysson Edward from Grêmio.",
+      "publishedAt": "2026-01-01T18:47:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Spurs' Johnson agrees move to Palace",
+      "link": "https://www.espn.com/soccer/story/_/id/47472822/tottenham-transfers-brennan-johnson-agrees-35m-crystal-palace-move",
+      "summary": "Tottenham winger Brennan Johnson has agreed to join Crystal Palace in a deal worth £35 million ($47.2m), sources have told ESPN.",
+      "publishedAt": "2026-01-01T18:47:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham boost playoff chances, sink Blackburn",
+      "link": "https://www.espn.com/soccer/report/_/gameId/744898",
+      "summary": "A stunning volley from Ollie Rathbone helped Wrexham to a 2-0 win over Blackburn Rovers.",
+      "publishedAt": "2026-01-01T18:47:25.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -14,17 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Brentford vs Tottenham team news LIVE!",
-      "link": "https://www.skysports.com/football/brentford-vs-tottenham-hotspur/live/531310",
-      "summary": "",
-      "publishedAt": "2026-01-01T18:21:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -33,28 +121,6 @@
       "link": "https://www.vi.nl/nieuws/benteke-ruilt-mls-in-voor-vae",
       "summary": "Christian Benteke heeft een nieuwe club gevonden. De 35-jarige Belg gaat aan de slag in de Verenigde Arabische Emiraten. Al-Wahda heeft de komst van Benteke donderdag wereldkundig gemaakt.",
       "publishedAt": "2026-01-01T18:20:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool v Leeds United: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/01/liverpool-v-leeds-united-premier-league-live",
-      "summary": "⚽ Premier League updates from the 5.30pm GMT kick-off ⚽ Live scores | Tables | Follow us on Bluesky | Mail Michael 2 min: Liverpool immediately concede a free-kick on their own byline, which immediately allows Leeds’ looming back-line to come up from the back. Liverpool, remember, are joint last in the Premier League for goals conceded from set pieces, and sacked their set-piece coach last week. Liverpool survive here, though, with Alisson punching away. Continue reading...",
-      "publishedAt": "2026-01-01T18:19:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Coventry held by Charlton as form wobble continues",
-      "link": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
-      "summary": "Championship leaders Coventry concede more ground to the chasing pack as their festive hangover continues with a 1-1 draw against struggling Charlton.",
-      "publishedAt": "2026-01-01T18:19:21.000Z"
     },
     {
       "type": "rss",
@@ -80,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Ekitiké boort Frimpong assist door de neus bij Liverpool",
-      "link": "https://www.vi.nl/nieuws/vi-live-liverpool-man-city-en-spurs-komen-in-actie",
-      "summary": "Namens de redactie van VI nogmaals de beste wensen! Op deze nieuwjaarsdag is er traditioneel voetbal uit de Premier League. Uiteraard volgen we dat in deze VI Live allemaal op de voet.. Veel plezier.",
-      "publishedAt": "2026-01-01T18:05:47.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -99,6 +154,17 @@
       "link": "https://www.theguardian.com/football/2026/jan/01/championship-roundup-wrexham-blackburn-charlton-coventry-derby-middlesbrough",
       "summary": "Philogene and Akpom goals secure 2-1 win over Oxford Charlton hold Coventry 1-1; Derby upset Middlesbrough Ipswich climbed into the automatic promotion places in the Championship following a 2-1 victory over struggling Oxford. Their success came via first-half goals from leading scorer Jaden Philogene and Chuba Akpom, while Will Lankshear replied for the visitors. Ipswich moved a point above Middlesbrough after they fell to a 1-0 defeat at Derby, while Oxford remain three points from safety. Continue reading...",
       "publishedAt": "2026-01-01T18:02:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "World Darts Championship: Littler in action before Humphries vs Van Veen LIVE!",
+      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-gary-anderson-in-action",
+      "summary": "",
+      "publishedAt": "2026-01-01T18:00:00.000Z"
     },
     {
       "type": "rss",
@@ -124,61 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior leading contender for Chelsea job",
-      "link": "https://www.bbc.com/sport/football/articles/c0er1wx3v28o?at_medium=RSS&at_campaign=rss",
-      "summary": "Strasbourg boss Liam Rosenior is the leading contender to be the next Chelsea manager, but others remain under consideration.",
-      "publishedAt": "2026-01-01T17:53:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea confirm Maresca exit amid poor PL run",
-      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
-      "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
-      "publishedAt": "2026-01-01T17:41:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Villa sign Grêmio wonderkid Alysson Edward, 19",
-      "link": "https://www.espn.com/soccer/story/_/id/47472069/aston-villa-alysson-edward-gremio-signing",
-      "summary": "Aston Villa have announced the signing of winger Alysson Edward from Grêmio.",
-      "publishedAt": "2026-01-01T17:41:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Gabon govt. suspends team over AFCON flop",
-      "link": "https://www.espn.com/soccer/story/_/id/47472240/gabon-government-suspends-national-team-axe-aubameyang-afcon-calamity",
-      "summary": "Gabon's government have come down hard on the country's national team following their shambolic performance at the Africa Cup of Nations (AFCON).",
-      "publishedAt": "2026-01-01T17:41:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham boost playoff chances, sink Blackburn",
-      "link": "https://www.espn.com/soccer/report/_/gameId/744898",
-      "summary": "A stunning volley from Ollie Rathbone helped Wrexham to a 2-0 win over Blackburn Rovers.",
-      "publishedAt": "2026-01-01T17:41:50.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -198,17 +209,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47448822/premier-league-live-updates-liverpool-leeds-united-sunderland-manchester-city",
       "summary": "null",
       "publishedAt": "2026-01-01T17:11:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "RKC en FC Twente beëindigen huurovereenkomst jonge aanvaller vroegtijdig",
-      "link": "https://www.vi.nl/nieuws/nac-stunt-met-komst-ayew-transfer-boussaid-naar-griekenland-is-officieel",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-01T17:06:25.000Z"
     },
     {
       "type": "rss",
