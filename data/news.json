@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-01T06:38:55.612Z",
+  "generatedAt": "2026-01-01T07:26:30.510Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Einde van Maresca als manager van Chelsea nabij'",
+      "link": "https://www.vi.nl/nieuws/maresca-wordt-snel-ontslagen-als-manager-van-chelsea",
+      "summary": "Enzo Maresca (45) staat op het punt ontslagen te worden als manager van Chelsea. Dat melden diverse Engelse media.",
+      "publishedAt": "2026-01-01T07:15:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Which men's footballers could be on the move in January?",
+      "link": "https://www.bbc.com/sport/football/articles/c5yx8jp4ndno?at_medium=RSS&at_campaign=rss",
+      "summary": "Antoine Semenyo is widely expected to complete a move from Bournemouth to Manchester City shortly, but which other Premier League players could be on the move in January?",
+      "publishedAt": "2026-01-01T07:13:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Hartington and Guard Duty clash at Windsor",
+      "link": "https://www.skysports.com/racing/news/12040/13489034/today-on-sky-sports-racing-newcastle-southwell-and-windsor",
+      "summary": "We have a busy day’s racing on New Year’s Day with action from Newcastle, Southwell and Windsor, live on Sky Sports Racing...",
+      "publishedAt": "2026-01-01T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ones to watch in 2026: Rogers, Greaves, Itamua, Woad and more",
+      "link": "https://www.skysports.com/football/news/12040/13488999/ones-to-watch-2026-morgan-rogers-beau-greaves-moses-itauma-luke-littler-keely-hodgkinson-lottie-woad-drake-maye-davina-perrin-and-more",
+      "summary": "Which sports stars will shine in 2026?",
+      "publishedAt": "2026-01-01T07:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -106,17 +150,6 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Ivoorkust na fraaie comeback groepswinnaar op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/ivoorkust-na-fraaie-comeback-groepswinnaar-op-afrika-cup",
-      "summary": "Het al geplaatste Ivoorkust heeft zich woensdag tijdens de laatste duels in Groep F de kaas van het brood laten eten door het al uitgeschakelde Gabon. De titelverdediger moet daardoor voorrang verlenen aan Kameroen, dat geen fout maakte tegen Mozambique.",
-      "publishedAt": "2025-12-31T22:05:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
       "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
       "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cj0n8d913d8o?at_medium=RSS&at_campaign=rss",
       "summary": "Chelsea boss Enzo Maresca needs results to improve but issues off the pitch are adding to the pressure, BBC Sport's Nizaar Kinsella explains.",
       "publishedAt": "2025-12-31T18:21:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Everton wrongly denied penalty in Arsenal loss, says panel",
-      "link": "https://www.bbc.com/sport/football/articles/cz9vwvde2y0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Everton should have been awarded a penalty in their 1-0 defeat by Arsenal, the Premier League's Key Match Incidents Panel has said.",
-      "publishedAt": "2025-12-31T16:34:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Maresca in danger of losing Chelsea job if results do not improve in January",
-      "link": "https://www.skysports.com/football/news/12040/13489075/enzo-maresca-in-danger-of-losing-chelsea-job-unless-results-improve-in-january-after-run-of-one-win-in-seven-league-games",
-      "summary": "Enzo Maresca will have to improve results at Chelsea quickly if he wants to keep his job after a run of one win in seven Premier League games.",
-      "publishedAt": "2025-12-31T15:32:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Loughnane chalks up record-breaking 222nd win of the year",
-      "link": "https://www.skysports.com/racing/news/12040/13489074/billy-loughnane-makes-history-as-he-breaks-kieren-fallons-record-for-most-wins-in-a-calendar-year-this-century",
-      "summary": "Billy Loughnane broke the 21st century record for winners in a calendar year after he registered his 222nd success on Invited at Lingfield Park on New Year’s Eve.",
-      "publishedAt": "2025-12-31T15:30:00.000Z"
     }
   ]
 }
