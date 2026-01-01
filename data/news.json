@@ -1,6 +1,160 @@
 {
-  "generatedAt": "2026-01-01T21:22:42.224Z",
+  "generatedAt": "2026-01-01T22:23:52.474Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Heavy metal? It's not even aluminium foil football'",
+      "link": "https://www.bbc.com/sport/articles/cr7j5z1m835o?at_medium=RSS&at_campaign=rss",
+      "summary": "As Liverpool are booed off following a goalless draw against Leeds, it was hardly the start to the New Year that Arne Slot's side would have wanted.",
+      "publishedAt": "2026-01-01T22:11:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City lose ground on Arsenal with Sunderland draw",
+      "link": "https://www.skysports.com/football/sunderland-vs-manchester-city/report/531317",
+      "summary": "Manchester City missed the chance to go back within two points of leaders Arsenal as Sunderland held out for a goalless draw to maintain their unbeaten record at the Stadium of Light.",
+      "publishedAt": "2026-01-01T22:10:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea confirm Maresca exit amid poor PL run",
+      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
+      "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
+      "publishedAt": "2026-01-01T22:08:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool disappointed as unbeaten run goes to 8",
+      "link": "https://www.espn.com/soccer/story/_/id/47474640/liverpool-disappointed-unbeaten-run-8-leeds-draw",
+      "summary": "Arne Slot described Liverpool's 0-0 draw with Leeds United as a \"disappointment\" despite his team extending their unbeaten run to eight games in all competitions.",
+      "publishedAt": "2026-01-01T22:08:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Spurs' Johnson agrees move to Palace",
+      "link": "https://www.espn.com/soccer/story/_/id/47472822/tottenham-transfers-brennan-johnson-agrees-35m-crystal-palace-move",
+      "summary": "Tottenham winger Brennan Johnson has agreed to join Crystal Palace in a deal worth £35 million ($47.2m), sources have told ESPN.",
+      "publishedAt": "2026-01-01T22:08:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Gabon govt. suspends team over AFCON flop",
+      "link": "https://www.espn.com/soccer/story/_/id/47472240/gabon-government-suspends-national-team-axe-aubameyang-afcon-calamity",
+      "summary": "Gabon's government have come down hard on the country's national team following their shambolic performance at the Africa Cup of Nations (AFCON).",
+      "publishedAt": "2026-01-01T22:08:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sunderland halt Man City's winning run with goalless draw",
+      "link": "https://www.skysports.com/watch/video/13489541/sunderland-0-0-manchester-city-premier-league-highlights",
+      "summary": "FREE TO WATCH: Highlights from Sunderland’s match against Manchester City in the Premier League.",
+      "publishedAt": "2026-01-01T22:08:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: drie keer 0-0 op teleurstellende Premier League-avond",
+      "link": "https://www.vi.nl/nieuws/vi-live-liverpool-man-city-en-spurs-komen-in-actie",
+      "summary": "Namens de redactie van VI nogmaals de beste wensen! Op deze nieuwjaarsdag is er traditioneel voetbal uit de Premier League. Uiteraard volgen we dat in deze VI Live allemaal op de voet.. Veel plezier.",
+      "publishedAt": "2026-01-01T22:05:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Stubborn Sunderland deny Manchester City to give Arsenal four-point cushion at top",
+      "link": "https://www.theguardian.com/football/2026/jan/01/sunderland-manchester-city-premier-league-match-report",
+      "summary": "Something had to give and it was not Sunderland’s unbeaten home Premier League record. Instead Manchester City’s winning streak came to a juddering halt as Pep Guardiola’s side spurned a chance to move within two points of Arsenal at the top of the table. Hats – or should that be chapeaus – off to Régis Le Bris and his clever and courageous Sunderland team for not merely frustrating City but offering Gianluigi Donnarumma scope to remind everyone precisely why he is a world-class goalkeeper. Continue reading...",
+      "publishedAt": "2026-01-01T22:04:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brentford draw with 'boring' Spurs on Frank’s return",
+      "link": "https://www.skysports.com/football/brentford-vs-tottenham-hotspur/report/531310",
+      "summary": "Brentford were held to a goalless draw with Tottenham on Thomas Frank’s return to his former club as Spurs supporters sang \"boring, boring Tottenham\" at the Gtech Community Stadium.",
+      "publishedAt": "2026-01-01T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "New year, same problems for a Liverpool side lacking depth, dynamism",
+      "link": "https://www.espn.com/soccer/story/_/id/47474140/liverpool-lack-depth-shows-scoreless-draw-vs-leeds-premier-league",
+      "summary": "Devoid of the swagger that marked last season's title run, Liverpool's draw with Leeds showed how much work remains for Arne Slot.",
+      "publishedAt": "2026-01-01T21:59:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Drie Nederlanders van Sunderland houden Man City in toom en helpen Arsenal",
+      "link": "https://www.vi.nl/nieuws/drie-nederlanders-van-sunderland-houden-man-city-in-toom-en-helpen-arsenal",
+      "summary": "Het prachtige seizoen van Robin Roefs, Lutsharel Geertruida en Brian Brobbey met Sunderland heeft donderdagavond een volgend hoofdstuk gekregen. Titelkandidaat Manchester City werd op een doelpuntloos gelijkspel gehouden in het Stadium of Light, waardoor de nummer twee van de Premier League in ieder geval voor even koploper Arsenal uit beeld is verloren.",
+      "publishedAt": "2026-01-01T21:56:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Another OUTSTANDING save!' | Roefs' 'brilliant reflex' save denies Gvardiol",
+      "link": "https://www.skysports.com/watch/video/13489530/save-r-roefs-65-sunderland-0-0-man-city",
+      "summary": "Roefs produces a 'brilliant reflex' save to deny Gvardiol during Manchester City's Premier League match against Sunderland.",
+      "publishedAt": "2026-01-01T21:32:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Eerste 0-0 van Liverpool onder Slot: 'Liverpool is zijn magie kwijt'",
+      "link": "https://www.vi.nl/nieuws/eerste-0-0-van-liverpool-onder-slot-liverpool-is-zijn-magie-kwijt",
+      "summary": "De Engelse media concludeerden na de remise van Liverpool tegen Leeds United dat het nog altijd niet goed zit bij de ploeg van Arne Slot. Liverpool toonde de afgelopen weken herstel met vier zeges op rij, maar liet in het eerste duel van 2026 weer punten liggen. 'Ze oogden futloos en voorspelbaar.'",
+      "publishedAt": "2026-01-01T21:23:13.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,39 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sunderland v Manchester City: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/01/sunderland-v-manchester-city-premier-league-live",
-      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Tables | Follow us on Bluesky | Mail John Regis Le Bris also spoke to Sky: “A few weeks ago we struggled because they were really good and efficient through their counter pressing. I hope we learnt the lesson but it will be another experience at home with another energy so we’ll see.” Pep Guardiola has been speaking to Sky: “Tough place and it means that anyone could win here. Hopefully we can perform. Josko [Gvardiol] had a few niggles, an incredible run of playing every three days and Savinho has speed and is fresh. Continue reading...",
-      "publishedAt": "2026-01-01T20:58:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool to sign Ordonez - Friday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/c5yv3d5gp1vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool are set to spend £43m on defender Joel Ordonez, Roma want to re-sign Mohamed Salah, plus more.",
-      "publishedAt": "2026-01-01T20:42:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Doesn't get his angles right' | Haaland hits golden chance straight at Roefs",
-      "link": "https://www.skysports.com/watch/video/13489520/save-r-roefs-37-sunderland-0-0-man-city",
-      "summary": "Erling Haaland hits a golden chance straight at Roefs during Manchester City's Premier League match against Sunderland",
-      "publishedAt": "2026-01-01T20:42:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -55,83 +176,6 @@
       "link": "https://www.vi.nl/nieuws/slot-legt-vinger-op-zere-liverpool-plek-helaas-wordt-dat-niet-erkend",
       "summary": "Arne Slot baalt flink van de remise van Liverpool thuis tegen promovendus Leeds United . De Nederlandse manager zag zijn ploeg moeite hebben met een compact georganiseerde opponent. Hij legde de vinger op de zere plek.",
       "publishedAt": "2026-01-01T20:38:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: opvallend incident Aké, Brobbey mist grote kans en Roefs stop Haaland af",
-      "link": "https://www.vi.nl/nieuws/vi-live-liverpool-man-city-en-spurs-komen-in-actie",
-      "summary": "Namens de redactie van VI nogmaals de beste wensen! Op deze nieuwjaarsdag is er traditioneel voetbal uit de Premier League. Uiteraard volgen we dat in deze VI Live allemaal op de voet.. Veel plezier.",
-      "publishedAt": "2026-01-01T20:27:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Terrific strength!' | Donnarumma denies Brobbey's one-on-one effort",
-      "link": "https://www.skysports.com/watch/video/13489513/save-g-donnarumma-19-sunderland-0-0-man-city",
-      "summary": "Donnarumma denies Brobbey's one-on-one effort for Sunderland during their Premier League match against Manchester City.",
-      "publishedAt": "2026-01-01T20:24:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea confirm Maresca exit amid poor PL run",
-      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
-      "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
-      "publishedAt": "2026-01-01T20:19:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leeds force stalemate to end Liverpool winning run",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740781",
-      "summary": "Liverpool's winning run was brought to a grinding halt as Leeds claimed their first clean sheet since August with the new year bringing more frustration for Arne Slot's side.",
-      "publishedAt": "2026-01-01T20:19:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Spurs' Johnson agrees move to Palace",
-      "link": "https://www.espn.com/soccer/story/_/id/47472822/tottenham-transfers-brennan-johnson-agrees-35m-crystal-palace-move",
-      "summary": "Tottenham winger Brennan Johnson has agreed to join Crystal Palace in a deal worth £35 million ($47.2m), sources have told ESPN.",
-      "publishedAt": "2026-01-01T20:19:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Gabon govt. suspends team over AFCON flop",
-      "link": "https://www.espn.com/soccer/story/_/id/47472240/gabon-government-suspends-national-team-axe-aubameyang-afcon-calamity",
-      "summary": "Gabon's government have come down hard on the country's national team following their shambolic performance at the Africa Cup of Nations (AFCON).",
-      "publishedAt": "2026-01-01T20:19:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Volendam heeft AZ-middenvelder Kwakman bijna binnen",
-      "link": "https://www.vi.nl/nieuws/fc-volendam-heeft-az-middenvelder-kwakman-bijna-binnen",
-      "summary": "Dave Kwakman (21) gaat het seizoen vrijwel zeker afmaken bij FC Volendam. Wanneer onverwachte wendingen uitblijven, zal AZ de middenvelder voor een halfjaar uitlenen aan de club uit zijn geboortedorp.",
-      "publishedAt": "2026-01-01T20:15:00.000Z"
     },
     {
       "type": "rss",
@@ -150,9 +194,9 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Tom Cairney earns Fulham a point at Crystal Palace with late leveller",
+      "title": "Glasner’s Crystal Palace in ‘survival mode’ as Fulham leveller extends winless run",
       "link": "https://www.theguardian.com/football/2026/jan/01/crystal-palace-fulham-premier-league-match-report",
-      "summary": "It’s a strange quirk of this fixture that the away side hasn’t lost for the last 10 Premier League matches, and substitute Tom Cairney’s late equaliser ensured that the streak goes on. Only a brilliant save in injury-time from Dean Henderson and a glaring miss from former Crystal Palace player Joachim Andersen denied Fulham all three points after they had fallen behind to Jean-Philippe Mateta’s first goal from open play since 1 November. But Oliver Glasner will still be bitterly disappointed that his side couldn’t end a sequence of six games without a victory in all competitions after running out of steam again in their 31st match of the season. Continue reading...",
+      "summary": "It is a strange quirk of this fixture that the away side has not lost for the last 10 Premier League meetings between Crystal Palace and Fulham, with the substitute Tom Cairney’s late equaliser ensuring that streak goes on. Only a brilliant save in added time from Dean Henderson and a glaring miss from the former Palace player Joachim Andersen denied Marco Silva’s side all the points after falling behind to Jean-Philippe Mateta’s first goal from open play since 1 November. But Oliver Glasner was still bitterly disappointed that his team could not end a sequence of six games without a victory in all competitions after running out of steam again in their 31st match of the season. “We are a little bit in survival mode,” said the Palace manager, whose team now face three games in the space of seven days. Continue reading...",
       "publishedAt": "2026-01-01T19:57:04.000Z"
     },
     {
@@ -168,58 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Besiktas laat sterspeler om 04.00 uur trainen, zaak ligt bij de FIFA'",
-      "link": "https://www.vi.nl/nieuws/besiktas-laat-sterspeler-om-04-00-uur-trainen-zaak-ligt-bij-de-fifa",
-      "summary": "De situatie rondom sterspeler Rafa Silva bij Besiktas houdt de gemoederen in Turkije bezig. Naar verluidt forceert de Turkse topclub de Portugese aanvaller richting de uitgang met kleine pesterijen. De zaak zou zijn voorgelegd aan de FIFA.",
-      "publishedAt": "2026-01-01T19:52:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Humphries trails Van Veen after Littler breezes into semi-finals LIVE!",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-gary-anderson-in-action",
-      "summary": "",
-      "publishedAt": "2026-01-01T19:50:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Obdurate Leeds keep toiling Liverpool at arm’s length to earn point",
       "link": "https://www.theguardian.com/football/2026/jan/01/liverpool-leeds-premier-league-match-report",
-      "summary": "Two unbeaten records continued at Anfield but only one team could take satisfaction from that. Leeds succeeded in stifling and frustrating Liverpool as the first goalless draw of Arne Slot’s reign underlined the limitations that linger behind the Premier League champions’ recent recovery. A drab scoreless draw, the first in 84 Liverpool games under Slot, owed much to the defensive dominance of the excellent Jaka Bijol and Pascal Struijk but also the home side’s inability to break down a compact Leeds unit. Liverpool were reduced to hopeful half chances and there was a smattering of boos around Anfield as the final whistle sounded on a laboured performance. Continue reading...",
+      "summary": "Two unbeaten records were maintained at Anfield but only one team took satisfaction along with their point. Leeds succeeded in stifling and frustrating Liverpool as the first goalless draw of Arne Slot’s reign underlined the limitations that linger behind the Premier League champions’ recent recovery. A drab scoreless draw, the first in 84 Liverpool games under Slot, owed much to the defensive excellence of Jaka Bijol and Pascal Struijk as Daniel Farke’s depleted visitors extended their unbeaten run to six matches and moved seven points clear of the relegation zone. But Liverpool’s contribution to a meagre spectacle was significant too. Continue reading...",
       "publishedAt": "2026-01-01T19:43:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Enzo Maresca forgot Chelsea’s golden rule: the manager does not call the shots | Jacob Steinberg",
-      "link": "https://www.theguardian.com/football/2026/jan/01/enzo-maresca-chelsea-manchester-city-analysis",
-      "summary": "Coach stopped toeing the line at Stamford Bridge with one eye on the Manchester City job, frustrating his employers It was late on New Year’s Eve when Chelsea’s patience ran out. They knew that Enzo Maresca was attempting to engineer an exit from the club and now they were ready to call his bluff. Midnight was approaching and the fireworks at Stamford Bridge were about to erupt. A baffling story soon had a familiar, predictable ending. Maresca, who is not the first manager to run out of friends at Chelsea, had taken the provocations too far. There was surprise when he told staff that he did not want to conduct his post-match press conference after the disappointing 2-2 draw with Bournemouth on Tuesday night. The official explanation was that Maresca was too unwell to talk in public, despite having just spent the evening coaching on the Stamford Bridge touchline, but the friction was palpable and it was never going to sit well with the Chelsea hierarchy when it took less than 24 hours for reports to emerge that the sickness line was a red herring and their head coach had actually decided not to meet the media because he needed time to consider his options. It was further confirmation that this was someone who wanted to be sacked. Maresca dared Chelsea to act and will have been the least surprised person in the world to find himself unemployed less than a day into 2026. Continue reading...",
-      "publishedAt": "2026-01-01T19:35:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leeds hold Liverpool to goalless draw at Anfield",
-      "link": "https://www.skysports.com/watch/video/13489493/liverpool-0-0-leeds-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Liverpool’s match against Leeds United in the Premier League.",
-      "publishedAt": "2026-01-01T19:35:00.000Z"
     }
   ]
 }
