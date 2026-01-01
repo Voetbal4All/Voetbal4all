@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-01T12:51:14.114Z",
+  "generatedAt": "2026-01-01T13:35:49.814Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Isaac Babadi is een speciale speler'",
+      "link": "https://www.vi.nl/video/isaac-babadi-is-een-speciale-speler",
+      "summary": "De Toekomst van Oranje is terug. Voetbal International sprak in deze serie in het verleden met toptalenten zoals Cody Gakpo, Brian Brobbey en de gebroeders Timber. Nu is het de beurt aan Isaac Babdi, Gjivai Zechiël, Ezechiel Banzuzi en Ernest Poku. We bespreken hun kwaliteiten, valkuilen en dromen! In deze teaser een korte weergave van de aflevering met Babadi, de twintigjarige middenvelder van PSV die dit seizoen op huurbasis speelt voor Antwerp FC.",
+      "publishedAt": "2026-01-01T13:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -10,18 +21,18 @@
       "title": "Maresca leaves Chelsea after turbulent end to 2025",
       "link": "https://www.bbc.com/sport/football/articles/c8exj6w3y41o?at_medium=RSS&at_campaign=rss",
       "summary": "Chelsea boss Enzo Maresca leaves his role with the club fifth in the Premier League - 15 points adrift of leaders Arsenal.",
-      "publishedAt": "2026-01-01T12:44:28.000Z"
+      "publishedAt": "2026-01-01T13:15:40.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Chelsea start 2026 met ruzie en neemt afscheid van Maresca",
-      "link": "https://www.vi.nl/nieuws/chelsea-start-2026-met-ruzie-en-neemt-afscheid-van-maresca",
-      "summary": "Enzo Maresca (45) is niet langer de manager van Chelsea. Het nieuws dat zich rond de jaarwisseling al aandiende , is inmiddels bevestigd.",
-      "publishedAt": "2026-01-01T12:39:32.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea confirm Enzo Maresca exit amid poor Premier League run",
+      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
+      "summary": "Chelsea have confirmed they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
+      "publishedAt": "2026-01-01T13:13:39.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +43,7 @@
       "title": "'Smit wordt gevolgd door alle top-5-clubs van alle topcompetities, dat is extreem'",
       "link": "https://www.vi.nl/nieuws/huiberts-onder-de-indruk-van-belangstelling-voor-smit-nog-nooit-meegemaakt",
       "summary": "Het lijkt een kwestie van tijd voordat Kees Smit een stap naar de Europese top maakt. De middenvelder wordt een enorme potentie toegedicht en ook bij AZ begint het ze soms te duizelen als ze alle hectiek rondom Smit meemaken.",
-      "publishedAt": "2026-01-01T12:35:59.000Z"
+      "publishedAt": "2026-01-01T13:13:26.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +51,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "FC Twente verhuurt Bas Kuipers aan Arouca in Portugal",
-      "link": "https://www.vi.nl/nieuws/fc-twente-verhuurt-bas-kuipers-aan-arouca-in-portugal",
-      "summary": "Bas Kuipers gaat FC Twente tijdelijk verlaten. De 31-jarige linksback stapt tijdelijk over naar het Portugese Arouca. In die huurdeal is geen optie tot koop opgenomen.",
-      "publishedAt": "2026-01-01T12:35:07.000Z"
+      "title": "Chelsea start 2026 met ruzie en neemt afscheid van Maresca",
+      "link": "https://www.vi.nl/nieuws/chelsea-start-2026-met-ruzie-en-neemt-afscheid-van-maresca",
+      "summary": "Enzo Maresca (45) is niet langer de manager van Chelsea. Het nieuws dat zich rond de jaarwisseling al aandiende , is inmiddels bevestigd.",
+      "publishedAt": "2026-01-01T13:09:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2026-01-01T12:55:01.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +73,43 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Chelsea confirm Enzo Maresca exit amid poor Premier League run",
-      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run",
-      "summary": "Chelsea have confirmed they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
-      "publishedAt": "2026-01-01T12:29:22.000Z"
+      "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
+      "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
+      "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
+      "publishedAt": "2026-01-01T12:48:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Napoli 'formality' to keep Man United's Højlund",
+      "link": "https://www.espn.com/soccer/story/_/id/47462321/rasmus-hojlund-formality-stay-napoli-amid-man-united-clause",
+      "summary": "Napoli sporting director Giovanni Manna considers Rasmus Højlund s permanent transfer from Manchester United a \"formality\".",
+      "publishedAt": "2026-01-01T12:48:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Emery on snubbing Arteta after loss: 'It was cold'",
+      "link": "https://www.espn.com/soccer/story/_/id/47458320/emery-denies-snubbing-arteta-aston-villa-loss-arsenal",
+      "summary": "Unai Emery rejected claims that he snubbed Arsenal boss Mikel Arteta after the full-time whistle in Aston Villa's clash at the Emirates Stadium.",
+      "publishedAt": "2026-01-01T12:48:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Madrid's Mbappé (knee) doubtful for Supercopa",
+      "link": "https://www.espn.com/soccer/story/_/id/47462555/kylian-mbappe-sidelined-knee-injury-doubt-supercopa-sources",
+      "summary": "Kylian Mbappé will miss Real Madrid's LaLiga game with Real Betis and is a doubt for next week's Spanish Supercopa, sources have told ESPN, due to a knee injury.",
+      "publishedAt": "2026-01-01T12:48:29.000Z"
     },
     {
       "type": "rss",
@@ -66,50 +121,6 @@
       "link": "https://www.vi.nl/nieuws/maresca-steeds-meer-onder-druk-bij-chelsea",
       "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
       "publishedAt": "2026-01-01T12:28:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid's Mbappé (knee) doubtful for Supercopa",
-      "link": "https://www.espn.com/soccer/story/_/id/47462555/kylian-mbappe-sidelined-knee-injury-doubt-supercopa-sources",
-      "summary": "Kylian Mbappé will miss Real Madrid's LaLiga game with Real Betis and is a doubt for next week's Spanish Supercopa, sources have told ESPN, due to a knee injury.",
-      "publishedAt": "2026-01-01T12:26:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Holders Ivory Coast rally to win group at AFCON",
-      "link": "https://www.espn.com/soccer/story/_/id/47465955/defending-champs-ivory-coast-rally-top-afcon-group",
-      "summary": "Defending Africa Cup of Nations champions Ivory Coast came from two goals down to defeat Gabon 3-2 in their final Group F fixture in Marrakesh on Wednesday, qualifying them as group winners to set up a round of 16 showdown with Burkina Faso.",
-      "publishedAt": "2026-01-01T12:26:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
-      "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
-      "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
-      "publishedAt": "2026-01-01T12:26:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid great Roberto Carlos has heart surgery",
-      "link": "https://www.espn.com/soccer/story/_/id/47462746/real-madrid-great-roberto-carlos-preventive-heart-surgery",
-      "summary": "Brazil and Real Madrid legend Roberto Carlos confirmed on Wednesday that he underwent a \"preventive\" heart procedure, but clarified that he did not suffer a heart attack and that he is \"doing well\" while recovering in a hospital in São Paulo.",
-      "publishedAt": "2026-01-01T12:26:11.000Z"
     },
     {
       "type": "rss",
@@ -128,7 +139,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship quarter-finals LIVE! Searle vs Clayton and Anderson vs Hood",
+      "title": "World Darts Championship: Searle leads Clayton, Anderson vs Hood to come LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
       "publishedAt": "2026-01-01T12:00:00.000Z"
@@ -140,7 +151,7 @@
       "country": "INT",
       "flag": "🌍",
       "title": "Maresca leaves Chelsea after 18 months in charge",
-      "link": "https://www.skysports.com/football/news/12040/13489078/enzo-maresca-chelsea-head-coach-leaves-premier-league-club",
+      "link": "https://www.skysports.com/football/news/12040/13489078/enzo-maresca-chelsea-head-coach-leaves-stamford-bridge-after-18-months-in-charge",
       "summary": "Enzo Maresca has left his role as Chelsea head coach after 18 months in charge at Stamford Bridge.",
       "publishedAt": "2026-01-01T12:00:00.000Z"
     },
@@ -154,17 +165,6 @@
       "link": "https://www.skysports.com/football/live-blog/12040/13487078/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "summary": "",
       "publishedAt": "2026-01-01T11:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Telstar bouwt door en wil stadion verder ontwikkelen",
-      "link": "https://www.vi.nl/nieuws/telstar-bouwt-door-en-wil-stadion-verder-ontwikkelen",
-      "summary": "Telstar kijkt naar de opties om het stadion verder te ontwikkelen. Hoewel het na de promotie al volop werd verbouwd, moet er ook nog het nodige gebeuren in Velsen-Zuid.",
-      "publishedAt": "2026-01-01T11:40:00.000Z"
     },
     {
       "type": "rss",
