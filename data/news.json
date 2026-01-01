@@ -1,16 +1,71 @@
 {
-  "generatedAt": "2026-01-01T11:21:13.556Z",
+  "generatedAt": "2026-01-01T12:51:14.114Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Maresca leaves Chelsea after turbulent end to 2025",
+      "link": "https://www.bbc.com/sport/football/articles/c8exj6w3y41o?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea boss Enzo Maresca leaves his role with the club fifth in the Premier League - 15 points adrift of leaders Arsenal.",
+      "publishedAt": "2026-01-01T12:44:28.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI LIVE: Liverpool, Man City en Spurs komen in actie",
-      "link": "https://www.vi.nl/nieuws/vi-live-liverpool-man-city-en-spurs-komen-in-actie",
-      "summary": "Namens de redactie van VI nogmaals de beste wensen! Op deze nieuwjaarsdag is er traditioneel voetbal uit de Premier League. Uiteraard volgen we dat in deze VI Live allemaal op de voet.. Veel plezier.",
-      "publishedAt": "2026-01-01T11:18:18.000Z"
+      "title": "Chelsea start 2026 met ruzie en neemt afscheid van Maresca",
+      "link": "https://www.vi.nl/nieuws/chelsea-start-2026-met-ruzie-en-neemt-afscheid-van-maresca",
+      "summary": "Enzo Maresca (45) is niet langer de manager van Chelsea. Het nieuws dat zich rond de jaarwisseling al aandiende , is inmiddels bevestigd.",
+      "publishedAt": "2026-01-01T12:39:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Smit wordt gevolgd door alle top-5-clubs van alle topcompetities, dat is extreem'",
+      "link": "https://www.vi.nl/nieuws/huiberts-onder-de-indruk-van-belangstelling-voor-smit-nog-nooit-meegemaakt",
+      "summary": "Het lijkt een kwestie van tijd voordat Kees Smit een stap naar de Europese top maakt. De middenvelder wordt een enorme potentie toegedicht en ook bij AZ begint het ze soms te duizelen als ze alle hectiek rondom Smit meemaken.",
+      "publishedAt": "2026-01-01T12:35:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FC Twente verhuurt Bas Kuipers aan Arouca in Portugal",
+      "link": "https://www.vi.nl/nieuws/fc-twente-verhuurt-bas-kuipers-aan-arouca-in-portugal",
+      "summary": "Bas Kuipers gaat FC Twente tijdelijk verlaten. De 31-jarige linksback stapt tijdelijk over naar het Portugese Arouca. In die huurdeal is geen optie tot koop opgenomen.",
+      "publishedAt": "2026-01-01T12:35:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea confirm Enzo Maresca exit amid poor Premier League run",
+      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run",
+      "summary": "Chelsea have confirmed they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
+      "publishedAt": "2026-01-01T12:29:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Met dit statement zwaait Chelsea Maresca uit op nieuwjaarsdag",
+      "link": "https://www.vi.nl/nieuws/maresca-steeds-meer-onder-druk-bij-chelsea",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-01T12:28:14.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +76,7 @@
       "title": "Madrid's Mbappé (knee) doubtful for Supercopa",
       "link": "https://www.espn.com/soccer/story/_/id/47462555/kylian-mbappe-sidelined-knee-injury-doubt-supercopa-sources",
       "summary": "Kylian Mbappé will miss Real Madrid's LaLiga game with Real Betis and is a doubt for next week's Spanish Supercopa, sources have told ESPN, due to a knee injury.",
-      "publishedAt": "2026-01-01T11:05:16.000Z"
+      "publishedAt": "2026-01-01T12:26:12.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +87,7 @@
       "title": "Holders Ivory Coast rally to win group at AFCON",
       "link": "https://www.espn.com/soccer/story/_/id/47465955/defending-champs-ivory-coast-rally-top-afcon-group",
       "summary": "Defending Africa Cup of Nations champions Ivory Coast came from two goals down to defeat Gabon 3-2 in their final Group F fixture in Marrakesh on Wednesday, qualifying them as group winners to set up a round of 16 showdown with Burkina Faso.",
-      "publishedAt": "2026-01-01T11:05:15.000Z"
+      "publishedAt": "2026-01-01T12:26:11.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +98,7 @@
       "title": "Modric: Mourinho at Madrid 'made Ronaldo cry'",
       "link": "https://www.espn.com/soccer/story/_/id/47462411/luka-modric-mourinho-once-made-cristiano-ronaldo-cry",
       "summary": "Croatia and AC Milan midfielder Luka Modric said on Wednesday that Jose Mourinho was such a tough manager during their time at Real Madrid that he once reduced star player Cristiano Ronaldo to tears.",
-      "publishedAt": "2026-01-01T11:05:15.000Z"
+      "publishedAt": "2026-01-01T12:26:11.000Z"
     },
     {
       "type": "rss",
@@ -54,62 +109,18 @@
       "title": "Madrid great Roberto Carlos has heart surgery",
       "link": "https://www.espn.com/soccer/story/_/id/47462746/real-madrid-great-roberto-carlos-preventive-heart-surgery",
       "summary": "Brazil and Real Madrid legend Roberto Carlos confirmed on Wednesday that he underwent a \"preventive\" heart procedure, but clarified that he did not suffer a heart attack and that he is \"doing well\" while recovering in a hospital in São Paulo.",
-      "publishedAt": "2026-01-01T11:05:15.000Z"
+      "publishedAt": "2026-01-01T12:26:11.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Hoe Gianni Infantino tot Koning Voetbal transformeerde",
-      "link": "https://www.vi.nl/pro/hoe-gianni-infantino-tot-koning-voetbal-transformeerde",
-      "summary": "Gianni Infantino (55) beschouwt zichzelf als een geluksbrenger en vredesstichter. Hij bestempelde de FIFA zelfs als een officiële bron van geluk voor de mensheid. Als president van de wereldvoetbalbond wordt zijn gedrag met de dag merkwaardiger.",
-      "publishedAt": "2026-01-01T11:02:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Carragher denkt dat Arteta bij Arsenal voor andere spits moet kiezen",
-      "link": "https://www.vi.nl/nieuws/carragher-gelooft-niet-in-gy-keres-bij-arsenal-en-meer-in-jesus-en-havertz",
-      "summary": "Jamie Carragher is niet bepaald fan van Viktor Gyökeres. Na de 4-1 zege op Aston Villa heeft de analyticus bij Sky Sports aangegeven dat hij zelfs betere opties binnen Arsenal ziet.",
-      "publishedAt": "2026-01-01T10:20:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Marcotti's 2026 wishes: A big World Cup (with Italy in it), transparency in football, more",
-      "link": "https://www.espn.com/soccer/story/_/id/47465289/gabriel-marcotti-2026-wishes-big-world-cup-italy-transparency-football-more",
-      "summary": "Gab Marcotti rings in the new year by writing down what he hopes to see in football in 2026, above all else: a safe, fun and clean World Cup.",
-      "publishedAt": "2026-01-01T09:46:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Mislintat aast op Paulina, Brighton-boegbeeld terug op oude nest'",
-      "link": "https://www.vi.nl/nieuws/maresca-steeds-meer-onder-druk-bij-chelsea",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-01T09:40:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De beste wensen voor 2026",
-      "link": "https://www.vi.nl/nieuws/de-beste-wensen-voor-2026",
-      "summary": "Voetbal International wenst u een mooi, sportief en voorspoedig 2026. Een jaar waarin wij met de grootste voetbalredactie van Nederland weer op elk moment van de dag u maximaal naar wens voorzien van alle ontwikkelingen in het voetballandschap.",
-      "publishedAt": "2026-01-01T09:23:48.000Z"
+      "title": "Enzo Maresca leaves Chelsea after dramatic breakdown in relations",
+      "link": "https://www.theguardian.com/football/2026/jan/01/enzo-maresca-leaves-chelsea-breakdown-relations",
+      "summary": "Italian departs Stamford Bridge role after 18 months Tensions behind the scenes damaged relationships Enzo Maresca has left his job as Chelsea’s head coach. Maresca’s relationship with the club’s board has broken down and the split has led to a parting of the ways. It had seemed Chelsea would give the Italian time to turn around his side’s form but events have moved quickly during the past 24 hours. There was deep dissatisfaction with the 45-year-old’s decisions during games but the bigger issue was his conduct away from the pitch. The situation has been volatile ever since Maresca made cryptic comments about experiencing his “worst 48 hours” at the club after the win over Everton on 13 December. Continue reading...",
+      "publishedAt": "2026-01-01T12:21:12.000Z"
     },
     {
       "type": "rss",
@@ -117,10 +128,54 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Semenyo latest: £65m release clause now active",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "title": "World Darts Championship quarter-finals LIVE! Searle vs Clayton and Anderson vs Hood",
+      "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
       "summary": "",
-      "publishedAt": "2026-01-01T09:00:00.000Z"
+      "publishedAt": "2026-01-01T12:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Maresca leaves Chelsea after 18 months in charge",
+      "link": "https://www.skysports.com/football/news/12040/13489078/enzo-maresca-chelsea-head-coach-leaves-premier-league-club",
+      "summary": "Enzo Maresca has left his role as Chelsea head coach after 18 months in charge at Stamford Bridge.",
+      "publishedAt": "2026-01-01T12:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham lead Blackburn | All EFL on New Year's Day LIVE ON SKY!",
+      "link": "https://www.skysports.com/football/live-blog/12040/13487078/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
+      "summary": "",
+      "publishedAt": "2026-01-01T11:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Telstar bouwt door en wil stadion verder ontwikkelen",
+      "link": "https://www.vi.nl/nieuws/telstar-bouwt-door-en-wil-stadion-verder-ontwikkelen",
+      "summary": "Telstar kijkt naar de opties om het stadion verder te ontwikkelen. Hoewel het na de promotie al volop werd verbouwd, moet er ook nog het nodige gebeuren in Velsen-Zuid.",
+      "publishedAt": "2026-01-01T11:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "From Sehitler to Armstrong: 10 female footballers set for breakthrough in 2026",
+      "link": "https://www.theguardian.com/football/2026/jan/01/from-sehitler-to-armstrong-10-female-footballers-set-for-breakthrough-in-2026",
+      "summary": "Today’s newsletter looks at 10 superlative talents who are ready to take the next step in the coming 12 months Alara Sehitler, Bayern Munich and Germany (19): Sehitler’s transition into Bayern Munich’s first team has come as little surprise and the creative midfielder has established herself as a strong impact player for José Barcala’s side. She has three Frauen Bundesliga goals this season and sparked Bayern’s comeback against Arsenal in the Champions League. After making her senior debut for Germany in November 2024, she will be looking to establish herself as a regular for their upcoming 2027 World Cup qualifiers. Giulia Galli, Roma and Italy (17): Galli is widely regarded as one of the best young Italian talents to emerge for a long time and became Roma’s youngest player to make her Serie A debut in May 2024, aged 16 and one month. Establishing herself in the senior squad this season, she scored her first club goal in September and has featured in the Champions League. After starring in Italy’s sensational run to the semi-finals of last summer’s Under-17 Euros, the talented forward played a significant role at the subsequent Under-17 World Cup, picking up the bronze boot. She will surely feature at this autumn’s Under-20 World Cup. Continue reading...",
+      "publishedAt": "2026-01-01T11:30:37.000Z"
     },
     {
       "type": "rss",
@@ -128,10 +183,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Eight men's footballers hoping for a big 2026",
-      "link": "https://www.bbc.com/sport/football/articles/c70rjq0x728o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport looks at some of the players hoping for a big 2026 for various reasons.",
-      "publishedAt": "2026-01-01T08:44:55.000Z"
+      "title": "Johnson to hold talks with Palace boss Glasner",
+      "link": "https://www.bbc.com/sport/football/articles/c0kej88zvplo?at_medium=RSS&at_campaign=rss",
+      "summary": "Brennan Johnson will meet Crystal Palace manager Oliver Glasner on Thursday before making a final decision on whether to complete a £35m move from Tottenham.",
+      "publishedAt": "2026-01-01T11:24:26.000Z"
     },
     {
       "type": "rss",
@@ -165,61 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/01/trinity-rodman-liverpool-women-football-transfer-window",
       "summary": "With an unusually high number of elite-level players out of contract in 2026 it promises to be an intriguing January Transfer fees in women’s football have been rising at a rate of inflation that would cause anguish at the Bank of England. Last January alone, $5.8m (£4.3m) was spent in the women’s game globally and then a record $12.3m (£9.1m) was splashed in the 2025 summer transfer window, which was nearly twice as much as 12 months earlier and a four-fold increase on 2023. What can January 2026 possibly have in store? The upcoming winter window – which opens for English women’s clubs on 2 January and closes on 3 February – has already got off to a blockbuster start even before officially opening. The Germany striker Lea Schüller and Norway’s attacking midfielder Signe Gaupset are among those to have already signed for Women’s Super League clubs, but this is set to be a unique window for a different reason than merely the usual clamour for reinforcements. Continue reading...",
       "publishedAt": "2026-01-01T08:00:33.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Who might be on move in January in WSL?",
-      "link": "https://www.bbc.com/sport/football/articles/c2dzd789185o?at_medium=RSS&at_campaign=rss",
-      "summary": "With the January transfer window opening in the Women's Super League, which players could be on the move and who is out of contract?",
-      "publishedAt": "2026-01-01T07:40:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Which men's footballers could be on the move in January?",
-      "link": "https://www.bbc.com/sport/football/articles/c5yx8jp4ndno?at_medium=RSS&at_campaign=rss",
-      "summary": "Antoine Semenyo is widely expected to complete a move from Bournemouth to Manchester City shortly, but which other Premier League players could be on the move in January?",
-      "publishedAt": "2026-01-01T07:13:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hartington and Guard Duty clash at Windsor",
-      "link": "https://www.skysports.com/racing/news/12040/13489034/today-on-sky-sports-racing-newcastle-southwell-and-windsor",
-      "summary": "We have a busy day’s racing on New Year’s Day with action from Newcastle, Southwell and Windsor, live on Sky Sports Racing...",
-      "publishedAt": "2026-01-01T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ones to watch in 2026: Rogers, Greaves, Itamua, Woad and more",
-      "link": "https://www.skysports.com/football/news/12040/13488999/ones-to-watch-2026-morgan-rogers-beau-greaves-moses-itauma-luke-littler-keely-hodgkinson-lottie-woad-drake-maye-davina-perrin-and-more",
-      "summary": "Which sports stars will shine in 2026?",
-      "publishedAt": "2026-01-01T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Joshua discharged from hospital after fatal car crash",
-      "link": "https://www.skysports.com/boxing/news/12040/13489154/anthony-joshua-british-boxer-and-former-world-champion-discharged-from-hospital-after-fatal-car-crash-in-nigeria",
-      "summary": "Anthony Joshua has been discharged from hospital less than three days after a car crash in Nigeria that killed two of his close friends.",
-      "publishedAt": "2026-01-01T00:09:00.000Z"
     }
   ]
 }
