@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-02T08:34:09.971Z",
+  "generatedAt": "2026-01-02T09:28:57.782Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "WSL latest: London City Lionesses appoint Maestre as head coach",
+      "link": "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+      "summary": "",
+      "publishedAt": "2026-01-02T09:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Chelsea wil Hato niet kwijt, Napoli denkt aan vertrek Lang'",
+      "link": "https://www.vi.nl/nieuws/aston-villa-haalt-braziliaans-talent-voor-12-miljoen-euro",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-02T09:03:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "London City appoint Maestre as manager",
+      "link": "https://www.bbc.com/sport/football/articles/c4g35ev479do?at_medium=RSS&at_campaign=rss",
+      "summary": "Women's Super League side London City Lionesses have appointed Eder Maestre as manager following the sacking of Jocelyn Precheur.",
+      "publishedAt": "2026-01-02T09:02:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Zo kwam NAC ineens in contact met kersverse spits Ayew (36)",
+      "link": "https://www.vi.nl/nieuws/zo-kwam-nac-ineens-in-contact-met-kersverse-spits-ayew-36",
+      "summary": "NAC Breda begint vrijdag met de voorbereiding op de tweede seizoenshelft. Trainer Carl Hoefkens verwelkomt één nieuwe naam: André Ayew. De club kwam via het scoutingsnetwerk in contact met de Ghanese recordinternational.",
+      "publishedAt": "2026-01-02T08:35:58.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +54,18 @@
       "title": "Cambuur shopt na succes met Ferrah opnieuw bij Lille",
       "link": "https://www.vi.nl/nieuws/cambuur-shopt-na-succes-met-ferrah-opnieuw-bij-lille",
       "summary": "SC Cambuur heeft zich versterkt met Ethan Apkakou (19). De middenvelder komt over van LOSC Lille en tekent een contract voor 3,5 jaar in Leeuwarden, met de optie voor nog een extra seizoen.",
-      "publishedAt": "2026-01-02T08:25:00.000Z"
+      "publishedAt": "2026-01-02T08:35:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ref Watch LIVE! Arsenal's Merino and Spurs' Romero should have been sent off",
+      "link": "https://www.skysports.com/football/live-blog/12040/13489585/ref-watch-live-premier-league-efl-and-scottish-premiership-incidents-analysed-by-dermot-gallagher-and-jay-bothroyd",
+      "summary": "",
+      "publishedAt": "2026-01-02T08:07:00.000Z"
     },
     {
       "type": "rss",
@@ -58,17 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De volgende generatie iconen: 50 supertalenten op een rij",
-      "link": "https://www.vi.nl/pro/de-volgende-generatie-iconen-50-supertalenten-op-een-rij",
-      "summary": "Het mooie van voetbal is dat er altijd weer nieuwe sterren opstaan. En als er één conclusie te trekken valt, is het wel deze: voetballers worden steeds ouder, maar breken ook steeds jonger door. Het is opvallend hoeveel tieners er in de topcompetities actief zijn en ­hoeveel leeftijdsrecords er sneuvelen.",
-      "publishedAt": "2026-01-02T07:56:21.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -88,17 +132,6 @@
       "link": "https://www.vi.nl/nieuws/fluminense-verlengt-contract-van-wereldrecordhouder-f-bio-45",
       "summary": "Fluminense heeft het contract van keeper Fábio met twee seizoenen verlengd. Hoewel de goalie momenteel al 45 jaar oud is, tekent hij toch voor twee jaar bij en daarmee kan hij een bijzonder record nog scherper stellen.",
       "publishedAt": "2026-01-02T07:50:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Vroege' CL-finale en gekortwiekte play-offs: 10 belangrijke voetbaldata in 2026",
-      "link": "https://www.vi.nl/nieuws/vroege-cl-finale-en-gekortwiekte-play-offs-10-belangrijke-voetbaldata-in-2026",
-      "summary": "Met een XXL-WK voor de deur wordt het sowieso een bijzonder voetbaljaar. VI zet alvast tien belangrijke data in 2026 op een rij.",
-      "publishedAt": "2026-01-02T07:34:26.000Z"
     },
     {
       "type": "rss",
@@ -141,7 +174,7 @@
       "flag": "🌍",
       "title": "Pep Guardiola urges Manchester City players to get ‘heads up’ for visit of Chelsea",
       "link": "https://www.theguardian.com/football/2026/jan/02/pep-guardiola-urges-manchester-city-players-to-get-heads-up-for-visit-of-chelsea",
-      "summary": "Manager calm after ‘really good game’ at Sunderland Chelsea visit Etihad on Sunday after sacking Maresca An outwardly sanguine Pep Guardiola suggested he was reasonably content with a hard-fought point at Sunderland after watching his Manchester City side lose ground on Arsenal at the top of the Premier League. The 0-0 draw at the Stadium of Light leaves City second, four points behind Mikel Arteta’s leaders but Guardiola was not too downhearted. “I’ll take the point against this team at this stadium,” said a good-humoured Guardiola who seemed unaffected by reports that Enzo Maresca, once his assistant at the Etihad Stadium, had discussed the possibility of relocating to Manchester later this year with figures associated to City. “It was a really good game.” Continue reading...",
+      "summary": "Manager calm after ‘really good game’ at Sunderland Chelsea visit Etihad on Sunday after sacking Maresca An outwardly sanguine Pep Guardiola suggested he was reasonably content with a hard-fought point at Sunderland after watching his Manchester City side lose ground on Arsenal at the top of the Premier League. The 0-0 draw at the Stadium of Light leaves City second, four points behind Mikel Arteta’s leaders, but Guardiola was not too downhearted. “I’ll take the point against this team at this stadium,” said a good-humoured Guardiola, who seemed unaffected by reports that Enzo Maresca, once his assistant at the Etihad Stadium, had discussed the possibility of relocating to Manchester later this year with figures associated with City. “It was a really good game.” Continue reading...",
       "publishedAt": "2026-01-02T00:04:40.000Z"
     },
     {
@@ -187,39 +220,6 @@
       "link": "https://www.espn.com/soccer/report/_/gameId/740784",
       "summary": "Sunderland extended their unbeaten Premier League home record to 10 games after holding Manchester City to a goalless draw.",
       "publishedAt": "2026-01-01T23:36:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'We are not happy' - Man City fall behind Arsenal in title race",
-      "link": "https://www.bbc.com/sport/football/articles/cm248l1j7jno?at_medium=RSS&at_campaign=rss",
-      "summary": "Pep Guardiola questioned whether it was only a two-horse Premier League title race, but his Manchester City side can ill-afford many slip-ups in their quest to hunt down leaders Arsenal.",
-      "publishedAt": "2026-01-01T23:33:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Heavy metal? It's not even aluminium foil football'",
-      "link": "https://www.bbc.com/sport/articles/cr7j5z1m835o?at_medium=RSS&at_campaign=rss",
-      "summary": "As Liverpool are booed off following a goalless draw against Leeds, it was hardly the start to the New Year that Arne Slot's side would have wanted.",
-      "publishedAt": "2026-01-01T22:11:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Brentford draw with 'boring' Spurs on Frank’s return",
-      "link": "https://www.skysports.com/football/brentford-vs-tottenham-hotspur/report/531310",
-      "summary": "Brentford were held to a goalless draw with Tottenham on Thomas Frank’s return to his former club as Spurs supporters sang \"boring, boring Tottenham\" at the Gtech Community Stadium.",
-      "publishedAt": "2026-01-01T22:00:00.000Z"
     }
   ]
 }
