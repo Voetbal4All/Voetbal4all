@@ -20,8 +20,14 @@
   <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css?v=20251227a" />
   <style>
-    /* Live banner: badge "Laatst gecontroleerd" terug als rode pill */
-    .live-text { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    /* Live banner: badge + socials (horizontaal) */
+    .live-text{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+    }
+  
     .live-updated{
       display:inline-flex;
       align-items:center;
@@ -33,14 +39,21 @@
       background: rgba(255, 59, 48, 0.18);
       border: 1px solid rgba(255, 59, 48, 0.35);
       color: #ff6b61;
-      /* Live banner socials horizontaal + consistente icon sizing */
+      margin-top:0;
+      align-self:flex-start;
+      flex:0 0 auto;
+    }
+  
     .live-socials{
       display:flex;
       flex-direction:row;
-      align-items:center;
+      align-items:flex-start;
       gap:10px;
       flex-wrap:nowrap;
+      white-space:nowrap;
+      flex:0 0 auto;
     }
+  
     .live-social{
       display:inline-flex;
       align-items:center;
@@ -48,12 +61,14 @@
       width:34px;
       height:34px;
       border-radius:10px;
+      flex:0 0 auto;
     }
+  
     .live-social svg{
       width:18px;
       height:18px;
       display:block;
-  }
+    }
   </style>
 
   <!-- Redirect: /index.html -> / -->
@@ -773,12 +788,9 @@
                   <ins class="adsbygoogle"
                     style="display:block"
                     data-ad-client="ca-pub-4062633211824348"
-                    data-ad-slot="6032627042"
+                    data-ad-slot="4831226012"
                     data-ad-format="auto"
                     data-full-width-responsive="true"></ins>
-                  <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  <\/script>
                 </div>
               `;
             }
