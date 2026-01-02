@@ -581,11 +581,11 @@
     const articleUrl = window.location.href;
     const encodedUrl = encodeURIComponent(articleUrl);
     const encodedTitle = encodeURIComponent(title);
-    
+    const fbUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl;
     document.getElementById('share-facebook').href = fbUrl;
 
     const twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodedTitle;
-    document.getElementById('share-twitter').href = twitterUrl;
+    document.getElementById('share-twitter').href = twitterUrl; 
 
     const waUrl = 'https://wa.me/?text=' + encodedTitle + '%20' + encodedUrl;
     document.getElementById('share-whatsapp').href = waUrl;
