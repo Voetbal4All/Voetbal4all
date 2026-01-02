@@ -568,8 +568,8 @@
         return;
       }
 
-      const API_BASE = "https://voetbal4all-backend-database.onrender.com";
-      const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
+      const API_BASE = "https://voetbal4all-backend.onrender.com";
+      const IMG_BASE = "https://voetbal4all-backend.onrender.com";
       const CACHE_KEY = "home_news_html_v5"; // Updated for 50 articles + football filter
       
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
@@ -728,9 +728,9 @@
                                   alt="${safeTitle}"
                                   loading="lazy"
                                   onerror="this.onerror=null;
-           this.src='https://voetbal4all-backend-database.onrender.com/images/default/placeholder.svg';
+           this.src='https://voetbal4all-backend.onrender.com/images/default/placeholder.svg';
            this.classList.add('is-fallback');">
-                      onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/placeholder.svg';this.classList.add('is-fallback');">` : ``}
+                      onerror="this.onerror=null;this.src='https://voetbal4all-backend.onrender.com/images/placeholder.svg';this.classList.add('is-fallback');">` : ``}
                   </div>
                   <div class="home-news__meta">
                     <div class="home-news__titleRow">

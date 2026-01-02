@@ -297,7 +297,7 @@
     document.getElementById("year").textContent = new Date().getFullYear();
 
     // Backend endpoints
-    const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
+    const IMG_BASE = "https://voetbal4all-backend.onrender.com";
     const NEWS_URL = IMG_BASE + "/api/news?nocache=1";
 
     const articleList = document.getElementById("article-list");
@@ -333,25 +333,23 @@
     }
 
     function detectCountry(a){
-      // Verzamel mogelijke bronnen waar "land" in kan zitten
-      const candidates = [
-        a?.country,
-        a?.category,
-        a?.title,
-        a?.snippet
-      ]
-        .filter(Boolean)
-        .map(s => String(s).toLowerCase().trim());
+    // 1) AI / backend country is leidend als aanwezig
+    const raw = safe(a?.country).toUpperCase().trim();
+    if (raw === "BE" || raw === "NL") return raw;
 
-      // 1) Eerst: echte ISO-code als die er is
-      const c0 = String(a?.country || "").toLowerCase().trim();
-      if (c0 === "be") return "BE";
-      if (c0 === "nl") return "NL";
+    // 2) Fallback: soms zit het in geschreven vorm
+    const raw2 = safe(a?.country).toLowerCase();
+    if (raw2.includes("belg")) return "BE";
+    if (raw2.includes("neder")) return "NL";
 
+    // 3) Fallback: prefix in fileName (indien je dat ooit gebruikt)
+    const fn = safe(a?.fileName).toLowerCase();
+    if (fn.startsWith("be_")) return "BE";
+    if (fn.startsWith("nl_")) return "NL";
 
-
-      return "INT";
-    }
+    // 4) Anders: internationaal / onbekend
+    return "INT";
+  }
 
     function flag(a){
       const cc = detectCountry(a);
@@ -406,7 +404,7 @@
           .trim();
         // STAP 1: forceer altijd een geldige afbeelding (nooit leeg)
         const fallbackImg =
-          "https://voetbal4all-backend-database.onrender.com/images/placeholder.svg";
+          "https://voetbal4all-backend.onrender.com/images/placeholder.svg";
 
           const imgUrl = toImgUrl(a?.image);
           const imgUrlFinal =
@@ -421,7 +419,7 @@
               src="${imgUrlFinal}"
               alt="${safeTitleAttr}"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/default/placeholder.svg';"
+              onerror="this.onerror=null;this.src='https://voetbal4all-backend.onrender.com/images/default/placeholder.svg';"
               style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
             >
 
@@ -444,17 +442,22 @@
 
     function applyFilters(){
       const q = norm(articleSearchText.value);
-      const c = safe(articleFilterCountry.value);
-      const cat = safe(articleFilterCategory.value);
+      const cRaw = articleFilterCountry?.value || "";
+      const catRaw = articleFilterCategory?.value || "";
+
+      // normalize "all" variants to empty string (= no filter)
+      const c = (cRaw === "all" || cRaw === "alles") ? "" : cRaw;
+      const cat = (catRaw === "all" || catRaw === "alles") ? "" : catRaw;
 
       const filtered = allItems.filter(a => {
         const text = norm((a.title||"") + " " + (a.snippet||"") + " " + (a.category||"") + " " + (a.country||""));
         if (q && !text.includes(q)) return false;
 
         if (c) {
-          const cc = safe(a.country || "").toUpperCase();
+          const cc = detectCountry(a); // ✅ gebruikt AI-country eerst, dan fallback
           if (cc !== c) return false;
         }
+        
         if (cat) {
           const ca = safe(a.category || "");
           if (ca !== cat) return false;
@@ -501,8 +504,13 @@
         // 2) [ ... ]
         allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
 
-        // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
-        allItems = allItems.filter(a => (a?.status || "").toLowerCase() === "ready");
+        // ✅ Toon nieuwe artikels pas als ze "ready" zijn.
+        // ✅ Laat oude artikels (zonder status) wél zichtbaar.
+        allItems = allItems.filter(a => {
+          const st = (a.status || a.imageStatus || "").toString().toLowerCase().trim();
+          if (st) return st === "ready";
+          return true;
+        });
 
         // sort newest first
         allItems.sort((a,b) => {
