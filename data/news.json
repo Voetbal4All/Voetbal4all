@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-01T23:23:55.237Z",
+  "generatedAt": "2026-01-02T02:00:02.610Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,54 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Match of the Day",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbctwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Highlights from the four Premier League matches played on New Year’s Day.",
-      "publishedAt": "2026-01-01T23:41:05.000Z"
+      "title": "Who has made Troy's Premier League team of the week?",
+      "link": "https://www.bbc.com/sport/football/articles/c0mk08gx421o?at_medium=RSS&at_campaign=rss",
+      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
+      "publishedAt": "2026-01-01T23:58:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea confirm Maresca exit amid poor PL run",
+      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
+      "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
+      "publishedAt": "2026-01-01T23:36:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep says Rodri 'changed the game' in City return",
+      "link": "https://www.espn.com/soccer/story/_/id/47475444/guardiola-rodri-manchester-city-return",
+      "summary": "Pep Guardiola said Rodri showed Manchester City what they have been missing for a year and a half after the Ballon d'Or winner's substitute performance during a goalless draw at Sunderland.",
+      "publishedAt": "2026-01-01T23:36:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool disappointed as unbeaten run goes to 8",
+      "link": "https://www.espn.com/soccer/story/_/id/47474640/liverpool-disappointed-unbeaten-run-8-leeds-draw",
+      "summary": "Arne Slot described Liverpool's 0-0 draw with Leeds United as a \"disappointment\" despite his team extending their unbeaten run to eight games in all competitions.",
+      "publishedAt": "2026-01-01T23:36:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "City lose ground to Arsenal with Sunderland draw",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740784",
+      "summary": "Sunderland extended their unbeaten Premier League home record to 10 games after holding Manchester City to a goalless draw.",
+      "publishedAt": "2026-01-01T23:36:34.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +62,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man City held by stubborn Sunderland in entertaining draw",
-      "link": "https://www.bbc.com/sport/football/videos/cd9e82jzx07o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City fall four points behind Arsenal in the Premier League title race after being held to a goalless draw by Sunderland, who maintain their unbeaten home record.",
-      "publishedAt": "2026-01-01T22:57:29.000Z"
+      "title": "'We are not happy' - Man City fall behind Arsenal in title race",
+      "link": "https://www.bbc.com/sport/football/articles/cm248l1j7jno?at_medium=RSS&at_campaign=rss",
+      "summary": "Pep Guardiola questioned whether the Premier League title race was only a two-horse, but his Manchester City side can ill-afford many slip-ups in their quest to hunt down leaders Arsenal.",
+      "publishedAt": "2026-01-01T23:33:23.000Z"
     },
     {
       "type": "rss",
@@ -36,39 +80,6 @@
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leeds hold Liverpool to goalless draw at Anfield",
-      "link": "https://www.bbc.com/sport/football/videos/cp82ly9eg32o?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool draw 0-0 with Leeds to start 2026 with their first goalless draw of Arne Slot's tenure at Anfield.",
-      "publishedAt": "2026-01-01T22:31:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Cairney scores stunning late equaliser for Fulham at Palace",
-      "link": "https://www.bbc.com/sport/football/videos/cvgnw1pdze1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tom Cairney scores late to earn Fulham a 1-1 draw and extend Crystal Palace's winless run across competitions.",
-      "publishedAt": "2026-01-01T22:30:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Spurs draw on Frank's return to Brentford",
-      "link": "https://www.bbc.com/sport/football/videos/clyw52dly9zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Spurs are unable to produce a win at manager Thomas Frank's former club as they draw 0-0 against Brentford.",
-      "publishedAt": "2026-01-01T22:30:49.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -77,50 +88,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13489334/ryan-searle-heavy-metal-opens-up-on-rare-eye-condition-ahead-of-world-darts-championship-semi-final-against-luke-littler",
       "summary": "Ryan Searle has opened up on his rare eye conditions as he looks to shock Luke Littler in the semi-finals of the World Darts Championship.",
       "publishedAt": "2026-01-01T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea confirm Maresca exit amid poor PL run",
-      "link": "https://www.espn.com/soccer/story/_/id/47469870/chelsea-confirm-enzo-maresca-exit-amid-poor-premier-league-run-breakdown-relations",
-      "summary": "Chelsea confirmed Thursday they have parted ways with manager Enzo Maresca ahead of Sunday's game against Manchester City.",
-      "publishedAt": "2026-01-01T22:26:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool disappointed as unbeaten run goes to 8",
-      "link": "https://www.espn.com/soccer/story/_/id/47474640/liverpool-disappointed-unbeaten-run-8-leeds-draw",
-      "summary": "Arne Slot described Liverpool's 0-0 draw with Leeds United as a \"disappointment\" despite his team extending their unbeaten run to eight games in all competitions.",
-      "publishedAt": "2026-01-01T22:26:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "City lose ground to Arsenal with Sunderland draw",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740784",
-      "summary": "Sunderland extended their unbeaten Premier League home record to 10 games after holding Manchester City to a goalless draw.",
-      "publishedAt": "2026-01-01T22:26:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Spurs' Johnson agrees move to Palace",
-      "link": "https://www.espn.com/soccer/story/_/id/47472822/tottenham-transfers-brennan-johnson-agrees-35m-crystal-palace-move",
-      "summary": "Tottenham winger Brennan Johnson has agreed to join Crystal Palace in a deal worth £35 million ($47.2m), sources have told ESPN.",
-      "publishedAt": "2026-01-01T22:26:42.000Z"
     },
     {
       "type": "rss",
@@ -135,13 +102,24 @@
     },
     {
       "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Heavy metal? It's not even aluminium foil football'",
+      "link": "https://www.bbc.com/sport/articles/cr7j5z1m835o?at_medium=RSS&at_campaign=rss",
+      "summary": "As Liverpool are booed off following a goalless draw against Leeds, it was hardly the start to the New Year that Arne Slot's side would have wanted.",
+      "publishedAt": "2026-01-01T22:11:21.000Z"
+    },
+    {
+      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Thomas Frank’s Spurs booed off after toiling to point on his Brentford return",
       "link": "https://www.theguardian.com/football/2026/jan/01/brentford-spurs-premier-league-match-report",
-      "summary": "There was an extraordinary moment just before kick-off here when Thomas Frank strode 20 yards on to the pitch and applauded all four corners of the stadium. The Tottenham head coach was applauded back by the Brentford fans because he will always be a hero to them. His work over a near seven-year period as their manager has seen to that. But what of the followers in his new gig? It is safe to say the jury remains out after this driest of January performances, one that had the supporters in the away enclosure adapting a barb they have historically reserved for their rivals, Arsenal. “Boring, boring Tottenham,” they chorused in the 85th minute. Continue reading...",
+      "summary": "There was an extraordinary moment just before kick-off here when Thomas Frank strode 20 yards on to the pitch and applauded all four corners of the stadium. The Tottenham head coach was applauded back by the Brentford fans because he will always be a hero to them. His work over a near seven-year period as their manager has seen to that. But what of the followers in his new gig, which began when he said farewell to the Gtech last summer? It is safe to say the jury remains out after this driest of January performances had the supporters in the away enclosure adapting a barb they have historically reserved for Arsenal. “Boring, boring Tottenham,” they chorused in the 85th minute. Continue reading...",
       "publishedAt": "2026-01-01T22:09:15.000Z"
     },
     {
@@ -174,7 +152,7 @@
       "flag": "🌍",
       "title": "Stubborn Sunderland deny Manchester City to give Arsenal four-point cushion at top",
       "link": "https://www.theguardian.com/football/2026/jan/01/sunderland-manchester-city-premier-league-match-report",
-      "summary": "Something had to give and it was not Sunderland’s unbeaten home Premier League record. Instead Manchester City’s winning streak came to a juddering halt as Pep Guardiola’s side spurned a chance to move within two points of Arsenal at the top of the table. Hats – or should that be chapeaus – off to Régis Le Bris and his clever and courageous Sunderland team for not merely frustrating City but offering Gianluigi Donnarumma scope to remind everyone precisely why he is a world-class goalkeeper. Continue reading...",
+      "summary": "Something had to give and it was not Sunderland’s unbeaten home Premier League record. Instead ­Manchester City’s winning streak came to a juddering halt as Pep ­Guardiola’s side spurned a chance to move within two points of Arsenal at the top of the table. Hats – or should that be chapeaux – off to Régis Le Bris and his clever and courageous Sunderland team for not merely frustrating City but offering Gianluigi Donnarumma scope to remind everyone precisely why he is a world-class goalkeeper. Continue reading...",
       "publishedAt": "2026-01-01T22:04:33.000Z"
     },
     {
@@ -220,6 +198,28 @@
       "link": "https://www.vi.nl/nieuws/eerste-0-0-van-liverpool-onder-slot-liverpool-is-zijn-magie-kwijt",
       "summary": "De Engelse media concludeerden na de remise van Liverpool tegen Leeds United dat het nog altijd niet goed zit bij de ploeg van Arne Slot. Liverpool toonde de afgelopen weken herstel met vier zeges op rij, maar liet in het eerste duel van 2026 weer punten liggen. 'Ze oogden futloos en voorspelbaar.'",
       "publishedAt": "2026-01-01T21:23:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior leading contender for Chelsea job",
+      "link": "https://www.bbc.com/sport/football/articles/c0er1wx3v28o?at_medium=RSS&at_campaign=rss",
+      "summary": "Strasbourg boss Liam Rosenior is the leading contender to be the next Chelsea manager, but others remain under consideration.",
+      "publishedAt": "2026-01-01T19:58:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Glasner’s Crystal Palace in ‘survival mode’ as Fulham leveller extends winless run",
+      "link": "https://www.theguardian.com/football/2026/jan/01/crystal-palace-fulham-premier-league-match-report",
+      "summary": "It is a strange quirk of this fixture that the away side has not lost for the last 10 Premier League meetings between Crystal Palace and Fulham, with the substitute Tom Cairney’s late equaliser ensuring that streak goes on. Only a brilliant save in added time from Dean Henderson and a glaring miss from the former Palace player Joachim Andersen denied Marco Silva’s side all the points after falling behind to Jean-Philippe Mateta’s first goal from open play since 1 November. But Oliver Glasner was still bitterly disappointed that his team could not end a sequence of six games without a victory in all competitions after running out of steam again in their 31st match of the season. “We are a little bit in survival mode,” said the Palace manager, whose team now face three games in the space of seven days. Continue reading...",
+      "publishedAt": "2026-01-01T19:57:04.000Z"
     }
   ]
 }
