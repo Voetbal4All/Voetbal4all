@@ -1,6 +1,138 @@
 {
-  "generatedAt": "2026-01-02T22:24:04.482Z",
+  "generatedAt": "2026-01-02T23:22:55.768Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van Veen overcomes Anderson in classic to reach maiden final",
+      "link": "https://www.skysports.com/watch/video/13489816/world-darts-championship-gian-van-veen-vs-gary-anderson-highlights",
+      "summary": "Highlights of the World Championship semi-final between Gian van Veen and Gary Anderson.",
+      "publishedAt": "2026-01-02T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Van Veen to face Littler in final after Dutchman beats Anderson in epic",
+      "link": "https://www.skysports.com/darts/news/12040/13489762/world-darts-championship-2026-luke-littler-to-face-gian-van-veen-in-final-after-dutchman-holds-off-gary-anderson-in-epic-semi-final",
+      "summary": "Luke Littler will take on Gian van Veen in the World Darts Championship final after the Dutchman came through a tough semi-final battle with Gary Anderson to win 6-3 at Alexandra Palace.",
+      "publishedAt": "2026-01-02T22:54:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Liverpool gaat aan de haal met toptalent van Austria Wien'",
+      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-02T22:45:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSG-fans kunnen voor €800 naar luxe Koeweit-duel, Marseille-aanhang blijft thuis",
+      "link": "https://www.vi.nl/nieuws/psg-fans-kunnen-voor-800-naar-luxe-koeweit-duel-marseille-aanhang-blijft-thuis",
+      "summary": "In Frankrijk is er veel te doen om de Franse Supercup (Trophée des Champions). Deze wedstrijd wordt namelijk in Koeweit gespeeld. Het zorgt voor veel aversie én een gekleurd decor. De fans van Paris Saint-Germain krijgen de kans op een luxe all-inclusive reis, terwijl die van Olympique Marseille thuisblijven.",
+      "publishedAt": "2026-01-02T22:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Rosenior frontrunner to replace Maresca",
+      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
+      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
+      "publishedAt": "2026-01-02T22:43:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep denies Maresca, City links: 'I have a contract'",
+      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
+      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
+      "publishedAt": "2026-01-02T22:43:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Neymar hint about next contract teased",
+      "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
+      "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
+      "publishedAt": "2026-01-02T22:43:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Men's January transfer grades: Spurs get an A for Johnson's Palace move",
+      "link": "https://www.espn.com/soccer/story/_/id/47444534/january-transfer-window-grading-big-signings-mens-soccer",
+      "summary": "The 2026 winter transfer window is now open. Here is how we rated the biggest deals, with Brennan Johnson moving from Tottenham to Crystal Palace.",
+      "publishedAt": "2026-01-02T22:43:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Transfer rumors, news: Liverpool close to signing Ordóñez",
+      "link": "https://www.espn.com/soccer/story/_/id/47479556/transfer-rumors-news-rodrygo-lined-arsenal-man-city",
+      "summary": "The reigning Premier League champions are close to signing Ecuadorian defender Joel Ordóñez. Transfer Talk has the latest news and rumors.",
+      "publishedAt": "2026-01-02T22:43:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Littler on the brink of darting greatness? 'There's more in the tank!'",
+      "link": "https://www.skysports.com/darts/news/12040/13489765/world-darts-championship-luke-littler-has-more-in-the-tank-as-he-closes-on-darting-greatness-and-second-world-title",
+      "summary": "Luke Littler believes he is close to matching the achievements of the sports' all-time greats and insists he can perform even better in Saturday's World Darts Championship final.",
+      "publishedAt": "2026-01-02T22:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Thomas Frank admits ‘it’s difficult to enjoy’ being Tottenham head coach",
+      "link": "https://www.theguardian.com/football/2026/jan/02/thomas-frank-admits-its-difficult-to-enjoy-being-tottenham-head-coach",
+      "summary": "Frank likens challenges at Spurs to running a marathon Tottenham booed off after goalless draw at Brentford Thomas Frank has admitted he is not enjoying his job at Tottenham. The head coach is dealing with numerous problems as he navigates what always stood to be a transitional season, the most insistent being his team’s lack of creativity. Spurs were booed off after Thursday’s 0-0 draw at Brentford by the travelling support, who also chanted “boring, boring Tottenham”. But Frank is confident he will come to look back on the first half of his debut campaign more fondly once – and not if – his squad emerges on the other side, stronger and wiser for the suffering. Tottenham are 12th in the Premier League – their next game is at home to Sunderland on Sunday and Frank leant into a marathon-running analogy when he was asked whether he was enjoying the challenge to which he has signed up. Continue reading...",
+      "publishedAt": "2026-01-02T22:30:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Frank: I'm not enjoying Spurs reign so far - but hard work will be worth it",
+      "link": "https://www.skysports.com/football/news/12040/13489761/thomas-frank-tottenham-boss-admits-he-is-not-enjoying-his-reign-so-far-but-hard-work-will-be-worth-it-in-the-long-run",
+      "summary": "Thomas Frank has admitted that he is not enjoying his managerial reign at Tottenham so far but is looking forward to being able to look back on his difficult start positively.",
+      "publishedAt": "2026-01-02T22:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,6 +143,17 @@
       "link": "https://www.vi.nl/nieuws/drie-nederlanders-op-rij-fraser-verrast-en-tekent-in-china",
       "summary": "Henk Fraser is de nieuwe trainer van Shaanxi Union. Dat heeft de Chinese club bekendgemaakt.",
       "publishedAt": "2026-01-02T22:12:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'What on EARTH is going on?!' 🤯 Anderson and Van Veen hit Big Fish in same set!",
+      "link": "https://www.skysports.com/watch/video/13489810/world-dart-championships-gary-anderson-and-gian-van-veen-hit-big-fish-in-same-set",
+      "summary": "Gary Anderson and Gian Van Veen hit the Big Fish in a crazy set of darts at Ally Pally!",
+      "publishedAt": "2026-01-02T22:05:00.000Z"
     },
     {
       "type": "rss",
@@ -25,17 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Papers: Mainoo determined not to give up on Man Utd career",
-      "link": "https://www.skysports.com/football/news/12040/13489805/man-utd-transfer-news-kobbie-mainoo-determined-not-to-give-up-on-place-under-ruben-amorim-paper-talk",
-      "summary": "The top stories and transfer rumours from Saturday's newspapers.....",
-      "publishedAt": "2026-01-02T21:45:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -44,61 +176,6 @@
       "link": "https://www.vi.nl/nieuws/e-n-flits-levert-milan-driepunter-op-in-ieder-geval-tot-zondag-koploper",
       "summary": "AC Milan is in ieder geval tot zondagmiddag koploper van de Serie A. Tegen Cagliari volstond één flits na rust om de punten mee te nemen: 0-1.",
       "publishedAt": "2026-01-02T21:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Ham sign striker Pablo and agree deal for Castellanos in £47m spree",
-      "link": "https://www.theguardian.com/football/2026/jan/02/west-ham-taty-castellanos-pablo-felipe-agree-deals-buy-strikers",
-      "summary": "Both transfers being driven by Nuno Espírito Santo Sterling rejects West Ham, with Fulham favourites West Ham have boosted their attacking options by signing Gil Vicente’s Pablo Felipe and are poised to add Lazio’s Taty Castellanos to their squad as well, at a combined cost of up to £47m. Both deals have been driven by Nuno Espírito Santo, who is looking to help his struggling side’s fight to stay in the Premier League by adding more firepower. West Ham considered a move for the Wolves striker Jørgen Strand Larsen but decided against making a bid after concluding that his £40m valuation was too high. Continue reading...",
-      "publishedAt": "2026-01-02T21:16:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Emotionele Celtic-manager verdedigt zichzelf stevig in aanloop naar Old Firm",
-      "link": "https://www.vi.nl/nieuws/emotionele-celtic-manager-verdedigt-zich-stevig-in-aanloop-naar-old-firm",
-      "summary": "De druk op Celtic-manager Wilfried Nancy is in korte tijd enorm geworden. In aanloop naar de Old Firm tegen Rangers, zaterdag op Celtic Park, voelde Nancy zich genoodzaakt om uitgebreid en emotioneel tekst en uitleg te geven. De kraker tegen de aartsrivaal geldt nu al als de belangrijkste wedstrijd van zijn nog prille periode in Glasgow - en mogelijk zelfs als een beslissend moment voor zijn toekomst.",
-      "publishedAt": "2026-01-02T21:12:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "West Ham United legt 23 miljoen euro op tafel voor nieuwe spits",
-      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-02T21:09:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "McIlroy 'would be OK' with DeChambeau, LIV players returning to PGA Tour",
-      "link": "https://www.skysports.com/golf/news/12040/13489790/rory-mcilroy-says-he-would-approve-of-bryson-dechambeau-and-other-liv-golf-players-returning-to-the-pga-tour",
-      "summary": "Rory McIlroy believes golf needs its best players to compete more regularly against each other and would welcome a return from LIV of the likes of Bryson DeChambeau and Jon Rahm.",
-      "publishedAt": "2026-01-02T20:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd explore conditions for Baleba signing in January",
-      "link": "https://www.skysports.com/football/news/12040/13489767/man-utd-transfer-news-carlos-baleba-signing-conditions-explored-but-no-deal-expected-with-brighton-in-january-transfer-window",
-      "summary": "Manchester United have explored the conditions of signing Brighton's Carlos Baleba in January, Sky Sports News can reveal.",
-      "publishedAt": "2026-01-02T19:00:00.000Z"
     },
     {
       "type": "rss",
@@ -113,61 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Rosenior frontrunner to replace Maresca",
-      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
-      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
-      "publishedAt": "2026-01-02T18:29:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep denies Maresca, City links: 'I have a contract'",
-      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
-      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
-      "publishedAt": "2026-01-02T18:29:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neymar hint about next contract teased",
-      "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
-      "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
-      "publishedAt": "2026-01-02T18:29:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Maresca made Chelsea world champions. Six months later, he's gone. What happened?",
-      "link": "https://www.espn.com/soccer/story/_/id/47480932/why-maresca-left-chelsea-6-months-making-world-champions",
-      "summary": "The reigning Club World Cup champions' coach is out of a job. What caused the dramatic breakdown in Enzo Maresca's working relationship with Chelsea?",
-      "publishedAt": "2026-01-02T18:29:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Don't expect Chelsea to hire an elite coach after Maresca split",
-      "link": "https://www.espn.com/soccer/story/_/id/47473155/dont-expect-chelsea-hire-elite-coach-enzo-maresca-split",
-      "summary": "Chelsea used to demand success, hiring the world's best coaches to deliver results.",
-      "publishedAt": "2026-01-02T18:29:37.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -176,17 +198,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/02/chelsea-enzo-maresca-liam-rosenior-analysis",
       "summary": "Enzo Maresca got the sack because of his actions. That does not mean the club’s structure needs a complete overhaul Some clubs build around their manager. Eddie Howe is hugely influential at Newcastle and Aston Villa are pretty much Unai Emery FC these days. Chelsea, though, have adopted an alternative model. They have a team of five sporting directors, led by Paul Winstanley and Laurence Stewart, and do not want one person to hold all the power. Yet the question many are asking in the wake of Enzo Maresca’s demise is whether the template will yield success at the very highest level. It is never quiet at Chelsea. They are often busy in the transfer market, meaning there is an element of players coming and going, and they are now looking for their fifth permanent head coach since a consortium led by Todd Boehly and Clearlake Capital, a private equity firm run by Behdad Eghbali and José E Feliciano, bought the club from Roman Abramovich in 2022. Continue reading...",
       "publishedAt": "2026-01-02T18:21:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Salah goals & Hakimi's return - six Afcon group stage talking points",
-      "link": "https://www.bbc.com/sport/football/articles/cd7z3zp94g1o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport Africa takes a look back at some of the key talking points from the 2025 Africa Cup of Nations group stage.",
-      "publishedAt": "2026-01-02T18:03:47.000Z"
     },
     {
       "type": "rss",
@@ -201,25 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Clare Balding remembers 'one of a kind' father Ian",
-      "link": "https://www.skysports.com/racing/news/12040/13489758/clare-balding-remembers-her-one-of-a-kind-father-as-racing-mourns-the-loss-of-ian-balding",
-      "summary": "Clare Balding has paid tribute to her \"fearless, funny and charming\" father Ian following his death on Friday at the age of 87.",
-      "publishedAt": "2026-01-02T17:11:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arteta calls for Gyokeres to embrace the noise amid Arsenal title charge",
-      "link": "https://www.skysports.com/football/news/12040/13489641/mikel-arteta-exclusive-arsenal-boss-calls-for-viktor-gyokeres-and-the-rest-of-his-squad-to-embrace-title-race-noise",
-      "summary": "Mikel Arteta has called for Viktor Gyokeres and his Arsenal team-mates to embrace the noise surrounding the squad, while also insisting it will \"click\" for the Swedish striker eventually in north London.",
-      "publishedAt": "2026-01-02T17:00:00.000Z"
+      "title": "Villa 'not convinced' to sign Elliott permanently - Emery",
+      "link": "https://www.bbc.com/sport/football/articles/cr4kx9l7zd5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Aston Villa manager Unai Emery says the club were \"not convinced\" two months ago to sign Harvey Elliott permanently.",
+      "publishedAt": "2026-01-02T16:25:02.000Z"
     }
   ]
 }
