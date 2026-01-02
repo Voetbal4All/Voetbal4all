@@ -1855,3 +1855,8 @@ img {
     font-size:16px;
     line-height:1;
   }
+
+  .is-fallback {
+    object-fit: cover;
+    opacity: 0.95;
+  }

@@ -722,7 +722,15 @@
               <article class="home-news__item">
                 <a class="home-news__link" href="artikel.html?file=${encodeURIComponent(file)}">
                   <div class="home-news__thumbWrap">
-                    ${imgPath ? `<img class="home-news__thumb" src="${imgPath}" alt="${safeTitle}" loading="lazy">` : ``}
+                    ${imgPath ? `<img
+                                  class="home-news__thumb"
+                                  src="${imgPath}"
+                                  alt="${safeTitle}"
+                                  loading="lazy"
+                                  onerror="this.onerror=null;
+           this.src='https://voetbal4all-backend-database.onrender.com/images/default/placeholder.svg';
+           this.classList.add('is-fallback');">
+                      onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/placeholder.svg';this.classList.add('is-fallback');">` : ``}
                   </div>
                   <div class="home-news__meta">
                     <div class="home-news__titleRow">
