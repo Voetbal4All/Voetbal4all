@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-01-02T14:24:50.773Z",
+  "generatedAt": "2026-01-02T15:26:03.268Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liam Rosenior on Chelsea ‘noise’, Füllkrug joins Milan on loan: football news – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/02/chelsea-manager-latest-premier-league-buildup-and-more-football-news-live",
+      "summary": "⚽ Read Jacob Steinberg on Maresca’s Chelsea departure ⚽ Fixtures | Tables | Follow us on Bluesky | Email Tom Eddie Howe is having none of the idea that Newcastle have no plan B, reports PA Media, and rejected suggestions they were under the cosh in their win at Burnley. Howe bristled at suggestions they had come under an onslaught at Turf Moor and there was nothing they could do about it. He said: “An onslaught? What, against us? Have you seen the stats of the game? You must have been watching a different game then. There was no onslaught. “Yes, we had moments, of course. We had moments the other way. I would never describe it as that. If it was an onslaught, I’d give you my opinion and say, ‘Yes, I thought it was’. Continue reading...",
+      "publishedAt": "2026-01-02T15:19:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Guardiola moedeloos van vraag over opvolger: 'Ik weet dat jullie me zat zijn'",
+      "link": "https://www.vi.nl/nieuws/guardiola-moedeloos-van-vraag-over-opvolger-ik-weet-dat-jullie-me-zat-zijn",
+      "summary": "Pep Guardiola wordt een beetje moedeloos van de stortvloed aan vragen over zijn toekomst. Er wordt in Engeland flink gespeculeerd over mogelijke opvolgers van de Spanjaard bij Manchester City, dat ook al met de onlangs bij Chelsea ontslagen Enzo Maresca zou hebben gesproken . Guardiola reageerde op zijn manier op de vragen over zijn toekomst.",
+      "publishedAt": "2026-01-02T15:10:41.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +32,18 @@
       "title": "Sources: Rosenior frontrunner to replace Maresca",
       "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
       "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
-      "publishedAt": "2026-01-02T14:22:08.000Z"
+      "publishedAt": "2026-01-02T14:50:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep denies Maresca, City links: 'I have a contract'",
+      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
+      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
+      "publishedAt": "2026-01-02T14:50:38.000Z"
     },
     {
       "type": "rss",
@@ -21,18 +54,51 @@
       "title": "Neymar hint about next contract teased",
       "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
       "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
-      "publishedAt": "2026-01-02T14:22:08.000Z"
+      "publishedAt": "2026-01-02T14:50:38.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Slot brands Liverpool's season a 'constant battle'",
-      "link": "https://www.espn.com/soccer/story/_/id/47480631/arne-slot-brands-liverpool-season-constant-battle",
-      "summary": "Arne Slot has described Liverpool's season so far as a \"constant battle\" but believes their current fourth-placed position is a fair reflection of their campaign to date.",
-      "publishedAt": "2026-01-02T14:22:08.000Z"
+      "title": "'Crazy 24 hours' - McFarlane ready for Chelsea chance",
+      "link": "https://www.bbc.com/sport/football/articles/cr7j5x8y7deo?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea interim manager Calum McFarlane says it has been a \"crazy\" 24 hours since replacing Enzo Maresca at Stamford Bridge.",
+      "publishedAt": "2026-01-02T14:44:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Give me time!' | Nancy's passionate SEVEN-MINUTE defence of his Celtic start",
+      "link": "https://www.skysports.com/watch/video/13489713/wilfried-nancy-celtic-manager-launches-passionate-seven-minute-defence-of-his-start-at-parkhead-and-issues-message-to-critics",
+      "summary": "Celtic manager Wilfried Nancy launches a passionate seven-minute defence of his start at Parkhead and issues a message to critics following five defeats from seven games.",
+      "publishedAt": "2026-01-02T14:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Istanbul Basaksehir zwaait Türuc uit: aanvaller transfervrij de window in",
+      "link": "https://www.vi.nl/nieuws/istanbul-basaksehir-zwaait-t-ruc-uit-aanvaller-transfervrij-de-window-in",
+      "summary": "Istanbul Basaksehir heeft uitgebreid afscheid genomen van Deniz Türüç (27). Het contract van de 32-jarige aanvaller is ontbonden. De Turkse club bracht vrijdag een laatste dankwoord uit in de richting van de speler.",
+      "publishedAt": "2026-01-02T14:35:41.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brighton latest: Gross completing formalities ahead of return from Dortmund",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2026-01-02T14:30:00.000Z"
     },
     {
       "type": "rss",
@@ -55,28 +121,6 @@
       "link": "https://www.vi.nl/nieuws/chelsea-interim-blikt-terug-op-bizarre-24-uur-na-ontslag-maresca",
       "summary": "Calum McFarlane staat zondag voor de grootste opgave uit zijn trainerscarrière. De veertigjarige Engelsman is tegen Manchester City de eindverantwoordelijke op de bank van Chelsea, dat donderdag manager Enzo Maresca op straat zette. McFarlane beschouwt het duel met The Citizens niet als een auditie om de nieuwe manager van The Blues te worden.",
       "publishedAt": "2026-01-02T14:08:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "All your FPL stats and Premier League team news in one place",
-      "link": "https://www.bbc.com/sport/articles/c5yxj0dk4eko?at_medium=RSS&at_campaign=rss",
-      "summary": "Every key bit of Premier League team news and the most important Fantasy Premier League statistics - all in one place.",
-      "publishedAt": "2026-01-02T14:04:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liam Rosenior on Chelsea ‘noise’, Füllkrug joins Milan on loan: football news – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/02/chelsea-manager-latest-premier-league-buildup-and-more-football-news-live",
-      "summary": "⚽ Read Jacob Steinberg on Maresca’s Chelsea departure ⚽ Fixtures | Tables | Follow us on Bluesky | Email Tom Eddie Howe is having none of the idea that Newcastle have no plan B, reports PA Media, and rejected suggestions they were under the cosh in their win at Burnley. Howe bristled at suggestions they had come under an onslaught at Turf Moor and there was nothing they could do about it. He said: “An onslaught? What, against us? Have you seen the stats of the game? You must have been watching a different game then. There was no onslaught. “Yes, we had moments, of course. We had moments the other way. I would never describe it as that. If it was an onslaught, I’d give you my opinion and say, ‘Yes, I thought it was’. Continue reading...",
-      "publishedAt": "2026-01-02T14:01:27.000Z"
     },
     {
       "type": "rss",
@@ -124,17 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Schoenmaker legt zich neer bij vertrek bij ADO: 'Maar je wil anders afsluiten'",
-      "link": "https://www.vi.nl/nieuws/schoenmaker-legt-zich-neer-bij-vertrek-bij-ado-maar-je-wil-anders-afsluiten",
-      "summary": "Lex Schoenmaker vertrok vorig jaar als ambassadeur van ADO Den Haag. De manier waarop dat ging, voelt voor het clubicoon nog altijd 'vrij ongemakkelijk'.",
-      "publishedAt": "2026-01-02T13:15:59.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -143,17 +176,6 @@
       "link": "https://www.skysports.com/nfl/news/12040/13489024/nfl-week-18-lamar-jackson-and-aaron-rodgers-meet-in-decider-myles-garrett-targets-history-and-las-vegas-raiders-close-in-on-no-1-draft-pick",
       "summary": "",
       "publishedAt": "2026-01-02T13:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "AC Milan pikt Füllkrug op in Londen en bedingt ook optie tot koop",
-      "link": "https://www.vi.nl/nieuws/aston-villa-haalt-braziliaans-talent-voor-12-miljoen-euro",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-02T12:56:47.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13489627/gian-van-veen-dutchman-confident-he-poses-greatest-threat-to-luke-littlers-reign-as-world-champion",
       "summary": "Gian van Veen believes he now poses the greatest challenge to Luke Littler's reign as world champion after surging into a maiden Alexandra Palace semi-final.",
       "publishedAt": "2026-01-02T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Palace latest: Eagles close to completing £35m Johnson deal",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "summary": "",
-      "publishedAt": "2026-01-02T11:28:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Africa Cup of Nations: tie-by-tie analysis of the last-16 matches | Osasu Obayiuwana",
-      "link": "https://www.theguardian.com/football/2026/jan/02/africa-cup-of-nations-tie-by-tie-analysis-of-the-last-16-matches",
-      "summary": "After a group stage that delivered an average of 3.6 goals a game we look at the match-ups in Morocco that start on Saturday Senegal, winners of the Afcon in 2022, have arguably the best collection of players, including the experience of Sadio Mané and the explosive talent of Nicolas Jackson, and are superior to their east African opponents. But Sudan, who qualified for the tournament despite the tragedy of a horrendous war in their country, certainly match the Lions of Teranga in fortitude. Sudan, coached by the Ghanaian Kwesi Appiah, who led his home country at the 2014 World Cup in Brazil, played all their qualifiers away from home, with the war, which began in April 2023, shutting down a thriving domestic league. The Sudan striker John Mano told the BBC of people back home: “Some of them cannot watch the matches … They can’t even listen on the radio … We are trying to free our country, through the football way.” A win for Sudan would be one of the fairytales of the tournament. Continue reading...",
-      "publishedAt": "2026-01-02T11:07:40.000Z"
     }
   ]
 }
