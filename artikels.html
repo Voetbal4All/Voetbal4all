@@ -1,528 +1,459 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
-    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voetbal Nieuws - Voetbal4All</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <meta charset="UTF-8" />
-  <title>Voetbal4All - Artikels & verhalen</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="style.css" />
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .filters {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .filter-group select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+
+        .filter-group select:hover {
+            border-color: #667eea;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .article-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #f0f0f0;
+        }
+
+        .article-content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .article-snippet {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            color: #999;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .country-flag {
+            font-size: 1.2rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: opacity 0.3s;
+            text-align: center;
+        }
+
+        .read-more:hover {
+            opacity: 0.9;
+        }
+
+        .ad-container {
+            background: #f9f9f9;
+            border: 2px dashed #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            padding: 40px;
+        }
+
+        .error {
+            background: #fee;
+            border: 2px solid #fcc;
+            border-radius: 12px;
+            padding: 20px;
+            color: #c33;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-group select {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚽ Voetbal Nieuws</h1>
+            <p>Het laatste voetbalnieuws uit België en Nederland</p>
+        </header>
 
-<body class="v4-hide-live-mobile">
-  <div class="page">
-
-    <!-- NAVBAR -->
-    <header class="navbar">
-      <div class="shell">
-        <div class="navbar-inner">
-
-          <a href="index.html" class="brand brand--logo-only">
-            <img
-              src="assets/img/brand/logo-voetbal4all.svg"
-              alt="Voetbal4All"
-              class="brand-logo"
-              loading="eager"
-            />
-          </a>
-
-          <nav class="nav-links">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
-
-            <!-- SPORTIEVE EVENTS -->
-            <div class="nav-item nav-item--dropdown">
-              <button class="nav-link nav-link--dropdown">
-                Sportieve events <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
-                <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
-                <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
-                <a href="stages.html" class="nav-dropdown-link">Stages</a>
-                <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
-              </div>
-            </div>
-
-            <!-- CLUB & FUN -->
-            <div class="nav-item nav-item--dropdown">
-              <button class="nav-link nav-link--dropdown">
-                Club &amp; fun <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
-                <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
-                <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
-                <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
-                <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
-              </div>
-            </div>
-
-            <!-- VACATURES & PROFIELEN -->
-            <div class="nav-item nav-item--dropdown">
-              <button type="button" class="nav-link nav-link--dropdown">
-                Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
-                <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
-                <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
-              </div>
-            </div>
-
-            <!-- SPORTIEF -->
-            <div class="nav-item nav-item--dropdown">
-              <button type="button" class="nav-link nav-link--dropdown">
-                Sportief <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
-                <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
-                <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
-                <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
-                <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
-                <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
-              </div>
-            </div>
-
-            <!-- VOETBAL4ALL -->
-            <div class="nav-item nav-item--dropdown">
-              <button type="button" class="nav-link nav-link--dropdown">
-                Voetbal4All <span class="nav-link-caret">▾</span>
-              </button>
-              <div class="nav-dropdown">
-                <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
-                <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
-                <a href="contact.html" class="nav-dropdown-link">Contact</a>
-              </div>
-            </div>
-          </nav>
-
-          <a href="adverteren.html" class="nav-cta">
-            <span>Adverteer nu</span>
-            <span>Sponsor &amp; Ads</span>
-          </a>
-
-          <button class="nav-burger" aria-label="Menu">☰</button>
-        </div>
-      </div>
-    </header>
-
-    <!-- LIVE BANNER -->
-    <section class="live-banner-top">
-      <div class="shell">
-        <div class="live-banner">
-          <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
-          <div class="live-text">
-            <span class="live-text-main"></span>
-            <div class="live-updated"></div>
-          </div>
-          <div class="live-socials" aria-label="Volg Voetbal4All">
-            <div class="live-socials-label">Volg ons</div>
-            <div class="live-socials-icons"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- HEADER AD -->
-    <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
-      <div class="shell">
-        <div class="ad-slot ad-slot-header sticky-ad-header">
-          <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4062633211824348"
-            data-ad-slot="3518144343"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-      </div>
-    </section>
-
-    <main>
-      <section class="section-main">
-        <div class="shell">
-
-          <!-- INTRO -->
-          <article class="card" style="margin-bottom:12px;">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Artikels</div>
-                <div class="card-title">Laatste voetbalnieuws &amp; verhalen (BE &amp; NL)</div>
-              </div>
-              <span class="pill-small" id="news-count">—</span>
-            </div>
-            <p class="note">
-              Filter op land en categorie, en zoek op club/competitie. De feed komt uit de backend via <strong>/api/news</strong>.
-            </p>
-          </article>
-
-          <div class="v4-layout-sidebar">
-
-            <!-- LINKS -->
-            <div class="v4-content">
-
-              <!-- ZOEK + FILTERS -->
-              <div class="search-bar search-bar--advanced" style="margin-bottom:12px;">
-                <input type="text" id="article-search-text" class="search-input" placeholder="Zoek op titel, club, competitie..." />
-                <div class="search-filters-row">
-                  <select id="article-filter-country" class="search-select">
-                    <option value="">Land (alles)</option>
+        <div class="filters">
+            <div class="filter-group">
+                <label for="countryFilter">Land:</label>
+                <select id="countryFilter">
+                    <option value="all">Alle landen</option>
                     <option value="BE">🇧🇪 België</option>
                     <option value="NL">🇳🇱 Nederland</option>
-                  </select>
+                </select>
 
-                  <select id="article-filter-category" class="search-select">
-                    <option value="">Categorie (alles)</option>
-                    <option value="Jupiler Pro League">Jupiler Pro League</option>
-                    <option value="Challenger Pro League">Challenger Pro League</option>
-                    <option value="Beker">Beker</option>
-                    <option value="Amateur">Amateur</option>
-                    <option value="Jeugd">Jeugd</option>
-                    <option value="Internationaal">Internationaal</option>
-                    <option value="Vrouwen">Vrouwen</option>
-                    <option value="Transfers">Transfers</option>
-                    <option value="Algemeen">Algemeen</option>
-                  </select>
-                </div>
-                <div class="form-helper">
-                  Tip: klik op “Lees artikel” om jouw Voetbal4All-artikelpagina te openen.
-                </div>
-              </div>
+                <label for="categoryFilter">Categorie:</label>
+                <select id="categoryFilter">
+                    <option value="all">Alle categorieën</option>
+                </select>
+            </div>
+        </div>
 
-              <!-- TOP INFEED AD -->
-              <section class="section-main" style="padding-top:0;padding-bottom:10px;">
-                <div class="ad-infeed">
-                  <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-4062633211824348"
-                    data-ad-slot="4831226012"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
-                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                </div>
-              </section>
+        <div id="articlesContainer" class="articles-grid">
+            <div class="loading">Artikelen laden...</div>
+        </div>
+    </div>
 
-              <!-- OVERZICHT -->
-              <section class="section-main" style="padding-top:0;">
-                <div class="card">
-                  <div class="card-header">
-                    <div>
-                      <div class="card-caption">Overzicht</div>
-                      <div class="card-title">Laatste artikels &amp; verhalen</div>
+    <script>
+        let allArticles = [];
+        let filteredArticles = [];
+
+        // Robust country detection
+        function detectCountry(article) {
+            // 1. Direct country field
+            if (article.country) {
+                const c = article.country.toLowerCase();
+                if (c === 'be' || c === 'belgium' || c === 'belgie' || c === 'belgië') return 'BE';
+                if (c === 'nl' || c === 'netherlands' || c === 'nederland') return 'NL';
+            }
+
+            // 2. Source/Feed ID prefix
+            const sourceId = article.sourceId || article.feedId || '';
+            if (sourceId.toLowerCase().startsWith('be_')) return 'BE';
+            if (sourceId.toLowerCase().startsWith('nl_')) return 'NL';
+
+            // 3. Publisher/source signals
+            const pub = (article.publisher || article.source || '').toLowerCase();
+            const beSignals = ['sporza', 'hln', 'nieuwsblad', 'gazet van antwerpen', 'gva', 'vtm', 'vrt'];
+            const nlSignals = ['nos', 'vi.nl', 'telegraaf', 'ad.nl', 'voetbalzone', 'voetbalprimeur'];
+            
+            if (beSignals.some(s => pub.includes(s))) return 'BE';
+            if (nlSignals.some(s => pub.includes(s))) return 'NL';
+
+            // 4. Default fallback
+            return 'INT';
+        }
+
+        function getCountryCode(article) {
+            return detectCountry(article);
+        }
+
+        function getCountryFlag(country) {
+            const flags = {
+                'BE': '🇧🇪',
+                'NL': '🇳🇱',
+                'INT': '🌍'
+            };
+            return flags[country] || '🌍';
+        }
+
+        function cleanSnippet(snippet) {
+            if (!snippet) return '';
+            
+            let cleaned = snippet;
+            
+            // Remove explicit "Bron:" or "Source:" patterns anywhere
+            cleaned = cleaned.replace(/\s*[-—|]\s*(Bron|Source|Publisher)\s*:?\s*[^.]*$/i, '');
+            cleaned = cleaned.replace(/^(Bron|Source|Publisher)\s*:?\s*/i, '');
+            
+            // Remove trailing publisher names after separators
+            cleaned = cleaned.replace(/\s*[-—|]\s*(HLN|NOS|Sporza|VRT|VTM|Nieuwsblad|Telegraaf|AD\.nl|VI\.nl|Voetbalzone|Voetbalprimeur|Het Laatste Nieuws|De Standaard|Het Nieuwsblad|Gazet van Antwerpen|GVA)\s*$/i, '');
+            
+            return cleaned.trim();
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return '';
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffMs = now - date;
+            const diffMins = Math.floor(diffMs / 60000);
+            const diffHours = Math.floor(diffMs / 3600000);
+            const diffDays = Math.floor(diffMs / 86400000);
+
+            if (diffMins < 60) return `${diffMins}m geleden`;
+            if (diffHours < 24) return `${diffHours}u geleden`;
+            if (diffDays < 7) return `${diffDays}d geleden`;
+            
+            return date.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' });
+        }
+
+        function createArticleCard(article, index) {
+            const country = getCountryCode(article);
+            const flag = getCountryFlag(country);
+            const category = article.category || 'Algemeen';
+            const snippet = cleanSnippet(article.snippet || article.description || '');
+            const imageUrl = article.image || article.imageUrl || 'https://via.placeholder.com/400x200?text=Voetbal';
+
+            return `
+                <div class="article-card" data-country="${country}" data-category="${category}">
+                    <img src="${imageUrl}" alt="${article.title}" class="article-image" onerror="this.src='https://via.placeholder.com/400x200?text=Voetbal'">
+                    <div class="article-content">
+                        <h2 class="article-title">${article.title}</h2>
+                        <div class="article-meta">
+                            <span class="country-flag">${flag}</span>
+                            <span>${country}</span>
+                            <span>•</span>
+                            <span>${category}</span>
+                            <span>•</span>
+                            <span>${formatDate(article.pubDate || article.publishedAt)}</span>
+                            <span>•</span>
+                            <span>Voetbal4All</span>
+                        </div>
+                        <p class="article-snippet">${snippet}</p>
+                        <a href="${article.link || article.url}" target="_blank" class="read-more">Lees meer →</a>
                     </div>
-                    <span class="pill-small" id="news-count-2">—</span>
-                  </div>
-
-                  <div id="article-list" class="ad-card-list ad-card-list--stack">
-                    <!-- gevuld via backend -->
-                  </div>
-
-                  <p id="news-status" class="note" style="margin-top:10px; display:none;"></p>
                 </div>
-              </section>
+            `;
+        }
 
-            </div>
+        function createAdBlock(index) {
+            return `
+                <div class="ad-container">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+                         data-ad-slot="YOUR_AD_SLOT_${index}"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                </div>
+            `;
+        }
 
-            <!-- RECHTS -->
-            <aside class="v4-sidebar">
-              <div class="v4-sidebar-sticky">
+        function renderArticles(articles) {
+            const container = document.getElementById('articlesContainer');
+            let html = '';
+            
+            articles.forEach((article, index) => {
+                html += createArticleCard(article, index);
+                
+                // Insert ad every 6 articles
+                if ((index + 1) % 6 === 0) {
+                    html += createAdBlock(Math.floor(index / 6));
+                }
+            });
 
-                <article class="card">
-                  <div class="card-header">
-                    <div>
-                      <div class="card-caption">Advertentie</div>
-                      <div class="card-title">Sponsor / Partner</div>
+            container.innerHTML = html;
+
+            // Initialize AdSense ads
+            if (window.adsbygoogle) {
+                const ads = document.querySelectorAll('.adsbygoogle');
+                ads.forEach(ad => {
+                    try {
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    } catch (e) {
+                        console.error('AdSense error:', e);
+                    }
+                });
+            }
+        }
+
+        function populateCategoryFilter(articles) {
+            const categories = new Set();
+            articles.forEach(article => {
+                const cat = article.category || 'Algemeen';
+                categories.add(cat);
+            });
+
+            const select = document.getElementById('categoryFilter');
+            const currentValue = select.value;
+            
+            select.innerHTML = '<option value="all">Alle categorieën</option>';
+            Array.from(categories).sort().forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                select.appendChild(option);
+            });
+
+            select.value = currentValue;
+        }
+
+        function applyFilters() {
+            const countryFilter = document.getElementById('countryFilter').value;
+            const categoryFilter = document.getElementById('categoryFilter').value;
+
+            filteredArticles = allArticles.filter(article => {
+                const articleCountry = getCountryCode(article);
+                const articleCategory = article.category || 'Algemeen';
+                
+                const countryMatch = countryFilter === 'all' || articleCountry === countryFilter;
+                const categoryMatch = categoryFilter === 'all' || articleCategory === categoryFilter;
+
+                return countryMatch && categoryMatch;
+            });
+
+            renderArticles(filteredArticles);
+        }
+
+        async function loadArticles() {
+            try {
+                const response = await fetch('/api/articles');
+                if (!response.ok) throw new Error('Failed to fetch articles');
+                
+                const data = await response.json();
+                allArticles = data.articles || data || [];
+                
+                populateCategoryFilter(allArticles);
+                applyFilters();
+            } catch (error) {
+                console.error('Error loading articles:', error);
+                document.getElementById('articlesContainer').innerHTML = `
+                    <div class="error">
+                        <h3>Fout bij laden van artikelen</h3>
+                        <p>${error.message}</p>
                     </div>
-                    <span class="pill-small">Premium</span>
-                  </div>
-                  <div class="ad-placeholder">
-                    Vaste partnerzone naast artikels. Ideaal voor sponsors, lokale ondernemers en sportdiensten.
-                    <br/>
-                    <span class="ad-size">Aanrader: 300 × 250 of 300 × 600</span>
-                  </div>
-                </article>
-
-                <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
-                  <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-4062633211824348"
-                    data-ad-slot="6032627042"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
-                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                </div>
-
-              </div>
-            </aside>
-
-          </div>
-
-        </div>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer" id="footer-contact">
-      <div class="shell">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
-            <div class="footer-legal">
-              &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
-            </div>
-            <div class="footer-social">
-              <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
-              <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
-              <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
-            </div>
-          </div>
-          <div class="footer-ad">
-            FOOTER ADVERTENTIE / PARTNERLOGO<br>
-            <span class="ad-size">Footer-banner</span>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-  </div>
-
-  <script>
-    // Footer year
-    document.getElementById("year").textContent = new Date().getFullYear();
-
-    // Backend endpoints
-    const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-    const NEWS_URL = IMG_BASE + "/api/news?nocache=1";
-
-    const articleList = document.getElementById("article-list");
-    const newsStatus = document.getElementById("news-status");
-    const newsCountTop = document.getElementById("news-count");
-    const newsCountTop2 = document.getElementById("news-count-2");
-
-    const articleSearchText = document.getElementById("article-search-text");
-    const articleFilterCountry = document.getElementById("article-filter-country");
-    const articleFilterCategory = document.getElementById("article-filter-category");
-
-    let allItems = [];
-
-    function safe(s){ return (s ?? "").toString(); }
-    function norm(s){ return safe(s).toLowerCase().trim(); }
-
-    function inferCountry(a){
-      // 1) Neem backend-country als die bruikbaar is
-      const raw = norm(a?.country || "");
-      if (raw && raw !== "int" && raw !== "international" && raw !== "internationaal") {
-        if (raw === "be" || raw.includes("belg")) return "be";
-        if (raw === "nl" || raw.includes("neder")) return "nl";
-        if (raw === "uk" || raw === "gb" || raw.includes("eng")) return "gb";
-        if (raw === "fr" || raw.includes("fran")) return "fr";
-        if (raw === "de" || raw.includes("duit")) return "de";
-        if (raw === "es" || raw.includes("span")) return "es";
-        if (raw === "it" || raw.includes("ital")) return "it";
-        return raw; // onbekend maar wel ingevuld
-      }
-
-      
-      return "int";
-    }
-
-    function detectCountry(a){
-      // Verzamel mogelijke bronnen waar "land" in kan zitten
-      const candidates = [
-        a?.country,
-        a?.category,
-        a?.title,
-        a?.snippet
-      ]
-        .filter(Boolean)
-        .map(s => String(s).toLowerCase().trim());
-
-      // 1) Eerst: echte ISO-code als die er is
-      const c0 = String(a?.country || "").toLowerCase().trim();
-      if (c0 === "be") return "BE";
-      if (c0 === "nl") return "NL";
-
-
-
-      return "INT";
-    }
-
-    function flag(a){
-      const cc = detectCountry(a);
-      if (cc === "BE") return "🇧🇪";
-      if (cc === "NL") return "🇳🇱";
-      return "🌍";
-    }
-
-    function fmtDate(iso){
-      if (!iso) return "";
-      const d = new Date(iso);
-      if (isNaN(d.getTime())) return safe(iso);
-      return d.toLocaleDateString("nl-BE", { year: "numeric", month: "short", day: "2-digit" });
-    }
-
-    function toImgUrl(publicPath){
-      const p = safe(publicPath);
-      if (!p) return null; // ❗ CRITICAL: return null instead of ""
-      // publicPath verwacht zoals "/images/articles/xyz.jpg"
-      if (p.startsWith("http://") || p.startsWith("https://")) return p;
-      if (p.startsWith("/")) return IMG_BASE + p;
-      return IMG_BASE + "/" + p;
-    }
-
-    function renderAdInfeed(slot){
-      return `
-        <div class="ad-infeed" style="margin: 10px 0;">
-          <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4062633211824348"
-            data-ad-slot="${slot}"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-        </div>
-      `;
-    }
-
-      function renderCard(a){
-        const title = safe(a.title);
-        const fileName = a.fileName || "";
-        const url = fileName ? ("artikel.html?file=" + encodeURIComponent(fileName)) : "#";
-
-        const cc = inferCountry(a);
-        const category = safe(a.category || "Algemeen");
-        const date = safe(a.publishedAt || a.date || a.createdAt || "");
-        const snippet = safe(a.snippet || "");
-        const snippetClean = snippet
-          // verwijder "Bron: ..." of "Source: ..."
-          .replace(/\b(bron|source)\s*:\s*.*$/i, "")
-          // verwijder typische trailing " - HLN" / " — NOS" / " | Sporza" achtige suffixen
-          .replace(/\s*[-—|]\s*[A-Za-zÀ-ÿ0-9 .]{2,40}\s*$/i, "")
-          .trim();
-        // STAP 1: forceer altijd een geldige afbeelding (nooit leeg)
-        const fallbackImg =
-          "https://voetbal4all-backend-database.onrender.com/images/placeholder.svg";
-
-          const imgUrl = toImgUrl(a?.image);
-          const imgUrlFinal =
-            imgUrl ||
-            toImgUrl(`/images/placeholder.svg?title=${encodeURIComponent(String(a.title || "Voetbal4All").slice(0, 80))}`);
-          const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
-
-        return `
-          <article class="ad-card">
-            <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
-            <img
-              src="${imgUrlFinal}"
-              alt="${safeTitleAttr}"
-              loading="lazy"
-              onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/placeholder.svg';"
-              style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
-            >
-
-              <div style="min-width:0;flex:1;">
-                <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flag(a)} ${detectCountry(a)} · ${category} · Voetbal4All</div>
-                <div class="ad-card-meta">${fmtDate(date)}</div>
-              </div>
-            </div>
-
-            ${snippetClean ? `<p class="note" style="margin-top:10px;">${snippetClean}</p>` : ""}
-
-            <div class="ad-card-actions" style="margin-top:10px;">
-              <a class="btn-ghost-sm" href="${url}">Lees artikel</a>
-            </div>
-          </article>
-        `;
-      }
-    
-
-    function applyFilters(){
-      const q = norm(articleSearchText.value);
-      const c = safe(articleFilterCountry.value);
-      const cat = safe(articleFilterCategory.value);
-
-      const filtered = allItems.filter(a => {
-        const text = norm((a.title||"") + " " + (a.snippet||"") + " " + (a.category||"") + " " + (a.country||""));
-        if (q && !text.includes(q)) return false;
-
-        if (c) {
-          const cc = safe(a.country || "").toUpperCase();
-          if (cc !== c) return false;
+                `;
+            }
         }
-        if (cat) {
-          const ca = safe(a.category || "");
-          if (ca !== cat) return false;
-        }
-        return true;
-      });
 
-      articleList.innerHTML = "";
-      const countLabel = filtered.length ? (filtered.length + " artikels") : "0 artikels";
-      newsCountTop.textContent = countLabel;
-      newsCountTop2.textContent = countLabel;
+        // Event listeners
+        document.getElementById('countryFilter').addEventListener('change', applyFilters);
+        document.getElementById('categoryFilter').addEventListener('change', applyFilters);
 
-      if (!filtered.length){
-        newsStatus.style.display = "block";
-        newsStatus.textContent = "Geen artikels gevonden met deze filters.";
-        return;
-      } else {
-        newsStatus.style.display = "none";
-      }
+        // Load articles on page load
+        loadArticles();
+    </script>
 
-      filtered.forEach((a, i) => {
-        articleList.insertAdjacentHTML("beforeend", renderCard(a));
-
-        // In-feed ads
-        if (i === 5) {
-          articleList.insertAdjacentHTML("beforeend", renderAdInfeed("5761272101"));
-          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
-        }
-        if (i === 13) {
-          articleList.insertAdjacentHTML("beforeend", renderAdInfeed("4831226012"));
-          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
-        }
-      });
-    }
-
-    async function loadNews(){
-      try{
-        const res = await fetch(NEWS_URL, { cache: "no-store" });
-        if (!res.ok) throw new Error("HTTP " + res.status);
-
-        const data = await res.json();
-        allItems = Array.isArray(data?.items) ? data.items : [];
-
-        // sort newest first
-        allItems.sort((a,b) => {
-          const da = new Date(a.publishedAt || a.date || 0).getTime();
-          const db = new Date(b.publishedAt || b.date || 0).getTime();
-          return db - da;
-        });
-
-        applyFilters();
-      } catch (e) {
-        articleList.innerHTML = "";
-        newsCountTop.textContent = "—";
-        newsCountTop2.textContent = "—";
-        newsStatus.style.display = "block";
-        newsStatus.textContent = "Kon artikels niet laden. Controleer /api/news en CORS.";
-      }
-    }
-
-    articleSearchText.addEventListener("input", applyFilters);
-    articleFilterCountry.addEventListener("change", applyFilters);
-    articleFilterCategory.addEventListener("change", applyFilters);
-
-    loadNews();
-  </script>
-
-  <script src="assets/js/nav-mobile.js"></script>
-  <script src="assets/js/live-banner.js"></script>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
+            crossorigin="anonymous"></script>
 </body>
 </html>
