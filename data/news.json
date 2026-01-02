@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-01-02T18:34:35.451Z",
+  "generatedAt": "2026-01-02T19:16:24.662Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Heracles Almelo heeft dubbel gevoel na recordtransfer Hornkamp",
+      "link": "https://www.vi.nl/nieuws/heracles-almelo-heeft-dubbel-gevoel-na-recordtransfer-hornkamp",
+      "summary": "Heracles Almelo hinkt op twee gedachten na het vertrek van Jizz Hornkamp. De club had de spits, die naar AZ gaat, liever gehouden, maar de transfersom was te groot om nee te zeggen.",
+      "publishedAt": "2026-01-02T19:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Feyenoord krijgt Carranza per direct terug",
+      "link": "https://www.vi.nl/nieuws/feyenoord-krijgt-carranza-per-direct-terug",
+      "summary": "Feyenoord en Leicester City hebben de huurovereenkomst van Julián Carranza per direct beëindigd. De periode van de Argentijnse spits in Engeland is niet geworden wat de partijen ervan hadden verwacht. Hij kwam tot negen duels in het Championship.",
+      "publishedAt": "2026-01-02T19:12:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man Utd explore conditions for Baleba signing in January",
+      "link": "https://www.skysports.com/football/news/12040/13489767/man-utd-transfer-news-carlos-baleba-signing-conditions-explored-but-no-deal-expected-with-brighton-in-january-transfer-window",
+      "summary": "Manchester United have explored the conditions of signing Brighton's Carlos Baleba in January, Sky Sports News can reveal.",
+      "publishedAt": "2026-01-02T19:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Recordtransfer rond: AZ en Heracles akkoord over Hornkamp",
+      "link": "https://www.vi.nl/nieuws/transfer-rond-az-en-heracles-akkoord-over-hornkamp",
+      "summary": "AZ heeft Jizz Hornkamp binnen. De spits komt over van Heracles Almelo en tekende in Alkmaar tot ...",
+      "publishedAt": "2026-01-02T18:39:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Rosenior frontrunner to replace Maresca",
+      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
+      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
+      "publishedAt": "2026-01-02T18:29:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep denies Maresca, City links: 'I have a contract'",
+      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
+      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
+      "publishedAt": "2026-01-02T18:29:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Neymar hint about next contract teased",
+      "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
+      "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
+      "publishedAt": "2026-01-02T18:29:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Maresca made Chelsea world champions. Six months later, he's gone. What happened?",
+      "link": "https://www.espn.com/soccer/story/_/id/47480932/why-maresca-left-chelsea-6-months-making-world-champions",
+      "summary": "The reigning Club World Cup champions' coach is out of a job. What caused the dramatic breakdown in Enzo Maresca's working relationship with Chelsea?",
+      "publishedAt": "2026-01-02T18:29:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Don't expect Chelsea to hire an elite coach after Maresca split",
+      "link": "https://www.espn.com/soccer/story/_/id/47473155/dont-expect-chelsea-hire-elite-coach-enzo-maresca-split",
+      "summary": "Chelsea used to demand success, hiring the world's best coaches to deliver results.",
+      "publishedAt": "2026-01-02T18:29:37.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -29,7 +128,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "World Darts Championship LIVE! Your views ahead of tonight's semi-finals",
+      "title": "Littler vs Searle in semi-finals from 7.45pm before Anderson vs Van Veen LIVE!",
       "link": "https://www.skysports.com/darts/live-blog/12040/13480473/world-darts-championship-2026-live-updates-video-analysis-results-schedule-with-luke-littler-luke-humphries-gary-anderson-in-action",
       "summary": "",
       "publishedAt": "2026-01-02T17:58:00.000Z"
@@ -44,28 +143,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/02/liam-rosenior-chelsea-strasbourg-blueco",
       "summary": "Englishman will be in Strasbourg dugout against Nice ‘In terms of other clubs, I’ve had a lot of interest’ Liam Rosenior has opened the door to becoming Chelsea’s head coach by admitting there are no guarantees he will remain at Strasbourg for the rest of the season. The 41-year-old is the leading contender to replace Enzo Maresca, who left on New Year’s Day, and progress is expected soon. The main obstacle to be overcome is that BlueCo, the investment vehicle that owns Chelsea and Strasbourg, is keen to be sensitive to the needs of both clubs. A quality replacement for Rosenior at Strasbourg must be lined up before the Englishman can leave the Ligue 1 side. Continue reading...",
       "publishedAt": "2026-01-02T17:41:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mourinho looft Farioli: 'Wat FC Porto doet is buitengewoon'",
-      "link": "https://www.vi.nl/nieuws/mourinho-looft-farioli-wat-fc-porto-doet-is-buitengewoon",
-      "summary": "Hoewel Benfica in Portugal een achterstand van tien punten op FC Porto heeft, geeft trainer José Mourinho de titelstrijd nog niet op. Tegelijkertijd was hij vol lof over voormalig Ajax-trainer Francesco Farioli.",
-      "publishedAt": "2026-01-02T17:35:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Go Ahead niet vertrokken op trainingskamp naar Estepona",
-      "link": "https://www.vi.nl/nieuws/go-ahead-niet-vertrokken-op-trainingskamp-naar-estepona",
-      "summary": "Go Ahead Eagles is vrijdag niet vertrokken op trainingskamp. De selectie van Melvin Boel zou aanvankelijk vrijdag het vliegtuig instappen, maar de winterse weersomstandigheden hebben roet in het eten gegooid.",
-      "publishedAt": "2026-01-02T17:25:47.000Z"
     },
     {
       "type": "rss",
@@ -98,17 +175,6 @@
       "title": "Arteta calls for Gyokeres to embrace the noise amid Arsenal title charge",
       "link": "https://www.skysports.com/football/news/12040/13489641/mikel-arteta-exclusive-arsenal-boss-calls-for-viktor-gyokeres-and-the-rest-of-his-squad-to-embrace-title-race-noise",
       "summary": "Mikel Arteta has called for Viktor Gyokeres and his Arsenal team-mates to embrace the noise surrounding the squad, while also insisting it will \"click\" for the Swedish striker eventually in north London.",
-      "publishedAt": "2026-01-02T17:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Romantische transfer: Gross na twee jaar weer terug bij Brighton",
-      "link": "https://www.vi.nl/nieuws/romantische-transfer-gross-na-twee-jaar-weer-terug-bij-brighton",
-      "summary": "Pascal Gross is weer speler van Brighton & Hove Albion. De 34-jarige Duitser vertrekt voor een bescheiden transfersom bij Borussia Dortmund.",
       "publishedAt": "2026-01-02T17:00:00.000Z"
     },
     {
@@ -152,74 +218,8 @@
       "flag": "🌍",
       "title": "Crystal Palace seal club-record £35m Brennan Johnson transfer from Spurs",
       "link": "https://www.theguardian.com/football/2026/jan/02/crystal-palace-seal-brennan-johnson-transfer-from-spurs-club-record",
-      "summary": "Manager Glasner pleased club got deal done swiftly Johnson says he is ‘super excited’ to make move Oliver Glasner credited Crystal Palace’s hierarchy for completing the signing of Brennan Johnson from Tottenham for a club record £35m on the second day of the transfer window. The Wales forward has a four-and-a-half-year deal and is expected to be part of Palace’s squad that will face Newcastle on Sunday. Glasner has made no secret of his desire to bolster the FA Cup winners after a demanding debut campaign in Europe and has criticised Palace’s lack of preparedness in previous transfer windows. But the Austrian manager said he was delighted with the signing of the 24-year-old after Palace saw off competition from Bournemouth. Continue reading...",
+      "summary": "Manager Glasner pleased club got deal done swiftly Johnson says he is ‘super excited’ to make move Oliver Glasner credited Crystal Palace’s hierarchy for completing the signing of Brennan Johnson from Tottenham for a club record £35m on the second day of the transfer window. The Wales forward has a four-and-a-half-year deal and is expected to be part of Palace’s squad that will face Newcastle on Sunday. Glasner has made no secret of his desire to bolster the FA Cup winners after a demanding debut campaign in Europe and has criticised Palace’s lack of preparedness in previous transfer windows. However, the Austrian manager said he was delighted with the signing of the 24-year-old after Palace saw off competition from Bournemouth. Continue reading...",
       "publishedAt": "2026-01-02T15:53:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Rosenior frontrunner to replace Maresca",
-      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
-      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
-      "publishedAt": "2026-01-02T15:31:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep denies Maresca, City links: 'I have a contract'",
-      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
-      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
-      "publishedAt": "2026-01-02T15:31:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neymar hint about next contract teased",
-      "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
-      "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
-      "publishedAt": "2026-01-02T15:31:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Give me time!' - EVERY WORD of Nancy's extraordinary Celtic rant before Old Firm",
-      "link": "https://www.skysports.com/football/news/12040/13489722/wilfried-nancy-rant-celtic-boss-demands-patience-in-extraordinary-seven-minute-speech-ahead-of-old-firm",
-      "summary": "Wilfried Nancy has demanded he be given more time to make his mark at Celtic after an extraordinary seven-minute rant.",
-      "publishedAt": "2026-01-02T14:52:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Crazy 24 hours' - McFarlane ready for Chelsea chance",
-      "link": "https://www.bbc.com/sport/football/articles/cr7j5x8y7deo?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea interim manager Calum McFarlane says it has been a \"crazy\" 24 hours since replacing Enzo Maresca at Stamford Bridge.",
-      "publishedAt": "2026-01-02T14:44:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Good idea' or taking 'massive chance' - is Rosenior ready for Chelsea?",
-      "link": "https://www.bbc.com/sport/football/articles/c1503xx5vj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Liam Rosenior is the leading candidate to become the Chelsea manager. BBC Sport looks at the reasons why.",
-      "publishedAt": "2026-01-02T14:13:51.000Z"
     }
   ]
 }
