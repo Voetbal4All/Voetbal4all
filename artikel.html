@@ -530,9 +530,11 @@
     document.getElementById('article-type').textContent = type;
     
     const countryEl = document.getElementById('article-country');
-    if (article.country === 'BE') countryEl.textContent = '🇧🇪 België';
-    else if (article.country === 'NL') countryEl.textContent = '🇳🇱 Nederland';
-    else if (article.country === 'INT') countryEl.textContent = '🌍 Internationaal';
+    const cc = String(article.country || "").trim().toUpperCase();
+
+    if (cc === 'BE') countryEl.textContent = '🇧🇪 België';
+    else if (cc === 'NL') countryEl.textContent = '🇳🇱 Nederland';
+    else if (cc === 'INT') countryEl.textContent = '🌍 Internationaal';
     else countryEl.style.display = 'none';
     
     if (article.publishedAt) {
@@ -551,7 +553,7 @@
     
     if (article.image) {
       const cleanImage = article.image.split('?')[0];
-      const fullImageUrl = cleanImage.startsWith('http') ? cleanImage : window.location.origin + cleanImage;
+      const fullImageUrl = cleanImage.startsWith('http') ? cleanImage : (API_BASE + cleanImage);
       document.getElementById('og-image').setAttribute('content', fullImageUrl);
     }
     
