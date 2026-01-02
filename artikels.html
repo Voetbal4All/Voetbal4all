@@ -496,7 +496,10 @@
         if (!res.ok) throw new Error("HTTP " + res.status);
 
         const data = await res.json();
-        allItems = Array.isArray(data?.items) ? data.items : [];
+        // Support both API shapes:
+        // 1) { items: [...] }
+        // 2) [ ... ]
+        allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
 
         // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
         allItems = allItems.filter(a => (a?.status || "").toLowerCase() === "ready");
