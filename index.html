@@ -132,7 +132,7 @@
         <div class="live-banner">
           <div class="live-label">
             <span class="live-dot"></span>
-            Live resultaten
+            Live score
           </div>
           <div class="live-text">
             <span class="live-text-main">We werken hard om deze optie zo snel mogelijk werkend te krijgen.</span>
@@ -341,56 +341,46 @@
         <div class="shell">
           <div class="lower-grid-layout grid-3">
 
-            <!-- LINKS -->
-            <section class="column-middle">
-              <article class="card">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Aankomend weekend</div>
-                    <div class="card-title">Aankomende events</div>
-                  </div>
-                  <span class="pill-small">Vanuit eventspagina’s</span>
-                </div>
+      <!-- LINKS -->
+      <section class="column-left">
+        <!-- 1) Aankomende events -->
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Aankomend weekend</div>
+              <div class="card-title">Aankomende events</div>
+            </div>
+            <span class="pill-small">Vanuit eventspagina’s</span>
+          </div>
 
-                <ul class="weekend-list" id="weekend-events-list">
-                  <li class="weekend-item">
-                    <span>Za 10:00 · Jeugddag U6–U9</span>
-                    <span><a href="tornooien.html">Tornooi / jeugdevent</a></span>
-                  </li>
-                  <li class="weekend-item">
-                    <span>Za &amp; zo · Mosselfestijn</span>
-                    <span><a href="dinners.html">Dinner &amp; clubfeest</a></span>
-                  </li>
-                  <li class="weekend-item">
-                    <span>Zo 09:30 · Vriendschappelijke wedstrijd U15</span>
-                    <span><a href="vrienden.html">Vriendschappelijke match</a></span>
-                  </li>
-                </ul>
+          <ul class="weekend-list" id="weekend-events-list">
+            ...
+          </ul>
 
-                <p class="note">
-                  Later kan dit blok automatisch gevoed worden op basis van alle events in de verschillende eventspagina’s.
-                </p>
+          <p class="note">
+            Later kan dit blok automatisch gevoed worden op basis van alle events in de verschillende eventspagina’s.
+          </p>
 
-                <a href="events.html" class="event-link">Volledig eventsoverzicht →</a>
-              </article>
+          <a href="events.html" class="event-link">Volledig eventsoverzicht →</a>
+        </article>
 
-              <!-- Events Calendar -->
-              <article class="card" style="margin-top:14px;">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Komende maand</div>
-                    <div class="card-title">Events kalender</div>
-                  </div>
-                </div>
+        <!-- 2) Kalender / komende maand -->
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Komende maand</div>
+              <div class="card-title">Events kalender</div>
+            </div>
+          </div>
 
-                <ul class="events-list" id="monthly-events-list" style="margin-top:6px;"></ul>
-                <p class="note" id="monthly-events-empty" style="display:none; margin-top:10px;">
-                  Geen events gevonden voor deze maand.
-                </p>
+          <ul class="events-list" id="monthly-events-list" style="margin-top:6px;"></ul>
+          <p class="note" id="monthly-events-empty" style="display:none; margin-top:10px;">
+            Geen events gevonden voor deze maand.
+          </p>
 
-                <a href="events.html" class="event-link" style="margin-top:10px; display:inline-block;">Alle events →</a>
-              </article>
-            </section>
+          <a href="events.html" class="event-link" style="margin-top:10px; display:inline-block;">Alle events →</a>
+        </article>
+      </section>
 
             <!-- MIDDEN: ARTIKELS -->
             <section class="column-middle">
@@ -412,7 +402,7 @@
             </section>
 
             <!-- RECHTS -->
-            <aside class="column-right">
+            <aside class="column-right" style="display:flex; flex-direction:column; gap:14px;">
               <article class="card">
                 <div class="card-header">
                   <div>
@@ -436,7 +426,7 @@
                 <a href="trainers.html" class="event-link">Bekijk alle trainers →</a>
               </article>
 
-              <article class="card" style="margin-top:14px;">
+              <article class="card">
                 <div class="card-header">
                   <div>
                     <div class="card-caption">Nieuw</div>
@@ -460,7 +450,7 @@
               </article>
 
               <!-- Sticky ad: blijft mee scrollen maar blijft onder spelers -->
-              <div class="ad-vertical" style="margin-top:14px; position:sticky; top:80px;">
+              <div class="ad-vertical" style="position:sticky; top:80px;">
                 <ins class="adsbygoogle"
                   style="display:block"
                   data-ad-client="ca-pub-4062633211824348"
@@ -573,7 +563,7 @@
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
       const CACHE_KEY = "home_news_html_v5"; // Updated for 50 articles + football filter
-      localStorage.removeItem(CACHE_KEY);
+      
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
 
       let hasRenderedHomeNews = false;
@@ -736,7 +726,7 @@
             // Insert ad after 10th article (index 9 because 0-based)
             if (index === 9) {
               return articleHtml + `
-                <div style="margin: 20px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">
+                <div class="card" style="margin: 20px 0; padding: 10px;">
                   <ins class="adsbygoogle"
                     style="display:block"
                     data-ad-client="ca-pub-4062633211824348"
@@ -830,6 +820,6 @@ renderMonthlyEvents();
 
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>
-  <script src="assets/js/live-banner.js"></script>
+<!-- <script src="assets/js/live-banner.js"></script> -->
 </body>
 </html>
