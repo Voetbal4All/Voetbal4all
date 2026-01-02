@@ -1,774 +1,851 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voetbal4All - Jouw Bron voor Voetbalnieuws</title>
-    <meta name="description" content="Volg het laatste voetbalnieuws uit België en Nederland. Livescores, uitslagen, statistieken en meer op Voetbal4All.">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Voetbal4All - Jouw Bron voor Voetbalnieuws">
-    <meta property="og:description" content="Volg het laatste voetbalnieuws uit België en Nederland.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://voetbal4all.be">
-    <meta property="og:image" content="https://voetbal4all.be/images/og-image.jpg">
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <!-- Google AdSense -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
+  <meta charset="UTF-8" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
-        /* Navigation */
-        nav {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+  <title>Voetbal4All - Home</title>
+  <link rel="canonical" href="https://www.voetbal4all.eu/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <!-- Hoofd-stylesheet -->
+  <link rel="stylesheet" href="style.css?v=20251227a" />
 
-        .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: #667eea;
-            text-decoration: none;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: #333;
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #667eea;
-        }
-
-        .nav-toggle {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: #333;
-        }
-
-        /* Live Banner */
-        .live-banner {
-            background: linear-gradient(90deg, #ff6b6b, #ee5a6f);
-            color: white;
-            padding: 0.75rem;
-            text-align: center;
-            font-weight: 600;
-            display: none;
-            animation: pulse 2s infinite;
-        }
-
-        .live-banner.active {
-            display: block;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.9; }
-        }
-
-        .live-dot {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            background: white;
-            border-radius: 50%;
-            margin-right: 8px;
-            animation: blink 1.5s infinite;
-        }
-
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
-        }
-
-        /* Hero Section */
-        .hero {
-            text-align: center;
-            padding: 4rem 2rem;
-            color: white;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-            opacity: 0.95;
-            margin-bottom: 2rem;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-            display: inline-block;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        }
-
-        .btn-primary {
-            background: white;
-            color: #667eea;
-        }
-
-        .btn-secondary {
-            background: rgba(255,255,255,0.2);
-            color: white;
-            border: 2px solid white;
-        }
-
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
-
-        /* Section Titles */
-        .section-title {
-            font-size: 2rem;
-            font-weight: 800;
-            color: white;
-            margin-bottom: 2rem;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-
-        /* Articles Grid */
-        .articles-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-
-        .article-card {
-            background: white;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-            display: flex;
-            flex-direction: column;
-            cursor: pointer;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .article-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
-        }
-
-        .article-image {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-
-        .article-content {
-            padding: 1.5rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .article-header {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .article-flag {
-            font-size: 1.5rem;
-        }
-
-        .article-title {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: #1a1a1a;
-            line-height: 1.4;
-            margin-bottom: 0.75rem;
-            flex-grow: 1;
-        }
-
-        .article-meta {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: #666;
-            font-size: 0.9rem;
-            margin-top: auto;
-        }
-
-        .article-category {
-            padding: 0.25rem 0.75rem;
-            background: #f0f0f0;
-            border-radius: 12px;
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-
-        /* Ad Container */
-        .ad-container {
-            background: rgba(255,255,255,0.95);
-            border-radius: 16px;
-            padding: 2rem;
-            text-align: center;
-            min-height: 250px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 3rem 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
-        /* Loading & Error */
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: white;
-            font-size: 1.2rem;
-        }
-
-        .error {
-            background: rgba(255,255,255,0.95);
-            border-radius: 16px;
-            padding: 2rem;
-            text-align: center;
-            color: #c33;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(0,0,0,0.2);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-            margin-top: 4rem;
-        }
-
-        footer p {
-            margin-bottom: 0.5rem;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: underline;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-toggle {
-                display: block;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: white;
-                flex-direction: column;
-                padding: 1rem;
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1.1rem;
-            }
-
-            .articles-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .container {
-                padding: 2rem 1rem;
-            }
-        }
-    </style>
+  <!-- Redirect: /index.html -> / -->
+  <script>
+    if (location.pathname.endsWith("/index.html")) {
+      location.replace("/");
+    }
+  </script>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-container">
-            <a href="/" class="nav-logo">
-                <span>⚽</span>
-                <span>Voetbal4All</span>
+  <div class="page">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="shell">
+        <div class="navbar-inner">
+          <a href="index.html" class="brand brand--logo-only">
+            <img
+              src="assets/img/brand/logo-voetbal4all.svg"
+              alt="Voetbal4All"
+              class="brand-logo"
+              loading="eager"
+            />
+          </a>
+
+          <nav class="nav-links">
+            <a href="index.html" class="nav-link nav-link--active">Home</a>
+            <a href="artikels.html" class="nav-link">Artikels</a>
+
+            <!-- SPORTIEVE EVENTS -->
+            <div class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-link--dropdown">
+                Sportieve events <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+                <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+                <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+                <a href="stages.html" class="nav-dropdown-link">Stages</a>
+                <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              </div>
+            </div>
+
+            <!-- CLUB & FUN -->
+            <div class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-link--dropdown">
+                Club &amp; fun <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+                <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+                <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+                <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+                <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              </div>
+            </div>
+
+            <!-- VACATURES & PROFIELEN -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+                <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+                <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+              </div>
+            </div>
+
+            <!-- SPORTIEF -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Sportief <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+                <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+                <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+                <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+                <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+                <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+              </div>
+            </div>
+
+            <!-- VOETBAL4ALL -->
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Voetbal4All <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+                <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+                <a href="contact.html" class="nav-dropdown-link">Contact</a>
+              </div>
+            </div>
+          </nav>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+
+          <button class="nav-burger" aria-label="Menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- LIVE SCORES BANNER NET ONDER NAVBAR -->
+    <section class="live-banner-top">
+      <div class="shell">
+        <div class="live-banner">
+          <div class="live-label">
+            <span class="live-dot"></span>
+            Live resultaten
+          </div>
+          <div class="live-text">
+            <span class="live-text-main"></span>
+            <div class="live-updated"></div>
+          </div>
+          <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+            <a class="live-social" href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.76-1.61 1.54V12h2.74l-.44 2.89h-2.3v6.99A10 10 0 0 0 22 12Z"/>
+              </svg>
             </a>
-            <button class="nav-toggle" id="nav-toggle">☰</button>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/artikels.html">Nieuws</a></li>
-                <li><a href="/live.html">Live</a></li>
-                <li><a href="/statistieken.html">Statistieken</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Live Banner -->
-    <div class="live-banner" id="live-banner">
-        <span class="live-dot"></span>
-        <span id="live-text">LIVE: Bekijk de wedstrijd nu!</span>
-    </div>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>⚽ Welkom bij Voetbal4All</h1>
-        <p>Jouw ultieme bron voor voetbalnieuws uit België en Nederland</p>
-        <div class="hero-buttons">
-            <a href="/live.html" class="btn btn-primary">🔴 Live Scores</a>
-            <a href="/artikels.html" class="btn btn-secondary">📰 Alle Nieuws</a>
+            <a class="live-social" href="https://www.instagram.com/voetbal4all" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4Zm-4.5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.1-2.3a1.05 1.05 0 1 1-1.05 1.05 1.05 1.05 0 0 1 1.05-1.05Z"/>
+              </svg>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Latest Articles -->
-    <div class="container">
-        <h2 class="section-title">🔥 Laatste Artikels & Verhalen</h2>
-        <div id="articles-container" class="articles-grid">
-            <div class="loading">Artikelen laden...</div>
+    <!-- AdSense: HEADER advertentie ONDER de live banner -->
+    <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+      <div class="shell">
+        <div class="ad-slot ad-slot-header sticky-ad-header">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="3518144343"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
+      </div>
+    </section>
 
-        <!-- Ad Block 1 -->
-        <div class="ad-container">
+    <main>
+      <!-- HERO -->
+      <section class="section-main home-intro home-hero-min">
+        <div class="shell">
+          <article class="card hero-card">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
+                <div class="card-title">Alles voor voetbal op één plek.</div>
+              </div>
+              <span class="pill-small">België · Nederland · internationaal</span>
+            </div>
+
+            <p class="note" style="margin-top:6px;">
+              Vind snel een clubvacature, trainer, speler of event. Kies hieronder wat je zoekt.
+            </p>
+
+            <div class="hero-cta-row">
+              <a href="clubvacatures.html" class="btn-primary">Bekijk clubvacatures</a>
+              <a href="adverteren.html" class="btn-secondary"><span>Adverteer / sponsor</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- WAT ZOEK JE? -->
+      <section class="section-main home-quick-actions">
+        <div class="shell">
+          <div class="lower-grid-layout grid-4 quick-grid">
+            <a class="card quick-card" href="spelers.html">
+              <div class="quick-kicker">Spelers</div>
+              <div class="quick-title">Speler zoekt club</div>
+              <div class="note">Bekijk profielen of plaats jouw profiel.</div>
+            </a>
+
+            <a class="card quick-card" href="trainers.html">
+              <div class="quick-kicker">Trainers</div>
+              <div class="quick-title">Trainer zoekt club</div>
+              <div class="note">Zoek trainers of bied jezelf aan.</div>
+            </a>
+
+            <a class="card quick-card" href="events.html">
+              <div class="quick-kicker">Events</div>
+              <div class="quick-title">Zoek of plaats events</div>
+              <div class="note">Tornooien, stages, kampen en meer.</div>
+            </a>
+
+            <a class="card quick-card quick-card--highlight" href="adverteren.html">
+              <div class="quick-kicker">Sponsor &amp; Ads</div>
+              <div class="quick-title">Jouw advertentie hier</div>
+              <div class="note">Premium zichtbaarheid op Voetbal4All.</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PREMIUM RIJ -->
+      <section class="section-main premium-row">
+        <div class="shell">
+          <div class="lower-grid-layout grid-4">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Premium</div>
+                  <div class="card-title">Premium clubvacatures</div>
+                </div>
+                <span class="pill-small">Betalend</span>
+              </div>
+              <ul class="events-list premium-list" id="premium-clubvacatures-list">
+                <li class="event-item">
+                  <div class="event-title">Jeugdcoördinator U6–U13 · Regio Kempen</div>
+                  <div class="event-meta">Provinciaal niveau · focus op opleiding &amp; structuur.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Trainer U17 · Interprovinciaal</div>
+                  <div class="event-meta">Diploma min. UEFA C · avondtrainingen.</div>
+                </li>
+              </ul>
+              <a href="clubvacatures.html" class="event-link">Alle clubvacatures →</a>
+            </article>
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Premium</div>
+                  <div class="card-title">Premium events</div>
+                </div>
+                <span class="pill-small">Betalend</span>
+              </div>
+              <ul class="events-list premium-list" id="premium-events-list">
+                <li class="event-item">
+                  <div class="event-title">Zomertornooi U8–U11</div>
+                  <div class="event-meta">15–16 augustus · Regio Kempen · tornooi met 2 speeldagen.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Zomerstage U7–U13</div>
+                  <div class="event-meta">Dagkamp eerste week juli · techniek &amp; fun.</div>
+                </li>
+              </ul>
+              <a href="events.html" class="event-link">Alle events →</a>
+            </article>
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Premium</div>
+                  <div class="card-title">Premium trainers</div>
+                </div>
+                <span class="pill-small">Betalend</span>
+              </div>
+              <ul class="events-list premium-list" id="premium-trainers-list">
+                <li class="event-item">
+                  <div class="event-title">UEFA B-trainer zoekt U21 of 1e ploeg</div>
+                  <div class="event-meta">Regio Antwerpen · ervaring interprovinciaal / nationaal jeugd.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Jeugdtrainer U8–U10 · startend</div>
+                  <div class="event-meta">Zoekt club met sterk opleidingsplan en begeleiding.</div>
+                </li>
+              </ul>
+              <a href="trainers.html" class="event-link">Alle trainers →</a>
+            </article>
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Premium</div>
+                  <div class="card-title">Premium spelers</div>
+                </div>
+                <span class="pill-small">Betalend</span>
+              </div>
+              <ul class="events-list premium-list" id="premium-spelers-list">
+                <li class="event-item">
+                  <div class="event-title">Linksvoetige flankspeler U17</div>
+                  <div class="event-meta">Regio Limburg · zoekt provinciale of interprovinciale club.</div>
+                </li>
+                <li class="event-item">
+                  <div class="event-title">Centrale verdediger 1e ploeg</div>
+                  <div class="event-meta">3e provinciale · zoekt ambitieuze club met jonge kern.</div>
+                </li>
+              </ul>
+              <a href="spelers.html" class="event-link">Alle spelers →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- IN-CONTENT AD -->
+      <section class="section-main" style="padding-top:10px;padding-bottom:10px;">
+        <div class="shell">
+          <div class="ad-infeed">
             <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-                 data-ad-slot="HOME_AD_SLOT_1"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+              style="display:block"
+              data-ad-client="ca-pub-4062633211824348"
+              data-ad-slot="4831226012"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
         </div>
+      </section>
 
-        <div id="articles-container-2" class="articles-grid">
-            <!-- More articles will be loaded here -->
+      <!-- ONDERSTE GRID -->
+      <section class="section-main">
+        <div class="shell">
+          <div class="lower-grid-layout grid-3">
+
+            <!-- LINKS -->
+            <section class="column-middle">
+              <article class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Aankomend weekend</div>
+                    <div class="card-title">Aankomende events</div>
+                  </div>
+                  <span class="pill-small">Vanuit eventspagina’s</span>
+                </div>
+
+                <ul class="weekend-list" id="weekend-events-list">
+                  <li class="weekend-item">
+                    <span>Za 10:00 · Jeugddag U6–U9</span>
+                    <span><a href="tornooien.html">Tornooi / jeugdevent</a></span>
+                  </li>
+                  <li class="weekend-item">
+                    <span>Za &amp; zo · Mosselfestijn</span>
+                    <span><a href="dinners.html">Dinner &amp; clubfeest</a></span>
+                  </li>
+                  <li class="weekend-item">
+                    <span>Zo 09:30 · Vriendschappelijke wedstrijd U15</span>
+                    <span><a href="vrienden.html">Vriendschappelijke match</a></span>
+                  </li>
+                </ul>
+
+                <p class="note">
+                  Later kan dit blok automatisch gevoed worden op basis van alle events in de verschillende eventspagina’s.
+                </p>
+
+                <a href="events.html" class="event-link">Volledig eventsoverzicht →</a>
+              </article>
+
+              <!-- Events Calendar -->
+              <article class="card" style="margin-top:14px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Komende maand</div>
+                    <div class="card-title">Events kalender</div>
+                  </div>
+                </div>
+
+                <div id="events-calendar" style="font-size:13px; line-height:1.6;">
+                  <!-- Calendar generated by JavaScript -->
+                </div>
+
+                <a href="events.html" class="event-link" style="margin-top:10px; display:inline-block;">Alle events →</a>
+              </article>
+            </section>
+
+            <!-- MIDDEN: ARTIKELS -->
+            <section class="column-middle">
+              <div class="card" style="margin-bottom:12px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">In de kijker</div>
+                    <div class="card-title">Laatste artikels &amp; verhalen</div>
+                  </div>
+                  <span class="pill-small">Met kleine foto links</span>
+                </div>
+                <p class="note">
+                  Compacte artikels met kleine afbeeldingen links van de tekst. Grotere beelden komen op de artikelpagina zelf.
+                </p>
+              </div>
+
+              <div id="latest-news-grid" class="article-list"></div>
+              <p id="latest-news-status" class="note" style="display:none;"></p>
+            </section>
+
+            <!-- RECHTS -->
+            <aside class="column-right">
+              <article class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Nieuw</div>
+                    <div class="card-title">Laatst aangemelde trainers</div>
+                  </div>
+                  <span class="pill-small">Laatste 10, roterend</span>
+                </div>
+
+                <ul class="events-list" id="latest-trainers-list">
+                  <li class="event-item">
+                    <div class="event-title">Trainer U13 · Provinciaal</div>
+                    <div class="event-meta">Regio Vlaams-Brabant · beschikbaar vanaf volgend seizoen.</div>
+                  </li>
+                  <li class="event-item">
+                    <div class="event-title">Assistent-trainer onderbouw</div>
+                    <div class="event-meta">Regio Kempen · inzetbaar 2 avonden per week.</div>
+                  </li>
+                </ul>
+
+                <a href="trainers.html" class="event-link">Bekijk alle trainers →</a>
+              </article>
+
+              <article class="card" style="margin-top:14px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Nieuw</div>
+                    <div class="card-title">Laatst aangemelde spelers</div>
+                  </div>
+                  <span class="pill-small">Laatste 10, roterend</span>
+                </div>
+
+                <ul class="events-list" id="latest-players-list">
+                  <li class="event-item">
+                    <div class="event-title">Aanvallende middenvelder U14</div>
+                    <div class="event-meta">Regio Antwerpen · zoekt club met sterke opleiding.</div>
+                  </li>
+                  <li class="event-item">
+                    <div class="event-title">Doelman U16</div>
+                    <div class="event-meta">Regio Limburg · zoekt meer speeltijd op provinciaal niveau.</div>
+                  </li>
+                </ul>
+
+                <a href="spelers.html" class="event-link">Bekijk alle spelers →</a>
+              </article>
+
+              <!-- Sticky ad: blijft mee scrollen maar blijft onder spelers -->
+              <div class="ad-vertical" style="margin-top:14px; position:sticky; top:80px;">
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="6032627042"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            </aside>
+
+          </div>
         </div>
+      </section>
+    </main>
 
-        <!-- Ad Block 2 -->
-        <div class="ad-container">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-                 data-ad-slot="HOME_AD_SLOT_2"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+    <!-- FOOTER -->
+    <footer class="footer" id="footer-contact">
+      <div class="shell">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+            <div class="footer-legal">
+              &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+              · Mogelijkheden voor hoofdsponsor, partners en advertenties.
+            </div>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/voetbal4all" target="_blank" class="footer-social-link">Facebook</a>
+              <a href="https://www.instagram.com/voetbal4all" target="_blank" class="footer-social-link">Instagram</a>
+            </div>
+          </div>
+          <div class="footer-ad">
+            FOOTER ADVERTENTIE / PARTNERLOGO<br>
+            <span class="ad-size">Footer-banner met zichtbaarheid voor terugkerende bezoekers.</span>
+          </div>
         </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Voetbal4All. Alle rechten voorbehouden.</p>
-        <p><a href="/privacy.html">Privacy</a> | <a href="/contact.html">Contact</a></p>
+      </div>
     </footer>
 
-    <script>
-        const API_BASE = 'https://api.voetbal4all.be';
-        const IMG_BASE = 'https://api.voetbal4all.be';
-        const CACHE_KEY = 'voetbal4all_articles_v2';
-        const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
-        const REFRESH_MS = 5 * 60 * 1000; // 5 minutes
+  </div>
 
-        // Utility functions
-        function safe(s) {
-            return s || '';
-        }
+  <script>
+    // Jaar in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
 
-        function norm(s) {
-            return safe(s).toLowerCase().trim();
-        }
+    // Generieke rotatiefunctie
+    function makeRotatingList(selector, visibleCount, intervalMs) {
+      const list = document.querySelector(selector);
+      if (!list) return;
+      const items = Array.from(list.children);
+      if (items.length <= visibleCount) return;
 
-        function getCountryCode(article) {
-            // 1. Direct country field
-            if (article.country) {
-                const c = norm(article.country);
-                if (c === 'be' || c === 'belgium' || c === 'belgie' || c === 'belgië') return 'BE';
-                if (c === 'nl' || c === 'netherlands' || c === 'nederland') return 'NL';
-            }
+      let startIndex = 0;
 
-            // 2. Source/Feed ID prefix
-            const sourceId = norm(safe(article.sourceId || article.feedId));
-            if (sourceId.startsWith('be_')) return 'BE';
-            if (sourceId.startsWith('nl_')) return 'NL';
-
-            // 3. Publisher/source signals
-            const pub = norm(safe(article.publisher || article.source));
-            const beSignals = ['sporza', 'hln', 'nieuwsblad', 'hbvl', 'gazet van antwerpen', 'gva', 'vtm', 'vrt', 'standaard'];
-            const nlSignals = ['nos', 'vi.nl', 'vi', 'telegraaf', 'ad.nl', 'ad', 'voetbalzone', 'voetbalprimeur'];
-            
-            if (beSignals.some(s => pub.includes(s))) return 'BE';
-            if (nlSignals.some(s => pub.includes(s))) return 'NL';
-
-            // 4. Default
-            return 'INT';
-        }
-
-        function getCountryFlag(country) {
-            const flags = {
-                'BE': '🇧🇪',
-                'NL': '🇳🇱',
-                'INT': '🌍'
-            };
-            return flags[country] || '';
-        }
-
-        function getImageUrl(article) {
-            let imgUrl = '';
-            
-            if (article.image) {
-                if (typeof article.image === 'string') {
-                    imgUrl = article.image;
-                } else if (article.image.publicPath) {
-                    imgUrl = article.image.publicPath;
-                }
-            } else if (article.imageUrl) {
-                imgUrl = article.imageUrl;
-            }
-
-            if (!imgUrl) return null;
-
-            // Make relative paths absolute
-            if (imgUrl.startsWith('/')) {
-                return `${IMG_BASE}${imgUrl}`;
-            }
-
-            // Already absolute
-            if (imgUrl.startsWith('http://') || imgUrl.startsWith('https://')) {
-                return imgUrl;
-            }
-
-            // Relative without leading slash
-            return `${IMG_BASE}/${imgUrl}`;
-        }
-
-        function cleanTitleForUI(title) {
-            if (!title) return '';
-            
-            let cleaned = title;
-            
-            // Remove trailing publisher names after separators
-            const publishers = [
-                'HLN', 'NOS', 'Sporza', 'VRT', 'VTM', 'Nieuwsblad', 'Het Nieuwsblad',
-                'Telegraaf', 'De Telegraaf', 'AD\\.nl', 'AD', 'VI\\.nl', 'VI',
-                'Voetbalzone', 'Voetbalprimeur', 'Het Laatste Nieuws',
-                'De Standaard', 'Gazet van Antwerpen', 'GVA', 'HBVL',
-                'Het Belang van Limburg', 'De Morgen'
-            ];
-            const pubPattern = new RegExp(`\\s*[-—|]\\s*(${publishers.join('|')})\\s*$`, 'gi');
-            cleaned = cleaned.replace(pubPattern, '');
-            
-            return cleaned.trim();
-        }
-
-        function formatDate(dateString) {
-            if (!dateString) return '';
-            const date = new Date(dateString);
-            const now = new Date();
-            const diffMs = now - date;
-            const diffMins = Math.floor(diffMs / 60000);
-            const diffHours = Math.floor(diffMs / 3600000);
-            const diffDays = Math.floor(diffMs / 86400000);
-
-            if (diffMins < 60) return `${diffMins}m`;
-            if (diffHours < 24) return `${diffHours}u`;
-            if (diffDays < 7) return `${diffDays}d`;
-            
-            return date.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' });
-        }
-
-        function normalizeTitle(title) {
-            return norm(title)
-                .replace(/[^\w\s]/g, '')
-                .replace(/\s+/g, ' ');
-        }
-
-        function isFootballRelated(article) {
-            const text = norm(`${article.title} ${article.snippet || ''} ${article.description || ''}`);
-            const negativeKeywords = [
-                'politiek', 'verkiezingen', 'regering', 'minister',
-                'economie', 'bitcoin', 'crypto', 'aandelen',
-                'weer', 'verkeer', 'ongeval', 'brand',
-                'concert', 'film', 'muziek', 'festival'
-            ];
-            
-            // If contains negative keywords, it's likely not football
-            if (negativeKeywords.some(keyword => text.includes(keyword))) {
-                return false;
-            }
-            
-            return true;
-        }
-
-        function deduplicateArticles(articles) {
-            const seen = new Set();
-            return articles.filter(article => {
-                const normalized = normalizeTitle(article.title);
-                if (seen.has(normalized)) {
-                    return false;
-                }
-                seen.add(normalized);
-                return true;
-            });
-        }
-
-        function createArticleCard(article) {
-            const country = getCountryCode(article);
-            const flag = getCountryFlag(country);
-            const cleanTitle = cleanTitleForUI(article.title);
-            const imageUrl = getImageUrl(article);
-            const category = article.category || 'Nieuws';
-            const date = formatDate(article.pubDate || article.publishedAt);
-
-            const imageHTML = imageUrl 
-                ? `<img src="${imageUrl}" alt="${cleanTitle}" class="article-image" onerror="this.style.display='none'">`
-                : '';
-
-            return `
-                <a href="/artikel.html?id=${article.id}" class="article-card">
-                    ${imageHTML}
-                    <div class="article-content">
-                        <div class="article-header">
-                            ${flag ? `<span class="article-flag">${flag}</span>` : ''}
-                        </div>
-                        <h3 class="article-title">${cleanTitle}</h3>
-                        <div class="article-meta">
-                            <span class="article-category">${category}</span>
-                            ${date ? `<span>• ${date}</span>` : ''}
-                        </div>
-                    </div>
-                </a>
-            `;
-        }
-
-        function sortArticlesByCountry(articles) {
-            return articles.sort((a, b) => {
-                const countryA = getCountryCode(a);
-                const countryB = getCountryCode(b);
-                
-                // BE and NL first
-                if ((countryA === 'BE' || countryA === 'NL') && countryB === 'INT') return -1;
-                if (countryA === 'INT' && (countryB === 'BE' || countryB === 'NL')) return 1;
-                
-                // Then by date
-                const dateA = new Date(a.pubDate || a.publishedAt || 0);
-                const dateB = new Date(b.pubDate || b.publishedAt || 0);
-                return dateB - dateA;
-            });
-        }
-
-        function renderArticles(articles) {
-            const container1 = document.getElementById('articles-container');
-            const container2 = document.getElementById('articles-container-2');
-
-            if (!container1) return;
-
-            // Filter, dedupe, and sort
-            let filtered = articles.filter(isFootballRelated);
-            filtered = deduplicateArticles(filtered);
-            filtered = sortArticlesByCountry(filtered);
-
-            // Split articles between two containers
-            const firstBatch = filtered.slice(0, 6);
-            const secondBatch = filtered.slice(6, 12);
-
-            container1.innerHTML = firstBatch.map(createArticleCard).join('');
-            
-            if (container2) {
-                container2.innerHTML = secondBatch.map(createArticleCard).join('');
-            }
-
-            // Initialize AdSense
-            if (window.adsbygoogle) {
-                const ads = document.querySelectorAll('.adsbygoogle');
-                ads.forEach(ad => {
-                    try {
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    } catch (e) {
-                        console.error('AdSense error:', e);
-                    }
-                });
-            }
-        }
-
-        function getCachedArticles() {
-            try {
-                const cached = localStorage.getItem(CACHE_KEY);
-                if (!cached) return null;
-
-                const data = JSON.parse(cached);
-                const now = Date.now();
-                
-                // Check if cache is still valid
-                if (now - data.timestamp < CACHE_DURATION) {
-                    return data.articles;
-                }
-            } catch (e) {
-                console.error('Cache read error:', e);
-            }
-            return null;
-        }
-
-        function setCachedArticles(articles) {
-            try {
-                const data = {
-                    articles: articles,
-                    timestamp: Date.now()
-                };
-                localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-            } catch (e) {
-                console.error('Cache write error:', e);
-            }
-        }
-
-        async function loadArticles() {
-            try {
-                // Try to load from cache first
-                const cached = getCachedArticles();
-                if (cached) {
-                    renderArticles(cached);
-                }
-
-                // Fetch fresh data
-                const response = await fetch(`${API_BASE}/api/news?limit=50&ts=${Date.now()}`);
-                if (!response.ok) throw new Error('Kon artikelen niet laden');
-                
-                const data = await response.json();
-                const articles = data.articles || data || [];
-
-                // Update cache and render
-                setCachedArticles(articles);
-                renderArticles(articles);
-
-            } catch (error) {
-                console.error('Error loading articles:', error);
-                
-                // If we have cache, keep showing it
-                const cached = getCachedArticles();
-                if (cached) {
-                    return; // Already rendered from cache
-                }
-
-                // Otherwise show error
-                const container = document.getElementById('articles-container');
-                if (container) {
-                    container.innerHTML = `
-                        <div class="error">
-                            <h3>Fout bij laden van artikelen</h3>
-                            <p>${error.message}</p>
-                        </div>
-                    `;
-                }
-            }
-        }
-
-        // Live banner functionality
-        function checkLiveMatches() {
-            const banner = document.getElementById('live-banner');
-            const text = document.getElementById('live-text');
-            
-            if (!banner || !text) return;
-
-            fetch(`${API_BASE}/api/live-matches`)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.matches && data.matches.length > 0) {
-                        const match = data.matches[0];
-                        text.textContent = `LIVE: ${match.homeTeam} vs ${match.awayTeam}`;
-                        banner.classList.add('active');
-                    }
-                })
-                .catch(err => console.error('Live matches error:', err));
-        }
-
-        // Mobile navigation toggle
-        function initMobileNav() {
-            const toggle = document.getElementById('nav-toggle');
-            const links = document.getElementById('nav-links');
-            
-            if (toggle && links) {
-                toggle.addEventListener('click', () => {
-                    links.classList.toggle('active');
-                });
-            }
-        }
-
-        // Initialize
-        document.addEventListener('DOMContentLoaded', () => {
-            initMobileNav();
-            loadArticles();
-            checkLiveMatches();
-            
-            // Refresh articles periodically
-            setInterval(loadArticles, REFRESH_MS);
-            
-            // Check live matches every minute
-            setInterval(checkLiveMatches, 60000);
+      function render() {
+        items.forEach((item, index) => {
+          const inWindow = index >= startIndex && index < startIndex + visibleCount;
+          item.style.display = inWindow ? "" : "none";
         });
-    </script>
 
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
-            crossorigin="anonymous"></script>
+        startIndex += visibleCount;
+        if (startIndex >= items.length) startIndex = 0;
+      }
+
+      render();
+      setInterval(render, intervalMs);
+    }
+
+    makeRotatingList("#weekend-events-list", 2, 5000);
+    makeRotatingList("#latest-trainers-list", 2, 4000);
+    makeRotatingList("#latest-players-list", 2, 4000);
+
+    // Premiumlijsten roteren indien meer dan 2 items
+    document.querySelectorAll(".premium-list").forEach(list => {
+      const items = Array.from(list.children);
+
+      if (!items.length) {
+        const msg = document.createElement("p");
+        msg.className = "note premium-empty";
+        msg.textContent = "Uw profiel / event / vacature hier? Druk op de knop voor extra zichtbaarheid.";
+        list.parentElement.appendChild(msg);
+        return;
+      }
+
+      if (items.length > 2) {
+        let index = 0;
+        function renderPremium() {
+          items.forEach((item, i) => {
+            item.style.display = (i === index || i === (index + 1) % items.length) ? "" : "none";
+          });
+          index = (index + 2) % items.length;
+        }
+        renderPremium();
+        setInterval(renderPremium, 5000);
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const homeListEl = document.getElementById("latest-news-grid");
+      const homeStatusEl = document.getElementById("latest-news-status");
+
+      if (!homeListEl) {
+        console.error("Container #latest-news-grid niet gevonden");
+        return;
+      }
+
+      const API_BASE = "https://voetbal4all-backend-database.onrender.com";
+      const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
+      const CACHE_KEY = "home_news_html_v5"; // Updated for 50 articles + football filter
+      localStorage.removeItem(CACHE_KEY);
+      const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
+
+      let hasRenderedHomeNews = false;
+
+      function showStatusOnceIfEmpty(msg) {
+        if (!hasRenderedHomeNews && homeStatusEl) {
+          homeStatusEl.style.display = "block";
+          homeStatusEl.textContent = msg;
+        }
+      }
+
+      function hideStatus() {
+        if (homeStatusEl) homeStatusEl.style.display = "none";
+      }
+
+      // 1) Toon cache onmiddellijk (sneller), maar blijf daarna live ophalen
+      const cachedHtml = localStorage.getItem(CACHE_KEY);
+      if (cachedHtml && !homeListEl.innerHTML.trim()) {
+        homeListEl.innerHTML = cachedHtml;
+        hasRenderedHomeNews = true;
+        hideStatus();
+      }
+      async function loadHomeNews() {
+        try {
+          const url = `${API_BASE}/api/news?limit=50&ts=${Date.now()}`;
+          const res = await fetch(url, { cache: "no-store" });
+          console.log("[HOME] fetch", url, "->", res.status);
+
+          if (!res.ok) throw new Error("[HOME] API error: " + res.status);
+
+          const ct = res.headers.get("content-type") || "";
+          if (!ct.includes("application/json")) {
+            const txt = await res.text();
+            throw new Error("[HOME] Expected JSON, got: " + ct + " / " + txt.slice(0, 200));
+          }
+
+          const data = await res.json();
+          const rawItems = Array.isArray(data.items) ? data.items : [];
+
+          // 🔥 DEDUPE: Remove duplicates by title only (simplified)
+          const seen = new Set();
+          let items = rawItems.filter(a => {
+            const normalizedTitle = (a?.title || "").trim().toLowerCase();
+            if (seen.has(normalizedTitle)) {
+              console.log(`[DEDUPE] ❌ Removed duplicate: "${a.title}"`);
+              return false;
+            }
+            seen.add(normalizedTitle);
+            return true;
+          });
+
+          console.log(`[DEDUPE] ${rawItems.length} → ${items.length} articles (removed ${rawItems.length - items.length} duplicates)`);
+
+          // Don't slice here - we need all items for filtering
+          console.log("[HOME] items:", items.length);
+
+          // 🔥 FOOTBALL FILTER - SOFT VERSION: Only exclude explicit non-football sports
+          // Do NOT require football keywords (to avoid false negatives)
+          const nonFootballKeywords = [
+            'darts', 'dart', 'dartsnieuws', 'dartswedstrijd',
+            'snooker', 'snookertafel',
+            'tennis', 'tennisbal', 'tennisbaan',
+            'basketbal', 'basketball', 'nba',
+            'hockey', 'hockeystick',
+            'handbal', 'volleybal',
+            'formule 1', 'formule1', 'f1-coureur', 'grand prix', 'verstappen',
+            'wielrennen', 'cycling',
+            'schaatsen', 'zwemmen', 'atletiek',
+            'golf', 'rugby', 'boksen', 'motorsport'
+          ];
+          
+          const filteredItems = items.filter(article => {
+            const text = `${article.title || ''} ${article.snippet || ''}`.toLowerCase();
+            
+            // ONLY exclude explicit non-football sports
+            const hasNonFootball = nonFootballKeywords.some(k => text.includes(k));
+            
+            if (hasNonFootball) {
+              console.log(`[FILTER] ❌ Excluded (non-football): ${article.title}`);
+              return false;
+            }
+            
+            // Include everything else (assume football)
+            return true;
+          });
+
+          console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
+
+          // 🔥 FIX: Separate BE/NL from INT, shuffle BE/NL together
+          const beNlArticles = filteredItems.filter(a => a.country === 'BE' || a.country === 'NL');
+          const intArticles = filteredItems.filter(a => a.country === 'INT');
+          
+          // Shuffle BE/NL articles randomly (Fisher-Yates shuffle)
+          for (let i = beNlArticles.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [beNlArticles[i], beNlArticles[j]] = [beNlArticles[j], beNlArticles[i]];
+          }
+          
+          // Combine: Mixed BE/NL first, then INT
+          const sortedItems = [...beNlArticles, ...intArticles];
+          
+          console.log(`[SORT] ✅ Mixed BE/NL (${beNlArticles.length}), then INT (${intArticles.length})`);
+
+          // Take first 50 for display (from sorted results)
+          const displayItems = sortedItems.slice(0, 50);
+
+          // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
+          if (!displayItems.length) {
+            showStatusOnceIfEmpty("Artikels worden geladen…");
+            return;
+          }
+
+          const html = displayItems.map((a, index) => {
+            // 1) title check (zoals je al had)
+            const rawTitle = a?.title || "";
+            const looksLikeSlug =
+              rawTitle.endsWith(".json") ||
+              (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
+
+            const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : rawTitle;
+            const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
+
+            // 2) JUISTE file-naam (backend gebruikt fileName)
+            const file = a?.file || a?.fileName || "";
+
+            // 3) JUISTE image (zit genest in image.publicPath)
+
+            // 4) vlag op basis van country
+            const country = (a?.country || "").toUpperCase();
+            const flag =
+              country === "BE" ? "🇧🇪" :
+              country === "NL" ? "🇳🇱" :
+              country ? "🌍" : "";
+
+            // 3) JUISTE image: backend levert image als STRING
+            let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
+
+            // maak absoluut (belangrijk: IMG_BASE, niet API_BASE)
+            if (imgPath && imgPath.startsWith("/")) {
+              imgPath = IMG_BASE + imgPath;
+            }
+            
+            // 🔥 NEW: Insert inline ad after 10th article
+            const articleHtml = `
+              <article class="home-news__item">
+                <a class="home-news__link" href="artikel.html?file=${encodeURIComponent(file)}">
+                  <div class="home-news__thumbWrap">
+                    ${imgPath ? `<img class="home-news__thumb" src="${imgPath}" alt="${safeTitle}" loading="lazy">` : ``}
+                  </div>
+                  <div class="home-news__meta">
+                    <div class="home-news__titleRow">
+                      <span class="home-news__flag">${flag}</span>
+                      <h4 class="home-news__title">${safeTitle}</h4>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            `;
+            
+            // Insert ad after 10th article (index 9 because 0-based)
+            if (index === 9) {
+              return articleHtml + `
+                <div style="margin: 20px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-4062633211824348"
+                    data-ad-slot="6032627042"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  <\/script>
+                </div>
+              `;
+            }
+              
+            return articleHtml;
+          }).join("");
+
+          homeListEl.innerHTML = html;
+
+          // ✅ pas NA succesvol renderen
+          hasRenderedHomeNews = true;
+          hideStatus();
+          localStorage.setItem(CACHE_KEY, html);
+        } catch (e) {
+          console.error("[HOME] loadHomeNews error:", e);
+          // Alleen status tonen als er nog nooit iets getoond is
+          if (!hasRenderedHomeNews) {
+            showStatusOnceIfEmpty("Nieuws laden mislukt.");
+          }
+        }
+      }
+
+      // Eerste live load + periodieke refresh
+      loadHomeNews();
+      setInterval(loadHomeNews, REFRESH_MS);
+      
+      // Generate monthly calendar
+      function generateMonthlyCalendar() {
+        const calendarEl = document.getElementById('events-calendar');
+        if (!calendarEl) return;
+        
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = now.getMonth();
+        
+        const monthNames = ['Januari', 'Februari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus', 'September', 'Oktober', 'November', 'December'];
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const firstDay = new Date(year, month, 1).getDay();
+        const adjustedFirstDay = firstDay === 0 ? 6 : firstDay - 1;
+        
+        const eventDays = [3, 7, 14, 21, 28]; // Sample events
+        
+        let html = '<div style="text-align: center; font-weight: 600; margin-bottom: 10px; color: #1a5490; font-size: 14px;">' + monthNames[month] + ' ' + year + '</div>';
+        html += '<div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; text-align: center;">';
+        
+        // Headers
+        const dayNames = ['Ma', 'Di', 'Wo', 'Do', 'Vr', 'Za', 'Zo'];
+        dayNames.forEach(day => {
+          html += '<div style="font-weight: 600; font-size: 11px; color: #666; padding: 4px 0;">' + day + '</div>';
+        });
+        
+        // Empty cells
+        for (let i = 0; i < adjustedFirstDay; i++) {
+          html += '<div></div>';
+        }
+        
+        // Days
+        const today = now.getDate();
+        for (let day = 1; day <= daysInMonth; day++) {
+          const isToday = day === today;
+          const hasEvent = eventDays.includes(day);
+          const dayOfWeek = (adjustedFirstDay + day - 1) % 7;
+          const isWeekend = dayOfWeek === 5 || dayOfWeek === 6;
+          
+          let style = 'padding: 7px 4px; border-radius: 3px; font-size: 12px;';
+          
+          if (isToday) {
+            style += ' background: #1a5490; color: white; font-weight: 600;';
+          } else if (hasEvent) {
+            style += ' background: #e3f2fd; color: #1a5490; font-weight: 500; cursor: pointer;';
+          } else if (isWeekend) {
+            style += ' color: #999;';
+          } else {
+            style += ' color: #333;';
+          }
+          
+          const titleAttr = hasEvent ? ' title="Event deze dag"' : '';
+          html += '<div style="' + style + '"' + titleAttr + '>' + day + '</div>';
+        }
+        
+        html += '</div>';
+        
+        // Legend
+        html += '<div style="margin-top: 12px; font-size: 11px; color: #666; line-height: 1.8;">';
+        html += '<div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px;">';
+        html += '<div style="width: 12px; height: 12px; background: #1a5490; border-radius: 2px;"></div>';
+        html += '<span>Vandaag</span></div>';
+        html += '<div style="display: flex; align-items: center; gap: 6px;">';
+        html += '<div style="width: 12px; height: 12px; background: #e3f2fd; border-radius: 2px;"></div>';
+        html += '<span>Event(s) deze dag</span></div></div>';
+        
+        calendarEl.innerHTML = html;
+      }
+      
+
+      generateMonthlyCalendar();
+    });
+  </script>
+
+  <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
+  <script src="assets/js/nav-mobile.js" defer></script>
+  <script src="assets/js/live-banner.js"></script>
 </body>
 </html>

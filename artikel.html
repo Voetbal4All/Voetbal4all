@@ -1,823 +1,620 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Artikel laden... - Voetbal4All</title>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8" />
+  <title id="page-title">Voetbal4All - Artikel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" id="page-description" content="Lees het nieuwste voetbalnieuws op Voetbal4All" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" id="og-title" content="Voetbal4All - Artikel" />
+  <meta property="og:description" id="og-description" content="Lees het nieuwste voetbalnieuws" />
+  <meta property="og:image" id="og-image" content="/images/placeholder.svg" />
+  <meta property="og:type" content="article" />
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+  
+  <style>
+    .article-hero-image {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="" id="og-url">
-    <meta property="og:title" content="" id="og-title">
-    <meta property="og:description" content="" id="og-description">
-    <meta property="og:image" content="" id="og-image">
-    <meta property="og:site_name" content="Voetbal4All">
+    .article-meta {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="" id="twitter-url">
-    <meta property="twitter:title" content="" id="twitter-title">
-    <meta property="twitter:description" content="" id="twitter-description">
-    <meta property="twitter:image" content="" id="twitter-image">
+    .article-body {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--text-primary);
+    }
     
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #f5f5f5;
-            line-height: 1.6;
-        }
-
-        /* Navigation */
-        nav {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .nav-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .nav-logo {
-            color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.3s;
-        }
-
-        .nav-links a:hover {
-            opacity: 0.8;
-        }
-
-        /* Live Banner */
-        .live-banner {
-            background: linear-gradient(90deg, #ff6b6b, #ee5a6f);
-            color: white;
-            padding: 0.75rem;
-            text-align: center;
-            font-weight: 600;
-            display: none;
-            animation: pulse 2s infinite;
-        }
-
-        .live-banner.active {
-            display: block;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.9; }
-        }
-
-        .live-dot {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            background: white;
-            border-radius: 50%;
-            margin-right: 8px;
-            animation: blink 1.5s infinite;
-        }
-
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
-        }
-
-        /* Article Container */
-        .article-container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        .article-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        .article-header {
-            padding: 2rem 2rem 1rem 2rem;
-        }
-
-        .article-meta {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .article-type {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-
-        .article-country {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            padding: 0.25rem 0.75rem;
-            background: #f0f0f0;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-
-        .article-date {
-            color: #666;
-            font-size: 0.9rem;
-        }
-
-        .article-title {
-            font-size: 2rem;
-            font-weight: 800;
-            color: #1a1a1a;
-            line-height: 1.3;
-            margin-bottom: 1rem;
-        }
-
-        .article-caption {
-            color: #666;
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .article-standfirst {
-            font-size: 1.15rem;
-            color: #333;
-            line-height: 1.7;
-            font-weight: 500;
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 2px solid #f0f0f0;
-        }
-
-        .article-image-container {
-            width: 100%;
-            max-height: 500px;
-            overflow: hidden;
-            background: #f0f0f0;
-        }
-
-        .article-image {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .article-body {
-            padding: 2rem;
-        }
-
-        .article-body p {
-            margin-bottom: 1.5rem;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: #333;
-        }
-
-        .article-body p:last-child {
-            margin-bottom: 0;
-        }
-
-        /* Share Buttons */
-        .share-section {
-            padding: 2rem;
-            border-top: 2px solid #f0f0f0;
-        }
-
-        .share-title {
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            color: #333;
-        }
-
-        .share-buttons {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .share-btn {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.2s, opacity 0.2s;
-            text-decoration: none;
-            color: white;
-        }
-
-        .share-btn:hover {
-            transform: translateY(-2px);
-            opacity: 0.9;
-        }
-
-        .share-btn:active {
-            transform: translateY(0);
-        }
-
-        .btn-facebook {
-            background: #1877f2;
-        }
-
-        .btn-twitter {
-            background: #1da1f2;
-        }
-
-        .btn-whatsapp {
-            background: #25d366;
-        }
-
-        .btn-copy {
-            background: #6c757d;
-        }
-
-        .btn-copy.copied {
-            background: #28a745;
-        }
-
-        /* Related Articles */
-        .related-section {
-            max-width: 1200px;
-            margin: 3rem auto;
-            padding: 0 1rem;
-        }
-
-        .related-title {
-            font-size: 1.8rem;
-            font-weight: 800;
-            margin-bottom: 2rem;
-            text-align: center;
-            color: #1a1a1a;
-        }
-
-        .related-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .related-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .related-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-
-        .related-card-image {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            background: #f0f0f0;
-        }
-
-        .related-card-content {
-            padding: 1.5rem;
-        }
-
-        .related-card-title {
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 0.75rem;
-            line-height: 1.4;
-        }
-
-        .related-card-meta {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: #666;
-            font-size: 0.85rem;
-        }
-
-        /* Ad Container */
-        .ad-container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        .ad-block {
-            background: #f9f9f9;
-            border: 2px dashed #e0e0e0;
-            border-radius: 12px;
-            padding: 2rem;
-            text-align: center;
-            min-height: 250px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Loading & Error States */
-        .loading {
-            text-align: center;
-            padding: 4rem 2rem;
-            color: #666;
-        }
-
-        .error {
-            max-width: 600px;
-            margin: 4rem auto;
-            padding: 2rem;
-            background: #fee;
-            border: 2px solid #fcc;
-            border-radius: 12px;
-            color: #c33;
-            text-align: center;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-content {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .nav-links {
-                gap: 1rem;
-            }
-
-            .article-title {
-                font-size: 1.5rem;
-            }
-
-            .article-header {
-                padding: 1.5rem 1.5rem 1rem 1.5rem;
-            }
-
-            .article-body {
-                padding: 1.5rem;
-            }
-
-            .share-section {
-                padding: 1.5rem;
-            }
-
-            .related-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    .article-body p {
+      margin-bottom: 1.2em;
+    }
+    
+    .share-section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .share-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 20px 0;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin: 24px 0;
+    }
+    
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.1);
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .share-btn:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+    }
+    
+    .share-btn svg {
+      flex-shrink: 0;
+    }
+    
+    .share-btn-facebook:hover { background: rgba(24, 119, 242, 0.3); }
+    .share-btn-twitter:hover { background: rgba(29, 155, 240, 0.3); }
+    .share-btn-whatsapp:hover { background: rgba(37, 211, 102, 0.3); }
+    .share-btn-linkedin:hover { background: rgba(10, 102, 194, 0.3); }
+    
+    .article-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    
+    .article-tag {
+      padding: 6px 12px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 4px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.8);
+    }
+    
+    .loading-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: rgba(255,255,255,0.6);
+    }
+    
+    .error-state {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    
+    .error-state h2 {
+      color: #ff6b6b;
+      margin-bottom: 12px;
+    }
+  </style>
 </head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-content">
-            <a href="/" class="nav-logo">
-                <span>⚽</span>
-                <span>Voetbal4All</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/artikels.html">Nieuws</a></li>
-                <li><a href="/live.html">Live</a></li>
-            </ul>
+
+<body class="v4-hide-live-mobile">
+<div class="page">
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="shell">
+    <div class="navbar-inner">
+
+      <a href="index.html" class="brand brand--logo-only">
+        <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" class="brand-logo" />
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="artikels.html" class="nav-link nav-link--active">Artikels</a>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportieve events <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+            <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+            <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+            <a href="stages.html" class="nav-dropdown-link">Stages</a>
+            <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+          </div>
         </div>
-    </nav>
 
-    <!-- Live Banner -->
-    <div class="live-banner" id="live-banner">
-        <span class="live-dot"></span>
-        <span id="live-text">LIVE: Bekijk de wedstrijd nu!</span>
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Club &amp; fun <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+            <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+            <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+            <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+            <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+            <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+            <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Sportief <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+            <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+            <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+            <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+            <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+            <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link nav-link--dropdown">
+            Voetbal4All <span class="nav-link-caret">▾</span>
+          </button>
+          <div class="nav-dropdown">
+            <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+            <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+            <a href="contact.html" class="nav-dropdown-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <a href="adverteren.html" class="nav-cta">
+        <span>Adverteer nu</span>
+        <span>Sponsor &amp; Ads</span>
+      </a>
+
+      <button class="nav-burger">☰</button>
     </div>
+  </div>
+</header>
 
-    <!-- Article Content -->
-    <div class="article-container">
-        <div id="article-content">
-            <div class="loading">
-                <h2>Artikel laden...</h2>
+<!-- ================= LIVE BANNER ================= -->
+<section class="live-banner-top">
+  <div class="shell">
+    <div class="live-banner">
+      <div class="live-label"><span class="live-dot"></span>Live resultaten</div>
+      <div class="live-text">
+        <span class="live-text-main"></span>
+        <div class="live-updated"></div>
+      </div>
+      <div class="live-socials">
+        <div class="live-socials-label">Volg ons</div>
+        <div class="live-socials-icons"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HEADER ADSENSE ================= -->
+<section class="section-main" style="padding:10px 0;">
+  <div class="shell">
+    <div class="ad-slot ad-slot-header">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4062633211824348"
+        data-ad-slot="3518144343"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTENT ================= -->
+<main>
+<section class="section-main">
+<div class="shell">
+
+  <div id="loading-state" class="loading-state">
+    <div class="card"><p>Artikel laden...</p></div>
+  </div>
+
+  <div id="error-state" class="error-state" style="display:none;">
+    <div class="card">
+      <h2>Artikel niet gevonden</h2>
+      <p>Het artikel dat je zoekt bestaat niet of is verwijderd.</p>
+      <a href="artikels.html" class="btn btn-primary" style="margin-top:20px;">Terug naar overzicht</a>
+    </div>
+  </div>
+
+  <div id="article-content" style="display:none;">
+    <div class="v4-layout-sidebar">
+      
+      <div class="v4-content">
+        <article class="card">
+          
+          <div style="margin-bottom:16px;">
+            <a href="index.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Home</a>
+            <span style="color:rgba(255,255,255,0.4); margin:0 8px;">›</span>
+            <a href="artikels.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Artikels</a>
+            <span style="color:rgba(255,255,255,0.4); margin:0 8px;">›</span>
+            <span style="color:rgba(255,255,255,0.8);" id="breadcrumb-title">Artikel</span>
+          </div>
+          
+          <div class="card-header">
+            <div>
+              <div class="card-caption" id="article-caption">Voetbal4All · Nieuws</div>
+              <h1 class="card-title" id="article-title">Laden...</h1>
             </div>
-        </div>
-    </div>
-
-    <!-- Ad Block 1 -->
-    <div class="ad-container">
-        <div class="ad-block">
+            <span class="pill-small" id="article-type">Artikel</span>
+          </div>
+          
+          <div class="article-meta">
+            <span class="pill-small" id="article-country"></span>
+            <span style="color:rgba(255,255,255,0.6); font-size:14px;" id="article-date"></span>
+          </div>
+          
+          <img id="article-image" src="" alt="" class="article-hero-image" />
+          
+          <div class="note" id="article-standfirst" style="font-size:18px; font-weight:500; line-height:1.6; margin-bottom:24px;"></div>
+          
+          <div class="share-section-title">Deel dit artikel op:</div>
+          <div class="share-buttons">
+            <a href="#" id="share-facebook" class="share-btn share-btn-facebook" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Facebook
+            </a>
+            <a href="#" id="share-twitter" class="share-btn share-btn-twitter" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+              Twitter
+            </a>
+            <a href="#" id="share-whatsapp" class="share-btn share-btn-whatsapp" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              WhatsApp
+            </a>
+            <a href="#" id="share-linkedin" class="share-btn share-btn-linkedin" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+            <button id="share-copy" class="share-btn" style="background:rgba(255,255,255,0.1); border:none; cursor:pointer;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+              </svg>
+              <span id="copy-text">Kopieer link</span>
+            </button>
+          </div>
+          
+          <div class="article-body" id="article-body"></div>
+          
+          <div class="ad-slot" style="margin:32px 0; padding:20px; background:rgba(255,255,255,0.05); border-radius:8px;">
             <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-                 data-ad-slot="ARTICLE_AD_SLOT_1"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+              style="display:block"
+              data-ad-client="ca-pub-4062633211824348"
+              data-ad-slot="6032627042"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+          
+          <div class="article-tags" id="article-tags"></div>
+          
+          <div style="margin-top:32px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.1);">
+            <a href="artikels.html" class="btn" style="background:rgba(255,255,255,0.1);">← Terug naar overzicht</a>
+          </div>
+          
+        </article>
+      </div>
+      
+      <aside class="v4-sidebar">
+        <div class="v4-sidebar-sticky">
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Meer nieuws</div>
+                <div class="card-title">Gerelateerde artikels</div>
+              </div>
+            </div>
+            <p class="note">Ontdek meer voetbalnieuws op onze artikelpagina.</p>
+            <a href="artikels.html" class="btn btn-primary" style="margin-top:12px;">Bekijk alle artikels →</a>
+          </article>
+          
+          <article class="card" style="margin-top:12px;">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Advertentie</div>
+                <div class="card-title">Sponsor</div>
+              </div>
+            </div>
+            <div class="ad-slot" style="padding:12px;">
+              <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-4062633211824348"
+                data-ad-slot="6032627042"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+          </article>
         </div>
+      </aside>
+      
     </div>
+  </div>
 
-    <!-- Related Articles -->
-    <div class="related-section">
-        <h2 class="related-title">Gerelateerde Artikelen</h2>
-        <div class="related-grid" id="related-articles">
-            <!-- Related articles will be inserted here -->
-        </div>
+</div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+        <div class="footer-legal">&copy; <span id="year"></span> Voetbal4All.</div>
+      </div>
+      <div class="footer-ad">FOOTER ADVERTENTIE</div>
     </div>
+  </div>
+</footer>
 
-    <!-- Ad Block 2 -->
-    <div class="ad-container">
-        <div class="ad-block">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-                 data-ad-slot="ARTICLE_AD_SLOT_2"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-        </div>
-    </div>
+</div>
 
-    <script>
-        const API_BASE = 'https://api.voetbal4all.be';
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/nav-mobile.js"></script>
+<script src="assets/js/live-banner.js"></script>
 
-        // Utility functions
-        function norm(s) {
-            return (s || '').toLowerCase().trim();
+<script>
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  const fileName = params.get('file');
+  
+  console.log('[ARTIKEL] URL param file:', fileName);
+  
+  if (!fileName) { 
+    console.error('[ARTIKEL] No file parameter in URL');
+    showError(); 
+    return; 
+  }
+  
+  const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
+  
+  console.log('[ARTIKEL] Fetching articles from API...');
+  
+  fetch(API_BASE + '/api/news?limit=500')
+    .then(res => {
+      console.log('[ARTIKEL] API response status:', res.status);
+      if (!res.ok) throw new Error('API returned ' + res.status);
+      return res.json();
+    })
+    .then(data => {
+      console.log('[ARTIKEL] Total articles received:', data.items?.length || 0);
+      
+      const articles = data.items || [];
+      
+      if (articles.length === 0) {
+        console.error('[ARTIKEL] No articles in API response');
+        showError();
+        return;
+      }
+      
+      // Log first article to see structure
+      console.log('[ARTIKEL] First article structure:', {
+        fileName: articles[0].fileName,
+        file: articles[0].file,
+        _id: articles[0]._id,
+        title: articles[0].title
+      });
+      
+      // Try multiple matching strategies
+      const article = articles.find(a => {
+        // Strategy 1: Exact fileName match
+        if (a.fileName === fileName) {
+          console.log('[ARTIKEL] ✅ Match via fileName:', a.fileName);
+          return true;
         }
-
-        function safe(s) {
-            return s || '';
+        
+        // Strategy 2: Exact file match
+        if (a.file === fileName) {
+          console.log('[ARTIKEL] ✅ Match via file:', a.file);
+          return true;
         }
-
-        function getCountryCode(article) {
-            // 1. Direct country field
-            if (article.country) {
-                const c = norm(article.country);
-                if (c === 'be' || c === 'belgium' || c === 'belgie' || c === 'belgië') return 'BE';
-                if (c === 'nl' || c === 'netherlands' || c === 'nederland') return 'NL';
-            }
-
-            // 2. Source/Feed ID prefix
-            const sourceId = norm(safe(article.sourceId || article.feedId));
-            if (sourceId.startsWith('be_')) return 'BE';
-            if (sourceId.startsWith('nl_')) return 'NL';
-
-            // 3. Publisher/source signals
-            const pub = norm(safe(article.publisher || article.source));
-            const beSignals = ['sporza', 'hln', 'nieuwsblad', 'hbvl', 'gazet van antwerpen', 'gva', 'vtm', 'vrt', 'standaard'];
-            const nlSignals = ['nos', 'vi.nl', 'vi', 'telegraaf', 'ad.nl', 'ad', 'voetbalzone', 'voetbalprimeur'];
-            
-            if (beSignals.some(s => pub.includes(s))) return 'BE';
-            if (nlSignals.some(s => pub.includes(s))) return 'NL';
-
-            // 4. Default
-            return 'INT';
+        
+        // Strategy 3: fileName includes parameter
+        if (a.fileName && a.fileName.includes(fileName)) {
+          console.log('[ARTIKEL] ✅ Match via fileName.includes:', a.fileName);
+          return true;
         }
-
-        function getCountryDisplay(country) {
-            const map = {
-                'BE': { flag: '🇧🇪', name: 'België' },
-                'NL': { flag: '🇳🇱', name: 'Nederland' },
-                'INT': { flag: '🌍', name: 'Internationaal' }
-            };
-            return map[country] || map['INT'];
+        
+        // Strategy 4: file includes parameter
+        if (a.file && a.file.includes(fileName)) {
+          console.log('[ARTIKEL] ✅ Match via file.includes:', a.file);
+          return true;
         }
-
-        function cleanTextForUI(text) {
-            if (!text) return '';
-            
-            let cleaned = text;
-            
-            // Remove "Bron:" or "Source:" segments
-            cleaned = cleaned.replace(/\s*[-—|]\s*(Bron|Source|Publisher)\s*:?\s*[^.]*$/gi, '');
-            cleaned = cleaned.replace(/^(Bron|Source|Publisher)\s*:?\s*/gi, '');
-            
-            // Remove trailing publisher names after separators
-            const publishers = [
-                'HLN', 'NOS', 'Sporza', 'VRT', 'VTM', 'Nieuwsblad', 'Het Nieuwsblad',
-                'Telegraaf', 'De Telegraaf', 'AD\\.nl', 'AD', 'VI\\.nl', 'VI',
-                'Voetbalzone', 'Voetbalprimeur', 'Het Laatste Nieuws',
-                'De Standaard', 'Gazet van Antwerpen', 'GVA', 'HBVL',
-                'Het Belang van Limburg', 'De Morgen'
-            ];
-            const pubPattern = new RegExp(`\\s*[-—|]\\s*(${publishers.join('|')})\\s*$`, 'gi');
-            cleaned = cleaned.replace(pubPattern, '');
-            
-            return cleaned.trim();
+        
+        // Strategy 5: _id match
+        if (a._id === fileName) {
+          console.log('[ARTIKEL] ✅ Match via _id:', a._id);
+          return true;
         }
+        
+        return false;
+      });
+      
+      if (!article) {
+        console.error('[ARTIKEL] Article not found. Searched for:', fileName);
+        console.log('[ARTIKEL] Available fileNames (first 10):', 
+          articles.slice(0, 10).map(a => a.fileName || a.file || a._id)
+        );
+        showError();
+        return;
+      }
+      
+      console.log('[ARTIKEL] ✅ Article found:', article.title);
+      displayArticle(article);
+    })
+    .catch(err => { 
+      console.error('[ARTIKEL] ❌ Failed to load article:', err); 
+      showError(); 
+    });
+  
+  function showError() {
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('error-state').style.display = 'block';
+  }
+  
+  function displayArticle(article) {
+    console.log('[ARTIKEL] Displaying article:', article.title);
+    
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('article-content').style.display = 'block';
+    
+    const title = article.title || 'Voetbal4All Artikel';
+    document.getElementById('page-title').textContent = title + ' - Voetbal4All';
+    document.getElementById('og-title').setAttribute('content', title);
+    document.getElementById('page-description').setAttribute('content', article.snippet || '');
+    document.getElementById('og-description').setAttribute('content', article.snippet || '');
+    
+    const shortTitle = title.length > 50 ? title.substring(0, 47) + '...' : title;
+    document.getElementById('breadcrumb-title').textContent = shortTitle;
+    document.getElementById('article-title').textContent = title;
+    document.getElementById('article-caption').textContent = 'Voetbal4All · ' + (article.country || 'Nieuws');
+    
+    const type = article._meta?.type === 'merged' ? 'Samengesteld (' + (article._meta?.sourceCount || 0) + ' bronnen)' : 'Artikel';
+    document.getElementById('article-type').textContent = type;
+    
+    const countryEl = document.getElementById('article-country');
+    if (article.country === 'BE') countryEl.textContent = '🇧🇪 België';
+    else if (article.country === 'NL') countryEl.textContent = '🇳🇱 Nederland';
+    else if (article.country === 'INT') countryEl.textContent = '🌍 Internationaal';
+    else countryEl.style.display = 'none';
+    
+    if (article.publishedAt) {
+      const date = new Date(article.publishedAt);
+      const formatted = date.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
+      document.getElementById('article-date').textContent = formatted;
+    }
+    
+    const imageEl = document.getElementById('article-image');
+    if (article.image) {
+      const cleanImage = article.image.split('?')[0];
+      imageEl.src = cleanImage.startsWith('http') ? cleanImage : API_BASE + cleanImage;
+      imageEl.alt = title;
+      if (cleanImage.endsWith('.svg')) imageEl.style.maxHeight = '300px';
+    } else { imageEl.style.display = 'none'; }
+    
+    if (article.image) {
+      const cleanImage = article.image.split('?')[0];
+      const fullImageUrl = cleanImage.startsWith('http') ? cleanImage : window.location.origin + cleanImage;
+      document.getElementById('og-image').setAttribute('content', fullImageUrl);
+    }
+    
+    if (article.snippet) {
+      document.getElementById('article-standfirst').textContent = article.snippet;
+    } else {
+      document.getElementById('article-standfirst').style.display = 'none';
+    }
+    
+    const bodyEl = document.getElementById('article-body');
+    if (article.body) {
+      const paragraphs = article.body.split('\n').filter(p => p.trim()).map(p => '<p>' + p.trim() + '</p>').join('');
+      bodyEl.innerHTML = paragraphs;
+    } else {
+      bodyEl.innerHTML = ""; // Empty - no fallback message;
+    }
+    
+    const tagsEl = document.getElementById('article-tags');
+    if (article.tags && article.tags.length > 0) {
+      tagsEl.innerHTML = article.tags.slice(0, 10).map(tag => '<span class="article-tag">' + tag + '</span>').join('');
+    } else {
+      tagsEl.style.display = 'none';
+    }
+    
+    const articleUrl = window.location.href;
+    const encodedUrl = encodeURIComponent(articleUrl);
+    const encodedTitle = encodeURIComponent(title);
+    
+    const fbUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl;
+    document.getElementById('share-facebook').href = fbUrl;
+    document.getElementById('share-facebook-2').href = fbUrl;
+    
+    const twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodedTitle;
+    document.getElementById('share-twitter').href = twitterUrl;
+    document.getElementById('share-twitter-2').href = twitterUrl;
+    
+    const waUrl = 'https://wa.me/?text=' + encodedTitle + '%20' + encodedUrl;
+    document.getElementById('share-whatsapp').href = waUrl;
+    document.getElementById('share-whatsapp-2').href = waUrl;
+    
+    const liUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodedUrl;
+    document.getElementById('share-linkedin').href = liUrl;
+    
+    setupCopyButton('share-copy', 'copy-text', articleUrl);
+    setupCopyButton('share-copy-2', 'copy-text-2', articleUrl);
+    
+    console.log('[ARTIKEL] ✅ Article fully displayed');
+  }
+  
+  function setupCopyButton(btnId, textId, url) {
+    document.getElementById(btnId).addEventListener('click', async function() {
+      try {
+        await navigator.clipboard.writeText(url);
+        const textEl = document.getElementById(textId);
+        textEl.textContent = '✓ Gekopieerd!';
+        setTimeout(() => { textEl.textContent = 'Kopieer link'; }, 2000);
+      } catch (err) {
+        alert('Kon link niet kopiëren');
+      }
+    });
+  }
+})();
+</script>
 
-        function formatDate(dateString) {
-            if (!dateString) return '';
-            const date = new Date(dateString);
-            const now = new Date();
-            const diffMs = now - date;
-            const diffMins = Math.floor(diffMs / 60000);
-            const diffHours = Math.floor(diffMs / 3600000);
-            const diffDays = Math.floor(diffMs / 86400000);
-
-            if (diffMins < 60) return `${diffMins} minuten geleden`;
-            if (diffHours < 24) return `${diffHours} uur geleden`;
-            if (diffDays < 7) return `${diffDays} dagen geleden`;
-            
-            return date.toLocaleDateString('nl-NL', { 
-                day: 'numeric', 
-                month: 'long', 
-                year: 'numeric' 
-            });
-        }
-
-        function getImageUrl(imageUrl) {
-            if (!imageUrl) return null;
-            if (imageUrl.startsWith('http://') || imageUrl.startsWith('https://')) {
-                return imageUrl;
-            }
-            return `${API_BASE}${imageUrl.startsWith('/') ? '' : '/'}${imageUrl}`;
-        }
-
-        function renderArticle(article) {
-            const country = getCountryCode(article);
-            const countryDisplay = getCountryDisplay(country);
-            const category = article.category || 'Nieuws';
-            const cleanTitle = cleanTextForUI(article.title);
-            const cleanSnippet = cleanTextForUI(article.snippet || article.description || '');
-            const imageUrl = getImageUrl(article.image || article.imageUrl);
-            
-            // Build body paragraphs with cleaning
-            let bodyHTML = '';
-            if (article.body) {
-                const paragraphs = article.body.split('\n').filter(p => p.trim());
-                bodyHTML = paragraphs.map(p => `<p>${cleanTextForUI(p)}</p>`).join('');
-            }
-
-            const imageHTML = imageUrl ? `
-                <div class="article-image-container">
-                    <img src="${imageUrl}" alt="${cleanTitle}" class="article-image" onerror="this.parentElement.style.display='none'">
-                </div>
-            ` : '';
-
-            const currentUrl = window.location.href;
-            const shareText = encodeURIComponent(cleanTitle);
-            const shareUrl = encodeURIComponent(currentUrl);
-
-            const html = `
-                <div class="article-card">
-                    <div class="article-header">
-                        <div class="article-meta">
-                            <span class="article-type">${category}</span>
-                            <span class="article-country">
-                                <span>${countryDisplay.flag}</span>
-                                <span>${countryDisplay.name}</span>
-                            </span>
-                            <span class="article-date">${formatDate(article.pubDate || article.publishedAt)}</span>
-                        </div>
-                        <h1 class="article-title">${cleanTitle}</h1>
-                        <div class="article-caption">Voetbal4All · ${countryDisplay.name}</div>
-                        ${cleanSnippet ? `<div class="article-standfirst">${cleanSnippet}</div>` : ''}
-                    </div>
-                    ${imageHTML}
-                    <div class="article-body">
-                        ${bodyHTML || '<p>Geen artikelinhoud beschikbaar.</p>'}
-                    </div>
-                    <div class="share-section">
-                        <h3 class="share-title">Deel dit artikel</h3>
-                        <div class="share-buttons">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" 
-                               target="_blank" 
-                               class="share-btn btn-facebook">
-                                <span>📘</span>
-                                <span>Facebook</span>
-                            </a>
-                            <a href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}" 
-                               target="_blank" 
-                               class="share-btn btn-twitter">
-                                <span>🐦</span>
-                                <span>Twitter</span>
-                            </a>
-                            <a href="https://wa.me/?text=${shareText}%20${shareUrl}" 
-                               target="_blank" 
-                               class="share-btn btn-whatsapp">
-                                <span>💬</span>
-                                <span>WhatsApp</span>
-                            </a>
-                            <button class="share-btn btn-copy" id="copy-link-btn">
-                                <span>🔗</span>
-                                <span id="copy-btn-text">Kopieer link</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            `;
-
-            document.getElementById('article-content').innerHTML = html;
-
-            // Setup copy button
-            const copyBtn = document.getElementById('copy-link-btn');
-            if (copyBtn) {
-                copyBtn.addEventListener('click', () => {
-                    navigator.clipboard.writeText(currentUrl).then(() => {
-                        const btnText = document.getElementById('copy-btn-text');
-                        if (btnText) {
-                            btnText.textContent = 'Gekopieerd!';
-                            copyBtn.classList.add('copied');
-                            setTimeout(() => {
-                                btnText.textContent = 'Kopieer link';
-                                copyBtn.classList.remove('copied');
-                            }, 2000);
-                        }
-                    }).catch(err => {
-                        console.error('Copy failed:', err);
-                    });
-                });
-            }
-
-            // Update page metadata
-            updateMetadata(article, cleanTitle, cleanSnippet, imageUrl, currentUrl);
-        }
-
-        function updateMetadata(article, cleanTitle, cleanSnippet, imageUrl, currentUrl) {
-            // Page title
-            const pageTitle = document.getElementById('page-title');
-            if (pageTitle) {
-                pageTitle.textContent = `${cleanTitle} - Voetbal4All`;
-            }
-
-            // OG tags
-            const ogUrl = document.getElementById('og-url');
-            const ogTitle = document.getElementById('og-title');
-            const ogDesc = document.getElementById('og-description');
-            const ogImage = document.getElementById('og-image');
-
-            if (ogUrl) ogUrl.setAttribute('content', currentUrl);
-            if (ogTitle) ogTitle.setAttribute('content', cleanTitle);
-            if (ogDesc) ogDesc.setAttribute('content', cleanSnippet || cleanTitle);
-            if (ogImage && imageUrl) ogImage.setAttribute('content', imageUrl);
-
-            // Twitter tags
-            const twitterUrl = document.getElementById('twitter-url');
-            const twitterTitle = document.getElementById('twitter-title');
-            const twitterDesc = document.getElementById('twitter-description');
-            const twitterImage = document.getElementById('twitter-image');
-
-            if (twitterUrl) twitterUrl.setAttribute('content', currentUrl);
-            if (twitterTitle) twitterTitle.setAttribute('content', cleanTitle);
-            if (twitterDesc) twitterDesc.setAttribute('content', cleanSnippet || cleanTitle);
-            if (twitterImage && imageUrl) twitterImage.setAttribute('content', imageUrl);
-        }
-
-        function renderRelatedArticles(articles, currentArticleId) {
-            const container = document.getElementById('related-articles');
-            if (!container) return;
-
-            const related = articles
-                .filter(a => a.id !== currentArticleId)
-                .slice(0, 6);
-
-            if (related.length === 0) {
-                container.innerHTML = '<p style="text-align:center;color:#666;">Geen gerelateerde artikelen gevonden.</p>';
-                return;
-            }
-
-            const html = related.map(article => {
-                const country = getCountryCode(article);
-                const countryDisplay = getCountryDisplay(country);
-                const cleanTitle = cleanTextForUI(article.title);
-                const imageUrl = getImageUrl(article.image || article.imageUrl) || 'https://via.placeholder.com/400x200?text=Voetbal';
-                
-                return `
-                    <a href="/artikel.html?id=${article.id}" class="related-card">
-                        <img src="${imageUrl}" alt="${cleanTitle}" class="related-card-image" onerror="this.src='https://via.placeholder.com/400x200?text=Voetbal'">
-                        <div class="related-card-content">
-                            <h3 class="related-card-title">${cleanTitle}</h3>
-                            <div class="related-card-meta">
-                                <span>${countryDisplay.flag}</span>
-                                <span>${countryDisplay.name}</span>
-                                <span>•</span>
-                                <span>${formatDate(article.pubDate || article.publishedAt)}</span>
-                            </div>
-                        </div>
-                    </a>
-                `;
-            }).join('');
-
-            container.innerHTML = html;
-        }
-
-        async function loadArticle() {
-            try {
-                const params = new URLSearchParams(window.location.search);
-                const articleId = params.get('id');
-
-                if (!articleId) {
-                    throw new Error('Geen artikel ID gevonden in URL');
-                }
-
-                // Fetch all articles
-                const response = await fetch(`${API_BASE}/api/news?limit=500`);
-                if (!response.ok) throw new Error('Kon artikelen niet laden');
-                
-                const data = await response.json();
-                const articles = data.articles || data || [];
-
-                // Find the specific article
-                const article = articles.find(a => String(a.id) === String(articleId));
-                
-                if (!article) {
-                    throw new Error('Artikel niet gevonden');
-                }
-
-                renderArticle(article);
-                renderRelatedArticles(articles, article.id);
-
-                // Initialize AdSense
-                if (window.adsbygoogle) {
-                    const ads = document.querySelectorAll('.adsbygoogle');
-                    ads.forEach(ad => {
-                        try {
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                        } catch (e) {
-                            console.error('AdSense error:', e);
-                        }
-                    });
-                }
-
-            } catch (error) {
-                console.error('Error loading article:', error);
-                document.getElementById('article-content').innerHTML = `
-                    <div class="error">
-                        <h2>Fout bij laden van artikel</h2>
-                        <p>${error.message}</p>
-                        <p><a href="/artikels.html" style="color: #667eea; font-weight: 600;">← Terug naar overzicht</a></p>
-                    </div>
-                `;
-            }
-        }
-
-        // Live banner functionality
-        function checkLiveMatches() {
-            const banner = document.getElementById('live-banner');
-            const text = document.getElementById('live-text');
-            
-            if (!banner || !text) return;
-
-            fetch(`${API_BASE}/api/live-matches`)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.matches && data.matches.length > 0) {
-                        const match = data.matches[0];
-                        text.textContent = `LIVE: ${match.homeTeam} vs ${match.awayTeam}`;
-                        banner.classList.add('active');
-                    }
-                })
-                .catch(err => console.error('Live matches error:', err));
-        }
-
-        // Initialize
-        loadArticle();
-        checkLiveMatches();
-        setInterval(checkLiveMatches, 60000); // Check every minute
-    </script>
-
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
-            crossorigin="anonymous"></script>
 </body>
 </html>
