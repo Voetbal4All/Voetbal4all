@@ -611,9 +611,12 @@
           const data = await res.json();
           const rawItems = Array.isArray(data.items) ? data.items : [];
 
+          // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
+          const readyItems = rawItems.filter(a => (a?.status || "").toLowerCase() === "ready");
+
           // 🔥 DEDUPE: Remove duplicates by title only (simplified)
           const seen = new Set();
-          let items = rawItems.filter(a => {
+          let items = readyItems.filter(a => {
             const normalizedTitle = (a?.title || "").trim().toLowerCase();
             if (seen.has(normalizedTitle)) {
               console.log(`[DEDUPE] ❌ Removed duplicate: "${a.title}"`);
@@ -830,6 +833,6 @@ renderMonthlyEvents();
 
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>
-  <script src="assets/js/live-banner.js"></script> -->
+  <script src="assets/js/live-banner.js"></script>
 </body>
 </html>

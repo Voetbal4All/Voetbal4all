@@ -498,6 +498,9 @@
         const data = await res.json();
         allItems = Array.isArray(data?.items) ? data.items : [];
 
+        // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
+        allItems = allItems.filter(a => (a?.status || "").toLowerCase() === "ready");
+
         // sort newest first
         allItems.sort((a,b) => {
           const da = new Date(a.publishedAt || a.date || 0).getTime();

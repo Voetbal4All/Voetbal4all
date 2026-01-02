@@ -259,8 +259,8 @@
 
   <div id="error-state" class="error-state" style="display:none;">
     <div class="card">
-      <h2>Artikel niet gevonden</h2>
-      <p>Het artikel dat je zoekt bestaat niet of is verwijderd.</p>
+      <h2>Artikel nog niet beschikbaar</h2>
+      <p>Dit artikel is nog in verwerking (afbeelding wordt opgehaald) of is niet meer beschikbaar. Probeer straks opnieuw.</p>
       <a href="artikels.html" class="btn btn-primary" style="margin-top:20px;">Terug naar overzicht</a>
     </div>
   </div>
@@ -436,7 +436,7 @@
     .then(data => {
       console.log('[ARTIKEL] Total articles received:', data.items?.length || 0);
       
-      const articles = data.items || [];
+      const articles = (data.items || []).filter(a => (a?.status || "").toLowerCase() === "ready");
       
       if (articles.length === 0) {
         console.error('[ARTIKEL] No articles in API response');
@@ -582,32 +582,30 @@
     const encodedUrl = encodeURIComponent(articleUrl);
     const encodedTitle = encodeURIComponent(title);
     
-    const fbUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl;
     document.getElementById('share-facebook').href = fbUrl;
-    document.getElementById('share-facebook-2').href = fbUrl;
-    
+
     const twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodedTitle;
     document.getElementById('share-twitter').href = twitterUrl;
-    document.getElementById('share-twitter-2').href = twitterUrl;
-    
+
     const waUrl = 'https://wa.me/?text=' + encodedTitle + '%20' + encodedUrl;
     document.getElementById('share-whatsapp').href = waUrl;
-    document.getElementById('share-whatsapp-2').href = waUrl;
     
     const liUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodedUrl;
     document.getElementById('share-linkedin').href = liUrl;
     
     setupCopyButton('share-copy', 'copy-text', articleUrl);
-    setupCopyButton('share-copy-2', 'copy-text-2', articleUrl);
     
     console.log('[ARTIKEL] ✅ Article fully displayed');
   }
   
   function setupCopyButton(btnId, textId, url) {
-    document.getElementById(btnId).addEventListener('click', async function() {
+    const btn = document.getElementById(btnId);
+    const textEl = document.getElementById(textId);
+    if (!btn || !textEl) return;
+
+    btn.addEventListener('click', async function() {
       try {
         await navigator.clipboard.writeText(url);
-        const textEl = document.getElementById(textId);
         textEl.textContent = '✓ Gekopieerd!';
         setTimeout(() => { textEl.textContent = 'Kopieer link'; }, 2000);
       } catch (err) {
