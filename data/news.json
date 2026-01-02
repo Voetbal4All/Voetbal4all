@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-02T21:18:57.469Z",
+  "generatedAt": "2026-01-02T22:24:04.482Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Drie Nederlanders op rij: Fraser verrast en tekent in China",
+      "link": "https://www.vi.nl/nieuws/drie-nederlanders-op-rij-fraser-verrast-en-tekent-in-china",
+      "summary": "Henk Fraser is de nieuwe trainer van Shaanxi Union. Dat heeft de Chinese club bekendgemaakt.",
+      "publishedAt": "2026-01-02T22:12:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "RC Lens najaarskampioen van Frankrijk",
+      "link": "https://www.vi.nl/nieuws/rc-lens-troeft-psg-af-als-najaarskampioen-van-frankrijk",
+      "summary": "RC Lens is vrijdagavond (ietwat verlaat) najaarskampioen van Frankrijk geworden. De koploper van Frankrijk won op bezoek bij Toulouse en voert op exact de helft van de competitie de ranglijst aan. Paris Saint-Germain moet nog in actie komen, maar kan niet meer passeren.",
+      "publishedAt": "2026-01-02T21:51:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Papers: Mainoo determined not to give up on Man Utd career",
+      "link": "https://www.skysports.com/football/news/12040/13489805/man-utd-transfer-news-kobbie-mainoo-determined-not-to-give-up-on-place-under-ruben-amorim-paper-talk",
+      "summary": "The top stories and transfer rumours from Saturday's newspapers.....",
+      "publishedAt": "2026-01-02T21:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Eén flits levert Milan driepunter op: in ieder geval tot zondag koploper",
+      "link": "https://www.vi.nl/nieuws/e-n-flits-levert-milan-driepunter-op-in-ieder-geval-tot-zondag-koploper",
+      "summary": "AC Milan is in ieder geval tot zondagmiddag koploper van de Serie A. Tegen Cagliari volstond één flits na rust om de punten mee te nemen: 0-1.",
+      "publishedAt": "2026-01-02T21:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "West Ham sign striker Pablo and agree deal for Castellanos in £47m spree",
+      "link": "https://www.theguardian.com/football/2026/jan/02/west-ham-taty-castellanos-pablo-felipe-agree-deals-buy-strikers",
+      "summary": "Both transfers being driven by Nuno Espírito Santo Sterling rejects West Ham, with Fulham favourites West Ham have boosted their attacking options by signing Gil Vicente’s Pablo Felipe and are poised to add Lazio’s Taty Castellanos to their squad as well, at a combined cost of up to £47m. Both deals have been driven by Nuno Espírito Santo, who is looking to help his struggling side’s fight to stay in the Premier League by adding more firepower. West Ham considered a move for the Wolves striker Jørgen Strand Larsen but decided against making a bid after concluding that his £40m valuation was too high. Continue reading...",
+      "publishedAt": "2026-01-02T21:16:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -25,28 +80,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Farioli kan met FC Porto verder uitlopen na misstap Sporting",
-      "link": "https://www.vi.nl/nieuws/farioli-kan-met-fc-porto-verder-uitlopen-na-misstap-sporting",
-      "summary": "Sporting Portugal heeft vrijdagavond een pas op de plaats gemaakt in de Portugese titelstrijd. De regerend kampioen kwam op bezoek bij Gil Vicente niet verder dan een gelijkspel. Het FC Porto van Francesco Farioli kan zondag profiteren.",
-      "publishedAt": "2026-01-02T20:57:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Feyenoord op het punt om Carranza met winst te verkopen aan Mexicaanse club",
-      "link": "https://www.vi.nl/nieuws/feyenoord-op-het-punt-om-carranza-met-winst-te-verkopen-aan-mexicaanse-club",
-      "summary": "Feyenoord staat op het punt om Julián Carranza definitief van de hand te doen. De spits werd vroegtijdig teruggehaald van een uitleenbeurt aan Leicester City. Hij wordt naar verwachting voor een miljoenenbedrag verkocht aan het Mexicaanse Necaxa.",
-      "publishedAt": "2026-01-02T20:35:26.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -55,39 +88,6 @@
       "link": "https://www.skysports.com/golf/news/12040/13489790/rory-mcilroy-says-he-would-approve-of-bryson-dechambeau-and-other-liv-golf-players-returning-to-the-pga-tour",
       "summary": "Rory McIlroy believes golf needs its best players to compete more regularly against each other and would welcome a return from LIV of the likes of Bryson DeChambeau and Jon Rahm.",
       "publishedAt": "2026-01-02T20:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Eerste training Afellay bij PSV had flink wat voeten in de aarde",
-      "link": "https://www.vi.nl/nieuws/eerste-training-afellay-bij-psv-had-flink-wat-voeten-in-de-aarde",
-      "summary": "Ibrahim Afellay is vrijdag begonnen aan zijn baan als assistent-trainer bij PSV. Hij stond vrijdagavond voor het eerst aan de zijde van Peter Bosz op het trainingsveld, al had dat flink wat voeten in de aarde.",
-      "publishedAt": "2026-01-02T20:22:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League and WSL news: Amorim warns teenagers to be ready for Leeds",
-      "link": "https://www.theguardian.com/football/2026/jan/02/premier-league-and-wsl-news-manchester-united-aston-villa-bournemouth",
-      "summary": "Manchester United coach prepares trio for Elland Road. Plus: Semenyo set to play for Bournemouth despite transfer talk, and Toone extends deal Continue reading...",
-      "publishedAt": "2026-01-02T19:22:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Will Man Utd sign TWO midfielders?! Deal explored for Brighton's Baleba",
-      "link": "https://www.skysports.com/watch/video/13489778/man-utd-exploring-options-on-potential-deals-for-either-baleba-wharton-anderson-or-joao-gomes",
-      "summary": "Speaking on the Transfer Show, Mark McAdam and James Savundra break the news that Manchester United explored the conditions to sign Brighton's Carlos Baleba this month - and that Adam Wharton and Elliot Anderson are on their shortlist.",
-      "publishedAt": "2026-01-02T19:12:00.000Z"
     },
     {
       "type": "rss",
@@ -172,10 +172,21 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Liam Rosenior opens door to Chelsea job but must wait on BlueCo dealings",
-      "link": "https://www.theguardian.com/football/2026/jan/02/liam-rosenior-chelsea-strasbourg-blueco",
-      "summary": "Englishman will be in Strasbourg dugout against Nice ‘In terms of other clubs, I’ve had a lot of interest’ Liam Rosenior has opened the door to becoming Chelsea’s head coach by admitting there are no guarantees he will remain at Strasbourg for the rest of the season. The 41-year-old is the leading contender to replace Enzo Maresca, who left on New Year’s Day, and progress is expected soon. The main obstacle to be overcome is that BlueCo, the investment vehicle that owns Chelsea and Strasbourg, is keen to be sensitive to the needs of both clubs. A quality replacement for Rosenior at Strasbourg must be lined up before the Englishman can leave the Ligue 1 side. Continue reading...",
-      "publishedAt": "2026-01-02T17:41:35.000Z"
+      "title": "Another year, another manager – but it is unfair to paint Chelsea’s project as a flop | Jacob Steinberg",
+      "link": "https://www.theguardian.com/football/2026/jan/02/chelsea-enzo-maresca-liam-rosenior-analysis",
+      "summary": "Enzo Maresca got the sack because of his actions. That does not mean the club’s structure needs a complete overhaul Some clubs build around their manager. Eddie Howe is hugely influential at Newcastle and Aston Villa are pretty much Unai Emery FC these days. Chelsea, though, have adopted an alternative model. They have a team of five sporting directors, led by Paul Winstanley and Laurence Stewart, and do not want one person to hold all the power. Yet the question many are asking in the wake of Enzo Maresca’s demise is whether the template will yield success at the very highest level. It is never quiet at Chelsea. They are often busy in the transfer market, meaning there is an element of players coming and going, and they are now looking for their fifth permanent head coach since a consortium led by Todd Boehly and Clearlake Capital, a private equity firm run by Behdad Eghbali and José E Feliciano, bought the club from Roman Abramovich in 2022. Continue reading...",
+      "publishedAt": "2026-01-02T18:21:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah goals & Hakimi's return - six Afcon group stage talking points",
+      "link": "https://www.bbc.com/sport/football/articles/cd7z3zp94g1o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport Africa takes a look back at some of the key talking points from the 2025 Africa Cup of Nations group stage.",
+      "publishedAt": "2026-01-02T18:03:47.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13489641/mikel-arteta-exclusive-arsenal-boss-calls-for-viktor-gyokeres-and-the-rest-of-his-squad-to-embrace-title-race-noise",
       "summary": "Mikel Arteta has called for Viktor Gyokeres and his Arsenal team-mates to embrace the noise surrounding the squad, while also insisting it will \"click\" for the Swedish striker eventually in north London.",
       "publishedAt": "2026-01-02T17:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'I need time - it's normal you guys kill me' - Nancy's plea before Old Firm test",
-      "link": "https://www.bbc.com/sport/football/articles/cn40zrpg0vxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wilfried Nancy launches a passionate defence of his methods and stresses the need for time if he is to succeed at Celtic.",
-      "publishedAt": "2026-01-02T16:32:02.000Z"
     }
   ]
 }
