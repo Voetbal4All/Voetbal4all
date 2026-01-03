@@ -1,16 +1,38 @@
 {
-  "generatedAt": "2026-01-03T21:21:30.275Z",
+  "generatedAt": "2026-01-03T22:22:57.349Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mali 1-1 Tunisia (Mali 3-2 on pens): Africa Cup of Nations last 16 – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/03/mali-v-tunisia-africa-cup-of-nations-last-16-live",
+      "summary": "The 10 men of Mali stunned Tunisia in the Casablanca rain with a dramatic victory via penalty kicks 3 mins: I’d suggest, even though it’s very early in this game, that Mali are going to have to do plenty of defending this evening. Sami Trabelsi waves and points on the sidelines – the Tunisian boss must be happy with this start, as Mali’s Mahamadou Doumbia is booked already. Continue reading...",
+      "publishedAt": "2026-01-03T22:15:19.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Barcelona heeft het lastig met stug Espanyol in Catalaanse derby",
-      "link": "https://www.vi.nl/nieuws/vi-live-barcelona-met-de-jong-maar-zonder-pedri-in-catalaanse-derby",
+      "title": "Arsenal en Barcelona voeren de druk er volop bij Man City en Real Madrid",
+      "link": "https://www.vi.nl/nieuws/arsenal-en-barcelona-voeren-de-druk-er-volop-bij-man-city-en-real-madrid",
       "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Celtic - Rangers FC, AFC Bournemouth - Arsenal en Espanyol - Barcelona.",
-      "publishedAt": "2026-01-03T21:17:11.000Z"
+      "publishedAt": "2026-01-03T22:12:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Galaxy star Riqui Puig out until '27 after setback",
+      "link": "https://www.espn.com/soccer/story/_/id/47493503/la-galaxy-riqui-puig-injury-knee-acl-2027-mls",
+      "summary": "LA Galaxy star Riqui Puig's return from injury has been delayed until 2027, the LA Galaxy said Saturday after confirming that the midfielder underwent another anterior cruciate ligament reconstructive surgery on his left knee.",
+      "publishedAt": "2026-01-03T22:12:00.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +43,7 @@
       "title": "Arteta: Match-winner Rice among world's best",
       "link": "https://www.espn.com/soccer/story/_/id/47492686/arsenal-declan-rice-one-best-world-mikel-arteta",
       "summary": "Mikel Arteta has hailed Declan Rice as one of the best midfielders in the world after playing a starring role in Arsenal's 3-2 win at Bournemouth.",
-      "publishedAt": "2026-01-03T21:14:21.000Z"
+      "publishedAt": "2026-01-03T22:11:59.000Z"
     },
     {
       "type": "rss",
@@ -32,29 +54,7 @@
       "title": "Sources: Rosenior frontrunner to replace Maresca",
       "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
       "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
-      "publishedAt": "2026-01-03T21:14:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Nuno: West Ham loss the worst of my career",
-      "link": "https://www.espn.com/soccer/story/_/id/47491881/west-ham-loss-wolves-worst-my-career-nuno-espirito-santo",
-      "summary": "West Ham manager Nuno Espirito Santo admitted he was embarrassed after his team crashed to a dismal 3-0 defeat at Premier League bottom side Wolves.",
-      "publishedAt": "2026-01-03T21:14:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Miami signs Argentine DF Mura on free transfer",
-      "link": "https://www.espn.com/soccer/story/_/id/47492870/inter-miami-argentine-defender-facundo-mura-free-transfer",
-      "summary": "Inter Miami on Saturday announced the signing of defender Facundo Mura, who joins the Major League Soccer club as a free agent on a contract through June 2029.",
-      "publishedAt": "2026-01-03T21:14:21.000Z"
+      "publishedAt": "2026-01-03T22:11:59.000Z"
     },
     {
       "type": "rss",
@@ -65,18 +65,29 @@
       "title": "McKennie scores, David misses pen in Juve draw",
       "link": "https://www.espn.com/soccer/report/_/gameId/736961",
       "summary": "Weston McKennie scored but Jonathan David had a penalty saved as Juventus were held to a surprise 1-1 draw by relegation-threatened Lecce on Saturday.",
-      "publishedAt": "2026-01-03T21:14:20.000Z"
+      "publishedAt": "2026-01-03T22:11:59.000Z"
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Mali v Tunisia: Africa Cup of Nations last 16 – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/03/mali-v-tunisia-africa-cup-of-nations-last-16-live",
-      "summary": "⚽ Afcon updates from the 7pm GMT kick-off in Casablanca ⚽ Live scores | Follow us over on Bluesky | Email Dominic 3 mins: I’d suggest, even though it’s very early in this game, that Mali are going to have to do plenty of defending this evening. Sami Trabelsi waves and points on the sidelines – the Tunisian boss must be happy with this start, as Mali’s Mahamadou Doumbia is booked already. Continue reading...",
-      "publishedAt": "2026-01-03T21:14:13.000Z"
+      "title": "Nuno: West Ham loss the worst of my career",
+      "link": "https://www.espn.com/soccer/story/_/id/47491881/west-ham-loss-wolves-worst-my-career-nuno-espirito-santo",
+      "summary": "West Ham manager Nuno Espirito Santo admitted he was embarrassed after his team crashed to a dismal 3-0 defeat at Premier League bottom side Wolves.",
+      "publishedAt": "2026-01-03T22:11:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Littler dominates Van Veen to retain his World Darts Championship title!",
+      "link": "https://www.skysports.com/watch/video/13490134/wdc-final-edit-mxf",
+      "summary": "Highlights of the World Championship final between Luke Littler and Gian van Veen.",
+      "publishedAt": "2026-01-03T22:08:00.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +95,54 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Arteta legt uit waarom Rice een inspiratiebron is",
-      "link": "https://www.vi.nl/nieuws/arteta-legt-uit-waarom-rice-een-inspiratiebron-is",
-      "summary": "De opluchting is groot bij Arsenal na het winnen van de zware uitwedstrijd tegen AFC Bournemouth. Mikel Arteta prees na afloop Declan Rice, de zo belangrijke middenvelder van Arsenal die zaterdagavond in zijn 296 ste wedstrijd in de Premier League een primeur beleefde.",
-      "publishedAt": "2026-01-03T20:57:18.000Z"
+      "title": "Oranje-opponent Tunesië op pijnlijke wijze ten onder op Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/tiental-mali-overleeft-slotfase-en-knikkert-tunesie-uit-afrika-cup-na-penalty-s",
+      "summary": "Mali heeft zich na strafschoppen verzekerd van een plek in de kwartfinale van de Afrika Cup. Tunesië stond bijna de hele wedstrijd met een man meer op het veld, maar de Oranje-opponent maakte daar geen gebruik van en moest zijn meerdere erkennen in Mali via een penaltyreeks.",
+      "publishedAt": "2026-01-03T22:03:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Uitgerekend Joan García speelt sleutelrol bij derbyzege Barcelona",
+      "link": "https://www.vi.nl/nieuws/uitgerekend-joan-garc-a-speelt-sleutelrol-bij-derbyzege-barcelona",
+      "summary": "Barcelona heeft met een knappe zege op stadgenoot Espanyol goede zaken gedaan in de strijd om de titel in La Liga. De ploeg van Hansi Flick werd zaterdagavond in de derby tot het uiterste gedreven. Vlak voor het einde maakte Barça het verschil.",
+      "publishedAt": "2026-01-03T22:00:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Gasperini beleeft teleurstellende terugkeer in Bergamo",
+      "link": "https://www.vi.nl/nieuws/gasperini-beleeft-teleurstellende-terugkeer-in-bergamo",
+      "summary": "INTRO",
+      "publishedAt": "2026-01-03T21:47:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Littler thrashes Van Veen to retain World Darts Championship title",
+      "link": "https://www.skysports.com/darts/news/12040/13489993/world-darts-championship-2026-luke-littler-thrashes-gian-van-veen-in-final-to-retain-title-at-alexandra-palace",
+      "summary": "Luke Littler successfully defended his World Darts Championship title with a 7-1 thrashing of Gian van Veen in the final at Alexandra Palace.",
+      "publishedAt": "2026-01-03T21:37:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "PL hits and misses: Arsenal have another gear, West Ham are awful",
+      "link": "https://www.skysports.com/football/news/12040/13489992/arsenal-have-shown-they-have-another-gear-this-season-as-west-ham-unravel-against-wolves-premier-league-hits-and-misses",
+      "summary": "",
+      "publishedAt": "2026-01-03T21:15:00.000Z"
     },
     {
       "type": "rss",
@@ -110,28 +165,6 @@
       "link": "https://www.skysports.com/watch/video/13490115/world-darts-championship-littler-wins-third-set-with-the-big-fish",
       "summary": "Luke Littler won the third set of the World Championship final with this 170 finish.",
       "publishedAt": "2026-01-03T20:54:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
-      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
-      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
-      "publishedAt": "2026-01-03T20:52:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bosz vreesde vertrek Veerman: 'Dat doet iets met de groepsdynamiek'",
-      "link": "https://www.vi.nl/nieuws/bosz-vreesde-vertrek-veerman-dat-doet-iets-met-de-groepsdynamiek",
-      "summary": "Joey Veerman leek deze winterse transferperiode even naar Fenerbahçe te vertrekken, maar de middenvelder bleef uiteindelijk toch in Eindhoven. Daar is zijn trainer Peter Bosz erg blij mee.",
-      "publishedAt": "2026-01-03T20:42:56.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/clye34d8lzxo?at_medium=RSS&at_campaign=rss",
       "summary": "Declan Rice scores twice, as Premier League leaders Arsenal come from behind to beat Bournemouth following early error.",
       "publishedAt": "2026-01-03T20:00:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Declan Rice leads Arsenal to thrilling comeback win at Bournemouth",
-      "link": "https://www.theguardian.com/football/2026/jan/03/bournemouth-arsenal-premier-league-match-report",
-      "summary": "Arsenal’s revenge mission this week has been a dish best served cold. After Unai Emery’s Aston Villa felt the force of the Premier League leaders in a 4-1 thrashing, this time it was Andoni Iraola’s Bournemouth who were vanquished despite being gifted the opening goal by Gabriel Magalhães. The Brazilian promptly equalised before Declan Rice capped his return from injury with two goals as Arsenal moved six points clear at the top, even if they had to survive a nervous last 16 minutes after the substitute Eli Junior Kroupi pulled one back. Continue reading...",
-      "publishedAt": "2026-01-03T19:49:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rice bags brace as Arsenal go SIX clear at the top!",
-      "link": "https://www.skysports.com/watch/video/13490098/bournemouth-2-3-arsenal-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Bournemouth’s match against Arsenal in the Premier League.",
-      "publishedAt": "2026-01-03T19:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rice double sends Arsenal six points clear after cracker at Bournemouth",
-      "link": "https://www.skysports.com/football/bournemouth-vs-arsenal/report/531320",
-      "summary": "Declan Rice's second-half double proved crucial to put Arsenal six points clear at the top of the Premier League table via a 3-2 win over Bournemouth, despite multiple scares on the south coast.",
-      "publishedAt": "2026-01-03T19:25:00.000Z"
     }
   ]
 }
