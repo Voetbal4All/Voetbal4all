@@ -750,13 +750,16 @@
               <article class="home-news__item">
                 <a class="home-news__link" href="artikel.html?id=${encodeURIComponent(a.id)}">
                   <div class="home-news__thumbWrap">
-                   ${imgPath ? `<img
-                      class="home-news__thumb"
-                      src="${imgPath}"
-                      alt="${safeTitle}"
-                      loading="lazy"
-                      onerror="this.onerror=null;this.src='${IMG_BASE}/images/default/placeholder.svg';this.classList.add('is-fallback');">` : ``}
+                    ${imgPath ? `
+                      <img
+                        class="home-news__thumb"
+                        src="${imgPath}"
+                        alt="${safeTitle}"
+                        loading="lazy"
+                      >
+                    ` : ""}
                   </div>
+
                   <div class="home-news__meta">
                     <div class="home-news__titleRow">
                       <span class="home-news__flag">${flag}</span>
