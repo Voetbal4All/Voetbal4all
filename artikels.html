@@ -400,8 +400,28 @@
       `;
     }
 
+    function cleanTitle(t){
+      let s = String(t || "").trim();
+
+      // Verwijder veelvoorkomende bron-tags / afkortingen
+      s = s.replace(/\bVP\b/g, "");              // VoetbalPrimeur
+      s = s.replace(/\bVI\b/g, "");              // Voetbal International
+      s = s.replace(/\bNOS\b/g, "");
+      s = s.replace(/\bHLN\b/g, "");
+      s = s.replace(/\bAD\b/g, "");
+
+      // Verwijder bronpatronen zoals " - VoetbalPrimeur", "| VI", "(VP)"
+      s = s.replace(/\s*[\-|–|—|·|\|]\s*(Voetbalprimeur|Voetbal International|VI\.nl|NOS|HLN|AD|De Telegraaf)\s*$/i, "");
+      s = s.replace(/\(\s*(VP|VI|NOS|HLN|AD)\s*\)\s*$/i, "");
+
+      // Opruimen dubbele spaties
+      s = s.replace(/\s{2,}/g, " ").trim();
+
+      return s;
+    }
+
       function renderCard(a){
-        const title = safe(a.title);
+        const title = cleanTitle(a.title);
         const url = a.id ? ("artikel.html?id=" + encodeURIComponent(a.id)) : "#";
 
         const cc = inferCountry(a);
@@ -516,7 +536,7 @@
         // 2) [ ... ]
         allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
         allItems = dedupeById(allItems);
-        
+
         // ✅ Toon nieuwe artikels pas als ze "ready" zijn.
         // ✅ Laat oude artikels (zonder status) wél zichtbaar.
         allItems = allItems.filter(a => {

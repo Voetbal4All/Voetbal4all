@@ -587,6 +587,25 @@
         if (homeStatusEl) homeStatusEl.style.display = "none";
       }
 
+      function cleanTitle(t){
+        let s = String(t || "").trim();
+
+        // Verwijder bron-tags / afkortingen
+        s = s.replace(/\bVP\b/g, "");   // VoetbalPrimeur
+        s = s.replace(/\bVI\b/g, "");
+        s = s.replace(/\bNOS\b/g, "");
+        s = s.replace(/\bHLN\b/g, "");
+        s = s.replace(/\bAD\b/g, "");
+
+        // Verwijder trailing bronstukjes
+        s = s.replace(/\s*[\-|–|—|·|\|]\s*(Voetbalprimeur|Voetbal International|VI\.nl|NOS|HLN|AD|De Telegraaf)\s*$/i, "");
+        s = s.replace(/\(\s*(VP|VI|NOS|HLN|AD)\s*\)\s*$/i, "");
+
+        // Opruimen
+        s = s.replace(/\s{2,}/g, " ").trim();
+        return s;
+      }
+
       // 1) Toon cache onmiddellijk (sneller), maar blijf daarna live ophalen
       const cachedHtml = localStorage.getItem(CACHE_KEY);
       if (cachedHtml && !homeListEl.innerHTML.trim()) {
@@ -697,8 +716,8 @@
               rawTitle.endsWith(".json") ||
               (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
 
-            const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : rawTitle;
-            const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
+              const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : cleanTitle(rawTitle);
+              const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
 
             // 2) JUISTE file-naam (backend gebruikt fileName)
             const file = a?.file || a?.fileName || "";
