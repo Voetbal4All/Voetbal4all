@@ -632,7 +632,11 @@
           const rawItems = Array.isArray(data.items) ? data.items : [];
 
           // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
-          const readyItems = rawItems.filter(a => (a?.status || "").toLowerCase() === "ready");
+          // Toon alles dat geen status heeft OF "ready" is
+          const readyItems = rawItems.filter(a => {
+            const st = String(a?.status || "").toLowerCase();
+            return !st || st === "ready";
+          });
 
           function dedupeById(items){
             const seen = new Set();
