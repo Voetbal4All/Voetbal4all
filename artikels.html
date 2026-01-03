@@ -297,7 +297,7 @@
     document.getElementById("year").textContent = new Date().getFullYear();
 
     // Backend endpoints
-    const IMG_BASE = "https://voetbal4all-backend.onrender.com";
+    const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
     const NEWS_URL = IMG_BASE + "/api/news?nocache=1";
 
     const articleList = document.getElementById("article-list");
@@ -404,7 +404,7 @@
           .trim();
         // STAP 1: forceer altijd een geldige afbeelding (nooit leeg)
         const fallbackImg =
-          "https://voetbal4all-backend.onrender.com/images/placeholder.svg";
+          "https://voetbal4all-backenhttps://voetbal4all-backend-database.onrender.comd.onrender.com/images/placeholder.svg";
 
           const imgUrl = toImgUrl(a?.image);
           const imgUrlFinal =
@@ -419,7 +419,7 @@
               src="${imgUrlFinal}"
               alt="${safeTitleAttr}"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://voetbal4all-backend.onrender.com/images/default/placeholder.svg';"
+              onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/default/placeholder.svg';"
               style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
             >
 
