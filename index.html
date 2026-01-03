@@ -614,17 +614,20 @@
           // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
           const readyItems = rawItems.filter(a => (a?.status || "").toLowerCase() === "ready");
 
-          // 🔥 DEDUPE: Remove duplicates by title only (simplified)
-          const seen = new Set();
-          let items = readyItems.filter(a => {
-            const normalizedTitle = (a?.title || "").trim().toLowerCase();
-            if (seen.has(normalizedTitle)) {
-              console.log(`[DEDUPE] ❌ Removed duplicate: "${a.title}"`);
-              return false;
+          function dedupeById(items){
+            const seen = new Set();
+            const out = [];
+            for (const it of (items || [])) {
+              const key = String(it?.id || "").trim();
+              if (!key) continue;
+              if (seen.has(key)) continue;
+              seen.add(key);
+              out.push(it);
             }
-            seen.add(normalizedTitle);
-            return true;
-          });
+            return out;
+          }
+
+          let items = dedupeById(readyItems);
 
           console.log(`[DEDUPE] ${rawItems.length} → ${items.length} articles (removed ${rawItems.length - items.length} duplicates)`);
 
@@ -722,15 +725,12 @@
               <article class="home-news__item">
                 <a class="home-news__link" href="artikel.html?id=${encodeURIComponent(a.id)}">
                   <div class="home-news__thumbWrap">
-                    ${imgPath ? `<img
-                                  class="home-news__thumb"
-                                  src="${imgPath}"
-                                  alt="${safeTitle}"
-                                  loading="lazy"
-                                  onerror="this.onerror=null;
-           this.src='https://voetbal4all-backend-database.onrender.com/images/default/placeholder.svg';
-           this.classList.add('is-fallback');">
-                      onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/placeholder.svg';this.classList.add('is-fallback');">` : ``}
+                   ${imgPath ? `<img
+                      class="home-news__thumb"
+                      src="${imgPath}"
+                      alt="${safeTitle}"
+                      loading="lazy"
+                      onerror="this.onerror=null;this.src='${IMG_BASE}/images/default/placeholder.svg';this.classList.add('is-fallback');">` : ``}
                   </div>
                   <div class="home-news__meta">
                     <div class="home-news__titleRow">
@@ -765,19 +765,15 @@
         } catch (e) {
           console.warn("[ADS] push failed", e);
         }
+        hasRenderedHomeNews = true;
+        hideStatus();
+        localStorage.setItem(CACHE_KEY, html);
 
-          // ✅ pas NA succesvol renderen
-          hasRenderedHomeNews = true;
-          hideStatus();
-          localStorage.setItem(CACHE_KEY, html);
-        } catch (e) {
-          console.error("[HOME] loadHomeNews error:", e);
-          // Alleen status tonen als er nog nooit iets getoond is
-          if (!hasRenderedHomeNews) {
-            showStatusOnceIfEmpty("Nieuws laden mislukt.");
-          }
-        }
+      } catch (err) {
+        console.error("[HOME] loadHomeNews failed:", err);
       }
+    }
+ 
 
       // Eerste live load + periodieke refresh
       loadHomeNews();
@@ -836,8 +832,9 @@ function renderMonthlyEvents() {
 }
 
 renderMonthlyEvents();
-    });
-  </script>
+
+});
+</script>
 
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>

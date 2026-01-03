@@ -374,6 +374,19 @@
       return IMG_BASE + "/" + p;
     }
 
+    function dedupeById(items){
+      const seen = new Set();
+      const out = [];
+      for (const it of (items || [])) {
+        const key = String(it?.id || "").trim();
+        if (!key) continue;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        out.push(it);
+      }
+      return out;
+    }
+
     function renderAdInfeed(slot){
       return `
         <div class="ad-infeed" style="margin: 10px 0;">
@@ -389,8 +402,7 @@
 
       function renderCard(a){
         const title = safe(a.title);
-        const fileName = a.fileName || "";
-        const url = fileName ? ("artikel.html?file=" + encodeURIComponent(fileName)) : "#";
+        const url = a.id ? ("artikel.html?id=" + encodeURIComponent(a.id)) : "#";
 
         const cc = inferCountry(a);
         const category = safe(a.category || "Algemeen");
@@ -503,7 +515,8 @@
         // 1) { items: [...] }
         // 2) [ ... ]
         allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
-
+        allItems = dedupeById(allItems);
+        
         // ✅ Toon nieuwe artikels pas als ze "ready" zijn.
         // ✅ Laat oude artikels (zonder status) wél zichtbaar.
         allItems = allItems.filter(a => {
