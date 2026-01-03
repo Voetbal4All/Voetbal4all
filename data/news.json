@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-01-03T09:24:17.484Z",
+  "generatedAt": "2026-01-03T10:25:12.305Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Opmerkelijk ontslag in België: 'Telefoontje duurde 30 seconden'",
+      "link": "https://www.vi.nl/nieuws/opmerkelijk-ontslag-in-belgi-telefoontje-duurde-30-seconden",
+      "summary": "Igor de Camargo heeft in Le Soir een boekje opengedaan over zijn opmerkelijke ontslag op het tweede niveau van België. De oud-spits van Genk, Standard Luik en Borussia Mönchengladbach ontving in november een opmerkelijk telefoontje.",
+      "publishedAt": "2026-01-03T10:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League buildup, La Liga, Afcon last 16 and Celtic v Rangers – matchday live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/03/premier-league-buildup-la-liga-afcon-last-16-and-celtic-v-rangers-matchday-live",
+      "summary": "⚽ News, discussion and previews before the day’s action ⚽ Fixtures | Tables | Follow us on Bluesky | Get in touch Bargains can still be had in the transfer window as highlighted by Chelsea pinching Cole Palmer from Manchester City for just £40m a couple of years ago. Ahead of the two sides’ meeting on Sunday, Will Unwin looks at the five current Chelsea players who were nutured at City’s academy. The transfer window is open so how many new players do you want to see come through the door? One or two shrewd, well thought out signings that fit into the structure or just loads you’ve never seen or heard of but your mate has watched some clips on YouTube. Continue reading...",
+      "publishedAt": "2026-01-03T10:19:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hoe Kjell Scherpen op en naast het veld vroeg volwassen werd",
+      "link": "https://www.vi.nl/pro/hoe-kjell-scherpen-op-en-naast-het-veld-vroeg-volwassen-werd",
+      "summary": "Kjell Scherpen (25) moest vroeg volwassen worden. Niet alleen als doelman van 2 meter 6, vooral als mens. VI zocht hem op in Brussel. ‘Ik ben bezig mijn rugzak uit te pakken.’",
+      "publishedAt": "2026-01-03T10:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,17 +44,6 @@
       "link": "https://www.vi.nl/nieuws/engelsman-is-verrassende-opvolger-van-kluivert-bij-indonesi",
       "summary": "John Herdman is de nieuwe bondscoach van Indonesië. Dat maakte voetbalbond PSSI zaterdagmorgen bekend. De Engelsman is de opvolger van Patrick Kluivert.",
       "publishedAt": "2026-01-03T09:15:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League buildup, La Liga, Afcon last 16 and Celtic v Rangers – matchday live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/03/premier-league-buildup-la-liga-afcon-last-16-and-celtic-v-rangers-matchday-live",
-      "summary": "⚽ News, discussion and previews before the day’s action ⚽ Fixtures | Tables | Follow us on Bluesky | Get in touch In La Liga, leaders Barcelona face Espanyol in the Catalan derby at 8pm tonight. Victory would send them seven clear of Real Madrid, who host Real Betis on Sunday. Espanyol sit fifth in the table although they haven’t beaten Barca in La Liga since 2009. Come on lads, do it for the dreamers. Get this, the action in Serie A today kicks off at 11.30 GMT. That’ll be Como hosting Udinese. Here’s a fact, sixth-placed Como have suffered fewer defeats in Serie A this season than Inter and Napoli! Admittedly, two of those have come in their last three matches (0-4 v Inter and 0-1 v Roma) although Perry’s boys bounced back with a 3-0 win at Lecce last time. Continue reading...",
-      "publishedAt": "2026-01-03T09:14:19.000Z"
     },
     {
       "type": "rss",
@@ -69,28 +91,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Arteta over bankzitter Eze: 'Heeft meer minuten gespeeld dan ooit'",
-      "link": "https://www.vi.nl/video/arteta-over-bankzitter-eze-heeft-meer-minuten-gespeeld-dan-ooit",
-      "summary": "Arsenal-manager Mikel Arteta verbaasde zich op de persconferentie over de vragen rondom Eberechi Eze. De jonge middenvelder bleef de afgelopen twee wedstrijden steeds negentig minuten op de bank zitten, maar volgens de Spanjaard speelt Eze meer minuten dan hij ooit op het hoogste niveau heeft gedaan.",
-      "publishedAt": "2026-01-03T08:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Van Hanegem en Mansveld waren bikkelhard, maar absolute wereldtop'",
-      "link": "https://www.vi.nl/nieuws/dollen-in-europese-finale-ik-zei-tegen-van-hanegem-dat-ik-vast-terugliep",
-      "summary": "Lex Schoenmaker (78) is nog altijd Europees topscorer van Feyenoord. De Haagse spits van weleer won met de club de UEFA Cup en maakte uiteindelijk negentien doelpunten in Europees verband. Met dank aan zijn grote vriend Willem van Hanegem.",
-      "publishedAt": "2026-01-03T08:15:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -106,7 +106,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Darts' new rivalry? Why Littler vs Veen final tonight is unmissable",
+      "title": "Darts' new rivalry? Why Littler vs Van Veen final tonight is unmissable",
       "link": "https://www.skysports.com/darts/news/12040/13489777/luke-littler-vs-gian-van-veen-new-rivalry-takes-centre-stage-at-world-darts-championship-final-at-alexandra-palace",
       "summary": "Just over two years ago, Luke Littler and Gian van Veen went head-to-head in the World Youth Championship final in a match that perhaps marked the start of a long, thrilling rivalry.",
       "publishedAt": "2026-01-03T07:10:00.000Z"
@@ -124,22 +124,11 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'No coasting' and no selfishness from England in 'huge' final Ashes Test",
-      "link": "https://www.skysports.com/cricket/news/12040/13489832/the-ashes-england-captain-ben-stokes-says-final-test-vs-australia-in-sydney-is-huge-despite-series-already-being-lost",
-      "summary": "England captain Ben Stokes vowed there will be let up from his side in a \"huge\" final Ashes Test in Sydney as they aim to leave Australia with a narrow 3-2 defeat.",
-      "publishedAt": "2026-01-03T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Blackburn to Barcelona - Dolan's 'unbelievable' journey",
+      "title": "Blackburn to Barcelona - Dolan's 'unbelievable' journey to Espanyol",
       "link": "https://www.bbc.com/sport/football/articles/cwy1wn866y5o?at_medium=RSS&at_campaign=rss",
       "summary": "Five years ago, Tyrhys Dolan was playing for Clitheroe - now he is preparing to face Barcelona in the Catalan derby.",
       "publishedAt": "2026-01-03T06:46:24.000Z"
@@ -220,6 +209,17 @@
       "link": "https://www.theguardian.com/football/2026/jan/02/thomas-frank-admits-its-difficult-to-enjoy-being-tottenham-head-coach",
       "summary": "Frank likens challenges at Spurs to running a marathon Tottenham booed off after goalless draw at Brentford Thomas Frank has admitted he is not enjoying his job at Tottenham. The head coach is dealing with numerous problems as he navigates what always stood to be a transitional season, the most insistent being his team’s lack of creativity. Spurs were booed off after Thursday’s 0-0 draw at Brentford by the travelling support, who also chanted “boring, boring Tottenham”. But Frank is confident he will come to look back on the first half of his debut campaign more fondly once – and not if – his squad emerges on the other side, stronger and wiser for the suffering. Tottenham are 12th in the Premier League – their next game is at home to Sunderland on Sunday and Frank leant into a marathon-running analogy when he was asked whether he was enjoying the challenge to which he has signed up. Continue reading...",
       "publishedAt": "2026-01-02T22:30:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Nancy leaps to his own defence as he feels Old Firm heat'",
+      "link": "https://www.bbc.com/sport/football/articles/czx3dqxl769o?at_medium=RSS&at_campaign=rss",
+      "summary": "Just over four weeks on from his appointment as Celtic manager, Wilfried Nancy's passionate defence of his reign shows the pressure he is facing before Saturday's Old Firm derby against Rangers.",
+      "publishedAt": "2026-01-02T22:00:17.000Z"
     }
   ]
 }
