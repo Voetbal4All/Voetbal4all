@@ -449,20 +449,16 @@
 
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
-          const imgUrl = toImgUrl(a?.image);
-          const imgUrlFinal =
-            imgUrl ||
-            toImgUrl(`/images/placeholder.svg?title=${encodeURIComponent(String(a.title || "Voetbal4All").slice(0, 80))}`);
+        const imgUrlFinal = toImgUrl(a?.image);
           const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         return `
           <article class="ad-card">
             <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
             <img
-              src="${imgUrlFinal}"
+              src="${imgUrlFinal || ''}"
               alt="${safeTitleAttr}"
               loading="lazy"
-              onerror="this.onerror=null;this.src='${IMG_BASE}/images/placeholder.svg?title=${encodeURIComponent(String(a.title || "Voetbal4All").slice(0, 80))}';"
               style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
             >
 
