@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-03T06:36:11.345Z",
+  "generatedAt": "2026-01-03T07:22:03.091Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Liverpool wil contract van Gravenberch openbreken'",
+      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-03T07:15:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +21,84 @@
       "title": "Bosz rekende op vertrek Veerman, nu staat hij (in het donker) op PSV-veld",
       "link": "https://www.vi.nl/pro/bosz-rekende-op-vertrek-veerman-nu-staat-hij-in-het-donker-op-psv-veld",
       "summary": "PSV is begonnen aan het kalenderjaar 2026. Hoe precies? Met Joey Veerman (geen transfer) en Ibi Afellay (nieuwe assistent) binnen de gelederen. Maar ook: met uren vertraging op het vliegveld van Eindhoven en een pikdonker en dus onbespeelbaar veld in Marbella later op de vrijdagavond.",
-      "publishedAt": "2026-01-03T06:00:00.000Z"
+      "publishedAt": "2026-01-03T07:07:44.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: de dag van de Old Firm en de Catalaanse derby",
+      "link": "https://www.vi.nl/nieuws/vi-live-de-dag-van-de-old-firm-en-de-catalaanse-derby",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Celtic - Rangers FC, AFC Bournemouth - Arsenal en Espanyol - Barcelona.",
+      "publishedAt": "2026-01-03T07:01:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Today on Sky Sports Racing: Westcombe looks to complete hat-trick at Lingfield",
+      "link": "https://www.skysports.com/racing/news/12040/13489479/today-on-sky-sports-racing-lingfield-newcastle-and-southwell-feature-live-on-saturday",
+      "summary": "We have a busy day’s racing on Saturday with action from Lingfield, Newcastle and Southwell live on Sky Sports Racing...",
+      "publishedAt": "2026-01-03T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'No coasting' and no selfishness from England in 'huge' final Ashes Test",
+      "link": "https://www.skysports.com/cricket/news/12040/13489832/the-ashes-england-captain-ben-stokes-says-final-test-vs-australia-in-sydney-is-huge-despite-series-already-being-lost",
+      "summary": "England captain Ben Stokes vowed there will be let up from his side in a \"huge\" final Ashes Test in Sydney as they aim to leave Australia with a narrow 3-2 defeat.",
+      "publishedAt": "2026-01-03T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Will Steelers vs Ravens be Rodgers' final game in the NFL?",
+      "link": "https://www.skysports.com/nfl/news/12040/13489655/aaron-rodgers-retirement-decision-looms-as-pittsburgh-steelers-face-baltimore-ravens-in-nfl-playoff-decider",
+      "summary": "Aaron Rodgers has often alluded to being on the 'back nine' of his NFL career in recent years. There is a sense he could be strolling up the fairway to putt at the 18th this weekend.",
+      "publishedAt": "2026-01-03T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De Feyenoorder die hardop over een carrière als darter droomde",
+      "link": "https://www.vi.nl/pro/de-feyenoorder-die-hardop-over-een-carri-re-als-darter-droomde",
+      "summary": "Voetbal International zit al ruim zes decennia boven op het voetbal. Elke dag van het weekeinde publiceren we een onvergetelijk verhaal uit ons archief. Ditmaal reizen we met de VI-Tijdmachine naar eind 2015. Speciaal voor de finale van het World Darts Championship in het Londense Alexandra Palace: Feyenoord-middenvelder Lex Immers die zijn eigen dartstoernooi bestiert, het The Hague Championship. En daar blijft het niet bij. ‘Net zo’n goede darter worden als mijn idool Raymond van Barneveld, dat is mijn droom.’",
+      "publishedAt": "2026-01-03T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Blackburn to Barcelona - Dolan's 'unbelievable' journey",
+      "link": "https://www.bbc.com/sport/football/articles/cwy1wn866y5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Five years ago, Tyrhys Dolan was playing for Clitheroe - now he is preparing to face Barcelona in the Catalan derby.",
+      "publishedAt": "2026-01-03T06:46:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "I’m the ‘miracle’ woken from a coma by Kenny Dalglish after Hillsborough. And now I’ve met him again",
+      "link": "https://www.theguardian.com/football/2026/jan/03/36-years-on-miracle-hillsborough-disaster-survivor-meets-kenny-dalglish-liverpool",
+      "summary": "It’s said that you should never meet your heroes, but 36 years after the Liverpool manager sat by my hospital bed, I got to thank our greatest ally Born to a son of Anfield in a Warwickshire village, I grew up geographically remote from my spiritual football home. Emotionally, though, the pull of the boys in red was ever-present: from my first game at Anfield in 1974 to FA Cup final defeat at Wembley in ’77, to witnessing the first of Liverpool’s six European Cups, in Rome, when my first hero, Kevin Keegan, ran Berti Vogts ragged. I cried when Keegan left, but soon a new king was born in my imagination: Kenny Dalglish, that wily, tough, insanely skilful Scot. I travelled the country to follow my team through the peaks and troughs that culminated in the lowest possible low, on 15 April 1989, the day of the FA Cup semi-final between Liverpool and Nottingham Forest. There are many things I remember about Hillsborough, some of which returned to me years, even decades, later. My dad saying: “If it’s a nice day tomorrow, we’ll go.” Ian St John on the end of my hospital bed. My best mate laughing as I struggled to eat a yoghurt. The endless bright white lights of the Royal Hallamshire. The surreal trip to my local hospital in an ancient, drafty ambulance. One thing I don’t remember, though, is meeting my hero. And for good reason. For I’m the “miracle” boy woken by the sound of Kenny’s voice when he spoke at my bedside. Continue reading...",
+      "publishedAt": "2026-01-03T06:00:32.000Z"
     },
     {
       "type": "rss",
@@ -80,50 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "From dartitis to world final - Van Veen 'pinching himself' at Littler showdown",
-      "link": "https://www.skysports.com/darts/news/12040/13489820/world-darts-championship-gian-van-veen-opens-up-on-past-dartitis-struggles-ahead-of-luke-littler-final-showdown-at-alexandra-palace",
-      "summary": "Gian van Veen admitted he is \"pinching himself\" at the prospect of facing Luke Littler in the World Darts Championship final, just years after dartitis left him questioning his future in the sport.",
-      "publishedAt": "2026-01-03T00:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Van Veen overcomes Anderson in classic to reach maiden final",
-      "link": "https://www.skysports.com/watch/video/13489816/world-darts-championship-gian-van-veen-vs-gary-anderson-highlights",
-      "summary": "Highlights of the World Championship semi-final between Gian van Veen and Gary Anderson.",
-      "publishedAt": "2026-01-02T22:59:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Van Veen to face Littler in final after Dutchman beats Anderson in epic",
-      "link": "https://www.skysports.com/darts/news/12040/13489762/world-darts-championship-2026-luke-littler-to-face-gian-van-veen-in-final-after-dutchman-holds-off-gary-anderson-in-epic-semi-final",
-      "summary": "Luke Littler will take on Gian van Veen in the World Darts Championship final after the Dutchman came through a tough semi-final battle with Gary Anderson to win 6-3 at Alexandra Palace.",
-      "publishedAt": "2026-01-02T22:54:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Liverpool gaat aan de haal met toptalent van Austria Wien'",
-      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-02T22:45:15.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -146,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Drie Nederlanders op rij: Fraser verrast en tekent in China",
-      "link": "https://www.vi.nl/nieuws/drie-nederlanders-op-rij-fraser-verrast-en-tekent-in-china",
-      "summary": "Henk Fraser is de nieuwe trainer van Shaanxi Union. Dat heeft de Chinese club bekendgemaakt.",
-      "publishedAt": "2026-01-02T22:12:38.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -165,17 +198,6 @@
       "link": "https://www.bbc.com/sport/football/articles/czx3dqxl769o?at_medium=RSS&at_campaign=rss",
       "summary": "Just over four weeks on from his appointment as Celtic manager, Wilfried Nancy's passionate defence of his reign shows the pressure he is facing before Saturday's Old Firm derby against Rangers.",
       "publishedAt": "2026-01-02T22:00:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "RC Lens najaarskampioen van Frankrijk",
-      "link": "https://www.vi.nl/nieuws/rc-lens-troeft-psg-af-als-najaarskampioen-van-frankrijk",
-      "summary": "RC Lens is vrijdagavond (ietwat verlaat) najaarskampioen van Frankrijk geworden. De koploper van Frankrijk won op bezoek bij Toulouse en voert op exact de helft van de competitie de ranglijst aan. Paris Saint-Germain moet nog in actie komen, maar kan niet meer passeren.",
-      "publishedAt": "2026-01-02T21:51:05.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/02/chelsea-enzo-maresca-liam-rosenior-analysis",
       "summary": "Enzo Maresca got the sack because of his actions. That does not mean the club’s structure needs a complete overhaul Some clubs build around their manager. Eddie Howe is hugely influential at Newcastle and Aston Villa are pretty much Unai Emery FC these days. Chelsea, though, have adopted an alternative model. They have a team of five sporting directors, led by Paul Winstanley and Laurence Stewart, and do not want one person to hold all the power. Yet the question many are asking in the wake of Enzo Maresca’s demise is whether the template will yield success at the very highest level. It is never quiet at Chelsea. They are often busy in the transfer market, meaning there is an element of players coming and going, and they are now looking for their fifth permanent head coach since a consortium led by Todd Boehly and Clearlake Capital, a private equity firm run by Behdad Eghbali and José E Feliciano, bought the club from Roman Abramovich in 2022. Continue reading...",
       "publishedAt": "2026-01-02T18:21:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘You guys kill me’: Wilfried Nancy hits back at critics before Old Firm battle",
-      "link": "https://www.theguardian.com/football/2026/jan/02/wilfried-nancy-celtic-rangers-old-firm-scottish-premiership",
-      "summary": "Celtic manager has lost five of seven games in charge Job under threat if he loses to Rangers on Saturday Wilfried Nancy has launched an impassioned defence of his credentials to manage Celtic, asking his critics to apply context and claiming the media have tried to “kill” him during his troubled early weeks at the club. The reality is that his job will come under serious threat should Celtic lose Saturday’s Old Firm fixture. The 2-0 loss to Motherwell on Tuesday was the fifth reverse of his seven games in charge. The performance at Fir Park was especially dismal, which raised the latest set of questions about the former Columbus Crew coach’s suitability for his role. If Rangers win at Celtic Park they would draw level with their oldest foes despite their own unconvincing start to the campaign. Both trail Hearts in the Premiership. Continue reading...",
-      "publishedAt": "2026-01-02T17:19:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Villa 'not convinced' to sign Elliott permanently - Emery",
-      "link": "https://www.bbc.com/sport/football/articles/cr4kx9l7zd5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Aston Villa manager Unai Emery says the club were \"not convinced\" two months ago to sign Harvey Elliott permanently.",
-      "publishedAt": "2026-01-02T16:25:02.000Z"
     }
   ]
 }
