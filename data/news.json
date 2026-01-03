@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-01-02T23:22:55.768Z",
+  "generatedAt": "2026-01-03T01:53:49.917Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "From dartitis to world final - Van Veen 'pinching himself' at Littler showdown",
+      "link": "https://www.skysports.com/darts/news/12040/13489820/world-darts-championship-gian-van-veen-opens-up-on-past-dartitis-struggles-ahead-of-luke-littler-final-showdown-at-alexandra-palace",
+      "summary": "Gian van Veen admitted he is \"pinching himself\" at the prospect of facing Luke Littler in the World Darts Championship final, just years after dartitis left him questioning his future in the sport.",
+      "publishedAt": "2026-01-03T00:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Greatest set of darts ever? | Van Veen and Anderson's EPIC fifth set in full!",
+      "link": "https://www.skysports.com/watch/video/13489821/world-darts-championship-two-big-fish-finishes-in-epic-fifth-set-between-gary-anderson-and-gian-van-veen",
+      "summary": "Relive the full fifth set between Gian van Veen and Gary Anderson, which saw two Big Fish finishes in quick succession as the momentum swung back and forth!",
+      "publishedAt": "2026-01-02T23:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -124,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Frank: I'm not enjoying Spurs reign so far - but hard work will be worth it",
-      "link": "https://www.skysports.com/football/news/12040/13489761/thomas-frank-tottenham-boss-admits-he-is-not-enjoying-his-reign-so-far-but-hard-work-will-be-worth-it-in-the-long-run",
-      "summary": "Thomas Frank has admitted that he is not enjoying his managerial reign at Tottenham so far but is looking forward to being able to look back on his difficult start positively.",
-      "publishedAt": "2026-01-02T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -146,14 +157,14 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'What on EARTH is going on?!' 🤯 Anderson and Van Veen hit Big Fish in same set!",
-      "link": "https://www.skysports.com/watch/video/13489810/world-dart-championships-gary-anderson-and-gian-van-veen-hit-big-fish-in-same-set",
-      "summary": "Gary Anderson and Gian Van Veen hit the Big Fish in a crazy set of darts at Ally Pally!",
-      "publishedAt": "2026-01-02T22:05:00.000Z"
+      "title": "'Nancy leaps to his own defence as he feels Old Firm heat'",
+      "link": "https://www.bbc.com/sport/football/articles/czx3dqxl769o?at_medium=RSS&at_campaign=rss",
+      "summary": "Just over four weeks on from his appointment as Celtic manager, Wilfried Nancy's passionate defence of his reign shows the pressure he is facing before Saturday's Old Firm derby against Rangers.",
+      "publishedAt": "2026-01-02T22:00:17.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/02/wilfried-nancy-celtic-rangers-old-firm-scottish-premiership",
       "summary": "Celtic manager has lost five of seven games in charge Job under threat if he loses to Rangers on Saturday Wilfried Nancy has launched an impassioned defence of his credentials to manage Celtic, asking his critics to apply context and claiming the media have tried to “kill” him during his troubled early weeks at the club. The reality is that his job will come under serious threat should Celtic lose Saturday’s Old Firm fixture. The 2-0 loss to Motherwell on Tuesday was the fifth reverse of his seven games in charge. The performance at Fir Park was especially dismal, which raised the latest set of questions about the former Columbus Crew coach’s suitability for his role. If Rangers win at Celtic Park they would draw level with their oldest foes despite their own unconvincing start to the campaign. Both trail Hearts in the Premiership. Continue reading...",
       "publishedAt": "2026-01-02T17:19:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Villa 'not convinced' to sign Elliott permanently - Emery",
-      "link": "https://www.bbc.com/sport/football/articles/cr4kx9l7zd5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Aston Villa manager Unai Emery says the club were \"not convinced\" two months ago to sign Harvey Elliott permanently.",
-      "publishedAt": "2026-01-02T16:25:02.000Z"
     }
   ]
 }
