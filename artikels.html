@@ -420,6 +420,13 @@
       return s;
     }
 
+    function firstTwoSentences(text){
+      const s = safe(text).replace(/\s+/g, " ").trim();
+      if (!s) return "";
+      const parts = s.split(/(?<=[.!?])\s+/); // split op einde zin
+      return parts.slice(0, 2).join(" ").trim();
+    }
+
       function renderCard(a){
         const title = cleanTitle(a.title);
         if (!a.id) {
@@ -433,18 +440,14 @@
         const category = safe(a.category || "Algemeen");
         const date = safe(a.publishedAt || a.date || a.createdAt || "");
         const snippet = safe(a.snippet || "");
-        const snippetClean = snippet
-          // verwijder "Bron: ..." of "Source: ..."
+        let snippetClean = snippet
           .replace(/\b(bron|source)\s*:\s*.*$/i, "")
-          // verwijder domeinen zoals voetbalprimeur.be, fcupdate.nl, etc.
           .replace(/\b[a-z0-9-]+\.(be|nl|com|net|org)\b/gi, "")
-          // verwijder trailing " - X" / " | X"
           .replace(/\s*[-—|]\s*[A-Za-zÀ-ÿ0-9 .]{2,40}\s*$/i, "")
           .replace(/\s{2,}/g, " ")
           .trim();
-        // STAP 1: forceer altijd een geldige afbeelding (nooit leeg)
-        const fallbackImg =
-          "https://voetbal4all-backenhttps://voetbal4all-backend-database.onrender.comd.onrender.com/images/placeholder.svg";
+
+        snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
           const imgUrl = toImgUrl(a?.image);
           const imgUrlFinal =
@@ -459,7 +462,7 @@
               src="${imgUrlFinal}"
               alt="${safeTitleAttr}"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://voetbal4all-backend-database.onrender.com/images/default/placeholder.svg';"
+              onerror="this.onerror=null;this.src='${IMG_BASE}/images/placeholder.svg?title=${encodeURIComponent(String(a.title || "Voetbal4All").slice(0, 80))}';"
               style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
             >
 
