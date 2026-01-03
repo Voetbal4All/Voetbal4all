@@ -1,0 +1,14 @@
+name: Image backfill (every 4 hours)
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call image-backfill (only missing)
+        run: |
+          curl -sS "${{ secrets.BACKEND_BASE_URL }}/api/jobs/image-backfill?onlyMissing=1&dryrun=0&limit=200" | head -c 2000
