@@ -570,7 +570,8 @@
 
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-      const CACHE_KEY = "home_news_html_v5"; // Updated for 50 articles + football filter
+      const CACHE_KEY = "home_news_html_v6";
+      localStorage.removeItem("home_news_html_v5"); // éénmalig oude cache weg // Updated for 50 articles + football filter
       
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
 

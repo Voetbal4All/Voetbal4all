@@ -431,8 +431,11 @@
         const snippetClean = snippet
           // verwijder "Bron: ..." of "Source: ..."
           .replace(/\b(bron|source)\s*:\s*.*$/i, "")
-          // verwijder typische trailing " - HLN" / " — NOS" / " | Sporza" achtige suffixen
+          // verwijder domeinen zoals voetbalprimeur.be, fcupdate.nl, etc.
+          .replace(/\b[a-z0-9-]+\.(be|nl|com|net|org)\b/gi, "")
+          // verwijder trailing " - X" / " | X"
           .replace(/\s*[-—|]\s*[A-Za-zÀ-ÿ0-9 .]{2,40}\s*$/i, "")
+          .replace(/\s{2,}/g, " ")
           .trim();
         // STAP 1: forceer altijd een geldige afbeelding (nooit leeg)
         const fallbackImg =
