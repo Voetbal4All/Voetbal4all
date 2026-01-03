@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-03T11:19:43.298Z",
+  "generatedAt": "2026-01-03T12:47:37.568Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Nota bene Mislintat haalt Hercules-held en Ajax-beul naar Fortuna Düsseldorf",
-      "link": "https://www.vi.nl/nieuws/nota-bene-mislintat-haalt-hercules-held-en-ajax-beul-naar-fortuna-d-sseldorf",
-      "summary": "Jordi Paulina (21) gaat de overstap maken van Borussia Dortmund naar Fortuna Düsseldorf. Voor de oud-speler van Hercules is dat een behoorlijke promotie.",
-      "publishedAt": "2026-01-03T11:09:24.000Z"
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Celtic v Rangers: Scottish Premiership – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/03/celtic-v-rangers-scottish-premiership-live",
+      "summary": "⚽ Scottish Premiership updates, 12.30pm GMT kick-off ⚽ Live scores | Tables | Follow us on Bluesky | Mail David Celtic boss Wilfried Nancy has his say ahead of kick-off. Teams now warming up. “This is a special game. It’s a rivalry, so we know the importance of this game. My player wants to do well for them, obviously, but also for the fans, for the club. Continue reading...",
+      "publishedAt": "2026-01-03T12:40:03.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +18,98 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Premier League buildup, La Liga, Afcon last 16 and Celtic v Rangers – matchday live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/03/premier-league-buildup-la-liga-afcon-last-16-and-celtic-v-rangers-matchday-live",
-      "summary": "⚽ News, discussion and previews before the day’s action ⚽ Fixtures | Tables | Follow us on Bluesky | Get in touch Bargains can still be had in the transfer window as highlighted by Chelsea pinching Cole Palmer from Manchester City for just £40m a couple of years ago. Ahead of the two sides’ meeting on Sunday, Will Unwin looks at the five current Chelsea players who were nutured at City’s academy. The transfer window is open so how many new players do you want to see come through the door? One or two shrewd, well thought out signings that fit into the structure or just loads you’ve never seen or heard of but your mate has watched some clips on YouTube. Continue reading...",
-      "publishedAt": "2026-01-03T11:04:05.000Z"
+      "title": "Aston Villa v Nottingham Forest: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/03/aston-villa-v-nottingham-forest-premier-league-live",
+      "summary": "⚽ Premier League updates from the 12.30pm GMT kick-off ⚽ Live scores | Tables | Follow us on Bluesky | Email Sarah Nottingham Forest manager Sean Dyche has confirmed Callum Hudson-Odoi has picked up a knock which is why he is not involved today. He told Sky Sports: We don’t think it’s too serious… this game has come around a bit quick with another in a few days. Shall we just put this one to bed early in two words? Sol. Campbell. Sol Campbell, God bless his soul! Continue reading...",
+      "publishedAt": "2026-01-03T12:40:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Old Firm in Glasgow, Villa ontvangt Forest",
+      "link": "https://www.vi.nl/nieuws/vi-live-de-dag-van-de-old-firm-en-de-catalaanse-derby",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Celtic - Rangers FC, AFC Bournemouth - Arsenal en Espanyol - Barcelona.",
+      "publishedAt": "2026-01-03T12:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Rosenior frontrunner to replace Maresca",
+      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
+      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
+      "publishedAt": "2026-01-03T12:04:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep denies Maresca, City links: 'I have a contract'",
+      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
+      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
+      "publishedAt": "2026-01-03T12:04:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Neymar hint about next contract teased",
+      "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
+      "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
+      "publishedAt": "2026-01-03T12:04:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Sterling keen on permanent Chelsea exit",
+      "link": "https://www.espn.com/soccer/story/_/id/47482059/raheem-sterling-keen-permanent-chelsea-exit-amid-west-ham-fulham-interest-sources",
+      "summary": "Raheem Sterling is prioritising a permanent move away from Chelsea this month amid interest from West Ham and Fulham, sources have told ESPN.",
+      "publishedAt": "2026-01-03T12:04:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Nota bene Mislintat haalt bekerheld Paulina naar Fortuna Düsseldorf",
+      "link": "https://www.vi.nl/nieuws/nota-bene-mislintat-haalt-hercules-held-en-ajax-beul-naar-fortuna-d-sseldorf",
+      "summary": "Jordi Paulina (21) gaat de overstap maken van Borussia Dortmund naar Fortuna Düsseldorf. Voor de oud-speler van Hercules is dat een behoorlijke promotie.",
+      "publishedAt": "2026-01-03T12:03:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Paul loses WBA cruiserweight ranking after defeat to Joshua",
+      "link": "https://www.skysports.com/boxing/news/12040/13489910/jake-paul-loses-wba-cruiserweight-ranking-after-defeat-to-anthony-joshua-in-miami-in-december",
+      "summary": "Jake Paul has slipped out of the WBA cruiserweight rankings after losing his heavyweight clash with Anthony Joshua in Miami last month.",
+      "publishedAt": "2026-01-03T12:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Moet Aké vrezen voor WK? 'Koeman heeft gezegd dat ik meer moet spelen'",
+      "link": "https://www.vi.nl/nieuws/ak-vreest-voor-wk-koeman-heeft-gezegd-dat-ik-meer-moet-spelen",
+      "summary": "Nathan Aké zit in een lastige situatie in Engeland. De dertigjarige verdediger is een gewaardeerde speler bij Manchester City, maar zijn basisplaatsen zijn de afgelopen maanden zeer beperkt. Bondscoach Ronald Koeman maakt zich zorgen met het oog op het WK.",
+      "publishedAt": "2026-01-03T11:55:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +120,7 @@
       "title": "Rodriguez wil beste versie van zichzelf tonen: 'Wij horen niet op plek acht'",
       "link": "https://www.vi.nl/pro/lat-moet-omhoog-bij-fc-utrecht-topvijf-en-de-beker-winnen",
       "summary": "FC Utrecht is na de korte winterbreak begonnen aan de mini voorbereiding op de tweede helft van het seizoen. De eerste was volgens Miguel Rodriguez te wisselvallig en dus niet goed genoeg. De doelen formuleert de 22-jarige Spaanse buitenspeler kort maar krachtig: 'Bij de eerste vijf eindigen en de beker winnen.'",
-      "publishedAt": "2026-01-03T11:00:00.000Z"
+      "publishedAt": "2026-01-03T11:32:40.000Z"
     },
     {
       "type": "rss",
@@ -40,21 +128,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Sneeuwpret bij Fortuna Sittard: creatieve Buijs verzorgt alternatieve training",
-      "link": "https://www.vi.nl/nieuws/sneeuwpret-bij-fortuna-sittard-creatieve-buijs-verzorgt-alternatieve-training",
-      "summary": "Fortuna Sittard is ook weer begonnen aan de voorbereiding op het nieuwe seizoen. In Limburg viel, net als in veel andere delen van het land, veel sneeuw. Trainer Danny Buijs week daar echter niet voor uit.",
-      "publishedAt": "2026-01-03T10:52:04.000Z"
+      "title": "Ron Jans verlaat FC Utrecht na dit seizoen en gaat met pensioen",
+      "link": "https://www.vi.nl/nieuws/ron-jans-vertrekt-aan-einde-van-dit-seizoen-bij-fc-utrecht",
+      "summary": "Ron Jans vertrekt aan het einde van dit seizoen bij FC Utrecht. De 67-jarige trainer heeft besloten zijn aflopende contract niet te verlengen. Jans is sinds de zomer van 2023 de eindverantwoordelijke in Utrecht.",
+      "publishedAt": "2026-01-03T11:31:51.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Gilberto Mora: potentiële smaakmaker op het WK",
-      "link": "https://www.vi.nl/nieuws/gilberto-mora-potenti-le-smaakmaker-op-het-wk",
-      "summary": "Gilberto Mora (17) is in Europa nog relatief onbekend, maar kan zomaar een van de verrassingen worden op het komende wereldkampioenschap. De kans is groot dat hij ook tijdens de WK-openingswedstrijd van Mexico tegen Zuid-Afrika aan de aftrap staat, waarmee hij zich direct kan ontpoppen tot een van de jonge smaakmakers van het toernooi.",
-      "publishedAt": "2026-01-03T10:38:00.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Putting on a SHOW!' | All NINE sixes from Warner's AUDACIOUS 130 in BBL!",
+      "link": "https://www.skysports.com/watch/video/13489904/bbl-all-sixes-from-david-warners-audacious-130-for-sydney-thunder",
+      "summary": "David Warner smashed his first BBL century since 2011 for Sydney Thunder against Hobart Hurricanes, hitting nine sixes in a score of 130 not out.",
+      "publishedAt": "2026-01-03T11:28:00.000Z"
     },
     {
       "type": "rss",
@@ -66,17 +154,6 @@
       "link": "https://www.skysports.com/watch/video/13489888/michael-atheron-has-suggested-alastair-cook-as-an-assistant-coach-for-england-a-complete-clash-but-standards-have-dropped",
       "summary": "Michael Atherton believes that Sir Alastair Cook should be introduced as an assistant coach to Brendon McCullum for the England Test team.",
       "publishedAt": "2026-01-03T10:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Opmerkelijk ontslag in België: 'Telefoontje duurde 30 seconden'",
-      "link": "https://www.vi.nl/nieuws/opmerkelijk-ontslag-in-belgi-telefoontje-duurde-30-seconden",
-      "summary": "Igor de Camargo heeft in Le Soir een boekje opengedaan over zijn opmerkelijke ontslag op het tweede niveau van België. De oud-spits van Genk, Standard Luik en Borussia Mönchengladbach ontving in november een opmerkelijk telefoontje.",
-      "publishedAt": "2026-01-03T10:20:00.000Z"
     },
     {
       "type": "rss",
@@ -99,17 +176,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/03/manchester-city-chelsea-premier-league-enzo-maresca-calum-mcfarlane",
       "summary": "Palmer and Delap are among five academy players who learnt their trade at City, as links between the clubs grow Chelsea’s visit to Manchester City on Sunday will be a homecoming for members of the travelling party. Five Chelsea players were nurtured at the academy that sits a few hundred yards from the Etihad Stadium, on the other side of a bridge. The London club’s recent recruitment has been heavily influenced by City’s teaching of players and coaches. Tosin Adarabioyo, Cole Palmer, Liam Delap, Jamie Gittens and Roméo Lavia were members of City’s youth ranks, most working there under Enzo Maresca. If one thread was unpicked this week when Maresca dramatically departed Chelsea, the link remains strong because Sunday’s caretaker, Calum McFarlane, was formerly the under-18s assistant manager at City. Continue reading...",
       "publishedAt": "2026-01-03T08:00:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Darts' new rivalry? Why Littler vs Van Veen final tonight is unmissable",
-      "link": "https://www.skysports.com/darts/news/12040/13489777/luke-littler-vs-gian-van-veen-new-rivalry-takes-centre-stage-at-world-darts-championship-final-at-alexandra-palace",
-      "summary": "Just over two years ago, Luke Littler and Gian van Veen went head-to-head in the World Youth Championship final in a match that perhaps marked the start of a long, thrilling rivalry.",
-      "publishedAt": "2026-01-03T07:10:00.000Z"
     },
     {
       "type": "rss",
@@ -139,65 +205,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Rosenior frontrunner to replace Maresca",
-      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
-      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
-      "publishedAt": "2026-01-03T02:36:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep denies Maresca, City links: 'I have a contract'",
-      "link": "https://www.espn.com/soccer/story/_/id/47481706/pep-guardiola-denies-enzo-maresca-man-city-links-contract",
-      "summary": "Pep Guardiola has reiterated his desire to stay on at Manchester City amid fresh rumours surrounding Enzo Maresca.",
-      "publishedAt": "2026-01-03T02:36:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neymar hint about next contract teased",
-      "link": "https://www.espn.com/soccer/story/_/id/47480654/neymar-hint-next-contract-teased-social-media",
-      "summary": "Santos have indicated that Neymar will be with the club until the end of the year.",
-      "publishedAt": "2026-01-03T02:36:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Sterling keen on permanent Chelsea exit",
-      "link": "https://www.espn.com/soccer/story/_/id/47482059/raheem-sterling-keen-permanent-chelsea-exit-amid-west-ham-fulham-interest-sources",
-      "summary": "Raheem Sterling is prioritising a permanent move away from Chelsea this month amid interest from West Ham and Fulham, sources have told ESPN.",
-      "publishedAt": "2026-01-03T02:36:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Laurens' weekend preview: Maresca-less Chelsea visit Man City, Barcelona derby, more",
       "link": "https://www.espn.com/soccer/story/_/id/47482083/julien-laurens-weekend-soccer-preview-chelsea-manchester-city-premier-league-barcelona-laliga",
       "summary": "What is Julien Laurens watching this weekend? There's the start of the post-Maresca era at Chelsea as they head to Man City, huge derbies in Scotland and France, and much more.",
       "publishedAt": "2026-01-03T02:36:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Thomas Frank admits ‘it’s difficult to enjoy’ being Tottenham head coach",
-      "link": "https://www.theguardian.com/football/2026/jan/02/thomas-frank-admits-its-difficult-to-enjoy-being-tottenham-head-coach",
-      "summary": "Frank likens challenges at Spurs to running a marathon Tottenham booed off after goalless draw at Brentford Thomas Frank has admitted he is not enjoying his job at Tottenham. The head coach is dealing with numerous problems as he navigates what always stood to be a transitional season, the most insistent being his team’s lack of creativity. Spurs were booed off after Thursday’s 0-0 draw at Brentford by the travelling support, who also chanted “boring, boring Tottenham”. But Frank is confident he will come to look back on the first half of his debut campaign more fondly once – and not if – his squad emerges on the other side, stronger and wiser for the suffering. Tottenham are 12th in the Premier League – their next game is at home to Sunderland on Sunday and Frank leant into a marathon-running analogy when he was asked whether he was enjoying the challenge to which he has signed up. Continue reading...",
-      "publishedAt": "2026-01-02T22:30:20.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/czx3dqxl769o?at_medium=RSS&at_campaign=rss",
       "summary": "Just over four weeks on from his appointment as Celtic manager, Wilfried Nancy's passionate defence of his reign shows the pressure he is facing before Saturday's Old Firm derby against Rangers.",
       "publishedAt": "2026-01-02T22:00:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sutton's predictions v singer-songwriter & Newcastle fan Andrew Cushin",
-      "link": "https://www.bbc.com/sport/football/articles/cddg40qzqmjo?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport football expert Chris Sutton takes on singer-songwriter & Newcastle fan Andrew Cushin - and AI - with his predictions for this week's Premier League fixtures.",
-      "publishedAt": "2026-01-02T18:32:56.000Z"
     }
   ]
 }
