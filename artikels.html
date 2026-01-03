@@ -422,7 +422,12 @@
 
       function renderCard(a){
         const title = cleanTitle(a.title);
-        const url = a.id ? ("artikel.html?id=" + encodeURIComponent(a.id)) : "#";
+        if (!a.id) {
+          console.warn("[ARTIKELS] Missing id for article, skipping link:", a);
+          return;
+        }
+
+        const url = "artikel.html?id=" + encodeURIComponent(a.id);
 
         const cc = inferCountry(a);
         const category = safe(a.category || "Algemeen");
