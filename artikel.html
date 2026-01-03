@@ -413,15 +413,16 @@
 <script>
 (function(){
   const params = new URLSearchParams(window.location.search);
-  const fileName = params.get('file');
-  
-  console.log('[ARTIKEL] URL param file:', fileName);
-  
-  if (!fileName) { 
-    console.error('[ARTIKEL] No file parameter in URL');
-    showError(); 
-    return; 
-  }
+  const id = params.get("id");
+  const fileName = params.get("file"); // legacy support
+
+  console.log("[ARTIKEL] URL params:", { id, file: fileName });
+
+if (!id && !fileName) {
+  console.error("[ARTIKEL] No id or file parameter in URL");
+  showError();
+  return;
+}
   
   const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
   
@@ -452,40 +453,44 @@
         title: articles[0].title
       });
       
-      // Try multiple matching strategies
-      const article = articles.find(a => {
-        // Strategy 1: Exact fileName match
-        if (a.fileName === fileName) {
-          console.log('[ARTIKEL] ✅ Match via fileName:', a.fileName);
-          return true;
-        }
-        
-        // Strategy 2: Exact file match
-        if (a.file === fileName) {
-          console.log('[ARTIKEL] ✅ Match via file:', a.file);
-          return true;
-        }
-        
-        // Strategy 3: fileName includes parameter
-        if (a.fileName && a.fileName.includes(fileName)) {
-          console.log('[ARTIKEL] ✅ Match via fileName.includes:', a.fileName);
-          return true;
-        }
-        
-        // Strategy 4: file includes parameter
-        if (a.file && a.file.includes(fileName)) {
-          console.log('[ARTIKEL] ✅ Match via file.includes:', a.file);
-          return true;
-        }
-        
-        // Strategy 5: _id match
-        if (a._id === fileName) {
-          console.log('[ARTIKEL] ✅ Match via _id:', a._id);
-          return true;
-        }
-        
-        return false;
-      });
+    // Try multiple matching strategies (ID first)
+    const article = articles.find(a => {
+      // 1️⃣ VOORRANG: match op id (stabiel en uniek)
+      if (id && a.id === id) {
+        console.log('[ARTIKEL] ✅ Match via id:', a.id);
+        return true;
+      }
+
+      // 2️⃣ Legacy: exact fileName
+      if (fileName && a.fileName === fileName) {
+        console.log('[ARTIKEL] ✅ Match via fileName:', a.fileName);
+        return true;
+      }
+
+      // 3️⃣ Legacy: exact file
+      if (fileName && a.file === fileName) {
+        console.log('[ARTIKEL] ✅ Match via file:', a.file);
+        return true;
+      }
+
+      // 4️⃣ Fallbacks (laatste redmiddel)
+      if (fileName && a.fileName && a.fileName.includes(fileName)) {
+        console.log('[ARTIKEL] ✅ Match via fileName.includes:', a.fileName);
+        return true;
+      }
+
+      if (fileName && a.file && a.file.includes(fileName)) {
+        console.log('[ARTIKEL] ✅ Match via file.includes:', a.file);
+        return true;
+      }
+
+      if (fileName && a._id === fileName) {
+        console.log('[ARTIKEL] ✅ Match via _id:', a._id);
+        return true;
+      }
+
+      return false;
+    });
       
       if (!article) {
         console.error('[ARTIKEL] Article not found. Searched for:', fileName);
