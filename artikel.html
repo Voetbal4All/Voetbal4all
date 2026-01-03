@@ -269,7 +269,12 @@
     <div class="v4-layout-sidebar">
       
       <div class="v4-content">
-        <article class="card">
+
+        <!-- VASTE ROOT CONTAINER (NIEUW) -->
+        <article id="article-container" class="article-detail">
+      
+          <!-- BESTAANDE CARD BLIJFT -->
+          <article class="card">
           
           <div style="margin-bottom:16px;">
             <a href="index.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Home</a>
@@ -348,7 +353,8 @@
             <a href="artikels.html" class="btn" style="background:rgba(255,255,255,0.1);">← Terug naar overzicht</a>
           </div>
           
-        </article>
+        </article> <!-- einde .card -->
+      </article>   <!-- einde #article-container -->
       </div>
       
       <aside class="v4-sidebar">
@@ -413,112 +419,54 @@
 <script>
 (function(){
   const params = new URLSearchParams(window.location.search);
-  const id = params.get("id");
-  const fileName = params.get("file"); // legacy support
+  const idFromUrl = params.get("id");
 
-  console.log("[ARTIKEL] URL params:", { id, file: fileName });
+  console.log("[ARTIKEL] URL params:", { id: idFromUrl });
 
-if (!id && !fileName) {
-  console.error("[ARTIKEL] No id or file parameter in URL");
-  showError();
-  return;
-}
+  if (!idFromUrl) {
+    console.error("[ARTIKEL] Missing id parameter in URL");
+    setState("error");
+    return;
+  }
   
   const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
+  const elLoading = document.getElementById("loading-state");
+  const elError   = document.getElementById("error-state");
+  const elContent = document.getElementById("article-content");
+
+  function setState(state) {
+    // state: "loading" | "error" | "content"
+    elLoading.style.display = (state === "loading") ? "block" : "none";
+    elError.style.display   = (state === "error") ? "block" : "none";
+    elContent.style.display = (state === "content") ? "block" : "none";
+  }
   
   console.log('[ARTIKEL] Fetching articles from API...');
-  
-  fetch(API_BASE + '/api/news?limit=500')
+   
+  // 4.3: laad 1 artikel op basis van id
+  setState("loading");
+
+  fetch(`${API_BASE}/api/news/${encodeURIComponent(idFromUrl)}?nocache=1`)
     .then(res => {
       console.log('[ARTIKEL] API response status:', res.status);
       if (!res.ok) throw new Error('API returned ' + res.status);
       return res.json();
     })
     .then(data => {
-      console.log('[ARTIKEL] Total articles received:', data.items?.length || 0);
-      
-      const articles = (data.items || []).filter(a => (a?.status || "").toLowerCase() === "ready");
-      
-      if (articles.length === 0) {
-        console.error('[ARTIKEL] No articles in API response');
-        showError();
-        return;
-      }
-      
-      // Log first article to see structure
-      console.log('[ARTIKEL] First article structure:', {
-        fileName: articles[0].fileName,
-        file: articles[0].file,
-        _id: articles[0]._id,
-        title: articles[0].title
-      });
-      
-    // Try multiple matching strategies (ID first)
-    const article = articles.find(a => {
-      // 1️⃣ VOORRANG: match op id (stabiel en uniek)
-      if (id && a.id === id) {
-        console.log('[ARTIKEL] ✅ Match via id:', a.id);
-        return true;
-      }
+      const article = data?.item;
+      if (!article) throw new Error('Invalid payload: missing item');
 
-      // 2️⃣ Legacy: exact fileName
-      if (fileName && a.fileName === fileName) {
-        console.log('[ARTIKEL] ✅ Match via fileName:', a.fileName);
-        return true;
-      }
-
-      // 3️⃣ Legacy: exact file
-      if (fileName && a.file === fileName) {
-        console.log('[ARTIKEL] ✅ Match via file:', a.file);
-        return true;
-      }
-
-      // 4️⃣ Fallbacks (laatste redmiddel)
-      if (fileName && a.fileName && a.fileName.includes(fileName)) {
-        console.log('[ARTIKEL] ✅ Match via fileName.includes:', a.fileName);
-        return true;
-      }
-
-      if (fileName && a.file && a.file.includes(fileName)) {
-        console.log('[ARTIKEL] ✅ Match via file.includes:', a.file);
-        return true;
-      }
-
-      if (fileName && a._id === fileName) {
-        console.log('[ARTIKEL] ✅ Match via _id:', a._id);
-        return true;
-      }
-
-      return false;
-    });
-      
-      if (!article) {
-        console.error('[ARTIKEL] Article not found. Searched for:', fileName);
-        console.log('[ARTIKEL] Available fileNames (first 10):', 
-          articles.slice(0, 10).map(a => a.fileName || a.file || a._id)
-        );
-        showError();
-        return;
-      }
-      
-      console.log('[ARTIKEL] ✅ Article found:', article.title);
+      console.log('[ARTIKEL] ✅ Article found via /api/news/:id:', article.title);
       displayArticle(article);
+      setState("content");
     })
-    .catch(err => { 
-      console.error('[ARTIKEL] ❌ Failed to load article:', err); 
-      showError(); 
+    .catch(err => {
+      console.error('[ARTIKEL] ❌ Failed to load article:', err);
+      setState("error");
     });
-  
-  function showError() {
-    document.getElementById('loading-state').style.display = 'none';
-    document.getElementById('error-state').style.display = 'block';
-  }
   
   function displayArticle(article) {
     console.log('[ARTIKEL] Displaying article:', article.title);
-    
-    document.getElementById('loading-state').style.display = 'none';
-    document.getElementById('article-content').style.display = 'block';
     
     const title = article.title || 'Voetbal4All Artikel';
     document.getElementById('page-title').textContent = title + ' - Voetbal4All';
