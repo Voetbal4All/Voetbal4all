@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-04T12:48:10.439Z",
+  "generatedAt": "2026-01-04T13:31:57.013Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Drie rode kaarten bij zege Napoli, Neres valt geblesseerd uit",
+      "link": "https://www.vi.nl/nieuws/napoli-wint-eenvoudig-maar-maakt-zich-zorgen-om-neres",
+      "summary": "Napoli heeft zondagmiddag geen fout gemaakt. De regerend landskampioen won de eerste wedstrijd van 2026 tegen Lazio, maar zag wel David Neres met een blessure uitvallen.",
+      "publishedAt": "2026-01-04T13:25:50.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,18 +21,7 @@
       "title": "Leeds United v Manchester United: Premier League – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/04/leeds-united-v-manchester-united-premier-league-live",
       "summary": "Updates from 12.30pm kick-off at Elland Road Get in touch: email Taha with your comments 4 min: It’s a scrappy opening as Leeds press with proper intent, Calvert-Lewin leading it. 2 min: Leeds power down the left, win an early throw that goes long, but Manchester United stay resolute. Dorgu appears to be his side’s right-sided No 10. Continue reading...",
-      "publishedAt": "2026-01-04T12:43:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Nuno Espírito Santo is losing support of West Ham squad as morale deteriorates",
-      "link": "https://www.theguardian.com/football/2026/jan/04/nuno-espirito-santo-losing-support-west-ham-squad",
-      "summary": "Player concern over man-management and tactics Manager’s methods are under increased scrutiny Nuno Espírito Santo is in danger of losing the support of West Ham’s squad because of concerns over his man-management and tactics. The east London club are at increasing risk of relegation from the Premier League after their 3-0 defeat by Wolves on Saturday and it is understood that the mood at the London Stadium is rapidly deteriorating. Nuno has struggled badly since replacing Graham Potter in September, winning only two of his 15 games in charge, and is under growing pressure before Tuesday’s crunch game against his former side, Nottingham Forest. The indications are that West Ham, who are in 18th place and lie four points below Forest, will stick with their manager but his methods are coming under increased scrutiny. Continue reading...",
-      "publishedAt": "2026-01-04T12:42:05.000Z"
+      "publishedAt": "2026-01-04T13:15:01.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +29,43 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Robin van Persie heeft meer te winnen dan alleen wedstrijden",
-      "link": "https://www.vi.nl/pro/robin-van-persie-heeft-meer-te-winnen-dan-alleen-wedstrijden",
-      "summary": "Nu Feyenoord voor de winter is uitgespeeld voor alle prijzen, is de enige doelstelling zich via plek twee in de Eredivisie te plaatsen voor de Champions League. Robin van Persie zal zich nu moeten bewijzen als de trainer die dat alsnog voor elkaar krijgt.",
-      "publishedAt": "2026-01-04T12:41:47.000Z"
+      "title": "Wolves eindelijk van de nul af: 'Dit is een dag voor de fans'",
+      "link": "https://www.vi.nl/nieuws/wolves-eindelijk-van-de-nul-af-dit-is-een-dag-voor-de-fans",
+      "summary": "Wolverhampton Wanderers staat sinds zaterdag eindelijk op één overwinning in de Premier League. Na weken van druk, twijfel en hoongelach kon manager Rob Edwards na afloop van het duel met West Ham United even ademhalen.",
+      "publishedAt": "2026-01-04T13:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: rode kaart voor Tijjani Noslin tegen Napoli",
+      "link": "https://www.vi.nl/nieuws/vi-live-rode-kaart-voor-tijjani-noslin-tegen-napoli",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
+      "publishedAt": "2026-01-04T13:12:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Barça-goalie Joan García floreert onder de hoogste druk",
+      "link": "https://www.vi.nl/pro/bar-a-goalie-joan-garc-a-floreert-onder-de-hoogste-druk",
+      "summary": "Dat Barcelona in zijn eerste duel van 2026 geen schade opliep, had de koploper van Spanje te danken aan Joan García. De 24-jarige keeper excelleerde in de derby tegen Espanyol, in het stadion waar hij als geen ander verguisd werd.",
+      "publishedAt": "2026-01-04T13:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rice on Gyökeres: Wouldn't be top without him",
+      "link": "https://www.espn.com/soccer/story/_/id/47499989/arsenal-declan-rice-viktor-gyokeres-premier-league",
+      "summary": "Declan Rice has defended goal-shy Viktor Gyökeres, claiming Arsenal will not be able to end their 22-year wait for a Premier League title without him.",
+      "publishedAt": "2026-01-04T12:44:25.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +76,7 @@
       "title": "Galaxy star Riqui Puig out until '27 after setback",
       "link": "https://www.espn.com/soccer/story/_/id/47493503/la-galaxy-riqui-puig-injury-knee-acl-2027-mls",
       "summary": "LA Galaxy star Riqui Puig's return from injury has been delayed until 2027, the LA Galaxy said Saturday after confirming that the midfielder underwent another anterior cruciate ligament reconstructive surgery on his left knee.",
-      "publishedAt": "2026-01-04T12:38:06.000Z"
+      "publishedAt": "2026-01-04T12:44:00.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +87,7 @@
       "title": "'Unbelievable' García leads Barça to derby triumph",
       "link": "https://www.espn.com/soccer/story/_/id/47494582/barcelona-joan-garcia-espanyol-laliga-saves",
       "summary": "Barcelona coach thanked Joan García for an unbelievable performance as the goalkeeper dealt with a hostile reception on his return to Espanyol to help the LaLiga leaders seal a 2-0 win at the RCDE Stadium on Saturday.",
-      "publishedAt": "2026-01-04T12:38:06.000Z"
+      "publishedAt": "2026-01-04T12:44:00.000Z"
     },
     {
       "type": "rss",
@@ -65,18 +98,18 @@
       "title": "Amorim refuses to clarify 'time and money' claim",
       "link": "https://www.espn.com/soccer/story/_/id/47492587/man-united-ruben-amorim-refuses-clarify-money-claim",
       "summary": "Ruben Amorim has declined to expand on his claim that it will take \"time and money\" to make his system work at Manchester United.",
-      "publishedAt": "2026-01-04T12:38:06.000Z"
+      "publishedAt": "2026-01-04T12:44:00.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arteta: Match-winner Rice among world's best",
-      "link": "https://www.espn.com/soccer/story/_/id/47492686/arsenal-declan-rice-one-best-world-mikel-arteta",
-      "summary": "Mikel Arteta has hailed Declan Rice as one of the best midfielders in the world after playing a starring role in Arsenal's 3-2 win at Bournemouth.",
-      "publishedAt": "2026-01-04T12:38:06.000Z"
+      "title": "Nuno Espírito Santo is losing support of West Ham squad as morale deteriorates",
+      "link": "https://www.theguardian.com/football/2026/jan/04/nuno-espirito-santo-losing-support-west-ham-squad",
+      "summary": "Player concern over man-management and tactics Hammers host Forest in crucial game on Tuesday Nuno Espírito Santo is in danger of losing the support of West Ham’s squad because of concerns over his man-management and tactics. The east London club are at increasing risk of relegation from the Premier League after their 3-0 defeat by Wolves on Saturday and it is understood that the mood at the London Stadium is rapidly deteriorating. Nuno has struggled badly since replacing Graham Potter in September, winning only two of his 15 games in charge, and is under growing pressure before Tuesday’s crunch game against his former side, Nottingham Forest. The indications are that West Ham, who are in 18th place and lie four points below Forest, will stick with their manager but his methods are coming under increased scrutiny. Continue reading...",
+      "publishedAt": "2026-01-04T12:42:05.000Z"
     },
     {
       "type": "rss",
@@ -113,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Napoli leidt comfortabel in Rome",
-      "link": "https://www.vi.nl/nieuws/vi-live-napoli-leidt-comfortabel-in-rome",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
-      "publishedAt": "2026-01-04T12:10:42.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -135,33 +157,11 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Liverpool haakt af voor Botman'",
-      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-04T11:59:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Courtois verwacht dat WK 2026 zijn laatste zal zijn",
-      "link": "https://www.vi.nl/nieuws/courtois-verwacht-dat-wk-2026-zijn-laatste-zal-zijn",
-      "summary": "Thibaut Courtois (33) geeft voorzichtig een inkijkje in zijn toekomst bij de Rode Duivels. In een interview met Sporza liet de doelman doorschemeren dat het WK van komende zomer in de Verenigde Staten, Canada en Mexico mogelijk zijn laatste toernooi wordt voor België.",
-      "publishedAt": "2026-01-04T11:39:18.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Birmingham retake lead against Coventry; QPR ahead | EFL on Sky LIVE!",
+      "title": "Birmingham back in front in THRILLER against Coventry | EFL on Sky LIVE!",
       "link": "https://www.skysports.com/football/live-blog/12040/13489640/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "summary": "",
       "publishedAt": "2026-01-04T11:30:00.000Z"
@@ -172,7 +172,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Leeds vs Man Utd LIVE!",
+      "title": "Yoro goes close for Man Utd against Leeds LIVE!",
       "link": "https://www.skysports.com/football/leeds-united-vs-manchester-united/live/531324",
       "summary": "",
       "publishedAt": "2026-01-04T10:55:00.000Z"
