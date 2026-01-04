@@ -1,27 +1,60 @@
 {
-  "generatedAt": "2026-01-03T22:22:57.349Z",
+  "generatedAt": "2026-01-04T02:09:48.230Z",
   "items": [
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Mali 1-1 Tunisia (Mali 3-2 on pens): Africa Cup of Nations last 16 – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/03/mali-v-tunisia-africa-cup-of-nations-last-16-live",
-      "summary": "The 10 men of Mali stunned Tunisia in the Casablanca rain with a dramatic victory via penalty kicks 3 mins: I’d suggest, even though it’s very early in this game, that Mali are going to have to do plenty of defending this evening. Sami Trabelsi waves and points on the sidelines – the Tunisian boss must be happy with this start, as Mali’s Mahamadou Doumbia is booked already. Continue reading...",
-      "publishedAt": "2026-01-03T22:15:19.000Z"
+      "title": "Littler opens up on 'special feeling' of going back to back at Worlds",
+      "link": "https://www.skysports.com/darts/news/12040/13489996/luke-littler-on-special-feeling-of-going-back-to-back-at-world-darts-championship-my-name-is-on-that-short-list",
+      "summary": "Luke Littler has hailed the \"special feeling\" of joining an illustrious and short list of players who have gone back to back at the World Darts Championship.",
+      "publishedAt": "2026-01-03T23:59:00.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Arsenal en Barcelona voeren de druk er volop bij Man City en Real Madrid",
-      "link": "https://www.vi.nl/nieuws/arsenal-en-barcelona-voeren-de-druk-er-volop-bij-man-city-en-real-madrid",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Celtic - Rangers FC, AFC Bournemouth - Arsenal en Espanyol - Barcelona.",
-      "publishedAt": "2026-01-03T22:12:43.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Players have to rise and get stuck into Littler because he won't regress'",
+      "link": "https://www.skysports.com/darts/news/12040/13490141/world-darts-championship-wayne-mardle-says-its-up-to-players-to-rise-and-get-stuck-into-luke-littler",
+      "summary": "Wayne Mardle says it is up to players to rise to the challenge and get \"stuck into Luke Littler\" after 'The Nuke' cemented his position as one of the greats of the sport.",
+      "publishedAt": "2026-01-03T23:42:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Match of the Day",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m002pkq7?at_medium=RSS&at_campaign=rss",
+      "summary": "Highlights of four games on the first Saturday of 2026, including Bournemouth v Arsenal.",
+      "publishedAt": "2026-01-03T23:32:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ball-by-ball Ashes updates: England face Australia in final Test at SCG",
+      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/e193bc29-ab16-5fcc-a232-49969e7b26c5",
+      "summary": "",
+      "publishedAt": "2026-01-03T23:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Scorecard: Australia vs England, fifth Ashes Test, Sydney",
+      "link": "https://www.skysports.com/cricket/australia-v-england/scorecard/e193bc29-ab16-5fcc-a232-49969e7b26c5",
+      "summary": "",
+      "publishedAt": "2026-01-03T23:25:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +65,29 @@
       "title": "Galaxy star Riqui Puig out until '27 after setback",
       "link": "https://www.espn.com/soccer/story/_/id/47493503/la-galaxy-riqui-puig-injury-knee-acl-2027-mls",
       "summary": "LA Galaxy star Riqui Puig's return from injury has been delayed until 2027, the LA Galaxy said Saturday after confirming that the midfielder underwent another anterior cruciate ligament reconstructive surgery on his left knee.",
-      "publishedAt": "2026-01-03T22:12:00.000Z"
+      "publishedAt": "2026-01-03T23:21:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Unbelievable' García leads Barça to derby triumph",
+      "link": "https://www.espn.com/soccer/story/_/id/47494582/barcelona-joan-garcia-espanyol-laliga-saves",
+      "summary": "Barcelona coach thanked Joan García for an unbelievable performance as the goalkeeper dealt with a hostile reception on his return to Espanyol to help the LaLiga leaders seal a 2-0 win at the RCDE Stadium on Saturday.",
+      "publishedAt": "2026-01-03T23:21:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim refuses to clarify 'time and money' claim",
+      "link": "https://www.espn.com/soccer/story/_/id/47492587/man-united-ruben-amorim-refuses-clarify-money-claim",
+      "summary": "Ruben Amorim has declined to expand on his claim that it will take \"time and money\" to make his system work at Manchester United.",
+      "publishedAt": "2026-01-03T23:21:35.000Z"
     },
     {
       "type": "rss",
@@ -43,40 +98,7 @@
       "title": "Arteta: Match-winner Rice among world's best",
       "link": "https://www.espn.com/soccer/story/_/id/47492686/arsenal-declan-rice-one-best-world-mikel-arteta",
       "summary": "Mikel Arteta has hailed Declan Rice as one of the best midfielders in the world after playing a starring role in Arsenal's 3-2 win at Bournemouth.",
-      "publishedAt": "2026-01-03T22:11:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Rosenior frontrunner to replace Maresca",
-      "link": "https://www.espn.com/soccer/story/_/id/47479925/liam-rosenior-frontrunner-replace-enzo-maresca-chelsea-sources",
-      "summary": "Strasbourg boss Liam Rosenior is the leading candidate to succeed Enzo Maresca as Chelsea head coach, sources have told ESPN.",
-      "publishedAt": "2026-01-03T22:11:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "McKennie scores, David misses pen in Juve draw",
-      "link": "https://www.espn.com/soccer/report/_/gameId/736961",
-      "summary": "Weston McKennie scored but Jonathan David had a penalty saved as Juventus were held to a surprise 1-1 draw by relegation-threatened Lecce on Saturday.",
-      "publishedAt": "2026-01-03T22:11:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Nuno: West Ham loss the worst of my career",
-      "link": "https://www.espn.com/soccer/story/_/id/47491881/west-ham-loss-wolves-worst-my-career-nuno-espirito-santo",
-      "summary": "West Ham manager Nuno Espirito Santo admitted he was embarrassed after his team crashed to a dismal 3-0 defeat at Premier League bottom side Wolves.",
-      "publishedAt": "2026-01-03T22:11:59.000Z"
+      "publishedAt": "2026-01-03T23:21:35.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +106,65 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Littler dominates Van Veen to retain his World Darts Championship title!",
-      "link": "https://www.skysports.com/watch/video/13490134/wdc-final-edit-mxf",
-      "summary": "Highlights of the World Championship final between Luke Littler and Gian van Veen.",
-      "publishedAt": "2026-01-03T22:08:00.000Z"
+      "title": "Papers: Chelsea players expect Rosenior, Bilic in West Ham wings",
+      "link": "https://www.skysports.com/football/news/12040/13490146/chelsea-players-expect-liam-rosenior-arrival-as-slaven-bilic-waits-in-west-ham-wings-paper-talk",
+      "summary": "The top stories and transfer rumours from Sunday's newspapers.....",
+      "publishedAt": "2026-01-03T23:13:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2026-01-03T22:58:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "West Ham-trainer flink door het stof na vernederende nederlaag",
+      "link": "https://www.vi.nl/nieuws/west-ham-trainer-flink-door-het-stof-na-vernederende-nederlaag",
+      "summary": "Wolverhampton Wanderers had dit seizoen nog geen wedstrijd gewonnen, totdat West Ham United op bezoek kwam. The Hammers gingen pijnlijk onderuit tegen de hekkensluiter van de Premier League, waardoor trainer Nuno Espírito Santo flink door het stof ging na afloop.",
+      "publishedAt": "2026-01-03T22:38:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal reaping the rewards of Rice adding goals to his game",
+      "link": "https://www.espn.com/soccer/story/_/id/47492726/arsenal-reaping-rewards-declan-rice-adding-goals-game",
+      "summary": "Declan Rice scored twice in Arsenal's win at Bournemouth on Saturday, and with goals added to his game, is he now the best midfielder in the world?",
+      "publishedAt": "2026-01-03T22:32:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ruben Amorim clamming up over transfer hopes suggests faultline",
+      "link": "https://www.theguardian.com/football/2026/jan/03/ruben-amorim-manchester-united-premier-league-transfer-window",
+      "summary": "Manchester United’s head coach appeared downbeat when questioned over not being able to acquire enough top players to suit his preferred formation Ruben Amorim offered a collector’s item on Friday – a point-blank refusal to address a question that concerned an answer he previously gave. In doing so, he hinted at a disquiet concerning the club’s transfer policy. “You said you’re starting to understand that to play 3-4-3, you [need] a lot of top players and that’s not possible. Can I ask why you never realised that when you first came into the club?” was the question put to Amorim in his press conference for United’s visit to Leeds on Sunday. Continue reading...",
+      "publishedAt": "2026-01-03T22:30:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Arsenal en Barcelona voeren de druk er flink op bij Man City en Real Madrid",
+      "link": "https://www.vi.nl/nieuws/arsenal-en-barcelona-voeren-de-druk-er-volop-bij-man-city-en-real-madrid",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Celtic - Rangers FC, AFC Bournemouth - Arsenal en Espanyol - Barcelona.",
+      "publishedAt": "2026-01-03T22:12:43.000Z"
     },
     {
       "type": "rss",
@@ -113,58 +190,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Gasperini beleeft teleurstellende terugkeer in Bergamo",
-      "link": "https://www.vi.nl/nieuws/gasperini-beleeft-teleurstellende-terugkeer-in-bergamo",
-      "summary": "INTRO",
-      "publishedAt": "2026-01-03T21:47:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Littler thrashes Van Veen to retain World Darts Championship title",
-      "link": "https://www.skysports.com/darts/news/12040/13489993/world-darts-championship-2026-luke-littler-thrashes-gian-van-veen-in-final-to-retain-title-at-alexandra-palace",
-      "summary": "Luke Littler successfully defended his World Darts Championship title with a 7-1 thrashing of Gian van Veen in the final at Alexandra Palace.",
-      "publishedAt": "2026-01-03T21:37:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "PL hits and misses: Arsenal have another gear, West Ham are awful",
-      "link": "https://www.skysports.com/football/news/12040/13489992/arsenal-have-shown-they-have-another-gear-this-season-as-west-ham-unravel-against-wolves-premier-league-hits-and-misses",
-      "summary": "",
-      "publishedAt": "2026-01-03T21:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers Feyenoord: overstap van Carranza naar Mexico is afgerond",
-      "link": "https://www.vi.nl/nieuws/transfers-feyenoord-brentford-kijkt-opnieuw-in-rotterdam-rond",
-      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Feyenoord op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Rotterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2026-01-03T20:56:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Reel it in, pal!' | Littler wins third set with The Big Fish!",
-      "link": "https://www.skysports.com/watch/video/13490115/world-darts-championship-littler-wins-third-set-with-the-big-fish",
-      "summary": "Luke Littler won the third set of the World Championship final with this 170 finish.",
-      "publishedAt": "2026-01-03T20:54:00.000Z"
+      "title": "Mikel Arteta lauds Arsenal’s ‘personality and presence’ in win at Bournemouth",
+      "link": "https://www.theguardian.com/football/2026/jan/03/mikel-arteta-lauds-arsenals-personality-and-presence-in-win-at-bournemouth",
+      "summary": "Manager praises ‘remarkable’ Gabriel reaction after error Rice makes impact after disappointment of missing Villa Mikel Arteta paid tribute to Arsenal’s newfound “personality and presence” after they came back from a goal down to defeat Bournemouth and move six points clear at the top of the Premier League. Gabriel Magalhães made up for his error in gifting Evanilson the opening goal by lashing in the equaliser at the other end minutes later before Declan Rice scored twice after returning from a knee injury. Eli Junior Kroupi pulled one back late on but Arsenal were able to comfortably hang on as they began the new year with a fifth straight league win. Continue reading...",
+      "publishedAt": "2026-01-03T20:53:13.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/c2lg1n9j7qwo?at_medium=RSS&at_campaign=rss",
       "summary": "John McGinn gets two goals and Ollie Watkins scores on his 250th appearance for Aston Villa, inflicting a fourth straight league defeat upon Nottingham Forest.",
       "publishedAt": "2026-01-03T20:00:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Brighton end winless spell with victory over Burnley",
-      "link": "https://www.bbc.com/sport/football/videos/cp80ne7l0e9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Brighton end their six-game winless run with a comfortable victory over struggling Burnley in the Premier League.",
-      "publishedAt": "2026-01-03T20:00:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wolves beat West Ham to earn first league win of the season",
-      "link": "https://www.bbc.com/sport/football/videos/ckgj2nvzlklo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wolves secure a first Premier League win of the season at the 20th attempt as they make light work of fellow strugglers West Ham at Molineux.",
-      "publishedAt": "2026-01-03T20:00:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rice strikes twice as Arsenal beat Bournemouth",
-      "link": "https://www.bbc.com/sport/football/videos/clye34d8lzxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Declan Rice scores twice, as Premier League leaders Arsenal come from behind to beat Bournemouth following early error.",
-      "publishedAt": "2026-01-03T20:00:09.000Z"
     }
   ]
 }
