@@ -124,6 +124,21 @@
       color: #ff6b6b;
       margin-bottom: 12px;
     }
+
+    .inline-ad-wrapper {
+      margin: 32px 0;
+      padding: 16px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 6px;
+    }
+
+    .inline-ad-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 8px;
+      text-align: center;
+    }
   </style>
 </head>
 
@@ -517,11 +532,40 @@
     }
     
     const bodyEl = document.getElementById('article-body');
+    bodyEl.innerHTML = "";
+
     if (article.body) {
-      const paragraphs = article.body.split('\n').filter(p => p.trim()).map(p => '<p>' + p.trim() + '</p>').join('');
-      bodyEl.innerHTML = paragraphs;
-    } else {
-      bodyEl.innerHTML = ""; // Empty - no fallback message;
+      const paragraphs = article.body
+        .split('\n')
+        .map(p => p.trim())
+        .filter(p => p.length > 0);
+
+      paragraphs.forEach((text, index) => {
+        const p = document.createElement('p');
+        p.textContent = text;
+        bodyEl.appendChild(p);
+
+        // 👉 NA ELKE 10 PARAGRAFEN: ADSENSE
+        if ((index + 1) % 10 === 0) {
+          const adWrapper = document.createElement('div');
+          adWrapper.className = 'inline-ad-wrapper';
+
+          adWrapper.innerHTML = `
+            <div class="inline-ad-label">Lees verder onder de advertentie</div>
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4062633211824348"
+              data-ad-slot="6032627042"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          `;
+
+          bodyEl.appendChild(adWrapper);
+
+          // AdSense initialiseren
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      });
     }
     
     const tagsEl = document.getElementById('article-tags');
