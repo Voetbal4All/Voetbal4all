@@ -13,26 +13,43 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Share icons – match premium-success (round green bubbles) */
-    .share-green{display:flex;gap:10px;flex-wrap:wrap;align-items:center;min-width:0}
-    .share-green .share-a{
-      width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
-      border-radius:999px;background:rgba(22,163,74,.18);border:1px solid rgba(22,163,74,.55);
-      box-shadow:0 8px 22px rgba(0,0,0,.25);color:#16a34a;text-decoration:none;cursor:pointer;
-      transition:transform .12s ease,filter .12s ease,background .12s ease;flex:0 0 auto;
+    /* Share icons – match live-score banner look */
+    .share-live{display:flex;gap:10px;flex-wrap:wrap;align-items:center;min-width:0}
+    .share-live .share-a{
+      width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;
+      border-radius:999px;
+      background:rgba(22,163,74,.92);
+      border:1px solid rgba(255,255,255,.12);
+      box-shadow:0 10px 26px rgba(0,0,0,.35);
+      color:rgba(255,255,255,.95);
+      text-decoration:none;cursor:pointer;flex:0 0 auto;
+      transition:transform .12s ease,filter .12s ease;
     }
-    .share-green .share-a:hover{filter:brightness(1.05);transform:translateY(-1px);background:rgba(22,163,74,.24)}
-    .share-green .share-a:active{transform:translateY(0)}
-    .share-green .share-a svg{width:18px;height:18px;display:block}
-    .share-green .share-a svg path,
-    .share-green .share-a svg circle,
-    .share-green .share-a svg rect,
-    .share-green .share-a svg line,
-    .share-green .share-a svg polyline,
-    .share-green .share-a svg polygon{stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-    .share-green .share-a svg .fill{fill:currentColor;stroke:none}
-    .share-green .share-a.is-small{width:34px;height:34px}
-    .share-green .share-a.is-small svg{width:16px;height:16px}
+    .share-live .share-a:hover{filter:brightness(1.05);transform:translateY(-1px)}
+    .share-live .share-a:active{transform:translateY(0)}
+    .share-live .share-a svg{width:18px;height:18px;display:block}
+    .share-live .share-a svg path,
+    .share-live .share-a svg circle,
+    .share-live .share-a svg rect,
+    .share-live .share-a svg line,
+    .share-live .share-a svg polyline,
+    .share-live .share-a svg polygon{stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .share-live .share-a svg .fill{fill:currentColor;stroke:none}
+    .share-live .share-a.is-small{width:32px;height:32px}
+    .share-live .share-a.is-small svg{width:16px;height:16px}
+
+    /* Pagination */
+    .events-pagination{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px}
+    .events-pagination .page-btn{
+      appearance:none;border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.04);color:rgba(255,255,255,.92);
+      border-radius:999px;padding:8px 12px;font-family:inherit;font-weight:600;
+      cursor:pointer;transition:transform .12s ease,filter .12s ease,background .12s ease;
+    }
+    .events-pagination .page-btn:hover{filter:brightness(1.05);transform:translateY(-1px)}
+    .events-pagination .page-btn:active{transform:translateY(0)}
+    .events-pagination .page-btn.is-active{background:rgba(22,163,74,.22);border-color:rgba(22,163,74,.55)}
+    .events-pagination .page-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
 
     /* Flyer thumbnail – fixed size, never stretches the card */
     .event-row{display:flex;gap:12px;align-items:flex-start;min-width:0}
@@ -273,20 +290,6 @@
                 </div>
               </div>
 
-              <!-- IN-CONTENT AD -->
-              <section class="section-main" style="padding-top:0;padding-bottom:10px;">
-                <div class="ad-infeed">
-                  <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-4062633211824348"
-                    data-ad-slot="4831226012"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
-                  <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                </div>
-              </section>
 
               <!-- OVERZICHT -->
               <section class="section-main" style="padding-top:0;">
@@ -317,11 +320,28 @@
                     </div>
                   </div>
 
+                  <!-- IN-CONTENT AD -->
+                  <section class="section-main" style="padding-top:0;padding-bottom:10px;">
+                    <div class="ad-infeed">
+                      <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-4062633211824348"
+                        data-ad-slot="4831226012"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                      <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                      </script>
+                    </div>
+                  </section>
+
                   <!-- Overige events (2 kolommen) -->
 
                   <div id="event-list" class="events-grid-2">
                     <!-- gevuld via backend -->
                   </div>
+
+                  <div id="events-pagination" class="events-pagination" aria-label="Paginatie events"></div>
 
                   <p id="event-status" class="note" style="margin-top:10px; display:none;"></p>
                 </div>
@@ -488,7 +508,7 @@
       const cls = small ? 'is-small' : '';
       const safeTitle = String(title || '').replaceAll('"','&quot;');
       return `
-        <div class="share-green" aria-label="Deel dit event">
+        <div class="share-live" aria-label="Deel dit event">
           <a class="share-a ${cls}" href="#" data-share-channel="fb" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">${ICON_FB}</a>
           <a class="share-a ${cls}" href="#" data-share-channel="ig" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Deel op Instagram">${ICON_IG}</a>
           <a class="share-a ${cls}" href="#" data-share-channel="tt" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Deel op TikTok">${ICON_TT}</a>
@@ -506,6 +526,12 @@
       return String(s || '').replaceAll('"','&quot;');
     }
 
+    // Pagination and global event lists
+    const PAGE_SIZE = 20;
+    let ALL_EVENTS_SORTED = [];
+    let PINNED_PREMIUM_30 = [];
+    let CURRENT_PAGE = 1;
+
     async function loadEvents(){
       try {
         const res = await fetch(`${API_BASE}/api/events?limit=200&nocache=1`);
@@ -517,6 +543,8 @@
 
         // Sort by start date (soonest first)
         const itemsSorted = [...data.items].sort((a,b) => new Date(a.start_at).getTime() - new Date(b.start_at).getTime());
+
+        ALL_EVENTS_SORTED = itemsSorted;
 
         // Premium buckets
         const now = new Date();
@@ -531,11 +559,30 @@
           return !isNaN(d.getTime()) && d > in30;
         });
 
-        // Main list: all non-premium events, sorted by date
-        const mainEvents = itemsSorted.filter(ev => !ev.is_premium);
+        // Pinned premium (<=30 days) always shown at top
+        PINNED_PREMIUM_30 = premium30;
 
-        // Render main cards (2 columns)
-        listEl.innerHTML = mainEvents.map(ev => {
+        // Other list below (everything except the pinned premium <=30d)
+        const otherEvents = itemsSorted.filter(ev => {
+          if (!ev.is_premium) return true;
+          const d = new Date(ev.start_at);
+          return !(!!ev.is_premium && !isNaN(d.getTime()) && d >= now && d <= in30);
+        });
+
+        function adSlimHtml(){
+          return `
+            <div class="ad-infeed" style="grid-column:1 / -1;">
+              <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-4062633211824348"
+                data-ad-slot="4831226012"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            </div>
+          `;
+        }
+
+        function cardHtml(ev){
           const slug = ev.slug || ev.id;
           const country = String(ev.country || "").toUpperCase();
           const uiType = typeToUiLabel(ev.event_type);
@@ -546,7 +593,6 @@
             countryToLabel(country),
             ev.city ? ev.city : null,
           ].filter(Boolean);
-
           const leftMeta = leftMetaParts.join(" · ");
 
           const bodyParts = [];
@@ -555,8 +601,6 @@
           const bodyTop = bodyParts.length ? (bodyParts.join(" · ") + "<br/>") : "";
 
           const desc = ev.description ? String(ev.description) : "";
-
-          // Flyer/thumbnail support (future-proof)
           const thumb = getThumb(ev);
           const safeThumb = safeAttr(thumb);
 
@@ -598,16 +642,79 @@
 
             </article>
           `;
-        }).join("");
+        }
 
-        // Premium rotators
-        startPremium30Grid(premium30);
+        function renderPagination(totalPages){
+          const pagEl = document.getElementById('events-pagination');
+          if (!pagEl) return;
+          if (totalPages <= 1){ pagEl.innerHTML = ''; return; }
+
+          const btn = (label, page, disabled=false, active=false) =>
+            `<button type="button" class="page-btn ${active ? 'is-active' : ''}" data-page="${page}" ${disabled ? 'disabled' : ''}>${label}</button>`;
+
+          const pages = [];
+          // compact paging: show first, last, current ±2
+          const set = new Set([1, totalPages, CURRENT_PAGE-2, CURRENT_PAGE-1, CURRENT_PAGE, CURRENT_PAGE+1, CURRENT_PAGE+2]);
+          const nums = Array.from(set).filter(n => n>=1 && n<=totalPages).sort((a,b)=>a-b);
+
+          let html = '';
+          html += btn('Vorige', Math.max(1, CURRENT_PAGE-1), CURRENT_PAGE===1);
+          let last = 0;
+          for (const n of nums){
+            if (last && n > last + 1) html += `<span style="opacity:.55;padding:0 4px;">…</span>`;
+            html += btn(String(n), n, false, n===CURRENT_PAGE);
+            last = n;
+          }
+          html += btn('Volgende', Math.min(totalPages, CURRENT_PAGE+1), CURRENT_PAGE===totalPages);
+
+          pagEl.innerHTML = html;
+        }
+
+        function renderPage(page){
+          // Always render pinned premium grid (top)
+          startPremium30Grid(PINNED_PREMIUM_30);
+
+          const total = otherEvents.length;
+          const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+          CURRENT_PAGE = Math.min(Math.max(1, page), totalPages);
+
+          const start = (CURRENT_PAGE - 1) * PAGE_SIZE;
+          const slice = otherEvents.slice(start, start + PAGE_SIZE);
+
+          // Build 2-col grid items, with a slim AdSense after 10 rows
+          const parts = [];
+          slice.forEach((ev, idx) => {
+            parts.push(cardHtml(ev));
+            if (idx === 9) parts.push(adSlimHtml());
+          });
+
+          listEl.innerHTML = parts.join('');
+
+          // Trigger AdSense for any inserted ins
+          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(_) {}
+
+          // Apply existing behaviors after render
+          hidePastEvents();
+          filterCards();
+          updateShareLinks();
+          renderPagination(totalPages);
+        }
+
+        // initial page render
+        renderPage(1);
+
+        // pagination click
+        document.getElementById('events-pagination')?.addEventListener('click', (e) => {
+          const b = e.target.closest('button[data-page]');
+          if (!b) return;
+          const p = Number(b.getAttribute('data-page') || '1');
+          if (!Number.isFinite(p)) return;
+          renderPage(p);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Sidebar premium later rotator stays
         startSidebarPremiumLater(premiumLater);
-
-        // Apply existing behaviors after render
-        hidePastEvents();
-        filterCards();
-        updateShareLinks();
 
       } catch (e) {
         console.error("[EVENTS] load failed", e);
@@ -785,6 +892,7 @@
 
     function updateShareLinks(){
       document.querySelectorAll('[data-share-channel][data-share-slug]').forEach(a => {
+        a.onclick = null;
         const slug = a.getAttribute('data-share-slug') || '';
         const title = (a.getAttribute('data-share-title') || 'Event') + ' – Voetbal4All';
         const shareUrl = 'https://www.voetbal4all.eu/event.html?slug=' + encodeURIComponent(slug);
