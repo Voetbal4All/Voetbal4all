@@ -11,6 +11,16 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Ensure pagination button labels are visible on dark background */
+    #pagination .btn-ghost-sm {
+      color: #fff;
+    }
+    #pagination .btn-ghost-sm:disabled {
+      color: rgba(255,255,255,0.6);
+      opacity: 1; /* keep text readable even when disabled */
+    }
+  </style>
 </head>
 
 <body class="v4-hide-live-mobile">
