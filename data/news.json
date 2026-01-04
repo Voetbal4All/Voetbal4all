@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-04T13:31:57.013Z",
+  "generatedAt": "2026-01-04T14:21:48.178Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fulham v Liverpool, Newcastle v Crystal Palace, Afcon and more: football clockwatch – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/04/fulham-v-liverpool-newcastle-v-crystal-palace-afcon-and-more-football-clockwatch-live",
+      "summary": "Updates from 3pm (GMT) Premier League games Morocco v Tanzania at 4pm (GMT) | Email Tom In the 12.30pm kick-off between Leeds and Manchesster United it’s currently 1-1. There’s probably about 20 minutes left in that one and you can follow that with Taha Hashim here: Everton XI: Pickford, O’Brien, Tarkowski, Keane, Mykolenko, Iroegbunam, Garner, McNeil, Dibling, Grealish, Barry. Subs: Travers, King, Patterson, Aznou, Welch, Campbell, Rohl, Armstrong, Beto Continue reading...",
+      "publishedAt": "2026-01-04T14:14:42.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Leeds United v Manchester United: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/04/leeds-united-v-manchester-united-premier-league-live",
+      "summary": "Updates from 12.30pm kick-off at Elland Road Get in touch: email Taha with your comments 4 min: It’s a scrappy opening as Leeds press with proper intent, Calvert-Lewin leading it. 2 min: Leeds power down the left, win an early throw that goes long, but Manchester United stay resolute. Dorgu appears to be his side’s right-sided No 10. Continue reading...",
+      "publishedAt": "2026-01-04T14:14:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FC Volendam laat Chelsea-huurling na 26 speelminuten vertrekken",
+      "link": "https://www.vi.nl/nieuws/fc-volendam-laat-chelsea-huurling-na-26-minuten-vertrekken",
+      "summary": "FC Volendam heeft vervroegd afscheid genomen van Kiano Dyer. De negentienjarige middenvelder keert per direct terug naar Chelsea.",
+      "publishedAt": "2026-01-04T14:10:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Noodweer in Marbella: ook middagtraining Feyenoord afgelast",
+      "link": "https://www.vi.nl/nieuws/noodweer-in-marbella-training-feyenoord-afgelast",
+      "summary": "De selectie van Feyenoord zou zondagochtend een training afwerken in Marbella, maar vanwege het slechte weer in Zuid-Spanje gaat dat niet door. De selectie is naar binnen gegaan en werkt een training af in de gym.",
+      "publishedAt": "2026-01-04T13:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Cunha zet Manchester United weer naast Leeds",
+      "link": "https://www.vi.nl/nieuws/vi-live-cunha-zet-manchester-united-weer-naast-leeds",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
+      "publishedAt": "2026-01-04T13:51:19.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,14 +69,14 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Leeds United v Manchester United: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/04/leeds-united-v-manchester-united-premier-league-live",
-      "summary": "Updates from 12.30pm kick-off at Elland Road Get in touch: email Taha with your comments 4 min: It’s a scrappy opening as Leeds press with proper intent, Calvert-Lewin leading it. 2 min: Leeds power down the left, win an early throw that goes long, but Manchester United stay resolute. Dorgu appears to be his side’s right-sided No 10. Continue reading...",
-      "publishedAt": "2026-01-04T13:15:01.000Z"
+      "title": "Premier League live updates: Aaronson scores, Man United level at Leeds",
+      "link": "https://www.espn.com/soccer/story/_/id/47466065/premier-league-live-updates-leeds-united-manchester-united-fulham-liverpool-manchester-city-chelsea",
+      "summary": "null",
+      "publishedAt": "2026-01-04T13:24:13.000Z"
     },
     {
       "type": "rss",
@@ -33,28 +88,6 @@
       "link": "https://www.vi.nl/nieuws/wolves-eindelijk-van-de-nul-af-dit-is-een-dag-voor-de-fans",
       "summary": "Wolverhampton Wanderers staat sinds zaterdag eindelijk op één overwinning in de Premier League. Na weken van druk, twijfel en hoongelach kon manager Rob Edwards na afloop van het duel met West Ham United even ademhalen.",
       "publishedAt": "2026-01-04T13:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: rode kaart voor Tijjani Noslin tegen Napoli",
-      "link": "https://www.vi.nl/nieuws/vi-live-rode-kaart-voor-tijjani-noslin-tegen-napoli",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
-      "publishedAt": "2026-01-04T13:12:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Barça-goalie Joan García floreert onder de hoogste druk",
-      "link": "https://www.vi.nl/pro/bar-a-goalie-joan-garc-a-floreert-onder-de-hoogste-druk",
-      "summary": "Dat Barcelona in zijn eerste duel van 2026 geen schade opliep, had de koploper van Spanje te danken aan Joan García. De 24-jarige keeper excelleerde in de derby tegen Espanyol, in het stadion waar hij als geen ander verguisd werd.",
-      "publishedAt": "2026-01-04T13:00:00.000Z"
     },
     {
       "type": "rss",
@@ -124,28 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League live updates: Man United travel to Leeds",
-      "link": "https://www.espn.com/soccer/story/_/id/47466065/premier-league-live-updates-leeds-united-manchester-united-fulham-liverpool-manchester-city-chelsea",
-      "summary": "null",
-      "publishedAt": "2026-01-04T12:20:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers Ajax: São Paulo haakt af voor Ávila",
-      "link": "https://www.vi.nl/nieuws/transfers-ajax-zestienjarige-verdediger-ondertekent-eerste-profcontract",
-      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Ajax op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Amsterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2026-01-04T12:16:36.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -161,7 +172,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Birmingham back in front in THRILLER against Coventry | EFL on Sky LIVE!",
+      "title": "Birmingham beat Coventry amid wave of postponements in EFL LIVE!",
       "link": "https://www.skysports.com/football/live-blog/12040/13489640/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "summary": "",
       "publishedAt": "2026-01-04T11:30:00.000Z"
@@ -172,7 +183,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Yoro goes close for Man Utd against Leeds LIVE!",
+      "title": "Cunha scores instant leveller for Man Utd against Leeds LIVE!",
       "link": "https://www.skysports.com/football/leeds-united-vs-manchester-united/live/531324",
       "summary": "",
       "publishedAt": "2026-01-04T10:55:00.000Z"
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/cgezjxwqvdqo?at_medium=RSS&at_campaign=rss",
       "summary": "Match of the Day pundits Alan Shearer and Jermain Defoe praise the performance of Declan Rice, who scored two goals in Arsenal's 3-2 win over Bournemouth.",
       "publishedAt": "2026-01-04T00:00:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rice 'stretches himself to limit' before another 'masterclass'",
-      "link": "https://www.bbc.com/sport/football/articles/cz0pmxr98xko?at_medium=RSS&at_campaign=rss",
-      "summary": "How injury doubt Declan Rice \"stretched himself to the very limit\" to take Arsenal six points clear at the top of the Premier League.",
-      "publishedAt": "2026-01-03T21:46:57.000Z"
     }
   ]
 }
