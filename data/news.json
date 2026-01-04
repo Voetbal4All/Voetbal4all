@@ -1,16 +1,170 @@
 {
-  "generatedAt": "2026-01-04T16:28:47.119Z",
+  "generatedAt": "2026-01-04T17:20:58.089Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Weergaloze García doet Mbappé met hattrick voor even vergeten bij Real Madrid",
+      "link": "https://www.vi.nl/nieuws/weergaloze-garc-a-doet-mbapp-met-hattrick-voor-even-vergeten-bij-real-madrid",
+      "summary": "Real Madrid is het nieuwe jaar voortreffelijk gestart. Dat komt voor een groot deel door Gonzalo García, die de geblesseerde Kylian Mbappé met verve verving tegen Real Betis. De 21-jarige spits was goed voor een hattrick in het met 5-1 gewonnen duel.",
+      "publishedAt": "2026-01-04T17:19:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'I will do my job for 18 months and then we move on' - Amorim",
+      "link": "https://www.bbc.com/sport/football/videos/c1dkpdqqqewo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United manager Ruben Amorim says in his press conference that in 18 months' time, when his contract is due to end, he will leave the club, repeatedly stating that he came to \"manage\" the club, not just to be a coach.",
+      "publishedAt": "2026-01-04T17:15:28.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Fulham v Liverpool, Newcastle v Crystal Palace, Afcon last 16 and more: clockwatch – live",
+      "title": "Fulham 2-2 Liverpool, Morocco v Tanzania and more: clockwatch – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/04/fulham-v-liverpool-newcastle-v-crystal-palace-afcon-and-more-football-clockwatch-live",
-      "summary": "Craven Cottage kick-off delayed by 15 minutes Morocco v Tanzania at 4pm (GMT) | Email Tom With Portsmouth v Ipswich postponed, a win for Middlesbrough will see them go up to second in the Championship and six points behind Coventry. That Birmingham v Coventry game was a wild ride. Five goals, one red card and at the end of it the league leaders lose their second game in three. Continue reading...",
-      "publishedAt": "2026-01-04T16:15:05.000Z"
+      "summary": "Everton 2-4 Brentford, Tottenham 1-1 Sunderland Manchester City v Chelsea – live | Email Tom With Portsmouth v Ipswich postponed, a win for Middlesbrough will see them go up to second in the Championship and six points behind Coventry. That Birmingham v Coventry game was a wild ride. Five goals, one red card and at the end of it the league leaders lose their second game in three. Continue reading...",
+      "publishedAt": "2026-01-04T17:15:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Gakpo ziet heldenrol bij Liverpool door vingers glippen na spectaculair slot",
+      "link": "https://www.vi.nl/nieuws/gakpo-ziet-heldenrol-bij-liverpool-door-vingers-glippen-na-spectaculair-slot",
+      "summary": "Lead",
+      "publishedAt": "2026-01-04T17:13:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brian Brobbey salvages Sunderland point to increase heat on Frank at Tottenham",
+      "link": "https://www.theguardian.com/football/2026/jan/04/tottenham-sunderland-premier-league-match-report",
+      "summary": "Boos are becoming an increasingly frequent fixture at the end of Tottenham games. After travelling supporters had voiced their anger at the goalless draw at Brentford on Thursday, it was the home fans’ turn to vent their frustrations after a result against Sunderland that could easily have been worse. After a promising first-half display and Ben Davies’ opener, this draw will be even more disappointing for Thomas Frank having seen how his team were outplayed after the break by a Sunderland team still heavily depleted by players away on international duty. Brian Brobbey’s 80th-minute equaliser came at a time when the visitors were considerably the better side and perhaps looked like taking all three points. Continue reading...",
+      "publishedAt": "2026-01-04T17:12:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Galaxy star Riqui Puig out until '27 after setback",
+      "link": "https://www.espn.com/soccer/story/_/id/47493503/la-galaxy-riqui-puig-injury-knee-acl-2027-mls",
+      "summary": "LA Galaxy star Riqui Puig's return from injury has been delayed until 2027, the LA Galaxy said Saturday after confirming that the midfielder underwent another anterior cruciate ligament reconstructive surgery on his left knee.",
+      "publishedAt": "2026-01-04T17:11:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim hits out: I'm Utd manager, not the coach",
+      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
+      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
+      "publishedAt": "2026-01-04T17:11:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aaronson scores as Leeds hold Man United",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740791",
+      "summary": "Matheus Cunha cancelled out Brenden Aaronson's strike as Ruben Amorim's Manchester United and rivals Leeds fought out a tense 1-1 draw at rocking Elland Road.",
+      "publishedAt": "2026-01-04T17:11:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rice on Gyökeres: Wouldn't be top without him",
+      "link": "https://www.espn.com/soccer/story/_/id/47499989/arsenal-declan-rice-viktor-gyokeres-premier-league",
+      "summary": "Declan Rice has defended goal-shy Viktor Gyökeres, claiming Arsenal will not be able to end their 22-year wait for a Premier League title without him.",
+      "publishedAt": "2026-01-04T17:11:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League live updates: Liverpool take late lead at Fulham",
+      "link": "https://www.espn.com/soccer/story/_/id/47466065/premier-league-live-updates-leeds-united-manchester-united-fulham-liverpool-manchester-city-chelsea",
+      "summary": "null",
+      "publishedAt": "2026-01-04T17:11:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City v Chelsea: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/04/manchester-city-v-chelsea-premier-league-live",
+      "summary": "Updates from 5.30pm (GMT) kick-off at the Etihad Clockwatch: Fulham v Liverpool, Afcon and more Antoine Semenyo, it seems likely, will soon join Manchester City from Bournemouth for a fee of £65m. Given how well Rayan Cherki and Phil Foden have played from the right this season, it is not immediately obvious why City need him, but the modern game is the modern game, the rammed calendar makes large and flexible squads essential and Pep Guardiola may have some esoteric plan for the Ghanaian anyway. But perhaps what is most striking about the deal is the fee – or, more precisely, how little attention it has drawn. English football has become inured to big transfers. The fee feels about right. Semenyo is 25. He has four and a half years left on his contract. He is quick, skilful, intelligent and works hard. He is disciplined, but has the capacity to do the unexpected. Of course a player of his ability costs that much. Yet £65m would make him the third-most expensive player in Bundesliga history. He would be the seventh-most expensive in Serie A history, the 14th-most expensive in La Liga history. Only nine non-English clubs have paid a fee higher than that. Even in Premier League terms, Semenyo sneaks into the top 25. Continue reading...",
+      "publishedAt": "2026-01-04T17:02:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Thiago nets hat-trick at Everton as Brentford move into top seven",
+      "link": "https://www.skysports.com/football/everton-vs-brentford/report/531322",
+      "summary": "Igor Thiago's hat-trick helped Brentford to a 4-2 win over Everton – just the Bees' third away win of the season – to move Keith Andrews' side into the Premier League's top seven.",
+      "publishedAt": "2026-01-04T16:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van de Ven en scorende Brobbey belangrijk voor Spurs en Sunderland",
+      "link": "https://www.vi.nl/nieuws/van-de-ven-en-scorende-brobbey-belangrijk-voor-spurs-en-sunderland",
+      "summary": "Tottenham Hotspur en Sunderland hebben zondag de punten gedeeld. Micky van de Ven speelde een sleutelrol bij de openingsgoal. Brian Brobbey redde een punt voor de nummer acht van de Premier League.",
+      "publishedAt": "2026-01-04T16:55:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'I'm here to be manager, not coach' - Amorim challenges Man Utd chiefs",
+      "link": "https://www.bbc.com/sport/football/articles/c1m7lmnnev0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ruben Amorim challenges Manchester United's board to let him do his job after Sunday's draw with Leeds, and says he intends to leave in 18 months' time.",
+      "publishedAt": "2026-01-04T16:46:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Marokko heeft het lastig tegen stug Tanzania",
+      "link": "https://www.vi.nl/nieuws/vi-live-marokko-heeft-het-lastig-tegen-stug-tanzania",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
+      "publishedAt": "2026-01-04T16:42:51.000Z"
     },
     {
       "type": "rss",
@@ -25,124 +179,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Saibari ziet goal afgekeurd worden bij Marokko, Liverpool in de problemen",
-      "link": "https://www.vi.nl/nieuws/vi-live-saibari-ziet-goal-afgekeurd-worden-bij-marokko-liverpool-in-de-problemen",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
-      "publishedAt": "2026-01-04T16:04:27.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Rodri starts for Man City vs managerless Chelsea LIVE!",
+      "title": "Rodri starts for Man City as managerless Chelsea change five LIVE!",
       "link": "https://www.skysports.com/football/manchester-city-vs-chelsea/live/531325",
       "summary": "",
       "publishedAt": "2026-01-04T15:57:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Amorim geniet ondanks puntenverlies en complimenteert Zirkzee",
-      "link": "https://www.vi.nl/nieuws/amorim-geniet-ondanks-puntenverlies-daarom-is-dit-zo-n-fantastische-competitie",
-      "summary": "Rúben Amorim heeft ondanks het puntenverlies van Manchester United op bezoek bij Leeds United genoten van de wedstrijd. De Portugese manager zag een vermakelijk duel, omdat beide ploegen niet tevreden waren met een punt. Daarnaast gaf hij Joshua Zirkzee een compliment.",
-      "publishedAt": "2026-01-04T15:53:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim hits out: I'm Utd manager, not the coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
-      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
-      "publishedAt": "2026-01-04T15:49:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Aaronson scores as Leeds hold Man United",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740791",
-      "summary": "Matheus Cunha cancelled out Brenden Aaronson's strike as Ruben Amorim's Manchester United and rivals Leeds fought out a tense 1-1 draw at rocking Elland Road.",
-      "publishedAt": "2026-01-04T15:49:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rice on Gyökeres: Wouldn't be top without him",
-      "link": "https://www.espn.com/soccer/story/_/id/47499989/arsenal-declan-rice-viktor-gyokeres-premier-league",
-      "summary": "Declan Rice has defended goal-shy Viktor Gyökeres, claiming Arsenal will not be able to end their 22-year wait for a Premier League title without him.",
-      "publishedAt": "2026-01-04T15:49:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Galaxy star Riqui Puig out until '27 after setback",
-      "link": "https://www.espn.com/soccer/story/_/id/47493503/la-galaxy-riqui-puig-injury-knee-acl-2027-mls",
-      "summary": "LA Galaxy star Riqui Puig's return from injury has been delayed until 2027, the LA Galaxy said Saturday after confirming that the midfielder underwent another anterior cruciate ligament reconstructive surgery on his left knee.",
-      "publishedAt": "2026-01-04T15:49:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Unbelievable' García leads Barça to derby triumph",
-      "link": "https://www.espn.com/soccer/story/_/id/47494582/barcelona-joan-garcia-espanyol-laliga-saves",
-      "summary": "Barcelona coach thanked Joan García for an unbelievable performance as the goalkeeper dealt with a hostile reception on his return to Espanyol to help the LaLiga leaders seal a 2-0 win at the RCDE Stadium on Saturday.",
-      "publishedAt": "2026-01-04T15:49:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Deze route moet Marokko afleggen om de Afrika Cup te winnen",
-      "link": "https://www.vi.nl/nieuws/deze-route-moet-marokko-afleggen-om-de-afrika-cup-te-winnen",
-      "summary": "Als groepswinnaar begint Marokko zondag aan de knock-outfase van de Afrika Cup. De Leeuwen van de Atlas krijgen steeds beter zicht op welke landen er moeten worden verslagen om het heilige doel te kunnen verzilveren: toernooiwinst. Deze landen moeten worden verslagen om dat te laten lukken.",
-      "publishedAt": "2026-01-04T15:38:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim: I came to Man Utd to be a manager, not a head coach",
-      "link": "https://www.skysports.com/football/news/12040/13490334/ruben-amorim-manchester-united-boss-claims-he-is-a-manager-and-not-a-head-coach-following-leeds-draw",
-      "summary": "Ruben Amorim has sensationally claimed that he joined Manchester United to be their manager, not their head coach, and suggested that he will leave the club at the end of his contract.",
-      "publishedAt": "2026-01-04T15:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hull & Sheff Utd fixtures among 17 EFL games off",
-      "link": "https://www.bbc.com/sport/football/articles/c394nmkldego?at_medium=RSS&at_campaign=rss",
-      "summary": "Hull's game against Watford becomes the latest English Football League fixture on Sunday to be postponed because of freezing conditions.",
-      "publishedAt": "2026-01-04T15:26:33.000Z"
     },
     {
       "type": "rss",
@@ -154,17 +198,6 @@
       "link": "https://www.bbc.com/sport/football/videos/cx2yn5geyywo?at_medium=RSS&at_campaign=rss",
       "summary": "Leeds manager Daniel Farke says he's \"a bit disappointed\" with a 1-1 draw against Manchester United, adding \"it's not the best performance but good to take a point and move on\".",
       "publishedAt": "2026-01-04T15:26:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Onklopbaar Leeds baalt van remise tegen Man Utd: 'Dat zegt heel veel'",
-      "link": "https://www.vi.nl/nieuws/onklopbaar-leeds-baalt-van-remise-tegen-man-utd-dat-zegt-heel-veel",
-      "summary": "Leeds United speelde woensdag gelijk tegen Manchester United en daar werd bij de Engelse promovendus nog van gebaald ook. Er had meer ingezeten, voelde men op Elland Road. Onderwijl bouwde Leeds verder aan een imposante reeks.",
-      "publishedAt": "2026-01-04T15:23:57.000Z"
     },
     {
       "type": "rss",
@@ -183,43 +216,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Championship roundup: leaders Coventry slip up again in thriller at Birmingham",
-      "link": "https://www.theguardian.com/football/2026/jan/04/championship-roundup-coventry-birmingham-football",
-      "summary": "Ducksch double edges Birmingham to 3-2 home victory QPR ease past bottom side Sheffield Wednesday Marvin Ducksch scored twice as Birmingham ended their seven-game winless streak with a 3-2 victory over Championship leaders Coventry. The former Germany international grabbed a goal in each half as fortunes ebbed and flowed in a derby fixture that delivered drama from the first whistle until stoppage time when visiting defender Bobby Thomas was dismissed. Birmingham led three times but were pegged back twice by Frank Lampard’s side, who have now won just twice in their last eight outings. Continue reading...",
-      "publishedAt": "2026-01-04T15:12:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "European football: Napoli hold off Lazio in fiery contest with three red cards",
-      "link": "https://www.theguardian.com/football/2026/jan/04/european-football-napoli-lazio-inter-bologna-real-madrid-betis-paris-fc-psg",
-      "summary": "Spinazzola and Rrahmani goals earn 2-0 away win Sevilla slump to 3-0 home defeat against Levante First-half goals from Leonardo Spinazzola and Amir Rrahmani helped Napoli claim a 2-0 victory at Lazio on Sunday in a heated contest that featured three red cards. Victory moves Napoli back to one point behind Serie A leaders Milan, who won 1-0 at Cagliari on Friday. Inter sit third but can reclaim top spot with victory at home to Bologna later on Sunday. This story will be updated Continue reading...",
-      "publishedAt": "2026-01-04T15:12:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Matheus Cunha earns Manchester United point as Leeds keep up unbeaten run",
       "link": "https://www.theguardian.com/football/2026/jan/04/leeds-manchester-united-premier-league-match-report",
-      "summary": "Few of the near 40,000 that flooded the Elland Road terraces would have cared to admit it given the depths at which one of English football’s most intense rivalries runs, but it was hard to argue that this was anything but a well-earned point apiece that serves the intentions and ambitions of both Leeds and Manchester United well. On first glance, a draw away at a relegation-threatened, newly-promoted side does little in terms of oozing positivity. But given the fact Ruben Amorim selected a starting lineup with nine defensive-minded players and the visitors were facing a Leeds side now on their longest unbeaten run in the Premier League since 2001, they will view this as a point gained. Continue reading...",
+      "summary": "Few of the near 40,000 that flooded the Elland Road terraces would have cared to admit it given the depths at which one of English football’s most intense rivalries runs, but it was hard to argue that this was anything but a well-earned point apiece that serves the intentions and ambitions of both Leeds and Manchester United well. On first glance, a draw away at a ­relegation-threatened, newly ­promoted side does little in terms of oozing positivity. But given the fact Ruben Amorim selected a starting lineup with nine defensive-minded players and the visitors were facing a Leeds side now on their longest unbeaten run in the Premier League since 2001, they will view this as a point gained. Continue reading...",
       "publishedAt": "2026-01-04T14:38:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'When has it ever been this bad?' - McCowan haunted by Celtic form",
-      "link": "https://www.bbc.com/sport/football/articles/cly9v04ek67o?at_medium=RSS&at_campaign=rss",
-      "summary": "Luke McCowan asks \"when has it ever been this bad?\" in the wake of Celtic's 3-1 home defeat by Rangers on Saturday.",
-      "publishedAt": "2026-01-04T14:37:59.000Z"
     }
   ]
 }
