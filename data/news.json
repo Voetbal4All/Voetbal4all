@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-01-04T20:27:27.659Z",
+  "generatedAt": "2026-01-04T21:21:59.495Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Dembélé voltooit snelle herstelwerkzaamheden voor PSG in Parijse derby",
+      "link": "https://www.vi.nl/nieuws/vi-live-demb-l-voltooit-snelle-herstelwerkzaamheden-voor-psg-in-parijse-derby",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
+      "publishedAt": "2026-01-04T21:04:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Neville: Amorim not happy with hierarchy | Carra: He's not good enough",
+      "link": "https://www.skysports.com/football/news/12040/13490479/gary-neville-ruben-amorim-sounds-unhappy-with-manchester-united-hierarchy-jamie-carragher-hes-not-good-enough",
+      "summary": "Gary Neville belives Ruben Amorim's recent comments to the media are a signal that the Manchester United boss is not happy with the Old Trafford hierarchy.",
+      "publishedAt": "2026-01-04T21:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim hits out: I'm Utd manager, not the coach",
+      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
+      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
+      "publishedAt": "2026-01-04T20:57:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Rosenior in London, close to Chelsea job",
+      "link": "https://www.espn.com/soccer/story/_/id/47503955/liam-rosenior-arrives-london-edges-chelsea-job-enzo-maresca",
+      "summary": "Chelsea are moving closer to the appointment of Liam Rosenior as their new head coach after the 41-year-old arrived in London on Sunday, sources have told ESPN.",
+      "publishedAt": "2026-01-04T20:57:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Managerless Chelsea hold City to late draw",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740792",
+      "summary": "Enzo Fernández grabbed a stoppage-time equaliser as managerless Chelsea snatched a 1-1 draw at title-chasing Manchester City.",
+      "publishedAt": "2026-01-04T20:57:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kameroen treft Marokko in kwartfinale na nipte zege op Zuid-Afrika",
+      "link": "https://www.vi.nl/nieuws/kameroen-treft-marokko-in-kwartfinale-na-nipte-zege-op-zuid-afrika",
+      "summary": "Kameroen wordt in de kwartfinale van de Afrika Cup de tegenstander van Marokko. Zondagavond rekende het land van sterspeler Bryan Mbeumo af met Zuid-Afrika, met dank aan een oude plaaggeest van PSV.",
+      "publishedAt": "2026-01-04T20:53:04.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +76,51 @@
       "title": "Amorim wants control at Man United, but his outburst could cost him his job",
       "link": "https://www.espn.com/soccer/story/_/id/47499896/amorim-wants-control-man-united-outburst-cost-job",
       "summary": "Manchester United manager Ruben Amorim is frustrated at not being able to choose his transfers himself. But by speaking out, he has put his job in danger.",
-      "publishedAt": "2026-01-04T20:15:10.000Z"
+      "publishedAt": "2026-01-04T20:36:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "No Maresca, no problem? Chelsea's late draw at Man City a blow for Guardiola & Co.",
+      "link": "https://www.espn.com/soccer/story/_/id/47502723/manchester-city-chelsea-premier-league-analysis-reaction-enzo-maresca-enzo-fernandez-calum-mcfarlane",
+      "summary": "All signs pointed to a routine Man City win, yet Enzo Fernandez' late goal ensured Chelsea went home happy.",
+      "publishedAt": "2026-01-04T20:36:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hattrickheld García snapt geringe Real-speeltijd: 'Mbappé is de beste ter wereld'",
+      "link": "https://www.vi.nl/nieuws/gonzalo-garc-a-snapt-dat-hij-de-back-up-van-mbapp-is-bij-real-madrid",
+      "summary": "Gonzalo García snapt goed dat hij de back-up is van Kylian Mbappé bij Real Madrid. De hattrickheld van deze zondag schoot zichzelf tegen Real Betis in een rijtje met onder meer Ronaldo Nazario en Ruud van Nistelrooij.",
+      "publishedAt": "2026-01-04T20:27:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Garrett breaks NFL sack record in final game of season",
+      "link": "https://www.skysports.com/nfl/news/12040/13486460/myles-garrett-breaks-nfl-single-season-sack-record-and-surpasses-michael-strahan-and-tj-watt",
+      "summary": "Cleveland Browns defensive end Myles Garrett broke the NFL's single-season sack record against the Cincinnati Bengals on Sunday.",
+      "publishedAt": "2026-01-04T20:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Beloftencoach Chelsea bejubelt punt bij City en 'ruimt veld meteen voor opvolger'",
+      "link": "https://www.vi.nl/nieuws/beloftencoach-chelsea-bejubelt-punt-bij-city-en-ruimt-veld-meteen-voor-opvolger",
+      "summary": "Calum McFarlane beleefde zondag een bijzondere dag. Normaal coacht hij de beloften van Chelsea, maar na het ontslag van Enzo Maresca mocht hij het plots met de hoofdmacht opnemen tegen Manchester City . En daar lijkt het ook meteen bij te blijven.",
+      "publishedAt": "2026-01-04T20:23:54.000Z"
     },
     {
       "type": "rss",
@@ -84,65 +194,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Enzo Fernández stuns Manchester City with last-gasp equaliser for managerless Chelsea",
+      "title": "Fernández stuns Manchester City with late equaliser for managerless Chelsea",
       "link": "https://www.theguardian.com/football/2026/jan/04/manchester-city-chelsea-premier-league-match-report",
       "summary": "It would have been easy for Pep Guardiola and Manchester City to think that this was a good time to face Chelsea. The London club had crashed in December, their Premier League form awful and the rising tensions between Enzo Maresca and the board would explode on New Year’s Eve. There have not been many managerial changes on the very first day of a year and this one left Calum McFarlane, the club’s under-21 coach, thrust in as the interim manager. Never before had he taken charge of a single senior game. Continue reading...",
       "publishedAt": "2026-01-04T19:56:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Porto loopt verder uit door enorme keepersblunder",
-      "link": "https://www.vi.nl/nieuws/fc-porto-loopt-verder-uit-door-enorme-keepersblunder",
-      "summary": "FC Porto is er zondag in geslaagd om verder uit te lopen. De ploeg van Francesco Farioli won op bezoek bij Santa Clara en profiteert daarmee optimaal van het puntenverlies van concurrent Sporting Portugal van eerder dit weekend.",
-      "publishedAt": "2026-01-04T19:54:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim hits out: I'm Utd manager, not the coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
-      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
-      "publishedAt": "2026-01-04T19:51:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Managerless Chelsea hold City to late draw",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740792",
-      "summary": "Enzo Fernández grabbed a stoppage-time equaliser as managerless Chelsea snatched a 1-1 draw at title-chasing Manchester City.",
-      "publishedAt": "2026-01-04T19:51:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Reed stunner forces late Liverpool draw at Fulham",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740790",
-      "summary": "Liverpool's hopes of finishing in the Premier League's top four received a damaging blow as Fulham's Harrison Reed struck one of the goals of the season.",
-      "publishedAt": "2026-01-04T19:51:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Real's Brahim sends Morocco to AFCON quarters",
-      "link": "https://www.espn.com/espn/story/_/id/47501914/brahim-diaz-strike-tanzania-secures-morocco-place-afcon-quarterfinals",
-      "summary": "Morocco advanced to the Africa Cup of Nations quarterfinals on Sunday with a 1-0 win over Tanzania in Rabat, with Real Madrid star Brahim Diaz scoring a wonderful strike in the second half of a bruising encounter.",
-      "publishedAt": "2026-01-04T19:51:03.000Z"
     },
     {
       "type": "rss",
@@ -165,61 +220,6 @@
       "link": "https://www.skysports.com/football/manchester-city-vs-chelsea/report/531325",
       "summary": "Manchester City lost more ground on Premier League leaders Arsenal after Enzo Fernandez rescued a late 1-1 draw for managerless Chelsea at a snowy Etihad Stadium.",
       "publishedAt": "2026-01-04T19:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Regragui erkent gemis van Amrabat bij Marokko: 'Natuurlijk is hij belangrijk'",
-      "link": "https://www.vi.nl/nieuws/regragui-stipt-aan-wat-marokko-moet-verbeteren-om-de-afrika-cup-te-winnen",
-      "summary": "Walid Regragui kan niet ontkennen dat Sofyan Amrabat wordt gemist bij Marokko. De Marokkaanse bondscoach zag zijn team met moeite winnen van Tanzania, wat volgens hem vooral door een hoop technische fouten kwam.",
-      "publishedAt": "2026-01-04T19:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Geen heldenrol Reijnders door late Chelsea-goal: Man City ziet Arsenal uitlopen",
-      "link": "https://www.vi.nl/nieuws/geen-heldenrol-reijnders-door-late-chelsea-goal-man-city-ziet-arsenal-uitlopen",
-      "summary": "Tijjani Reijnders is zondag weer eens van grote waarde gebleken voor Manchester City. De Nederlander besliste in het Etihad Stadium de topper tegen Chelsea en houdt de ploeg van Pep Guardiola zo in het spoor van koploper Arsenal.",
-      "publishedAt": "2026-01-04T19:35:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wat de keuzes van Pep Guardiola betekenen voor Ronald Koeman",
-      "link": "https://www.vi.nl/pro/tactische-analyse-rollen-nathan-ak-en-tijjani-reijnders-onder-pep-guardiola",
-      "summary": "Met een scorende Tijjani Reijnders in een vrije rol vanaf links en Nathan Aké als bankzitter heeft Manchester City gewonnen van Chelsea. Waarom Aké in de ogen van Pep Guardiola geen linksachter meer is en Reijnders plots naar de flank is verhuisd.",
-      "publishedAt": "2026-01-04T19:32:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Exasperation!' | Enzo Fernandez STUNS Man City with last-gasp equaliser!",
-      "link": "https://www.skysports.com/watch/video/13490488/goal-e-fernandez-904-man-city-1-1-chelsea",
-      "summary": "Enzo Fernandez STUNS Manchester City with last-gasp equaliser!",
-      "publishedAt": "2026-01-04T19:32:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler on his next challenger: MVG said a star is born every 17 years!",
-      "link": "https://www.skysports.com/darts/news/12040/13490258/luke-littler-on-his-next-challenger-michael-van-gerwen-said-a-star-is-born-every-17-years",
-      "summary": "The question on everyone's lips: Is there a player in darts who will challenge Luke Littler for the next 10-15 years? The reality is we may not have heard of them yet.",
-      "publishedAt": "2026-01-04T18:00:00.000Z"
     }
   ]
 }
