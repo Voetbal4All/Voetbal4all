@@ -250,31 +250,7 @@
                   </p>
 
                   <div id="event-list" class="ad-card-list ad-card-list--stack">
-
-                    <!-- VOORBEELD EVENT -->
-                    <article class="ad-card" id="event-ad-1"
-                      data-ad-id="1"
-                      data-country="BE"
-                      data-type="Tornooi"
-                      data-date="2026-01-20">
-                      <div class="ad-card-header">
-                        <div>
-                          <div class="ad-card-title">Jeugdtornado U8–U11</div>
-                          <div class="ad-card-meta">🇧🇪 België · Regio Kempen · K. Voorbeeld FC</div>
-                        </div>
-                        <div class="ad-card-meta">Tornooi · 20 januari</div>
-                      </div>
-                      <div class="ad-card-body">
-                        <strong>Locatie:</strong> Sportpark · Gemeente<br/>
-                        <strong>Doelgroep:</strong> U8–U11 · meerdere poules + finales<br/><br/>
-                        Inschrijven mogelijk per team. Randanimatie en eet/drinkstanden aanwezig.
-                      </div>
-                      <div class="ad-card-actions">
-                        <button type="button" class="btn-ghost-sm" data-reply-event="1">Inschrijven / contact</button>
-                        <a href="#" class="btn-ghost-sm btn-share" data-share-event="1">Delen</a>
-                      </div>
-                    </article>
-
+                    <!-- gevuld via backend -->
                   </div>
 
                   <p id="event-status" class="note" style="margin-top:10px; display:none;"></p>
@@ -384,10 +360,116 @@
     const typeEl = document.getElementById("event-filter-type");
     const monthEl = document.getElementById("event-filter-month");
 
+    const API_BASE = "https://voetbal4all-backend-database.onrender.com";
+
+    function typeToUiLabel(eventType){
+      const t = String(eventType || "").toLowerCase();
+      if (t === "tournament" || t === "tornooi") return "Tornooi";
+      if (t === "friendly" || t === "vriendschappelijk") return "Vriendschappelijk";
+      if (t === "stage") return "Stage";
+      if (t === "camp" || t === "voetbalkamp") return "Voetbalkamp";
+      // fallback: keep existing value if it matches one of the UI options
+      return eventType || "";
+    }
+
+    function countryToLabel(cc){
+      const c = String(cc || "").toUpperCase();
+      if (c === "BE") return "🇧🇪 België";
+      if (c === "NL") return "🇳🇱 Nederland";
+      return c || "";
+    }
+
+    function fmtDayMonth(dateStrOrIso){
+      const d = new Date(dateStrOrIso);
+      if (isNaN(d.getTime())) return "";
+      return d.toLocaleDateString("nl-BE", { day: "numeric", month: "long" });
+    }
+
+    function isoDateOnly(dateStrOrIso){
+      const d = new Date(dateStrOrIso);
+      if (isNaN(d.getTime())) return "";
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, "0");
+      const day = String(d.getDate()).padStart(2, "0");
+      return `${y}-${m}-${day}`;
+    }
+
+    async function loadEvents(){
+      try {
+        const res = await fetch(`${API_BASE}/api/events?limit=200&nocache=1`);
+        const data = await res.json();
+
+        if (!data || !data.ok || !Array.isArray(data.items)) {
+          throw new Error("Bad response");
+        }
+
+        // Render cards
+        listEl.innerHTML = data.items.map(ev => {
+          const slug = ev.slug || ev.id;
+          const country = String(ev.country || "").toUpperCase();
+          const uiType = typeToUiLabel(ev.event_type);
+          const dateOnly = isoDateOnly(ev.start_at);
+          const rightMeta = (uiType ? uiType + " · " : "") + fmtDayMonth(ev.start_at);
+
+          const leftMetaParts = [
+            countryToLabel(country),
+            ev.city ? ev.city : null,
+          ].filter(Boolean);
+
+          const leftMeta = leftMetaParts.join(" · ");
+
+          const bodyParts = [];
+          if (ev.location_name) bodyParts.push(`<strong>Locatie:</strong> ${ev.location_name}`);
+          if (ev.address) bodyParts.push(ev.address);
+          const bodyTop = bodyParts.length ? (bodyParts.join(" · ") + "<br/>") : "";
+
+          const desc = ev.description ? String(ev.description) : "";
+
+          return `
+            <article class="ad-card" id="event-ad-${encodeURIComponent(slug)}"
+              data-ad-id="${String(slug)}"
+              data-title="${String(ev.title || "").replaceAll('"','&quot;')}"
+              data-country="${country}"
+              data-type="${uiType}"
+              data-date="${dateOnly}">
+              <div class="ad-card-header">
+                <div>
+                  <div class="ad-card-title">${ev.title || ""}</div>
+                  <div class="ad-card-meta">${leftMeta}</div>
+                </div>
+                <div class="ad-card-meta">${rightMeta}</div>
+              </div>
+              <div class="ad-card-body">
+                ${bodyTop}
+                ${desc}
+              </div>
+              <div class="ad-card-actions">
+                <button type="button" class="btn-ghost-sm" data-reply-event="${String(slug)}">Inschrijven / contact</button>
+                <a href="#" class="btn-ghost-sm btn-share" data-share-event="${String(slug)}">Delen</a>
+              </div>
+            </article>
+          `;
+        }).join("");
+
+        // Apply existing behaviors after render
+        hidePastEvents();
+        filterCards();
+        updateShareLinks();
+
+      } catch (e) {
+        console.error("[EVENTS] load failed", e);
+        const status = document.getElementById("event-status");
+        if (status) {
+          status.style.display = "block";
+          status.textContent = "Events konden niet geladen worden.";
+        }
+      }
+    }
+
     function norm(s){ return (s || "").toLowerCase(); }
 
     // Verberg events waarvan datum + 1 dag < vandaag
-    (function hidePastEvents() {
+    function hidePastEvents() {
       const cards = document.querySelectorAll("#event-list .ad-card[data-date]");
       const today = new Date();
       today.setHours(0,0,0,0);
@@ -403,7 +485,7 @@
 
         if (d < today) card.style.display = "none";
       });
-    })();
+    }
 
     function filterCards(){
       const q = norm(searchEl.value);
@@ -434,17 +516,17 @@
     monthEl.addEventListener("change", filterCards);
 
     // Share links per event
-    (function updateShareLinks(){
+    function updateShareLinks(){
       const baseUrl = location.origin + location.pathname;
       document.querySelectorAll("[data-share-event]").forEach(a => {
         const id = a.getAttribute("data-share-event");
-        const targetId = "event-ad-" + id;
+        const targetId = "event-ad-" + encodeURIComponent(id);
         const url = baseUrl + "#" + targetId;
         a.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
         a.target = "_blank";
         a.rel = "noopener noreferrer";
       });
-    })();
+    }
 
     // Reply flow via mailto (zelfde patroon)
     document.addEventListener("click", function(e){
@@ -452,21 +534,27 @@
       if (!btn) return;
 
       const id = btn.getAttribute("data-reply-event");
+      const card = btn.closest(".ad-card");
+      const title = card?.querySelector(".ad-card-title")?.textContent?.trim() || card?.dataset?.title || "Sportief event";
       const ok = confirm("Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All.");
       if (!ok) return;
 
       const email = prompt("Vul je e-mailadres in zodat de club je kan contacteren:");
       if (!email) return alert("E-mailadres is nodig om te kunnen reageren.");
 
-      const subject = encodeURIComponent("Reactie via Voetbal4All op sportief event " + id);
+      const subject = encodeURIComponent("Reactie via Voetbal4All – " + title);
       const body = encodeURIComponent(
-        "Event-ID: " + id +
+        "Event: " + title +
+        "\nSlug/ID: " + id +
         "\n\nE-mailadres: " + email +
         "\n\nBericht:\n(Voeg je bericht toe.)"
       );
 
       location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
     });
+
+    // Load events from backend
+    loadEvents();
   </script>
 
   <script src="assets/js/nav-mobile.js"></script>
