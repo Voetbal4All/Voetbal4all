@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-04T18:34:03.363Z",
+  "generatedAt": "2026-01-04T20:27:27.659Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Joey Veerman over waarom zijn transfer naar Fenerbahçe stukliep",
-      "link": "https://www.vi.nl/pro/joey-veerman-over-waarom-zijn-transfer-naar-fenerbah-e-stukliep",
-      "summary": "Een transfer van Joey Veerman (27) van PSV naar Fenerbahçe ketste af. In Estepona vertelde hij zondag voor het eerst zijn kant van het verhaal. De middenvelder heeft het transferboek gesloten en wil nog één keer op de platte kar staan.",
-      "publishedAt": "2026-01-04T18:30:27.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim wants control at Man United, but his outburst could cost him his job",
+      "link": "https://www.espn.com/soccer/story/_/id/47499896/amorim-wants-control-man-united-outburst-cost-job",
+      "summary": "Manchester United manager Ruben Amorim is frustrated at not being able to choose his transfers himself. But by speaking out, he has put his job in danger.",
+      "publishedAt": "2026-01-04T20:15:10.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +18,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Reed deserves all the credit for a moment of 'pure inspiration'- Silva",
-      "link": "https://www.bbc.com/sport/football/videos/cpqyjz5l2pxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Fulham manager Marco Silva reacts to his team's 2-2 draw against Liverpool with Harrison Reed scoring a stunning 97th-minute equaliser in a moment of \"pure inspiration\".",
-      "publishedAt": "2026-01-04T18:26:19.000Z"
+      "title": "City held at home as Chelsea snatch stoppage‑time equaliser",
+      "link": "https://www.bbc.com/sport/football/videos/c931pyl797wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Enzo Fernandez scores a stoppage-time equaliser as Chelsea end a tumultuous week by claiming a worthy Premier League point at title-chasing Manchester City.",
+      "publishedAt": "2026-01-04T20:06:20.000Z"
     },
     {
       "type": "rss",
@@ -29,32 +29,54 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Gakpo dacht ook dat hij de winnende had gemaakt: 'Ongelukkig'",
-      "link": "https://www.vi.nl/nieuws/gakpo-en-wirtz-likken-wonden-na-remise-tegen-fulham-totaal-niet-tevreden",
-      "summary": "Bij Liverpool balen ze van het gelijkspel tegen Fulham. The Reds dachten door een late goal van Cody Gakpo de volle buit te pakken, maar in de allerlaatste seconden ging het alsnog mis voor de landskampioen.",
-      "publishedAt": "2026-01-04T18:24:00.000Z"
+      "title": "Inter zoekt vervanger voor Dumfries en komt uit bij João Cancelo",
+      "link": "https://www.vi.nl/nieuws/inter-zoekt-vervanger-voor-dumfries-en-komt-uit-bij-jo-o-cancelo",
+      "summary": "Internazionale gaat haar best doen om een vervanger te halen voor Denzel Dumfries. President Beppe Marotta legt uit dat de Nederlander nog wel een poos uit de roulatie is en dat de Champions League-finalist van vorig seizoen daarom kijkt naar alternatieven. João Cancelo lijkt een voorname kandidaat om terug te keren naar het Estadio Giuseppe Meazza.",
+      "publishedAt": "2026-01-04T20:05:37.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Deze route moet Marokko afleggen om de Afrika Cup te winnen",
-      "link": "https://www.vi.nl/nieuws/deze-route-moet-marokko-afleggen-om-de-afrika-cup-te-winnen",
-      "summary": "Als groepswinnaar begint Marokko zondag aan de knock-outfase van de Afrika Cup. De Leeuwen van de Atlas krijgen steeds beter zicht op welke landen er moeten worden verslagen om het heilige doel te kunnen verzilveren: toernooiwinst. Deze landen moeten worden verslagen om dat te laten lukken.",
-      "publishedAt": "2026-01-04T18:20:36.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Leeds denied win as Cunha hits back for Man Utd",
+      "link": "https://www.bbc.com/sport/football/videos/c8d0pjgnpejo?at_medium=RSS&at_campaign=rss",
+      "summary": "Brenden Aaronson breaks the deadlock, before Matheus Cunha levels just three minutes later, as Leeds and Manchester United share the points at Elland road.",
+      "publishedAt": "2026-01-04T19:59:37.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Manchester City ziet Reijnders scoren na kansenregen tegen Chelsea",
-      "link": "https://www.vi.nl/nieuws/vi-live-manchester-city-ziet-reijnders-scoren-na-kansenregen-tegen-chelsea",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
-      "publishedAt": "2026-01-04T18:16:24.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Second‑half lift sees Newcastle ease past Palace",
+      "link": "https://www.bbc.com/sport/football/videos/c5y483258dro?at_medium=RSS&at_campaign=rss",
+      "summary": "Newcastle United climb to ninth in the table, as captain Bruno Guimaraes inspires the hosts to victory with a hard-fought win over Crystal Palace at St James' Park.",
+      "publishedAt": "2026-01-04T19:59:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brilliant Brobbey goal earns Sunderland late draw as Spurs booed",
+      "link": "https://www.bbc.com/sport/football/videos/cy8yx0dnpp8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sunderland increase the pressure on Tottenham Hotspur head coach Thomas Frank as Brian Brobbey's late equaliser gives the Black Cats a point.",
+      "publishedAt": "2026-01-04T19:59:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Reed's stoppage‑time strike earns Fulham dramatic draw with Liverpool",
+      "link": "https://www.bbc.com/sport/football/videos/clye34v4y3xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Harrison Reed's superb 97th-minute equaliser earns the hosts a dramatic point, cancelling out Cody Gakpo's goal from just three minutes earlier, as Fulham deny a Liverpool comeback in a Premier League thriller.",
+      "publishedAt": "2026-01-04T19:59:13.000Z"
     },
     {
       "type": "rss",
@@ -62,21 +84,65 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Manchester City v Chelsea: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/04/manchester-city-v-chelsea-premier-league-live",
-      "summary": "Updates from 5.30pm (GMT) kick-off at the Etihad Clockwatch: Fulham v Liverpool, Afcon and more 11 min Cherki is fouled 25 yards from goal by James. He and Foden are over the ball… 7 min It’s been a comfortable start for Chelsea, with City playing at a relatively slow pace. Their shape is interesting: it’s ostensibly 4-1-4-1 but Reijnders is playing very narrow, so they almost have three central midfielders, Cherki to the right and Nico O’Reilly, the left-back, taking care of business on the other side. Continue reading...",
-      "publishedAt": "2026-01-04T18:15:05.000Z"
+      "title": "Enzo Fernández stuns Manchester City with last-gasp equaliser for managerless Chelsea",
+      "link": "https://www.theguardian.com/football/2026/jan/04/manchester-city-chelsea-premier-league-match-report",
+      "summary": "It would have been easy for Pep Guardiola and Manchester City to think that this was a good time to face Chelsea. The London club had crashed in December, their Premier League form awful and the rising tensions between Enzo Maresca and the board would explode on New Year’s Eve. There have not been many managerial changes on the very first day of a year and this one left Calum McFarlane, the club’s under-21 coach, thrust in as the interim manager. Never before had he taken charge of a single senior game. Continue reading...",
+      "publishedAt": "2026-01-04T19:56:32.000Z"
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FC Porto loopt verder uit door enorme keepersblunder",
+      "link": "https://www.vi.nl/nieuws/fc-porto-loopt-verder-uit-door-enorme-keepersblunder",
+      "summary": "FC Porto is er zondag in geslaagd om verder uit te lopen. De ploeg van Francesco Farioli won op bezoek bij Santa Clara en profiteert daarmee optimaal van het puntenverlies van concurrent Sporting Portugal van eerder dit weekend.",
+      "publishedAt": "2026-01-04T19:54:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "'It's not enough'- Slot frustrated with Fulham draw",
-      "link": "https://www.bbc.com/sport/football/videos/cwyn4e9x4r4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool manager Arne Slot says \"it's not enough\" for his side to rely on late goals after a \"frustrating\" 2-2 draw against Fulham at Craven Cottage.",
-      "publishedAt": "2026-01-04T18:11:23.000Z"
+      "title": "Amorim hits out: I'm Utd manager, not the coach",
+      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
+      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
+      "publishedAt": "2026-01-04T19:51:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Managerless Chelsea hold City to late draw",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740792",
+      "summary": "Enzo Fernández grabbed a stoppage-time equaliser as managerless Chelsea snatched a 1-1 draw at title-chasing Manchester City.",
+      "publishedAt": "2026-01-04T19:51:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Reed stunner forces late Liverpool draw at Fulham",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740790",
+      "summary": "Liverpool's hopes of finishing in the Premier League's top four received a damaging blow as Fulham's Harrison Reed struck one of the goals of the season.",
+      "publishedAt": "2026-01-04T19:51:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Real's Brahim sends Morocco to AFCON quarters",
+      "link": "https://www.espn.com/espn/story/_/id/47501914/brahim-diaz-strike-tanzania-secures-morocco-place-afcon-quarterfinals",
+      "summary": "Morocco advanced to the Africa Cup of Nations quarterfinals on Sunday with a 1-0 win over Tanzania in Rabat, with Real Madrid star Brahim Diaz scoring a wonderful strike in the second half of a bruising encounter.",
+      "publishedAt": "2026-01-04T19:51:03.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +150,65 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Aberdeen sack manager Thelin",
-      "link": "https://www.skysports.com/football/news/12040/13434041/aberdeen-sack-manager-jimmy-thelin-after-falkirk-defeat-leaves-dons-languishing-in-scottish-premiership",
-      "summary": "Aberdeen have sacked manager Jimmy Thelin after 18 months in charge.",
-      "publishedAt": "2026-01-04T18:00:00.000Z"
+      "title": "Enzo Fernandez grabs stoppage-time equaliser as Man City slip up in title race!",
+      "link": "https://www.skysports.com/watch/video/13490498/manchester-city-1-1-chelsea-premier-league-highlights",
+      "summary": "FREE TO WATCH: Highlights from Manchester City’s match against Chelsea in the Premier League.",
+      "publishedAt": "2026-01-04T19:51:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City pegged back by managerless Chelsea as more ground lost in title race",
+      "link": "https://www.skysports.com/football/manchester-city-vs-chelsea/report/531325",
+      "summary": "Manchester City lost more ground on Premier League leaders Arsenal after Enzo Fernandez rescued a late 1-1 draw for managerless Chelsea at a snowy Etihad Stadium.",
+      "publishedAt": "2026-01-04T19:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Regragui erkent gemis van Amrabat bij Marokko: 'Natuurlijk is hij belangrijk'",
+      "link": "https://www.vi.nl/nieuws/regragui-stipt-aan-wat-marokko-moet-verbeteren-om-de-afrika-cup-te-winnen",
+      "summary": "Walid Regragui kan niet ontkennen dat Sofyan Amrabat wordt gemist bij Marokko. De Marokkaanse bondscoach zag zijn team met moeite winnen van Tanzania, wat volgens hem vooral door een hoop technische fouten kwam.",
+      "publishedAt": "2026-01-04T19:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Geen heldenrol Reijnders door late Chelsea-goal: Man City ziet Arsenal uitlopen",
+      "link": "https://www.vi.nl/nieuws/geen-heldenrol-reijnders-door-late-chelsea-goal-man-city-ziet-arsenal-uitlopen",
+      "summary": "Tijjani Reijnders is zondag weer eens van grote waarde gebleken voor Manchester City. De Nederlander besliste in het Etihad Stadium de topper tegen Chelsea en houdt de ploeg van Pep Guardiola zo in het spoor van koploper Arsenal.",
+      "publishedAt": "2026-01-04T19:35:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wat de keuzes van Pep Guardiola betekenen voor Ronald Koeman",
+      "link": "https://www.vi.nl/pro/tactische-analyse-rollen-nathan-ak-en-tijjani-reijnders-onder-pep-guardiola",
+      "summary": "Met een scorende Tijjani Reijnders in een vrije rol vanaf links en Nathan Aké als bankzitter heeft Manchester City gewonnen van Chelsea. Waarom Aké in de ogen van Pep Guardiola geen linksachter meer is en Reijnders plots naar de flank is verhuisd.",
+      "publishedAt": "2026-01-04T19:32:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Exasperation!' | Enzo Fernandez STUNS Man City with last-gasp equaliser!",
+      "link": "https://www.skysports.com/watch/video/13490488/goal-e-fernandez-904-man-city-1-1-chelsea",
+      "summary": "Enzo Fernandez STUNS Manchester City with last-gasp equaliser!",
+      "publishedAt": "2026-01-04T19:32:00.000Z"
     },
     {
       "type": "rss",
@@ -99,127 +220,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13490258/luke-littler-on-his-next-challenger-michael-van-gerwen-said-a-star-is-born-every-17-years",
       "summary": "The question on everyone's lips: Is there a player in darts who will challenge Luke Littler for the next 10-15 years? The reality is we may not have heard of them yet.",
       "publishedAt": "2026-01-04T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Rookgordijnen optrekken als iedereen precies weet wie de nieuwe bondscoach wordt'",
-      "link": "https://www.vi.nl/pro/rookgordijnen-optrekken-als-iedereen-precies-weet-wie-de-nieuwe-bondscoach-wordt",
-      "summary": "Prachtig nieuws. Ibrahim Afellay leidde in Spanje, samen met Peter Bosz, zijn eerste PSV-training. Ergens halverwege viel het licht uit. Nu hoop ik zo dat daar beelden van zijn en dat een meegereisde Nederlandse journalist Afellay heeft geïnterviewd. Afellay met een zaklamp onder zijn kin en dan die heerlijke Ibrahim-zinnetjes achter elkaar.",
-      "publishedAt": "2026-01-04T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rice on Gyökeres: Wouldn't be top without him",
-      "link": "https://www.espn.com/soccer/story/_/id/47499989/arsenal-declan-rice-viktor-gyokeres-premier-league",
-      "summary": "Declan Rice has defended goal-shy Viktor Gyökeres, claiming Arsenal will not be able to end their 22-year wait for a Premier League title without him.",
-      "publishedAt": "2026-01-04T17:55:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim hits out: I'm Utd manager, not the coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
-      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
-      "publishedAt": "2026-01-04T17:55:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Reed stunner forces late Liverpool draw at Fulham",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740790",
-      "summary": "Liverpool's hopes of finishing in the Premier League's top four received a damaging blow as Fulham's Harrison Reed struck one of the goals of the season.",
-      "publishedAt": "2026-01-04T17:55:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Aaronson scores as Leeds hold Man United",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740791",
-      "summary": "Matheus Cunha cancelled out Brenden Aaronson's strike as Ruben Amorim's Manchester United and rivals Leeds fought out a tense 1-1 draw at rocking Elland Road.",
-      "publishedAt": "2026-01-04T17:55:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Beating Palace 'a big step forward' - Howe",
-      "link": "https://www.bbc.com/sport/football/videos/cgrdjyqz1wlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Newcastle manager Eddie Howe says his team's 2-0 win over Crystal Palace represents \"a big step forward\", as The Magpies look to build momentum in their Premier League season.",
-      "publishedAt": "2026-01-04T17:48:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rangers defender Sterling arrested over traffic offences after Old Firm victory",
-      "link": "https://www.skysports.com/football/news/12040/13490452/dujon-sterling-rangers-defender-arrested-and-charged-in-connection-with-road-traffic-offences-following-old-firm-win-over-celtic",
-      "summary": "Rangers defender Dujon Sterling was arrested following his side's victory in the Old Firm game against Celtic on Saturday.",
-      "publishedAt": "2026-01-04T17:36:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Live on Sky: Leicester vs West Brom",
-      "link": "https://www.skysports.com/football/leicester-city-vs-west-bromwich-albion/live/534624",
-      "summary": "",
-      "publishedAt": "2026-01-04T17:36:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Prem Rugby: Leicester record big win vs Saracens to close in on top four",
-      "link": "https://www.skysports.com/rugby-union/leicester-vs-saracens/report/111268",
-      "summary": "Adam Radwan scored two tries as Leicester kept in contention for a play-off spot with an impressive 36-28 win over Saracens.",
-      "publishedAt": "2026-01-04T17:35:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Reed’s rocket rescues Fulham point and denies Liverpool in thrilling finish",
-      "link": "https://www.theguardian.com/football/2026/jan/04/fulham-liverpool-premier-league-match-report",
-      "summary": "Perhaps they underestimated Harrison Reed. Certainly there was little reaction when the ball came back to the Fulham substitute with 96 minutes gone at Craven Cottage. Liverpool simply stood off Reed, almost daring the midfielder to shoot, and were made to regret their lack of urgency when one of Fulham’s more unfashionable players rescued a point for Marco Silva’s stubborn side by ripping a stunning shot into Alisson Becker’s top corner. It was only the popular 30-year-old’s fourth goal in six years in west London, and it said a lot about the state of Liverpool this season. The champions, after all, had just gone 2-1 up through Cody Gakpo and should have defended their lead with more determination. Instead their complacency gave Fulham hope and left Arne Slot’s side ruing a missed opportunity to tighten their grip on fourth place. Continue reading...",
-      "publishedAt": "2026-01-04T17:30:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Guimarães and Thiaw fire Newcastle to victory as Palace’s winless run goes on",
-      "link": "https://www.theguardian.com/football/2026/jan/04/newcastle-crystal-palace-premier-league-match-report",
-      "summary": "Eddie Howe describes January as “season defining” for his side and Newcastle’s manager looked suitably delighted to kick it off by collecting three points as Crystal Palace’s winless run continued. Yet snapshots of a beaming Howe allied with the bald statistics do not quite tell the story of an often chaotic meeting of the Carabao Cup and FA Cup holders. By the 78th minute, when a corner was dropped for Malick Thiaw to poke the ball past Dean Henderson, the disappointment writ large across Oliver Glasner’s face suggested the Crystal Palace manager knew the game was up. Continue reading...",
-      "publishedAt": "2026-01-04T17:26:30.000Z"
     }
   ]
 }
