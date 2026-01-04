@@ -13,30 +13,30 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Share icons – match live-score banner look */
-    .share-live{display:flex;gap:10px;flex-wrap:wrap;align-items:center;min-width:0}
-    .share-live .share-a{
+    /* Share icons – identical sizing/feel as live-score banner socials */
+    .v4-share{display:flex;gap:10px;flex-wrap:wrap;align-items:center;min-width:0}
+    .v4-share .live-social-link{
       width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;
       border-radius:999px;
-      background:rgba(22,163,74,.92);
-      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.14);
       box-shadow:0 10px 26px rgba(0,0,0,.35);
-      color:rgba(255,255,255,.95);
+      color:rgba(255,255,255,.92);
       text-decoration:none;cursor:pointer;flex:0 0 auto;
-      transition:transform .12s ease,filter .12s ease;
+      transition:transform .12s ease,filter .12s ease,background .12s ease;
     }
-    .share-live .share-a:hover{filter:brightness(1.05);transform:translateY(-1px)}
-    .share-live .share-a:active{transform:translateY(0)}
-    .share-live .share-a svg{width:18px;height:18px;display:block}
-    .share-live .share-a svg path,
-    .share-live .share-a svg circle,
-    .share-live .share-a svg rect,
-    .share-live .share-a svg line,
-    .share-live .share-a svg polyline,
-    .share-live .share-a svg polygon{stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-    .share-live .share-a svg .fill{fill:currentColor;stroke:none}
-    .share-live .share-a.is-small{width:32px;height:32px}
-    .share-live .share-a.is-small svg{width:16px;height:16px}
+    .v4-share .live-social-link:hover{filter:brightness(1.07);transform:translateY(-1px);background:rgba(255,255,255,.09)}
+    .v4-share .live-social-link:active{transform:translateY(0)}
+    .v4-share .live-social-link svg{width:18px;height:18px;display:block}
+    .v4-share .live-social-link svg path,
+    .v4-share .live-social-link svg circle,
+    .v4-share .live-social-link svg rect,
+    .v4-share .live-social-link svg line,
+    .v4-share .live-social-link svg polyline,
+    .v4-share .live-social-link svg polygon{stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .v4-share .live-social-link svg .fill{fill:currentColor;stroke:none}
+    .v4-share .live-social-link.is-small{width:32px;height:32px}
+    .v4-share .live-social-link.is-small svg{width:16px;height:16px}
 
     /* Pagination */
     .events-pagination{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px}
@@ -309,13 +309,13 @@
                   <!-- PREMIUM (komende 30 dagen): 2 rijen x 2 kolommen = 4 kaarten, roterend per kaart -->
                   <div id="premium-30-wrap" class="premium-block" style="display:none;">
                     <div class="card" style="margin-bottom:12px;">
-                      <div class="card-header">
-                        <div>
-                          <div class="card-caption">Premium</div>
-                          <div class="card-title">Premium events komende 30 dagen</div>
-                        </div>
-                        <span class="pill-small">Rotatie</span>
-                      </div>
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Premium</div>
+                      <div class="card-title">Premium events in de volgende 30 dagen</div>
+                    </div>
+                    <span class="pill-small">Rotatie</span>
+                  </div>
                       <div id="premium-grid-30" class="events-grid-2 premium-grid"></div>
                     </div>
                   </div>
@@ -508,12 +508,12 @@
       const cls = small ? 'is-small' : '';
       const safeTitle = String(title || '').replaceAll('"','&quot;');
       return `
-        <div class="share-live" aria-label="Deel dit event">
-          <a class="share-a ${cls}" href="#" data-share-channel="fb" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">${ICON_FB}</a>
-          <a class="share-a ${cls}" href="#" data-share-channel="ig" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Deel op Instagram">${ICON_IG}</a>
-          <a class="share-a ${cls}" href="#" data-share-channel="tt" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Deel op TikTok">${ICON_TT}</a>
-          <a class="share-a ${cls}" href="#" data-share-channel="x"  data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op X">${ICON_X}</a>
-          <a class="share-a ${cls}" href="#" data-share-channel="copy" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Kopieer link">${ICON_COPY}</a>
+        <div class="live-socials-icons v4-share" aria-label="Deel dit event">
+          <a class="live-social-link ${cls}" href="#" data-share-channel="fb" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">${ICON_FB}</a>
+          <a class="live-social-link ${cls}" href="#" data-share-channel="ig" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Deel op Instagram">${ICON_IG}</a>
+          <a class="live-social-link ${cls}" href="#" data-share-channel="tt" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Deel op TikTok">${ICON_TT}</a>
+          <a class="live-social-link ${cls}" href="#" data-share-channel="x"  data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op X">${ICON_X}</a>
+          <a class="live-social-link ${cls}" href="#" data-share-channel="copy" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Kopieer link">${ICON_COPY}</a>
         </div>
       `;
     }
@@ -744,20 +744,24 @@
       function render(){
         grid.innerHTML = '';
         for (let s=0; s<slots; s++){
-          const ev = premium30[(tick + offsets[s]) % premium30.length];
-          const slug = ev.slug || ev.id;
-          const country = String(ev.country || '').toUpperCase();
-          const uiType = typeToUiLabel(ev.event_type);
-          const rightMeta = (uiType ? uiType + ' · ' : '') + fmtDayMonth(ev.start_at);
-          const leftMeta = [countryToLabel(country), ev.city ? ev.city : null].filter(Boolean).join(' · ');
-          const thumb = getThumb(ev);
+          const hasReal = premium30.length > 0 && s < premium30.length;
+          const ev = hasReal
+            ? premium30[(tick + offsets[s]) % premium30.length]
+            : null;
+
+          const slug = ev ? (ev.slug || ev.id) : (`placeholder-${s+1}`);
+          const country = ev ? String(ev.country || '').toUpperCase() : '';
+          const uiType = ev ? typeToUiLabel(ev.event_type) : '';
+          const rightMeta = ev ? ((uiType ? uiType + ' · ' : '') + fmtDayMonth(ev.start_at)) : 'Binnenkort';
+          const leftMeta = ev ? [countryToLabel(country), ev.city ? ev.city : null].filter(Boolean).join(' · ') : 'Premium slot';
+          const thumb = ev ? getThumb(ev) : '';
           const safeThumb = safeAttr(thumb);
 
           const bodyTop = [];
-          if (ev.location_name) bodyTop.push(`<strong>Locatie:</strong> ${ev.location_name}`);
-          if (ev.address) bodyTop.push(ev.address);
+          if (ev && ev.location_name) bodyTop.push(`<strong>Locatie:</strong> ${ev.location_name}`);
+          if (ev && ev.address) bodyTop.push(ev.address);
           const top = bodyTop.length ? (bodyTop.join(' · ') + '<br/>') : '';
-          const desc = ev.description ? String(ev.description) : '';
+          const desc = ev ? (ev.description ? String(ev.description) : '') : 'Wordt binnenkort ingevuld.';
 
           grid.insertAdjacentHTML('beforeend', `
             <article class="ad-card" id="premium30-${encodeURIComponent(String(slug))}" data-slug="${String(slug)}">
@@ -768,15 +772,15 @@
                 <div class="event-main">
                   <div class="ad-card-header" style="margin:0;">
                     <div>
-                      <div class="ad-card-title">${ev.title || ''}</div>
+                      <div class="ad-card-title">${ev ? (ev.title || '') : 'Premium event (placeholder)'}</div>
                       <div class="ad-card-meta">${leftMeta}</div>
                     </div>
                     <div class="ad-card-meta">Premium · ${rightMeta}</div>
                   </div>
                   <div class="ad-card-body" style="margin-top:8px;">${top}${desc}</div>
                   <div class="ad-card-actions event-actions" style="margin-top:10px;">
-                    <a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>
-                    ${shareButtonsHtml(slug, ev.title || '', false)}
+                    ${ev ? `<a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>` : `<span class="btn-ghost-sm" style="opacity:.55;cursor:default;">Bekijk event</span>`}
+                    ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', false)}
                   </div>
                 </div>
               </div>
@@ -788,7 +792,7 @@
 
       render();
       setInterval(() => {
-        tick = (tick + 1) % premium30.length;
+        tick = (tick + 1) % (premium30.length > 0 ? premium30.length : 1);
         render();
       }, 10000);
     }
