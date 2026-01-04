@@ -12,6 +12,37 @@
   <!-- Fonts + CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Green share buttons (Stripe-success inspired) */
+    .share-green { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    .share-green .share-a {
+      display:inline-flex; align-items:center; justify-content:center;
+      width:40px; height:40px; border-radius:10px;
+      background:#16a34a; color:#fff; border:0; cursor:pointer;
+      font-weight:700; line-height:1; text-decoration:none;
+    }
+    .share-green .share-a:hover { filter: brightness(0.95); }
+    .share-green .share-hint { margin-left:6px; }
+
+    /* Media gallery */
+    .ev-media { margin-top:12px; }
+    .ev-media-grid { display:flex; gap:10px; flex-wrap:wrap; }
+    .ev-media-thumb {
+      width:140px; height:98px; object-fit:cover; border-radius:10px;
+      cursor:pointer; border:1px solid rgba(255,255,255,0.08);
+    }
+
+    /* Lightbox */
+    .lightbox { position:fixed; inset:0; background:rgba(0,0,0,0.8); display:none; z-index:9999; }
+    .lightbox.is-open { display:flex; align-items:center; justify-content:center; padding:20px; }
+    .lightbox-inner { max-width:1100px; width:100%; }
+    .lightbox-img { width:100%; height:auto; border-radius:12px; display:block; }
+    .lightbox-actions { display:flex; justify-content:flex-end; margin-bottom:10px; }
+    .lightbox-close {
+      background:#16a34a; color:#fff; border:0; border-radius:10px; padding:10px 14px;
+      cursor:pointer; font-weight:700;
+    }
+  </style>
 </head>
 
 <body class="v4-hide-live-mobile">
@@ -178,13 +209,28 @@
               <span class="pill-small">Premium</span>
             </div>
 
-            <div class="ad-card-actions" style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <div class="ad-card-actions" style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
               <a href="events.html" class="btn-ghost-sm">← Terug naar events</a>
-              <a href="#" class="btn-ghost-sm" id="ev-share">Delen</a>
+
+              <div class="share-green" aria-label="Deel dit event">
+                <a class="share-a" id="share-fb" href="#" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">f</a>
+                <a class="share-a" id="share-wa" href="#" target="_blank" rel="noopener noreferrer" aria-label="Deel via WhatsApp">WA</a>
+                <a class="share-a" id="share-x"  href="#" target="_blank" rel="noopener noreferrer" aria-label="Deel op X">X</a>
+                <a class="share-a" id="share-copy" href="#" aria-label="Kopieer link">⧉</a>
+                <span class="note share-hint" style="margin:0;">Delen</span>
+              </div>
+
               <button type="button" class="btn-ghost-sm" id="ev-contact">Inschrijven / contact</button>
             </div>
 
             <div class="ad-card-body" style="margin-top:12px;">
+              <!-- Flyer / foto's (klik om te vergroten) -->
+              <div class="ev-media" id="ev-media" style="display:none;">
+                <div class="note" style="margin:0 0 8px 0;">Flyer / foto's</div>
+                <div class="ev-media-grid" id="ev-media-grid"></div>
+              </div>
+
+              <!-- Details -->
               <div id="ev-desc"></div>
               <div id="ev-extra" style="margin-top:10px;"></div>
 
@@ -249,6 +295,16 @@
       </div>
     </footer>
 
+    <!-- LIGHTBOX for flyer/photos -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox-inner">
+        <div class="lightbox-actions">
+          <button type="button" class="lightbox-close" id="lightbox-close">Sluiten</button>
+        </div>
+        <img id="lightbox-img" class="lightbox-img" alt="Flyer / foto" />
+      </div>
+    </div>
+
   </div>
 
   <script>
@@ -263,8 +319,19 @@
     const statusEl = document.getElementById("ev-status");
     const premiumEl = document.getElementById("ev-premium");
 
-    const shareA = document.getElementById("ev-share");
     const contactBtn = document.getElementById("ev-contact");
+
+    const shareFb = document.getElementById("share-fb");
+    const shareWa = document.getElementById("share-wa");
+    const shareX  = document.getElementById("share-x");
+    const shareCopy = document.getElementById("share-copy");
+
+    const mediaWrap = document.getElementById("ev-media");
+    const mediaGrid = document.getElementById("ev-media-grid");
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const lightboxClose = document.getElementById("lightbox-close");
 
     function fmtDateTime(iso){
       const d = new Date(iso);
@@ -287,6 +354,66 @@
     function getSlug(){
       const params = new URLSearchParams(location.search);
       return params.get("slug") || "";
+    }
+
+    function openLightbox(src){
+      if (!src) return;
+      lightboxImg.src = src;
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+    }
+
+    function closeLightbox(){
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImg.src = "";
+    }
+
+    lightboxClose?.addEventListener("click", closeLightbox);
+    lightbox?.addEventListener("click", (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    function setShareLinks(shareUrl, title){
+      const text = encodeURIComponent(title || "Voetbal4All event");
+      const url = encodeURIComponent(shareUrl);
+
+      // These open the share dialog on the user's social network;
+      // any clicks on the shared post will go to `shareUrl` (voetbal4all.eu).
+      if (shareFb) shareFb.href = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+      if (shareWa) shareWa.href = `https://wa.me/?text=${text}%20${url}`;
+      if (shareX)  shareX.href  = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+
+      if (shareCopy) {
+        shareCopy.onclick = async (ev) => {
+          ev.preventDefault();
+          try {
+            await navigator.clipboard.writeText(shareUrl);
+            alert("Link gekopieerd: " + shareUrl);
+          } catch (e) {
+            prompt("Kopieer deze link:", shareUrl);
+          }
+        };
+      }
+    }
+
+    function renderMedia(mediaUrls){
+      const urls = (mediaUrls || []).filter(Boolean);
+      if (!urls.length) {
+        if (mediaWrap) mediaWrap.style.display = "none";
+        return;
+      }
+      if (mediaWrap) mediaWrap.style.display = "block";
+      if (!mediaGrid) return;
+
+      mediaGrid.innerHTML = urls.map((u, idx) => {
+        const safe = String(u).replaceAll('"','&quot;');
+        return `<img class="ev-media-thumb" src="${safe}" alt="Flyer/foto ${idx+1}" data-media-src="${safe}" loading="lazy" />`;
+      }).join("");
+
+      mediaGrid.querySelectorAll("[data-media-src]").forEach(img => {
+        img.addEventListener("click", () => openLightbox(img.getAttribute("data-media-src")));
+      });
     }
 
     async function loadEvent(){
@@ -330,11 +457,21 @@
         if (ev.organizer_url) extras.push(`<div><strong>Website:</strong> ${ev.organizer_url}</div>`);
         extraEl.innerHTML = extras.join("");
 
-        // Share link (Facebook)
-        const url = location.origin + location.pathname + "?slug=" + encodeURIComponent(slug);
-        shareA.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
-        shareA.target = "_blank";
-        shareA.rel = "noopener noreferrer";
+        // Share URL must always be our platform URL
+        const shareUrl = "https://www.voetbal4all.eu/event.html?slug=" + encodeURIComponent(slug);
+        const shareTitle = (ev.title || "Event") + " – Voetbal4All";
+        setShareLinks(shareUrl, shareTitle);
+
+        // Flyer / photos support (now + future-proof)
+        // Supported fields (if present): cover_image_url, flyer_image_url, photo_urls (array or comma-separated)
+        const media = [];
+        if (ev.cover_image_url) media.push(ev.cover_image_url);
+        if (ev.flyer_image_url) media.push(ev.flyer_image_url);
+        if (Array.isArray(ev.photo_urls)) media.push(...ev.photo_urls);
+        if (typeof ev.photo_urls === 'string' && ev.photo_urls.trim()) {
+          media.push(...ev.photo_urls.split(',').map(s => s.trim()).filter(Boolean));
+        }
+        renderMedia(media);
 
         // Contact (mailto)
         contactBtn.onclick = () => {
