@@ -13,15 +13,43 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Green social share buttons (Stripe-success inspired) */
-    .share-green { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    /* Share icons – match premium-success (round green bubbles) */
+    .share-green { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+
     .share-green .share-a{
+      width:40px; height:40px;
       display:inline-flex; align-items:center; justify-content:center;
-      width:36px; height:36px; border-radius:10px;
-      background:#16a34a; color:#fff; border:0; cursor:pointer;
-      font-weight:700; line-height:1; text-decoration:none;
+      border-radius:999px;
+      background: rgba(22,163,74,0.18);
+      border: 1px solid rgba(22,163,74,0.55);
+      box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+      color:#16a34a;
+      text-decoration:none;
+      cursor:pointer;
+      transition: transform .12s ease, filter .12s ease, background .12s ease;
+      flex: 0 0 auto;
     }
-    .share-green .share-a:hover { filter: brightness(0.95); }
+    .share-green .share-a:hover{ filter: brightness(1.05); transform: translateY(-1px); background: rgba(22,163,74,0.24); }
+    .share-green .share-a:active{ transform: translateY(0px); }
+
+    .share-green .share-a svg{ width:18px; height:18px; display:block; }
+    .share-green .share-a svg path,
+    .share-green .share-a svg circle,
+    .share-green .share-a svg rect,
+    .share-green .share-a svg line,
+    .share-green .share-a svg polyline,
+    .share-green .share-a svg polygon{
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    /* FB icon uses filled path */
+    .share-green .share-a svg .fill{ fill: currentColor; stroke: none; }
+
+    .share-green .share-a.is-small{ width:34px; height:34px; }
+    .share-green .share-a.is-small svg{ width:16px; height:16px; }
 
     /* Event thumbnail (flyer) */
     .event-thumb-wrap{ display:flex; gap:12px; align-items:flex-start; }
@@ -32,6 +60,45 @@
       flex: 0 0 auto;
     }
     .event-thumb--empty{ display:none; }
+
+    /* 2-column grids */
+    .events-grid-2{ display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:12px; }
+    @media (max-width: 900px){ .events-grid-2{ grid-template-columns: 1fr; } }
+
+    /* Premium grids spacing */
+    .premium-grid-wrap{ margin:12px 0; display:none; }
+
+    /* Card layout refinement so thumbnail never pushes text */
+    .event-thumb-wrap{ align-items:stretch; }
+    .event-thumb{
+      width:110px; height:84px;
+      object-fit:cover;
+      border-radius:12px;
+    }
+    @media (max-width: 520px){
+      .event-thumb{ width:96px; height:72px; }
+    }
+
+    .event-card-main{ flex:1 1 auto; min-width:0; }
+
+    /* Sidebar premium list */
+    .sidebar-premium-stack{ display:flex; flex-direction:column; gap:10px; }
+    .sidebar-premium-card{
+      padding:10px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+    }
+    .sidebar-premium-top{ display:flex; gap:10px; align-items:flex-start; }
+    .sidebar-premium-thumb{
+      width:58px; height:44px; object-fit:cover; border-radius:10px;
+      border:1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.04);
+      flex: 0 0 auto;
+    }
+    .sidebar-premium-title{ font-weight:700; font-size:13px; line-height:1.25; }
+    .sidebar-premium-meta{ font-size:12px; opacity:0.8; margin-top:2px; }
+    .sidebar-premium-actions{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:8px; }
   </style>
 </head>
 
@@ -270,37 +337,40 @@
                     Events met een datum in het verleden worden automatisch verborgen (dag na het event).
                   </p>
 
-                  <!-- PREMIUM SPOTLIGHTS (rotators) -->
-                  <div id="premium-spotlights" style="margin:12px 0; display:none;">
+                  <!-- PREMIUM (komende 30 dagen): 2 rijen x 2 kolommen, roterend -->
+                  <div id="premium-30-wrap" class="premium-grid-wrap">
                     <div class="card" style="margin-bottom:12px;">
                       <div class="card-header">
                         <div>
                           <div class="card-caption">Premium</div>
-                          <div class="card-title">Premium events (rotatie)</div>
+                          <div class="card-title">Premium events komende 30 dagen</div>
                         </div>
-                        <span class="pill-small">Uitgelicht</span>
+                        <span class="pill-small">Rotatie</span>
                       </div>
-                      <div id="premium-rotator-all"></div>
-                    </div>
-
-                    <div class="card" style="margin-bottom:0;">
-                      <div class="card-header">
-                        <div>
-                          <div class="card-caption">Premium</div>
-                          <div class="card-title">Premium events komende 30 dagen (rotatie)</div>
-                        </div>
-                        <span class="pill-small">30 dagen</span>
-                      </div>
-                      <div id="premium-rotator-30"></div>
+                      <div id="premium-grid-30" class="events-grid-2"></div>
                     </div>
                   </div>
 
-                  <div id="event-list" class="ad-card-list ad-card-list--stack">
+                  <!-- Overige events (2 kolommen) -->
+
+                  <div id="event-list" class="events-grid-2">
                     <!-- gevuld via backend -->
                   </div>
 
                   <p id="event-status" class="note" style="margin-top:10px; display:none;"></p>
                 </div>
+
+                <!-- Premium events > 30 dagen (10 cards, roterend) -->
+                <article class="card" style="margin-top:12px;">
+                  <div class="card-header">
+                    <div>
+                      <div class="card-caption">Premium</div>
+                      <div class="card-title">Uitgelicht (later)</div>
+                    </div>
+                    <span class="pill-small">Rotatie</span>
+                  </div>
+                  <div id="sidebar-premium-later" class="sidebar-premium-stack"></div>
+                </article>
               </section>
 
             </div>
@@ -440,6 +510,33 @@
       return `${y}-${m}-${day}`;
     }
 
+    // --- Share SVG icons (match premium-success style) ---
+    const ICON_FB = `<svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M14 8.5V7c0-.8.3-1.2 1.2-1.2H17V3h-2.4C12 3 11 4.5 11 6.8V8.5H9v3h2V21h3v-9.5h2.4l.6-3H14z"/></svg>`;
+    const ICON_WA = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.6-3.8A8 8 0 1 1 20 11.5Z"/><path d="M9.3 9.2c.2-.5.4-.5.6-.5h.6c.2 0 .4.1.5.3l.7 1.6c.1.2.1.4 0 .6l-.3.5c-.1.2-.1.3 0 .5.3.6 1.1 1.5 2 1.9.2.1.4.1.5 0l.5-.3c.2-.1.4-.1.6 0l1.5.7c.2.1.3.3.3.5v.6c0 .2 0 .4-.5.6-.5.2-1.7.6-3.9-.4-2.2-1-3.7-3.6-3.8-3.8-.1-.2-1-1.7-.4-3.9Z"/></svg>`;
+    const ICON_X  = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16"/><path d="M20 4L4 20"/></svg>`;
+    const ICON_COPY = `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="10" height="10" rx="2"/><path d="M7 15H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v1"/></svg>`;
+
+    function shareButtonsHtml(slug, title, small=false){
+      const cls = small ? 'is-small' : '';
+      const safeTitle = String(title || '').replaceAll('"','&quot;');
+      return `
+        <div class="share-green" aria-label="Deel dit event">
+          <a class="share-a ${cls}" href="#" data-share-channel="fb" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">${ICON_FB}</a>
+          <a class="share-a ${cls}" href="#" data-share-channel="wa" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel via WhatsApp">${ICON_WA}</a>
+          <a class="share-a ${cls}" href="#" data-share-channel="x"  data-share-slug="${String(slug)}" data-share-title="${safeTitle}" target="_blank" rel="noopener noreferrer" aria-label="Deel op X">${ICON_X}</a>
+          <a class="share-a ${cls}" href="#" data-share-channel="copy" data-share-slug="${String(slug)}" data-share-title="${safeTitle}" aria-label="Kopieer link">${ICON_COPY}</a>
+        </div>
+      `;
+    }
+
+    function getThumb(ev){
+      return (ev.cover_image_url || ev.flyer_image_url || (Array.isArray(ev.photo_urls) ? ev.photo_urls[0] : null) || (typeof ev.photo_urls === "string" ? ev.photo_urls.split(",")[0]?.trim() : null) || "");
+    }
+
+    function safeAttr(s){
+      return String(s || '').replaceAll('"','&quot;');
+    }
+
     async function loadEvents(){
       try {
         const res = await fetch(`${API_BASE}/api/events?limit=200&nocache=1`);
@@ -449,8 +546,27 @@
           throw new Error("Bad response");
         }
 
-        // Render cards
-        listEl.innerHTML = data.items.map(ev => {
+        // Sort by start date (soonest first)
+        const itemsSorted = [...data.items].sort((a,b) => new Date(a.start_at).getTime() - new Date(b.start_at).getTime());
+
+        // Premium buckets
+        const now = new Date();
+        const in30 = new Date(now.getTime() + 30*24*60*60*1000);
+        const premiumAll = itemsSorted.filter(ev => !!ev.is_premium);
+        const premium30 = premiumAll.filter(ev => {
+          const d = new Date(ev.start_at);
+          return !isNaN(d.getTime()) && d >= now && d <= in30;
+        });
+        const premiumLater = premiumAll.filter(ev => {
+          const d = new Date(ev.start_at);
+          return !isNaN(d.getTime()) && d > in30;
+        });
+
+        // Main list: all non-premium events, sorted by date
+        const mainEvents = itemsSorted.filter(ev => !ev.is_premium);
+
+        // Render main cards (2 columns)
+        listEl.innerHTML = mainEvents.map(ev => {
           const slug = ev.slug || ev.id;
           const country = String(ev.country || "").toUpperCase();
           const uiType = typeToUiLabel(ev.event_type);
@@ -472,8 +588,8 @@
           const desc = ev.description ? String(ev.description) : "";
 
           // Flyer/thumbnail support (future-proof)
-          const thumb = (ev.cover_image_url || ev.flyer_image_url || (Array.isArray(ev.photo_urls) ? ev.photo_urls[0] : null) || (typeof ev.photo_urls === "string" ? ev.photo_urls.split(",")[0]?.trim() : null) || "");
-          const safeThumb = String(thumb || "").replaceAll('"','&quot;');
+          const thumb = getThumb(ev);
+          const safeThumb = safeAttr(thumb);
 
           return `
             <article class="ad-card" id="event-ad-${encodeURIComponent(slug)}"
@@ -487,7 +603,7 @@
               <div class="event-thumb-wrap">
                 <img class="event-thumb ${safeThumb ? '' : 'event-thumb--empty'}" src="${safeThumb}" alt="Flyer" loading="lazy" />
 
-                <div style="flex:1 1 auto; min-width:0;">
+                <div class="event-card-main">
                   <div class="ad-card-header" style="margin:0;">
                     <div>
                       <div class="ad-card-title">${ev.title || ""}</div>
@@ -504,13 +620,7 @@
                   <div class="ad-card-actions" style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
                     <a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>
                     <button type="button" class="btn-ghost-sm" data-reply-event="${String(slug)}">Inschrijven / contact</button>
-
-                    <div class="share-green" aria-label="Deel dit event">
-                      <a class="share-a" href="#" data-share-channel="fb" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || "").replaceAll('"','&quot;')}" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">f</a>
-                      <a class="share-a" href="#" data-share-channel="wa" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || "").replaceAll('"','&quot;')}" target="_blank" rel="noopener noreferrer" aria-label="Deel via WhatsApp">WA</a>
-                      <a class="share-a" href="#" data-share-channel="x" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || "").replaceAll('"','&quot;')}" target="_blank" rel="noopener noreferrer" aria-label="Deel op X">X</a>
-                      <a class="share-a" href="#" data-share-channel="copy" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || "").replaceAll('"','&quot;')}" aria-label="Kopieer link">⧉</a>
-                    </div>
+                    ${shareButtonsHtml(slug, ev.title || '', false)}
                   </div>
                 </div>
               </div>
@@ -519,8 +629,9 @@
           `;
         }).join("");
 
-        // Premium rotators (must run before filters hide things)
-        startPremiumRotators(data.items);
+        // Premium rotators
+        startPremium30Grid(premium30);
+        startSidebarPremiumLater(premiumLater);
 
         // Apply existing behaviors after render
         hidePastEvents();
@@ -535,6 +646,113 @@
           status.textContent = "Events konden niet geladen worden.";
         }
       }
+    }
+    function startPremium30Grid(premium30){
+      const wrap = document.getElementById('premium-30-wrap');
+      const grid = document.getElementById('premium-grid-30');
+      if (!wrap || !grid) return;
+
+      if (!premium30 || premium30.length === 0) {
+        wrap.style.display = 'none';
+        return;
+      }
+      wrap.style.display = 'block';
+
+      // 4 visible cards (2x2). Each card rotates every 10s with an offset so order differs.
+      const slots = 4;
+      let tick = 0;
+
+      function render(){
+        grid.innerHTML = '';
+        for (let s=0; s<slots; s++){
+          const ev = premium30[(tick + s) % premium30.length];
+          const slug = ev.slug || ev.id;
+          const country = String(ev.country || '').toUpperCase();
+          const uiType = typeToUiLabel(ev.event_type);
+          const rightMeta = (uiType ? uiType + ' · ' : '') + fmtDayMonth(ev.start_at);
+          const leftMeta = [countryToLabel(country), ev.city ? ev.city : null].filter(Boolean).join(' · ');
+          const thumb = getThumb(ev);
+          const safeThumb = safeAttr(thumb);
+
+          const bodyTop = [];
+          if (ev.location_name) bodyTop.push(`<strong>Locatie:</strong> ${ev.location_name}`);
+          if (ev.address) bodyTop.push(ev.address);
+          const top = bodyTop.length ? (bodyTop.join(' · ') + '<br/>') : '';
+          const desc = ev.description ? String(ev.description) : '';
+
+          grid.insertAdjacentHTML('beforeend', `
+            <article class="ad-card" id="premium30-${encodeURIComponent(String(slug))}" data-slug="${String(slug)}">
+              <div class="event-thumb-wrap">
+                <img class="event-thumb ${safeThumb ? '' : 'event-thumb--empty'}" src="${safeThumb}" alt="Flyer" loading="lazy" />
+                <div class="event-card-main">
+                  <div class="ad-card-header" style="margin:0;">
+                    <div>
+                      <div class="ad-card-title">${ev.title || ''}</div>
+                      <div class="ad-card-meta">${leftMeta}</div>
+                    </div>
+                    <div class="ad-card-meta">Premium · ${rightMeta}</div>
+                  </div>
+                  <div class="ad-card-body" style="margin-top:8px;">${top}${desc}</div>
+                  <div class="ad-card-actions" style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+                    <a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>
+                    ${shareButtonsHtml(slug, ev.title || '', false)}
+                  </div>
+                </div>
+              </div>
+            </article>
+          `);
+        }
+        updateShareLinks();
+      }
+
+      render();
+      setInterval(() => { tick = (tick + 1) % premium30.length; render(); }, 10000);
+    }
+
+    function startSidebarPremiumLater(premiumLater){
+      const el = document.getElementById('sidebar-premium-later');
+      if (!el) return;
+
+      if (!premiumLater || premiumLater.length === 0){
+        el.innerHTML = '<p class="note" style="margin:0;">Geen premium events later dan 30 dagen.</p>';
+        return;
+      }
+
+      const slots = 10;
+      let tick = 0;
+
+      function render(){
+        el.innerHTML = '';
+        for (let s=0; s<slots; s++){
+          const ev = premiumLater[(tick + s) % premiumLater.length];
+          const slug = ev.slug || ev.id;
+          const country = String(ev.country || '').toUpperCase();
+          const uiType = typeToUiLabel(ev.event_type);
+          const meta = [(uiType ? uiType : null), fmtDayMonth(ev.start_at), countryToLabel(country), ev.city ? ev.city : null].filter(Boolean).join(' · ');
+          const thumb = getThumb(ev);
+          const safeThumb = safeAttr(thumb);
+
+          el.insertAdjacentHTML('beforeend', `
+            <div class="sidebar-premium-card" data-slug="${String(slug)}">
+              <div class="sidebar-premium-top">
+                <img class="sidebar-premium-thumb ${safeThumb ? '' : 'event-thumb--empty'}" src="${safeThumb}" alt="Flyer" loading="lazy" />
+                <div style="min-width:0;">
+                  <div class="sidebar-premium-title">${ev.title || ''}</div>
+                  <div class="sidebar-premium-meta">${meta}</div>
+                </div>
+              </div>
+              <div class="sidebar-premium-actions">
+                <a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk</a>
+                ${shareButtonsHtml(slug, ev.title || '', true)}
+              </div>
+            </div>
+          `);
+        }
+        updateShareLinks();
+      }
+
+      render();
+      setInterval(() => { tick = (tick + 1) % premiumLater.length; render(); }, 10000);
     }
 
     function norm(s){ return (s || "").toLowerCase(); }
@@ -644,83 +862,3 @@
   <script src="assets/js/live-banner.js"></script>
 </body>
 </html>
-    function startPremiumRotators(items){
-      const spot = document.getElementById('premium-spotlights');
-      const allEl = document.getElementById('premium-rotator-all');
-      const d30El = document.getElementById('premium-rotator-30');
-      if (!spot || !allEl || !d30El) return;
-
-      const premiumAll = (items || []).filter(ev => !!ev.is_premium);
-      const now = new Date();
-      const in30 = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
-      const premium30 = premiumAll.filter(ev => {
-        const d = new Date(ev.start_at);
-        return !isNaN(d.getTime()) && d >= now && d <= in30;
-      });
-
-      if (!premiumAll.length) {
-        spot.style.display = 'none';
-        return;
-      }
-
-      spot.style.display = 'block';
-
-      function renderSpot(el, ev){
-        if (!ev) { el.innerHTML = '<p class="note" style="margin:0;">Geen premium events gevonden.</p>'; return; }
-        const slug = ev.slug || ev.id;
-        const country = String(ev.country || '').toUpperCase();
-        const uiType = typeToUiLabel(ev.event_type);
-        const when = (uiType ? uiType + ' · ' : '') + fmtDayMonth(ev.start_at);
-        const where = [countryToLabel(country), ev.city ? ev.city : null].filter(Boolean).join(' · ');
-
-        const thumb = (ev.cover_image_url || ev.flyer_image_url || (Array.isArray(ev.photo_urls) ? ev.photo_urls[0] : null) || (typeof ev.photo_urls === "string" ? ev.photo_urls.split(",")[0]?.trim() : null) || "");
-        const safeThumb = String(thumb || "").replaceAll('"','&quot;');
-
-        el.innerHTML = `
-          <article class="ad-card" style="margin:0;" data-slug="${String(slug)}">
-            <div class="event-thumb-wrap">
-              <img class="event-thumb ${safeThumb ? '' : 'event-thumb--empty'}" src="${safeThumb}" alt="Flyer" loading="lazy" />
-              <div style="flex:1 1 auto; min-width:0;">
-                <div class="ad-card-header" style="margin:0;">
-                  <div>
-                    <div class="ad-card-title">${ev.title || ''}</div>
-                    <div class="ad-card-meta">${where}</div>
-                  </div>
-                  <div class="ad-card-meta">Premium · ${when}</div>
-                </div>
-                <div class="ad-card-body" style="margin-top:8px;">${ev.description ? String(ev.description) : ''}</div>
-                <div class="ad-card-actions" style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
-                  <a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>
-                  <div class="share-green" aria-label="Deel dit event">
-                    <a class="share-a" href="#" data-share-channel="fb" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || '').replaceAll('"','&quot;')}" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">f</a>
-                    <a class="share-a" href="#" data-share-channel="wa" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || '').replaceAll('"','&quot;')}" target="_blank" rel="noopener noreferrer" aria-label="Deel via WhatsApp">WA</a>
-                    <a class="share-a" href="#" data-share-channel="x" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || '').replaceAll('"','&quot;')}" target="_blank" rel="noopener noreferrer" aria-label="Deel op X">X</a>
-                    <a class="share-a" href="#" data-share-channel="copy" data-share-slug="${String(slug)}" data-share-title="${String(ev.title || '').replaceAll('"','&quot;')}" aria-label="Kopieer link">⧉</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-        `;
-      }
-
-      let i = 0;
-      let j = 0;
-      renderSpot(allEl, premiumAll[i]);
-      renderSpot(d30El, premium30.length ? premium30[j] : null);
-      updateShareLinks();
-
-      setInterval(() => {
-        if (!premiumAll.length) return;
-        i = (i + 1) % premiumAll.length;
-        renderSpot(allEl, premiumAll[i]);
-        updateShareLinks();
-      }, 6000);
-
-      setInterval(() => {
-        if (!premium30.length) return;
-        j = (j + 1) % premium30.length;
-        renderSpot(d30El, premium30[j]);
-        updateShareLinks();
-      }, 6500);
-    }
