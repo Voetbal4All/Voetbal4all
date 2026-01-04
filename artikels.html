@@ -482,12 +482,10 @@
       }
     
 
-    function applyFilters(){
-      const q = norm(articleSearchText.value);
-      // ✅ bij nieuwe filter/search altijd terug naar pagina 1
-      currentPage = 1;
-      const cRaw = articleFilterCountry?.value || "";
-      const catRaw = articleFilterCategory?.value || "";
+      function applyFilters(){
+        const q = norm(articleSearchText.value);
+        const cRaw = articleFilterCountry?.value || "";
+        const catRaw = articleFilterCategory?.value || "";
 
       // normalize "all" variants to empty string (= no filter)
       const c = (cRaw === "all" || cRaw === "alles") ? "" : cRaw;
@@ -558,11 +556,11 @@
         </div>
       `);
 
-const btnPrev = document.getElementById("pg-prev");
-const btnNext = document.getElementById("pg-next");
-if (btnPrev) btnPrev.onclick = () => { currentPage = Math.max(1, currentPage - 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
-if (btnNext) btnNext.onclick = () => { currentPage = Math.min(totalPages, currentPage + 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
-    }
+      const btnPrev = document.getElementById("pg-prev");
+      const btnNext = document.getElementById("pg-next");
+      if (btnPrev) btnPrev.onclick = () => { currentPage = Math.max(1, currentPage - 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+      if (btnNext) btnNext.onclick = () => { currentPage = Math.min(totalPages, currentPage + 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+          }
 
     async function loadNews(){
       try{
