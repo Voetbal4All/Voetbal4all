@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4062633211824348"
+    crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8" />
+  <title>Voetbal4All - Event</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts + CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="v4-hide-live-mobile">
+  <div class="page">
+
+    <!-- NAVBAR (zelfde structuur als events.html) -->
+    <header class="navbar">
+      <div class="shell">
+        <div class="navbar-inner">
+
+          <a href="index.html" class="brand brand--logo-only">
+            <img
+              src="assets/img/brand/logo-voetbal4all.svg"
+              alt="Voetbal4All"
+              class="brand-logo"
+              loading="eager"
+            />
+          </a>
+
+          <nav class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="artikels.html" class="nav-link">Artikels</a>
+
+            <div class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-link--dropdown">
+                Sportieve events <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="events.html" class="nav-dropdown-link">Alle sportieve events</a>
+                <a href="events.html?type=Tornooi" class="nav-dropdown-link">Tornooien</a>
+                <a href="events.html?type=Vriendschappelijk" class="nav-dropdown-link">Vriendschappelijke wedstrijden</a>
+                <a href="stages.html" class="nav-dropdown-link">Stages</a>
+                <a href="events.html?type=Voetbalkamp" class="nav-dropdown-link">Voetbalkampen</a>
+              </div>
+            </div>
+
+            <div class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-link--dropdown">
+                Club &amp; fun <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="algemene-events.html" class="nav-dropdown-link">Alle club &amp; fun events</a>
+                <a href="dinners.html" class="nav-dropdown-link">Dinners &amp; eetdagen</a>
+                <a href="algemene-events.html?type=Spelavond" class="nav-dropdown-link">Spelavonden &amp; acties</a>
+                <a href="algemene-events.html?type=Fuif" class="nav-dropdown-link">Fuif / afterparty</a>
+                <a href="algemene-events.html?type=Sponsor" class="nav-dropdown-link">Sponsor &amp; netwerk</a>
+              </div>
+            </div>
+
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Vacatures &amp; profielen <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="clubvacatures.html" class="nav-dropdown-link">Clubvacatures</a>
+                <a href="trainers.html" class="nav-dropdown-link">Trainers</a>
+                <a href="spelers.html" class="nav-dropdown-link">Spelers</a>
+              </div>
+            </div>
+
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Sportief <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="sportief-spelers.html" class="nav-dropdown-link">Spelersstatistieken</a>
+                <a href="sportief-teams.html" class="nav-dropdown-link">Teamstatistieken</a>
+                <a href="sportief-resultaten.html" class="nav-dropdown-link">Resultaten</a>
+                <a href="sportief-rangschikkingen.html" class="nav-dropdown-link">Rangschikkingen</a>
+                <a href="sportief-teams-in-de-kijker.html" class="nav-dropdown-link">Team/Medewerker in de kijker</a>
+                <a href="sportief-supportersclubs.html" class="nav-dropdown-link">Supportersclubs</a>
+              </div>
+            </div>
+
+            <div class="nav-item nav-item--dropdown">
+              <button type="button" class="nav-link nav-link--dropdown">
+                Voetbal4All <span class="nav-link-caret">▾</span>
+              </button>
+              <div class="nav-dropdown">
+                <a href="gebruiksvoorwaarden.html" class="nav-dropdown-link">Gebruiksvoorwaarden</a>
+                <a href="privacyverklaring.html" class="nav-dropdown-link">Privacyverklaring</a>
+                <a href="contact.html" class="nav-dropdown-link">Contact</a>
+              </div>
+            </div>
+          </nav>
+
+          <a href="adverteren.html" class="nav-cta">
+            <span>Adverteer nu</span>
+            <span>Sponsor &amp; Ads</span>
+          </a>
+
+          <button class="nav-burger" aria-label="Menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- LIVE BANNER -->
+    <section class="live-banner-top">
+      <div class="shell">
+        <div class="live-banner">
+          <div class="live-label">
+            <span class="live-dot"></span>
+            Live resultaten
+          </div>
+          <div class="live-text">
+            <span class="live-text-main"></span>
+            <div class="live-updated"></div>
+          </div>
+          <div class="live-socials" aria-label="Volg Voetbal4All op social media">
+            <div class="live-socials-label">Volg ons</div>
+            <div class="live-socials-icons"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section-main" style="padding-top:10px;">
+        <div class="shell">
+
+          <div class="card" style="margin-bottom:12px;">
+            <div class="card-header">
+              <div>
+                <div class="card-caption">Event detail</div>
+                <div class="card-title" id="ev-title">Event</div>
+              </div>
+              <span class="pill-small" id="ev-pill">Sportieve events</span>
+            </div>
+
+            <p class="note" id="ev-meta" style="margin-top:6px;"></p>
+
+            <div id="ev-premium" style="display:none; margin-top:10px;">
+              <span class="pill-small">Premium</span>
+            </div>
+
+            <div class="ad-card-actions" style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="events.html" class="btn-ghost-sm">← Terug naar events</a>
+              <a href="#" class="btn-ghost-sm" id="ev-share">Delen</a>
+              <button type="button" class="btn-ghost-sm" id="ev-contact">Inschrijven / contact</button>
+            </div>
+
+            <div class="ad-card-body" style="margin-top:12px;">
+              <div id="ev-desc"></div>
+              <div id="ev-extra" style="margin-top:10px;"></div>
+            </div>
+
+            <p id="ev-status" class="note" style="margin-top:10px; display:none;"></p>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer-contact">
+      <div class="shell">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div>Voetbal4All · voor spelers, ouders, trainers en clubs.</div>
+            <div class="footer-legal">
+              &copy; <span id="year"></span> Voetbal4All. Alle rechten voorbehouden.
+            </div>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/voetbal4all" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+              <a href="https://www.instagram.com/voetbal.4.all/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+              <a href="https://www.tiktok.com/@voetbal4all.eu" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
+            </div>
+          </div>
+          <div class="footer-ad">
+            FOOTER ADVERTENTIE / PARTNERLOGO<br>
+            <span class="ad-size">Footer-banner</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const API_BASE = "https://voetbal4all-backend-database.onrender.com";
+
+    const titleEl = document.getElementById("ev-title");
+    const metaEl  = document.getElementById("ev-meta");
+    const descEl  = document.getElementById("ev-desc");
+    const extraEl = document.getElementById("ev-extra");
+    const statusEl = document.getElementById("ev-status");
+    const premiumEl = document.getElementById("ev-premium");
+
+    const shareA = document.getElementById("ev-share");
+    const contactBtn = document.getElementById("ev-contact");
+
+    function fmtDateTime(iso){
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return "";
+      return d.toLocaleString("nl-BE", {
+        day: "2-digit", month: "long", year: "numeric",
+        hour: "2-digit", minute: "2-digit"
+      });
+    }
+
+    function typeLabel(t){
+      const x = String(t || "").toLowerCase();
+      if (x === "tournament" || x === "tornooi") return "Tornooi";
+      if (x === "friendly" || x === "vriendschappelijk") return "Vriendschappelijk";
+      if (x === "stage") return "Stage";
+      if (x === "camp" || x === "voetbalkamp") return "Voetbalkamp";
+      return t || "";
+    }
+
+    function getSlug(){
+      const params = new URLSearchParams(location.search);
+      return params.get("slug") || "";
+    }
+
+    async function loadEvent(){
+      const slug = getSlug();
+      if (!slug) {
+        statusEl.style.display = "block";
+        statusEl.textContent = "Geen event geselecteerd. Gebruik ?slug=...";
+        return;
+      }
+
+      try {
+        const res = await fetch(`${API_BASE}/api/events/slug/${encodeURIComponent(slug)}?nocache=1`);
+        const data = await res.json();
+
+        if (!data || !data.ok || !data.item) throw new Error("Bad response");
+
+        const ev = data.item;
+
+        document.title = (ev.title ? ev.title + " – Voetbal4All" : "Event – Voetbal4All");
+        titleEl.textContent = ev.title || "Event";
+
+        const parts = [];
+        const t = typeLabel(ev.event_type);
+        if (t) parts.push(t);
+        if (ev.start_at) parts.push(fmtDateTime(ev.start_at));
+        if (ev.city || ev.country) parts.push([ev.city, ev.country].filter(Boolean).join(" · "));
+        metaEl.textContent = parts.join(" · ");
+
+        // premium marker (UI behouden; later koppelen we status/Stripe)
+        if (ev.is_premium) premiumEl.style.display = "block";
+
+        // description + extra
+        descEl.textContent = ev.description || "";
+
+        const extras = [];
+        if (ev.location_name) extras.push(`<div><strong>Locatie:</strong> ${ev.location_name}</div>`);
+        if (ev.address) extras.push(`<div><strong>Adres:</strong> ${ev.address}</div>`);
+        if (ev.organizer_name) extras.push(`<div><strong>Organisator:</strong> ${ev.organizer_name}</div>`);
+        if (ev.organizer_email) extras.push(`<div><strong>E-mail:</strong> ${ev.organizer_email}</div>`);
+        if (ev.organizer_phone) extras.push(`<div><strong>Telefoon:</strong> ${ev.organizer_phone}</div>`);
+        if (ev.organizer_url) extras.push(`<div><strong>Website:</strong> ${ev.organizer_url}</div>`);
+        extraEl.innerHTML = extras.join("");
+
+        // Share link (Facebook)
+        const url = location.origin + location.pathname + "?slug=" + encodeURIComponent(slug);
+        shareA.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+        shareA.target = "_blank";
+        shareA.rel = "noopener noreferrer";
+
+        // Contact (mailto)
+        contactBtn.onclick = () => {
+          const ok = confirm("Door verder te gaan, ga je akkoord dat jouw e-mailadres gebruikt wordt om te reageren via Voetbal4All.");
+          if (!ok) return;
+
+          const email = prompt("Vul je e-mailadres in zodat de organisator je kan contacteren:");
+          if (!email) return alert("E-mailadres is nodig om te kunnen reageren.");
+
+          const subject = encodeURIComponent("Reactie via Voetbal4All – " + (ev.title || "Event"));
+          const body = encodeURIComponent(
+            "Event: " + (ev.title || "") +
+            "\nSlug: " + slug +
+            "\n\nE-mailadres: " + email +
+            "\n\nBericht:\n(Voeg je bericht toe.)"
+          );
+
+          location.href = "mailto:voetbal4all@outlook.com?subject=" + subject + "&body=" + body;
+        };
+
+      } catch (e) {
+        console.error("[EVENT] load failed", e);
+        statusEl.style.display = "block";
+        statusEl.textContent = "Event kon niet geladen worden.";
+      }
+    }
+
+    loadEvent();
+  </script>
+
+  <script src="assets/js/nav-mobile.js"></script>
+  <script src="assets/js/live-banner.js"></script>
+</body>
+</html>
