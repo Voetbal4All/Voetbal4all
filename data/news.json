@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-01-04T21:21:59.495Z",
+  "generatedAt": "2026-01-04T22:23:43.360Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Dembélé voltooit snelle herstelwerkzaamheden voor PSG in Parijse derby",
-      "link": "https://www.vi.nl/nieuws/vi-live-demb-l-voltooit-snelle-herstelwerkzaamheden-voor-psg-in-parijse-derby",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
-      "publishedAt": "2026-01-04T21:04:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neville: Amorim not happy with hierarchy | Carra: He's not good enough",
-      "link": "https://www.skysports.com/football/news/12040/13490479/gary-neville-ruben-amorim-sounds-unhappy-with-manchester-united-hierarchy-jamie-carragher-hes-not-good-enough",
-      "summary": "Gary Neville belives Ruben Amorim's recent comments to the media are a signal that the Manchester United boss is not happy with the Old Trafford hierarchy.",
-      "publishedAt": "2026-01-04T21:00:00.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -32,7 +10,7 @@
       "title": "Amorim hits out: I'm Utd manager, not the coach",
       "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
       "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
-      "publishedAt": "2026-01-04T20:57:37.000Z"
+      "publishedAt": "2026-01-04T22:15:11.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +21,7 @@
       "title": "Sources: Rosenior in London, close to Chelsea job",
       "link": "https://www.espn.com/soccer/story/_/id/47503955/liam-rosenior-arrives-london-edges-chelsea-job-enzo-maresca",
       "summary": "Chelsea are moving closer to the appointment of Liam Rosenior as their new head coach after the 41-year-old arrived in London on Sunday, sources have told ESPN.",
-      "publishedAt": "2026-01-04T20:57:37.000Z"
+      "publishedAt": "2026-01-04T22:15:11.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +29,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Managerless Chelsea hold City to late draw",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740792",
-      "summary": "Enzo Fernández grabbed a stoppage-time equaliser as managerless Chelsea snatched a 1-1 draw at title-chasing Manchester City.",
-      "publishedAt": "2026-01-04T20:57:37.000Z"
+      "title": "City injuries worry Pep: Gvardiol 'doesn't look good'",
+      "link": "https://www.espn.com/soccer/story/_/id/47504035/manchester-city-injuries-concerning-pep",
+      "summary": "Pep Guardiola said he has \"concerns\" after a number of defenders suffered injuries in a 1-1 draw with Chelsea in the Premier League on Sunday.",
+      "publishedAt": "2026-01-04T22:15:11.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +40,98 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Kameroen treft Marokko in kwartfinale na nipte zege op Zuid-Afrika",
-      "link": "https://www.vi.nl/nieuws/kameroen-treft-marokko-in-kwartfinale-na-nipte-zege-op-zuid-afrika",
-      "summary": "Kameroen wordt in de kwartfinale van de Afrika Cup de tegenstander van Marokko. Zondagavond rekende het land van sterspeler Bryan Mbeumo af met Zuid-Afrika, met dank aan een oude plaaggeest van PSV.",
-      "publishedAt": "2026-01-04T20:53:04.000Z"
+      "title": "Oranje-opponent Tunesië ontslaat bondscoach en staf na uitschakeling Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/oranje-opponent-tunesi-ontslaat-bondscoach-na-uitschakeling-afrika-cup",
+      "summary": "De Tunesische voetbalbond heeft bondscoach Sami Trabelsi per direct ontslagen, kort na de uitschakeling van het land in de achtste finale van de Afrika Cup tegen Mali. Die geruchten deden al de ronde.",
+      "publishedAt": "2026-01-04T22:14:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Blessurezorgen bij Man City: 'En weten van Aké dat hij niet alles kan spelen'",
+      "link": "https://www.vi.nl/nieuws/blessurezorgen-bij-man-city-en-weten-van-ak-dat-hij-niet-alles-kan-spelen",
+      "summary": "Manchester City verspeelde zondag kostbare punten in de Engelse titelstrijd, maar nog pijnlijker was misschien wel het uitvallen van Rúben Dias en Josko Gvardiol. Betekent dat voor Nathan Aké dé kans om zich weer in het team te spelen? Manager Pep Guardiola bleef er wat vaag over.",
+      "publishedAt": "2026-01-04T22:05:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Atlético Madrid verspeelt dure punten in La Liga",
+      "link": "https://www.vi.nl/nieuws/atl-tico-madrid-verspeelt-dure-punten-in-la-liga",
+      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
+      "publishedAt": "2026-01-04T22:03:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Na 53 jaar wint Paris Saint-Germain de zeldzame Parijse derby in de Ligue 1",
+      "link": "https://www.vi.nl/nieuws/na-53-jaar-wint-paris-saint-germain-de-zeldzame-parijse-derby-in-de-ligue-1",
+      "summary": "Paris Saint-Germain heeft de zeldzame Parijse derby in de Ligue 1 gewonnen van Paris FC. Heel even leek het erop dat de promovendus gelijk kon spelen tegen de Franse regerend landskampioen, maar toen was daar Ousmane Dembélé.",
+      "publishedAt": "2026-01-04T21:55:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Inter herovert koppositie in Serie A, Fiorentina van laatste plek af",
+      "link": "https://www.vi.nl/nieuws/inter-herovert-koppositie-in-serie-a-fiorentina-van-laatste-plek-af",
+      "summary": "Fiorentina heeft zondag de laatste plek in de Serie A verlaten. In de strijd tegen degradatie pakte de ploeg van Paolo Vanoli drie cruciale punten tegen promovendus Cremonese. Daarvoor moesten de fans wel wachten tot de blessuretijd.",
+      "publishedAt": "2026-01-04T21:43:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tension growing between Amorim and Man Utd hierarchy",
+      "link": "https://www.skysports.com/football/news/12040/13490487/ruben-amorim-at-man-utd-growing-tension-between-head-coach-and-club-hierarchy-including-director-of-football-jason-wilcox",
+      "summary": "There is growing tension between Ruben Amorim and the hierarchy at Manchester United, including director of football Jason Wilcox.",
+      "publishedAt": "2026-01-04T21:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liam Rosenior arrives in London to discuss taking over as Chelsea manager",
+      "link": "https://www.theguardian.com/football/2026/jan/04/liam-rosenior-arrives-in-london-to-discuss-taking-over-as-chelsea-manager",
+      "summary": "Strasbourg manager, 41, to have talks on Monday He could be in place before Wednesday’s game at Fulham Chelsea are closing in on the appointment of Liam Rosenior after the Strasbourg manager flew to London to hold talks over the role. The 41-year-old is due to meet with the west London club on Monday and it is expected that discussions will end with him agreeing to replace Enzo Maresca, who left Stamford Bridge in acrimonious circumstances earlier this week. Continue reading...",
+      "publishedAt": "2026-01-04T21:27:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Neville: Amorim not happy with hierarchy | Carra: He's not good enough",
+      "link": "https://www.skysports.com/football/news/12040/13490479/gary-neville-ruben-amorim-sounds-unhappy-with-manchester-united-hierarchy-jamie-carragher-hes-not-good-enough",
+      "summary": "Gary Neville believes Ruben Amorim's recent comments to the media are a signal that the Manchester United boss is not happy with the Old Trafford hierarchy.",
+      "publishedAt": "2026-01-04T21:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Taylor banned from PDC events and prize money removed after failed drugs test",
+      "link": "https://www.skysports.com/darts/news/12040/13490511/dom-taylor-banned-from-all-pdc-events-and-world-darts-championship-prize-money-removed-after-failed-drugs-test",
+      "summary": "Dom Taylor has been banned from all PDC events following his failed drugs test, the Darts Regulation Authority (DRA) have confirmed, while he has also been stripped of his World Darts Championship prize money.",
+      "publishedAt": "2026-01-04T20:56:00.000Z"
     },
     {
       "type": "rss",
@@ -91,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Hattrickheld García snapt geringe Real-speeltijd: 'Mbappé is de beste ter wereld'",
-      "link": "https://www.vi.nl/nieuws/gonzalo-garc-a-snapt-dat-hij-de-back-up-van-mbapp-is-bij-real-madrid",
-      "summary": "Gonzalo García snapt goed dat hij de back-up is van Kylian Mbappé bij Real Madrid. De hattrickheld van deze zondag schoot zichzelf tegen Real Betis in een rijtje met onder meer Ronaldo Nazario en Ruud van Nistelrooij.",
-      "publishedAt": "2026-01-04T20:27:22.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -113,17 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Beloftencoach Chelsea bejubelt punt bij City en 'ruimt veld meteen voor opvolger'",
-      "link": "https://www.vi.nl/nieuws/beloftencoach-chelsea-bejubelt-punt-bij-city-en-ruimt-veld-meteen-voor-opvolger",
-      "summary": "Calum McFarlane beleefde zondag een bijzondere dag. Normaal coacht hij de beloften van Chelsea, maar na het ontslag van Enzo Maresca mocht hij het plots met de hoofdmacht opnemen tegen Manchester City . En daar lijkt het ook meteen bij te blijven.",
-      "publishedAt": "2026-01-04T20:23:54.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -132,17 +176,6 @@
       "link": "https://www.bbc.com/sport/football/videos/c931pyl797wo?at_medium=RSS&at_campaign=rss",
       "summary": "Enzo Fernandez scores a stoppage-time equaliser as Chelsea end a tumultuous week by claiming a worthy Premier League point at title-chasing Manchester City.",
       "publishedAt": "2026-01-04T20:06:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Inter zoekt vervanger voor Dumfries en komt uit bij João Cancelo",
-      "link": "https://www.vi.nl/nieuws/inter-zoekt-vervanger-voor-dumfries-en-komt-uit-bij-jo-o-cancelo",
-      "summary": "Internazionale gaat haar best doen om een vervanger te halen voor Denzel Dumfries. President Beppe Marotta legt uit dat de Nederlander nog wel een poos uit de roulatie is en dat de Champions League-finalist van vorig seizoen daarom kijkt naar alternatieven. João Cancelo lijkt een voorname kandidaat om terug te keren naar het Estadio Giuseppe Meazza.",
-      "publishedAt": "2026-01-04T20:05:37.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/clye34v4y3xo?at_medium=RSS&at_campaign=rss",
       "summary": "Harrison Reed's superb 97th-minute equaliser earns the hosts a dramatic point, cancelling out Cody Gakpo's goal from just three minutes earlier, as Fulham deny a Liverpool comeback in a Premier League thriller.",
       "publishedAt": "2026-01-04T19:59:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fernández stuns Manchester City with late equaliser for managerless Chelsea",
-      "link": "https://www.theguardian.com/football/2026/jan/04/manchester-city-chelsea-premier-league-match-report",
-      "summary": "It would have been easy for Pep Guardiola and Manchester City to think that this was a good time to face Chelsea. The London club had crashed in December, their Premier League form awful and the rising tensions between Enzo Maresca and the board would explode on New Year’s Eve. There have not been many managerial changes on the very first day of a year and this one left Calum McFarlane, the club’s under-21 coach, thrust in as the interim manager. Never before had he taken charge of a single senior game. Continue reading...",
-      "publishedAt": "2026-01-04T19:56:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Enzo Fernandez grabs stoppage-time equaliser as Man City slip up in title race!",
-      "link": "https://www.skysports.com/watch/video/13490498/manchester-city-1-1-chelsea-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Manchester City’s match against Chelsea in the Premier League.",
-      "publishedAt": "2026-01-04T19:51:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City pegged back by managerless Chelsea as more ground lost in title race",
-      "link": "https://www.skysports.com/football/manchester-city-vs-chelsea/report/531325",
-      "summary": "Manchester City lost more ground on Premier League leaders Arsenal after Enzo Fernandez rescued a late 1-1 draw for managerless Chelsea at a snowy Etihad Stadium.",
-      "publishedAt": "2026-01-04T19:45:00.000Z"
     }
   ]
 }
