@@ -173,16 +173,15 @@
         <div class="shell">
           <div class="premium-layout" style="display:grid; grid-template-columns: minmax(0, 920px) 300px; gap:24px; align-items:start; justify-content:center;">
             <article class="card" style="max-width:920px; margin:0;">
-            <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
-              <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" style="height:56px;" />
-              <div style="font-size:20px; font-weight:700; line-height:1.2; text-align:center;">
-                <span style="display:inline-flex; align-items:center; gap:10px;">
-                  <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" style="height:28px;" />
-                  <span>dankt u voor uw aankoop.</span>
-                </span>
-              </div>
-              <div style="font-size:14px; opacity:.9; text-align:center;">
-                Voor iedereen met een hart voor voetbal.
+            <div style="display:flex; align-items:center; gap:16px; width:100%;">
+              <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" style="height:64px;" />
+              <div>
+                <div style="font-size:24px; font-weight:700; line-height:1.2;">
+                  bedankt voor uw aankoop.
+                </div>
+                <div style="font-size:14px; opacity:.9;">
+                  Voor iedereen met een hart voor voetbal.
+                </div>
               </div>
             </div>
 
@@ -198,8 +197,13 @@
                 <br>
                 Event-ID: <span id="ps-event-id">—</span>
               </div>
-              <div class="note" style="margin:6px 0 0 0;">
-                Tip: bewaar deze pagina of kopieer de link als bewijs.
+              <div class="note" style="margin:6px 0 0 0; display:flex; align-items:center; gap:8px;">
+                <button class="live-social" type="button" onclick="window.print()" aria-label="Pagina afdrukken">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 9V2h12v7H6Zm11 9v-5H7v5h10Zm1-7H6a3 3 0 0 0-3 3v4h3v4h12v-4h3v-4a3 3 0 0 0-3-3Z"/>
+                  </svg>
+                </button>
+                <span style="font-size:13px; opacity:.85;">Print deze pagina als bewijs</span>
               </div>
             </div>
 
@@ -210,6 +214,10 @@
 
             <!-- Nieuwe deelblok socials -->
             <div class="card" style="margin-top:18px; padding:12px;">
+              <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                <img src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" style="height:20px;" />
+                <span style="font-size:13px; opacity:.9;">Voor iedereen met een hart voor voetbal</span>
+              </div>
               <div class="card-title" style="margin-bottom:8px;">Deel dit event op jouw socials</div>
               <div class="live-socials" style="display:flex; flex-direction:row; justify-content:flex-start; align-items:center; gap:14px; flex-wrap:wrap;">
                 <a class="live-social" id="share-fb" aria-label="Facebook" target="_blank" rel="noopener">
@@ -247,10 +255,13 @@
             </div>
             </article>
             <aside class="premium-sticky-ad" style="position:sticky; top:140px; width:300px; z-index:20;">
-              <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-4062633211824348"
-                data-ad-slot="3518144343"></ins>
+              <div style="min-height:250px; background:rgba(255,255,255,0.03); border:1px dashed rgba(255,255,255,0.15); display:flex; align-items:center; justify-content:center; color:#9fbad1; font-size:12px; flex-direction:column;">
+                Advertentieruimte (300×250)
+                <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4062633211824348"
+                  data-ad-slot="3518144343"></ins>
+              </div>
               <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             </aside>
           </div>
