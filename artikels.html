@@ -298,7 +298,7 @@
 
     // Backend endpoints
     const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-    const NEWS_URL = IMG_BASE + "/api/news?nocache=1";
+    const NEWS_URL = IMG_BASE + "/api/news?limit=200&nocache=1";
 
     const articleList = document.getElementById("article-list");
     const newsStatus = document.getElementById("news-status");
@@ -310,6 +310,9 @@
     const articleFilterCategory = document.getElementById("article-filter-category");
 
     let allItems = [];
+    let filteredItems = [];       // ✅ nieuw: huidige filterresultaat
+    let currentPage = 1;          // ✅ nieuw
+    const PAGE_SIZE = 50;         // ✅ nieuw
 
     function safe(s){ return (s ?? "").toString(); }
     function norm(s){ return safe(s).toLowerCase().trim(); }
@@ -481,6 +484,8 @@
 
     function applyFilters(){
       const q = norm(articleSearchText.value);
+      // ✅ bij nieuwe filter/search altijd terug naar pagina 1
+      currentPage = 1;
       const cRaw = articleFilterCountry?.value || "";
       const catRaw = articleFilterCategory?.value || "";
 
@@ -504,12 +509,15 @@
         return true;
       });
 
+      filteredItems = filtered; // ✅ bewaren voor paginatie
+      const total = filteredItems.length;
+
       articleList.innerHTML = "";
-      const countLabel = filtered.length ? (filtered.length + " artikels") : "0 artikels";
+      const countLabel = total ? (total + " artikels") : "0 artikels";
       newsCountTop.textContent = countLabel;
       newsCountTop2.textContent = countLabel;
 
-      if (!filtered.length){
+      if (!total){
         newsStatus.style.display = "block";
         newsStatus.textContent = "Geen artikels gevonden met deze filters.";
         return;
@@ -517,10 +525,18 @@
         newsStatus.style.display = "none";
       }
 
-      filtered.forEach((a, i) => {
+      // ✅ paginatie: clamp huidige pagina
+      const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+      if (currentPage > totalPages) currentPage = totalPages;
+      if (currentPage < 1) currentPage = 1;
+
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const pageItems = filteredItems.slice(start, start + PAGE_SIZE);
+
+      pageItems.forEach((a, i) => {
         articleList.insertAdjacentHTML("beforeend", renderCard(a));
 
-        // In-feed ads
+        // In-feed ads (per pagina)
         if (i === 5) {
           articleList.insertAdjacentHTML("beforeend", renderAdInfeed("5761272101"));
           try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
@@ -530,6 +546,22 @@
           try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
         }
       });
+
+      // ✅ paginatie UI onderaan
+      articleList.insertAdjacentHTML("beforeend", `
+        <div class="card" style="margin-top:12px;">
+          <div style="display:flex; gap:10px; align-items:center; justify-content:space-between; flex-wrap:wrap;">
+            <button class="btn-ghost-sm" id="pg-prev" ${currentPage === 1 ? "disabled" : ""}>Vorige</button>
+            <div class="note" style="margin:0;">Pagina <strong>${currentPage}</strong> / ${totalPages}</div>
+            <button class="btn-ghost-sm" id="pg-next" ${currentPage === totalPages ? "disabled" : ""}>Volgende</button>
+          </div>
+        </div>
+      `);
+
+const btnPrev = document.getElementById("pg-prev");
+const btnNext = document.getElementById("pg-next");
+if (btnPrev) btnPrev.onclick = () => { currentPage = Math.max(1, currentPage - 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+if (btnNext) btnNext.onclick = () => { currentPage = Math.min(totalPages, currentPage + 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
     }
 
     async function loadNews(){
@@ -543,14 +575,6 @@
         // 2) [ ... ]
         allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
         allItems = dedupeById(allItems);
-
-        // ✅ Toon nieuwe artikels pas als ze "ready" zijn.
-        // ✅ Laat oude artikels (zonder status) wél zichtbaar.
-        allItems = allItems.filter(a => {
-          const st = (a.status || a.imageStatus || "").toString().toLowerCase().trim();
-          if (st) return st === "ready";
-          return true;
-        });
 
         // sort newest first
         allItems.sort((a,b) => {
