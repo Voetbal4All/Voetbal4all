@@ -223,6 +223,9 @@
                     <!-- gevuld via backend -->
                   </div>
 
+                  <!-- PAGINATIE -->
+                  <div id="pagination" style="margin-top:12px;"></div>
+
                   <p id="news-status" class="note" style="margin-top:10px; display:none;"></p>
                 </div>
               </section>
@@ -304,6 +307,7 @@
     const newsStatus = document.getElementById("news-status");
     const newsCountTop = document.getElementById("news-count");
     const newsCountTop2 = document.getElementById("news-count-2");
+    const paginationEl = document.getElementById("pagination");
 
     const articleSearchText = document.getElementById("article-search-text");
     const articleFilterCountry = document.getElementById("article-filter-country");
@@ -518,6 +522,7 @@
       if (!total){
         newsStatus.style.display = "block";
         newsStatus.textContent = "Geen artikels gevonden met deze filters.";
+        if (paginationEl) paginationEl.innerHTML = "";
         return;
       } else {
         newsStatus.style.display = "none";
@@ -545,21 +550,37 @@
         }
       });
 
-      // ✅ paginatie UI onderaan
-      articleList.insertAdjacentHTML("beforeend", `
-        <div class="card" style="margin-top:12px;">
-          <div style="display:flex; gap:10px; align-items:center; justify-content:space-between; flex-wrap:wrap;">
-            <button class="btn-ghost-sm" id="pg-prev" ${currentPage === 1 ? "disabled" : ""}>Vorige</button>
-            <div class="note" style="margin:0;">Pagina <strong>${currentPage}</strong> / ${totalPages}</div>
-            <button class="btn-ghost-sm" id="pg-next" ${currentPage === totalPages ? "disabled" : ""}>Volgende</button>
+      // ✅ paginatie UI onderaan (buiten #article-list zodat ads/cards het niet kunnen overlappen)
+      if (paginationEl) {
+        paginationEl.innerHTML = `
+          <div class="card">
+            <div style="display:flex; gap:10px; align-items:center; justify-content:space-between; flex-wrap:wrap;">
+              <button class="btn-ghost-sm" id="pg-prev" ${currentPage === 1 ? "disabled" : ""}>Vorige</button>
+              <div class="note" style="margin:0;">Pagina <strong>${currentPage}</strong> / ${totalPages}</div>
+              <button class="btn-ghost-sm" id="pg-next" ${currentPage === totalPages ? "disabled" : ""}>Volgende</button>
+            </div>
           </div>
-        </div>
-      `);
+        `;
 
-      const btnPrev = document.getElementById("pg-prev");
-      const btnNext = document.getElementById("pg-next");
-      if (btnPrev) btnPrev.onclick = () => { currentPage = Math.max(1, currentPage - 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
-      if (btnNext) btnNext.onclick = () => { currentPage = Math.min(totalPages, currentPage + 1); applyFilters(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+        const btnPrev = document.getElementById("pg-prev");
+        const btnNext = document.getElementById("pg-next");
+
+        if (btnPrev) {
+          btnPrev.onclick = () => {
+            currentPage = Math.max(1, currentPage - 1);
+            applyFilters();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          };
+        }
+
+        if (btnNext) {
+          btnNext.onclick = () => {
+            currentPage = Math.min(totalPages, currentPage + 1);
+            applyFilters();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          };
+        }
+      }
           }
 
     async function loadNews(){
@@ -591,9 +612,9 @@
       }
     }
 
-    articleSearchText.addEventListener("input", applyFilters);
-    articleFilterCountry.addEventListener("change", applyFilters);
-    articleFilterCategory.addEventListener("change", applyFilters);
+    articleSearchText.addEventListener("input", () => { currentPage = 1; applyFilters(); });
+    articleFilterCountry.addEventListener("change", () => { currentPage = 1; applyFilters(); });
+    articleFilterCategory.addEventListener("change", () => { currentPage = 1; applyFilters(); });
 
     loadNews();
   </script>
