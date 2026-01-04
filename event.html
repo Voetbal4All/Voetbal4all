@@ -31,6 +31,11 @@
       background:#16a34a; color:#fff; border:0; border-radius:10px; padding:10px 14px;
       cursor:pointer; font-weight:700;
     }
+
+    /* Share icons: same visual style as live-score banner, but not managed by live-banner.js */
+    .share-socials { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+    .share-socials-label { font-weight:700; letter-spacing:.08em; text-transform:uppercase; opacity:.85; font-size:12px; }
+    .share-socials-icons { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
   </style>
 </head>
 
@@ -219,9 +224,9 @@
             <div class="ad-card-actions" style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
               <a href="events.html" class="btn-ghost-sm">← Terug naar events</a>
 
-              <div class="live-socials" aria-label="Deel dit event" style="gap:10px; align-items:center;">
-                <div class="live-socials-label" style="margin-right:2px;">Delen</div>
-                <div class="live-socials-icons">
+              <div class="share-socials" aria-label="Deel dit event" style="gap:10px; align-items:center;">
+                <div class="share-socials-label" style="margin-right:2px;">Delen</div>
+                <div class="share-socials-icons">
                   <a class="live-social-link" id="share-fb" href="#" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H8v3h3v7h3v-7h3l1-3h-4V9c0-.6.4-1 1-1z" />
