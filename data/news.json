@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-04T04:12:17.733Z",
+  "generatedAt": "2026-01-04T05:29:00.764Z",
   "items": [
     {
       "type": "rss",
@@ -33,28 +33,6 @@
       "link": "https://www.bbc.co.uk/iplayer/episode/m002pkq7?at_medium=RSS&at_campaign=rss",
       "summary": "Highlights of four games on the first Saturday of 2026, including Bournemouth v Arsenal.",
       "publishedAt": "2026-01-03T23:32:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ball-by-ball Ashes updates: England face Australia in final Test at SCG",
-      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/e193bc29-ab16-5fcc-a232-49969e7b26c5",
-      "summary": "",
-      "publishedAt": "2026-01-03T23:25:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Scorecard: Australia vs England, fifth Ashes Test, Sydney",
-      "link": "https://www.skysports.com/cricket/australia-v-england/scorecard/e193bc29-ab16-5fcc-a232-49969e7b26c5",
-      "summary": "",
-      "publishedAt": "2026-01-03T23:25:00.000Z"
     },
     {
       "type": "rss",
@@ -220,6 +198,28 @@
       "link": "https://www.bbc.com/sport/football/videos/c2lg1n9j7qwo?at_medium=RSS&at_campaign=rss",
       "summary": "John McGinn gets two goals and Ollie Watkins scores on his 250th appearance for Aston Villa, inflicting a fourth straight league defeat upon Nottingham Forest.",
       "publishedAt": "2026-01-03T20:00:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brighton end winless spell with victory over Burnley",
+      "link": "https://www.bbc.com/sport/football/videos/cp80ne7l0e9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Brighton end their six-game winless run with a comfortable victory over struggling Burnley in the Premier League.",
+      "publishedAt": "2026-01-03T20:00:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wolves beat West Ham to earn first league win of the season",
+      "link": "https://www.bbc.com/sport/football/videos/ckgj2nvzlklo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wolves secure a first Premier League win of the season at the 20th attempt as they make light work of fellow strugglers West Ham at Molineux.",
+      "publishedAt": "2026-01-03T20:00:12.000Z"
     }
   ]
 }
