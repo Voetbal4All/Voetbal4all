@@ -13,32 +13,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Share icons – match live-score banner styling (green outline bubbles, green icons) */
-    .share-live{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
-
-    /* Reuse live-banner look: subtle green background, green border, green icon */
-    .share-live .live-socials-icons{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
-
-    .share-live .live-social-link{
-      width:42px;height:42px;
-      display:inline-flex;align-items:center;justify-content:center;
-      border-radius:999px;
-      background:rgba(22,163,74,0.14);
-      border:1px solid rgba(22,163,74,0.55);
-      box-shadow:0 8px 22px rgba(0,0,0,0.22);
-      color:#16a34a;
-      text-decoration:none;
-      cursor:pointer;
-      transition:transform .12s ease, filter .12s ease, background .12s ease, border-color .12s ease;
-    }
-    .share-live .live-social-link:hover{filter:brightness(1.05);transform:translateY(-1px);background:rgba(22,163,74,0.18);border-color:rgba(22,163,74,0.7);}
-    .share-live .live-social-link:active{transform:translateY(0px);}
-
-    .share-live .live-social-link svg{width:20px;height:20px;display:block;}
-    .share-live .live-social-link svg *{fill:currentColor;stroke:none;}
-
-    .share-live .share-hint{margin-left:6px;}
-
     /* Media gallery */
     .ev-media { margin-top:12px; }
     .ev-media-grid { display:flex; gap:10px; flex-wrap:wrap; }
@@ -200,12 +174,30 @@
             <div class="card-header">
               <div>
                 <div class="card-caption">Event detail</div>
-                <div class="card-title" id="ev-title">Event</div>
               </div>
               <span class="pill-small" id="ev-pill">Sportieve events</span>
             </div>
 
-            <p class="note" id="ev-meta" style="margin-top:6px;"></p>
+            <!-- Flyer / foto's (klik om te vergroten) – bovenaan -->
+            <div class="ev-media" id="ev-media" style="display:none; margin-top:12px;">
+              <div class="note" style="margin:0 0 8px 0;">Flyer / foto's</div>
+              <div class="ev-media-grid" id="ev-media-grid"></div>
+            </div>
+
+            <!-- Titel onder flyer -->
+            <div class="card-title" id="ev-title" style="margin-top:10px;">Event</div>
+
+            <!-- Meta in vaste structuur (kalender, vlag, regio, stad, club) -->
+            <div class="note" id="ev-meta" style="margin-top:6px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+              <span style="display:inline-flex; align-items:center; gap:8px;">
+                <span aria-hidden="true" style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; border-radius:999px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.10);">📅</span>
+                <span id="ev-date"></span>
+              </span>
+              <span id="ev-flag" aria-label="Land" title="Land"></span>
+              <span id="ev-region" style="display:none;"></span>
+              <span id="ev-city" style="display:none;"></span>
+              <span id="ev-club" style="display:none;"></span>
+            </div>
 
             <!-- AD: In-card placement (above content) -->
             <div class="footer-ad" style="margin-top:10px;">
@@ -227,7 +219,8 @@
             <div class="ad-card-actions" style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
               <a href="events.html" class="btn-ghost-sm">← Terug naar events</a>
 
-              <div class="share-live" aria-label="Deel dit event">
+              <div class="live-socials" aria-label="Deel dit event" style="gap:10px; align-items:center;">
+                <div class="live-socials-label" style="margin-right:2px;">Delen</div>
                 <div class="live-socials-icons">
                   <a class="live-social-link" id="share-fb" href="#" target="_blank" rel="noopener noreferrer" aria-label="Deel op Facebook">
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -262,20 +255,12 @@
                     </svg>
                   </a>
                 </div>
-
-                <span class="note share-hint" style="margin:0;">Delen</span>
               </div>
 
               <button type="button" class="btn-ghost-sm" id="ev-contact">Inschrijven / contact</button>
             </div>
 
             <div class="ad-card-body" style="margin-top:12px;">
-              <!-- Flyer / foto's (klik om te vergroten) -->
-              <div class="ev-media" id="ev-media" style="display:none;">
-                <div class="note" style="margin:0 0 8px 0;">Flyer / foto's</div>
-                <div class="ev-media-grid" id="ev-media-grid"></div>
-              </div>
-
               <!-- Details -->
               <div id="ev-desc"></div>
               <div id="ev-extra" style="margin-top:10px;"></div>
@@ -365,6 +350,12 @@
     const statusEl = document.getElementById("ev-status");
     const premiumEl = document.getElementById("ev-premium");
 
+    const dateEl = document.getElementById("ev-date");
+    const flagEl = document.getElementById("ev-flag");
+    const regionEl = document.getElementById("ev-region");
+    const cityEl = document.getElementById("ev-city");
+    const clubEl = document.getElementById("ev-club");
+
     const contactBtn = document.getElementById("ev-contact");
 
     const shareFb = document.getElementById("share-fb");
@@ -396,6 +387,14 @@
       if (x === "stage") return "Stage";
       if (x === "camp" || x === "voetbalkamp") return "Voetbalkamp";
       return t || "";
+    }
+
+    function flagEmoji(countryCode){
+      const cc = String(countryCode || "").trim().toUpperCase();
+      if (!cc || cc.length !== 2) return "";
+      const A = 0x1F1E6;
+      const codePoints = [cc.charCodeAt(0) - 65 + A, cc.charCodeAt(1) - 65 + A];
+      try { return String.fromCodePoint(...codePoints); } catch(e) { return ""; }
     }
 
     function getSlug(){
@@ -506,12 +505,49 @@
         document.title = (ev.title ? ev.title + " – Voetbal4All" : "Event – Voetbal4All");
         titleEl.textContent = ev.title || "Event";
 
-        const parts = [];
+        // Structured meta
         const t = typeLabel(ev.event_type);
-        if (t) parts.push(t);
-        if (ev.start_at) parts.push(fmtDateTime(ev.start_at));
-        if (ev.city || ev.country) parts.push([ev.city, ev.country].filter(Boolean).join(" · "));
-        metaEl.textContent = parts.join(" · ");
+        const when = ev.start_at ? fmtDateTime(ev.start_at) : "";
+        if (dateEl) dateEl.textContent = [t, when].filter(Boolean).join(" · ");
+
+        const cc = ev.country || "";
+        const fe = flagEmoji(cc);
+        if (flagEl) {
+          flagEl.textContent = fe ? (fe + " " + cc.toUpperCase()) : (cc ? cc.toUpperCase() : "");
+        }
+
+        // Region (optional: use `region` if present; else fall back to `postal_code`)
+        const region = ev.region || ev.postal_code || "";
+        if (regionEl) {
+          if (region) {
+            regionEl.style.display = "inline";
+            regionEl.textContent = "Regio: " + region;
+          } else {
+            regionEl.style.display = "none";
+          }
+        }
+
+        // City
+        const city = ev.city || "";
+        if (cityEl) {
+          if (city) {
+            cityEl.style.display = "inline";
+            cityEl.textContent = "Stad: " + city;
+          } else {
+            cityEl.style.display = "none";
+          }
+        }
+
+        // Club (optional: use `club` if present; else fall back to `organizer_name`)
+        const club = ev.club || ev.organizer_name || "";
+        if (clubEl) {
+          if (club) {
+            clubEl.style.display = "inline";
+            clubEl.textContent = "Club: " + club;
+          } else {
+            clubEl.style.display = "none";
+          }
+        }
 
         // premium marker (UI behouden; later koppelen we status/Stripe)
         if (ev.is_premium) premiumEl.style.display = "block";
