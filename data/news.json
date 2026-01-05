@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-01-05T05:37:17.039Z",
+  "generatedAt": "2026-01-05T06:44:16.173Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Analytici zien dat Liverpool klaar is: 'Ze gaan niet meer verrassen'",
+      "link": "https://www.vi.nl/nieuws/analytici-zien-dat-liverpool-klaar-is-ze-gaan-niet-meer-verrassen",
+      "summary": "In Engeland verwacht men dat Liverpool geen rol van betekenis gaat spelen in de tweede seizoenshelft. Deze uitspraken werden gedaan door analytici na het gelijkspel van het team van Arne Slot tegen Fulham .",
+      "publishedAt": "2026-01-05T06:34:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSV op regenstage in Estepona: alles om dit seizoen wél constant te blijven",
+      "link": "https://www.vi.nl/pro/psv-op-regenstage-in-estepona-alles-om-dit-seizoen-wel-constant-te-blijven",
+      "summary": "STREAMERS: - ‘Zou het feit dat we niet op trainingskamp zijn gegaan hebben bijgedragen aan de mindere fase? Ik denk het niet, maar ik weet het niet.’ – Peter Bosz - ‘Als het langer duurt, ga je twijfelen. Toen heb ik op een gegeven moment gezegd: nee, dan blijf ik wel.’ – Joey Veerman - ‘Ik denk dat een vertrek in de zomer een beter moment is. Het zou leuk zijn om nog een ritje op de platte kar mee te maken.’ – Joey Veerman - ‘Als je een speler verkoopt, kun je die in de Champions League niet vervangen.’ – Earnest Stewart",
+      "publishedAt": "2026-01-05T06:28:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Steelers beat Ravens for final NFL playoff spot in dramatic finale",
+      "link": "https://www.skysports.com/nfl/news/12040/13490552/nfl-pittsburgh-steelers-beat-baltimore-ravens-26-24-to-clinch-afc-north-title-and-final-playoff-place",
+      "summary": "Aaron Rodgers threw a go-ahead touchdown pass to Calvin Austin III with 55 seconds left as the Steelers beat the Ravens 26-24 when Baltimore's Tyler Loop missed a 44-yard field goal as time expired, giving Pittsburgh the AFC North title and ending the Ravens' season.",
+      "publishedAt": "2026-01-05T06:06:00.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -124,28 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Blessurezorgen bij Man City: 'En weten van Aké dat hij niet alles kan spelen'",
-      "link": "https://www.vi.nl/nieuws/blessurezorgen-bij-man-city-en-weten-van-ak-dat-hij-niet-alles-kan-spelen",
-      "summary": "Manchester City verspeelde zondag kostbare punten in de Engelse titelstrijd, maar nog pijnlijker was misschien wel het uitvallen van Rúben Dias en Josko Gvardiol. Betekent dat voor Nathan Aké dé kans om zich weer in het team te spelen? Manager Pep Guardiola bleef er wat vaag over.",
-      "publishedAt": "2026-01-04T22:05:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Atlético Madrid verspeelt dure punten in La Liga",
-      "link": "https://www.vi.nl/nieuws/atl-tico-madrid-verspeelt-dure-punten-in-la-liga",
-      "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
-      "publishedAt": "2026-01-04T22:03:34.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -187,17 +198,6 @@
       "link": "https://www.skysports.com/football/news/12040/13490479/gary-neville-ruben-amorim-sounds-unhappy-with-manchester-united-hierarchy-jamie-carragher-hes-not-good-enough",
       "summary": "Gary Neville believes Ruben Amorim's recent comments to the media are a signal that the Manchester United boss is not happy with the Old Trafford hierarchy.",
       "publishedAt": "2026-01-04T21:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Taylor banned from PDC events and prize money removed after failed drugs test",
-      "link": "https://www.skysports.com/darts/news/12040/13490511/dom-taylor-banned-from-all-pdc-events-and-world-darts-championship-prize-money-removed-after-failed-drugs-test",
-      "summary": "Dom Taylor has been banned from all PDC events following his failed drugs test, the Darts Regulation Authority (DRA) have confirmed, while he has also been stripped of his World Darts Championship prize money.",
-      "publishedAt": "2026-01-04T20:56:00.000Z"
     },
     {
       "type": "rss",
