@@ -1,16 +1,104 @@
 {
-  "generatedAt": "2026-01-05T14:28:27.135Z",
+  "generatedAt": "2026-01-05T15:28:21.117Z",
   "items": [
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ruben den Uil heeft goals nodig om te slagen voor zijn examen",
+      "link": "https://www.vi.nl/pro/ruben-den-uil-heeft-goals-nodig-om-te-slagen-voor-zijn-examen",
+      "summary": "Na een relatief korte winterstop gaat vrijdag de Eredivisie weer verder. Tot diep in maart is er elk weekeinde een speelronde. Met andere woorden: het cruciale deel van het seizoen gaat beginnen. In deze serie maken we bij elke club de balans op, waarbij we wat betreft de volgorde uitgaan van de eerste speelronde van 2026. Deze keer: Excelsior.",
+      "publishedAt": "2026-01-06T17:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bliksemontslag: Celtic neemt na acht duels afscheid van trainer",
+      "link": "https://www.vi.nl/nieuws/ommekeer-komt-er-niet-celtic-ontslaat-nancy",
+      "summary": "Wilfried Nancy claimde zelf dat een ommekeer heel dicht bij was , maar de kans daarop krijgt de trainer van Celtic niet. De Schotse club maakt maandag bekend afscheid te nemen van de Fransman.",
+      "publishedAt": "2026-01-05T15:20:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Utd sacked Amorim after Wilcox row",
-      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
-      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
-      "publishedAt": "2026-01-05T14:15:56.000Z"
+      "title": "Celtic sack manager Nancy after eight games",
+      "link": "https://www.bbc.com/sport/football/articles/ckgk9g2500no?at_medium=RSS&at_campaign=rss",
+      "summary": "Celtic sack manager Wilfried Nancy, with Saturday's 3-1 defeat by Rangers his sixth loss in just eight matches, with head of football operations Paul Tisdale also removed from his post.",
+      "publishedAt": "2026-01-05T15:17:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Duidelijke topkandidaat voor erfenis Amorim bij Man United'",
+      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-05T15:17:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ruben Amorim sacked by Manchester United and Darren Fletcher takes interim role – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/05/ruben-amorim-sacked-by-manchester-united-live-updates",
+      "summary": "Amorim sacked after losing power struggle over transfers Darren Fletcher to take charge for game at Burnley Have any thoughts? Send them to Dom via email 1. Ole Gunnar Solskjaer (2018-2021) – 54% win rate The Norwegian started off as a caretaker and his impact was so great that United granted him the full-time job. Undoubtedly the best football of the post-Ferguson era was played under Solskjaer, who preferred his side to counter-attack at speed and enjoyed a sensational record against Manchester City and Pep Guardiola, beating them three times at the Etihad. Came second in the league in 2020-201 but was denied an elusive trophy by the agonising 2021 Europa League final defeat to Villarreal on penalties. Continue reading...",
+      "publishedAt": "2026-01-05T15:16:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Celtic sack Nancy after 36 days",
+      "link": "https://www.skysports.com/football/news/12040/13490817/wilfried-nancy-celtic-sack-manager-after-36-days-in-charge-of-scottish-premiership-club",
+      "summary": "Wilfried Nancy has been sacked by Celtic after just 36 days in charge.",
+      "publishedAt": "2026-01-05T15:13:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax heeft in lege Johan Cruijff Arena geen kind aan Belgische oefentegenstander",
+      "link": "https://www.vi.nl/nieuws/ajax-maakt-in-lege-johan-cruijff-arena-gehakt-van-belgische-oefentegenstander",
+      "summary": "-",
+      "publishedAt": "2026-01-05T15:04:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle contact police after Willock receives racist abuse",
+      "link": "https://www.bbc.com/sport/football/articles/cx2knjd5l36o?at_medium=RSS&at_campaign=rss",
+      "summary": "Newcastle United contact the police after midfielder Joe Willock is the subject of \"disgusting\" racial abuse and \"deeply disturbing threats\" online.",
+      "publishedAt": "2026-01-05T15:00:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester United fan’s view: ‘Amorim out was inevitable … but I wish club had kept faith’",
+      "link": "https://www.theguardian.com/football/2026/jan/05/manchester-united-fan-view-ruben-amorim-out-inevitable",
+      "summary": "An Old Trafford season-ticket holder on why the club’s real problems go far deeper than the departing head coach Well, here we go again. The clown car called Manchester United just tooted its horn, backfired loudly and threw its latest driver out on to Sir Matt Busby Way. Darren Fletcher is now at the wheel, where Ruben, Ole and so many others have been before. A wheel that seems to come off in the hands of those who attempt to grip it. Continue reading...",
+      "publishedAt": "2026-01-05T15:00:25.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +109,29 @@
       "title": "Sources: Rosenior in London, close to Chelsea job",
       "link": "https://www.espn.com/soccer/story/_/id/47503955/liam-rosenior-arrives-london-edges-chelsea-job-enzo-maresca",
       "summary": "Chelsea are moving closer to the appointment of Liam Rosenior as their new head coach after the 41-year-old arrived in London on Sunday, sources have told ESPN.",
-      "publishedAt": "2026-01-05T14:15:56.000Z"
+      "publishedAt": "2026-01-05T14:55:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim out as Man Utd coach after 14 months",
+      "link": "https://www.espn.com/soccer/story/_/id/46418438/ruben-amorim-sacked-man-united-head-coach",
+      "summary": "Ruben Amorim has been sacked by Manchester United from his role as head coach.",
+      "publishedAt": "2026-01-05T14:55:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Utd sacked Amorim after Wilcox row",
+      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
+      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
+      "publishedAt": "2026-01-05T14:55:01.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +142,18 @@
       "title": "Bayern wonderkid Karl reveals Real Madrid dream",
       "link": "https://www.espn.com/soccer/story/_/id/47511286/bayern-munich-wonderkid-lennart-karl-reveals-real-madrid-ambitions",
       "summary": "Bayern Munich wonderkid Lennart Karl has revealed that we \"definitely\" wants to play for Real Madrid at some point in his career, calling the Spanish giants his \"dream club.\"",
-      "publishedAt": "2026-01-05T14:15:56.000Z"
+      "publishedAt": "2026-01-05T14:55:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Oranje-international Nouwen scheurt maand na rentree opnieuw kruisband",
+      "link": "https://www.vi.nl/nieuws/oranje-international-nouwen-scheurt-maand-na-rentree-opnieuw-kruisband",
+      "summary": "In dit blog volgen we alle ontwikkelingen in het vrouwenvoetbal. We besteden onder meer aandacht aan de Eurojackpot Vrouwen Eredivisie, de Europese toernooien en het Nederlands elftal.",
+      "publishedAt": "2026-01-05T14:54:29.000Z"
     },
     {
       "type": "rss",
@@ -40,21 +161,21 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Wrexham hero Paul Mullin returns to club",
-      "link": "https://www.espn.com/soccer/story/_/id/47512401/wrexham-hero-paul-mullin-returns-club-wigan-loan-cut-short",
-      "summary": "Paul Mullin has returned to Wrexham after his loan spell at Wigan Athletic was cut short halfway through the season.",
-      "publishedAt": "2026-01-05T14:15:56.000Z"
+      "title": "Man United must go big and hire a superstar manager after firing Ruben Amorim",
+      "link": "https://www.espn.com/soccer/story/_/id/47512319/manchester-united-fire-ruben-amorim-analysis-reaction",
+      "summary": "It is time for one of the most powerful clubs in the world to hire a manager with the experience, track record, credentials and personality befitting Man United's status.",
+      "publishedAt": "2026-01-05T14:38:24.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heracles laat oog vallen op Zweedse middenvelder",
-      "link": "https://www.vi.nl/nieuws/heracles-laat-oog-vallen-op-zweedse-middenvelder",
-      "summary": "Heracles Almelo hoopt zich deze maand te versterken met Erik Ahlstrand. De nummer zeventien van de Eredivisie wil de Zweedse middenvelder overnemen van Sankt Pauli, waar hij nauwelijks aan spelen toekomt.",
-      "publishedAt": "2026-01-05T14:15:39.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim sacked by Man Utd after 14 months in charge",
+      "link": "https://www.bbc.com/sport/football/articles/cvg48wdmx24o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United sack manager Ruben Amorim after he criticised the club's hierarchy following Sunday's 1-1 draw at Leeds.",
+      "publishedAt": "2026-01-05T14:35:45.000Z"
     },
     {
       "type": "rss",
@@ -62,54 +183,21 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Ruben Amorim sacked by Manchester United and Darren Fletcher takes interim role – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/05/ruben-amorim-sacked-by-manchester-united-live-updates",
-      "summary": "Amorim sacked after losing power struggle over transfers Darren Fletcher to take charge for game at Burnley Have any thoughts? Send them to Yara via email 1. Ole Gunnar Solskjaer (2018-2021) – 54% win rate The Norwegian started off as a caretaker and his impact was so great that United granted him the full-time job. Undoubtedly the best football of the post-Ferguson era was played under Solskjaer, who preferred his side to counter-attack at speed and enjoyed a sensational record against Manchester City and Pep Guardiola, beating them three times at the Etihad. Came second in the league in 2020-201 but was denied an elusive trophy by the agonising 2021 Europa League final defeat to Villarreal on penalties. Continue reading...",
-      "publishedAt": "2026-01-05T14:12:10.000Z"
+      "title": "Callum Wilson in talks to leave West Ham after five months as Nuno problems mount",
+      "link": "https://www.theguardian.com/football/2026/jan/05/callum-wilson-in-talks-to-leave-west-ham-after-five-months-nuno",
+      "summary": "Striker understood to be dissatisfied with life under Nuno West Ham have signed two strikers this month Callum Wilson is in talks to leave West Ham five months after joining. It is understood the striker has grown dissatisfied with life under Nuno Espírito Santo and wants a new challenge. Wilson was signed on a cheap incentivised one-year deal and his situation is an apparent sign of wider discontent within the squad over their manager. The Guardian has reported that Nuno, whose side are at increasing risk of relegation from the Premier League, is in danger of losing the dressing room’s support because of concerns over his tactics and man-management. Continue reading...",
+      "publishedAt": "2026-01-05T14:31:13.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Vaessen blijft bij Groningen, Schalk wil terug naar Nederland",
-      "link": "https://www.vi.nl/nieuws/vaessen-blijft-bij-groningen-telstar-haalt-hatenboer-terug-naar-nederland",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-05T14:01:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "West Ham sign Argentina striker Castellanos",
-      "link": "https://www.bbc.com/sport/football/articles/c0417qyqkygo?at_medium=RSS&at_campaign=rss",
-      "summary": "Valentin 'Taty' Castellanos says he will bring his \"fighting spirit\" to West Ham after joining from Lazio on a four-and-a-half-year deal.",
-      "publishedAt": "2026-01-05T13:50:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Namli op de weg terug naar PEC Zwolle",
-      "link": "https://www.vi.nl/nieuws/namli-op-de-weg-terug-naar-pec-zwolle",
-      "summary": "Younes Namli lijkt terug te keren bij PEC Zwolle. De 31-jarige Deen moet overkomen van Le Havre, waar hij weinig aan spelen toekomt. Ingewijden bevestigen het nieuws uit Frankrijk.",
-      "publishedAt": "2026-01-05T13:49:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City increase interest in Palace captain Guehi",
-      "link": "https://www.bbc.com/sport/football/articles/cn0y8xlyq08o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City are emerging as contenders to sign Crystal Palace captain Marc Guehi in January following injuries to defenders Josko Gvardiol and Ruben Dias.",
-      "publishedAt": "2026-01-05T13:41:23.000Z"
+      "title": "Fury tells Sky: 'My return will be biggest and best event of that time'",
+      "link": "https://www.skysports.com/boxing/news/12040/13490785/tyson-fury-replies-to-sky-sports-on-instagram-and-says-my-return-will-be-biggest-and-best-event-of-that-time",
+      "summary": "Tyson Fury has replied to Sky Sports Boxing's Instagram page saying his return to boxing in 2026 will be the \"biggest and best event of that time,\" as he documents his training in Thailand.",
+      "publishedAt": "2026-01-05T14:29:00.000Z"
     },
     {
       "type": "rss",
@@ -124,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Onderzoek: Eredivisie het walhalla voor talenten, AZ en Groningen verjongen",
-      "link": "https://www.vi.nl/nieuws/onderzoek-eredivisie-het-walhalla-voor-talenten-az-en-groningen-verjongen",
-      "summary": "FC Groningen en AZ geven dit seizoen in de Eredivisie de meeste speelminuten aan spelers tot en met 21 jaar. Bij beide ploegen is ruim veertig procent van de totale speeltijd ingevuld door jongelingen.",
-      "publishedAt": "2026-01-05T13:28:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -143,83 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c4gw3zkkx32o?at_medium=RSS&at_campaign=rss",
       "summary": "A former Manchester United player? A current Premier League manager? An overseas coach? BBC Sport looks at the possible replacements for Ruben Amorim.",
       "publishedAt": "2026-01-05T13:22:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Ham backing Nuno as Hammers make second January signing",
-      "link": "https://www.skysports.com/football/news/12040/13490725/west-ham-transfer-news-taty-castellanos-signs-from-lazio-as-hammers-have-no-intention-of-sacking-boss-nuno-espirito-santo",
-      "summary": "West Ham have no intention of sacking boss Nuno Espirito Santo as the club made their second January signing with the £25.2m arrival of forward Taty Castellanos from Lazio.",
-      "publishedAt": "2026-01-05T13:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Capello ergert zich kapot aan niveau van scheidsrechters: 'Een maffia'",
-      "link": "https://www.vi.nl/nieuws/capello-ergert-zich-kapot-aan-niveau-van-scheidsrechters-een-maffia",
-      "summary": "Fabio Capello heeft met avonturen bij onder meer AC Milan, Real Madrid en Juventus een glansrijke trainersloopbaan achter de rug. Toch is de 79-jarige Italiaan blij dat hij niets meer met de arbitrage van tegenwoordig te maken heeft. Capello geniet van zijn pensioen, maar ergert zich daarnaast ook kapot aan het niveau van scheidsrechters en de bijbehorende VAR.",
-      "publishedAt": "2026-01-05T13:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ruben Amorim sacked as Man United head coach",
-      "link": "https://www.espn.com/soccer/story/_/id/46418438/ruben-amorim-sacked-man-united-head-coach",
-      "summary": "Manchester United fired Amorim less than 24 hours after he held a stunning news conference following the 1-1 draw against Leeds United in which he urged club bosses to \"do your jobs.\"",
-      "publishedAt": "2026-01-05T13:07:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League Darts 2026 line-up announcement LIVE: Who will be picked?",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13490283/premier-league-darts-2026-line-up-announcement-live-who-will-join-luke-littler-luke-humphries-gian-van-veen-michael-van-gerwen-in-competition",
-      "summary": "",
-      "publishedAt": "2026-01-05T12:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Very negative and emotional' - How Amorim became 'untenable' for Man Utd",
-      "link": "https://www.skysports.com/football/news/12040/13490674/ruben-amorim-sacked-why-manchester-united-felt-they-had-no-choice-but-to-remove-portuguese-coach",
-      "summary": "Ruben Amorim's emotional and inconsistent behaviour was a key part of Manchester United's decision to sack him, Sky Sports News understands.",
-      "publishedAt": "2026-01-05T11:14:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim sacked by Man Utd after 14 months in charge",
-      "link": "https://www.bbc.com/sport/football/articles/cvg48wdmx24o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United sack manager Ruben Amorim after he criticised the club's hierarchy following Sunday's 1-1 draw at Leeds.",
-      "publishedAt": "2026-01-05T10:18:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ruben Amorim sacked by Manchester United after losing power struggle over transfers",
-      "link": "https://www.theguardian.com/football/2026/jan/05/ruben-amorim-sacked-by-manchester-united-transfers-power-struggle",
-      "summary": "Head coach goes after outburst at Leeds game Oversaw worst Premier League finish of 15th Live reaction and updates after Amorim sacked Ruben Amorim has been sacked by Manchester United after 14 months as their head coach. He leaves after a power struggle with the hierarchy over transfer policy, with Amorim demanding his colleagues in the recruitment department “do their job” after Sunday’s draw at Leeds. Amorim believed United were prepared to back him in the January window should a major signing become available but then said last Friday: “We have no conversation to have any change in the squad.” Continue reading...",
-      "publishedAt": "2026-01-05T10:12:26.000Z"
     }
   ]
 }
