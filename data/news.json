@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-01-05T13:43:19.838Z",
+  "generatedAt": "2026-01-05T14:28:27.135Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Utd sacked Amorim after Wilcox row",
+      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
+      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
+      "publishedAt": "2026-01-05T14:15:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Rosenior in London, close to Chelsea job",
+      "link": "https://www.espn.com/soccer/story/_/id/47503955/liam-rosenior-arrives-london-edges-chelsea-job-enzo-maresca",
+      "summary": "Chelsea are moving closer to the appointment of Liam Rosenior as their new head coach after the 41-year-old arrived in London on Sunday, sources have told ESPN.",
+      "publishedAt": "2026-01-05T14:15:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bayern wonderkid Karl reveals Real Madrid dream",
+      "link": "https://www.espn.com/soccer/story/_/id/47511286/bayern-munich-wonderkid-lennart-karl-reveals-real-madrid-ambitions",
+      "summary": "Bayern Munich wonderkid Lennart Karl has revealed that we \"definitely\" wants to play for Real Madrid at some point in his career, calling the Spanish giants his \"dream club.\"",
+      "publishedAt": "2026-01-05T14:15:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham hero Paul Mullin returns to club",
+      "link": "https://www.espn.com/soccer/story/_/id/47512401/wrexham-hero-paul-mullin-returns-club-wigan-loan-cut-short",
+      "summary": "Paul Mullin has returned to Wrexham after his loan spell at Wigan Athletic was cut short halfway through the season.",
+      "publishedAt": "2026-01-05T14:15:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Heracles laat oog vallen op Zweedse middenvelder",
+      "link": "https://www.vi.nl/nieuws/heracles-laat-oog-vallen-op-zweedse-middenvelder",
+      "summary": "Heracles Almelo hoopt zich deze maand te versterken met Erik Ahlstrand. De nummer zeventien van de Eredivisie wil de Zweedse middenvelder overnemen van Sankt Pauli, waar hij nauwelijks aan spelen toekomt.",
+      "publishedAt": "2026-01-05T14:15:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ruben Amorim sacked by Manchester United and Darren Fletcher takes interim role – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/05/ruben-amorim-sacked-by-manchester-united-live-updates",
+      "summary": "Amorim sacked after losing power struggle over transfers Darren Fletcher to take charge for game at Burnley Have any thoughts? Send them to Yara via email 1. Ole Gunnar Solskjaer (2018-2021) – 54% win rate The Norwegian started off as a caretaker and his impact was so great that United granted him the full-time job. Undoubtedly the best football of the post-Ferguson era was played under Solskjaer, who preferred his side to counter-attack at speed and enjoyed a sensational record against Manchester City and Pep Guardiola, beating them three times at the Etihad. Came second in the league in 2020-201 but was denied an elusive trophy by the agonising 2021 Europa League final defeat to Villarreal on penalties. Continue reading...",
+      "publishedAt": "2026-01-05T14:12:10.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Vaessen blijft bij Groningen, Schalk wil terug naar Nederland",
+      "link": "https://www.vi.nl/nieuws/vaessen-blijft-bij-groningen-telstar-haalt-hatenboer-terug-naar-nederland",
+      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-05T14:01:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "West Ham sign Argentina striker Castellanos",
+      "link": "https://www.bbc.com/sport/football/articles/c0417qyqkygo?at_medium=RSS&at_campaign=rss",
+      "summary": "Valentin 'Taty' Castellanos says he will bring his \"fighting spirit\" to West Ham after joining from Lazio on a four-and-a-half-year deal.",
+      "publishedAt": "2026-01-05T13:50:10.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +98,18 @@
       "title": "Namli op de weg terug naar PEC Zwolle",
       "link": "https://www.vi.nl/nieuws/namli-op-de-weg-terug-naar-pec-zwolle",
       "summary": "Younes Namli lijkt terug te keren bij PEC Zwolle. De 31-jarige Deen moet overkomen van Le Havre, waar hij weinig aan spelen toekomt. Ingewijden bevestigen het nieuws uit Frankrijk.",
-      "publishedAt": "2026-01-05T13:42:00.000Z"
+      "publishedAt": "2026-01-05T13:49:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City increase interest in Palace captain Guehi",
+      "link": "https://www.bbc.com/sport/football/articles/cn0y8xlyq08o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City are emerging as contenders to sign Crystal Palace captain Marc Guehi in January following injuries to defenders Josko Gvardiol and Ruben Dias.",
+      "publishedAt": "2026-01-05T13:41:23.000Z"
     },
     {
       "type": "rss",
@@ -47,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ruben Amorim sacked by Manchester United and Darren Fletcher takes interim role – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/05/ruben-amorim-sacked-by-manchester-united-live-updates",
-      "summary": "Amorim sacked after losing power struggle over transfers Darren Fletcher to take charge for game at Burnley Have any thoughts? Send them to Dom via email 1. Ole Gunnar Solskjaer (2018-2021) – 54% win rate The Norwegian started off as a caretaker and his impact was so great that United granted him the full-time job. Undoubtedly the best football of the post-Ferguson era was played under Solskjaer, who preferred his side to counter-attack at speed and enjoyed a sensational record against Manchester City and Pep Guardiola, beating them three times at the Etihad. Came second in the league in 2020-201 but was denied an elusive trophy by the agonising 2021 Europa League final defeat to Villarreal on penalties. Continue reading...",
-      "publishedAt": "2026-01-05T13:22:21.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -91,39 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bayern wonderkid Karl reveals Real Madrid dream",
-      "link": "https://www.espn.com/soccer/story/_/id/47511286/bayern-munich-wonderkid-lennart-karl-reveals-real-madrid-ambitions",
-      "summary": "Bayern Munich wonderkid Lennart Karl has revealed that we \"definitely\" wants to play for Real Madrid at some point in his career, calling the Spanish giants his \"dream club.\"",
-      "publishedAt": "2026-01-05T13:04:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Utrecht: het voetbal en de prestaties moeten stabieler worden",
-      "link": "https://www.vi.nl/pro/fc-utrecht-het-voetbal-en-de-prestaties-moeten-stabieler-worden",
-      "summary": "Na een relatief korte winterstop gaat vrijdag de Eredivisie weer verder. Tot diep in maart is er elk weekeinde een speelronde. Met andere woorden: het cruciale deel van het seizoen gaat beginnen. In deze serie maken we bij elke club de balans op, waarbij we wat betreft de volgorde uitgaan van de eerste speelronde van 2026. Deze keer: FC Utrecht.",
-      "publishedAt": "2026-01-05T13:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Persie wisselt weer van aanvoerder: Steijn raakt band kwijt",
-      "link": "https://www.vi.nl/nieuws/van-persie-wisselt-weer-van-aanvoerder-steijn-raakt-band-kwijt",
-      "summary": "Timon Wellenreuther is de nieuwe aanvoerder van Feyenoord. Dit heeft trainer Robin van Persie bekendgemaakt tijdens het trainingskamp van de Rotterdammers in Spanje. De Duitse keeper neemt de band over van Sem Steijn.",
-      "publishedAt": "2026-01-05T12:53:27.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -135,39 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim tells Man Utd bosses: 'Do your jobs'",
-      "link": "https://www.espn.com/soccer/story/_/id/47501012/ruben-amorim-hints-man-united-power-struggle-manager-not-coach",
-      "summary": "Ruben Amorim has raised doubts over his future at Manchester United by saying he wants to be the \"manager, not the coach.\"",
-      "publishedAt": "2026-01-05T12:44:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Rosenior in London, close to Chelsea job",
-      "link": "https://www.espn.com/soccer/story/_/id/47503955/liam-rosenior-arrives-london-edges-chelsea-job-enzo-maresca",
-      "summary": "Chelsea are moving closer to the appointment of Liam Rosenior as their new head coach after the 41-year-old arrived in London on Sunday, sources have told ESPN.",
-      "publishedAt": "2026-01-05T12:44:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "City injuries worry Pep: Gvardiol 'doesn't look good'",
-      "link": "https://www.espn.com/soccer/story/_/id/47504035/manchester-city-injuries-concerning-pep",
-      "summary": "Pep Guardiola said he has \"concerns\" after a number of defenders suffered injuries in a 1-1 draw with Chelsea in the Premier League on Sunday.",
-      "publishedAt": "2026-01-05T12:44:19.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -176,28 +198,6 @@
       "link": "https://www.skysports.com/football/news/12040/13490674/ruben-amorim-sacked-why-manchester-united-felt-they-had-no-choice-but-to-remove-portuguese-coach",
       "summary": "Ruben Amorim's emotional and inconsistent behaviour was a key part of Manchester United's decision to sack him, Sky Sports News understands.",
       "publishedAt": "2026-01-05T11:14:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Real Madrid join Wharton race - Monday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/cx2yn878zxyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Adam Wharton emerges as a target for Real Madrid, Crystal Palace are assessing several options, AC Milan are keeping tabs on Nathan Ake, plus more.",
-      "publishedAt": "2026-01-05T10:36:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Hard working but had to go' - Our writers' verdict on what went wrong for Amorim",
-      "link": "https://www.skysports.com/football/news/12040/13442753/ruben-amorim-sacked-what-went-wrong-at-man-utd-for-hard-working-head-coach-after-club-confirm-old-trafford-exit",
-      "summary": "Sky Sports' writers give their assessment of what went wrong for Ruben Amorim at Manchester United after the club confirmed the Portuguese would be departing his role after 14 months in charge at Old Trafford.",
-      "publishedAt": "2026-01-05T10:20:00.000Z"
     },
     {
       "type": "rss",
