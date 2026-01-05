@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-05T06:44:16.173Z",
+  "generatedAt": "2026-01-05T07:31:50.481Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Sensatietiener van Bayern doet onhandige uitspraak over Real Madrid",
+      "link": "https://www.vi.nl/nieuws/sensatietiener-van-bayern-doet-onhandige-uitspraak-over-real-madrid",
+      "summary": "Lennart Karl voetbalde zichzelf razendsnel in het eerste elftal van Bayern München en dat zou voor menig Duits talent een absolute jongensdroom zijn, maar voor de zeventienjarige Karl is er meer. Dit sprak hij bijzonder genoeg uit tijdens een supportersavond van Bayern.",
+      "publishedAt": "2026-01-05T07:03:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -146,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Oranje-opponent Tunesië ontslaat bondscoach en staf na uitschakeling Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/oranje-opponent-tunesi-ontslaat-bondscoach-na-uitschakeling-afrika-cup",
-      "summary": "De Tunesische voetbalbond heeft bondscoach Sami Trabelsi per direct ontslagen, kort na de uitschakeling van het land in de achtste finale van de Afrika Cup tegen Mali. Die geruchten deden al de ronde.",
-      "publishedAt": "2026-01-04T22:14:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -165,17 +165,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cn9zgd3dqj5o?at_medium=RSS&at_campaign=rss",
       "summary": "Chelsea's stoppage-time equaliser against Manchester City on a freezing Sunday evening at Etihad Stadium felt a monumental moment in the Premier League title race.",
       "publishedAt": "2026-01-04T21:55:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tension growing between Amorim and Man Utd hierarchy",
-      "link": "https://www.skysports.com/football/news/12040/13490487/ruben-amorim-at-man-utd-growing-tension-between-head-coach-and-club-hierarchy-including-director-of-football-jason-wilcox",
-      "summary": "There is growing tension between Ruben Amorim and the hierarchy at Manchester United, including director of football Jason Wilcox.",
-      "publishedAt": "2026-01-04T21:30:00.000Z"
     },
     {
       "type": "rss",
@@ -194,10 +183,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Neville: Amorim not happy with hierarchy | Carra: He's not good enough",
-      "link": "https://www.skysports.com/football/news/12040/13490479/gary-neville-ruben-amorim-sounds-unhappy-with-manchester-united-hierarchy-jamie-carragher-hes-not-good-enough",
-      "summary": "Gary Neville believes Ruben Amorim's recent comments to the media are a signal that the Manchester United boss is not happy with the Old Trafford hierarchy.",
-      "publishedAt": "2026-01-04T21:00:00.000Z"
+      "title": "'He's not good enough to be Man Utd manager!' | Carra SLAMS 'barely competent' Amorim!",
+      "link": "https://www.skysports.com/watch/video/13490516/jamie-carragher-slams-ruben-amorim-hes-not-good-enough-to-be-manchester-united-manager",
+      "summary": "Jamie Carragher slams Ruben Amorim after his post-match comments against Leeds, saying 'he's not good enough to be Man Utd manager'",
+      "publishedAt": "2026-01-04T21:16:00.000Z"
     },
     {
       "type": "rss",
@@ -220,6 +209,17 @@
       "link": "https://www.bbc.com/sport/football/articles/c62vz8578nxo?at_medium=RSS&at_campaign=rss",
       "summary": "Struggling head coach Thomas Frank is trapped in a gilded cage at joyless Tottenham Hotspur, says chief football writer Phil McNulty.",
       "publishedAt": "2026-01-04T19:09:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Reed’s rocket rescues Fulham point and denies Liverpool in thrilling finish",
+      "link": "https://www.theguardian.com/football/2026/jan/04/fulham-liverpool-premier-league-match-report",
+      "summary": "Perhaps they underestimated Harrison Reed. Certainly there was little reaction when the ball came back to the Fulham substitute with 97 ­minutes gone. Liverpool ­simply stood off, almost daring Reed to shoot, and they rued their lack of urgency when one of Fulham’s more unfashionable ­players rescued a point for Marco ­Silva’s ­stubborn side by ­ripping a stunning shot into ­Alisson’s top corner. It was a jawdropping moment – after all, it was only the scurrying 30-year-old midfielder’s fourth goal in six years in west London – and it spoke to some of Liverpool’s issues this season. The champions were vague in attack despite scoring twice and, where once there was the determination to force themselves over the line, here there was only defensive inertia when the task was to hold on after going 2-1 up through Cody Gakpo in the fourth minute of ­stoppage time. Continue reading...",
+      "publishedAt": "2026-01-04T17:30:29.000Z"
     }
   ]
 }
