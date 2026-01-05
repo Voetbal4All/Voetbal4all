@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-01-05T18:38:09.518Z",
+  "generatedAt": "2026-01-05T19:23:12.838Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amorim out as Man Utd coach after 14 months",
+      "link": "https://www.espn.com/soccer/story/_/id/46418438/ruben-amorim-sacked-man-united-head-coach",
+      "summary": "Ruben Amorim has been sacked by Manchester United from his role as head coach.",
+      "publishedAt": "2026-01-05T19:07:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Utd sacked Amorim after Wilcox row",
+      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
+      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
+      "publishedAt": "2026-01-05T19:07:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sporting KC hires former Young Boys coach Wicky",
+      "link": "https://www.espn.com/soccer/story/_/id/47515256/sporting-kc-hires-former-young-boys-coach-raphael-wicky",
+      "summary": "Sporting Kansas City announced that the club has hired Raphael Wicky to be the team's next manager.",
+      "publishedAt": "2026-01-05T19:07:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah goal seals Egypt's spot in AFCON quarters",
+      "link": "https://www.espn.com/espn/story/_/id/47514484/mohamed-salah-egypt-need-extra-get-bruising-benin-reach-afcon-quarterfinals",
+      "summary": "Egypt advanced to the AFCON quarterfinals on Monday with a 3-1 win over Benin, but they needed extra time to get there in a bruising encounter that saw the Cheetahs throw everything they had at Mohamed Salah and co.",
+      "publishedAt": "2026-01-05T19:07:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Flexibiliteit is geen spijt: Van Persie over de veranderingen bij Feyenoord",
+      "link": "https://www.vi.nl/pro/flexibiliteit-is-geen-spijt-van-persie-over-de-veranderingen-bij-feyenoord",
+      "summary": "Om Feyenoord na de winterstop aan het winnen te krijgen voert trainer Robin van Persie een aantal veranderingen door. Een ervan is maar weer eens een andere aanvoerder. Doelman Timon Wellenreuther neemt de band over van Sem Steijn. De trainer legt uit. 'Je gaat terugzien wat we anders doen.'",
+      "publishedAt": "2026-01-05T19:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Egypte schudt Benin moeizaam van zich af en meldt zich bij laatste acht",
+      "link": "https://www.vi.nl/nieuws/egypte-schudt-benin-moeizaam-van-zich-af-en-meldt-zich-bij-laatste-acht",
+      "summary": "Tekst",
+      "publishedAt": "2026-01-05T18:45:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Watch: The Monday Night Club",
+      "link": "https://www.bbc.co.uk/iplayer/episode/l0057sdt?at_medium=RSS&at_campaign=rss",
+      "summary": "Mark Chapman and guests discuss the weekends football",
+      "publishedAt": "2026-01-05T18:38:21.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,25 +91,36 @@
     },
     {
       "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester United’s flawed process: why Amorim appointment was doomed from the start",
+      "link": "https://www.theguardian.com/football/2026/jan/05/manchester-uniteds-flawed-process-why-amorim-appointment-was-doomed-from-the-start",
+      "summary": "Systemic failures at Old Trafford led them to the wrong man last time around – and there is concern that those problems remain When Manchester United embarked upon this season full of fresh hope and optimism, there was an unexpected note of caution from one of the best executives in the game. “It’s clear they don’t have a process,” the executive said of Sir Jim Ratcliffe’s new regime early in the season. It was a stark pronouncement at odds with the consensus that Ruben Amorim, with a proper pre-season to bed in his tactical system and exciting signings, would be able to demonstrate his considerable abilities unencumbered by the hospital pass he had been given on his appointment in November 2024. Continue reading...",
+      "publishedAt": "2026-01-05T18:29:27.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'The experiments have got to stop' | Neville gives verdict on Amorim sacking",
+      "title": "'A failure from the manager and the club' | Neville gives verdict on Amorim sacking",
       "link": "https://www.skysports.com/watch/video/13490888/ruben-amorim-sacked-by-manchester-united-gary-neville-gives-his-verdict",
       "summary": "Watch the best bits from Gary Neville's reaction to the news of Ruben Amorim's sacking by Manchester United.",
       "publishedAt": "2026-01-05T18:26:00.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Bayern wonderkid Karl reveals Real Madrid dream",
-      "link": "https://www.espn.com/soccer/story/_/id/47511286/bayern-munich-wonderkid-lennart-karl-reveals-real-madrid-ambitions",
-      "summary": "Bayern Munich wonderkid Lennart Karl has revealed that we \"definitely\" wants to play for Real Madrid at some point in his career, calling the Spanish giants his \"dream club.\"",
-      "publishedAt": "2026-01-05T18:15:58.000Z"
+      "title": "'The experiments have to stop' - Neville explains who next Man Utd boss must be",
+      "link": "https://www.skysports.com/football/news/12040/13490821/manchester-united-ruben-amorim-successor-must-play-the-united-way-says-gary-neville",
+      "summary": "Man Utd must appoint an experienced manager who fits the DNA of the club, says Gary Neville, insisting \"the experiments have got to stop\".",
+      "publishedAt": "2026-01-05T18:20:00.000Z"
     },
     {
       "type": "rss",
@@ -102,72 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Brys haalt uit naar Eto'o: 'Iemand wilde tonen dat hij de sterkste is'",
-      "link": "https://www.vi.nl/nieuws/brys-haalt-uit-naar-eto-o-iemand-wilde-tonen-dat-hij-de-sterkste-is",
-      "summary": "Kameroen plaatste zich zondag voor de kwartfinales van de Afrika Cup, maar bondscoach Marc Brys ontbreekt opvallend genoeg op het toernooi. De Belg mocht niet afreizen naar Marokko en spaart daarbij bondsvoorzitter Samuel Eto'o niet. Volgens Brys is hij bewust buitenspel gezet in een machtsstrijd.",
-      "publishedAt": "2026-01-05T17:37:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "NAC-aanvoerder Kemper bedankt voor Grieks avontuur",
-      "link": "https://www.vi.nl/nieuws/nac-aanvoerder-kemper-bedankt-voor-grieks-avontuur",
-      "summary": "Boy Kemper (26) blijft, in ieder geval voor nu, aan NAC Breda verbonden. De aanvoerder van de Eredivisie-hekkensluiter stond in de belangstelling van een club uit de Griekse Super League, maar heeft bedankt voor dit buitenlandse avontuur.",
-      "publishedAt": "2026-01-05T17:13:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim out as Man Utd coach after 14 months",
-      "link": "https://www.espn.com/soccer/story/_/id/46418438/ruben-amorim-sacked-man-united-head-coach",
-      "summary": "Ruben Amorim has been sacked by Manchester United from his role as head coach.",
-      "publishedAt": "2026-01-05T17:01:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Utd sacked Amorim after Wilcox row",
-      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
-      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
-      "publishedAt": "2026-01-05T17:01:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Rosenior in London, close to Chelsea job",
-      "link": "https://www.espn.com/soccer/story/_/id/47503955/liam-rosenior-arrives-london-edges-chelsea-job-enzo-maresca",
-      "summary": "Chelsea are moving closer to the appointment of Liam Rosenior as their new head coach after the 41-year-old arrived in London on Sunday, sources have told ESPN.",
-      "publishedAt": "2026-01-05T17:01:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sheffield United deny deliberately delaying Cusack inquest",
-      "link": "https://www.bbc.com/sport/football/articles/c98jle3190eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sheffield United deny deliberately delaying the inquest into the death of their former women's team captain Maddy Cusack.",
-      "publishedAt": "2026-01-05T17:00:27.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -176,17 +198,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13490693/premier-league-darts-2026-schedule-venues-players-format-prize-money-as-luke-humphries-defends-title-against-luke-littler-and-other-rivals",
       "summary": "All you need to know about the BetMGM Premier League Darts 2026 including the players, format and schedule.",
       "publishedAt": "2026-01-05T16:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ruben Amorim sacked: timeline of his Manchester United tenure – video",
-      "link": "https://www.theguardian.com/football/video/2026/jan/05/ruben-amorim-sacked-timeline-manchester-united-video",
-      "summary": "Ruben Amorim has been sacked by Manchester United after 14 months as their head coach. He leaves Old Trafford after a power struggle with the hierarchy over transfer policy, with Amorim demanding his colleagues in the recruitment department 'do their job' after Sunday’s draw at Leeds. We take a look back at his turbulent reign, which featured a few fleeting highs but some miserable lows. Amorim sacked by Manchester United and Fletcher takes interim role – live Continue reading...",
-      "publishedAt": "2026-01-05T16:23:40.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/05/ruben-amorim-manchester-united-premier-league",
       "summary": "The head coach (or should that be manager?) fired cryptic shots at his Old Trafford bosses, then was fired himself Amorim sacked after power struggle over transfers Discontent at Manchester United these days is only ever deferred. Ruben Amorim’s departure from the club on Monday was long anticipated and came, in the end, with a weary sigh. He had made a half-hearted protest about the recruitment structure after Sunday’s draw at Leeds, but it felt even at the time like barely more than a gesture. And so another manager, the seventh since Sir Alex Ferguson left in 2013, falls victim to the United meat-grinder. Everybody at United, fundamentally, is unhappy. And not unhappy in the sense that Alex Ferguson used to be unhappy, when the club was essentially fuelled by his volcanic rages, but enervated, frustrated by the realisation that this is not how things used to be, that this was once the biggest football club in the country and now they keep failing to get the win they need to lift them to fifth. Continue reading...",
       "publishedAt": "2026-01-05T15:40:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Celtic sack manager Nancy after eight games",
-      "link": "https://www.bbc.com/sport/football/articles/ckgk9g2500no?at_medium=RSS&at_campaign=rss",
-      "summary": "Celtic sack manager Wilfried Nancy after just 33 days in charge - with head of football operations Paul Tisdale also dismissed.",
-      "publishedAt": "2026-01-05T15:17:19.000Z"
     }
   ]
 }
