@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-01-05T21:25:15.618Z",
+  "generatedAt": "2026-01-05T22:25:00.000Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Scherpen draagt rugnummer op aan overleden broer: 'Dan is hij altijd bij me'",
+      "link": "https://www.vi.nl/nieuws/waarom-scherpen-bij-union-met-rugnummer-37-speelt",
+      "summary": "Na zijn transfer naar Union Sint-Gillis koos Kjell Scherpen voor rugnummer 37. Dat deed de doelman met een reden. 'Ik heb het gevoel dat hij af en toe van boven meekijkt.'",
+      "publishedAt": "2026-01-05T22:03:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bijzonder carrièrepad maakt onbekende Amsterdammer opeens concurrent Arnautovic",
+      "link": "https://www.vi.nl/nieuws/bijzonder-carri-repad-maakt-onbekende-amsterdammer-opeens-concurrent-arnautovic",
+      "summary": "Jay Enem: gaat er bij het lezen van die naam een lichtje branden? Veel voetbalvolgers zullen nog nooit van de Amsterdammer gehoord hebben, maar de aanvaller bouwt gestaag aan een mooie carrière en heeft nu een toptransfer binnen Tsjechië te pakken.",
+      "publishedAt": "2026-01-05T21:44:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: United sacked Amorim after Wilcox row",
+      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
+      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
+      "publishedAt": "2026-01-05T21:35:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City's Gvardiol to have surgery on broken leg",
+      "link": "https://www.espn.com/soccer/story/_/id/47515550/manchester-city-confirm-josko-gvardiol-leg-fracture-return-unknown",
+      "summary": "Manchester City have confirmed that Josko Gvardiol has suffered a leg fracture and is set to undergo surgery this week.",
+      "publishedAt": "2026-01-05T21:35:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Osimhen double puts Nigeria in AFCON quarters",
+      "link": "https://www.espn.com/espn/story/_/id/47515531/victor-osimhen-ademola-lookman-nigeria-make-light-work-mozambique-reach-afcon-quarterfinals",
+      "summary": "Nigeria's Super Eagles had no problems, aside from some rain, in Fes on Monday, as Victor Osimhen and Ademola Lookman produced an attacking masterclass against Mozambique to win 4-0 and advance to the AFCON quarterfinals.",
+      "publishedAt": "2026-01-05T21:35:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Source: Barcelona in talks over João Cancelo loan",
+      "link": "https://www.espn.com/soccer/story/_/id/47516174/barcelona-talks-al-hilal-joao-cancelo-loan",
+      "summary": "Barcelona are exploring a deal to bring Portugal international João Cancelo back to the club in January, a source has confirmed to ESPN.",
+      "publishedAt": "2026-01-05T21:35:02.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -22,6 +88,17 @@
       "link": "https://www.vi.nl/nieuws/imponerend-nigeria-swingt-naar-kwartfinales-afrika-cup",
       "summary": "Tekst",
       "publishedAt": "2026-01-05T21:01:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Merk, Monk among first to progress as 2026 Q-School",
+      "link": "https://www.skysports.com/darts/news/12040/13490918/pdc-qualifying-school-arno-merk-aaron-monk-take-first-step-towards-securing-tour-cards",
+      "summary": "Arno Merk, Arron Monk and Jamie Hughes were among the first 32 players to progress through the opening stage of the 2026 PDC Q-School on Monday.",
+      "publishedAt": "2026-01-05T21:00:00.000Z"
     },
     {
       "type": "rss",
@@ -58,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heerenveen heeft beet en betaalt geen afkoopsom voor nieuwe linksbuiten",
-      "link": "https://www.vi.nl/nieuws/heerenveen-heeft-beet-en-betaalt-geen-afkoopsom-voor-nieuwe-linksbuiten",
-      "summary": "SC Heerenveen heeft Luca Oyen (22) binnen. De Friezen maken bekend dat de linksbuiten transfervrij is overgenomen van RC Genk en zijn handtekening heeft gezet onder een contract tot de zomer van 2029.",
-      "publishedAt": "2026-01-05T20:23:47.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -88,61 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/05/difficult-questions-manchester-united-ruben-amorim-sacking",
       "summary": "Fallout from a dour and unsuccessful reign will hit well-paid executives who backed the outgoing head coach Ruben Amorim’s tenure as Manchester United head coach began its final unravelling via four words uttered in Friday’s media conference to preview the weekend trip to Leeds. “You are very smart,” was Amorim’s signoff to this correspondent’s last question regarding if the Portuguese had been informed of a change in the January transfer budget by Jason Wilcox, the director of football. The question was asked in reaction to Amorim’s odd comment on Christmas Eve that he was beginning to “understand” the finance was not available to sign the footballers needed to “play a perfect 3-4-3”. Hearing this, the radar bleeped red – Amorim was clearly countenancing changing from a system he was quasi-obsessed with. Continue reading...",
       "publishedAt": "2026-01-05T20:00:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dick Voormekaar Podcast Extra: 'Gegoochel met aanvoerdersband moest eens klaar zijn'",
-      "link": "https://www.vi.nl/pro/dick-voormekaar-extra-gegoochel-met-aanvoerdersband-moest-eens-klaar-zijn",
-      "summary": "Feyenoord-watcher Martijn Krabbendam geeft in deze Dick Voormekaar Podcast Extra een update uit het trainingskamp van Feyenoord. Hij heeft het met Sjoerd Keizer over de aanvoerderskwestie, mogelijke transfers, de positie van Robin van Persie en de omstandigheden in Marbella.",
-      "publishedAt": "2026-01-05T20:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim out as Man Utd coach after 14 months",
-      "link": "https://www.espn.com/soccer/story/_/id/46418438/ruben-amorim-sacked-man-united-head-coach",
-      "summary": "Ruben Amorim has been sacked by Manchester United from his role as head coach.",
-      "publishedAt": "2026-01-05T19:56:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Salah goal seals Egypt's spot in AFCON quarters",
-      "link": "https://www.espn.com/espn/story/_/id/47514484/mohamed-salah-egypt-need-extra-get-bruising-benin-reach-afcon-quarterfinals",
-      "summary": "Egypt advanced to the AFCON quarterfinals on Monday with a 3-1 win over Benin, but they needed extra time to get there in a bruising encounter that saw the Cheetahs throw everything they had at Mohamed Salah and co.",
-      "publishedAt": "2026-01-05T19:56:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City's Gvardiol to have surgery on broken leg",
-      "link": "https://www.espn.com/soccer/story/_/id/47515550/manchester-city-confirm-josko-gvardiol-leg-fracture-return-unknown",
-      "summary": "Manchester City have confirmed that Josko Gvardiol has suffered a leg fracture and is set to undergo surgery this week.",
-      "publishedAt": "2026-01-05T19:56:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Endrick: Ancelotti said to leave Madrid for Lyon",
-      "link": "https://www.espn.com/soccer/story/_/id/47513744/endrick-carlo-ancelotti-told-leave-real-madrid-lyon",
-      "summary": "Brazilian forward Endrick took advice from his former Real Madrid coach Carlo Ancelotti before joining French club Lyon on loan for the rest of the season.",
-      "publishedAt": "2026-01-05T19:56:29.000Z"
     },
     {
       "type": "rss",
@@ -187,17 +198,6 @@
       "link": "https://www.skysports.com/watch/video/13490888/ruben-amorim-sacked-by-manchester-united-gary-neville-gives-his-verdict",
       "summary": "Watch the best bits from Gary Neville's reaction to the news of Ruben Amorim's sacking by Manchester United.",
       "publishedAt": "2026-01-05T18:26:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'The experiments have to stop' - Neville explains who next Man Utd boss must be",
-      "link": "https://www.skysports.com/football/news/12040/13490821/manchester-united-ruben-amorim-successor-must-play-the-united-way-says-gary-neville",
-      "summary": "Man Utd must appoint an experienced manager who fits the DNA of the club, says Gary Neville, insisting \"the experiments have got to stop\".",
-      "publishedAt": "2026-01-05T18:20:00.000Z"
     },
     {
       "type": "rss",
