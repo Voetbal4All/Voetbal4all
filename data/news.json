@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-04T23:23:03.942Z",
+  "generatedAt": "2026-01-05T02:09:52.431Z",
   "items": [
     {
       "type": "rss",
@@ -113,6 +113,17 @@
     },
     {
       "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'A chance' Chelsea will name new boss on Monday as Rosenior jets in",
+      "link": "https://www.bbc.com/sport/football/articles/c5yq7je4p47o?at_medium=RSS&at_campaign=rss",
+      "summary": "Strasbourg boss Liam Rosenior arrives in London for talks about replacing Enzo Maresca as Chelsea head coach.",
+      "publishedAt": "2026-01-04T22:17:33.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -143,6 +154,17 @@
       "link": "https://www.vi.nl/nieuws/atl-tico-madrid-verspeelt-dure-punten-in-la-liga",
       "summary": "In deze VI Live volgen we de hoogtepunten in verschillende competities. Met onder meer aandacht voor Leeds United - Manchester United, Fulham - Liverpool, de Afrika Cup en Real Madrid - Real Betis.",
       "publishedAt": "2026-01-04T22:03:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'I don't have a crystal ball' - damaging few days for Man City?",
+      "link": "https://www.bbc.com/sport/football/articles/cn9zgd3dqj5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea's stoppage-time equaliser against Manchester City on a freezing Sunday evening at Etihad Stadium felt a monumental moment in the Premier League title race.",
+      "publishedAt": "2026-01-04T21:55:35.000Z"
     },
     {
       "type": "rss",
@@ -194,32 +216,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "City held at home as Chelsea snatch stoppage‑time equaliser",
-      "link": "https://www.bbc.com/sport/football/videos/c931pyl797wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Enzo Fernandez scores a stoppage-time equaliser as Chelsea end a tumultuous week by claiming a worthy Premier League point at title-chasing Manchester City.",
-      "publishedAt": "2026-01-04T20:06:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leeds denied win as Cunha hits back for Man Utd",
-      "link": "https://www.bbc.com/sport/football/videos/c8d0pjgnpejo?at_medium=RSS&at_campaign=rss",
-      "summary": "Brenden Aaronson breaks the deadlock, before Matheus Cunha levels just three minutes later, as Leeds and Manchester United share the points at Elland road.",
-      "publishedAt": "2026-01-04T19:59:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Second‑half lift sees Newcastle ease past Palace",
-      "link": "https://www.bbc.com/sport/football/videos/c5y483258dro?at_medium=RSS&at_campaign=rss",
-      "summary": "Newcastle United climb to ninth in the table, as captain Bruno Guimaraes inspires the hosts to victory with a hard-fought win over Crystal Palace at St James' Park.",
-      "publishedAt": "2026-01-04T19:59:34.000Z"
+      "title": "'I was sure it was offside' - why did Wirtz equaliser stand?",
+      "link": "https://www.bbc.com/sport/football/articles/cvg173ldgnmo?at_medium=RSS&at_campaign=rss",
+      "summary": "Florian Wirtz thought his goal for Liverpool in the 2-2 draw at Fulham was offside - so how did technology allow it to stand?",
+      "publishedAt": "2026-01-04T20:26:47.000Z"
     }
   ]
 }
