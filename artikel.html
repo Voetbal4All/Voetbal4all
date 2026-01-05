@@ -535,38 +535,47 @@
     bodyEl.innerHTML = "";
 
     if (article.body) {
-      const paragraphs = article.body
-        .split('\n')
-        .map(p => p.trim())
-        .filter(p => p.length > 0);
+  // aiRewrite kan body als string of als array teruggeven → normaliseren
+  const bodyText =
+    Array.isArray(article.body)
+      ? article.body.join("\n")
+      : (typeof article.body === "string" ? article.body : "");
 
-      paragraphs.forEach((text, index) => {
-        const p = document.createElement('p');
-        p.textContent = text;
-        bodyEl.appendChild(p);
+  const paragraphs = bodyText
+    .split("\n")
+    .map(p => p.trim())
+    .filter(p => p.length > 0);
 
-        // 👉 NA ELKE 10 PARAGRAFEN: ADSENSE
-        if ((index + 1) % 10 === 0) {
-          const adWrapper = document.createElement('div');
-          adWrapper.className = 'inline-ad-wrapper';
+  paragraphs.forEach((text, index) => {
+    const p = document.createElement("p");
+    p.textContent = text;
+    bodyEl.appendChild(p);
 
-          adWrapper.innerHTML = `
-            <div class="inline-ad-label">Ga verder onder de advertentie</div>
-            <ins class="adsbygoogle"
-              style="display:block"
-              data-ad-client="ca-pub-4062633211824348"
-              data-ad-slot="6032627042"
-              data-ad-format="auto"
-              data-full-width-responsive="true"></ins>
-          `;
+    // Na elke 10 paragrafen: AdSense
+    if ((index + 1) % 10 === 0) {
+      const adWrapper = document.createElement("div");
+      adWrapper.className = "inline-ad-wrapper";
 
-          bodyEl.appendChild(adWrapper);
+      adWrapper.innerHTML = `
+        <div class="inline-ad-label">Ga verder onder de advertentie</div>
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-4062633211824348"
+          data-ad-slot="6032627042"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      `;
 
-          // AdSense initialiseren
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }
-      });
+      bodyEl.appendChild(adWrapper);
+
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.warn("[ARTIKEL] AdSense push failed:", e);
+      }
     }
+  });
+}
     
     const tagsEl = document.getElementById('article-tags');
     if (article.tags && article.tags.length > 0) {
