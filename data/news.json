@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T02:09:52.431Z",
+  "generatedAt": "2026-01-05T04:17:51.810Z",
   "items": [
     {
       "type": "rss",
@@ -33,17 +33,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47502723/manchester-city-chelsea-premier-league-analysis-reaction-enzo-maresca-enzo-fernandez-calum-mcfarlane",
       "summary": "All signs pointed to a routine Man City win, yet Enzo Fernandez' late goal ensured Chelsea went home happy.",
       "publishedAt": "2026-01-04T23:02:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ball-by-ball Ashes updates: England face Australia in final Test at SCG",
-      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/e193bc29-ab16-5fcc-a232-49969e7b26c5",
-      "summary": "",
-      "publishedAt": "2026-01-04T22:55:00.000Z"
     },
     {
       "type": "rss",
@@ -220,6 +209,17 @@
       "link": "https://www.bbc.com/sport/football/articles/cvg173ldgnmo?at_medium=RSS&at_campaign=rss",
       "summary": "Florian Wirtz thought his goal for Liverpool in the 2-2 draw at Fulham was offside - so how did technology allow it to stand?",
       "publishedAt": "2026-01-04T20:26:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Struggling Frank trapped in gilded cage at joyless Tottenham'",
+      "link": "https://www.bbc.com/sport/football/articles/c62vz8578nxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Struggling head coach Thomas Frank is trapped in a gilded cage at joyless Tottenham Hotspur, says chief football writer Phil McNulty.",
+      "publishedAt": "2026-01-04T19:09:57.000Z"
     }
   ]
 }
