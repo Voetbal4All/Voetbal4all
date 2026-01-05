@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-05T19:23:12.838Z",
+  "generatedAt": "2026-01-05T20:29:48.626Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2026-01-05T20:28:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Heerenveen heeft beet en betaalt geen afkoopsom voor nieuwe linksbuiten",
+      "link": "https://www.vi.nl/nieuws/heerenveen-heeft-beet-en-betaalt-geen-afkoopsom-voor-nieuwe-linksbuiten",
+      "summary": "SC Heerenveen heeft Luca Oyen (22) binnen. De Friezen maken bekend dat de linksbuiten transfervrij is overgenomen van RC Genk en zijn handtekening heeft gezet onder een contract tot de zomer van 2029.",
+      "publishedAt": "2026-01-05T20:23:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Appointing Nancy one of clueless Celtic's greatest blunders'",
+      "link": "https://www.bbc.com/sport/football/articles/cx2lwljk4z9o?at_medium=RSS&at_campaign=rss",
+      "summary": "There is \"no apparent big picture view at Celtic\", argues BBC Sport Scotland's Tom English as Wilfried Nancy and Paul Tisdale exit the ailing champions.",
+      "publishedAt": "2026-01-05T20:07:42.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Difficult questions loom for Manchester United higher-ups after Amorim’s axing | Jamie Jackson",
+      "link": "https://www.theguardian.com/football/2026/jan/05/difficult-questions-manchester-united-ruben-amorim-sacking",
+      "summary": "Fallout from a dour and unsuccessful reign will hit well-paid executives who backed the outgoing head coach Ruben Amorim’s tenure as Manchester United head coach began its final unravelling via four words uttered in Friday’s media conference to preview the weekend trip to Leeds. “You are very smart,” was Amorim’s signoff to this correspondent’s last question regarding if the Portuguese had been informed of a change in the January transfer budget by Jason Wilcox, the director of football. The question was asked in reaction to Amorim’s odd comment on Christmas Eve that he was beginning to “understand” the finance was not available to sign the footballers needed to “play a perfect 3-4-3”. Hearing this, the radar bleeped red – Amorim was clearly countenancing changing from a system he was quasi-obsessed with. Continue reading...",
+      "publishedAt": "2026-01-05T20:00:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dick Voormekaar Podcast Extra: 'Gegoochel met aanvoerdersband moest eens klaar zijn'",
+      "link": "https://www.vi.nl/pro/dick-voormekaar-extra-gegoochel-met-aanvoerdersband-moest-eens-klaar-zijn",
+      "summary": "Feyenoord-watcher Martijn Krabbendam geeft in deze Dick Voormekaar Podcast Extra een update uit het trainingskamp van Feyenoord. Hij heeft het met Sjoerd Keizer over de aanvoerderskwestie, mogelijke transfers, de positie van Robin van Persie en de omstandigheden in Marbella.",
+      "publishedAt": "2026-01-05T20:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,29 +65,7 @@
       "title": "Amorim out as Man Utd coach after 14 months",
       "link": "https://www.espn.com/soccer/story/_/id/46418438/ruben-amorim-sacked-man-united-head-coach",
       "summary": "Ruben Amorim has been sacked by Manchester United from his role as head coach.",
-      "publishedAt": "2026-01-05T19:07:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Utd sacked Amorim after Wilcox row",
-      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
-      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
-      "publishedAt": "2026-01-05T19:07:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sporting KC hires former Young Boys coach Wicky",
-      "link": "https://www.espn.com/soccer/story/_/id/47515256/sporting-kc-hires-former-young-boys-coach-raphael-wicky",
-      "summary": "Sporting Kansas City announced that the club has hired Raphael Wicky to be the team's next manager.",
-      "publishedAt": "2026-01-05T19:07:21.000Z"
+      "publishedAt": "2026-01-05T19:56:29.000Z"
     },
     {
       "type": "rss",
@@ -43,29 +76,40 @@
       "title": "Salah goal seals Egypt's spot in AFCON quarters",
       "link": "https://www.espn.com/espn/story/_/id/47514484/mohamed-salah-egypt-need-extra-get-bruising-benin-reach-afcon-quarterfinals",
       "summary": "Egypt advanced to the AFCON quarterfinals on Monday with a 3-1 win over Benin, but they needed extra time to get there in a bruising encounter that saw the Cheetahs throw everything they had at Mohamed Salah and co.",
-      "publishedAt": "2026-01-05T19:07:20.000Z"
+      "publishedAt": "2026-01-05T19:56:29.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Flexibiliteit is geen spijt: Van Persie over de veranderingen bij Feyenoord",
-      "link": "https://www.vi.nl/pro/flexibiliteit-is-geen-spijt-van-persie-over-de-veranderingen-bij-feyenoord",
-      "summary": "Om Feyenoord na de winterstop aan het winnen te krijgen voert trainer Robin van Persie een aantal veranderingen door. Een ervan is maar weer eens een andere aanvoerder. Doelman Timon Wellenreuther neemt de band over van Sem Steijn. De trainer legt uit. 'Je gaat terugzien wat we anders doen.'",
-      "publishedAt": "2026-01-05T19:00:00.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City's Gvardiol to have surgery on broken leg",
+      "link": "https://www.espn.com/soccer/story/_/id/47515550/manchester-city-confirm-josko-gvardiol-leg-fracture-return-unknown",
+      "summary": "Manchester City have confirmed that Josko Gvardiol has suffered a leg fracture and is set to undergo surgery this week.",
+      "publishedAt": "2026-01-05T19:56:29.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Egypte schudt Benin moeizaam van zich af en meldt zich bij laatste acht",
-      "link": "https://www.vi.nl/nieuws/egypte-schudt-benin-moeizaam-van-zich-af-en-meldt-zich-bij-laatste-acht",
-      "summary": "Tekst",
-      "publishedAt": "2026-01-05T18:45:48.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Endrick: Ancelotti said to leave Madrid for Lyon",
+      "link": "https://www.espn.com/soccer/story/_/id/47513744/endrick-carlo-ancelotti-told-leave-real-madrid-lyon",
+      "summary": "Brazilian forward Endrick took advice from his former Real Madrid coach Carlo Ancelotti before joining French club Lyon on loan for the rest of the season.",
+      "publishedAt": "2026-01-05T19:56:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ruben Amorim sacked by Manchester United after losing power struggle over transfers",
+      "link": "https://www.theguardian.com/football/2026/jan/05/ruben-amorim-sacked-by-manchester-united-transfers-power-struggle",
+      "summary": "Head coach goes after outburst at Leeds game Oversaw worst Premier League finish of 15th Ruben Amorim has been sacked by Manchester United after 14 months as their head coach. He leaves after a power struggle with the hierarchy over transfer policy, with Amorim demanding his colleagues in the recruitment department “do their job” after Sunday’s draw at Leeds. Amorim believed United were prepared to back him in the January window should a major signing become available but then said last Friday: “We have no conversation to have any change in the squad.” Continue reading...",
+      "publishedAt": "2026-01-05T19:56:00.000Z"
     },
     {
       "type": "rss",
@@ -73,10 +117,21 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Watch: The Monday Night Club",
-      "link": "https://www.bbc.co.uk/iplayer/episode/l0057sdt?at_medium=RSS&at_campaign=rss",
-      "summary": "Mark Chapman and guests discuss the weekends football",
-      "publishedAt": "2026-01-05T18:38:21.000Z"
+      "title": "Stop experiments and get manager who fits Man Utd DNA - Neville",
+      "link": "https://www.bbc.com/sport/football/articles/c5yv8v7eqq8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Gary Neville urges Manchester United to 'stop experimenting' and appoint a manager who fits the club's DNA after Ruben Amorim was sacked on Monday.",
+      "publishedAt": "2026-01-05T19:50:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Unpacking Man City-Chelsea, Joan Garcia stars for Barca, Amorim out at Man United",
+      "link": "https://www.espn.com/soccer/story/_/id/47511523/manchester-city-chelsea-barcelona-ruben-amorim-manchester-united-sacked-analysis-monday-musings-gab-marcotti",
+      "summary": "Man City might think they \"controlled\" Sunday's draw with Chelsea, but dropped points is all that matters. That and more as Gab Marcotti recaps the weekend.",
+      "publishedAt": "2026-01-05T19:50:50.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +139,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "'Barcelona troeft Internazionale af in strijd om Cancelo'",
-      "link": "https://www.vi.nl/nieuws/west-ham-united-legt-23-miljoen-euro-op-tafel-voor-nieuwe-spits",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-05T18:34:47.000Z"
+      "title": "Manchester City meldt beenbreuk bij Aké-concurrent Gvardiol",
+      "link": "https://www.vi.nl/nieuws/manchester-city-meldt-beenbreuk-bij-ak-concurrent-gvardiol",
+      "summary": "Manchester City zal het voorlopig zonder Josko Gvardiol moeten zien te stellen. De Kroatische verdediger heeft tegen Chelsea zijn scheenbeen gebroken, zo maken The Citizens bekend. Gvardiol zal later deze week geopereerd worden.",
+      "publishedAt": "2026-01-05T19:47:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "O'Neill returns to Celtic for rest of season",
+      "link": "https://www.bbc.com/sport/football/articles/c5y2g5vgjzyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Martin O'Neill is returning to Celtic as manager for the remainder of the season following the dismissal of Wilfried Nancy.",
+      "publishedAt": "2026-01-05T19:31:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Onana kan Galatasaray niet van kans op enig eerherstel weghouden",
+      "link": "https://www.vi.nl/nieuws/onana-kan-galatasaray-niet-van-kans-op-enig-eerherstel-weghouden",
+      "summary": "Galatasaray heeft zich maandag als eerste ploeg geplaatst voor de eindstrijd om de Turkse Super Cup. Cim Bom was in de halve finale van het nieuwe minitoernooi te sterk voor Trabzonspor, waar doelman Andre Onana viermaal moest vissen (4-1).",
+      "publishedAt": "2026-01-05T19:29:06.000Z"
     },
     {
       "type": "rss",
@@ -124,28 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Neville heeft dwingend advies voor United en neemt Ajax als voorbeeld",
-      "link": "https://www.vi.nl/nieuws/neville-heeft-dwingend-advies-voor-man-united-en-neemt-ajax-als-voorbeeld",
-      "summary": "Rúben Amorim werd maandag ontslagen als hoofdtrainer van Manchester United en dus moet de gevallen recordkampioen weer eens op zoek naar een nieuwe manager. Gary Neville hoopt dat zijn geliefde club heeft geleerd van het recente verleden.",
-      "publishedAt": "2026-01-05T18:13:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Appointing Nancy one of clueless Celtic's greatest blunders'",
-      "link": "https://www.bbc.com/sport/football/articles/cx2lwljk4z9o?at_medium=RSS&at_campaign=rss",
-      "summary": "There is \"no apparent big picture view at Celtic\", argues BBC Sport Scotland's Tom English as Wilfried Nancy and Paul Tisdale exit the ailing champions.",
-      "publishedAt": "2026-01-05T18:04:25.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -157,39 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ode aan de scout (die elk moment door AI kan worden afgelost)",
-      "link": "https://www.vi.nl/pro/ode-aan-de-scout-die-elk-moment-door-ai-kan-worden-afgelost",
-      "summary": "Frank Heinen over de opkomst van AI-scouts.",
-      "publishedAt": "2026-01-05T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester United emphatically clear up confusion over Amorim’s job title | Football Daily",
-      "link": "https://www.theguardian.com/football/2026/jan/05/football-daily-ruben-amorim-sacking-manchester-united",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! Considering it took Chelsea 19 days to sack Enzo Maresca following his very public act of insubordination towards the Stamford Bridge hierarchy in mid-December, it is only the speed with which Manchester United kicked their head coach towards the kerb following yesterday’s outburst at Elland Road that might have come as a surprise to Ruben Amorim. Short of rocking up for his post-match press conference waving a placard bearing the slogan “Please Sack Me”, the Portuguese could scarcely have done more to ensure the abrupt receipt of his marching orders. As if his repeated insistence he was “going to be manager of this team, not head coach” wasn’t enough, Amorim threw shade at Jason Wilcox, the club sporting director, and announced there’d be a Ruben-shaped hole in the Old Trafford exit door when his contract expired in 18 months – unless he was sacked first. Less than 18 hours later, with the monotonous predictability of a Bazballing batter throwing away his wicket to a time-killing pre-lunch long hop, any remaining confusion over the 40-year-old’s exact job title was finally cleared up – Amorim is now neither manager nor head coach at United, but gainfully and perhaps mercifully unemployed. What next for the bin fire that is present-day Manchester United? Will they bring back Ole Gunnar Solskjær, hire Carlo Ancelotti’s eyebrow, or ask Martin O’Neill to steady the ship but just for eight games? Perhaps they’ll blow the cobwebs off Sir Alex Ferguson and get him to see out the campaign (except he might actually win a trophy and then insist on staying in charge). Still, it could be worse — they could give Big Ange his third Premier League club of the season. After all, what could possibly go wrong? – Mark McFadden. My family and I have been attending every England match for the last three years to get enough caps to secure tickets for Englands World Cup campaign in USA USA USA. Despite the paltry ticket allocation and ridiculous prices we applied for tickets. Over the weekend we cancelled our applications. Peace prize anyone?” – Ben Gibbes. La Liga side Osasuna have just launched an ‘Osasunista desde la cuna’ (Osasunista from the Cradle) initiative, in which all babies born in Navarra receive a free shirt, shorts, toy and notebook, plus €50 deposited in an account. I would suggest Premier League clubs do the same, but we all know how that would pan out” – Noble Francis. So, you urged the reader to ‘pour yourself a pint of wine’ (Football Daily Christmas awards). I received that at 12.04pm on 17 December, possibly a new record. Given the time of year, would it be 100 miles wide of the mark for me to suggest that pints of wine contributed to the timing, as well as the content of this piece?” – Glynn Marshall. As a patron of your august publication. I totally delighted in your working conditions sign-off in the Christmas awards. Fabulous. Well deserved. Thanks for your efforts” – S Sullivan (Sully). Please stop” – Frankie Dodds. This is an extract from our daily football email … Football Daily. To get the full version, just visit this page and follow the instructions. Continue reading...",
-      "publishedAt": "2026-01-05T17:55:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sutton's predictions v Tony McGuinness of Above and Beyond",
-      "link": "https://www.bbc.com/sport/football/articles/c87r0dn3gq1o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport football expert Chris Sutton takes on Tony McGuinness of Above and Beyond - and AI - with his predictions for this week's Premier League fixtures.",
-      "publishedAt": "2026-01-05T17:54:42.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13490693/premier-league-darts-2026-schedule-venues-players-format-prize-money-as-luke-humphries-defends-title-against-luke-littler-and-other-rivals",
       "summary": "All you need to know about the BetMGM Premier League Darts 2026 including the players, format and schedule.",
       "publishedAt": "2026-01-05T16:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tactics, transfers and turmoil - inside the fall of Amorim",
-      "link": "https://www.bbc.com/sport/football/articles/cly927pn4pno?at_medium=RSS&at_campaign=rss",
-      "summary": "After 14 months, Ruben Amorim has been sacked by Manchester United - but where did it all go wrong?",
-      "publishedAt": "2026-01-05T15:44:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ruben Amorim is gone, but Manchester United’s forever crisis rolls on | Jonathan Wilson",
-      "link": "https://www.theguardian.com/football/2026/jan/05/ruben-amorim-manchester-united-premier-league",
-      "summary": "The head coach (or should that be manager?) fired cryptic shots at his Old Trafford bosses, then was fired himself Amorim sacked after power struggle over transfers Discontent at Manchester United these days is only ever deferred. Ruben Amorim’s departure from the club on Monday was long anticipated and came, in the end, with a weary sigh. He had made a half-hearted protest about the recruitment structure after Sunday’s draw at Leeds, but it felt even at the time like barely more than a gesture. And so another manager, the seventh since Sir Alex Ferguson left in 2013, falls victim to the United meat-grinder. Everybody at United, fundamentally, is unhappy. And not unhappy in the sense that Alex Ferguson used to be unhappy, when the club was essentially fuelled by his volcanic rages, but enervated, frustrated by the realisation that this is not how things used to be, that this was once the biggest football club in the country and now they keep failing to get the win they need to lift them to fifth. Continue reading...",
-      "publishedAt": "2026-01-05T15:40:11.000Z"
     }
   ]
 }
