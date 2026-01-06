@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-01-06T05:28:47.074Z",
+  "generatedAt": "2026-01-06T06:40:22.918Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Farioli verklaart aanpak bij FC Porto: 'Dat waarderen spelers meer'",
+      "link": "https://www.vi.nl/nieuws/farioli-verklaart-aanpak-bij-porto-dat-waarderen-spelers-meer-dan-een-klopje",
+      "summary": "Francesco Farioli heeft uitgebreid teruggeblikt op zijn eerste maanden als trainer van FC Porto. De Italiaan vertelde onder meer wat hij heeft geleerd van zijn laatste maand bij Ajax. 'Soms moet je iets accepteren en niet te veel vragen stellen.'",
+      "publishedAt": "2026-01-06T06:21:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mardle: Bunting fortunate, bitter pill for Noppert to miss out on Premier League",
+      "link": "https://www.skysports.com/darts/news/12040/13490843/premier-league-darts-stephen-bunting-fortunate-bitter-pill-to-swallow-for-danny-noppert-says-wayne-mardle",
+      "summary": "Sky Sports Darts' Wayne Mardle believes Stephen Bunting is \"fortunate\" and questioned the snubbing of Danny Noppert for this year's Premier League Darts.",
+      "publishedAt": "2026-01-06T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Klaassen: 'Wil nog minstens één keer kampioen worden met Ajax'",
+      "link": "https://www.vi.nl/pro/klaassen-wil-nog-minstens-n-keer-kampioen-worden-met-ajax",
+      "summary": "Voor Davy Klaassen was 2025 een jaar dat hij niet snel zal vergeten, zowel in positieve als in negatieve zin. De 32-jarige aanvoerder van Ajax blikt nog eenmaal terug op de hoogte- en dieptepunten, en kijkt ook vooruit naar de toekomst. ‘Het kan ook weer heel snel omdraaien.’",
+      "publishedAt": "2026-01-06T06:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -102,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bijzonder carrièrepad maakt onbekende Amsterdammer opeens concurrent Arnautovic",
-      "link": "https://www.vi.nl/nieuws/bijzonder-carri-repad-maakt-onbekende-amsterdammer-opeens-concurrent-arnautovic",
-      "summary": "Jay Enem: gaat er bij het lezen van die naam een lichtje branden? Veel voetbalvolgers zullen nog nooit van de Amsterdammer gehoord hebben, maar de aanvaller bouwt gestaag aan een mooie carrière en heeft nu een toptransfer binnen Tsjechië te pakken.",
-      "publishedAt": "2026-01-05T21:44:35.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -131,17 +153,6 @@
       "title": "Merk, Monk among first to progress as 2026 Q-School",
       "link": "https://www.skysports.com/darts/news/12040/13490918/pdc-qualifying-school-arno-merk-aaron-monk-take-first-step-towards-securing-tour-cards",
       "summary": "Arno Merk, Arron Monk and Jamie Hughes were among the first 32 players to progress through the opening stage of the 2026 PDC Q-School on Monday.",
-      "publishedAt": "2026-01-05T21:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Volendam brengt te weinig opwinding voor het vijandelijke doel",
-      "link": "https://www.vi.nl/pro/fc-volendam-brengt-te-weinig-opwinding-voor-het-vijandelijke-doel",
-      "summary": "Na een relatief korte winterstop gaat vrijdag de Eredivisie weer verder. Tot diep in maart is er elk weekeinde een speelronde. Met andere woorden: het cruciale deel van het seizoen gaat beginnen. In deze serie maken we bij elke club de balans op, waarbij we wat betreft de volgorde uitgaan van de eerste speelronde van 2026. Deze keer: FC Volendam.",
       "publishedAt": "2026-01-05T21:00:00.000Z"
     },
     {
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13490811/nuno-espirito-santo-exclusive-interview-west-ham-need-a-mentality-change-and-why-january-signings-are-crucial",
       "summary": "Two days on from West Ham's defeat by Wolves at Molineux, Nuno Espirito Santo is still finding it difficult to get his head around his side's first-half collapse. Why did it go so badly wrong?",
       "publishedAt": "2026-01-05T18:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tactics, transfers and turmoil - inside the fall of Amorim",
-      "link": "https://www.bbc.com/sport/football/articles/cly927pn4pno?at_medium=RSS&at_campaign=rss",
-      "summary": "After 14 months, Ruben Amorim has been sacked by Manchester United - but where did it all go wrong?",
-      "publishedAt": "2026-01-05T15:44:17.000Z"
     }
   ]
 }
