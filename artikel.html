@@ -482,6 +482,52 @@
   
   function displayArticle(article) {
     console.log('[ARTIKEL] Displaying article:', article.title);
+
+    // Normalize fields and strip any source/publisher mentions (HLN, VI.nl, Sporza, etc.)
+    const toText = (v) => {
+      if (Array.isArray(v)) {
+        return v
+          .map(x => (typeof x === "string" ? x : (x && typeof x === "object" ? (x.text || x.content || x.body || "") : "")))
+          .filter(Boolean)
+          .join("\n\n");
+      }
+      return typeof v === "string" ? v : (v == null ? "" : String(v));
+    };
+
+    const stripSources = (s) => {
+      let out = String(s || "");
+
+      // Remove common publisher/source tokens and lines that are only a source name
+      const FORBIDDEN = [
+        "HLN","VI.nl","VI","Sporza","NOS","VoetbalPrimeur","Voetbalkrant","AD","De Telegraaf","Telegraaf",
+        "NRC","Belga","VRT","Het Laatste Nieuws","hln.be","nos.nl","sporza.be","vi.nl","voetbalprimeur"
+      ];
+
+      // Remove explicit patterns like "Bron:" / "Volgens" / "via" lines
+      out = out
+        .replace(/^\s*(bron|bron:|volgens|via)\s*[:\-].*$/gim, "")
+        .replace(/\b(volgens|bron|via)\b\s*[:\-]?\s*(hln|vi\.nl|vi|sporza|nos|ad|telegraaf|belga|vrt)\b/gi, "")
+        .replace(/\s*\((hln|vi\.nl|sporza|nos|ad|telegraaf|belga|vrt)\)\s*/gi, " ");
+
+      for (const src of FORBIDDEN) {
+        out = out.replace(new RegExp(`\\b${src.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}\\b`, "gi"), "");
+      }
+
+      // Remove lines that are just 1-3 words (often a source) after stripping
+      out = out
+        .split("\n")
+        .map(line => line.trim())
+        .filter(line => {
+          if (!line) return false;
+          const words = line.split(/\s+/).filter(Boolean);
+          // drop tiny leftover lines like "HLN"
+          if (words.length <= 3 && line.length <= 20) return false;
+          return true;
+        })
+        .join("\n");
+
+      return out.replace(/\n{3,}/g, "\n\n").replace(/\s{2,}/g, " ").trim();
+    };
     
     const title = article.title || 'Voetbal4All Artikel';
     document.getElementById('page-title').textContent = title + ' - Voetbal4All';
@@ -525,57 +571,69 @@
       document.getElementById('og-image').setAttribute('content', fullImageUrl);
     }
     
-    if (article.snippet) {
-      document.getElementById('article-standfirst').textContent = article.snippet;
+    const standfirstEl = document.getElementById('article-standfirst');
+    const cleanStandfirst = stripSources(toText(article.snippet || article.standfirst || article.summary || ""));
+    if (cleanStandfirst) {
+      standfirstEl.textContent = cleanStandfirst;
     } else {
-      document.getElementById('article-standfirst').style.display = 'none';
+      standfirstEl.style.display = 'none';
     }
     
     const bodyEl = document.getElementById('article-body');
     bodyEl.innerHTML = "";
 
-    if (article.body) {
-  // aiRewrite kan body als string of als array teruggeven → normaliseren
-  const bodyText =
-    Array.isArray(article.body)
-      ? article.body.join("\n")
-      : (typeof article.body === "string" ? article.body : "");
+    const cleanBody = stripSources(toText(article.body || article.content || article.text || ""));
+    const finalBody = cleanBody || cleanStandfirst || "";
 
-  const paragraphs = bodyText
-    .split("\n")
-    .map(p => p.trim())
-    .filter(p => p.length > 0);
-
-  paragraphs.forEach((text, index) => {
-    const p = document.createElement("p");
-    p.textContent = text;
-    bodyEl.appendChild(p);
-
-    // Na elke 10 paragrafen: AdSense
-    if ((index + 1) % 10 === 0) {
-      const adWrapper = document.createElement("div");
-      adWrapper.className = "inline-ad-wrapper";
-
-      adWrapper.innerHTML = `
-        <div class="inline-ad-label">Ga verder onder de advertentie</div>
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-4062633211824348"
-          data-ad-slot="6032627042"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      `;
-
-      bodyEl.appendChild(adWrapper);
-
-      try {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {
-        console.warn("[ARTIKEL] AdSense push failed:", e);
-      }
+    if (!finalBody) {
+      // No body available: show error state instead of an empty article
+      console.warn("[ARTIKEL] No body/standfirst after cleaning; showing error state.");
+      setState("error");
+      return;
     }
-  });
-}
+
+    // Prefer paragraphs split by blank lines; fallback to single-line splits
+    let paragraphs = finalBody
+      .split(/\n{2,}/)
+      .map(p => p.trim())
+      .filter(Boolean);
+
+    if (paragraphs.length <= 1) {
+      paragraphs = finalBody
+        .split(/\n+/)
+        .map(p => p.trim())
+        .filter(Boolean);
+    }
+
+    paragraphs.forEach((text, index) => {
+      const p = document.createElement("p");
+      p.textContent = text;
+      bodyEl.appendChild(p);
+
+      // Na elke 10 paragrafen: AdSense
+      if ((index + 1) % 10 === 0) {
+        const adWrapper = document.createElement("div");
+        adWrapper.className = "inline-ad-wrapper";
+
+        adWrapper.innerHTML = `
+          <div class="inline-ad-label">Ga verder onder de advertentie</div>
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4062633211824348"
+            data-ad-slot="6032627042"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        `;
+
+        bodyEl.appendChild(adWrapper);
+
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {
+          console.warn("[ARTIKEL] AdSense push failed:", e);
+        }
+      }
+    });
     
     const tagsEl = document.getElementById('article-tags');
     if (article.tags && article.tags.length > 0) {
