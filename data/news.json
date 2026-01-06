@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-01-06T14:26:59.360Z",
+  "generatedAt": "2026-01-06T15:27:30.589Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Algeria v DR Congo: Africa Cup of Nations last 16 – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/06/algeria-v-dr-congo-africa-cup-of-nations-last-16-live",
+      "summary": "⚽ Afcon updates from the last 16, 4pm GMT kick-off ⚽ Follow on Bluesky | Get in touch: you can mail Yara Hello and welcome to one of the final matches of the 2025 Afcon last-16: Algeria v DR Congo. The north African side will be keen to follow up on their strong group stage showing, where they finished top with three wins. DR Congo will not be an easy task though; Sébastien Desabre’s side came second in their group, only behind Senegal on goal difference. Continue reading...",
+      "publishedAt": "2026-01-06T15:15:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Guardiola na exit Amorim: 'Nemen aan door ideeën, maar ontslaan door resultaten'",
+      "link": "https://www.vi.nl/video/guardiola-na-exit-amorim-nemen-aan-door-idee-n-maar-ontslaan-door-resultaten",
+      "summary": "Pep Guardiola heeft zich kort uitgelaten over het ontslag van Rúben Amorim bij Manchester United. De manager van Manchester City wilde in eerste instantie niet teveel kwijt, maar deed dat toch. 'Ze nemen je aan op basis van je ideeën, maar je wordt ontslagen door de resultaten.'",
+      "publishedAt": "2026-01-06T15:01:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Inothewayurthinkin and Galopin Des Champs among entries for Gold Cup",
+      "link": "https://www.skysports.com/racing/news/12040/13491154/cheltenham-festival-inothewayurthinkin-and-galopin-des-champs-feature-in-gold-cup-shakeup",
+      "summary": "Last year’s hero Inothewayurthinkin, two-time winner Galopin Des Champs and Harry Redknapp’s The Jukebox Man are among 33 entries for the Boodles Cheltenham Gold Cup.",
+      "publishedAt": "2026-01-06T15:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De machine van Peter Bosz dendert op derde landstitel af",
+      "link": "https://www.vi.nl/pro/de-machine-van-peter-bosz-dendert-op-derde-landstitel-af",
+      "summary": "Na een relatief korte winterstop gaat vrijdag de Eredivisie weer verder. Tot diep in maart is er elk weekeinde een speelronde. Met andere woorden: het cruciale deel van het seizoen gaat beginnen. In deze serie maken we bij elke club de balans op, waarbij we wat betreft de volgorde uitgaan van de eerste speelronde van 2026. Deze keer: PSV.",
+      "publishedAt": "2026-01-06T15:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wardley 'extremely keen' to defend world title vs Fury",
+      "link": "https://www.skysports.com/boxing/news/12040/13491187/fabio-wardley-extremely-keen-to-fight-tyson-fury-and-defend-wbo-title-against-former-heavyweight-champion",
+      "summary": "Fabio Wardley has told Sky Sports he would be \"extremely keen\" to defend his WBO world title against Tyson Fury, following the latter's decision to come out of retirement.",
+      "publishedAt": "2026-01-06T14:44:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Maresca laat van zich horen na vertrek bij Chelsea",
+      "link": "https://www.vi.nl/nieuws/maresca-laat-van-zich-horen-na-vertrek-bij-chelsea",
+      "summary": "Voor het eerst sinds zijn vertrek bij Chelsea heeft Enzo Maresca van zich laten horen. De Spaanse manager is vooral dankbaar voor de periode waarin hij werkzaam was bij The Blues .",
+      "publishedAt": "2026-01-06T14:43:58.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -62,28 +128,6 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Maresca laat van zich horen na vertrek bij Chelsea",
-      "link": "https://www.vi.nl/nieuws/maresca-laat-van-zich-horen-na-vertrek-bij-chelsea",
-      "summary": "Voor het eerst sinds zijn vertrek bij Chelsea heeft Enzo Maresca van zich laten horen. De Spaanse manager is vooral dankbaar voor de periode waarin hij werkzaam was bij The Blues .",
-      "publishedAt": "2026-01-06T14:05:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heerenveen presenteert tweede nieuwe aanvaller van deze week",
-      "link": "https://www.vi.nl/nieuws/heerenveen-presenteert-tweede-nieuwe-aanvaller-van-deze-week",
-      "summary": "SC Heerenveen heeft zijn tweede winterse versterking officieel binnen. Na linksbuiten Luca Oyen (22, overgenomen van RC Genk) is dinsdag Lasse Nordas gepresenteerd. De Noorse spits (23) wordt tot het einde van het seizoen gehuurd van Luton Town.",
-      "publishedAt": "2026-01-06T14:02:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "De 2026-bingokaart: penalty Utrecht, uitzege NAC en een speler uit 2010",
       "link": "https://www.vi.nl/pro/de-2026-bingokaart-penalty-utrecht-uitzege-nac-en-een-speler-uit-2010",
       "summary": "Intro",
@@ -99,28 +143,6 @@
       "link": "https://www.skysports.com/tennis/news/12040/13491060/battle-of-the-sexes-aryna-sabalenka-says-her-match-with-nick-kyrgios-brought-eyes-on-tennis",
       "summary": "Aryna Sabalenka has defended her 'Battle of the Sexes' match with Nick Kyrgios, saying it \"brought eyes on tennis.\"",
       "publishedAt": "2026-01-06T13:52:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester City lose Rúben Dias for up to six weeks in latest defensive injury blow",
-      "link": "https://www.theguardian.com/football/2026/jan/06/manchester-city-ruben-dias-injury-out-for-up-to-six-weeks",
-      "summary": "Gvardiol likely out for season and Stones also injured Guéhi of interest and forward Semenyo close to joining Manchester City will be without Rúben Dias for up to six weeks with a hamstring injury, exacerbating Pep Guardiola’s defensive injury crisis. The shortage of centre-backs could force the club into the transfer market, with the Crystal Palace captain, Marc Guéhi, of interest. Dias and Josko Gvardiol, who has a broken shinbone, were forced off in Sunday’s draw with Chelsea, leaving City with 13 fit senior outfield players for Brighton’s visit on Wednesday. The academy graduate Max Alleyne has been recalled from a loan at Watford to bolster options in the short term. Continue reading...",
-      "publishedAt": "2026-01-06T13:48:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Iraola geeft update over revalidatie Kluivert: 'Alles hangt af van donderdag'",
-      "link": "https://www.vi.nl/nieuws/iraola-geeft-update-over-revalidatie-kluivert-alles-hangt-af-van-donderdag",
-      "summary": "De knieblessure van Justin Kluivert baart Andoni Iraola zorgen. De manager van Bournemouth liet in aanloop naar het thuisduel met Tottenham Hotspur weten dat de Nederlander donderdag onder het mes gaat. Aan de hand van de ingreep wordt het revalidatietraject bepaald.",
-      "publishedAt": "2026-01-06T13:45:00.000Z"
     },
     {
       "type": "rss",
@@ -168,6 +190,17 @@
     },
     {
       "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior needs bright start at Chelsea to avoid being a focus for fan discontent | Jacob Steinberg",
+      "link": "https://www.theguardian.com/football/2026/jan/06/liam-rosenior-new-chelsea-head-coach-fan-discontent-ownership",
+      "summary": "The club are in a decent position but there is dissatisfaction with the ownership and the new head coach must not get caught in the crossfire The way Chelsea are run will come as no surprise to Liam Rosenior. He has longstanding relationships with three of the five sporting directors and will know from his time at Strasbourg, who are part of the same ownership, that the head coach’s best chance of surviving is not to make the mistake of rebelling against the structure. Rosenior will have to show more political savvy than Enzo Maresca, who talked himself out of the job last week. Yet given the 41-year-old is familiar with the working conditions at BlueCo, the investment vehicle that owns Chelsea and Strasbourg, his biggest challenge is unlikely to be managing upwards. Rosenior will know where to train his focus and not to rock the boat. Crucially, he does not inherit a team in crisis. Chelsea are fifth and earned a creditable draw at Manchester City on Sunday; despite the rancour of Maresca’s final days, this is not a situation that calls for a major rebuild. Continue reading...",
+      "publishedAt": "2026-01-06T13:00:14.000Z"
+    },
+    {
+      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -187,39 +220,6 @@
       "link": "https://www.skysports.com/tennis/news/12040/13490980/emma-raducanu-faces-race-against-time-to-be-fully-fit-for-australian-open-after-barely-playing-tennis-during-the-off-season",
       "summary": "Emma Raducanu faces a race against time to be fully fit for the Australian Open after revealing that she barely played tennis during the off-season.",
       "publishedAt": "2026-01-06T11:58:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Celtic 'going all out' for signings - O'Neill",
-      "link": "https://www.bbc.com/sport/football/articles/c1m7rmjdx4zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Returning manager Martin O'Neill says Celtic will go \"all out\" to sign players in January.",
-      "publishedAt": "2026-01-06T11:50:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Howe 'very happy' at Newcastle amid Man Utd link",
-      "link": "https://www.bbc.com/sport/football/articles/c8rmjrvjp1lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Head coach Eddie Howe says he is \"very happy\" at Newcastle United as he dismisses speculation linking with him the Manchester United job.",
-      "publishedAt": "2026-01-06T11:28:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "David Squires on … Amorim and Maresca being thrown overboard in power struggles",
-      "link": "https://www.theguardian.com/football/picture/2026/jan/06/david-squires-ruben-amorim-enzo-maresca-thrown-overboard-manchester-united-chelsea-power-struggles",
-      "summary": "Our cartoonist on a typically sedate start to 2026 at two of the Premier League’s biggest football ‘projects’ David’s favourite cartoons of 2025 | Buy one here And his latest book, Chaos in the Box: get it now Continue reading...",
-      "publishedAt": "2026-01-06T11:20:31.000Z"
     }
   ]
 }
