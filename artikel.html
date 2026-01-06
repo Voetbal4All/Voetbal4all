@@ -472,8 +472,8 @@
       if (!article) throw new Error('Invalid payload: missing item');
 
       console.log('[ARTIKEL] ✅ Article found via /api/news/:id:', article.title);
-      displayArticle(article);
-      setState("content");
+      const ok = displayArticle(article);
+      setState(ok ? "content" : "error");
     })
     .catch(err => {
       console.error('[ARTIKEL] ❌ Failed to load article:', err);
@@ -500,14 +500,15 @@
       // Remove common publisher/source tokens and lines that are only a source name
       const FORBIDDEN = [
         "HLN","VI.nl","VI","Sporza","NOS","VoetbalPrimeur","Voetbalkrant","AD","De Telegraaf","Telegraaf",
-        "NRC","Belga","VRT","Het Laatste Nieuws","hln.be","nos.nl","sporza.be","vi.nl","voetbalprimeur"
+        "NRC","Belga","VRT","Het Laatste Nieuws","hln.be","nos.nl","sporza.be","vi.nl","voetbalprimeur",
+        "MSN","msn","MSN Nieuws","msn.com","msn.nl"
       ];
 
       // Remove explicit patterns like "Bron:" / "Volgens" / "via" lines
       out = out
         .replace(/^\s*(bron|bron:|volgens|via)\s*[:\-].*$/gim, "")
-        .replace(/\b(volgens|bron|via)\b\s*[:\-]?\s*(hln|vi\.nl|vi|sporza|nos|ad|telegraaf|belga|vrt)\b/gi, "")
-        .replace(/\s*\((hln|vi\.nl|sporza|nos|ad|telegraaf|belga|vrt)\)\s*/gi, " ");
+        .replace(/\b(volgens|bron|via)\b\s*[:\-]?\s*(hln|vi\.nl|vi|sporza|nos|ad|telegraaf|belga|vrt|msn|msn\.com)\b/gi, "")
+        .replace(/\s*\((hln|vi\.nl|sporza|nos|ad|telegraaf|belga|vrt|msn|msn\.com)\)\s*/gi, " ");
 
       for (const src of FORBIDDEN) {
         out = out.replace(new RegExp(`\\b${src.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}\\b`, "gi"), "");
@@ -585,12 +586,35 @@
     const cleanBody = stripSources(toText(article.body || article.content || article.text || ""));
     const finalBody = cleanBody || cleanStandfirst || "";
 
-    if (!finalBody) {
-      // No body available: show error state instead of an empty article
-      console.warn("[ARTIKEL] No body/standfirst after cleaning; showing error state.");
-      setState("error");
-      return;
+    if (!finalBody || !String(finalBody).trim()) {
+      // HARD RULE: if there is no body after cleaning, do NOT show any article UI.
+      console.warn("[ARTIKEL] Empty body/standfirst after cleaning; blocking render.");
+
+      // Clear any partially-filled fields to avoid flash of content
+      document.getElementById('breadcrumb-title').textContent = 'Artikel';
+      document.getElementById('article-title').textContent = '';
+      document.getElementById('article-caption').textContent = '';
+      const img = document.getElementById('article-image');
+      if (img) { img.src = ''; img.style.display = 'none'; }
+      const sf = document.getElementById('article-standfirst');
+      if (sf) { sf.textContent = ''; sf.style.display = 'none'; }
+      const body = document.getElementById('article-body');
+      if (body) body.innerHTML = '';
+
+      // Hide share buttons in error cases
+      const share = document.querySelector('.share-buttons');
+      if (share) share.style.display = 'none';
+      const shareTitle = document.querySelector('.share-section-title');
+      if (shareTitle) shareTitle.style.display = 'none';
+
+      return false;
     }
+
+    // Show share buttons if valid article
+    const share = document.querySelector('.share-buttons');
+    if (share) share.style.display = '';
+    const shareTitle = document.querySelector('.share-section-title');
+    if (shareTitle) shareTitle.style.display = '';
 
     // Prefer paragraphs split by blank lines; fallback to single-line splits
     let paragraphs = finalBody
@@ -660,6 +684,7 @@
     setupCopyButton('share-copy', 'copy-text', articleUrl);
     
     console.log('[ARTIKEL] ✅ Article fully displayed');
+    return true;
   }
   
   function setupCopyButton(btnId, textId, url) {
