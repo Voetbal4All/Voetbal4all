@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-06T01:59:54.287Z",
+  "generatedAt": "2026-01-06T03:44:30.687Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: United sacked Amorim after Wilcox row",
+      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
+      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
+      "publishedAt": "2026-01-06T02:05:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City's Gvardiol to have surgery on broken leg",
+      "link": "https://www.espn.com/soccer/story/_/id/47515550/manchester-city-confirm-josko-gvardiol-leg-fracture-return-unknown",
+      "summary": "Manchester City have confirmed that Josko Gvardiol has suffered a leg fracture and is set to undergo surgery this week.",
+      "publishedAt": "2026-01-06T02:05:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Osimhen double puts Nigeria in AFCON quarters",
+      "link": "https://www.espn.com/espn/story/_/id/47515531/victor-osimhen-ademola-lookman-nigeria-make-light-work-mozambique-reach-afcon-quarterfinals",
+      "summary": "Nigeria's Super Eagles had no problems, aside from some rain, in Fes on Monday, as Victor Osimhen and Ademola Lookman produced an attacking masterclass against Mozambique to win 4-0 and advance to the AFCON quarterfinals.",
+      "publishedAt": "2026-01-06T02:05:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Source: Barcelona in talks over João Cancelo loan",
+      "link": "https://www.espn.com/soccer/story/_/id/47516174/barcelona-talks-al-hilal-joao-cancelo-loan",
+      "summary": "Barcelona are exploring a deal to bring Portugal international João Cancelo back to the club in January, a source has confirmed to ESPN.",
+      "publishedAt": "2026-01-06T02:05:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United must go big and hire a superstar manager after firing Ruben Amorim",
+      "link": "https://www.espn.com/soccer/story/_/id/47512319/manchester-united-fire-ruben-amorim-analysis-reaction",
+      "summary": "It is time for one of the most powerful clubs in the world to hire a manager with the experience, track record, credentials and personality befitting Man United's status.",
+      "publishedAt": "2026-01-06T02:05:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -69,50 +124,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: United sacked Amorim after Wilcox row",
-      "link": "https://www.espn.com/soccer/story/_/id/47512494/ruben-amorim-sacked-man-united-fiery-jason-wilcox-row-sources",
-      "summary": "Ruben Amorim was sacked by Manchester United in the aftermath of an explosive meeting with director of football Jason Wilcox on Friday, sources have confirmed to ESPN.",
-      "publishedAt": "2026-01-05T21:35:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City's Gvardiol to have surgery on broken leg",
-      "link": "https://www.espn.com/soccer/story/_/id/47515550/manchester-city-confirm-josko-gvardiol-leg-fracture-return-unknown",
-      "summary": "Manchester City have confirmed that Josko Gvardiol has suffered a leg fracture and is set to undergo surgery this week.",
-      "publishedAt": "2026-01-05T21:35:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Osimhen double puts Nigeria in AFCON quarters",
-      "link": "https://www.espn.com/espn/story/_/id/47515531/victor-osimhen-ademola-lookman-nigeria-make-light-work-mozambique-reach-afcon-quarterfinals",
-      "summary": "Nigeria's Super Eagles had no problems, aside from some rain, in Fes on Monday, as Victor Osimhen and Ademola Lookman produced an attacking masterclass against Mozambique to win 4-0 and advance to the AFCON quarterfinals.",
-      "publishedAt": "2026-01-05T21:35:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Source: Barcelona in talks over João Cancelo loan",
-      "link": "https://www.espn.com/soccer/story/_/id/47516174/barcelona-talks-al-hilal-joao-cancelo-loan",
-      "summary": "Barcelona are exploring a deal to bring Portugal international João Cancelo back to the club in January, a source has confirmed to ESPN.",
-      "publishedAt": "2026-01-05T21:35:02.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -176,17 +187,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/05/difficult-questions-manchester-united-ruben-amorim-sacking",
       "summary": "Fallout from a dour and unsuccessful reign will hit well-paid executives who backed the outgoing head coach Ruben Amorim’s tenure as Manchester United head coach began its final unravelling via four words uttered in Friday’s media conference to preview the weekend trip to Leeds. “You are very smart,” was Amorim’s signoff to this correspondent’s last question regarding if the Portuguese had been informed of a change in the January transfer budget by Jason Wilcox, the director of football. The question was asked in reaction to Amorim’s odd comment on Christmas Eve that he was beginning to “understand” the finance was not available to sign the footballers needed to “play a perfect 3-4-3”. Hearing this, the radar bleeped red – Amorim was clearly countenancing changing from a system he was quasi-obsessed with. Continue reading...",
       "publishedAt": "2026-01-05T20:00:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Unpacking Man City-Chelsea, Joan Garcia stars for Barca, Amorim out at Man United",
-      "link": "https://www.espn.com/soccer/story/_/id/47511523/manchester-city-chelsea-barcelona-ruben-amorim-manchester-united-sacked-analysis-monday-musings-gab-marcotti",
-      "summary": "Man City might think they \"controlled\" Sunday's draw with Chelsea, but dropped points is all that matters. That and more as Gab Marcotti recaps the weekend.",
-      "publishedAt": "2026-01-05T19:50:50.000Z"
     },
     {
       "type": "rss",
