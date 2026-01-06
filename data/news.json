@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-06T20:28:45.081Z",
+  "generatedAt": "2026-01-06T21:25:02.929Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Drama! Forest equalise moments after West Ham goal ruled out!",
+      "link": "https://www.skysports.com/watch/video/13491308/drama-forest-equalise-moments-after-west-ham-goal-ruled-out",
+      "summary": "Nottingham Forest find the equaliser just minutes after West Ham had thought they had doubled their lead!",
+      "publishedAt": "2026-01-06T21:19:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: United approach Carrick, Solskjaer",
+      "link": "https://www.espn.com/soccer/story/_/id/47527700/man-united-approach-ole-gunnar-solskjaer-michael-carrick-interim-role",
+      "summary": "Manchester United have held \"early-stage informal talks\" with several potential interim managers, including Ole Gunnar Solskjaer and Michael Carrick, sources have told ESPN.",
+      "publishedAt": "2026-01-06T21:15:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea name Rosenior as coach on 5½-year deal",
+      "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
+      "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
+      "publishedAt": "2026-01-06T21:15:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Iraola: City-target Semenyo could exit this week",
+      "link": "https://www.espn.com/soccer/story/_/id/47530774/bournemouth-andoni-iraola-man-city-antonie-semenyo-transfer",
+      "summary": "Bournemouth boss Andoni Iraola said Tuesday that he accepts Antoine Semenyo could make his last appearance for the club against Tottenham on Wednesday night.",
+      "publishedAt": "2026-01-06T21:15:37.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,7 +54,29 @@
       "title": "West Ham v Nottingham Forest: Premier League – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/06/west-ham-v-nottingham-forest-premier-league-live",
       "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Follow us on Bluesky | And email Billy West Ham get the ball rolling! The teams are on their way out of the London Stadium tunnel. It’s slightly above freezing and rain, probably not snow, is forecast a bit later this evening. Kick-off is next. Continue reading...",
-      "publishedAt": "2026-01-06T20:24:33.000Z"
+      "publishedAt": "2026-01-06T21:10:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSV'er Nagalo zakt door het ijs: glansrol Diallo brengt Ivoorkust naar kwartfinale",
+      "link": "https://www.vi.nl/nieuws/psv-er-nagalo-zakt-door-het-ijs-glansrol-diallo-brengt-ivoorkust-naar-kwartfinale",
+      "summary": "Titelhouder Ivoorkust heeft geen kind gehad aan Burkina Faso gehad in de achtste finale van de Afrika Cup. Met een glansrol voor Manchester United-aanvaller Amad Diallo en een negatieve hoofdrol voor PSV-speler Adam Nagalo werd het een eenzijdige wedstrijd in Marrakech.",
+      "publishedAt": "2026-01-06T21:02:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2026-01-06T21:00:40.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +87,18 @@
       "title": "Who will be Man United's next manager? 12 top candidates to replace Amorim",
       "link": "https://www.espn.com/soccer/story/_/id/47516208/man-united-next-manager-12-candidates-replace-amorim",
       "summary": "Whether Manchester United aim to hire quickly or wait until summer, here are the coaches they could be after.",
-      "publishedAt": "2026-01-06T20:22:11.000Z"
+      "publishedAt": "2026-01-06T20:49:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Fans Strasbourg voelen zich beetgenomen door Chelsea: 'Vernederend'",
+      "link": "https://www.vi.nl/nieuws/fans-strasbourg-voelen-zich-beetgenomen-door-chelsea-vernederend",
+      "summary": "De aanstelling van Liam Rosenior als nieuwe manager van Chelsea heeft voor woede gezorgd bij de supporters van RC Strasbourg. De Franse club is, net als Chelsea, eigendom van investeringsmaatschappij BlueCo en ziet opnieuw een belangrijk persoon vertrekken richting Londen.",
+      "publishedAt": "2026-01-06T20:45:00.000Z"
     },
     {
       "type": "rss",
@@ -80,69 +157,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Flick ziet in Cancelo ideale versterking bij Barcelona",
-      "link": "https://www.vi.nl/video/flick-ziet-in-cancelo-ideale-versterking-bij-barcelona",
-      "summary": "Barcelona-trainer Hansi Flick heeft gereageerd op de geruchten dat João Cancelo dicht bij een terugkeer naar Catalonië zou zijn. De Duitse oefenmeester weet dat de club weinig financiële middelen heeft om spelers te halen, maar ziet in de Portugese verdediger een ideale versterking. Cancelo staat momenteel onder contract bij Al Hilal, maar de Spaanse kranten zijn ervan overtuigd dat de Portugees terugkeert naar Barcelona deze transferwindow.",
-      "publishedAt": "2026-01-06T19:44:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Debuterende Musaba geeft visitekaartje af bij Fenerbahçe in pikant weerzien",
-      "link": "https://www.vi.nl/nieuws/debuterende-musaba-geeft-visitekaartje-af-bij-fenerbahce-in-pikant-weerzien",
-      "summary": "Anthony Musaba heeft bij zijn debuut voor Fenerbahçe direct indruk gemaakt. Met twee assists was hij beslissend voor de zege op Samsunspor, zijn oude club waar hij middels een staking een transfer forceerde.",
-      "publishedAt": "2026-01-06T19:29:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Curaçao-aanvoerder Bacuna vindt nieuwe club in Turkije",
-      "link": "https://www.vi.nl/nieuws/curcao-aanvoerder-bacuna-vindt-nieuwe-club-in-turkije",
-      "summary": "Leandro Bacuna gaat zijn carrière vervolgen bij het Turkse Igdır FK. De aanvoerder van Curaçao komt over van Bandırmaspor en maakt daarmee een transfer binnen het tweede niveau van Turkije met het oog op het WK van komende zomer.",
-      "publishedAt": "2026-01-06T19:09:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: United approach Carrick, Solskjaer",
-      "link": "https://www.espn.com/soccer/story/_/id/47527700/man-united-approach-ole-gunnar-solskjaer-michael-carrick-interim-role",
-      "summary": "Manchester United have held \"early-stage informal talks\" with several potential interim managers, including Ole Gunnar Solskjaer and Michael Carrick, sources have told ESPN.",
-      "publishedAt": "2026-01-06T19:06:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea name Rosenior as coach on 5½-year deal",
-      "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
-      "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
-      "publishedAt": "2026-01-06T19:06:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fletcher: Leading Man United an 'amazing honor'",
-      "link": "https://www.espn.com/soccer/story/_/id/47528545/darren-fletcher-man-united-coach-interim-amazing-honour",
-      "summary": "Darren Fletcher has said it's \"an amazing honour\" to be asked to lead Manchester United in the aftermath of Ruben Amorim's dismissal.",
-      "publishedAt": "2026-01-06T19:06:50.000Z"
+      "title": "Littler leads charge for first 2026 major at World Masters",
+      "link": "https://www.skysports.com/darts/news/12040/13491274/winmau-world-masters-2026-luke-littler-chasing-maiden-title-in-milton-keynes",
+      "summary": "Luke Littler goes in search of a maiden title when the 2026 PDC season kicks off with the World Masters in Milton Keynes.",
+      "publishedAt": "2026-01-06T19:08:00.000Z"
     },
     {
       "type": "rss",
@@ -190,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amorim 'blow-up' brings Wilcox into the spotlight",
-      "link": "https://www.bbc.com/sport/football/articles/cedw8qq9l7po?at_medium=RSS&at_campaign=rss",
-      "summary": "Who is Manchester United's director of football Jason Wilcox and how did he become one of the most powerful figures in football?",
-      "publishedAt": "2026-01-06T13:10:31.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/06/liam-rosenior-new-chelsea-head-coach-fan-discontent-ownership",
       "summary": "The club are in a decent position but there is dissatisfaction with the ownership and the new head coach must not get caught in the crossfire The way Chelsea are run will come as no surprise to Liam Rosenior. He has longstanding relationships with three of the five sporting directors and will know from his time at Strasbourg, who are part of the same ownership, that the head coach’s best chance of surviving is not to make the mistake of rebelling against the structure. Rosenior will have to show more political savvy than Enzo Maresca, who talked himself out of the job last week. Yet given the 41‑year‑old is familiar with the working conditions at BlueCo, the investment vehicle that owns Chelsea and Strasbourg, his biggest challenge is unlikely to be managing upwards. Rosenior will know where to train his focus and not to rock the boat. Crucially, he does not inherit a team in crisis. Chelsea are fifth and earned a creditable draw at Manchester City on Sunday; despite the rancour of Maresca’s final days, this is not a situation that calls for a major rebuild. Continue reading...",
       "publishedAt": "2026-01-06T13:00:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Devenny 'frustrated' at Palace form but rejects claims of fatigue",
-      "link": "https://www.skysports.com/football/news/12040/13491122/justin-devenny-rejects-crystal-palace-fatigue-claims-but-admits-frustration-at-poor-run-of-form-across-december",
-      "summary": "Crystal Palace midfielder Justin Devenny has rejected suggestions the club's tough run of form has been affected by a small squad suffering from fatigue across a bruising festive schedule.",
-      "publishedAt": "2026-01-06T12:41:00.000Z"
     }
   ]
 }
