@@ -605,12 +605,7 @@
         allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
         allItems = dedupeById(allItems);
 
-        // sort newest first
-        allItems.sort((a,b) => {
-          const da = new Date(a.publishedAt || a.date || 0).getTime();
-          const db = new Date(b.publishedAt || b.date || 0).getTime();
-          return db - da;
-        });
+        // ✅ Keep backend order exactly as delivered (no client-side sorting)
 
         applyFilters();
       } catch (e) {

@@ -691,23 +691,9 @@
 
           console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
 
-          // 🔥 FIX: Separate BE/NL from INT, shuffle BE/NL together
-          const beNlArticles = filteredItems.filter(a => a.country === 'BE' || a.country === 'NL');
-          const intArticles = filteredItems.filter(a => a.country === 'INT');
-          
-          // Shuffle BE/NL articles randomly (Fisher-Yates shuffle)
-          for (let i = beNlArticles.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [beNlArticles[i], beNlArticles[j]] = [beNlArticles[j], beNlArticles[i]];
-          }
-          
-          // Combine: Mixed BE/NL first, then INT
-          const sortedItems = [...beNlArticles, ...intArticles];
-          
-          console.log(`[SORT] ✅ Mixed BE/NL (${beNlArticles.length}), then INT (${intArticles.length})`);
-
-          // Take first 50 for display (from sorted results)
-          const displayItems = sortedItems.slice(0, 50);
+          // ✅ Keep backend order exactly as delivered (no shuffle / no client-side ordering)
+          const displayItems = filteredItems.slice(0, 50);
+          console.log(`[ORDER] ✅ Backend order preserved. Showing ${displayItems.length} items.`);
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
           if (!displayItems.length) {
