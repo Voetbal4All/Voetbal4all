@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-06T03:44:30.687Z",
+  "generatedAt": "2026-01-06T04:42:47.570Z",
   "items": [
     {
       "type": "rss",
@@ -66,17 +66,6 @@
       "link": "https://www.skysports.com/football/news/12040/13490950/ruben-amorims-huge-pay-off-from-man-utd-revealed-as-his-potential-replacements-are-discussed-paper-talk",
       "summary": "The top stories and transfer rumours from Tuesday's newspapers...",
       "publishedAt": "2026-01-05T23:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ball-by-ball Ashes updates: England face Australia in final Test at SCG",
-      "link": "https://www.skysports.com/cricket/australia-v-england/commentary/e193bc29-ab16-5fcc-a232-49969e7b26c5",
-      "summary": "",
-      "publishedAt": "2026-01-05T22:55:00.000Z"
     },
     {
       "type": "rss",
@@ -220,6 +209,17 @@
       "link": "https://www.skysports.com/football/news/12040/13490811/nuno-espirito-santo-exclusive-interview-west-ham-need-a-mentality-change-and-why-january-signings-are-crucial",
       "summary": "Two days on from West Ham's defeat by Wolves at Molineux, Nuno Espirito Santo is still finding it difficult to get his head around his side's first-half collapse. Why did it go so badly wrong?",
       "publishedAt": "2026-01-05T18:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tactics, transfers and turmoil - inside the fall of Amorim",
+      "link": "https://www.bbc.com/sport/football/articles/cly927pn4pno?at_medium=RSS&at_campaign=rss",
+      "summary": "After 14 months, Ruben Amorim has been sacked by Manchester United - but where did it all go wrong?",
+      "publishedAt": "2026-01-05T15:44:17.000Z"
     }
   ]
 }
