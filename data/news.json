@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2026-01-06T13:40:13.354Z",
+  "generatedAt": "2026-01-06T14:26:59.360Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Aké ziet wéér defensieve collega wegvallen: Rúben Dias weken afwezig",
-      "link": "https://www.vi.nl/nieuws/ak-ziet-w-r-defensieve-collega-wegvallen-r-ben-dias-weken-afwezig",
-      "summary": "Voor Pep Guardiola zijn de problemen in zijn defensie almaar groter geworden. Manchester City kan de komende vier tot zes weken ook niet beschikken over Rúben Dias, zo onthulde de Spaanse succesmanager tijdens een persmoment.",
-      "publishedAt": "2026-01-06T13:33:06.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "West Ham in talks to terminate Wilson's contract",
+      "link": "https://www.bbc.com/sport/football/articles/czejpg4jw8ko?at_medium=RSS&at_campaign=rss",
+      "summary": "West Ham are close to an agreement with striker Callum Wilson to terminate his contract at the club.",
+      "publishedAt": "2026-01-06T14:23:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ole Gunnar Solskjær could make shock return as Manchester United interim manager",
+      "link": "https://www.theguardian.com/football/2026/jan/06/ole-gunnar-solskjaer-shock-return-manchester-united-interim-manager",
+      "summary": "Wilcox considers Norwegian a prime candidate for role Senior players would welcome temporary appointment Ole Gunnar Solskjær could make a shock return to Manchester United as interim manager, with Jason Wilcox, the director of football, considering him a prime candidate for the role. Solskjær is thought to be open to taking up the position at a club where he remains a huge fan favourite as a former successful player there. Senior players led by Bruno Fernandes and Harry Maguire would welcome his temporary appointment. Continue reading...",
+      "publishedAt": "2026-01-06T14:17:25.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +29,131 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Vierde uitleenbeurt lonkt voor Kasanwirjo: Fortuna wil Feyenoorder huren",
-      "link": "https://www.vi.nl/nieuws/vierde-uitleenbeurt-lonkt-voor-kasanwirjo-fortuna-wil-feyenoorder-huren",
-      "summary": "Neraysho Kasanwirjo lijkt Feyenoord te verruilen voor Fortuna Sittard. Alleen de medische keuring scheidt de 23-jarige verdediger nog van een tijdelijke transfer naar de nummer elf van de Eredivisie.",
-      "publishedAt": "2026-01-06T13:20:58.000Z"
+      "title": "Transfers PSV: Italiaanse spits (15) verruilt Almere voor Eindhoven",
+      "link": "https://www.vi.nl/nieuws/transfers-psv-italiaanse-spits-15-verruilt-almere-voor-eindhoven",
+      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij PSV op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2026-01-06T14:15:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why Man United sacked Amorim: Tactics, player issues, transfer frustration",
+      "link": "https://www.espn.com/soccer/story/_/id/47514917/manchester-united-story-firing-ruben-amorim-analysis-rob-dawson",
+      "summary": "Ruben Amorim was seen as a risky choice to lead Man United's rebuild in November 2024. Here's how things broke down publicly and behind closed doors.",
+      "publishedAt": "2026-01-06T14:09:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Who will be Man United's next manager? 12 top candidates to replace Amorim",
+      "link": "https://www.espn.com/soccer/story/_/id/47516208/man-united-next-manager-12-candidates-replace-amorim",
+      "summary": "Whether Manchester United aim to hire quickly or wait until summer, here are the coaches they could be after.",
+      "publishedAt": "2026-01-06T14:09:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Maresca laat van zich horen na vertrek bij Chelsea",
+      "link": "https://www.vi.nl/nieuws/maresca-laat-van-zich-horen-na-vertrek-bij-chelsea",
+      "summary": "Voor het eerst sinds zijn vertrek bij Chelsea heeft Enzo Maresca van zich laten horen. De Spaanse manager is vooral dankbaar voor de periode waarin hij werkzaam was bij The Blues .",
+      "publishedAt": "2026-01-06T14:05:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Heerenveen presenteert tweede nieuwe aanvaller van deze week",
+      "link": "https://www.vi.nl/nieuws/heerenveen-presenteert-tweede-nieuwe-aanvaller-van-deze-week",
+      "summary": "SC Heerenveen heeft zijn tweede winterse versterking officieel binnen. Na linksbuiten Luca Oyen (22, overgenomen van RC Genk) is dinsdag Lasse Nordas gepresenteerd. De Noorse spits (23) wordt tot het einde van het seizoen gehuurd van Luton Town.",
+      "publishedAt": "2026-01-06T14:02:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De 2026-bingokaart: penalty Utrecht, uitzege NAC en een speler uit 2010",
+      "link": "https://www.vi.nl/pro/de-2026-bingokaart-penalty-utrecht-uitzege-nac-en-een-speler-uit-2010",
+      "summary": "Intro",
+      "publishedAt": "2026-01-06T14:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "World No 1 Sabalenka: Battle of the Sexes brought eyes on tennis",
+      "link": "https://www.skysports.com/tennis/news/12040/13491060/battle-of-the-sexes-aryna-sabalenka-says-her-match-with-nick-kyrgios-brought-eyes-on-tennis",
+      "summary": "Aryna Sabalenka has defended her 'Battle of the Sexes' match with Nick Kyrgios, saying it \"brought eyes on tennis.\"",
+      "publishedAt": "2026-01-06T13:52:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City lose Rúben Dias for up to six weeks in latest defensive injury blow",
+      "link": "https://www.theguardian.com/football/2026/jan/06/manchester-city-ruben-dias-injury-out-for-up-to-six-weeks",
+      "summary": "Gvardiol likely out for season and Stones also injured Guéhi of interest and forward Semenyo close to joining Manchester City will be without Rúben Dias for up to six weeks with a hamstring injury, exacerbating Pep Guardiola’s defensive injury crisis. The shortage of centre-backs could force the club into the transfer market, with the Crystal Palace captain, Marc Guéhi, of interest. Dias and Josko Gvardiol, who has a broken shinbone, were forced off in Sunday’s draw with Chelsea, leaving City with 13 fit senior outfield players for Brighton’s visit on Wednesday. The academy graduate Max Alleyne has been recalled from a loan at Watford to bolster options in the short term. Continue reading...",
+      "publishedAt": "2026-01-06T13:48:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Iraola geeft update over revalidatie Kluivert: 'Alles hangt af van donderdag'",
+      "link": "https://www.vi.nl/nieuws/iraola-geeft-update-over-revalidatie-kluivert-alles-hangt-af-van-donderdag",
+      "summary": "De knieblessure van Justin Kluivert baart Andoni Iraola zorgen. De manager van Bournemouth liet in aanloop naar het thuisduel met Tottenham Hotspur weten dat de Nederlander donderdag onder het mes gaat. Aan de hand van de ingreep wordt het revalidatietraject bepaald.",
+      "publishedAt": "2026-01-06T13:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Man Utd eye interim until summer",
+      "link": "https://www.espn.com/soccer/story/_/id/47523975/man-united-leaning-interim-manager-permanent-ruben-amorim-end-season-sources",
+      "summary": "Manchester United are leaning towards installing an interim coach to replace Ruben Amorim until the end of the season, sources have told ESPN.",
+      "publishedAt": "2026-01-06T13:37:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea name Rosenior as coach on 5½-year deal",
+      "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
+      "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
+      "publishedAt": "2026-01-06T13:37:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Canada's Marsch: Davies back, poised for WC",
+      "link": "https://www.espn.com/soccer/story/_/id/47524993/canada-jesse-marsch-alphonso-davies-ready-world-cup-excited-playing-again",
+      "summary": "Canada manager Jesse Marsch said star player Alphonso Davies is regenerated and excited to play a key role in the 2026 World Cup",
+      "publishedAt": "2026-01-06T13:37:15.000Z"
     },
     {
       "type": "rss",
@@ -33,83 +165,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cedw8qq9l7po?at_medium=RSS&at_campaign=rss",
       "summary": "Who is Manchester United's director of football Jason Wilcox and how did he become one of the most powerful figures in football?",
       "publishedAt": "2026-01-06T13:10:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Toekomst van Oranje: Ernest Poku",
-      "link": "https://www.vi.nl/pro/toekomst-van-oranje-ernest-poku",
-      "summary": "De Toekomst van Oranje is terug. Voetbal International sprak in deze serie in het verleden met toptalenten zoals Cody Gakpo, Brian Brobbey en de gebroeders Timber. Nu is het de beurt aan Isaac Babadi, Gjivai Zechiël, Ezechiel Banzuzi en Ernest Poku. We bespreken hun kwaliteiten, valkuilen en dromen! In deze aflevering alle aandacht voor Ernest Poku, de 21-jarige aanvaller van Bayer Leverkusen.",
-      "publishedAt": "2026-01-06T13:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
-      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
-      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
-      "publishedAt": "2026-01-06T12:48:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea name Rosenior as coach on 5½-year deal",
-      "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
-      "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
-      "publishedAt": "2026-01-06T12:42:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Canada's Marsch: Davies back, poised for WC",
-      "link": "https://www.espn.com/soccer/story/_/id/47524993/canada-jesse-marsch-alphonso-davies-ready-world-cup-excited-playing-again",
-      "summary": "Canada manager Jesse Marsch said star player Alphonso Davies is regenerated and excited to play a key role in the 2026 World Cup",
-      "publishedAt": "2026-01-06T12:42:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Man Utd eye interim until summer",
-      "link": "https://www.espn.com/soccer/story/_/id/47523975/man-united-leaning-interim-manager-permanent-ruben-amorim-end-season-sources",
-      "summary": "Manchester United are leaning towards installing an interim coach to replace Ruben Amorim until the end of the season, sources have told ESPN.",
-      "publishedAt": "2026-01-06T12:42:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City's Gvardiol to have surgery on broken leg",
-      "link": "https://www.espn.com/soccer/story/_/id/47515550/manchester-city-confirm-josko-gvardiol-leg-fracture-return-unknown",
-      "summary": "Manchester City have confirmed that Josko Gvardiol has suffered a leg fracture and is set to undergo surgery this week.",
-      "publishedAt": "2026-01-06T12:42:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kluivert moet onder het mes na opgelopen knieblessure",
-      "link": "https://www.vi.nl/nieuws/kluivert-moet-onder-het-mes-na-opgelopen-knieblessure",
-      "summary": "Justin Kluivert moet binnenkort geopereerd worden aan zijn linkerknie. De 26-jarige Nederlander raakte afgelopen zaterdag geblesseerd in het verloren Premier League-duel met koploper Arsenal.",
-      "publishedAt": "2026-01-06T12:16:00.000Z"
     },
     {
       "type": "rss",
@@ -165,61 +220,6 @@
       "link": "https://www.theguardian.com/football/picture/2026/jan/06/david-squires-ruben-amorim-enzo-maresca-thrown-overboard-manchester-united-chelsea-power-struggles",
       "summary": "Our cartoonist on a typically sedate start to 2026 at two of the Premier League’s biggest football ‘projects’ David’s favourite cartoons of 2025 | Buy one here And his latest book, Chaos in the Box: get it now Continue reading...",
       "publishedAt": "2026-01-06T11:20:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Brom sack head coach Mason",
-      "link": "https://www.bbc.com/sport/football/articles/cn0k9j1dz94o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ryan Mason is sacked as head coach of West Bromwich Albion following Monday's Championship defeat by Leicester City.",
-      "publishedAt": "2026-01-06T11:09:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Eccentric Smith has appetite to achieve more Ashes greatness",
-      "link": "https://www.skysports.com/cricket/news/12040/13491089/the-ashes-steve-smith-hurts-england-with-a-13th-ashes-hundred-in-sydney-to-add-further-to-his-legend",
-      "summary": "\"He has hurt England so often,\" Sky Sports' Michael Atherton said after Steve Smith's latest Ashes century, his 13th.",
-      "publishedAt": "2026-01-06T11:02:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liam Rosenior confirmed as Chelsea head coach on contract to 2032",
-      "link": "https://www.theguardian.com/football/2026/jan/06/chelsea-liam-rosenior-head-coach-strasbourg",
-      "summary": "He arrives from Strasbourg to replace Enzo Maresca ‘I cannot turn down Chelsea,’ says former Hull coach Liam Rosenior has been confirmed as Chelsea’s head coach on a contract to 2032, describing the opportunity to replace Enzo Maresca at Stamford Bridge as one he could not turn down. Rosenior has left Strasbourg, Chelsea’s partner club, after holding talks over the role on Monday. He said at a Strasbourg press conference on Tuesday: “I have had interest from many clubs, including Champions League clubs, which I have always been open with to [our president] Marc [Keller] and our ownership. I will love this club for the rest of my life but I cannot turn down Chelsea.” Continue reading...",
-      "publishedAt": "2026-01-06T10:30:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea appoint Rosenior on deal until 2032",
-      "link": "https://www.skysports.com/football/news/12040/13490736/liam-rosenior-appointed-new-chelsea-head-coach-on-six-year-deal-as-ex-hull-boss-joins-from-strasbourg",
-      "summary": "Chelsea have confirmed the appointment of Liam Rosenior as their new head coach on a six-and-a-half-year deal.",
-      "publishedAt": "2026-01-06T10:28:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Brom sack Ryan Mason as head coach after 10th straight away defeat",
-      "link": "https://www.theguardian.com/football/2026/jan/06/west-brom-sack-ryan-mason-as-head-coach",
-      "summary": "Mason was appointed in June on three-year contract West Brom 18th in the Championship after latest loss West Brom have sacked Ryan Mason as their head coach after a stoppage-time defeat at Leicester on Monday left the club 18th in the Championship. It was the team’s 10th away defeat in a row and ended the 34-year-old’s tenure after seven months. Mason was appointed on a three-year deal after holding a variety of roles at Tottenham, including interim manager and assistant to Ange Postecoglou. West Brom said two members of Mason’s staff, Nigel Gibbs and Sam Pooley, had also left. Continue reading...",
-      "publishedAt": "2026-01-06T10:14:07.000Z"
     }
   ]
 }
