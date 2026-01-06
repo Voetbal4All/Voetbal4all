@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-01-06T21:25:02.929Z",
+  "generatedAt": "2026-01-06T22:25:47.105Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Persie wil na wisselen van aanvoerder niets weten van spijt",
+      "link": "https://www.vi.nl/nieuws/van-persie-wil-na-wisselen-van-aanvoerder-niets-weten-van-spijt",
+      "summary": "Robin van Persie benoemde nieuwkomer Sem Steijn aan het begin van dit seizoen als de aanvoerder van Feyenoord, maar na een paar maanden heeft de coach besloten om de band door te geven aan Timon Wellenreuther. Dat betekent niet dat Van Persie spijt heeft van de keuze die hij een paar maanden geleden nam.",
+      "publishedAt": "2026-01-06T22:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why Man United sacked Amorim: Tactics, player issues, transfer frustration",
+      "link": "https://www.espn.com/soccer/story/_/id/47514917/manchester-united-story-firing-ruben-amorim-analysis-rob-dawson",
+      "summary": "Ruben Amorim was seen as a risky choice to lead Man United's rebuild. Here's how things broke down.",
+      "publishedAt": "2026-01-06T22:13:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Who will be Man United's next manager? 12 top candidates to replace Amorim",
+      "link": "https://www.espn.com/soccer/story/_/id/47516208/man-united-next-manager-12-candidates-replace-amorim",
+      "summary": "Whether Manchester United aim to hire quickly or wait until summer, here are the coaches they could be after.",
+      "publishedAt": "2026-01-06T22:13:35.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Drama! Forest equalise moments after West Ham goal ruled out!",
-      "link": "https://www.skysports.com/watch/video/13491308/drama-forest-equalise-moments-after-west-ham-goal-ruled-out",
-      "summary": "Nottingham Forest find the equaliser just minutes after West Ham had thought they had doubled their lead!",
-      "publishedAt": "2026-01-06T21:19:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: United approach Carrick, Solskjaer",
-      "link": "https://www.espn.com/soccer/story/_/id/47527700/man-united-approach-ole-gunnar-solskjaer-michael-carrick-interim-role",
-      "summary": "Manchester United have held \"early-stage informal talks\" with several potential interim managers, including Ole Gunnar Solskjaer and Michael Carrick, sources have told ESPN.",
-      "publishedAt": "2026-01-06T21:15:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea name Rosenior as coach on 5½-year deal",
-      "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
-      "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
-      "publishedAt": "2026-01-06T21:15:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Iraola: City-target Semenyo could exit this week",
-      "link": "https://www.espn.com/soccer/story/_/id/47530774/bournemouth-andoni-iraola-man-city-antonie-semenyo-transfer",
-      "summary": "Bournemouth boss Andoni Iraola said Tuesday that he accepts Antoine Semenyo could make his last appearance for the club against Tottenham on Wednesday night.",
-      "publishedAt": "2026-01-06T21:15:37.000Z"
+      "title": "Nightmare for West Ham as Forest come from behind to claim crucial victory",
+      "link": "https://www.skysports.com/watch/video/13491323/west-ham-1-2-nottingham-forest-premier-league-highlights",
+      "summary": "FREE TO WATCH: Highlights from Nottingham Forest’s win against West Ham in the Premier League.",
+      "publishedAt": "2026-01-06T22:12:00.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +54,7 @@
       "title": "West Ham v Nottingham Forest: Premier League – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/06/west-ham-v-nottingham-forest-premier-league-live",
       "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Follow us on Bluesky | And email Billy West Ham get the ball rolling! The teams are on their way out of the London Stadium tunnel. It’s slightly above freezing and rain, probably not snow, is forecast a bit later this evening. Kick-off is next. Continue reading...",
-      "publishedAt": "2026-01-06T21:10:20.000Z"
+      "publishedAt": "2026-01-06T22:04:57.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +62,120 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "PSV'er Nagalo zakt door het ijs: glansrol Diallo brengt Ivoorkust naar kwartfinale",
-      "link": "https://www.vi.nl/nieuws/psv-er-nagalo-zakt-door-het-ijs-glansrol-diallo-brengt-ivoorkust-naar-kwartfinale",
-      "summary": "Titelhouder Ivoorkust heeft geen kind gehad aan Burkina Faso gehad in de achtste finale van de Afrika Cup. Met een glansrol voor Manchester United-aanvaller Amad Diallo en een negatieve hoofdrol voor PSV-speler Adam Nagalo werd het een eenzijdige wedstrijd in Marrakech.",
-      "publishedAt": "2026-01-06T21:02:02.000Z"
+      "title": "Dolgelukkige Zerrouki: 'Eén van mooiste momenten ooit voor mij'",
+      "link": "https://www.vi.nl/nieuws/dolgelukkige-zerrouki-n-van-mooiste-momenten-ooit-voor-mij",
+      "summary": "Ramiz Zerrouki beleefde dinsdag tegen Congo naar eigen zeggen één van de mooiste momenten uit zijn leven. Algerije leek in de achtste finale van de Afrika Cup op weg naar een strafschoppenserie, maar mede dankzij Zerrouki werd dat voorkomen.",
+      "publishedAt": "2026-01-06T22:01:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Forest turn up heat on Nuno as West Ham sink deeper into trouble",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-nottingham-forest/report/531338",
+      "summary": "West Ham United are seven points from safety after a late Morgan Gibbs-White penalty - awarded by VAR - sent Nottingham Forest to a 2-1 win.",
+      "publishedAt": "2026-01-06T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Gibbs-White scores late penalty after VAR review!",
+      "link": "https://www.skysports.com/watch/video/13491314/gibbs-white-scores-late-penalty-after-var-review",
+      "summary": "Morgan Gibbs-White scores a crucial penalty for Nottingham Forest!",
+      "publishedAt": "2026-01-06T21:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dit is het schema van de kwartfinale van de Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-kwartfinale-van-de-afrika-cup",
+      "summary": "De achtste finales van de Afrika Cup zitten erop, wat betekent dat het tijd is voor de kwartfinales. Na twee rustdagen gaat het toernooi vrijdag verder. We zetten de wedstrijden op een rij.",
+      "publishedAt": "2026-01-06T21:54:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "PGMO admit Dias should have been sent off in Forest match",
+      "link": "https://www.skysports.com/football/news/12040/13491315/ruben-dias-man-city-defender-should-have-been-sent-off-against-nottingham-forest-pgmo-admit",
+      "summary": "Ruben Dias should have received a second yellow card and been sent off in Manchester City's game against Nottingham Forest just after Christmas, the PGMO have admitted.",
+      "publishedAt": "2026-01-06T21:53:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: United approach Carrick, Solskjaer",
+      "link": "https://www.espn.com/soccer/story/_/id/47527700/man-united-approach-ole-gunnar-solskjaer-michael-carrick-interim-role",
+      "summary": "Manchester United have held \"early-stage informal talks\" with several potential interim managers, including Ole Gunnar Solskjaer and Michael Carrick, sources have told ESPN.",
+      "publishedAt": "2026-01-06T21:50:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea name Rosenior as coach on 5½-year deal",
+      "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
+      "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
+      "publishedAt": "2026-01-06T21:50:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Iraola: City-target Semenyo could exit this week",
+      "link": "https://www.espn.com/soccer/story/_/id/47530774/bournemouth-andoni-iraola-man-city-antonie-semenyo-transfer",
+      "summary": "Bournemouth boss Andoni Iraola said Tuesday that he accepts Antoine Semenyo could make his last appearance for the club against Tottenham on Wednesday night.",
+      "publishedAt": "2026-01-06T21:50:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Amad Diallo powers Côte d’Ivoire past Burkina Faso to set up Afcon clash with Egypt",
+      "link": "https://www.theguardian.com/football/2026/jan/06/afcon-cote-divoire-burkina-faso-algeria-dr-congo-amad-diallo",
+      "summary": "Last 16: Côte d’Ivoire 3-0 Burkina Faso Heavyweight quarter-final meeting with Egypt awaits Amad Diallo scored one goal and created another to continue his excellent form in Morocco as the defending champions Côte d’Ivoire eased past Burkina Faso 3-0 in their Africa Cup of Nations last-16 game in Marrakech on Tuesday. Côte d’Ivoire will face the seven-time winners Egypt in a heavyweight quarter-final in Agadir on Saturday, a repeat of the 2006 decider where the north African side triumphed on penalties after a 0-0 draw. Continue reading...",
+      "publishedAt": "2026-01-06T21:45:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Roma houdt gelijke tred met Juventus, toch grote onvrede bij Gasperini",
+      "link": "https://www.vi.nl/nieuws/roma-houdt-gelijke-tred-met-juve-toch-onvrede-bij-gasperini",
+      "summary": "Trainer Gian Piero Gasperini boekte een glansrijke zege op bezoek bij Lecce, maar verscheen na afloop niet voor de camera’s. Dat had te maken met zijn onenigheid met de clubleiding over het gevoerde transferbeleid, een conflict dat mogelijk ook gevolgen heeft voor Joshua Zirkzee.",
+      "publishedAt": "2026-01-06T21:45:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle face Strand Larsen battle - Wednesday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/czejpg48l33o?at_medium=RSS&at_campaign=rss",
+      "summary": "Newcastle United could have to compete with Totteham if they want Wolves striker Jorgen Strand Larsen, Roma interest in Joshua Zirkzee complicated by Manchester United sacking Ruben Amorim and Liverpool unlikely to let Federico Chiesa leave in January.",
+      "publishedAt": "2026-01-06T21:41:04.000Z"
     },
     {
       "type": "rss",
@@ -80,50 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Who will be Man United's next manager? 12 top candidates to replace Amorim",
-      "link": "https://www.espn.com/soccer/story/_/id/47516208/man-united-next-manager-12-candidates-replace-amorim",
-      "summary": "Whether Manchester United aim to hire quickly or wait until summer, here are the coaches they could be after.",
-      "publishedAt": "2026-01-06T20:49:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Fans Strasbourg voelen zich beetgenomen door Chelsea: 'Vernederend'",
-      "link": "https://www.vi.nl/nieuws/fans-strasbourg-voelen-zich-beetgenomen-door-chelsea-vernederend",
-      "summary": "De aanstelling van Liam Rosenior als nieuwe manager van Chelsea heeft voor woede gezorgd bij de supporters van RC Strasbourg. De Franse club is, net als Chelsea, eigendom van investeringsmaatschappij BlueCo en ziet opnieuw een belangrijk persoon vertrekken richting Londen.",
-      "publishedAt": "2026-01-06T20:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Dream start for West Ham as Murillo scores own goal!",
-      "link": "https://www.skysports.com/watch/video/13491290/dream-start-for-west-ham-as-murillo-scores-own-goal",
-      "summary": "West Ham take an early lead courtesy of a Murillo own goal.",
-      "publishedAt": "2026-01-06T20:19:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Fletcher voegt Evans toe aan Man Utd-staf en brengt goed nieuws over Fernandes",
-      "link": "https://www.vi.nl/nieuws/fletcher-voegt-evans-toe-aan-man-utd-staf-en-brengt-goed-nieuws-over-fernandes",
-      "summary": "Jonny Evans is toegevoegd aan de technische staf van Manchester United. De voormalig speler sluit daarmee aan bij zijn oud-ploeggenoot Darren Fletcher, die momenteel als tussenpaus fungeert na het ontslag van Rúben Amorim. Fletcher bracht daarbij direct goed nieuws over smaakmakers Mason Mount en Bruno Fernandes.",
-      "publishedAt": "2026-01-06T20:17:55.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -132,50 +198,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c78e5nn9g8jo?at_medium=RSS&at_campaign=rss",
       "summary": "Liam Rosenior's appointment as Chelsea manager is a \"massive moment\" for representation in the Premier League.",
       "publishedAt": "2026-01-06T20:05:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Why Man United sacked Amorim: Tactics, player issues, transfer frustration",
-      "link": "https://www.espn.com/soccer/story/_/id/47514917/manchester-united-story-firing-ruben-amorim-analysis-rob-dawson",
-      "summary": "Ruben Amorim was seen as a risky choice to lead Man United's rebuild. Here's how things broke down.",
-      "publishedAt": "2026-01-06T19:57:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ten Hag sluit terugkeer als trainer niet uit: 'Lat ligt wel heel hoog'",
-      "link": "https://www.vi.nl/nieuws/td-ten-hag-sluit-terugkeer-als-trainer-niet-uit-lat-ligt-wel-heel-hoog",
-      "summary": "FC Twente maakte dinsdag bekend dat Erik ten Hag de nieuwe technisch directeur is . De Tukker gaf een uitgebreid interview aan het clubkanaal, waarin hij onder meer aangaf een terugkeer als trainer niet uit te sluiten. Al ligt de focus de komende tweeënhalf jaar volledig op zijn nieuwe functie.",
-      "publishedAt": "2026-01-06T19:51:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler leads charge for first 2026 major at World Masters",
-      "link": "https://www.skysports.com/darts/news/12040/13491274/winmau-world-masters-2026-luke-littler-chasing-maiden-title-in-milton-keynes",
-      "summary": "Luke Littler goes in search of a maiden title when the 2026 PDC season kicks off with the World Masters in Milton Keynes.",
-      "publishedAt": "2026-01-06T19:08:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Algeria 1-0 DR Congo: Africa Cup of Nations last 16 – as it happened",
-      "link": "https://www.theguardian.com/football/live/2026/jan/06/algeria-v-dr-congo-africa-cup-of-nations-last-16-live",
-      "summary": "Adil Boulbina’s sensational strike deep in extra time gave Algeria a 1-0 win in the Africa Cup of Nations last-16 ties against DR Congo 10 min: Algeria win their first corner … Bensebaini takes but it barely clears the first man. Amoura is now down and the replay shows his football boot came clean off during that corner. No foul, which is the right decision I think, and play continues with a DR Congo free-kick. 9 min: Chancel Mbemba is down receiving treatment. Would be a huge miss for DR Congo for their captain to be injured early but he seems to be OK. Continue reading...",
-      "publishedAt": "2026-01-06T18:50:30.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/06/ruben-amorim-manchester-united-jason-wilcox",
       "summary": "Jaw-dropping LinkedIn profiles matter more to clubs like Manchester United than coaches with ideas and energy Turns out he could survive losing against Grimsby. Survive losing a crucial European final against one of the worst Tottenham teams in living memory. He could survive losing at home against West Ham and Wolves, finishing 15th, the tactical inflexibility, laying waste to some of the club’s best homegrown talent, the 32% win rate, calling his team the worst in Manchester United history. But there was one adversary with whom Ruben Amorim would not be allowed to dance. You come at Jason Wilcox, and you best not miss. Unfortunately, like many a Premiership right-back in Blackburn’s title-winning 1994‑95 season, Amorim came at Jason Wilcox and appears to have missed. Even the most distracted of readers will notice the irony here: a coach who often railed at his players for losing one-on-one duels crumbling in the face of the white heat and animal charisma of one of the Premier League’s most feared sporting directors. Continue reading...",
       "publishedAt": "2026-01-06T17:53:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd hold talks with trio over caretaker role",
-      "link": "https://www.bbc.com/sport/football/articles/c931qgk3xgqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United hold talks with former players Darren Fletcher, Michael Carrick and Ole Gunnar Solskjaer about becoming the club's caretaker manager.",
-      "publishedAt": "2026-01-06T17:12:54.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior needs bright start at Chelsea to avoid being a focus for fan discontent | Jacob Steinberg",
-      "link": "https://www.theguardian.com/football/2026/jan/06/liam-rosenior-new-chelsea-head-coach-fan-discontent-ownership",
-      "summary": "The club are in a decent position but there is dissatisfaction with the ownership and the new head coach must not get caught in the crossfire The way Chelsea are run will come as no surprise to Liam Rosenior. He has longstanding relationships with three of the five sporting directors and will know from his time at Strasbourg, who are part of the same ownership, that the head coach’s best chance of surviving is not to make the mistake of rebelling against the structure. Rosenior will have to show more political savvy than Enzo Maresca, who talked himself out of the job last week. Yet given the 41‑year‑old is familiar with the working conditions at BlueCo, the investment vehicle that owns Chelsea and Strasbourg, his biggest challenge is unlikely to be managing upwards. Rosenior will know where to train his focus and not to rock the boat. Crucially, he does not inherit a team in crisis. Chelsea are fifth and earned a creditable draw at Manchester City on Sunday; despite the rancour of Maresca’s final days, this is not a situation that calls for a major rebuild. Continue reading...",
-      "publishedAt": "2026-01-06T13:00:14.000Z"
     }
   ]
 }
