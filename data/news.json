@@ -1,27 +1,16 @@
 {
-  "generatedAt": "2026-01-06T19:20:08.855Z",
+  "generatedAt": "2026-01-06T20:28:45.081Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Curaçao-aanvoerder Bacuna vindt nieuwe club in Turkije",
-      "link": "https://www.vi.nl/nieuws/curcao-aanvoerder-bacuna-vindt-nieuwe-club-in-turkije",
-      "summary": "Leandro Bacuna gaat zijn carrière vervolgen bij het Turkse Igdır FK. De aanvoerder van Curaçao komt over van Bandırmaspor en maakt daarmee een transfer binnen het tweede niveau van Turkije met het oog op het WK van komende zomer.",
-      "publishedAt": "2026-01-06T19:09:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Why Man United sacked Amorim: Tactics, player issues, transfer frustration",
-      "link": "https://www.espn.com/soccer/story/_/id/47514917/manchester-united-story-firing-ruben-amorim-analysis-rob-dawson",
-      "summary": "Ruben Amorim was seen as a risky choice to lead Man United's rebuild. Here's how things broke down.",
-      "publishedAt": "2026-01-06T19:07:56.000Z"
+      "title": "West Ham v Nottingham Forest: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/06/west-ham-v-nottingham-forest-premier-league-live",
+      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Follow us on Bluesky | And email Billy West Ham get the ball rolling! The teams are on their way out of the London Stadium tunnel. It’s slightly above freezing and rain, probably not snow, is forecast a bit later this evening. Kick-off is next. Continue reading...",
+      "publishedAt": "2026-01-06T20:24:33.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,95 @@
       "title": "Who will be Man United's next manager? 12 top candidates to replace Amorim",
       "link": "https://www.espn.com/soccer/story/_/id/47516208/man-united-next-manager-12-candidates-replace-amorim",
       "summary": "Whether Manchester United aim to hire quickly or wait until summer, here are the coaches they could be after.",
-      "publishedAt": "2026-01-06T19:07:29.000Z"
+      "publishedAt": "2026-01-06T20:22:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Dream start for West Ham as Murillo scores own goal!",
+      "link": "https://www.skysports.com/watch/video/13491290/dream-start-for-west-ham-as-murillo-scores-own-goal",
+      "summary": "West Ham take an early lead courtesy of a Murillo own goal.",
+      "publishedAt": "2026-01-06T20:19:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Fletcher voegt Evans toe aan Man Utd-staf en brengt goed nieuws over Fernandes",
+      "link": "https://www.vi.nl/nieuws/fletcher-voegt-evans-toe-aan-man-utd-staf-en-brengt-goed-nieuws-over-fernandes",
+      "summary": "Jonny Evans is toegevoegd aan de technische staf van Manchester United. De voormalig speler sluit daarmee aan bij zijn oud-ploeggenoot Darren Fletcher, die momenteel als tussenpaus fungeert na het ontslag van Rúben Amorim. Fletcher bracht daarbij direct goed nieuws over smaakmakers Mason Mount en Bruno Fernandes.",
+      "publishedAt": "2026-01-06T20:17:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'A moving moment' as Rosenior breaks barriers",
+      "link": "https://www.bbc.com/sport/football/articles/c78e5nn9g8jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liam Rosenior's appointment as Chelsea manager is a \"massive moment\" for representation in the Premier League.",
+      "publishedAt": "2026-01-06T20:05:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why Man United sacked Amorim: Tactics, player issues, transfer frustration",
+      "link": "https://www.espn.com/soccer/story/_/id/47514917/manchester-united-story-firing-ruben-amorim-analysis-rob-dawson",
+      "summary": "Ruben Amorim was seen as a risky choice to lead Man United's rebuild. Here's how things broke down.",
+      "publishedAt": "2026-01-06T19:57:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ten Hag sluit terugkeer als trainer niet uit: 'Lat ligt wel heel hoog'",
+      "link": "https://www.vi.nl/nieuws/td-ten-hag-sluit-terugkeer-als-trainer-niet-uit-lat-ligt-wel-heel-hoog",
+      "summary": "FC Twente maakte dinsdag bekend dat Erik ten Hag de nieuwe technisch directeur is . De Tukker gaf een uitgebreid interview aan het clubkanaal, waarin hij onder meer aangaf een terugkeer als trainer niet uit te sluiten. Al ligt de focus de komende tweeënhalf jaar volledig op zijn nieuwe functie.",
+      "publishedAt": "2026-01-06T19:51:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Flick ziet in Cancelo ideale versterking bij Barcelona",
+      "link": "https://www.vi.nl/video/flick-ziet-in-cancelo-ideale-versterking-bij-barcelona",
+      "summary": "Barcelona-trainer Hansi Flick heeft gereageerd op de geruchten dat João Cancelo dicht bij een terugkeer naar Catalonië zou zijn. De Duitse oefenmeester weet dat de club weinig financiële middelen heeft om spelers te halen, maar ziet in de Portugese verdediger een ideale versterking. Cancelo staat momenteel onder contract bij Al Hilal, maar de Spaanse kranten zijn ervan overtuigd dat de Portugees terugkeert naar Barcelona deze transferwindow.",
+      "publishedAt": "2026-01-06T19:44:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Debuterende Musaba geeft visitekaartje af bij Fenerbahçe in pikant weerzien",
+      "link": "https://www.vi.nl/nieuws/debuterende-musaba-geeft-visitekaartje-af-bij-fenerbahce-in-pikant-weerzien",
+      "summary": "Anthony Musaba heeft bij zijn debuut voor Fenerbahçe direct indruk gemaakt. Met twee assists was hij beslissend voor de zege op Samsunspor, zijn oude club waar hij middels een staking een transfer forceerde.",
+      "publishedAt": "2026-01-06T19:29:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Curaçao-aanvoerder Bacuna vindt nieuwe club in Turkije",
+      "link": "https://www.vi.nl/nieuws/curcao-aanvoerder-bacuna-vindt-nieuwe-club-in-turkije",
+      "summary": "Leandro Bacuna gaat zijn carrière vervolgen bij het Turkse Igdır FK. De aanvoerder van Curaçao komt over van Bandırmaspor en maakt daarmee een transfer binnen het tweede niveau van Turkije met het oog op het WK van komende zomer.",
+      "publishedAt": "2026-01-06T19:09:07.000Z"
     },
     {
       "type": "rss",
@@ -73,65 +150,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "West Ham v Nottingham Forest: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/06/west-ham-v-nottingham-forest-premier-league-live",
-      "summary": "⚽ Premier League updates from the 8pm GMT kick-off ⚽ Live scores | Follow us on Bluesky | And email Billy Callum Wilson is not in the West Ham squad tonight after playing the full 90 minutes against Wolves on Saturday. The 33-year-old striker could be on his way out of the club just five months after joining. Jacob Steinberg has the story: It is unclear how quickly an agreement will be reached for Wilson to leave West Ham … There are indications the former Newcastle striker’s departure may come towards the end of the transfer window, but is unclear whether as free agent or if West Ham will try to sell him. Continue reading...",
-      "publishedAt": "2026-01-06T19:03:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
-      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
-      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
-      "publishedAt": "2026-01-06T19:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Algeria 1-0 DR Congo: Africa Cup of Nations last 16 – as it happened",
       "link": "https://www.theguardian.com/football/live/2026/jan/06/algeria-v-dr-congo-africa-cup-of-nations-last-16-live",
-      "summary": "Adil Boulbina’s sensational strike in extra-time gave Algeria a 1-0 win in the Afcon last-16 against DR Congo 10 min: Algeria win their first corner … Bensebaini takes but it barely clears the first man. Amoura is now down and the replay shows his football boot came clean off during that corner. No foul, which is the right decision I think, and play continues with a DR Congo free-kick. 9 min: Chancel Mbemba is down receiving treatment. Would be a huge miss for DR Congo for their captain to be injured early but he seems to be OK. Continue reading...",
+      "summary": "Adil Boulbina’s sensational strike deep in extra time gave Algeria a 1-0 win in the Africa Cup of Nations last-16 ties against DR Congo 10 min: Algeria win their first corner … Bensebaini takes but it barely clears the first man. Amoura is now down and the replay shows his football boot came clean off during that corner. No foul, which is the right decision I think, and play continues with a DR Congo free-kick. 9 min: Chancel Mbemba is down receiving treatment. Would be a huge miss for DR Congo for their captain to be injured early but he seems to be OK. Continue reading...",
       "publishedAt": "2026-01-06T18:50:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Zerrouki helpt Algerije in spectaculair slot naar laatste acht op Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/zerrouki-helpt-algerije-in-spectaculair-slot-naar-laatste-acht-op-afrika-cup",
-      "summary": "Algerije heeft zich in de absolute slotfase geplaatst voor de kwartfinales van de Afrika Cup ten koste van DR Congo. Dankzij een heerlijke treffer van Adil Boulbina, op aangeven van Ramiz Zerrouki, wacht nu een heuse kraker tegen Nigeria.",
-      "publishedAt": "2026-01-06T18:44:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heracles haalt met Zeefuik tijdelijke vervanger van Hornkamp binnen",
-      "link": "https://www.vi.nl/nieuws/heracles-doet-na-hornkamp-transfer-weer-zaken-met-az-en-haalt-zeefuik",
-      "summary": "Lequincio Zeefuik speelt voor de rest van het seizoen bij Heracles Almelo. De 21-jarige spits komt op huurbasis over van AZ, waar hij overbodig raakte door de komst van Jizz Hornkamp . Hornkamp bewandelde eerder de omgekeerde weg en vertrok voor een - voor Heracles - recordbedrag naar Alkmaar.",
-      "publishedAt": "2026-01-06T18:36:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "PEC Zwolle neemt per direct afscheid van overbodige aanvaller",
-      "link": "https://www.vi.nl/nieuws/pec-zwolle-neemt-per-direct-afscheid-van-overbodige-aanvaller",
-      "summary": "PEC Zwolle heeft per direct afscheid genomen van Braydon Manu. Het contract van de Duitser met Ghanese roots is ontbonden.",
-      "publishedAt": "2026-01-06T18:33:47.000Z"
     },
     {
       "type": "rss",
@@ -146,36 +168,14 @@
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fulham contact PGMOL over 'offside' Wirtz goal",
-      "link": "https://www.bbc.com/sport/football/articles/cx2y47ly55zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Marco Silva says Fulham have contacted the Professional Game Match Officials Limited over Florian Wirtz's controversial goal for Liverpool on Sunday.",
-      "publishedAt": "2026-01-06T18:19:53.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Ole Gunnar Solskjær could make shock return as Manchester United interim manager",
-      "link": "https://www.theguardian.com/football/2026/jan/06/ole-gunnar-solskjaer-shock-return-manchester-united-interim-manager",
-      "summary": "Wilcox considers Norwegian a prime candidate for role Senior players would welcome temporary appointment Ole Gunnar Solskjær could make a shock return to Manchester United as interim manager, with Jason Wilcox, the director of football, considering him a prime candidate for the role. Solskjær is thought to be open to taking up the position at a club where he remains a huge fan favourite as a former successful player there. Senior players led by Bruno Fernandes and Harry Maguire would welcome his temporary appointment. Continue reading...",
-      "publishedAt": "2026-01-06T18:00:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "McCann backed to keep Kilmarnock up after being named manager",
-      "link": "https://www.skysports.com/football/news/12040/13491241/neil-mccann-kilmarnock-appoint-former-rangers-coach-as-manager-alongside-billy-dodds-as-stuart-kettlewells-successor",
-      "summary": "Kilmarnock \"have complete faith\" that Neil McCann will keep the club in the Scottish Premiership.",
-      "publishedAt": "2026-01-06T17:30:00.000Z"
+      "title": "Ruben Amorim’s error? Taking on Jason Wilcox and execs who are never wrong | Jonathan Liew",
+      "link": "https://www.theguardian.com/football/2026/jan/06/ruben-amorim-manchester-united-jason-wilcox",
+      "summary": "Jaw-dropping LinkedIn profiles matter more to clubs like Manchester United than coaches with ideas and energy Turns out he could survive losing against Grimsby. Survive losing a crucial European final against one of the worst Tottenham teams in living memory. He could survive losing at home against West Ham and Wolves, finishing 15th, the tactical inflexibility, laying waste to some of the club’s best homegrown talent, the 32% win rate, calling his team the worst in Manchester United history. But there was one adversary with whom Ruben Amorim would not be allowed to dance. You come at Jason Wilcox, and you best not miss. Unfortunately, like many a Premiership right-back in Blackburn’s title-winning 1994‑95 season, Amorim came at Jason Wilcox and appears to have missed. Even the most distracted of readers will notice the irony here: a coach who often railed at his players for losing one-on-one duels crumbling in the face of the white heat and animal charisma of one of the Premier League’s most feared sporting directors. Continue reading...",
+      "publishedAt": "2026-01-06T17:53:42.000Z"
     },
     {
       "type": "rss",
@@ -190,28 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Football Daily | Rosenior to Chelsea: ‘collaboration’ turns the Strasbourg air blue",
-      "link": "https://www.theguardian.com/football/2026/jan/06/liam-rosenior-chelsea-strasbourg-football-daily-newsletter",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! While Football Daily spent most of New Year’s Day shivering, sweating and staring at hallucinatory rodents while questioning the wisdom of embarking on our first Dry January since 1989, it didn’t escape our blurred vision that Chelsea chose to ring in 2026 by firing Enzo Maresca. While he may have grown up the son of a humble Italian fisherman, the head coach had gotten a little too big for his waders, eventually being tossed into an ocean of opaque criticism he had levelled at unspecified members of the club hierarchy. Like a frail old man bobbing around the Tyrrhenian Sea while trying to reel in a 500lb bluefin tuna with a spool of dental floss, Maresca had picked a battle he was always going to lose – and on Tuesday Chelsea unveiled the Italian’s replacement. So Chelsea are so confident that Liam Rosenior is the answer that they have given him a contract until 2032. Odds on him still being there in six years’ time? There’s more chance of Accrington Stanley winning the FA Cup (and they got knocked out in the first round). Are football club owners mad or just desperate?” – John Myles. It’s quite sad to see Thomas Frank under increasing pressure at Spurs (for not solving all the problems that have dogged them for the last 40 years at a club that finished 17th last season, one place above relegation). Still, the one thing that should help him in this challenging period is that there isn’t anyone available with extensive experience of being an interim manager at Spurs. Oh. Meanwhile, Martin O’Neill returning as Celtic manager (now they don’t have to play Hearts again obviously), after spending only 37 days as interim and yet somehow outlasting the subsequent full-time manager, is both utterly predictable and yet simultaneously farcical. The skeleton of Jock Stein must be roaming the Scottish countryside in search of a pair of eyeballs to roll …” – Noble Francis. As we emerge into the sunlit uplands of 2026, can any of us honestly say that we had a 3-0 Wolves win, Chelsea, Celtic and Manchester United managerial exits, plus the audacious midnight capturing of a sitting South American president by the winner of Fifa’s peace prize on our festive bingo cards? Thought not. Happy new year! We’re off to a flyer!” – Allastair McGillivray. This is an extract from our daily football email … Football Daily. To get the full version, just visit this page and follow the instructions. Continue reading...",
-      "publishedAt": "2026-01-06T15:38:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Carrick, Solskjaer contacted over Man Utd interim role",
-      "link": "https://www.skysports.com/football/news/12040/13491195/man-utd-manager-latest-ole-gunnar-solskjaer-michael-carrick-contacted-over-interim-manager-position",
-      "summary": "Manchester United have begun talking to external candidates as they look for an interim manager to take charge until the end of the season, with three former Old Trafford favourites in the mix for a possible return after Ruben Amorim's departure.",
-      "publishedAt": "2026-01-06T15:03:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -220,6 +198,28 @@
       "link": "https://www.bbc.com/sport/football/articles/cedw8qq9l7po?at_medium=RSS&at_campaign=rss",
       "summary": "Who is Manchester United's director of football Jason Wilcox and how did he become one of the most powerful figures in football?",
       "publishedAt": "2026-01-06T13:10:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior needs bright start at Chelsea to avoid being a focus for fan discontent | Jacob Steinberg",
+      "link": "https://www.theguardian.com/football/2026/jan/06/liam-rosenior-new-chelsea-head-coach-fan-discontent-ownership",
+      "summary": "The club are in a decent position but there is dissatisfaction with the ownership and the new head coach must not get caught in the crossfire The way Chelsea are run will come as no surprise to Liam Rosenior. He has longstanding relationships with three of the five sporting directors and will know from his time at Strasbourg, who are part of the same ownership, that the head coach’s best chance of surviving is not to make the mistake of rebelling against the structure. Rosenior will have to show more political savvy than Enzo Maresca, who talked himself out of the job last week. Yet given the 41‑year‑old is familiar with the working conditions at BlueCo, the investment vehicle that owns Chelsea and Strasbourg, his biggest challenge is unlikely to be managing upwards. Rosenior will know where to train his focus and not to rock the boat. Crucially, he does not inherit a team in crisis. Chelsea are fifth and earned a creditable draw at Manchester City on Sunday; despite the rancour of Maresca’s final days, this is not a situation that calls for a major rebuild. Continue reading...",
+      "publishedAt": "2026-01-06T13:00:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Devenny 'frustrated' at Palace form but rejects claims of fatigue",
+      "link": "https://www.skysports.com/football/news/12040/13491122/justin-devenny-rejects-crystal-palace-fatigue-claims-but-admits-frustration-at-poor-run-of-form-across-december",
+      "summary": "Crystal Palace midfielder Justin Devenny has rejected suggestions the club's tough run of form has been affected by a small squad suffering from fatigue across a bruising festive schedule.",
+      "publishedAt": "2026-01-06T12:41:00.000Z"
     }
   ]
 }
