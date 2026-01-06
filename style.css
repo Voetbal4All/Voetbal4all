@@ -1860,3 +1860,10 @@ img {
     object-fit: cover;
     opacity: 0.95;
   }
+
+  /* HOME – latest articles: slightly less bold titles (index.html) */
+  #latest-news-grid .home-news__title,
+  #latest-news-grid .home-news__titleRow .home-news__title,
+  #latest-news-grid h4.home-news__title {
+    font-weight: 600;
+  }
