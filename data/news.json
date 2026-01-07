@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-07T04:43:45.682Z",
+  "generatedAt": "2026-01-07T05:29:12.627Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England captain Stokes suffers groin injury in final Ashes Test",
+      "link": "https://www.skysports.com/cricket/news/12040/13491352/the-ashes-england-captain-ben-stokes-suffers-groin-injury-on-day-four-of-final-test-against-australia-in-sydney",
+      "summary": "England captain Ben Stokes limped from the field with a groin injury on day four of the final Ashes Test against Australia.",
+      "publishedAt": "2026-01-07T04:55:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -209,17 +220,6 @@
       "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-kwartfinale-van-de-afrika-cup",
       "summary": "De achtste finales van de Afrika Cup zitten erop, wat betekent dat het tijd is voor de kwartfinales. Na twee rustdagen gaat het toernooi vrijdag verder. We zetten de wedstrijden op een rij.",
       "publishedAt": "2026-01-06T21:54:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Amad Diallo powers Côte d’Ivoire past Burkina Faso to set up Afcon clash with Egypt",
-      "link": "https://www.theguardian.com/football/2026/jan/06/afcon-cote-divoire-burkina-faso-algeria-dr-congo-amad-diallo",
-      "summary": "Last 16: Côte d’Ivoire 3-0 Burkina Faso Algeria break DR Congo in extra time to reach last eight Amad Diallo scored one goal and created another to continue his excellent form in Morocco as the defending champions Côte d’Ivoire eased past Burkina Faso 3-0 in their Africa Cup of Nations last-16 game in Marrakech on Tuesday. Côte d’Ivoire will face the seven-time winners Egypt in a heavyweight quarter-final in Agadir on Saturday, a repeat of the 2006 decider where the north African side triumphed on penalties after a 0-0 draw. Continue reading...",
-      "publishedAt": "2026-01-06T21:45:32.000Z"
     }
   ]
 }
