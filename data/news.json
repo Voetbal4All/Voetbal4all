@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-07T14:27:56.444Z",
+  "generatedAt": "2026-01-07T15:29:34.983Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,65 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Younes Namli verklaart verrassende terugkeer bij PEC: 'Mijn keuze stond vast'",
+      "title": "Younes Namli zet meteen de toon na rentree bij PEC: 'Ik wil de play-offs halen'",
       "link": "https://www.vi.nl/pro/younes-namli-verklaart-verrassende-terugkeer-bij-pec-mijn-keuze-stond-vast",
       "summary": "Ineens was hij daar weer. Terwijl de sneeuw het trainingskamp van PEC Zwolle ontregelde, werkte de club achter de schermen aan de verrassende terugkeer van Younes Namli. De 31-jarige Deen heeft een helder doel voor ogen. 'Ik wil de play-offs halen.'",
       "publishedAt": "2026-01-07T15:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Pools talent naar Porto, Napoli wil Juventus aftroeven met Chiesa'",
+      "link": "https://www.vi.nl/nieuws/napoli-wil-juventus-aftroeven-met-chiesa-ac-milan-hoopt-op-min-jae-kim",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-07T14:54:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Roma chief: Amorim axe has changed Zirkzee plan",
+      "link": "https://www.espn.com/soccer/story/_/id/47537424/ruben-amorim-man-united-sacking-changed-joshua-zirkzee-situation",
+      "summary": "Roma sporting director Ricky Massara has hinted that a planned move for Joshua Zirkzee may be on the backburner following Ruben Amorim's Manchester United sacking.",
+      "publishedAt": "2026-01-07T14:49:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Glasner: No time for Utd links, Guehi may join City",
+      "link": "https://www.espn.com/soccer/story/_/id/47536863/oliver-glasner-man-united-manager-marc-guehi-man-city-transfer-crystal-palace",
+      "summary": "Crystal Palace coach Oliver Glasner is unbothered by links with the Manchester United job and admitted that captain Marc Guéhi could join Manchester City.",
+      "publishedAt": "2026-01-07T14:49:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arteta: Arsenal have 'point to prove' vs. Liverpool",
+      "link": "https://www.espn.com/soccer/story/_/id/47538743/arsenal-vs-liverpool-point-prove-title-race-mikel-arteta",
+      "summary": "Mikel Arteta has said Arsenal have a \"point to prove\" against champions Liverpool as they aim to last the pace in the Premier League title race.",
+      "publishedAt": "2026-01-07T14:49:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Time for change is now' - Hamilton makes birthday pledge",
+      "link": "https://www.skysports.com/f1/news/12040/13491560/lewis-hamilton-ferrari-driver-says-time-for-change-is-now-as-he-makes-pledge-on-his-41st-birthday-ahead-of-2026-f1-season",
+      "summary": "Lewis Hamilton says \"the time for change is now\" after a \"very draining year\" as he sent a message to his fans on his 41st birthday.",
+      "publishedAt": "2026-01-07T14:35:00.000Z"
     },
     {
       "type": "rss",
@@ -33,39 +88,6 @@
       "link": "https://www.skysports.com/tennis/news/12040/13491394/gigi-salmon-critical-of-battle-of-the-sexes-clash-between-world-no-1-aryna-sabalenka-and-former-wimbledon-finalist-nick-kyrgios",
       "summary": "",
       "publishedAt": "2026-01-07T14:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Roma chief: Amorim axe has changed Zirkzee plan",
-      "link": "https://www.espn.com/soccer/story/_/id/47537424/ruben-amorim-man-united-sacking-changed-joshua-zirkzee-situation",
-      "summary": "Roma sporting director Ricky Massara has hinted that a planned move for Joshua Zirkzee may be on the backburner following Ruben Amorim's Manchester United sacking.",
-      "publishedAt": "2026-01-07T13:45:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Glasner: No time for Utd links, Guehi may join City",
-      "link": "https://www.espn.com/soccer/story/_/id/47536863/oliver-glasner-man-united-manager-marc-guehi-man-city-transfer-crystal-palace",
-      "summary": "Crystal Palace coach Oliver Glasner is unbothered by links with the Manchester United job and admitted that captain Marc Guéhi could join Manchester City.",
-      "publishedAt": "2026-01-07T13:45:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "O'Neil replaces Rosenior as new Strasbourg boss",
-      "link": "https://www.espn.com/soccer/story/_/id/47537318/gary-oneil-replaces-chelsea-liam-rosenior-new-strasbourg-boss",
-      "summary": "Strasbourg have confirmed the appointment of Gary O'Neill as their new head coach following the departure of Liam Rosenior to Chelsea.",
-      "publishedAt": "2026-01-07T13:45:20.000Z"
     },
     {
       "type": "rss",
@@ -110,17 +132,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13491526/luke-littler-gian-van-veen-and-luke-humphries-headline-2026-bahrain-and-saudi-arabia-darts-masters",
       "summary": "Luke Littler, Gian van Veen and Luke Humphries will headline this year's Bahrain Darts Masters and Saudi Arabia Darts Masters, as the 2026 World Series of Darts gets under way this month.",
       "publishedAt": "2026-01-07T13:23:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Napoli wil Juventus aftroeven met Chiesa, AC Milan hoopt op Min-Jae Kim'",
-      "link": "https://www.vi.nl/nieuws/napoli-wil-juventus-aftroeven-met-chiesa-ac-milan-hoopt-op-min-jae-kim",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-07T13:15:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/07/morocco-and-regragui-feel-pressure-before-high-profile-afcon-quarter-finals",
       "summary": "Seven of the eight nations have won the tournament before while Mali take on the role of stubborn outsiders A comfortable 3-0 victory for the defending champions, Côte d’Ivoire, over Burkina Faso on Tuesday evening completes the highest-powered set of quarter-finalists the Cup of Nations has ever known. Seven of the last eight are former champions; between them they have won 22 Cups of Nations. It is the first time all eight quarter-finalists are in the top 10 African sides in the Fifa rankings. It’s been a strangely predictable tournament so far, at least after Ghana failed to qualify; the nearest to a surprise in the last 16 was Mali’s win over Tunisia and Cameroon’s victory over South Africa. After the lengthy preamble in a format lacking in jeopardy, the tournament needs the giants to deliver the appropriate payoff. Continue reading...",
       "publishedAt": "2026-01-07T10:37:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Potential roles for both Solskjaer and Carrick as Man Utd plan further talks",
-      "link": "https://www.skysports.com/football/news/12040/13491414/man-utd-new-manager-latest-potential-roles-for-both-ole-gunnar-solskjaer-and-michael-carrick-as-further-talks-planned",
-      "summary": "Manchester United plan to hold further talks with Ole Gunnar Solskjaer and Michael Carrick before deciding on who to make their interim head coach, and Sky Sports News has been told there could be a role for both in the new setup.",
-      "publishedAt": "2026-01-07T10:10:00.000Z"
     }
   ]
 }
