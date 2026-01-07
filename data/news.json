@@ -1,16 +1,60 @@
 {
-  "generatedAt": "2026-01-07T21:25:02.740Z",
+  "generatedAt": "2026-01-07T22:25:18.971Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Burnley 2-2 Manchester United: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/07/burnley-v-manchester-united-premier-league-live",
+      "summary": "⚽ Premier League updates from the 8.15pm GMT kick-off ⚽ Fulham v Chelsea, Bournemouth v Spurs, and more – live ⚽ Live scores | Table | Follow us on Bluesky | Email Daniel They’re about to discuss Mainoo on Sky, so here’s my take. He’s got incredible ability in tight spaces, but needs to get better and finding the ball – too much of too many games passed him by – stronger, faster, and better at passing it forward. That said, United’s dreadfulness made his continuing omission completely unjustifiable, and I’m sure he’ll now get a chance in the three-man midfield he needs to thrive. If, in a year, he’s got a young, physical six behind him, the best creator in world football ahead of him, and he’s still not making it happen, we can wonder if, perhaps, he’s not quite good enough, despite his strengths. But not until then. There are plenty of other matches tonight, just underway. Niall McVeigh has you covered. Continue reading...",
+      "publishedAt": "2026-01-07T22:19:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle v Leeds after Chelsea and Spurs lose: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/07/fullham-v-chelsea-bournemouth-v-tottenham-and-more-premier-league-live",
+      "summary": "⚽ Premier League updates with games from 7.30pm GMT ⚽ Burnley v Manchester United – follow it live ⚽ Live scores | Table | Follow us on Bluesky | Email Niall Everton (4-2-3-1): Pickford; O’Brien, Tarkowski, Keane, Mykolenko; Garner, Iroegbunam; McNeil, Armstrong, Grealish; Barry. Subs: Travers, King, Patterson, Beto, Dibling, Rohl, Aznou, Welch, Campbell. Wolverhampton Wanderers (3-5-2): Jose Sá, Mosquera, Santiago Bueno, Krejci; Tchatchoua, Arias, Joáo Gomes, Mané, Hugo Bueno; Arokodare, Hwang. Subs: Johnstone, Doherty, Wolfe, Andre Trindade, Larsen, Pedro Lima, Chirewa, Lopez, Ojinnaka. Continue reading...",
+      "publishedAt": "2026-01-07T22:19:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Finnbogason wordt technisch directeur: 'Op Nederland geïnspireerde speelstijl'",
+      "link": "https://www.vi.nl/nieuws/finnbogason-wordt-technisch-directeur-op-nederland-ge-nspireerde-speelstijl",
+      "summary": "Alfred Finnbogason (36) is de nieuwe technisch directeur van Rosenborg BK. Dat maakte de Noorse club woensdag bekend.",
+      "publishedAt": "2026-01-07T22:18:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Defensively, we are more stable than ever - Guardiola",
+      "link": "https://www.bbc.com/sport/football/videos/c79rd4qr8d2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City boss Pep Guardiola is pleased with his side's defensive performance highlighting Max Alleyne as \"exceptional\" in their 1-1 draw at home to Brighton.",
+      "publishedAt": "2026-01-07T22:16:25.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Rosenior not ready to coach Chelsea vs. Fulham",
+      "title": "Rosenior unready to coach Chelsea loss at Fulham",
       "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
       "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-07T21:17:27.000Z"
+      "publishedAt": "2026-01-07T22:15:17.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +65,18 @@
       "title": "Roma chief: Amorim axe has changed Zirkzee plan",
       "link": "https://www.espn.com/soccer/story/_/id/47537424/ruben-amorim-man-united-sacking-changed-joshua-zirkzee-situation",
       "summary": "Roma sporting director Ricky Massara has hinted that a planned move for Joshua Zirkzee may be on the backburner following Ruben Amorim's Manchester United sacking.",
-      "publishedAt": "2026-01-07T21:17:27.000Z"
+      "publishedAt": "2026-01-07T22:15:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City drop more points in draw with Brighton",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740803",
+      "summary": "Title-chasing Manchester City dropped points for a third successive game as they were held to a 1-1 draw by Brighton on Wednesday.",
+      "publishedAt": "2026-01-07T22:15:16.000Z"
     },
     {
       "type": "rss",
@@ -32,18 +87,51 @@
       "title": "Raphinha double leads Barcelona Super Cup romp",
       "link": "https://www.espn.com/soccer/report/_/gameId/748115",
       "summary": "Raphinha scored a brace as Barcelona eased into the Spanish Super Cup final with a thumping 5-0 victory over Athletic Club in Saudi Arabia.",
-      "publishedAt": "2026-01-07T21:17:26.000Z"
+      "publishedAt": "2026-01-07T22:15:16.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Bellingham: Madrid squad unrest claims 'fabricated'",
-      "link": "https://www.espn.com/soccer/story/_/id/47540271/real-madrid-jude-bellingham-rebuffs-fabricated-dressing-room-unrest-reports",
-      "summary": "Jude Bellingham has said reports of dressing room strife at Real Madrid as \"fabricated or exaggerated\" saying the players are \"100% behind\" coach Xabi Alonso and describing teammate Vinícius Júnior as \"as positive as ever.\"",
-      "publishedAt": "2026-01-07T21:17:26.000Z"
+      "title": "Brighton never gave up - Hurzeler",
+      "link": "https://www.bbc.com/sport/football/videos/c8e5d84048lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fabian Hurzeler wants Brighton to cut out their individual errors, but is pleased they were able to fight back and claim a draw against Manchester City.",
+      "publishedAt": "2026-01-07T22:05:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Semenyo goes out in style with dramatic 95th minute winner!",
+      "link": "https://www.skysports.com/watch/video/13491801/bournemouth-3-2-tottenham-hotspur-premier-league-highlights",
+      "summary": "FREE TO WATCH: Highlights from Bournemouth's win against Tottenham in the Premier League.",
+      "publishedAt": "2026-01-07T22:04:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: spektakelstuk op St James' Park als toetje op woensdagavond",
+      "link": "https://www.vi.nl/nieuws/vi-live-sesko-voorlopig-de-held-van-man-utd-in-eerste-wedstrijd-zonder-amorim",
+      "summary": "Woensdagavond staan er weer veel mooie potjes op het programma. Er zijn liefst acht duels in de Premier League, er wordt gevoetbald in de Serie A en Barcelona speelt de halve finale van de Spaanse Supercopa tegen Athletic Bilbao. Volg de duels in de VI Live.",
+      "publishedAt": "2026-01-07T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Semenyo neemt in stijl afscheid bij Bournemouth, Man City morst weer dure punten",
+      "link": "https://www.vi.nl/nieuws/semenyo-neemt-in-stijl-afscheid-bij-bournemouth-man-city-morst-weer-dure-punten",
+      "summary": "INTRO",
+      "publishedAt": "2026-01-07T21:56:54.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +139,21 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Fulham v Chelsea, Bournemouth v Tottenham, and more: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/07/fullham-v-chelsea-bournemouth-v-tottenham-and-more-premier-league-live",
-      "summary": "⚽ Premier League updates with games from 7.30pm GMT ⚽ Burnley v Manchester United – follow it live ⚽ Live scores | Table | Follow us on Bluesky | Email Niall Everton (4-2-3-1): Pickford; O’Brien, Tarkowski, Keane, Mykolenko; Garner, Iroegbunam; McNeil, Armstrong, Grealish; Barry. Subs: Travers, King, Patterson, Beto, Dibling, Rohl, Aznou, Welch, Campbell. Wolverhampton Wanderers (3-5-2): Jose Sá, Mosquera, Santiago Bueno, Krejci; Tchatchoua, Arias, Joáo Gomes, Mané, Hugo Bueno; Arokodare, Hwang. Subs: Johnstone, Doherty, Wolfe, Andre Trindade, Larsen, Pedro Lima, Chirewa, Lopez, Ojinnaka. Continue reading...",
-      "publishedAt": "2026-01-07T21:15:32.000Z"
+      "title": "Fulham’s Harry Wilson piles pain on 10-man Chelsea as Liam Rosenior watches on",
+      "link": "https://www.theguardian.com/football/2026/jan/07/fulham-chelsea-premier-league-match-report",
+      "summary": "It was a crash course in the modern Chelsea for Liam Rosenior. The new head coach saw rash decisions undermine flashes of promise and heard rumblings of discontent. Few supporters are convinced by the club’s direction and the cracks were evident when the travelling supporters aimed mutinous chants at the Chelsea hierarchy as they watched their erratic side fall to a chaotic 2-1 defeat at Fulham. Steering this project back on course will not be easy for Rosenior. Perhaps he will reflect that he has already made his first misstep since leaving Strasbourg. He elected not to sit in the away dugout, leaving Calum McFarlane in interim charge after the draw with Manchester City, and the result was Chelsea producing a directionless performance in which they lost Marc Cucurella to an early red card before losing to a late goal from Harry Wilson. Continue reading...",
+      "publishedAt": "2026-01-07T21:52:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Inter verstevigt koppositie, Ekkelenkamp goud waard voor Udinese",
+      "link": "https://www.vi.nl/nieuws/inter-verstevigt-koppositie-ekkelenkamp-goud-waard-voor-udinese",
+      "summary": "Internazionale heeft de voorsprong op AC Milan vergroot naar vier punten. Dat moest gebeuren tegen Parma, de oude club van trainer Cristian Chivu: 0-1.",
+      "publishedAt": "2026-01-07T21:50:00.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +161,43 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Burnley v Manchester United: Premier League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/07/burnley-v-manchester-united-premier-league-live",
-      "summary": "⚽ Premier League updates from the 8.15pm GMT kick-off ⚽ Fulham v Chelsea, Bournemouth v Spurs, and more – live ⚽ Live scores | Table | Follow us on Bluesky | Email Daniel They’re about to discuss Mainoo on Sky, so here’s my take. He’s got incredible ability in tight spaces, but needs to get better and finding the ball – too much of too many games passed him by – stronger, faster, and better at passing it forward. That said, United’s dreadfulness made his continuing omission completely unjustifiable, and I’m sure he’ll now get a chance in the three-man midfield he needs to thrive. If, in a year, he’s got a young, physical six behind him, the best creator in world football ahead of him, and he’s still not making it happen, we can wonder if, perhaps, he’s not quite good enough, despite his strengths. But not until then. There are plenty of other matches tonight, just underway. Niall McVeigh has you covered. Continue reading...",
-      "publishedAt": "2026-01-07T21:05:34.000Z"
+      "title": "Antoine Semenyo’s parting gift gives Bournemouth victory over shaky Spurs",
+      "link": "https://www.theguardian.com/football/2026/jan/07/bournemouth-tottenham-premier-league-match-report",
+      "summary": "For 95 minutes, Antoine Semenyo had done nothing other than receive a yellow card for his 26th birthday. Then came the farewell moment he had dreamed of. Delivered the ball on the edge of the Tottenham penalty area, he struck the sweetest of shots past a helpless Guglielmo Vicario to end Bournemouth’s longest barren run of their Premier League era and sign off in the most perfect fashion. With a move to Manchester City imminent, he can depart the south coast with the blessing of everyone at the club where he has developed into one of English football’s most dangerous players. After 11 winless games, Bournemouth again know what it feels like to win. Continue reading...",
+      "publishedAt": "2026-01-07T21:48:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brighton’s Kaoru Mitoma punishes Manchester City as title bid falters again",
+      "link": "https://www.theguardian.com/football/2026/jan/07/manchester-city-brighton-premier-league-match-report",
+      "summary": "Pep Guardiola believes team spirit will help Manchester City get through a difficult period but more than camaraderie alone will be required on this evidence. City endured a third consecutive draw against Brighton to leave the leaders, Arsenal, who have a game in hand, five points ahead and currently without a title challenger. City were left with 14 fit senior outfield players for the match and those on the pitch looked fatigued. An Erling Haaland penalty gave a platform they were unable to build on as City let Brighton come back into the match and deservedly depart with a point thanks to Kaoru Mitoma. Continue reading...",
+      "publishedAt": "2026-01-07T21:38:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Written in the stars! Semenyo wins it for Bournemouth vs Spurs with last kick",
+      "link": "https://www.skysports.com/football/bournemouth-vs-tottenham-hotspur/report/531330",
+      "summary": "Antoine Semenyo gave Bournemouth the perfect goodbye gift as his 95th minute winner - likely his last kick for the club - earned his team a 3-2 win over Spurs, to ramp up the pressure on Thomas Frank.",
+      "publishedAt": "2026-01-07T21:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wasteful Man City held to Brighton draw as title hopes take another hit",
+      "link": "https://www.skysports.com/football/manchester-city-vs-brighton-and-hove-albion/report/531336",
+      "summary": "Wasteful Manchester City dropped points for the third game in a row after being held to a 1-1 draw with battling Brighton.",
+      "publishedAt": "2026-01-07T21:30:00.000Z"
     },
     {
       "type": "rss",
@@ -80,146 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Clinical Mitoma brings Brighton level at the Etihad!",
-      "link": "https://www.skysports.com/watch/video/13491728/clinical-mitoma-brings-brighton-level-at-the-etihad",
-      "summary": "Kaoru Mitoma finds an equaliser for Brighton against Man City!",
-      "publishedAt": "2026-01-07T20:56:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Barcelona laat niets heel van Athletic en is finalist Spaanse Super Cup",
-      "link": "https://www.vi.nl/nieuws/barcelona-laat-niets-heel-van-athletic-en-is-finalist-supercopa-de-espa-a",
-      "summary": "Barcelona heeft zich zeer overtuigend geplaatst voor de finale van de Supercopa de España. In de halve finale maakte de ploeg van Hansi Flick in het Saoedische Jeddah gehakt van Athletic Bilbao: 5-0.",
-      "publishedAt": "2026-01-07T20:53:27.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Premier League live updates: Burnley lead Man United in first game under Fletcher",
+      "title": "Premier League live updates: Šeško strikes twice for Man United in Fletcher's first game",
       "link": "https://www.espn.com/soccer/story/_/id/47516539/premier-league-live-updates-fulham-chelsea-burnley-manchester-united-brighton-manchester-city-barcelona",
-      "summary": "Chelsea travel to Fulham, although new manager Liam Rosenior will be in the stands. Plus, interim boss Darren Fletcher leads Man United vs. Burnley.",
+      "summary": "With new boss Liam Rosenior watching, Chelsea were unable to beat Fulham. Plus, interim boss Darren Fletcher leads Man United vs. Burnley.",
       "publishedAt": "2026-01-07T20:49:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: trainerswissels sorteren nog weinig effect voor Man Utd en Chelsea",
-      "link": "https://www.vi.nl/nieuws/vi-live-hato-mag-invallen-na-rode-kaart-barca-hard-op-weg-naar-super-cup-finale",
-      "summary": "Woensdagavond staan er weer veel mooie potjes op het programma. Er zijn liefst acht duels in de Premier League, er wordt gevoetbald in de Serie A en Barcelona speelt de halve finale van de Spaanse Supercopa tegen Athletic Bilbao. Volg de duels in de VI Live.",
-      "publishedAt": "2026-01-07T20:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Marquinhos vreest niet voor PSG-rivaal Marseille: 'Zij maken ons nooit bang'",
-      "link": "https://www.vi.nl/nieuws/marquinhos-vreest-niet-voor-psg-rivaal-marseille-zij-maken-ons-nooit-bang",
-      "summary": "Marquinhos heeft de boel extra op scherp gezet in aanloop naar de finale van de Trophée des Champions tegen Marseille. De verdediger van Paris Saint-Germain kan de Franse supercup voor de elfde keer in zijn carrière winnen en heeft geen vrees voor de aartsrivaal. 'Marseille maakt ons nooit bang.'",
-      "publishedAt": "2026-01-07T20:36:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Haaland makes no mistake from penalty spot!",
-      "link": "https://www.skysports.com/watch/video/13491713/haaland-makes-no-mistake-from-penalty-spot",
-      "summary": "Erling Haaland puts Manchester City ahead against Brighton from the penalty spot.",
-      "publishedAt": "2026-01-07T20:18:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FIFA komt met AI-innovatie: 'WK 2026 wordt grootste spektakel ooit'",
-      "link": "https://www.vi.nl/nieuws/fifa-komt-met-ai-innovatie-wk-2026-wordt-grootste-spektakel-ooit",
-      "summary": "FIFA wil het WK van 2026 het meest technologische eindtoernooi ooit maken. In aanloop naar het toernooi in de Verenigde Staten, Canada en Mexico presenteerde de wereldvoetbalbond samen met technologiepartner Lenovo een reeks AI-innovaties onder de noemer Football AI . De nieuwe toepassingen moeten scheidsrechters ondersteunen, teams helpen bij analyse én de fanbeleving vergroten.",
-      "publishedAt": "2026-01-07T19:55:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Former England boss Keegan diagnosed with cancer",
-      "link": "https://www.bbc.com/sport/football/articles/cj9r1pd18e3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Former England striker and manager Kevin Keegan has been diagnosed with cancer and is receiving treatment.",
-      "publishedAt": "2026-01-07T19:37:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Carrick and Solskjaer frontrunners for Man Utd caretaker role",
-      "link": "https://www.bbc.com/sport/football/articles/cnvgq2ny2rzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Michael Carrick and Ole Gunnar Solskjaer emerge as frontrunners to become Manchester United's caretaker manager until the end of the season.",
-      "publishedAt": "2026-01-07T19:09:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kevin Keegan, former England and Newcastle manager, diagnosed with cancer",
-      "link": "https://www.theguardian.com/football/2026/jan/07/kevin-keegan-former-england-newcastle-manager-diagnosed-cancer",
-      "summary": "He was admitted to hospital with abdominal symptoms Keegan, 74, ‘grateful for intervention and ongoing care’ The former England manager Kevin Keegan has been diagnosed with cancer. Keegan, who also played for England, Scunthorpe, Liverpool, Hamburg, Southampton and Newcastle before later managing Newcastle (twice) as well as Fulham, Manchester City and the national side was recently admitted to hospital for evaluation of ongoing abdominal symptoms. Continue reading...",
-      "publishedAt": "2026-01-07T18:32:26.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Who is Manchester City debutant Max Alleyne?",
-      "link": "https://www.bbc.com/sport/football/articles/c78vw963gp6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City defender Max Alleyne will make his Premier League debut on Wednesday after being named in Pep Guardiola's team to face Brighton.",
-      "publishedAt": "2026-01-07T18:29:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Everton now down to NINE after Keane and Grealish reds vs Wolves LIVE!",
-      "link": "https://www.skysports.com/football/everton-vs-wolverhampton-wanderers/live/531334",
-      "summary": "",
-      "publishedAt": "2026-01-07T17:55:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ex-Tottenham and England forward Chivers dies aged 80",
-      "link": "https://www.bbc.com/sport/football/articles/c0r4q22pe4lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Tottenham and England forward Martin Chivers dies at the age of 80.",
-      "publishedAt": "2026-01-07T17:21:48.000Z"
     }
   ]
 }
