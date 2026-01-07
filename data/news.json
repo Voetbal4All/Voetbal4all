@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-07T11:24:24.302Z",
+  "generatedAt": "2026-01-07T12:54:11.339Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,120 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Veldwijk (34) neemt na een half jaar afscheid bij club uit Emiraten",
-      "link": "https://www.vi.nl/nieuws/veldwijk-34-neemt-na-een-half-jaar-afscheid-bij-club-uit-emiraten",
-      "summary": "Dibba Al-Hisn heeft woensdag bekendgemaakt dat Lars Veldwijk (34) vertrekt bij de club uit de Verenigde Arabische Emiraten. De zevenvoudig international van Zuid-Afrika stond sinds vorig jaar zomer onder contract bij Dibba Al-Hisn.",
-      "publishedAt": "2026-01-07T11:15:20.000Z"
+      "title": "KNVB gooit ook al het amateurvoetbal voor dit weekend eruit",
+      "link": "https://www.vi.nl/nieuws/knvb-gooit-ook-al-het-amateurvoetbal-voor-dit-weekend-eruit",
+      "summary": "In navolging van de afgelasting van de vrijdagwedstrijden in het Nederlands betaald voetbal heeft de KNVB ook besloten alle amateurwedstrijden voor dit weekend eruit te gooien. De winterse weersomstandigheden zijn daarvan de oorzaak.",
+      "publishedAt": "2026-01-07T12:43:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Loting Copa del Rey: Barça treft stuntploeg, Real naar Albacete",
+      "link": "https://www.vi.nl/nieuws/loting-copa-del-rey-bar-a-treft-stuntploeg-real-naar-albacete",
+      "summary": "De loting voor de achtste finales in de Spaanse Copa del Rey is woensdagmiddag verricht: Barcelona gaat op bezoek bij Racing Santander en Real Madrid neemt het op tegen Albacete. Ook Atlético Madrid wacht een uitwedstrijd.",
+      "publishedAt": "2026-01-07T12:40:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Carrick and Solskjaer frontrunners for caretaker role",
+      "link": "https://www.bbc.com/sport/football/articles/cnvgq2ny2rzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Michael Carrick and Ole Gunnar Solskjaer emerge as frontrunners to become Manchester United's caretaker manager until the end of the season.",
+      "publishedAt": "2026-01-07T12:33:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs head coach Martin Ho: ‘We’re not even 15% of the way to where I want us to be’",
+      "link": "https://www.theguardian.com/football/2026/jan/07/spurs-head-coach-martin-ho-wsl-interview",
+      "summary": "Leader of resurgent WSL side on what he demands of players, his relationship with the hierarchy and the change that has surprised him Tottenham have as many points in the Women’s Super League this term, at the halfway stage, as they accumulated in the entirety of last season. That sentence will offer some satisfaction to their supporters but the head coach, Martin Ho, demonstrates how serious his intentions are when he says: “We’re not even 15% of the way to where I want us to be.” Ho, appointed in July, uses a specific word four times across the course of the conversation: “Standards.” The former Manchester United assistant coach inherited a team that had finished second from bottom and has Spurs two points off a European place, but he wants them to challenge themselves further. Continue reading...",
+      "publishedAt": "2026-01-07T12:30:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Duel tussen NEC en FC Utrecht afgelast, ook KKD gaat vrijdag niet door",
+      "link": "https://www.vi.nl/nieuws/duel-tussen-nec-en-fc-utrecht-afgelast-ook-kkd-gaat-vrijdag-niet-door",
+      "summary": "De KNVB heeft alle wedstrijden in het Nederlands betaald voetbal voor vrijdag afgelast. Door de winterse weersomstandigheden wordt het onverantwoord geacht om te voetballen. Op een later moment wordt beslist over de duels van zaterdag en zondag.",
+      "publishedAt": "2026-01-07T12:29:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Slot lyrisch: 'Arsenal heeft het complete pakket'",
+      "link": "https://www.vi.nl/video/slot-vol-lof-arsenal-heeft-het-complete-pakket",
+      "summary": "In de aanloop naar de kraker tegen Arsenal van donderdagavond spreekt Arne Slot vol lof over de opponent. 'Hun belangrijkste sterke punt is misschien wel dat ze geen zwakke punten hebben', zei de Liverpool-manager, die begin dit seizoen met 1-0 won van de Londenaren.",
+      "publishedAt": "2026-01-07T12:18:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot: Ekitike 'hasn't trained' ahead of Arsenal clash",
+      "link": "https://www.espn.com/soccer/story/_/id/47537557/arsenal-vs-liverpool-hugo-ekitike-trained-amid-injury-issue-arne-slot",
+      "summary": "Arne Slot has confirmed striker Hugo Ekitike is a doubt to feature for Liverpool against Arsenal in Thursday's Premier League clash at Emirates Stadium.",
+      "publishedAt": "2026-01-07T12:13:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tennis 2026 schedule, Grand Slam dates and tournament calendar for ATP and WTA Tours",
+      "link": "https://www.skysports.com/tennis/news/12040/13491111/tennis-2026-schedule-grand-slam-dates-and-tournament-calendar-for-atp-and-wta-tours",
+      "summary": "Keep track of the dates, tournament calendar and latest results for the 2026 ATP and WTA Tours.",
+      "publishedAt": "2026-01-07T12:10:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Sammer ziet Duitsland met opvallend Bayern-duo als WK-favoriet",
+      "link": "https://www.vi.nl/nieuws/sammer-ziet-duitsland-met-opvallend-bayern-duo-als-wk-favoriet",
+      "summary": "Voormalig Duits international Matthias Sammer denkt dat Duitsland komende zomer hoge ogen kan gooien op het WK in de Verenigde Staten, Mexico en Canada. De oud-aanvoerder van Die Mannschaft verwacht dat de Duitsers een extra boost kunnen krijgen door twee extra spelers van Bayern München.",
+      "publishedAt": "2026-01-07T12:05:05.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Boxing 2026 Schedule: What fights are happening next?",
+      "link": "https://www.skysports.com/boxing/news/12040/13491463/boxing-2026-fight-schedule-and-latest-results-tyson-fury-oleksandr-usyk-katie-taylor-and-more",
+      "summary": "Keep track of the latest boxing results and major fights coming up during 2026.",
+      "publishedAt": "2026-01-07T11:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Future of England cricket' - 'diamond' Bethell delivers on supreme talent",
+      "link": "https://www.skysports.com/cricket/news/12040/13491416/the-ashes-jacob-bethell-hailed-as-future-of-england-cricket-after-delivering-on-supreme-talent-with-first-test-century",
+      "summary": "Jacob Bethell evoked memories of David Gower with his stylish, yet composed, maiden Test century at No 3 for England in the fifth Ashes Test in Sydney, according to Sky Sports' Nasser Hussain.",
+      "publishedAt": "2026-01-07T11:40:00.000Z"
     },
     {
       "type": "rss",
@@ -29,54 +139,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Slot: Ekitike 'hasn't trained' ahead of Arsenal clash",
-      "link": "https://www.espn.com/soccer/story/_/id/47537557/arsenal-vs-liverpool-hugo-ekitike-trained-amid-injury-issue-arne-slot",
-      "summary": "Arne Slot has confirmed striker Hugo Ekitike is a doubt to feature for Liverpool against Arsenal in Thursday's Premier League clash at Emirates Stadium.",
-      "publishedAt": "2026-01-07T11:01:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Roma chief: Amorim axe has changed Zirkzee plan",
       "link": "https://www.espn.com/soccer/story/_/id/47537424/ruben-amorim-man-united-sacking-changed-joshua-zirkzee-situation",
       "summary": "Roma sporting director Ricky Massara has hinted that a planned move for Joshua Zirkzee may be on the backburner following Ruben Amorim's Manchester United sacking.",
       "publishedAt": "2026-01-07T11:01:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Nergens kan een crisis zo snel komen opzetten als in Breda",
-      "link": "https://www.vi.nl/pro/en-ineens-was-het-weer-crisis-bij-nac-breda",
-      "summary": "Vol goede moed begon NAC Breda aan het nieuwe seizoen. De club wilde een stap voorwaarts zetten, nadat het zich onder trainer Carl Hoefkens knap had gehandhaafd op het hoogste niveau. In het tweede seizoen sinds de toevallige promotie in 2024 moest de club een groei naar de middenmoot inzetten. Het vechtvoetbal moest overboord, dominant positiespel moest ervoor in de plaats komen. Hoewel NAC een loodzware Eredivisie-start voor de kiezen kreeg, was het optimisme na de eerste maanden groot. Hoefkens liet zijn ploeg daadwerkelijk beter voetballen en er werden puntjes gesprokkeld. De weg omhoog leek daarmee écht te zijn ingezet. Tót het aankwam op de duels met de rechtstreekse concurrenten.",
-      "publishedAt": "2026-01-07T11:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot voor kraker tegen Arsenal: 'Kan nog bijzonder seizoen worden'",
-      "link": "https://www.vi.nl/nieuws/slot-voor-kraker-tegen-arsenal-kan-nog-bijzonder-seizoen-worden",
-      "summary": "Liverpool-manager Arne Slot heeft er vertrouwen in dat hij met The Reds dit seizoen nog hoge ogen kan gaan gooien. Dat liet de Nederlander weten in de persconferentie voor de Premier League-kraker tegen Arsenal.",
-      "publishedAt": "2026-01-07T10:55:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Met spelers als Deco, Eto'o, Ronaldinho en Puyol speelde ik op het trainingsveld'",
-      "link": "https://www.vi.nl/nieuws/met-spelers-als-deco-eto-o-ronaldinho-en-puyol-speelde-ik-op-het-trainingsveld",
-      "summary": "John Neeskens speelt momenteel bij FC Eindhoven, maar zat als klein jongetje in de kleedkamer met de grote sterren van Barcelona. Vader Johan Neeskens zat in de technische staf en Neeskens jr. genoot volop mee.",
-      "publishedAt": "2026-01-07T10:48:59.000Z"
     },
     {
       "type": "rss",
@@ -88,17 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/07/morocco-and-regragui-feel-pressure-before-high-profile-afcon-quarter-finals",
       "summary": "Seven of the eight nations have won the tournament before while Mali take on the role of stubborn outsiders A comfortable 3-0 victory for the defending champions, Côte d’Ivoire, over Burkina Faso on Tuesday evening completes the highest-powered set of quarter-finalists the Cup of Nations has ever known. Seven of the last eight are former champions; between them they have won 22 Cups of Nations. It is the first time all eight quarter-finalists are in the top 10 African sides in the Fifa rankings. It’s been a strangely predictable tournament so far, at least after Ghana failed to qualify; the nearest to a surprise in the last 16 was Mali’s win over Tunisia and Cameroon’s victory over South Africa. After the lengthy preamble in a format lacking in jeopardy, the tournament needs the giants to deliver the appropriate payoff. Continue reading...",
       "publishedAt": "2026-01-07T10:37:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Strasbourg heeft al rap vervanger van Rosenior binnen",
-      "link": "https://www.vi.nl/nieuws/strasbourg-heeft-al-rap-vervanger-van-rosenior-binnen",
-      "summary": "Strasbourg heeft Gary O'Niel aangesteld als nieuwe trainer. De 42-jarige Engelsman is de opvolger van Liam Rosenior, die dinsdag zijn contract tekende bij Chelsea .",
-      "publishedAt": "2026-01-07T10:23:07.000Z"
     },
     {
       "type": "rss",
@@ -135,28 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Jones continues winning streak with incredible comeback win in Auckland",
-      "link": "https://www.skysports.com/tennis/news/12040/13491392/fran-jones-follows-up-her-career-best-win-by-battling-through-to-asb-classic-quarter-finals-in-auckland",
-      "summary": "Fran Jones followed up her career-best win over Emma Navarro by reaching the quarter-finals of the ASB Classic in Auckland.",
-      "publishedAt": "2026-01-07T08:57:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "England’s Katie Robinson poised for shock move from Aston Villa to Bristol City",
-      "link": "https://www.theguardian.com/football/2026/jan/07/katie-robinson-shock-move-aston-villa-bristol-city-lioness-transfer-window",
-      "summary": "WSL2 side beat off competition for winger’s signature She started career at City and has been on loan at Everton The England winger Katie Robinson is poised to complete a shock move from Aston Villa to Bristol City, the Guardian understands, as the Women’s Super League 2 club make a significant signal of their ambition. The 23-year-old, who made her England debut in 2022, has – according to sources – completed a medical to return to the club where she started her career before establishing herself at Brighton. Robinson has five caps and was the youngest member of England’s squad at the 2023 World Cup, where they reached the final. Bristol City have fought off competition for her signature. Continue reading...",
-      "publishedAt": "2026-01-07T08:18:42.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -165,28 +198,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/07/liam-rosenior-strasbourg-ideal-preparation-chelsea-young-players-demands-owners",
       "summary": "The 41-year-old is at home with young players and, crucially, he is familiar with the demands of Chelsea’s owners By Get French Football News Liam Rosenior looks up at the towering Strasbourg Kop. He shouts and pleads as he points to his players, demanding the fans applaud them. Met with hostility, boos and jeers in the stands, he cuts a lone figure, one at pains to sow unity at a divided club. Strasbourg had just won the game, beating Le Havre 1-0 earlier this season, but the club’s fans were in no mood to celebrate. Behind an image are a thousand words, or three banners in this case. One called for the club president Marc Keller to leave Strasbourg; another criticised the bizarre Ishé Samuels-Smith back-and-forth transfer; and the one to which Rosenior took particular exception concerned his captain, Emmanuel Emegha. It read: “Emegha, pawn of BlueCo, after changing shirts, hand back your armband.” Emegha had agreed a deal to join Chelsea a few days earlier, once again confirming to Strasbourg fans that they were subservient to “big brother” Chelsea in the multi-club hierarchy. Continue reading...",
       "publishedAt": "2026-01-07T08:00:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "TGL golf: Horschel delivers winning putt to keep Atlanta undefeated",
-      "link": "https://www.skysports.com/golf/news/12040/13491367/tgl-golf-billy-horschel-delivers-winning-putt-to-keep-atlanta-undefeated-as-league-announce-formation-of-wtgl",
-      "summary": "Billy Horschel drained the decisive putt to give Atlanta Drive GC their seventh consecutive victory in a 7-4 win over The Bay Golf Club on Tuesday.",
-      "publishedAt": "2026-01-07T07:14:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bethell hits sublime maiden Test ton to give England slim hope in Sydney",
-      "link": "https://www.skysports.com/cricket/news/12040/13491358/the-ashes-jacob-bethell-hits-maiden-test-hundred-to-give-slim-hope-to-england-fightback-in-fifth-test-in-sydney",
-      "summary": "Jacob Bethell scored a sublime maiden first-class century to give hope to an England fightback in the fifth Ashes Test in Sydney before a late wobble on the fourth evening left the tourists eight wickets down and with a lead of 119.",
-      "publishedAt": "2026-01-07T07:00:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/czdqllp9639o?at_medium=RSS&at_campaign=rss",
       "summary": "In his BBC Sport column, ex-Premier League boss Tony Pulis explains why Manchester United's interim manager Darren Fletcher would be the perfect choice to take the job on a longer-term basis.",
       "publishedAt": "2026-01-07T06:28:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Happy Birthday Lewis Hamilton! | All NINE of his record-breaking British GP wins",
-      "link": "https://www.skysports.com/watch/video/12639797/lewis-hamiltons-8-record-breaking-british-gp-wins-at-silverstone",
-      "summary": "To celebrate his birthday, look back at all of Lewis Hamilton's record-breaking nine British Grand Prix wins at Silverstone for McLaren and Mercedes.",
-      "publishedAt": "2026-01-07T06:00:00.000Z"
     }
   ]
 }
