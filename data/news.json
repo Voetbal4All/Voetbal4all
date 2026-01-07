@@ -1,6 +1,171 @@
 {
-  "generatedAt": "2026-01-07T17:29:06.419Z",
+  "generatedAt": "2026-01-07T18:38:21.237Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "O'Neil replaces Rosenior as new Strasbourg boss",
+      "link": "https://www.espn.com/soccer/story/_/id/47537318/gary-oneil-replaces-chelsea-liam-rosenior-new-strasbourg-boss",
+      "summary": "Strasbourg have confirmed the appointment of Gary O'Neill as their new head coach following the departure of Liam Rosenior to Chelsea.",
+      "publishedAt": "2026-01-07T18:31:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Lamine Yamal op de bank, Pep stelt teruggehaalde verdediger meteen op",
+      "link": "https://www.vi.nl/nieuws/vi-live-lamine-yamal-op-de-bar-a-bank-in-spaanse-super-cup-napoli-in-problemen",
+      "summary": "Woensdagavond staan er weer veel mooie potjes op het programma. Er zijn liefst acht duels in de Premier League, er wordt gevoetbald in de Serie A en Barcelona speelt de halve finale van de Spaanse Supercopa tegen Athletic Bilbao. Volg de duels in de VI Live.",
+      "publishedAt": "2026-01-07T18:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Clubloze Falcao (39) gaat na halfjaar tóch door bij Colombiaanse jeugdliefde",
+      "link": "https://www.vi.nl/nieuws/clubloze-falcao-39-gaat-na-halfjaar-toch-door-bij-colombiaanse-jeugdliefde",
+      "summary": "Radamel Falcao heeft voor verbazing gezorgd in Colombia. De 39-jarige spits heeft woensdag een contract voor de rest van het seizoen getekend bij Millonarios, de club waar hij afgelopen zomer nog besloot om niet te verlengen. Nu de voormalig Colombiaanse stervoetballer een halfjaar zonder club zat, is hij teruggekomen op zijn eerdere besluit. 'Een last-dance .'",
+      "publishedAt": "2026-01-07T18:27:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Former England boss Keegan diagnosed with cancer",
+      "link": "https://www.bbc.com/sport/football/articles/cj9r1pd18e3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Former England striker and manager Kevin Keegan has been diagnosed with cancer and is receiving treatment.",
+      "publishedAt": "2026-01-07T18:21:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dit is het schema van de kwartfinale van de Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-kwartfinale-van-de-afrika-cup",
+      "summary": "De achtste finales van de Afrika Cup zitten erop, wat betekent dat het tijd is voor de kwartfinales. Na twee rustdagen gaat het toernooi vrijdag verder. We zetten de wedstrijden op een rij.",
+      "publishedAt": "2026-01-07T18:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Roma chief: Amorim axe has changed Zirkzee plan",
+      "link": "https://www.espn.com/soccer/story/_/id/47537424/ruben-amorim-man-united-sacking-changed-joshua-zirkzee-situation",
+      "summary": "Roma sporting director Ricky Massara has hinted that a planned move for Joshua Zirkzee may be on the backburner following Ruben Amorim's Manchester United sacking.",
+      "publishedAt": "2026-01-07T18:16:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bellingham: Madrid squad unrest claims 'fabricated'",
+      "link": "https://www.espn.com/soccer/story/_/id/47540271/real-madrid-jude-bellingham-rebuffs-fabricated-dressing-room-unrest-reports",
+      "summary": "Jude Bellingham has said reports of dressing room strife at Real Madrid as \"fabricated or exaggerated\" saying the players are \"100% behind\" coach Xabi Alonso and describing teammate Vinícius Júnior as \"as positive as ever.\"",
+      "publishedAt": "2026-01-07T18:16:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Glasner: No time for Utd links, Guéhi may join City",
+      "link": "https://www.espn.com/soccer/story/_/id/47536863/oliver-glasner-man-united-manager-marc-guehi-man-city-transfer-crystal-palace",
+      "summary": "Crystal Palace coach Oliver Glasner is unbothered by links with the Manchester United job and admitted that captain Marc Guéhi could join Manchester City.",
+      "publishedAt": "2026-01-07T18:16:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Supercopa de España: Can Real Madrid, Atletico or Athletic stop Barça?",
+      "link": "https://www.espn.com/soccer/story/_/id/47517874/spanish-supercopa-real-madrid-atletico-athletic-club-stop-barcelona",
+      "summary": "Here's all you need to know about the 2026 Supercopa de España, with Barcelona, Real Madrid, Atlético Madrid and Athletic Club vying for the crown this week.",
+      "publishedAt": "2026-01-07T18:16:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fulham v Chelsea, Bournemouth v Tottenham, and more: Premier League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/07/fullham-v-chelsea-bournemouth-v-tottenham-and-more-premier-league-live",
+      "summary": "⚽ Premier League updates with games from 7.30pm GMT ⚽ Live scores | Table | Follow us on Bluesky | Email Niall Today’s Football Daily takes a peek into the West Ham doom vortex … Kick-offs 7.30pm GMT unless stated … Continue reading...",
+      "publishedAt": "2026-01-07T18:15:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'I didn't want it to get worse' - Bromley on retiring for mental health reasons",
+      "link": "https://www.skysports.com/racing/news/12040/13491594/i-didnt-want-it-to-get-any-worse-jockey-ben-bromley-explains-retirement-for-mental-health-reasons",
+      "summary": "Ben Bromley joined Matt Chapman and Paddy Brennan on Unbridled to explain the circumstances behind his recent retirement.",
+      "publishedAt": "2026-01-07T18:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bij Feyenoord kunnen ze alleen nog maar hopen",
+      "link": "https://www.vi.nl/pro/bij-feyenoord-kunnen-ze-alleen-nog-maar-hopen",
+      "summary": "Op een paar uitzonderingen na die juist net in een flow waren geraakt, haalden de Eredivisie-clubs op het tandvlees de winterstop. Veel tijd om weer op adem te komen, hebben ze alleen niet, want dit weekeinde begint het hele circus alweer. In aanloop naar het cruciale deel van het seizoen maken we bij elke club de balans op, waarbij we wat de volgorde betreft uitgaan van de eerste speelronde van 2026. Deze keer: Feyenoord.",
+      "publishedAt": "2026-01-07T18:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wolves unchanged in search of back-to-back wins at Everton LIVE!",
+      "link": "https://www.skysports.com/football/everton-vs-wolverhampton-wanderers/live/531334",
+      "summary": "",
+      "publishedAt": "2026-01-07T17:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bellingham steunt Vinicius: 'Mensen vergeten soms dat hij ook maar een mens is'",
+      "link": "https://www.vi.nl/nieuws/bellingham-steunt-vinicius-mensen-vergeten-soms-dat-hij-ook-maar-een-mens-is",
+      "summary": "Jude Bellingham heeft zijn steun betuigd aan Vinicius Júnior, die al het hele seizoen onder druk staat bij Real Madrid. De Braziliaanse aanvaller worstelt met zijn vorm en weigert vooralsnog een nieuw contract bij de Spaanse topclub te tekenen. Bellingham denkt één van de mogelijke oorzaken te weten.",
+      "publishedAt": "2026-01-07T17:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "West Ham fan turnout against Nottingham Forest almost half official attendance",
+      "link": "https://www.theguardian.com/football/2026/jan/07/west-ham-official-attendance-nottingham-forest-london-stadium",
+      "summary": "Real attendance closer to 34,000 than 62,429 announced Marketing push fails to attract fans to watch ailing club West Ham’s official attendance of 62,429 for their 2-1 defeat by Nottingham Forest was almost twice as high as the number of fans who went through the turnstiles at the London Stadium on Tuesday night. The club have an increasingly apathetic fanbase and were unable to convince a big crowd to turn out for a crucial clash in the battle against relegation from the Premier League. It is understood the real attendance was closer to 34,000 than the figure given by West Ham on their website. Continue reading...",
+      "publishedAt": "2026-01-07T17:27:47.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -14,36 +179,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Roma chief: Amorim axe has changed Zirkzee plan",
-      "link": "https://www.espn.com/soccer/story/_/id/47537424/ruben-amorim-man-united-sacking-changed-joshua-zirkzee-situation",
-      "summary": "Roma sporting director Ricky Massara has hinted that a planned move for Joshua Zirkzee may be on the backburner following Ruben Amorim's Manchester United sacking.",
-      "publishedAt": "2026-01-07T17:02:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Glasner: No time for Utd links, Guéhi may join City",
-      "link": "https://www.espn.com/soccer/story/_/id/47536863/oliver-glasner-man-united-manager-marc-guehi-man-city-transfer-crystal-palace",
-      "summary": "Crystal Palace coach Oliver Glasner is unbothered by links with the Manchester United job and admitted that captain Marc Guéhi could join Manchester City.",
-      "publishedAt": "2026-01-07T17:02:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "O'Neil replaces Rosenior as new Strasbourg boss",
-      "link": "https://www.espn.com/soccer/story/_/id/47537318/gary-oneil-replaces-chelsea-liam-rosenior-new-strasbourg-boss",
-      "summary": "Strasbourg have confirmed the appointment of Gary O'Neill as their new head coach following the departure of Liam Rosenior to Chelsea.",
-      "publishedAt": "2026-01-07T17:02:55.000Z"
+      "title": "Martin Chivers, former Tottenham and England striker, dies aged 80",
+      "link": "https://www.theguardian.com/football/2026/jan/07/martin-chivers-former-tottenham-england-southampton-striker-dies-aged-80",
+      "summary": "Chivers also had long spell with Southampton He scored 13 times in 24 games for England The former Tottenham, Southampton and England striker Martin Chivers has died at the age of 80. Chivers, a League Cup and Uefa Cup winner with Spurs, won 24 caps from 1971 to 1973, scoring 13 goals. “It is with immense sadness that we announce the passing of our legendary former striker Martin Chivers,” Spurs said. “We extend our deepest sympathies to Martin’s family, friends and former teammates at this incredibly sad time. Our players will wear black armbands during this evening’s fixture against AFC Bournemouth. Rest in peace, Martin. One of the all-time greats.” Continue reading...",
+      "publishedAt": "2026-01-07T17:19:32.000Z"
     },
     {
       "type": "rss",
@@ -58,113 +201,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ajax-target Manuel Ugarte is een pure balafpakker",
-      "link": "https://www.vi.nl/pro/analyse-ajax-target-manuel-ugarte-is-een-pure-balafpakker",
-      "summary": "Ajax ziet in Manuel Ugarte (24) de gewenste controlerende middenvelder. Analyse van de balafpakker uit Uruguay, die een grote tekortkoming heeft die in de Johan Cruijff Arena snel aan het licht zal komen.",
-      "publishedAt": "2026-01-07T17:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: basisplaats Noa Lang in aanloop naar vol Premier League-programma",
-      "link": "https://www.vi.nl/nieuws/vi-live-basisplaats-noa-lang-in-aanloop-naar-vol-premier-league-programma",
-      "summary": "Woensdagavond staan er weer veel mooie potjes op het programma. Er zijn liefst acht duels in de Premier League, er wordt gevoetbald in de Serie A en Barcelona speelt de halve finale van de Spaanse Supercopa tegen Athletic Bilbao. Volg de duels in de VI Live.",
-      "publishedAt": "2026-01-07T16:55:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Ajax-flop Daramy flirt na 27 speelminuten met terugkeer naar Kopenhagen'",
-      "link": "https://www.vi.nl/nieuws/ajax-flop-daramy-flirt-na-27-speelminuten-met-terugkeer-naar-kopenhagen",
-      "summary": "Voor Mohamed Daramy gloorden ooit een gouden toekomst, maar van het voormalig toptalent is inmiddels nog maar weinig over. De 24-jarige Deen is na een korte opleving uit de gratie geraakt bij Ligue 2-club Stade de Reims en flirt met een nieuwe terugkeer naar huis. 'Een droom die werkelijkheid kan worden', schetsen Deense media, maar is dat wel zo?",
-      "publishedAt": "2026-01-07T16:46:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers Ajax: Ávila op weg naar Argentinië",
-      "link": "https://www.vi.nl/nieuws/transfers-ajax-vila-op-weg-naar-argentini",
-      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Ajax op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Amsterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2026-01-07T16:46:19.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Solskjær would be a huge risk for Manchester United’s beleaguered hierarchy | Jamie Jackson",
       "link": "https://www.theguardian.com/football/2026/jan/07/ole-gunnar-solskjaer-return-to-manchester-united-jim-ratcliffe-ruben-amorim-sacked",
-      "summary": "There is no guarantee the Norwegian would restore a sense of positivity like he did first time round – and failure would be a nightmare Ole Gunnar Solskjær’s prime candidacy to become Manchester United’s interim manager for a second time appears the latest faulty strategic move by Jason Wilcox, United’s director of football, and the chief executive, Omar Berrada. Solskjær, whose previous tenure at United seems to place him ahead of another favoured candidate in Michael Carrick, has to be a success. If not Sir Jim Ratcliffe will surely file his hiring alongside the Ruben Amorim, Dan Ashworth and Erik ten Hag fiascos, for which Wilcox-Berrada are fully or partly responsible. Continue reading...",
+      "summary": "There is no guarantee the Norwegian would restore a sense of positivity like he did first time round – and failure would be a nightmare Ole Gunnar Solskjær’s prime candidacy to become Manchester United’s interim manager for a second time appears the latest faulty strategic move by Jason Wilcox, the club’s director of football, and the chief executive, Omar Berrada. Solskjær, whose previous tenure at United seems to place him ahead of another favoured candidate in Michael Carrick, has to be a success. If not, Sir Jim Ratcliffe will surely file his hiring alongside the Ruben Amorim, Dan Ashworth and Erik ten Hag fiascos, for which Wilcox‑Berrada are fully or partly responsible. Continue reading...",
       "publishedAt": "2026-01-07T16:46:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Iñaki Williams hekelt beslissing om Super Cup in Saoedi-Arabië te spelen",
-      "link": "https://www.vi.nl/nieuws/i-aki-williams-hekelt-beslissing-om-super-cup-in-saoedi-arabi-te-spelen",
-      "summary": "De strijd om de Spaanse Super Cup wordt de komende dagen afgewerkt in Saoedi-Arabië. Het belooft weer een prachtig toernooi te worden, waarin Barcelona, Real Madrid, Atlético Madrid en Athletic Bilbao gaan strijden om het eremetaal. Maar als het aan Athletic-speler Iñaki Williams had gelegen, had de setting van het toernooi er heel anders uitgezien.",
-      "publishedAt": "2026-01-07T16:14:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd's interim dilemma and why main appointment won't come until summer",
-      "link": "https://www.skysports.com/football/news/12040/13491612/man-utd-face-interim-head-coach-dilemma-as-ole-gunnar-solskjaer-and-michael-carrick-approached-with-permanent-appointment-set-for-summer",
-      "summary": "Manchester United want a new coaching team in place in time for the build-up to the Manchester derby on January 17, live on Sky Sports.",
-      "publishedAt": "2026-01-07T16:11:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Cherki has excelled for Manchester City – and made Guardiola adapt",
-      "link": "https://www.theguardian.com/football/who-scored-blog/2026/jan/07/rayan-cherki-city-pep-guardiola-premier-league",
-      "summary": "In a bad season for big-money transfers in the Premier League, maverick Frenchman has been a notable exception By WhoScored “There are moments I just want to shout at him and there are moments I want to kiss him.” Such is Pep Guardiola’s relationship with Rayan Cherki: part exasperation, part adoration.​ Guardiola is football’s master of fine-tuning. He has polished footballers until their natural instincts have become dictated by a system of control, structure and repetition above individual sparks of brilliance. Cherki, however, feels different – a sharp, unpredictable edge that Guardiola has left intact. The 22-year-old, who arrived from Lyon in the summer for £34m​, is already testing Guardiola’s philosophy of shaping players rather than accommodating them. His approach to Cherki feels very different to previous big signings. When Jack Grealish arrived from Aston Villa for £100m in 2022, he was one of English football’s most audacious, improvisational talents – a player unafraid of expression. Continue reading...",
-      "publishedAt": "2026-01-07T16:00:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Football Daily | West Ham and a cautionary tale of being careful what you wish for",
-      "link": "https://www.theguardian.com/football/2026/jan/07/west-ham-football-daily-newsletter",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! While precisely nobody else thought to say so at the time, when those West Ham fans who were howling for the head of Tin Pot-winning saviour David Moyes two years ago, Football Daily wondered if – whisper it – they should be careful what they wished for. While the turgid meat-and-potatoes fare served up by Moyes’s Irons was undeniably unpleasant on the eye, arguably the sole benefit of the club’s relocation to the London Stadium was that those fans were now seated in a different postcode from the pitch, meaning they couldn’t actually see what was happening anyway. The year 2026 isn’t even a week old and already it has torpedoed the Premier League ambitions of Ruben Amorim and Enzo Maresca. And, as if his first name wasn’t a big enough clue, Nancy joined the long list of things in Glasgow that are taken away after being deep fried at Celtic. On top of that, poor Gianni Infantino will have to create a new Fifa award celebrating armed exploration for South American oil. Roll on February” – Mark McFadden. Re: yesterday’s Football Daily. I’m probably missing some clever point about football financing here, but why on earth would Chelsea give Liam Rosenior a contract to 2032? Including interim managers/coaches/whatever else they insist on calling themselves (because, let’s face it, who knows who’s actually interim, and who isn’t, any more), Chelsea have had eight different managers in the previous seven years. Surely they are just setting themselves up for a massive payout when they change managers again in (statistically) no more than 12 months’ time?” – Phil Taverner. No idea how many (mainly Scottish) pedants will point out that Noble Francis’s claim – that Celtic ‘don’t have to play Hearts again [this season], obviously’ (yesterday’s Football Daily letters) – is false. Because, in fact, Celtic have to play Hearts again in the league at least once (scheduled for 25 January). In addition, since both Hearts and Celtic are almost certain to be in the top half of the Premiership after the split at 33 games, then probably Celtic still have to play Hearts again twice in the current league season. Also, they could end up playing each other at some point in the Scottish Cup” – Dylan Drummond (and 1,056 other mainly Scottish pedants). This is an extract from our daily football email … Football Daily. To get the full version, just visit this page and follow the instructions. Continue reading...",
-      "publishedAt": "2026-01-07T15:40:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "World Cup players to have lifelike ‘AI avatars’ for use in VAR offside decisions",
-      "link": "https://www.theguardian.com/football/2026/jan/07/world-cup-players-to-have-lifelike-ai-avatars-for-use-in-var-offside-decisions",
-      "summary": "Innovation means every player being digitally scanned Infantino: Move will ensure more accurate decisions Every player at this summer’s World Cup will have their own physically accurate “AI avatar” that will be used in taking VAR decisions. The innovation, which will involve every player being digitally scanned and leaves the possibility of size mattering in future offside calls, was part of a package of technological measures announced by Fifa’s president, Gianni Infantino, as he made a keynote appearance at the Consumer Electronic Show in Las Vegas. Continue reading...",
-      "publishedAt": "2026-01-07T15:32:11.000Z"
     },
     {
       "type": "rss",
@@ -176,50 +220,6 @@
       "link": "https://www.skysports.com/f1/news/12040/13491560/lewis-hamilton-ferrari-driver-says-time-for-change-is-now-as-he-makes-pledge-on-his-41st-birthday-ahead-of-2026-f1-season",
       "summary": "Lewis Hamilton says \"the time for change is now\" after a \"very draining year\" as he sent a message to his fans on his 41st birthday.",
       "publishedAt": "2026-01-07T14:35:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Battle of the Sexes was pointless with women's tennis taking a hit'",
-      "link": "https://www.skysports.com/tennis/news/12040/13491394/gigi-salmon-critical-of-battle-of-the-sexes-clash-between-world-no-1-aryna-sabalenka-and-former-wimbledon-finalist-nick-kyrgios",
-      "summary": "",
-      "publishedAt": "2026-01-07T14:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Is parity in the Premier League a sign of quality -- or do these teams just stink?",
-      "link": "https://www.espn.com/soccer/story/_/id/47520848/what-does-bunching-premier-league-table-mean-good-teams-bad-ones",
-      "summary": "The gap between 5th place and 14th in the Premier League standings is four points. Does that mean the league is full of good teams, or bad ones?",
-      "publishedAt": "2026-01-07T13:45:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "What Rosenior and Fletcher will bring to Chelsea, Man United",
-      "link": "https://www.espn.com/soccer/story/_/id/47526680/chelsea-manchester-united-liam-rosenior-darren-fletcher-manager-tactics",
-      "summary": "Chelsea's Liam Rosenior and Man United's Darren Fletcher will take their first steps this week.",
-      "publishedAt": "2026-01-07T13:45:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler, Van Veen and Humphries headline Bahrain and Saudi Arabia Darts Masters",
-      "link": "https://www.skysports.com/darts/news/12040/13491526/luke-littler-gian-van-veen-and-luke-humphries-headline-2026-bahrain-and-saudi-arabia-darts-masters",
-      "summary": "Luke Littler, Gian van Veen and Luke Humphries will headline this year's Bahrain Darts Masters and Saudi Arabia Darts Masters, as the 2026 World Series of Darts gets under way this month.",
-      "publishedAt": "2026-01-07T13:23:00.000Z"
     }
   ]
 }
