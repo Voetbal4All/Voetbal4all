@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2026-01-07T05:29:12.627Z",
+  "generatedAt": "2026-01-07T06:39:35.815Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Why Fletcher could be what Man Utd fans have been waiting for'",
+      "link": "https://www.bbc.com/sport/football/articles/czdqllp9639o?at_medium=RSS&at_campaign=rss",
+      "summary": "In his BBC Sport column, ex-Premier League boss Tony Pulis explains why Manchester United's interim manager Darren Fletcher would be the perfect choice to take the job on a longer-term basis.",
+      "publishedAt": "2026-01-07T06:28:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Fenerbahçe heeft 'Veerman-alternatief' bijna binnen",
+      "link": "https://www.vi.nl/nieuws/fenerbah-e-heeft-veerman-alternatief-bijna-binnen",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-07T06:23:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Fletcher vroeg goedkeuring aan Sir Alex Ferguson voor hij roer bij Man Utd overnam",
+      "link": "https://www.vi.nl/nieuws/fletcher-vroeg-goedkeuring-aan-sir-alex-ferguson-voor-hij-roer-bij-man-utd-overnam",
+      "summary": "Darren Fletcher heeft – voor hij instemde om interim-manager van Manchester United te worden – eerst contact gezocht met Sir Alex Ferguson. De 41-jarige Schot had Ferguson in het verleden als manager en heeft hem hoog zitten. Hij wilde immers eerst zijn goedkeuring.",
+      "publishedAt": "2026-01-07T06:18:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Neymar blijft nog een jaar langer bij jeugdliefde: 'Wil mijn dromen waarmaken'",
+      "link": "https://www.vi.nl/nieuws/neymar-verlengt-zijn-contract-bij-santos-met-een-jaar-en-hoopt-op-het-wk",
+      "summary": "Neymar blijft zo goed als zeker nog een jaar langer bij zijn jeugdliefde Santos. Braziliaanse en Franse media melden dat de 33-jarige aanvaller zijn met de jaarwisseling afgelopen contract met een jaar heeft verlengd tot het einde van het kalenderjaar 2026.",
+      "publishedAt": "2026-01-07T06:01:21.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "England captain Stokes suffers groin injury in final Ashes Test",
-      "link": "https://www.skysports.com/cricket/news/12040/13491352/the-ashes-england-captain-ben-stokes-suffers-groin-injury-on-day-four-of-final-test-against-australia-in-sydney",
-      "summary": "England captain Ben Stokes limped from the field with a groin injury on day four of the final Ashes Test against Australia.",
-      "publishedAt": "2026-01-07T04:55:00.000Z"
+      "title": "No Mahomes, no Chiefs - the time is now for Josh Allen's Bills",
+      "link": "https://www.skysports.com/nfl/news/12040/13491125/josh-allens-buffalo-bills-look-to-end-super-bowl-heartbreak-with-no-patrick-mahomes-or-kansas-city-chiefs-standing-in-their-way",
+      "summary": "With a 'nearly' reputation in sport comes mounting, ever-intensifying year-on-year pressure. Josh Allen and the Buffalo Bills return to the NFL playoffs desperate to quash their own 'nearly-men' anguish - this has to be their moment, their time.",
+      "publishedAt": "2026-01-07T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Lingfield hosts live racing on Wednesday",
+      "link": "https://www.skysports.com/racing/news/12040/13490833/today-on-sky-sports-racing-lingfield-takes-centre-stage-with-seven-race-card",
+      "summary": "Don't miss a moment from Lingfield, with every race live on Sky Sports Racing.",
+      "publishedAt": "2026-01-07T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "3343 days at world No 1? Littler sends warning to rivals",
+      "link": "https://www.skysports.com/darts/news/12040/13490259/luke-littler-world-no-1-reveals-goal-to-beat-phil-taylors-record-to-stay-at-top-of-pdc-rankings",
+      "summary": "Luke Littler has revealed he wants to surpass Phil Taylor's record of most days as world No 1 in the future.",
+      "publishedAt": "2026-01-07T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ron Jans neemt afscheid: 'Dat mensen me zo waarderen is de mooiste legacy'",
+      "link": "https://www.vi.nl/pro/ron-jans-neemt-afscheid-dat-mensen-me-zo-waarderen-is-de-mooiste-legacy",
+      "summary": "Nog een half seizoen knallen met FC Utrecht en dan gaat Ron Jans met pensioen. In een zeer openhartig interview blikt de 67-jarige Zwollenaar terug op zijn lange fraaie trainerscarrière en kijkt hij voorzichtig vooruit. ‘Ik heb er zin in weer een heel nieuw leven te beginnen.’",
+      "publishedAt": "2026-01-07T06:00:00.000Z"
     },
     {
       "type": "rss",
@@ -113,28 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Uitblinker Summerville kan niet voorkomen dat positie Nuno nog meer wankelt",
-      "link": "https://www.vi.nl/nieuws/uitblinker-summerville-kan-niet-voorkomen-dat-positie-nuno-nog-meer-wankelt",
-      "summary": "Het einde van Nuno Espirito Santo als manager van West Ham United lijkt nabij. Zijn ploeg verloor de degradatiekraker van zijn oude club Nottingham Forest: 1-2.",
-      "publishedAt": "2026-01-06T22:44:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Sparta lijkt strijd om Van Crooij te winnen na onderhoud in Venlo",
-      "link": "https://www.vi.nl/nieuws/sparta-lijkt-strijd-om-van-crooij-te-winnen-na-onderhoud-in-venlo",
-      "summary": "Vito van Crooij (29) gaat - mits er geen calamiteiten plaatsvinden - aan de slag bij Sparta Rotterdam. De ploeg pikt de vleugelaanvaller op bij NEC, bevestigen ingewijden. Daarmee is de opvolger van de aan AZ verkochte Ayoub Oufkir bijna binnen.",
-      "publishedAt": "2026-01-06T22:40:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -143,28 +198,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/06/crystal-palace-oliver-glasner-marc-guehi",
       "summary": "Resolution has been delayed by packed fixture schedule Manager says defender may be sold for the right price Oliver Glasner expects to decide in the coming weeks whether he will sign a new contract at Crystal Palace and has said Marc Guéhi could be sold this month if his “threshold” is met. Glasner is the bookmakers’ early favourite to be the permanent replacement for Ruben Amorim at Manchester United. The Austrian’s contract expires this summer and the ambitious 51-year-old is understood to be open then to joining United or another big club. Continue reading...",
       "publishedAt": "2026-01-06T22:30:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Interim boss Fletcher sought Ferguson 'blessing'",
-      "link": "https://www.bbc.com/sport/football/articles/c20dk636xeyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Darren Fletcher says he sought the blessing of his old Manchester United boss Sir Alex Ferguson before taking interim charge at the Old Trafford club.",
-      "publishedAt": "2026-01-06T22:30:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Papers: Rashford unlikely to make Man Utd return despite Amorim exit",
-      "link": "https://www.skysports.com/football/news/12040/13491329/marcus-rashford-unlikely-to-make-man-utd-return-despite-ruben-amorim-sacking-paper-talk",
-      "summary": "The top stories and transfer rumours from Wednesday's newspapers...",
-      "publishedAt": "2026-01-06T22:30:00.000Z"
     },
     {
       "type": "rss",
@@ -179,47 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Persie wil na wisselen van aanvoerder niets weten van spijt",
-      "link": "https://www.vi.nl/nieuws/van-persie-wil-na-wisselen-van-aanvoerder-niets-weten-van-spijt",
-      "summary": "Robin van Persie benoemde nieuwkomer Sem Steijn aan het begin van dit seizoen als de aanvoerder van Feyenoord, maar na een paar maanden heeft de coach besloten om de band door te geven aan Timon Wellenreuther. Dat betekent niet dat Van Persie spijt heeft van de keuze die hij een paar maanden geleden nam.",
-      "publishedAt": "2026-01-06T22:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Nightmare for West Ham as Forest come from behind to claim crucial victory",
-      "link": "https://www.skysports.com/watch/video/13491323/west-ham-1-2-nottingham-forest-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Nottingham Forest’s win against West Ham in the Premier League.",
-      "publishedAt": "2026-01-06T22:12:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Forest turn up heat on Nuno as West Ham sink deeper into trouble",
-      "link": "https://www.skysports.com/football/west-ham-united-vs-nottingham-forest/report/531338",
-      "summary": "West Ham United are seven points from safety after a late Morgan Gibbs-White penalty - awarded by VAR - sent Nottingham Forest to a 2-1 win.",
-      "publishedAt": "2026-01-06T22:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dit is het schema van de kwartfinale van de Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-kwartfinale-van-de-afrika-cup",
-      "summary": "De achtste finales van de Afrika Cup zitten erop, wat betekent dat het tijd is voor de kwartfinales. Na twee rustdagen gaat het toernooi vrijdag verder. We zetten de wedstrijden op een rij.",
-      "publishedAt": "2026-01-06T21:54:51.000Z"
+      "title": "Amad Diallo powers Côte d’Ivoire past Burkina Faso to set up Afcon clash with Egypt",
+      "link": "https://www.theguardian.com/football/2026/jan/06/afcon-cote-divoire-burkina-faso-algeria-dr-congo-amad-diallo",
+      "summary": "Last 16: Côte d’Ivoire 3-0 Burkina Faso Algeria break DR Congo in extra time to reach last eight Amad Diallo scored one goal and created another to continue his excellent form in Morocco as the defending champions Côte d’Ivoire eased past Burkina Faso 3-0 in their Africa Cup of Nations last-16 game in Marrakech on Tuesday. Côte d’Ivoire will face the seven-time winners Egypt in a heavyweight quarter-final in Agadir on Saturday, a repeat of the 2006 decider where the north African side triumphed on penalties after a 0-0 draw. Continue reading...",
+      "publishedAt": "2026-01-06T21:45:32.000Z"
     }
   ]
 }
