@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-01-07T01:59:41.948Z",
+  "generatedAt": "2026-01-07T03:44:53.054Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'An impossible task?' Winless run leaves West Ham facing drop",
-      "link": "https://www.bbc.com/sport/football/articles/cdx4enpg3pvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Booed off the pitch after conceding a late winner at home against their relegation rivals and on a 10-game winless run - these are desperate times for West Ham.",
-      "publishedAt": "2026-01-07T00:10:02.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -21,7 +10,7 @@
       "title": "Sources: United approach Carrick, Solskjaer",
       "link": "https://www.espn.com/soccer/story/_/id/47527700/man-united-approach-ole-gunnar-solskjaer-michael-carrick-interim-role",
       "summary": "Manchester United have held \"early-stage informal talks\" with several potential interim managers, including Ole Gunnar Solskjaer and Michael Carrick, sources have told ESPN.",
-      "publishedAt": "2026-01-06T23:50:17.000Z"
+      "publishedAt": "2026-01-07T02:02:34.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "Chelsea name Rosenior as coach on 5½-year deal",
       "link": "https://www.espn.com/soccer/story/_/id/47523773/liam-rosenior-chelsea-appointment-strasbourg-exit-premier-league-manager",
       "summary": "Chelsea have announced the appointment of Liam Rosenior as their new head coach on a 5½-year contract.",
-      "publishedAt": "2026-01-06T23:50:17.000Z"
+      "publishedAt": "2026-01-07T02:02:34.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +32,18 @@
       "title": "Messi prefers ownership to coaching after career",
       "link": "https://www.espn.com/soccer/story/_/id/47529898/lionel-messi-prefers-ownership-coaching",
       "summary": "Lionel Messi said Tuesday that he does not see a future for himself as a manager, but would like to be a club owner someday.",
-      "publishedAt": "2026-01-06T23:50:17.000Z"
+      "publishedAt": "2026-01-07T02:02:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'An impossible task?' Winless run leaves West Ham facing drop",
+      "link": "https://www.bbc.com/sport/football/articles/cdx4enpg3pvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Booed off the pitch after conceding a late winner at home against their relegation rivals and on a 10-game winless run - these are desperate times for West Ham.",
+      "publishedAt": "2026-01-07T00:10:02.000Z"
     },
     {
       "type": "rss",
