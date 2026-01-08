@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2026-01-07T23:24:27.425Z",
+  "generatedAt": "2026-01-08T01:59:54.842Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Match of the Day",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "summary": "Highlights of nine midweek Premier League matches, including Manchester City v Brighton.",
-      "publishedAt": "2026-01-08T00:10:50.000Z"
+      "title": "Rosenior will have big task ahead of him as new boss for dysfunctional Chelsea",
+      "link": "https://www.espn.com/soccer/story/_/id/47543055/rosenior-big-task-ahead-new-chelsea-boss",
+      "summary": "Liam Rosenior was watching in the stands, but the new Chelsea head coach will have his work cut out when he officially takes charge.",
+      "publishedAt": "2026-01-08T00:23:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "VAR review: Did Chelsea get away with what should've been a penalty for Fulham?",
+      "link": "https://www.espn.com/soccer/story/_/id/47542803/var-review-chelsea-given-penalty-vs-fulham",
+      "summary": "Chelsea could have given up a penalty to Fulham, but the VAR stuck with the on-field decision. Was it the right call?",
+      "publishedAt": "2026-01-08T00:23:12.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +29,87 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'Like a movie' - Semenyo enjoys fairytale farewell",
-      "link": "https://www.bbc.com/sport/football/articles/c80154gn034o?at_medium=RSS&at_campaign=rss",
-      "summary": "Antoine Semenyo could not have dreamed of a better ending to his Bournemouth career as his late winner against Spurs ends the Cherries' long winless run.",
-      "publishedAt": "2026-01-07T23:15:49.000Z"
+      "title": "Fletcher to take charge for FA Cup - but Man Utd problems far bigger",
+      "link": "https://www.bbc.com/sport/football/articles/cy8pxl1l0lko?at_medium=RSS&at_campaign=rss",
+      "summary": "Darren Fletcher will remain in charge of Manchester United for their FA Cup match against Brighton - as the club battle problems that go far deeper than sorting out managerial uncertainty.",
+      "publishedAt": "2026-01-08T00:15:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "An Arsenal coffee cup and more pain for under-pressure Frank",
+      "link": "https://www.bbc.com/sport/football/articles/cp37w009dwlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Spurs boss Thomas Frank under more pressure and scrutiny after holding Arsenal-branded cup before 3-2 defeat by Bournemouth that left side 14th in Premier League.",
+      "publishedAt": "2026-01-08T00:05:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United ask Fletcher to coach FA Cup Sunday",
+      "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
+      "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
+      "publishedAt": "2026-01-07T23:54:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior unready to coach Chelsea loss at Fulham",
+      "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
+      "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
+      "publishedAt": "2026-01-07T23:54:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs boss Frank 'didn't notice' Arsenal coffee cup",
+      "link": "https://www.espn.com/soccer/story/_/id/47542816/spurs-thomas-frank-didnt-notice-was-drinking-arsenal-cup",
+      "summary": "Tottenham Hotspur boss Thomas Frank has said he didn't notice he was drinking out of an Arsenal cup ahead of the clash at Bournemouth, adding that it would have been \"absolutely stupid\" for him to do so.",
+      "publishedAt": "2026-01-07T23:54:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Discipline, consistency & harmony - Rosenior's Chelsea to-do list as slide continues",
+      "link": "https://www.bbc.com/sport/football/articles/c8015m4r2n0o?at_medium=RSS&at_campaign=rss",
+      "summary": "New Chelsea head coach Liam Rosenior was optimistic when arriving, but Wednesday's 2-1 defeat at Fulham underlines the scale of the task ahead.",
+      "publishedAt": "2026-01-07T23:44:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "A big week? Brighton draw is 'punch in ribs' for Man City",
+      "link": "https://www.bbc.com/sport/football/articles/cn82ye11yx5o?at_medium=RSS&at_campaign=rss",
+      "summary": "With Manchester City's crucial month beginning badly, Pep Guardiola is left to hope that their campaign is not derailing in similar fashion to last season.",
+      "publishedAt": "2026-01-07T23:31:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle score twice in stoppage time to win seven-goal thriller",
+      "link": "https://www.bbc.com/sport/football/videos/crkre1ke52do?at_medium=RSS&at_campaign=rss",
+      "summary": "Harvey Barnes scores twice as Newcastle come from behind to beat Leeds in a dramatic seven-goal thriller at St James' Park.",
+      "publishedAt": "2026-01-07T23:26:29.000Z"
     },
     {
       "type": "rss",
@@ -47,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "A Premier League CLASSIC! Newcastle beat Leeds with 102nd-minute winner!",
-      "link": "https://www.skysports.com/watch/video/13491841/newcastle-4-3-leeds-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Newcastle's win against Leeds in the Premier League.",
-      "publishedAt": "2026-01-07T23:04:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -80,90 +157,13 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior unready to coach Chelsea loss at Fulham",
-      "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
-      "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-07T22:55:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Spurs boss Frank 'didn't notice' Arsenal coffee cup",
-      "link": "https://www.espn.com/soccer/story/_/id/47542816/spurs-thomas-frank-didnt-notice-was-drinking-arsenal-cup",
-      "summary": "Tottenham Hotspur boss Thomas Frank has said he didn't notice he was drinking out of an Arsenal cup ahead of the clash at Bournemouth, adding that it would have been \"absolutely stupid\" for him to do so.",
-      "publishedAt": "2026-01-07T22:55:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "United draw at lowly Burnley after Amorim exit",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740799",
-      "summary": "Manchester United began life after Ruben Amorim with a 2-2 draw at struggling Burnley as substitute Jaidon Anthony's strike denied Darren Fletcher victory in his first, and perhaps only, match as interim boss.",
-      "publishedAt": "2026-01-07T22:55:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City drop more points in draw with Brighton",
-      "link": "https://www.espn.com/soccer/report/_/gameId/740803",
-      "summary": "Title-chasing Manchester City dropped points for a third successive game as they were held to a 1-1 draw by Brighton on Wednesday.",
-      "publishedAt": "2026-01-07T22:55:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sesko scores twice but Burnley fight back to hold Man Utd",
-      "link": "https://www.bbc.com/sport/football/videos/czr4l2m33l6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United are denied victory in their first game since the sacking of head coach Ruben Amorim as relegation-threatened Burnley fight back to claim only their third point in 12 games.",
-      "publishedAt": "2026-01-07T22:44:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Semenyo strikes late as Bournemouth edge out Spurs",
-      "link": "https://www.bbc.com/sport/football/videos/czx3kr92wk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Antoine Semenyo scores a stunning late winner in what is likely his final game for Bournemouth as they beat Tottenham in dramatic fashion at Vitality Stadium.",
-      "publishedAt": "2026-01-07T22:44:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wilson goal helps Fulham beat 10-man Chelsea",
-      "link": "https://www.bbc.com/sport/football/videos/cn567prxxxlo?at_medium=RSS&at_campaign=rss",
-      "summary": "New Chelsea head coach Liam Rosenior watched from the stands as Harry Wilson's fine finish condemns his team to defeat by west London rivals Fulham at Craven Cottage.",
-      "publishedAt": "2026-01-07T22:44:13.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Newcastle’s Harvey Barnes hits 102nd-minute winner in 4-3 Leeds thriller",
       "link": "https://www.theguardian.com/football/2026/jan/07/newcastle-leeds-premier-league-match-report",
-      "summary": "Tactical anarchy reigned supreme on a night of chaotic, bewilderingly thrilling, drama played out amid freezing conditions. Not that the on-pitch temperature ever seemed to drop below boiling point as a renascent Leeds led three times yet departed with their seven match unbeaten run at end and hearts broken by Harvey Barnes’s volleyed stoppage time winner for Newcastle. Long before the end though three things were clear: Daniel Farke’s visitors are surely far too good to go down, Howe’s expensively assembled team have developed some alarming structural flaws and this was one of the finest matches staged at St James’ Park in recent years. Continue reading...",
+      "summary": "Tactical anarchy reigned supreme on a night of chaotic, bewildering, thrilling drama played out amid freezing conditions. Not that the on-pitch temperature ever seemed to drop below boiling point as a renascent Leeds led three times yet departed with their seven‑match unbeaten run at an end and Yorkshire hearts broken by Harvey Barnes’s stoppage -time winner. Continue reading...",
       "publishedAt": "2026-01-07T22:30:46.000Z"
     },
     {
@@ -201,25 +201,25 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League as it happened: United draws against Burnley in Fletcher's first game",
-      "link": "https://www.espn.com/soccer/story/_/id/47516539/premier-league-live-updates-fulham-chelsea-burnley-manchester-united-brighton-manchester-city-barcelona",
-      "summary": "Manchester United get a 2-2 draw against Burnley in the first match of interim boss Darren Fletcher, on a day full of Premier League matches.",
-      "publishedAt": "2026-01-07T22:28:34.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Darren Fletcher’s Manchester United held by Burnley despite Sesko double",
       "link": "https://www.theguardian.com/football/2026/jan/07/burnley-manchester-united-premier-league-match-report",
-      "summary": "Manchester United’s Darren Fletcher failed to produce what the interim manager, fans and executives craved: a cathartic victory to move the club on quickly from the recent turbulence. United’s biggest plus was Benjamin Sesko, whose two goals doubled his season tally, plus the support being in good cheer despite the inability to dispatch the division’s second-bottom side. Continue reading...",
+      "summary": "Darren Fletcher failed to produce what Manchester United’s interim manager, fans and chief executive craved: a cathartic victory to move the club on quickly from the recent turbulence. The big plus was Benjamin Sesko, whose two goals doubled his season tally. He said: “It’s been tough but now I finally did it. Now it’s just up to me and up to us to keep going like that.” Continue reading...",
       "publishedAt": "2026-01-07T22:20:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Papers: Bournemouth want Arsenal's Nwaneri on loan",
+      "link": "https://www.skysports.com/football/news/12040/13491792/arsenals-ethan-nwaneri-wanted-by-bournemouth-on-loan-in-january-paper-talk-and-football-transfer-gossip",
+      "summary": "The top stories and transfer rumours from Thursday's newspapers...",
+      "publishedAt": "2026-01-07T22:00:00.000Z"
     }
   ]
 }
