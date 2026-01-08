@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2026-01-08T15:30:15.062Z",
+  "generatedAt": "2026-01-08T16:35:21.490Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Spelfout in PSV-banner blijkt reclamestunt",
+      "link": "https://www.vi.nl/nieuws/spelfout-in-psv-banner-blijkt-reclamestunt",
+      "summary": "Een spandoek in Eindhoven heeft voor de nodige opschudding gezorgd. PSV gaf bij het Philips Stadion een mooie boodschap aan de fans, maar een spelfout werd gezien als hint voor een contractverlenging.",
+      "publishedAt": "2026-01-08T16:20:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'TD' Finnbogason heeft meteen beet: ex-AZ'er Svensson terug bij Rosenborg",
+      "link": "https://www.vi.nl/nieuws/td-finnbogason-heeft-meteen-beet-ex-az-er-svensson-keert-terug-bij-rosenborg",
+      "summary": "Oud-Heerenveen-spits Alfred Finnbogason heeft een dag na zijn aanstelling als technisch directeur van Rosenborg meteen een eerste slag op de transfermarkt geslagen. De club heeft een akkoord bereikt met voormalig AZ-verdediger Jonas Svensson, die na negen jaar terugkeert op het oude nest. Voor de Noor, die recent zijn contract bij Besiktas liet ontbinden, komt een langgekoesterde droom uit.",
+      "publishedAt": "2026-01-08T16:16:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Young leader' Romero defended by under-fire Frank",
+      "link": "https://www.bbc.com/sport/football/articles/c8d04mz2y34o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tottenham head coach Thomas Frank defends captain Cristian Romero after he appeared to take aim at the club's hierarchy.",
+      "publishedAt": "2026-01-08T16:12:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mourinho on shock loss: I hope players don't sleep",
+      "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
+      "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
+      "publishedAt": "2026-01-08T16:05:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Trinity Rodman headlines USWNT Jan. camp roster",
+      "link": "https://www.espn.com/soccer/story/_/id/47550378/rodman-headlines-usa-jan-camp-roster-paraguay-chile",
+      "summary": "Forward Trinity Rodman, who is out of contract with a club, will join the United States women's national team in training camp later this month for the first time since April 2025.",
+      "publishedAt": "2026-01-08T16:05:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs captain Romero in fiery 'lies' post after loss",
+      "link": "https://www.espn.com/soccer/story/_/id/47547868/tottenham-captain-cristian-romero-fiery-lies-post-bournemouth-loss",
+      "summary": "Tottenham captain Cristian Romero appeared to accuse the club's hierarchy of \"lies\" in a fiery, now-edited social media post following the defeat to Bournemouth.",
+      "publishedAt": "2026-01-08T16:05:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior unready to coach Chelsea loss at Fulham",
+      "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
+      "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
+      "publishedAt": "2026-01-08T16:05:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Dolphins fire head coach McDaniel",
+      "link": "https://www.skysports.com/nfl/news/12040/13492118/mike-mcdaniel-miami-dolphins-fire-head-coach-after-four-seasons-as-nfl-coaching-vacancies-rise-to-eight",
+      "summary": "Mike McDaniel has become the NFL's latest postseason coaching casualty after he was relieved of his duties by the Miami Dolphins.",
+      "publishedAt": "2026-01-08T16:03:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "The PL players free to negotiate a transfer with foreign clubs in January",
+      "link": "https://www.skysports.com/football/news/12040/13467920/premier-league-free-transfers-marc-guehi-bernardo-silva-and-ibrahima-konate-could-leave-for-free-next-summer",
+      "summary": "A number of Premier League stars have entered the final six months of their deals and can now negotiate pre-contract agreements with foreign clubs.",
+      "publishedAt": "2026-01-08T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Go Ahead Eagles houdt zich staande met dubbel programma",
+      "link": "https://www.vi.nl/pro/go-ahead-eagles-houdt-zich-staande-met-dubbel-programma",
+      "summary": "Op een paar uitzonderingen na die juist net in een flow waren geraakt, haalden de Eredivisie-clubs op het tandvlees de winterstop. Veel tijd om weer op adem te komen, hebben ze alleen niet, want dit weekeinde begint het hele circus alweer. In aanloop naar het cruciale deel van het seizoen maken we bij elke club de balans op, waarbij we wat de volgorde betreft uitgaan van de eerste speelronde van 2026. Deze keer: bekerwinnaar Go Ahead Eagles.",
+      "publishedAt": "2026-01-08T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De Graafschap ziet spits na halfjaar opgepikt worden door Charisteas",
+      "link": "https://www.vi.nl/nieuws/de-graafschap-ziet-spits-na-halfjaar-opgepikt-worden-door-charisteas",
+      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-08T15:30:32.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,28 +132,6 @@
       "link": "https://www.vi.nl/nieuws/timber-wijst-winterse-overstap-naar-lazio-af",
       "summary": "Lazio heeft zich deze week officieel gemeld bij Feyenoord voor Quinten Timber. De 24-jarige middenvelder beschikt over een aflopend contract in De Kuip.",
       "publishedAt": "2026-01-08T15:11:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Joël Piroe jaagt Surinaamse WK-droom na: 'Henk ten Cate zette me aan het denken'",
-      "link": "https://www.vi.nl/pro/jo-l-piroe-jaagt-surinaamse-wk-droom-na",
-      "summary": "In de jacht op een WK-ticket kan Suriname in maart beschikken over Joël Piroe (26). De spits van Leeds United hoopte zich dit seizoen in de kijker te spelen bij Ronald Koeman, maar werd deze week overtuigd door Henk ten Cate. ‘Ik zag een twinkeling in de ogen van mijn vader.’",
-      "publishedAt": "2026-01-08T15:00:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Piroe zet Oranje uit zijn hoofd en wil met Suriname naar WK",
-      "link": "https://www.vi.nl/nieuws/piroe-zet-oranje-uit-zijn-hoofd-en-wil-met-suriname-naar-wk",
-      "summary": "Joël Piroe gaat uitkomen voor Suriname. Dat heeft de 26-jarige spits van Leeds United donderdag bekendgemaakt. De voormalig Nederlands jeugdinternational was al een tijdje in beeld bij De Natio als beoogde international.",
-      "publishedAt": "2026-01-08T15:00:00.000Z"
     },
     {
       "type": "rss",
@@ -47,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mourinho hard voor spelers na bekeruitschakeling: 'Hoop dat ze niet slapen'",
-      "link": "https://www.vi.nl/nieuws/mourinho-hard-voor-spelers-na-bekeruitschakeling-hoop-dat-ze-niet-slapen",
-      "summary": "José Mourinho heeft op zijn eigen manier gereageerd op de uitschakeling in de Portugese beker. De Benfica-trainer heeft een trainingskamp op Madeira ingelast en hoopt dat zijn spelers in de aanloop naar de topper tegen FC Porto een nachtje 'weinig slapen'.",
-      "publishedAt": "2026-01-08T14:40:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -66,17 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/08/usa-world-cup-2026-venezuela",
       "summary": "In 1934 and 1978, Fifa’s big event was given over to authoritarian aims. There’s no more doubt that 2026 will be the same By 1934, it was entirely evident what Benito Mussolini was up to. Italy’s dictator had already consolidated power, colonized Libya and annexed the city of Rijeka. He nevertheless got to stage the second-ever World Cup, managing it with a heavy hand and even supplanting the Jules Rimet trophy with a far larger one. Hosting and winning that World Cup didn’t sate his expansionist appetites. By the end of decade, Mussolini would take Ethiopia, annex Albania and back Francisco Franco in the Spanish civil war. It was equally well established in 1978 in Argentina that General Jorge Rafaél Videla’s military junta, which had taken over two years earlier, was maintaining its grip on power through systematic detention, torture and murder. Still, protestations from other nations were ignored and the World Cup kicked off. Leander Schaerlaeckens’ book on the United States men’s national soccer team, The Long Game, is out on May 12. You can preorder it here. He teaches at Marist University. Continue reading...",
       "publishedAt": "2026-01-08T14:21:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Selectie Nigeria dreigt met boycot richting kwartfinale Afrika Cup'",
-      "link": "https://www.vi.nl/nieuws/opnieuw-onrust-bij-nigeria-door-conflict-over-wedstrijdpremies",
-      "summary": "Nigeria kent een onrustige aanloop naar de kwartfinale op de Afrika Cup van komende zaterdag tegen Algerije. De selectie dreigt de training te boycotten en mogelijk zelgs niet naar Marrakech af te reizen, als ze de beloofde premies niet ontvangen.",
-      "publishedAt": "2026-01-08T14:06:57.000Z"
     },
     {
       "type": "rss",
@@ -91,17 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'I'm above average intelligence' - Frank backs himself to improve Spurs situation",
-      "link": "https://www.skysports.com/football/news/12040/13492058/thomas-frank-tottenham-head-coach-believes-he-has-done-enough-to-deserve-more-time-in-charge-of-club",
-      "summary": "Thomas Frank believes he has earned the right to have more time in charge at Tottenham as the pressure continues to mount on the head coach.",
-      "publishedAt": "2026-01-08T13:44:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -110,50 +176,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cx2xe6lg1r7o?at_medium=RSS&at_campaign=rss",
       "summary": "As Manchester United look for Ruben Amorim's successor, Phil McNulty asks if a club's so-called \"DNA\" is actually relevant?",
       "publishedAt": "2026-01-08T13:43:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mourinho on shock loss: I hope players don't sleep",
-      "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
-      "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
-      "publishedAt": "2026-01-08T13:35:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Spurs captain Romero in fiery 'lies' post after loss",
-      "link": "https://www.espn.com/soccer/story/_/id/47547868/tottenham-captain-cristian-romero-fiery-lies-post-bournemouth-loss",
-      "summary": "Tottenham captain Cristian Romero appeared to accuse the club's hierarchy of \"lies\" in a fiery, now-edited social media post following the defeat to Bournemouth.",
-      "publishedAt": "2026-01-08T13:35:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior unready to coach Chelsea loss at Fulham",
-      "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
-      "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-08T13:35:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sesko: 'Great things' coming with United change",
-      "link": "https://www.espn.com/soccer/story/_/id/47549251/benjamin-sesko-great-things-coming-man-united-manager-talks",
-      "summary": "Benjamin Sesko believes \"great things are coming\" despite managerless Manchester United's winless start to 2026.",
-      "publishedAt": "2026-01-08T13:35:32.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.skysports.com/nfl/news/12040/13491965/nfl-kansas-city-chiefs-aware-of-domestic-violence-allegations-that-appear-to-be-directed-towards-rashee-rice",
       "summary": "The Kansas City Chiefs said in a statement on Wednesday they were aware of domestic violence allegations made in a series of social media posts by a former girlfriend of wide receiver Rashee Rice and had been in communication with the NFL.",
       "publishedAt": "2026-01-08T10:27:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Captain Romero appears to call out Spurs chiefs in edited social media post",
-      "link": "https://www.bbc.com/sport/football/articles/c8d04mz2y34o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tottenham captain Cristian Romero appears to take aim at the club's hierarchy, accusing them of telling \"lies\" in a since edited Instagram post.",
-      "publishedAt": "2026-01-08T10:15:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘The club is in a mess’: Manchester United fans voice feelings before the next interim twist",
-      "link": "https://www.theguardian.com/football/2026/jan/08/manchester-united-fans-interim-solskjaer-carrick-fletcher-protest-burnley",
-      "summary": "Supporters serenaded Solskjær, Carrick and Fletcher among others at Burnley and staged a brief anti-Ratcliffe protest “Jim can’t fix this,” the sign said. Bright red letters nestled on a white background, a stark contrast in an away end at Turf Moor full of dark-coated figures in front of which they were held aloft. It was small, a couple of square metres of material, maybe. But the message to Sir Jim Ratcliffe was powerful. Remember your lane, Jim? Yeah, stick in it, pal. As Darren Fletcher, in Manchester United blazer and red tie, strolled along the touchline, flanked by tracksuited his former teammate and friend Jonny Evans, the flag flew. And then it was gone. The protest was done. Continue reading...",
-      "publishedAt": "2026-01-08T10:06:48.000Z"
     }
   ]
 }
