@@ -1,27 +1,16 @@
 {
-  "generatedAt": "2026-01-08T11:24:33.444Z",
+  "generatedAt": "2026-01-08T12:54:20.801Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Taylor reist naar Rome om transfer naar Lazio af te ronden",
-      "link": "https://www.vi.nl/nieuws/taylor-reist-naar-rome-om-transfer-naar-lazio-af-te-ronden",
-      "summary": "Kenneth Taylor gaat Ajax na 15,5 jaar verlaten. Als de laatste formaliteiten worden afgerond, maakt de middenvelder de transfer naar Lazio.",
-      "publishedAt": "2026-01-08T11:20:00.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man United ask Fletcher to coach FA Cup Sunday",
-      "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
-      "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
-      "publishedAt": "2026-01-08T11:02:13.000Z"
+      "title": "Spurs captain Romero in fiery 'lies' post after loss",
+      "link": "https://www.espn.com/soccer/story/_/id/47547868/tottenham-captain-cristian-romero-fiery-lies-post-bournemouth-loss",
+      "summary": "Tottenham captain Cristian Romero appeared to accuse the club's hierarchy of \"lies\" in a fiery, now-edited social media post following the defeat to Bournemouth.",
+      "publishedAt": "2026-01-08T12:44:18.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "Rosenior unready to coach Chelsea loss at Fulham",
       "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
       "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-08T11:02:13.000Z"
+      "publishedAt": "2026-01-08T12:44:18.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +32,7 @@
       "title": "Mourinho on shock loss: I hope players don't sleep",
       "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
       "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
-      "publishedAt": "2026-01-08T11:02:13.000Z"
+      "publishedAt": "2026-01-08T12:44:17.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +40,65 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Gabigol: Brazil 'need' Neymar at 2026 World Cup",
-      "link": "https://www.espn.com/soccer/story/_/id/47548459/gabigol-brazil-need-neymar-2026-world-cup",
-      "summary": "New Santos signing Gabriel 'Gabigol' Barbosa wants to help Neymar earn a place in Brazil's World Cup squad.",
-      "publishedAt": "2026-01-08T11:02:12.000Z"
+      "title": "Man United ask Fletcher to coach FA Cup Sunday",
+      "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
+      "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
+      "publishedAt": "2026-01-08T12:44:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Verwarring in Eindhoven door spandoek: 'PVS wenst je een sportief 2026'",
+      "link": "https://www.vi.nl/nieuws/verwarring-in-eindhoven-door-spandoek-pvs-wenst-je-een-sportief-2026",
+      "summary": "Een spandoek in Eindhoven heeft voor de nodige opschudding gezorgd. PSV gaf bij het Philips Stadion een mooie boodschap aan de fans, maar een spelfout werd gezien als hint voor een contractverlenging.",
+      "publishedAt": "2026-01-08T12:29:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Alle KKD-wedstrijden dit weekend afgelast, hoop voor Eredivisie",
+      "link": "https://www.vi.nl/nieuws/alle-kkd-wedstrijden-dit-weekend-afgelast-hoop-voor-eredivisie",
+      "summary": "De KNVB heeft alle wedstrijden in de Keuken Kampioen Divisie van zaterdag 10 en zondag 11 januari afgelast wegens de weersomstandigheden. Voorlopig gaan de Eredivisie wedstrijden van zaterdag en zondag wel nog door. Eerder ging ook al een streep door alle wedstrijden van vrijdag .",
+      "publishedAt": "2026-01-08T11:54:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What next for Arsenal's Nwaneri after season of frustration?",
+      "link": "https://www.bbc.com/sport/football/articles/c70le84y10do?at_medium=RSS&at_campaign=rss",
+      "summary": "Ethan Nwaneri had a breakout season last term - but the young Arsenal forward is in a fight for the game time needed to fulfil his promise.",
+      "publishedAt": "2026-01-08T11:52:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax: op naar wéér een wederopbouw vanaf de grond",
+      "link": "https://www.vi.nl/pro/ajax-op-naar-w-r-een-wederopbouw-vanaf-de-grond",
+      "summary": "Op een paar uitzonderingen na die juist net in een flow waren geraakt, haalden de Eredivisie-clubs op het tandvlees de winterstop. Veel tijd om weer op adem te komen, hebben ze alleen niet, want dit weekeinde begint het hele circus alweer. In aanloop naar het cruciale deel van het seizoen maken we bij elke club de balans op, waarbij we wat de volgorde betreft uitgaan van de eerste speelronde van 2026. Deze keer: Ajax, dat langzaam uit het diepe dal krabbelt.",
+      "publishedAt": "2026-01-08T11:46:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Taylor reist naar Rome om transfer naar Lazio af te ronden",
+      "link": "https://www.vi.nl/nieuws/taylor-reist-naar-rome-om-transfer-naar-lazio-af-te-ronden",
+      "summary": "Kenneth Taylor gaat Ajax na 15,5 jaar verlaten. Als de laatste formaliteiten worden afgerond, maakt de middenvelder de transfer naar Lazio.",
+      "publishedAt": "2026-01-08T11:23:31.000Z"
     },
     {
       "type": "rss",
@@ -91,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bayern stalt voormalig PSV-target Peretz in Championship",
-      "link": "https://www.vi.nl/nieuws/vorige-zomer-in-beeld-bij-psv-nu-tekent-bayern-doelman-bij-southampton",
-      "summary": "Daniel Peretz staat op het punt om de overstap te maken naar Southampton. De 25-jarige Israëlische doelman, die afgelopen zomer nog in beeld was bij PSV , wordt naar verluidt door zijn werkgever Bayern München teruggehaald van Hamburger SV en verhuurd aan Southampton.",
-      "publishedAt": "2026-01-08T10:38:19.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -135,24 +168,13 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Vriends verlengt Australisch avontuur en tekent bij in Adelaide",
-      "link": "https://www.vi.nl/nieuws/vriends-verlengt-australisch-avontuur-en-tekent-bij-in-adelaide",
-      "summary": "Bart Vriends heeft zijn contract bij Adelaide United verlengd tot medio 2027 met een optie voor nog een jaar. De 34-jarige Nederlander maakte in de zomer van 2024 transfervrij de overstap van Sparta Rotterdam.",
-      "publishedAt": "2026-01-08T10:08:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "‘The club is in a mess’: Manchester United fans voice feelings before the next interim twist",
       "link": "https://www.theguardian.com/football/2026/jan/08/manchester-united-fans-interim-solskjaer-carrick-fletcher-protest-burnley",
-      "summary": "Supporters serenaded Solskjær, Carrick and Fletcher among others at Burnley and staged a brief anti-Ratcliffe protest “Jim can’t fix it,” the sign said. A dozen red letters nestled on a white background, a stark contrast in an away end at Burnley full of dark-coated figures in front of which they were held aloft. It was small, a couple of square metres of material, maybe. But the message to Sir Jim Ratcliffe was powerful. Remember your lane, Jim? Yeah, stick in it, pal. As Darren Fletcher, in Manchester United blazer and red tie, strolled along the touchline, flanked by tracksuited his former teammate and friend Jonny Evans, the flag flew. And then it was gone. The protest was done. Continue reading...",
+      "summary": "Supporters serenaded Solskjær, Carrick and Fletcher among others at Burnley and staged a brief anti-Ratcliffe protest “Jim can’t fix this,” the sign said. Bright red letters nestled on a white background, a stark contrast in an away end at Turf Moor full of dark-coated figures in front of which they were held aloft. It was small, a couple of square metres of material, maybe. But the message to Sir Jim Ratcliffe was powerful. Remember your lane, Jim? Yeah, stick in it, pal. As Darren Fletcher, in Manchester United blazer and red tie, strolled along the touchline, flanked by tracksuited his former teammate and friend Jonny Evans, the flag flew. And then it was gone. The protest was done. Continue reading...",
       "publishedAt": "2026-01-08T10:06:48.000Z"
     },
     {
@@ -164,17 +186,6 @@
       "title": "Can Coventry recover from recent blip to maintain promotion charge?",
       "link": "https://www.skysports.com/football/news/12040/13491520/can-coventry-recover-from-recent-blip-to-maintain-promotion-charge-in-championship",
       "summary": "Six points clear at the top of the Championship as we swing into January was more than any Coventry City fan would have expected when the seaason started back in August.",
-      "publishedAt": "2026-01-08T10:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De Excelsior-aanvoerder die droomt van de Premier League en het WK",
-      "link": "https://www.vi.nl/pro/de-excelsior-aanvoerder-die-droomt-van-de-premier-league-en-het-wk",
-      "summary": "Casper Widell (22) is bezig aan zijn derde seizoen bij Excelsior. Hij is met zijn onverzettelijkheid een vaste waarde centraal achterin en weet dat een jonge speler na drie jaar Excelsior een stap moet maken. ‘Maar eerst Excelsior goed achterlaten.’",
       "publishedAt": "2026-01-08T10:00:00.000Z"
     },
     {
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/08/football-transfer-rumours-ethan-nwaneri-to-replace-semenyo-at-bournemouth",
       "summary": "Today’s rumours are riding the District line Antoine Semenyo’s farewell goal for Bournemouth, before his move to Manchester City, sets off a chain reaction over who succeeds him. Ethan Nwaneri, who has struggled for game time at Arsenal, is wanted by a few suitors. Bournemouth are very interested in a loan move for someone who was the next big thing not too long ago. And still can be, though the word is he still wishes to stay a Gunner and play his part in a title-winning team. Continue reading...",
       "publishedAt": "2026-01-08T09:14:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "England player ratings after another away Ashes series goes horribly wrong",
-      "link": "https://www.skysports.com/cricket/news/12040/13489921/the-ashes-england-cricket-player-ratings-for-series-after-4-1-defeat-to-australia-extends-wait-to-regain-the-urn",
-      "summary": "Here is how we rated England's players out of 10 after the 4-1 Ashes series defeat in Australia...",
-      "publishedAt": "2026-01-08T09:00:00.000Z"
     }
   ]
 }
