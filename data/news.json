@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-08T10:29:09.274Z",
+  "generatedAt": "2026-01-08T11:24:33.444Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Taylor reist naar Rome om transfer naar Lazio af te ronden",
+      "link": "https://www.vi.nl/nieuws/taylor-reist-naar-rome-om-transfer-naar-lazio-af-te-ronden",
+      "summary": "Kenneth Taylor gaat Ajax na 15,5 jaar verlaten. Als de laatste formaliteiten worden afgerond, maakt de middenvelder de transfer naar Lazio.",
+      "publishedAt": "2026-01-08T11:20:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +21,7 @@
       "title": "Man United ask Fletcher to coach FA Cup Sunday",
       "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
       "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
-      "publishedAt": "2026-01-08T10:16:40.000Z"
+      "publishedAt": "2026-01-08T11:02:13.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +32,7 @@
       "title": "Rosenior unready to coach Chelsea loss at Fulham",
       "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
       "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-08T10:16:40.000Z"
+      "publishedAt": "2026-01-08T11:02:13.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +43,7 @@
       "title": "Mourinho on shock loss: I hope players don't sleep",
       "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
       "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
-      "publishedAt": "2026-01-08T10:16:40.000Z"
+      "publishedAt": "2026-01-08T11:02:13.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +51,32 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Semenyo gets 'fairytale ending' before City move",
-      "link": "https://www.espn.com/soccer/story/_/id/47543361/bournemouth-antoine-semenyo-fairytale-ending-man-city-transfer",
-      "summary": "Bournemouth manager Andoni Iraola all but confirmed Antoine Semenyo's impending transfer to Manchester City as he hailed the winger's \"fairytale ending\" in scoring a late winner against Tottenham Hotspur on Wednesday.",
-      "publishedAt": "2026-01-08T10:16:40.000Z"
+      "title": "Gabigol: Brazil 'need' Neymar at 2026 World Cup",
+      "link": "https://www.espn.com/soccer/story/_/id/47548459/gabigol-brazil-need-neymar-2026-world-cup",
+      "summary": "New Santos signing Gabriel 'Gabigol' Barbosa wants to help Neymar earn a place in Brazil's World Cup squad.",
+      "publishedAt": "2026-01-08T11:02:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Exeter City’s plea for more FA Cup cash from Manchester City turned down",
+      "link": "https://www.theguardian.com/football/2026/jan/08/exeter-city-manchester-city-fa-cup-plea-share-gate-receipts",
+      "summary": "League One club asked for greater share of gate receipts Manchester City not changing their standard club policy Manchester City will not offer Exeter extra money from Saturday’s third-round FA Cup tie. The financially troubled League One club this week revealed they had asked the Premier League club for a greater proportion of the gate receipts as a “statement of solidarity”. Exeter, whose supporters’ trust is the club’s majority shareholder, will take 8,000 fans to a sold-out Etihad Stadium to face the seven-time FA Cup winners. Each club gets 45% of gate receipts, with the other 10% taken by the Football Association, in line with competition rules. It is estimated ticket sales will generate between £250,000 and £400,000 for Exeter. Continue reading...",
+      "publishedAt": "2026-01-08T11:00:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Coote sentenced over child image offence",
+      "link": "https://www.skysports.com/football/news/12040/13481819/david-coote-former-premier-league-referee-given-nine-month-suspended-prison-sentence-after-admitting-child-image-offence",
+      "summary": "David Coote has been sentenced to nine months in prison, suspended for two years, after pleading guilty to making an indecent image of a child.",
+      "publishedAt": "2026-01-08T10:52:00.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +84,54 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Moyes woedend over rood wegens harentrekken: 'Belachelijke beslissing'",
-      "link": "https://www.vi.nl/nieuws/moyes-woedend-over-rood-wegens-harentrekken-belachelijke-beslissing",
-      "summary": "Everton-verdediger Michael Keane kreeg woensdagavond een rode kaart wegens het aan de haren trekken van Wolverhampton Wanderers-spits Tolu Arokodare. Manager David Moyes hekelde die beslissing na afloop.",
-      "publishedAt": "2026-01-08T10:12:14.000Z"
+      "title": "Szoboszlai geeft strijd niet op: 'Je wint de Premier League niet in januari'",
+      "link": "https://www.vi.nl/nieuws/szoboszlai-geeft-strijd-niet-op-je-wint-de-premier-league-niet-in-januari",
+      "summary": "Dominik Szoboszlai staat met Liverpool veertien punten achter koploper Arsenal, maar begraaft hij de strijdbijl nog niet. Donderdagavond staan beide ploegen tegenover elkaar. 'Wij spelen niet tegen de kampioen, zij spelen tegen de kampioen.'",
+      "publishedAt": "2026-01-08T10:46:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bayern stalt voormalig PSV-target Peretz in Championship",
+      "link": "https://www.vi.nl/nieuws/vorige-zomer-in-beeld-bij-psv-nu-tekent-bayern-doelman-bij-southampton",
+      "summary": "Daniel Peretz staat op het punt om de overstap te maken naar Southampton. De 25-jarige Israëlische doelman, die afgelopen zomer nog in beeld was bij PSV , wordt naar verluidt door zijn werkgever Bayern München teruggehaald van Hamburger SV en verhuurd aan Southampton.",
+      "publishedAt": "2026-01-08T10:38:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chiefs aware of domestic violence allegations directed towards Rice",
+      "link": "https://www.skysports.com/nfl/news/12040/13491965/nfl-kansas-city-chiefs-aware-of-domestic-violence-allegations-that-appear-to-be-directed-towards-rashee-rice",
+      "summary": "The Kansas City Chiefs said in a statement on Wednesday they were aware of domestic violence allegations made in a series of social media posts by a former girlfriend of wide receiver Rashee Rice and had been in communication with the NFL.",
+      "publishedAt": "2026-01-08T10:27:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bournemouth keen on Nwaneri - Thursday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/cpqylp92d4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Bournemouth are keen on bringing in Ethan Nwaneri from Arsenal, Crystal Palace boss Oliver Glasner set to hold talks over extending deal, AC Milan keen on Liverpool defender Joe Gomez, plus more.",
+      "publishedAt": "2026-01-08T10:15:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Captain Romero appears to call out Spurs chiefs in edited social media post",
+      "link": "https://www.bbc.com/sport/football/articles/c8d04mz2y34o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tottenham captain Cristian Romero appears to take aim at the club's hierarchy, accusing them of telling \"lies\" in a since edited Instagram post.",
+      "publishedAt": "2026-01-08T10:15:13.000Z"
     },
     {
       "type": "rss",
@@ -113,28 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heracles huurt AZ-spits Zeefuik met optie tot koop",
-      "link": "https://www.vi.nl/nieuws/hansson-naar-excelsior-willem-ii-neemt-afscheid-van-de-waal",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-08T09:30:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Sarri uit frustratie over transferbeleid Lazio en kent nieuwe spits niet",
-      "link": "https://www.vi.nl/nieuws/sarri-uit-frustratie-over-transferbeleid-lazio-en-kent-nieuwe-spits-niet",
-      "summary": "Maurizio Sarri is niet blij met de verkoop van Mattéo Guendouzi aan Fenerbahçe. De trainer van Lazio uitte na het gelijkspel tegen Fiorentina niet voor het eerst zijn frustatie over het transferbeleid van de Italiaanse club, die ook een spits heeft aangetrokken die Sarri totaal niet kent.",
-      "publishedAt": "2026-01-08T09:29:16.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -165,61 +220,6 @@
       "link": "https://www.skysports.com/cricket/news/12040/13489921/the-ashes-england-cricket-player-ratings-for-series-after-4-1-defeat-to-australia-extends-wait-to-regain-the-urn",
       "summary": "Here is how we rated England's players out of 10 after the 4-1 Ashes series defeat in Australia...",
       "publishedAt": "2026-01-08T09:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Cristian Romero takes apparent swipe at Spurs board for staying silent as team struggle",
-      "link": "https://www.theguardian.com/football/2026/jan/08/cristian-romero-spurs-board-staying-silent-team-struggle",
-      "summary": "Reference to ‘lies’ deleted from his social media post ‘It should be other people coming out to speak,’ he writes Cristian Romero has taken an apparent swipe at Tottenham’s board for staying silent amid the team’s struggles. The captain posted a strongly worded message after Wednesday’s 3-2 defeat at Bournemouth that initially appeared to accuse the hierarchy of telling “lies” before being edited to remove that incendiary reference. What remained on Romero’s Instagram post, though, was what an apparent call for the Spurs directors to speak up. The players were again subjected to abuse by some of their fans after a latest loss that leaves Tottenham with five points from their past six matches, three of which have ended in defeat. Continue reading...",
-      "publishedAt": "2026-01-08T08:50:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "A warrior touched by tragedy - Terry Yorath obituary",
-      "link": "https://www.bbc.com/sport/football/articles/cz44z4gw711o?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Wales captain and manager Terry Yorath, who has died aged 75, had a glittering career, but his life was deeply affected by two tragedies.",
-      "publishedAt": "2026-01-08T08:25:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leeds and Wales legend Yorath dies aged 75",
-      "link": "https://www.bbc.com/sport/football/articles/ce8e5rg2dyxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Terry Yorath, who won the league title with Leeds in 1974 and came close to guiding Wales to the 1994 World Cup finals, dies at the age of 75.",
-      "publishedAt": "2026-01-08T08:16:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Brook apologises for 'embarrassing' clash with bouncer in New Zealand",
-      "link": "https://www.skysports.com/cricket/news/12040/13491908/englands-harry-brook-apologises-for-embarrassing-altercation-with-bouncer-in-new-zealand-ahead-of-november-odi",
-      "summary": "England's Harry Brook has apologised for \"embarrassing myself and the team\" after an altercation with a nightclub bouncer in New Zealand last autumn.",
-      "publishedAt": "2026-01-08T07:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sabalenka to skip events in 'insane' 2026 despite likely WTA sanctions",
-      "link": "https://www.skysports.com/tennis/news/12040/13491903/aryna-sabalenka-to-skip-events-in-insane-2026-despite-likely-wta-sanctions-brits-katie-boulter-cam-norrie-suffer-defeats",
-      "summary": "Aryna Sabalenka expects to skip events again this year rather than put her health at risk ‌over the course of an \"insane\" season, even though she knows she is likely to be sanctioned by the WTA ​Tour for doing so, the world No 1 said.",
-      "publishedAt": "2026-01-08T07:29:00.000Z"
     }
   ]
 }
