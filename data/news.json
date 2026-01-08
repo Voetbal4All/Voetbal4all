@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-01-08T22:25:34.671Z",
+  "generatedAt": "2026-01-08T23:21:26.619Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Liverpool houdt Engelse titelrace spannend met gelijkspel bij Arsenal",
+      "link": "https://www.vi.nl/nieuws/liverpool-houdt-engelse-titelrace-spannend-met-gelijkspel-bij-arsenal",
+      "summary": "INTRO",
+      "publishedAt": "2026-01-08T22:56:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Slot vreest voor zware knieblessure Bradley: 'Het ziet er niet best uit'",
+      "link": "https://www.vi.nl/nieuws/slot-vreest-voor-zware-knieblessure-bradley-het-ziet-er-niet-best-uit",
+      "summary": "Conor Bradley wordt al het hele seizoen geplaagd door kleine blessures, maar lijkt zich nu op te kunnen maken voor een lang revalidatieproject. De Noord-Ier verstapte zich in de blessuretijd van het duel met Arsenal ( 0-0 ) en greep naar zijn knie. Liverpool-manager Arne Slot sprak na afloop zijn zorgen uit en reageerde bovendien op het gedrag van Arsenal-aanvaller Gabriel Martinelli.",
+      "publishedAt": "2026-01-08T22:55:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Rel tussen Simeone en Vinícius: 'Onthoud dit, Florentino gaat je ontslaan!'",
+      "link": "https://www.vi.nl/nieuws/spanje-in-de-ban-van-vurige-woordenwisseling-tussen-vin-cius-en-simeone",
+      "summary": "Real Madrid kwam donderdagavond als winnaar uit de strijd in de halve finale van de Spaanse Super Copa tegen Atlético Madrid ( 1-2 ), maar na afloop is Spanje vooral in de ban van de randzaken. Diego Simeone en Vinícius Júnior vochten eerst op en daarna buiten het veld een relletje uit.",
+      "publishedAt": "2026-01-08T22:48:15.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +43,18 @@
       "title": "Ook Arne Slot bijt zich stuk op 's werelds beste defensie",
       "link": "https://www.vi.nl/pro/ook-arne-slot-bijt-zich-stuk-op-s-werelds-beste-defensie",
       "summary": "Arsenal",
-      "publishedAt": "2026-01-08T22:21:11.000Z"
+      "publishedAt": "2026-01-08T22:37:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Valverde and Rodrygo on target as Real Madrid hold off Atlético in Super Cup",
+      "link": "https://www.theguardian.com/football/2026/jan/08/valverde-and-rodrygo-on-target-as-real-madrid-hold-off-atletico-in-super-cup",
+      "summary": "Atlético Madrid 1-2 Real Madrid Sørloth 58; Valverde 2, Rodrygo 55 Real Madrid hold on and so does Xabi Alonso, all the way to the final. Judgment was due to come in Jeddah but it will be put off for another day at least, and instead of the sack there may be a medal waiting at the end of a month spent on edge after Real defeated Atlético 2-1. Goals from Fede Valverde and Rodrygo set up another Super Cup meeting with Barcelona on Sunday night, opportunity and obligation in one. On a night when Madrid scored after 77 seconds, Atlético’s last opportunity to get a result they probably deserved and force a penalty shootout slipped agonisingly away with only 10 more seconds remaining. Julián Alvarez had it, Antoine Griezmann almost did, but, in at last, a shot from the former just evaded the latter. As the ball bounced past the post, it took Atlético’s hopes with it. Continue reading...",
+      "publishedAt": "2026-01-08T22:34:48.000Z"
     },
     {
       "type": "rss",
@@ -91,28 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Liverpool houdt Engelse titelrace spannend met gelijkspel bij Arsenal",
-      "link": "https://www.vi.nl/nieuws/liverpool-houdt-engelse-titelrace-spannend-met-gelijkspel-bij-arsenal",
-      "summary": "INTRO",
-      "publishedAt": "2026-01-08T22:04:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Inter pakt de regie in Italië: na Napoli struikelt ook AC Milan",
-      "link": "https://www.vi.nl/nieuws/inter-pakt-de-regie-in-itali-na-napoli-struikelt-ook-ac-milan",
-      "summary": "Intro",
-      "publishedAt": "2026-01-08T22:01:07.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -135,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dit is het schema van de kwartfinale van de Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-kwartfinale-van-de-afrika-cup",
-      "summary": "De achtste finales van de Afrika Cup zitten erop, wat betekent dat het tijd is voor de kwartfinales. Na twee rustdagen gaat het toernooi vrijdag verder. We zetten de wedstrijden op een rij.",
-      "publishedAt": "2026-01-08T21:28:25.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -154,6 +165,17 @@
       "link": "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "summary": "",
       "publishedAt": "2026-01-08T20:38:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle latest: Schar injury update after positive scan results",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "summary": "",
+      "publishedAt": "2026-01-08T20:28:00.000Z"
     },
     {
       "type": "rss",
@@ -187,28 +209,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c99kn4nge5lo?at_medium=RSS&at_campaign=rss",
       "summary": "An influential Manchester United fan group is planning a protest against the ownership, which it accuses of \"turning the club into a circus\".",
       "publishedAt": "2026-01-08T19:24:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USA midfielder Sam Coffey in talks to join Manchester City from Portland Thorns",
-      "link": "https://www.theguardian.com/football/2026/jan/08/sam-coffey-manchester-city-portland-thorns-transfer-talks-uswnt-midfielder",
-      "summary": "Midfielder given permission to fly to England Transfer talks behind her omission from USA squad Manchester City are in advanced talks to sign the United States midfielder Sam Coffey from Portland Thorns, the Guardian understands. The 27-year-old has been granted permission to fly to Manchester to try to finalise the move, which multiple sources have said is close to completion, and could give City a big boost in their quest to win a first Women’s Super League title since 2016. Continue reading...",
-      "publishedAt": "2026-01-08T18:19:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool hold lacklustre Arsenal to goalless draw LIVE! & highlights",
-      "link": "https://www.skysports.com/football/arsenal-vs-liverpool/live/531329",
-      "summary": "",
-      "publishedAt": "2026-01-08T18:00:00.000Z"
     },
     {
       "type": "rss",
