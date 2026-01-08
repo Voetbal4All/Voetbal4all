@@ -1,13 +1,68 @@
 {
-  "generatedAt": "2026-01-08T05:28:32.574Z",
+  "generatedAt": "2026-01-08T06:39:46.906Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Guardiola ziet arbiter ontsnappen door VAR: 'Ik had achteraf gelijk'",
+      "link": "https://www.vi.nl/video/guardiola-ziet-arbiter-ontsnappen-door-var-ik-had-gelijk",
+      "summary": "Pep Guardiola was in het Premier League-duel met Brighton & Hove Albion (1-1) niet blij met scheidsrechter Thomas Bramall. Die gaf in de eerste helft in eerste instantie geen penalty aan Jérémy Doku. Pas na tussenkomst van de VAR ging de bal op de stip. Guardiola had daarvoor al geel gekregen wegens het appeleren voor een strafschop. 'Maar ik had achteraf dus gelijk.'",
+      "publishedAt": "2026-01-08T06:21:36.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Australia secure nervy Sydney win to take Ashes by 4-1 scoreline",
+      "title": "Starzand faces Bossman Jack as Jumps racing returns at Ffos Las",
+      "link": "https://www.skysports.com/racing/news/12040/13491492/today-on-sky-sports-racing-starzand-takes-on-bossman-jack-at-ffos-las-as-jumps-action-returns",
+      "summary": "Ffos las opens its doors as National Hunt racing returns on Thursday - live on Sky Sports Racing.",
+      "publishedAt": "2026-01-08T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kijk anders naar voetbal door deze scancoach die dineerde met Slot",
+      "link": "https://www.vi.nl/pro/kijk-anders-naar-voetbal-door-deze-scancoach-die-dineerde-met-slot",
+      "summary": "Als student bestudeerde hij Matthijs de Ligt en vijftig andere jeugdspelers van Ajax. De inzichten die hij daaruit opdeed, maakten hem tot een veelgevraagd spreker op het gebied van scannen. Inmiddels is Karl Marius Aksum (35) ook bekend als het brein achter het Zweedse voetbalsprookje van Mjällby AIF. Een ontmoeting met een van de meest vernieuwende voetbaldenkers van Europa.",
+      "publishedAt": "2026-01-08T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "McCullum willing to evolve - but will not 'completely rip up script'",
+      "link": "https://www.skysports.com/cricket/news/12040/13491861/the-ashes-brendon-mccullum-will-not-completely-rip-up-script-if-he-is-kept-as-england-coach-after-defeat-in-australia",
+      "summary": "Under-pressure England head coach Brendon McCullum says he is willing to evolve his methods - but will not \"rip up the script completely\" if he is allowed to continue in the role following the 4-1 Ashes defeat in Australia.",
+      "publishedAt": "2026-01-08T05:44:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Stokes promises to be 'ruthless' in response to Ashes series defeat",
+      "link": "https://www.skysports.com/cricket/news/12040/13491859/the-ashes-ben-stokes-promises-to-be-ruthless-in-response-to-englands-4-1-series-drubbing-in-australia",
+      "summary": "Ben Stokes said he's not afraid to show his \"ruthless\" side as he looks to lead England's recovery from their 4-1 Ashes drubbing to Australia, adding that the tourists had played \"too much 3/10 cricket\" over the series.",
+      "publishedAt": "2026-01-08T04:38:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Australia secure nervy Sydney win to take 4-1 Ashes victory",
       "link": "https://www.skysports.com/cricket/news/12040/13491856/the-ashes-australia-win-series-4-1-after-earning-nervy-five-wicket-win-over-england-on-final-day-in-sydney",
       "summary": "Australia squeaked home to a five-wicket victory over England in the fifth Ashes Test after a nervy final day in Sydney, the hosts' dominance over the series reflected in securing a 4-1 scoreline.",
       "publishedAt": "2026-01-08T01:05:00.000Z"
@@ -165,61 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/07/newcastle-leeds-premier-league-match-report",
       "summary": "Tactical anarchy reigned supreme on a night of chaotic, bewildering, thrilling drama played out amid freezing conditions. Not that the on-pitch temperature ever seemed to drop below boiling point as a renascent Leeds led three times yet departed with their seven‑match unbeaten run at an end and Yorkshire hearts broken by Harvey Barnes’s stoppage -time winner. Continue reading...",
       "publishedAt": "2026-01-07T22:30:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Geen schokeffect bij Man Utd, zinderende ontknoping op St James's Park",
-      "link": "https://www.vi.nl/nieuws/geen-schokeffect-bij-man-united-zinderende-ontknoping-op-st-james-s-park",
-      "summary": "Het ontslag van Ruben Amorim bij Manchester United, heeft woensdagavond niet tot het gewenste schokeffect geleid. Tijdens het debuut van interim-manager Darren Fletcher kwamen The Red Devils niet verder dan gelijkspel tegen Burnley. Quilindschy Hartman keerde terug in de wedstrijdselectie van The Clarets maar mocht niet invallen.",
-      "publishedAt": "2026-01-07T22:30:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Everton latest: Moyes slams Keane’s ‘ridiculous’ red card for ‘hair pull’",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "summary": "",
-      "publishedAt": "2026-01-07T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Newcastle door laatste winnende goal ooit gemeten langs Leeds",
-      "link": "https://www.vi.nl/nieuws/newcastle-door-laatste-winnende-goal-ooit-gemeten-langs-leeds",
-      "summary": "Woensdagavond staan er weer veel mooie potjes op het programma. Er zijn liefst acht duels in de Premier League, er wordt gevoetbald in de Serie A en Barcelona speelt de halve finale van de Spaanse Supercopa tegen Athletic Bilbao. Volg de duels in de VI Live.",
-      "publishedAt": "2026-01-07T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Darren Fletcher’s Manchester United held by Burnley despite Sesko double",
-      "link": "https://www.theguardian.com/football/2026/jan/07/burnley-manchester-united-premier-league-match-report",
-      "summary": "Darren Fletcher failed to produce what Manchester United’s interim manager, fans and chief executive craved: a cathartic victory to move the club on quickly from the recent turbulence. The big plus was Benjamin Sesko, whose two goals doubled his season tally. He said: “It’s been tough but now I finally did it. Now it’s just up to me and up to us to keep going like that.” Continue reading...",
-      "publishedAt": "2026-01-07T22:20:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Papers: Bournemouth want Arsenal's Nwaneri on loan",
-      "link": "https://www.skysports.com/football/news/12040/13491792/arsenals-ethan-nwaneri-wanted-by-bournemouth-on-loan-in-january-paper-talk-and-football-transfer-gossip",
-      "summary": "The top stories and transfer rumours from Thursday's newspapers...",
-      "publishedAt": "2026-01-07T22:00:00.000Z"
     }
   ]
 }
