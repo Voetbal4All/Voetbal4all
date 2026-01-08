@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2026-01-08T07:28:09.249Z",
+  "generatedAt": "2026-01-08T08:35:53.125Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United ask Fletcher to coach FA Cup Sunday",
+      "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
+      "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
+      "publishedAt": "2026-01-08T08:28:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior unready to coach Chelsea loss at Fulham",
+      "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
+      "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
+      "publishedAt": "2026-01-08T08:28:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Semenyo gets 'fairytale ending' before City move",
+      "link": "https://www.espn.com/soccer/story/_/id/47543361/bournemouth-antoine-semenyo-fairytale-ending-man-city-transfer",
+      "summary": "Bournemouth manager Andoni Iraola all but confirmed Antoine Semenyo's impending transfer to Manchester City as he hailed the winger's \"fairytale ending\" in scoring a late winner against Tottenham Hotspur on Wednesday.",
+      "publishedAt": "2026-01-08T08:28:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aaronson scores twice, concedes pen in Leeds loss",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740804",
+      "summary": "Harvey Barnes snatched a 4-3 victory over Leeds as Newcastle served up a seven-goal Premier League thriller of which Kevin Keegan would be proud.",
+      "publishedAt": "2026-01-08T08:28:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Leeds and Wales legend Yorath dies aged 75",
+      "link": "https://www.bbc.com/sport/football/articles/ce8e5rg2dyxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Former Leeds United and Wales midfielder Terry Yorath has died at the age of 75.",
+      "publishedAt": "2026-01-08T08:16:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Arne Slot en Liverpool blijven in de race voor Antoine Semenyo'",
+      "link": "https://www.vi.nl/nieuws/napoli-wil-juventus-aftroeven-met-chiesa-ac-milan-hoopt-op-min-jae-kim",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-08T08:15:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fresh start or back to square one? Either way, Man United are never dull",
+      "link": "https://www.espn.com/soccer/story/_/id/47542740/back-square-one-never-dull-man-united-circus-premier-league",
+      "summary": "After the tumult of Ruben Amorim's dismissal on Monday, Darren Fletcher and Manchester United's 2-2 draw vs. Burnley was fittingly dramatic.",
+      "publishedAt": "2026-01-08T08:04:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van de Ven haalt verhaal bij Spurs-aanhang na pijnlijke nederlaag",
+      "link": "https://www.vi.nl/nieuws/van-de-ven-haalt-verhaal-bij-spurs-aanhang-na-pijnlijke-nederlaag",
+      "summary": "Micky van de Ven baarde woensdagavond opzien door na de nederlaag van Tottenham Hotspur tegen Bournemouth ( 3-2 ) de discussie aan te gaan met een paar meegereisde fans. Ook Pedro Porro en João Palhinha haalden verhaal bij de aanhang. Cristian Romero kwam op zijn beurt met een opvallend statement.",
+      "publishedAt": "2026-01-08T07:55:45.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brook sorry for 'embarrassing' clash with bouncer in New Zealand",
+      "link": "https://www.skysports.com/cricket/news/12040/13491908/englands-harry-brook-apologises-for-embarrassing-altercation-with-bouncer-in-new-zealand-ahead-of-november-odi",
+      "summary": "England's Harry Brook has apologised for \"embarrassing myself and the team\" after an altercation with a nightclub bouncer in New Zealand last autumn.",
+      "publishedAt": "2026-01-08T07:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Neville fileert Martínez na nieuw puntenverlies: 'Verschrikkelijk verdedigd'",
+      "link": "https://www.vi.nl/nieuws/neville-fileert-lisandro-martinez-maar-krijgt-hoop-van-optreden-sesko",
+      "summary": "",
+      "publishedAt": "2026-01-08T07:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sabalenka to skip events in 'insane' 2026 despite likely WTA sanctions",
+      "link": "https://www.skysports.com/tennis/news/12040/13491903/aryna-sabalenka-to-skip-events-in-insane-2026-despite-likely-wta-sanctions-brits-katie-boulter-cam-norrie-suffer-defeats",
+      "summary": "Aryna Sabalenka expects to skip events again this year rather than put her health at risk ‌over the course of an \"insane\" season, even though she knows she is likely to be sanctioned by the WTA ​Tour for doing so, the world No 1 said.",
+      "publishedAt": "2026-01-08T07:29:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,6 +132,17 @@
       "link": "https://www.vi.nl/nieuws/barcelona-toont-vorm-op-juiste-moment-het-team-is-de-grote-ster",
       "summary": "Barcelona speelde woensdagavond in de halve finale van de Spaanse Super Cup tegen Athletic Bilbao een van zijn beste wedstrijden van het seizoen. Die conclusie trekken de Spaanse sportkranten na de klinkende 5-0 zege, waardoor een confrontatie met Real Madrid lonkt in de finale.",
       "publishedAt": "2026-01-08T07:18:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Romero appears to blast Spurs hierarchy for 'lies' in now-edited social media post",
+      "link": "https://www.skysports.com/football/news/12040/13491900/cristian-romero-tottenham-captain-appears-to-blast-spurs-hierarchy-in-now-edited-social-media-post",
+      "summary": "Tottenham captain Cristian Romero appeared to blast the club's hierarchy for \"lies\" in a now-edited social media post.",
+      "publishedAt": "2026-01-08T07:17:00.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +161,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Four-time NBA All-Star Young to leave Atlanta for Washington",
-      "link": "https://www.skysports.com/basketball/news/12040/13491885/four-time-nba-all-star-trae-young-to-leave-atalanta-hawks-for-washington-wizards",
-      "summary": "Trae Young's career at the Atlanta Hawks is reportedly over, with the NBA side agreeing to trade the high-scoring and frequently criticised guard to the Washington Wizards for a package including veteran CJ McCollum.",
-      "publishedAt": "2026-01-08T06:47:00.000Z"
+      "title": "'Are you kidding me?!' 🤯 'Unfathomable finish' in Nets-Magic EPIC",
+      "link": "https://www.skysports.com/watch/video/13491886/nba-unfathomable-finish-in-brooklyn-nets-orlando-magic-epic",
+      "summary": "Brooklyn thought they'd won the game in overtime before Paolo Banchero's stunning buzzer-beating three ensured Orlando emerged triumphant.",
+      "publishedAt": "2026-01-08T06:50:00.000Z"
     },
     {
       "type": "rss",
@@ -44,72 +176,6 @@
       "link": "https://www.vi.nl/video/guardiola-ziet-arbiter-ontsnappen-door-var-ik-had-gelijk",
       "summary": "Pep Guardiola was in het Premier League-duel met Brighton & Hove Albion (1-1) niet blij met scheidsrechter Thomas Bramall. Die gaf in de eerste helft in eerste instantie geen penalty aan Jérémy Doku. Pas na tussenkomst van de VAR ging de bal op de stip. Guardiola had daarvoor al geel gekregen wegens het appeleren voor een strafschop. 'Maar ik had achteraf dus gelijk.'",
       "publishedAt": "2026-01-08T06:21:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Starzand faces Bossman Jack as Jumps racing returns at Ffos Las",
-      "link": "https://www.skysports.com/racing/news/12040/13491492/today-on-sky-sports-racing-starzand-takes-on-bossman-jack-at-ffos-las-as-jumps-action-returns",
-      "summary": "Ffos las opens its doors as National Hunt racing returns on Thursday - live on Sky Sports Racing.",
-      "publishedAt": "2026-01-08T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kijk anders naar voetbal door deze scancoach die dineerde met Slot",
-      "link": "https://www.vi.nl/pro/kijk-anders-naar-voetbal-door-deze-scancoach-die-dineerde-met-slot",
-      "summary": "Als student bestudeerde hij Matthijs de Ligt en vijftig andere jeugdspelers van Ajax. De inzichten die hij daaruit opdeed, maakten hem tot een veelgevraagd spreker op het gebied van scannen. Inmiddels is Karl Marius Aksum (35) ook bekend als het brein achter het Zweedse voetbalsprookje van Mjällby AIF. Een ontmoeting met een van de meest vernieuwende voetbaldenkers van Europa.",
-      "publishedAt": "2026-01-08T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Stokes promises to be 'ruthless' in response to Ashes series defeat",
-      "link": "https://www.skysports.com/cricket/news/12040/13491859/the-ashes-ben-stokes-promises-to-be-ruthless-in-response-to-englands-4-1-series-drubbing-in-australia",
-      "summary": "Ben Stokes said he's not afraid to show his \"ruthless\" side as he looks to lead England's recovery from their 4-1 Ashes drubbing to Australia, adding that the tourists had played \"too much 3/10 cricket\" over the series.",
-      "publishedAt": "2026-01-08T04:38:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Australia secure nervy Sydney win to take 4-1 Ashes victory",
-      "link": "https://www.skysports.com/cricket/news/12040/13491856/the-ashes-australia-win-series-4-1-after-earning-nervy-five-wicket-win-over-england-on-final-day-in-sydney",
-      "summary": "Australia squeaked home to a five-wicket victory over England in the fifth Ashes Test after a nervy final day in Sydney, the hosts' dominance over the series reflected in securing a 4-1 scoreline.",
-      "publishedAt": "2026-01-08T01:05:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior will have big task ahead of him as new boss for dysfunctional Chelsea",
-      "link": "https://www.espn.com/soccer/story/_/id/47543055/rosenior-big-task-ahead-new-chelsea-boss",
-      "summary": "Liam Rosenior was watching in the stands, but the new Chelsea head coach will have his work cut out when he officially takes charge.",
-      "publishedAt": "2026-01-08T00:23:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "VAR review: Did Chelsea get away with what should've been a penalty for Fulham?",
-      "link": "https://www.espn.com/soccer/story/_/id/47542803/var-review-chelsea-given-penalty-vs-fulham",
-      "summary": "Chelsea could have given up a penalty to Fulham, but the VAR stuck with the on-field decision. Was it the right call?",
-      "publishedAt": "2026-01-08T00:23:12.000Z"
     },
     {
       "type": "rss",
@@ -135,58 +201,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man United ask Fletcher to coach FA Cup Sunday",
-      "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
-      "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
-      "publishedAt": "2026-01-07T23:54:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior unready to coach Chelsea loss at Fulham",
-      "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
-      "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-07T23:54:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Spurs boss Frank 'didn't notice' Arsenal coffee cup",
-      "link": "https://www.espn.com/soccer/story/_/id/47542816/spurs-thomas-frank-didnt-notice-was-drinking-arsenal-cup",
-      "summary": "Tottenham Hotspur boss Thomas Frank has said he didn't notice he was drinking out of an Arsenal cup ahead of the clash at Bournemouth, adding that it would have been \"absolutely stupid\" for him to do so.",
-      "publishedAt": "2026-01-07T23:54:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Discipline, consistency & harmony - Rosenior's Chelsea to-do list as slide continues",
-      "link": "https://www.bbc.com/sport/football/articles/c8015m4r2n0o?at_medium=RSS&at_campaign=rss",
-      "summary": "New Chelsea head coach Liam Rosenior was optimistic when arriving, but Wednesday's 2-1 defeat at Fulham underlines the scale of the task ahead.",
-      "publishedAt": "2026-01-07T23:44:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "A big week? Brighton draw is 'punch in ribs' for Man City",
-      "link": "https://www.bbc.com/sport/football/articles/cn82ye11yx5o?at_medium=RSS&at_campaign=rss",
-      "summary": "With Manchester City's crucial month beginning badly, Pep Guardiola is left to hope that their campaign is not derailing in similar fashion to last season.",
-      "publishedAt": "2026-01-07T23:31:53.000Z"
+      "title": "Carrick running Solskjær close in race to become Manchester United’s interim manager",
+      "link": "https://www.theguardian.com/football/2026/jan/07/michael-carrick-running-ole-gunnar-solskjaer-close-race-to-become-manchester-united-interim-manager",
+      "summary": "Solskjær remains the slight favourite for role Darren Fletcher will oversee Sunday’s FA Cup tie Michael Carrick has edged closer to Ole Gunnar Solskjær in the bid to become Manchester United interim manager, though the Norwegian is still the slight favourite, the Guardian understands. Omar Berrada, the chief ­executive, and Jason Wilcox, the ­director of ­football, will not make an ­appointment until interviewing both men face-to-face. With the ­current interim, Darren Fletcher, leading United to a 2-2 draw at Burnley on Wednesday, the interviews are expected to take place on Thursday and possibly ­Friday, if required. Continue reading...",
+      "publishedAt": "2026-01-07T23:34:30.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.bbc.com/sport/football/videos/crkre1ke52do?at_medium=RSS&at_campaign=rss",
       "summary": "Harvey Barnes scores twice as Newcastle come from behind to beat Leeds in a dramatic seven-goal thriller at St James' Park.",
       "publishedAt": "2026-01-07T23:26:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Frank moet zich verantwoorden vanwege Arsenal-beker: 'Een beetje triest'",
-      "link": "https://www.vi.nl/nieuws/frank-moet-zich-verantwoorden-vanwege-arsenal-beker-een-beetje-triest",
-      "summary": "Liever had Thomas Frank enkel vragen beantwoord over de wedstrijd van Tottenham Hotspur tegen Bournemouth, die hij verloor. Echter gingen de eerste vragen over waarom hij uit een Arsenal-bekertje dronk.",
-      "publishedAt": "2026-01-07T23:05:26.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bournemouth-manager neemt afscheid van Semenyo: 'Hij zal enorm gemist worden'",
-      "link": "https://www.vi.nl/nieuws/bournemouth-manager-neemt-afscheid-van-semenyo-hij-zal-enorm-gemist-worden",
-      "summary": "Andoni Iraola houdt er sterk rekening mee dat Antoine Semenyo zijn laatste wedstrijd voor Bournemouth heeft gespeeld. De aanvaller schoot zijn ploeg woensdagavond in extremis naar een overwinning op Tottenham Hotspur en heeft daarmee zijn droomafscheid te pakken. Een dezer dagen tekent hij bij Manchester City.",
-      "publishedAt": "2026-01-07T23:00:55.000Z"
     }
   ]
 }
