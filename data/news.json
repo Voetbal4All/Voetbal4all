@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-08T12:54:20.801Z",
+  "generatedAt": "2026-01-08T13:43:20.360Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mourinho on shock loss: I hope players don't sleep",
+      "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
+      "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
+      "publishedAt": "2026-01-08T13:35:32.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +21,7 @@
       "title": "Spurs captain Romero in fiery 'lies' post after loss",
       "link": "https://www.espn.com/soccer/story/_/id/47547868/tottenham-captain-cristian-romero-fiery-lies-post-bournemouth-loss",
       "summary": "Tottenham captain Cristian Romero appeared to accuse the club's hierarchy of \"lies\" in a fiery, now-edited social media post following the defeat to Bournemouth.",
-      "publishedAt": "2026-01-08T12:44:18.000Z"
+      "publishedAt": "2026-01-08T13:35:32.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +32,7 @@
       "title": "Rosenior unready to coach Chelsea loss at Fulham",
       "link": "https://www.espn.com/soccer/story/_/id/47540904/liam-rosenior-not-ready-coach-chelsea-fulham",
       "summary": "Liam Rosenior chose not to take charge of Chelsea for the first time in Wednesday's Premier League clash against Fulham because of the \"difficult time-frame\" between his appointment on Tuesday and the game at Craven Cottage.",
-      "publishedAt": "2026-01-08T12:44:18.000Z"
+      "publishedAt": "2026-01-08T13:35:32.000Z"
     },
     {
       "type": "rss",
@@ -29,21 +40,43 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Mourinho on shock loss: I hope players don't sleep",
-      "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
-      "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
-      "publishedAt": "2026-01-08T12:44:17.000Z"
+      "title": "Sesko: 'Great things' coming with United change",
+      "link": "https://www.espn.com/soccer/story/_/id/47549251/benjamin-sesko-great-things-coming-man-united-manager-talks",
+      "summary": "Benjamin Sesko believes \"great things are coming\" despite managerless Manchester United's winless start to 2026.",
+      "publishedAt": "2026-01-08T13:35:32.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man United ask Fletcher to coach FA Cup Sunday",
-      "link": "https://www.espn.com/soccer/story/_/id/47543496/manchester-united-ask-fletcher-coach-fa-cup-sunday",
-      "summary": "Darren Fletcher said he will be on the touchline for Manchester United's FA Cup tie against Brighton on Sunday.",
-      "publishedAt": "2026-01-08T12:44:17.000Z"
+      "title": "Mourinho makes Benfica players sleep at training ground after defeat",
+      "link": "https://www.bbc.com/sport/football/articles/c07xzzn3j39o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jose Mourinho takes his players to stay at Benfica's training ground after they lose against Braga in the League Cup semi-final.",
+      "publishedAt": "2026-01-08T13:35:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Real laat oog vallen op spelers Crystal Palace en Borussia Dortmund'",
+      "link": "https://www.vi.nl/nieuws/barcelona-in-afwachting-van-cancelo-roma-lijkt-beet-te-hebben-in-madrid",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-08T13:07:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Toekomst van Oranje: Gjivai Zechiël",
+      "link": "https://www.vi.nl/pro/toekomst-van-oranje-gjivai-zechi-l",
+      "summary": "De Toekomst van Oranje is terug. Voetbal International sprak in deze serie in het verleden met toptalenten zoals Cody Gakpo, Brian Brobbey en de gebroeders Timber. Nu is het de beurt aan Isaac Babadi, Gjivai Zechiël, Ezechiel Banzuzi en Ernest Poku. We bespreken hun kwaliteiten, valkuilen en dromen! In deze aflevering alle aandacht voor Gjivai Zechiël, de 21-middenvelder van Feyenoord die dit seizoen op huurbasis speelt voor FC Utrecht.",
+      "publishedAt": "2026-01-08T13:00:00.000Z"
     },
     {
       "type": "rss",
@@ -91,17 +124,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Taylor reist naar Rome om transfer naar Lazio af te ronden",
-      "link": "https://www.vi.nl/nieuws/taylor-reist-naar-rome-om-transfer-naar-lazio-af-te-ronden",
-      "summary": "Kenneth Taylor gaat Ajax na 15,5 jaar verlaten. Als de laatste formaliteiten worden afgerond, maakt de middenvelder de transfer naar Lazio.",
-      "publishedAt": "2026-01-08T11:23:31.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -124,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Szoboszlai geeft strijd niet op: 'Je wint de Premier League niet in januari'",
-      "link": "https://www.vi.nl/nieuws/szoboszlai-geeft-strijd-niet-op-je-wint-de-premier-league-niet-in-januari",
-      "summary": "Dominik Szoboszlai staat met Liverpool veertien punten achter koploper Arsenal, maar begraaft hij de strijdbijl nog niet. Donderdagavond staan beide ploegen tegenover elkaar. 'Wij spelen niet tegen de kampioen, zij spelen tegen de kampioen.'",
-      "publishedAt": "2026-01-08T10:46:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -143,17 +154,6 @@
       "link": "https://www.skysports.com/nfl/news/12040/13491965/nfl-kansas-city-chiefs-aware-of-domestic-violence-allegations-that-appear-to-be-directed-towards-rashee-rice",
       "summary": "The Kansas City Chiefs said in a statement on Wednesday they were aware of domestic violence allegations made in a series of social media posts by a former girlfriend of wide receiver Rashee Rice and had been in communication with the NFL.",
       "publishedAt": "2026-01-08T10:27:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bournemouth keen on Nwaneri - Thursday's gossip",
-      "link": "https://www.bbc.com/sport/football/articles/cpqylp92d4yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Bournemouth are keen on bringing in Ethan Nwaneri from Arsenal, Crystal Palace boss Oliver Glasner set to hold talks over extending deal, AC Milan keen on Liverpool defender Joe Gomez, plus more.",
-      "publishedAt": "2026-01-08T10:15:46.000Z"
     },
     {
       "type": "rss",
@@ -207,7 +207,7 @@
       "flag": "🌍",
       "title": "Terry Yorath, former Wales and Leeds midfielder, dies aged 75",
       "link": "https://www.theguardian.com/football/2026/jan/08/terry-yorath-former-wales-and-leeds-midfielder-dies-aged-75",
-      "summary": "A league champion with Leeds, midfielder won 59 caps As Wales manager just missed out on 1994 World Cup The former Leeds and Wales midfielder Terry Yorath has died at the age of 75 after a short illness, his family have said in a statement. Born in Cardiff, Yorath played a big part in the Leeds team under Don Revie, winning the First Division title in 1974, before spells with Coventry, Tottenham and Bradford. He also won 59 caps for Wales. Continue reading...",
+      "summary": "A league champion with Leeds, midfielder won 59 caps As Wales manager just missed out on 1994 World Cup Terry Yorath, the former Wales captain and manager, has died at the age of 75 following a short illness. As part of Don Revie’s formidable Leeds team in the 1970s, the midfielder whose life would later be deeply affected by personal tragedy became the first Welshman to play in a European Cup final. Although the Yorkshire club lost that final to Bayern Munich, Yorath was an influential, combative, mainstay of the 1974 first division champions. Continue reading...",
       "publishedAt": "2026-01-08T09:15:22.000Z"
     },
     {
