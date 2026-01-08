@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-01-08T06:39:46.906Z",
+  "generatedAt": "2026-01-08T07:28:09.249Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Barcelona toont vorm op juiste moment: 'Het team is de grote ster'",
+      "link": "https://www.vi.nl/nieuws/barcelona-toont-vorm-op-juiste-moment-het-team-is-de-grote-ster",
+      "summary": "Barcelona speelde woensdagavond in de halve finale van de Spaanse Super Cup tegen Athletic Bilbao een van zijn beste wedstrijden van het seizoen. Die conclusie trekken de Spaanse sportkranten na de klinkende 5-0 zege, waardoor een confrontatie met Real Madrid lonkt in de finale.",
+      "publishedAt": "2026-01-08T07:18:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Smith targets 'statement' win to become Britain's latest boxing champion",
+      "link": "https://www.skysports.com/boxing/news/12040/13491582/dalton-smith-british-fighter-targets-statement-win-over-subriel-matias-to-become-wbc-super-lightweight-world-champion",
+      "summary": "Dalton Smith firmly believes he can overpower feared puncher Subriel Matias as he aims to become Britain’s newest world champion this weekend.",
+      "publishedAt": "2026-01-08T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Four-time NBA All-Star Young to leave Atlanta for Washington",
+      "link": "https://www.skysports.com/basketball/news/12040/13491885/four-time-nba-all-star-trae-young-to-leave-atalanta-hawks-for-washington-wizards",
+      "summary": "Trae Young's career at the Atlanta Hawks is reportedly over, with the NBA side agreeing to trade the high-scoring and frequently criticised guard to the Washington Wizards for a package including veteran CJ McCollum.",
+      "publishedAt": "2026-01-08T06:47:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -33,17 +66,6 @@
       "link": "https://www.vi.nl/pro/kijk-anders-naar-voetbal-door-deze-scancoach-die-dineerde-met-slot",
       "summary": "Als student bestudeerde hij Matthijs de Ligt en vijftig andere jeugdspelers van Ajax. De inzichten die hij daaruit opdeed, maakten hem tot een veelgevraagd spreker op het gebied van scannen. Inmiddels is Karl Marius Aksum (35) ook bekend als het brein achter het Zweedse voetbalsprookje van Mjällby AIF. Een ontmoeting met een van de meest vernieuwende voetbaldenkers van Europa.",
       "publishedAt": "2026-01-08T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "McCullum willing to evolve - but will not 'completely rip up script'",
-      "link": "https://www.skysports.com/cricket/news/12040/13491861/the-ashes-brendon-mccullum-will-not-completely-rip-up-script-if-he-is-kept-as-england-coach-after-defeat-in-australia",
-      "summary": "Under-pressure England head coach Brendon McCullum says he is willing to evolve his methods - but will not \"rip up the script completely\" if he is allowed to continue in the role following the 4-1 Ashes defeat in Australia.",
-      "publishedAt": "2026-01-08T05:44:00.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.vi.nl/nieuws/bournemouth-manager-neemt-afscheid-van-semenyo-hij-zal-enorm-gemist-worden",
       "summary": "Andoni Iraola houdt er sterk rekening mee dat Antoine Semenyo zijn laatste wedstrijd voor Bournemouth heeft gespeeld. De aanvaller schoot zijn ploeg woensdagavond in extremis naar een overwinning op Tottenham Hotspur en heeft daarmee zijn droomafscheid te pakken. Een dezer dagen tekent hij bij Manchester City.",
       "publishedAt": "2026-01-07T23:00:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Man City hoeft volgens Guardiola even niet aan de landstitel te denken",
-      "link": "https://www.vi.nl/nieuws/man-city-hoeft-volgens-guardiola-even-niet-aan-de-landstitel-te-denken",
-      "summary": "Manchester City hoeft voorlopig niet na te denken over de landstitel. Dat vond manager Pep Guardiola, nadat zijn ploeg gelijkspeelde in eigen huis tegen Brighton & Hove Albion. De Catalaan was wel verheugd met het optreden van een piepjonge centrumverdediger en wilde nog weinig zeggen over de aanstaande transfer van Antoine Semenyo.",
-      "publishedAt": "2026-01-07T22:57:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Newcastle’s Harvey Barnes hits 102nd-minute winner in 4-3 Leeds thriller",
-      "link": "https://www.theguardian.com/football/2026/jan/07/newcastle-leeds-premier-league-match-report",
-      "summary": "Tactical anarchy reigned supreme on a night of chaotic, bewildering, thrilling drama played out amid freezing conditions. Not that the on-pitch temperature ever seemed to drop below boiling point as a renascent Leeds led three times yet departed with their seven‑match unbeaten run at an end and Yorkshire hearts broken by Harvey Barnes’s stoppage -time winner. Continue reading...",
-      "publishedAt": "2026-01-07T22:30:46.000Z"
     }
   ]
 }
