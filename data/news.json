@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-08T03:45:14.407Z",
+  "generatedAt": "2026-01-08T04:42:18.029Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Australia secure nervy Sydney win to take Ashes by 4-1 scoreline",
+      "link": "https://www.skysports.com/cricket/news/12040/13491856/the-ashes-australia-win-series-4-1-after-earning-nervy-five-wicket-win-over-england-on-final-day-in-sydney",
+      "summary": "Australia squeaked home to a five-wicket victory over England in the fifth Ashes Test after a nervy final day in Sydney, the hosts' dominance over the series reflected in securing a 4-1 scoreline.",
+      "publishedAt": "2026-01-08T01:05:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -110,17 +121,6 @@
       "link": "https://www.bbc.com/sport/football/videos/crkre1ke52do?at_medium=RSS&at_campaign=rss",
       "summary": "Harvey Barnes scores twice as Newcastle come from behind to beat Leeds in a dramatic seven-goal thriller at St James' Park.",
       "publishedAt": "2026-01-07T23:26:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City latest: Draw 'another punch in the ribs' for City in title race, says Neville",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "summary": "",
-      "publishedAt": "2026-01-07T23:15:00.000Z"
     },
     {
       "type": "rss",
