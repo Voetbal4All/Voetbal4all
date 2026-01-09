@@ -1,4 +1,3 @@
-// assets/js/live-banner.js
 (() => {
   function init() {
     const banner = document.querySelector(".live-banner");
@@ -232,23 +231,38 @@
       banner.classList.add("is-marquee");
       mainTextEl.textContent = "";
 
-      // Meer “lucht” tussen scores
+      // Professional inline SVG flags (no Twemoji, no external <img src=...> injection)
+      const beSvg = `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="6" height="12" x="0" y="0" fill="#000"/><rect width="6" height="12" x="6" y="0" fill="#FFD100"/><rect width="6" height="12" x="12" y="0" fill="#EF3340"/></svg>`;
+      const nlSvg = `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="18" height="4" x="0" y="0" fill="#AE1C28"/><rect width="18" height="4" x="0" y="4" fill="#FFFFFF"/><rect width="18" height="4" x="0" y="8" fill="#21468B"/></svg>`;
+      const intSvg = `<svg class="flag-icon flag-icon--int" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="18" height="12" fill="#0B1B2B"/><circle cx="9" cy="6" r="5.2" fill="#2B7A78"/><circle cx="9" cy="6" r="5.2" fill="none" stroke="#BFE3E0" stroke-width="0.7" opacity="0.65"/><path d="M3.8 6h10.4" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8"/><path d="M9 0.9c1.9 1.7 1.9 8.8 0 10.2" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none"/><path d="M9 0.9c-1.9 1.7-1.9 8.8 0 10.2" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none"/></svg>`;
+
+      // Sanitize to plain text, and collapse whitespace to keep everything on one line
+      const sanitizeLine = (s) => {
+        const div = document.createElement("div");
+        div.innerHTML = String(s ?? "");
+        return (div.textContent || "").replace(/\s+/g, " ").trim();
+      };
+
+      // More “lucht” between scores
       const SEP =
         " \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 • \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ";
-      const joined = lines.join(SEP);
+
+      const joined = (lines || [])
+        .map(sanitizeLine)
+        .filter(Boolean)
+        .join(SEP);
 
       tickerWrap.innerHTML = `<div class="marquee-track"></div>`;
       const track = tickerWrap.querySelector(".marquee-track");
+
+      // Render as text first (prevents raw HTML or attributes like src=... showing up)
       track.textContent = joined;
 
-      // Render flag emojis consistently on Windows (only inside the banner)
-      if (window.twemoji) {
-        twemoji.parse(track, {
-          base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
-          folder: 'svg',
-          ext: '.svg'
-        });
-      }
+      // Inject flags as SVG
+      track.innerHTML = track.textContent
+        .replaceAll("🇧🇪", beSvg)
+        .replaceAll("🇳🇱", nlSvg)
+        .replaceAll("🌍", intSvg);
 
       // Clear eventuele vorige restart timer
       if (marqueeRestartTimer) {
@@ -279,12 +293,7 @@
         void track.offsetHeight;
         track.style.animation = "";
 
-        // Belangrijk:
-        // - refresh() kan om de minuut opnieuw renderen en zo “resetten” middenin.
-        // - Daarom: we her-renderen pas nadat de huidige run klaar is.
-        // We gebruiken durationSec als “run klaar”-moment.
         marqueeRestartTimer = setTimeout(() => {
-          // herstart exact met dezelfde content (start weer buiten rechts)
           track.style.animation = "none";
           void track.offsetHeight;
           track.style.animation = "";
