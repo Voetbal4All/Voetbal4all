@@ -1,49 +1,60 @@
 {
-  "generatedAt": "2026-01-09T09:32:06.016Z",
+  "generatedAt": "2026-01-09T10:28:09.091Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Onhandige Real Madrid-uitspraak deert Speler van de Maand Karl niet",
+      "link": "https://www.vi.nl/nieuws/onhandige-real-madrid-uitspraak-deert-speler-van-de-maand-karl-niet",
+      "summary": "Lennart Karl is een kleine week na zijn uitspraak over zijn droomclub Real Madrid bij Bayern München verkozen tot Speler van de Maand. De zeventienjarige jongeling liet eerder al via een Cristiano Ronaldo-imitatie zien dat alle controverse hem weinig deed.",
+      "publishedAt": "2026-01-09T10:27:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Crooij verkiest hereniging met Steijn boven Fortuna en Heracles",
+      "link": "https://www.vi.nl/nieuws/sparta-huurt-vito-van-crooij-van-nec",
+      "summary": "Vito van Crooij keert zoals verwacht terug bij Sparta Rotterdam. NEC verhuurt de 29-jarige aanvallende middenvelder voor de rest van het seizoen aan de club van trainer Maurice Steijn, met wie Van Crooij al met veel succes samenwerkte bij Sparta en VVV-Venlo.",
+      "publishedAt": "2026-01-09T10:23:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Grim kijkt vooruit naar debuut 'zeer professionele' Tomiyasu: 'Duurt nog wel even'",
+      "link": "https://www.vi.nl/nieuws/grim-kijkt-vooruit-naar-debuut-zeer-professionele-tomiyasu-duurt-nog-wel-even",
+      "summary": "Fans van Ajax hoeven binnenkort nog niet te rekenen op een debuut van Takehiro Tomiyasu. Interim-trainer Fred Grim heeft richting de hervatting van de Eredivisie een update gegeven over de fysieke status van de Japanner.",
+      "publishedAt": "2026-01-09T10:16:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Grim bespreekt transferwensen van Ajax",
+      "link": "https://www.vi.nl/nieuws/grim-bespreekt-transferwensen-van-ajax",
+      "summary": "Ajax-coach Fred Grim heeft aangestipt naar welke posities de Amsterdammers kijken als het gaat om het versterken van de huidige selectie. Dit deed hij in aanloop naar de hervatting van de Eredivisie, met een uitwedstrijd tegen Telstar.",
+      "publishedAt": "2026-01-09T10:14:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'My best is yet to come' - Semenyo joins Man City in £65m deal",
-      "link": "https://www.bbc.com/sport/football/articles/c801yv529z7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City sign Ghana international Antoine Semenyo from Bournemouth in a deal worth about £65m.",
-      "publishedAt": "2026-01-09T09:20:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Excuses en mooi gebaar na belachelijk maken Congolese fan",
-      "link": "https://www.vi.nl/nieuws/excuses-en-mooi-gebaar-na-belachelijk-maken-van-afrika-cup-protagonist",
-      "summary": "De huidige editie van de Afrika Cup kende tot dusver een verrassende hoofdrolspeler: Michel Kuka Mboladinga alias Lumumba. Dat is niet een voetballer, maar een supporter van DR Congo die bij elk duel van zijn land stokstijf stond gedurende de hele wedstrijd. Zijn verhaal werd nog groter toen hij belachelijk werd gemaakt door een tegenstander, maar de vrede is inmiddels getekend.",
-      "publishedAt": "2026-01-09T09:17:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Manchester City legt dik 70 miljoen euro op tafel voor Semenyo",
-      "link": "https://www.vi.nl/nieuws/manchester-city-legt-dik-70-miljoen-euro-op-tafel-voor-semenyo",
-      "summary": "De transfer hing al een tijdje in de lucht, maar is nu officieel beklonken. Antoine Semenyo maakt per direct de overstap naar Manchester City. Bournemouth ontvangt zo'n 75 miljoen euro voor de vleugelspeler.",
-      "publishedAt": "2026-01-09T09:10:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Premier League-ster, maar als vijftienjarige gestopt: het verhaal van Semenyo",
-      "link": "https://www.vi.nl/pro/het-verhaal-van-antoine-semenyo",
-      "summary": "Bournemouth deed afgelopen zomer drie grote uitgaande transfers en de volgende blikvanger staat alweer klaar. Antoine Semenyo (25) behoort tot de beste spelers van de Premier League. En exact tien jaar geleden voetbalde hij niet eens.",
-      "publishedAt": "2026-01-09T09:10:00.000Z"
+      "title": "FA Cup buildup, Martinelli ‘deeply sorry’, transfer news and fixture latest – football live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/09/fa-cup-buildup-martinelli-deeply-sorry-transfer-news-and-fixture-latest-football-live",
+      "summary": "⚽ All the latest ahead of FA Cup third round weekend ⚽ Ten things to look out for | Football Daily | Email David Storm Goretti – a winter weather threat that sounds like a medal contender at a hip, new sporting event being introduced at the 2028 LA Olympics – is having an effect on the football calender. All good so far in the FA Cup but a couple of games in League Two have gone. We’ll keep you updated throughout the day. League Two Oldham Athletic and Notts County - OFF Chesterfield vs Colchester - OFF Continue reading...",
+      "publishedAt": "2026-01-09T10:10:47.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +65,7 @@
       "title": "Man City confirms Semenyo signing in $84m deal",
       "link": "https://www.espn.com/soccer/story/_/id/47537480/man-city-transfer-antoine-semenyo-bournemouth-64-million-premier-league",
       "summary": "Manchester City have announced the signing of Antoine Semenyo from Bournemouth.",
-      "publishedAt": "2026-01-09T09:06:07.000Z"
+      "publishedAt": "2026-01-09T10:06:54.000Z"
     },
     {
       "type": "rss",
@@ -65,7 +76,7 @@
       "title": "Xabi slams Simeone shouts at Vini: 'Didn't like it'",
       "link": "https://www.espn.com/soccer/story/_/id/47552638/real-madrid-xabi-slams-simeone-comments-vinicius",
       "summary": "Xabi Alonso slammed Diego Simeone for his clash with Vinícius Júnior during Real Madrid's 2-1 Supercopa semifinal win over Atlético Madrid on Thursday, saying \"not anything goes.\"",
-      "publishedAt": "2026-01-09T09:05:55.000Z"
+      "publishedAt": "2026-01-09T10:06:54.000Z"
     },
     {
       "type": "rss",
@@ -73,10 +84,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Liverpool criticize Martinelli, fear for Bradley injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47553636/liverpool-unhappy-martinelli-fear-bradley",
-      "summary": "Liverpool manager Arne Slot said Gabriel Martinelli's push on an injured Conor Bradley in his side's 0-0 draw with Arsenal on Thursday \"doesn't look great,\" adding that he feared for the extent of Bradley's injury.",
-      "publishedAt": "2026-01-09T09:05:55.000Z"
+      "title": "Neymar begins recovery after knee surgery",
+      "link": "https://www.espn.com/soccer/story/_/id/47558439/brazil-star-neymar-begins-recovery-knee-surgery-ahead-world-cup-bid",
+      "summary": "Neymar has started his recovery process after undergoing minor surgery on his left knee on Dec. 22.",
+      "publishedAt": "2026-01-09T10:06:54.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +95,32 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Martinelli 'deeply sorry' for shoving injured Bradley",
-      "link": "https://www.espn.com/soccer/story/_/id/47556803/gabriel-martinelli-issues-direct-apology-conor-bradley-incident",
-      "summary": "Arsenal winger Gabriel Martinelli revealed he reached out to Conor Bradley to apologize for shoving the badly injured Liverpool defender off the pitch late in Thursday's 0-0 draw",
-      "publishedAt": "2026-01-09T09:05:55.000Z"
+      "title": "Slegers signs new long-term Arsenal contract",
+      "link": "https://www.espn.com/soccer/story/_/id/47558115/renee-slegers-signs-new-long-term-arsenal-contract",
+      "summary": "Arsenal's Champions League winning head coach Renee Slegers has signed a new-long term contract until 2029.",
+      "publishedAt": "2026-01-09T10:06:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Renée Slegers ‘immensely proud’ after signing new three-year deal at Arsenal",
+      "link": "https://www.theguardian.com/football/2026/jan/09/renee-slegers-arsenal-signs-new-contract-2029",
+      "summary": "Head coach led WSL club to Champions League triumph Jodie Taylor appointed as women’s technical director Renée Slegers has made a long-term commitment to Arsenal after the head coach signed a new contract at the Women’s Super League club until 2029. The extension comes with Arsenal third in the WSL table, eight points behind the leaders Manchester City at the halfway stage. Continue reading...",
+      "publishedAt": "2026-01-09T10:00:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'My best is yet to come' - Semenyo joins Man City in £65m deal",
+      "link": "https://www.bbc.com/sport/football/articles/c801yv529z7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City sign Ghana international Antoine Semenyo from Bournemouth in a deal worth about £65m.",
+      "publishedAt": "2026-01-09T09:49:49.000Z"
     },
     {
       "type": "rss",
@@ -95,10 +128,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Taylor naar Lazio: 'Kan De Vrij-route bewandelen'",
-      "link": "https://www.vi.nl/video/taylor-naar-lazio-kan-de-vrij-route-bewandelen",
-      "summary": "Kenneth Taylor vertrekt van Ajax naar Lazio. In VI ZSM hebben Rob Aarts en Sjoerd Keizer het over deze stap en gaat het over de Lazio-interesse in Quinten Timber.",
-      "publishedAt": "2026-01-09T09:05:00.000Z"
+      "title": "Transfers Ajax: Grim bevestigt terugkeer McConnell naar Liverpool",
+      "link": "https://www.vi.nl/nieuws/transfers-ajax-grim-bevestigt-terugkeer-mcconnell-naar-liverpool",
+      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Ajax op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Amsterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2026-01-09T09:44:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Transfer window weekly: Real Madrid open to Vinicius exit? Chelsea keen?",
+      "link": "https://www.espn.com/soccer/story/_/id/47550532/transfer-window-weekly-real-madrid-open-vinicius-exit-man-united-wait-afcon-end",
+      "summary": "The winter transfer window is open, but what are our reporters hearing about deals that could be done? Get the latest every Friday.",
+      "publishedAt": "2026-01-09T09:40:28.000Z"
     },
     {
       "type": "rss",
@@ -124,69 +168,25 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Tiende plaats past Spartanen als een jas",
-      "link": "https://www.vi.nl/pro/tiende-plaats-past-spartanen-als-een-jas",
-      "summary": "Op een paar uitzonderingen na die juist net in een flow waren geraakt, haalden de Eredivisie-clubs op het tandvlees de winterstop. Veel tijd om weer op adem te komen, hebben ze alleen niet, want dit weekeinde begint het hele circus alweer. In aanloop naar het cruciale deel van het seizoen maken we bij elke club de balans op, waarbij we wat de volgorde betreft uitgaan van de eerste speelronde van 2026. Deze keer: middenmoter Sparta Rotterdam.",
-      "publishedAt": "2026-01-09T09:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'If you're outside the top six, you can never target an FA Cup run'",
-      "link": "https://www.bbc.com/sport/football/articles/czjgevelvk1o?at_medium=RSS&at_campaign=rss",
-      "summary": "In his BBC Sport column, ex-Premier League boss Tony Pulis explains why the FA Cup has fallen down the pecking order for managers, despite still being a special competition.",
-      "publishedAt": "2026-01-09T08:47:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal still in control of title race; Liverpool show they need to improve",
-      "link": "https://www.espn.com/soccer/story/_/id/47553557/arsenal-control-title-race-liverpool-need-improvements",
-      "summary": "Both Arsenal and Liverpool settled for a point in a scoreless draw, but it was a missed opportunity for the Gunners to extend their lead in the Premier League.",
-      "publishedAt": "2026-01-09T08:45:50.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Ref Watch LIVE! Did Martinelli receive correct punishment for push on Bradley?",
+      "title": "Ref Watch: Why Martinelli wasn't punished further for Bradley push",
       "link": "https://www.skysports.com/football/live-blog/12040/13492309/ref-watch-live-premier-league-efl-and-scottish-premiership-incidents-analysed-by-dermot-gallagher-and-jay-bothroyd",
       "summary": "",
       "publishedAt": "2026-01-09T08:14:00.000Z"
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Victor Osimhen’s volatile temperament risks harming Nigeria’s Afcon quest",
-      "link": "https://www.theguardian.com/football/2026/jan/09/victor-osimhen-nigeria-football-africa-cup-of-nations",
-      "summary": "Talismanic forward’s spat with teammate Ademola Lookman highlights the problematic behaviour threatening to overshadow his talent Victor Osimhen is the talisman, the attacking arrowhead of Nigeria’s Super Eagles at the Africa Cup of Nations in Morocco, his three goals offering a warning to Algeria before Saturday’s quarter-final. But the focus on the 27 year old this week has fallen less on his talent and more on his behaviour. Osimhen’s volatile temperament, displayed in a spat with his teammate Ademola Lookman during Monday’s 4-0 win against Mozambique, has grabbed the headlines. The Galatasaray striker scored twice to underline his world-class finishing but that has been rendered almost an afterthought. Continue reading...",
-      "publishedAt": "2026-01-09T08:00:31.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "How will Chelsea play under new boss Rosenior?",
-      "link": "https://www.bbc.com/sport/football/articles/c1wz004rz5yo?at_medium=RSS&at_campaign=rss",
-      "summary": "What is Liam Rosenior's style of play and how might his Chelsea side shape up tactically?",
-      "publishedAt": "2026-01-09T07:45:45.000Z"
+      "title": "Macclesfield's 'massive occasion' tinged with sadness",
+      "link": "https://www.bbc.com/sport/football/articles/clyndjxl0xlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Non-league Macclesfield host holders Crystal Palace in the FA Cup on Saturday, 25 days after the death of their player Ethan McLeod.",
+      "publishedAt": "2026-01-09T07:14:23.000Z"
     },
     {
       "type": "rss",
