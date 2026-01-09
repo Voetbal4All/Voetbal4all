@@ -643,15 +643,6 @@
     articleFilterCategory.addEventListener("change", () => { currentPage = 1; applyFilters(); });
 
     loadNews();
-    window.addEventListener('load', () => {
-      if (window.twemoji) {
-        twemoji.parse(document.body, {
-          base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
-          folder: 'svg',
-          ext: '.svg'
-        });
-      }
-    });
   </script>
 
   <script src="assets/js/nav-mobile.js"></script>
