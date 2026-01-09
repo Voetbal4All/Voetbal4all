@@ -408,10 +408,6 @@ footer { margin-top: auto; }
   animation: liveMarqueeVars var(--live-marquee-duration, 20s) linear infinite;
 }
 
-/* Live banner: keep flag icons perfectly aligned with text */
-.live-banner svg.flag-icon{
-  vertical-align: middle;
-}
 
 @keyframes liveMarqueeVars {
   from { transform: translateX(var(--live-marquee-start, 100%)); }
@@ -770,6 +766,45 @@ footer { margin-top: auto; }
 }
 
 /* =======================
+   V4A FLAGS (SINGLE SOURCE OF TRUTH)
+   - Always use local SVGs from: assets/img/sources/
+   - Works identical on Mac + Windows (no emoji, no OS font rendering)
+   ======================= */
+
+.v4a-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  line-height: 1;
+}
+
+.v4a-flag__img {
+  display: block;
+  height: 14px;
+  width: auto;
+  border-radius: 3px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
+}
+
+/* Slightly larger flags where needed */
+.v4a-flag--md .v4a-flag__img { height: 16px; }
+.v4a-flag--lg .v4a-flag__img { height: 18px; }
+
+/* Utility: keep flag aligned with text */
+.v4a-flag + .v4a-flag-text,
+.v4a-flag + span,
+.v4a-flag + strong {
+  margin-left: 6px;
+}
+
+/* Live banner: keep flags perfectly aligned */
+.live-banner .v4a-flag__img {
+  vertical-align: middle;
+}
+
+/* =======================
    ARTIKELS / OVERZICHTEN
    ======================= */
 
@@ -876,46 +911,67 @@ footer { margin-top: auto; }
 }
 
 /* =======================
-   FLAGS – SINGLE SOURCE (ALL PAGES)
-   Doel: 1 uniforme inline-layout + consistente icon-grootte (incl. INT)
+   FLAGS – SINGLE SOURCE OF TRUTH (ALL PAGES)
+   Doel: overal dezelfde professionele flags (Mac + Windows)
+   Richtlijn: gebruik <img class="v4a-flag__img"> met lokale assets (assets/img/sources)
    ======================= */
 
-/* Container die altijd op 1 regel blijft (flag + land + category + brand) */
-.flag-inline {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  white-space: nowrap;
-  line-height: 1;
+/* Primary flag wrapper */
+.v4a-flag{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  line-height:1;
+  vertical-align:middle;
 }
 
-/* Universele flag icon (werkt voor SVG én PNG/WebP) */
+/* Primary flag image (SVG/PNG/WebP) */
+.v4a-flag__img{
+  display:block;
+  height:14px;
+  width:auto;
+  border-radius:3px;
+  object-fit:cover;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.12);
+}
+
+/* Optional: slightly larger INT globe if needed */
+.v4a-flag--int .v4a-flag__img{
+  height:16px;
+}
+
+/* Backward-compatibility: map older classes to the same sizing (prevents breakage while we harmonize HTML) */
+.flag-inline,
+.article-meta-row,
+.home-news__flag{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  white-space:nowrap;
+  line-height:1;
+}
+
 img.flag-icon,
-svg.flag-icon {
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  object-fit: contain;
-  flex: 0 0 auto;
-  vertical-align: middle;
+svg.flag-icon,
+.flag-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  line-height:1;
+  vertical-align:middle;
 }
 
-/* INT flag iets groter zodat hij visueel gelijk aan BE/NL oogt */
-img.flag-icon.flag-icon--int,
-svg.flag-icon.flag-icon--int {
-  width: 20px;
-  height: 20px;
+img.flag-icon{
+  height:14px;
+  width:auto;
+  border-radius:3px;
+  object-fit:cover;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.12);
 }
 
-/* Als er nog tekstfallback bestaat (BE/NL/INT), houd die ook netjes inline */
-.flag-fallback-text {
-  display: inline-block;
-  line-height: 1;
-}
-
-/* Make sure inline SVG flags never force line breaks in marquees / pills */
-.flag-inline svg.flag-icon{
-  display: inline-block;
+img.flag-icon.flag-icon--int{
+  height:16px;
 }
 
 .article-meta {
@@ -1904,26 +1960,6 @@ img {
     gap:10px;
   }
   
-  /* HOME – country flag in title row (SVG, no emoji) */
-  .home-news__flag{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    min-width: 20px;
-    height: 14px;
-    line-height: 1;
-    flex: 0 0 auto;
-  }
-
-  .home-news__flag svg{
-    display: block;
-    width: 20px;
-    height: 14px;
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
   .is-fallback {
     object-fit: cover;
     opacity: 0.95;
@@ -1935,31 +1971,3 @@ img {
   #latest-news-grid h4.home-news__title {
     font-weight: 200;
   }
-
-  /* === V4A Flags (uniform on Mac + Windows) === */
-.v4a-flag{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:20px;
-  min-width:20px;
-  height:14px;
-  margin-right:8px;
-  line-height:1;
-  flex:0 0 auto;
-  color:#e8f2ff; /* used by globe (INT) */
-}
-
-.v4a-flag__img{
-  display:block;
-  width:20px;
-  height:14px;
-  border-radius:3px;
-  object-fit:cover;
-}
-
-.v4a-flag__svg{
-  display:block;
-  width:18px;
-  height:18px;
-}

@@ -9,24 +9,21 @@
 
     /* =========================================================
        Flags (single source of truth)
-       - Prefer shared global window.V4A_FLAGS if present
-       - Fallback to local professional SVGs
+       - Always use local SVG files from assets/img/sources/
+       - Avoid emoji flags (OS-dependent) and inline SVG variations
     ========================================================= */
-    const LOCAL_FLAGS = {
-      BE: `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="6" height="12" x="0" y="0" fill="#000"/><rect width="6" height="12" x="6" y="0" fill="#FFD100"/><rect width="6" height="12" x="12" y="0" fill="#EF3340"/></svg>`,
-      NL: `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="18" height="4" y="0" fill="#AE1C28"/><rect width="18" height="4" y="4" fill="#FFFFFF"/><rect width="18" height="4" y="8" fill="#21468B"/></svg>`,
-      INT: `<svg class="flag-icon flag-icon--int" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-        <rect width="18" height="12" fill="#0B2A4A"/>
-        <circle cx="9" cy="6" r="4.2" fill="none" stroke="#FFFFFF" stroke-width="0.8"/>
-        <path d="M9 1.8c-1.6 1.2-2.6 2.7-2.6 4.2S7.4 9 9 10.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
-        <path d="M9 1.8c1.6 1.2 2.6 2.7 2.6 4.2S10.6 9 9 10.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
-        <path d="M5.4 6h7.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
-        <path d="M6.0 4.4c1.0 0.5 2.1 0.7 3.0 0.7s2.0-0.2 3.0-0.7" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.85"/>
-        <path d="M6.0 7.6c1.0-0.5 2.1-0.7 3.0-0.7s2.0 0.2 3.0 0.7" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.85"/>
-      </svg>`.replace(/\n\s+/g, " ").trim()
+    const FLAG_SRC = {
+      BE: "assets/img/sources/flag-be.svg",
+      NL: "assets/img/sources/flag-nl.svg",
+      INT: "assets/img/sources/flag-int.svg"
     };
 
-    const FLAGS = (window && window.V4A_FLAGS) ? window.V4A_FLAGS : LOCAL_FLAGS;
+    function flagImg(code, sizeClass = "") {
+      const src = FLAG_SRC[code] || FLAG_SRC.INT;
+      const alt = code || "INT";
+      const extra = sizeClass ? ` ${sizeClass}` : "";
+      return `<span class="v4a-flag${extra}"><img class="v4a-flag__img" src="${src}" alt="${alt}" loading="lazy" decoding="async"></span>`;
+    }
 
     /* =========================================================
        0) Opruimen: verwijder ALLE oude/dubbele elementen
@@ -222,10 +219,11 @@
     async function fetchFreeLiveLines() {
       // DEMO: later vervangen door echte live data
       return [
-        "🇧🇪 Club Brugge 2–1 Anderlecht (72’)",
-        "🇳🇱 Ajax 1–0 PSV (55’)",
-        "🇧🇪 Beerschot 0–0 Zulte Waregem (33’)",
-        "🇳🇱 Willem II 2–2 ADO Den Haag (81’)"
+        "[BE] Club Brugge 2–1 Anderlecht (72’)",
+        "[NL] Ajax 1–0 PSV (55’)",
+        "[BE] Beerschot 0–0 Zulte Waregem (33’)",
+        "[NL] Willem II 2–2 ADO Den Haag (81’)",
+        "[INT] Europa League 0–0 (voorbeeld)"
       ];
     }
 
@@ -274,11 +272,10 @@
       // Render as text first (prevents raw HTML or attributes like src=... showing up)
       track.textContent = joined;
 
-      // Inject flags as SVG
       track.innerHTML = track.textContent
-        .replaceAll("🇧🇪", FLAGS.BE)
-        .replaceAll("🇳🇱", FLAGS.NL)
-        .replaceAll("🌍", FLAGS.INT);
+        .replaceAll("[BE]", flagImg("BE"))
+        .replaceAll("[NL]", flagImg("NL"))
+        .replaceAll("[INT]", flagImg("INT"));
 
       // Clear eventuele vorige restart timer
       if (marqueeRestartTimer) {
