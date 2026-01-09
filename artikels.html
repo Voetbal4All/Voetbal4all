@@ -341,7 +341,7 @@
 
     // Backend endpoints
     const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-    const NEWS_URL = IMG_BASE + "/api/news?limit=200&nocache=1";
+    const NEWS_URL = IMG_BASE + "/api/news?limit=200";
 
     const articleList = document.getElementById("article-list");
     const newsStatus = document.getElementById("news-status");
@@ -357,6 +357,36 @@
     let filteredItems = [];       // ✅ nieuw: huidige filterresultaat
     let currentPage = 1;          // ✅ nieuw
     const PAGE_SIZE = 50;         // ✅ nieuw
+
+    // Client-side cache to render instantly on repeat visits (does not affect backend order)
+    const NEWS_CACHE_KEY = "v4_news_cache_v1";
+    const NEWS_CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
+    let lastRenderKey = "";
+
+    function readNewsCache(){
+      try {
+        const raw = localStorage.getItem(NEWS_CACHE_KEY);
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        if (!parsed || !Array.isArray(parsed.items) || !parsed.ts) return null;
+        if ((Date.now() - parsed.ts) > NEWS_CACHE_TTL_MS) return null;
+        return parsed.items;
+      } catch (_) {
+        return null;
+      }
+    }
+
+    function writeNewsCache(items){
+      try {
+        localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ ts: Date.now(), items }));
+      } catch (_) {}
+    }
+
+    function itemsSignature(items){
+      // stable signature based on first N ids + length
+      const arr = (items || []).slice(0, 80).map(it => String(it?.id || "").trim()).filter(Boolean);
+      return `${(items || []).length}|${arr.join(",")}`;
+    }
 
     function safe(s){ return (s ?? "").toString(); }
     function norm(s){ return safe(s).toLowerCase().trim(); }
@@ -560,7 +590,6 @@
       filteredItems = filtered; // ✅ bewaren voor paginatie
       const total = filteredItems.length;
 
-      articleList.innerHTML = "";
       const countLabel = total ? (total + " artikels") : "0 artikels";
       newsCountTop.textContent = countLabel;
       newsCountTop2.textContent = countLabel;
@@ -581,6 +610,22 @@
 
       const start = (currentPage - 1) * PAGE_SIZE;
       const pageItems = filteredItems.slice(start, start + PAGE_SIZE);
+
+      // Skip work if the visible state did not change
+      const renderKey = [
+        "p=" + currentPage,
+        "q=" + norm(articleSearchText.value),
+        "c=" + (articleFilterCountry?.value || ""),
+        "cat=" + (articleFilterCategory?.value || ""),
+        "ids=" + pageItems.map(it => String(it?.id || "")).join("|")
+      ].join("::");
+      if (renderKey === lastRenderKey) {
+        // still ensure counts/pagination stay consistent
+        return;
+      }
+      lastRenderKey = renderKey;
+
+      articleList.innerHTML = "";
 
       pageItems.forEach((a, i) => {
         articleList.insertAdjacentHTML("beforeend", renderCard(a));
@@ -636,23 +681,47 @@
         }
       }
           }
-
     async function loadNews(){
+      // 1) Try instant render from cache
+      const cached = readNewsCache();
+      if (cached && cached.length) {
+        allItems = dedupeById(cached);
+        // show immediately
+        applyFilters();
+      } else {
+        // show loading state
+        newsStatus.style.display = "block";
+        newsStatus.textContent = "Artikels laden…";
+      }
+
+      // 2) Refresh in background (network)
       try{
         const res = await fetch(NEWS_URL, { cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status);
 
         const data = await res.json();
-        // Support both API shapes:
-        // 1) { items: [...] }
-        // 2) [ ... ]
-        allItems = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
-        allItems = dedupeById(allItems);
+        const fresh = dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []));
 
-        // ✅ Keep backend order exactly as delivered (no client-side sorting)
+        // Only re-render if data actually changed
+        const prevSig = itemsSignature(allItems);
+        const nextSig = itemsSignature(fresh);
 
-        applyFilters();
+        writeNewsCache(fresh);
+
+        if (nextSig !== prevSig) {
+          allItems = fresh;
+          lastRenderKey = ""; // force a single re-render
+          applyFilters();
+        }
+
+        newsStatus.style.display = "none";
       } catch (e) {
+        // If cache already rendered, keep it and just show a subtle warning
+        if (allItems && allItems.length) {
+          newsStatus.style.display = "block";
+          newsStatus.textContent = "Artikels geladen uit cache. Vernieuwen lukt momenteel niet.";
+          return;
+        }
         articleList.innerHTML = "";
         newsCountTop.textContent = "—";
         newsCountTop2.textContent = "—";
