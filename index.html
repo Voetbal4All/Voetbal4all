@@ -891,66 +891,62 @@ function renderMonthlyEvents() {
 
 renderMonthlyEvents();
 
-      // Standings (placeholder data) – later vervangen door echte competitie API
-      function renderStandings(listId, emptyId, rows) {
+      // Standings (LIVE) – via backend /api/standings (TheSportsDB)
+      async function loadStandings(listId, emptyId, leagueCode) {
         const listEl = document.getElementById(listId);
         const emptyEl = document.getElementById(emptyId);
         if (!listEl) return;
 
+        // loading state
         listEl.innerHTML = "";
-        if (!Array.isArray(rows) || !rows.length) {
-          if (emptyEl) emptyEl.style.display = "block";
-          return;
-        }
+        const loadingLi = document.createElement("li");
+        loadingLi.className = "event-item";
+        loadingLi.innerHTML = `<div class=\"event-meta\">Stand wordt geladen…</div>`;
+        listEl.appendChild(loadingLi);
         if (emptyEl) emptyEl.style.display = "none";
 
-        rows.slice(0, 6).forEach(r => {
-          const li = document.createElement("li");
-          li.className = "event-item";
-          li.innerHTML = `
-            <div class="standings-row">
-              <span class="standings-team">${r.pos}. ${r.team}</span>
-              <span class="standings-pts">${r.pts} pts</span>
-            </div>
-          `;
-          listEl.appendChild(li);
-        });
+        try {
+          const url = `${API_BASE}/api/standings?league=${encodeURIComponent(leagueCode)}&nocache=1&ts=${Date.now()}`;
+          const res = await fetch(url, { cache: "no-store" });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          const data = await res.json();
+          const table = Array.isArray(data?.table) ? data.table : [];
+
+          if (!table.length) {
+            listEl.innerHTML = "";
+            if (emptyEl) emptyEl.style.display = "block";
+            return;
+          }
+
+          listEl.innerHTML = "";
+          table.slice(0, 6).forEach((r) => {
+            const li = document.createElement("li");
+            li.className = "event-item";
+
+            const logo = r.logo
+              ? `<img src=\"${r.logo}\" alt=\"\" width=\"18\" height=\"18\" style=\"border-radius:50%;vertical-align:middle;margin-right:8px;\" loading=\"lazy\" decoding=\"async\">`
+              : "";
+
+            li.innerHTML = `
+              <div class=\"standings-row\">
+                <span class=\"standings-team\">${r.rank}. ${logo}${(r.team || "").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</span>
+                <span class=\"standings-pts\">${r.points} pts</span>
+              </div>
+            `;
+            listEl.appendChild(li);
+          });
+
+          if (emptyEl) emptyEl.style.display = "none";
+        } catch (e) {
+          console.warn("[STANDINGS] load failed", leagueCode, e);
+          listEl.innerHTML = "";
+          if (emptyEl) emptyEl.style.display = "block";
+        }
       }
 
-      // Voorbeelddata (zet later dynamisch via API)
-      renderStandings(
-        "eredivisie-standings",
-        "eredivisie-standings-empty",
-        [
-          { pos: 1, team: "PSV", played: 18, pts: 45 },
-          { pos: 2, team: "Feyenoord", played: 18, pts: 41 },
-          { pos: 3, team: "Ajax", played: 18, pts: 38 },
-          { pos: 4, team: "AZ", played: 18, pts: 35 },
-          { pos: 5, team: "FC Twente", played: 18, pts: 33 },
-          { pos: 6, team: "Utrecht", played: 18, pts: 30 },
-          { pos: 7, team: "Heerenveen", played: 18, pts: 27 },
-          { pos: 8, team: "Sparta", played: 18, pts: 26 },
-          { pos: 9, team: "NEC", played: 18, pts: 24 },
-          { pos: 10, team: "Vitesse", played: 18, pts: 22 }
-        ]
-      );
-
-      renderStandings(
-        "jpl-standings",
-        "jpl-standings-empty",
-        [
-          { pos: 1, team: "Club Brugge", played: 20, pts: 44 },
-          { pos: 2, team: "Union SG", played: 20, pts: 42 },
-          { pos: 3, team: "Anderlecht", played: 20, pts: 39 },
-          { pos: 4, team: "KAA Gent", played: 20, pts: 36 },
-          { pos: 5, team: "Genk", played: 20, pts: 35 },
-          { pos: 6, team: "Antwerp", played: 20, pts: 33 },
-          { pos: 7, team: "Standard", played: 20, pts: 29 },
-          { pos: 8, team: "Mechelen", played: 20, pts: 28 },
-          { pos: 9, team: "Charleroi", played: 20, pts: 26 },
-          { pos: 10, team: "Cercle Brugge", played: 20, pts: 25 }
-        ]
-      );
+      // Load BE + NL standings
+      loadStandings("jpl-standings", "jpl-standings-empty", "JPL");
+      loadStandings("eredivisie-standings", "eredivisie-standings-empty", "ERED");
 
 });
 </script>
