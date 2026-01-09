@@ -13,7 +13,7 @@
   <!-- Open Graph / Social Media -->
   <meta property="og:title" id="og-title" content="Voetbal4All - Artikel" />
   <meta property="og:description" id="og-description" content="Lees het nieuwste voetbalnieuws" />
-  <meta property="og:image" id="og-image" content="/images/placeholder.svg" />
+  <meta property="og:image" id="og-image" content="assets/img/placeholder.svg" />
   <meta property="og:type" content="article" />
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
@@ -591,18 +591,51 @@
       document.getElementById('article-date').textContent = formatted;
     }
     
+    // --- Image: support both string and object formats ---
     const imageEl = document.getElementById('article-image');
-    if (article.image) {
-      const cleanImage = article.image.split('?')[0];
-      imageEl.src = cleanImage.startsWith('http') ? cleanImage : API_BASE + cleanImage;
+
+    const resolveImageUrl = (imageVal) => {
+      if (!imageVal) return null;
+
+      let raw = "";
+      if (typeof imageVal === "string") {
+        raw = imageVal;
+      } else if (typeof imageVal === "object") {
+        raw = String(imageVal.publicPath || imageVal.url || imageVal.src || "");
+      }
+
+      raw = String(raw || "").trim();
+      if (!raw || raw === "[object Object]") return null;
+
+      // strip querystring
+      const clean = raw.split("?")[0];
+
+      if (clean.startsWith("http://") || clean.startsWith("https://")) return clean;
+      if (clean.startsWith("/")) return API_BASE + clean;
+      return API_BASE + "/" + clean;
+    };
+
+    const fullImageUrl = resolveImageUrl(article.image);
+
+    if (fullImageUrl) {
+      imageEl.style.display = "";
+      imageEl.src = fullImageUrl;
       imageEl.alt = title;
-      if (cleanImage.endsWith('.svg')) imageEl.style.maxHeight = '300px';
-    } else { imageEl.style.display = 'none'; }
-    
-    if (article.image) {
-      const cleanImage = article.image.split('?')[0];
-      const fullImageUrl = cleanImage.startsWith('http') ? cleanImage : (API_BASE + cleanImage);
+      imageEl.loading = "lazy";
+      imageEl.decoding = "async";
+      imageEl.referrerPolicy = "no-referrer";
+      imageEl.onerror = function(){
+        this.onerror = null;
+        this.src = "assets/img/placeholder.svg";
+      };
+
+      if (fullImageUrl.endsWith('.svg')) imageEl.style.maxHeight = '300px';
+
+      // OG image
       document.getElementById('og-image').setAttribute('content', fullImageUrl);
+    } else {
+      imageEl.style.display = 'none';
+      document.getElementById('og-image').setAttribute('content', "assets/img/placeholder.svg");
     }
     
     const standfirstEl = document.getElementById('article-standfirst');

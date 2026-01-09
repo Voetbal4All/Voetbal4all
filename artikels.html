@@ -435,10 +435,28 @@
       return d.toLocaleDateString("nl-BE", { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    function toImgUrl(publicPath){
-      const p = safe(publicPath);
-      if (!p) return null; // ❗ CRITICAL: return null instead of ""
-      // publicPath verwacht zoals "/images/articles/xyz.jpg"
+    function toImgUrl(imageVal){
+      // Supports backend formats:
+      // - string: "/images/articles/..." or full https url
+      // - object: { publicPath: "/images/..." } or { url: "https://..." }
+      if (!imageVal) return null;
+
+      let p = "";
+      if (typeof imageVal === "string") {
+        p = imageVal;
+      } else if (typeof imageVal === "object") {
+        p = String(imageVal.publicPath || imageVal.url || imageVal.src || "");
+      }
+
+      p = safe(p).trim();
+      if (!p) return null;
+
+      // Guard against accidental "[object Object]" / garbage
+      if (p === "[object Object]") return null;
+
+      // If backend returns placeholder as a filename/path, treat it as no-image
+      if (p.toLowerCase().includes("placeholder")) return null;
+
       if (p.startsWith("http://") || p.startsWith("https://")) return p;
       if (p.startsWith("/")) return IMG_BASE + p;
       return IMG_BASE + "/" + p;
@@ -551,9 +569,11 @@
               loading="lazy"
               decoding="async"
               fetchpriority="low"
+              referrerpolicy="no-referrer"
               width="96"
               height="64"
               style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
+              onerror="this.onerror=null;this.src='assets/img/placeholder.svg';"
             />
 
               <div style="min-width:0;flex:1;">

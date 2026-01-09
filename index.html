@@ -766,11 +766,20 @@
             const cc = (country === "BE" || country === "NL") ? country : "INT";
             const flag = flagHtml(cc);
 
-            // image
-            let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
+            // image (support both string and object formats from backend)
+            const imgVal = a?.image;
+            let imgPath = "";
+            if (typeof imgVal === "string") {
+              imgPath = imgVal;
+            } else if (imgVal && typeof imgVal === "object") {
+              imgPath = String(imgVal.publicPath || imgVal.url || imgVal.src || "");
+            }
+
             if (imgPath && imgPath.startsWith("/")) {
               imgPath = IMG_BASE + imgPath;
             }
+
+            const safeImg = imgPath ? String(imgPath).replace(/"/g, "&quot;") : "";
 
             const articleHtml = `
               <article class="home-news__item">
@@ -779,10 +788,13 @@
                     ${imgPath ? `
                       <img
                         class="home-news__thumb"
-                        src="${imgPath}"
+                        src="${safeImg}"
                         alt="${safeTitle}"
                         loading="lazy"
-                      >
+                        decoding="async"
+                        referrerpolicy="no-referrer"
+                        onerror="this.onerror=null;this.src='assets/img/placeholder.svg';"
+                      />
                     ` : ""}
                   </div>
 
