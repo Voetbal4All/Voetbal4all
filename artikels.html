@@ -33,6 +33,11 @@
       flex: 0 0 auto;
     }
     .v4-flag svg { display:block; width:18px; height:12px; }
+    /* Make INT flag a touch larger for visual parity */
+    .v4-flag--int svg {
+      transform: scale(1.12);
+      transform-origin: center;
+    }
   </style>
 </head>
 
@@ -407,7 +412,7 @@
         </span>`;
       }
       // INT
-      return `<span class="v4-flag" aria-label="Internationaal" title="Internationaal">
+      return `<span class="v4-flag v4-flag--int" aria-label="Internationaal" title="Internationaal">
         <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
           <rect width="18" height="12" fill="#0B1B2B" />
           <circle cx="9" cy="6" r="5.2" fill="#2B7A78" />
