@@ -2013,3 +2013,116 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* HOME – TOP GRID: 4 columns; HERO spans 2 cols; standings span down to bottom of quick cards */
+.home-top-grid{
+  display:grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(320px, 1fr) minmax(320px, 1fr) minmax(260px, 1fr);
+  gap:14px;
+  align-items:start;
+}
+
+.hero-card--span2{
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  width:100%;
+}
+
+.home-standings--nl{
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self:start;
+}
+
+.home-standings--be{
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  align-self:start;
+}
+
+.home-stack--left{
+  grid-column: 2;
+  grid-row: 2;
+  min-width:0;
+}
+
+.home-stack--right{
+  grid-column: 3;
+  grid-row: 2;
+  min-width:0;
+}
+
+.home-col-stack{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+/* Tablet/mobile: stack everything */
+@media (max-width: 1100px){
+  .home-top-grid{
+    grid-template-columns: 1fr;
+  }
+  .hero-card--span2,
+  .home-standings--nl,
+  .home-standings--be,
+  .home-stack--left,
+  .home-stack--right{
+    grid-column:auto;
+    grid-row:auto;
+  }
+}
+
+/* === HOME TOP GRID – FINAL OVERRIDE (4 cols, hero spans 2) === */
+.home-top-grid{
+  display: grid !important;
+  grid-template-columns: minmax(260px, 1fr) minmax(320px, 1fr) minmax(320px, 1fr) minmax(260px, 1fr) !important;
+  gap: 14px !important;
+  align-items: start !important;
+}
+
+.hero-card--span2{
+  grid-column: 2 / span 2 !important;
+  grid-row: 1 !important;
+  width: 100% !important;
+}
+
+.home-standings--nl{
+  grid-column: 1 !important;
+  grid-row: 1 / span 2 !important;
+  align-self: start !important;
+}
+
+.home-standings--be{
+  grid-column: 4 !important;
+  grid-row: 1 / span 2 !important;
+  align-self: start !important;
+}
+
+.home-stack--left{
+  grid-column: 2 !important;
+  grid-row: 2 !important;
+  min-width: 0 !important;
+}
+
+.home-stack--right{
+  grid-column: 3 !important;
+  grid-row: 2 !important;
+  min-width: 0 !important;
+}
+
+/* Only stack on smaller screens; 1100px was too aggressive and caused the “everything under each other” issue */
+@media (max-width: 900px){
+  .home-top-grid{
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-card--span2,
+  .home-standings--nl,
+  .home-standings--be,
+  .home-stack--left,
+  .home-stack--right{
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+}
