@@ -241,6 +241,15 @@
       const track = tickerWrap.querySelector(".marquee-track");
       track.textContent = joined;
 
+      // Render flag emojis consistently on Windows (only inside the banner)
+      if (window.twemoji) {
+        twemoji.parse(track, {
+          base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
+          folder: 'svg',
+          ext: '.svg'
+        });
+      }
+
       // Clear eventuele vorige restart timer
       if (marqueeRestartTimer) {
         clearTimeout(marqueeRestartTimer);
