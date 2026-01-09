@@ -2118,9 +2118,16 @@ img {
   align-items: center;
   gap: 8px;
   min-width: 0;
+
+  /* show full team name (no ellipsis) */
+  white-space: normal;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.2;
+
+  /* allow 2 lines max to keep cards tidy */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 /* Force small logos even if there is a global img { max-width:100% } */
