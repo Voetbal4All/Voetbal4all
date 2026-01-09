@@ -20,6 +20,17 @@
   <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css?v=20251227a" />
 
+  <style>
+    /* HOME standings: keep both cards equal height by preventing name wrap */
+    .home-standings-card .standings-name{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+      max-width: 100%;
+    }
+  </style>
+
   <!-- Redirect: /index.html -> / -->
   <script>
     if (location.pathname.endsWith("/index.html")) {
@@ -194,7 +205,7 @@
             <div class="card-caption">Nederland</div>
             <div class="card-title">Rangschikking Eredivisie</div>
           </div>
-          <span class="pill-small">Top 6</span>
+          <span class="pill-small">Top 5</span>
         </div>
         <ul class="events-list" id="eredivisie-standings"></ul>
         <p class="note" id="eredivisie-standings-empty" style="display:none;">Rangschikking niet beschikbaar.</p>
@@ -227,7 +238,7 @@
             <div class="card-caption">België</div>
             <div class="card-title">Rangschikking Jupiler Pro League</div>
           </div>
-          <span class="pill-small">Top 6</span>
+          <span class="pill-small">Top 5</span>
         </div>
         <ul class="events-list" id="jpl-standings"></ul>
         <p class="note" id="jpl-standings-empty" style="display:none;">Rangschikking niet beschikbaar.</p>
@@ -927,7 +938,7 @@ renderMonthlyEvents();
             .replace(/\"/g, "&quot;")
             .replace(/'/g, "&#39;");
 
-          table.slice(0, 6).forEach((r) => {
+          table.slice(0, 5).forEach((r) => {
             const li = document.createElement("li");
             li.className = "event-item";
 
