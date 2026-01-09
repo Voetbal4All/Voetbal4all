@@ -1,6 +1,149 @@
 {
-  "generatedAt": "2026-01-09T08:35:46.362Z",
+  "generatedAt": "2026-01-09T09:32:06.016Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'My best is yet to come' - Semenyo joins Man City in £65m deal",
+      "link": "https://www.bbc.com/sport/football/articles/c801yv529z7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City sign Ghana international Antoine Semenyo from Bournemouth in a deal worth about £65m.",
+      "publishedAt": "2026-01-09T09:20:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Excuses en mooi gebaar na belachelijk maken Congolese fan",
+      "link": "https://www.vi.nl/nieuws/excuses-en-mooi-gebaar-na-belachelijk-maken-van-afrika-cup-protagonist",
+      "summary": "De huidige editie van de Afrika Cup kende tot dusver een verrassende hoofdrolspeler: Michel Kuka Mboladinga alias Lumumba. Dat is niet een voetballer, maar een supporter van DR Congo die bij elk duel van zijn land stokstijf stond gedurende de hele wedstrijd. Zijn verhaal werd nog groter toen hij belachelijk werd gemaakt door een tegenstander, maar de vrede is inmiddels getekend.",
+      "publishedAt": "2026-01-09T09:17:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Manchester City legt dik 70 miljoen euro op tafel voor Semenyo",
+      "link": "https://www.vi.nl/nieuws/manchester-city-legt-dik-70-miljoen-euro-op-tafel-voor-semenyo",
+      "summary": "De transfer hing al een tijdje in de lucht, maar is nu officieel beklonken. Antoine Semenyo maakt per direct de overstap naar Manchester City. Bournemouth ontvangt zo'n 75 miljoen euro voor de vleugelspeler.",
+      "publishedAt": "2026-01-09T09:10:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Premier League-ster, maar als vijftienjarige gestopt: het verhaal van Semenyo",
+      "link": "https://www.vi.nl/pro/het-verhaal-van-antoine-semenyo",
+      "summary": "Bournemouth deed afgelopen zomer drie grote uitgaande transfers en de volgende blikvanger staat alweer klaar. Antoine Semenyo (25) behoort tot de beste spelers van de Premier League. En exact tien jaar geleden voetbalde hij niet eens.",
+      "publishedAt": "2026-01-09T09:10:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City confirms Semenyo signing in $84m deal",
+      "link": "https://www.espn.com/soccer/story/_/id/47537480/man-city-transfer-antoine-semenyo-bournemouth-64-million-premier-league",
+      "summary": "Manchester City have announced the signing of Antoine Semenyo from Bournemouth.",
+      "publishedAt": "2026-01-09T09:06:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Xabi slams Simeone shouts at Vini: 'Didn't like it'",
+      "link": "https://www.espn.com/soccer/story/_/id/47552638/real-madrid-xabi-slams-simeone-comments-vinicius",
+      "summary": "Xabi Alonso slammed Diego Simeone for his clash with Vinícius Júnior during Real Madrid's 2-1 Supercopa semifinal win over Atlético Madrid on Thursday, saying \"not anything goes.\"",
+      "publishedAt": "2026-01-09T09:05:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool criticize Martinelli, fear for Bradley injury",
+      "link": "https://www.espn.com/soccer/story/_/id/47553636/liverpool-unhappy-martinelli-fear-bradley",
+      "summary": "Liverpool manager Arne Slot said Gabriel Martinelli's push on an injured Conor Bradley in his side's 0-0 draw with Arsenal on Thursday \"doesn't look great,\" adding that he feared for the extent of Bradley's injury.",
+      "publishedAt": "2026-01-09T09:05:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Martinelli 'deeply sorry' for shoving injured Bradley",
+      "link": "https://www.espn.com/soccer/story/_/id/47556803/gabriel-martinelli-issues-direct-apology-conor-bradley-incident",
+      "summary": "Arsenal winger Gabriel Martinelli revealed he reached out to Conor Bradley to apologize for shoving the badly injured Liverpool defender off the pitch late in Thursday's 0-0 draw",
+      "publishedAt": "2026-01-09T09:05:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Taylor naar Lazio: 'Kan De Vrij-route bewandelen'",
+      "link": "https://www.vi.nl/video/taylor-naar-lazio-kan-de-vrij-route-bewandelen",
+      "summary": "Kenneth Taylor vertrekt van Ajax naar Lazio. In VI ZSM hebben Rob Aarts en Sjoerd Keizer het over deze stap en gaat het over de Lazio-interesse in Quinten Timber.",
+      "publishedAt": "2026-01-09T09:05:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why Man City have signed 'extraordinary' Semenyo",
+      "link": "https://www.bbc.com/sport/football/articles/c9qeryx8vn4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Antoine Semenyo has gone from Bristol City to Man City in the space of three years. BBC Sport looks at why Pep Guardiola has moved for the Bournemouth man.",
+      "publishedAt": "2026-01-09T09:02:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City sign Antoine Semenyo for initial £62.5m on contract to 2031",
+      "link": "https://www.theguardian.com/football/2026/jan/09/manchester-city-sign-antoine-semenyo-bournemouth-contract-pep-guardiola",
+      "summary": "Deal with Bournemouth has add-ons and sell-on clause Semenyo says he is aiming to get City into the title race Antoine Semenyo says he has arrived at Manchester City with the intention of getting the club back into the Premier League title race. The £62.5m signing joins a team six points behind the leaders, Arsenal, with 17 matches remaining. The 26-year-old’s transfer from Bournemouth, who could receive £1.5m in add-ons and are due 10% of any future profit, was confirmed on Friday and Semenyo could make his debut against Exeter in the FA Cup on Saturday. City fought off competition from Liverpool and Manchester United to secure his signature. Continue reading...",
+      "publishedAt": "2026-01-09T09:00:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Tiende plaats past Spartanen als een jas",
+      "link": "https://www.vi.nl/pro/tiende-plaats-past-spartanen-als-een-jas",
+      "summary": "Op een paar uitzonderingen na die juist net in een flow waren geraakt, haalden de Eredivisie-clubs op het tandvlees de winterstop. Veel tijd om weer op adem te komen, hebben ze alleen niet, want dit weekeinde begint het hele circus alweer. In aanloop naar het cruciale deel van het seizoen maken we bij elke club de balans op, waarbij we wat de volgorde betreft uitgaan van de eerste speelronde van 2026. Deze keer: middenmoter Sparta Rotterdam.",
+      "publishedAt": "2026-01-09T09:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'If you're outside the top six, you can never target an FA Cup run'",
+      "link": "https://www.bbc.com/sport/football/articles/czjgevelvk1o?at_medium=RSS&at_campaign=rss",
+      "summary": "In his BBC Sport column, ex-Premier League boss Tony Pulis explains why the FA Cup has fallen down the pecking order for managers, despite still being a special competition.",
+      "publishedAt": "2026-01-09T08:47:42.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,51 +153,29 @@
       "title": "Arsenal still in control of title race; Liverpool show they need to improve",
       "link": "https://www.espn.com/soccer/story/_/id/47553557/arsenal-control-title-race-liverpool-need-improvements",
       "summary": "Both Arsenal and Liverpool settled for a point in a scoreless draw, but it was a missed opportunity for the Gunners to extend their lead in the Premier League.",
-      "publishedAt": "2026-01-09T08:30:02.000Z"
+      "publishedAt": "2026-01-09T08:45:50.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kluivert hoopt na succesvolle operatie op WK-deelname met Oranje",
-      "link": "https://www.vi.nl/nieuws/kluivert-hoopt-na-succesvolle-operatie-op-wk-deelname-met-oranje",
-      "summary": "Justin Kluivert heeft WK-deelname met het Nederlands elftal nog niet uit zijn hoofd gezet. De aanvallende middenvelder van Bournemouth is donderdag met succes geopereerd aan zijn linkerknie en is hoopvol gestemd, laat hij weten aan De Telegraaf .",
-      "publishedAt": "2026-01-09T08:26:00.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ref Watch LIVE! Did Martinelli receive correct punishment for push on Bradley?",
+      "link": "https://www.skysports.com/football/live-blog/12040/13492309/ref-watch-live-premier-league-efl-and-scottish-premiership-incidents-analysed-by-dermot-gallagher-and-jay-bothroyd",
+      "summary": "",
+      "publishedAt": "2026-01-09T08:14:00.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Liverpool liet weer eens een keer zien dat ze de kampioen zijn'",
-      "link": "https://www.vi.nl/nieuws/liverpool-liet-weer-eens-een-keer-zien-dat-ze-de-kampioen-zijn",
-      "summary": "Liverpool heeft indruk gemaakt in Engeland tijdens het doelpuntloze gelijkspel tegen Premier League-koploper Arsenal . Over de landstitel wil het team van manager Arne Slot niet praten na een slechte serie, maar in het Emirates Stadium speelde Liverpool in ieder geval als een kampioen.",
-      "publishedAt": "2026-01-09T08:20:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Valencia haalt Sadiq (ex-NAC) terug, Hoever op huurbasis naar Sheffield United",
-      "link": "https://www.vi.nl/nieuws/valencia-haalt-sadiq-ex-nac-terug-hoever-op-huurbasis-naar-sheffield-united",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-09T08:11:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Real Madrid is door, maar God helpe hen tegen Barcelona'",
-      "link": "https://www.vi.nl/nieuws/valverde-wil-revanche-tegen-barca-alonso-hoopvol-over-mbappe",
-      "summary": "Federico Valverde is uit op revanche tegen Barcelona na de zwaarbevochten overwinning op Atlético Madrid in de halve finale van de Spaanse Super Cup. De gelegenheidsaanvoerder van Real Madrid erkende dat zijn ploeg daarin goed wegkwam met een zege.",
-      "publishedAt": "2026-01-09T08:00:33.000Z"
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Victor Osimhen’s volatile temperament risks harming Nigeria’s Afcon quest",
+      "link": "https://www.theguardian.com/football/2026/jan/09/victor-osimhen-nigeria-football-africa-cup-of-nations",
+      "summary": "Talismanic forward’s spat with teammate Ademola Lookman highlights the problematic behaviour threatening to overshadow his talent Victor Osimhen is the talisman, the attacking arrowhead of Nigeria’s Super Eagles at the Africa Cup of Nations in Morocco, his three goals offering a warning to Algeria before Saturday’s quarter-final. But the focus on the 27 year old this week has fallen less on his talent and more on his behaviour. Osimhen’s volatile temperament, displayed in a spat with his teammate Ademola Lookman during Monday’s 4-0 win against Mozambique, has grabbed the headlines. The Galatasaray striker scored twice to underline his world-class finishing but that has been rendered almost an afterthought. Continue reading...",
+      "publishedAt": "2026-01-09T08:00:31.000Z"
     },
     {
       "type": "rss",
@@ -69,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Xabi Alonso hekelt uitspraken van 'onsportieve' Simeone",
-      "link": "https://www.vi.nl/video/xabi-alonso-hekelt-uitspraken-van-onsportieve-simeone",
-      "summary": "'Vini, Vini. Onthoud wat ik je zeg, Florentino (Pérez, red.) gaat ervoor zorgen dat je weg moet.' De Spaanse liplezers waren er snel over uit, dit zou Atlético Madrid-trainer Diego Simeone naar Vinícius Júnior hebben geschreeuwd in de openingsfase van de wedstrijd tussen Atléti en Real Madrid in de halve finale van de Super Cup . Zelf wilde Simeone er niet op reageren , Real Madrid-coach Xabi Alonso was niet te spreken over de uitspraken van zijn collega.",
-      "publishedAt": "2026-01-09T07:16:09.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -87,17 +197,6 @@
       "title": "Mill Reef hero Words Of Truth returns at Meydan",
       "link": "https://www.skysports.com/racing/news/12040/13491600/today-on-sky-sports-racing-newcastle-southwell-wolverhampton-and-meydan",
       "summary": "We have a busy day’s racing on Friday with action from Newcastle, Southwell, Wolverhampton and Meydan, live on Sky Sports Racing...",
-      "publishedAt": "2026-01-09T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Australian Open 2026: Dates and match schedule",
-      "link": "https://www.skysports.com/tennis/news/12040/13492135/australian-open-2026-schedule-and-draw-dates-seeds-format-and-favourites-for-first-grand-slam-of-year",
-      "summary": "The first Grand Slam of the year takes place at the Australian Open in Melbourne as Jannik Sinner and Madison Keys look to defend their titles.",
       "publishedAt": "2026-01-09T07:00:00.000Z"
     },
     {
@@ -121,105 +220,6 @@
       "link": "https://www.skysports.com/cricket/news/12040/13492183/the-ashes-questions-for-england-after-australia-defeat-should-brendon-mccullum-and-ben-stokes-stay-on-and-who-comes-into-test-team",
       "summary": "With England left to lick their wounds after yet another Ashes drubbing in Australia, we look at the most pressing questions facing the team as they address the fallout from their 4-1 series defeat...",
       "publishedAt": "2026-01-09T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Xabi slams Simeone shouts at Vini: 'Didn't like it'",
-      "link": "https://www.espn.com/soccer/story/_/id/47552638/real-madrid-xabi-slams-simeone-comments-vinicius",
-      "summary": "Xabi Alonso slammed Diego Simeone for his clash with Vinícius Júnior during Real Madrid's 2-1 Supercopa semifinal win over Atlético Madrid on Thursday, saying \"not anything goes.\"",
-      "publishedAt": "2026-01-09T05:12:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool criticize Martinelli, fear for Bradley injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47553636/liverpool-unhappy-martinelli-fear-bradley",
-      "summary": "Liverpool manager Arne Slot said Gabriel Martinelli's push on an injured Conor Bradley in his side's 0-0 draw with Arsenal on Thursday \"doesn't look great,\" adding that he feared for the extent of Bradley's injury.",
-      "publishedAt": "2026-01-09T05:12:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Martinelli 'deeply sorry' for shoving injured Bradley",
-      "link": "https://www.espn.com/soccer/story/_/id/47556803/gabriel-martinelli-issues-direct-apology-conor-bradley-incident",
-      "summary": "Arsenal winger Gabriel Martinelli revealed he reached out to Conor Bradley to apologize for shoving the badly injured Liverpool defender off the pitch late in Thursday's 0-0 draw",
-      "publishedAt": "2026-01-09T05:12:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mourinho on shock loss: I hope players don't sleep",
-      "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
-      "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
-      "publishedAt": "2026-01-09T05:12:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Idiot' or 'understandable'? Martinelli apologises for pushing Bradley",
-      "link": "https://www.bbc.com/sport/football/articles/c5yv2j19q23o?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal's Gabriel Martinelli is criticised for pushing Conor Bradley while he was down injured - but Liverpool boss Arne Slot defends him.",
-      "publishedAt": "2026-01-09T00:50:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FA Cup third round: 10 things to look out for this weekend",
-      "link": "https://www.theguardian.com/football/2026/jan/09/fa-cup-third-round-10-things-to-look-out-for-this-weekend",
-      "summary": "Macclesfield and Weston-super-Mare carry the non-league hopes while fringe players need to seize their chances Silly goals conceded, chances missed, a lead surrendered and points squandered against relegation fodder. On the face of things, Manchester United have changed manager but nothing else. The reality is different. They started slowly at Burnley, settling into a 4-2-3-1 formation that suits them – and pretty much every other team – far better than Ruben Amorim’s 3-4-2-1 before, midway through the first half, they started to play. The deployment of Bruno Fernandes close to the opposition goal, along with a wide player, Patrick Dorgu, playing on his natural side, meant Benjamin Sesko was, for the first time, provided with decent service. Then, following Jaidon Anthony’s equaliser, Darren Fletcher’s side risked defeat by going all out for the win – one nearly achieved through the timely introduction of Shea Lacey, a richly talented 18-year-old. Brighton will present far stiffer opposition but, for the first time in a long time, United are doing what United are meant to do. Daniel Harris Manchester United v Brighton, Sunday 4.30pm (all GMT) Macclesfield v Crystal Palace, Saturday 12.15pm Grimsby v Weston-super-Mare, Saturday 5.45pm Manchester City v Exeter, Saturday 3pm Continue reading...",
-      "publishedAt": "2026-01-09T00:00:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool stop 'bleeding' but miss their old cutting edge",
-      "link": "https://www.bbc.com/sport/football/articles/cr4k2qgnlk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Liverpool have stopped bleeding but must now find some cutting edge in front of goal, writes Aadam Patel.",
-      "publishedAt": "2026-01-08T23:54:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kyrgios not ready to play singles at Australian Open",
-      "link": "https://www.skysports.com/tennis/news/12040/13492134/nick-kyrgios-admits-he-is-not-ready-to-play-singles-at-the-australian-open-and-will-instead-focus-on-doubles-alongside-thanasi-kokkinakis",
-      "summary": "Nick Kyrgios admits he is not ready to play singles at the Australian Open and will instead focus on the doubles event alongside his partner Thanasi Kokkinakis.",
-      "publishedAt": "2026-01-08T23:53:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Return of the Emirates Groan: Arsenal fans restless on night of stalemate with Liverpool | Jonathan Liew",
-      "link": "https://www.theguardian.com/football/2026/jan/08/emirates-groan-arsenal-fans-restless-stalemate-liverpool",
-      "summary": "Only one club are sitting pretty at the top of the Premier League, but the supporters’ anxiety after 22 years without the title risks infecting the players Full-time and handshakes. A little Tears for Fears tinkles over the public address system. Beyond that … what, exactly? How to describe this swirling, velvety anti-noise? The sound of no gloves clapping? The sound of time physically disappearing down a vortex? The sound of no emotions? It began with North London Forever and by the end we felt as though we had been in north London for ever: stuck on an endless loop of William Saliba passing to Jurriën Timber, of Virgil van Dijk pausing as he tried to bait a press that would never come. Long periods of this game were played at literal walking pace. Continue reading...",
-      "publishedAt": "2026-01-08T23:51:27.000Z"
     }
   ]
 }
