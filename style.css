@@ -2163,3 +2163,34 @@ img {
   opacity: 0.9;
   font-size: 13px;
 }
+
+/* ===============================
+   HOME – artikel lijst: vlag + titel op 1 regel
+   =============================== */
+   .home-news__titleRow{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    min-width:0; /* allow ellipsis */
+  }
+  
+  .v4a-flag{
+    display:inline-flex;
+    align-items:center;
+    flex:0 0 auto;
+  }
+  
+  .v4a-flag__img{
+    display:block;
+    width:18px;
+    height:12px;
+    object-fit:contain;
+  }
+  
+  .home-news__title{
+    margin:0;
+    min-width:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
