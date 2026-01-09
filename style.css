@@ -881,17 +881,6 @@ footer { margin-top: auto; }
     white-space:nowrap;
   }
 
-  /* Title rows must be allowed to wrap to avoid overlapping the right column */
-  /* (duplicate, will be removed below) */
-  .home-news__titleRow{
-    display:flex;
-    align-items:flex-start;
-    gap:10px;
-    white-space:normal;
-    flex-wrap:wrap;
-    min-width:0;
-  }
-  
   /* Legacy/compat: als er nog oude classes in HTML staan */
   img.flag-icon{
     display:block;
@@ -1910,7 +1899,32 @@ img {
   .home-news__meta{
     min-width:0;
     flex:1 1 auto;
+    position: relative; /* nodig om vlag in titelregel te positioneren */
   }
+
+  /* Forceer vlag VISUEEL in dezelfde titelregel, zonder overflow naar de rechterkolom */
+.home-news__meta .v4a-flag,
+.home-news__meta .flag-inline,
+.home-news__meta img.flag-icon{
+  position: absolute;
+  left: 0;
+  top: 2px;
+  margin: 0;
+  line-height: 1;
+}
+
+.home-news__meta .v4a-flag__img,
+.home-news__meta img.flag-icon{
+  height: 12px;
+  width: 18px;
+  object-fit: cover;
+}
+
+/* Reserveer horizontale ruimte voor de vlag in de titel zelf */
+.home-news__meta .home-news__title{
+  padding-left: 26px;
+  max-width: 100%;
+}
 
   .home-news__title{
     white-space:normal;
@@ -2198,6 +2212,7 @@ img {
 .home-news__title{
   margin:0;
   min-width:0;
+  max-width: 100%;
   white-space:normal;
   overflow:visible;
   text-overflow:clip;
