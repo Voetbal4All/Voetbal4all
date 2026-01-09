@@ -306,6 +306,8 @@ footer { margin-top: auto; }
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  flex-wrap: nowrap;
+  min-width: 0;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 
   /* voor update overlay */
@@ -386,6 +388,7 @@ footer { margin-top: auto; }
   display: flex;
   align-items: center;
   min-height: 28px;
+  min-width: 0; /* belangrijk voor flex layouts op Windows/Chromium */
 }
 
 /* Marquee track via JS variabelen (start buiten rechts, eind buiten links) */
@@ -863,6 +866,44 @@ footer { margin-top: auto; }
   align-items: center;
   justify-content: center;
   font-size: 14px;
+}
+
+/* =======================
+   FLAGS – SINGLE SOURCE (ALL PAGES)
+   Doel: 1 uniforme inline-layout + consistente icon-grootte (incl. INT)
+   ======================= */
+
+/* Container die altijd op 1 regel blijft (flag + land + category + brand) */
+.flag-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+/* Universele flag icon (werkt voor SVG én PNG/WebP) */
+img.flag-icon,
+svg.flag-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  object-fit: contain;
+  flex: 0 0 auto;
+  vertical-align: middle;
+}
+
+/* INT flag iets groter zodat hij visueel gelijk aan BE/NL oogt */
+img.flag-icon.flag-icon--int,
+svg.flag-icon.flag-icon--int {
+  width: 20px;
+  height: 20px;
+}
+
+/* Als er nog tekstfallback bestaat (BE/NL/INT), houd die ook netjes inline */
+.flag-fallback-text {
+  display: inline-block;
+  line-height: 1;
 }
 
 .article-meta {
