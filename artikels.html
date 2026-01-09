@@ -365,21 +365,13 @@
     function norm(s){ return safe(s).toLowerCase().trim(); }
 
     function inferCountry(a){
-      // 1) Neem backend-country als die bruikbaar is
-      const raw = norm(a?.country || "");
-      if (raw && raw !== "int" && raw !== "international" && raw !== "internationaal") {
-        if (raw === "be" || raw.includes("belg")) return "be";
-        if (raw === "nl" || raw.includes("neder")) return "nl";
-        if (raw === "uk" || raw === "gb" || raw.includes("eng")) return "gb";
-        if (raw === "fr" || raw.includes("fran")) return "fr";
-        if (raw === "de" || raw.includes("duit")) return "de";
-        if (raw === "es" || raw.includes("span")) return "es";
-        if (raw === "it" || raw.includes("ital")) return "it";
-        return raw; // onbekend maar wel ingevuld
-      }
+      const raw = String(a?.country || "").trim().toUpperCase();
 
-      
-      return "int";
+      if (raw === "BE" || raw.includes("BELG")) return "BE";
+      if (raw === "NL" || raw.includes("NEDER")) return "NL";
+
+      // alles wat niet BE/NL is: internationaal
+      return "INT";
     }
 
     function detectCountry(a){
@@ -407,29 +399,30 @@
       return "Internationaal";
     }
 
+    // Flags: single source of truth (local assets)
+    const FLAG_SRC = {
+      BE: "/assets/img/sources/flag-be.svg",
+      NL: "/assets/img/sources/flag-nl.svg",
+      INT: "/assets/img/sources/flag-int.svg"
+    };
+
     function flagHtml(cc){
-      const c = String(cc || "").trim().toUpperCase();
-      if (c === "BE" || c === "NL") {
-        const code = c.toLowerCase();
-        return `
+      const c = String(cc || "INT").trim().toUpperCase();
+      const src = FLAG_SRC[c] || FLAG_SRC.INT;
+      const alt = (c === "BE") ? "België" : (c === "NL") ? "Nederland" : "Internationaal";
+
+      return `
+        <span class="v4a-flag" aria-hidden="true">
           <img
             class="v4a-flag__img"
-            src="https://cdn.jsdelivr.net/npm/country-flag-icons@1.5.7/3x2/${code}.svg"
-            alt="${c}"
+            src="${src}"
+            alt="${alt}"
             loading="lazy"
             decoding="async"
+            width="18"
+            height="12"
           />
-        `.trim();
-      }
-      return `
-        <svg class="v4a-flag__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
-          <path d="M12 3c-3.4 3.2-3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
-          <path d="M12 3c3.4 3.2 3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
-          <path d="M3.5 12h17" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
-          <path d="M5.8 8.7c2 .8 4.1 1.3 6.2 1.3s4.2-.5 6.2-1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
-          <path d="M5.8 15.3c2-.8 4.1-1.3 6.2-1.3s4.2.5 6.2 1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
-        </svg>
+        </span>
       `.trim();
     }
 
@@ -540,8 +533,13 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta ad-card-meta--country"><span class="meta-flag v4a-flag" aria-hidden="true">${flagHtml(detectCountry(a))}</span><span class="meta-country">${countryLabel(detectCountry(a))}</span>${category ? ` · ${category}` : ""} · Voetbal4All</div>
-                <div class="ad-card-meta">${fmtDate(date)}</div>
+                <div class="ad-card-meta">
+                  ${flagHtml(cc)}
+                  <span class="ad-card-meta__country">${countryLabel(cc)}</span>
+                  ${category ? `<span class="ad-card-meta__sep">·</span><span class="ad-card-meta__cat">${category}</span>` : ""}
+                  <span class="ad-card-meta__sep">·</span>
+                  <span class="ad-card-meta__date">${fmtDate(date)}</span>
+                </div>
               </div>
             </div>
 

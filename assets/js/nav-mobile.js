@@ -5,6 +5,8 @@
 
   function closeAll() {
     if (!nav || !burger) return;
+
+    // Always normalize state (also on initial load)
     nav.classList.remove("is-open");
     burger.setAttribute("aria-expanded", "false");
     document

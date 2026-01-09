@@ -13,16 +13,18 @@
        - Avoid emoji flags (OS-dependent) and inline SVG variations
     ========================================================= */
     const FLAG_SRC = {
-      BE: "assets/img/sources/flag-be.svg",
-      NL: "assets/img/sources/flag-nl.svg",
-      INT: "assets/img/sources/flag-int.svg"
+      BE: "/assets/img/sources/flag-be.svg",
+      NL: "/assets/img/sources/flag-nl.svg",
+      INT: "/assets/img/sources/flag-int.svg"
     };
 
     function flagImg(code, sizeClass = "") {
-      const src = FLAG_SRC[code] || FLAG_SRC.INT;
-      const alt = code || "INT";
+      const c = String(code || "INT").trim().toUpperCase();
+      const src = FLAG_SRC[c] || FLAG_SRC.INT;
+      const alt = (c === "BE") ? "België" : (c === "NL") ? "Nederland" : "Internationaal";
+      const intCls = (c === "INT") ? " v4a-flag--int" : "";
       const extra = sizeClass ? ` ${sizeClass}` : "";
-      return `<span class="v4a-flag${extra}"><img class="v4a-flag__img" src="${src}" alt="${alt}" loading="lazy" decoding="async"></span>`;
+      return `<span class="v4a-flag${intCls}${extra}"><img class="v4a-flag__img" src="${src}" alt="${alt}" loading="lazy" decoding="async" width="18" height="12"></span>`;
     }
 
     /* =========================================================

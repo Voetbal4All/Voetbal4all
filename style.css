@@ -765,104 +765,6 @@ footer { margin-top: auto; }
   display: none !important;
 }
 
-/* =======================
-   V4A FLAGS (SINGLE SOURCE OF TRUTH)
-   - Always use local SVGs from: assets/img/sources/
-   - Works identical on Mac + Windows (no emoji, no OS font rendering)
-   ======================= */
-
-.v4a-flag {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 auto;
-  line-height: 1;
-}
-
-.v4a-flag__img {
-  display: block;
-  height: 14px;
-  width: auto;
-  border-radius: 3px;
-  object-fit: cover;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
-}
-
-/* Slightly larger flags where needed */
-.v4a-flag--md .v4a-flag__img { height: 16px; }
-.v4a-flag--lg .v4a-flag__img { height: 18px; }
-
-/* Utility: keep flag aligned with text */
-.v4a-flag + .v4a-flag-text,
-.v4a-flag + span,
-.v4a-flag + strong {
-  margin-left: 6px;
-}
-
-/* Live banner: keep flags perfectly aligned */
-.live-banner .v4a-flag__img {
-  vertical-align: middle;
-}
-
-/* =======================
-   ARTIKELS / OVERZICHTEN
-   ======================= */
-
-.article-meta-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.ad-card-list {
-  display: grid;
-  gap: 10px;
-}
-
-.ad-card-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  display: grid;
-  gap: 10px;
-}
-
-.ad-card {
-  border-radius: var(--radius-lg);
-  background: var(--bg-soft);
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-subtle);
-  padding: 10px 12px;
-}
-
-.ad-card-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 4px;
-}
-
-.ad-card-title {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.ad-card-meta {
-  font-size: 11px;
-  color: var(--muted);
-}
-
-.ad-card-body {
-  font-size: 12px;
-  color: var(--muted);
-  margin-top: 2px;
-}
-
-.ad-card-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 8px;
-}
-
 /* Home/Artikel-kaarten (compact) */
 .home-article-card--compact {
   display: flex;
@@ -907,72 +809,62 @@ footer { margin-top: auto; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
 }
 
 /* =======================
    FLAGS – SINGLE SOURCE OF TRUTH (ALL PAGES)
-   Doel: overal dezelfde professionele flags (Mac + Windows)
-   Richtlijn: gebruik <img class="v4a-flag__img"> met lokale assets (assets/img/sources)
+   Gebruik overal lokale SVG/PNG/WebP uit: /assets/img/sources/
+   - Geen emoji flags (OS-afhankelijk)
+   - Geen inline SVG varianten per pagina
    ======================= */
 
-/* Primary flag wrapper */
-.v4a-flag{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  flex:0 0 auto;
-  line-height:1;
-  vertical-align:middle;
-}
-
-/* Primary flag image (SVG/PNG/WebP) */
-.v4a-flag__img{
-  display:block;
-  height:14px;
-  width:auto;
-  border-radius:3px;
-  object-fit:cover;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.12);
-}
-
-/* Optional: slightly larger INT globe if needed */
-.v4a-flag--int .v4a-flag__img{
-  height:16px;
-}
-
-/* Backward-compatibility: map older classes to the same sizing (prevents breakage while we harmonize HTML) */
-.flag-inline,
-.article-meta-row,
-.home-news__flag{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  white-space:nowrap;
-  line-height:1;
-}
-
-img.flag-icon,
-svg.flag-icon,
-.flag-badge{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  line-height:1;
-  vertical-align:middle;
-}
-
-img.flag-icon{
-  height:14px;
-  width:auto;
-  border-radius:3px;
-  object-fit:cover;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.12);
-}
-
-img.flag-icon.flag-icon--int{
-  height:16px;
-}
+   .v4a-flag{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex:0 0 auto;
+    line-height:1;
+    vertical-align:middle;
+  }
+  
+  .v4a-flag__img{
+    display:block;
+    height:14px;
+    width:auto;
+    border-radius:3px;
+    object-fit:cover;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.12);
+  }
+  
+  /* iets groter voor globe (INT) */
+  .v4a-flag--int .v4a-flag__img{
+    height:16px;
+  }
+  
+  /* Meta-rijen altijd op 1 lijn */
+  .ad-card-meta,
+  .article-meta-row,
+  .flag-inline,
+  .home-news__titleRow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    white-space:nowrap;
+  }
+  
+  /* Legacy/compat: als er nog oude classes in HTML staan */
+  img.flag-icon{
+    display:block;
+    height:14px;
+    width:auto;
+    border-radius:3px;
+    object-fit:cover;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.12);
+  }
+  
+  img.flag-icon.flag-icon--int{
+    height:16px;
+  }
 
 .article-meta {
   font-size: 11px;

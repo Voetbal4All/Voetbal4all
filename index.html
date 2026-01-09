@@ -27,12 +27,6 @@
     }
   </script>
 
-  <style>
-    /* V4A flags (professional, consistent on Mac + Windows) */
-    .v4a-flag{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;line-height:1;}
-    .v4a-flag__img{display:block;height:14px;width:auto;border-radius:3px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.18);}
-    .v4a-flag__svg{display:block;height:14px;width:14px;color:rgba(255,255,255,.88);}
-  </style>
 
 </head>
 
@@ -617,15 +611,28 @@
       }
 
       function flagHtml(cc){
-        const c = String(cc || "").toUpperCase();
-        if (c === "BE") {
-          return `<img class="v4a-flag__img" src="assets/img/sources/flag-be.svg" alt="BE" loading="lazy" decoding="async">`;
-        }
-        if (c === "NL") {
-          return `<img class="v4a-flag__img" src="assets/img/sources/flag-nl.svg" alt="NL" loading="lazy" decoding="async">`;
-        }
-        // INT or any other: use local INT
-        return `<img class="v4a-flag__img" src="assets/img/sources/flag-int.svg" alt="INT" loading="lazy" decoding="async">`;
+        const c = String(cc || "INT").trim().toUpperCase();
+        const FLAG_SRC = {
+          BE: "/assets/img/sources/flag-be.svg",
+          NL: "/assets/img/sources/flag-nl.svg",
+          INT: "/assets/img/sources/flag-int.svg",
+        };
+        const src = FLAG_SRC[c] || FLAG_SRC.INT;
+        const alt = c === "BE" ? "België" : (c === "NL" ? "Nederland" : "Internationaal");
+
+        return `
+          <span class="v4a-flag" aria-hidden="true">
+            <img
+              class="v4a-flag__img"
+              src="${src}"
+              alt="${alt}"
+              loading="lazy"
+              decoding="async"
+              width="18"
+              height="12"
+            />
+          </span>
+        `.trim();
       }
 
       // 1) Toon cache onmiddellijk (sneller), maar blijf daarna live ophalen
@@ -738,7 +745,8 @@
 
           // 4) vlag op basis van country (inline SVG, no emoji)
           const country = (a?.country || "").toUpperCase();
-          const flag = flagHtml(country);
+          const cc = (country === "BE" || country === "NL") ? country : "INT";
+          const flag = flagHtml(cc);
 
             // 3) JUISTE image: backend levert image als STRING
             let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
@@ -765,7 +773,7 @@
 
                   <div class="home-news__meta">
                     <div class="home-news__titleRow">
-                      <span class="v4a-flag" aria-hidden="true">${flag}</span>
+                      ${flag}
                       <h4 class="home-news__title">${safeTitle}</h4>
                     </div>
                   </div>
