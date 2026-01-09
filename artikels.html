@@ -315,7 +315,7 @@
 
     // Backend endpoints
     const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-    const NEWS_URL_FAST = IMG_BASE + "/api/news?limit=50";  // fast first paint (first page)
+    const NEWS_URL_FAST = IMG_BASE + "/api/news?limit=20";  // fast first paint (first page)
     const NEWS_URL_FULL = IMG_BASE + "/api/news?limit=200"; // full dataset for filters/pagination
 
     const articleList = document.getElementById("article-list");
@@ -331,7 +331,7 @@
     let allItems = [];
     let filteredItems = [];       // ✅ nieuw: huidige filterresultaat
     let currentPage = 1;          // ✅ nieuw
-    const PAGE_SIZE = 50;         // ✅ nieuw
+    const PAGE_SIZE = 20;         // ✅ sneller eerste paint
 
     // Client-side cache to render instantly on repeat visits (does not affect backend order)
     const NEWS_CACHE_KEY = "v4_news_cache_v1";
@@ -708,6 +708,18 @@
         }
       }
           }
+    async function fetchJsonWithTimeout(url, ms){
+      const controller = new AbortController();
+      const t = setTimeout(() => controller.abort(), ms);
+      try {
+        const res = await fetch(url, { signal: controller.signal });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return await res.json();
+      } finally {
+        clearTimeout(t);
+      }
+    }
+
     async function loadNews(){
       // 1) Try instant render from cache
       const cached = readNewsCache();
@@ -735,10 +747,8 @@
 
       // 2) Refresh in background (network)
       try{
-        const res = await fetch(NEWS_URL_FAST, { cache: "no-store" });
-        if (!res.ok) throw new Error("HTTP " + res.status);
-
-        const data = await res.json();
+        // FAST: allow caching (browser/CDN) and time out quickly to avoid 10–15s hangs
+        const data = await fetchJsonWithTimeout(NEWS_URL_FAST, 4500);
         const fresh = dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []));
 
         // Fast paint: if we had no cache, render ASAP with the first page results
@@ -746,14 +756,13 @@
           allItems = fresh;
           lastRenderKey = "";
           applyFilters();
+          newsStatus.style.display = "none";
           // push the 3 static ad slots (header, top infeed, sidebar) after first paint
           scheduleAdsPush(3);
         }
 
-        // Now fetch the full dataset in the background for correct counts/filters/pagination
-        const resFull = await fetch(NEWS_URL_FULL, { cache: "no-store" });
-        if (!resFull.ok) throw new Error("HTTP " + resFull.status);
-        const dataFull = await resFull.json();
+        // FULL: fetch in background with a longer timeout
+        const dataFull = await fetchJsonWithTimeout(NEWS_URL_FULL, 12000);
         const fullItems = dedupeById(Array.isArray(dataFull) ? dataFull : (Array.isArray(dataFull?.items) ? dataFull.items : []));
 
         // Only re-render if data actually changed
