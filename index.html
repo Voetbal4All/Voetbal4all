@@ -41,7 +41,7 @@
       flex: 0 0 auto;
     }
   </style>
-  <script defer src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
  
 
   <!-- Redirect: /index.html -> / -->
@@ -806,9 +806,13 @@
         } catch (e) {
           console.warn("[ADS] push failed", e);
         }
-        // Twemoji parse for flag emojis
+        // Twemoji parse for emoji flags (use jsDelivr asset host)
         if (window.twemoji) {
-          twemoji.parse(homeListEl, { folder: 'svg', ext: '.svg' });
+          twemoji.parse(homeListEl, {
+            base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
+            folder: 'svg',
+            ext: '.svg'
+          });
         }
         hasRenderedHomeNews = true;
         hideStatus();
