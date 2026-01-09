@@ -20,13 +20,6 @@
       color: rgba(255,255,255,0.6);
       opacity: 1; /* keep text readable even when disabled */
     }
-    /* Emoji flags rendered consistently via Twemoji */
-    img.emoji {
-      width: 16px;
-      height: 16px;
-      vertical-align: -0.15em;
-      display: inline-block;
-    }
 
     /* Keep flag + country on one line and make the flag look like a small badge */
     .ad-card-meta--country {
@@ -42,16 +35,18 @@
       justify-content: center;
       white-space: nowrap;
     }
-    .ad-card-meta--country .meta-flag img.emoji {
-      border-radius: 3px;
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
-    }
+
     .ad-card-meta--country .meta-country {
       white-space: nowrap;
     }
+
+    /* V4A flags (professional, consistent on Mac + Windows) */
+    .v4a-flag{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;line-height:1;}
+    .v4a-flag__img{display:block;height:14px;width:auto;border-radius:3px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,0.12);}
+    .v4a-flag__svg{display:block;height:14px;width:14px;color:rgba(255,255,255,.88);}
+
   </style>
-  <script defer src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
-</head>
+  </head>
 
 <body class="v4-hide-live-mobile">
   <div class="page">
@@ -213,8 +208,8 @@
                 <div class="search-filters-row">
                   <select id="article-filter-country" class="search-select">
                     <option value="">Land (alles)</option>
-                    <option value="BE">🇧🇪 België</option>
-                    <option value="NL">🇳🇱 Nederland</option>
+                    <option value="BE">België</option>
+                    <option value="NL">Nederland</option>
                   </select>
 
                   <select id="article-filter-category" class="search-select">
@@ -434,10 +429,30 @@
       return "Internationaal";
     }
 
-    function flagEmoji(cc){
-      if (cc === "BE") return "🇧🇪";
-      if (cc === "NL") return "🇳🇱";
-      return "🌍";
+    function flagHtml(cc){
+      const c = String(cc || "").trim().toUpperCase();
+      if (c === "BE" || c === "NL") {
+        const code = c.toLowerCase();
+        return `
+          <img
+            class="v4a-flag__img"
+            src="https://cdn.jsdelivr.net/npm/country-flag-icons@1.5.7/3x2/${code}.svg"
+            alt="${c}"
+            loading="lazy"
+            decoding="async"
+          />
+        `.trim();
+      }
+      return `
+        <svg class="v4a-flag__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M12 3c-3.4 3.2-3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+          <path d="M12 3c3.4 3.2 3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+          <path d="M3.5 12h17" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+          <path d="M5.8 8.7c2 .8 4.1 1.3 6.2 1.3s4.2-.5 6.2-1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+          <path d="M5.8 15.3c2-.8 4.1-1.3 6.2-1.3s4.2.5 6.2 1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+        </svg>
+      `.trim();
     }
 
     function fmtDate(iso){
@@ -547,7 +562,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta ad-card-meta--country"><span class="meta-flag">${flagEmoji(detectCountry(a))}</span><span class="meta-country">${countryLabel(detectCountry(a))}</span>${category ? ` · ${category}` : ""} · Voetbal4All</div>
+                <div class="ad-card-meta ad-card-meta--country"><span class="meta-flag v4a-flag" aria-hidden="true">${flagHtml(detectCountry(a))}</span><span class="meta-country">${countryLabel(detectCountry(a))}</span>${category ? ` · ${category}` : ""} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
@@ -640,14 +655,6 @@
           try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
         }
       });
-
-      if (window.twemoji) {
-        twemoji.parse(articleList, {
-          base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
-          folder: 'svg',
-          ext: '.svg'
-        });
-      }
 
       // ✅ paginatie UI onderaan (buiten #article-list zodat ads/cards het niet kunnen overlappen)
       if (paginationEl) {

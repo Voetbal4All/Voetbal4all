@@ -19,29 +19,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <!-- Hoofd-stylesheet -->
   <link rel="stylesheet" href="style.css?v=20251227a" />
- 
-  <style>
-    /* Country flags: use inline SVG (no emoji / no Twemoji) */
-    .home-news__flag {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 20px;
-      min-width: 20px;
-      height: 14px;
-      margin-right: 8px;
-      line-height: 1;
-      flex: 0 0 auto;
-    }
-    .home-news__flag svg {
-      display: block;
-      width: 20px;
-      height: 14px;
-      border-radius: 3px;
-      overflow: hidden;
-    }
-  </style>
- 
 
   <!-- Redirect: /index.html -> / -->
   <script>
@@ -49,6 +26,14 @@
       location.replace("/");
     }
   </script>
+
+  <style>
+    /* V4A flags (professional, consistent on Mac + Windows) */
+    .v4a-flag{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;line-height:1;}
+    .v4a-flag__img{display:block;height:14px;width:auto;border-radius:3px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.18);}
+    .v4a-flag__svg{display:block;height:14px;width:14px;color:rgba(255,255,255,.88);}
+  </style>
+
 </head>
 
 <body>
@@ -592,7 +577,8 @@
 
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-      const CACHE_KEY = "home_news_html_v7";
+      const CACHE_KEY = "home_news_html_v8";
+      localStorage.removeItem("home_news_html_v7");
       localStorage.removeItem("home_news_html_v6");
       localStorage.removeItem("home_news_html_v5");
       
@@ -630,43 +616,32 @@
         return s;
       }
 
-      function flagSvg(cc){
+      function flagHtml(cc){
         const c = String(cc || "").toUpperCase();
 
-        // Belgium
-        if (c === "BE") {
+        // BE / NL: crisp SVG flags (same look on Mac + Windows)
+        if (c === "BE" || c === "NL") {
+          const code = c.toLowerCase();
           return `
-            <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-              <rect width="6" height="12" x="0" fill="#000"/>
-              <rect width="6" height="12" x="6" fill="#FFD100"/>
-              <rect width="6" height="12" x="12" fill="#EF3340"/>
-            </svg>
+            <img
+              class="v4a-flag__img"
+              src="https://cdn.jsdelivr.net/npm/country-flag-icons@1.5.7/3x2/${code}.svg"
+              alt="${c}"
+              loading="lazy"
+              decoding="async"
+            />
           `.trim();
         }
 
-        // Netherlands
-        if (c === "NL") {
-          return `
-            <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-              <rect width="18" height="4" y="0" fill="#AE1C28"/>
-              <rect width="18" height="4" y="4" fill="#FFF"/>
-              <rect width="18" height="4" y="8" fill="#21468B"/>
-            </svg>
-          `.trim();
-        }
-
-        // International / globe (professional)
+        // INT: professional globe icon (inline SVG)
         return `
-          <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-            <rect width="18" height="12" fill="#0B2A4A"/>
-            <circle cx="9" cy="6" r="4.2" fill="none" stroke="#FFFFFF" stroke-width="0.8"/>
-            <!-- meridians -->
-            <path d="M9 1.8c-1.6 1.2-2.6 2.7-2.6 4.2S7.4 9 9 10.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
-            <path d="M9 1.8c1.6 1.2 2.6 2.7 2.6 4.2S10.6 9 9 10.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
-            <!-- parallels -->
-            <path d="M5.4 6h7.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
-            <path d="M6.0 4.4c1.0 0.5 2.1 0.7 3.0 0.7s2.0-0.2 3.0-0.7" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.85"/>
-            <path d="M6.0 7.6c1.0-0.5 2.1-0.7 3.0-0.7s2.0 0.2 3.0 0.7" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.85"/>
+          <svg class="v4a-flag__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M12 3c-3.4 3.2-3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+            <path d="M12 3c3.4 3.2 3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+            <path d="M3.5 12h17" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+            <path d="M5.8 8.7c2 .8 4.1 1.3 6.2 1.3s4.2-.5 6.2-1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+            <path d="M5.8 15.3c2-.8 4.1-1.3 6.2-1.3s4.2.5 6.2 1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
           </svg>
         `.trim();
       }
@@ -781,7 +756,7 @@
 
           // 4) vlag op basis van country (inline SVG, no emoji)
           const country = (a?.country || "").toUpperCase();
-          const flag = flagSvg(country);
+          const flag = flagHtml(country);
 
             // 3) JUISTE image: backend levert image als STRING
             let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
@@ -808,7 +783,7 @@
 
                   <div class="home-news__meta">
                     <div class="home-news__titleRow">
-                      <span class="home-news__flag">${flag}</span>
+                      <span class="v4a-flag" aria-hidden="true">${flag}</span>
                       <h4 class="home-news__title">${safeTitle}</h4>
                     </div>
                   </div>

@@ -139,12 +139,10 @@
       margin-bottom: 8px;
       text-align: center;
     }
-    /* Emoji flags rendered consistently via Twemoji */
-    img.emoji {
-      width: 18px;
-      height: 18px;
-      vertical-align: -0.2em;
-    }
+    /* V4A flags (professional, consistent on Mac + Windows) */
+    .v4a-flag{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;line-height:1;}
+    .v4a-flag__img{display:block;height:14px;width:auto;border-radius:3px;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.18);}
+    .v4a-flag__svg{display:block;height:14px;width:14px;color:rgba(255,255,255,.88);}
   </style>
 </head>
 
@@ -542,11 +540,32 @@
       return 'Internationaal';
     };
 
-    function flagEmoji(cc){
-      if (cc === "BE") return "🇧🇪";
-      if (cc === "NL") return "🇳🇱";
-      return "🌍";
+    function flagHtml(cc){
+      const c = String(cc || "").trim().toUpperCase();
+      if (c === "BE" || c === "NL") {
+        const code = c.toLowerCase();
+        return `
+          <img
+            class="v4a-flag__img"
+            src="https://cdn.jsdelivr.net/npm/country-flag-icons@1.5.7/3x2/${code}.svg"
+            alt="${c}"
+            loading="lazy"
+            decoding="async"
+          />
+        `.trim();
+      }
+      return `
+        <svg class="v4a-flag__svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M12 3c-3.4 3.2-3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+          <path d="M12 3c3.4 3.2 3.4 14.8 0 18" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+          <path d="M3.5 12h17" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.95"/>
+          <path d="M5.8 8.7c2 .8 4.1 1.3 6.2 1.3s4.2-.5 6.2-1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+          <path d="M5.8 15.3c2-.8 4.1-1.3 6.2-1.3s4.2.5 6.2 1.3" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+        </svg>
+      `.trim();
     }
+
     
     const title = article.title || 'Voetbal4All Artikel';
     document.getElementById('page-title').textContent = title + ' - Voetbal4All';
@@ -567,7 +586,7 @@
 
     if (cc === 'BE' || cc === 'NL' || cc === 'INT') {
       countryEl.style.display = '';
-      countryEl.innerHTML = `<span class="country-flag">${flagEmoji(cc)}</span>${countryLabel(cc)}`;
+      countryEl.innerHTML = `<span class="v4a-flag" aria-hidden="true">${flagHtml(cc)}</span>&nbsp;${countryLabel(cc)}`;
     } else {
       countryEl.style.display = 'none';
     }
@@ -723,18 +742,6 @@
     });
   }
 })();
-</script>
-
-</script>
-<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-<script>
-  // Ensure Twemoji is applied to flags
-  window.addEventListener('DOMContentLoaded', function() {
-    var countryEl = document.getElementById('article-country');
-    if (window.twemoji && countryEl) {
-      twemoji.parse(countryEl, { folder: 'svg', ext: '.svg' });
-    }
-  });
 </script>
 </body>
 </html>

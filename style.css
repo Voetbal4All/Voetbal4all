@@ -1935,3 +1935,31 @@ img {
   #latest-news-grid h4.home-news__title {
     font-weight: 200;
   }
+
+  /* === V4A Flags (uniform on Mac + Windows) === */
+.v4a-flag{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:20px;
+  min-width:20px;
+  height:14px;
+  margin-right:8px;
+  line-height:1;
+  flex:0 0 auto;
+  color:#e8f2ff; /* used by globe (INT) */
+}
+
+.v4a-flag__img{
+  display:block;
+  width:20px;
+  height:14px;
+  border-radius:3px;
+  object-fit:cover;
+}
+
+.v4a-flag__svg{
+  display:block;
+  width:18px;
+  height:18px;
+}
