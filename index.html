@@ -919,20 +919,35 @@ renderMonthlyEvents();
           }
 
           listEl.innerHTML = "";
+
+          const esc = (s) => String(s || "")
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/\"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+
           table.slice(0, 6).forEach((r) => {
             const li = document.createElement("li");
             li.className = "event-item";
 
-            const logo = r.logo
-              ? `<img src=\"${r.logo}\" alt=\"\" width=\"18\" height=\"18\" style=\"border-radius:50%;vertical-align:middle;margin-right:8px;\" loading=\"lazy\" decoding=\"async\">`
+            const logoHtml = r.logo
+              ? `<img class=\"standings-logo\" src=\"${r.logo}\" alt=\"\" loading=\"lazy\" decoding=\"async\">`
               : "";
 
             li.innerHTML = `
               <div class=\"standings-row\">
-                <span class=\"standings-team\">${r.rank}. ${logo}${(r.team || "").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</span>
-                <span class=\"standings-pts\">${r.points} pts</span>
+                <div class=\"standings-left\">
+                  <div class=\"standings-ranklogo\">
+                    <span class=\"standings-rank\">${Number(r.rank) || ""}.</span>
+                    ${logoHtml}
+                  </div>
+                  <div class=\"standings-name\">${esc(r.team)}</div>
+                </div>
+                <div class=\"standings-pts\">${Number(r.points) || 0} pts</div>
               </div>
             `;
+
             listEl.appendChild(li);
           });
 
