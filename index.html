@@ -194,7 +194,7 @@
             <div class="card-caption">Nederland</div>
             <div class="card-title">Rangschikking Eredivisie</div>
           </div>
-          <span class="pill-small">Top 10</span>
+          <span class="pill-small">Top 6</span>
         </div>
         <ul class="events-list" id="eredivisie-standings"></ul>
         <p class="note" id="eredivisie-standings-empty" style="display:none;">Rangschikking niet beschikbaar.</p>
@@ -227,7 +227,7 @@
             <div class="card-caption">België</div>
             <div class="card-title">Rangschikking Jupiler Pro League</div>
           </div>
-          <span class="pill-small">Top 10</span>
+          <span class="pill-small">Top 6</span>
         </div>
         <ul class="events-list" id="jpl-standings"></ul>
         <p class="note" id="jpl-standings-empty" style="display:none;">Rangschikking niet beschikbaar.</p>
@@ -904,7 +904,7 @@ renderMonthlyEvents();
         }
         if (emptyEl) emptyEl.style.display = "none";
 
-        rows.slice(0, 10).forEach(r => {
+        rows.slice(0, 6).forEach(r => {
           const li = document.createElement("li");
           li.className = "event-item";
           li.innerHTML = `

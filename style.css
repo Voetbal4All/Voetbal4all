@@ -2018,9 +2018,12 @@ img {
 /* === HOME TOP GRID – FINAL OVERRIDE (4 cols, hero spans 2) === */
 .home-top-grid{
   display: grid !important;
-  grid-template-columns: minmax(260px, 1fr) minmax(320px, 1fr) minmax(320px, 1fr) minmax(260px, 1fr) !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr) minmax(0, 1.6fr) minmax(0, 1fr) !important;
   gap: 14px !important;
   align-items: start !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  row-gap: 10px !important;
 }
 
 .hero-card--span2{
@@ -2033,12 +2036,14 @@ img {
   grid-column: 1 !important;
   grid-row: 1 / span 2 !important;
   align-self: start !important;
+  justify-self: stretch !important;
 }
 
 .home-standings--be{
   grid-column: 4 !important;
   grid-row: 1 / span 2 !important;
   align-self: start !important;
+  justify-self: stretch !important;
 }
 
 .home-stack--left{
@@ -2069,10 +2074,6 @@ img {
   }
 }
 
-/* HOME – tighten vertical gap between HERO and quick cards (top grid rows) */
-.home-top-grid{
-  row-gap: 10px !important;
-}
 
 /* HOME – compact standings: points inline, no second line */
 .home-standings-card .event-item{
@@ -2098,3 +2099,8 @@ img {
   font-weight:600;
   opacity:0.9;
 }
+
+/* HOME – standings: shorter + no horizontal overflow */
+.home-top-grid > *{ min-width: 0; }
+.home-standings-card{ max-width: 100%; overflow: hidden; }
+.home-standings-card .events-list{ margin-top: 6px; }
