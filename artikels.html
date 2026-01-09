@@ -22,9 +22,32 @@
     }
     /* Emoji flags rendered consistently via Twemoji */
     img.emoji {
-      width: 18px;
-      height: 18px;
-      vertical-align: -0.2em;
+      width: 16px;
+      height: 16px;
+      vertical-align: -0.15em;
+      display: inline-block;
+    }
+
+    /* Keep flag + country on one line and make the flag look like a small badge */
+    .ad-card-meta--country {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      line-height: 1.2;
+    }
+    .ad-card-meta--country .meta-flag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+    }
+    .ad-card-meta--country .meta-flag img.emoji {
+      border-radius: 3px;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
+    }
+    .ad-card-meta--country .meta-country {
+      white-space: nowrap;
     }
   </style>
   <script defer src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
@@ -494,7 +517,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flagEmoji(detectCountry(a))} ${countryLabel(detectCountry(a))}${category ? ` · ${category}` : ""} · Voetbal4All</div>
+                <div class="ad-card-meta ad-card-meta--country"><span class="meta-flag">${flagEmoji(detectCountry(a))}</span><span class="meta-country">${countryLabel(detectCountry(a))}</span>${category ? ` · ${category}` : ""} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
