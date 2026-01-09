@@ -27,6 +27,7 @@
       vertical-align: -0.2em;
     }
   </style>
+  <script defer src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="v4-hide-live-mobile">
@@ -573,7 +574,11 @@
       });
 
       if (window.twemoji) {
-        twemoji.parse(articleList, { folder: 'svg', ext: '.svg' });
+        twemoji.parse(articleList, {
+          base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
+          folder: 'svg',
+          ext: '.svg'
+        });
       }
 
       // ✅ paginatie UI onderaan (buiten #article-list zodat ads/cards het niet kunnen overlappen)
@@ -638,9 +643,17 @@
     articleFilterCategory.addEventListener("change", () => { currentPage = 1; applyFilters(); });
 
     loadNews();
+    window.addEventListener('load', () => {
+      if (window.twemoji) {
+        twemoji.parse(document.body, {
+          base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
+          folder: 'svg',
+          ext: '.svg'
+        });
+      }
+    });
   </script>
 
-  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
   <script src="assets/js/nav-mobile.js"></script>
   <script src="assets/js/live-banner.js"></script>
 </body>
