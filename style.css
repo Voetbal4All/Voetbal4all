@@ -2113,32 +2113,47 @@ img {
   gap: 10px;
 }
 
-.home-standings-card .standings-team{
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  min-width: 0;
-
-  /* show full team name (no ellipsis) */
-  white-space: normal;
-  overflow: hidden;
-  line-height: 1.2;
-
-  /* allow 2 lines max to keep cards tidy */
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+.home-standings-card .standings-left{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  min-width:0;
+  flex: 1 1 auto;
 }
 
-/* Force small logos even if there is a global img { max-width:100% } */
-.home-standings-card .standings-team img{
-  width: 18px !important;
-  height: 18px !important;
-  max-width: 18px !important;
-  max-height: 18px !important;
-  object-fit: contain;
-  flex: 0 0 18px;
-  display: block;
+.home-standings-card .standings-ranklogo{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.home-standings-card .standings-rank{
+  font-weight:600;
+  opacity:0.9;
+  flex: 0 0 auto;
+}
+
+/* Logo klein en fixed (override globale img rules) */
+.home-standings-card .standings-logo{
+  width:16px !important;
+  height:16px !important;
+  max-width:16px !important;
+  max-height:16px !important;
+  object-fit:contain;
+  flex:0 0 16px;
+  display:block;
+}
+
+/* Clubnaam op volgende regel; max 2 lijnen */
+.home-standings-card .standings-name{
+  font-size:13px;
+  line-height:1.2;
+  opacity:0.95;
+  min-width:0;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
 }
 
 .home-standings-card .standings-pts{
