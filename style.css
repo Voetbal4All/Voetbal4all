@@ -2104,3 +2104,38 @@ img {
 .home-top-grid > *{ min-width: 0; }
 .home-standings-card{ max-width: 100%; overflow: hidden; }
 .home-standings-card .events-list{ margin-top: 6px; }
+
+/* ================================
+   HOME – STANDINGS: keep rows compact (override any global img rules)
+   ================================ */
+   .home-standings-card .events-list .event-item {
+    padding: 8px 10px;
+  }
+  
+  .home-standings-card .standings-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .home-standings-card .standings-team {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  
+  /* Force tiny logos even if there is a global img { width:100% } rule */
+  .home-standings-card .standings-team img {
+    width: 18px !important;
+    height: 18px !important;
+    max-width: 18px !important;
+    max-height: 18px !important;
+    object-fit: contain;
+    flex: 0 0 18px;
+  }
+  
+  .home-standings-card .standings-pts {
+    white-space: nowrap;
+  }
