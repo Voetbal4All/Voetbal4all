@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-09T13:40:31.960Z",
+  "generatedAt": "2026-01-09T14:28:07.127Z",
   "items": [
     {
       "type": "rss",
@@ -7,21 +7,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Teleurgesteld Everton vangt bot bij FA: Keane drie duels geschorst na harentrekken",
-      "link": "https://www.vi.nl/nieuws/zeer-teleurgesteld-everton-vangt-bot-bij-de-fa-keane-drie-duels-geschorst",
-      "summary": "Everton is er niet in geslaagd de rode kaart van Michael Keane teruggedraaid te krijgen. De club maakte vrijdag via de officiële kanalen bekend dat het beroep tegen de schorsing van de verdediger is afgewezen door de Engelse voetbalbond. Daarmee blijft de schorsing van drie wedstrijden staan, tot grote teleurstelling van de club.",
-      "publishedAt": "2026-01-09T13:35:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep: Man City beat 'many clubs' to Semenyo signing",
-      "link": "https://www.espn.com/soccer/story/_/id/47559644/man-city-beat-many-clubs-antoine-semenyo-signing-pep-guardiola",
-      "summary": "Pep Guardiola has revealed Manchester City beat off competition from \"many clubs\" to sign Antoine Semenyo from AFC Bournemouth.",
-      "publishedAt": "2026-01-09T13:29:31.000Z"
+      "title": "Transfers Feyenoord: Van Persie acht kans klein dat Timber verlengt",
+      "link": "https://www.vi.nl/nieuws/transfers-feyenoord-van-persie-acht-kans-klein-dat-timber-verlengt",
+      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Feyenoord op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Rotterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2026-01-09T14:18:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,18 @@
       "title": "Man City confirms Semenyo signing in $84m deal",
       "link": "https://www.espn.com/soccer/story/_/id/47537480/man-city-transfer-antoine-semenyo-bournemouth-64-million-premier-league",
       "summary": "Manchester City have announced the signing of Antoine Semenyo from Bournemouth.",
-      "publishedAt": "2026-01-09T13:29:18.000Z"
+      "publishedAt": "2026-01-09T14:10:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep: Man City beat 'many clubs' to sign Semenyo",
+      "link": "https://www.espn.com/soccer/story/_/id/47559644/man-city-beat-many-clubs-antoine-semenyo-signing-pep-guardiola",
+      "summary": "Pep Guardiola has revealed Manchester City beat off competition from \"many clubs\" to sign Antoine Semenyo from AFC Bournemouth.",
+      "publishedAt": "2026-01-09T14:10:13.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +43,7 @@
       "title": "Viní taunts Simeone: You've lost another knockout",
       "link": "https://www.espn.com/soccer/story/_/id/47558851/vinicius-jr-taunts-diego-simeone-real-madrid-atletico-clash",
       "summary": "Vinícius Júnior taunted Atlético Madrid coach Diego Simeone on social media after their clash at the Spanish Supercopa, commenting \"you've lost another knockout tie.\"",
-      "publishedAt": "2026-01-09T13:29:17.000Z"
+      "publishedAt": "2026-01-09T14:10:13.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +51,98 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Neymar begins recovery after knee surgery",
+      "title": "Neymar begins recovery post-knee op, looks to WC",
       "link": "https://www.espn.com/soccer/story/_/id/47558439/brazil-star-neymar-begins-recovery-knee-surgery-ahead-world-cup-bid",
       "summary": "Neymar has started his recovery process after undergoing minor surgery on his left knee on Dec. 22.",
-      "publishedAt": "2026-01-09T13:29:17.000Z"
+      "publishedAt": "2026-01-09T14:10:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Arsenal slaat belangrijke slag met nieuw contract Saka'",
+      "link": "https://www.vi.nl/nieuws/arsenal-slaat-belangrijke-slag-met-nieuw-contract-saka",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-09T14:09:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Frank reaches crisis point at Spurs - was he doomed from the start?",
+      "link": "https://www.bbc.com/sport/football/articles/c77k8gr6dn5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Head coach Thomas Frank has reached crisis point at Spurs - but is he solely to blame and has he been doomed from the start, asks Phil McNulty?",
+      "publishedAt": "2026-01-09T14:08:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "FA Cup buildup, Martinelli ‘deeply sorry’, transfer news and fixture latest – football live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/09/fa-cup-buildup-martinelli-deeply-sorry-transfer-news-and-fixture-latest-football-live",
+      "summary": "⚽ All the latest ahead of FA Cup third round weekend ⚽ Ten things to look out for | Football Daily | Email Taha The third round of the FA Cup threw up plenty of intriguing ties. Check out some of the storylines ahead of the action which gets underway with four matches tonight. Today’s Rumour Mill has been released into the wild. How many bloody defenders do Arsenal need?! Continue reading...",
+      "publishedAt": "2026-01-09T14:01:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Strafschoppenregen bij AZ, de latrelatie van Excelsior en meer stats",
+      "link": "https://www.vi.nl/pro/strafschoppenregen-bij-az-de-latrelatie-van-excelsior-en-meer-stats",
+      "summary": "Vlak voor de herstart van de Eredivisie wat opvallende cijfers over de eerste seizoenshelft op een rij.",
+      "publishedAt": "2026-01-09T14:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spindleberry tipped to claim Mares' Chase crown at Cheltenham in March",
+      "link": "https://www.skysports.com/racing/news/12040/13492406/cheltenham-tips-spindleberry-fancied-to-land-mares-chase-crown-for-willie-mullins",
+      "summary": "With the possibility of cancellations of racing this weekend, the Weekend Winners team look forward to the Cheltenham Festival with some ante-post angles.",
+      "publishedAt": "2026-01-09T13:50:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Afrikaanse bond bedaart de boel met late scheidsrechterwissel bij Kameroen-Marokko",
+      "link": "https://www.vi.nl/nieuws/afrikaanse-bond-bedaart-de-boel-met-late-scheidsrechterwissel-kameroen-marokko",
+      "summary": "De bonden van Kameroen en Marokko zijn tevreden gesteld door de Afrikaanse bond, die ingreep door een late scheidsrechterwissel toe te passen voor de wedstrijd tussen de twee landen in de kwartfinale van de Afrika Cup.",
+      "publishedAt": "2026-01-09T13:44:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Real Madrid open to Vinícius exit? Chelsea keen? Where might Guéhi go?",
+      "link": "https://www.espn.com/soccer/story/_/id/47550532/transfer-window-weekly-real-madrid-open-vinicius-exit-man-united-wait-afcon-end",
+      "summary": "The winter transfer window is open, but what are our reporters hearing about deals that could be done? Get the latest every Friday.",
+      "publishedAt": "2026-01-09T13:34:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Norris: I thought title decider would be too chaotic for me",
+      "link": "https://www.skysports.com/f1/news/12040/13492445/lando-norris-world-champion-admits-he-thought-f1-title-decider-would-be-too-chaotic-for-him",
+      "summary": "Lando Norris has admitted he thought the Formula 1 title decider that he came through to become world champion would be \"a bit too chaotic\" for him.",
+      "publishedAt": "2026-01-09T13:30:00.000Z"
     },
     {
       "type": "rss",
@@ -69,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FA Cup buildup, Martinelli ‘deeply sorry’, transfer news and fixture latest – football live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/09/fa-cup-buildup-martinelli-deeply-sorry-transfer-news-and-fixture-latest-football-live",
-      "summary": "⚽ All the latest ahead of FA Cup third round weekend ⚽ Ten things to look out for | Football Daily | Email Taha The third round of the FA Cup threw up plenty of intriguing ties. Check out some of the storylines ahead of the action which gets underway with four matches tonight. Today’s Rumour Mill has been released into the wild. How many bloody defenders do Arsenal need?! Continue reading...",
-      "publishedAt": "2026-01-09T13:23:04.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -91,36 +168,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "ADO Den Haag, SC Cambuur en de rest",
-      "link": "https://www.vi.nl/pro/ado-den-haag-sc-cambuur-en-de-rest",
-      "summary": "De Keuken Kampioen Divisie wordt binnenkort hervat. Na meer dan de helft van het seizoen zijn de krachtsverhoudingen duidelijk. ADO Den Haag en SC Cambuur stevenen af op rechtstreekse promotie, veertien andere clubs hopen op play-off-deelname. Een tussenbalans in tien hoofdstukken.",
-      "publishedAt": "2026-01-09T13:09:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Pepi hoeft geen gunsten te verwachten van Bosz: 'Wil kampioen worden'",
-      "link": "https://www.vi.nl/video/pepi-hoeft-geen-gunsten-te-verwachten-van-bosz-wil-kampioen-worden",
-      "summary": "PSV-trainer Peter Bosz verleent geen gunsten richting Ricardo Pepi. Daarmee reageerde hij op vragen over de WK-kansen van de Amerikaanse spits, die in Eindhoven geen basisplaats heeft, maar wel graag met zijn land het eindtoernooi zou willen spelen. Als Pepi meer wil spelen, zal hij dat moet verdienen.",
-      "publishedAt": "2026-01-09T12:48:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bosz stellig over transferwensen PSV: 'Dan is er niets meer nodig'",
-      "link": "https://www.vi.nl/video/bosz-stellig-over-transferwensen-psv-dan-is-er-niets-meer-nodig",
-      "summary": "Gaat PSV deze maand op transfergebied nog iets doen? Trainer Peter Bosz kreeg daar op zijn persconferentie van vrijdag vragen over en was erg duidelijk.",
-      "publishedAt": "2026-01-09T12:32:00.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fury hits back at weight criticism - 'I beat everyone with a fat belly'",
+      "link": "https://www.skysports.com/boxing/news/12040/13492448/tyson-fury-hits-back-at-comments-over-his-weight-as-training-for-comeback-continues-i-beat-everyone-with-a-fat-belly",
+      "summary": "Tyson Fury has hit back at negative comments about his appearance and insists he will be \"loose and fast\" after losing over a stone for his long-awaited return to the ring.",
+      "publishedAt": "2026-01-09T13:12:00.000Z"
     },
     {
       "type": "rss",
@@ -165,61 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/09/antoine-semenyo-bournemouth-manchester-city-transfer-premier-league",
       "summary": "Bournemouth will find it hard to replace a player at the peak of his powers, an attacker polished up perfectly for the elite Antoine Semenyo’s rise is a reminder the big clubs’ scouting systems are not infallible, that not all players will flower at the same time. Fulham, Arsenal, Crystal Palace, Millwall, Reading and Tottenham rejected the schoolboy Semenyo. At 15, he took a year’s absence from the game. A decade on, a circuitous route to the top alights at Manchester City, who beat a queue of big hitters to his signature. Bournemouth’s ability to find talent the elite passed over continues to prove profitable. Pep Guardiola’s squad has another player who pairs physical power with a high skill level. It also adds a long-throw specialist to the armoury; City are towards the bottom of the metrics in that voguish category. Continue reading...",
       "publishedAt": "2026-01-09T11:30:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Naz 'regrets' falling out with Brendan Ingle – 'This man was a huge part of my life'",
-      "link": "https://www.skysports.com/boxing/news/12040/13492364/prince-naseem-hamed-reveals-regrets-about-rift-with-trainer-brendan-ingle-as-film-giant-is-released-in-uk",
-      "summary": "'Prince' Naseem Hamed has admitted he 'regrets' how his relationship deteriorated with iconic trainer Brendan Ingle.",
-      "publishedAt": "2026-01-09T11:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Everton 'surprised' after Keane red card upheld",
-      "link": "https://www.bbc.com/sport/football/articles/c62wx133gz8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Everton say they are \"surprised and disappointed\" after their appeal against Michael Keane's red card against Wolves is rejected.",
-      "publishedAt": "2026-01-09T11:21:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler agrees historic £20m deal with dart supplier",
-      "link": "https://www.skysports.com/darts/news/12040/13492121/luke-littler-world-darts-championship-winner-agrees-historic-20m-deal-with-dart-supplier",
-      "summary": "Luke Littler has earned a historic payday after agreeing a record £20m deal with his dart supplier.",
-      "publishedAt": "2026-01-09T11:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Atherton: Ashes defeat will 'haunt England for years'",
-      "link": "https://www.skysports.com/cricket/news/12040/13492357/michael-atherton-ashes-defeat-will-haunt-england-for-years-they-did-not-give-themselves-chance-to-succeed",
-      "summary": "Michael Atherton fears England will be \"haunted\" by their latest Ashes failure for years to come.",
-      "publishedAt": "2026-01-09T10:20:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Renée Slegers ‘immensely proud’ after signing new three-year deal at Arsenal",
-      "link": "https://www.theguardian.com/football/2026/jan/09/renee-slegers-arsenal-signs-new-contract-2029",
-      "summary": "Head coach led WSL club to Champions League triumph Jodie Taylor appointed as women’s technical director Renée Slegers has made a long-term commitment to Arsenal after the head coach signed a new contract at the Women’s Super League club until 2029. The extension comes with Arsenal third in the WSL table, eight points behind the leaders Manchester City at the halfway stage. Continue reading...",
-      "publishedAt": "2026-01-09T10:00:33.000Z"
     }
   ]
 }
