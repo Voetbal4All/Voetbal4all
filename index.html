@@ -27,7 +27,21 @@
       height: 18px;
       vertical-align: -0.2em;
     }
+    /* Ensure the flag container stays visible even before Twemoji parsing */
+    .home-news__flag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      min-width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      font-size: 18px;
+      line-height: 1;
+      flex: 0 0 auto;
+    }
   </style>
+  <script defer src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
  
 
   <!-- Redirect: /index.html -> / -->
@@ -867,8 +881,6 @@ renderMonthlyEvents();
 });
 </script>
 
-  <!-- Twemoji for consistent emoji rendering -->
-  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>
   <script src="assets/js/live-banner.js"></script>
