@@ -20,6 +20,19 @@
       color: rgba(255,255,255,0.6);
       opacity: 1; /* keep text readable even when disabled */
     }
+    /* Cross-platform flags (avoid emoji fallback on Windows) */
+    .v4-flag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 12px;
+      border-radius: 2px;
+      overflow: hidden;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
+      flex: 0 0 auto;
+    }
+    .v4-flag svg { display:block; width:18px; height:12px; }
   </style>
 </head>
 
@@ -374,11 +387,35 @@
       return "Internationaal";
     }
 
-    function flag(a){
-      const cc = detectCountry(a);
-      if (cc === "BE") return "🇧🇪";
-      if (cc === "NL") return "🇳🇱";
-      return "🌍";
+    function flagHtml(cc){
+      if (cc === "BE") {
+        return `<span class="v4-flag" aria-label="België" title="België">
+          <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <rect width="6" height="12" x="0" y="0" fill="#000" />
+            <rect width="6" height="12" x="6" y="0" fill="#FFD100" />
+            <rect width="6" height="12" x="12" y="0" fill="#EF3340" />
+          </svg>
+        </span>`;
+      }
+      if (cc === "NL") {
+        return `<span class="v4-flag" aria-label="Nederland" title="Nederland">
+          <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <rect width="18" height="4" x="0" y="0" fill="#AE1C28" />
+            <rect width="18" height="4" x="0" y="4" fill="#FFFFFF" />
+            <rect width="18" height="4" x="0" y="8" fill="#21468B" />
+          </svg>
+        </span>`;
+      }
+      // INT
+      return `<span class="v4-flag" aria-label="Internationaal" title="Internationaal">
+        <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect width="18" height="12" fill="#0B1B2B" />
+          <circle cx="9" cy="6" r="4.5" fill="#2B7A78" />
+          <path d="M4.5 6h9" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" />
+          <path d="M9 1.5c1.6 1.5 1.6 7.5 0 9" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none" />
+          <path d="M9 1.5c-1.6 1.5-1.6 7.5 0 9" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none" />
+        </svg>
+      </span>`;
     }
 
     function fmtDate(iso){
@@ -488,7 +525,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flag(a)} ${countryLabel(detectCountry(a))}${category ? ` · ${category}` : ""} · Voetbal4All</div>
+                <div class="ad-card-meta">${flagHtml(detectCountry(a))} ${countryLabel(detectCountry(a))}${category ? ` · ${category}` : ""} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
