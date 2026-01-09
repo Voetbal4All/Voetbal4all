@@ -267,6 +267,7 @@
   </div>
 </section>
 
+      
       <!-- PREMIUM RIJ -->
       <section class="section-main premium-row">
         <div class="shell">
@@ -880,8 +881,10 @@ function renderMonthlyEvents() {
     const li = document.createElement("li");
     li.className = "event-item";
     li.innerHTML = `
-      <div class="event-title">${fmt.format(ev.date)} · ${ev.title}</div>
-      <div class="event-meta">${ev.location}</div>
+      <div class="standings-row">
+        <span class="standings-team">${r.pos}. ${r.team}</span>
+        <span class="standings-pts">${r.pts} pts</span>
+      </div>
     `;
     li.addEventListener("click", () => (window.location.href = ev.href));
     listEl.appendChild(li);

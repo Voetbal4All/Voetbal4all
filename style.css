@@ -2126,3 +2126,33 @@ img {
     grid-row: auto !important;
   }
 }
+
+/* HOME – tighten vertical gap between HERO and quick cards (top grid rows) */
+.home-top-grid{
+  row-gap: 10px !important;
+}
+
+/* HOME – compact standings: points inline, no second line */
+.home-standings-card .event-item{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.home-standings-card .standings-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.home-standings-card .standings-team{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.home-standings-card .standings-pts{
+  white-space:nowrap;
+  font-weight:600;
+  opacity:0.9;
+}
