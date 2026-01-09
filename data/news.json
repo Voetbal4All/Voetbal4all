@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-09T19:23:03.062Z",
+  "generatedAt": "2026-01-09T20:29:17.192Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kenneth Taylor vertrekt door de voordeur bij Ajax",
+      "link": "https://www.vi.nl/pro/kenneth-taylor-vertrekt-door-de-voordeur-bij-ajax",
+      "summary": "Kenneth Taylor vervolgt zijn loopbaan bij Lazio in de Serie A. Het is een moment waar de 23-jarige middenvelder naar uitkeek, maar tegelijkertijd ook tegenop zag: zijn afscheid bij Ajax. Vijftien en een half jaar lang was het zijn thuis en beleefde hij pieken en dalen. Nu wordt alles anders.",
+      "publishedAt": "2026-01-09T20:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2026-01-09T20:25:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax verkoopt Taylor voor miljoenenbedrag aan Lazio",
+      "link": "https://www.vi.nl/nieuws/ajax-verkoopt-taylor-voor-miljoenenbedrag-aan-lazio-bevestiging",
+      "summary": "Kenneth Taylor lijkt zijn laatste wedstrijd voor Ajax te hebben gespeeld. De 23-jarige middenvelder, wiens contract in 2027 afloopt, heeft zijn jawoord gegeven aan Lazio. Alleen de medische keuring staat een overstap naar de Serie A-club in de weg.",
+      "publishedAt": "2026-01-09T20:22:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Iñigo Martínez krijgt lachers op zijn hand na vraag over Barça-terugkeer",
+      "link": "https://www.vi.nl/nieuws/i-igo-mart-nez-krijgt-lachers-op-zijn-hand-na-vraag-over-bar-a-terugkeer",
+      "summary": "Dat Barcelona sinds het vertrek van Iñigo Martínez zoekt naar een centrale verdediger, is een publiek geheim. In die zoektocht zou zelfs de Spanjaard zelf op de lijstjes van de Catalanen zijn verschenen. Helaas voor de topclub, zit een terugkeer er niet in, aldus de verdediger zelf.",
+      "publishedAt": "2026-01-09T20:20:34.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,7 +54,7 @@
       "title": "Cameroon v Morocco: Africa Cup of Nations quarter-final – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/09/cameroon-v-morocco-africa-cup-of-nations-quarter-final-live",
       "summary": "⚽ Afcon updates from the game in Rabat, kick-off 7pm GMT ⚽ Live scores | Read Football Daily | And you can mail Niall 1 min: The hosts, playing in all white, kick off to a raucous reception. El Khannouss appeals hopefully for a penalty after his early cross hits Kotto on the shoulder. The anthems ring out around the Prince Moulay Abdellah Stadium, with the entire crowd belting out the Moroccan anthem. It’s go time! Continue reading...",
-      "publishedAt": "2026-01-09T19:19:58.000Z"
+      "publishedAt": "2026-01-09T20:19:24.000Z"
     },
     {
       "type": "rss",
@@ -20,8 +64,8 @@
       "flag": "🌍",
       "title": "Wrexham v Nottingham Forest: FA Cup third round – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/09/wrexham-v-nottingham-forest-fa-cup-third-round-live",
-      "summary": "⚽ FA Cup third-round latest from the 7.30pm GMT kick-off ⚽ Live scores | Follow us over on Bluesky | And email John Sean Dyche, of course, is wearing shorts as he carries out his pre-match duties. Phil Parkinson, the Wrexham manager, spoke to the BBC: ““When the draw came out we sat down as a staff and said that the aim was to get through the Christmas period in good form, and we managed to do that, and tonight I want the supporters, players and staff to enjoy the occasion. But, we will only enjoy it if we play somewhere near our maximum.” Continue reading...",
-      "publishedAt": "2026-01-09T19:17:13.000Z"
+      "summary": "⚽ FA Cup third-round latest from the 7.30pm GMT kick-off ⚽ Live scores | Follow us over on Bluesky | And email John Big noise from both sets of fans on a chilly night in what used to be known as Clwyd. Sean Dyche, of course, is wearing shorts as he carries out his pre-match duties. Continue reading...",
+      "publishedAt": "2026-01-09T20:19:04.000Z"
     },
     {
       "type": "rss",
@@ -29,21 +73,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Heerenveen moet Klaverboer voorlopig missen door badkamerincident",
-      "link": "https://www.vi.nl/nieuws/heerenveen-moet-klaverboer-voorlopig-missen-door-badkamerincident",
-      "summary": "SC Heerenveen moet het voorlopig stellen zonder eerste doelman Bernt Klaverboer. De goalie heeft een incident gehad op het trainingskamp van de Friezen. Dat nieuws is bevestigd aan de Leeuwarder Courant .",
-      "publishedAt": "2026-01-09T19:16:04.000Z"
+      "title": "'Bove maakt transfer om ruim jaar na hartstilstand rentree te kunnen maken'",
+      "link": "https://www.vi.nl/nieuws/bove-maakt-transfer-om-ruim-jaar-na-hartstilstand-rentree-te-kunnen-maken",
+      "summary": "Edoardo Bove staat naar verluidt op het punt om een transfer te maken. De 23-jarige Italiaan kreeg dertien maanden geleden een hartstilstand, maar hoopt spoedig zijn rentree te maken. Aangezien dat niet in Italië kan, lijkt dat bij Watford te moeten gebeuren.",
+      "publishedAt": "2026-01-09T19:47:00.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "The England-wide impact of Man City's manager",
-      "link": "https://www.espn.com/soccer/story/_/id/47550983/impact-man-city-pep-guardiola-extends-premier-league",
-      "summary": "Players and coaches agree: Pep Guardiola has influenced not just the Premier League, but the entire English pyramid.",
-      "publishedAt": "2026-01-09T19:06:36.000Z"
+      "title": "Villa exploring potential Gallagher signing",
+      "link": "https://www.skysports.com/football/news/12040/13492585/aston-villa-transfer-news-conor-gallagher-signing-from-atletico-madrid-being-explored",
+      "summary": "Aston Villa are exploring the potential to sign Conor Gallagher from Atletico Madrid.",
+      "publishedAt": "2026-01-09T19:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Solskjaer set for face-to-face talks with Man Utd chiefs",
+      "link": "https://www.bbc.com/sport/football/articles/cx2kg8djv7jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ole Gunnar Solskjaer is set for face-to-face talks with Manchester United chiefs about becoming the club's interim boss.",
+      "publishedAt": "2026-01-09T19:33:47.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +109,7 @@
       "title": "Man City confirms Semenyo signing in $84m deal",
       "link": "https://www.espn.com/soccer/story/_/id/47537480/man-city-transfer-antoine-semenyo-bournemouth-64-million-premier-league",
       "summary": "Manchester City have announced the signing of Antoine Semenyo from Bournemouth.",
-      "publishedAt": "2026-01-09T19:06:21.000Z"
+      "publishedAt": "2026-01-09T19:33:04.000Z"
     },
     {
       "type": "rss",
@@ -65,7 +120,7 @@
       "title": "Sources: Saka to sign new five-year deal at Arsenal",
       "link": "https://www.espn.com/soccer/story/_/id/47561059/bukayo-saka-sign-new-five-year-deal-arsenal-sources",
       "summary": "Arsenal have agreed the framework of a new long-term contract with Bukayo Saka, sources have told ESPN.",
-      "publishedAt": "2026-01-09T19:06:20.000Z"
+      "publishedAt": "2026-01-09T19:33:03.000Z"
     },
     {
       "type": "rss",
@@ -76,7 +131,7 @@
       "title": "Interim boss Fletcher in dark over Man Utd plans",
       "link": "https://www.espn.com/soccer/story/_/id/47561062/darren-fletcher-dark-man-united-manager-plans-no-conversations",
       "summary": "Darren Fletcher says he's in the dark over Manchester United's plans for his future as he prepares to take charge of his second game as caretaker boss.",
-      "publishedAt": "2026-01-09T19:06:20.000Z"
+      "publishedAt": "2026-01-09T19:33:03.000Z"
     },
     {
       "type": "rss",
@@ -87,7 +142,18 @@
       "title": "Viní taunts Simeone: You've lost another knockout",
       "link": "https://www.espn.com/soccer/story/_/id/47558851/vinicius-jr-taunts-diego-simeone-real-madrid-atletico-clash",
       "summary": "Vinícius Júnior taunted Atlético Madrid coach Diego Simeone on social media after their clash at the Spanish Supercopa, commenting \"you've lost another knockout tie.\"",
-      "publishedAt": "2026-01-09T19:06:20.000Z"
+      "publishedAt": "2026-01-09T19:33:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool sign Senegal U17 WC defender Ndiaye",
+      "link": "https://www.espn.com/soccer/story/_/id/47562217/liverpool-sign-senegal-u17-world-cup-defender-mor-ndiaye",
+      "summary": "Liverpool have announced the signing of Senegalese defender Mor Talla Ndiaye.",
+      "publishedAt": "2026-01-09T19:33:03.000Z"
     },
     {
       "type": "rss",
@@ -95,32 +161,21 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "FA Cup third round: Forest make eight changes for Wrexham test LIVE!",
+      "title": "Audi become first team to run 2026 F1 car",
+      "link": "https://www.skysports.com/f1/news/12040/13492464/audi-become-first-team-to-run-2026-f1-car-as-new-team-hold-filming-day-in-barcelona-ahead-of-testing",
+      "summary": "Audi became the first team to run a 2026 Formula 1 car as they held a filming day in Barcelona on Friday.",
+      "publishedAt": "2026-01-09T19:18:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "FA Cup third round: Wrexham lead Forest after Luiz goal ruled out for handball LIVE!",
       "link": "https://www.skysports.com/football/wrexham-vs-nottingham-forest/live/550883",
       "summary": "",
       "publishedAt": "2026-01-09T18:58:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Kameroen en Marokko strijden op plek in de halve finale",
-      "link": "https://www.vi.nl/nieuws/vi-live-senegal-aan-de-leiding-na-keepersfout-ook-marokko-in-actie",
-      "summary": "Na een onderbreking van ruim twee weken wordt vrijdag eindelijk de Eredivisie weer hervat. Om 20.00 uur staan NEC en FC Utrecht tegenover elkaar. Daarnaast speelt Marokko op dat tijdstip de kwartfinale van de Afrika Cup tegen Kameroen en wordt er gespeeld in de Keuken Kampioen Divisie. Volg alles in de VI Live.",
-      "publishedAt": "2026-01-09T18:58:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "AZ geeft mandaat aan topagent Mendes voor recordverkoop Smit",
-      "link": "https://www.vi.nl/nieuws/az-geeft-mandaat-aan-topagent-mendes-voor-recordverkoop-smit",
-      "summary": "AZ hoopt een recordbedrag te kunnen verdienen aan Kees Smit (19). Daarom heeft de club topagent Jorge Mendes aangehaald om het toptalent van de Alkmaarders te kunnen verkopen.",
-      "publishedAt": "2026-01-09T18:55:00.000Z"
     },
     {
       "type": "rss",
@@ -132,50 +187,6 @@
       "link": "https://www.skysports.com/football/news/12040/13492594/man-utd-new-manager-latest-ole-gunnar-solskjaer-to-hold-talks-with-club-on-saturday",
       "summary": "Ole Gunnar Solskjaer is set for his first face-to-face meeting with Man Utd's hierarchy on Saturday about the interim head coach position.",
       "publishedAt": "2026-01-09T18:37:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Persie noemt Giggs als inspiratiebron",
-      "link": "https://www.vi.nl/nieuws/van-persie-noemt-giggs-als-inspiratiebron",
-      "summary": "Robin van Persie heeft als trainer nog maar weinig ervaring, maar kwam in zijn spelerscarrière grote namen tegen als Louis van Gaal, Arsène Wenger en Sir Alex Ferguson. In een uitgebreid interview op VI PRO vertelt de oefenmeester over zijn inspiratiebronnen.",
-      "publishedAt": "2026-01-09T18:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Senegal profiteert optimaal van keepersfout en is halvefinalist",
-      "link": "https://www.vi.nl/nieuws/senegal-profiteert-optimaal-van-keepersfout-en-is-halvefinalist",
-      "summary": "Senegal mag zich woensdag melden in de halve finale van de Afrika Cup. Het land van bondscoach Pape Thiaw plaatste zich vrijdag dankzij een zuinige zege op Mali, in een wedstrijd die vooral werd getekend door een hoop kaarten en één keepersfout.",
-      "publishedAt": "2026-01-09T18:06:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tottenham close to completing deal for Souza",
-      "link": "https://www.skysports.com/football/news/12040/13492578/spurs-transfer-news-tottenham-close-to-completing-deal-for-brazilian-left-back-souza",
-      "summary": "Tottenham are close to completing a deal with Santos for Brazilian left-back Souza.",
-      "publishedAt": "2026-01-09T17:55:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fletcher's focus solely on Man Utd FA Cup tie",
-      "link": "https://www.bbc.com/sport/football/articles/cx2kg8djv7jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United interim boss Darren Fletcher says he there have been no conversations with club chiefs over his future since he replaced sacked Ruben Amorim.",
-      "publishedAt": "2026-01-09T17:14:26.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/09/gary-o-neil-strasbourg-football-daily-newsletter",
       "summary": "Sign up now! Sign up now! Sign up now? Sign up now! Some British managers who have chanced their arm on the continent have won trophies and the adoration of supporters. Others have at least provided the Daily with plenty of content. For every Bobby Robson, there’s a Tony Adams, or to meet somewhere in the middle, Steve McClaren – who can deliver you a league title while still making an arsche of himself in TV interviews. What fate awaits Gary O’Neil, quietly ushered into the vacant hot seat at Ligue 1 Strasbourg after Todd Boehly called up Liam Rosenior for the real job? Like Rosenior, he starts his tenure with a tricky away day in the cup; hours before Chelsea play Charlton, O’Neil will take the reins for a Coupe de France tie at fourth-tier Avranches. Back on a cold December day in 2001, I sat at Hillsborough and watched in despair as Sheffield Wednesday got absolutely shellacked by Norwich City, losing 5-0 at home. A couple of days after the game I sat down and wrote a letter (ask your parents, kids!) to our manager, Terry Yorath. I wasn’t rude, just desperate: I said I thought he ought to know that I’d been watching Wednesday for 17 years and that was the worst I’d ever seen us play. And you know what: he wrote me an actual letter back. He said he was sorry, that the club valued my support, and that he was trying hard to change things. He didn’t really change things (though we escaped relegation to League One by a point), but he did care enough to write to me, and I’ve never forgotten that. A gentleman” – Adam Gutteridge. Continue reading...",
       "publishedAt": "2026-01-09T15:57:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bukayo Saka agrees new five-year Arsenal contract with big wage increase",
-      "link": "https://www.theguardian.com/football/2026/jan/09/bukayo-saka-arsenal-new-five-year-contract-wage-increase",
-      "summary": "Deal understood to lift pay to about £300,000 a week Arsenal keen to reward Declan Rice with new deal Bukayo Saka has agreed a new five-year contract at Arsenal that will make him one of the highest-paid players in the club’s history. The England forward’s deal that he signed in May 2023 is thought to be worth about £200,000 a week and is due to expire in 2027. Saka said before the Champions League quarter-final victory against Real Madrid in April that he wanted to “win wearing this badge” but also said he was in “no rush” to sign a new contract. Continue reading...",
-      "publishedAt": "2026-01-09T15:54:17.000Z"
     }
   ]
 }
