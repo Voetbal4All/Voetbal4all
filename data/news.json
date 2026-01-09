@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-01-09T07:28:46.496Z",
+  "generatedAt": "2026-01-09T08:35:46.362Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal still in control of title race; Liverpool show they need to improve",
+      "link": "https://www.espn.com/soccer/story/_/id/47553557/arsenal-control-title-race-liverpool-need-improvements",
+      "summary": "Both Arsenal and Liverpool settled for a point in a scoreless draw, but it was a missed opportunity for the Gunners to extend their lead in the Premier League.",
+      "publishedAt": "2026-01-09T08:30:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kluivert hoopt na succesvolle operatie op WK-deelname met Oranje",
+      "link": "https://www.vi.nl/nieuws/kluivert-hoopt-na-succesvolle-operatie-op-wk-deelname-met-oranje",
+      "summary": "Justin Kluivert heeft WK-deelname met het Nederlands elftal nog niet uit zijn hoofd gezet. De aanvallende middenvelder van Bournemouth is donderdag met succes geopereerd aan zijn linkerknie en is hoopvol gestemd, laat hij weten aan De Telegraaf .",
+      "publishedAt": "2026-01-09T08:26:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Liverpool liet weer eens een keer zien dat ze de kampioen zijn'",
+      "link": "https://www.vi.nl/nieuws/liverpool-liet-weer-eens-een-keer-zien-dat-ze-de-kampioen-zijn",
+      "summary": "Liverpool heeft indruk gemaakt in Engeland tijdens het doelpuntloze gelijkspel tegen Premier League-koploper Arsenal . Over de landstitel wil het team van manager Arne Slot niet praten na een slechte serie, maar in het Emirates Stadium speelde Liverpool in ieder geval als een kampioen.",
+      "publishedAt": "2026-01-09T08:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Valencia haalt Sadiq (ex-NAC) terug, Hoever op huurbasis naar Sheffield United",
+      "link": "https://www.vi.nl/nieuws/valencia-haalt-sadiq-ex-nac-terug-hoever-op-huurbasis-naar-sheffield-united",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-09T08:11:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Real Madrid is door, maar God helpe hen tegen Barcelona'",
+      "link": "https://www.vi.nl/nieuws/valverde-wil-revanche-tegen-barca-alonso-hoopvol-over-mbappe",
+      "summary": "Federico Valverde is uit op revanche tegen Barcelona na de zwaarbevochten overwinning op Atlético Madrid in de halve finale van de Spaanse Super Cup. De gelegenheidsaanvoerder van Real Madrid erkende dat zijn ploeg daarin goed wegkwam met een zege.",
+      "publishedAt": "2026-01-09T08:00:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "How will Chelsea play under new boss Rosenior?",
+      "link": "https://www.bbc.com/sport/football/articles/c1wz004rz5yo?at_medium=RSS&at_campaign=rss",
+      "summary": "What is Liam Rosenior's style of play and how might his Chelsea side shape up tactically?",
+      "publishedAt": "2026-01-09T07:45:45.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,28 +77,6 @@
       "link": "https://www.vi.nl/video/xabi-alonso-hekelt-uitspraken-van-onsportieve-simeone",
       "summary": "'Vini, Vini. Onthoud wat ik je zeg, Florentino (Pérez, red.) gaat ervoor zorgen dat je weg moet.' De Spaanse liplezers waren er snel over uit, dit zou Atlético Madrid-trainer Diego Simeone naar Vinícius Júnior hebben geschreeuwd in de openingsfase van de wedstrijd tussen Atléti en Real Madrid in de halve finale van de Super Cup . Zelf wilde Simeone er niet op reageren , Real Madrid-coach Xabi Alonso was niet te spreken over de uitspraken van zijn collega.",
       "publishedAt": "2026-01-09T07:16:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Macclesfield's 'massive occasion' tinged with sadness",
-      "link": "https://www.bbc.com/sport/football/articles/clyndjxl0xlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Non-league Macclesfield host holders Crystal Palace in the FA Cup on Saturday, 25 days after the death of their player Ethan McLeod.",
-      "publishedAt": "2026-01-09T07:14:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Simeone houdt zich stil na Vinícius-rel: 'Heb een slecht geheugen'",
-      "link": "https://www.vi.nl/video/simeone-houdt-zich-stil-na-vinicius-rel-heb-een-slecht-geheugen",
-      "summary": "Diego Simeone en Vinícius Júnior vochten donderdagavond meerdere ruzietjes uit , zowel op als buiten het veld. De coach van Atlético Madrid, die in de halve finale van de Spaanse Super Cup verloor van Real Madrid , ging met een grijns niet in op vragen van de pers over die momenten. 'Ik heb een slecht geheugen.'",
-      "publishedAt": "2026-01-09T07:12:00.000Z"
     },
     {
       "type": "rss",
@@ -58,36 +102,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dit zijn de vier prioriteiten van PEC Zwolle op de transfermarkt",
-      "link": "https://www.vi.nl/pro/dit-zijn-de-vier-prioriteiten-van-pec-zwolle-op-de-transfermarkt",
-      "summary": "Met de terugkeer van Younes Namli gaf PEC Zwolle de winterse transferwindow meteen kleur. Eén van de vier doelstellingen hebben De Blauwvingers alvast afgevinkt. Nog drie te gaan. 'We kunnen moeilijk twintig verdedigers halen.'",
-      "publishedAt": "2026-01-09T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot stipt probleem aan in voetballerij na incident tussen Martinelli en Bradley",
-      "link": "https://www.vi.nl/video/slot-stipt-probleem-aan-in-voetballerij-na-incident-tussen-martinelli-en-bradley",
-      "summary": "Liverpool-coach Arne Slot snapt wel waar de reactie van Arsenal-speler Gabriel Martinelli vandaan kwam, toen hij de geblesseerde Conor Bradley van het veld probeerde te duwen. De Nederlandse manager werd gevraagd naar het incident in de slotfase van de wedstrijd en gaf aan dat deze actie ook voortkomt uit een dieper probleem in de voetballerij. 'Er wordt zoveel tijd gerekt door spelers die een blessure veinzen.'",
-      "publishedAt": "2026-01-09T06:48:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Martinelli zegt sorry na verhit en veelbesproken moment met geblesseerde Bradley",
-      "link": "https://www.vi.nl/nieuws/martinelli-zegt-sorry-na-verhit-en-veelbesproken-moment-met-geblesseerde-bradley",
-      "summary": "Gabriel Martinelli heeft zijn excuses aangeboden aan Liverpool-speler Conor Bradley na een incident in de slotfase van de wedstrijd. De Braziliaan van Arsenal betichtte Bradley van tijdrekken, maar had niet door dat de rechtsback daadwerkelijk geblesseerd was. Martinelli werd eerder al gesteund door de managers van Arsenal en Liverpool.",
-      "publishedAt": "2026-01-09T06:28:09.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kartal misses huge chance to beat top seed Svitolina and reach Auckland semis",
+      "link": "https://www.skysports.com/tennis/news/12040/13492272/britains-sonay-kartal-falls-to-thrilling-defeat-to-elina-svitlona-in-asb-classic-quarter-finals",
+      "summary": "Britain's Sonay Kartal missed out on a huge chance to knock out top seed Elina Svitolina and reach the semi-finals of the ASB Classic, eventually losing 6-4 6-7 (2) 7-6 (5).",
+      "publishedAt": "2026-01-09T06:34:00.000Z"
     },
     {
       "type": "rss",
@@ -157,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal still in control of title race; Liverpool show they need to improve",
-      "link": "https://www.espn.com/soccer/story/_/id/47553557/arsenal-control-title-race-liverpool-need-improvements",
-      "summary": "Both Arsenal and Liverpool settled for a point in a scoreless draw, but it was a missed opportunity for the Gunners to extend their lead in the Premier League.",
-      "publishedAt": "2026-01-09T00:10:22.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/08/emirates-groan-arsenal-fans-restless-stalemate-liverpool",
       "summary": "Only one club are sitting pretty at the top of the Premier League, but the supporters’ anxiety after 22 years without the title risks infecting the players Full-time and handshakes. A little Tears for Fears tinkles over the public address system. Beyond that … what, exactly? How to describe this swirling, velvety anti-noise? The sound of no gloves clapping? The sound of time physically disappearing down a vortex? The sound of no emotions? It began with North London Forever and by the end we felt as though we had been in north London for ever: stuck on an endless loop of William Saliba passing to Jurriën Timber, of Virgil van Dijk pausing as he tried to bait a press that would never come. Long periods of this game were played at literal walking pace. Continue reading...",
       "publishedAt": "2026-01-08T23:51:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal spurn chance to go eight clear as Liverpool battle to draw",
-      "link": "https://www.skysports.com/football/arsenal-vs-liverpool/report/531329",
-      "summary": "Arsenal missed the opportunity to go eight points clear at the top of the Premier League as Liverpool battled to a goalless draw at the Emirates Stadium.",
-      "publishedAt": "2026-01-08T23:25:00.000Z"
     }
   ]
 }
