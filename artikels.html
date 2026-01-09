@@ -156,7 +156,6 @@
             data-ad-slot="3518144343"
             data-ad-format="auto"
             data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
       </div>
     </section>
@@ -221,7 +220,6 @@
                     data-ad-slot="4831226012"
                     data-ad-format="auto"
                     data-full-width-responsive="true"></ins>
-                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
               </section>
 
@@ -275,7 +273,6 @@
                     data-ad-slot="6032627042"
                     data-ad-format="auto"
                     data-full-width-responsive="true"></ins>
-                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
 
               </div>
@@ -318,7 +315,8 @@
 
     // Backend endpoints
     const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-    const NEWS_URL = IMG_BASE + "/api/news?limit=200"; // keep large limit, but render progressively for speed
+    const NEWS_URL_FAST = IMG_BASE + "/api/news?limit=50";  // fast first paint (first page)
+    const NEWS_URL_FULL = IMG_BASE + "/api/news?limit=200"; // full dataset for filters/pagination
 
     const articleList = document.getElementById("article-list");
     const newsStatus = document.getElementById("news-status");
@@ -457,6 +455,23 @@
         out.push(it);
       }
       return out;
+    }
+
+    function scheduleAdsPush(times){
+      const n = Math.max(0, Number(times || 0));
+      if (!n) return;
+      const push = () => {
+        try {
+          for (let i = 0; i < n; i++) {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          }
+        } catch (e) {}
+      };
+      if ("requestIdleCallback" in window) {
+        requestIdleCallback(push, { timeout: 2000 });
+      } else {
+        setTimeout(push, 300);
+      }
     }
 
     function renderAdInfeed(slot){
@@ -720,24 +735,40 @@
 
       // 2) Refresh in background (network)
       try{
-        const res = await fetch(NEWS_URL, { cache: "no-store" });
+        const res = await fetch(NEWS_URL_FAST, { cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status);
 
         const data = await res.json();
         const fresh = dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []));
 
+        // Fast paint: if we had no cache, render ASAP with the first page results
+        if (!cached || !cached.length) {
+          allItems = fresh;
+          lastRenderKey = "";
+          applyFilters();
+          // push the 3 static ad slots (header, top infeed, sidebar) after first paint
+          scheduleAdsPush(3);
+        }
+
+        // Now fetch the full dataset in the background for correct counts/filters/pagination
+        const resFull = await fetch(NEWS_URL_FULL, { cache: "no-store" });
+        if (!resFull.ok) throw new Error("HTTP " + resFull.status);
+        const dataFull = await resFull.json();
+        const fullItems = dedupeById(Array.isArray(dataFull) ? dataFull : (Array.isArray(dataFull?.items) ? dataFull.items : []));
+
         // Only re-render if data actually changed
         const prevSig = itemsSignature(allItems);
-        const nextSig = itemsSignature(fresh);
+        const nextSig = itemsSignature(fullItems);
 
-        writeNewsCache(fresh);
+        writeNewsCache(fullItems);
 
         if (nextSig !== prevSig) {
-          allItems = fresh;
+          allItems = fullItems;
           lastRenderKey = ""; // force a single re-render
           applyFilters();
         }
 
+        scheduleAdsPush(3); // ensure static slots fill even if cache was used
         newsStatus.style.display = "none";
       } catch (e) {
         // If cache already rendered, keep it and just show a subtle warning
