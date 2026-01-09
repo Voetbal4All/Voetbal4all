@@ -8,6 +8,27 @@
     if (!textEl || !labelEl) return;
 
     /* =========================================================
+       Flags (single source of truth)
+       - Prefer shared global window.V4A_FLAGS if present
+       - Fallback to local professional SVGs
+    ========================================================= */
+    const LOCAL_FLAGS = {
+      BE: `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="6" height="12" x="0" y="0" fill="#000"/><rect width="6" height="12" x="6" y="0" fill="#FFD100"/><rect width="6" height="12" x="12" y="0" fill="#EF3340"/></svg>`,
+      NL: `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="18" height="4" y="0" fill="#AE1C28"/><rect width="18" height="4" y="4" fill="#FFFFFF"/><rect width="18" height="4" y="8" fill="#21468B"/></svg>`,
+      INT: `<svg class="flag-icon flag-icon--int" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+        <rect width="18" height="12" fill="#0B2A4A"/>
+        <circle cx="9" cy="6" r="4.2" fill="none" stroke="#FFFFFF" stroke-width="0.8"/>
+        <path d="M9 1.8c-1.6 1.2-2.6 2.7-2.6 4.2S7.4 9 9 10.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
+        <path d="M9 1.8c1.6 1.2 2.6 2.7 2.6 4.2S10.6 9 9 10.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
+        <path d="M5.4 6h7.2" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.95"/>
+        <path d="M6.0 4.4c1.0 0.5 2.1 0.7 3.0 0.7s2.0-0.2 3.0-0.7" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.85"/>
+        <path d="M6.0 7.6c1.0-0.5 2.1-0.7 3.0-0.7s2.0 0.2 3.0 0.7" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.85"/>
+      </svg>`.replace(/\n\s+/g, " ").trim()
+    };
+
+    const FLAGS = (window && window.V4A_FLAGS) ? window.V4A_FLAGS : LOCAL_FLAGS;
+
+    /* =========================================================
        0) Opruimen: verwijder ALLE oude/dubbele elementen
           - live-updated mag enkel onder live-label bestaan
           - socials mogen enkel één keer bestaan
@@ -231,11 +252,6 @@
       banner.classList.add("is-marquee");
       mainTextEl.textContent = "";
 
-      // Professional inline SVG flags (no Twemoji, no external <img src=...> injection)
-      const beSvg = `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="6" height="12" x="0" y="0" fill="#000"/><rect width="6" height="12" x="6" y="0" fill="#FFD100"/><rect width="6" height="12" x="12" y="0" fill="#EF3340"/></svg>`;
-      const nlSvg = `<svg class="flag-icon" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="18" height="4" x="0" y="0" fill="#AE1C28"/><rect width="18" height="4" x="0" y="4" fill="#FFFFFF"/><rect width="18" height="4" x="0" y="8" fill="#21468B"/></svg>`;
-      const intSvg = `<svg class="flag-icon flag-icon--int" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="18" height="12" fill="#0B1B2B"/><circle cx="9" cy="6" r="5.2" fill="#2B7A78"/><circle cx="9" cy="6" r="5.2" fill="none" stroke="#BFE3E0" stroke-width="0.7" opacity="0.65"/><path d="M3.8 6h10.4" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8"/><path d="M9 0.9c1.9 1.7 1.9 8.8 0 10.2" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none"/><path d="M9 0.9c-1.9 1.7-1.9 8.8 0 10.2" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none"/></svg>`;
-
       // Sanitize to plain text, and collapse whitespace to keep everything on one line
       const sanitizeLine = (s) => {
         const div = document.createElement("div");
@@ -260,9 +276,9 @@
 
       // Inject flags as SVG
       track.innerHTML = track.textContent
-        .replaceAll("🇧🇪", beSvg)
-        .replaceAll("🇳🇱", nlSvg)
-        .replaceAll("🌍", intSvg);
+        .replaceAll("🇧🇪", FLAGS.BE)
+        .replaceAll("🇳🇱", FLAGS.NL)
+        .replaceAll("🌍", FLAGS.INT);
 
       // Clear eventuele vorige restart timer
       if (marqueeRestartTimer) {
