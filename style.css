@@ -2075,67 +2075,68 @@ img {
 }
 
 
-/* HOME – compact standings: points inline, no second line */
-.home-standings-card .event-item{
-  padding-top: 8px;
-  padding-bottom: 8px;
+/* ================================
+   HOME – STANDINGS (SINGLE SOURCE)
+   - compact rows
+   - small logos
+   - show 6 teams (no clipping)
+   ================================ */
+
+/* Card must not clip the 6th row */
+.home-standings-card{
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  min-height: 360px; /* header + 6 compacte rijen */
+}
+
+@media (max-width: 1200px){
+  .home-standings-card{ min-height: 340px; }
+}
+
+.home-standings-card .events-list{
+  margin-top: 6px;
+  max-height: none;
+  height: auto;
+  overflow: visible;
+}
+
+.home-standings-card .events-list .event-item{
+  padding: 8px 10px;
 }
 
 .home-standings-card .standings-row{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .home-standings-card .standings-team{
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Force small logos even if there is a global img { max-width:100% } */
+.home-standings-card .standings-team img{
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+  object-fit: contain;
+  flex: 0 0 18px;
+  display: block;
 }
 
 .home-standings-card .standings-pts{
-  white-space:nowrap;
-  font-weight:600;
-  opacity:0.9;
+  white-space: nowrap;
+  font-weight: 600;
+  opacity: 0.9;
+  font-size: 13px;
 }
-
-/* HOME – standings: shorter + no horizontal overflow */
-.home-top-grid > *{ min-width: 0; }
-.home-standings-card{ max-width: 100%; overflow: hidden; }
-.home-standings-card .events-list{ margin-top: 6px; }
-
-/* ================================
-   HOME – STANDINGS: keep rows compact (override any global img rules)
-   ================================ */
-   .home-standings-card .events-list .event-item {
-    padding: 8px 10px;
-  }
-  
-  .home-standings-card .standings-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  
-  .home-standings-card .standings-team {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-width: 0;
-  }
-  
-  /* Force tiny logos even if there is a global img { width:100% } rule */
-  .home-standings-card .standings-team img {
-    width: 18px !important;
-    height: 18px !important;
-    max-width: 18px !important;
-    max-height: 18px !important;
-    object-fit: contain;
-    flex: 0 0 18px;
-  }
-  
-  .home-standings-card .standings-pts {
-    white-space: nowrap;
-  }
