@@ -882,6 +882,7 @@ footer { margin-top: auto; }
   }
 
   /* Title rows must be allowed to wrap to avoid overlapping the right column */
+  /* (duplicate, will be removed below) */
   .home-news__titleRow{
     display:flex;
     align-items:flex-start;
@@ -2165,32 +2166,41 @@ img {
 }
 
 /* ===============================
-   HOME – artikel lijst: vlag + titel op 1 regel
+   HOME – latest articles (index)
+   FIX: titles may NEVER push into the right column
+   - allow wrapping
+   - keep flag + title aligned
    =============================== */
-   .home-news__titleRow{
-    display:flex;
-    align-items:center;
-    gap:8px;
-    min-width:0; /* allow ellipsis */
-  }
-  
-  .v4a-flag{
-    display:inline-flex;
-    align-items:center;
-    flex:0 0 auto;
-  }
-  
-  .v4a-flag__img{
-    display:block;
-    width:18px;
-    height:12px;
-    object-fit:contain;
-  }
-  
-  .home-news__title{
-    margin:0;
-    min-width:0;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-  }
+.home-news__titleRow{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  min-width:0;
+  flex-wrap:wrap;
+  white-space:normal;
+}
+
+.home-news__titleRow > *{ min-width:0; }
+
+.v4a-flag{
+  display:inline-flex;
+  align-items:center;
+  flex:0 0 auto;
+}
+
+.v4a-flag__img{
+  display:block;
+  width:18px;
+  height:12px;
+  object-fit:contain;
+}
+
+.home-news__title{
+  margin:0;
+  min-width:0;
+  white-space:normal;
+  overflow:visible;
+  text-overflow:clip;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
