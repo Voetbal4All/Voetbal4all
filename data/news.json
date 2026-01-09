@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-01-09T04:03:02.004Z",
+  "generatedAt": "2026-01-09T05:29:27.024Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Idiot' or 'understandable'? Martinelli apologises for pushing Bradley",
-      "link": "https://www.bbc.com/sport/football/articles/c5yv2j19q23o?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal's Gabriel Martinelli is criticised for pushing Conor Bradley while he was down injured - but Liverpool boss Arne Slot defends him.",
-      "publishedAt": "2026-01-09T00:50:34.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -21,7 +10,7 @@
       "title": "Xabi slams Simeone shouts at Vini: 'Didn't like it'",
       "link": "https://www.espn.com/soccer/story/_/id/47552638/real-madrid-xabi-slams-simeone-comments-vinicius",
       "summary": "Xabi Alonso slammed Diego Simeone for his clash with Vinícius Júnior during Real Madrid's 2-1 Supercopa semifinal win over Atlético Madrid on Thursday, saying \"not anything goes.\"",
-      "publishedAt": "2026-01-09T00:10:26.000Z"
+      "publishedAt": "2026-01-09T05:12:49.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "Liverpool criticize Martinelli, fear for Bradley injury",
       "link": "https://www.espn.com/soccer/story/_/id/47553636/liverpool-unhappy-martinelli-fear-bradley",
       "summary": "Liverpool manager Arne Slot said Gabriel Martinelli's push on an injured Conor Bradley in his side's 0-0 draw with Arsenal on Thursday \"doesn't look great,\" adding that he feared for the extent of Bradley's injury.",
-      "publishedAt": "2026-01-09T00:10:26.000Z"
+      "publishedAt": "2026-01-09T05:12:49.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +29,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arsenal regret missed chance to extend lead to 8",
-      "link": "https://www.espn.com/soccer/story/_/id/47553710/arsenal-regret-missed-chance-extend-lead-man-city-8",
-      "summary": "Mikel Arteta said Arsenal regret failing to move eight points clear at the top of the Premier League, but praised his players for their consistency during the festive period.",
-      "publishedAt": "2026-01-09T00:10:26.000Z"
+      "title": "Martinelli 'deeply sorry' for shoving injured Bradley",
+      "link": "https://www.espn.com/soccer/story/_/id/47556803/gabriel-martinelli-issues-direct-apology-conor-bradley-incident",
+      "summary": "Arsenal winger Gabriel Martinelli revealed he reached out to Conor Bradley to apologize for shoving the badly injured Liverpool defender off the pitch late in Thursday's 0-0 draw",
+      "publishedAt": "2026-01-09T05:12:49.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +43,18 @@
       "title": "Mourinho on shock loss: I hope players don't sleep",
       "link": "https://www.espn.com/soccer/story/_/id/47548211/jose-mourinho-hopes-benfica-players-sleep-braga-loss",
       "summary": "An angry Benfica coach Jose Mourinho hopes his players had a sleepless night after their shock defeat to Braga in the Portuguese Allianz Cup semifinal on Wednesday.",
-      "publishedAt": "2026-01-09T00:10:26.000Z"
+      "publishedAt": "2026-01-09T05:12:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Idiot' or 'understandable'? Martinelli apologises for pushing Bradley",
+      "link": "https://www.bbc.com/sport/football/articles/c5yv2j19q23o?at_medium=RSS&at_campaign=rss",
+      "summary": "Arsenal's Gabriel Martinelli is criticised for pushing Conor Bradley while he was down injured - but Liverpool boss Arne Slot defends him.",
+      "publishedAt": "2026-01-09T00:50:34.000Z"
     },
     {
       "type": "rss",
