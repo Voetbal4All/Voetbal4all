@@ -881,10 +881,8 @@ function renderMonthlyEvents() {
     const li = document.createElement("li");
     li.className = "event-item";
     li.innerHTML = `
-      <div class="standings-row">
-        <span class="standings-team">${r.pos}. ${r.team}</span>
-        <span class="standings-pts">${r.pts} pts</span>
-      </div>
+      <div class="event-title">${ev.title}</div>
+      <div class="event-meta">${fmt.format(ev.date)} · ${ev.location}</div>
     `;
     li.addEventListener("click", () => (window.location.href = ev.href));
     listEl.appendChild(li);
@@ -910,8 +908,10 @@ renderMonthlyEvents();
           const li = document.createElement("li");
           li.className = "event-item";
           li.innerHTML = `
-            <div class="event-title">${r.pos}. ${r.team}</div>
-            <div class="event-meta">${r.played}M · ${r.pts} pts</div>
+            <div class="standings-row">
+              <span class="standings-team">${r.pos}. ${r.team}</span>
+              <span class="standings-pts">${r.pts} pts</span>
+            </div>
           `;
           listEl.appendChild(li);
         });
