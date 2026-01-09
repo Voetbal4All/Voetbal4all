@@ -139,6 +139,26 @@
       margin-bottom: 8px;
       text-align: center;
     }
+    /* Cross-platform flags (avoid emoji fallback on Windows) */
+    .v4-flag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 12px;
+      border-radius: 2px;
+      overflow: hidden;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
+      flex: 0 0 auto;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    .v4-flag svg { display:block; width:18px; height:12px; }
+    /* Make INT flag a touch larger for visual parity */
+    .v4-flag--int svg {
+      transform: scale(1.22);
+      transform-origin: center;
+    }
   </style>
 </head>
 
@@ -529,6 +549,43 @@
 
       return out.replace(/\n{3,}/g, "\n\n").replace(/\s{2,}/g, " ").trim();
     };
+
+    const countryLabel = (cc) => {
+      if (cc === 'BE') return 'België';
+      if (cc === 'NL') return 'Nederland';
+      return 'Internationaal';
+    };
+
+    const flagHtml = (cc) => {
+      if (cc === 'BE') {
+        return `<span class="v4-flag" aria-label="België" title="België">
+          <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <rect width="6" height="12" x="0" y="0" fill="#000" />
+            <rect width="6" height="12" x="6" y="0" fill="#FFD100" />
+            <rect width="6" height="12" x="12" y="0" fill="#EF3340" />
+          </svg>
+        </span>`;
+      }
+      if (cc === 'NL') {
+        return `<span class="v4-flag" aria-label="Nederland" title="Nederland">
+          <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <rect width="18" height="4" x="0" y="0" fill="#AE1C28" />
+            <rect width="18" height="4" x="0" y="4" fill="#FFFFFF" />
+            <rect width="18" height="4" x="0" y="8" fill="#21468B" />
+          </svg>
+        </span>`;
+      }
+      return `<span class="v4-flag v4-flag--int" aria-label="Internationaal" title="Internationaal">
+        <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect width="18" height="12" fill="#0B1B2B" />
+          <circle cx="9" cy="6" r="5.2" fill="#2B7A78" />
+          <circle cx="9" cy="6" r="5.2" fill="none" stroke="#BFE3E0" stroke-width="0.7" opacity="0.65" />
+          <path d="M3.8 6h10.4" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" />
+          <path d="M9 0.9c1.9 1.7 1.9 8.8 0 10.2" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none" />
+          <path d="M9 0.9c-1.9 1.7-1.9 8.8 0 10.2" stroke="#BFE3E0" stroke-width="0.8" opacity="0.8" fill="none" />
+        </svg>
+      </span>`;
+    };
     
     const title = article.title || 'Voetbal4All Artikel';
     document.getElementById('page-title').textContent = title + ' - Voetbal4All';
@@ -547,10 +604,12 @@
     const countryEl = document.getElementById('article-country');
     const cc = String(article.country || "").trim().toUpperCase();
 
-    if (cc === 'BE') countryEl.textContent = '🇧🇪 België';
-    else if (cc === 'NL') countryEl.textContent = '🇳🇱 Nederland';
-    else if (cc === 'INT') countryEl.textContent = '🌍 Internationaal';
-    else countryEl.style.display = 'none';
+    if (cc === 'BE' || cc === 'NL' || cc === 'INT') {
+      countryEl.style.display = '';
+      countryEl.innerHTML = `${flagHtml(cc)}${countryLabel(cc)}`;
+    } else {
+      countryEl.style.display = 'none';
+    }
     
     if (article.publishedAt) {
       const date = new Date(article.publishedAt);
