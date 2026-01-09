@@ -182,39 +182,59 @@
     </section>
 
     <main>
-      <!-- HERO -->
-      <section class="section-main home-intro home-hero-min">
-        <div class="shell">
-          <article class="card hero-card" style="width:100%; max-width:none;">
-            <div class="card-header">
-              <div>
-                <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
-                <div class="card-title">Alles voor voetbal op één plek.</div>
-              </div>
-              <span class="pill-small">België · Nederland · internationaal</span>
-            </div>
-
-            <p class="note" style="margin-top:6px;">
-              Vind snel een clubvacature, trainer, speler of event. Kies hieronder wat je zoekt.
-            </p>
-
-            <div class="hero-cta-row">
-              <a href="clubvacatures.html" class="btn-primary">Bekijk clubvacatures</a>
-              <a href="adverteren.html" class="btn-secondary"><span>Adverteer / sponsor</span></a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-
-<!-- WAT ZOEK JE? + RANGSCHIKKINGEN -->
-<section class="section-main home-quick-actions">
+<!-- TOP GRID: HERO (2 cols) + STANDINGS (side cols) + QUICK CARDS (middle cols) -->
+<section class="section-main home-top">
   <div class="shell">
+    <div class="home-top-grid">
 
-    <div class="home-quick-standings-grid">
+      <!-- COL 1 (spans 2 rows): Rangschikking Eredivisie (NL) -->
+      <article class="card home-standings-card home-standings--nl">
+        <div class="card-header">
+          <div>
+            <div class="card-caption">Nederland</div>
+            <div class="card-title">Rangschikking Eredivisie</div>
+          </div>
+          <span class="pill-small">Top 10</span>
+        </div>
+        <ul class="events-list" id="eredivisie-standings"></ul>
+        <p class="note" id="eredivisie-standings-empty" style="display:none;">Rangschikking niet beschikbaar.</p>
+      </article>
 
-      <!-- LINKS: Trainers + Spelers -->
-      <div class="home-col-stack">
+      <!-- COL 2-3: HERO (spans 2 columns) -->
+      <article class="card hero-card hero-card--span2">
+        <div class="card-header">
+          <div>
+            <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
+            <div class="card-title">Alles voor voetbal op één plek.</div>
+          </div>
+          <span class="pill-small">België · Nederland · internationaal</span>
+        </div>
+
+        <p class="note" style="margin-top:6px;">
+          Vind snel een clubvacature, trainer, speler of event. Kies hieronder wat je zoekt.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="clubvacatures.html" class="btn-primary">Bekijk clubvacatures</a>
+          <a href="adverteren.html" class="btn-secondary"><span>Adverteer / sponsor</span></a>
+        </div>
+      </article>
+
+      <!-- COL 4 (spans 2 rows): Rangschikking Jupiler Pro League (BE) -->
+      <article class="card home-standings-card home-standings--be">
+        <div class="card-header">
+          <div>
+            <div class="card-caption">België</div>
+            <div class="card-title">Rangschikking Jupiler Pro League</div>
+          </div>
+          <span class="pill-small">Top 10</span>
+        </div>
+        <ul class="events-list" id="jpl-standings"></ul>
+        <p class="note" id="jpl-standings-empty" style="display:none;">Rangschikking niet beschikbaar.</p>
+      </article>
+
+      <!-- ROW 2, COL 2: Trainers + Spelers -->
+      <div class="home-col-stack home-stack--left">
         <a class="card quick-card" href="trainers.html">
           <div class="quick-kicker">Trainers</div>
           <div class="quick-title">Trainer zoekt club</div>
@@ -228,23 +248,8 @@
         </a>
       </div>
 
-      <!-- MIDDEN LINKS: Eredivisie -->
-      <article class="card home-standings-card">
-        <div class="card-header">
-          <div>
-            <div class="card-caption">Nederland</div>
-            <div class="card-title">Rangschikking Eredivisie</div>
-          </div>
-          <span class="pill-small">Top 10</span>
-        </div>
-        <ul class="events-list" id="eredivisie-standings"></ul>
-        <p class="note" id="eredivisie-standings-empty" style="display:none;">
-          Rangschikking niet beschikbaar.
-        </p>
-      </article>
-
-      <!-- RECHTS: Events + Ads -->
-      <div class="home-col-stack">
+      <!-- ROW 2, COL 3: Events + Ads -->
+      <div class="home-col-stack home-stack--right">
         <a class="card quick-card" href="events.html">
           <div class="quick-kicker">Events</div>
           <div class="quick-title">Zoek of plaats events</div>
@@ -258,26 +263,12 @@
         </a>
       </div>
 
-      <!-- MIDDEN RECHTS: Jupiler Pro League -->
-      <article class="card home-standings-card">
-        <div class="card-header">
-          <div>
-            <div class="card-caption">België</div>
-            <div class="card-title">Rangschikking Jupiler Pro League</div>
-          </div>
-          <span class="pill-small">Top 10</span>
-        </div>
-        <ul class="events-list" id="jpl-standings"></ul>
-        <p class="note" id="jpl-standings-empty" style="display:none;">
-          Rangschikking niet beschikbaar.
-        </p>
-      </article>
-
     </div>
   </div>
 </section>
-        </div>
-      </section>
+
+
+      <!-- PREMIUM RIJ -->
 
       <!-- PREMIUM RIJ -->
       <section class="section-main premium-row">
