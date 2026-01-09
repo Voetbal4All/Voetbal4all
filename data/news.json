@@ -1,6 +1,149 @@
 {
-  "generatedAt": "2026-01-09T16:33:30.084Z",
+  "generatedAt": "2026-01-09T17:26:31.116Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Transfers Ajax: Ajax maakt werk van komst Ibrahimovic",
+      "link": "https://www.vi.nl/nieuws/transfers-ajax-grim-bevestigt-terugkeer-mcconnell-naar-liverpool",
+      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij Ajax op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Amsterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2026-01-09T17:22:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Schmeichel windt zich op over ontslag Amorim: 'Net als onder Ten Hag'",
+      "link": "https://www.vi.nl/nieuws/schmeichel-windt-zich-op-over-ontslag-amorim-net-als-onder-ten-hag",
+      "summary": "Peter Schmeichel begrijpt weinig van het besluit om Rúben Amorim weg te sturen bij Manchester United. Amorim werd eerder deze week op straat gezet door de huidige nummer zeven van de Premier League. De oud-doelman van de club vindt vooral de timing raar.",
+      "publishedAt": "2026-01-09T17:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "FA Cup buildup, Romero hit with extra ban, transfer news and fixture latest – football live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/09/fa-cup-buildup-martinelli-deeply-sorry-transfer-news-and-fixture-latest-football-live",
+      "summary": "⚽ All the latest ahead of FA Cup third round weekend ⚽ Ten things to look out for | Football Daily | Email John The third round of the FA Cup threw up plenty of intriguing ties. Check out some of the storylines ahead of the action which gets underway with four matches tonight. Today’s Rumour Mill has been released into the wild. How many bloody defenders do Arsenal need?! Continue reading...",
+      "publishedAt": "2026-01-09T17:17:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Van de Ven op verlanglijstje Barcelona geplaatst'",
+      "link": "https://www.vi.nl/nieuws/van-de-ven-op-verlanglijstje-barcelona-geplaatst",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-09T17:17:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fletcher's focus solely on Man Utd FA Cup tie",
+      "link": "https://www.bbc.com/sport/football/articles/cx2kg8djv7jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United interim boss Darren Fletcher says he there have been no conversations with club chiefs over his future since he replaced sacked Ruben Amorim.",
+      "publishedAt": "2026-01-09T17:14:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City confirms Semenyo signing in $84m deal",
+      "link": "https://www.espn.com/soccer/story/_/id/47537480/man-city-transfer-antoine-semenyo-bournemouth-64-million-premier-league",
+      "summary": "Manchester City have announced the signing of Antoine Semenyo from Bournemouth.",
+      "publishedAt": "2026-01-09T17:10:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Saka to sign new five-year deal at Arsenal",
+      "link": "https://www.espn.com/soccer/story/_/id/47561059/bukayo-saka-sign-new-five-year-deal-arsenal-sources",
+      "summary": "Arsenal have agreed the framework of a new long-term contract with Bukayo Saka, sources have told ESPN.",
+      "publishedAt": "2026-01-09T17:10:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Interim boss Fletcher in the dark over United plans",
+      "link": "https://www.espn.com/soccer/story/_/id/47561062/darren-fletcher-dark-man-united-manager-plans-no-conversations",
+      "summary": "Darren Fletcher says he's in the dark over Manchester United's plans for his future as he prepares to take charge of his second game as caretaker boss.",
+      "publishedAt": "2026-01-09T17:10:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Viní taunts Simeone: You've lost another knockout",
+      "link": "https://www.espn.com/soccer/story/_/id/47558851/vinicius-jr-taunts-diego-simeone-real-madrid-atletico-clash",
+      "summary": "Vinícius Júnior taunted Atlético Madrid coach Diego Simeone on social media after their clash at the Spanish Supercopa, commenting \"you've lost another knockout tie.\"",
+      "publishedAt": "2026-01-09T17:10:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "The England-wide impact of Man City's manager",
+      "link": "https://www.espn.com/soccer/story/_/id/47550983/impact-man-city-pep-guardiola-extends-premier-league",
+      "summary": "Players and coaches agree: Pep Guardiola has influenced not just the Premier League, but the entire English pyramid.",
+      "publishedAt": "2026-01-09T17:05:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wolves latest: Edwards wants to continue momentum in FA Cup tie",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279323/wolverhampton-wanderers-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2026-01-09T17:03:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "‘Why can’t it be us?’: Weston-super-Mare hope FA Cup dream run can go on",
+      "link": "https://www.theguardian.com/football/2026/jan/09/weston-super-mare-fa-cup-grimsby",
+      "summary": "National League South side face Grimsby in the third round and those at the club are desparate for the ride to continue Weeks on from the FA Cup third-round draw, inside Weston-super-Mare’s modest clubhouse at their stadium a couple of miles from the holiday haven beachfront, there is still a tinge of incredulity at what might have been. Bridget Bolland, operations manager and one of the mini-army of staff who keep the part-time sixth-tier side ticking, relays how, normally, visiting teams have their post-match meal on a bench beside the skittles alley, sausage and chips usually the offering. The thought of Bruno Fernandes or Erling Haaland tucking in here is yet to fully evaporate. But the draw meant Weston, the promotion-chasing National League South side who have reached this stage of the Cup for the first time, have been preparing for a different challenge: a tie at fourth-tier Grimsby Town, who beat Manchester United in the Carabao Cup in August. “As a United fan, I hated them that night,” says Weston’s manager, Scott Rogers. “I was going mad at the TV. But I’m hoping we can do something similar. There’s always an upset in the Cup: why can’t it be us?” Continue reading...",
+      "publishedAt": "2026-01-09T17:00:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ook Bundesliga geteisterd door sneeuwval",
+      "link": "https://www.vi.nl/nieuws/ook-bundesliga-geteisterd-door-sneeuwval",
+      "summary": "Niet alleen Nederland, maar ook Duitsland wordt geteisterd door hevige sneeuwval. Dat heeft geleid tot twee afgelastingen in de Bundesliga.",
+      "publishedAt": "2026-01-09T16:50:00.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -25,36 +168,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "ADO Den Haag in zee met Cedric van der Gun",
-      "link": "https://www.vi.nl/nieuws/ado-den-haag-in-zee-met-cedric-van-der-gun",
-      "summary": "Cedric van der Gun gaat aan de slag bij ADO Den Haag. De oud-speler van de club is aangesteld als assistent-technisch manager. Hij wordt de rest van het seizoen de rechterhand van technisch directeur Mark Wotte.",
-      "publishedAt": "2026-01-09T16:28:28.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Guardiola noemt transfer Semenyo een uitzondering en ziet trend in Engels voetbal",
-      "link": "https://www.vi.nl/nieuws/guardiola-noemt-transfer-semenyo-een-uitzondering-en-ziet-trend-in-engels-voetbal",
-      "summary": "Manchester City neemt het zaterdag in de FA Cup op tegen Exeter City. In dat duel zullen alle ogen gericht zijn op de nieuwe aanwinst van de Engelse topclub, Antoine Semenyo. Op de persconferentie in aanloop naar het bekerduel ging manager Pep Guardiola in op het snelle handelen op de transfermarkt.",
-      "publishedAt": "2026-01-09T16:20:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Chelsea charged after bottle thrown following Villa loss",
-      "link": "https://www.bbc.com/sport/football/articles/c0q41xqp2jno?at_medium=RSS&at_campaign=rss",
-      "summary": "The Football Association (FA) charges Chelsea after a bottle is thrown towards Aston Villa's bench in December.",
-      "publishedAt": "2026-01-09T16:14:34.000Z"
+      "title": "Tottenham latest: Romero to miss FA Cup tie after additional ban",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "summary": "",
+      "publishedAt": "2026-01-09T16:23:00.000Z"
     },
     {
       "type": "rss",
@@ -62,32 +183,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "FA Cup buildup, Martinelli ‘deeply sorry’, transfer news and fixture latest – football live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/09/fa-cup-buildup-martinelli-deeply-sorry-transfer-news-and-fixture-latest-football-live",
-      "summary": "⚽ All the latest ahead of FA Cup third round weekend ⚽ Ten things to look out for | Football Daily | Email John The third round of the FA Cup threw up plenty of intriguing ties. Check out some of the storylines ahead of the action which gets underway with four matches tonight. Today’s Rumour Mill has been released into the wild. How many bloody defenders do Arsenal need?! Continue reading...",
-      "publishedAt": "2026-01-09T16:10:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Datamodel voorspelt: PSV kampioen, NAC moet vrezen voor degradatie",
-      "link": "https://www.vi.nl/pro/datamodel-voorspelt-psv-kampioen-nac-moet-vrezen-voor-degradatie",
-      "summary": "Mits het winterse weer geen roet in het eten gooit, gaat dit weekend de tweede seizoenshelft van start. Op basis van de modellen van Opta hoeven we de komende maanden geen spannende titelstrijd te verwachten. Het databureau ziet PSV als absolute topfavoriet voor de landstitel. De spanning lijkt vooral te zitten in de race om Europees voetbal en de strijd tegen degradatie.",
-      "publishedAt": "2026-01-09T16:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Rosenior ziet druk als voorrecht en noemt Van Gaal als inspiratiebron",
-      "link": "https://www.vi.nl/nieuws/rosenior-ziet-druk-als-voorrecht-en-noemt-van-gaal-als-inspiratiebron",
-      "summary": "Liam Rosenior gaf vrijdag zijn eerste persconferentie als manager van Chelsea. De Engelsman blikte vooruit op het FA Cup-duel met Charlton Athletic en zijn tijd bij Chelsea in het algemeen. Daarbij noemde hij Louis van Gaal als één van zijn voorbeelden.",
-      "publishedAt": "2026-01-09T15:55:57.000Z"
+      "title": "Football Daily | British managers abroad: will Gary O’Neil sink or swim at Strasbourg?",
+      "link": "https://www.theguardian.com/football/2026/jan/09/gary-o-neil-strasbourg-football-daily-newsletter",
+      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! Some British managers who have chanced their arm on the continent have won trophies and the adoration of supporters. Others have at least provided the Daily with plenty of content. For every Bobby Robson, there’s a Tony Adams, or to meet somewhere in the middle, Steve McClaren – who can deliver you a league title while still making an arsche of himself in TV interviews. What fate awaits Gary O’Neil, quietly ushered into the vacant hot seat at Ligue 1 Strasbourg after Todd Boehly called up Liam Rosenior for the real job? Like Rosenior, he starts his tenure with a tricky away day in the cup; hours before Chelsea play Charlton, O’Neil will take the reins for a Coupe de France tie at fourth-tier Avranches. Back on a cold December day in 2001, I sat at Hillsborough and watched in despair as Sheffield Wednesday got absolutely shellacked by Norwich City, losing 5-0 at home. A couple of days after the game I sat down and wrote a letter (ask your parents, kids!) to our manager, Terry Yorath. I wasn’t rude, just desperate: I said I thought he ought to know that I’d been watching Wednesday for 17 years and that was the worst I’d ever seen us play. And you know what: he wrote me an actual letter back. He said he was sorry, that the club valued my support, and that he was trying hard to change things. He didn’t really change things (though we escaped relegation to League One by a point), but he did care enough to write to me, and I’ve never forgotten that. A gentleman” – Adam Gutteridge. Continue reading...",
+      "publishedAt": "2026-01-09T15:57:38.000Z"
     },
     {
       "type": "rss",
@@ -121,105 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cy7mxz17gnlo?at_medium=RSS&at_campaign=rss",
       "summary": "Bukayo Saka agrees a new long-term contract with Arsenal.",
       "publishedAt": "2026-01-09T15:42:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Neymar begins recovery post-knee op, looks to WC",
-      "link": "https://www.espn.com/soccer/story/_/id/47558439/brazil-star-neymar-begins-recovery-knee-surgery-ahead-world-cup-bid",
-      "summary": "Neymar has started his recovery process after undergoing minor surgery on his left knee on Dec. 22.",
-      "publishedAt": "2026-01-09T15:05:26.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Viní taunts Simeone: You've lost another knockout",
-      "link": "https://www.espn.com/soccer/story/_/id/47558851/vinicius-jr-taunts-diego-simeone-real-madrid-atletico-clash",
-      "summary": "Vinícius Júnior taunted Atlético Madrid coach Diego Simeone on social media after their clash at the Spanish Supercopa, commenting \"you've lost another knockout tie.\"",
-      "publishedAt": "2026-01-09T15:05:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Smart, independent and in demand … but would Glasner be a good fit for Manchester United?",
-      "link": "https://www.theguardian.com/football/2026/jan/09/oliver-glasner-manchester-united-crystal-palace",
-      "summary": "The Austrian has thrived at teams who do not expect to have much of the ball but this style may not work at Old Trafford where possession is expected Oliver Glasner has shown a penchant for one-liners, as well a 3-4-2-1 formation, since he took over at Crystal Palace almost two years ago. The Austrian declared he was “not David Copperfield” in his first press conference and usually has a saying for whatever situation Palace are in, such as declaring they must not be “one-hit wonders” after winning the FA Cup. It was therefore no surprise to find Glasner had come prepared when he played a straight bat to questions about his future this week after Ruben Amorim’s sacking by Manchester United. “I’m not a gambler,” he said when asked to comment on the fact he is the bookmakers’ favourite to take over at Old Trafford in the summer. Continue reading...",
-      "publishedAt": "2026-01-09T14:37:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kyogo 'unlikely' to return to Celtic in January, says O'Neill",
-      "link": "https://www.skysports.com/football/news/12040/13492486/kyogo-furuhashi-celtic-unlikely-to-re-sign-striker-in-january-transfer-window-says-martin-oneill",
-      "summary": "Celtic interim manager Martin O'Neill says it is \"unlikely\" that striker Kyogo Furuhashi will return to the club.",
-      "publishedAt": "2026-01-09T14:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tottenham latest: Roma preparing offer for Dragusin",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "summary": "",
-      "publishedAt": "2026-01-09T14:24:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City confirms Semenyo signing in $84m deal",
-      "link": "https://www.espn.com/soccer/story/_/id/47537480/man-city-transfer-antoine-semenyo-bournemouth-64-million-premier-league",
-      "summary": "Manchester City have announced the signing of Antoine Semenyo from Bournemouth.",
-      "publishedAt": "2026-01-09T14:10:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep: Man City beat 'many clubs' to sign Semenyo",
-      "link": "https://www.espn.com/soccer/story/_/id/47559644/man-city-beat-many-clubs-antoine-semenyo-signing-pep-guardiola",
-      "summary": "Pep Guardiola has revealed Manchester City beat off competition from \"many clubs\" to sign Antoine Semenyo from AFC Bournemouth.",
-      "publishedAt": "2026-01-09T14:10:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Spindleberry tipped to claim Mares' Chase crown at Cheltenham in March",
-      "link": "https://www.skysports.com/racing/news/12040/13492406/cheltenham-tips-spindleberry-fancied-to-land-mares-chase-crown-for-willie-mullins",
-      "summary": "With the possibility of cancellations of racing this weekend, the Weekend Winners team look forward to the Cheltenham Festival with some ante-post angles.",
-      "publishedAt": "2026-01-09T13:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Real Madrid open to Vinícius exit? Chelsea keen? Where might Guéhi go?",
-      "link": "https://www.espn.com/soccer/story/_/id/47550532/transfer-window-weekly-real-madrid-open-vinicius-exit-man-united-wait-afcon-end",
-      "summary": "The winter transfer window is open, but what are our reporters hearing about deals that could be done? Get the latest every Friday.",
-      "publishedAt": "2026-01-09T13:34:03.000Z"
     }
   ]
 }
