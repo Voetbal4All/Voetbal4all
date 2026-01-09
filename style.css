@@ -1893,3 +1893,44 @@ img {
   #latest-news-grid h4.home-news__title {
     font-weight: 200;
   }
+
+  /* ==============================
+   HOME – FIX GRID STRUCTURE
+   ============================== */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr) 300px;
+  gap: 16px;
+  align-items: start;
+}
+
+/* Kolommen */
+.column-left,
+.column-middle,
+.column-right {
+  min-width: 0; /* voorkomt overlopen van titels */
+}
+
+/* Ads mogen nooit breken */
+.adsbygoogle,
+.ad-slot,
+.ad-infeed,
+.ad-vertical {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* Titels mogen niet onder rechterkolom vallen */
+.home-news__title,
+.ad-card-title,
+.card-title {
+  word-break: break-word;
+}
+
+/* Quick cards – 2 kolommen */
+.quick-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}

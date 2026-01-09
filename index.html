@@ -206,6 +206,7 @@
         </div>
       </section>
 
+
       <!-- WAT ZOEK JE? -->
       <section class="section-main home-quick-actions">
         <div class="shell">
@@ -388,6 +389,38 @@
           </p>
 
           <a href="events.html" class="event-link" style="margin-top:10px; display:inline-block;">Alle events →</a>
+        </article>
+
+        <!-- 3) Rangschikking Eredivisie -->
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">Nederland</div>
+              <div class="card-title">Rangschikking Eredivisie</div>
+            </div>
+            <span class="pill-small">Top 10</span>
+          </div>
+
+          <ul class="events-list" id="eredivisie-standings" style="margin-top:6px;"></ul>
+          <p class="note" id="eredivisie-standings-empty" style="display:none; margin-top:10px;">
+            Rangschikking niet beschikbaar.
+          </p>
+        </article>
+
+        <!-- 4) Rangschikking Jupiler Pro League -->
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-caption">België</div>
+              <div class="card-title">Rangschikking Jupiler Pro League</div>
+            </div>
+            <span class="pill-small">Top 10</span>
+          </div>
+
+          <ul class="events-list" id="jpl-standings" style="margin-top:6px;"></ul>
+          <p class="note" id="jpl-standings-empty" style="display:none; margin-top:10px;">
+            Rangschikking niet beschikbaar.
+          </p>
         </article>
       </section>
 
@@ -613,9 +646,9 @@
       function flagHtml(cc){
         const c = String(cc || "INT").trim().toUpperCase();
         const FLAG_SRC = {
-          BE: "/assets/img/sources/flag-be.svg",
-          NL: "/assets/img/sources/flag-nl.svg",
-          INT: "/assets/img/sources/flag-int.svg",
+          BE: "assets/img/sources/flag-be.svg",
+          NL: "assets/img/sources/flag-nl.svg",
+          INT: "assets/img/sources/flag-int.svg",
         };
         const src = FLAG_SRC[c] || FLAG_SRC.INT;
         const alt = c === "BE" ? "België" : (c === "NL" ? "Nederland" : "Internationaal");
@@ -666,7 +699,7 @@
             return !st || st === "ready";
           });
 
-          function dedupeById(items){
+          function dedupeById(items) {
             const seen = new Set();
             const out = [];
             for (const it of (items || [])) {
@@ -680,39 +713,30 @@
           }
 
           let items = dedupeById(readyItems);
-
           console.log(`[DEDUPE] ${rawItems.length} → ${items.length} articles (removed ${rawItems.length - items.length} duplicates)`);
-
-          // Don't slice here - we need all items for filtering
           console.log("[HOME] items:", items.length);
 
           // 🔥 FOOTBALL FILTER - SOFT VERSION: Only exclude explicit non-football sports
-          // Do NOT require football keywords (to avoid false negatives)
           const nonFootballKeywords = [
-            'darts', 'dart', 'dartsnieuws', 'dartswedstrijd',
-            'snooker', 'snookertafel',
-            'tennis', 'tennisbal', 'tennisbaan',
-            'basketbal', 'basketball', 'nba',
-            'hockey', 'hockeystick',
-            'handbal', 'volleybal',
-            'formule 1', 'formule1', 'f1-coureur', 'grand prix', 'verstappen',
-            'wielrennen', 'cycling',
-            'schaatsen', 'zwemmen', 'atletiek',
-            'golf', 'rugby', 'boksen', 'motorsport'
+            "darts", "dart", "dartsnieuws", "dartswedstrijd",
+            "snooker", "snookertafel",
+            "tennis", "tennisbal", "tennisbaan",
+            "basketbal", "basketball", "nba",
+            "hockey", "hockeystick",
+            "handbal", "volleybal",
+            "formule 1", "formule1", "f1-coureur", "grand prix", "verstappen",
+            "wielrennen", "cycling",
+            "schaatsen", "zwemmen", "atletiek",
+            "golf", "rugby", "boksen", "motorsport"
           ];
-          
+
           const filteredItems = items.filter(article => {
-            const text = `${article.title || ''} ${article.snippet || ''}`.toLowerCase();
-            
-            // ONLY exclude explicit non-football sports
+            const text = `${article.title || ""} ${article.snippet || ""}`.toLowerCase();
             const hasNonFootball = nonFootballKeywords.some(k => text.includes(k));
-            
             if (hasNonFootball) {
               console.log(`[FILTER] ❌ Excluded (non-football): ${article.title}`);
               return false;
             }
-            
-            // Include everything else (assume football)
             return true;
           });
 
@@ -729,34 +753,23 @@
           }
 
           const html = displayItems.map((a, index) => {
-            // 1) title check (zoals je al had)
             const rawTitle = a?.title || "";
-            const looksLikeSlug =
-              rawTitle.endsWith(".json") ||
-              (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
+            const looksLikeSlug = rawTitle.endsWith(".json") || (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
 
-              const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : cleanTitle(rawTitle);
-              const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
+            const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : cleanTitle(rawTitle);
+            const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
 
-            // 2) JUISTE file-naam (backend gebruikt fileName)
-            const file = a?.file || a?.fileName || "";
+            // vlag op basis van country
+            const country = (a?.country || "").toUpperCase();
+            const cc = (country === "BE" || country === "NL") ? country : "INT";
+            const flag = flagHtml(cc);
 
-            // 3) JUISTE image (zit genest in image.publicPath)
-
-          // 4) vlag op basis van country (inline SVG, no emoji)
-          const country = (a?.country || "").toUpperCase();
-          const cc = (country === "BE" || country === "NL") ? country : "INT";
-          const flag = flagHtml(cc);
-
-            // 3) JUISTE image: backend levert image als STRING
+            // image
             let imgPath = (typeof a?.image === "string" ? a.image : "") || "";
-
-            // maak absoluut (belangrijk: IMG_BASE, niet API_BASE)
             if (imgPath && imgPath.startsWith("/")) {
               imgPath = IMG_BASE + imgPath;
             }
-            
-            // 🔥 NEW: Insert inline ad after 10th article
+
             const articleHtml = `
               <article class="home-news__item">
                 <a class="home-news__link" href="artikel.html?id=${encodeURIComponent(a.id)}">
@@ -780,8 +793,7 @@
                 </a>
               </article>
             `;
-            
-            // Insert ad after 10th article (index 9 because 0-based)
+
             if (index === 9) {
               return articleHtml + `
                 <div class="card" style="margin: 20px 0; padding: 10px;">
@@ -794,25 +806,28 @@
                 </div>
               `;
             }
-              
+
             return articleHtml;
           }).join("");
 
           homeListEl.innerHTML = html;
-          try {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-          console.warn("[ADS] push failed", e);
-        }
-        hasRenderedHomeNews = true;
-        hideStatus();
-        localStorage.setItem(CACHE_KEY, html);
 
-      } catch (err) {
-        console.error("[HOME] loadHomeNews failed:", err);
+          // probeer ad units te activeren (veilig)
+          try {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (e) {
+            console.warn("[ADS] push failed", e);
+          }
+
+          hasRenderedHomeNews = true;
+          hideStatus();
+          localStorage.setItem(CACHE_KEY, html);
+
+        } catch (err) {
+          console.error("[HOME] loadHomeNews failed:", err);
+        }
       }
-    }
- 
 
       // Eerste live load + periodieke refresh
       loadHomeNews();
@@ -871,6 +886,65 @@ function renderMonthlyEvents() {
 }
 
 renderMonthlyEvents();
+
+      // Standings (placeholder data) – later vervangen door echte competitie API
+      function renderStandings(listId, emptyId, rows) {
+        const listEl = document.getElementById(listId);
+        const emptyEl = document.getElementById(emptyId);
+        if (!listEl) return;
+
+        listEl.innerHTML = "";
+        if (!Array.isArray(rows) || !rows.length) {
+          if (emptyEl) emptyEl.style.display = "block";
+          return;
+        }
+        if (emptyEl) emptyEl.style.display = "none";
+
+        rows.slice(0, 10).forEach(r => {
+          const li = document.createElement("li");
+          li.className = "event-item";
+          li.innerHTML = `
+            <div class="event-title">${r.pos}. ${r.team}</div>
+            <div class="event-meta">${r.played}M · ${r.pts} pts</div>
+          `;
+          listEl.appendChild(li);
+        });
+      }
+
+      // Voorbeelddata (zet later dynamisch via API)
+      renderStandings(
+        "eredivisie-standings",
+        "eredivisie-standings-empty",
+        [
+          { pos: 1, team: "PSV", played: 18, pts: 45 },
+          { pos: 2, team: "Feyenoord", played: 18, pts: 41 },
+          { pos: 3, team: "Ajax", played: 18, pts: 38 },
+          { pos: 4, team: "AZ", played: 18, pts: 35 },
+          { pos: 5, team: "FC Twente", played: 18, pts: 33 },
+          { pos: 6, team: "Utrecht", played: 18, pts: 30 },
+          { pos: 7, team: "Heerenveen", played: 18, pts: 27 },
+          { pos: 8, team: "Sparta", played: 18, pts: 26 },
+          { pos: 9, team: "NEC", played: 18, pts: 24 },
+          { pos: 10, team: "Vitesse", played: 18, pts: 22 }
+        ]
+      );
+
+      renderStandings(
+        "jpl-standings",
+        "jpl-standings-empty",
+        [
+          { pos: 1, team: "Club Brugge", played: 20, pts: 44 },
+          { pos: 2, team: "Union SG", played: 20, pts: 42 },
+          { pos: 3, team: "Anderlecht", played: 20, pts: 39 },
+          { pos: 4, team: "KAA Gent", played: 20, pts: 36 },
+          { pos: 5, team: "Genk", played: 20, pts: 35 },
+          { pos: 6, team: "Antwerp", played: 20, pts: 33 },
+          { pos: 7, team: "Standard", played: 20, pts: 29 },
+          { pos: 8, team: "Mechelen", played: 20, pts: 28 },
+          { pos: 9, team: "Charleroi", played: 20, pts: 26 },
+          { pos: 10, team: "Cercle Brugge", played: 20, pts: 25 }
+        ]
+      );
 
 });
 </script>
