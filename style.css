@@ -526,6 +526,36 @@ footer { margin-top: auto; }
 .column-right {
   display: grid;
   gap: 12px;
+  min-width: 0; /* cruciaal: voorkomt dat content de kolom ‘open duwt’ */
+}
+
+/* Zorg dat grid items binnen de kolommen nooit buiten hun kolom renderen */
+.column-middle > *,
+.column-right > * {
+  min-width: 0;
+}
+
+/* Home/kaart titels & meta: breek woorden i.p.v. over de sidebar te lopen */
+.home-news__title,
+.ad-card-title,
+.ad-card-meta,
+.card-title {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* AdSense: voorkom overlap/overflow in cards en kolommen */
+.ad-slot,
+.ad-infeed,
+.ad-vertical {
+  overflow: hidden;
+}
+
+.ad-slot ins.adsbygoogle,
+.ad-infeed ins.adsbygoogle,
+.ad-vertical ins.adsbygoogle {
+  max-width: 100%;
+  width: 100% !important;
 }
 
 /* Weekendlijst (events blok) */
