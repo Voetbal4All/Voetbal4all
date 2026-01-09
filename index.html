@@ -796,7 +796,7 @@
 
             if (index === 9) {
               return articleHtml + `
-                <div class="card" style="margin: 20px 0; padding: 10px;">
+                <div class="card ad-infeed ad-slot-infeed">
                   <ins class="adsbygoogle"
                     style="display:block"
                     data-ad-client="ca-pub-4062633211824348"
@@ -812,10 +812,15 @@
 
           homeListEl.innerHTML = html;
 
-          // probeer ad units te activeren (veilig)
+          // probeer ad units te activeren (veilig) – single deferred push
           try {
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            (adsbygoogle = window.adsbygoogle || []).push({});
+            setTimeout(() => {
+              try {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              } catch (e) {
+                console.warn("[ADS] push failed", e);
+              }
+            }, 0);
           } catch (e) {
             console.warn("[ADS] push failed", e);
           }

@@ -874,12 +874,21 @@ footer { margin-top: auto; }
   /* Meta-rijen altijd op 1 lijn */
   .ad-card-meta,
   .article-meta-row,
-  .flag-inline,
-  .home-news__titleRow{
+  .flag-inline{
     display:inline-flex;
     align-items:center;
     gap:8px;
     white-space:nowrap;
+  }
+
+  /* Title rows must be allowed to wrap to avoid overlapping the right column */
+  .home-news__titleRow{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    white-space:normal;
+    flex-wrap:wrap;
+    min-width:0;
   }
   
   /* Legacy/compat: als er nog oude classes in HTML staan */
@@ -1221,7 +1230,7 @@ footer { margin-top: auto; }
   opacity: 0.92;
   display: flex;
   justify-content: center;
-  overflow: visible !important;
+  overflow: hidden !important;
 }
 
 .ad-slot-header ins.adsbygoogle,
@@ -1230,8 +1239,28 @@ footer { margin-top: auto; }
   width: 100% !important;
   height: auto !important;
   min-height: 0 !important;
-  overflow: visible !important;
+  overflow: hidden !important;
   border-radius: 12px;
+}
+
+/* Global safety: never allow AdSense to overflow its column */
+ins.adsbygoogle{
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  overflow:hidden !important;
+}
+
+ins.adsbygoogle iframe{
+  max-width:100% !important;
+}
+
+/* In-feed wrapper should behave like a normal block in the middle column */
+.ad-slot-infeed{
+  margin: 16px 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  max-width: 100% !important;
 }
 
 .ad-slot-header iframe,
@@ -1858,6 +1887,7 @@ img {
     display:flex;
     gap:14px;
     align-items:center;
+    min-width:0;
   }
   
   .home-news__thumbWrap{
@@ -1875,11 +1905,27 @@ img {
     object-fit:cover;
     display:block;
   }
+
+  .home-news__meta{
+    min-width:0;
+    flex:1 1 auto;
+  }
+
+  .home-news__title{
+    white-space:normal;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+    min-width:0;
+  }
   
+  /* Title rows must be allowed to wrap to avoid overlapping the right column */
   .home-news__titleRow{
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     gap:10px;
+    white-space:normal;
+    flex-wrap:wrap;
+    min-width:0;
   }
   
   .is-fallback {
