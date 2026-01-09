@@ -8,6 +8,10 @@
   <meta charset="UTF-8" />
   <title>Voetbal4All - Artikels & verhalen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://voetbal4all-backend-database.onrender.com" crossorigin>
+  <link rel="dns-prefetch" href="https://voetbal4all-backend-database.onrender.com">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css" />
@@ -314,7 +318,7 @@
 
     // Backend endpoints
     const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
-    const NEWS_URL = IMG_BASE + "/api/news?limit=200";
+    const NEWS_URL = IMG_BASE + "/api/news?limit=200"; // keep large limit, but render progressively for speed
 
     const articleList = document.getElementById("article-list");
     const newsStatus = document.getElementById("news-status");
@@ -457,7 +461,7 @@
 
     function renderAdInfeed(slot){
       return `
-        <div class="ad-infeed" style="margin: 10px 0;">
+        <div class="ad-infeed" style="margin: 10px 0; min-height: 120px;">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-4062633211824348"
@@ -519,17 +523,23 @@
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
         const imgUrlFinal = toImgUrl(a?.image);
+        const placeholderImg = "assets/img/placeholder.svg";
+        const imgSrc = imgUrlFinal || placeholderImg;
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         return `
           <article class="ad-card">
             <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
             <img
-              src="${imgUrlFinal || ''}"
+              src="${imgSrc}"
               alt="${safeTitleAttr}"
               loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+              width="96"
+              height="64"
               style="width:96px;height:64px;object-fit:cover;border-radius:10px;"
-            >
+            />
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
@@ -617,20 +627,39 @@
       lastRenderKey = renderKey;
 
       articleList.innerHTML = "";
-
+      const htmlParts = [];
+      const adQueue = [];
       pageItems.forEach((a, i) => {
-        articleList.insertAdjacentHTML("beforeend", renderCard(a));
+        htmlParts.push(renderCard(a));
 
         // In-feed ads (per pagina)
         if (i === 5) {
-          articleList.insertAdjacentHTML("beforeend", renderAdInfeed("5761272101"));
-          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+          htmlParts.push(renderAdInfeed("5761272101"));
+          adQueue.push(true);
         }
         if (i === 13) {
-          articleList.insertAdjacentHTML("beforeend", renderAdInfeed("4831226012"));
-          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+          htmlParts.push(renderAdInfeed("4831226012"));
+          adQueue.push(true);
         }
       });
+
+      // Single DOM write (much faster, less layout thrash)
+      articleList.innerHTML = htmlParts.join("");
+
+      // Defer AdSense fill to idle time (prevents blocking the initial render)
+      const pushAds = () => {
+        if (!adQueue.length) return;
+        try {
+          for (let i = 0; i < adQueue.length; i++) {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          }
+        } catch (e) {}
+      };
+      if ("requestIdleCallback" in window) {
+        requestIdleCallback(pushAds, { timeout: 1500 });
+      } else {
+        setTimeout(pushAds, 200);
+      }
 
       // ✅ paginatie UI onderaan (buiten #article-list zodat ads/cards het niet kunnen overlappen)
       if (paginationEl) {
@@ -672,9 +701,21 @@
         // show immediately
         applyFilters();
       } else {
-        // show loading state
+        // show loading state + quick skeleton to avoid "blank page" perception
         newsStatus.style.display = "block";
         newsStatus.textContent = "Artikels laden…";
+        const skel = Array.from({ length: 8 }).map(() => `
+          <article class="ad-card" aria-hidden="true">
+            <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
+              <div style="width:96px;height:64px;border-radius:10px;background:rgba(255,255,255,0.06);"></div>
+              <div style="min-width:0;flex:1;">
+                <div style="height:14px;width:70%;border-radius:6px;background:rgba(255,255,255,0.06);margin:4px 0;"></div>
+                <div style="height:12px;width:45%;border-radius:6px;background:rgba(255,255,255,0.06);margin:8px 0;"></div>
+              </div>
+            </div>
+          </article>
+        `).join("");
+        articleList.innerHTML = skel;
       }
 
       // 2) Refresh in background (network)
