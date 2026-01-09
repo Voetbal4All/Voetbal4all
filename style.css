@@ -393,7 +393,9 @@ footer { margin-top: auto; }
 
 /* Marquee track via JS variabelen (start buiten rechts, eind buiten links) */
 .marquee-track {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   white-space: nowrap;
   will-change: transform;
 
@@ -404,6 +406,11 @@ footer { margin-top: auto; }
 
   transform: translateX(var(--live-marquee-start, 100%));
   animation: liveMarqueeVars var(--live-marquee-duration, 20s) linear infinite;
+}
+
+/* Live banner: keep flag icons perfectly aligned with text */
+.live-banner svg.flag-icon{
+  vertical-align: middle;
 }
 
 @keyframes liveMarqueeVars {
@@ -904,6 +911,11 @@ svg.flag-icon.flag-icon--int {
 .flag-fallback-text {
   display: inline-block;
   line-height: 1;
+}
+
+/* Make sure inline SVG flags never force line breaks in marquees / pills */
+.flag-inline svg.flag-icon{
+  display: inline-block;
 }
 
 .article-meta {
@@ -1892,9 +1904,24 @@ img {
     gap:10px;
   }
   
+  /* HOME – country flag in title row (SVG, no emoji) */
   .home-news__flag{
-    font-size:16px;
-    line-height:1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    min-width: 20px;
+    height: 14px;
+    line-height: 1;
+    flex: 0 0 auto;
+  }
+
+  .home-news__flag svg{
+    display: block;
+    width: 20px;
+    height: 14px;
+    border-radius: 3px;
+    overflow: hidden;
   }
 
   .is-fallback {
