@@ -368,6 +368,12 @@
     return "INT";
   }
 
+    function countryLabel(cc){
+      if (cc === "BE") return "België";
+      if (cc === "NL") return "Nederland";
+      return "Internationaal";
+    }
+
     function flag(a){
       const cc = detectCountry(a);
       if (cc === "BE") return "🇧🇪";
@@ -481,7 +487,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flag(a)} ${detectCountry(a)} · ${category} · Voetbal4All</div>
+                <div class="ad-card-meta">${flag(a)} ${countryLabel(detectCountry(a))} · ${category} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
