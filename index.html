@@ -185,7 +185,7 @@
       <!-- HERO -->
       <section class="section-main home-intro home-hero-min">
         <div class="shell">
-          <article class="card hero-card">
+          <article class="card hero-card" style="width:100%; max-width:none;">
             <div class="card-header">
               <div>
                 <div class="card-caption">Platform voor clubs, trainers &amp; spelers</div>
@@ -210,13 +210,7 @@
       <!-- WAT ZOEK JE? -->
       <section class="section-main home-quick-actions">
         <div class="shell">
-          <div class="lower-grid-layout grid-4 quick-grid">
-            <a class="card quick-card" href="spelers.html">
-              <div class="quick-kicker">Spelers</div>
-              <div class="quick-title">Speler zoekt club</div>
-              <div class="note">Bekijk profielen of plaats jouw profiel.</div>
-            </a>
-
+          <div class="lower-grid-layout grid-4 quick-grid" style="display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:14px;">
             <a class="card quick-card" href="trainers.html">
               <div class="quick-kicker">Trainers</div>
               <div class="quick-title">Trainer zoekt club</div>
@@ -229,12 +223,58 @@
               <div class="note">Tornooien, stages, kampen en meer.</div>
             </a>
 
+            <a class="card quick-card" href="spelers.html">
+              <div class="quick-kicker">Spelers</div>
+              <div class="quick-title">Speler zoekt club</div>
+              <div class="note">Bekijk profielen of plaats jouw profiel.</div>
+            </a>
+
             <a class="card quick-card quick-card--highlight" href="adverteren.html">
               <div class="quick-kicker">Sponsor &amp; Ads</div>
               <div class="quick-title">Jouw advertentie hier</div>
               <div class="note">Premium zichtbaarheid op Voetbal4All.</div>
             </a>
           </div>
+      <!-- RANGSCHIKKINGEN (boven premium rij) -->
+      <section class="section-main home-standings" style="padding-top:10px;">
+        <div class="shell">
+          <div class="lower-grid-layout" style="display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:14px; align-items:stretch;">
+
+            <!-- Rangschikking Eredivisie -->
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">Nederland</div>
+                  <div class="card-title">Rangschikking Eredivisie</div>
+                </div>
+                <span class="pill-small">Top 10</span>
+              </div>
+
+              <ul class="events-list" id="eredivisie-standings" style="margin-top:6px;"></ul>
+              <p class="note" id="eredivisie-standings-empty" style="display:none; margin-top:10px;">
+                Rangschikking niet beschikbaar.
+              </p>
+            </article>
+
+            <!-- Rangschikking Jupiler Pro League -->
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <div class="card-caption">België</div>
+                  <div class="card-title">Rangschikking Jupiler Pro League</div>
+                </div>
+                <span class="pill-small">Top 10</span>
+              </div>
+
+              <ul class="events-list" id="jpl-standings" style="margin-top:6px;"></ul>
+              <p class="note" id="jpl-standings-empty" style="display:none; margin-top:10px;">
+                Rangschikking niet beschikbaar.
+              </p>
+            </article>
+
+          </div>
+        </div>
+      </section>
         </div>
       </section>
 
@@ -391,37 +431,6 @@
           <a href="events.html" class="event-link" style="margin-top:10px; display:inline-block;">Alle events →</a>
         </article>
 
-        <!-- 3) Rangschikking Eredivisie -->
-        <article class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-caption">Nederland</div>
-              <div class="card-title">Rangschikking Eredivisie</div>
-            </div>
-            <span class="pill-small">Top 10</span>
-          </div>
-
-          <ul class="events-list" id="eredivisie-standings" style="margin-top:6px;"></ul>
-          <p class="note" id="eredivisie-standings-empty" style="display:none; margin-top:10px;">
-            Rangschikking niet beschikbaar.
-          </p>
-        </article>
-
-        <!-- 4) Rangschikking Jupiler Pro League -->
-        <article class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-caption">België</div>
-              <div class="card-title">Rangschikking Jupiler Pro League</div>
-            </div>
-            <span class="pill-small">Top 10</span>
-          </div>
-
-          <ul class="events-list" id="jpl-standings" style="margin-top:6px;"></ul>
-          <p class="note" id="jpl-standings-empty" style="display:none; margin-top:10px;">
-            Rangschikking niet beschikbaar.
-          </p>
-        </article>
       </section>
 
             <!-- MIDDEN: ARTIKELS -->
