@@ -460,7 +460,8 @@
         const url = "artikel.html?id=" + encodeURIComponent(a.id);
 
         const cc = inferCountry(a);
-        const category = safe(a.category || "Algemeen");
+        const categoryRaw = safe(a.category || "");
+        const category = categoryRaw && categoryRaw.toLowerCase() !== "algemeen" ? categoryRaw : "";
         const date = safe(a.publishedAt || a.date || a.createdAt || "");
         const snippet = safe(a.snippet || "");
         let snippetClean = snippet
@@ -473,7 +474,7 @@
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
         const imgUrlFinal = toImgUrl(a?.image);
-          const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
+        const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         return `
           <article class="ad-card">
@@ -487,7 +488,7 @@
 
               <div style="min-width:0;flex:1;">
                 <div class="ad-card-title">${title}</div>
-                <div class="ad-card-meta">${flag(a)} ${countryLabel(detectCountry(a))} · ${category} · Voetbal4All</div>
+                <div class="ad-card-meta">${flag(a)} ${countryLabel(detectCountry(a))}${category ? ` · ${category}` : ""} · Voetbal4All</div>
                 <div class="ad-card-meta">${fmtDate(date)}</div>
               </div>
             </div>
