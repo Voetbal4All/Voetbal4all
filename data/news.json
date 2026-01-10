@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-10T16:29:38.708Z",
+  "generatedAt": "2026-01-10T18:34:13.349Z",
   "items": [
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester City v Exeter, Sheffield Wednesday v Brentford, and more: FA Cup third round – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/manchester-city-v-exeter-sheffield-wednesday-v-brentford-and-more-fa-cup-third-round-live",
-      "summary": "⚽ Updates from Saturday’s afternoon kick-offs ⚽ Live scores | Read Football Daily | Mail Tom Arokodare added another in added-time, apologies I missed that in thee excitement at Macclesfield and Everton. Yeremy Pino makes the six minutes of injury time interesting with a decent free-kick that gets up and over the wall. Can Macclesfield hang on? Continue reading...",
-      "publishedAt": "2026-01-10T16:17:48.000Z"
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: FC Twente dringt aan tegen PEC, Malen belangrijk voor Villa",
+      "link": "https://www.vi.nl/nieuws/vi-live-osimhen-breekt-de-ban-voor-nigeria-hadj-moussa-valt-in-bij-algerije",
+      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
+      "publishedAt": "2026-01-10T18:25:56.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +18,76 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Algeria v Nigeria: Africa Cup of Nations 2025 quarter-final – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/algeria-v-nigeria-africa-cup-of-nations-2025-quarter-final-live",
-      "summary": "⚽ Updates from the last-eight tie; kick-off 4pm GMT ⚽ Live scores | Read Football Daily | Mail Xaymaca 12 min: Algeria are getting a foothold in the game now. The midfield four string together a few passes neatly before the Nigeria defence cut it out. 9 min: There’s more early pressure from Nigeria. Frank Onyeka meets a cross on the volley but he struggles to hit it with any conviction. Algeria clear the ball off the line. Continue reading...",
-      "publishedAt": "2026-01-10T16:15:52.000Z"
+      "title": "Tottenham v Aston Villa: FA Cup third round – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/10/tottenham-v-aston-villa-fa-cup-third-round-live",
+      "summary": "⚽ Updates from the FA Cup tie kicking off at 5.45pm GMT ⚽ Scores | Read Football Daily | Mail John Peep! Off we go then. Spurs get things under way. Before we kick-off the players, fans and a throng of Spurs legends on the touchline observe a minute’s applause for Martin Chivers and Terry Yorath. Continue reading...",
+      "publishedAt": "2026-01-10T18:19:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Afcon roundup: Victor Osimhen sends Nigeria past Algeria to reach semi-finals",
+      "link": "https://www.theguardian.com/football/2026/jan/10/afcon-roundup-victor-osimhen-sends-nigeria-past-algeria-to-reach-semi-finals",
+      "summary": "Algeria 0-2 Nigeria Nigeria to face hosts Morocco in last four Strikers Victor Osimhen and Akor Adams grabbed second-half goals as Nigeria powered to a deserved 2-0 victory against Algeria in Saturday’s Africa Cup of Nations quarter-final to set up a meeting with the hosts Morocco in the last four. Osimhen steered home a long cross from the left by Bruno Onyemaechi two minutes into the second half as Algeria’s goalkeeper Luca Zidane made a bizarre jump to try to stop the effort but ended up getting his angles wrong and conceding an easy goal. This story will be updated Continue reading...",
+      "publishedAt": "2026-01-10T18:16:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Italiaanse media: Ajax huurt zoon Ibrahimovic van AC Milan",
+      "link": "https://www.vi.nl/nieuws/italiaanse-media-ajax-huurt-zoon-ibrahimovic-van-ac-milan",
+      "summary": "Ajax staat op het punt om Maximilian Ibrahimovic op huurbasis over te nemen van AC Milan. Dat melden verschillende Italiaanse media zaterdagavond. Alleen de laatste formaliteiten staan de opmerkelijke overstap van de negentienjarige aanvaller nog in de weg.",
+      "publishedAt": "2026-01-10T18:16:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Opstelling PSV: zeldzame basisplaats Flamingo bij start 2026",
+      "link": "https://www.vi.nl/nieuws/opstelling-psv-zeldzame-basisplaats-flamingo-bij-start-2026",
+      "summary": "Ryan Flamingo start bij afwezigheid van de geschorste Jerdy Schouten voor het eerst sinds eind september weer in de basis bij PSV in de Eredivisie. Verder herbergt de opstelling van Peter Bosz voor het thuisduel met Excelsior geen verrassingen.",
+      "publishedAt": "2026-01-10T18:03:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Osimhen wijst Nigeria de weg naar halve finale tegen Marokko",
+      "link": "https://www.vi.nl/nieuws/osimhen-wijst-nigeria-de-weg-naar-halve-finale-tegen-marokko",
+      "summary": "Nigeria heeft zich zaterdagavond verzekerd van een ticket voor de halve finales van de Afrika Cup. Alle tumult in de selectie werd op tijd aan de kant geschoven om als één geheel Algerije over de knie te leggen. Victor Osimhen was betrokken bij beide goals.",
+      "publishedAt": "2026-01-10T17:58:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Newcastle heeft penalty's nodig tegen Bournemouth, Banel maakt eerste voor Burnley",
+      "link": "https://www.vi.nl/nieuws/newcastle-heeft-penalty-s-nodig-tegen-bournemouth-banel-maakt-eerste-voor-burnley",
+      "summary": "Lead",
+      "publishedAt": "2026-01-10T17:57:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fulham battle back to knock Middlesbrough out",
+      "link": "https://www.skysports.com/football/fulham-vs-middlesbrough/report/550861",
+      "summary": "Harry Wilson, Emile Smith Rowe and Kevin all scored in the second half as Fulham fought from behind to secure a 3-1 FA Cup victory against Middlesbrough.",
+      "publishedAt": "2026-01-10T17:43:00.000Z"
     },
     {
       "type": "rss",
@@ -29,65 +95,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Strand Larsen scores hat-trick as Wolves thrash Shrewsbury",
-      "link": "https://www.bbc.com/sport/football/videos/ce3evnq1z9no?at_medium=RSS&at_campaign=rss",
-      "summary": "Striker Jorgen Strand Larsen's hat-trick ends his Wolves goal drought as he fires them past League Two Shrewsbury into the FA Cup fourth round.",
-      "publishedAt": "2026-01-10T16:07:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "PSV voegt specialist voor spelhervattingen toe aan technische staf",
-      "link": "https://www.vi.nl/nieuws/psv-voegt-specialist-voor-spelhervattingen-toe-aan-technische-staf",
-      "summary": "PSV voegt Kevin Balvers toe aan de technische staf als specialist voor de spelhervattingen. Het is een functie die nog niet bestond bij de landskampioen.",
-      "publishedAt": "2026-01-10T15:59:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Mijnans tekent voor eerste Eredivisie-treffer van 2026",
-      "link": "https://www.vi.nl/nieuws/vi-live-man-city-jonkie-zorgt-vi-live-eerste-1-0-nieuwelingen-van-az-op-de-bank",
-      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
-      "publishedAt": "2026-01-10T15:57:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: PSV en Excelsior leven toe naar hervatting van Eredivisie",
-      "link": "https://www.vi.nl/nieuws/vi-live-psv-hervat-eredivisie-met-thuiswedstrijd-tegen-excelsior",
-      "summary": "Zaterdag om 20.00 uur hervat PSV de Eredivisie. De koploper krijgt om 20.00 uur bezoek van Excelsior. In deze VI Live blijf je volledig op de hoogte van die wedstrijd.",
-      "publishedAt": "2026-01-10T15:55:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Alonso to 'assess the risk' on Mbappe fitness",
-      "link": "https://www.espn.com/soccer/story/_/id/47568570/real-madrid-boss-xabi-alonso-assess-risk-kylian-mbappe-fitness-ahead-supercopa",
-      "summary": "Xabi Alonso said Real Madrid will \"assess the risk\" of playing Kylian Mbappé in Sunday's Supercopa final with Barcelona, with the star forward racing to recover from a knee sprain.",
-      "publishedAt": "2026-01-10T15:49:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Glasner fileert Crystal Palace na blamage, familie Rooney vol trots",
-      "link": "https://www.vi.nl/nieuws/glasner-fileert-crystal-palace-na-blamage-familie-rooney-vol-trots",
-      "summary": "Crystal Palace-manager Oliver Glasner had geen goed woord over voor zijn elftal na de blamage in de FA Cup tegen Macclesfield FC , uitkomend op het zesde niveau in Engeland. Zijn Macclesfield-collega John Rooney was vol ongeloof, net als zijn broer Wayne Rooney, die als BBC Sport-analist bij de wedstrijd was.",
-      "publishedAt": "2026-01-10T15:35:14.000Z"
+      "title": "Is Macclesfield beating Crystal Palace greatest FA Cup upset?",
+      "link": "https://www.bbc.com/sport/football/articles/c20dxzezx0qo?at_medium=RSS&at_campaign=rss",
+      "summary": "After Macclesfield beat FA Cup holders Crystal Palace in the third round, BBC Sport looks at 10 of the biggest upsets in the competition's history.",
+      "publishedAt": "2026-01-10T17:41:29.000Z"
     },
     {
       "type": "rss",
@@ -97,19 +108,30 @@
       "flag": "🌍",
       "title": "FA Cup roundup: Sunderland beat Everton on penalties as Strand Larsen hits treble for Wolves",
       "link": "https://www.theguardian.com/football/2026/jan/10/fa-cup-sunderland-everton-penalties-wolves-newcastle-bournemouth",
-      "summary": "Wolves beat Shrewsbury 6-1 to continue revival Leicester win 2-0 at Cheltenham to avoid giantkilling Everton’s first FA Cup tie at Hill Dickinson Stadium ended in a penalty shootout loss to Sunderland, with all of the home team’s takers failing with their kicks. Enzo Le Fée had put his midweek penalties woes behind him by scoring the opener for Sunderland, only for a late penalty, a softish award given after Adam Aznou’s shoulder-to-shoulder challenge from Trai Hume, to send the game into extra time after a 1-1 draw. James Garner scored that kick but missed in the shootout while Le Fée converted his, this time avoiding the panenka. When Thierno Barry and Beto also missed for Everton, Luke O’Nien was left to slot the winning kick. This story will be updated Continue reading...",
-      "publishedAt": "2026-01-10T15:23:52.000Z"
+      "summary": "Wolves beat Shrewsbury 6-1 to continue revival Leicester win 2-0 at Cheltenham to avoid giantkilling David Moyes refused to criticise the players who missed all Everton’s penalties in a 3-0 shootout defeat to Sunderland in the club’s first FA Cup tie at Hill Dickinson Stadium. Unconvincing efforts from James Garner, who had scored from the spot in the 89th minute to cancel out Enzo Le Fee’s first-half strike, Thierno Barry and Beto were all saved by Robin Roefs. It was the first time in Everton’s history they had failed to score a single penalty in a shootout, and they became only the second top-flight team to lose an FA Cup shootout without scoring after Blackburn, also against Sunderland, in 2003. Continue reading...",
+      "publishedAt": "2026-01-10T17:38:41.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Martens had 'pittig gesprek' met Kwakman na streep door huurdeal",
-      "link": "https://www.vi.nl/nieuws/martens-had-pittig-gesprek-met-kwakman-na-streep-door-huurdeal",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-10T15:22:06.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barnes at the double as Burnley inflict heavy defeat on Millwall",
+      "link": "https://www.skysports.com/football/burnley-vs-millwall/report/550854",
+      "summary": "Ashley Barnes scored twice as Burnley put their Premier League worries on hold to cruise into the fourth round of the FA Cup with a 5-1 win over Millwall.",
+      "publishedAt": "2026-01-10T17:36:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Jensen stars as Brentford ease past Sheff Wed into FA Cup fourth round",
+      "link": "https://www.skysports.com/football/sheffield-wednesday-vs-brentford/report/550877",
+      "summary": "Brentford cruised into the fourth round of the FA Cup after easing past crisis-club Sheffield Wednesday 2-0.",
+      "publishedAt": "2026-01-10T17:30:00.000Z"
     },
     {
       "type": "rss",
@@ -117,32 +139,21 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Manchester United frustrate Arsenal in WSL after Jayde Riviere sees red",
-      "link": "https://www.theguardian.com/football/2026/jan/10/arsenal-manchester-united-wsl-match-report",
-      "summary": "Manchester City and Chelsea were the real winners, as Arsenal and Manchester United played out a goalless draw and lost further ground in the title race. United played the final 25 minutes with 10 players after Jayde Riviere was sent off for a second bookable offence, a late challenge on Caitlin Foord, but United were able to see out the remainder of the game without succumbing to Arsenal’s late pressure. It means Manchester City could be 10 points better off than third-placed Arsenal by the end of the weekend – City play Everton on Sunday – while Manchester United are a point further behind. With 10 games remaining for Arsenal, that sort of deficit feels significant. Continue reading...",
-      "publishedAt": "2026-01-10T15:07:21.000Z"
+      "title": "Antoine Semenyo’s debut goal helps Manchester City rout Exeter 10-1 in FA Cup",
+      "link": "https://www.theguardian.com/football/2026/jan/10/manchester-city-exeter-fa-cup-match-report",
+      "summary": "After 52 minutes, joy for Antoine Semenyo on his Manchester City debut. Rayan Cherki’s pirouette presaged him threading the ball in behind Exeter’s defence for the wideman to run in and beat Joe Whitworth to cap a memorable display. A little later Semenyo was replaced to an ovation and, from his seat in the stands, the suspended Pep Guardiola, in a flat cap and winter coat, surely approved as much as he did of the final score. Continue reading...",
+      "publishedAt": "2026-01-10T17:20:36.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Man United aim for boss clarity next week",
-      "link": "https://www.espn.com/soccer/story/_/id/47569043/man-united-hope-interim-boss-clarity-early-next-week-sources",
-      "summary": "Manchester United are hoping to have clarity on who will lead the team for the rest of the season early next week, sources have told ESPN.",
-      "publishedAt": "2026-01-10T15:04:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Macclesfield beat holders Palace in FA Cup shock",
-      "link": "https://www.espn.com/soccer/story/_/id/47569561/macclesfield-beat-palace-huge-fa-cup-upset",
-      "summary": "Non-league Macclesfield pulled off one of the biggest-ever FA Cup upsets as they knocked out holders Crystal Palace in a remarkable 2-1 win at the third-round stage.",
-      "publishedAt": "2026-01-10T15:04:12.000Z"
+      "title": "Edwardstone rolls back the years at Kempton",
+      "link": "https://www.skysports.com/racing/news/12040/13492857/kempton-alan-kings-edwardstone-rolls-back-the-years-in-silviniaco-conti-chase",
+      "summary": "Edwardstone rolled back the years with victory in the Coral Silviniaco Conti Chase at Kempton Park.",
+      "publishedAt": "2026-01-10T17:19:00.000Z"
     },
     {
       "type": "rss",
@@ -153,7 +164,7 @@
       "title": "Parkinson revels as Wrexham pass 'next stage'",
       "link": "https://www.espn.com/soccer/story/_/id/47568792/phil-parkinson-revels-wrexham-pass-next-stage-beating-premier-league-nottingham-forest",
       "summary": "Phil Parkinson believes knocking Nottingham Forest out of the FA Cup will help Wrexham's push to play Premier League teams on an equal footing.",
-      "publishedAt": "2026-01-10T15:04:12.000Z"
+      "publishedAt": "2026-01-10T17:06:35.000Z"
     },
     {
       "type": "rss",
@@ -161,10 +172,43 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Rosenior: Chelsea can equal Man Utd 'class of 92'",
-      "link": "https://www.espn.com/soccer/story/_/id/47562611/liam-rosenior-chelsea-emulate-man-united-class-92",
-      "summary": "Liam Rosenior believes Chelsea can emulate Manchester United's fabled 'Class of '92' as they pursue a policy of targeting silverware with young players.",
-      "publishedAt": "2026-01-10T15:04:12.000Z"
+      "title": "Sources: Man United aim for boss clarity next week",
+      "link": "https://www.espn.com/soccer/story/_/id/47569043/man-united-hope-interim-boss-clarity-early-next-week-sources",
+      "summary": "Manchester United are hoping to have clarity on who will lead the team for the rest of the season early next week, sources have told ESPN.",
+      "publishedAt": "2026-01-10T17:06:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Macclesfield beat holders Palace in FA Cup shock",
+      "link": "https://www.espn.com/soccer/story/_/id/47569561/macclesfield-beat-palace-huge-fa-cup-upset",
+      "summary": "Non-league Macclesfield pulled off one of the biggest-ever FA Cup upsets as they knocked out holders Crystal Palace in a remarkable 2-1 win at the third-round stage.",
+      "publishedAt": "2026-01-10T17:06:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Alonso to 'assess the risk' on Mbappe fitness",
+      "link": "https://www.espn.com/soccer/story/_/id/47568570/real-madrid-boss-xabi-alonso-assess-risk-kylian-mbappe-fitness-ahead-supercopa",
+      "summary": "Xabi Alonso said Real Madrid will \"assess the risk\" of playing Kylian Mbappé in Sunday's Supercopa final with Barcelona, with the star forward racing to recover from a knee sprain.",
+      "publishedAt": "2026-01-10T17:06:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Semenyo scores as Man City thrash Exeter 10-1",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762497",
+      "summary": "Antoine Semenyo scored on his Manchester City debut in an 10-1 win over Exeter in the FA Cup third round on Saturday.",
+      "publishedAt": "2026-01-10T17:06:34.000Z"
     },
     {
       "type": "rss",
@@ -172,54 +216,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Non-league Macclesfield stun FA Cup holders Crystal Palace",
-      "link": "https://www.bbc.com/sport/football/videos/c0q4n83xq59o?at_medium=RSS&at_campaign=rss",
-      "summary": "Sixth-tier Macclesfield FC beat reigning champions Crystal Palace. With 117 places between the teams, it's the biggest upset in FA Cup history.",
-      "publishedAt": "2026-01-10T14:46:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Macclesfield fans invade the pitch after beating Palace",
-      "link": "https://www.bbc.com/sport/football/videos/clyzqrz8gl5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Macclesfield fans invade the pitch after beating last season's FA Cup winners Crystal Palace, in the biggest upset in FA Cup history.",
-      "publishedAt": "2026-01-10T14:30:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Macclesfield pull off FA Cup’s greatest shock by knocking out holders Crystal Palace",
-      "link": "https://www.theguardian.com/football/2026/jan/10/macclesfield-crystal-palace-fa-cup-match-report",
-      "summary": "Macclesfield etched themselves into the FA Cup history books by pulling off arguably the greatest giantkilling of all time, as they stunned Crystal Palace, the holders, in front of a disbelieving and delirious Moss Rose crowd. Despite 117 places in the English football pyramid separating the sides, Palace became the first holders to crash out to non-league opposition since 1909. Palace were a shadow of the side that romped to Cup success last season – the club’s first major trophy – despite including three of that Wembley lineup. They were picked apart by John Rooney’s inspired Macclesfield, spearheaded by Paul Dawson, their captain. His header set the upset in motion before half-time, with Isaac Buckley-Ricketts scoring a scrappy second on the hour mark. Continue reading...",
-      "publishedAt": "2026-01-10T14:22:03.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Strand Larsen scores hat-trick as Wolves thump League Two Shrews to progress",
-      "link": "https://www.skysports.com/football/wolverhampton-wanderers-vs-shrewsbury-town/report/550882",
-      "summary": "Jorgen Strand Larsen netted a hat-trick as Wolves eased to a 6-1 thrashing over League Two Shrewsbury to book their spot in the fourth round of the Emirates FA Cup.",
-      "publishedAt": "2026-01-10T14:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Roefs saves every Everton pen as Sunderland progress in FA Cup shootout",
-      "link": "https://www.skysports.com/football/everton-vs-sunderland/report/550860",
-      "summary": "Robin Roefs was Sunderland's hero as Everton's FA Cup hopes came to a premature end once again after three woeful penalties in a shootout saw the Black Cats reach round four.",
-      "publishedAt": "2026-01-10T14:15:00.000Z"
+      "title": "Roefs the hero as Sunderland beat Everton on penalties",
+      "link": "https://www.bbc.com/sport/football/videos/cy4g8y2engpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Robin Roefs saves three out of three penalties as Sunderland knocked out Everton in the third round of the FA Cup.",
+      "publishedAt": "2026-01-10T17:02:02.000Z"
     }
   ]
 }
