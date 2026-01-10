@@ -533,13 +533,21 @@
     }
 
     function getThumb(ev){
-      const raw = (ev.cover_image_url || ev.flyer_image_url || (Array.isArray(ev.photo_urls) ? ev.photo_urls[0] : null) || (typeof ev.photo_urls === "string" ? ev.photo_urls.split(",")[0]?.trim() : null) || "");
-      let out = raw;
-      if (window.V4AImage && typeof window.V4AImage.resolve === "function") {
-        out = window.V4AImage.resolve(raw);
-      }
-      return normalizeThumbUrl(out);
-    }
+  const raw =
+    ev.cover_image_url ||
+    ev.flyer_image_url ||
+    (Array.isArray(ev.photo_urls) ? ev.photo_urls[0] : null) ||
+    (typeof ev.photo_urls === "string" ? ev.photo_urls.split(",")[0]?.trim() : null) ||
+    "";
+
+  // ❗ GEEN placeholder forceren
+  if (!raw) return "";
+
+  if (window.V4AImage && typeof window.V4AImage.resolve === "function") {
+    return window.V4AImage.resolve(raw);
+  }
+  return raw;
+}
 
     function safeAttr(s){
       return String(s || '').replaceAll('"','&quot;');

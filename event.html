@@ -486,18 +486,32 @@
     }
 
     function renderMedia(mediaUrls){
-      const urls = (mediaUrls || []).filter(Boolean);
-      if (!urls.length) {
+      const placeholder = (window.V4A_PLACEHOLDER ? window.V4A_PLACEHOLDER() : "/images/placeholder.svg");
+
+      // Resolve + filter: toon enkel échte media (geen placeholder)
+      const resolvedUrls = (mediaUrls || [])
+        .filter(Boolean)
+        .map((u) => {
+          const raw = String(u || "").trim();
+          if (!raw) return "";
+          if (window.V4AImage && typeof window.V4AImage.resolve === "function") {
+            return String(window.V4AImage.resolve(raw) || "");
+          }
+          return raw;
+        })
+        .map((u) => normalizeThumbUrl(u))
+        .filter((u) => u && u !== placeholder);
+
+      if (!resolvedUrls.length) {
         if (mediaWrap) mediaWrap.style.display = "none";
         return;
       }
+
       if (mediaWrap) mediaWrap.style.display = "block";
       if (!mediaGrid) return;
 
-      mediaGrid.innerHTML = urls.map((u, idx) => {
-        const safe = String(u).replaceAll('"','&quot;');
-        const resolved = (window.V4AImage && typeof window.V4AImage.resolve === "function") ? window.V4AImage.resolve(safe) : safe;
-        const safeResolved = String(resolved || (window.V4A_PLACEHOLDER ? window.V4A_PLACEHOLDER() : "/images/placeholder.svg"));
+      mediaGrid.innerHTML = resolvedUrls.map((u, idx) => {
+        const safeResolved = String(u).replaceAll('"','&quot;');
         return `<img class="ev-media-thumb" src="${safeResolved}" alt="Flyer/foto ${idx+1}" data-media-src="${safeResolved}" loading="lazy" onerror="this.onerror=null;this.src=(window.V4A_PLACEHOLDER?window.V4A_PLACEHOLDER():'/images/placeholder.svg');" />`;
       }).join("");
 
