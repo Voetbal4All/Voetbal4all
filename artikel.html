@@ -655,27 +655,24 @@
     const finalBody = cleanBody || cleanStandfirst || "";
 
     if (!finalBody || !String(finalBody).trim()) {
-      // HARD RULE: if there is no body after cleaning, do NOT show any article UI.
-      console.warn("[ARTIKEL] Empty body/standfirst after cleaning; blocking render.");
+      // If the article body is still empty after cleaning, do not hard-fail.
+      // Render a minimal fallback so users don't see a false "not available" state.
+      console.warn("[ARTIKEL] Empty body after cleaning; rendering fallback message.");
 
-      // Clear any partially-filled fields to avoid flash of content
-      document.getElementById('breadcrumb-title').textContent = 'Artikel';
-      document.getElementById('article-title').textContent = '';
-      document.getElementById('article-caption').textContent = '';
-      const img = document.getElementById('article-image');
-      if (img) { img.src = ''; img.style.display = 'none'; }
-      const sf = document.getElementById('article-standfirst');
-      if (sf) { sf.textContent = ''; sf.style.display = 'none'; }
-      const body = document.getElementById('article-body');
-      if (body) body.innerHTML = '';
-
-      // Hide share buttons in error cases
+      // Hide share buttons when there is no real article text
       const share = document.querySelector('.share-buttons');
       if (share) share.style.display = 'none';
       const shareTitle = document.querySelector('.share-section-title');
       if (shareTitle) shareTitle.style.display = 'none';
 
-      return false;
+      // Show a friendly placeholder message in the body
+      bodyEl.innerHTML = '';
+      const p = document.createElement('p');
+      p.textContent = 'Dit artikel wordt nog verwerkt. Probeer het later opnieuw.';
+      bodyEl.appendChild(p);
+
+      // Continue rendering the page (do not trigger error-state)
+      return true;
     }
 
     // Show share buttons if valid article
