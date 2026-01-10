@@ -1,16 +1,82 @@
 {
-  "generatedAt": "2026-01-09T23:23:55.835Z",
+  "generatedAt": "2026-01-10T01:57:06.210Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wrexham hail 'special' cup win in front of Reynolds",
+      "link": "https://www.espn.com/soccer/story/_/id/47564201/wrexham-fa-cup-ryan-reynolds-nottingham-forest",
+      "summary": "Wrexham manager Phil Parkinson hailed their \"special\" FA Cup giant-killing triumph over the Premier League's Nottingham Forest and expressed his delight that the Welsh club's movie star owner Ryan Reynolds was there to see it.",
+      "publishedAt": "2026-01-10T00:27:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "San Diego working on exit of Mexico star Lozano",
+      "link": "https://www.espn.com/soccer/story/_/id/47562938/san-diego-fc-hirving-chucky-lozano-transfer-mexico",
+      "summary": "San Diego FC said Friday they were working on the exit of Mexico international Hirving Lozano.",
+      "publishedAt": "2026-01-10T00:27:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior: Chelsea can equal United's 'class of 92'",
+      "link": "https://www.espn.com/soccer/story/_/id/47562611/liam-rosenior-chelsea-emulate-man-united-class-92",
+      "summary": "Liam Rosenior believes Chelsea can emulate Manchester United's fabled 'Class of '92' as they pursue a policy of targeting silverware with young players.",
+      "publishedAt": "2026-01-10T00:27:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Interim boss Fletcher in dark over Man Utd plans",
+      "link": "https://www.espn.com/soccer/story/_/id/47561062/darren-fletcher-dark-man-united-manager-plans-no-conversations",
+      "summary": "Darren Fletcher says he's in the dark over Manchester United's plans for his future as he prepares to take charge of his second game as caretaker boss.",
+      "publishedAt": "2026-01-10T00:27:12.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Fans accuse Spurs of 'dramatic fall in ambition'",
-      "link": "https://www.bbc.com/sport/football/articles/c5y5632q10vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Tottenham Hotspur's main supporters' group has accused the club of a \"dramatic fall in ambition\" after meeting with senior club figures to discuss this campaign.",
-      "publishedAt": "2026-01-09T23:10:07.000Z"
+      "title": "Wrexham's story 'written in the stars, literally'",
+      "link": "https://www.bbc.com/sport/football/articles/cj0nz85nplpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wrexham's remarkable rise continues by knocking Premier League side Nottingham Forest out of the FA Cup in dramatic fashion.",
+      "publishedAt": "2026-01-10T00:03:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Unacceptable to the badge' - Dyche fumes at FA Cup exit",
+      "link": "https://www.bbc.com/sport/football/articles/c4g4rqgqe0jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sean Dyche calls for some of his Nottingham Forest players to \"have a look in the mirror\" after an \"unacceptable\" first-half performance in their FA Cup loss at Wrexham on penalties.",
+      "publishedAt": "2026-01-09T23:43:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Papers: Arsenal and Man City to battle for Livramento this summer",
+      "link": "https://www.skysports.com/football/news/12040/13492676/arsenal-and-man-city-to-battle-for-newcastles-tino-livramento-this-summer-paper-talk-and-football-transfer-gossip",
+      "summary": "The top stories and transfer rumours from Saturday's newspapers...",
+      "publishedAt": "2026-01-09T23:20:00.000Z"
     },
     {
       "type": "rss",
@@ -25,68 +91,13 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "San Diego working on exit of Mexico star Lozano",
-      "link": "https://www.espn.com/soccer/story/_/id/47562938/san-diego-fc-hirving-chucky-lozano-transfer-mexico",
-      "summary": "San Diego FC said Friday they were working on the exit of Mexico international Hirving Lozano.",
-      "publishedAt": "2026-01-09T22:44:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham cause FA Cup upset, oust Prem's Forest",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762493",
-      "summary": "Wrexham celebrated victory over Premier League opposition for the first time in 26 years, as they beat last season's semifinalists Nottingham Forest in penalty shootout in the FA Cup third round on Friday.",
-      "publishedAt": "2026-01-09T22:44:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Saka to sign new five-year deal at Arsenal",
-      "link": "https://www.espn.com/soccer/story/_/id/47561059/bukayo-saka-sign-new-five-year-deal-arsenal-sources",
-      "summary": "Arsenal have agreed the framework of a new long-term contract with Bukayo Saka, sources have told ESPN.",
-      "publishedAt": "2026-01-09T22:44:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior: Chelsea can equal United's 'class of 92'",
-      "link": "https://www.espn.com/soccer/story/_/id/47562611/liam-rosenior-chelsea-emulate-man-united-class-92",
-      "summary": "Liam Rosenior believes Chelsea can emulate Manchester United's fabled 'Class of '92' as they pursue a policy of targeting silverware with young players.",
-      "publishedAt": "2026-01-09T22:44:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Interim boss Fletcher in dark over Man Utd plans",
-      "link": "https://www.espn.com/soccer/story/_/id/47561062/darren-fletcher-dark-man-united-manager-plans-no-conversations",
-      "summary": "Darren Fletcher says he's in the dark over Manchester United's plans for his future as he prepares to take charge of his second game as caretaker boss.",
-      "publishedAt": "2026-01-09T22:44:17.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Goalkeeper Okonkwo is the hero as Wrexham shock Nottingham Forest in FA Cup shootout",
       "link": "https://www.theguardian.com/football/2026/jan/09/wrexham-nottingham-forest-fa-cup-third-round-match-report",
-      "summary": "It should have been easier for Wrexham to dump Nottingham Forest out of the FA Cup but triumphing on penalties after suffering a late fightback will have made knocking out the Premier League side sweeter. After Callum Hudson-Odoi came off the bench to score a late double to bring parity after 90 minutes, the Wrexham goalkeeper Arthur Okonkwo brought back the euphoria with two saves in the shootout to secure something akin to a shock. Liberato Cacace, Ollie Rathbone and Dom Hyam thought they had done enough to send Wrexham through at 3-1 but Forest threatened to ruin the party. They need not have worried as Okonkwo made sure there was glory at the end. Continue reading...",
+      "summary": "North Americans have rarely been fans of draws in sport, so the unscripted FA Cup drama of seeing Arthur Okonkwo take a starring role in a penalty shootout after Wrexham were pegged back in the final minute of normal time must have brought joy to co-owner Ryan Reynolds in the stands. The club the Hollywood actor invested in were just about underdogs against Premier League Nottingham Forest in a game that included numerous plot twists, only to provide the romantic ending the majority wanted. The heroic Okonkwo saved from Igor Jesus and Omari Hutchinson in the shootout to ensure James McClean’s miss was irrelevant. It should have been easier for ­Wrexham, who had a two-goal lead at 3-1 before Callum Hudson-Odoi’s double forced extra time on an energy-sapping and freezing night. Continue reading...",
       "publishedAt": "2026-01-09T22:34:48.000Z"
     },
     {
@@ -99,17 +110,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/09/ill-make-the-decisions-liam-rosenior-confident-he-will-be-in-control-at-chelsea",
       "summary": "Manager takes charge of first game on Saturday in FA Cup ‘It’s not possible to be in this job and not be your own man’ Liam Rosenior is confident he will make the decisions at Chelsea, insisting he would not have agreed to take over as head coach if he doubted his ability to work within the club’s structure. Rosenior, who takes charge of his first game when Chelsea visit Charlton in the FA Cup third round on Saturday night, was appointed after Enzo Maresca left in acrimonious circumstances. Maresca’s position became untenable after a power battle with the Chelsea hierarchy went beyond the point of no return. Continue reading...",
       "publishedAt": "2026-01-09T22:30:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Young Chelsea can be new Class of '92 - Rosenior",
-      "link": "https://www.bbc.com/sport/football/articles/cy05d0epz7go?at_medium=RSS&at_campaign=rss",
-      "summary": "Chelsea's young squad has the potential to grow and deliver trophies like Manchester United's famous Class of '92 side, new boss Liam Rosenior believes.",
-      "publishedAt": "2026-01-09T22:30:04.000Z"
     },
     {
       "type": "rss",
@@ -174,7 +174,7 @@
       "flag": "🌍",
       "title": "Morocco sail into Afcon semi-finals as Díaz sparks fine win over Cameroon",
       "link": "https://www.theguardian.com/football/2026/jan/09/cameroon-morocco-africa-cup-of-nations-quarter-final-match-report",
-      "summary": "At last, Morocco have arrived at the tournament they are hosting. For four games they had played scratchy, crabbed football. Finally, in a spiky, ill-tempered quarter-final, there was something more like the Morocco that reached the semi-final of the World Cup two years ago. If the game wasn’t fluent, that was largely Cameroon’s doing as they spoiled and delayed and sought treatment for injuries. But the hosts, for the most part, retained their cool, protecting a lead earned with verve in the first half with maturity in the second. In previous games, Morocco had looked tense, limbs leadened by the expectation of a country that last won the Cup of Nations 50 years ago and that has spent a vast amount on football-related infrastructure as it prepares to co-host the 2030 World Cup. The coach, Walid Regragui, was even booed in the last-16 victory over Tanzania, his football deemed overly cautious despite a record of only four defeats in his 46 games as national coach before this quarter-final. “I always say that we are a family,” said Regragui. “Even if many people don’t believe in us or in me … that’s OK. We play for the country and for the supporters who want to see Morocco at the top.” Continue reading...",
+      "summary": "At last, Morocco have arrived at the tournament they are hosting. For four games they had played scratchy, crabbed football. Finally, in a spiky, ill-tempered quarter-final, there was something more like the Morocco that reached the semi-finals of the World Cup two years ago. If the game wasn’t fluent, that was largely Cameroon’s doing as they spoiled and delayed and sought treatment for injuries. But the hosts, for the most part, retained their cool, protecting a lead earned with verve in the first half with maturity in the second. In previous games, Morocco had looked tense, limbs leadened by the expectation of a country that last won the Cup of Nations 50 years ago and that has spent a vast amount on football-related infrastructure as it prepares to co-host the 2030 World Cup. The coach, Walid Regragui, was even booed in the last-16 victory over Tanzania, his football deemed overly cautious despite a record of only four defeats in his 46 games as national coach before this quarter-final. “I always say that we are a family,” said Regragui. “Even if many people don’t believe in us or in me … that’s OK. We play for the country and for the supporters who want to see Morocco at the top.” Continue reading...",
       "publishedAt": "2026-01-09T21:25:21.000Z"
     },
     {
@@ -194,10 +194,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Villa exploring potential Gallagher signing",
-      "link": "https://www.skysports.com/football/news/12040/13492585/aston-villa-transfer-news-conor-gallagher-signing-from-atletico-madrid-being-explored",
-      "summary": "Aston Villa are exploring the potential to sign Conor Gallagher from Atletico Madrid.",
-      "publishedAt": "2026-01-09T19:45:00.000Z"
+      "title": "Edinburgh stage comeback to defeat Gloucester as Bath stay top",
+      "link": "https://www.skysports.com/rugby-union/news/12040/13492633/champions-cup-edinburgh-deny-gloucester-in-comeback-victory-as-bath-beat-castres-to-close-on-winning-pool-two",
+      "summary": "Edinburgh staged a second-half comeback to pick up a hard-fought 26-24 win over Gloucester in the Champions Cup and consigned the visitors to a fifth straight defeat.",
+      "publishedAt": "2026-01-09T20:44:00.000Z"
     },
     {
       "type": "rss",
@@ -216,10 +216,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Audi become first team to run 2026 F1 car",
-      "link": "https://www.skysports.com/f1/news/12040/13492464/audi-become-first-team-to-run-2026-f1-car-as-new-team-hold-filming-day-in-barcelona-ahead-of-testing",
-      "summary": "Audi became the first team to run a 2026 Formula 1 car as they held a filming day in Barcelona on Friday.",
-      "publishedAt": "2026-01-09T19:18:00.000Z"
+      "title": "Reyes secures PDC Tour return while new names earn first cards",
+      "link": "https://www.skysports.com/darts/news/12040/13492575/pdc-tour-q-school-cristo-reyes-secures-return-after-five-years-while-two-debutants-to-join-professional-circuit",
+      "summary": "Cristo Reyes and Jeffrey Sparidaans secured PDC Tour returns, while Ireland's Niall Culleton and England's Carl Sneyd won cards for the first time, on the second day at the final stage of the PDC's Qualifying Schools.",
+      "publishedAt": "2026-01-09T17:44:00.000Z"
     }
   ]
 }
