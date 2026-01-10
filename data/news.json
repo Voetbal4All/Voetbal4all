@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-10T22:23:30.043Z",
+  "generatedAt": "2026-01-10T23:22:38.785Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bosz gaat in op blessure Pepi en aanstelling van extra specialist",
-      "link": "https://www.vi.nl/nieuws/bosz-gaat-in-op-blessure-pepi-en-aanstelling-van-extra-specialist",
-      "summary": "PSV-trainer Peter Bosz heeft op de persconferentie na de zege op Excelsior gereageerde op de nieuwe blessure van Ricardo Pepi. De spits viel na zijn doelpunt uit met een armblessure en blijkt nu een aantal maanden uit de roulatie te zijn.",
-      "publishedAt": "2026-01-10T22:19:34.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Watch: Match of the Day - FA Cup third round highlights",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "summary": "Highlights from the third round of the 2025/26 FA Cup.",
+      "publishedAt": "2026-01-11T00:11:41.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +18,43 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Leverkusen komt vernedering in eerste helft niet meer te boven",
-      "link": "https://www.vi.nl/nieuws/vi-live-prachtige-goal-hato-voor-chelsea-ayew-valt-in-voor-nac",
-      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
-      "publishedAt": "2026-01-10T22:09:04.000Z"
+      "title": "Hato verbaasd door eerste goal voor Chelsea: 'Daarom juichte ik niet'",
+      "link": "https://www.vi.nl/nieuws/hato-verbaasd-door-eerste-goal-voor-chelsea-daarom-juichte-ik-niet",
+      "summary": "Bij Chelsea werd het zaterdag een avond vol primeurs. Manager Liam Rosenior coachte zijn eerste wedstrijd bij The Blues en verdediger Jorrel Hato maakte zijn eerste goal. Daar was de Oranje-international uiteraard dolblij mee.",
+      "publishedAt": "2026-01-10T22:47:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Give me the world title fight' - Kabayel wants Usyk after beating Knyba",
+      "link": "https://www.skysports.com/boxing/news/12040/13492954/agit-kabayel-stops-damian-knyba-to-retain-wbc-interim-world-heavyweight-title-and-calls-for-oleksandr-usyk-fight",
+      "summary": "Agit Kabayel stopped Damian Knyba in the third round to retain his WBC interim heavyweight title as the unbeaten fighter set his sights on Oleksandr Usyk.",
+      "publishedAt": "2026-01-10T22:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Vaessen gaat in op WK-kansen Suriname en nieuwe bondscoach Ten Cate",
+      "link": "https://www.vi.nl/nieuws/vaessen-gaat-in-op-wk-kansen-met-suriname-en-nieuwe-bondscoach-ten-cate",
+      "summary": "Etienne Vaessen was na afloop van de remise tegen NAC Breda niet tevreden over het resultaat ( 0-0 ). De Surinaamse doelman ging daarna ook in op de WK-kansen van zijn land en de aanstelling van de nieuwe bondscoach Henk ten Cate. 'We gaan het gewoon halen.'",
+      "publishedAt": "2026-01-10T22:41:06.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Transfers PSV: Bosz sluit extra transfer niet uit na blessure Pepi",
+      "link": "https://www.vi.nl/nieuws/transfers-psv-bosz-sluit-extra-transfer-niet-uit-na-blessure-pepi",
+      "summary": "Ook buiten de transferperiode om volgt VI het transfernieuws bij PSV op de voet, ook omdat het sneller dan je denkt alweer januari is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2026-01-10T22:38:00.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +65,7 @@
       "title": "USMNT's Pepi suffers broken arm scoring for PSV",
       "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
       "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
-      "publishedAt": "2026-01-10T22:07:33.000Z"
+      "publishedAt": "2026-01-10T22:31:55.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +73,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Man United aim for boss clarity next week",
-      "link": "https://www.espn.com/soccer/story/_/id/47569043/man-united-hope-interim-boss-clarity-early-next-week-sources",
-      "summary": "Manchester United are hoping to have clarity on who will lead the team for the rest of the season early next week, sources have told ESPN.",
-      "publishedAt": "2026-01-10T22:07:33.000Z"
+      "title": "Fletcher 'prepared' to lead Man Utd until summer",
+      "link": "https://www.espn.com/soccer/story/_/id/47572566/darren-fletcher-man-united-manager-interim-season",
+      "summary": "Darren Fletcher has said he's \"prepared\" if Manchester United decide to hand him the head coach job until the end of the season.",
+      "publishedAt": "2026-01-10T22:31:55.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +87,7 @@
       "title": "Sixth-tier Macclesfield stun FA Cup champs Palace",
       "link": "https://www.espn.com/soccer/story/_/id/47569561/macclesfield-beat-palace-huge-fa-cup-upset",
       "summary": "Non-league Macclesfield pulled off one of the biggest-ever FA Cup upsets as they knocked out holders Crystal Palace in a remarkable 2-1 win at the third-round stage.",
-      "publishedAt": "2026-01-10T22:07:33.000Z"
+      "publishedAt": "2026-01-10T22:31:55.000Z"
     },
     {
       "type": "rss",
@@ -62,10 +95,54 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Salah scores to set up AFCON reunion with Mané",
-      "link": "https://www.espn.com/espn/story/_/id/47573488/salah-fires-egypt-afcon-champions-ivory-coast-set-mane-senegal-reunion-semifinal",
-      "summary": "Mohamed Salah scored his fourth goal of the Africa Cup of Nations as Egypt defeated defending champions Ivory Coast 3-2 in Agadir.",
-      "publishedAt": "2026-01-10T22:07:32.000Z"
+      "title": "Chelsea begin Rosenior era with big FA Cup win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762514",
+      "summary": "Liam Rosenior turned to Chelsea's second string for his first game in charge as his new team thrashed Charlton 5-1 at the Valley to ease into the fourth round of the FA Cup.",
+      "publishedAt": "2026-01-10T22:31:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bosz legt uit wat rol Afellay in technische staf bij PSV wordt",
+      "link": "https://www.vi.nl/video/bosz-legt-uit-wat-rol-afellay-in-technische-staf-bij-psv-wordt",
+      "summary": "PSV-trainer Peter Bosz ging na de Eredivisie-zege op Excelsior in op de rol van Ibrahim Afellay in de technische staf. De 39-jarige oud-international volgde André Ooijer op als assistent-coach en zal zich voornamelijk gaan bezighouden met de middenvelders in de selectie van PSV. Maar er is meer, legde Bosz uit op zijn persconferentie.",
+      "publishedAt": "2026-01-10T22:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bosz gaat in op blessure Pepi en aanstelling van extra specialist",
+      "link": "https://www.vi.nl/nieuws/bosz-gaat-in-op-blessure-pepi-en-aanstelling-van-extra-specialist",
+      "summary": "PSV-trainer Peter Bosz heeft op de persconferentie na de zege op Excelsior gereageerde op de nieuwe blessure van Ricardo Pepi. De spits viel na zijn doelpunt uit met een armblessure en blijkt nu een aantal maanden uit de roulatie te zijn.",
+      "publishedAt": "2026-01-10T22:20:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Another door closes for Spurs and Frank with damaging FA Cup exit",
+      "link": "https://www.bbc.com/sport/football/articles/cvg1p1vgvg3o?at_medium=RSS&at_campaign=rss",
+      "summary": "After Spurs' damaging FA Cup exit at home to Aston Villa, chief football writer Phil McNulty asks how long can head coach Thomas Frank survive?",
+      "publishedAt": "2026-01-10T22:18:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea thrash Charlton to get Liam Rosenior era off to winning start",
+      "link": "https://www.theguardian.com/football/2026/jan/10/charlton-chelsea-premier-league-match-report",
+      "summary": "It sums up the uneasy state of affairs at Chelsea that the new head coach winning his first match in charge was not enough to stop the mutiny. This was a controlled, clinical performance from Liam Rosenior’s second string, who strolled into the fourth round of the FA Cup after a 5-1 win over a game but limited Charlton Athletic, but once again the big talking point was the travelling support spewing venom in the direction of their unpopular owners. Dissatisfaction with the project is not going away. It did not even matter when Rosenior looked at his bench with Chelsea 3-1 up in the second half and decided to give Estevão Willian a runout against tired, lowly Championship opposition. The Brazilian winger is one of the best young players in the world and his runs were soon making Charlton’s defenders dizzy, but even signings like Estêvão have done little to sway the view of a fanbase united in opposition to an ownership almost four years in and still to convince naysayers that their unique vision will bring success. Continue reading...",
+      "publishedAt": "2026-01-10T22:08:57.000Z"
     },
     {
       "type": "rss",
@@ -80,39 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Charlton v Chelsea: FA Cup third round – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/charlton-v-chelsea-fa-cup-third-round-live",
-      "summary": "⚽ Updates from the 8pm GMT kick-off at The Valley ⚽ Latest scores | Read Football Daily | Mail Rob 5 min Badiashile gets an early yellow card for pulling down Leaburn, who was in the Chelsea academy until the age of 16. 4 min Campbell’s low cross from the left is put behind for a corner by Andrey Santos. Bree takes, Jorgensen punches a little unconvincingly but gets away with it. Continue reading...",
-      "publishedAt": "2026-01-10T22:05:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "NAC houdt stand in ijskoud Groningen bij debuut André Ayew",
-      "link": "https://www.vi.nl/nieuws/nac-houdt-stand-in-ijskoud-groningen-bij-debuut-andr-ayew",
-      "summary": "NAC Breda heeft zaterdag bij de hervatting van de Eredivisie een punt overgehouden aan het uitduel met FC Groningen. Het debuut van André Ayew was een van de spaarzame hoogtepunten op een bitterkoude zaterdagavond in de Euroborg.",
-      "publishedAt": "2026-01-10T22:01:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Primeur Hato zorgt voor succesvol Chelsea-debuut Rosenior",
-      "link": "https://www.vi.nl/nieuws/primeur-hato-zorgt-voor-succesvol-chelsea-debuut-rosenior",
-      "summary": "Jorrel Hato heeft het nieuwe jaar met een heerlijk gevoel ingeluid. De van Ajax overgekomen verdediger maakte zijn eerste doelpunt voor Chelsea in het FA Cup-duel met Charlton Athletic, onder leiding van nieuwe trainer Liam Rosenior.",
-      "publishedAt": "2026-01-10T22:00:36.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -121,17 +165,6 @@
       "link": "https://www.skysports.com/football/charlton-athletic-vs-chelsea/report/550856",
       "summary": "Liam Rosenior won his first game as Chelsea's new head coach, beating Charlton 5-1 in the FA Cup third round.",
       "publishedAt": "2026-01-10T22:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Den Uil zag 'verschrikkelijk slecht' Excelsior tegen PSV: 'Wil ik niet meer zien'",
-      "link": "https://www.vi.nl/nieuws/den-uil-zag-verschrikkelijk-slecht-excelsior-tegen-psv-wil-ik-niet-meer-zien",
-      "summary": "Ruben den Uil had zaterdag een gezicht als een oorwurm. De trainer van Excelsior had zijn ploeg zojuist met forse cijfers zien verliezen van koploper PSV en daar baalde hij flink van. Ook doelman Stijn van Gassel was niet te spreken over het optreden van zijn ploeg.",
-      "publishedAt": "2026-01-10T21:49:04.000Z"
     },
     {
       "type": "rss",
@@ -183,43 +216,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Newcastle win on penalties after epic six-goal thriller",
-      "link": "https://www.bbc.com/sport/football/videos/cr57dvg2090o?at_medium=RSS&at_campaign=rss",
-      "summary": "Newcastle United and Bournemouth play out a six-goal thriller, after a Harvey Barnes goal in the 118th minute is cancelled out by Marcus Tavernier's equaliser minutes later, with Newcastle progressing on penalties.",
-      "publishedAt": "2026-01-10T19:38:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Given apologises for Holocaust remark",
-      "link": "https://www.bbc.com/sport/football/articles/c0r459gv2l1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Premier League goalkeeper Shay Given \"unreservedly\" apologises for describing Wilfried Nancy's short time as Celtic manager as an \"absolute Holocaust\" on BBC show Final Score.",
-      "publishedAt": "2026-01-10T19:34:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "'Humble' Semenyo steals show in FA Cup mauling",
       "link": "https://www.bbc.com/sport/football/articles/c5y24vw1vd2o?at_medium=RSS&at_campaign=rss",
       "summary": "Antoine Semenyo signed off at Bournemouth in fairytale fashion and makes start to life at Manchester City in a similarly dreamy manner during 10-1 FA Cup win over League One Exeter City.",
       "publishedAt": "2026-01-10T19:13:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Macclesfield realise impossible dream in rise from ashes to a day of historic glory",
-      "link": "https://www.theguardian.com/football/2026/jan/10/macclesfield-realise-impossible-dream-in-rise-from-ashes-to-a-day-of-historic-glory",
-      "summary": "Rob Smethurst’s resurrection of a troubled but proud club is timely reminder that football can still be the people’s game From extinction to the impossible dream of becoming the greatest FA Cup giantkillers of all, Macclesfield’s story reminds that community will forever be football’s greatest asset. As fans celebrated victory over the holders, Crystal Palace, many took their time to peel away from the stadium. Not too long ago, many feared they may never return to Moss Rose. Macclesfield Town FC, 1874-2020 was the etching on the gravestone of the club that died, mourned quietly by a town that had slowly lost touch with events at the shambling football ground on its southern tip, pretty much the last stop before the long drive to London begins. Continue reading...",
-      "publishedAt": "2026-01-10T19:00:05.000Z"
     }
   ]
 }
