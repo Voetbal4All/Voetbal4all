@@ -29,6 +29,25 @@
       display: block;
       max-width: 100%;
     }
+
+    /* HOME news thumbnails: keep perfect alignment even when image is missing */
+    .home-news__thumbWrap{
+      width: 92px;
+      height: 64px;
+      flex: 0 0 92px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: rgba(255,255,255,.06);
+    }
+    .home-news__thumbWrap.is-empty{
+      background: rgba(255,255,255,.04);
+    }
+    .home-news__thumb{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
   </style>
 
   <!-- Redirect: /index.html -> / -->
@@ -788,19 +807,21 @@
 
             const safeImg = imgPath ? String(imgPath).replace(/"/g, "&quot;") : "";
 
-            const thumbHtml = imgPath ? `
-              <div class="home-news__thumbWrap">
-                <img
-                  class="home-news__thumb"
-                  src="${safeImg}"
-                  alt="${safeTitle}"
-                  loading="lazy"
-                  decoding="async"
-                  referrerpolicy="no-referrer"
-                  onerror="this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').remove();"
-                />
+            const thumbHtml = `
+              <div class="home-news__thumbWrap ${imgPath ? "" : "is-empty"}">
+                ${imgPath ? `
+                  <img
+                    class="home-news__thumb"
+                    src="${safeImg}"
+                    alt="${safeTitle}"
+                    loading="lazy"
+                    decoding="async"
+                    referrerpolicy="no-referrer"
+                    onerror="this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');"
+                  />
+                ` : ""}
               </div>
-            ` : "";
+            `;
 
             const articleHtml = `
               <article class="home-news__item">
