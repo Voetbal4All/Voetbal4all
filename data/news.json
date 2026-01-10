@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-01-10T12:48:00.740Z",
+  "generatedAt": "2026-01-10T13:31:47.493Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Cardiff say transfer embargo will be 'removed'",
+      "link": "https://www.bbc.com/sport/football/articles/clygqrrpzy2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Cardiff City are under a transfer embargo for \"non-submission of annual accounts\", but say the situation will be resolved in the coming days.",
+      "publishedAt": "2026-01-10T13:28:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Altena koos bewust voor alternatieve route: 'Dan maar even niet het mannetje'",
+      "link": "https://www.vi.nl/nieuws/altena-koos-bewust-voor-alternatieve-route-dan-maar-even-niet-het-mannetje",
+      "summary": "Jordi Altena bewandelt een alternatief carrièrepad. De verdediger werd opgeleid bij Vitesse, zette een stap terug naar de amateurs en maakte via RKC Waalwijk een fraaie transfer naar de koploper van Schotland (Heart of Midlothian). Altena herkende het moment dat hij nederig moest zijn.",
+      "publishedAt": "2026-01-10T13:18:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal v Manchester United: Women’s Super League – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/10/arsenal-v-manchester-united-womens-super-league-live",
+      "summary": "⚽ WSL updates from the Emirates; kick-off 12.30pm GMT ⚽ Latest scores | Arsenal lead hunt for Stanway | Mail Sarah Jenna Nighswonger’s loan move to Aston Villa from Arsenal was announced this morning but what is interesting is that the contract includes a deal to buy. The defender signed for the Gunners in the summer but has struggled to break into the first team. Arsenal announced huge news in this transfer window earlier this week but it did not concern a player. The manager Renée Slegers signed a new deal which runs until 2029, a massively important bit of business for the Gunners to do: Continue reading...",
+      "publishedAt": "2026-01-10T13:14:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Alonso to 'assess the risk' on Mbappe fitness",
+      "link": "https://www.espn.com/soccer/story/_/id/47568570/real-madrid-boss-xabi-alonso-assess-risk-kylian-mbappe-fitness-ahead-supercopa",
+      "summary": "Xabi Alonso said Real Madrid will \"assess the risk\" of playing Kylian Mbappé in Sunday's Supercopa final with Barcelona, with the star forward racing to recover from a knee sprain.",
+      "publishedAt": "2026-01-10T13:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Parkinson revels as Wrexham pass 'next stage'",
+      "link": "https://www.espn.com/soccer/story/_/id/47568792/phil-parkinson-revels-wrexham-pass-next-stage-beating-premier-league-nottingham-forest",
+      "summary": "Phil Parkinson believes knocking Nottingham Forest out of the FA Cup will help Wrexham's push to play Premier League teams on an equal footing.",
+      "publishedAt": "2026-01-10T13:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rosenior: Chelsea can equal Man Utd 'class of 92'",
+      "link": "https://www.espn.com/soccer/story/_/id/47562611/liam-rosenior-chelsea-emulate-man-united-class-92",
+      "summary": "Liam Rosenior believes Chelsea can emulate Manchester United's fabled 'Class of '92' as they pursue a policy of targeting silverware with young players.",
+      "publishedAt": "2026-01-10T13:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal 'chasing' trophies, 'the purpose' - Arteta",
+      "link": "https://www.espn.com/soccer/story/_/id/47568842/arsenal-chasing-trophies-purpose-team-mikel-arteta",
+      "summary": "Mikel Arteta said the \"purpose\" of Arsenal was to win silverware -- and admitted his season would be judged by how many trophies the north London club could win.",
+      "publishedAt": "2026-01-10T13:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Flick: Focus is Madrid not Mbappe in Supercopa",
+      "link": "https://www.espn.com/soccer/story/_/id/47568297/hansi-flick-insists-barcelona-focus-real-madrid-not-kylian-mbappe-ahead-supercopa-final",
+      "summary": "Barcelona coach Hansi Flick insists his team are focused on Real Madrid, not the potential return of Kylian Mbappé in Sunday's Spanish Supercopa final in Saudi Arabia",
+      "publishedAt": "2026-01-10T13:12:19.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,7 +98,40 @@
       "title": "Macclesfield v Crystal Palace: FA Cup third round – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/10/macclesfield-v-crystal-palace-fa-cup-third-round-live",
       "summary": "⚽ Updates from the 12.15pm GMT kick-off at Moss Rose ⚽ Latest scores | Read Football Daily | Mail John 1 min: Jaydee Canvot and Paul Dawson go up for a header as the ball is pumped towards the Palace box and there’s a brief delay as they both need treatment for a clash of heads. Peep! After a brief delay to tidy up a cone left behind from the warm-up (!), Macclesfield get the game under way on the 4G surface. Continue reading...",
-      "publishedAt": "2026-01-10T12:29:41.000Z"
+      "publishedAt": "2026-01-10T13:07:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
+      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
+      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 3 februari spelers aantrekken.",
+      "publishedAt": "2026-01-10T13:06:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: regerend FA Cup-winnaar Palace op achterstand tegen Macclesfield",
+      "link": "https://www.vi.nl/nieuws/vi-live-az-krijgt-bezoek-van-fc-volendam-twente-ontvangt-pec",
+      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
+      "publishedAt": "2026-01-10T13:05:42.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Barcelona gaat Rashford definitief vastleggen'",
+      "link": "https://www.vi.nl/nieuws/barcelona-gaat-rashford-definitief-vastleggen",
+      "summary": "Barcelona is voornemens om Marcus Rashford te kopen van Manchester United. Dat hebben bronnen bevestigd tegenover onder meer The Athletic en Mundo Deportivo . In het huurcontract van de aanvaller is een koopclausule opgenomen.",
+      "publishedAt": "2026-01-10T12:57:10.000Z"
     },
     {
       "type": "rss",
@@ -25,135 +146,25 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal v Manchester United: Women’s Super League – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/arsenal-v-manchester-united-womens-super-league-live",
-      "summary": "⚽ WSL updates from the Emirates; kick-off 12.30pm GMT ⚽ Latest scores | Read Moving the Goalposts | Mail Sarah Jenna Nighswonger’s loan move to Aston Villa from Arsenal was announced this morning but what is interesting is that the contract includes a deal to buy. The defender signed for the Gunners in the summer but has struggled to break into the first team. Arsenal announced huge news in this transfer window earlier this week but it did not concern a player. The manager Renée Slegers signed a new deal which runs until 2029, a massively important bit of business for the Gunners to do: Continue reading...",
-      "publishedAt": "2026-01-10T12:25:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Crystal Palace-opponent staat stil bij tragisch overlijden selectiespeler",
-      "link": "https://www.vi.nl/nieuws/vi-live-az-krijgt-bezoek-van-fc-volendam-twente-ontvangt-pec",
-      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
-      "publishedAt": "2026-01-10T12:18:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Alonso to 'assess the risk' on Mbappe fitness",
-      "link": "https://www.espn.com/soccer/story/_/id/47568570/real-madrid-boss-xabi-alonso-assess-risk-kylian-mbappe-fitness-ahead-supercopa",
-      "summary": "Xabi Alonso said Real Madrid will \"assess the risk\" of playing Kylian Mbappé in Sunday's Supercopa final with Barcelona, with the star forward racing to recover from a knee sprain.",
-      "publishedAt": "2026-01-10T12:11:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Wrexham hail 'special' cup win in front of Reynolds",
-      "link": "https://www.espn.com/soccer/story/_/id/47564201/wrexham-fa-cup-ryan-reynolds-nottingham-forest",
-      "summary": "Wrexham manager Phil Parkinson hailed their \"special\" FA Cup giant-killing triumph over the Premier League's Nottingham Forest and expressed his delight that the Welsh club's movie star owner Ryan Reynolds was there to see it.",
-      "publishedAt": "2026-01-10T12:11:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Flick: Focus is Madrid not Mbappe in Supercopa",
-      "link": "https://www.espn.com/soccer/story/_/id/47568297/hansi-flick-insists-barcelona-focus-real-madrid-not-kylian-mbappe-ahead-supercopa-final",
-      "summary": "Barcelona coach Hansi Flick insists his team are focused on Real Madrid, not the potential return of Kylian Mbappé in Sunday's Spanish Supercopa final in Saudi Arabia",
-      "publishedAt": "2026-01-10T12:11:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "San Diego working on exit of Mexico star Lozano",
-      "link": "https://www.espn.com/soccer/story/_/id/47562938/san-diego-fc-hirving-chucky-lozano-transfer-mexico",
-      "summary": "San Diego FC said Friday they were working on the exit of Mexico international Hirving Lozano.",
-      "publishedAt": "2026-01-10T12:11:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior: Chelsea can equal United's 'class of 92'",
-      "link": "https://www.espn.com/soccer/story/_/id/47562611/liam-rosenior-chelsea-emulate-man-united-class-92",
-      "summary": "Liam Rosenior believes Chelsea can emulate Manchester United's fabled 'Class of '92' as they pursue a policy of targeting silverware with young players.",
-      "publishedAt": "2026-01-10T12:11:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Het einde van Namli bij Le Havre: 'Het was te laat, voor mij was het klaar'",
-      "link": "https://www.vi.nl/nieuws/het-einde-van-namli-bij-le-havre-het-was-te-laat-voor-mij-was-het-klaar",
-      "summary": "Younes Namli snapt dat veel mensen zijn terugkeer bij PEC Zwolle niet zagen aankomen. Het avontuur van de 31-jarige Deen bij Le Havre pakte anders uit dan gehoopt. 'De laatste twee wedstrijden stond ik weer in de basis, maar mijn keuze stond vast.'",
-      "publishedAt": "2026-01-10T11:53:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "WSL: Stunning Borbe save keeps Arsenal level vs Man Utd LIVE!",
+      "title": "WSL: Arsenal building momentum after bright Man Utd start LIVE!",
       "link": "https://www.skysports.com/football/arsenal-women-vs-manchester-united-women/live/545670",
       "summary": "",
       "publishedAt": "2026-01-10T11:39:00.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mbappé maakt zich op voor rentree bij Real in Spaanse Super Cup-finale",
-      "link": "https://www.vi.nl/nieuws/mbapp-maakt-zich-op-voor-rentree-bij-real-in-spaanse-super-cup-finale",
-      "summary": "Real Madrid kan zondag tijdens de finale van de Spaanse Super Cup weer beschikken over Kylian Mbappé. Het is volgens trainer Xabi Alonso nog alleen de vraag of de Fransman in de basis of op de bank zal starten. Mbappé kampte de afgelopen weken met een knieblessure, maar wil Real Madrid graag aan een prijs helpen.",
-      "publishedAt": "2026-01-10T11:33:04.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "FA Cup third round: Sunderland lead at Everton, Wolves in front LIVE!",
+      "title": "Macclesfield stunning FA Cup holders Palace as Sunderland lead Everton LIVE!",
       "link": "https://www.skysports.com/football/everton-vs-sunderland/live/550860",
       "summary": "",
       "publishedAt": "2026-01-10T11:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Balotelli lachend op weg naar Saoedi-Arabië voor nieuw avontuur",
-      "link": "https://www.vi.nl/nieuws/balotelli-lachend-op-weg-naar-saoedi-arabi-voor-nieuw-avontuur",
-      "summary": "Mario Balotelli heeft Italië verlaten om een nieuwe weg in te slaan in zijn carrière. De 35-jarige Italiaan wordt bij Al-Ettifaq ploeggenoot van Georginio Wijnaldum, als de laatste formaliteiten zijn afgerond. 'Daar is het warm en hier is het koud', zei Balotelli grappend bij zijn vertrek vanuit Bergamo.",
-      "publishedAt": "2026-01-10T11:14:37.000Z"
     },
     {
       "type": "rss",
@@ -187,17 +198,6 @@
       "link": "https://www.skysports.com/tennis/news/12040/13492734/carlos-alcaraz-beats-jannik-sinner-in-exhibition-ahead-of-australian-open-as-rivalry-resumes-between-tennis-top-two",
       "summary": "Carlos Alcaraz won his first clash with Jannik Sinner in 2026 as the top two players in the men's game met in a hardcourt exhibition.",
       "publishedAt": "2026-01-10T10:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Cardiff City under transfer embargo over accounts",
-      "link": "https://www.bbc.com/sport/football/articles/clygqrrpzy2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Cardiff City are under a transfer embargo imposed by the EFL for \"non-submission of annual accounts\".",
-      "publishedAt": "2026-01-10T10:25:05.000Z"
     },
     {
       "type": "rss",
