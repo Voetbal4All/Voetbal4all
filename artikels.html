@@ -309,6 +309,7 @@
 
   </div>
 
+  <script src="assets/js/image-utils.js"></script>
   <script>
     // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
@@ -555,9 +556,11 @@
 
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
-        const imgUrlFinal = toImgUrl(a?.image);
-        const placeholderImg = "assets/img/placeholder.svg";
-        const imgSrc = imgUrlFinal || placeholderImg;
+        const imgSrcRaw = (window.V4AImage && typeof window.V4AImage.resolve === "function")
+          ? window.V4AImage.resolve(a?.image)
+          : (toImgUrl(a?.image) || "assets/img/placeholder.svg");
+
+        const imgSrc = imgSrcRaw || "assets/img/placeholder.svg";
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         return `
