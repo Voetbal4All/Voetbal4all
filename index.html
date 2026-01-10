@@ -769,12 +769,19 @@
             // image (support both string and object formats from backend)
             const imgVal = a?.image;
             let imgPath = "";
+
             if (typeof imgVal === "string") {
               imgPath = imgVal;
             } else if (imgVal && typeof imgVal === "object") {
               imgPath = String(imgVal.publicPath || imgVal.url || imgVal.src || "");
             }
 
+            // If backend returns the brand SVG as image, do not show it as thumbnail on home list
+            if (imgPath && imgPath.includes("/images/brand/voetbal4all.svg")) {
+              imgPath = "";
+            }
+
+            // Prefix relative /images/... with backend base
             if (imgPath && imgPath.startsWith("/")) {
               imgPath = IMG_BASE + imgPath;
             }
@@ -793,7 +800,6 @@
                         loading="lazy"
                         decoding="async"
                         referrerpolicy="no-referrer"
-                        onerror="this.onerror=null;this.src='assets/img/placeholder.svg';"
                       />
                     ` : ""}
                   </div>
