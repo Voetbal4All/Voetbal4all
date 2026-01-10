@@ -23,9 +23,13 @@
     .article-hero-image {
       width: 100%;
       max-height: 500px;
+      height: auto;
       object-fit: cover;
       border-radius: 8px;
       margin-bottom: 24px;
+      display: block;
+      visibility: visible;
+      opacity: 1;
     }
     
     .article-meta {
@@ -521,6 +525,7 @@
       if (ok) {
         // Ensure ad slots are visible before pushing
         requestAnimationFrame(() => initAdSense());
+        setTimeout(() => initAdSense(4), 600);
       }
     })
     .catch(err => {
@@ -658,7 +663,7 @@
       raw = String(raw || "").trim();
       if (!raw || raw === "[object Object]") return null;
 
-      const clean = raw.split("?")[0];
+      const clean = raw; // keep query params (e.g. placeholder.svg?title=...)
       if (clean.startsWith("http://") || clean.startsWith("https://")) return clean;
       if (clean.startsWith("/")) return API_BASE + clean;
       return API_BASE + "/" + clean;
@@ -667,18 +672,20 @@
     const fullImageUrl = getImageUrl(article.image);
 
     if (fullImageUrl && article.image) {
-      imageEl.style.display = "";
+      imageEl.style.display = "block";
       imageEl.src = fullImageUrl;
       imageEl.alt = title;
-      imageEl.loading = "lazy";
+      imageEl.loading = "eager";
       imageEl.decoding = "async";
       imageEl.referrerPolicy = "no-referrer";
+      imageEl.setAttribute("fetchpriority", "high");
       imageEl.onerror = function(){
         this.onerror = null;
         this.src = "assets/img/placeholder.svg";
+        this.removeAttribute("fetchpriority");
       };
 
-      if (fullImageUrl.endsWith('.svg')) imageEl.style.maxHeight = '300px';
+      if (String(fullImageUrl).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '300px';
 
       // OG image
       document.getElementById('og-image').setAttribute('content', fullImageUrl);

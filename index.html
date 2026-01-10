@@ -48,6 +48,13 @@
       object-fit: cover;
       display: block;
     }
+
+    /* FORCE home news thumbnails to be visible & laid out (defensive overrides) */
+    #latest-news-grid.article-list{ display: grid; gap: 10px; }
+    .home-news__item{ width: 100%; }
+    .home-news__link{ display: flex; gap: 12px; align-items: center; width: 100%; }
+    .home-news__thumbWrap{ display: block !important; visibility: visible !important; opacity: 1 !important; }
+    .home-news__thumb{ display: block !important; visibility: visible !important; opacity: 1 !important; }
   </style>
 
   <!-- Redirect: /index.html -> / -->
@@ -814,8 +821,11 @@
                     class="home-news__thumb"
                     src="${safeImg}"
                     alt="${safeTitle}"
-                    loading="lazy"
+                    loading="${index < 6 ? 'eager' : 'lazy'}"
+                    fetchpriority="${index < 2 ? 'high' : 'auto'}"
                     decoding="async"
+                    width="92"
+                    height="64"
                     referrerpolicy="no-referrer"
                     onerror="this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');"
                   />

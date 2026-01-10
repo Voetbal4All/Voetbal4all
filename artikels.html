@@ -25,8 +25,9 @@
       opacity: 1; /* keep text readable even when disabled */
     }
 
-
-
+    /* Force article thumbnails to be visible */
+    #article-list img { display: block !important; visibility: visible !important; opacity: 1 !important; }
+    .ad-card-header img { max-width: 100%; height: auto; }
   </style>
   </head>
 
@@ -455,12 +456,22 @@
       // Guard against accidental "[object Object]" / garbage
       if (p === "[object Object]") return null;
 
-      // If backend returns placeholder/brand assets, treat it as no-image
+      // Determine special cases
       const pl = p.toLowerCase();
 
-      // If backend returns placeholder/brand assets, treat it as no-image
-      if (pl.includes("placeholder")) return null;
-      if (pl.includes("/images/brand/") && pl.includes("voetbal4all") && pl.endsWith(".svg")) return null;
+      // Allow placeholder.svg (so we never end up with “no thumbnail” in the UI)
+      const isPlaceholderSvg = pl.includes("/images/placeholder.svg") || pl.endsWith("/images/placeholder.svg");
+
+      // Suppress accidental brand/logo assets as thumbnails
+      const isBrandLogo = pl.includes("/images/brand/") && pl.includes("voetbal4all") && pl.endsWith(".svg");
+      if (isBrandLogo) return null;
+
+      // Keep placeholder.svg (with or without query params) as a valid image
+      if (isPlaceholderSvg) {
+        if (p.startsWith("http://") || p.startsWith("https://")) return p;
+        if (p.startsWith("/")) return IMG_BASE + p;
+        return IMG_BASE + "/" + p;
+      }
 
       if (p.startsWith("http://") || p.startsWith("https://")) return p;
       if (p.startsWith("/")) return IMG_BASE + p;
@@ -546,7 +557,7 @@
       return false;
     }
 
-      function renderCard(a){
+      function renderCard(a, idx = 0){
         const title = cleanTitle(a.title);
 
         const slug = safe(a.slug).trim();
@@ -575,11 +586,17 @@
 
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
-        const imgResolved = (window.V4AImage && typeof window.V4AImage.resolve === "function")
-          ? window.V4AImage.resolve(a?.image)
-          : toImgUrl(a?.image);
+        // Normalize image value (support string/object/full URL)
+        const imgNormalized = toImgUrl(a?.image);
 
-        const imgSrc = (!isBadThumb(imgResolved)) ? imgResolved : null;
+        // If V4AImage exists, let it override ONLY when it returns a non-empty, non-placeholder URL
+        let imgResolved = imgNormalized;
+        if (window.V4AImage && typeof window.V4AImage.resolve === "function") {
+          const candidate = window.V4AImage.resolve(a?.image);
+          if (candidate && !isBadThumb(candidate)) imgResolved = candidate;
+        }
+
+        const imgSrc = (!isBadThumb(imgResolved)) ? imgResolved : imgNormalized;
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         const thumbHtml = imgSrc
@@ -587,9 +604,9 @@
             <img
               src="${imgSrc}"
               alt="${safeTitleAttr}"
-              loading="lazy"
+              loading="${idx < 6 ? "eager" : "lazy"}"
               decoding="async"
-              fetchpriority="low"
+              fetchpriority="${idx < 2 ? "high" : "low"}"
               referrerpolicy="no-referrer"
               width="96"
               height="64"
@@ -697,7 +714,7 @@
       const htmlParts = [];
       const adQueue = [];
       pageItems.forEach((a, i) => {
-        htmlParts.push(renderCard(a));
+        htmlParts.push(renderCard(a, i));
 
         // In-feed ads (per pagina)
         if (i === 5) {
