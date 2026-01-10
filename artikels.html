@@ -548,12 +548,18 @@
 
       function renderCard(a){
         const title = cleanTitle(a.title);
-        if (!a.id) {
-          console.warn("[ARTIKELS] Missing id for article, skipping link:", a);
+
+        const slug = safe(a.slug).trim();
+        const id = safe(a.id).trim();
+
+        if (!slug && !id) {
+          console.warn("[ARTIKELS] Missing slug/id for article, skipping link:", a);
           return;
         }
 
-        const url = "artikel.html?id=" + encodeURIComponent(a.id);
+        const url = slug
+          ? ("artikel.html?slug=" + encodeURIComponent(slug))
+          : ("artikel.html?id=" + encodeURIComponent(id));
 
         const cc = inferCountry(a);
         const categoryRaw = safe(a.category || "");
