@@ -641,10 +641,13 @@
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
       const FALLBACK_THUMB = `${API_BASE}/images/placeholder.svg?title=Voetbal4All`;
-      const CACHE_KEY = "home_news_html_v8";
-      localStorage.removeItem("home_news_html_v7");
-      localStorage.removeItem("home_news_html_v6");
-      localStorage.removeItem("home_news_html_v5");
+      // NOTE: tijdelijk cache UIT om geen ‘stale’ placeholders te tonen wanneer /api/news faalt
+      const CACHE_KEY = "home_news_html_v9";
+      try {
+        Object.keys(localStorage)
+          .filter(k => k && k.startsWith("home_news_html_v"))
+          .forEach(k => localStorage.removeItem(k));
+      } catch (e) {}
       
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
 
@@ -697,13 +700,7 @@
         `.trim();
       }
 
-      // 1) Toon cache onmiddellijk (sneller), maar blijf daarna live ophalen
-      const cachedHtml = localStorage.getItem(CACHE_KEY);
-      if (cachedHtml && !homeListEl.innerHTML.trim()) {
-        homeListEl.innerHTML = cachedHtml;
-        hasRenderedHomeNews = true;
-        hideStatus();
-      }
+      // (cache-html blok verwijderd)
       async function loadHomeNews() {
         try {
           const url = `${API_BASE}/api/news?limit=50&nocache=1&ts=${Date.now()}`;
@@ -888,10 +885,12 @@
 
           hasRenderedHomeNews = true;
           hideStatus();
-          localStorage.setItem(CACHE_KEY, html);
+          // cache tijdelijk uitgeschakeld (zie boven)
+          // localStorage.setItem(CACHE_KEY, html);
 
         } catch (err) {
           console.error("[HOME] loadHomeNews failed:", err);
+          showStatusOnceIfEmpty("Nieuws tijdelijk onbereikbaar (API). Herlaad binnen 30s.");
         }
       }
 
