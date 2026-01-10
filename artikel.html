@@ -435,12 +435,16 @@
 <script>
 (function(){
   const params = new URLSearchParams(window.location.search);
+  const slugFromUrl = params.get("slug");
   const idFromUrl = params.get("id");
 
-  console.log("[ARTIKEL] URL params:", { id: idFromUrl });
+  console.log("[ARTIKEL] URL params:", { slug: slugFromUrl, id: idFromUrl });
 
-  if (!idFromUrl) {
-    console.error("[ARTIKEL] Missing id parameter in URL");
+  // Prefer slug (stable), fallback to id (legacy)
+  const lookup = slugFromUrl ? { type: "slug", value: slugFromUrl } : (idFromUrl ? { type: "id", value: idFromUrl } : null);
+
+  if (!lookup) {
+    console.error("[ARTIKEL] Missing slug/id parameter in URL");
     setState("error");
     return;
   }
@@ -457,12 +461,16 @@
     elContent.style.display = (state === "content") ? "block" : "none";
   }
   
-  console.log('[ARTIKEL] Fetching articles from API...');
+  console.log('[ARTIKEL] Fetching article from API...', lookup);
    
-  // 4.3: laad 1 artikel op basis van id
+  // 4.3: laad 1 artikel op basis van id/slug
   setState("loading");
 
-  fetch(`${API_BASE}/api/news/${encodeURIComponent(idFromUrl)}?nocache=1`)
+  const endpoint = (lookup.type === "slug")
+    ? `${API_BASE}/api/news/slug/${encodeURIComponent(lookup.value)}?nocache=1`
+    : `${API_BASE}/api/news/${encodeURIComponent(lookup.value)}?nocache=1`;
+
+  fetch(endpoint)
     .then(res => {
       console.log('[ARTIKEL] API response status:', res.status);
       if (!res.ok) throw new Error('API returned ' + res.status);
