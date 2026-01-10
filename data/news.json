@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-10T05:25:55.761Z",
+  "generatedAt": "2026-01-10T06:35:34.241Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: PSV hervat Eredivisie met thuiswedstrijd tegen Excelsior",
+      "link": "https://www.vi.nl/nieuws/vi-live-psv-hervat-eredivisie-met-thuiswedstrijd-tegen-excelsior",
+      "summary": "Zaterdag om 20.00 uur hervat PSV de Eredivisie. De koploper krijgt om 20.00 uur bezoek van Excelsior. In deze VI Live blijf je volledig op de hoogte van die wedstrijd.",
+      "publishedAt": "2026-01-10T06:01:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -165,17 +176,6 @@
       "link": "https://www.skysports.com/snooker/news/12040/13492660/ronnie-osullivan-eight-time-masters-snooker-champion-pulls-out-of-2026-tournament-on-medical-grounds",
       "summary": "Ronnie O'Sullivan has pulled out of the Masters on medical grounds for the second year in a row.",
       "publishedAt": "2026-01-09T22:09:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dortmund geeft Bayern kans verder uit te lopen na spectaculaire pot",
-      "link": "https://www.vi.nl/nieuws/dortmund-geeft-bayern-kans-verder-uit-te-lopen-na-spectaculaire-pot",
-      "summary": "Borussia Dortmund heeft vrijdagavond een pas op de plaats gemaakt in de Duitse titelrace. Een spectaculaire wedstrijd tegen Eintracht Frankfurt eindigde in een remise. Bayern krijgt daardoor de kans om de marge te vergroten naar tien punten.",
-      "publishedAt": "2026-01-09T21:39:17.000Z"
     },
     {
       "type": "rss",
