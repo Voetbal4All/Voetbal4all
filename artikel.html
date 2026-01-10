@@ -644,36 +644,11 @@
       document.getElementById('article-date').textContent = formatted;
     }
     
-    // --- Image: support both string and object formats ---
+    // --- Image: gebruik rechtstreeks item.image als src ---
     const imageEl = document.getElementById('article-image');
-
-    const getImageUrl = (val) => {
-      // Use shared helper if available
-      if (window.V4AImage && typeof window.V4AImage.resolve === "function") {
-        return window.V4AImage.resolve(val);
-      }
-
-      // Fallback (keep old behavior if helper missing)
-      if (!val) return null;
-
-      let raw = "";
-      if (typeof val === "string") raw = val;
-      else if (typeof val === "object") raw = String(val.publicPath || val.url || val.src || "");
-
-      raw = String(raw || "").trim();
-      if (!raw || raw === "[object Object]") return null;
-
-      const clean = raw; // keep query params (e.g. placeholder.svg?title=...)
-      if (clean.startsWith("http://") || clean.startsWith("https://")) return clean;
-      if (clean.startsWith("/")) return API_BASE + clean;
-      return API_BASE + "/" + clean;
-    };
-
-    const fullImageUrl = getImageUrl(article.image);
-
-    if (fullImageUrl && article.image) {
+    if (article.image) {
       imageEl.style.display = "block";
-      imageEl.src = fullImageUrl;
+      imageEl.src = article.image;
       imageEl.alt = title;
       imageEl.loading = "eager";
       imageEl.decoding = "async";
@@ -685,10 +660,10 @@
         this.removeAttribute("fetchpriority");
       };
 
-      if (String(fullImageUrl).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '300px';
+      if (String(article.image).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '300px';
 
       // OG image
-      document.getElementById('og-image').setAttribute('content', fullImageUrl);
+      document.getElementById('og-image').setAttribute('content', article.image);
     } else {
       imageEl.style.display = 'none';
       document.getElementById('og-image').setAttribute('content', "assets/img/placeholder.svg");
