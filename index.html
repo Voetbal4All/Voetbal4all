@@ -823,9 +823,16 @@
               </div>
             `;
 
+            // --- SLUG-FIRST URL LOGIC ---
+            const slug = String(a?.slug || "").trim();
+            const id = String(a?.id || "").trim();
+            const articleUrl = slug
+              ? ("artikel.html?slug=" + encodeURIComponent(slug))
+              : (id ? ("artikel.html?id=" + encodeURIComponent(id)) : "artikels.html");
+
             const articleHtml = `
               <article class="home-news__item">
-                <a class="home-news__link" href="artikel.html?id=${encodeURIComponent(a.id)}">
+                <a class="home-news__link" href="${articleUrl}">
                   ${thumbHtml}
 
                   <div class="home-news__meta">
