@@ -640,6 +640,7 @@
 
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
+      const FALLBACK_THUMB = "assets/img/brand/logo-voetbal4all.svg";
       const CACHE_KEY = "home_news_html_v8";
       localStorage.removeItem("home_news_html_v7");
       localStorage.removeItem("home_news_html_v6");
@@ -793,9 +794,11 @@
             const flag = flagHtml(cc);
 
             // Backend is single source of truth for image URLs
+            // BUT: do not show backend placeholder thumbnails on the homepage
             let imgPath = "";
             if (typeof a?.image === "string" && a.image.startsWith("http")) {
-              imgPath = a.image;
+              const isPlaceholder = a.image.includes("/images/placeholder.svg");
+              imgPath = isPlaceholder ? FALLBACK_THUMB : a.image;
             }
 
             const safeImg = imgPath ? String(imgPath).replace(/"/g, "&quot;") : "";
@@ -813,7 +816,7 @@
                     width="92"
                     height="64"
                     referrerpolicy="no-referrer"
-                    onerror="if(!this.dataset.fbk){this.dataset.fbk='1'; this.src='https://voetbal4all-backend-database.onrender.com/images/brand/voetbal4all.svg'; this.style.display='block';} else {this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');}"
+                    onerror="if(!this.dataset.fbk){this.dataset.fbk='1'; this.src=FALLBACK_THUMB; this.style.display='block';} else {this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');}"
                   />
                 ` : ""}
               </div>
