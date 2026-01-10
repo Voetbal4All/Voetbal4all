@@ -1,27 +1,49 @@
 {
-  "generatedAt": "2026-01-10T09:24:40.198Z",
+  "generatedAt": "2026-01-10T10:24:40.487Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "England's Stanway to leave Bayern in the summer",
-      "link": "https://www.bbc.com/sport/football/articles/cpv7ryppx1vo?at_medium=RSS&at_campaign=rss",
-      "summary": "England international Georgia Stanway will leave Bayern Munich upon the expiry of her contract at the end of the season.",
-      "publishedAt": "2026-01-10T09:12:08.000Z"
-    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "FA Cup third round buildup, Wrexham joy, Rosenior’s Chelsea bow and Afcon – matchday live",
+      "title": "FA Cup third round, Rosenior’s bow, Stanway to leave Bayern, Afcon and more – matchday live",
       "link": "https://www.theguardian.com/football/live/2026/jan/10/fa-cup-third-round-buildup-afcon-latest-and-more-matchday-live",
-      "summary": "⚽ All the latest ahead of Saturday’s football action ⚽ Ten things to look out for | Fixtures | Mail us As well as it being an action packed day on the pitch, it will no doubt be another big one in the transfer market. There have already been hundreds of moves in both the men and and women’s windows and we are keeping track. Have a look at our interactives: The Women’s Super League returns after their Christmas break with the last fixtures taking place on 14 December. It is back with a bang with a huge fixture in Arsenal v Manchester United. Continue reading...",
-      "publishedAt": "2026-01-10T09:10:11.000Z"
+      "summary": "⚽ All the latest ahead of Saturday’s football action ⚽ Ten things to look out for | Fixtures | Mail us The big transfer news has already begun today as England international and two-time Euros winner Georgia Stanway has announced she is leaving Bayern Munich at the end of the season. In her announcement on social media she said it was a difficult decision to leave Bayern and thanked the club and fans. Continue reading...",
+      "publishedAt": "2026-01-10T10:14:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Keane over Sir Alex Ferguson: 'Een vieze geur die rond Man Utd hangt'",
+      "link": "https://www.vi.nl/nieuws/keane-over-sir-alex-ferguson-een-vieze-geur-die-rond-man-utd-hangt",
+      "summary": "Voormalig topvoetballer Roy Keane is niet te spreken over het huidige beleid bij zijn oude club Manchester United. Volgens de Ier hebben een paar mensen, waaronder clubicoon Sir Alex Ferguson, nog altijd een hoop zeggenschap binnen de club, terwijl zij feitelijk geen functie meer hebben. Keane vergeleek zijn oude manager met 'een hardnekkige stank'.",
+      "publishedAt": "2026-01-10T10:13:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Veerman laat dit seizoen zien dat hij alles kan'",
+      "link": "https://www.vi.nl/video/veerman-laat-dit-seizoen-zien-dat-hij-alles-kan",
+      "summary": "Cijferman Bart Frouws vertelt je in Scorebordjournalistiek wat er opvalt richting speelronde 18 van de Eredivisie. Samen met Sjoerd Keizer bespreekt hij onder meer PSV en in het bijzonder Joey Veerman.",
+      "publishedAt": "2026-01-10T09:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England's Stanway to leave Bayern in summer",
+      "link": "https://www.bbc.com/sport/football/articles/cpv7ryppx1vo?at_medium=RSS&at_campaign=rss",
+      "summary": "England international Georgia Stanway will leave Bayern Munich upon the expiry of her contract at the end of the season.",
+      "publishedAt": "2026-01-10T09:12:08.000Z"
     },
     {
       "type": "rss",
@@ -33,17 +55,6 @@
       "link": "https://www.vi.nl/nieuws/zege-op-excelsior-laat-bosz-psv-record-delen-met-hiddink",
       "summary": "Mocht het PSV lukken om zaterdag van Excelsior te winnen, dan evenaart Peter Bosz een record van Guus Hiddink. De 79-jarige coach is tot nu toe de enige die het met PSV lukte om meerdere keren twaalf wedstrijden of meer op rij in de Eredivisie te winnen. Datzelfde kan Bosz nu evenaren.",
       "publishedAt": "2026-01-10T09:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dyche woedend na bekerblamage van Forest: 'Had iedereen kunnen wisselen'",
-      "link": "https://www.vi.nl/nieuws/dyche-woedend-na-bekerblamage-van-forest-had-iedereen-kunnen-wisselen",
-      "summary": "Sean Dyche heeft met ontsteltenis gekeken naar het spel van Nottingham Forest tijdens het FA Cup-duel met Wrexham. De Hollywood-club rekende na strafschoppen verrassend af met de Europa League-deelnemer. Dyche uitte na afloop zijn ongenoegen over het spel van reservespelers, die eindelijk weer eens in de basis mochten beginnen. 'Het bewijs is er wel waarom ze niet spelen.'",
-      "publishedAt": "2026-01-10T08:58:47.000Z"
     },
     {
       "type": "rss",
@@ -77,17 +88,6 @@
       "link": "https://www.skysports.com/rugby-league/news/12040/13492707/james-mcdonnell-leeds-rhinos-forward-to-leave-super-league-club-for-nrl-at-end-of-2026-season-joining-harry-newman-in-southern-hemisphere",
       "summary": "Leeds Rhinos forward James McDonnell will leave the club at the end of the 2026 Super League season and move to the NRL, joining current team-mate Harry Newman in the southern hemisphere.",
       "publishedAt": "2026-01-10T08:40:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Real Madrid en Bayern München strijden om talent van Hertha'",
-      "link": "https://www.vi.nl/nieuws/van-de-ven-op-verlanglijstje-barcelona-geplaatst",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-10T08:28:55.000Z"
     },
     {
       "type": "rss",
