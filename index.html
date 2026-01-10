@@ -793,34 +793,43 @@
             const cc = (country === "BE" || country === "NL") ? country : "INT";
             const flag = flagHtml(cc);
 
-            // Backend is single source of truth for image URLs
+            // Image URL logic (absolute first; allow placeholders; never leave empty thumbnail)
             let imgPath = "";
-            if (typeof a?.image === "string" && a.image.startsWith("http")) {
-              const isPlaceholder = a.image.includes("/images/placeholder.svg");
-              const isArticleImage = a.image.includes("/images/articles/");
-              if (isArticleImage && !isPlaceholder) {
-                imgPath = a.image;
+
+            if (typeof a?.image === "string" && a.image.trim()) {
+              const raw = a.image.trim();
+
+              // Absolute URL from backend
+              if (/^https?:\/\//i.test(raw)) {
+                imgPath = raw;
+              }
+              // Relative URL from backend
+              else if (raw.startsWith("/")) {
+                imgPath = `${IMG_BASE}${raw}`;
               }
             }
 
-            const safeImg = imgPath ? String(imgPath).replace(/"/g, "&quot;") : "";
+            // Hard fallback: generate placeholder per article title
+            if (!imgPath) {
+              imgPath = `${API_BASE}/images/placeholder.svg?title=${encodeURIComponent(displayTitle)}`;
+            }
+
+            const safeImg = String(imgPath).replace(/"/g, "&quot;");
 
             const thumbHtml = `
-              <div class="home-news__thumbWrap ${imgPath ? "" : "is-empty"}">
-                ${imgPath ? `
-                  <img
-                    class="home-news__thumb"
-                    src="${safeImg}"
-                    alt="${safeTitle}"
-                    loading="${index < 6 ? 'eager' : 'lazy'}"
-                    fetchpriority="${index < 2 ? 'high' : 'auto'}"
-                    decoding="async"
-                    width="92"
-                    height="64"
-                    referrerpolicy="no-referrer"
-                    onerror="this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');"
-                  />
-                ` : ""}
+              <div class="home-news__thumbWrap">
+                <img
+                  class="home-news__thumb"
+                  src="${safeImg}"
+                  alt="${safeTitle}"
+                  loading="${index < 6 ? 'eager' : 'lazy'}"
+                  fetchpriority="${index < 2 ? 'high' : 'auto'}"
+                  decoding="async"
+                  width="92"
+                  height="64"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');"
+                />
               </div>
             `;
 
