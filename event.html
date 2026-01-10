@@ -483,7 +483,9 @@
 
       mediaGrid.innerHTML = urls.map((u, idx) => {
         const safe = String(u).replaceAll('"','&quot;');
-        return `<img class="ev-media-thumb" src="${safe}" alt="Flyer/foto ${idx+1}" data-media-src="${safe}" loading="lazy" />`;
+        const resolved = (window.V4AImage && typeof window.V4AImage.resolve === "function") ? window.V4AImage.resolve(safe) : safe;
+        const safeResolved = String(resolved || "assets/img/placeholder.svg");
+        return `<img class="ev-media-thumb" src="${safeResolved}" alt="Flyer/foto ${idx+1}" data-media-src="${safeResolved}" loading="lazy" onerror="this.onerror=null;this.src='assets/img/placeholder.svg';" />`;
       }).join("");
 
       mediaGrid.querySelectorAll("[data-media-src]").forEach(img => {
@@ -616,5 +618,6 @@
 
   <script src="assets/js/nav-mobile.js"></script>
   <script src="assets/js/live-banner.js"></script>
+  <script src="assets/js/image-utils.js"></script>
 </body>
 </html>
