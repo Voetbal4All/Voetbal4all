@@ -345,6 +345,18 @@
 
   <script src="assets/js/image-utils.js"></script>
   <script>
+    // Helper for inline onerror fallbacks
+    window.V4A_PLACEHOLDER = function () {
+      try {
+        return (window.V4AImage && typeof window.V4AImage.resolve === "function")
+          ? window.V4AImage.resolve("")
+          : "/images/placeholder.svg";
+      } catch (e) {
+        return "/images/placeholder.svg";
+      }
+    };
+  </script>
+  <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
     const API_BASE = "https://voetbal4all-backend-database.onrender.com";
@@ -485,8 +497,8 @@
       mediaGrid.innerHTML = urls.map((u, idx) => {
         const safe = String(u).replaceAll('"','&quot;');
         const resolved = (window.V4AImage && typeof window.V4AImage.resolve === "function") ? window.V4AImage.resolve(safe) : safe;
-        const safeResolved = String(resolved || "assets/img/placeholder.svg");
-        return `<img class="ev-media-thumb" src="${safeResolved}" alt="Flyer/foto ${idx+1}" data-media-src="${safeResolved}" loading="lazy" onerror="this.onerror=null;this.src='assets/img/placeholder.svg';" />`;
+        const safeResolved = String(resolved || (window.V4A_PLACEHOLDER ? window.V4A_PLACEHOLDER() : "/images/placeholder.svg"));
+        return `<img class="ev-media-thumb" src="${safeResolved}" alt="Flyer/foto ${idx+1}" data-media-src="${safeResolved}" loading="lazy" onerror="this.onerror=null;this.src=(window.V4A_PLACEHOLDER?window.V4A_PLACEHOLDER():'/images/placeholder.svg');" />`;
       }).join("");
 
       mediaGrid.querySelectorAll("[data-media-src]").forEach(img => {
@@ -617,7 +629,7 @@
     loadEvent();
   </script>
 
-</script>
+  <!-- (Removed stray closing script tag) -->
   <script src="assets/js/nav-mobile.js"></script>
   <script src="assets/js/live-banner.js"></script>
 </body>
