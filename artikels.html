@@ -586,17 +586,10 @@
 
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
-        // Normalize image value (support string/object/full URL)
-        const imgNormalized = toImgUrl(a?.image);
-
-        // If V4AImage exists, let it override ONLY when it returns a non-empty, non-placeholder URL
-        let imgResolved = imgNormalized;
-        if (window.V4AImage && typeof window.V4AImage.resolve === "function") {
-          const candidate = window.V4AImage.resolve(a?.image);
-          if (candidate && !isBadThumb(candidate)) imgResolved = candidate;
-        }
-
-        const imgSrc = (!isBadThumb(imgResolved)) ? imgResolved : imgNormalized;
+        // Backend is single source of truth for image URLs
+        const imgSrc = (typeof a?.image === "string" && a.image.startsWith("http"))
+          ? a.image
+          : null;
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         const thumbHtml = imgSrc
