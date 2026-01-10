@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-10T04:36:17.134Z",
+  "generatedAt": "2026-01-10T05:25:55.761Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De verbeelding aan de macht: toen VI in de Panini-rage dook",
+      "link": "https://www.vi.nl/pro/de-verbeelding-aan-de-macht-toen-vi-in-de-panini-rage-dook",
+      "summary": "In de rubriek VI Tijdmachine herplaatsen we elke dag in het weekeinde een verhaal uit ons rijke archief. Ditmaal uit de winter van 2003/04, toen de Panini-voetbalplaatjes na drie jaar weer terugkeerden.",
+      "publishedAt": "2026-01-10T05:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -176,17 +187,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/09/cameroon-morocco-africa-cup-of-nations-quarter-final-match-report",
       "summary": "At last, Morocco have arrived at the tournament they are hosting. For four games they had played scratchy, crabbed football. Finally, in a spiky, ill-tempered quarter-final, there was something more like the Morocco that reached the semi-finals of the World Cup two years ago. If the game wasn’t fluent, that was largely Cameroon’s doing as they spoiled and delayed and sought treatment for injuries. But the hosts, for the most part, retained their cool, protecting a lead earned with verve in the first half with maturity in the second. In previous games, Morocco had looked tense, limbs leadened by the expectation of a country that last won the Cup of Nations 50 years ago and that has spent a vast amount on football-related infrastructure as it prepares to co-host the 2030 World Cup. The coach, Walid Regragui, was even booed in the last-16 victory over Tanzania, his football deemed overly cautious despite a record of only four defeats in his 46 games as national coach before this quarter-final. “I always say that we are a family,” said Regragui. “Even if many people don’t believe in us or in me … that’s OK. We play for the country and for the supporters who want to see Morocco at the top.” Continue reading...",
       "publishedAt": "2026-01-09T21:25:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Marokko voor het eerst in 22 jaar naar halve finale Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/vi-live-brahim-d-az-schiet-marokko-op-voorsprong-tegen-kameroen",
-      "summary": "Na een onderbreking van ruim twee weken wordt vrijdag eindelijk de Eredivisie weer hervat. Om 20.00 uur staan NEC en FC Utrecht tegenover elkaar. Daarnaast speelt Marokko op dat tijdstip de kwartfinale van de Afrika Cup tegen Kameroen en wordt er gespeeld in de Keuken Kampioen Divisie. Volg alles in de VI Live.",
-      "publishedAt": "2026-01-09T21:15:00.000Z"
     },
     {
       "type": "rss",
