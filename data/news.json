@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-01-10T08:31:01.650Z",
+  "generatedAt": "2026-01-10T09:24:40.198Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "England's Stanway to leave Bayern in the summer",
+      "link": "https://www.bbc.com/sport/football/articles/cpv7ryppx1vo?at_medium=RSS&at_campaign=rss",
+      "summary": "England international Georgia Stanway will leave Bayern Munich upon the expiry of her contract at the end of the season.",
+      "publishedAt": "2026-01-10T09:12:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "FA Cup third round buildup, Wrexham joy, Rosenior’s Chelsea bow and Afcon – matchday live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/10/fa-cup-third-round-buildup-afcon-latest-and-more-matchday-live",
+      "summary": "⚽ All the latest ahead of Saturday’s football action ⚽ Ten things to look out for | Fixtures | Mail us As well as it being an action packed day on the pitch, it will no doubt be another big one in the transfer market. There have already been hundreds of moves in both the men and and women’s windows and we are keeping track. Have a look at our interactives: The Women’s Super League returns after their Christmas break with the last fixtures taking place on 14 December. It is back with a bang with a huge fixture in Arsenal v Manchester United. Continue reading...",
+      "publishedAt": "2026-01-10T09:10:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Zege op Excelsior laat Bosz PSV-record delen met Hiddink",
+      "link": "https://www.vi.nl/nieuws/zege-op-excelsior-laat-bosz-psv-record-delen-met-hiddink",
+      "summary": "Mocht het PSV lukken om zaterdag van Excelsior te winnen, dan evenaart Peter Bosz een record van Guus Hiddink. De 79-jarige coach is tot nu toe de enige die het met PSV lukte om meerdere keren twaalf wedstrijden of meer op rij in de Eredivisie te winnen. Datzelfde kan Bosz nu evenaren.",
+      "publishedAt": "2026-01-10T09:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dyche woedend na bekerblamage van Forest: 'Had iedereen kunnen wisselen'",
+      "link": "https://www.vi.nl/nieuws/dyche-woedend-na-bekerblamage-van-forest-had-iedereen-kunnen-wisselen",
+      "summary": "Sean Dyche heeft met ontsteltenis gekeken naar het spel van Nottingham Forest tijdens het FA Cup-duel met Wrexham. De Hollywood-club rekende na strafschoppen verrassend af met de Europa League-deelnemer. Dyche uitte na afloop zijn ongenoegen over het spel van reservespelers, die eindelijk weer eens in de basis mochten beginnen. 'Het bewijs is er wel waarom ze niet spelen.'",
+      "publishedAt": "2026-01-10T08:58:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSV verlengt samenwerking met ASML voor lange periode",
+      "link": "https://www.vi.nl/nieuws/psv-verlengt-samenwerking-met-asml-voor-lange-periode",
+      "summary": "De samenwerking tussen PSV en ASML wordt nog tot minstens 2031 voortgezet. De chipmachinefabrikant heeft een nieuw contract getekend waarmee het langer onderdeel blijft van het Brainport-consortium dat PSV sponsort.",
+      "publishedAt": "2026-01-10T08:52:12.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Jong PSV-topschutter Van Duiven kiest voor Valladolid",
+      "link": "https://www.vi.nl/nieuws/jong-psv-topschutter-van-duiven-kiest-voor-valladolid",
+      "summary": "Robin van Duiven (19) trekt na het seizoen de deur achter zich dicht bij PSV. De aanvaller, die al veertien keer scoorde in de Keuken Kampioen Divisie, vertrekt naar Real Valladolid.",
+      "publishedAt": "2026-01-10T08:41:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Leeds forward McDonnell to move to NRL at end of 2026 season",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13492707/james-mcdonnell-leeds-rhinos-forward-to-leave-super-league-club-for-nrl-at-end-of-2026-season-joining-harry-newman-in-southern-hemisphere",
+      "summary": "Leeds Rhinos forward James McDonnell will leave the club at the end of the 2026 Super League season and move to the NRL, joining current team-mate Harry Newman in the southern hemisphere.",
+      "publishedAt": "2026-01-10T08:40:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,28 +88,6 @@
       "link": "https://www.vi.nl/nieuws/van-de-ven-op-verlanglijstje-barcelona-geplaatst",
       "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
       "publishedAt": "2026-01-10T08:28:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FA Cup third round buildup, Wrexham joy, Rosenior’s Chelsea bow and Afcon – matchday live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/fa-cup-third-round-buildup-afcon-latest-and-more-matchday-live",
-      "summary": "⚽ All the latest ahead of Saturday’s football action ⚽ Ten things to look out for | Fixtures | Mail us As previously mentioned there are a lot of football fixtures today but let’s take a spin through some of the biggest matches. In the FA Cup, all eyes will be on the new Chelsea manager Liam Rosenoir as he takes charge of his first game in a fixture against Charlton Athletic. While there is a reunion for Newcastle boss Eddie Howe as his side host his former team Bournemouth. Continue reading...",
-      "publishedAt": "2026-01-10T08:20:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "MLS-avontuur al ten einde voor Lozano: Mexicaan moet weg bij San Diego",
-      "link": "https://www.vi.nl/nieuws/mls-avontuur-al-ten-einde-voor-lozano-mexicaan-moet-weg-bij-san-diego",
-      "summary": "Hirving Lozano mag al na één seizoen vertrekken bij San Diego FC. De Mexicaanse aanvaller maakt niet langer onderdeel van de plannen uit en kan zich gaan beraden op een vervolgtransfer, zo heeft de club bekendgemaakt. Omdat er 'geen goede match' is, wil de MLS-debutant de voormalig PSV'er alle ruimte bieden om zich voor te bereiden op het WK.",
-      "publishedAt": "2026-01-10T08:02:57.000Z"
     },
     {
       "type": "rss",
@@ -55,39 +110,6 @@
       "link": "https://www.skysports.com/golf/news/12040/13492699/brooks-koepka-reapplies-for-pga-tour-membership-after-leaving-liv-golf",
       "summary": "Five-time major champion Brooks Koepka has reapplied for his PGA Tour membership after opting to step away from LIV Golf.",
       "publishedAt": "2026-01-10T07:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Ik ben nu een paar keer in Saoedi-Arabië geweest en ben van mening veranderd'",
-      "link": "https://www.vi.nl/nieuws/la-liga-baas-draait-180-graden-in-mening-over-saoedi-arabi",
-      "summary": "Javier Tebas is teruggekomen van zijn uitspraken dat Saoedi-Arabië ongeschikt is als gastland voor de Spaanse Supercopa. De baas van La Liga is er nu een aantal keer geweest en is zeer tevreden over hoe het land zich opstelt als gastheer.",
-      "publishedAt": "2026-01-10T07:30:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De 33-jarige Nederlander die met een bordje een MLS-stage wil regelen",
-      "link": "https://www.vi.nl/pro/de-33-jarige-nederlander-die-met-een-bordje-een-mls-stage-wil-regelen",
-      "summary": "Er zijn verschillende manieren om een stage bij een club te regelen. Een voetballer kan zijn zaakwaarnemer aan het werk zetten of zelf contact opnemen met iemand uit zijn netwerk. Jerry van Wolfgang (33) pakt het compleet anders aan. De voormalig Nederlands jeugdinternational speelde ruim anderhalf jaar geleden zijn laatste wedstrijd, maar voelt aan alles dat hij nog lang niet klaar is. Daarom staat hij nu iedere dag met een bordje in Washington en vraagt hij MLS-club DC United om een kans.",
-      "publishedAt": "2026-01-10T07:28:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: AZ krijgt bezoek van FC Volendam, Twente ontvangt PEC",
-      "link": "https://www.vi.nl/nieuws/vi-live-az-krijgt-bezoek-van-fc-volendam-twente-ontvangt-pec",
-      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
-      "publishedAt": "2026-01-10T07:01:00.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/09/wrexham-nottingham-forest-fa-cup-third-round-match-report",
       "summary": "North Americans have rarely been fans of draws in sport, so the unscripted FA Cup drama of seeing Arthur Okonkwo take a starring role in a penalty shootout after Wrexham were pegged back in the final minute of normal time must have brought joy to co-owner Ryan Reynolds in the stands. The club the Hollywood actor invested in were just about underdogs against Premier League Nottingham Forest in a game that included numerous plot twists, only to provide the romantic ending the majority wanted. The heroic Okonkwo saved from Igor Jesus and Omari Hutchinson in the shootout to ensure James McClean’s miss was irrelevant. It should have been easier for ­Wrexham, who had a two-goal lead at 3-1 before Callum Hudson-Odoi’s double forced extra time on an energy-sapping and freezing night. Continue reading...",
       "publishedAt": "2026-01-09T22:34:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Morocco sail into Afcon semi-finals as Díaz sparks fine win over Cameroon",
-      "link": "https://www.theguardian.com/football/2026/jan/09/cameroon-morocco-africa-cup-of-nations-quarter-final-match-report",
-      "summary": "At last, Morocco have arrived at the tournament they are hosting. For four games they had played scratchy, crabbed football. Finally, in a spiky, ill-tempered quarter-final, there was something more like the Morocco that reached the semi-finals of the World Cup two years ago. If the game wasn’t fluent, that was largely Cameroon’s doing as they spoiled and delayed and sought treatment for injuries. But the hosts, for the most part, retained their cool, protecting a lead earned with verve in the first half with maturity in the second. In previous games, Morocco had looked tense, limbs leadened by the expectation of a country that last won the Cup of Nations 50 years ago and that has spent a vast amount on football-related infrastructure as it prepares to co-host the 2030 World Cup. The coach, Walid Regragui, was even booed in the last-16 victory over Tanzania, his football deemed overly cautious despite a record of only four defeats in his 46 games as national coach before this quarter-final. “I always say that we are a family,” said Regragui. “Even if many people don’t believe in us or in me … that’s OK. We play for the country and for the supporters who want to see Morocco at the top.” Continue reading...",
-      "publishedAt": "2026-01-09T21:25:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Edinburgh stage comeback to defeat Gloucester as Bath stay top",
-      "link": "https://www.skysports.com/rugby-union/news/12040/13492633/champions-cup-edinburgh-deny-gloucester-in-comeback-victory-as-bath-beat-castres-to-close-on-winning-pool-two",
-      "summary": "Edinburgh staged a second-half comeback to pick up a hard-fought 26-24 win over Gloucester in the Champions Cup and consigned the visitors to a fifth straight defeat.",
-      "publishedAt": "2026-01-09T20:44:00.000Z"
     }
   ]
 }
