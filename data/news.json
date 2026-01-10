@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-01-10T19:19:06.829Z",
+  "generatedAt": "2026-01-10T20:26:21.085Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Frank's failing Spurs knocked out of FA Cup by Aston Villa",
+      "link": "https://www.bbc.com/sport/football/videos/c24gqz3379eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Goals from Emiliano Buendia and Morgan Rogers knock a wasteful Tottenham Hotspur side out of the FA Cup to pile more pressure on manager Thomas Frank.",
+      "publishedAt": "2026-01-10T20:22:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: PSV laat de teugels vieren met ruime voorsprong op zak",
+      "link": "https://www.vi.nl/nieuws/vi-live-psv-laat-de-teugels-vieren-met-ruime-voorsprong-op-zak",
+      "summary": "Zaterdag om 20.00 uur hervat PSV de Eredivisie. De koploper krijgt om 20.00 uur bezoek van Excelsior. In deze VI Live blijf je volledig op de hoogte van die wedstrijd.",
+      "publishedAt": "2026-01-10T20:22:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Charlton v Chelsea: FA Cup third round – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/10/charlton-v-chelsea-fa-cup-third-round-live",
+      "summary": "⚽ Updates from the 8pm GMT kick-off at The Valley ⚽ Latest scores | Read Football Daily | Mail Rob 5 min Badiashile gets an early yellow card for pulling down Leaburn, who was in the Chelsea academy until the age of 16. 4 min Campbell’s low cross from the left is put behind for a corner by Andrey Santos. Bree takes, Jorgensen punches a little unconvincingly but gets away with it. Continue reading...",
+      "publishedAt": "2026-01-10T20:19:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Feyenoord-flop Conteh maakt transfer naar Bundesliga'",
+      "link": "https://www.vi.nl/nieuws/roma-rekent-niet-meer-op-zirkzee-mazraoui-weer-gelinkt-aan-juventus",
+      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-10T20:12:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: NAC-aanwinst Ayew op de bank, Rosenior met Hato begonnen bij Chelsea",
+      "link": "https://www.vi.nl/nieuws/vi-live-nac-aanwinst-ayew-op-de-bank-rosenior-met-hato-begonnen-bij-chelsea",
+      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
+      "publishedAt": "2026-01-10T20:11:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sixth-tier Macclesfield stun FA Cup champs Palace",
+      "link": "https://www.espn.com/soccer/story/_/id/47569561/macclesfield-beat-palace-huge-fa-cup-upset",
+      "summary": "Non-league Macclesfield pulled off one of the biggest-ever FA Cup upsets as they knocked out holders Crystal Palace in a remarkable 2-1 win at the third-round stage.",
+      "publishedAt": "2026-01-10T20:04:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Kompany: Karl's Real Madrid comments an 'error'",
+      "link": "https://www.espn.com/soccer/story/_/id/47570201/bayern-munich-vincent-kompany-lennart-karl-real-madrid-dream-club",
+      "summary": "Bayern boss Vincent Kompany has labelled Lennart Karl's recent comments on Real Madrid an \"error\".",
+      "publishedAt": "2026-01-10T20:04:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Parkinson revels as Wrexham pass 'next stage'",
+      "link": "https://www.espn.com/soccer/story/_/id/47568792/phil-parkinson-revels-wrexham-pass-next-stage-beating-premier-league-nottingham-forest",
+      "summary": "Phil Parkinson believes knocking Nottingham Forest out of the FA Cup will help Wrexham's push to play Premier League teams on an equal footing.",
+      "publishedAt": "2026-01-10T20:04:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Man United aim for boss clarity next week",
+      "link": "https://www.espn.com/soccer/story/_/id/47569043/man-united-hope-interim-boss-clarity-early-next-week-sources",
+      "summary": "Manchester United are hoping to have clarity on who will lead the team for the rest of the season early next week, sources have told ESPN.",
+      "publishedAt": "2026-01-10T20:04:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Aston Villa oust Spurs to pile pressure on Frank",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762509",
+      "summary": "A spirited second-half rally could not prevent Tottenham Hotspur exiting the FA Cup after a 2-1 home defeat to Aston Villa to further increase the pressure on Thomas Frank.",
+      "publishedAt": "2026-01-10T20:04:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Buendía deepens gloom for Frank and Spurs with victory for Aston Villa in FA Cup",
+      "link": "https://www.theguardian.com/football/2026/jan/10/tottenham-aston-villa-fa-cup-match-report",
+      "summary": "This was Tottenham’s second defeat to Aston Villa this season and it is becoming increasingly hard to imagine Thomas Frank being in charge when the teams come together a third time in May. A performance that put an end to any realistic chance of a trophy this season, it fell well below the expectations of a furious crowd. That their opponents offer the diametric opposite of Spurs’ dysfunction can only have heightened the sting. Goals from Emi Buendía and Morgan Rogers put this tie to bed for Villa in the first half, Wilson Odobert’s strike after half-time bringing a closeness to the scoreline that was not reflected in the general play. A scuffle on the field at the final whistle involving Rogers, João Palhinha and a host of Tottenham players only added further sourness to the occasion. Continue reading...",
+      "publishedAt": "2026-01-10T20:03:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Weston-super-Mare’s builders and lecturers fall just short of FA Cup glory at Grimsby",
+      "link": "https://www.theguardian.com/football/2026/jan/10/grimsby-weston-super-mare-fa-cup-match-report",
+      "summary": "The magic of the FA Cup in Cleethorpes, ultimately, was limited to a good old-fashioned away following of about 571 hardy yet boisterous souls from Weston-super-Mare. The Seagull Army twice wildly celebrated second-half equalisers through Luke Coulson and their predatory striker Louis Britton before Grimsby substitute Kieran Green’s looping header settled the match and ended Weston’s stirring six-game run in the competition. Continue reading...",
+      "publishedAt": "2026-01-10T20:01:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pressure builds on Frank as Spurs booed off after FA Cup exit to Villa",
+      "link": "https://www.skysports.com/football/tottenham-hotspur-vs-aston-villa/report/550880",
+      "summary": "Tottenham were booed off as pressure continues to build on Thomas Frank following a 2-1 defeat to Aston Villa in the third round of the FA Cup.",
+      "publishedAt": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Aston Villa knikkert Spurs uit FA Cup in duel vol Nederlanders",
+      "link": "https://www.vi.nl/nieuws/jubileumshirts-helpen-niet-spurs-uit-fa-cup-geknikkerd-door-aston-villa",
+      "summary": "Aston Villa heeft zaterdag Tottenham Hotspur uit de FA Cup geknikkerd. Spurs begon in de tweede helft nog moedig aan een inhaalslag, maar dat bleek niet genoeg en zo zitten de Engelse bekeravonturen er voor dit seizoen weer op voor de Noord-Londenaren.",
+      "publishedAt": "2026-01-10T19:43:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSV verliest trefzekere Pepi al voor de rust met armblessure",
+      "link": "https://www.vi.nl/nieuws/psv-verliest-trefzekere-pepi-al-voor-de-rust-met-armblessure",
+      "summary": "Ricardo Pepi is zaterdagavond met een armblessure van het veld gegaan bij het thuisduel van PSV met Excelsior. De Amerikaanse spits raakte geblesseerd bij het maken van de 2-0 voor de Eindhovenaren.",
+      "publishedAt": "2026-01-10T19:42:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Given apologises for Holocaust remark",
+      "link": "https://www.bbc.com/sport/football/articles/c0r459gv2l1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Former Premier League goalkeeper Shay Given \"unreservedly\" apologises for describing Wilfried Nancy's short time as Celtic manager as an \"absolute Holocaust\" on BBC show Final Score.",
+      "publishedAt": "2026-01-10T19:34:41.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -14,80 +190,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: PEC komt verrassend op 0-1 in Enschede, Malen belangrijk voor Villa",
-      "link": "https://www.vi.nl/nieuws/vi-live-osimhen-breekt-de-ban-voor-nigeria-hadj-moussa-valt-in-bij-algerije",
-      "summary": "Zaterdag wordt de Eredivisie weer hervat. Er staan vier wedstrijden op het programma. Daarnaast is er volop voetbal in het buitenland. In deze VI Live blijf je op de hoogte van de belangrijkste verrichtingen in binnen- en buitenland.",
-      "publishedAt": "2026-01-10T19:11:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Wanner opent de score voor PSV in het Philips Stadion",
-      "link": "https://www.vi.nl/nieuws/vi-live-bosz-is-benieuwd-naar-hervatting-psv-en-krijgt-vragen-over-pepi",
-      "summary": "Zaterdag om 20.00 uur hervat PSV de Eredivisie. De koploper krijgt om 20.00 uur bezoek van Excelsior. In deze VI Live blijf je volledig op de hoogte van die wedstrijd.",
-      "publishedAt": "2026-01-10T19:09:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Man United aim for boss clarity next week",
-      "link": "https://www.espn.com/soccer/story/_/id/47569043/man-united-hope-interim-boss-clarity-early-next-week-sources",
-      "summary": "Manchester United are hoping to have clarity on who will lead the team for the rest of the season early next week, sources have told ESPN.",
-      "publishedAt": "2026-01-10T19:06:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sixth-tier Macclesfield stun FA Cup champs Palace",
-      "link": "https://www.espn.com/soccer/story/_/id/47569561/macclesfield-beat-palace-huge-fa-cup-upset",
-      "summary": "Non-league Macclesfield pulled off one of the biggest-ever FA Cup upsets as they knocked out holders Crystal Palace in a remarkable 2-1 win at the third-round stage.",
-      "publishedAt": "2026-01-10T19:06:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Kompany: Karl's Real Madrid comments an 'error'",
-      "link": "https://www.espn.com/soccer/story/_/id/47570201/bayern-munich-vincent-kompany-lennart-karl-real-madrid-dream-club",
-      "summary": "Bayern boss Vincent Kompany has labelled Lennart Karl's recent comments on Real Madrid an \"error\".",
-      "publishedAt": "2026-01-10T19:06:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Parkinson revels as Wrexham pass 'next stage'",
-      "link": "https://www.espn.com/soccer/story/_/id/47568792/phil-parkinson-revels-wrexham-pass-next-stage-beating-premier-league-nottingham-forest",
-      "summary": "Phil Parkinson believes knocking Nottingham Forest out of the FA Cup will help Wrexham's push to play Premier League teams on an equal footing.",
-      "publishedAt": "2026-01-10T19:06:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Semenyo is exactly what Man City need - Ljinders",
-      "link": "https://www.espn.com/soccer/story/_/id/47571439/antoine-semenyo-exactly-man-city-want-need-pep-ljinders",
-      "summary": "Antoine Semenyo has added something to Manchester City \"that we need\", according to assistant coach Pep Lijnders, after the winger scored on his debut in a 10-1 win over Exeter City.",
-      "publishedAt": "2026-01-10T19:06:18.000Z"
+      "title": "Macclesfield realise impossible dream in rise from ashes to a day of historic glory",
+      "link": "https://www.theguardian.com/football/2026/jan/10/macclesfield-realise-impossible-dream-in-rise-from-ashes-to-a-day-of-historic-glory",
+      "summary": "Rob Smethurst’s resurrection of a troubled but proud club is timely reminder that football can still be the people’s game From extinction to the impossible dream of becoming the greatest FA Cup giantkillers of all, Macclesfield’s story reminds that community will forever be football’s greatest asset. As fans celebrated victory over the holders, Crystal Palace, many took their time to peel away from the stadium. Not too long ago, many feared they may never return to Moss Rose. Macclesfield Town FC, 1874-2020 was the etching on the gravestone of the club that died, mourned quietly by a town that had slowly lost touch with events at the shambling football ground on its southern tip, pretty much the last stop before the long drive to London begins. Continue reading...",
+      "publishedAt": "2026-01-10T19:00:05.000Z"
     },
     {
       "type": "rss",
@@ -95,65 +205,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Tottenham v Aston Villa: FA Cup third round – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/tottenham-v-aston-villa-fa-cup-third-round-live",
-      "summary": "⚽ Updates from the FA Cup tie kicking off at 5.45pm GMT ⚽ Scores | Read Football Daily | Mail John Peep! Off we go then. Spurs get things under way. Before we kick-off the players, fans and a throng of Spurs legends on the touchline observe a minute’s applause for Martin Chivers and Terry Yorath. Continue reading...",
-      "publishedAt": "2026-01-10T19:05:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Gewilde Smit sluit winters vertrek bij AZ resoluut uit",
-      "link": "https://www.vi.nl/nieuws/gewilde-smit-sluit-winters-vertrek-bij-az-resoluut-uit",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-10T18:58:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Lijnders geniet van debutant Semenyo: 'Hij brengt iets extra's'",
-      "link": "https://www.vi.nl/nieuws/lijnders-geniet-van-debutant-semenyo-hij-brengt-iets-extra-s",
-      "summary": "Pepijn Lijnders, een van de assistenten van Manchester City-manager Pep Guardiola, was zaterdag erg onder de indruk van debutant Antoine Semenyo tijdens het FA Cup-duel met Exeter City . De Nederlander zat bij The Citizens als eindverantwoordelijke op de bank.",
-      "publishedAt": "2026-01-10T18:50:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Charlton v Chelsea: FA Cup third round – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/10/charlton-v-chelsea-fa-cup-third-round-live",
-      "summary": "⚽ Updates from the 8pm GMT kick-off at The Valley ⚽ Latest scores | Read Football Daily | Mail Rob Evening. The last time Chelsea appointed a new manager in January, they win the Champions League four months later. Liam Rosenior would love to emulate Thomas Tuchel, but for now his aim is to create as few headlines as possible. The only way Chelsea can steal tomorrow’s back pages is if they are beaten by Charlton, a team who sit 19th in the Championship. That’s highly unlikely given the resources of each club, and tonight should be a nice soft landing for Rosenior ahead of tougher tasks in the Premier and Champions League. Continue reading...",
-      "publishedAt": "2026-01-10T18:30:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ramsdale the shootout hero as Newcastle edge out Bournemouth in FA Cup thriller",
+      "title": "Ramsdale the penalty hero as Newcastle edge Bournemouth in FA Cup thriller",
       "link": "https://www.theguardian.com/football/2026/jan/10/newcastle-bournemouth-fa-cup-match-report",
-      "summary": "Aaron Ramsdale was Newcastle’s hero as they edged past Bournemouth into the FA Cup fourth round on penalties. The on-loan Southampton keeper saved from Evanilson, Álex Jiménez and Bafodé Diakité to seal a 7-6 shootout win after a pulsating encounter had ended 3-3 after 120 minutes on a bitterly cold afternoon. Marcus Tavernier had taken the tie to penalties with an equaliser in the second minute of stoppage time at the end of extra time seconds after Harvey Barnes thought he had won it for the much-changed Magpies. The hosts had led through a Barnes goal, but trailed 2-1 after Alex Scott and David Brooks scored in quick succession before Anthony Gordon’s late spot-kick. Continue reading...",
+      "summary": "Aaron Ramsdale was Newcastle’s hero as they edged past Bournemouth into the FA Cup fourth round on penalties. The on-loan Southampton goalkeeper saved from Evanilson, Álex Jiménez and Bafodé Diakité to seal a 7-6 shootout win after a pulsating encounter had ended 3-3 after 120 minutes. However, Eddie Howe was counting the cost, with Tuesday’s Carabao Cup semi-final first leg at home to Manchester City in mind. Marcus Tavernier had taken the tie to penalties with an equaliser in the second minute of stoppage time at the end of extra time seconds after Harvey Barnes thought he had won it for Newcastle. The hosts had led through a Barnes goal, but trailed 2-1 after Alex Scott and David Brooks scored in quick succession before Anthony Gordon’s late spot-kick. Continue reading...",
       "publishedAt": "2026-01-10T18:20:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Ajax huurt zoon Ibrahimovic van AC Milan'",
-      "link": "https://www.vi.nl/nieuws/italiaanse-media-ajax-huurt-zoon-ibrahimovic-van-ac-milan",
-      "summary": "Ajax staat op het punt om Maximilian Ibrahimovic op huurbasis over te nemen van AC Milan. Dat melden verschillende Italiaanse media zaterdagavond. Alleen de laatste formaliteiten staan de opmerkelijke overstap van de negentienjarige aanvaller nog in de weg.",
-      "publishedAt": "2026-01-10T18:16:00.000Z"
     },
     {
       "type": "rss",
@@ -165,61 +220,6 @@
       "link": "https://www.skysports.com/football/fulham-vs-middlesbrough/report/550861",
       "summary": "Harry Wilson, Emile Smith Rowe and Kevin all scored in the second half as Fulham fought from behind to secure a 3-1 FA Cup victory against Middlesbrough.",
       "publishedAt": "2026-01-10T17:43:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Is Macclesfield beating Crystal Palace greatest FA Cup upset?",
-      "link": "https://www.bbc.com/sport/football/articles/c20dxzezx0qo?at_medium=RSS&at_campaign=rss",
-      "summary": "After Macclesfield beat FA Cup holders Crystal Palace in the third round, BBC Sport looks at 10 of the biggest upsets in the competition's history.",
-      "publishedAt": "2026-01-10T17:41:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barnes at the double as Burnley inflict heavy defeat on Millwall",
-      "link": "https://www.skysports.com/football/burnley-vs-millwall/report/550854",
-      "summary": "Ashley Barnes scored twice as Burnley put their Premier League worries on hold to cruise into the fourth round of the FA Cup with a 5-1 win over Millwall.",
-      "publishedAt": "2026-01-10T17:36:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Jensen stars as Brentford ease past Sheff Wed into FA Cup fourth round",
-      "link": "https://www.skysports.com/football/sheffield-wednesday-vs-brentford/report/550877",
-      "summary": "Brentford cruised into the fourth round of the FA Cup after easing past crisis-club Sheffield Wednesday 2-0.",
-      "publishedAt": "2026-01-10T17:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Antoine Semenyo’s debut goal helps Manchester City rout Exeter 10-1 in FA Cup",
-      "link": "https://www.theguardian.com/football/2026/jan/10/manchester-city-exeter-fa-cup-match-report",
-      "summary": "After 52 minutes, joy for Antoine Semenyo on his Manchester City debut. Rayan Cherki’s pirouette presaged him threading the ball in behind Exeter’s defence for the wideman to run in and beat Joe Whitworth to cap a memorable display. A little later Semenyo was replaced to an ovation and, from his seat in the stands, the suspended Pep Guardiola, in a flat cap and winter coat, approved, too. Tijjani Reijnders’ curled finish, Nico O’Reilly’s flicked header, an 18-yard shot by another debutant, Ryan McAidoo, and Rico Lewis’s second completed City’s goal-plunder, while the substitute George Birch, 19, smashed home a memorable first Exeter goal for their consolation. Continue reading...",
-      "publishedAt": "2026-01-10T17:20:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Edwardstone rolls back the years at Kempton",
-      "link": "https://www.skysports.com/racing/news/12040/13492857/kempton-alan-kings-edwardstone-rolls-back-the-years-in-silviniaco-conti-chase",
-      "summary": "Edwardstone rolled back the years with victory in the Coral Silviniaco Conti Chase at Kempton Park.",
-      "publishedAt": "2026-01-10T17:19:00.000Z"
     }
   ]
 }
