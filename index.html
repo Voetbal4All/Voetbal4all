@@ -641,6 +641,21 @@
       const API_BASE = "https://voetbal4all-backend-database.onrender.com";
       const IMG_BASE = "https://voetbal4all-backend-database.onrender.com";
       const FALLBACK_THUMB = `${API_BASE}/images/placeholder.svg?title=Voetbal4All`;
+
+      function resolveImageUrl(u) {
+        if (!u) return "";
+        // accept strings or objects like { publicPath: "/images/..." }
+        let s = "";
+        if (typeof u === "string") s = u.trim();
+        else if (typeof u === "object") {
+          s = String(u.publicPath || u.image_path || u.path || u.url || "").trim();
+        }
+        if (!s) return "";
+        if (/^https?:\/\//i.test(s)) return s;
+        if (s.startsWith("/images/")) return IMG_BASE + s;
+        if (s.startsWith("/")) return IMG_BASE + s;
+        return s;
+      }
       // NOTE: tijdelijk cache UIT om geen ‘stale’ placeholders te tonen wanneer /api/news faalt
       const CACHE_KEY = "home_news_html_v9";
       try {
@@ -790,21 +805,13 @@
             const cc = (country === "BE" || country === "NL") ? country : "INT";
             const flag = flagHtml(cc);
 
-            // Image URL logic (absolute first; allow placeholders; never leave empty thumbnail)
-            let imgPath = "";
-
-            if (typeof a?.image === "string" && a.image.trim()) {
-              const raw = a.image.trim();
-
-              // Absolute URL from backend
-              if (/^https?:\/\//i.test(raw)) {
-                imgPath = raw;
-              }
-              // Relative URL from backend
-              else if (raw.startsWith("/")) {
-                imgPath = `${IMG_BASE}${raw}`;
-              }
-            }
+            // Image URL logic: support string OR object images from backend
+            // Priority: image (string|object) -> image_path -> imageUrl/url -> per-title placeholder
+            let imgPath = resolveImageUrl(a?.image) ||
+                          resolveImageUrl(a?.image_path) ||
+                          resolveImageUrl(a?.imageUrl) ||
+                          resolveImageUrl(a?.url) ||
+                          "";
 
             // Hard fallback: generate placeholder per article title
             if (!imgPath) {

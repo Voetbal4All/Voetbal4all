@@ -454,6 +454,35 @@
   }
   
   const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
+
+  function resolveImageUrl(raw) {
+    if (!raw) return "";
+
+    // Accept both string and object shapes
+    let s = "";
+    if (typeof raw === "string") {
+      s = raw;
+    } else if (typeof raw === "object") {
+      s = raw.publicPath || raw.image_path || raw.imagePath || raw.path || raw.url || raw.href || "";
+    } else {
+      s = String(raw);
+    }
+
+    s = String(s || "").trim();
+    if (!s) return "";
+
+    // Already absolute
+    if (/^https?:\/\//i.test(s)) return s;
+
+    // Backend-served images (Render)
+    if (s.startsWith("/images/")) return API_BASE + s;
+
+    // Site-relative assets
+    if (s.startsWith("/assets/")) return s;
+
+    return s;
+  }
+
   const elLoading = document.getElementById("loading-state");
   const elError   = document.getElementById("error-state");
   const elContent = document.getElementById("article-content");
@@ -644,11 +673,13 @@
       document.getElementById('article-date').textContent = formatted;
     }
     
-    // --- Image: gebruik rechtstreeks item.image als src ---
+    // --- Image: support string OR object + prefix backend base for /images/... ---
     const imageEl = document.getElementById('article-image');
-    if (article.image) {
+    const imgUrl = resolveImageUrl(article.image || article.image_path || article.imageUrl || article.imageURL);
+
+    if (imgUrl) {
       imageEl.style.display = "block";
-      imageEl.src = article.image;
+      imageEl.src = imgUrl;
       imageEl.alt = title;
       imageEl.loading = "eager";
       imageEl.decoding = "async";
@@ -660,10 +691,10 @@
         this.removeAttribute("fetchpriority");
       };
 
-      if (String(article.image).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '300px';
+      if (String(imgUrl).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '300px';
 
       // OG image
-      document.getElementById('og-image').setAttribute('content', article.image);
+      document.getElementById('og-image').setAttribute('content', imgUrl);
     } else {
       imageEl.style.display = 'none';
       document.getElementById('og-image').setAttribute('content', "assets/img/placeholder.svg");
