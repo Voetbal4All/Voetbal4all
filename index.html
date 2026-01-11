@@ -660,28 +660,35 @@
       );
 
       function resolveImageUrl(u) {
-        // Return NULL when empty/invalid so we never end up with img.src = "" or garbage (e.g. "broken-link")
         if (u == null) return null;
 
-        // accept strings or objects like { publicPath: "/images/..." }
         let s = "";
         if (typeof u === "string") s = u.trim();
         else if (typeof u === "object") {
-          s = String(u.publicPath || u.image_path || u.path || u.url || "").trim();
+          s = String(
+            u.publicPath ||
+            u.image_path ||
+            u.path ||
+            u.url ||
+            u.href ||
+            ""
+          ).trim();
         }
 
         if (!s) return null;
 
         const low = s.toLowerCase();
-        // Block known bad/placeholder tokens so they don't trigger 404s and then SVG fallbacks
+
+        // block known junk
         if (low === "broken-link" || low === "[object object]") return null;
         if (low.includes("placeholder")) return null;
 
-        // Only allow absolute http(s) or root-relative paths (served by the backend)
+        // allow absolute
         if (/^https?:\/\//i.test(s)) return s;
+
+        // allow backend-served root-relative only
         if (s.startsWith("/")) return IMG_BASE + s;
 
-        // Any other form is treated as invalid (prevents relative requests like /broken-link)
         return null;
       }
       // NOTE: tijdelijk cache UIT om geen ‘stale’ placeholders te tonen wanneer /api/news faalt
@@ -845,9 +852,10 @@
 
           // IMPORTANT: do NOT call backend placeholder endpoint on empty/missing images.
           // If image is missing, use inline SVG immediately (no server dependency).
-          const imgSrc = resolveImageUrl(a?.image) ||
-                         resolveImageUrl(a?.image_path) ||
-                         resolveImageUrl(a?.imageUrl);
+          const imgSrc =
+                resolveImageUrl(a?.image_path) ||   // ✅ DB truth (gekoppeld aan id)
+                resolveImageUrl(a?.image) ||        // legacy
+                resolveImageUrl(a?.imageUrl);       // legacy
 
           const safeImg = imgSrc ? String(imgSrc).replace(/"/g, "&quot;") : "";
 
