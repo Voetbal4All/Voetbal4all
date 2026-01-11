@@ -705,7 +705,7 @@
 
         return null;
       }
-      // NOTE: tijdelijk cache UIT om geen ‘stale’ placeholders te tonen wanneer /api/news faalt
+      // NOTE: Homepage gebruikt backend DB-cache (geen nocache=1) + retry/backoff voor consistent laden
       const CACHE_KEY = "home_news_html_v9";
       try {
         Object.keys(localStorage)
@@ -716,6 +716,9 @@
       const REFRESH_MS = 5 * 60 * 1000; // 5 min (pas aan indien gewenst)
 
       let hasRenderedHomeNews = false;
+
+      const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+      let homeNewsInFlight = false;
 
       function showStatusOnceIfEmpty(msg) {
         if (!hasRenderedHomeNews && homeStatusEl) {
@@ -764,221 +767,239 @@
         `.trim();
       }
 
-      // (cache-html blok verwijderd)
       async function loadHomeNews() {
+        if (homeNewsInFlight) return; // prevent concurrent refreshes
+        homeNewsInFlight = true;
+
         try {
-          const url = `${API_BASE}/api/news?limit=50&nocache=1&ts=${Date.now()}`;
-          const res = await fetch(url, { cache: "no-store" });
-          console.log("[HOME] fetch", url, "->", res.status);
+          // Small start delay to avoid racing the backend during a pipeline/cache refresh
+          await sleep(900);
 
-          if (!res.ok) throw new Error("[HOME] API error: " + res.status);
+          // Cache-first: do NOT use nocache=1 on the homepage.
+          // DB-cache on backend ensures consistent results, while retries handle short transient gaps.
+          const url = `${API_BASE}/api/news?limit=50`;
 
-          const ct = res.headers.get("content-type") || "";
-          if (!ct.includes("application/json")) {
-            const txt = await res.text();
-            throw new Error("[HOME] Expected JSON, got: " + ct + " / " + txt.slice(0, 200));
-          }
+          const tries = 5;
+          let lastErr = null;
 
-          const data = await res.json();
-          const rawItems = Array.isArray(data.items) ? data.items : [];
+          for (let i = 0; i < tries; i++) {
+            try {
+              const res = await fetch(url, { cache: "no-store" });
+              console.log("[HOME] fetch", url, "->", res.status);
 
-          // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
-          // Strikter: Toon enkel items met expliciete "ready" status
-          const readyItems = rawItems.filter(a => {
-            const st = String(a?.status || "").toLowerCase();
-            return st === "ready";
-          });
+              if (!res.ok) throw new Error("[HOME] API error: " + res.status);
 
-          function dedupeById(items) {
-            const seen = new Set();
-            const out = [];
-            for (const it of (items || [])) {
-              const key = String(it?.id || "").trim();
-              if (!key) continue;
-              if (seen.has(key)) continue;
-              seen.add(key);
-              out.push(it);
-            }
-            return out;
-          }
+              const ct = res.headers.get("content-type") || "";
+              if (!ct.includes("application/json")) {
+                const txt = await res.text();
+                throw new Error("[HOME] Expected JSON, got: " + ct + " / " + txt.slice(0, 200));
+              }
 
-          let items = dedupeById(readyItems);
-          console.log(`[DEDUPE] ${rawItems.length} → ${items.length} articles (removed ${rawItems.length - items.length} duplicates)`);
-          console.log("[HOME] items:", items.length);
+              const data = await res.json();
+              const rawItems = Array.isArray(data.items) ? data.items : [];
 
-          // 🔥 FOOTBALL FILTER - SOFT VERSION: Only exclude explicit non-football sports
-          const nonFootballKeywords = [
-            "darts", "dart", "dartsnieuws", "dartswedstrijd",
-            "snooker", "snookertafel",
-            "tennis", "tennisbal", "tennisbaan",
-            "basketbal", "basketball", "nba",
-            "hockey", "hockeystick",
-            "handbal", "volleybal",
-            "formule 1", "formule1", "f1-coureur", "grand prix", "verstappen",
-            "wielrennen", "cycling",
-            "schaatsen", "zwemmen", "atletiek",
-            "golf", "rugby", "boksen", "motorsport"
-          ];
+              // ✅ Alleen artikels tonen die "ready" zijn
+              const readyItems = rawItems.filter(a => {
+                const st = String(a?.status || "").toLowerCase();
+                return st === "ready" || st === "ok";
+              });
 
-          const filteredItems = items.filter(article => {
-            const text = `${article.title || ""} ${article.snippet || ""}`.toLowerCase();
-            const hasNonFootball = nonFootballKeywords.some(k => text.includes(k));
-            if (hasNonFootball) {
-              console.log(`[FILTER] ❌ Excluded (non-football): ${article.title}`);
-              return false;
-            }
-            return true;
-          });
+              function dedupeById(items) {
+                const seen = new Set();
+                const out = [];
+                for (const it of (items || [])) {
+                  const key = String(it?.id || "").trim();
+                  if (!key) continue;
+                  if (seen.has(key)) continue;
+                  seen.add(key);
+                  out.push(it);
+                }
+                return out;
+              }
 
-          console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
+              let items = dedupeById(readyItems);
+              console.log(`[DEDUPE] ${rawItems.length} → ${items.length} articles (removed ${rawItems.length - items.length} duplicates)`);
 
-          // ✅ Only show items that have a real, resolvable image
-          // This ensures: "Artikels mogen enkel uit de database komen met bijhorende afbeelding"
-          const withImages = filteredItems.filter(a => {
-            const img =
-              resolveImageUrl(a?.image_path) ||
-              resolveImageUrl(a?.imagePath) ||
-              resolveImageUrl(a?.publicPath) ||
-              resolveImageUrl(a?.image) ||
-              resolveImageUrl(a?.imageUrl) ||
-              resolveImageUrl(a?.image_url);
-            return !!img;
-          });
+              // 🔥 FOOTBALL FILTER - SOFT VERSION: Only exclude explicit non-football sports
+              const nonFootballKeywords = [
+                "darts", "dart", "dartsnieuws", "dartswedstrijd",
+                "snooker", "snookertafel",
+                "tennis", "tennisbal", "tennisbaan",
+                "basketbal", "basketball", "nba",
+                "hockey", "hockeystick",
+                "handbal", "volleybal",
+                "formule 1", "formule1", "f1-coureur", "grand prix", "verstappen",
+                "wielrennen", "cycling",
+                "schaatsen", "zwemmen", "atletiek",
+                "golf", "rugby", "boksen", "motorsport"
+              ];
 
-          // ✅ Keep backend order exactly as delivered (no shuffle / no client-side ordering)
-          const displayItems = withImages.slice(0, 50);
-          console.log(`[HOME] image filter: ${filteredItems.length} → ${withImages.length} (only items with resolvable image)`);
+              const filteredItems = items.filter(article => {
+                const text = `${article.title || ""} ${article.snippet || ""}`.toLowerCase();
+                const hasNonFootball = nonFootballKeywords.some(k => text.includes(k));
+                if (hasNonFootball) {
+                  console.log(`[FILTER] ❌ Excluded (non-football): ${article.title}`);
+                  return false;
+                }
+                return true;
+              });
 
-          // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
-          if (!displayItems.length) {
-            showStatusOnceIfEmpty("Artikels worden geladen…");
-            return;
-          }
+              // ✅ Only show items that have a real, resolvable image
+              const withImages = filteredItems.filter(a => {
+                const img =
+                  resolveImageUrl(a?.image_path) ||
+                  resolveImageUrl(a?.imagePath) ||
+                  resolveImageUrl(a?.publicPath) ||
+                  resolveImageUrl(a?.image) ||
+                  resolveImageUrl(a?.imageUrl) ||
+                  resolveImageUrl(a?.image_url);
+                return !!img;
+              });
 
-          const html = displayItems.map((a, index) => {
-            const rawTitle = a?.title || "";
-            const looksLikeSlug = rawTitle.endsWith(".json") || (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
+              const displayItems = withImages.slice(0, 50);
+              console.log(`[HOME] image filter: ${filteredItems.length} → ${withImages.length} (only items with resolvable image)`);
 
-            const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : cleanTitle(rawTitle);
-            const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
+              // If backend is in the middle of a refresh, the list can briefly be sparse.
+              // Retry with backoff instead of wiping the UI.
+              if (displayItems.length < 8) {
+                throw new Error(`[HOME] Too few items (${displayItems.length}); retrying`);
+              }
 
-            // vlag op basis van country
-            const country = (a?.country || "").toUpperCase();
-            const cc = (country === "BE" || country === "NL") ? country : "INT";
-            const flag = flagHtml(cc);
+              const html = displayItems.map((a, index) => {
+                const rawTitle = a?.title || "";
+                const looksLikeSlug = rawTitle.endsWith(".json") || (rawTitle.length > 40 && rawTitle.split("-").length >= 6);
 
-          // IMPORTANT: do NOT call backend placeholder endpoint on empty/missing images.
-          // If image is missing, use inline SVG immediately (no server dependency).
-          const imgSrc =
-                // Preferred DB fields (Render Postgres)
-                resolveImageUrl(a?.image_path) ||
-                resolveImageUrl(a?.imagePath) ||
-                resolveImageUrl(a?.publicPath) ||
-                // Legacy / fallback fields
-                resolveImageUrl(a?.image) ||
-                resolveImageUrl(a?.imageUrl) ||
-                resolveImageUrl(a?.image_url);
+                const displayTitle = (!rawTitle || looksLikeSlug) ? "Nieuwsartikel" : cleanTitle(rawTitle);
+                const safeTitle = String(displayTitle).replace(/"/g, "&quot;");
 
-          const safeImg = imgSrc ? String(imgSrc).replace(/"/g, "&quot;") : "";
+                // vlag op basis van country
+                const country = (a?.country || "").toUpperCase();
+                const cc = (country === "BE" || country === "NL") ? country : "INT";
+                const flag = flagHtml(cc);
 
-          const thumbHtml = imgSrc
-            ? `
-                <div class="home-news__thumbWrap">
-                  <img
-                    class="home-news__thumb"
-                    src="${safeImg}"
-                    alt="${safeTitle}"
-                    loading="${index < 6 ? 'eager' : 'lazy'}"
-                    fetchpriority="${index < 2 ? 'high' : 'auto'}"
-                    decoding="async"
-                    width="92"
-                    height="64"
-                    referrerpolicy="no-referrer"
-                    onerror="try{this.onerror=null;this.src='${FALLBACK_THUMB}';this.closest('.home-news__thumbWrap')&&this.closest('.home-news__thumbWrap').classList.add('is-empty');}catch(e){}"
-                  />
-                </div>
-              `
-            : `
-                <div class="home-news__thumbWrap is-empty">
-                  <img
-                    class="home-news__thumb"
-                    src="${FALLBACK_THUMB}"
-                    alt="${safeTitle}"
-                    loading="lazy"
-                    decoding="async"
-                    width="92"
-                    height="64"
-                  />
-                </div>
-              `;
+                const imgSrc =
+                  resolveImageUrl(a?.image_path) ||
+                  resolveImageUrl(a?.imagePath) ||
+                  resolveImageUrl(a?.publicPath) ||
+                  resolveImageUrl(a?.image) ||
+                  resolveImageUrl(a?.imageUrl) ||
+                  resolveImageUrl(a?.image_url);
 
-            // --- SLUG-FIRST URL LOGIC ---
-            const slug = String(a?.slug || "").trim();
-            const id = String(a?.id || "").trim();
-            const articleUrl = slug
-              ? ("artikel.html?slug=" + encodeURIComponent(slug))
-              : (id ? ("artikel.html?id=" + encodeURIComponent(id)) : "artikels.html");
+                const safeImg = imgSrc ? String(imgSrc).replace(/"/g, "&quot;") : "";
 
-            const articleHtml = `
-              <article class="home-news__item">
-                <a class="home-news__link" href="${articleUrl}">
-                  ${thumbHtml}
+                const thumbHtml = imgSrc
+                  ? `
+                      <div class="home-news__thumbWrap">
+                        <img
+                          class="home-news__thumb"
+                          src="${safeImg}"
+                          alt="${safeTitle}"
+                          loading="${index < 6 ? 'eager' : 'lazy'}"
+                          fetchpriority="${index < 2 ? 'high' : 'auto'}"
+                          decoding="async"
+                          width="92"
+                          height="64"
+                          referrerpolicy="no-referrer"
+                          onerror="try{this.onerror=null;this.src='${FALLBACK_THUMB}';this.closest('.home-news__thumbWrap')&&this.closest('.home-news__thumbWrap').classList.add('is-empty');}catch(e){}"
+                        />
+                      </div>
+                    `
+                  : `
+                      <div class="home-news__thumbWrap is-empty">
+                        <img
+                          class="home-news__thumb"
+                          src="${FALLBACK_THUMB}"
+                          alt="${safeTitle}"
+                          loading="lazy"
+                          decoding="async"
+                          width="92"
+                          height="64"
+                        />
+                      </div>
+                    `;
 
-                  <div class="home-news__meta">
-                    <div class="home-news__titleRow">
-                      ${flag}
-                      <h4 class="home-news__title">${safeTitle}</h4>
+                // --- SLUG-FIRST URL LOGIC ---
+                const slug = String(a?.slug || "").trim();
+                const id = String(a?.id || "").trim();
+                const articleUrl = slug
+                  ? ("artikel.html?slug=" + encodeURIComponent(slug))
+                  : (id ? ("artikel.html?id=" + encodeURIComponent(id)) : "artikels.html");
+
+                const articleHtml = `
+                  <article class="home-news__item">
+                    <a class="home-news__link" href="${articleUrl}">
+                      ${thumbHtml}
+
+                      <div class="home-news__meta">
+                        <div class="home-news__titleRow">
+                          ${flag}
+                          <h4 class="home-news__title">${safeTitle}</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                `;
+
+                if (index === 9) {
+                  return articleHtml + `
+                    <div class="card ad-infeed ad-slot-infeed">
+                      <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-4062633211824348"
+                        data-ad-slot="4831226012"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
                     </div>
-                  </div>
-                </a>
-              </article>
-            `;
+                  `;
+                }
 
-            if (index === 9) {
-              return articleHtml + `
-                <div class="card ad-infeed ad-slot-infeed">
-                  <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-4062633211824348"
-                    data-ad-slot="4831226012"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
-                </div>
-              `;
-            }
+                return articleHtml;
+              }).join("");
 
-            return articleHtml;
-          }).join("");
+              homeListEl.innerHTML = html;
 
-          homeListEl.innerHTML = html;
-
-          // probeer ad units te activeren (veilig) – single deferred push
-          try {
-            setTimeout(() => {
+              // probeer ad units te activeren (veilig) – single deferred push
               try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
+                setTimeout(() => {
+                  try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  } catch (e) {
+                    console.warn("[ADS] push failed", e);
+                  }
+                }, 0);
               } catch (e) {
                 console.warn("[ADS] push failed", e);
               }
-            }, 0);
-          } catch (e) {
-            console.warn("[ADS] push failed", e);
+
+              hasRenderedHomeNews = true;
+              hideStatus();
+
+              // success: exit retry loop
+              lastErr = null;
+              break;
+            } catch (e) {
+              lastErr = e;
+              const wait = 650 * (i + 1);
+              console.warn("[HOME] retry", i + 1, "in", wait, "ms:", e?.message || e);
+              await sleep(wait);
+            }
           }
 
-          hasRenderedHomeNews = true;
-          hideStatus();
-          // cache tijdelijk uitgeschakeld (zie boven)
-          // localStorage.setItem(CACHE_KEY, html);
+          if (lastErr) {
+            throw lastErr;
+          }
 
         } catch (err) {
           console.error("[HOME] loadHomeNews failed:", err);
-          showStatusOnceIfEmpty("Nieuws tijdelijk onbereikbaar (API). Herlaad binnen 30s.");
+          showStatusOnceIfEmpty("Artikels worden geladen…");
+        } finally {
+          homeNewsInFlight = false;
         }
       }
 
-      // Eerste live load + periodieke refresh
+      // Eerste live load + periodieke refresh (no overlap; initial load is slightly delayed inside loadHomeNews)
       loadHomeNews();
-      setInterval(loadHomeNews, REFRESH_MS);
+      setInterval(() => { loadHomeNews(); }, REFRESH_MS);
       
 // Monthly events list (lopende maand) – placeholder data (kan later vervangen worden door echte events API)
 function renderMonthlyEvents() {
