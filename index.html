@@ -861,8 +861,8 @@
 
               // If backend is in the middle of a refresh, the list can briefly be sparse.
               // Retry with backoff instead of wiping the UI.
-              if (displayItems.length < 8) {
-                throw new Error(`[HOME] Too few items (${displayItems.length}); retrying`);
+              if (displayItems.length < 1) {
+                throw new Error(`[HOME] No usable items (${displayItems.length}); retrying`);
               }
 
               const html = displayItems.map((a, index) => {

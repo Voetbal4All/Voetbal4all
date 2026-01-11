@@ -28,6 +28,23 @@
     /* Force article thumbnails to be visible */
     #article-list img { display: block !important; visibility: visible !important; opacity: 1 !important; }
     .ad-card-header img { max-width: 100%; height: auto; }
+
+    /* Normalize flag sizing (INT SVG can render oversized if intrinsic viewBox is large) */
+    .v4a-flag {
+      width: 18px;
+      height: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex: 0 0 18px;
+    }
+    .v4a-flag__img {
+      width: 18px !important;
+      height: 12px !important;
+      display: block;
+      object-fit: cover;
+    }
   </style>
   </head>
 
