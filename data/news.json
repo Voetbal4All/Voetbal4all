@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2026-01-11T22:23:18.796Z",
+  "generatedAt": "2026-01-11T23:23:07.559Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Endrick scoort tijdens zijn debuut voor Olympique Lyon",
-      "link": "https://www.vi.nl/nieuws/vi-live-invaller-lang-goud-waard-voor-napoli-met-assist-op-mctominay",
-      "summary": "Welkom in de VI Live op deze ijskoude zondag 11 januari. Volg hier de ontwikkelingen binnen en buiten de grenzen, met op deze plek onder meer aandacht voor de Eredivisie, de finale van de Super Cup tussen Barcelona en Real Madrid en het FA Cup-toernooi.",
-      "publishedAt": "2026-01-11T22:00:00.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Watch: Match of the Day - FA Cup third round highlights",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "summary": "Highlights from the third round of the 2025/26 FA Cup.",
+      "publishedAt": "2026-01-11T23:41:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Raphinha shines as Barça get thrilling win over Madrid in Supercopa final",
+      "link": "https://www.espn.com/soccer/story/_/id/47583706/raphinha-shines-lead-barcelona-thrilling-win-real-madrid-spanish-supercopa",
+      "summary": "Barcelona claim their first trophy of 2026, avenging October's El Clásico loss with Spanish Supercopa win.",
+      "publishedAt": "2026-01-11T23:16:52.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +29,76 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Verdeelde meningen over rode kaart van De Jong na tackle op Mbappé",
-      "link": "https://www.vi.nl/nieuws/verdeelde-meningen-over-rode-kaart-van-de-jong-na-tackle-op-mbapp",
-      "summary": "Barcelona won zondag de finale van de Supercopa van Real Madrid , maar na afloop gaat het ook vooral over de rode kaart van Frenkie de Jong. Wat blijkt, is dat de meningen verdeeld zijn over de ernst van de tackle op Kylian Mbappé.",
-      "publishedAt": "2026-01-11T21:58:53.000Z"
+      "title": "Samenvatting: winnend Ajax maakt het nog aardig spannend tegen Telstar-tiental",
+      "link": "https://www.vi.nl/video/samenvatting-winnend-ajax-maakt-het-nog-aardig-spannend-tegen-telstar-tiental",
+      "summary": "Ajax is de tweede seizoenshelft met drie punten begonnen. Lang leken de Amsterdammers op hun dooie gemakje te gaan winnen van Telstar in de Eredivisie, maar de promovendus kwam in de slotfase met tien man nog terug tot 2-3.",
+      "publishedAt": "2026-01-11T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Samenvatting: Feyenoord begint kalenderjaar met puntenverlies bij Heerenveen",
+      "link": "https://www.vi.nl/video/samenvatting-feyenoord-begint-kalenderjaar-met-puntenverlies-bij-heerenveen",
+      "summary": "Feyenoord is de tweede seizoenshelft van de Eredivisie met puntenverlies begonnen in Friesland. Lang leken de Rotterdammers drie punten te gaan pakken, maar in de slotfase bezorgde uitgerekend Ajax-huurling Amourricho van Axel Dongen ze hoofdpijn vanwege de gelijkmaker: 2-2.",
+      "publishedAt": "2026-01-11T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Samenvatting: PSV rolt Excelsior op, maar verliest Pepi met armbreuk",
+      "link": "https://www.vi.nl/video/samenvatting-psv-rolt-excelsior-op-maar-verliest-pepi-met-armbreuk",
+      "summary": "In de Eredivisie had PSV zaterdag geen kind aan Excelsior. De Eindhovenaren wonnen met liefst 5-1 van de promovendus. Wel was er een flinke smet op de wedstrijd: Ricardo Pepi viel uit met een armbreuk.",
+      "publishedAt": "2026-01-11T22:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Mbappé blokkeert erehaag Real Madrid voor bekerwinnaar Barça'",
+      "link": "https://www.vi.nl/nieuws/marca-mbappe-blokkeert-erehaag-real-voor-bekerwinnaar-barca",
+      "summary": "Kylian Mbappé lijkt zich na de verloren finale van de Spaanse Super Cup niet van zijn meest sportieve kant te hebben laten zien. Volgens Marca voorkwam de Fransman dat zijn teamgenoten een erehaag vormden voor de spelers van Barcelona.",
+      "publishedAt": "2026-01-11T22:38:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man Utd to accelerate appointment after meetings with Carrick and Solskjaer",
+      "link": "https://www.skysports.com/football/news/12040/13493241/man-utd-next-manager-club-to-accelerate-appointment-after-meetings-with-michael-carrick-and-ole-gunnar-solskjaer",
+      "summary": "Manchester United are expected to accelerate the process of appointing a new interim head coach, with further detailed talks planned before a final decision is made between Michael Carrick and Ole Gunnar Solskjaer.",
+      "publishedAt": "2026-01-11T22:31:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Hooijdonk kraakt Ajax-invallers: 'Ik zou hem bij zijn strot pakken'",
+      "link": "https://www.vi.nl/nieuws/van-hooijdonk-kraakt-ajax-invallers-ik-zou-hem-bij-zijn-strot-pakken",
+      "summary": "Pierre van Hooijdonk heeft zich zondag verschrikkelijk gestoord aan de invallers bij Ajax. De analyticus zag dat een speler als bijvoorbeeld Rayane Bounida voor zijn eigen kansen ging tegen Telstar, terwijl hij zijn medespelers in stelling had moeten brengen.",
+      "publishedAt": "2026-01-11T22:26:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Michael Carrick emerges as favourite to be Manchester United interim manager",
+      "link": "https://www.theguardian.com/football/2026/jan/11/darren-fletcher-in-dark-over-his-future-after-manchester-uniteds-cup-exit",
+      "summary": "Former midfielder ahead of Solskjær after interviews Darren Fletcher admits he is in the dark over his position Michael Carrick has emerged as the favourite candidate to be Manchester United’s interim manager for the rest of the season ahead of Ole Gunnar Solskjær after the interview process, with the club’s executive expected to finalise the decision on Monday. While Omar Berrada, the chief executive, and Jason Wilcox, the director of football, are understood to have not made a formal offer, they are leaning towards Carrick, sources have informed the Guardian. This follows both Carrick and Solskjær having face-to-face discussions with the hierarchy. Berrada and Wilcox met Carrick on Thursday and Solskjær on Saturday at the club’s Carrington training ground. Continue reading...",
+      "publishedAt": "2026-01-11T22:00:26.000Z"
     },
     {
       "type": "rss",
@@ -69,28 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man United knocked out of FA Cup",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762498",
-      "summary": "Manchester United were eliminated from the FA Cup after a 2-1 third-round defeat to Brighton & Hove Albion on Sunday, with their former player Danny Welbeck among the goals.",
-      "publishedAt": "2026-01-11T21:57:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Lang en McTominay helpen veerkrachtig Napoli aan punt bij Inter",
-      "link": "https://www.vi.nl/nieuws/lang-en-mctominay-helpen-veerkrachtig-napoli-aan-punt-bij-inter",
-      "summary": "Intro",
-      "publishedAt": "2026-01-11T21:42:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -99,17 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/11/west-brom-former-manchester-united-coach-eric-ramsay-football",
       "summary": "34-year-old led Minnesota United to MLS semi-finals Ramsay appointed head coach after sacking of Ryan Mason West Brom have named the former Manchester United assistant Eric Ramsay as their new head coach after the 34-year-old guided Minnesota United to the semi-finals of the Major League Soccer play-offs. Ramsay, 34, took charge of Minnesota in February 2024, his first senior managerial role, after working alongside Erik ten Hag at Old Trafford. He has also worked as an assistant coach for Wales and had spells with Swansea, Shrewsbury and Chelsea, though his playing experience extends only to a short spell with Welshpool Town and international futsal for Wales. Continue reading...",
       "publishedAt": "2026-01-11T21:38:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Rode kaart De Jong en vijf goals in El Clásico: Barça wint Supercopa wéér",
-      "link": "https://www.vi.nl/nieuws/rode-kaart-de-jong-en-vijf-goals-in-el-cl-sico-bar-a-wint-supercopa-w-r",
-      "summary": "Het is Barcelona voor het tweede seizoen op rij gelukt om beslag te leggen op de Spaanse Supercopa. Aan de hand van Raphinha lukte het de Catalanen om Real Madrid te verslaan, waarbij Kylian Mbappé in de korte speeltijd die hij kreeg niet het verschil kon maken.",
-      "publishedAt": "2026-01-11T21:30:32.000Z"
     },
     {
       "type": "rss",
@@ -132,28 +176,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cly53k69xj1o?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United will prepare for next Saturday's game with Manchester City with no manager in place to lift their 'fragile' confidence.",
       "publishedAt": "2026-01-11T21:07:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "El Clásico leert: Xabi Alonso heeft slechts ruimte voor één solist",
-      "link": "https://www.vi.nl/pro/tactische-analyse-barcelona-real-madrid-xabi-alonso-met-een-solist",
-      "summary": "Inleiding",
-      "publishedAt": "2026-01-11T21:03:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Welbeck scores as Brighton knock Man Utd out of FA Cup",
-      "link": "https://www.bbc.com/sport/football/videos/c1wzdw7j79po?at_medium=RSS&at_campaign=rss",
-      "summary": "Striker Danny Welbeck helps Brighton dump his former club Manchester United out of the FA Cup at Old Trafford.",
-      "publishedAt": "2026-01-11T20:26:08.000Z"
     },
     {
       "type": "rss",
@@ -187,28 +209,6 @@
       "link": "https://www.skysports.com/football/news/12040/13493203/nico-raskin-rangers-midfielder-appears-to-squirt-water-at-fan-after-victory-over-aberdeen",
       "summary": "Nico Raskin appeared to squirt water at an Aberdeen fan at full-time of Rangers' 2-0 win at Pittodrie on Sunday.",
       "publishedAt": "2026-01-11T19:19:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Danny Welbeck shines as Brighton dump Manchester United out of FA Cup",
-      "link": "https://www.theguardian.com/football/2026/jan/11/manchester-united-brighton-fa-cup-match-report",
-      "summary": "Manchester United’s hunt for trophies is over inside the second week of January after a ruthless Brighton took advantage of yet another loose defensive performance. This FA Cup third-round knockout means the 13-time winners have been dumped from the competition and the League Cup at the first opportunity for a first time since 1981-82. By the end of May, United’s season will stand at a total of 40 games – their lowest number in a complete campaign since 1914-15. If the Carabao Cup penalty shootout elimination at Grimsby in August was dire, this disappointment was as concerningly insipid. Goals from Brajan Gruda and Danny Welbeck, one in each half, (probably) ended Darren Fletcher’s record as the interim manager as winless – this defeat following the draw at Burnley in the Premier League on Wednesday. Continue reading...",
-      "publishedAt": "2026-01-11T18:38:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Problems mount for 'fragile' Man Utd as Brighton book FA Cup fourth-round spot",
-      "link": "https://www.skysports.com/football/manchester-united-vs-brighton-and-hove-albion/report/550869",
-      "summary": "Manchester United's problems continued to build after Brighton secured their place in the FA Cup fourth round with a 2-1 victory at Old Trafford.",
-      "publishedAt": "2026-01-11T18:30:00.000Z"
     },
     {
       "type": "rss",
