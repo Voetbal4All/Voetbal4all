@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-11T04:11:32.964Z",
+  "generatedAt": "2026-01-11T05:29:10.828Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Toen VI vader en zoon Kruys interviewde: 'Ricky is Rick geworden'",
+      "link": "https://www.vi.nl/pro/toen-vi-vader-en-zoon-kruys-interviewde-ricky-is-rick-geworden",
+      "summary": "In de rubriek VI Tijdmachine herplaatsen we elke dag in het weekeinde een verhaal uit ons rijke archief. Deze keer gaan we terug naar 2011, toen Gert en Rick Kruys werden geportretteerd in de serie Vaders & Zonen.",
+      "publishedAt": "2026-01-11T05:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -121,17 +132,6 @@
       "link": "https://www.vi.nl/video/bosz-legt-uit-wat-rol-afellay-in-technische-staf-bij-psv-wordt",
       "summary": "PSV-trainer Peter Bosz ging na de Eredivisie-zege op Excelsior in op de rol van Ibrahim Afellay in de technische staf. De 39-jarige oud-international volgde André Ooijer op als assistent-coach en zal zich voornamelijk gaan bezighouden met de middenvelders in de selectie van PSV. Maar er is meer, legde Bosz uit op zijn persconferentie.",
       "publishedAt": "2026-01-10T22:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bosz gaat in op blessure Pepi en aanstelling van extra specialist",
-      "link": "https://www.vi.nl/nieuws/bosz-gaat-in-op-blessure-pepi-en-aanstelling-van-extra-specialist",
-      "summary": "PSV-trainer Peter Bosz heeft op de persconferentie na de zege op Excelsior gereageerde op de nieuwe blessure van Ricardo Pepi. De spits viel na zijn doelpunt uit met een armblessure en blijkt nu een aantal maanden uit de roulatie te zijn.",
-      "publishedAt": "2026-01-10T22:20:29.000Z"
     },
     {
       "type": "rss",
