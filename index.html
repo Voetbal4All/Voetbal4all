@@ -660,19 +660,29 @@
       );
 
       function resolveImageUrl(u) {
-        // Return NULL when empty so we never end up with img.src = "" (broken image icon)
+        // Return NULL when empty/invalid so we never end up with img.src = "" or garbage (e.g. "broken-link")
         if (u == null) return null;
+
         // accept strings or objects like { publicPath: "/images/..." }
         let s = "";
         if (typeof u === "string") s = u.trim();
         else if (typeof u === "object") {
           s = String(u.publicPath || u.image_path || u.path || u.url || "").trim();
         }
+
         if (!s) return null;
+
+        const low = s.toLowerCase();
+        // Block known bad/placeholder tokens so they don't trigger 404s and then SVG fallbacks
+        if (low === "broken-link" || low === "[object object]") return null;
+        if (low.includes("placeholder")) return null;
+
+        // Only allow absolute http(s) or root-relative paths (served by the backend)
         if (/^https?:\/\//i.test(s)) return s;
-        if (s.startsWith("/images/")) return IMG_BASE + s;
         if (s.startsWith("/")) return IMG_BASE + s;
-        return s;
+
+        // Any other form is treated as invalid (prevents relative requests like /broken-link)
+        return null;
       }
       // NOTE: tijdelijk cache UIT om geen ‘stale’ placeholders te tonen wanneer /api/news faalt
       const CACHE_KEY = "home_news_html_v9";

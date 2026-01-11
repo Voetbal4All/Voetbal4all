@@ -480,6 +480,25 @@
     s = String(s || "").trim();
     if (!s) return null;
 
+    // Treat known placeholders / invalid tokens as "no image"
+    // This prevents broken boxes and avoids backend placeholder routes (cold start / 502).
+    const lower = s.toLowerCase();
+    if (
+      lower === "broken-link" ||
+      lower === "/broken-link" ||
+      lower === "placeholder" ||
+      lower === "placeholder.svg" ||
+      lower.endsWith("/placeholder.svg") ||
+      lower.includes("placeholder.svg?") ||
+      lower.startsWith("/images/placeholder") ||
+      lower.includes("/images/placeholder")
+    ) {
+      return null;
+    }
+
+    // Allow data URIs (already self-contained)
+    if (lower.startsWith("data:image/")) return s;
+
     // Already absolute
     if (/^https?:\/\//i.test(s)) return s;
 
