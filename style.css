@@ -345,9 +345,12 @@ footer { margin-top: auto; }
   flex: 1 1 auto;
   min-width: 0;
   color: var(--muted);
+
+  /* Desktop: center the (no-live / live) message vertically & visually in the banner */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;      /* prevent “column” baseline/top bias */
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* center within available middle space */
 }
 
 .live-text-main { display: block; }
@@ -387,6 +390,8 @@ footer { margin-top: auto; }
   white-space: nowrap;
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100%;
   min-height: 28px;
   min-width: 0; /* belangrijk voor flex layouts op Windows/Chromium */
 }
