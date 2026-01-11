@@ -1,16 +1,104 @@
 {
-  "generatedAt": "2026-01-11T21:21:42.303Z",
+  "generatedAt": "2026-01-11T22:23:18.796Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Endrick scoort tijdens zijn debuut voor Olympique Lyon",
+      "link": "https://www.vi.nl/nieuws/vi-live-invaller-lang-goud-waard-voor-napoli-met-assist-op-mctominay",
+      "summary": "Welkom in de VI Live op deze ijskoude zondag 11 januari. Volg hier de ontwikkelingen binnen en buiten de grenzen, met op deze plek onder meer aandacht voor de Eredivisie, de finale van de Super Cup tussen Barcelona en Real Madrid en het FA Cup-toernooi.",
+      "publishedAt": "2026-01-11T22:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Verdeelde meningen over rode kaart van De Jong na tackle op Mbappé",
+      "link": "https://www.vi.nl/nieuws/verdeelde-meningen-over-rode-kaart-van-de-jong-na-tackle-op-mbapp",
+      "summary": "Barcelona won zondag de finale van de Supercopa van Real Madrid , maar na afloop gaat het ook vooral over de rode kaart van Frenkie de Jong. Wat blijkt, is dat de meningen verdeeld zijn over de ernst van de tackle op Kylian Mbappé.",
+      "publishedAt": "2026-01-11T21:58:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Watch: The Women's Football Show",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m002pwjt?at_medium=RSS&at_campaign=rss",
-      "summary": "Analysis and top stories from week 12 of the 2025/26 Women’s Super League season.",
-      "publishedAt": "2026-01-11T21:51:00.000Z"
+      "title": "Raphinha leads Barça to Supercopa win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/748117",
+      "summary": "Raphinha scored twice in Saudi Arabia as Barcelona beat Real Madrid 3-2 on Sunday in the final of the Spanish Super Cup.",
+      "publishedAt": "2026-01-11T21:57:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Martinelli hat-trick as Arsenal beat Portsmouth",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762502",
+      "summary": "Gabriel Martinelli scored a hat-trick as Arsenal overcame an early scare to thrash Championship strugglers Portsmouth 4-1 in the FA Cup third round.",
+      "publishedAt": "2026-01-11T21:57:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool's Bradley out for season with knee injury",
+      "link": "https://www.espn.com/soccer/story/_/id/47579359/liverpool-conor-bradley-season-knee-injury",
+      "summary": "Liverpool defender Conor Bradley is set to miss the rest of the season after suffering a serious knee injury in Thursday's 0-0 draw with Arsenal.",
+      "publishedAt": "2026-01-11T21:57:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
+      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
+      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
+      "publishedAt": "2026-01-11T21:57:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United knocked out of FA Cup",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762498",
+      "summary": "Manchester United were eliminated from the FA Cup after a 2-1 third-round defeat to Brighton & Hove Albion on Sunday, with their former player Danny Welbeck among the goals.",
+      "publishedAt": "2026-01-11T21:57:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Lang en McTominay helpen veerkrachtig Napoli aan punt bij Inter",
+      "link": "https://www.vi.nl/nieuws/lang-en-mctominay-helpen-veerkrachtig-napoli-aan-punt-bij-inter",
+      "summary": "Intro",
+      "publishedAt": "2026-01-11T21:42:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Former Manchester United coach Eric Ramsay takes charge at West Brom",
+      "link": "https://www.theguardian.com/football/2026/jan/11/west-brom-former-manchester-united-coach-eric-ramsay-football",
+      "summary": "34-year-old led Minnesota United to MLS semi-finals Ramsay appointed head coach after sacking of Ryan Mason West Brom have named the former Manchester United assistant Eric Ramsay as their new head coach after the 34-year-old guided Minnesota United to the semi-finals of the Major League Soccer play-offs. Ramsay, 34, took charge of Minnesota in February 2024, his first senior managerial role, after working alongside Erik ten Hag at Old Trafford. He has also worked as an assistant coach for Wales and had spells with Swansea, Shrewsbury and Chelsea, though his playing experience extends only to a short spell with Welshpool Town and international futsal for Wales. Continue reading...",
+      "publishedAt": "2026-01-11T21:38:43.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +109,7 @@
       "title": "Rode kaart De Jong en vijf goals in El Clásico: Barça wint Supercopa wéér",
       "link": "https://www.vi.nl/nieuws/rode-kaart-de-jong-en-vijf-goals-in-el-cl-sico-bar-a-wint-supercopa-w-r",
       "summary": "Het is Barcelona voor het tweede seizoen op rij gelukt om beslag te leggen op de Spaanse Supercopa. Aan de hand van Raphinha lukte het de Catalanen om Real Madrid te verslaan, waarbij Kylian Mbappé in de korte speeltijd die hij kreeg niet het verschil kon maken.",
-      "publishedAt": "2026-01-11T21:18:36.000Z"
+      "publishedAt": "2026-01-11T21:30:32.000Z"
     },
     {
       "type": "rss",
@@ -51,17 +139,6 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Italiaanse topper in Milaan voorlopig in evenwicht",
-      "link": "https://www.vi.nl/nieuws/vi-live-warmdraaien-voor-el-cl-sico-in-de-finale-van-spaanse-supercopa",
-      "summary": "Welkom in de VI Live op deze ijskoude zondag 11 januari. Volg hier de ontwikkelingen binnen en buiten de grenzen, met op deze plek onder meer aandacht voor de Eredivisie, de finale van de Super Cup tussen Barcelona en Real Madrid en het FA Cup-toernooi.",
-      "publishedAt": "2026-01-11T21:05:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "El Clásico leert: Xabi Alonso heeft slechts ruimte voor één solist",
       "link": "https://www.vi.nl/pro/tactische-analyse-barcelona-real-madrid-xabi-alonso-met-een-solist",
       "summary": "Inleiding",
@@ -69,47 +146,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Farioli kiest voor contractverlenging bij koploper FC Porto",
-      "link": "https://www.vi.nl/nieuws/farioli-kiest-voor-contractverlenging-bij-koploper-fc-porto",
-      "summary": "Francesco Farioli heeft zijn contract bij FC Porto verlengd. De voormalige trainer van Ajax ligt nu tot medio 2028 vast bij de koploper van Portugal.",
-      "publishedAt": "2026-01-11T20:44:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Lacey (18) krijgt 'belachelijke' rode kaart tijdens eerste minuten op Old Trafford",
-      "link": "https://www.vi.nl/nieuws/lacey-18-krijgt-belachelijke-rode-kaart-tijdens-eerste-minuten-op-old-trafford",
-      "summary": "De rode kaart die Shea Lacey tegen Brighton & Hove Albion kreeg, was volgens Darren Fletcher belachelijk. Het achttienjarige talent kreeg zondag twee keer geel in de FA Cup, en dat tijdens zijn eerste minuten op Old Trafford.",
-      "publishedAt": "2026-01-11T20:30:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man United knocked out of FA Cup",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762498",
-      "summary": "Manchester United were eliminated from the FA Cup after a 2-1 third-round defeat to Brighton & Hove Albion on Sunday, with their former player Danny Welbeck among the goals.",
-      "publishedAt": "2026-01-11T20:06:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Martinelli hat-trick as Arsenal beat Portsmouth",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762502",
-      "summary": "Gabriel Martinelli scored a hat-trick as Arsenal overcame an early scare to thrash Championship strugglers Portsmouth 4-1 in the FA Cup third round.",
-      "publishedAt": "2026-01-11T20:05:08.000Z"
+      "title": "Welbeck scores as Brighton knock Man Utd out of FA Cup",
+      "link": "https://www.bbc.com/sport/football/videos/c1wzdw7j79po?at_medium=RSS&at_campaign=rss",
+      "summary": "Striker Danny Welbeck helps Brighton dump his former club Manchester United out of the FA Cup at Old Trafford.",
+      "publishedAt": "2026-01-11T20:26:08.000Z"
     },
     {
       "type": "rss",
@@ -146,39 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool's Bradley out for season with knee injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47579359/liverpool-conor-bradley-season-knee-injury",
-      "summary": "Liverpool defender Conor Bradley is set to miss the rest of the season after suffering a serious knee injury in Thursday's 0-0 draw with Arsenal.",
-      "publishedAt": "2026-01-11T18:55:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
-      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
-      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
-      "publishedAt": "2026-01-11T18:55:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "MLS players support plan to align calendar",
-      "link": "https://www.espn.com/soccer/story/_/id/47581523/mls-players-support-plan-align-international-calendar",
-      "summary": "Major League Soccer players expressed support over the board of governors' decision to align with the international calendar.",
-      "publishedAt": "2026-01-11T18:55:17.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c3685180x26o?at_medium=RSS&at_campaign=rss",
       "summary": "Gabriel Martinelli was branded an \"idiot\" a few days ago - but showed great personality to respond with an FA Cup hat-trick, according to Arsenal manager Mikel Arteta.",
       "publishedAt": "2026-01-11T17:39:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Taty Castellanos edges West Ham past QPR in FA Cup to offer respite for Nuno",
-      "link": "https://www.theguardian.com/football/2026/jan/11/west-ham-qpr-fa-cup-match-report",
-      "summary": "Forget the magic of the FA Cup, for West Ham the reality of what is soon likely to be a Championship fixture – an indicator that life in the second tier will be no cakewalk. That QPR took them to extra time will do little for Nuno Espírito Santo’s standing, despite a first win since 8 November. There were, though, positives to take in the performance of Taty ­Castellanos, the Argentinian striker who scored the Hammers’ winning goal. Have West Ham at last ended a search for a striker that has lasted almost as long as their London Stadium tenancy? They have looked everywhere. Continue reading...",
-      "publishedAt": "2026-01-11T17:33:45.000Z"
     }
   ]
 }
