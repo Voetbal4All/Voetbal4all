@@ -338,7 +338,10 @@
     // Client-side cache to render instantly on repeat visits (does not affect backend order)
     const NEWS_CACHE_KEY = "v4_news_cache_v1";
     const NEWS_CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
-    let lastRenderKey = "";
+let lastRenderKey = "";
+
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+    let newsInFlight = false;
 
     function readNewsCache(){
       try {
@@ -770,47 +773,73 @@
         }
       }
           }
-    async function fetchJsonWithTimeout(url, ms){
-      const controller = new AbortController();
-      const t = setTimeout(() => controller.abort(), ms);
-      try {
-        const res = await fetch(url, { signal: controller.signal });
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        return await res.json();
-      } finally {
-        clearTimeout(t);
+    async function fetchJsonWithRetry(url, { timeoutMs, tries = 5, baseDelayMs = 650, minItems = 8 } = {}) {
+      let lastErr = null;
+
+      for (let i = 0; i < tries; i++) {
+        const controller = new AbortController();
+        const t = setTimeout(() => controller.abort(), timeoutMs);
+
+        try {
+          const res = await fetch(url, { signal: controller.signal, cache: "no-store" });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+
+          const data = await res.json();
+          const items = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
+
+          // Backend is source of truth, but during a pipeline refresh the list can briefly be sparse.
+          // Treat too-few-items as a transient condition and retry.
+          if (!items || items.length < minItems) {
+            throw new Error(`Too few items (${items?.length || 0})`);
+          }
+
+          return data;
+        } catch (e) {
+          lastErr = e;
+          const wait = baseDelayMs * (i + 1);
+          await sleep(wait);
+        } finally {
+          clearTimeout(t);
+        }
       }
+
+      throw lastErr || new Error("fetchJsonWithRetry failed");
     }
 
     async function loadNews(){
-      // 1) Try instant render from cache
-      const cached = readNewsCache();
-      if (cached && cached.length) {
-        allItems = dedupeById(cached);
-        // show immediately
-        applyFilters();
-      } else {
-        // show loading state + quick skeleton to avoid "blank page" perception
-        newsStatus.style.display = "block";
-        newsStatus.textContent = "Artikels laden…";
-        const skel = Array.from({ length: 8 }).map(() => `
-          <article class="ad-card" aria-hidden="true">
-            <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
-              <div style="width:96px;height:64px;border-radius:10px;background:rgba(255,255,255,0.06);"></div>
-              <div style="min-width:0;flex:1;">
-                <div style="height:14px;width:70%;border-radius:6px;background:rgba(255,255,255,0.06);margin:4px 0;"></div>
-                <div style="height:12px;width:45%;border-radius:6px;background:rgba(255,255,255,0.06);margin:8px 0;"></div>
-              </div>
-            </div>
-          </article>
-        `).join("");
-        articleList.innerHTML = skel;
-      }
+      if (newsInFlight) return;
+      newsInFlight = true;
 
-      // 2) Refresh in background (network)
-      try{
+      try {
+        // Small start delay to avoid racing the backend during pipeline/cache refresh
+        await sleep(900);
+        // 1) Try instant render from cache
+        const cached = readNewsCache();
+        if (cached && cached.length) {
+          allItems = dedupeById(cached);
+          // show immediately
+          applyFilters();
+        } else {
+          // show loading state + quick skeleton to avoid "blank page" perception
+          newsStatus.style.display = "block";
+          newsStatus.textContent = "Artikels laden…";
+          const skel = Array.from({ length: 8 }).map(() => `
+            <article class="ad-card" aria-hidden="true">
+              <div class="ad-card-header" style="display:flex; gap:12px; align-items:flex-start;">
+                <div style="width:96px;height:64px;border-radius:10px;background:rgba(255,255,255,0.06);"></div>
+                <div style="min-width:0;flex:1;">
+                  <div style="height:14px;width:70%;border-radius:6px;background:rgba(255,255,255,0.06);margin:4px 0;"></div>
+                  <div style="height:12px;width:45%;border-radius:6px;background:rgba(255,255,255,0.06);margin:8px 0;"></div>
+                </div>
+              </div>
+            </article>
+          `).join("");
+          articleList.innerHTML = skel;
+        }
+
+        // 2) Refresh in background (network)
         // FAST: allow caching (browser/CDN) and time out quickly to avoid 10–15s hangs
-        const data = await fetchJsonWithTimeout(NEWS_URL_FAST, 4500);
+        const data = await fetchJsonWithRetry(NEWS_URL_FAST, { timeoutMs: 4500, tries: 5, baseDelayMs: 650, minItems: 8 });
         const fresh = dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []));
 
         // Fast paint: if we had no cache, render ASAP with the first page results
@@ -824,7 +853,7 @@
         }
 
         // FULL: fetch in background with a longer timeout
-        const dataFull = await fetchJsonWithTimeout(NEWS_URL_FULL, 12000);
+        const dataFull = await fetchJsonWithRetry(NEWS_URL_FULL, { timeoutMs: 12000, tries: 5, baseDelayMs: 650, minItems: 20 });
         const fullItems = dedupeById(Array.isArray(dataFull) ? dataFull : (Array.isArray(dataFull?.items) ? dataFull.items : []));
 
         // Only re-render if data actually changed
@@ -853,6 +882,8 @@
         newsCountTop2.textContent = "—";
         newsStatus.style.display = "block";
         newsStatus.textContent = "Kon artikels niet laden. Controleer /api/news en CORS.";
+      } finally {
+        newsInFlight = false;
       }
     }
 
