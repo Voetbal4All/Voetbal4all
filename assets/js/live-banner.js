@@ -15,13 +15,26 @@
     const FLAG_SRC = {
       BE: "/assets/img/sources/flag-be.svg",
       NL: "/assets/img/sources/flag-nl.svg",
+      DE: "/assets/img/sources/flag-de.svg",
+      UK: "/assets/img/sources/flag-uk.svg",
+      IT: "/assets/img/sources/flag-it.svg",
+      ES: "/assets/img/sources/flag-es.svg",
+      FR: "/assets/img/sources/flag-fr.svg",
       INT: "/assets/img/sources/flag-int.svg"
     };
 
     function flagImg(code, sizeClass = "") {
       const c = String(code || "INT").trim().toUpperCase();
       const src = FLAG_SRC[c] || FLAG_SRC.INT;
-      const alt = (c === "BE") ? "België" : (c === "NL") ? "Nederland" : "Internationaal";
+      const alt =
+        (c === "BE") ? "België" :
+        (c === "NL") ? "Nederland" :
+        (c === "DE") ? "Duitsland" :
+        (c === "UK") ? "Verenigd Koninkrijk" :
+        (c === "IT") ? "Italië" :
+        (c === "ES") ? "Spanje" :
+        (c === "FR") ? "Frankrijk" :
+        "Internationaal";
       const intCls = (c === "INT") ? " v4a-flag--int" : "";
       const extra = sizeClass ? ` ${sizeClass}` : "";
       return `<span class="v4a-flag${intCls}${extra}"><img class="v4a-flag__img" src="${src}" alt="${alt}" loading="lazy" decoding="async" width="18" height="12"></span>`;
@@ -218,23 +231,90 @@
           - Reset pas nadat laatste karakter links uit beeld is
           - En start terug volledig rechts (geen “instant vullen”)
     ========================================================= */
+    const API_BASE = "https://voetbal4all-backend-database.onrender.com";
+
+    // De codes die jouw backend ondersteunt: JPL, ERED, BUND, EPL, SA, LIGA, L1
+    const LIVE_LEAGUES = [
+      { league: "JPL", cc: "BE", label: "JPL" },
+      { league: "ERED", cc: "NL", label: "Eredivisie" },
+      { league: "BUND", cc: "DE", label: "Bundesliga" },
+      { league: "EPL", cc: "UK", label: "Premier League" },
+      { league: "SA", cc: "IT", label: "Serie A" },
+      { league: "LIGA", cc: "ES", label: "La Liga" },
+      { league: "L1", cc: "FR", label: "Ligue 1" },
+    ];
+    
+    async function fetchJsonWithTimeout(url, timeoutMs = 9000) {
+      const controller = new AbortController();
+      const t = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const res = await fetch(url, { signal: controller.signal, cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return await res.json();
+      } finally {
+        clearTimeout(t);
+      }
+    }
+    
+    function formatScoreLine({ cc, home, away, hs, as, minute, status }) {
+      const dash = "–";
+      const score = (hs == null || as == null) ? `${dash}${dash}` : `${hs}${dash}${as}`;
+      const tail = (minute != null && String(minute) !== "")
+        ? ` (${minute}’)`
+        : (status ? ` (${status})` : "");
+      return `[${cc}] ${home} ${score} ${away}${tail}`;
+    }
+    
     async function fetchFreeLiveLines() {
-      // DEMO: later vervangen door echte live data
-      return [
-        "[BE] Club Brugge 2–1 Anderlecht (72’)",
-        "[NL] Ajax 1–0 PSV (55’)",
-        "[BE] Beerschot 0–0 Zulte Waregem (33’)",
-        "[NL] Willem II 2–2 ADO Den Haag (81’)",
-        "[INT] Europa League 0–0 (voorbeeld)"
-      ];
+      // Backend is source of truth; frontend doet geen third-party calls.
+      const reqs = LIVE_LEAGUES.map((x) => ({
+        ...x,
+        url: `${API_BASE}/api/live-scores?league=${encodeURIComponent(x.league)}`
+      }));
+    
+      const results = await Promise.all(
+        reqs.map(async (r) => {
+          try {
+            const data = await fetchJsonWithTimeout(r.url, 9000);
+            const items = Array.isArray(data?.items) ? data.items : [];
+            return { ok: true, ...r, items };
+          } catch (e) {
+            return { ok: false, ...r, items: [] };
+          }
+        })
+      );
+    
+      const lines = [];
+      for (const r of results) {
+        for (const m of (r.items || [])) {
+          const home = m?.homeTeam || "";
+          const away = m?.awayTeam || "";
+          if (!home || !away) continue;
+    
+          lines.push(formatScoreLine({
+            cc: r.cc,
+            home,
+            away,
+            hs: (m?.homeScore ?? null),
+            as: (m?.awayScore ?? null),
+            minute: (m?.minute ?? null),
+            status: (m?.status ?? null),
+          }));
+        }
+      }
+    
+      return lines;
     }
 
     function renderFallback() {
       const competitions = [
         "Jupiler Pro League",
-        "Challenger Pro League",
         "Eredivisie",
-        "Keuken Kampioen Divisie"
+        "Bundesliga",
+        "Premier League",
+        "Serie A",
+        "La Liga",
+        "Ligue 1"
       ];
       mainTextEl.textContent = `Momenteel geen live wedstrijden (${competitions.join(
         " · "
@@ -275,9 +355,14 @@
       track.textContent = joined;
 
       track.innerHTML = track.textContent
-        .replaceAll("[BE]", flagImg("BE"))
-        .replaceAll("[NL]", flagImg("NL"))
-        .replaceAll("[INT]", flagImg("INT"));
+      .replaceAll("[BE]", flagImg("BE"))
+      .replaceAll("[NL]", flagImg("NL"))
+      .replaceAll("[DE]", flagImg("DE"))
+      .replaceAll("[UK]", flagImg("UK"))
+      .replaceAll("[IT]", flagImg("IT"))
+      .replaceAll("[ES]", flagImg("ES"))
+      .replaceAll("[FR]", flagImg("FR"))
+      .replaceAll("[INT]", flagImg("INT"));
 
       // Clear eventuele vorige restart timer
       if (marqueeRestartTimer) {
