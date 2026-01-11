@@ -685,7 +685,7 @@
 
         // block known junk
         if (low === "broken-link" || low === "[object object]") return null;
-        if (low.includes("placeholder")) return null;
+        // NOTE: do not hard-block placeholders here; rendering falls back to FALLBACK_THUMB if needed.
 
         // allow absolute
         if (/^https?:\/\//i.test(s)) return s;
@@ -844,23 +844,11 @@
                 return true;
               });
 
-              // ✅ Only show items that have a real, resolvable image
-              const withImages = filteredItems.filter(a => {
-                const img =
-                  resolveImageUrl(a?.image_path) ||
-                  resolveImageUrl(a?.imagePath) ||
-                  resolveImageUrl(a?.publicPath) ||
-                  resolveImageUrl(a?.image) ||
-                  resolveImageUrl(a?.imageUrl) ||
-                  resolveImageUrl(a?.image_url);
-                return !!img;
-              });
+              // ✅ Do NOT hard-require an image.
+              // Backend can temporarily return null/placeholder during refresh; UI will always show FALLBACK_THUMB.
+              const displayItems = filteredItems.slice(0, 50);
+              console.log(`[HOME] no image gate: ${filteredItems.length} → ${displayItems.length}`);
 
-              const displayItems = withImages.slice(0, 50);
-              console.log(`[HOME] image filter: ${filteredItems.length} → ${withImages.length} (only items with resolvable image)`);
-
-              // If backend is in the middle of a refresh, the list can briefly be sparse.
-              // Retry with backoff instead of wiping the UI.
               if (displayItems.length < 1) {
                 throw new Error(`[HOME] No usable items (${displayItems.length}); retrying`);
               }
