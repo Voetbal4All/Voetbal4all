@@ -37,7 +37,16 @@
         "Internationaal";
       const intCls = (c === "INT") ? " v4a-flag--int" : "";
       const extra = sizeClass ? ` ${sizeClass}` : "";
-      return `<span class="v4a-flag${intCls}${extra}"><img class="v4a-flag__img" src="${src}" alt="${alt}" loading="lazy" decoding="async" width="18" height="12"></span>`;
+      return `<span class="v4a-flag${intCls}${extra}">
+  <img class="v4a-flag__img"
+       src="${src}"
+       alt="${alt}"
+       loading="lazy"
+       decoding="async"
+       width="18"
+       height="12"
+       onerror="this.onerror=null;this.src='${FLAG_SRC.INT}';">
+</span>`;
     }
 
     /* =========================================================
@@ -355,14 +364,14 @@
       track.textContent = joined;
 
       track.innerHTML = track.textContent
-      .replaceAll("[BE]", flagImg("BE"))
-      .replaceAll("[NL]", flagImg("NL"))
-      .replaceAll("[DE]", flagImg("DE"))
-      .replaceAll("[UK]", flagImg("UK"))
-      .replaceAll("[IT]", flagImg("IT"))
-      .replaceAll("[ES]", flagImg("ES"))
-      .replaceAll("[FR]", flagImg("FR"))
-      .replaceAll("[INT]", flagImg("INT"));
+        .replace(/\[BE\]/gi, flagImg("BE"))
+        .replace(/\[NL\]/gi, flagImg("NL"))
+        .replace(/\[DE\]/gi, flagImg("DE"))
+        .replace(/\[UK\]/gi, flagImg("UK"))
+        .replace(/\[IT\]/gi, flagImg("IT"))
+        .replace(/\[ES\]/gi, flagImg("ES"))
+        .replace(/\[FR\]/gi, flagImg("FR"))
+        .replace(/\[[A-Z]{2}\]/g, flagImg("INT"));
 
       // Clear eventuele vorige restart timer
       if (marqueeRestartTimer) {
