@@ -1,27 +1,82 @@
 {
-  "generatedAt": "2026-01-11T11:20:30.267Z",
+  "generatedAt": "2026-01-11T12:49:11.094Z",
   "items": [
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FA Cup third round buildup, Macclesfield magic, WSL and a big clash in Serie A – matchday live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/11/fa-cup-third-round-buildup-wsl-and-a-big-clash-in-serie-a-matchday-live",
-      "summary": "⚽ All the latest ahead of Saturday’s football action ⚽ Link in here | Fixtures | Mail us Serie A: Let’s zoom in on the game of the day in Italy as Inter host Napoli at 7.45pm (GMT). These two teams have scooped up four of the last five scudetti between them – with two each – and their rivalry is now among Serie A’s hottest. Inter lead the way this season on 42 points but Napoli, in fourth, are only four points behind. Milan, Roma and Juventus will all think they still have a chance of competing for the title too. Inter and Napoli’s first meeting this season was certainly eventful. Kevin De Bruyne put Antonio Conte’s side ahead from the penalty spot but tore his hamstring in the process. Scott McTominay’s second-half strike was a beauty and set Napoli on their way to a 3-1 win. Can they repeat the feat at San Siro tonight? Continue reading...",
-      "publishedAt": "2026-01-11T11:15:18.000Z"
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Slot geeft hoopvolle blessure-update Ekitiké",
+      "link": "https://www.vi.nl/nieuws/slot-geeft-hoopvolle-blessure-update-ekitike",
+      "summary": "Arne Slot is hoopvol dat hij in het FA Cup-duel met Barnsley weer de beschikking heeft over spits Hugo Ekitiké. De Fransman moest twee wedstrijden aan zich voorbij laten gaan vanwege een blessure, maar is nu dicht bij een terugkeer.",
+      "publishedAt": "2026-01-11T12:45:38.000Z"
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Derby v Leeds United: FA Cup third round – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/11/derby-v-leeds-united-fa-cup-third-round-live",
-      "summary": "⚽ Updates from the FA Cup tie (midday GMT) ⚽ Live scores | Sign up for Football Daily | Email Billy The teams are in from Pride Park: Derby (4-4-1-1): Zetterström; Ward, Langås, Batth, Forsyth; Brereton Díaz, Travis, Fraulo, Blackett-Taylor; Clark; Salvesen Subs: O’Donnell, Agyemang, Brewster, Weimann, Ozoh, Elder, Adams, Nelson, Eames. Continue reading...",
-      "publishedAt": "2026-01-11T11:12:28.000Z"
+      "title": "Liverpool's Conor Bradley out for season with knee injury",
+      "link": "https://www.espn.com/soccer/story/_/id/47579359/liverpool-conor-bradley-season-knee-injury",
+      "summary": "Liverpool defender Conor Bradley is set to miss the rest of the season after suffering a serious knee injury in Thursday's 0-0 draw with Arsenal.",
+      "publishedAt": "2026-01-11T12:43:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
+      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
+      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
+      "publishedAt": "2026-01-11T12:43:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah scores to set up AFCON reunion with Mané",
+      "link": "https://www.espn.com/espn/story/_/id/47573488/salah-fires-egypt-afcon-champions-ivory-coast-set-mane-senegal-reunion-semifinal",
+      "summary": "Mohamed Salah scored his fourth goal of the Africa Cup of Nations as Egypt defeated defending champions Ivory Coast 3-2 in Agadir.",
+      "publishedAt": "2026-01-11T12:43:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Buoyant Rosenior lauds 5-star Chelsea start",
+      "link": "https://www.espn.com/soccer/story/_/id/47574761/liam-rosenior-chelsea-squad-charlton-fa-cup",
+      "summary": "New Chelsea head coach Liam Rosenior promised more to come from his second string after they swept aside Charlton 5-1 at the Valley in his first match in charge.",
+      "publishedAt": "2026-01-11T12:43:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: geen Wijndal in Ajax-selectie, Hatenboer debuteert bij Telstar",
+      "link": "https://www.vi.nl/nieuws/vi-live-geen-wijndal-in-ajax-selectie-hatenboer-debuteert-bij-telstar",
+      "summary": "Welkom in deze VI Live met aandacht voor Telstar - Ajax. Om 14.30 uur is de aftrap van dit Eredivisie-duel. Op deze plek houden we je op de hoogte.",
+      "publishedAt": "2026-01-11T12:37:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Slot benadrukt: FA Cup belangrijk toernooi voor Liverpool",
+      "link": "https://www.vi.nl/video/slot-benadrukt-fa-cup-belangrijk-toernooi-voor-liverpool",
+      "summary": "Liverpool neemt het toernooi om de FA Cup dit seizoen uiterst serieus, benadrukt Arne Slot. Maandagavond wacht League One-club Barnsley in de derde ronde.",
+      "publishedAt": "2026-01-11T12:35:42.000Z"
     },
     {
       "type": "rss",
@@ -31,8 +86,30 @@
       "flag": "🌍",
       "title": "Manchester City v Everton, Chelsea v West Ham and more: WSL clockwatch – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/11/manchester-city-v-everton-chelsea-v-west-ham-and-more-wsl-clockwatch-live",
-      "summary": "⚽ Women’s Super League updates as the goals go in ⚽ Live scores | Get in touch! Email Emillia here Chelsea starting line-up: Hampton, Carpenter, Bright, Buurman, Girma, Baltimore, Nüsken, Cuthbert, Kaneryd, Thompson, James. Substitutes: Spencer, Peng, Reiten, Kaptein, Kerr, Bronze, Potter, Sarwie, Shooter. Chelsea v West Ham Tottenham v Leicester City Aston Villa v Brighton Manchester City v Everton Liverpool v London City Lionesses (2:30pm GMT) Continue reading...",
-      "publishedAt": "2026-01-11T11:11:13.000Z"
+      "summary": "⚽ Women’s Super League updates as the goals go in ⚽ Live scores | Get in touch! Email Emillia here Meanwhile, London City Lionesses cut ties with Jocelyn Prêcheur despite being sixth in the table. Prêcheur had been in charge of the club since the summer of 2024 and led them to the Championship title last term. Eder Maestre took over as the club’s new head coach on New Year’s Day. Upon his arrival, he said: “I am delighted to join London City Lionesses. I love English football and representing this club is a real honour. In my opinion this project is now the best project in women’s football. The ambitions are very aligned with my values and I’m very excited.” Continue reading...",
+      "publishedAt": "2026-01-11T12:30:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Derby v Leeds United: FA Cup third round – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/11/derby-v-leeds-united-fa-cup-third-round-live",
+      "summary": "⚽ Updates from the FA Cup tie (midday GMT) ⚽ Live scores | Sign up for Football Daily | Email Billy 2 min: Leeds’ first foray into the Derby box comes up short as Langas comes across and clears his lines. Ao Tanaka gets the ball rolling for Leeds, who are in blue. Continue reading...",
+      "publishedAt": "2026-01-11T12:29:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool's Bradley out for season with knee injury",
+      "link": "https://www.bbc.com/sport/football/articles/cgqevx5pvk1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool defender Conor Bradley is ruled out for the rest of the domestic season after suffering a significant knee injury, involving damage to bone and ligament.",
+      "publishedAt": "2026-01-11T12:28:11.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +117,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Veelzijdige Hato geprezen: 'Greep deze kans met beide handen aan'",
-      "link": "https://www.vi.nl/nieuws/veelzijdige-hato-geprezen-greep-deze-kans-met-beide-handen-aan",
-      "summary": "Jorrel Hato is weliswaar een (aanvallende) verdediger, maar hij gaat toch echt de boeken in als eerste Chelsea-doelpuntenmaker onder de nieuwe manager Liam Rosenior. De Oranje-international werd geprezen door zijn coach en de media.",
-      "publishedAt": "2026-01-11T11:11:00.000Z"
+      "title": "VI Live: Feyenoord-huurling Slory direct in de basis bij Go Ahead",
+      "link": "https://www.vi.nl/nieuws/vi-live-bekijk-het-programma-in-binnen-en-buitenland",
+      "summary": "Welkom in de VI Live op deze ijskoude zondag 11 januari. Volg hier de ontwikkelingen binnen en buiten de grenzen, met op deze plek onder meer aandacht voor de Eredivisie, de finale van de Super Cup tussen Barcelona en Real Madrid en het FA Cup-toernooi.",
+      "publishedAt": "2026-01-11T12:24:53.000Z"
     },
     {
       "type": "rss",
@@ -51,21 +128,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Feyenoord hoopt tegen Heerenveen slechte reeks te beëindigen",
-      "link": "https://www.vi.nl/nieuws/vi-live-feyenoord-hoopt-tegen-heerenveen-slechte-reeks-te-be-indigen",
-      "summary": "Welkom in deze VI Live met aandacht voor SC Heerenveen - Feyenoord. Om 12.15 uur is de aftrap in het Abe Lenstra Stadion. Via deze VI Live houden we je op de hoogte van het duel in speelronde 18 van de Eredivisie.",
-      "publishedAt": "2026-01-11T11:08:00.000Z"
+      "title": "Jarige Steur opnieuw vervanger van vertrokken Taylor",
+      "link": "https://www.vi.nl/nieuws/jarige-steur-bij-ajax-opnieuw-vervanger-van-vertrokken-taylor",
+      "summary": "Interim-coach Fred Grim van Ajax kiest bij de hervatting van de Eredivisie, met een uitwedstrijd tegen Telstar, voor hetzelfde middenveld als in de Eredivisie-wedstrijd voor de winterstop. Dit betekent dat Sean Steur opnieuw op de plek van Kenneth Taylor staat.",
+      "publishedAt": "2026-01-11T12:16:00.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Persie blij met uitschakeling Algerije en houding Steijn",
-      "link": "https://www.vi.nl/nieuws/van-persie-blij-met-uitschakeling-algerije-en-houding-steijn",
-      "summary": "Robin van Persie is tevreden over hoe Sem Steijn is omgegaan met de aanvoerderskwestie bij Feyenoord. Steijn raakte zijn aanvoerdersband kwijt aan doelman Timon Wellenreuther. De middenvelder gaat echter niet bij de pakken neerzitten.",
-      "publishedAt": "2026-01-11T11:07:13.000Z"
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arne Slot hit with Conor Bradley injury blow as he vows to go strong against Barnsley",
+      "link": "https://www.theguardian.com/football/2026/jan/11/arne-slot-to-pick-strong-liverpool-team-a-year-on-from-plymouth-fa-cup-upset",
+      "summary": "Bradley to miss rest of season with serious knee injury Slot will not repeat past error in FA Cup third-round tie Arne Slot has promised not to repeat last season’s FA Cup gamble against Plymouth when Liverpool entertain Barnsley in the third round on Monday. One player he will not be able to select, however, is Conor Bradley after it was confirmed the right-back will have to undergo surgery on the knee injury he sustained in Thursday’s goalless draw with Arsenal and is likely to rule him out for the rest of the season. Slot changed all 10 outfield players for the fourth-round tie at Home Park and was punished as Plymouth, then bottom of the Championship, produced a huge shock to win 1-0. He compounded his selection risk with an inexperienced bench that included only two senior players; Curtis Jones and Darwin Núñez. Slot stands by his decision on the basis Liverpool were challenging for four trophies at the time. But with his team out of the Carabao Cup and a distant fourth in the Premier League this season, that pressure no longer applies. Continue reading...",
+      "publishedAt": "2026-01-11T12:00:28.000Z"
     },
     {
       "type": "rss",
@@ -73,21 +150,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "FREE WSL STREAMS: Chelsea vs West Ham, Spurs vs Leicester and Aston Villa vs Brighton",
-      "link": "https://www.skysports.com/football/news/12040/13492632/wsl-free-streams-watch-chelsea-vs-west-ham-tottenham-hotspur-vs-leicester-city-and-aston-villa-vs-brighton",
-      "summary": "",
-      "publishedAt": "2026-01-11T10:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Noppert 'duurste derde keeper' van Nederland: 'Ik zou helemaal gek worden'",
-      "link": "https://www.vi.nl/nieuws/noppert-duurste-derde-keeper-van-nederland-hij-moet-weg-daar",
-      "summary": "De situatie van Andries Noppert is schrijnend. In 2022 was hij nog de doelman van het Nederlands elftal op het WK in Qatar, nu is hij derde keeper bij SC Heerenveen. Zijn zaakwaarnemer Henk Timmer vindt dat de Toren van Joure beter kan vertrekken.",
-      "publishedAt": "2026-01-11T10:45:36.000Z"
+      "title": "Liverpool's Bradley to miss rest of season with significant knee injury",
+      "link": "https://www.skysports.com/football/news/12040/13493040/conor-bradley-injury-liverpool-defender-to-miss-rest-of-season-with-significant-knee-injury-sustained-at-arsenal",
+      "summary": "Liverpool defender Conor Bradley will miss the rest of the season with a significant knee injury sustained in Thursday's goalless draw at Arsenal.",
+      "publishedAt": "2026-01-11T12:00:00.000Z"
     },
     {
       "type": "rss",
@@ -98,18 +164,18 @@
       "title": "Supercopa Clasico preview, predictions: Are Barcelona favorites vs. Real Madrid?",
       "link": "https://www.espn.com/soccer/story/_/id/47568270/barcelona-favorites-vs-real-madrid",
       "summary": "Barcelona and Real Madrid meet in the Supercopa final Sunday, but who has the upper hand? Sam Marsden and Alex Kirkland preview the upcoming Clasico.",
-      "publishedAt": "2026-01-11T10:34:40.000Z"
+      "publishedAt": "2026-01-11T11:59:54.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Opstelling Feyenoord: zo lost Van Persie schorsing Valente op",
-      "link": "https://www.vi.nl/nieuws/opstelling-feyenoord-zo-lost-van-persie-schorsing-valente-op",
-      "summary": "Robin van Persie heeft zijn eerste Feyenoord-opstelling van 2026 uit de doeken gedaan. Feyenoord neemt het zondag om 12.15 uur op tegen SC Heerenveen. Van Persie heeft flink moeten puzzelen.",
-      "publishedAt": "2026-01-11T10:01:00.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Who makes the Sky Sports Championship team of the season so far?",
+      "link": "https://www.skysports.com/football/news/12040/13491180/who-makes-the-sky-sports-championship-team-of-the-season-so-far",
+      "summary": "",
+      "publishedAt": "2026-01-11T10:00:00.000Z"
     },
     {
       "type": "rss",
@@ -146,80 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Bears stun Packers with incredible fourth-quarter comeback!",
-      "link": "https://www.skysports.com/watch/video/13492973/nfl-green-by-packers-chicago-bears-wild-card-weekend-highlights",
-      "summary": "Highlights from the Wild Card Weekend matchup between the Green Bay Packers and the Chicago Bears during the 2025 NFL season.",
-      "publishedAt": "2026-01-11T07:14:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Legendary Luke bids to enhance his reputation at Fontwell",
-      "link": "https://www.skysports.com/racing/news/12040/13492547/today-on-sky-sports-racing-fontwell-and-sha-tin",
-      "summary": "We have jumps action to enjoy from Fontwell on Sunday afternoon, live on Sky Sports Racing...",
-      "publishedAt": "2026-01-11T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rams score in final minute to beat Panthers in NFL playoffs",
-      "link": "https://www.skysports.com/nfl/news/12040/13492961/nfl-playoffs-los-angeles-rams-hold-on-to-beat-carolina-panthers-after-matthew-staffords-touchdown-pass-to-colby-parkinson-in-final-minute",
-      "summary": "Colby Parkinson's touchdown with 38 seconds to play silenced the Carolina Panthers crowd as the Los Angeles Rams escaped with a 34-31 victory to advance to the Divisional Round of the NFL playoffs on Saturday.",
-      "publishedAt": "2026-01-11T00:59:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
-      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
-      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
-      "publishedAt": "2026-01-11T00:15:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Buoyant Rosenior lauds 5-star Chelsea start",
-      "link": "https://www.espn.com/soccer/story/_/id/47574761/liam-rosenior-chelsea-squad-charlton-fa-cup",
-      "summary": "New Chelsea head coach Liam Rosenior promised more to come from his second string after they swept aside Charlton 5-1 at the Valley in his first match in charge.",
-      "publishedAt": "2026-01-11T00:15:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fletcher 'prepared' to lead Man Utd until summer",
-      "link": "https://www.espn.com/soccer/story/_/id/47572566/darren-fletcher-man-united-manager-interim-season",
-      "summary": "Darren Fletcher has said he's \"prepared\" if Manchester United decide to hand him the head coach job until the end of the season.",
-      "publishedAt": "2026-01-11T00:15:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Salah scores to set up AFCON reunion with Mané",
-      "link": "https://www.espn.com/espn/story/_/id/47573488/salah-fires-egypt-afcon-champions-ivory-coast-set-mane-senegal-reunion-semifinal",
-      "summary": "Mohamed Salah scored his fourth goal of the Africa Cup of Nations as Egypt defeated defending champions Ivory Coast 3-2 in Agadir.",
-      "publishedAt": "2026-01-11T00:15:00.000Z"
+      "title": "Why Rosenior sees no need for drastic change at Chelsea",
+      "link": "https://www.bbc.com/sport/football/articles/crrnzerklyeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liam Rosenior does not see a need for drastic change at Chelsea - and that was part of the reason he was brought in.",
+      "publishedAt": "2026-01-10T23:48:13.000Z"
     }
   ]
 }
