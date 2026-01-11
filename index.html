@@ -786,6 +786,16 @@
           // ✅ Keep backend order exactly as delivered (no shuffle / no client-side ordering)
           const displayItems = filteredItems.slice(0, 50);
           console.log(`[ORDER] ✅ Backend order preserved. Showing ${displayItems.length} items.`);
+          try {
+            console.log("[HOME][DEBUG] first 10 image fields:", displayItems.slice(0,10).map(x => ({
+              id: x?.id,
+              slug: x?.slug,
+              status: x?.status,
+              image: x?.image,
+              image_path: x?.image_path,
+              imageUrl: x?.imageUrl
+            })));
+          } catch (e) {}
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
           if (!displayItems.length) {
@@ -832,7 +842,7 @@
                   width="92"
                   height="64"
                   referrerpolicy="no-referrer"
-                  onerror="this.style.display='none'; this.closest('.home-news__thumbWrap') && this.closest('.home-news__thumbWrap').classList.add('is-empty');"
+                  onerror="try{this.onerror=null;this.src='${API_BASE}/images/placeholder.svg?title=${encodeURIComponent(displayTitle)}';this.closest('.home-news__thumbWrap')&&this.closest('.home-news__thumbWrap').classList.add('is-empty');}catch(e){}"
                 />
               </div>
             `;
