@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-11T06:37:27.551Z",
+  "generatedAt": "2026-01-11T07:24:24.653Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: bekijk het programma in binnen- en buitenland",
+      "link": "https://www.vi.nl/nieuws/vi-live-bekijk-het-programma-in-binnen-en-buitenland",
+      "summary": "Welkom in de VI Live op deze ijskoude zondag 11 januari. Volg hier de ontwikkelingen binnen en buiten de grenzen, met op deze plek onder meer aandacht voor de Eredivisie, de finale van de Super Cup tussen Barcelona en Real Madrid en het FA Cup-toernooi.",
+      "publishedAt": "2026-01-11T07:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Legendary Luke bids to enhance his reputation at Fontwell",
+      "link": "https://www.skysports.com/racing/news/12040/13492547/today-on-sky-sports-racing-fontwell-and-sha-tin",
+      "summary": "We have jumps action to enjoy from Fontwell on Sunday afternoon, live on Sky Sports Racing...",
+      "publishedAt": "2026-01-11T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Bears complete stunning final-quarter comeback to defeat Packers",
+      "link": "https://www.skysports.com/nfl/news/12040/13492964/nfl-playoffs-chicago-bears-beat-green-bay-packers-after-stunning-final-quarter-comeback-erases-18-point-deficit",
+      "summary": "The Chicago Bears secured their first playoff win in 15 years after a stunning late fightback saw them beat the Green Bay Packers 31-27 and reach the Divisional Round.",
+      "publishedAt": "2026-01-11T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De prof die zijn voetbalbestaan opzij schoof om voor anderen te zorgen",
+      "link": "https://www.vi.nl/pro/de-prof-die-zijn-voetbalbestaan-opzij-schoof-om-voor-anderen-te-zorgen",
+      "summary": "Toen zijn zusje met autisme uit huis dreigde te worden geplaatst, gaf Kenzo Biyong (28) zijn voetbalcarrière op om voor haar te zorgen. Hij bleek in de zorg nóg meer talent te hebben dan in zijn voeten. Toen een zwaar autistische jongen in een crisisopvang dreigde te komen, nam hij hem bij zijn jonge gezin in huis. Het fantaseren over spelen in volle stadions is tegenwoordig vervangen door dromen over een zorgboerderij.",
+      "publishedAt": "2026-01-11T07:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -36,25 +80,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Scancoach onderzocht tientallen Ajax-talenten: 'Kluivert was geen sterke scanner'",
-      "link": "https://www.vi.nl/nieuws/scancoach-onderzocht-tientallen-ajax-talenten-kluivert-was-geen-sterke-scanner",
-      "summary": "Karl Marius Aksum staat bekend als het brein achter het Zweedse voetbalsprookje van Mjällby AIF, de verrassende kampioen van Zweden. Hij is specialist op het gebied van scannen. Tijdens zijn opleiding deed hij een grootschalig onderzoek onder tientallen spelers uit de jeugdopleiding van Ajax.",
-      "publishedAt": "2026-01-11T05:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Toen VI vader en zoon Kruys interviewde: 'Ricky is Rick geworden'",
-      "link": "https://www.vi.nl/pro/toen-vi-vader-en-zoon-kruys-interviewde-ricky-is-rick-geworden",
-      "summary": "In de rubriek VI Tijdmachine herplaatsen we elke dag in het weekeinde een verhaal uit ons rijke archief. Deze keer gaan we terug naar 2011, toen Gert en Rick Kruys werden geportretteerd in de serie Vaders & Zonen.",
-      "publishedAt": "2026-01-11T05:00:00.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rams score in final minute to beat Panthers in NFL playoffs",
+      "link": "https://www.skysports.com/nfl/news/12040/13492961/nfl-playoffs-los-angeles-rams-hold-on-to-beat-carolina-panthers-after-matthew-staffords-touchdown-pass-to-colby-parkinson-in-final-minute",
+      "summary": "Colby Parkinson's touchdown with 38 seconds to play silenced the Carolina Panthers crowd as the Los Angeles Rams escaped with a 34-31 victory to advance to the Divisional Round of the NFL playoffs on Saturday.",
+      "publishedAt": "2026-01-11T00:59:00.000Z"
     },
     {
       "type": "rss",
@@ -161,7 +194,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Rosenior wins first game in charge as Chelsea see off Charlton in FA Cup",
+      "title": "'Outstanding' - Rosenior delighted with debut after Chelsea thrash Charlton",
       "link": "https://www.skysports.com/football/charlton-athletic-vs-chelsea/report/550856",
       "summary": "Liam Rosenior won his first game as Chelsea's new head coach, beating Charlton 5-1 in the FA Cup third round.",
       "publishedAt": "2026-01-10T22:00:00.000Z"
@@ -187,39 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/10/tottenham-aston-villa-fa-cup-match-report",
       "summary": "This was Tottenham’s second defeat to Aston Villa this season and it is becoming increasingly hard to imagine Thomas Frank being in charge when the teams come together a third time in May. A performance that put an end to any realistic chance of a trophy fell well below the expectations of a furious crowd. That their opponents currently offer the diametric opposite of Tottenham’s dysfunction can only have heightened the sting. Goals from Emi Buendía and Morgan Rogers put this tie to bed for Villa in the first half, Wilson Odobert’s strike after half-time bringing a closeness to the scoreline that was not reflected in the general play. A scuffle on the field at the final whistle involving Rogers, João Palhinha and a host of Tottenham players only added further sourness to the occasion. Continue reading...",
       "publishedAt": "2026-01-10T20:03:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Weston-super-Mare’s lecturers and builders denied FA Cup glory at Grimsby",
-      "link": "https://www.theguardian.com/football/2026/jan/10/grimsby-weston-super-mare-fa-cup-match-report",
-      "summary": "The romance of the FA Cup in Cleethorpes, ultimately, was limited to a good old-fashioned away following of 571 hardy yet boisterous souls from Weston-super-Mare. The Seagull Army twice wildly celebrated second-half equalisers through Luke Coulson and their predatory striker Louis Britton before Grimsby substitute Kieran Green’s looping header settled the match and ended Weston’s stirring six-game run in the competition. Continue reading...",
-      "publishedAt": "2026-01-10T20:01:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pressure builds on Frank as Spurs booed off after FA Cup exit to Villa",
-      "link": "https://www.skysports.com/football/tottenham-hotspur-vs-aston-villa/report/550880",
-      "summary": "Tottenham were booed off as pressure continues to build on Thomas Frank following a 2-1 defeat to Aston Villa in the third round of the FA Cup.",
-      "publishedAt": "2026-01-10T19:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Humble' Semenyo steals show in FA Cup mauling",
-      "link": "https://www.bbc.com/sport/football/articles/c5y24vw1vd2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Antoine Semenyo signed off at Bournemouth in fairytale fashion and makes start to life at Manchester City in a similarly dreamy manner during 10-1 FA Cup win over League One Exeter City.",
-      "publishedAt": "2026-01-10T19:13:37.000Z"
     }
   ]
 }
