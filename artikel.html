@@ -31,6 +31,15 @@
       visibility: visible;
       opacity: 1;
     }
+
+    /* Fallback state when article has no image (inline SVG placeholder) */
+    .article-hero-image.is-empty {
+      max-height: 320px;
+      object-fit: contain;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 18px;
+    }
     
     .article-meta {
       display: flex;
@@ -483,6 +492,46 @@
     return s;
   }
 
+  function escapeXml(s) {
+    return String(s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function inlineSvgPlaceholderDataUri(title) {
+    const safeTitle = escapeXml(title || "Voetbal4All");
+    const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f2740"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="36" y="36" width="1128" height="558" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="80" y="185" font-family="Montserrat, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" filter="url(#glow)">Voetbal4All</text>
+  <text x="80" y="250" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="600" fill="rgba(255,255,255,0.75)">Afbeelding wordt verwerkt</text>
+  <text x="80" y="330" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="600" fill="rgba(255,255,255,0.9)">${safeTitle}</text>
+  <text x="80" y="385" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="500" fill="rgba(255,255,255,0.65)">Ga verder onder het artikel voor de volledige tekst.</text>
+  <circle cx="1040" cy="360" r="78" fill="rgba(0,255,120,0.10)" stroke="rgba(0,255,120,0.22)"/>
+  <path d="M1018 360c0-25 21-46 46-46 25 0 46 21 46 46 0 25-21 46-46 46-25 0-46-21-46-46z" fill="rgba(255,255,255,0.10)"/>
+</svg>`;
+
+    // Encode as data URI (safe for production, no backend dependency)
+    return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+  }
+
   const elLoading = document.getElementById("loading-state");
   const elError   = document.getElementById("error-state");
   const elContent = document.getElementById("article-content");
@@ -676,29 +725,39 @@
     // --- Image: support string OR object + prefix backend base for /images/... ---
     const imageEl = document.getElementById('article-image');
     const imgUrl = resolveImageUrl(article.image || article.image_path || article.imageUrl || article.imageURL);
+    const fallbackUrl = inlineSvgPlaceholderDataUri(title);
+
+    // Always show an image element: real image if present, otherwise inline SVG placeholder.
+    // This prevents white/empty gaps and avoids backend placeholder routes.
+    imageEl.style.display = "block";
+    imageEl.alt = title;
+    imageEl.loading = "eager";
+    imageEl.decoding = "async";
+    imageEl.referrerPolicy = "no-referrer";
 
     if (imgUrl) {
-      imageEl.style.display = "block";
+      imageEl.classList.remove('is-empty');
       imageEl.src = imgUrl;
-      imageEl.alt = title;
-      imageEl.loading = "eager";
-      imageEl.decoding = "async";
-      imageEl.referrerPolicy = "no-referrer";
       imageEl.setAttribute("fetchpriority", "high");
-      imageEl.onerror = function(){
-        this.onerror = null;
-        this.src = "assets/img/placeholder.svg";
-        this.removeAttribute("fetchpriority");
-      };
-
-      if (String(imgUrl).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '300px';
-
-      // OG image
       document.getElementById('og-image').setAttribute('content', imgUrl);
     } else {
-      imageEl.style.display = 'none';
-      document.getElementById('og-image').setAttribute('content', "assets/img/placeholder.svg");
+      imageEl.classList.add('is-empty');
+      imageEl.src = fallbackUrl;
+      imageEl.removeAttribute("fetchpriority");
+      document.getElementById('og-image').setAttribute('content', fallbackUrl);
     }
+
+    imageEl.onerror = function(){
+      // If the real image fails (502/cold start/404), fall back to inline SVG
+      this.onerror = null;
+      this.classList.add('is-empty');
+      this.src = fallbackUrl;
+      this.removeAttribute("fetchpriority");
+      document.getElementById('og-image').setAttribute('content', fallbackUrl);
+    };
+
+    // If the resolved URL is an SVG (rare), keep hero from becoming too tall
+    if (imgUrl && String(imgUrl).toLowerCase().includes('.svg')) imageEl.style.maxHeight = '320px';
     
     const standfirstEl = document.getElementById('article-standfirst');
     const cleanStandfirst = stripSources(toText(article.snippet || article.standfirst || article.summary || ""));
