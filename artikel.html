@@ -465,7 +465,7 @@
   const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
 
   function resolveImageUrl(raw) {
-    if (!raw) return "";
+    if (!raw) return null;
 
     // Accept both string and object shapes
     let s = "";
@@ -478,7 +478,7 @@
     }
 
     s = String(s || "").trim();
-    if (!s) return "";
+    if (!s) return null;
 
     // Already absolute
     if (/^https?:\/\//i.test(s)) return s;

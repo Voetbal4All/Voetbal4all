@@ -660,14 +660,15 @@
       );
 
       function resolveImageUrl(u) {
-        if (!u) return "";
+        // Return NULL when empty so we never end up with img.src = "" (broken image icon)
+        if (u == null) return null;
         // accept strings or objects like { publicPath: "/images/..." }
         let s = "";
         if (typeof u === "string") s = u.trim();
         else if (typeof u === "object") {
           s = String(u.publicPath || u.image_path || u.path || u.url || "").trim();
         }
-        if (!s) return "";
+        if (!s) return null;
         if (/^https?:\/\//i.test(s)) return s;
         if (s.startsWith("/images/")) return IMG_BASE + s;
         if (s.startsWith("/")) return IMG_BASE + s;
@@ -832,25 +833,16 @@
             const cc = (country === "BE" || country === "NL") ? country : "INT";
             const flag = flagHtml(cc);
 
-            // Image URL logic: support string OR object images from backend
-            // Priority: image (string|object) -> image_path -> imageUrl/url -> per-title placeholder
-            let imgPath = resolveImageUrl(a?.image) ||
-                          resolveImageUrl(a?.image_path) ||
-                          resolveImageUrl(a?.imageUrl) ||
-                          resolveImageUrl(a?.url) ||
-                          "";
+          // IMPORTANT: do NOT call backend placeholder endpoint on empty/missing images.
+          // If image is missing, use inline SVG immediately (no server dependency).
+          const imgSrc = resolveImageUrl(a?.image) ||
+                         resolveImageUrl(a?.image_path) ||
+                         resolveImageUrl(a?.imageUrl);
 
-            // IMPORTANT: do NOT call backend placeholder endpoint on empty/missing images.
-            // If image is missing, render an "empty" thumb instantly (like artikels.html behavior).
-            const imgSrc = resolveImageUrl(a?.image) ||
-                           resolveImageUrl(a?.image_path) ||
-                           resolveImageUrl(a?.imageUrl) ||
-                           "";
+          const safeImg = imgSrc ? String(imgSrc).replace(/"/g, "&quot;") : "";
 
-            const safeImg = String(imgSrc).replace(/"/g, "&quot;");
-
-            const thumbHtml = imgSrc
-              ? `
+          const thumbHtml = imgSrc
+            ? `
                 <div class="home-news__thumbWrap">
                   <img
                     class="home-news__thumb"
@@ -862,15 +854,15 @@
                     width="92"
                     height="64"
                     referrerpolicy="no-referrer"
-                    onerror="try{this.onerror=null;this.src='${"${FALLBACK_THUMB}"}';this.closest('.home-news__thumbWrap')&&this.closest('.home-news__thumbWrap').classList.add('is-empty');}catch(e){}"
+                    onerror="try{this.onerror=null;this.src='${FALLBACK_THUMB}';this.closest('.home-news__thumbWrap')&&this.closest('.home-news__thumbWrap').classList.add('is-empty');}catch(e){}"
                   />
                 </div>
               `
-              : `
+            : `
                 <div class="home-news__thumbWrap is-empty">
                   <img
                     class="home-news__thumb"
-                    src="${"${FALLBACK_THUMB}"}"
+                    src="${FALLBACK_THUMB}"
                     alt="${safeTitle}"
                     loading="lazy"
                     decoding="async"
