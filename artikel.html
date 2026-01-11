@@ -152,6 +152,23 @@
       margin-bottom: 8px;
       text-align: center;
     }
+
+    /* Normalize flag sizing (prevents oversized INT SVG) */
+    .v4a-flag {
+      width: 18px;
+      height: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex: 0 0 18px;
+    }
+    .v4a-flag__img {
+      width: 18px !important;
+      height: 12px !important;
+      display: block;
+      object-fit: cover;
+    }
   </style>
 </head>
 
@@ -464,6 +481,32 @@
   
   const API_BASE = 'https://voetbal4all-backend-database.onrender.com';
 
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  async function fetchJsonWithRetry(url, { timeoutMs = 9000, tries = 5, baseDelayMs = 650 } = {}) {
+    let lastErr = null;
+
+    for (let i = 0; i < tries; i++) {
+      const controller = new AbortController();
+      const t = setTimeout(() => controller.abort(), timeoutMs);
+
+      try {
+        const res = await fetch(url, { signal: controller.signal, cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return await res.json();
+      } catch (e) {
+        lastErr = e;
+        const wait = baseDelayMs * (i + 1);
+        console.warn('[ARTIKEL] retry', i + 1, 'in', wait, 'ms:', e?.message || e);
+        await sleep(wait);
+      } finally {
+        clearTimeout(t);
+      }
+    }
+
+    throw lastErr || new Error('fetchJsonWithRetry failed');
+  }
+
   function resolveImageUrl(raw) {
     if (!raw) return null;
 
@@ -603,32 +646,32 @@
   setState("loading");
 
   const endpoint = (lookup.type === "slug")
-    ? `${API_BASE}/api/news/slug/${encodeURIComponent(lookup.value)}?nocache=1`
-    : `${API_BASE}/api/news/${encodeURIComponent(lookup.value)}?nocache=1`;
+    ? `${API_BASE}/api/news/slug/${encodeURIComponent(lookup.value)}`
+    : `${API_BASE}/api/news/${encodeURIComponent(lookup.value)}`;
 
-  fetch(endpoint)
-    .then(res => {
-      console.log('[ARTIKEL] API response status:', res.status);
-      if (!res.ok) throw new Error('API returned ' + res.status);
-      return res.json();
-    })
-    .then(data => {
+  (async () => {
+    try {
+      // Small start delay to avoid racing backend during pipeline/cache refresh
+      await sleep(700);
+
+      const data = await fetchJsonWithRetry(endpoint, { timeoutMs: 9000, tries: 5, baseDelayMs: 650 });
       const article = data?.item;
       if (!article) throw new Error('Invalid payload: missing item');
 
-      console.log('[ARTIKEL] ✅ Article found via /api/news/:id:', article.title);
+      console.log('[ARTIKEL] ✅ Article found via API:', article.title);
       const ok = displayArticle(article);
       setState(ok ? "content" : "error");
+
       if (ok) {
         // Ensure ad slots are visible before pushing
         requestAnimationFrame(() => initAdSense());
         setTimeout(() => initAdSense(4), 600);
       }
-    })
-    .catch(err => {
+    } catch (err) {
       console.error('[ARTIKEL] ❌ Failed to load article:', err);
       setState("error");
-    });
+    }
+  })();
   
   function displayArticle(article) {
     console.log('[ARTIKEL] Displaying article:', article.title);
