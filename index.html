@@ -663,14 +663,18 @@
         if (u == null) return null;
 
         let s = "";
-        if (typeof u === "string") s = u.trim();
-        else if (typeof u === "object") {
+        if (typeof u === "string") {
+          s = u.trim();
+        } else if (typeof u === "object") {
+          // Support multiple shapes coming from backend / DB / legacy pipeline
           s = String(
             u.publicPath ||
             u.image_path ||
+            u.imagePath ||
             u.path ||
             u.url ||
             u.href ||
+            u.src ||
             ""
           ).trim();
         }
@@ -685,6 +689,16 @@
 
         // allow absolute
         if (/^https?:\/\//i.test(s)) return s;
+
+        // normalize common relative forms
+        // - "images/articles/..." -> "/images/articles/..."
+        // - "./images/articles/..." -> "/images/articles/..."
+        // - "../images/articles/..." -> "/images/articles/..." (best-effort)
+        s = s.replace(/^\.(\/)+/, "/");
+        s = s.replace(/^(\.\.\/)+/, "/");
+        if (!s.startsWith("/") && (low.startsWith("images/") || low.startsWith("assets/"))) {
+          s = "/" + s;
+        }
 
         // allow backend-served root-relative only
         if (s.startsWith("/")) return IMG_BASE + s;
@@ -826,9 +840,12 @@
               id: x?.id,
               slug: x?.slug,
               status: x?.status,
-              image: x?.image,
               image_path: x?.image_path,
-              imageUrl: x?.imageUrl
+              imagePath: x?.imagePath,
+              publicPath: x?.publicPath,
+              image: x?.image,
+              imageUrl: x?.imageUrl,
+              image_url: x?.image_url
             })));
           } catch (e) {}
 
@@ -853,9 +870,14 @@
           // IMPORTANT: do NOT call backend placeholder endpoint on empty/missing images.
           // If image is missing, use inline SVG immediately (no server dependency).
           const imgSrc =
-                resolveImageUrl(a?.image_path) ||   // ✅ DB truth (gekoppeld aan id)
-                resolveImageUrl(a?.image) ||        // legacy
-                resolveImageUrl(a?.imageUrl);       // legacy
+                // Preferred DB fields (Render Postgres)
+                resolveImageUrl(a?.image_path) ||
+                resolveImageUrl(a?.imagePath) ||
+                resolveImageUrl(a?.publicPath) ||
+                // Legacy / fallback fields
+                resolveImageUrl(a?.image) ||
+                resolveImageUrl(a?.imageUrl) ||
+                resolveImageUrl(a?.image_url);
 
           const safeImg = imgSrc ? String(imgSrc).replace(/"/g, "&quot;") : "";
 
