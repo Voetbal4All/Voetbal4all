@@ -1,16 +1,60 @@
 {
-  "generatedAt": "2026-01-11T20:27:16.211Z",
+  "generatedAt": "2026-01-11T21:21:42.303Z",
   "items": [
     {
       "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Watch: The Women's Football Show",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m002pwjt?at_medium=RSS&at_campaign=rss",
+      "summary": "Analysis and top stories from week 12 of the 2025/26 Women’s Super League season.",
+      "publishedAt": "2026-01-11T21:51:00.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: tweede helft van enerverende El Clásico begonnen",
+      "title": "Rode kaart De Jong en vijf goals in El Clásico: Barça wint Supercopa wéér",
+      "link": "https://www.vi.nl/nieuws/rode-kaart-de-jong-en-vijf-goals-in-el-cl-sico-bar-a-wint-supercopa-w-r",
+      "summary": "Het is Barcelona voor het tweede seizoen op rij gelukt om beslag te leggen op de Spaanse Supercopa. Aan de hand van Raphinha lukte het de Catalanen om Real Madrid te verslaan, waarbij Kylian Mbappé in de korte speeltijd die hij kreeg niet het verschil kon maken.",
+      "publishedAt": "2026-01-11T21:18:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'They'd take him back in a heartbeat' - Welbeck haunts Man Utd again",
+      "link": "https://www.bbc.com/sport/football/articles/c17zr0zrk7lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Veteran striker Danny Welbeck haunts former club Manchester United again and now calls for an England call-up are only going to rise.",
+      "publishedAt": "2026-01-11T21:13:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Fragile' Man Utd set for fewest games in season since 1914-15",
+      "link": "https://www.bbc.com/sport/football/articles/cly53k69xj1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United will prepare for next Saturday's game with Manchester City with no manager in place to lift their 'fragile' confidence.",
+      "publishedAt": "2026-01-11T21:07:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Italiaanse topper in Milaan voorlopig in evenwicht",
       "link": "https://www.vi.nl/nieuws/vi-live-warmdraaien-voor-el-cl-sico-in-de-finale-van-spaanse-supercopa",
       "summary": "Welkom in de VI Live op deze ijskoude zondag 11 januari. Volg hier de ontwikkelingen binnen en buiten de grenzen, met op deze plek onder meer aandacht voor de Eredivisie, de finale van de Super Cup tussen Barcelona en Real Madrid en het FA Cup-toernooi.",
-      "publishedAt": "2026-01-11T20:25:00.000Z"
+      "publishedAt": "2026-01-11T21:05:00.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +62,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Brentford betaalt miljoenen voor spits die nog geen 90 minuten bij Brugge speelde",
-      "link": "https://www.vi.nl/nieuws/brentford-betaalt-miljoenen-voor-spits-die-nog-geen-90-minuten-bij-brugge-speelde",
-      "summary": "In dit blog vind je alle speculaties en bevestigde transfers in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-11T20:11:17.000Z"
+      "title": "El Clásico leert: Xabi Alonso heeft slechts ruimte voor één solist",
+      "link": "https://www.vi.nl/pro/tactische-analyse-barcelona-real-madrid-xabi-alonso-met-een-solist",
+      "summary": "Inleiding",
+      "publishedAt": "2026-01-11T21:03:24.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +73,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Dennis Man blinkt uit bij PSV: 'Topspeler voor de Eredivisie'",
-      "link": "https://www.vi.nl/nieuws/dennis-man-blinkt-uit-bij-psv-topspeler-voor-de-eredivisie",
-      "summary": "Dennis Man was zaterdag een van de uitblinkers bij PSV tegen Excelsior. De 27-jarige Roemeen was goed voor een goal en een assist. Kenneth Perez ziet in Man een topspeler voor de Eredivisie, terwijl Kees Kwakman in hem een jongere versie ziet van een van zijn teamgenoten.",
-      "publishedAt": "2026-01-11T20:10:00.000Z"
+      "title": "Farioli kiest voor contractverlenging bij koploper FC Porto",
+      "link": "https://www.vi.nl/nieuws/farioli-kiest-voor-contractverlenging-bij-koploper-fc-porto",
+      "summary": "Francesco Farioli heeft zijn contract bij FC Porto verlengd. De voormalige trainer van Ajax ligt nu tot medio 2028 vast bij de koploper van Portugal.",
+      "publishedAt": "2026-01-11T20:44:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Lacey (18) krijgt 'belachelijke' rode kaart tijdens eerste minuten op Old Trafford",
+      "link": "https://www.vi.nl/nieuws/lacey-18-krijgt-belachelijke-rode-kaart-tijdens-eerste-minuten-op-old-trafford",
+      "summary": "De rode kaart die Shea Lacey tegen Brighton & Hove Albion kreeg, was volgens Darren Fletcher belachelijk. Het achttienjarige talent kreeg zondag twee keer geel in de FA Cup, en dat tijdens zijn eerste minuten op Old Trafford.",
+      "publishedAt": "2026-01-11T20:30:19.000Z"
     },
     {
       "type": "rss",
@@ -58,28 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bakari mikt op vertrek bij Sparta, maar niet naar Willem II",
-      "link": "https://www.vi.nl/nieuws/bakari-mikt-op-vertrek-bij-sparta-maar-niet-naar-willem-ii",
-      "summary": "We zitten in het intermezzo tussen de zomer- en winterwindow, toch druppelt er in het najaar vaak nog een aantal transfers binnen. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-11T20:04:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Brom appoint ex-Man Utd coach Ramsay as boss",
-      "link": "https://www.bbc.com/sport/football/articles/czx1n0wdl5do?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Manchester United coach Eric Ramsay is named head coach of West Bromwich Albion to replace the sacked Ryan Mason.",
-      "publishedAt": "2026-01-11T20:00:36.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -88,17 +121,6 @@
       "link": "https://www.skysports.com/football/news/12040/13493192/eric-ramsay-west-brom-appoint-former-man-utd-coach-to-replace-ryan-mason",
       "summary": "West Bromwich Albion have appointed former Manchester United first-team coach Eric Ramsay as their new head coach.",
       "publishedAt": "2026-01-11T20:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Sparta en Steijn gaan snel in gesprek over contractverlenging",
-      "link": "https://www.vi.nl/nieuws/sparta-en-steijn-gaan-snel-in-gesprek-over-contractverlenging",
-      "summary": "Trainer Maurice Steijn (52) en Sparta Rotterdam gaan volgende week in gesprek over een contractverlenging. Het contract van Steijn werd deze zomer voor één seizoen verlengd en loopt media 2026 af.",
-      "publishedAt": "2026-01-11T19:45:00.000Z"
     },
     {
       "type": "rss",
@@ -183,17 +205,6 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Arsenal beat Portsmouth thanks to Martinelli hat-trick",
-      "link": "https://www.bbc.com/sport/football/videos/cq5yw5d6vppo?at_medium=RSS&at_campaign=rss",
-      "summary": "Gabriel Martinelli scores the first hat-trick of his senior career as an Arsenal side showing 10 changes come from a goal down to beat Championship side Portsmouth 4-1 in the FA Cup third round.",
-      "publishedAt": "2026-01-11T18:06:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
       "title": "'Big personality' Martinelli goes from 'idiot' to hat-trick hero",
       "link": "https://www.bbc.com/sport/football/articles/c3685180x26o?at_medium=RSS&at_campaign=rss",
       "summary": "Gabriel Martinelli was branded an \"idiot\" a few days ago - but showed great personality to respond with an FA Cup hat-trick, according to Arsenal manager Mikel Arteta.",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/11/west-ham-qpr-fa-cup-match-report",
       "summary": "Forget the magic of the FA Cup, for West Ham the reality of what is soon likely to be a Championship fixture – an indicator that life in the second tier will be no cakewalk. That QPR took them to extra time will do little for Nuno Espírito Santo’s standing, despite a first win since 8 November. There were, though, positives to take in the performance of Taty ­Castellanos, the Argentinian striker who scored the Hammers’ winning goal. Have West Ham at last ended a search for a striker that has lasted almost as long as their London Stadium tenancy? They have looked everywhere. Continue reading...",
       "publishedAt": "2026-01-11T17:33:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mansfield stun Sheff Utd as Norwich, West Brom, Hull advance in FA Cup",
-      "link": "https://www.skysports.com/football/news/12040/13492600/mansfield-stun-sheffield-united-as-norwich-west-brom-and-hull-advance-into-fa-cup-fourth-round",
-      "summary": "Two goals from Louis Reed against his former club helped Mansfield to a shock 4-3 victory at Sheffield United in the FA Cup.",
-      "publishedAt": "2026-01-11T17:00:00.000Z"
     }
   ]
 }
