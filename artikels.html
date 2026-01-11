@@ -499,11 +499,21 @@ let lastRenderKey = "";
     }
 
     function isDbReadyWithImage(a){
-      const st = String(a?.status || "").toLowerCase();
-      const okStatus = (st === "ready" || st === "ok");
-      const img = a?.image;
-      const okImg = (typeof img === "string") && img.startsWith("http");
-      return okStatus && okImg;
+      const st = String(a?.status || "").toLowerCase().trim();
+      // Allow additional “good” statuses and also tolerate missing status.
+      const okStatus = (!st || st === "ready" || st === "ok" || st === "published" || st === "live");
+
+      const id = String(a?.id || "").trim();
+      if (!okStatus || !id) return false;
+
+      // Do NOT require http-only images; backend may return relative paths.
+      // We accept placeholders too, so the UI never goes empty.
+      const imgUrl = toImgUrl(
+        a?.image || a?.image_path || a?.imagePath || a?.publicPath || a?.imageUrl || a?.image_url
+      );
+
+      // Always keep the item; thumbnails will fall back when imgUrl is missing/bad.
+      return true;
     }
 
     function enforceDbOnlyWithImages(items){
@@ -618,10 +628,11 @@ let lastRenderKey = "";
 
         snippetClean = firstTwoSentences(snippetClean); // ✅ max 2 zinnen
 
-        // Backend is single source of truth for image URLs
-        const imgSrc = (typeof a?.image === "string" && a.image.startsWith("http"))
-          ? a.image
-          : null;
+        // Backend is single source of truth for image URLs (absolute or relative).
+        // Accept multiple shapes/fields and resolve them to a usable URL.
+        const imgSrc = toImgUrl(
+          a?.image || a?.image_path || a?.imagePath || a?.publicPath || a?.imageUrl || a?.image_url
+        );
         const safeTitleAttr = (a.title || "").replace(/"/g, "&quot;");
 
         const thumbHtml = imgSrc
@@ -880,7 +891,7 @@ let lastRenderKey = "";
             newsCountTop.textContent = "0 artikels";
             newsCountTop2.textContent = "0 artikels";
             newsStatus.style.display = "block";
-            newsStatus.textContent = "Geen artikels met afbeelding beschikbaar.";
+            newsStatus.textContent = "Geen artikels beschikbaar.";
             return;
           }
           lastRenderKey = "";
@@ -907,7 +918,7 @@ let lastRenderKey = "";
             newsCountTop.textContent = "0 artikels";
             newsCountTop2.textContent = "0 artikels";
             newsStatus.style.display = "block";
-            newsStatus.textContent = "Geen artikels met afbeelding beschikbaar.";
+            newsStatus.textContent = "Geen artikels beschikbaar.";
             return;
           }
           lastRenderKey = ""; // force a single re-render
