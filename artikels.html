@@ -481,6 +481,18 @@ let lastRenderKey = "";
       return IMG_BASE + "/" + p;
     }
 
+    function isDbReadyWithImage(a){
+      const st = String(a?.status || "").toLowerCase();
+      const okStatus = (st === "ready" || st === "ok");
+      const img = a?.image;
+      const okImg = (typeof img === "string") && img.startsWith("http");
+      return okStatus && okImg;
+    }
+
+    function enforceDbOnlyWithImages(items){
+      return (items || []).filter(isDbReadyWithImage);
+    }
+
     function dedupeById(items){
       const seen = new Set();
       const out = [];
@@ -816,7 +828,7 @@ let lastRenderKey = "";
         // 1) Try instant render from cache
         const cached = readNewsCache();
         if (cached && cached.length) {
-          allItems = dedupeById(cached);
+          allItems = enforceDbOnlyWithImages(dedupeById(cached));
           // show immediately
           applyFilters();
         } else {
@@ -840,11 +852,19 @@ let lastRenderKey = "";
         // 2) Refresh in background (network)
         // FAST: allow caching (browser/CDN) and time out quickly to avoid 10–15s hangs
         const data = await fetchJsonWithRetry(NEWS_URL_FAST, { timeoutMs: 4500, tries: 5, baseDelayMs: 650, minItems: 8 });
-        const fresh = dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []));
+        const fresh = enforceDbOnlyWithImages(dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : [])));
 
         // Fast paint: if we had no cache, render ASAP with the first page results
         if (!cached || !cached.length) {
           allItems = fresh;
+          if (!allItems.length) {
+            articleList.innerHTML = "";
+            newsCountTop.textContent = "0 artikels";
+            newsCountTop2.textContent = "0 artikels";
+            newsStatus.style.display = "block";
+            newsStatus.textContent = "Geen artikels met afbeelding beschikbaar.";
+            return;
+          }
           lastRenderKey = "";
           applyFilters();
           newsStatus.style.display = "none";
@@ -854,7 +874,7 @@ let lastRenderKey = "";
 
         // FULL: fetch in background with a longer timeout
         const dataFull = await fetchJsonWithRetry(NEWS_URL_FULL, { timeoutMs: 12000, tries: 5, baseDelayMs: 650, minItems: 20 });
-        const fullItems = dedupeById(Array.isArray(dataFull) ? dataFull : (Array.isArray(dataFull?.items) ? dataFull.items : []));
+        const fullItems = enforceDbOnlyWithImages(dedupeById(Array.isArray(dataFull) ? dataFull : (Array.isArray(dataFull?.items) ? dataFull.items : [])));
 
         // Only re-render if data actually changed
         const prevSig = itemsSignature(allItems);
@@ -864,6 +884,14 @@ let lastRenderKey = "";
 
         if (nextSig !== prevSig) {
           allItems = fullItems;
+          if (!allItems.length) {
+            articleList.innerHTML = "";
+            newsCountTop.textContent = "0 artikels";
+            newsCountTop2.textContent = "0 artikels";
+            newsStatus.style.display = "block";
+            newsStatus.textContent = "Geen artikels met afbeelding beschikbaar.";
+            return;
+          }
           lastRenderKey = ""; // force a single re-render
           applyFilters();
         }
