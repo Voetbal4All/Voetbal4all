@@ -783,10 +783,10 @@
           const rawItems = Array.isArray(data.items) ? data.items : [];
 
           // ✅ Alleen artikels tonen die "ready" zijn (image bestaat op server)
-          // Toon alles dat geen status heeft OF "ready" is
+          // Strikter: Toon enkel items met expliciete "ready" status
           const readyItems = rawItems.filter(a => {
             const st = String(a?.status || "").toLowerCase();
-            return !st || st === "ready";
+            return st === "ready";
           });
 
           function dedupeById(items) {
@@ -832,22 +832,22 @@
 
           console.log(`[FILTER] ${items.length} → ${filteredItems.length} articles (after football filter)`);
 
+          // ✅ Only show items that have a real, resolvable image
+          // This ensures: "Artikels mogen enkel uit de database komen met bijhorende afbeelding"
+          const withImages = filteredItems.filter(a => {
+            const img =
+              resolveImageUrl(a?.image_path) ||
+              resolveImageUrl(a?.imagePath) ||
+              resolveImageUrl(a?.publicPath) ||
+              resolveImageUrl(a?.image) ||
+              resolveImageUrl(a?.imageUrl) ||
+              resolveImageUrl(a?.image_url);
+            return !!img;
+          });
+
           // ✅ Keep backend order exactly as delivered (no shuffle / no client-side ordering)
-          const displayItems = filteredItems.slice(0, 50);
-          console.log(`[ORDER] ✅ Backend order preserved. Showing ${displayItems.length} items.`);
-          try {
-            console.log("[HOME][DEBUG] first 10 image fields:", displayItems.slice(0,10).map(x => ({
-              id: x?.id,
-              slug: x?.slug,
-              status: x?.status,
-              image_path: x?.image_path,
-              imagePath: x?.imagePath,
-              publicPath: x?.publicPath,
-              image: x?.image,
-              imageUrl: x?.imageUrl,
-              image_url: x?.image_url
-            })));
-          } catch (e) {}
+          const displayItems = withImages.slice(0, 50);
+          console.log(`[HOME] image filter: ${filteredItems.length} → ${withImages.length} (only items with resolvable image)`);
 
           // ❗Bij 0 items: NIET wissen als er al iets gerenderd is
           if (!displayItems.length) {
