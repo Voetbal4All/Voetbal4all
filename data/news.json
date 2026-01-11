@@ -1,16 +1,71 @@
 {
-  "generatedAt": "2026-01-10T23:22:38.785Z",
+  "generatedAt": "2026-01-11T02:09:53.789Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
+      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
+      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
+      "publishedAt": "2026-01-11T00:15:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Buoyant Rosenior lauds 5-star Chelsea start",
+      "link": "https://www.espn.com/soccer/story/_/id/47574761/liam-rosenior-chelsea-squad-charlton-fa-cup",
+      "summary": "New Chelsea head coach Liam Rosenior promised more to come from his second string after they swept aside Charlton 5-1 at the Valley in his first match in charge.",
+      "publishedAt": "2026-01-11T00:15:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fletcher 'prepared' to lead Man Utd until summer",
+      "link": "https://www.espn.com/soccer/story/_/id/47572566/darren-fletcher-man-united-manager-interim-season",
+      "summary": "Darren Fletcher has said he's \"prepared\" if Manchester United decide to hand him the head coach job until the end of the season.",
+      "publishedAt": "2026-01-11T00:15:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah scores to set up AFCON reunion with Mané",
+      "link": "https://www.espn.com/espn/story/_/id/47573488/salah-fires-egypt-afcon-champions-ivory-coast-set-mane-senegal-reunion-semifinal",
+      "summary": "Mohamed Salah scored his fourth goal of the Africa Cup of Nations as Egypt defeated defending champions Ivory Coast 3-2 in Agadir.",
+      "publishedAt": "2026-01-11T00:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Supercopa Clasico preview, predictions: Are Barcelona favorites vs. Real Madrid?",
+      "link": "https://www.espn.com/soccer/story/_/id/47568270/barcelona-favorites-vs-real-madrid",
+      "summary": "Barcelona and Real Madrid meet in the Supercopa final Sunday, but who has the upper hand? Sam Marsden and Alex Kirkland preview the upcoming Clasico.",
+      "publishedAt": "2026-01-11T00:14:58.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Watch: Match of the Day - FA Cup third round highlights",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "summary": "Highlights from the third round of the 2025/26 FA Cup.",
-      "publishedAt": "2026-01-11T00:11:41.000Z"
+      "title": "Why Rosenior sees no need for drastic change at Chelsea",
+      "link": "https://www.bbc.com/sport/football/articles/crrnzerklyeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liam Rosenior does not see a need for drastic change at Chelsea - and that was part of the reason he was brought in.",
+      "publishedAt": "2026-01-10T23:48:13.000Z"
     },
     {
       "type": "rss",
@@ -58,50 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
-      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
-      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
-      "publishedAt": "2026-01-10T22:31:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fletcher 'prepared' to lead Man Utd until summer",
-      "link": "https://www.espn.com/soccer/story/_/id/47572566/darren-fletcher-man-united-manager-interim-season",
-      "summary": "Darren Fletcher has said he's \"prepared\" if Manchester United decide to hand him the head coach job until the end of the season.",
-      "publishedAt": "2026-01-10T22:31:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sixth-tier Macclesfield stun FA Cup champs Palace",
-      "link": "https://www.espn.com/soccer/story/_/id/47569561/macclesfield-beat-palace-huge-fa-cup-upset",
-      "summary": "Non-league Macclesfield pulled off one of the biggest-ever FA Cup upsets as they knocked out holders Crystal Palace in a remarkable 2-1 win at the third-round stage.",
-      "publishedAt": "2026-01-10T22:31:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea begin Rosenior era with big FA Cup win",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762514",
-      "summary": "Liam Rosenior turned to Chelsea's second string for his first game in charge as his new team thrashed Charlton 5-1 at the Valley to ease into the fourth round of the FA Cup.",
-      "publishedAt": "2026-01-10T22:31:54.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -143,17 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/10/charlton-chelsea-premier-league-match-report",
       "summary": "It sums up the uneasy state of affairs at Chelsea that the new head coach winning his first match in charge was not enough to stop the mutiny. This was a controlled, clinical performance from Liam Rosenior’s second string, who strolled into the fourth round of the FA Cup after a 5-1 win over a game but limited Charlton Athletic, but once again the big talking point was the travelling support spewing venom in the direction of their unpopular owners. Dissatisfaction with the project is not going away. It did not even matter when Rosenior looked at his bench with Chelsea 3-1 up in the second half and decided to give Estevão Willian a runout against tired, lowly Championship opposition. The Brazilian winger is one of the best young players in the world and his runs were soon making Charlton’s defenders dizzy, but even signings like Estêvão have done little to sway the view of a fanbase united in opposition to an ownership almost four years in and still to convince naysayers that their unique vision will bring success. Continue reading...",
       "publishedAt": "2026-01-10T22:08:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Clock is ticking for Frank at Spurs, with dwindling evidence he deserves extra time",
-      "link": "https://www.espn.com/soccer/story/_/id/47571969/clock-ticking-thomas-frank-spurs-fa-cup-loss-aston-villa",
-      "summary": "After crashing out of the FA Cup vs. Aston Villa, Tottenham coach Thomas Frank's future could soon be hanging by a thread.",
-      "publishedAt": "2026-01-10T22:06:12.000Z"
     },
     {
       "type": "rss",
