@@ -868,7 +868,7 @@ let lastRenderKey = "";
 
         // 2) Refresh in background (network)
         // FAST: allow caching (browser/CDN) and time out quickly to avoid 10–15s hangs
-        const data = await fetchJsonWithRetry(NEWS_URL_FAST, { timeoutMs: 4500, tries: 5, baseDelayMs: 650, minItems: 8 });
+        const data = await fetchJsonWithRetry(NEWS_URL_FAST, { timeoutMs: 4500, tries: 5, baseDelayMs: 650, minItems: 1 });
         const fresh = enforceDbOnlyWithImages(dedupeById(Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : [])));
 
         // Fast paint: if we had no cache, render ASAP with the first page results
