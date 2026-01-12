@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-12T02:06:05.693Z",
+  "generatedAt": "2026-01-12T04:12:32.080Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Raphinha shines as Barça get thrilling win over Madrid in Supercopa final",
+      "link": "https://www.espn.com/soccer/story/_/id/47583706/raphinha-shines-lead-barcelona-thrilling-win-real-madrid-spanish-supercopa",
+      "summary": "Barcelona claim their first trophy of 2026, avenging October's El Clásico loss with Spanish Supercopa win.",
+      "publishedAt": "2026-01-12T02:32:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Raphinha's 'intensity' leads Barça Supercopa win",
+      "link": "https://www.espn.com/soccer/story/_/id/47584005/hansi-flick-raphinha-supercopa-barcelona-real-madrid-analysis",
+      "summary": "Barcelona manager Hansi Flick lauded Raphinha's mentality after the Brazilian haunted Real Madrid once again with two goals in his team's 3-2 Spanish Supercopa final win in Saudi Arabia on Sunday.",
+      "publishedAt": "2026-01-12T02:17:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Martinelli hat-trick as Arsenal beat Portsmouth",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762502",
+      "summary": "Gabriel Martinelli scored a hat-trick as Arsenal overcame an early scare to thrash Championship strugglers Portsmouth 4-1 in the FA Cup third round.",
+      "publishedAt": "2026-01-12T02:17:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Liverpool's Bradley out for season with knee injury",
+      "link": "https://www.espn.com/soccer/story/_/id/47579359/liverpool-conor-bradley-season-knee-injury",
+      "summary": "Liverpool defender Conor Bradley is set to miss the rest of the season after suffering a serious knee injury in Thursday's 0-0 draw with Arsenal.",
+      "publishedAt": "2026-01-12T02:17:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
+      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
+      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
+      "publishedAt": "2026-01-12T02:17:11.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -11,17 +66,6 @@
       "link": "https://www.skysports.com/nfl/news/12040/13493251/nfl-playoffs-san-francisco-49ers-knock-out-defending-super-bowl-champion-philadelphia-eagles-with-stunning-upset",
       "summary": "The San Francisco 49ers pulled off a sensational 23-19 upset of the defending Super Bowl champion Philadelphia Eagles to knock them out of the NFL playoffs in the Wild Card round.",
       "publishedAt": "2026-01-11T23:43:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raphinha shines as Barça get thrilling win over Madrid in Supercopa final",
-      "link": "https://www.espn.com/soccer/story/_/id/47583706/raphinha-shines-lead-barcelona-thrilling-win-real-madrid-spanish-supercopa",
-      "summary": "Barcelona claim their first trophy of 2026, avenging October's El Clásico loss with Spanish Supercopa win.",
-      "publishedAt": "2026-01-11T23:16:52.000Z"
     },
     {
       "type": "rss",
@@ -99,50 +143,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/11/darren-fletcher-in-dark-over-his-future-after-manchester-uniteds-cup-exit",
       "summary": "Former midfielder ahead of Solskjær after interviews Darren Fletcher admits he is in the dark over his position Michael Carrick has emerged as the favourite candidate to be Manchester United’s interim manager for the rest of the season ahead of Ole Gunnar Solskjær after the interview process, with the club’s executive expected to finalise the decision on Monday. While Omar Berrada, the chief executive, and Jason Wilcox, the director of football, are understood to have not made a formal offer, they are leaning towards Carrick, sources have informed the Guardian. This follows both Carrick and Solskjær having face-to-face discussions with the hierarchy. Berrada and Wilcox met Carrick on Thursday and Solskjær on Saturday at the club’s Carrington training ground. Continue reading...",
       "publishedAt": "2026-01-11T22:00:26.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raphinha leads Barça to Supercopa win",
-      "link": "https://www.espn.com/soccer/report/_/gameId/748117",
-      "summary": "Raphinha scored twice in Saudi Arabia as Barcelona beat Real Madrid 3-2 on Sunday in the final of the Spanish Super Cup.",
-      "publishedAt": "2026-01-11T21:57:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Martinelli hat-trick as Arsenal beat Portsmouth",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762502",
-      "summary": "Gabriel Martinelli scored a hat-trick as Arsenal overcame an early scare to thrash Championship strugglers Portsmouth 4-1 in the FA Cup third round.",
-      "publishedAt": "2026-01-11T21:57:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool's Bradley out for season with knee injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47579359/liverpool-conor-bradley-season-knee-injury",
-      "summary": "Liverpool defender Conor Bradley is set to miss the rest of the season after suffering a serious knee injury in Thursday's 0-0 draw with Arsenal.",
-      "publishedAt": "2026-01-11T21:57:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USMNT's Pepi suffers broken arm scoring for PSV",
-      "link": "https://www.espn.com/soccer/story/_/id/47573639/usmnt-ricardo-pepi-broken-arm-psv-eindhoven-goal",
-      "summary": "United States striker Ricardo Pepi suffered a broken forearm while in action for PSV Eindhoven on Saturday and and is set to be sidelined for two months, the Dutch club has confirmed..",
-      "publishedAt": "2026-01-11T21:57:59.000Z"
     },
     {
       "type": "rss",
