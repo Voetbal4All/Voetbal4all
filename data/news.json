@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-01-12T10:30:17.379Z",
+  "generatedAt": "2026-01-12T11:24:45.854Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hatenboer krijgt rood bij Eredivisie-debuut, Regeer valt uit",
+      "link": "https://www.vi.nl/video/hatenboer-krijgt-rood-bij-eredivisie-debuut-regeer-valt-uit",
+      "summary": "Cedric Hatenboer kende zondag een uiterst ongelukkig Eredivisie-debuut voor Telstar. De voormalig middenvelder van Excelsior, op huurbasis overgekomen van Anderlecht, kreeg in zijn eerste wedstrijd een rode kaart voor een tackle van achteren op Youri Regeer. De middenvelder van Ajax moest de strijd uiteindelijk staken.",
+      "publishedAt": "2026-01-12T11:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bijzondere split bij Sparta: veel tegengoals, clean sheet-koploper",
+      "link": "https://www.vi.nl/nieuws/bijzondere-split-bij-sparta-veel-tegengoals-clean-sheet-koploper",
+      "summary": "Sparta Rotterdam incasseerde dit Eredivisie-seizoen 31 treffers en houdt daarmee slechts vier andere teams onder zich, maar bijzonder genoeg is de club van trainer Maurice Steijn wel de clean sheet-koning van de Eredivisie.",
+      "publishedAt": "2026-01-12T11:11:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why McLaren are more confident than rivals ahead of 2026 F1 season",
+      "link": "https://www.skysports.com/f1/news/12040/13491254/f1-2026-why-mclaren-are-more-confident-than-ferrari-mercedes-red-bull-ahead-of-new-season",
+      "summary": "Despite a total reset of Formula 1's regulations ahead of the 2026 season, reigning champions McLaren appear to be entering the sport's new era with more confidence than their expected main rivals.",
+      "publishedAt": "2026-01-12T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Kees Smit moet weg, voetbal is handel, hoera!'",
+      "link": "https://www.vi.nl/pro/kees-smit-moet-weg-voetbal-is-handel-hoera",
+      "summary": "Columnist Frank Heinen over het product voetbal.",
+      "publishedAt": "2026-01-12T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Captain Frenkie de Jong laat zich zien: 'Zijn beste wedstrijd voor Barcelona'",
+      "link": "https://www.vi.nl/nieuws/captain-frenkie-de-jong-laat-zich-zien-zijn-beste-wedstrijd-voor-barcelona",
+      "summary": "Frenkie de Jong kreeg rood in de finale van de Spaanse Supercup tegen Real Madrid, maar ontving toch lovende kritieken in de Spaanse pers. De rode kaart veranderde daar niets aan.",
+      "publishedAt": "2026-01-12T10:46:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Vinicius Junior als vanouds zonder Mbappé: 'Twee raspaardjes toch te veel'",
+      "link": "https://www.vi.nl/video/vinicius-junior-als-vanouds-zonder-mbapp-twee-raspaardjes-toch-te-veel",
+      "summary": "Vinicius Junior maakte een geweldige treffer tegen Barcelona, maar het was niet genoeg voor de overwinning. Real Madrid verloor de Supercopa van Barcelona en na afloop ging het weer over de discussie over Vinicius Junior en Kylian Mbappé.",
+      "publishedAt": "2026-01-12T10:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Three English teams on course for Champions League play-offs - could they face each other?",
+      "link": "https://www.skysports.com/football/news/12040/13474811/champions-league-table-fixtures-results-and-which-teams-are-on-course-for-qualifying-for-the-knockout-phase",
+      "summary": "We're down to the final two games of the league phase of the Champions League, so who's heading for a knockout spot and which are teams are facing an early exit?",
+      "publishedAt": "2026-01-12T10:35:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Brighton latest: Rugby expert appointed to lead 'elite performance'",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2026-01-12T10:30:00.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -11,28 +99,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c3wzd5l53wvo?at_medium=RSS&at_campaign=rss",
       "summary": "Two days on from Macclesfield's stunning FA Cup third-round win over Crystal Palace, the heroics are still sinking in for manager John Rooney.",
       "publishedAt": "2026-01-12T10:24:14.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "HSV stuurt sportief directeur weg wegens 'ernstig wangedrag'",
-      "link": "https://www.vi.nl/nieuws/hsv-stuurt-sportief-directeur-weg-wegens-ernstig-wangedrag",
-      "summary": "Het vertrek van Stefan Kuntz (63) als sportief directeur bij Hamburger SV heeft veel losgemaakt. De club kondigde onlangs in een kort en bondig statement zijn vertrek aan, maar nadat BILD onderzoek deed naar de werkelijke reden daarvan en ook Kuntz zich liet horen, voelde het zich genoodzaakt zelf ook met een statement te komen.",
-      "publishedAt": "2026-01-12T10:22:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Positieve geluiden over van Ajax overgekomen Taylor na debuut in Italië",
-      "link": "https://www.vi.nl/nieuws/positieve-geluiden-over-taylor-na-debuut-in-italie",
-      "summary": "Kenneth Taylor heeft zijn vuurdoop bij Lazio goed doorstaan na zijn transfer vanaf Ajax. Dat is de conclusie in Italië, onder meer getrokken door trainer Maurizio Sarri.",
-      "publishedAt": "2026-01-12T10:18:00.000Z"
     },
     {
       "type": "rss",
@@ -80,46 +146,13 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Roma schakelt door naar Malen vanwege impasse rond Zirkzee'",
-      "link": "https://www.vi.nl/nieuws/roma-schakelt-door-naar-malen-vanwege-impasse-rond-zirkzee",
-      "summary": "Donyell Malen kan zijn loopbaan mogelijk vervolgen bij AS Roma. De Romeinen zien in de 26-jarige aanvaller van Aston Villa een alternatief voor Joshua Zirkzee, zo is de laatste berichtgeving vanuit Italië.",
-      "publishedAt": "2026-01-12T10:06:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'United maakt vorderingen met zoektocht naar interim-manager'",
-      "link": "https://www.vi.nl/nieuws/united-maakt-vorderingen-met-zoektocht-naar-interim-manager",
-      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-12T09:33:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kompany reageert op ophef rond Real Madrid-droom Karl: 'Kleine communicatiefout'",
-      "link": "https://www.vi.nl/nieuws/kompany-reageert-op-ophef-rond-real-madrid-droom-karl-kleine-communicatiefout",
-      "summary": "Vincent Kompany heeft zich zondag uitgesproken over de ophef die ontstaan rond Lennart Karl. Het toptalent van Bayern München vertelde onlangs op een fandag dat het zijn droom is om ooit voor Real Madrid te spelen . Een onhandige uitspraak, vond ook Kompany, die daarna vooral zijn bewondering uitsprak. 'Als hij slecht traint of speelt, heeft hij een probleem met mij.'",
-      "publishedAt": "2026-01-12T09:32:32.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Football transfer rumours: Liverpool and Chelsea eye Ramón? Gallagher to Spurs?",
       "link": "https://www.theguardian.com/football/2026/jan/12/football-transfer-rumours-liverpool-chelsea-spurs-arsenal",
-      "summary": "Today’s rumours need a bit of a stir Most footballers become famous for playing the game but others attract renown for not liking it – foremost among them is Arsenal’s Ben White. Accordingly, it would make sense were he to join David Moyes’s Everton, who are seeking to resolve a problematic right-back situation. The chance to follow in the footsteps of Tony Hibbert, typically a huge pull factor, is nullified because White presumably has no idea who he is. Elsewhere on Merseyside, it appears Liverpool have finally discovered the best way to improve a dodgy defence is not to buss hundreds of millions on attackers, but to have decent defenders. Consequently, they are looking at Como’s Jacobo Ramón – and so too are Chelsea, should the romance of being stockpiled with a 68-year contract prove too alluring to turn down. Continue reading...",
+      "summary": "Today’s rumours need a bit of a stir Most footballers become famous for playing the game but others attract renown for not liking it – foremost among the latter category is Arsenal’s Ben White. Accordingly, it would make sense were he to join David Moyes’s Everton, who are seeking to resolve a problematic right-back situation. The chance to follow in the footsteps of Tony Hibbert, typically a huge pull factor, is nullified because White presumably has no idea who he is. Elsewhere on Merseyside, it appears Liverpool have finally discovered the best way to improve a dodgy defence is not to buss hundreds of millions on attackers, but to have decent defenders. Consequently, they are looking at Como’s Jacobo Ramón – and so too are Chelsea, should the romance of being stockpiled with a 68-year contract prove too alluring to turn down. Continue reading...",
       "publishedAt": "2026-01-12T09:01:53.000Z"
     },
     {
@@ -157,28 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Evans knocked out of Australian Open qualifying as Norrie wins in Auckland",
-      "link": "https://www.skysports.com/tennis/news/12040/13493279/australian-open-dan-evans-knocked-out-in-first-round-of-qualifying-as-cam-norrie-claims-win-in-auckland",
-      "summary": "Former British No 1 Dan Evans is out of Australian Open qualifying following a first-round defeat to Japan's Rei Sakamoto.",
-      "publishedAt": "2026-01-12T07:05:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Nunc Est Bibendum chases hat-trick on Lingfield Monday card",
-      "link": "https://www.skysports.com/racing/news/12040/13493190/today-on-sky-sports-racing-nunc-est-bibendum-goes-in-search-of-hat-trick-at-lingfield",
-      "summary": "It's a busy Monday on Sky Sports Racing, with Lingfield and Hereford hosting action before evening racing on Wolverhampton's all-weather.",
-      "publishedAt": "2026-01-12T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -201,25 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Maye leads Patriots past Chargers to claim first playoff win",
-      "link": "https://www.skysports.com/nfl/news/12040/13493271/nfl-playoffs-new-england-patriots-beat-los-angeles-chargers-16-3-as-drake-maye-claims-first-post-season-victory",
-      "summary": "Drake Maye threw a touchdown pass to Hunter Henry in the fourth quarter as the New England Patriots defense roughed up Justin Herbert in a 16-3 AFC Wild Card playoff victory over the Los Angeles Chargers.",
-      "publishedAt": "2026-01-12T06:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chargers vs Patriots | Wild Card Weekend Highlights",
-      "link": "https://www.skysports.com/watch/video/13493270/nfl-los-angeles-chargers-new-england-patriots-wild-card-weekend-highlights",
-      "summary": "Highlights from the Wild Card Weekend matchup between the Los Angeles Chargers and the New England Patriots during the 2025 NFL season.",
-      "publishedAt": "2026-01-12T06:09:00.000Z"
+      "title": "Raphinha shines as Barça get thrilling win over Madrid in Supercopa final",
+      "link": "https://www.espn.com/soccer/story/_/id/47583706/raphinha-shines-lead-barcelona-thrilling-win-real-madrid-spanish-supercopa",
+      "summary": "Barcelona claim their first trophy of 2026, avenging October's El Clásico loss with Spanish Supercopa win.",
+      "publishedAt": "2026-01-12T02:32:56.000Z"
     }
   ]
 }
