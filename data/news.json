@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-12T06:42:17.684Z",
+  "generatedAt": "2026-01-12T07:30:51.767Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Rondje Eredivisie: Krijgt Van Persie Feyenoord nog aan de praat?",
+      "link": "https://www.vi.nl/nieuws/rondje-eredivisie-van-persie-krijgt-feyenoord-niet-meer-aan-de-praat",
+      "summary": "Het weekend is voorbij en dat betekent dat er een Rondje Eredivisie op het programma staat. Koploper PSV won overtuigend van Excelsior en ook Ajax pakte bij Telstar drie punten, terwijl Feyenoord punten liet liggen bij SC Heerenveen. Meer dan genoeg om over na te praten dus.",
+      "publishedAt": "2026-01-12T07:27:13.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Nunc Est Bibendum chases hat-trick on Lingfield Monday card",
+      "link": "https://www.skysports.com/racing/news/12040/13493190/today-on-sky-sports-racing-nunc-est-bibendum-goes-in-search-of-hat-trick-at-lingfield",
+      "summary": "It's a busy Monday on Sky Sports Racing, with Lingfield and Hereford hosting action before evening racing on Wolverhampton's all-weather.",
+      "publishedAt": "2026-01-12T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Hanegem plaatst vraagtekens bij Eredivisie-niveau",
+      "link": "https://www.vi.nl/nieuws/van-hanegem-plaatst-vraagtekens-bij-eredivisie-niveau",
+      "summary": "Columnist en oud-voetballer Willem van Hanegem vindt het bijzonder dat Feyenoord ondanks een 'ineenstorting' toch nog steeds plek twee in handen heeft.",
+      "publishedAt": "2026-01-12T06:46:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Are fans being turned off multi-club ownership model?",
+      "link": "https://www.bbc.com/sport/football/articles/c4g49xrjnxno?at_medium=RSS&at_campaign=rss",
+      "summary": "Strasbourg fans thought they had it good from being aligned with Chelsea. Then manager Liam Rosenior walked out mid-season to take charge of the Blues.",
+      "publishedAt": "2026-01-12T06:42:38.000Z"
+    },
     {
       "type": "rss",
       "source": "BBC Sport - Football",
@@ -124,25 +168,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Samenvatting: Feyenoord begint kalenderjaar met puntenverlies bij Heerenveen",
-      "link": "https://www.vi.nl/video/samenvatting-feyenoord-begint-kalenderjaar-met-puntenverlies-bij-heerenveen",
-      "summary": "Feyenoord is de tweede seizoenshelft van de Eredivisie met puntenverlies begonnen in Friesland. Lang leken de Rotterdammers drie punten te gaan pakken, maar in de slotfase bezorgde uitgerekend Ajax-huurling Amourricho van Axel Dongen ze hoofdpijn vanwege de gelijkmaker: 2-2.",
-      "publishedAt": "2026-01-11T22:59:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Samenvatting: PSV rolt Excelsior op, maar verliest Pepi met armbreuk",
-      "link": "https://www.vi.nl/video/samenvatting-psv-rolt-excelsior-op-maar-verliest-pepi-met-armbreuk",
-      "summary": "In de Eredivisie had PSV zaterdag geen kind aan Excelsior. De Eindhovenaren wonnen met liefst 5-1 van de promovendus. Wel was er een flinke smet op de wedstrijd: Ricardo Pepi viel uit met een armbreuk.",
-      "publishedAt": "2026-01-11T22:59:00.000Z"
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "European football: McTominay strikes twice as Napoli rescue point at Inter",
+      "link": "https://www.theguardian.com/football/2026/jan/11/european-football-milan-keep-unbeaten-run-going-but-lose-ground-in-title-race",
+      "summary": "Scotland midfielder scores two equalisers in 2-2 draw Bayern Munich crush Wolfsburg to go 11 points clear Scott McTominay scored a double as the defending champions Napoli twice came from behind to secure a 2-2 draw with the Serie A leaders Inter at San Siro. Inter came close to gaining revenge for their 3-1 defeat in Naples earlier this season and a win would have opened up a commanding gap at the top, but Napoli’s never-say-die attitude keeps them very much in the title race. Continue reading...",
+      "publishedAt": "2026-01-11T22:39:53.000Z"
     },
     {
       "type": "rss",
@@ -172,10 +205,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Former Manchester United coach Eric Ramsay takes charge at West Brom",
-      "link": "https://www.theguardian.com/football/2026/jan/11/west-brom-former-manchester-united-coach-eric-ramsay-football",
-      "summary": "34-year-old led Minnesota United to MLS semi-finals Ramsay appointed head coach after sacking of Ryan Mason West Brom have named the former Manchester United assistant Eric Ramsay as their new head coach after the 34-year-old guided Minnesota United to the semi-finals of the Major League Soccer play-offs. Ramsay, 34, took charge of Minnesota in February 2024, his first senior managerial role, after working alongside Erik ten Hag at Old Trafford. He has also worked as an assistant coach for Wales and had spells with Swansea, Shrewsbury and Chelsea, though his playing experience extends only to a short spell with Welshpool Town and international futsal for Wales. Continue reading...",
-      "publishedAt": "2026-01-11T21:38:43.000Z"
+      "title": "Raphinha doubles up as Barcelona sink Real Madrid to lift Spanish Super Cup",
+      "link": "https://www.theguardian.com/football/2026/jan/11/barcelona-real-madrid-spanish-super-cup-match-report",
+      "summary": "Supercopa de España: Barcelona 3-2 Real Madrid Raphinha 36 73, Lewandowski 45+4; Vinícius 45+2, García 45+7 Football is wild sometimes, and this was one of those times. A night that didn’t always make sense but was a lot of fun ended with every player on the pitch inside the Barcelona penalty area and the ball dropping through the crowd to Raúl Asencio, standing there on the edge of the six yard box. The board had gone up with six minutes on it, those six minutes had passed and now here it was, his moment and another twist: the chance to somehow take the Super Cup final to a penalty shootout. Instead, with the clock on 96.43 Asencio headed at Joan García. On his line, the goalkeeper grabbed the shot and held on hard; his team had done the same, two goals from Raphinha and another from Robert Lewandowski enough to take the trophy, goals from Vinícius Júnior and Gonzalo García not enough to take it from them. Whether they will be enough to keep Xabi Alonso in his job remains to be seem; Jeddah was supposed to be the final judgment but there may be those that judge Madrid’s reaction here reason for him to remain. Continue reading...",
+      "publishedAt": "2026-01-11T21:48:01.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c17zr0zrk7lo?at_medium=RSS&at_campaign=rss",
       "summary": "Veteran striker Danny Welbeck haunts former club Manchester United again and now calls for an England call-up are only going to rise.",
       "publishedAt": "2026-01-11T21:13:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Fragile' Man Utd set for fewest games in season since 1914-15",
-      "link": "https://www.bbc.com/sport/football/articles/cly53k69xj1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United will prepare for next Saturday's game with Manchester City with no manager in place to lift their \"fragile\" confidence.",
-      "publishedAt": "2026-01-11T21:07:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "West Brom appoint former Man Utd coach Ramsay as new boss",
-      "link": "https://www.skysports.com/football/news/12040/13493192/eric-ramsay-west-brom-appoint-former-man-utd-coach-to-replace-ryan-mason",
-      "summary": "West Bromwich Albion have appointed former Manchester United first-team coach Eric Ramsay as their new head coach.",
-      "publishedAt": "2026-01-11T20:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Goals, shocks and fan power on a record-breaking FA Cup weekend",
-      "link": "https://www.bbc.com/sport/football/articles/c07x1ezk3pro?at_medium=RSS&at_campaign=rss",
-      "summary": "If anyone needed convincing that the FA Cup still matters, this season's record-breaking third round provided all the necessary evidence.",
-      "publishedAt": "2026-01-11T19:21:02.000Z"
     }
   ]
 }
