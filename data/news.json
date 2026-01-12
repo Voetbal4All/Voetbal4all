@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-11T23:23:07.559Z",
+  "generatedAt": "2026-01-12T02:06:05.693Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Watch: Match of the Day - FA Cup third round highlights",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "summary": "Highlights from the third round of the 2025/26 FA Cup.",
-      "publishedAt": "2026-01-11T23:41:20.000Z"
+      "title": "49ers stun defending Super Bowl champion Eagles in Philly",
+      "link": "https://www.skysports.com/nfl/news/12040/13493251/nfl-playoffs-san-francisco-49ers-knock-out-defending-super-bowl-champion-philadelphia-eagles-with-stunning-upset",
+      "summary": "The San Francisco 49ers pulled off a sensational 23-19 upset of the defending Super Bowl champion Philadelphia Eagles to knock them out of the NFL playoffs in the Wild Card round.",
+      "publishedAt": "2026-01-11T23:43:00.000Z"
     },
     {
       "type": "rss",
@@ -179,6 +179,17 @@
     },
     {
       "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Welbeck scores as Brighton knock Man Utd out of FA Cup",
+      "link": "https://www.bbc.com/sport/football/videos/c1wzdw7j79po?at_medium=RSS&at_campaign=rss",
+      "summary": "Striker Danny Welbeck helps Brighton dump his former club Manchester United out of the FA Cup at Old Trafford.",
+      "publishedAt": "2026-01-11T20:26:08.000Z"
+    },
+    {
+      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13493203/nico-raskin-rangers-midfielder-appears-to-squirt-water-at-fan-after-victory-over-aberdeen",
       "summary": "Nico Raskin appeared to squirt water at an Aberdeen fan at full-time of Rangers' 2-0 win at Pittodrie on Sunday.",
       "publishedAt": "2026-01-11T19:19:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Big personality' Martinelli goes from 'idiot' to hat-trick hero",
-      "link": "https://www.bbc.com/sport/football/articles/c3685180x26o?at_medium=RSS&at_campaign=rss",
-      "summary": "Gabriel Martinelli was branded an \"idiot\" a few days ago - but showed great personality to respond with an FA Cup hat-trick, according to Arsenal manager Mikel Arteta.",
-      "publishedAt": "2026-01-11T17:39:06.000Z"
     }
   ]
 }
