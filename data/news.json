@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-01-12T09:37:01.989Z",
+  "generatedAt": "2026-01-12T10:30:17.379Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Did that really happen?' - Macclesfield fancy another Premier League test",
+      "link": "https://www.bbc.com/sport/football/articles/c3wzd5l53wvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Two days on from Macclesfield's stunning FA Cup third-round win over Crystal Palace, the heroics are still sinking in for manager John Rooney.",
+      "publishedAt": "2026-01-12T10:24:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "HSV stuurt sportief directeur weg wegens 'ernstig wangedrag'",
+      "link": "https://www.vi.nl/nieuws/hsv-stuurt-sportief-directeur-weg-wegens-ernstig-wangedrag",
+      "summary": "Het vertrek van Stefan Kuntz (63) als sportief directeur bij Hamburger SV heeft veel losgemaakt. De club kondigde onlangs in een kort en bondig statement zijn vertrek aan, maar nadat BILD onderzoek deed naar de werkelijke reden daarvan en ook Kuntz zich liet horen, voelde het zich genoodzaakt zelf ook met een statement te komen.",
+      "publishedAt": "2026-01-12T10:22:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Positieve geluiden over van Ajax overgekomen Taylor na debuut in Italië",
+      "link": "https://www.vi.nl/nieuws/positieve-geluiden-over-taylor-na-debuut-in-italie",
+      "summary": "Kenneth Taylor heeft zijn vuurdoop bij Lazio goed doorstaan na zijn transfer vanaf Ajax. Dat is de conclusie in Italië, onder meer getrokken door trainer Maurizio Sarri.",
+      "publishedAt": "2026-01-12T10:18:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Carrick has backing for Man United job",
+      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-significant-backing-man-united-interim-job-sources",
+      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
+      "publishedAt": "2026-01-12T10:11:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Raphinha's 'intensity' leads Barça Supercopa win",
+      "link": "https://www.espn.com/soccer/story/_/id/47584005/hansi-flick-raphinha-supercopa-barcelona-real-madrid-analysis",
+      "summary": "Barcelona manager Hansi Flick lauded Raphinha's mentality after the Brazilian haunted Real Madrid once again with two goals in his team's 3-2 Spanish Supercopa final win in Saudi Arabia on Sunday.",
+      "publishedAt": "2026-01-12T10:11:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fernandes' X account was hacked - Man United",
+      "link": "https://www.espn.com/soccer/story/_/id/47587847/bruno-fernandes-x-account-was-hacked-man-united",
+      "summary": "Manchester United released a statement announcing that captain Bruno Fernandes' social media platform X account was hacked.",
+      "publishedAt": "2026-01-12T10:11:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Martinelli hat-trick as Arsenal beat Portsmouth",
+      "link": "https://www.espn.com/soccer/report/_/gameId/762502",
+      "summary": "Gabriel Martinelli scored a hat-trick as Arsenal overcame an early scare to thrash Championship strugglers Portsmouth 4-1 in the FA Cup third round.",
+      "publishedAt": "2026-01-12T10:11:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Roma schakelt door naar Malen vanwege impasse rond Zirkzee'",
+      "link": "https://www.vi.nl/nieuws/roma-schakelt-door-naar-malen-vanwege-impasse-rond-zirkzee",
+      "summary": "Donyell Malen kan zijn loopbaan mogelijk vervolgen bij AS Roma. De Romeinen zien in de 26-jarige aanvaller van Aston Villa een alternatief voor Joshua Zirkzee, zo is de laatste berichtgeving vanuit Italië.",
+      "publishedAt": "2026-01-12T10:06:05.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -25,28 +113,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Ajax blijft kwetsbaar als spelers zelf situaties moeten gaan herkennen'",
-      "link": "https://www.vi.nl/video/ajax-blijft-kwetsbaar-als-spelers-zelf-situaties-moeten-gaan-herkennen",
-      "summary": "Ajax kwam op een 0-3 voorsprong op bezoek bij Telstar, maar maakte het onnodig spannend door de thuisploeg terug te laten komen tot 2-3. Hoofdredacteur Pieter Zwart merkt op dat de spelers aan Amsterdamse zijde moeite hebben met fysieke duels en situaties herkennen als men niet meer kan terugvallen op de vooraf ingestudeerde structuur.",
-      "publishedAt": "2026-01-12T09:25:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Koeman junior vindt 'knullige tegengoal' tegen Ajax geen fout van zichzelf",
-      "link": "https://www.vi.nl/video/koeman-junior-vindt-knullige-tegengoal-tegen-ajax-geen-fout-van-zichzelf",
-      "summary": "Ronald Koeman junior wordt al genoemd als eventuele optie voor het Nederlands elftal, maar zag er zondag niet goed uit bij de eerste treffer van Ajax. De doelman van Telstar vond het echter geen fout van zichzelf.",
-      "publishedAt": "2026-01-12T09:20:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -55,28 +121,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/12/football-transfer-rumours-liverpool-chelsea-spurs-arsenal",
       "summary": "Today’s rumours need a bit of a stir Most footballers become famous for playing the game but others attract renown for not liking it – foremost among them is Arsenal’s Ben White. Accordingly, it would make sense were he to join David Moyes’s Everton, who are seeking to resolve a problematic right-back situation. The chance to follow in the footsteps of Tony Hibbert, typically a huge pull factor, is nullified because White presumably has no idea who he is. Elsewhere on Merseyside, it appears Liverpool have finally discovered the best way to improve a dodgy defence is not to buss hundreds of millions on attackers, but to have decent defenders. Consequently, they are looking at Como’s Jacobo Ramón – and so too are Chelsea, should the romance of being stockpiled with a 68-year contract prove too alluring to turn down. Continue reading...",
       "publishedAt": "2026-01-12T09:01:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Spannende keepersstrijd voor positie in Elftal van de Week",
-      "link": "https://www.vi.nl/nieuws/spannende-keepersstrijd-voor-positie-in-elftal-van-de-week",
-      "summary": "Het was de speelronde van de keepers, direct na de winterstop. Er werden hoge beoordelingen uitgedeeld aan diverse doelmannen, Tom de Graaff van PEC Zwolle kwam uiteindelijk als winnaar uit de bus.",
-      "publishedAt": "2026-01-12T09:01:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FREE STREAM: Good Morning Transfers",
-      "link": "https://www.skysports.com/football/news/12040/13489527/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "summary": "",
-      "publishedAt": "2026-01-12T08:50:00.000Z"
     },
     {
       "type": "rss",
@@ -110,50 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/12/fa-cup-10-talking-points-weekend-third-round-football",
       "summary": "Crystal Palace’s stars wilt, Manchester City’s youngsters shine, and Liam Rosenior starts in stylish fashion Playing against lower-league opposition as a top-flight side in the FA Cup is like batting on the first morning of a Test match – you cannot really win and failure can prompt humiliation and reputational damage. To that end, some members of the Crystal Palace side deservedly beaten by Macclesfield perhaps learned a valuable lesson at Moss Rose. Marc Guéhi and Adam Wharton are linked regularly with big moves away from Palace, but part of succeeding at elite clubs – the pair are admired by Manchester City and Manchester United respectively – is coping with being overwhelming favourites. Oliver Glasner, too, may have designs on bigger things, with United again a possible destination, but to see his side schooled by part-timers was a blow to his burgeoning reputation. Glasner slammed his players after the defeat but the Austrian must take a portion of the blame. They must all do better. Dominic Booth Report: Macclesfield 2-1 Crystal Palace Report: Manchester City 10-1 Exeter Report: Manchester United 1-2 Brighton Report: Derby 1-3 Leeds Continue reading...",
       "publishedAt": "2026-01-12T08:00:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Carrick has backing for Man United job",
-      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-significant-backing-man-united-interim-job-sources",
-      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
-      "publishedAt": "2026-01-12T07:56:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raphinha's 'intensity' leads Barça Supercopa win",
-      "link": "https://www.espn.com/soccer/story/_/id/47584005/hansi-flick-raphinha-supercopa-barcelona-real-madrid-analysis",
-      "summary": "Barcelona manager Hansi Flick lauded Raphinha's mentality after the Brazilian haunted Real Madrid once again with two goals in his team's 3-2 Spanish Supercopa final win in Saudi Arabia on Sunday.",
-      "publishedAt": "2026-01-12T07:56:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Martinelli hat-trick as Arsenal beat Portsmouth",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762502",
-      "summary": "Gabriel Martinelli scored a hat-trick as Arsenal overcame an early scare to thrash Championship strugglers Portsmouth 4-1 in the FA Cup third round.",
-      "publishedAt": "2026-01-12T07:56:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool's Bradley out for season with knee injury",
-      "link": "https://www.espn.com/soccer/story/_/id/47579359/liverpool-conor-bradley-season-knee-injury",
-      "summary": "Liverpool defender Conor Bradley is set to miss the rest of the season after suffering a serious knee injury in Thursday's 0-0 draw with Arsenal.",
-      "publishedAt": "2026-01-12T07:56:08.000Z"
     },
     {
       "type": "rss",
@@ -205,21 +205,21 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
+      "title": "Maye leads Patriots past Chargers to claim first playoff win",
+      "link": "https://www.skysports.com/nfl/news/12040/13493271/nfl-playoffs-new-england-patriots-beat-los-angeles-chargers-16-3-as-drake-maye-claims-first-post-season-victory",
+      "summary": "Drake Maye threw a touchdown pass to Hunter Henry in the fourth quarter as the New England Patriots defense roughed up Justin Herbert in a 16-3 AFC Wild Card playoff victory over the Los Angeles Chargers.",
+      "publishedAt": "2026-01-12T06:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
       "title": "Chargers vs Patriots | Wild Card Weekend Highlights",
       "link": "https://www.skysports.com/watch/video/13493270/nfl-los-angeles-chargers-new-england-patriots-wild-card-weekend-highlights",
       "summary": "Highlights from the Wild Card Weekend matchup between the Los Angeles Chargers and the New England Patriots during the 2025 NFL season.",
       "publishedAt": "2026-01-12T06:09:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raphinha shines as Barça get thrilling win over Madrid in Supercopa final",
-      "link": "https://www.espn.com/soccer/story/_/id/47583706/raphinha-shines-lead-barcelona-thrilling-win-real-madrid-spanish-supercopa",
-      "summary": "Barcelona claim their first trophy of 2026, avenging October's El Clásico loss with Spanish Supercopa win.",
-      "publishedAt": "2026-01-12T02:32:56.000Z"
     }
   ]
 }
