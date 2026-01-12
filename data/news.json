@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-12T05:33:00.547Z",
+  "generatedAt": "2026-01-12T06:42:17.684Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'I'll get goosebumps' - Barnsley duo out to upset old club Liverpool",
+      "link": "https://www.bbc.com/sport/football/articles/cdex26xd26jo?at_medium=RSS&at_campaign=rss",
+      "summary": "For Adam Phillips and Vimal Yoganathan, it could be the fulfilment of a lifelong dream when Barnsley take on Liverpool at Anfield on Monday.",
+      "publishedAt": "2026-01-12T06:38:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Maye leads Patriots past Chargers to claim first playoff win",
+      "link": "https://www.skysports.com/nfl/news/12040/13493271/nfl-playoffs-new-england-patriots-beat-los-angeles-chargers-16-3-as-drake-maye-claims-first-post-season-victory",
+      "summary": "Drake Maye threw a touchdown pass to Hunter Henry in the fourth quarter as the New England Patriots defense roughed up Justin Herbert in a 16-3 AFC Wild Card playoff victory over the Los Angeles Chargers.",
+      "publishedAt": "2026-01-12T06:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Wéér spitsenprobleem bij PSV: alle ballen op Til of de markt op?",
+      "link": "https://www.vi.nl/pro/w-r-spitsenprobleem-bij-psv-alle-ballen-op-til-of-de-markt-op",
+      "summary": "Opnieuw zit PSV met een aanvallend probleem opgezadeld. Ricardo Pepi brak afgelopen zaterdag tegen Excelsior (5-1) zijn onderarm en dus heeft Peter Bosz geen pure centrumaanvallers meer beschikbaar in de cruciale weken die volgen. PSV leunt op Guus Til, maar kan deze maand nog de markt op.",
+      "publishedAt": "2026-01-12T06:25:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Finalekoning Flick is trots na nieuwe zege in El Clásico",
+      "link": "https://www.vi.nl/nieuws/finalekoning-flick-is-trots-na-nieuwe-zege-in-el-clasico",
+      "summary": "Na de winst van de Spaanse Super Cup heeft Barcelona-trainer Hansi Flick zijn status als finalekoning weer waargemaakt. In de acht wedstrijden waarin hij een trofee kon winnen, deed hij dat ook. De Duitser is trots op zijn elftal.",
+      "publishedAt": "2026-01-12T06:21:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -65,7 +109,7 @@
       "title": "49ers stun defending Super Bowl champion Eagles in Philly",
       "link": "https://www.skysports.com/nfl/news/12040/13493251/nfl-playoffs-san-francisco-49ers-knock-out-defending-super-bowl-champion-philadelphia-eagles-with-stunning-upset",
       "summary": "The San Francisco 49ers pulled off a sensational 23-19 upset of the defending Super Bowl champion Philadelphia Eagles to knock them out of the NFL playoffs in the Wild Card round.",
-      "publishedAt": "2026-01-11T23:43:00.000Z"
+      "publishedAt": "2026-01-12T01:14:00.000Z"
     },
     {
       "type": "rss",
@@ -102,17 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Mbappé blokkeert erehaag Real Madrid voor bekerwinnaar Barça'",
-      "link": "https://www.vi.nl/nieuws/marca-mbappe-blokkeert-erehaag-real-voor-bekerwinnaar-barca",
-      "summary": "Kylian Mbappé lijkt zich na de verloren finale van de Spaanse Super Cup niet van zijn meest sportieve kant te hebben laten zien. Volgens Marca voorkwam de Fransman dat zijn teamgenoten een erehaag vormden voor de spelers van Barcelona.",
-      "publishedAt": "2026-01-11T22:38:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -121,17 +154,6 @@
       "link": "https://www.skysports.com/football/news/12040/13493241/man-utd-next-manager-club-to-accelerate-appointment-after-meetings-with-michael-carrick-and-ole-gunnar-solskjaer",
       "summary": "Manchester United are expected to accelerate the process of appointing a new interim head coach, with further detailed talks planned before a final decision is made between Michael Carrick and Ole Gunnar Solskjaer.",
       "publishedAt": "2026-01-11T22:31:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Hooijdonk kraakt Ajax-invallers: 'Ik zou hem bij zijn strot pakken'",
-      "link": "https://www.vi.nl/nieuws/van-hooijdonk-kraakt-ajax-invallers-ik-zou-hem-bij-zijn-strot-pakken",
-      "summary": "Pierre van Hooijdonk heeft zich zondag verschrikkelijk gestoord aan de invallers bij Ajax. De analyticus zag dat een speler als bijvoorbeeld Rayane Bounida voor zijn eigen kansen ging tegen Telstar, terwijl hij zijn medespelers in stelling had moeten brengen.",
-      "publishedAt": "2026-01-11T22:26:00.000Z"
     },
     {
       "type": "rss",
@@ -174,19 +196,8 @@
       "flag": "🌍",
       "title": "'Fragile' Man Utd set for fewest games in season since 1914-15",
       "link": "https://www.bbc.com/sport/football/articles/cly53k69xj1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United will prepare for next Saturday's game with Manchester City with no manager in place to lift their 'fragile' confidence.",
+      "summary": "Manchester United will prepare for next Saturday's game with Manchester City with no manager in place to lift their \"fragile\" confidence.",
       "publishedAt": "2026-01-11T21:07:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Welbeck scores as Brighton knock Man Utd out of FA Cup",
-      "link": "https://www.bbc.com/sport/football/videos/c1wzdw7j79po?at_medium=RSS&at_campaign=rss",
-      "summary": "Striker Danny Welbeck helps Brighton dump his former club Manchester United out of the FA Cup at Old Trafford.",
-      "publishedAt": "2026-01-11T20:26:08.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c07x1ezk3pro?at_medium=RSS&at_campaign=rss",
       "summary": "If anyone needed convincing that the FA Cup still matters, this season's record-breaking third round provided all the necessary evidence.",
       "publishedAt": "2026-01-11T19:21:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raskin appears to squirt water at fan in full-time confrontation",
-      "link": "https://www.skysports.com/football/news/12040/13493203/nico-raskin-rangers-midfielder-appears-to-squirt-water-at-fan-after-victory-over-aberdeen",
-      "summary": "Nico Raskin appeared to squirt water at an Aberdeen fan at full-time of Rangers' 2-0 win at Pittodrie on Sunday.",
-      "publishedAt": "2026-01-11T19:19:00.000Z"
     }
   ]
 }
