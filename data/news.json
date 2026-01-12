@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-12T20:29:20.480Z",
+  "generatedAt": "2026-01-12T21:25:24.844Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: fraaie goal Frimpong weggepoetst door totaal mislukt hakje Szoboszlai",
-      "link": "https://www.vi.nl/nieuws/vi-live-kkd-eindelijk-terug-slot-met-liverpool-in-fa-cup",
-      "summary": "In deze VI Live volgen we het gemêleerde programma in binnen- en buitenland op de voet. De Keuken Kampioen Divisie is terug na de (verlengde) winterstop, verder spelen Liverpool en Paris Saint-Germain in de bekertoernooien.",
-      "publishedAt": "2026-01-12T20:25:00.000Z"
+      "title": "Sparta neemt duidelijk standpunt in over bijna transfervrije topscorer Lauritsen",
+      "link": "https://www.vi.nl/nieuws/sparta-neemt-duidelijk-standpunt-in-over-bijna-transfervrije-topscorer-lauritsen",
+      "summary": "Sparta Rotterdam is niet van plan om Tobias Lauritsen (28) te laten gaan in de winterse transferperiode. PSV werd genoemd als mogelijke bestemming voor de spits, maar mocht de kampioen Lauritsen willen hebben, dan zal zij 'de absolute hoofdprijs' moeten betalen.",
+      "publishedAt": "2026-01-12T21:22:00.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +21,7 @@
       "title": "Liverpool v Barnsley: FA Cup third round – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/12/liverpool-v-barnsley-fa-cup-third-round-live",
       "summary": "⚽️ FA Cup updates from the 7.45pm GMT kick-off at Anfield ⚽️ Fourth-round draw | Talking points | Send Michael a mail Liverpool manager Arne Slot, who will surely be looking over his shoulder now that Xabi Alonso is available, speaks to TNT Sports: We have made a few changes but a few have to play here that have played so many games. That means we have a strong line-up. We know that Conor Bradley is out for a long time. He was progressing and getting better and better. Now, he is injured. But that doesn’t really help us either. Now, we don’t have a lot of options with the players that are out. Continue reading...",
-      "publishedAt": "2026-01-12T20:19:49.000Z"
+      "publishedAt": "2026-01-12T21:09:13.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +29,65 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Ultee uit onbegrip richting KNVB over late afgelasting",
-      "link": "https://www.vi.nl/nieuws/ultee-uit-onbegrip-richting-knvb-over-late-afgelasting",
-      "summary": "TOP Oss-trainer Sjors Ultee vindt dat de KNVB op voorhand meer wedstrijden had moeten afgelasten. Hij vindt het onverantwoord dat clubs ook met de extreme weersomstandigheden moeten trainen.",
-      "publishedAt": "2026-01-12T20:08:17.000Z"
+      "title": "VI Live: Van Dijk raakt de lat, Frimpong naar de kant gehaald bij Liverpool",
+      "link": "https://www.vi.nl/nieuws/vi-live-kkd-eindelijk-terug-slot-met-liverpool-in-fa-cup",
+      "summary": "In deze VI Live volgen we het gemêleerde programma in binnen- en buitenland op de voet. De Keuken Kampioen Divisie is terug na de (verlengde) winterstop, verder spelen Liverpool en Paris Saint-Germain in de bekertoernooien.",
+      "publishedAt": "2026-01-12T21:06:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Gallagher set to join Spurs from Atleti",
+      "link": "https://www.espn.com/soccer/story/_/id/47591597/conor-gallagher-join-tottenham-atletico",
+      "summary": "Conor Gallagher is set to join Tottenham Hotspur from Atlético Madrid, sources close to the LaLiga club have told ESPN.",
+      "publishedAt": "2026-01-12T21:03:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Alonso out at Madrid, Arbeloa to manage club",
+      "link": "https://www.espn.com/soccer/story/_/id/47590541/real-madrid-end-coaching-contract-xabi-alonso-mutual-agreement",
+      "summary": "Real Madrid on Monday announced that Xabi Alonso would no longer coach the club \"by mutual agreement.\"",
+      "publishedAt": "2026-01-12T21:03:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ronaldo scores but Al Nassr lose ground to Al Hilal",
+      "link": "https://www.espn.com/soccer/report/_/gameId/756036",
+      "summary": "An early goal by Cristiano Ronaldo was not enough as Al Nassr conceded three in the second half in a 3-1 loss to Saudi Pro League leaders Al Hilal on Monday.",
+      "publishedAt": "2026-01-12T21:03:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "FIFA OKs betting partners to stream WC games",
+      "link": "https://www.espn.com/soccer/story/_/id/47590968/fifa-deal-allow-betting-partners-stream-world-cup-matches",
+      "summary": "FIFA deepened its commercial ties to the betting industry Monday in a four-year deal that will let some gambling operators livestream World Cup games this year.",
+      "publishedAt": "2026-01-12T21:03:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "USWNT captain Lindsey Heaps signs with Denver",
+      "link": "https://www.espn.com/soccer/story/_/id/47589222/united-states-captain-lindsey-heaps-signs-denver",
+      "summary": "United States women's national team captain Lindsey Heaps is heading home in June, when she will return to the NWSL to join expansion side Denver Summit FC.",
+      "publishedAt": "2026-01-12T21:03:27.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +95,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Mbappé richt zich tot Alonso; geannuleerde erehaag krijgt extra lading",
-      "link": "https://www.vi.nl/nieuws/mbapp-richt-zich-tot-alonso-geannuleerde-erehaag-krijgt-extra-lading",
-      "summary": "Na het vertrek van Xabi Alonso bij Real Madrid hebben verschillende spelers van De Koninklijke via een boodschap op social media afscheid genomen van de manager. Onder hen ook Kylian Mbappé, maar de vraag is of de superster wel oprecht is met zijn mooie woorden. Spaanse media zetten daar in ieder geval hun vraagtekens bij.",
-      "publishedAt": "2026-01-12T20:00:40.000Z"
+      "title": "NEC wimpelt Duitse interesse in Shiogai af",
+      "link": "https://www.vi.nl/nieuws/nec-wimpelt-duitse-interesse-in-shiogai-af",
+      "summary": "VfL Wolfsburg heeft zich bij NEC gemeld om Kento Shiogai over te nemen. De Bundesliga-club wil de twintigjarige spits deze winter inlijven, maar de Nijmeegse club ziet dat niet zitten. NEC sloeg een bod van Wolfsburg af en is niet van plan om Shiogai gedurende het seizoen te verkopen.",
+      "publishedAt": "2026-01-12T21:03:04.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +106,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "De Real Madrid-sterren hebben de strijd van Xabi Alonso gewonnen",
-      "link": "https://www.vi.nl/pro/de-real-madrid-sterren-hebben-de-strijd-van-xabi-alonso-gewonnen",
-      "summary": "Real Madrid en Xabi Alonso gaan per direct uit elkaar. Wat op voorhand een succesvol huwelijk leek te gaan worden, heeft geresulteerd in een teleurstelling. Waarom vertrekt de trainer nu al uit de Spaanse hoofdstad? Kenner buitenlands voetbal Bas van den Hoven bespreekt het uitgebreid in deze aflevering van Rondje Buitenland Extra .",
-      "publishedAt": "2026-01-12T20:00:06.000Z"
+      "title": "Mazzelend Jong Ajax stuurt Vitesse bij KKD-herstart terug naar laatste plek",
+      "link": "https://www.vi.nl/nieuws/mazzelend-jong-ajax-stuurt-vitesse-bij-kkd-herstart-terug-naar-laatste-plek",
+      "summary": "Jong Ajax heeft bij de hervatting van het Keuken Kampioen Divisie-seizoen afgerekend met een kansen missend Jong AZ. Door de pas derde overwinning van dit voetbaljaar verlaten de Amsterdamse beloften de laatste plaats op de ranglijst.",
+      "publishedAt": "2026-01-12T20:55:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Buitenlandse belangstelling voor opgeleefde PEC-aanvaller De Rooij",
+      "link": "https://www.vi.nl/nieuws/bakari-mikt-op-vertrek-bij-sparta-maar-niet-naar-willem-ii",
+      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-12T20:39:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tottenham bid for Conor Gallagher in push to head off Aston Villa interest",
+      "link": "https://www.theguardian.com/football/2026/jan/12/tottenham-mathys-tel-loan-thomas-frank-transfers",
+      "summary": "Spurs make Atlético Madrid offer worth up to £34.6m Former Chelsea man keen on Premier League return Tottenham are confident of beating Aston Villa to the signing of Conor Gallagher from Atlético Madrid after making an offer worth up to €40m (£34.6m) for the England midfielder. Talks with Atlético are ongoing but Gallagher is understood to be keen to move back to the Premier League to boost his chances of making England’s World Cup squad, having made just four starts in La Liga this season. Spurs are in the market for midfield reinforcements after Rodrigo Bentancur sustained a hamstring injury that is likely to keep him sidelined for three months. The club have identified the 25-year-old as their primary target. Continue reading...",
+      "publishedAt": "2026-01-12T20:21:33.000Z"
     },
     {
       "type": "rss",
@@ -77,72 +154,6 @@
       "link": "https://www.skysports.com/olympics/news/12040/13493523/skeleton-canada-facing-investigation-amid-claims-2026-winter-olympics-skeleton-qualifier-was-sabotaged",
       "summary": "Canada has launched a robust defence against accusations it deliberately withdrew four athletes from a skeleton race, a move that dashed eventual winner Katie Uhlaender's hopes of qualifying for the Winter Olympics.",
       "publishedAt": "2026-01-12T19:51:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Alonso out at Madrid, Arbeloa to manage club",
-      "link": "https://www.espn.com/soccer/story/_/id/47590541/real-madrid-end-coaching-contract-xabi-alonso-mutual-agreement",
-      "summary": "Real Madrid on Monday announced that Xabi Alonso would no longer coach the club \"by mutual agreement.\"",
-      "publishedAt": "2026-01-12T19:41:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ronaldo scores but Al Nassr lose ground to Al Hilal",
-      "link": "https://www.espn.com/soccer/report/_/gameId/756036",
-      "summary": "An early goal by Cristiano Ronaldo was not enough as Al Nassr conceded three in the second half in a 3-1 loss to Saudi Pro League leaders Al Hilal on Monday.",
-      "publishedAt": "2026-01-12T19:41:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Atleti coach Simeone apologizes for Vinícius row",
-      "link": "https://www.espn.com/soccer/story/_/id/47588693/atletico-madrid-coach-simeone-apologizes-row-vinicius-supercopa",
-      "summary": "Atlético Madrid coach Diego Simeone has apologised for his touchline row with Vinícius Júnior during last week's Supercopa semifinal, admitting he \"didn't do the right thing.\"",
-      "publishedAt": "2026-01-12T19:41:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FIFA OKs betting partners to stream WC games",
-      "link": "https://www.espn.com/soccer/story/_/id/47590968/fifa-deal-allow-betting-partners-stream-world-cup-matches",
-      "summary": "FIFA deepened its commercial ties to the betting industry Monday in a four-year deal that will let some gambling operators livestream World Cup games this year.",
-      "publishedAt": "2026-01-12T19:41:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "USWNT captain Lindsey Heaps signs with Denver",
-      "link": "https://www.espn.com/soccer/story/_/id/47589222/united-states-captain-lindsey-heaps-signs-denver",
-      "summary": "United States women's national team captain Lindsey Heaps is heading home in June, when she will return to the NWSL to join expansion side Denver Summit FC.",
-      "publishedAt": "2026-01-12T19:41:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Goal 959 van Ronaldo blijkt niets waard in Saoedische topper",
-      "link": "https://www.vi.nl/nieuws/goal-959-van-ronaldo-blijkt-niets-waard-in-saoedische-topper",
-      "summary": "Al-Nassr heeft maandagavond de topper in Saoedi-Arabië van Al-Hilal verloren (3-1). Cristiano Ronaldo zette zijn ploeg nog op het juiste spoor, maar uiteindelijk gingen de mannen van trainer Simone Inzaghi er met de zege vandoor.",
-      "publishedAt": "2026-01-12T19:33:27.000Z"
     },
     {
       "type": "rss",
@@ -187,17 +198,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cy8pngd870vo?at_medium=RSS&at_campaign=rss",
       "summary": "Sixth-tier Macclesfield are rewarded with a home tie against Brentford in the FA Cup fourth round after their shock win over holders Crystal Palace.",
       "publishedAt": "2026-01-12T18:56:05.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "FREE STREAM: The Transfer Show",
-      "link": "https://www.skysports.com/football/news/12040/13489527/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "summary": "",
-      "publishedAt": "2026-01-12T18:50:00.000Z"
     },
     {
       "type": "rss",
