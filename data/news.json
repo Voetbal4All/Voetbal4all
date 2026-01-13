@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-01-13T17:29:55.593Z",
+  "generatedAt": "2026-01-13T18:36:23.113Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Füllkrug na 106 minuten voor Milan komende periode aan de kant'",
+      "link": "https://www.vi.nl/nieuws/f-llkrug-na-106-minuten-voor-milan-komende-periode-aan-de-kant",
+      "summary": "Het spitsenprobleem van AC Milan duurt voort. Winteraanwinst Niclas Füllkrug staat volgens diverse Italiaanse media de komende periode aan de kant vanwege een gebroken teen. De huurling van West Ham United heeft tot dusver 106 minuten gespeeld voor i Rossoneri.",
+      "publishedAt": "2026-01-13T18:32:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle vs Man City team news LIVE!",
+      "link": "https://www.skysports.com/football/newcastle-united-vs-manchester-city/live/551323",
+      "summary": "",
+      "publishedAt": "2026-01-13T18:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De Jong en Barça halen opgelucht adem: minimale schorsing wegens rode kaart",
+      "link": "https://www.vi.nl/nieuws/de-jong-en-bar-a-halen-opgelucht-adem-minimale-schorsing-wegens-rode-kaart",
+      "summary": "Frenkie de Jong kan opgelucht ademhalen. De middenvelder van Barcelona is voor één wedstrijd geschorst en krijgt een boete vanwege zijn rode kaart in de finale van de Supercopa. Hij mist hierdoor de achtste finales van de Copa del Rey.",
+      "publishedAt": "2026-01-13T18:19:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Turkse aanbieding voor Kanté, Franse interesse voor Szymanski'",
+      "link": "https://www.vi.nl/nieuws/turks-avontuur-lonkt-voor-kant-franse-interesse-voor-szymanski",
+      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-13T18:14:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Robertson: Szoboszlai backheel 'unacceptable'",
+      "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
+      "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
+      "publishedAt": "2026-01-13T18:12:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
+      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
+      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
+      "publishedAt": "2026-01-13T18:12:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
+      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
+      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
+      "publishedAt": "2026-01-13T18:12:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "San Diego spends big to land Brazil star Ludmila",
+      "link": "https://www.espn.com/soccer/story/_/id/47600205/san-diego-wave-transfer-brazil-ludmila-chicago-stars",
+      "summary": "The San Diego Wave have signed Brazil international forward Ludmila from NWSL rivals Chicago Stars FC in a transfer worth an initial $800,000, the clubs announced Tuesday.",
+      "publishedAt": "2026-01-13T18:12:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De recordaankoop van Heracles moet nu opstaan",
+      "link": "https://www.vi.nl/pro/de-recordaankoop-van-heracles-moet-nu-opstaan",
+      "summary": "Nu topscorer Jizz Hornkamp is vertrokken, zijn de ogen bij Heracles Almelo gericht op Luka Kulenovic. De 26-jarige spits moet de doelpunten gaan maken bij de hekkensluiter van de Eredivisie, terwijl hij nog zoekt naar zijn vorm van vorig seizoen. In gesprek met de international van Bosnië en Herzegovina, die er om twee redenen op gebrand is om goed te presteren in Almelo.",
+      "publishedAt": "2026-01-13T18:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Football fan died after being targeted by 'predatory' gambling sites",
+      "link": "https://www.bbc.com/sport/football/articles/cly3x9ngj18o?at_medium=RSS&at_campaign=rss",
+      "summary": "A coroner concludes that a 36-year-old Liverpool fan took his own life after he was enticed to use illegal gambling websites to bet on football matches.",
+      "publishedAt": "2026-01-13T17:45:51.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,29 +120,7 @@
       "title": "Bundesliga-duel tweeënhalf uur voor de aftrap afgelast",
       "link": "https://www.vi.nl/nieuws/bundesliga-duel-twee-nhalf-uur-voor-de-aftrap-afgelast",
       "summary": "Het Bundesliga-duel tussen Hamburger SV en Bayer Leverkusen is dinsdagavond een paar uur voor de aftrap afgelast. Op het dak van het Volksparkstadion ligt te veel smeltend ijs, wat onverantwoorde risico's met zich meebrengt voor de bezoekers van de wedstrijd.",
-      "publishedAt": "2026-01-13T17:18:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers Feyenoord: 'Olympique Marseille toont interesse in Hadj Moussa'",
-      "link": "https://www.vi.nl/nieuws/transfers-feyenoord-van-persie-acht-kans-klein-dat-timber-verlengt",
-      "summary": "VI volgt het transfernieuws bij Feyenoord op de voet, zeker nu de winterse transferwindow in aantocht is. De doelwitten van de Rotterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2026-01-13T17:13:28.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bounida over bekertoernooi met Ajax: 'Nog nooit vier assists in één duel gegeven'",
-      "link": "https://www.vi.nl/nieuws/na-bekerpracht-tegen-amateurs-focust-bounida-op-az-we-willen-alles-winnen",
-      "summary": "Rayane Bounida blonk in de vorige ronde van de KNVB-beker uit voor Ajax tegen Excelsior Maassluis. De spelmaker was bij vijf van de zeven doelpunten betrokken. Woensdag wacht AZ in de achtste finales.",
-      "publishedAt": "2026-01-13T17:08:06.000Z"
+      "publishedAt": "2026-01-13T17:37:48.000Z"
     },
     {
       "type": "rss",
@@ -47,80 +135,25 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Robertson: Szoboszlai backheel 'unacceptable'",
-      "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
-      "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
-      "publishedAt": "2026-01-13T16:47:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "KNVB Beker gaat verder met achtste finale: dit is het programma",
-      "link": "https://www.vi.nl/nieuws/dit-is-het-programma-in-de-achtste-finale-van-de-knvb-beker",
-      "summary": "Het toernooi om de Eurojackpot KNVB Beker 2025/26 gaat deze week verder. Dit is het schema voor de achtste finale, waarin onder meer de topper tussen AZ en Ajax op het programma staat.",
-      "publishedAt": "2026-01-13T16:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Xabi Alonso failed to control Real Madrid’s egos in brief and bitter reign",
       "link": "https://www.theguardian.com/football/2026/jan/13/xabi-alonso-real-madrid-manager-end-florentino-perez",
-      "summary": "Hired as a systems coach, the manager was undermined at a club where players – and Florentino Pérez – call the shots Pep Guardiola sat in the press room at the Santiago Bernabéu and told Xabi Alonso to do it his way but around here, he knows, it tends not to work out like that, which is precisely why he said so. Saying it is one thing, doing it another, doing it successfully something else entirely, and a month and day after being offered that advice, handed that defence, Alonso was gone. On Monday afternoon, not long after landing from Saudi Arabia, a meeting was held at Valdebebas and then came the statement, short and unsentimental. He was a “legend” as a player, but no longer coach at Real Madrid. Alonso is the 11th manager to last less than a year in two decades under the president, Florentino Pérez. He had begun work only seven months before, and that was earlier than he intended. It had started with the Club World Cup in the US, his first big decision to accept the demand to take over sooner than he wanted, and it ended with the Spanish Super Cup in Jeddah, where it was an open secret that final judgment awaited. For a month it had been impossible to avoid the feeling of a manager on borrowed time, especially for the manager himself, exposed and undermined, and you cannot go on like that. There will be hurt pride, regret, but release too. Continue reading...",
+      "summary": "Hired as a systems coach, the manager was undermined at a club where players – and Florentino Pérez – call the shots Pep Guardiola sat in the press room at the Santiago Bernabéu and told Xabi Alonso to do it his way but around here, he knows, it tends not to work out like that, which is precisely why he said so. Saying it is one thing, doing it another, doing it successfully something else entirely and a month and day after being offered that advice, handed that defence, Alonso was gone. On Monday afternoon, not long after landing from Saudi Arabia, a meeting was held at Valdebebas and then came the statement, short and unsentimental. He was a “legend” as a player, but no longer coach at Real Madrid. Alonso is the 11th manager to last less than a year in two decades under the president, Florentino Pérez. He had begun work only seven months before, and that was earlier than he intended. It had started with the Club World Cup in the US, his first big decision to accept the demand to take over sooner than he wanted, and it ended with the Spanish Super Cup in Jeddah, where it was an open secret that final judgment awaited. For a month it had been impossible to avoid the feeling of a manager on borrowed time, especially for the manager himself, exposed and undermined, and you cannot go on like that. There will be hurt pride, regret, but release too. Continue reading...",
       "publishedAt": "2026-01-13T16:27:40.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
-      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
-      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
-      "publishedAt": "2026-01-13T16:23:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Carrick set to be new Man United boss",
-      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-set-appointed-new-man-united-interim-boss-sources",
-      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
-      "publishedAt": "2026-01-13T16:23:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
-      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
-      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
-      "publishedAt": "2026-01-13T16:23:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers PSV: deze eisen stelt PSV aan een mogelijke nieuwe spits",
-      "link": "https://www.vi.nl/nieuws/transfers-psv-bosz-sluit-extra-transfer-niet-uit-na-blessure-pepi",
-      "summary": "VI volgt het transfernieuws bij PSV op de voet, zeker nu de winterse transferwindow in aantocht is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2026-01-13T16:07:50.000Z"
+      "title": "QUIZ: Man Utd's post-Fergie managerial saga - how much do you know?",
+      "link": "https://www.skysports.com/football/news/12040/13493845/quiz-manchester-uniteds-post8209sir-alex-ferguson-managerial-saga-how-much-do-you-remember-of-turbulent-last-13-years",
+      "summary": "Michael Carrick is on his way back to Old Trafford in an interim capacity, becoming Manchester United's 11th change of manager or head coach since Sir Alex Ferguson's retirement in 2013.",
+      "publishedAt": "2026-01-13T16:09:00.000Z"
     },
     {
       "type": "rss",
@@ -157,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Klopp a candidate for Real Madrid head coach role",
-      "link": "https://www.skysports.com/football/news/12040/13493731/jurgen-klopp-to-real-madrid-former-liverpool-manager-a-candidate-for-head-coach-role-at-laliga-club",
-      "summary": "Jurgen Klopp is a candidate for the head coach position at Real Madrid should the club decide to appoint a new boss in the summer.",
-      "publishedAt": "2026-01-13T12:55:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/13/michael-carrick-manchester-united-interim-head-coach-steve-holland-jonathan-woodgate",
       "summary": "Carrick poised to be confirmed as interim manager Darren Fletcher returns to job with United’s under-18s Michael Carrick has handed Steve Holland and Jonathan Woodgate roles on his staff at Manchester United. Carrick will be confirmed as the club’s interim manager until the end of the season and four spots on his backroom team have been filled. Holland was the assistant to Gareth Southgate with England and more recently the manager of the Japanese club Yokohama F Marinos, who sacked him last April. Woodgate coached alongside Carrick at Middlesbrough and had a spell there and at Bournemouth as manager. Retained on the staff after working with Darren Fletcher are Travis Binnion, who was promoted from his role as under-21s lead coach, and Jonny Evans. Continue reading...",
       "publishedAt": "2026-01-13T10:59:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "David Squires on … the magic of the Cup as Macclesfield dethrone Crystal Palace",
-      "link": "https://www.theguardian.com/football/picture/2026/jan/13/david-squires-on-the-magic-of-the-cup-as-macclesfield-dethrone-crystal-palace",
-      "summary": "Our cartoonist looks back on a glorious day for the non-league side as they knocked out the FA Cup holders Buy this cartoon | David’s favourite work of 2025 And his latest book, Chaos in the Box: get it now Continue reading...",
-      "publishedAt": "2026-01-13T10:59:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Carrick to bring in Holland as Man Utd assistant",
-      "link": "https://www.bbc.com/sport/football/articles/c0erq5gdvwqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Michael Carrick agrees to become Manchester United interim head coach - and former England assistant manager Steve Holland is set to be his number two.",
-      "publishedAt": "2026-01-13T10:14:03.000Z"
     }
   ]
 }
