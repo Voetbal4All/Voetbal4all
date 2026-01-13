@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-01-13T19:23:27.398Z",
+  "generatedAt": "2026-01-13T20:30:08.802Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle United v Manchester City: Carabao Cup semi-final first leg – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/13/newcastle-united-v-manchester-city-carabao-cup-semi-final-first-leg-live",
+      "summary": "⚽️ League Cup updates, 8pm GMT kick-off at St James’ Park ⚽️ Live scores | Follow us on Bluesky | And send Barry a mail An email: “G’Day Bazza,” writes Chris Paraskevas from Australia. “It’s a civilized 0700 kickoff for those of us Down Under and there is only one question on Newcastle fans’ collective hive mind: will Anthony Gordon and Anthony Elanga wear matching headbands tonight? “As the season has progressed, Gordon has moved from plain black headband to a branded Adidas one, but Elanga’s game and fashion have comparatively stalled this season - maybe he’ll go fot something spicey, like one of the bandanas the gangsters wear in Blood In Blood Out. Continue reading...",
+      "publishedAt": "2026-01-13T20:23:27.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Carrick maakt seizoen af als manager van Manchester United",
-      "link": "https://www.vi.nl/nieuws/carrick-keert-terug-bij-manchester-united-als-interim-manager",
-      "summary": "Michael Carrick maakt het seizoen af bij Manchester United. De 44-jarige oud-speler van de club is aangesteld als interim-manager na het ontslag van Rúben Amorim van begin dit jaar.",
-      "publishedAt": "2026-01-13T19:16:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Carrick named Man Utd interim head coach",
-      "link": "https://www.skysports.com/football/news/12040/13493290/michael-carrick-man-utd-confirm-interim-head-coach-appointment-for-remainder-of-the-season",
-      "summary": "Manchester United have appointed Michael Carrick as interim head coach until the end of the season.",
-      "publishedAt": "2026-01-13T19:15:00.000Z"
+      "title": "VI Live: De Wit zet FC Utrecht op voorsprong, Antwerp leidt dankzij Kerk",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
+      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
+      "publishedAt": "2026-01-13T20:17:51.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +32,95 @@
       "title": "Robertson: Szoboszlai backheel 'unacceptable'",
       "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
       "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
-      "publishedAt": "2026-01-13T19:11:58.000Z"
+      "publishedAt": "2026-01-13T20:06:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Laatkomers dwingen Jans tot andere keuzes voor bekerduel met Twente",
+      "link": "https://www.vi.nl/nieuws/jans-houdt-laatkomers-murkin-en-rodr-guez-uit-de-basis-bij-utrecht",
+      "summary": "FC Utrecht-trainer Ron Jans heeft noodgedwongen moeten sleutelen aan zijn basisopstelling voor het bekerduel met FC Twente. Derry John Murkin en Miguel Rodríguez kwamen namelijk te laat op de wedstrijddag, waardoor zij als disciplinaire maatregel op de bank beginnen.",
+      "publishedAt": "2026-01-13T20:00:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Stije Resink in de spotlights: 'Ik zie het maar als een compliment'",
+      "link": "https://www.vi.nl/pro/stije-resink-in-de-spotlights-ik-zie-het-maar-als-een-compliment",
+      "summary": "De transferperiode is, nu nog veel meer dan voorheen, voor veel voetballiefhebbers een heuse entertainmentbusiness geworden. Stije Resink (22) ondervindt deze maand hoe het is om daar een hoofdrolspeler in te zijn. De aanvoerder van FC Groningen is duidelijk over hoe hij erin staat – en blij dat de rollende bal nu ook weer voor wat nieuwe gespreksstof zorgt.",
+      "publishedAt": "2026-01-13T20:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Michael Carrick confirmed by Manchester United as interim manager until end of season",
+      "link": "https://www.theguardian.com/football/2026/jan/13/michael-carrick-manchester-united-interim-head-coach-steve-holland-jonathan-woodgate",
+      "summary": "Steve Holland and Jonathan Woodgate also on staff ‘I know what it takes to succeed here,’ insists Carrick Michael Carrick has called on everyone at Manchester United to “pull together” in order to bring ­success back to the club, after being appointed on Tuesday night as head coach until the end of the season. The former midfielder has brought the ex-England assistant Steve ­Holland and Jonathan Woodgate to work alongside him. They will join Jonny Evans, Travis Binnion and Craig Mawson in the backroom staff. It is Carrick’s second spell leading the team, having taken charge previously of three games after Ole Gunnar ­Solskjær was dismissed in 2021. Continue reading...",
+      "publishedAt": "2026-01-13T19:48:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bellingham ontkent geruchten na ontslag Alonso: 'Wat een onzin'",
+      "link": "https://www.vi.nl/nieuws/bellingham-ontkent-geruchten-na-ontslag-xabi-alonso-wat-een-onzin",
+      "summary": "Jude Bellingham heeft zich voor het eerst uitgesproken over het ontslag van Xabi Alonso bij Real Madrid. The Athletic en ESPN claimden dat de Engelsman een van de spelers was die niet meer achter zijn voormalige trainer stond, maar dat is volgens Bellingham klinkklare onzin.",
+      "publishedAt": "2026-01-13T19:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Salah-Mane rivalry renewed in Afcon semi-finals",
+      "link": "https://www.bbc.com/sport/football/articles/c9dvg5lyz02o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mohamed Salah's Egypt will face Senegal in the Afcon 2025 semi-finals, offering the chance of revenge against his old Liverpool team-mate Sadio Mane.",
+      "publishedAt": "2026-01-13T19:41:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tomlin steps down as coach of Steelers after 19 seasons",
+      "link": "https://www.skysports.com/nfl/news/12040/13493933/mike-tomlin-steps-down-as-head-coach-of-pittsburgh-steelers-after-19-seasons",
+      "summary": "Mike Tomlin - the longest-tenured head coach in major American professional sports - has stepped down from his job as coach of the Pittsburgh Steelers after yet another quick playoff exit.",
+      "publishedAt": "2026-01-13T19:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Carrick neemt voormalig assistent Southgate mee naar United",
+      "link": "https://www.vi.nl/nieuws/carrick-keert-terug-bij-manchester-united-als-interim-manager",
+      "summary": "Michael Carrick maakt het seizoen af bij Manchester United. De 44-jarige oud-speler van de club is aangesteld als interim-manager na het ontslag van Rúben Amorim van begin dit jaar.",
+      "publishedAt": "2026-01-13T19:35:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Carrick confirmed as Man Utd caretaker head coach",
+      "link": "https://www.bbc.com/sport/football/articles/c0erq5gdvwqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United appoint former player Michael Carrick as caretaker head coach until the end of the season.",
+      "publishedAt": "2026-01-13T19:28:01.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +131,7 @@
       "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
       "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
       "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
-      "publishedAt": "2026-01-13T19:11:58.000Z"
+      "publishedAt": "2026-01-13T19:20:40.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +142,7 @@
       "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
       "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
       "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
-      "publishedAt": "2026-01-13T19:11:58.000Z"
+      "publishedAt": "2026-01-13T19:20:40.000Z"
     },
     {
       "type": "rss",
@@ -65,51 +153,29 @@
       "title": "San Diego spends big to land Brazil star Ludmila",
       "link": "https://www.espn.com/soccer/story/_/id/47600205/san-diego-wave-transfer-brazil-ludmila-chicago-stars",
       "summary": "The San Diego Wave have signed Brazil international forward Ludmila from NWSL rivals Chicago Stars FC in a transfer worth an initial $800,000, the clubs announced Tuesday.",
-      "publishedAt": "2026-01-13T19:11:58.000Z"
+      "publishedAt": "2026-01-13T19:20:40.000Z"
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Newcastle United v Manchester City: Carabao Cup semi-final first leg – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/13/newcastle-united-v-manchester-city-carabao-cup-semi-final-first-leg-live",
-      "summary": "⚽️ League Cup updates, 8pm GMT kick-off at St James’ Park ⚽️ Live scores | Follow us on Bluesky | And send Barry a mail Eddie Howe: “Pep will tactically have something ready for us and we will have to be at our very best to get through,” said the Newcastle head coach at his pre-match press conference. “They change and tinker a lot with the tactical set-up they have. They’re a difficult team to read and know how to plan and prepare for.” Pep Guardiola: “I didn’t go to sleep last night thinking about how my genius can come up with a plan for Eddie Howe,” said the City boss. “Many years since Eddie Howe took over, look how many games they have won in the last minute. The push from the crowd - it’s always been like that for a long time. In that stadium it is special. The semi-finals, playing Arsenal and Chelsea, it would be as difficult as Newcastle is.” Continue reading...",
-      "publishedAt": "2026-01-13T19:08:02.000Z"
+      "title": "Man United name Carrick boss until end of season",
+      "link": "https://www.espn.com/soccer/story/_/id/47588996/man-united-michael-carrick-interim-manager-end-season",
+      "summary": "Manchester United have appointed former player Michael Carrick as their head coach until the end of the season, the club confirmed Tuesday.",
+      "publishedAt": "2026-01-13T19:20:30.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kees Smit houdt regie over eigen carrière",
-      "link": "https://www.vi.nl/nieuws/kees-smit-houdt-regie-over-eigen-carri-re",
-      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-13T19:04:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Kees Smit en de hype: 'Ik besef het zelf nog helemaal niet'",
-      "link": "https://www.vi.nl/pro/kees-smit-en-de-hype-ik-besef-het-zelf-nog-helemaal-niet",
-      "summary": "Terwijl het miljoenenspel rond Kees Smit in gang wordt gezet, houdt de AZ-middenvelder zelf zijn ogen op de bal gericht. Te beginnen tegen Ajax, in de achtste finale van het bekertoernooi. ‘Het is heel groot allemaal.’",
-      "publishedAt": "2026-01-13T19:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Zerrouki terug in basis FC Twente, Jans verrast met opstelling FC Utrecht",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
-      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
-      "publishedAt": "2026-01-13T18:52:39.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Carrick named Man Utd head coach until end of season",
+      "link": "https://www.skysports.com/football/news/12040/13493290/michael-carrick-man-utd-confirm-interim-head-coach-appointment-for-remainder-of-the-season",
+      "summary": "Manchester United have appointed Michael Carrick as head coach until the end of the season.",
+      "publishedAt": "2026-01-13T19:15:00.000Z"
     },
     {
       "type": "rss",
@@ -124,22 +190,11 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Füllkrug na 106 minuten voor Milan komende periode aan de kant'",
-      "link": "https://www.vi.nl/nieuws/f-llkrug-na-106-minuten-voor-milan-komende-periode-aan-de-kant",
-      "summary": "Het spitsenprobleem van AC Milan duurt voort. Winteraanwinst Niclas Füllkrug staat volgens diverse Italiaanse media de komende periode aan de kant vanwege een gebroken teen. De huurling van West Ham United heeft tot dusver 106 minuten gespeeld voor i Rossoneri.",
-      "publishedAt": "2026-01-13T18:32:18.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Tonali rested for Newcastle as Man City start Semenyo LIVE!",
+      "title": "'Big miss!' Wissa wastes chance to give Newcastle early lead LIVE!",
       "link": "https://www.skysports.com/football/newcastle-united-vs-manchester-city/live/551323",
       "summary": "",
       "publishedAt": "2026-01-13T18:30:00.000Z"
@@ -165,61 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cly3x9ngj18o?at_medium=RSS&at_campaign=rss",
       "summary": "A coroner concludes that a 36-year-old Liverpool fan took his own life after he was enticed to use illegal gambling websites to bet on football matches.",
       "publishedAt": "2026-01-13T17:45:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Predicting the Premier League table: How will all 20 teams finish the season?",
-      "link": "https://www.espn.com/soccer/story/_/id/47591334/predicting-premier-league-table-how-all-20-teams-finish-season",
-      "summary": "Who will win the Premier League and who will be relegated? It's time to predict how the second half of the season finishes.",
-      "publishedAt": "2026-01-13T16:47:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Xabi Alonso failed to control Real Madrid’s egos in brief and bitter reign",
-      "link": "https://www.theguardian.com/football/2026/jan/13/xabi-alonso-real-madrid-manager-end-florentino-perez",
-      "summary": "Hired as a systems coach, the manager was undermined at a club where players – and Florentino Pérez – call the shots Pep Guardiola sat in the press room at the Santiago Bernabéu and told Xabi Alonso to do it his way but around here, he knows, it tends not to work out like that, which is precisely why he said so. Saying it is one thing, doing it another, doing it successfully something else entirely and a month and day after being offered that advice, handed that defence, Alonso was gone. On Monday afternoon, not long after landing from Saudi Arabia, a meeting was held at Valdebebas and then came the statement, short and unsentimental. He was a “legend” as a player, but no longer coach at Real Madrid. Alonso is the 11th manager to last less than a year in two decades under the president, Florentino Pérez. He had begun work only seven months before, and that was earlier than he intended. It had started with the Club World Cup in the US, his first big decision to accept the demand to take over sooner than he wanted, and it ended with the Spanish Super Cup in Jeddah, where it was an open secret that final judgment awaited. For a month it had been impossible to avoid the feeling of a manager on borrowed time, especially for the manager himself, exposed and undermined, and you cannot go on like that. There will be hurt pride, regret, but release too. Continue reading...",
-      "publishedAt": "2026-01-13T16:27:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "QUIZ: Man Utd's post-Fergie managerial saga - how much do you know?",
-      "link": "https://www.skysports.com/football/news/12040/13493845/quiz-manchester-uniteds-post8209sir-alex-ferguson-managerial-saga-how-much-do-you-remember-of-turbulent-last-13-years",
-      "summary": "Michael Carrick is on his way back to Old Trafford in an interim capacity, becoming Manchester United's 11th change of manager or head coach since Sir Alex Ferguson's retirement in 2013.",
-      "publishedAt": "2026-01-13T16:09:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Salah-Mane rivalry renewed in Afcon semi-finals",
-      "link": "https://www.bbc.com/sport/football/articles/c9dvg5lyz02o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mohamed Salah's Egypt will face Senegal in the Afcon 2025 semi-finals, offering the chance of revenge against his old Liverpool team-mate Sadio Mane.",
-      "publishedAt": "2026-01-13T15:57:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Benn 'in touching distance' of WBC title fight",
-      "link": "https://www.skysports.com/boxing/news/12040/13493835/conor-benn-in-touching-distance-of-becoming-wbc-world-champion-title-fight-vs-ryan-garcia-or-mario-barrios-awaits",
-      "summary": "Conor Benn believes he is within 'touching distance' of the WBC welterweight title, and is ready to fight the winner of Mario Barrios against Ryan Garcia.",
-      "publishedAt": "2026-01-13T15:37:00.000Z"
     }
   ]
 }
