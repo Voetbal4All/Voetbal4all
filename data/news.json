@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-01-13T06:40:03.822Z",
+  "generatedAt": "2026-01-13T07:28:22.083Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "VAR errors increase: Each of the 13 mistakes so far this season",
+      "link": "https://www.bbc.com/sport/football/articles/cvgrx8ml7m0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Premier League's KMI Panel makes judgements on every key decisions. Here's what they say the VAR has got wrong.",
+      "publishedAt": "2026-01-13T07:06:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Alligator Alley, Paddy’s Day and Ziggy’s Triton clash at Southwell",
+      "link": "https://www.skysports.com/racing/news/12040/13493132/today-on-sky-sports-racing-newcastle-and-southwell",
+      "summary": "We have a busy day’s racing on Tuesday with All-Weather action from Newcastle and Southwell, live on Sky Sports Racing...",
+      "publishedAt": "2026-01-13T07:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "KNVB Beker gaat verder met achtste finale: dit is het programma",
+      "link": "https://www.vi.nl/nieuws/dit-is-het-programma-in-de-achtste-finale-van-de-knvb-beker",
+      "summary": "Het toernooi om de Eurojackpot KNVB Beker 2025/26 gaat deze week verder. Dit is het schema voor de achtste finale, waarin onder meer de topper tussen AZ en Ajax op het programma staat.",
+      "publishedAt": "2026-01-13T06:40:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -65,17 +98,6 @@
       "title": "Turner: 2026 about rebuilding for Sherrock - 'Greaves taking spotlight will help'",
       "link": "https://www.skysports.com/darts/news/12040/13493466/laura-turner-2026-about-rebuilding-for-fallon-sherrock-beau-greaves-taking-spotlight-will-help-her",
       "summary": "After Fallon Sherrock failed to earn a PDC Tour Card for 2026 at Q-School, Sky Sports Darts' Laura Turner looks at what's next for the Ally Pally history-maker...",
-      "publishedAt": "2026-01-13T06:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De dossiers van de nieuwe td Jordi Cruijff: Make Ajax Great Again",
-      "link": "https://www.vi.nl/pro/de-dossiers-van-de-nieuwe-td-jordi-cruijff-make-ajax-great-again",
-      "summary": "Jordi Cruijff staat aan de vooravond van zijn project bij Ajax. De 51-jarige Amsterdammer begint officieel in februari als statutair technisch directeur, maar wordt uiteraard al volop meegenomen in de besluitvorming. Over de dossiers op het bordje van de nieuwe voetbalbaas van Ajax.",
       "publishedAt": "2026-01-13T06:00:00.000Z"
     },
     {
@@ -168,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Australia great Healy to retire after India series",
-      "link": "https://www.skysports.com/cricket/news/12040/13493542/alyssa-healy-australia-cricketing-great-to-retire-after-india-series",
-      "summary": "Australia captain Alyssa Healy will retire following India's upcoming tour after a trophy-laden 15-year career that has seen her win eight World Cups.",
-      "publishedAt": "2026-01-12T21:39:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -209,17 +220,6 @@
       "link": "https://www.theguardian.com/football/live/2026/jan/12/fa-cup-fourth-round-draw-live",
       "summary": "Seven Premier League clubs will be visiting lower-league opposition with Chelsea’s Liam Rosenior returning to his former club Hull City And spare a thought for Palace fans after this weekend … Wembley glory in May and despair in January … News filtering through that Arne Slot will be taking this game seriously, rather than this time last year when he was run over by Jolly Green Giants. Continue reading...",
       "publishedAt": "2026-01-12T19:18:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Is Carrick the right man for Man Utd?",
-      "link": "https://www.bbc.com/sport/football/articles/cy09jdr70nvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Michael Carrick is favourite to be named Man United's next interim manager. Simon Stone assesses if he is the right fit for the job.",
-      "publishedAt": "2026-01-12T18:56:36.000Z"
     }
   ]
 }
