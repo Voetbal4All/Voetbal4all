@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-12T23:20:06.121Z",
+  "generatedAt": "2026-01-13T01:57:23.543Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Carrick set to be new United boss",
+      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-significant-backing-man-united-interim-job-sources",
+      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
+      "publishedAt": "2026-01-13T00:11:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Alonso out at Madrid, Arbeloa named new coach",
+      "link": "https://www.espn.com/soccer/story/_/id/47590541/real-madrid-end-coaching-contract-xabi-alonso-mutual-agreement",
+      "summary": "Real Madrid on Monday announced that Xabi Alonso would no longer coach the club \"by mutual agreement.\"",
+      "publishedAt": "2026-01-13T00:11:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Gallagher set to join Spurs from Atleti",
+      "link": "https://www.espn.com/soccer/story/_/id/47591597/conor-gallagher-join-tottenham-atletico",
+      "summary": "Conor Gallagher is set to join Tottenham Hotspur from Atlético Madrid, sources close to the LaLiga club have told ESPN.",
+      "publishedAt": "2026-01-13T00:11:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barnsley coach: Szoboszlai backheel 'disrespectful'",
+      "link": "https://www.espn.com/soccer/story/_/id/47593054/dominik-szoboszlai-backheel-was-disrespectful-barnsley-coach",
+      "summary": "Barnsley head coach Conor Hourihane has criticised Dominik Szoboszlai for being \"disrespectful\" in Liverpool's 4-1 victory over his side after the midfielder tried to backheel the ball inside his own penalty area.",
+      "publishedAt": "2026-01-13T00:11:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "A 'weird' and 'incredible' error - but was Szoboszlai disrespectful?",
+      "link": "https://www.bbc.com/sport/football/articles/c9vxg4dmpzwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool beat Barnsley 4-1 in FA Cup fourth round but it was Dominik Szoboszlai's first-half error that had lots of people talking.",
+      "publishedAt": "2026-01-12T23:45:54.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -22,50 +77,6 @@
       "link": "https://www.vi.nl/nieuws/viraal-gaande-afrika-cup-fan-krijgt-een-auto-van-congolese-president",
       "summary": "De meest besproken fan van deze Afrika Cup-editie is zonder twijfel Michel Kuka Mboladinga. De trouwe supporter van DR Congo ging eerder dit toernooi viraal. Nu is hij door zijn president ook nog beloond met een fraai cadeau: een Jeep.",
       "publishedAt": "2026-01-12T22:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Gallagher set to join Spurs from Atleti",
-      "link": "https://www.espn.com/soccer/story/_/id/47591597/conor-gallagher-join-tottenham-atletico",
-      "summary": "Conor Gallagher is set to join Tottenham Hotspur from Atlético Madrid, sources close to the LaLiga club have told ESPN.",
-      "publishedAt": "2026-01-12T22:36:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Carrick set to be new United boss",
-      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-significant-backing-man-united-interim-job-sources",
-      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
-      "publishedAt": "2026-01-12T22:36:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Alonso out at Madrid, Arbeloa named new coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47590541/real-madrid-end-coaching-contract-xabi-alonso-mutual-agreement",
-      "summary": "Real Madrid on Monday announced that Xabi Alonso would no longer coach the club \"by mutual agreement.\"",
-      "publishedAt": "2026-01-12T22:36:46.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Liverpool beat Barnsley despite Szoboszlai error",
-      "link": "https://www.espn.com/soccer/report/_/gameId/762494",
-      "summary": "Liverpool survived a moment of bizarre moment of madness from Dominik Szoboszlai to avoid an FA Cup shock to Sky Bet League One Barnsley with a sketchy 4-1 victory at Anfield.",
-      "publishedAt": "2026-01-12T22:36:45.000Z"
     },
     {
       "type": "rss",
@@ -119,7 +130,7 @@
       "flag": "🌍",
       "title": "Liverpool power past brave Barnsley in the FA Cup to spare Szoboszlai’s blushes",
       "link": "https://www.theguardian.com/football/2026/jan/12/liverpool-barnsley-fa-cup-match-report",
-      "summary": "A late Florian Wirtz-inspired flourish gave a convincing look to Liverpool’s margin of victory but Barnsley made their hosts battle for a place in round four. The League One club were a credit as they performed with commitment and ambition at Anfield, but Premier League class always had the edge and ultimately told. How Dominik Szoboszlai will be grateful for that outcome. The Liverpool midfielder gave his team the lead with a brilliant 30-yard strike only to gift Barnsley a way back with a ridiculous mistake shortly before the interval. Goals from Jeremie Frimpong and substitutes Wirtz and Hugo Ekitiké spared their teammate any further embarrassment. Continue reading...",
+      "summary": "The scoreline was far more convincing than Liverpool’s performance against League One opposition. Barnsley made Arne Slot’s side battle for the right to host Brighton in round four while their head coach, Conor Hourihane, accused Dominik Szoboszlai of disrespect for gifting his team a goal while showboating. Slot appeared inclined to agree. Liverpool were grateful for a late Florian Wirtz-inspired flourish for an ultimately comfortable margin of victory and banishing any anxieties. But this had been another slog against a low defensive block until the expensive substitute swept home a fine third goal and created a stoppage‑time fourth for Hugo Ekitiké. There was no more relieved man inside Anfield than Szoboszlai. Continue reading...",
       "publishedAt": "2026-01-12T21:57:49.000Z"
     },
     {
@@ -209,17 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cy09jdr70nvo?at_medium=RSS&at_campaign=rss",
       "summary": "Michael Carrick is favourite to be named Man United's next interim manager. Simon Stone assesses if he is the right fit for the job.",
       "publishedAt": "2026-01-12T18:56:36.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Macclesfield to host Brentford in FA Cup fourth round - see full draw",
-      "link": "https://www.bbc.com/sport/football/articles/cy8pngd870vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sixth-tier Macclesfield are rewarded with a home tie against Brentford in the FA Cup fourth round after their shock win over holders Crystal Palace.",
-      "publishedAt": "2026-01-12T18:56:05.000Z"
     }
   ]
 }
