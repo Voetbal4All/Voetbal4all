@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2026-01-13T18:36:23.113Z",
+  "generatedAt": "2026-01-13T19:23:27.398Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Carrick maakt seizoen af als manager van Manchester United",
+      "link": "https://www.vi.nl/nieuws/carrick-keert-terug-bij-manchester-united-als-interim-manager",
+      "summary": "Michael Carrick maakt het seizoen af bij Manchester United. De 44-jarige oud-speler van de club is aangesteld als interim-manager na het ontslag van Rúben Amorim van begin dit jaar.",
+      "publishedAt": "2026-01-13T19:16:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Carrick named Man Utd interim head coach",
+      "link": "https://www.skysports.com/football/news/12040/13493290/michael-carrick-man-utd-confirm-interim-head-coach-appointment-for-remainder-of-the-season",
+      "summary": "Manchester United have appointed Michael Carrick as interim head coach until the end of the season.",
+      "publishedAt": "2026-01-13T19:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Robertson: Szoboszlai backheel 'unacceptable'",
+      "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
+      "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
+      "publishedAt": "2026-01-13T19:11:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
+      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
+      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
+      "publishedAt": "2026-01-13T19:11:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
+      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
+      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
+      "publishedAt": "2026-01-13T19:11:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "San Diego spends big to land Brazil star Ludmila",
+      "link": "https://www.espn.com/soccer/story/_/id/47600205/san-diego-wave-transfer-brazil-ludmila-chicago-stars",
+      "summary": "The San Diego Wave have signed Brazil international forward Ludmila from NWSL rivals Chicago Stars FC in a transfer worth an initial $800,000, the clubs announced Tuesday.",
+      "publishedAt": "2026-01-13T19:11:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Newcastle United v Manchester City: Carabao Cup semi-final first leg – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/13/newcastle-united-v-manchester-city-carabao-cup-semi-final-first-leg-live",
+      "summary": "⚽️ League Cup updates, 8pm GMT kick-off at St James’ Park ⚽️ Live scores | Follow us on Bluesky | And send Barry a mail Eddie Howe: “Pep will tactically have something ready for us and we will have to be at our very best to get through,” said the Newcastle head coach at his pre-match press conference. “They change and tinker a lot with the tactical set-up they have. They’re a difficult team to read and know how to plan and prepare for.” Pep Guardiola: “I didn’t go to sleep last night thinking about how my genius can come up with a plan for Eddie Howe,” said the City boss. “Many years since Eddie Howe took over, look how many games they have won in the last minute. The push from the crowd - it’s always been like that for a long time. In that stadium it is special. The semi-finals, playing Arsenal and Chelsea, it would be as difficult as Newcastle is.” Continue reading...",
+      "publishedAt": "2026-01-13T19:08:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kees Smit houdt regie over eigen carrière",
+      "link": "https://www.vi.nl/nieuws/kees-smit-houdt-regie-over-eigen-carri-re",
+      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-13T19:04:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kees Smit en de hype: 'Ik besef het zelf nog helemaal niet'",
+      "link": "https://www.vi.nl/pro/kees-smit-en-de-hype-ik-besef-het-zelf-nog-helemaal-niet",
+      "summary": "Terwijl het miljoenenspel rond Kees Smit in gang wordt gezet, houdt de AZ-middenvelder zelf zijn ogen op de bal gericht. Te beginnen tegen Ajax, in de achtste finale van het bekertoernooi. ‘Het is heel groot allemaal.’",
+      "publishedAt": "2026-01-13T19:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Zerrouki terug in basis FC Twente, Jans verrast met opstelling FC Utrecht",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
+      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
+      "publishedAt": "2026-01-13T18:52:39.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What does Trump's foreign policy mean for World Cup?",
+      "link": "https://www.bbc.com/sport/football/articles/c2051p7ej1vo?at_medium=RSS&at_campaign=rss",
+      "summary": "As a group of cross-party MPs calls on Fifa to consider expelling the USA from the World Cup, BBC Sport analyses what Donald Trump’s foreign policy means for the tournament.",
+      "publishedAt": "2026-01-13T18:34:08.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -18,87 +139,21 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Newcastle vs Man City team news LIVE!",
+      "title": "Tonali rested for Newcastle as Man City start Semenyo LIVE!",
       "link": "https://www.skysports.com/football/newcastle-united-vs-manchester-city/live/551323",
       "summary": "",
       "publishedAt": "2026-01-13T18:30:00.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De Jong en Barça halen opgelucht adem: minimale schorsing wegens rode kaart",
-      "link": "https://www.vi.nl/nieuws/de-jong-en-bar-a-halen-opgelucht-adem-minimale-schorsing-wegens-rode-kaart",
-      "summary": "Frenkie de Jong kan opgelucht ademhalen. De middenvelder van Barcelona is voor één wedstrijd geschorst en krijgt een boete vanwege zijn rode kaart in de finale van de Supercopa. Hij mist hierdoor de achtste finales van de Copa del Rey.",
-      "publishedAt": "2026-01-13T18:19:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Turkse aanbieding voor Kanté, Franse interesse voor Szymanski'",
-      "link": "https://www.vi.nl/nieuws/turks-avontuur-lonkt-voor-kant-franse-interesse-voor-szymanski",
-      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-13T18:14:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Robertson: Szoboszlai backheel 'unacceptable'",
-      "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
-      "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
-      "publishedAt": "2026-01-13T18:12:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
-      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
-      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
-      "publishedAt": "2026-01-13T18:12:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
-      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
-      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
-      "publishedAt": "2026-01-13T18:12:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "San Diego spends big to land Brazil star Ludmila",
-      "link": "https://www.espn.com/soccer/story/_/id/47600205/san-diego-wave-transfer-brazil-ludmila-chicago-stars",
-      "summary": "The San Diego Wave have signed Brazil international forward Ludmila from NWSL rivals Chicago Stars FC in a transfer worth an initial $800,000, the clubs announced Tuesday.",
-      "publishedAt": "2026-01-13T18:12:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "De recordaankoop van Heracles moet nu opstaan",
-      "link": "https://www.vi.nl/pro/de-recordaankoop-van-heracles-moet-nu-opstaan",
-      "summary": "Nu topscorer Jizz Hornkamp is vertrokken, zijn de ogen bij Heracles Almelo gericht op Luka Kulenovic. De 26-jarige spits moet de doelpunten gaan maken bij de hekkensluiter van de Eredivisie, terwijl hij nog zoekt naar zijn vorm van vorig seizoen. In gesprek met de international van Bosnië en Herzegovina, die er om twee redenen op gebrand is om goed te presteren in Almelo.",
-      "publishedAt": "2026-01-13T18:00:00.000Z"
+      "title": "Chelsea and Scotland legend McCreadie dies aged 85",
+      "link": "https://www.bbc.com/sport/football/articles/c4g0d3eyvepo?at_medium=RSS&at_campaign=rss",
+      "summary": "Former Scotland and Chelsea player Eddie McCreadie, who was once hailed by Tommy Docherty as the best left-back in Europe and went on to manage the London club, dies at the age of 85.",
+      "publishedAt": "2026-01-13T18:20:17.000Z"
     },
     {
       "type": "rss",
@@ -110,17 +165,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cly3x9ngj18o?at_medium=RSS&at_campaign=rss",
       "summary": "A coroner concludes that a 36-year-old Liverpool fan took his own life after he was enticed to use illegal gambling websites to bet on football matches.",
       "publishedAt": "2026-01-13T17:45:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bundesliga-duel tweeënhalf uur voor de aftrap afgelast",
-      "link": "https://www.vi.nl/nieuws/bundesliga-duel-twee-nhalf-uur-voor-de-aftrap-afgelast",
-      "summary": "Het Bundesliga-duel tussen Hamburger SV en Bayer Leverkusen is dinsdagavond een paar uur voor de aftrap afgelast. Op het dak van het Volksparkstadion ligt te veel smeltend ijs, wat onverantwoorde risico's met zich meebrengt voor de bezoekers van de wedstrijd.",
-      "publishedAt": "2026-01-13T17:37:48.000Z"
     },
     {
       "type": "rss",
@@ -176,50 +220,6 @@
       "link": "https://www.skysports.com/boxing/news/12040/13493835/conor-benn-in-touching-distance-of-becoming-wbc-world-champion-title-fight-vs-ryan-garcia-or-mario-barrios-awaits",
       "summary": "Conor Benn believes he is within 'touching distance' of the WBC welterweight title, and is ready to fight the winner of Mario Barrios against Ryan Garcia.",
       "publishedAt": "2026-01-13T15:37:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Broad: Current England squad do not have drinking culture",
-      "link": "https://www.skysports.com/cricket/news/12040/13493813/stuart-broad-current-england-squad-under-ben-stokes-brendon-mccullum-do-not-have-drinking-culture",
-      "summary": "Former England bowler Stuart Broad says he believes England \"do not have a drinking culture,\" despite a number of high-profile incidents during the side's 4-1 Ashes defeat to Australia this winter.",
-      "publishedAt": "2026-01-13T15:10:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mané v Salah: veteran superstars dominate buildup to Senegal v Egypt Afcon semi",
-      "link": "https://www.theguardian.com/football/2026/jan/13/sadio-mane-mohamed-salah-egypt-senegal-afcon-semi-final",
-      "summary": "Former Liverpool teammates meet for the sixth time in international football, with Salah still waiting for meaningful victory The Olembe Stadium, Yaoundé, 6 February 2022, the Africa Cup of Nations final. Senegal and Egypt drew 0-0. Penalties followed. The first three kicks were scored, then Egypt’s Mohamed Abdelmonem hit the post. Mohamed Abou Gabal immediately saved from Bouna Sarr but Édouard Mendy saved the fourth Egyptian effort, from Mohanad Lasheen. After four penalties each, Senegal led 3-2; Sadio Mané had the chance to win it. Mané had missed a fifth-minute penalty in the game. He had missed a penalty against Cameroon in the shootout after the quarter-final in Franceville in 2017. “I can’t explain how tough it was for me,” Mané said. “I was sleeping four or five hours a night, five hours maximum. I had a big pressure in my head. I would go to bed and wake up maybe at 4am and I could not sleep any more … Everybody knew I was obsessed about this tournament and wanted to win it with my country … Thinking about this penalty I can say it was one of the hardest things in my life.” Continue reading...",
-      "publishedAt": "2026-01-13T11:56:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "‘A clear injustice’: PSG Women rail over points deduction in season of pain",
-      "link": "https://www.theguardian.com/football/2026/jan/13/a-clear-injustice-psg-women-rail-over-points-deduction-in-season-of-pain",
-      "summary": "Club furious after being sanctioned for paperwork error regarding Canada international Florianne Jourde Paris Saint-Germain have lost only one league game all season yet are still only fifth in the Première Ligue. How is that possible? On Monday 22 December, just after the final league game of 2025, the French Football Federation issued a bombshell statement: three of PSG’s wins this season had been turned into defeats (0-3) because of a licensing issue regarding the Canada international Florianne Jourde. Continue reading...",
-      "publishedAt": "2026-01-13T11:35:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Michael Carrick adds Steve Holland and Woodgate to staff at Manchester United",
-      "link": "https://www.theguardian.com/football/2026/jan/13/michael-carrick-manchester-united-interim-head-coach-steve-holland-jonathan-woodgate",
-      "summary": "Carrick poised to be confirmed as interim manager Darren Fletcher returns to job with United’s under-18s Michael Carrick has handed Steve Holland and Jonathan Woodgate roles on his staff at Manchester United. Carrick will be confirmed as the club’s interim manager until the end of the season and four spots on his backroom team have been filled. Holland was the assistant to Gareth Southgate with England and more recently the manager of the Japanese club Yokohama F Marinos, who sacked him last April. Woodgate coached alongside Carrick at Middlesbrough and had a spell there and at Bournemouth as manager. Retained on the staff after working with Darren Fletcher are Travis Binnion, who was promoted from his role as under-21s lead coach, and Jonny Evans. Continue reading...",
-      "publishedAt": "2026-01-13T10:59:37.000Z"
     }
   ]
 }
