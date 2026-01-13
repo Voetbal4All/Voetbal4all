@@ -1,27 +1,16 @@
 {
-  "generatedAt": "2026-01-13T14:29:36.227Z",
+  "generatedAt": "2026-01-13T15:30:44.166Z",
   "items": [
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Carrick set to be new Man United boss",
-      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-set-appointed-new-man-united-interim-boss-sources",
-      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
-      "publishedAt": "2026-01-13T14:24:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mbappé, but not Bellingham, bids Alonso adiós",
-      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
-      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
-      "publishedAt": "2026-01-13T14:24:01.000Z"
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Nunnely maakt transfer binnen Griekenland, 'Italiaanse stoelendans om Raspadori'",
+      "link": "https://www.vi.nl/nieuws/nunnely-maakt-transfer-binnen-griekenland-italiaanse-stoelendans-om-raspadori",
+      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-13T15:16:20.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,62 @@
       "title": "Robertson: Szoboszlai backheel 'unacceptable'",
       "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
       "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
-      "publishedAt": "2026-01-13T14:24:01.000Z"
+      "publishedAt": "2026-01-13T15:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
+      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
+      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
+      "publishedAt": "2026-01-13T15:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Carrick set to be new Man United boss",
+      "link": "https://www.espn.com/soccer/story/_/id/47587449/michael-carrick-set-appointed-new-man-united-interim-boss-sources",
+      "summary": "Michael Carrick has growing support within Manchester United for the role of interim manager, with sources telling ESPN that the former midfielder has significant backing.",
+      "publishedAt": "2026-01-13T15:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Mbappé, but not Bellingham, bids Alonso adiós",
+      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
+      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
+      "publishedAt": "2026-01-13T15:12:19.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Marokko leeft toe naar 'een van de belangrijkste wedstrijden ooit'",
+      "link": "https://www.vi.nl/nieuws/marokko-leeft-toe-naar-een-van-de-belangrijkste-wedstrijden-ooit",
+      "summary": "Marokko staat na 22 jaar weer in de halve finale van de Afrika Cup en maakt zich op voor 'een van de belangrijkste wedstrijden uit de geschiedenis'. Dat zei bondscoach Walid Regragui daags voor het duel met Nigeria. De Leeuwen van de Atlas nemen alleen genoegen met de eindzege op het toernooi. 'We staan nu waar we horen.'",
+      "publishedAt": "2026-01-13T15:11:24.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Predicting the Premier League table: How will all 20 teams finish the season?",
+      "link": "https://www.espn.com/soccer/story/_/id/47591334/predicting-premier-league-table-how-all-20-teams-finish-season",
+      "summary": "Who will win the Premier League and who will be relegated? It's time to predict how the second half of the season finishes.",
+      "publishedAt": "2026-01-13T15:05:50.000Z"
     },
     {
       "type": "rss",
@@ -62,32 +106,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "'Spaanse hekkensluiter overweegt San Diego van Lozano te verlossen'",
-      "link": "https://www.vi.nl/nieuws/spaanse-hekkensluiter-overweegt-san-diego-van-lozano-te-verlossen",
-      "summary": "Hirving Lozano staat voor een mogelijke terugkeer naar Europa. De aanvaller kreeg onlangs te horen dat hij moet vertrekken bij San Diego en is op de radar verschenen bij Real Oviedo. De hekkensluiter van La Liga overweegt de Mexicaan tijdelijk over te nemen, mits bepaalde voorwaarden dat toelaten, zo meldt Mundo Deportivo .",
-      "publishedAt": "2026-01-13T13:53:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "Real Madrid presenteert trotse Arbeloa: 'Heb gisteren met Alonso gesproken'",
       "link": "https://www.vi.nl/nieuws/real-madrid-presenteert-trotse-arbeloa-heb-gisteren-met-alonso-gesproken",
       "summary": "Real Madrid heeft Álvaro Arbeloa dinsdag officieel gepresenteerd als nieuwe hoofdtrainer, een dag nadat Xabi Alonso onverwacht aan de kant werd gezet. De 42-jarige oud-verdediger schuift door vanuit de jeugdopleiding en krijgt de taak om de prestaties te stabiliseren.",
       "publishedAt": "2026-01-13T13:35:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Transfers PSV: deze eisen stelt PSV aan een mogelijke nieuwe spits",
-      "link": "https://www.vi.nl/nieuws/transfers-psv-bosz-sluit-extra-transfer-niet-uit-na-blessure-pepi",
-      "summary": "VI volgt het transfernieuws bij PSV op de voet, zeker nu de winterse transferwindow in aantocht is. De doelwitten van de Eindhovenaren, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
-      "publishedAt": "2026-01-13T13:13:26.000Z"
     },
     {
       "type": "rss",
@@ -102,28 +124,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arbeloa will bring a bit of Mourinho back to Real Madrid",
-      "link": "https://www.espn.com/soccer/story/_/id/47597255/why-arbeloa-bring-bit-mourinho-back-real-madrid",
-      "summary": "Álvaro Arbeloa, Xabi Alonso's successor as Real Madrid coach, was a 'Mourinhista' as a player and has adopted his former boss's mentality and approach.",
-      "publishedAt": "2026-01-13T12:13:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Alonso wasn't perfect, but sacking him ignores Madrid's real problems",
-      "link": "https://www.espn.com/soccer/story/_/id/47591517/xabi-alonso-wasnt-perfect-sacking-ignores-real-madrid-florentino-perez-real-problems",
-      "summary": "Xabi Alonso's dismissal will hardly solve the numerous problems the club is combatting.",
-      "publishedAt": "2026-01-13T12:13:27.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -135,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Aston Villa latest: Roma, Juventus and Atletico battling for Malen",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "summary": "",
-      "publishedAt": "2026-01-13T11:46:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -154,17 +143,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/13/a-clear-injustice-psg-women-rail-over-points-deduction-in-season-of-pain",
       "summary": "Club furious after being sanctioned for paperwork error regarding Canada international Florianne Jourde Paris Saint-Germain have lost only one league game all season yet are still only fifth in the Première Ligue. How is that possible? On Monday 22 December, just after the final league game of 2025, the French Football Federation issued a bombshell statement: three of PSG’s wins this season had been turned into defeats (0-3) because of a licensing issue regarding the Canada international Florianne Jourde. Continue reading...",
       "publishedAt": "2026-01-13T11:35:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Brentford latest: Bees want to keep Ajer amid Wolfsburg interest",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279280/brentford-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "summary": "",
-      "publishedAt": "2026-01-13T11:00:00.000Z"
     },
     {
       "type": "rss",
@@ -220,6 +198,28 @@
       "link": "https://www.theguardian.com/football/2026/jan/13/football-transfer-rumours-manchester-united-to-bid-30m-for-marcos-llorente",
       "summary": "Today’s rumours are misty-eyed The fun has only just begun at Old Trafford where Michael Carrick will become the head coach until the end of the season. As someone who knows a thing or two about central midfielders, Carrick will immediately realise Manchester United are desperately in need of one. Al-Hilal’s Rúben Neves is on the radar, as is Atlético Madrid’s Marcos Llorente. The 30-year-old is valued at £30m, leaving Jason Wilcox and chums plenty to ponder. There are, supposedly, admirers of Sassuolo’s Tarik Muharemovic at United but if they really want to acquire the centre-back’s services they will need to overcome competing interest from Tottenham and Newcastle. Continue reading...",
       "publishedAt": "2026-01-13T08:18:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "VAR errors increase: Each of the 13 mistakes so far this season",
+      "link": "https://www.bbc.com/sport/football/articles/cvgrx8ml7m0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Premier League's KMI Panel makes judgements on every key decisions. Here's what they say the VAR has got wrong.",
+      "publishedAt": "2026-01-13T07:06:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "A 'weird' and 'incredible' error - but was Szoboszlai disrespectful?",
+      "link": "https://www.bbc.com/sport/football/articles/c9vxg4dmpzwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool beat Barnsley 4-1 in FA Cup fourth round but it was Dominik Szoboszlai's first-half error that had lots of people talking.",
+      "publishedAt": "2026-01-12T23:45:54.000Z"
     }
   ]
 }
