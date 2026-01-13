@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-01-13T20:30:08.802Z",
+  "generatedAt": "2026-01-13T21:25:45.233Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: FC Utrecht raakt twee keer de lat, Semenyo blinkt uit bij City",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
+      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
+      "publishedAt": "2026-01-13T21:24:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dortmund doet sollicitatie naar best of the rest met doordeweekse zege",
+      "link": "https://www.vi.nl/nieuws/dortmund-doet-sollicitatie-naar-best-of-the-rest-met-doordeweekse-zege",
+      "summary": "Borussia Dortmund heeft dinsdagavond een goede stap gezet richting de tweede plaats in de Bundesliga. De ploeg van Niko Kovac won in eigen huis eenvoudig van Werder Bremen.",
+      "publishedAt": "2026-01-13T21:23:00.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -10,18 +32,29 @@
       "title": "Newcastle United v Manchester City: Carabao Cup semi-final first leg – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/13/newcastle-united-v-manchester-city-carabao-cup-semi-final-first-leg-live",
       "summary": "⚽️ League Cup updates, 8pm GMT kick-off at St James’ Park ⚽️ Live scores | Follow us on Bluesky | And send Barry a mail An email: “G’Day Bazza,” writes Chris Paraskevas from Australia. “It’s a civilized 0700 kickoff for those of us Down Under and there is only one question on Newcastle fans’ collective hive mind: will Anthony Gordon and Anthony Elanga wear matching headbands tonight? “As the season has progressed, Gordon has moved from plain black headband to a branded Adidas one, but Elanga’s game and fashion have comparatively stalled this season - maybe he’ll go fot something spicey, like one of the bandanas the gangsters wear in Blood In Blood Out. Continue reading...",
-      "publishedAt": "2026-01-13T20:23:27.000Z"
+      "publishedAt": "2026-01-13T21:09:32.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: De Wit zet FC Utrecht op voorsprong, Antwerp leidt dankzij Kerk",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
-      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
-      "publishedAt": "2026-01-13T20:17:51.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Real Madrid fired Xabi Alonso after 233 days. Where did it all go wrong?",
+      "link": "https://www.espn.com/soccer/story/_/id/47597821/why-real-madrid-sacked-manager-xabi-alonso-233-days",
+      "summary": "Xabi Alonso returned to Real Madrid as a club legend and one of the most sought-after coaches around, but he lasted less than a year. What happened?",
+      "publishedAt": "2026-01-13T21:02:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United name Carrick boss until end of season",
+      "link": "https://www.espn.com/soccer/story/_/id/47588996/man-united-michael-carrick-interim-manager-end-season",
+      "summary": "Manchester United have appointed former player Michael Carrick as their head coach until the end of the season, the club confirmed Tuesday.",
+      "publishedAt": "2026-01-13T20:54:43.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +65,40 @@
       "title": "Robertson: Szoboszlai backheel 'unacceptable'",
       "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
       "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
-      "publishedAt": "2026-01-13T20:06:53.000Z"
+      "publishedAt": "2026-01-13T20:54:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
+      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
+      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
+      "publishedAt": "2026-01-13T20:54:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
+      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
+      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
+      "publishedAt": "2026-01-13T20:54:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Betis-trainer Pellegrini hekelt ontslag Xabi Alonso: 'Leef met hem mee'",
+      "link": "https://www.vi.nl/video/betis-trainer-pellegrini-hekelt-ontslag-xabi-alonso-leef-met-hem-mee",
+      "summary": "Real Betis-trainer Manuel Pellegrini heeft geen goed woord over voor het ontslag van Xabi Alonso bij Real Madrid. 'Ik leef met hem mee. Hij heeft een mooie carrière voor zich. Je kan iemand niet na drie of vier maanden al beoordelen. Real is nog in de race voor drie verschillende prijzen.'",
+      "publishedAt": "2026-01-13T20:43:00.000Z"
     },
     {
       "type": "rss",
@@ -69,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bellingham ontkent geruchten na ontslag Alonso: 'Wat een onzin'",
-      "link": "https://www.vi.nl/nieuws/bellingham-ontkent-geruchten-na-ontslag-xabi-alonso-wat-een-onzin",
-      "summary": "Jude Bellingham heeft zich voor het eerst uitgesproken over het ontslag van Xabi Alonso bij Real Madrid. The Athletic en ESPN claimden dat de Engelsman een van de spelers was die niet meer achter zijn voormalige trainer stond, maar dat is volgens Bellingham klinkklare onzin.",
-      "publishedAt": "2026-01-13T19:45:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -102,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Carrick neemt voormalig assistent Southgate mee naar United",
-      "link": "https://www.vi.nl/nieuws/carrick-keert-terug-bij-manchester-united-als-interim-manager",
-      "summary": "Michael Carrick maakt het seizoen af bij Manchester United. De 44-jarige oud-speler van de club is aangesteld als interim-manager na het ontslag van Rúben Amorim van begin dit jaar.",
-      "publishedAt": "2026-01-13T19:35:14.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -121,50 +165,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c0erq5gdvwqo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United appoint former player Michael Carrick as caretaker head coach until the end of the season.",
       "publishedAt": "2026-01-13T19:28:01.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
-      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
-      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
-      "publishedAt": "2026-01-13T19:20:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
-      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
-      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
-      "publishedAt": "2026-01-13T19:20:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "San Diego spends big to land Brazil star Ludmila",
-      "link": "https://www.espn.com/soccer/story/_/id/47600205/san-diego-wave-transfer-brazil-ludmila-chicago-stars",
-      "summary": "The San Diego Wave have signed Brazil international forward Ludmila from NWSL rivals Chicago Stars FC in a transfer worth an initial $800,000, the clubs announced Tuesday.",
-      "publishedAt": "2026-01-13T19:20:40.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man United name Carrick boss until end of season",
-      "link": "https://www.espn.com/soccer/story/_/id/47588996/man-united-michael-carrick-interim-manager-end-season",
-      "summary": "Manchester United have appointed former player Michael Carrick as their head coach until the end of the season, the club confirmed Tuesday.",
-      "publishedAt": "2026-01-13T19:20:30.000Z"
     },
     {
       "type": "rss",
@@ -194,7 +194,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "'Big miss!' Wissa wastes chance to give Newcastle early lead LIVE!",
+      "title": "Semenyo scores seconds after Wissa hits post as Man City lead LIVE!",
       "link": "https://www.skysports.com/football/newcastle-united-vs-manchester-city/live/551323",
       "summary": "",
       "publishedAt": "2026-01-13T18:30:00.000Z"
