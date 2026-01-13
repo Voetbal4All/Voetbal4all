@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-01-13T05:29:23.595Z",
+  "generatedAt": "2026-01-13T06:40:03.822Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax gaat Ibrahimovic (19) verwelkomen: 'De eerste indruk is erg goed'",
+      "link": "https://www.vi.nl/nieuws/ajax-gaat-ibrahimovic-19-vastleggen-de-eerste-indruk-is-erg-goed",
+      "summary": "Willem Weijs is blij met de aanstaande komst van Maximilian Ibrahimovic naar Ajax. De club gaat de aanvaller huren van AC Milan en stalt hem bij Jong Ajax.",
+      "publishedAt": "2026-01-13T06:33:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ajax probeert ruimte te maken in januari",
+      "link": "https://www.vi.nl/nieuws/gaaei-wijndal-fitz-jim-van-den-boomen-en-edvardsen-mogen-weg-bij-ajax",
+      "summary": "Met nog drie weken te gaan in de winterse transferwindow zijn er bij Ajax nog wel de nodige mutaties te verwachten. Zoals bekend zoekt de club nog een nummer 6, een back en eventueel een aanvaller, maar het streven is om minstens zoveel spelers te laten gaan.",
+      "publishedAt": "2026-01-13T06:30:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "NEC halsoverkop naar Spanje: 'In Nederland echt mindere omstandigheden'",
+      "link": "https://www.vi.nl/nieuws/nec-halsoverkop-naar-spanje-in-nederland-echt-mindere-omstandigheden",
+      "summary": "NEC is halsoverkop naar Zuid-Spanje gereisd voor een kort trainingskamp, nu de herstart van het seizoen in het water is gevallen. Zowel de Eredivisie-wedstrijd tegen FC Utrecht als het bekerduel met De Treffers werd afgelast door de winterse omstandigheden. Nu bereidt de ploeg van Dick Schreuder zich voor onder de Spaanse zon.",
+      "publishedAt": "2026-01-13T06:15:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Transfers Ajax: vijftal mag vertrekken uit Amsterdam",
+      "link": "https://www.vi.nl/nieuws/transfers-ajax-ajax-maakt-werk-van-komst-ibrahimovic-jr",
+      "summary": "VI volgt het transfernieuws bij Ajax op de voet, zeker nu de winterse transferwindow in aantocht is. De doelwitten van de Amsterdammers, duiding van de clubwatcher, of aandacht in buitenlandse media. We verzamelen alles hier.",
+      "publishedAt": "2026-01-13T06:01:08.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'No need to always be negative' - F1 chief Domenicali wants 'strong' Ferrari",
+      "link": "https://www.skysports.com/f1/news/12040/13491442/f1-chief-stefano-domenicali-wants-strong-ferrari-in-2026-season-and-says-team-must-have-a-plan",
+      "summary": "Formula 1 chief Stefano Domenicali says Ferrari \"need to have a plan\" and the \"right energy\" for the new 2026 F1 season.",
+      "publishedAt": "2026-01-13T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Turner: 2026 about rebuilding for Sherrock - 'Greaves taking spotlight will help'",
+      "link": "https://www.skysports.com/darts/news/12040/13493466/laura-turner-2026-about-rebuilding-for-fallon-sherrock-beau-greaves-taking-spotlight-will-help-her",
+      "summary": "After Fallon Sherrock failed to earn a PDC Tour Card for 2026 at Q-School, Sky Sports Darts' Laura Turner looks at what's next for the Ally Pally history-maker...",
+      "publishedAt": "2026-01-13T06:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De dossiers van de nieuwe td Jordi Cruijff: Make Ajax Great Again",
+      "link": "https://www.vi.nl/pro/de-dossiers-van-de-nieuwe-td-jordi-cruijff-make-ajax-great-again",
+      "summary": "Jordi Cruijff staat aan de vooravond van zijn project bij Ajax. De 51-jarige Amsterdammer begint officieel in februari als statutair technisch directeur, maar wordt uiteraard al volop meegenomen in de besluitvorming. Over de dossiers op het bordje van de nieuwe voetbalbaas van Ajax.",
+      "publishedAt": "2026-01-13T06:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -69,28 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Viraal gaande Afrika Cup-fan krijgt een auto van Congolese president",
-      "link": "https://www.vi.nl/nieuws/viraal-gaande-afrika-cup-fan-krijgt-een-auto-van-congolese-president",
-      "summary": "De meest besproken fan van deze Afrika Cup-editie is zonder twijfel Michel Kuka Mboladinga. De trouwe supporter van DR Congo ging eerder dit toernooi viraal. Nu is hij door zijn president ook nog beloond met een fraai cadeau: een Jeep.",
-      "publishedAt": "2026-01-12T22:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot over mislukt hakje Szoboszlai: 'Daar heb ik wel een mening over'",
-      "link": "https://www.vi.nl/nieuws/slot-over-mislukt-hakje-szoboszlai-daar-heb-ik-wel-een-mening-over",
-      "summary": "Arne Slot vond het een gekke beslissing van Dominik Szoboszlai om in zijn eigen zestien een hakbal te geven. De Hongaar gaf daarmee een doelpunt weg voor Liverpool in het gewonnen FA Cup-duel met Barnsley. Verder wilde Slot zijn mening vooral voor zich houden.",
-      "publishedAt": "2026-01-12T22:34:29.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -102,28 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Stunt Paris FC maakt het cirkeltje rond",
-      "link": "https://www.vi.nl/nieuws/vi-live-kkd-eindelijk-terug-slot-met-liverpool-in-fa-cup",
-      "summary": "In deze VI Live volgen we het gemêleerde programma in binnen- en buitenland op de voet. De Keuken Kampioen Divisie is terug na de (verlengde) winterstop, verder spelen Liverpool en Paris Saint-Germain in de bekertoernooien.",
-      "publishedAt": "2026-01-12T22:13:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "PSG uit Franse beker gebonjourd door buurman Paris FC",
-      "link": "https://www.vi.nl/nieuws/psg-uit-franse-beker-gebonjourd-door-buurman-paris-fc",
-      "summary": "Paris Saint-Germain ligt uit de Franse beker. De regerend Champions League-winnaar ging maandag ten onder tegen buurman Paris FC. Daardoor kent de Coupe de France na twee jaar weer eens een andere winnaar.",
-      "publishedAt": "2026-01-12T22:06:29.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -132,17 +165,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/12/liverpool-barnsley-fa-cup-match-report",
       "summary": "The scoreline was far more convincing than Liverpool’s performance against League One opposition. Barnsley made Arne Slot’s side battle for the right to host Brighton in round four while their head coach, Conor Hourihane, accused Dominik Szoboszlai of disrespect for gifting his team a goal while showboating. Slot appeared inclined to agree. Liverpool were grateful for a late Florian Wirtz-inspired flourish for an ultimately comfortable margin of victory and banishing any anxieties. But this had been another slog against a low defensive block until the expensive substitute swept home a fine third goal and created a stoppage‑time fourth for Hugo Ekitiké. There was no more relieved man inside Anfield than Szoboszlai. Continue reading...",
       "publishedAt": "2026-01-12T21:57:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Juventus viert zijn grootste overwinning van het seizoen",
-      "link": "https://www.vi.nl/nieuws/juventus-viert-zijn-grootste-overwinning-van-het-seizoen",
-      "summary": "Juventus heeft maandag een zorgeloze avond beleefd tegen Cremonese. De ploeg van Luciano Spalletti laat met de grootste overwinning van dit seizoen zien dat het nog zeker niet afgeschreven kan worden in de strijd om de Scudetto.",
-      "publishedAt": "2026-01-12T21:41:00.000Z"
     },
     {
       "type": "rss",
@@ -176,28 +198,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c3ed5x7d172o?at_medium=RSS&at_campaign=rss",
       "summary": "After Xabi Alonso's departure as Real Madrid manager, Spanish football expert Guillem Balague looks into where it all went wrong.",
       "publishedAt": "2026-01-12T19:54:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Skeleton race controversy: Canada defends move amid sabotage claims",
-      "link": "https://www.skysports.com/olympics/news/12040/13493523/skeleton-canada-facing-investigation-amid-claims-2026-winter-olympics-skeleton-qualifier-was-sabotaged",
-      "summary": "Canada has launched a robust defence against accusations it deliberately withdrew four athletes from a skeleton race, a move that dashed eventual winner Katie Uhlaender's hopes of qualifying for the Winter Olympics.",
-      "publishedAt": "2026-01-12T19:51:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tottenham agree deal to sign Gallagher",
-      "link": "https://www.skysports.com/football/news/12040/13493438/conor-gallagher-transfer-news-tottenham-close-to-agreeing-deal-for-midfielder-amid-aston-villa-interest",
-      "summary": "Tottenham and Atletico Madrid have agreed a deal for Conor Gallagher worth £34m.",
-      "publishedAt": "2026-01-12T19:20:00.000Z"
     },
     {
       "type": "rss",
