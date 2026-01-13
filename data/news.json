@@ -1,27 +1,49 @@
 {
-  "generatedAt": "2026-01-13T21:25:45.233Z",
+  "generatedAt": "2026-01-13T22:26:30.582Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: FC Utrecht raakt twee keer de lat, Semenyo blinkt uit bij City",
-      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
-      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
-      "publishedAt": "2026-01-13T21:24:33.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Robertson: Szoboszlai backheel 'unacceptable'",
+      "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
+      "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
+      "publishedAt": "2026-01-13T22:20:27.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dortmund doet sollicitatie naar best of the rest met doordeweekse zege",
-      "link": "https://www.vi.nl/nieuws/dortmund-doet-sollicitatie-naar-best-of-the-rest-met-doordeweekse-zege",
-      "summary": "Borussia Dortmund heeft dinsdagavond een goede stap gezet richting de tweede plaats in de Bundesliga. De ploeg van Niko Kovac won in eigen huis eenvoudig van Werder Bremen.",
-      "publishedAt": "2026-01-13T21:23:00.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United name Carrick boss until end of season",
+      "link": "https://www.espn.com/soccer/story/_/id/47588996/man-united-michael-carrick-interim-manager-end-season",
+      "summary": "Manchester United have appointed former player Michael Carrick as their head coach until the end of the season, the club confirmed Tuesday.",
+      "publishedAt": "2026-01-13T22:20:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Semenyo nets again as Man City close in on final",
+      "link": "https://www.espn.com/soccer/report/_/gameId/401842433",
+      "summary": "Antoine Semenyo scored his second goal in as many games for his new club as Manchester City secured a precious Carabao Cup semifinal advantage over holders Newcastle.",
+      "publishedAt": "2026-01-13T22:20:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
+      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
+      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
+      "publishedAt": "2026-01-13T22:20:26.000Z"
     },
     {
       "type": "rss",
@@ -31,8 +53,85 @@
       "flag": "🌍",
       "title": "Newcastle United v Manchester City: Carabao Cup semi-final first leg – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/13/newcastle-united-v-manchester-city-carabao-cup-semi-final-first-leg-live",
-      "summary": "⚽️ League Cup updates, 8pm GMT kick-off at St James’ Park ⚽️ Live scores | Follow us on Bluesky | And send Barry a mail An email: “G’Day Bazza,” writes Chris Paraskevas from Australia. “It’s a civilized 0700 kickoff for those of us Down Under and there is only one question on Newcastle fans’ collective hive mind: will Anthony Gordon and Anthony Elanga wear matching headbands tonight? “As the season has progressed, Gordon has moved from plain black headband to a branded Adidas one, but Elanga’s game and fashion have comparatively stalled this season - maybe he’ll go fot something spicey, like one of the bandanas the gangsters wear in Blood In Blood Out. Continue reading...",
-      "publishedAt": "2026-01-13T21:09:32.000Z"
+      "summary": "Antoine Semenyo and Rayan Cherki got the goals as the visitors took control of a tie in which the officials took almost six minutes to rule out a goal An email: “G’Day Bazza,” writes Chris Paraskevas from Australia. “It’s a civilized 0700 kickoff for those of us Down Under and there is only one question on Newcastle fans’ collective hive mind: will Anthony Gordon and Anthony Elanga wear matching headbands tonight? “As the season has progressed, Gordon has moved from plain black headband to a branded Adidas one, but Elanga’s game and fashion have comparatively stalled this season - maybe he’ll go fot something spicey, like one of the bandanas the gangsters wear in Blood In Blood Out. Continue reading...",
+      "publishedAt": "2026-01-13T22:10:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Gyrano Kerk in topvorm: dubbelslag brengt Oosting en Antwerp naar halve finale",
+      "link": "https://www.vi.nl/nieuws/gyrano-kerk-in-topvorm-dubbelslag-brengt-oosting-en-antwerp-naar-halve-finale",
+      "summary": "Gyrano Kerk is in absolute topvorm in België. De voormalig aanvaller van FC Utrecht schoot Antwerp FC dinsdag diep in de verlenging naar de halve finale van de Beker van België. Kerk had in de eerste helft ook al de openingstreffer voor zijn rekening genomen.",
+      "publishedAt": "2026-01-13T22:08:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Chagrijn in Galgenwaard: Twente ten koste van Utrecht naar kwartfinale KNVB Beker",
+      "link": "https://www.vi.nl/nieuws/chagrijn-in-galgenwaard-twente-ten-koste-van-utrecht-naar-kwartfinale-knvb-beker",
+      "summary": "FC Twente heeft zich dinsdagavond als eerste ploeg geplaatst voor de kwartfinale van de Eurojackpot KNVB Beker. FC Utrecht leidde halverwege nog in de eigen Galgenwaard, maar was duidelijk de mindere van de twee ploegen en begon het nieuwe jaar met een flinke domper.",
+      "publishedAt": "2026-01-13T22:07:37.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Rensch met Roma uitgeschakeld, Marseille haalt uit tegen amateurs",
+      "link": "https://www.vi.nl/nieuws/vi-live-volg-hier-alles-rondom-het-bekervoetbal-en-de-bundesliga",
+      "summary": "De VI Live van dinsdag 13 januari staat volledig in het teken van bekervoetbal in zowel het binnen- als buitenland én de Bundesliga. In de Eurojackpot KNVB Beker nemen FC Utrecht en FC Twente het tegen elkaar op. In de League Cup spelen Newcastle United en Manchester City tegen elkaar. Verder komen ook Borussia Dortmund, Atlético Madrid en AS Roma in actie.",
+      "publishedAt": "2026-01-13T22:03:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "City zet mede dankzij nieuweling Semenyo grote stap richting Wembley",
+      "link": "https://www.vi.nl/nieuws/city-zet-mede-dankzij-nieuweling-semenyo-grote-stap-richting-wembley",
+      "summary": "Antoine Semenyo beleeft een droomweek bij zijn nieuwe club Manchester City. De Ghanees scoorde afgelopen zaterdag direct bij zijn debuut, drie dagen later opende hij de score in de League Cup tegen Newcastle United.",
+      "publishedAt": "2026-01-13T21:59:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Atlético bekert door dankzij prachtige vrije trap Griezmann",
+      "link": "https://www.vi.nl/nieuws/atl-tico-bekert-door-dankzij-prachtige-vrije-trap-griezmann",
+      "summary": "Atlético Madrid staat in de kwartfinales van de Copa del Rey. De ploeg van Diego Simeone won op bezoek bij Deportivo La Coruña dankzij een wonderschone treffer van Antoine Griezmann.",
+      "publishedAt": "2026-01-13T21:51:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City prepare Guehi offer - Wednesday's gossip",
+      "link": "https://www.bbc.com/sport/football/articles/c394z1p7g04o?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City prepare offer for Marc Guehi, Bayern Munich chief tries to convince the Crystal Palace defender, and Rashford return to Manchester United is off the cards.",
+      "publishedAt": "2026-01-13T21:34:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "DeChambeau, Rahm and Smith all committed to LIV Golf for upcoming season",
+      "link": "https://www.skysports.com/golf/news/12040/13493975/bryson-dechambeau-and-jon-rahm-committed-to-liv-golf-after-brooks-koepka-returned-to-pga-tour",
+      "summary": "Bryson DeChambeau, Jon Rahm and Cam Smith have committed to LIV Golf after Brooks Koepka announced his LIV Golf departure after four seasons with the Saudi-backed circuit.",
+      "publishedAt": "2026-01-13T21:33:00.000Z"
     },
     {
       "type": "rss",
@@ -47,80 +146,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man United name Carrick boss until end of season",
-      "link": "https://www.espn.com/soccer/story/_/id/47588996/man-united-michael-carrick-interim-manager-end-season",
-      "summary": "Manchester United have appointed former player Michael Carrick as their head coach until the end of the season, the club confirmed Tuesday.",
-      "publishedAt": "2026-01-13T20:54:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Robertson: Szoboszlai backheel 'unacceptable'",
-      "link": "https://www.espn.com/soccer/story/_/id/47597514/liverpool-barnsley-andy-robertson-dominik-szoboszlai-backheel-fa-cup-kop-anfield",
-      "summary": "Liverpool defender Andy Robertson has described teammate Dominik Szoboszlai's careless backheel against Barnsley as \"unacceptable.\"",
-      "publishedAt": "2026-01-13T20:54:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Klopp: Xabi's Madrid exit 'nothing to do with me'",
-      "link": "https://www.espn.com/soccer/story/_/id/47598753/xabi-alonso-real-madrid-exit-do-me",
-      "summary": "Jürgen Klopp has stated that he has not received any calls from Real Madrid following the exit of Xabi Alonso, and affirmed that the decision has nothing to do with him.",
-      "publishedAt": "2026-01-13T20:54:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Madrid stars Mbappé, Bellingham bid Alonso adiós",
-      "link": "https://www.espn.com/soccer/story/_/id/47597455/kylian-mbappe-bids-xabi-alonso-farewell-no-message-vinicius-junior-jude-bellingham",
-      "summary": "Kylian Mbappé has paid tribute to Xabi Alonso after the Spanish coach departed Real Madrid after less than eight months in charge.",
-      "publishedAt": "2026-01-13T20:54:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Betis-trainer Pellegrini hekelt ontslag Xabi Alonso: 'Leef met hem mee'",
-      "link": "https://www.vi.nl/video/betis-trainer-pellegrini-hekelt-ontslag-xabi-alonso-leef-met-hem-mee",
-      "summary": "Real Betis-trainer Manuel Pellegrini heeft geen goed woord over voor het ontslag van Xabi Alonso bij Real Madrid. 'Ik leef met hem mee. Hij heeft een mooie carrière voor zich. Je kan iemand niet na drie of vier maanden al beoordelen. Real is nog in de race voor drie verschillende prijzen.'",
-      "publishedAt": "2026-01-13T20:43:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Laatkomers dwingen Jans tot andere keuzes voor bekerduel met Twente",
-      "link": "https://www.vi.nl/nieuws/jans-houdt-laatkomers-murkin-en-rodr-guez-uit-de-basis-bij-utrecht",
-      "summary": "FC Utrecht-trainer Ron Jans heeft noodgedwongen moeten sleutelen aan zijn basisopstelling voor het bekerduel met FC Twente. Derry John Murkin en Miguel Rodríguez kwamen namelijk te laat op de wedstrijddag, waardoor zij als disciplinaire maatregel op de bank beginnen.",
-      "publishedAt": "2026-01-13T20:00:22.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Stije Resink in de spotlights: 'Ik zie het maar als een compliment'",
-      "link": "https://www.vi.nl/pro/stije-resink-in-de-spotlights-ik-zie-het-maar-als-een-compliment",
-      "summary": "De transferperiode is, nu nog veel meer dan voorheen, voor veel voetballiefhebbers een heuse entertainmentbusiness geworden. Stije Resink (22) ondervindt deze maand hoe het is om daar een hoofdrolspeler in te zijn. De aanvoerder van FC Groningen is duidelijk over hoe hij erin staat – en blij dat de rollende bal nu ook weer voor wat nieuwe gespreksstof zorgt.",
-      "publishedAt": "2026-01-13T20:00:00.000Z"
+      "title": "Man Utd choose Carrick as the right man for the job - for now",
+      "link": "https://www.skysports.com/football/news/12040/13493959/man-utd-keen-to-avoid-a-repeat-of-ruben-amorim-as-michael-carrick-appointed-until-the-end-of-the-season-reporter-notebook",
+      "summary": "Manchester United have gone with Michael Carrick as head coach until the end of the season, as Rob Dorsett and Danyal Khan break down why the club's hierarchy and Jason Wilcox landed on the appointment...",
+      "publishedAt": "2026-01-13T21:00:00.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c2051p7ej1vo?at_medium=RSS&at_campaign=rss",
       "summary": "As a group of cross-party MPs calls on Fifa to consider expelling the USA from the World Cup, BBC Sport analyses what Donald Trump’s foreign policy means for the tournament.",
       "publishedAt": "2026-01-13T18:34:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Semenyo scores seconds after Wissa hits post as Man City lead LIVE!",
-      "link": "https://www.skysports.com/football/newcastle-united-vs-manchester-city/live/551323",
-      "summary": "",
-      "publishedAt": "2026-01-13T18:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea and Scotland legend McCreadie dies aged 85",
-      "link": "https://www.bbc.com/sport/football/articles/c4g0d3eyvepo?at_medium=RSS&at_campaign=rss",
-      "summary": "Former Scotland and Chelsea player Eddie McCreadie, who was once hailed by Tommy Docherty as the best left-back in Europe and went on to manage the London club, dies at the age of 85.",
-      "publishedAt": "2026-01-13T18:20:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Football fan died after being targeted by 'predatory' gambling sites",
-      "link": "https://www.bbc.com/sport/football/articles/cly3x9ngj18o?at_medium=RSS&at_campaign=rss",
-      "summary": "A coroner concludes that a 36-year-old Liverpool fan took his own life after he was enticed to use illegal gambling websites to bet on football matches.",
-      "publishedAt": "2026-01-13T17:45:51.000Z"
     }
   ]
 }
