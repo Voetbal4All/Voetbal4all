@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-01-14T16:36:02.293Z",
+  "generatedAt": "2026-01-14T17:30:00.934Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Senegal v Egypt: Africa Cup of Nations semi-final – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/14/senegal-v-egypt-africa-cup-of-nations-2026-semi-final",
+      "summary": "⚽ Updates from the first semi-final; kick-off 5pm GMT ⚽ Follow us on Bluesky | Read Football Daily | Mail Yara Koulibaly and Salah shake hands as captains and are all smiles before Salah goes over to Mané before kick-off and the two share an embrace. The teams are out and the national anthems are being sung. First Senegal and then Egypt. Lots of support for both sides at the Tangier Grand Stadium. Continue reading...",
+      "publishedAt": "2026-01-14T17:23:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De bijzondere WK-droom van Heracles-spits Kulenovic",
+      "link": "https://www.vi.nl/nieuws/de-bijzondere-wk-droom-van-heracles-spits-kulenovic",
+      "summary": "Er zitten veel haken en ogen aan, maar Luka Kulenovic droomt van deelname aan het WK van komende zomer. Daarvoor moet er nog veel gebeuren, want Bosnië en Herzegovina moet zich nog plaatsen en de spits van Heracles Almelo zit vooralsnog niet bij de selectie. Kulenovic legt uit waarom het komende WK speciaal is voor hem.",
+      "publishedAt": "2026-01-14T17:10:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +32,7 @@
       "title": "Delay in disallowed Semenyo goal an 'edge case'",
       "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
       "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
-      "publishedAt": "2026-01-14T16:30:31.000Z"
+      "publishedAt": "2026-01-14T17:05:31.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +43,7 @@
       "title": "Man City sign USWNT's Coffey from Thorns",
       "link": "https://www.espn.com/soccer/story/_/id/47608248/man-city-sign-uswnt-sam-coffey-portland-thorns",
       "summary": "Manchester City have announced the signing of United States midfielder Sam Coffey from NWSL side Portland Thorns.",
-      "publishedAt": "2026-01-14T16:30:31.000Z"
+      "publishedAt": "2026-01-14T17:05:31.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +54,7 @@
       "title": "Tottenham sign Gallagher from Atlético Madrid",
       "link": "https://www.espn.com/soccer/story/_/id/47596920/conor-gallagher-tottenham-hotspur-transfers-atletico-madrid",
       "summary": "Tottenham Hotspur have signed Conor Gallagher from Spanish side Atlético Madrid, the club has confirmed.",
-      "publishedAt": "2026-01-14T16:30:31.000Z"
+      "publishedAt": "2026-01-14T17:05:31.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +62,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Barcelona's Flick: Alonso has great future ahead",
-      "link": "https://www.espn.com/soccer/story/_/id/47608316/barcelona-hansi-flick-backs-xabi-alonso-land-new-role",
-      "summary": "Barcelona coach Hansi Flick said Xabi Alonso will land a new job quickly, backing the outgoing Real Madrid coach to have a great career in management.",
-      "publishedAt": "2026-01-14T16:30:31.000Z"
+      "title": "Monaco CEO on injured Pogba: Plan isn't working",
+      "link": "https://www.espn.com/soccer/story/_/id/47610010/monaco-ceo-paul-pogba-injury-france-world-cup",
+      "summary": "Monaco's CEO acknowledged that their original plan for Paul Pogba \"is not working,\" with the former France star limited to just 30 minutes of action since joining the club last summer.",
+      "publishedAt": "2026-01-14T17:05:30.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +73,43 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Salah neemt het op tegen Mané in Afrika Cup",
+      "title": "VI Live: Salah strijdt tegen Mané om finaleplek Afrika Cup",
       "link": "https://www.vi.nl/nieuws/vi-live-heerlijke-doordeweekse-voetbalavond-op-het-menu",
       "summary": "Smullen op de woensdagavond. In de Eurojackpot KNVB Beker staan AZ en Ajax tegenover elkaar. Maar eerst komt PSV - op bezoek bij FC Den Bosch - in actie. In het buitenland staan onder meer Chelsea - Arsenal, FC Porto - Benfica en wedstrijden van Real Madrid, Bayern München, Napoli en Internazionale op het programma. Ook de halve finales van de Afrika Cup worden vanavond afgewerkt.",
-      "publishedAt": "2026-01-14T16:28:53.000Z"
+      "publishedAt": "2026-01-14T17:03:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Is Wenger's daylight idea the solution to fix offside?",
+      "link": "https://www.bbc.com/sport/football/articles/c17zw81yxp5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Is the offside law about to change to Arsene Wenger's daylight idea? And should football make that change just because of VAR?",
+      "publishedAt": "2026-01-14T17:00:11.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Opstelling PSV: Bajraktarevic start als spits in Den Bosch",
+      "link": "https://www.vi.nl/nieuws/opstelling-psv-bajraktarevic-start-als-spits-in-den-bosch",
+      "summary": "Esmir Bajraktarevic start woensdagavond als spits bij PSV. Op bezoek bij FC Den Bosch grijpt trainer Peter Bosz uit nood de kans aan om iets nieuws te proberen in de invulling van zijn aanvalslinie. Inzet: de kwartfinale in de Eurojackpot KNVB Beker.",
+      "publishedAt": "2026-01-14T16:44:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tottenham sign Conor Gallagher for £34.7m as Frank says he will bring ‘leadership’",
+      "link": "https://www.theguardian.com/football/2026/jan/14/tottenham-sign-conor-gallagher-as-frank-says-he-will-bring-leadership",
+      "summary": "Midfielder signs long-term deal after move from Atlético Thomas Frank: ‘Conor will bring leadership and maturity’ Tottenham have completed the signing of the England midfielder Conor Gallagher. The 25-year-old has joined Spurs from Atlético Madrid in a deal worth in the region of €40m (£34.7m) and is understood to have signed a contract until the summer of 2031. Aston Villa had initially led the race for Gallagher, who is keen for more playing time ahead of this summer’s World Cup, but Tottenham were able to convince the former Chelsea academy graduate to return to London. Continue reading...",
+      "publishedAt": "2026-01-14T16:28:04.000Z"
     },
     {
       "type": "rss",
@@ -80,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Senegal v Egypt: Africa Cup of Nations 2026 semi-final",
-      "link": "https://www.theguardian.com/football/live/2026/jan/14/senegal-v-egypt-africa-cup-of-nations-2026-semi-final",
-      "summary": "⚽ Updates from the first semi-final; kick-off 5pm GMT ⚽ Follow us on Bluesky | Read Football Daily | Mail Yara Senegal XI (4-3-3): Mendy; Diatta, Koulibaly, Niakhate, Diouf; G Gueye, P Gueye, Diarra; Ndiaye, Jackson, Mane. Only one change for Senegal as Jackson replaces Diallo. Mané and Salah are both 33, born 66 days apart on opposite sides of the continent. Mané, the elder, is the son of an imam from Bambali, on the north bank of the Casamance. His family didn’t want him to be a footballer so he ran away from home aged 15, taking the bus to Dakar. Salah was born in Nagrig, just east of the Nile. His family were less wary of football, but having made a bus journey of three-to-four hours to training with the Cairo club Al Mokawloon and back every day, he too ended up, aged 15, leaving home to live in his country’s capital. Their careers have run along not dissimilar lines. Both, for instance, have funded significant infrastructure projects in their home countries. But the sense at Liverpool was that their relationship was always a little spiky. Continue reading...",
-      "publishedAt": "2026-01-14T16:17:47.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -108,19 +152,8 @@
       "flag": "🌍",
       "title": "Tottenham sign Gallagher from Atletico for £35m",
       "link": "https://www.bbc.com/sport/football/articles/cddgzj33r2lo?at_medium=RSS&at_campaign=rss",
-      "summary": "The former Chelsea midfielder joins Spurs on a long-term contract.",
+      "summary": "The former Chelsea midfielder joins Spurs on a deal until 2031.",
       "publishedAt": "2026-01-14T16:14:59.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Gallagher na anderhalf jaar terug in Premier League",
-      "link": "https://www.vi.nl/nieuws/gallagher-na-anderhalf-jaar-terug-in-premier-league",
-      "summary": "Conor Gallagher keert terug op de Engelse velden. De middenvelder maakt na anderhalf jaar Atlético Madrid de overstap naar Tottenham Hotspur.",
-      "publishedAt": "2026-01-14T16:12:53.000Z"
     },
     {
       "type": "rss",
@@ -128,10 +161,21 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Gallagher joins Spurs in £34m move from Atletico Madrid",
+      "title": "Gallagher joins Spurs",
       "link": "https://www.skysports.com/football/news/12040/13494168/conor-gallagher-to-tottenham-atletico-madrid-midfielder-joins-spurs-in-34m-deal-after-aston-villa-interest",
       "summary": "Tottenham have completed the signing of England midfielder Conor Gallagher from Atletico Madrid for a fee of £34m.",
       "publishedAt": "2026-01-14T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Football Daily | Alonso and the trouble with replacing ego and vibes with work ethic at Madrid",
+      "link": "https://www.theguardian.com/football/2026/jan/14/football-daily-newsletter-real-madrid",
+      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! Having started this season at Real Madrid with 13 wins from his first 14 games, Xabi Alonso could be forgiven for thinking he was on to a good thing in his new role of Kindergarten Cop, tasked with instilling discipline among the spoilt and unruly brats in his care. While this excellent run was punctuated by a tonking at the hands of Atlético and a diva strop thrown by Vinícius Júnior, Alonso seemed to have pulled off the unthinkable by introducing something approaching a work ethic into a group of players who had previously been powered on ego and vibes. It wasn’t until November that the passengers on board the Madrid wagon began to unscrew the wheels, when a series of poor results led to revelations that all was not well in the camp. Leaks suggested the squad was split between the few players who were entirely sold on the 43-year-old’s ethos and the apparent vast majority who took exception to this José Come-Lately’s tyrannical demands that they turn up on time, run around a bit and occasionally sit through boring tactical presentations that lasted longer than a FaceSpace Snap. The suggestion that Manchester United hve taken/should take advice from Seinfeld [yesterday’s Football Daily] got me thinking. There was an episode about a competition during which, um, refraining from certain personal activities led to a temporary increase in intelligence (note: for male participants only!). As I recall, one of the outcomes was that George Costanza became fluent in Portuguese. Does this explain why the United board hired Messrs Mourinho and Amorim and signed Cristiano Ronaldo in recent years? And, does the hiring of Mr Carrick signal the, um, the end of the competition?” – Mike Wilner. Following Dan Westacott’s letter about JR (yesterday’s letters), surely a growing number of Manchester United’s fans are praying that they will wake up back in 2013, where Sir Alex Ferguson will be getting out of the shower one morning, preparing himself for a press conference when he will announce that he isn’t actually retiring” – Simon Dunsby. Not only did Dan get a letter published with a joke from 40 years ago, but he won letter of the day! And you didn’t even have to look it up! Oh, wait …” – Z Snook. Seriously guys? Only two options and you gave letter of the day to the writer not called Gumley Slats!?!” – Adam Sherlock. This is an extract from our daily football email … Football Daily. To get the full version, just visit this page and follow the instructions. Continue reading...",
+      "publishedAt": "2026-01-14T15:52:29.000Z"
     },
     {
       "type": "rss",
@@ -146,36 +190,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Dit is het schema van de halve finale van de Afrika Cup",
-      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-halve-finale-van-de-de-afrika-cup",
-      "summary": "Na een paar rustdagen gaat het toernooi om de Afrika Cup woensdag verder met twee heerlijke affiches. We zetten de wedstrijden op een rij.",
-      "publishedAt": "2026-01-14T15:40:12.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "‘One of the world’s best’: Manchester City sign USWNT midfielder Sam Coffey",
+      "title": "‘One of the world’s best’: Manchester City swoop for USWNT midfielder Sam Coffey",
       "link": "https://www.theguardian.com/football/2026/jan/14/manchester-city-hail-new-signing-sam-coffey-world-best-midfielders-usa-portland-womens-football",
       "summary": "USA mainstay in move from Portland Thorns ‘I couldn’t be more ready and happy about everything’ Manchester City have signed the USA midfielder Sam Coffey on a three-and-a-half year deal. The 27-year-old won gold at the Paris 2024 Olympics and has accrued 42 caps and scored five goals for the USA, becoming a key part of Emma Hayes’ national team. After graduating she joined Portland Thorns and lifted the 2022 NWSL Championship in her debut season. Continue reading...",
       "publishedAt": "2026-01-14T15:20:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "The Coupe de France was short of magic – and then Paris FC beat PSG",
-      "link": "https://www.theguardian.com/football/2026/jan/14/coupe-de-france-magic-paris-fc-beat-psg-favourites-holders-underdogs",
-      "summary": "In a weekend where most favourites triumphed, Paris FC beating the holders was a welcome win for the underdogs By Get French Football News This year’s Coupe de France was in need of a spark and Paris FC were on hand to provide it. Their league match against Paris Saint-Germain last weekend – the first derby between the clubs in 43 years – was somewhat anticlimactic. The rivalry between is tepid, bordering on amicable, and the difference in quality was stark as PSG ran out fairly comfortable 2-1 winners. Stéphane Gilli’s men are a long way off challenging the reigning European champions over a full season but, on Monday night, that was irrelevant. Paris FC returned to the Parc des Princes and won 1-0, progressing to the last 16 of the Coupe de France at their neighbour’s expense. It was a derby once again lacking in derby feel. Jonathan Ikoné scored the winner but did not celebrate against the club from whose academy he graduated. Luis Enrique even wished Paris FC “all the best for the rest of the competition” after the match – all very cordial. The PSG manager was left ruing his side’s wastefulness as he succumbed to his first defeat in the competition since arriving in France in 2023. As far as the cup is concerned, though, PSG’s slip-up was a welcome one. Continue reading...",
-      "publishedAt": "2026-01-14T14:04:55.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13494214/fabio-paratici-tottenham-sporting-director-to-leave-club-just-three-months-after-returning",
       "summary": "Tottenham's joint sporting director Fabio Paratici is to leave the club and join Fiorentina following the end of the January transfer window, three months after returning to the club.",
       "publishedAt": "2026-01-14T13:20:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Manchester City sign USA midfielder Coffey",
-      "link": "https://www.bbc.com/sport/football/articles/c0mkw481p8vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City have signed United States midfielder Sam Coffey from Portland Thorns on a three-and-a-half-year contract.",
-      "publishedAt": "2026-01-14T13:03:44.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Fleetwood determined to close the gap on McIlroy and Scheffler",
-      "link": "https://www.skysports.com/golf/news/12040/13494202/tommy-fleetwood-an-honour-to-be-next-best-to-scottie-scheffler-and-rory-mcilroy-but-have-some-catching-up-to-do",
-      "summary": "Dubai Invitational defending champion, Tommy Fleetwood, revealed what it is like to be next-best to two of the Tour's greatest players after a year of consistency paid off and he moved up the rankings to third.",
-      "publishedAt": "2026-01-14T12:50:00.000Z"
     }
   ]
 }
