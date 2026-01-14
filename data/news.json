@@ -1,6 +1,105 @@
 {
-  "generatedAt": "2026-01-14T11:25:23.566Z",
+  "generatedAt": "2026-01-14T12:55:37.270Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Flick is op z'n hoede voor Santander en geniet na van Clásico-zege",
+      "link": "https://www.vi.nl/nieuws/flick-is-op-z-n-hoede-voor-santander-en-geniet-na-van-cl-sico-zege",
+      "summary": "Barcelona-trainer Hansi Flick waakt voor onderschatting op weg naar de Copa del Rey-wedstrijd tegen Racing Santander. De Duitser toonde zich in aanloop naar het bekerduel complimenteus over de koploper in de Segunda División en kwam nog terug op de Clásico van zondag .",
+      "publishedAt": "2026-01-14T12:50:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Police on ban of Maccabi fans: AI was to blame",
+      "link": "https://www.espn.com/soccer/story/_/id/47607667/police-chief-apologises-ai-error-helped-form-maccabi-tel-aviv-fan-ban-decision",
+      "summary": "West Midlands Police's chief constable has apologised to MPs for giving them an error in evidence over the decision to ban Maccabi Tel Aviv fans.",
+      "publishedAt": "2026-01-14T12:18:51.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ajax sign Zlatan's son on loan from AC Milan",
+      "link": "https://www.espn.com/soccer/story/_/id/47606855/ajax-sign-zlatan-ibrahimović-son-maximillian-ac-milan",
+      "summary": "Ajax have confirmed the loan signing of the son of Zlatan Ibrahimović, Maximillian, from AC Milan.",
+      "publishedAt": "2026-01-14T12:18:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Waarom Ten Hag zijn vertrek bij Leverkusen na drie weken achter zich liet",
+      "link": "https://www.vi.nl/video/waarom-ten-hag-zijn-vertrek-bij-leverkusen-na-drie-weken-achter-zich-kon-laten",
+      "summary": "Het kostte Erik ten Hag drie weken om zijn vertrek bij Bayer Leverkusen te verwerken. De nieuwe technisch directeur van FC Twente vindt dat hij niet de kans heeft gekregen om resultaten te halen. 'Dan houdt alles op en moet je het achter je laten.'",
+      "publishedAt": "2026-01-14T12:10:10.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Delay in disallowed Semenyo goal an 'edge case'",
+      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
+      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
+      "publishedAt": "2026-01-14T12:03:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Utd not planning Jan. transfers for Carrick",
+      "link": "https://www.espn.com/soccer/story/_/id/47606619/man-united-not-planning-january-transfers-michael-carrick-sources",
+      "summary": "Michael Carrick will work with the squad he has inherited as Man United boss with the club having no plans to make new signings, sources have told ESPN.",
+      "publishedAt": "2026-01-14T12:03:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Pocognoli verlost landgenoot Faes richting WK bij Leicester City",
+      "link": "https://www.vi.nl/nieuws/pocognoli-verlost-landgenoot-faes-richting-wk-bij-leicester-city",
+      "summary": "Wout Faes maakt het seizoen op huurbasis af bij AS Monaco. De Monegasken hebben ook een optie tot koop bedongen in de overeenkomst met Leicester City, waar de 28-voudig international van België niet langer verzekerd was van een basisplaats.",
+      "publishedAt": "2026-01-14T11:50:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Ten Hag houdt deur naar Oranje op een kier: 'Hebben we het over gehad'",
+      "link": "https://www.vi.nl/video/ten-hag-houdt-deur-naar-oranje-op-een-kier-hebben-we-het-over-gehad",
+      "summary": "FC Twente heeft Erik ten Hag teruggehaald als technisch directeur, maar wat als Ronald Koeman na het WK vertrekt als bondscoach van het Nederlands elftal en de KNVB op de stoep staat? Dat scenario kwam ook aan bod in de contractbesprekingen tussen beide partijen.",
+      "publishedAt": "2026-01-14T11:41:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Rangers agree loan for Wolfsburg winger Skov Olsen",
+      "link": "https://www.skysports.com/football/news/12040/13494156/andreas-skov-olsen-rangers-agree-loan-deal-for-wolfsburg-winger-which-includes-option-to-buy-in-summer",
+      "summary": "Rangers have agreed a loan deal for Wolfsburg winger Andreas Skov Olsen.",
+      "publishedAt": "2026-01-14T11:16:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Sky Sports - Football",
@@ -22,94 +121,6 @@
       "link": "https://www.vi.nl/pro/hoe-het-mini-wk-het-einde-werd-voor-bondscoach-jan-zwartkruis",
       "summary": "Deze week was het 45 jaar geleden dat het Nederlands elftal in Uruguay aantrad op het Mini-WK. Het werd een fiasco. Oranje won geen wedstrijd, speelde matig voetbal en zag een poging tot verjonging mislukken. Na terugkeer in Nederland besloot bondscoach Jan Zwartkruis op te stappen.",
       "publishedAt": "2026-01-14T11:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Fortuna Sittard praat met Sturm Graz over transfer van Fosso",
-      "link": "https://www.vi.nl/nieuws/fortuna-sittard-dreigt-fosso-kwijt-te-raken-aan-sturm-graz",
-      "summary": "Ryan Fosso is op weg naar Sturm Graz. Fortuna Sittard onderhandelt met de Oostenrijkse topclub over een transfer van de 23-jarige middenvelder, die zondag het uitduel met Go Ahead Eagles aan zich voorbij liet gaan.",
-      "publishedAt": "2026-01-14T10:57:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ajax sign Zlatan's son on loan from AC Milan",
-      "link": "https://www.espn.com/soccer/story/_/id/47606855/ajax-sign-zlatan-ibrahimović-son-maximillian-ac-milan",
-      "summary": "Ajax have confirmed the loan signing of the son of Zlatan Ibrahimović, Maximillian, from AC Milan.",
-      "publishedAt": "2026-01-14T10:55:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Delay in disallowed Semenyo goal due to lack of offside tech",
-      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
-      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
-      "publishedAt": "2026-01-14T10:55:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Utd not planning Jan. transfers for Carrick",
-      "link": "https://www.espn.com/soccer/story/_/id/47606619/man-united-not-planning-january-transfers-michael-carrick-sources",
-      "summary": "Michael Carrick will work with the squad he has inherited as Man United boss with the club having no plans to make new signings, sources have told ESPN.",
-      "publishedAt": "2026-01-14T10:55:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep rants over VAR on disallowed Semenyo goal",
-      "link": "https://www.espn.com/soccer/story/_/id/47603386/pep-rants-var-disallowed-semenyo-goal-man-city",
-      "summary": "Pep Guardiola said he expects an explanation from referees' chief Howard Webb during a post-match rant after Antoine Semenyo's disallowed goal during a Manchester City win over Newcastle United on Tuesday.",
-      "publishedAt": "2026-01-14T10:55:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Santander volgt voorbeeld Real en Mbappé niet en vormt erehaag voor Barça",
-      "link": "https://www.vi.nl/nieuws/santander-volgt-voorbeeld-real-en-mbapp-niet-en-vormt-erehaag-voor-bar-a",
-      "summary": "Racing Santander zal donderdagavond voor het bekerduel met Barcelona een erehaag vormen voor de winnaar van de Spaanse Supercopa. De spelers van Real Madrid zagen zondag direct na de verloren Clásico in Saoedi-Arabië af van zo'n eerbetoon voor de Catalanen.",
-      "publishedAt": "2026-01-14T10:52:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Wat Van Dijk tegen Frimpong zei na zijn transfer naar Liverpool",
-      "link": "https://www.vi.nl/nieuws/wat-van-dijk-tegen-frimpong-zei-na-zijn-transfer-naar-liverpool",
-      "summary": "Jeremie Frimpong heeft zich uitgelaten over zijn band met Virgil van Dijk. De zomeraanwinst van Liverpool ziet de captain van The Reds vooral als een vriend. 'Maar als we spelen, dan is Virgil de leider.'",
-      "publishedAt": "2026-01-14T10:28:47.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Waarom het niet ondenkbaar is dat Smit nog een jaar bij AZ blijft",
-      "link": "https://www.vi.nl/video/waarom-het-niet-gek-is-als-smit-nog-een-jaar-bij-az-blijft",
-      "summary": "Kees Smit staat in de belangstelling van alle grote clubs uit de top 5 competitie, maar de speler zelf blijft rustig onder alle aandacht en geruchten. AZ-watcher Simon Zwartkruis acht het ook niet ondenkbaar dat het grote talent nog een seizoen in Alkmaar te bewonderen zal zijn en legt uit waarom.",
-      "publishedAt": "2026-01-14T10:27:09.000Z"
     },
     {
       "type": "rss",
@@ -150,7 +161,7 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Golf leaderboards: McIlroy, Fleetwood headline Dubai Invitational",
+      "title": "Golf leaderboards: Final scores from PNC Championship and more",
       "link": "https://www.skysports.com/golf/news/12040/12950625/golf-leaderboards-pga-tour-lpga-tour-liv-golf-dp-world-tour-ladies-european-tour-major-championships-and-more",
       "summary": "All the latest golf scores and results from around the world.",
       "publishedAt": "2026-01-14T10:00:00.000Z"
@@ -197,17 +208,6 @@
       "title": "Maye vs the monster - why the Texans can shock the NFL",
       "link": "https://www.skysports.com/nfl/news/12040/13493697/the-houston-texans-can-win-the-super-bowl-but-the-nfls-best-defense-needs-cj-stroud-to-fire",
       "summary": "Modern NFL defenses tend to like a scalpel. The Houston Texans prefer a sledgehammer.",
-      "publishedAt": "2026-01-14T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Panic Attack returns for another Newbury prize",
-      "link": "https://www.skysports.com/racing/news/12040/13493513/today-on-sky-sports-racing-lingfield-newbury-and-happy-valley",
-      "summary": "We have a busy day’s racing on Wednesday with action from Lingfield, Newbury and Happy Valley, live on Sky Sports Racing...",
       "publishedAt": "2026-01-14T07:00:00.000Z"
     },
     {
