@@ -1,16 +1,159 @@
 {
-  "generatedAt": "2026-01-14T15:29:57.834Z",
+  "generatedAt": "2026-01-14T16:36:02.293Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Delay in disallowed Semenyo goal an 'edge case'",
+      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
+      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
+      "publishedAt": "2026-01-14T16:30:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City sign USWNT's Coffey from Thorns",
+      "link": "https://www.espn.com/soccer/story/_/id/47608248/man-city-sign-uswnt-sam-coffey-portland-thorns",
+      "summary": "Manchester City have announced the signing of United States midfielder Sam Coffey from NWSL side Portland Thorns.",
+      "publishedAt": "2026-01-14T16:30:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tottenham sign Gallagher from Atlético Madrid",
+      "link": "https://www.espn.com/soccer/story/_/id/47596920/conor-gallagher-tottenham-hotspur-transfers-atletico-madrid",
+      "summary": "Tottenham Hotspur have signed Conor Gallagher from Spanish side Atlético Madrid, the club has confirmed.",
+      "publishedAt": "2026-01-14T16:30:31.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Barcelona's Flick: Alonso has great future ahead",
+      "link": "https://www.espn.com/soccer/story/_/id/47608316/barcelona-hansi-flick-backs-xabi-alonso-land-new-role",
+      "summary": "Barcelona coach Hansi Flick said Xabi Alonso will land a new job quickly, backing the outgoing Real Madrid coach to have a great career in management.",
+      "publishedAt": "2026-01-14T16:30:31.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Yilmaz biedt excuses aan na tirade tegen arbiter: 'Moet kalmer worden'",
-      "link": "https://www.vi.nl/nieuws/yilmaz-biedt-excuses-aan-na-tirade-tegen-arbiter-moet-kalmer-worden",
-      "summary": "Burak Yilmaz is nog altijd een heethoofd. Dinsdag verloor de trainer van het Turkse Gaziantep zijn zelfbeheersing in de bekerwedstrijd tegen Kocaelispor. De scheidsrechter van dienst was het leidende voorwerp in zijn tirade, waar hij later zijn excuses voor aanbood.",
-      "publishedAt": "2026-01-14T15:25:05.000Z"
+      "title": "VI Live: Salah neemt het op tegen Mané in Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/vi-live-heerlijke-doordeweekse-voetbalavond-op-het-menu",
+      "summary": "Smullen op de woensdagavond. In de Eurojackpot KNVB Beker staan AZ en Ajax tegenover elkaar. Maar eerst komt PSV - op bezoek bij FC Den Bosch - in actie. In het buitenland staan onder meer Chelsea - Arsenal, FC Porto - Benfica en wedstrijden van Real Madrid, Bayern München, Napoli en Internazionale op het programma. Ook de halve finales van de Afrika Cup worden vanavond afgewerkt.",
+      "publishedAt": "2026-01-14T16:28:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Klaverboer terug onder Friese lat na badkamerincident",
+      "link": "https://www.vi.nl/nieuws/klaverboer-terug-onder-friese-lat-na-badkamerincident",
+      "summary": "Bernt Klaverboer neemt donderdag weer plaats onder de lat bij SC Heerenveen. De jonge sluitpost (20) ontbrak afgelopen weekend tegen Feyenoord (2-2) door een incident in de badkamer .",
+      "publishedAt": "2026-01-14T16:25:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Palace latest: Eagles confident in agreeing deal for Ligue 1 forward",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2026-01-14T16:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Senegal v Egypt: Africa Cup of Nations 2026 semi-final",
+      "link": "https://www.theguardian.com/football/live/2026/jan/14/senegal-v-egypt-africa-cup-of-nations-2026-semi-final",
+      "summary": "⚽ Updates from the first semi-final; kick-off 5pm GMT ⚽ Follow us on Bluesky | Read Football Daily | Mail Yara Senegal XI (4-3-3): Mendy; Diatta, Koulibaly, Niakhate, Diouf; G Gueye, P Gueye, Diarra; Ndiaye, Jackson, Mane. Only one change for Senegal as Jackson replaces Diallo. Mané and Salah are both 33, born 66 days apart on opposite sides of the continent. Mané, the elder, is the son of an imam from Bambali, on the north bank of the Casamance. His family didn’t want him to be a footballer so he ran away from home aged 15, taking the bus to Dakar. Salah was born in Nagrig, just east of the Nile. His family were less wary of football, but having made a bus journey of three-to-four hours to training with the Cairo club Al Mokawloon and back every day, he too ended up, aged 15, leaving home to live in his country’s capital. Their careers have run along not dissimilar lines. Both, for instance, have funded significant infrastructure projects in their home countries. But the sense at Liverpool was that their relationship was always a little spiky. Continue reading...",
+      "publishedAt": "2026-01-14T16:17:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Willem II neemt afscheid van linksback, 'Marseille ziet El Karouani wel zitten'",
+      "link": "https://www.vi.nl/nieuws/willem-ii-neemt-afscheid-van-linksback-marseille-ziet-el-karouani-wel-zitten",
+      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-14T16:15:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Tottenham sign Gallagher from Atletico for £35m",
+      "link": "https://www.bbc.com/sport/football/articles/cddgzj33r2lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The former Chelsea midfielder joins Spurs on a long-term contract.",
+      "publishedAt": "2026-01-14T16:14:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Gallagher na anderhalf jaar terug in Premier League",
+      "link": "https://www.vi.nl/nieuws/gallagher-na-anderhalf-jaar-terug-in-premier-league",
+      "summary": "Conor Gallagher keert terug op de Engelse velden. De middenvelder maakt na anderhalf jaar Atlético Madrid de overstap naar Tottenham Hotspur.",
+      "publishedAt": "2026-01-14T16:12:53.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Gallagher joins Spurs in £34m move from Atletico Madrid",
+      "link": "https://www.skysports.com/football/news/12040/13494168/conor-gallagher-to-tottenham-atletico-madrid-midfielder-joins-spurs-in-34m-deal-after-aston-villa-interest",
+      "summary": "Tottenham have completed the signing of England midfielder Conor Gallagher from Atletico Madrid for a fee of £34m.",
+      "publishedAt": "2026-01-14T16:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs & Villa charged over melee after FA Cup game",
+      "link": "https://www.bbc.com/sport/football/articles/c8j312zggxro?at_medium=RSS&at_campaign=rss",
+      "summary": "Tottenham Hotspur and Aston Villa are charged with misconduct by the Football Association following a melee at the conclusion of Saturday's FA Cup game.",
+      "publishedAt": "2026-01-14T15:43:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Dit is het schema van de halve finale van de Afrika Cup",
+      "link": "https://www.vi.nl/nieuws/dit-is-het-schema-van-de-halve-finale-van-de-de-afrika-cup",
+      "summary": "Na een paar rustdagen gaat het toernooi om de Afrika Cup woensdag verder met twee heerlijke affiches. We zetten de wedstrijden op een rij.",
+      "publishedAt": "2026-01-14T15:40:12.000Z"
     },
     {
       "type": "rss",
@@ -22,94 +165,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/14/manchester-city-hail-new-signing-sam-coffey-world-best-midfielders-usa-portland-womens-football",
       "summary": "USA mainstay in move from Portland Thorns ‘I couldn’t be more ready and happy about everything’ Manchester City have signed the USA midfielder Sam Coffey on a three-and-a-half year deal. The 27-year-old won gold at the Paris 2024 Olympics and has accrued 42 caps and scored five goals for the USA, becoming a key part of Emma Hayes’ national team. After graduating she joined Portland Thorns and lifted the 2022 NWSL Championship in her debut season. Continue reading...",
       "publishedAt": "2026-01-14T15:20:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Morgan Rogers, kroonjuweel van Aston Villa",
-      "link": "https://www.vi.nl/pro/morgan-rogers-kroonjuweel-van-aston-villa",
-      "summary": "Met 43 punten uit 21 wedstrijden stevent Aston Villa af op het verbreken van zijn clubrecord in de Premier League. Arsenal en Manchester City zijn in de titelstrijd nog niet verlost van de ploeg van trainer Unai Emery. Eén speler in het bijzonder valt op bij The Villans: Morgan Rogers (23).",
-      "publishedAt": "2026-01-14T15:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Opmerkelijk bekeravondje voor Icardi ondanks zege Galatasaray",
-      "link": "https://www.vi.nl/nieuws/opmerkelijk-bekeravondje-voor-icardi-ondanks-zege-galatasaray",
-      "summary": "Galatasaray heeft dinsdagavond een bekerzege geboekt op Fethiyespor, maar voor spits Mauro Icardi was het geen prettige avond op bezoek bij de nummer veertien uit de 2. Liga.",
-      "publishedAt": "2026-01-14T14:30:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Police on ban of Maccabi fans: AI was to blame",
-      "link": "https://www.espn.com/soccer/story/_/id/47607667/police-chief-apologises-ai-error-helped-form-maccabi-tel-aviv-fan-ban-decision",
-      "summary": "West Midlands Police's chief constable has apologised to MPs for giving them an error in evidence over the decision to ban Maccabi Tel Aviv fans.",
-      "publishedAt": "2026-01-14T14:26:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Erik ten Hag komt met gevoel en vooral ambitie thuis: 'Ik leef mijn eigen leven'",
-      "link": "https://www.vi.nl/pro/erik-ten-hag-komt-met-gevoel-en-vooral-ambitie-thuis-ik-leef-mijn-eigen-leven",
-      "summary": "Vol trots presenteerde FC Twente woensdagochtend Erik ten Hag als nieuwe technisch directeur. Het zorgde voor een vleugje romantiek over het verleden, maar vooral voor een ambitieuze blik naar de toekomst. En met een intrigerende wending: ‘Als Erik bondscoach zou willen worden, gaan we kijken hoe we dat mogelijk kunnen maken.’",
-      "publishedAt": "2026-01-14T14:22:13.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Delay in disallowed Semenyo goal an 'edge case'",
-      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
-      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
-      "publishedAt": "2026-01-14T14:15:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City sign USWNT's Coffey from Thorns",
-      "link": "https://www.espn.com/soccer/story/_/id/47608248/man-city-sign-uswnt-sam-coffey-portland-thorns",
-      "summary": "Manchester City have announced the signing of United States midfielder Sam Coffey from NWSL side Portland Thorns.",
-      "publishedAt": "2026-01-14T14:15:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barcelona's Flick: Alonso has great future ahead",
-      "link": "https://www.espn.com/soccer/story/_/id/47608316/barcelona-hansi-flick-backs-xabi-alonso-land-new-role",
-      "summary": "Barcelona coach Hansi Flick said Xabi Alonso will land a new job quickly, backing the outgoing Real Madrid coach to have a great career in management.",
-      "publishedAt": "2026-01-14T14:15:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Malen zegt 'ja' tegen AS Roma, mogelijk debuut tegen Torino",
-      "link": "https://www.vi.nl/nieuws/malen-zegt-ja-tegen-as-roma-mogelijk-debuut-tegen-torino",
-      "summary": "De transfer van Donyell Malen naar AS Roma nadert zijn voltooiing. Na het akkoord met Aston Villa hebben de Italianen ook groen licht gekregen van de 26-jarige aanvaller. Het wachten is nog op de medische keuring.",
-      "publishedAt": "2026-01-14T14:12:00.000Z"
     },
     {
       "type": "rss",
@@ -146,17 +201,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Palace latest: Eagles in talks to sign Ligue 1 forward",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "summary": "",
-      "publishedAt": "2026-01-14T13:04:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -176,50 +220,6 @@
       "link": "https://www.skysports.com/golf/news/12040/13494202/tommy-fleetwood-an-honour-to-be-next-best-to-scottie-scheffler-and-rory-mcilroy-but-have-some-catching-up-to-do",
       "summary": "Dubai Invitational defending champion, Tommy Fleetwood, revealed what it is like to be next-best to two of the Tour's greatest players after a year of consistency paid off and he moved up the rankings to third.",
       "publishedAt": "2026-01-14T12:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Woods: Koepka's return to PGA Tour from LIV a 'win for everyone'",
-      "link": "https://www.skysports.com/golf/news/12040/13494188/tiger-woods-brooks-koepkas-return-to-pga-tour-from-liv-golf-a-win-for-everyone",
-      "summary": "Tiger Woods said Brooks Koepka's return to the PGA Tour makes it \"a better place to play\" and is a \"win for everyone\".",
-      "publishedAt": "2026-01-14T12:07:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rangers agree loan for Wolfsburg winger Skov Olsen",
-      "link": "https://www.skysports.com/football/news/12040/13494156/andreas-skov-olsen-rangers-agree-loan-deal-for-wolfsburg-winger-which-includes-option-to-buy-in-summer",
-      "summary": "Rangers have agreed a loan deal for Wolfsburg winger Andreas Skov Olsen.",
-      "publishedAt": "2026-01-14T11:16:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'We're really stretched' - Livramento blow adds to Newcastle defence concerns",
-      "link": "https://www.bbc.com/sport/football/articles/c78e49x5j0do?at_medium=RSS&at_campaign=rss",
-      "summary": "Head coach Eddie Howe admits Newcastle United are \"really stretched\" after Tino Livramento is ruled out for up to two months with a hamstring injury.",
-      "publishedAt": "2026-01-14T10:14:11.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pro Licence admission barriers allow women’s coaching opportunities to go ‘down the drain’",
-      "link": "https://www.theguardian.com/football/2026/jan/14/womens-football-coaching-pro-license-uefa",
-      "summary": "Uefa’s limitations have set hurdles for women keen to take the next step in coaching despite the increasing demand Mariana Cabral has a coaching CV to be proud of. Born on the small Azores island of São Miguel, she has been in charge of the women’s teams at clubs including Benfica and Sporting, but the 38-year-old is frustrated. “We want more women coaches,” she says. “Who won the Euros? Who won the Champions League? Women – but we are losing so many.” Cabral has her A Licence but is stuck in limbo. Unable to get on a Pro Licence course that would clear a path to more senior head coach roles in an era when women’s teams are increasingly demanding that qualification, she stepped back to become a No 2 in the US. But after one NWSL season with Utah Royals, she left in December in the hope that expanding her experience at another club would help to open a Pro Licence door. Continue reading...",
-      "publishedAt": "2026-01-14T10:05:17.000Z"
     }
   ]
 }
