@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2026-01-14T12:55:37.270Z",
+  "generatedAt": "2026-01-14T13:43:33.894Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Flick is op z'n hoede voor Santander en geniet na van Clásico-zege",
-      "link": "https://www.vi.nl/nieuws/flick-is-op-z-n-hoede-voor-santander-en-geniet-na-van-cl-sico-zege",
-      "summary": "Barcelona-trainer Hansi Flick waakt voor onderschatting op weg naar de Copa del Rey-wedstrijd tegen Racing Santander. De Duitser toonde zich in aanloop naar het bekerduel complimenteus over de koploper in de Segunda División en kwam nog terug op de Clásico van zondag .",
-      "publishedAt": "2026-01-14T12:50:50.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Delay in disallowed Semenyo goal an 'edge case'",
+      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
+      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
+      "publishedAt": "2026-01-14T13:31:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City sign USWNT's Coffey from Thorns",
+      "link": "https://www.espn.com/soccer/story/_/id/47608248/man-city-sign-uswnt-sam-coffey-portland-thorns",
+      "summary": "Manchester City have announced the signing of United States midfielder Sam Coffey from NWSL side Portland Thorns.",
+      "publishedAt": "2026-01-14T13:31:46.000Z"
     },
     {
       "type": "rss",
@@ -21,7 +32,7 @@
       "title": "Police on ban of Maccabi fans: AI was to blame",
       "link": "https://www.espn.com/soccer/story/_/id/47607667/police-chief-apologises-ai-error-helped-form-maccabi-tel-aviv-fan-ban-decision",
       "summary": "West Midlands Police's chief constable has apologised to MPs for giving them an error in evidence over the decision to ban Maccabi Tel Aviv fans.",
-      "publishedAt": "2026-01-14T12:18:51.000Z"
+      "publishedAt": "2026-01-14T13:31:46.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +40,98 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Ajax sign Zlatan's son on loan from AC Milan",
-      "link": "https://www.espn.com/soccer/story/_/id/47606855/ajax-sign-zlatan-ibrahimović-son-maximillian-ac-milan",
-      "summary": "Ajax have confirmed the loan signing of the son of Zlatan Ibrahimović, Maximillian, from AC Milan.",
-      "publishedAt": "2026-01-14T12:18:50.000Z"
+      "title": "Sources: Utd not planning Jan. transfers for Carrick",
+      "link": "https://www.espn.com/soccer/story/_/id/47606619/man-united-not-planning-january-transfers-michael-carrick-sources",
+      "summary": "Michael Carrick will work with the squad he has inherited as Man United boss with the club having no plans to make new signings, sources have told ESPN.",
+      "publishedAt": "2026-01-14T13:31:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FC Bankzaken: toekomst Vitesse blijft vaag en onzeker",
+      "link": "https://www.vi.nl/pro/fc-bankzaken-toekomst-vitesse-blijft-vaag-en-onzeker",
+      "summary": "In de serie FC Bankzaken bespreekt Tom Knipping samen met presentator Bart Frouws de financiën in het binnen- en buitenlandse voetbal. In deze aflevering gaan de heren dieper in op de financiële situatie van Vitesse.",
+      "publishedAt": "2026-01-14T13:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Het plan dat Ajax heeft voor Ibrahimovic Junior",
+      "link": "https://www.vi.nl/pro/het-plan-dat-ajax-heeft-voor-ibrahimovic-junior",
+      "summary": "Ruim 21 jaar na het vertrek van Zlatan heeft Ajax weer een Ibrahimovic in de gelederen. Maximilian Ibrahimovic (19) komt op huurbasis over van AC Milan, met de kans om een meerjarig contract te verdienen in Amsterdam. Wat kunnen beide partijen van elkaar verwachten?",
+      "publishedAt": "2026-01-14T13:22:27.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League's top 50 transfers of all time: Who will be No. 1?",
+      "link": "https://www.espn.com/soccer/story/_/id/47600750/premier-league-top-transfers-all-bill-connelly",
+      "summary": "What makes a great signing? Is it trophies won, goals scored, a long run of dominance ... or all of the above? Bill Connelly breaks down the best 50 Premier League moves since it began in 1992-93.",
+      "publishedAt": "2026-01-14T13:22:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs sporting director Paratici to join Fiorentina",
+      "link": "https://www.skysports.com/football/news/12040/13494214/fabio-paratici-tottenham-sporting-director-to-leave-club-just-three-months-after-returning",
+      "summary": "Tottenham's joint sporting director Fabio Paratici is to leave the club and join Fiorentina following the end of the January transfer window, three months after returning to the club.",
+      "publishedAt": "2026-01-14T13:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Olympique Marseille ziet komst El Karouani wel zitten'",
+      "link": "https://www.vi.nl/nieuws/kees-smit-houdt-regie-over-eigen-carri-re",
+      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-14T13:13:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Palace latest: Eagles in talks to sign Ligue 1 forward",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "summary": "",
+      "publishedAt": "2026-01-14T13:04:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Manchester City sign USA midfielder Coffey",
+      "link": "https://www.bbc.com/sport/football/articles/c0mkw481p8vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City have signed United States midfielder Sam Coffey from Portland Thorns on a three-and-a-half-year contract.",
+      "publishedAt": "2026-01-14T13:03:44.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Flick is op z'n hoede voor Santander en geniet na van Clásico-zege",
+      "link": "https://www.vi.nl/nieuws/flick-is-op-z-n-hoede-voor-santander-en-geniet-na-van-cl-sico-zege",
+      "summary": "Barcelona-trainer Hansi Flick waakt voor onderschatting op weg naar de Copa del Rey-wedstrijd tegen Racing Santander. De Duitser toonde zich in aanloop naar het bekerduel complimenteus over de koploper in de Segunda División en kwam nog terug op de Clásico van zondag .",
+      "publishedAt": "2026-01-14T12:50:50.000Z"
     },
     {
       "type": "rss",
@@ -47,47 +146,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Delay in disallowed Semenyo goal an 'edge case'",
-      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
-      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
-      "publishedAt": "2026-01-14T12:03:31.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Utd not planning Jan. transfers for Carrick",
-      "link": "https://www.espn.com/soccer/story/_/id/47606619/man-united-not-planning-january-transfers-michael-carrick-sources",
-      "summary": "Michael Carrick will work with the squad he has inherited as Man United boss with the club having no plans to make new signings, sources have told ESPN.",
-      "publishedAt": "2026-01-14T12:03:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Pocognoli verlost landgenoot Faes richting WK bij Leicester City",
-      "link": "https://www.vi.nl/nieuws/pocognoli-verlost-landgenoot-faes-richting-wk-bij-leicester-city",
-      "summary": "Wout Faes maakt het seizoen op huurbasis af bij AS Monaco. De Monegasken hebben ook een optie tot koop bedongen in de overeenkomst met Leicester City, waar de 28-voudig international van België niet langer verzekerd was van een basisplaats.",
-      "publishedAt": "2026-01-14T11:50:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ten Hag houdt deur naar Oranje op een kier: 'Hebben we het over gehad'",
-      "link": "https://www.vi.nl/video/ten-hag-houdt-deur-naar-oranje-op-een-kier-hebben-we-het-over-gehad",
-      "summary": "FC Twente heeft Erik ten Hag teruggehaald als technisch directeur, maar wat als Ronald Koeman na het WK vertrekt als bondscoach van het Nederlands elftal en de KNVB op de stoep staat? Dat scenario kwam ook aan bod in de contractbesprekingen tussen beide partijen.",
-      "publishedAt": "2026-01-14T11:41:56.000Z"
+      "title": "Woods: Koepka's return to PGA Tour from LIV a 'win for everyone'",
+      "link": "https://www.skysports.com/golf/news/12040/13494188/tiger-woods-brooks-koepkas-return-to-pga-tour-from-liv-golf-a-win-for-everyone",
+      "summary": "Tiger Woods said Brooks Koepka's return to the PGA Tour makes it \"a better place to play\" and is a \"win for everyone\".",
+      "publishedAt": "2026-01-14T12:07:00.000Z"
     },
     {
       "type": "rss",
@@ -113,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Hoe het mini-WK het einde werd voor bondscoach Jan Zwartkruis",
-      "link": "https://www.vi.nl/pro/hoe-het-mini-wk-het-einde-werd-voor-bondscoach-jan-zwartkruis",
-      "summary": "Deze week was het 45 jaar geleden dat het Nederlands elftal in Uruguay aantrad op het Mini-WK. Het werd een fiasco. Oranje won geen wedstrijd, speelde matig voetbal en zag een poging tot verjonging mislukken. Na terugkeer in Nederland besloot bondscoach Jan Zwartkruis op te stappen.",
-      "publishedAt": "2026-01-14T11:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -139,7 +194,7 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Pro License admission barriers allow women’s coaching opportunities to go ‘down the drain’",
+      "title": "Pro Licence admission barriers allow women’s coaching opportunities to go ‘down the drain’",
       "link": "https://www.theguardian.com/football/2026/jan/14/womens-football-coaching-pro-license-uefa",
       "summary": "Uefa’s limitations have set hurdles for women keen to take the next step in coaching despite the increasing demand Mariana Cabral has a coaching CV to be proud of. Born on the small Azores island of São Miguel, she has been in charge of the women’s teams at clubs including Benfica and Sporting, but the 38-year-old is frustrated. “We want more women coaches,” she says. “Who won the Euros? Who won the Champions League? Women – but we are losing so many.” Cabral has her A Licence but is stuck in limbo. Unable to get on a Pro Licence course that would clear a path to more senior head coach roles in an era when women’s teams are increasingly demanding that qualification, she stepped back to become a No 2 in the US. But after one NWSL season with Utah Royals, she left in December in the hope that expanding her experience at another club would help to open a Pro Licence door. Continue reading...",
       "publishedAt": "2026-01-14T10:05:17.000Z"
@@ -157,17 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Golf leaderboards: Final scores from PNC Championship and more",
-      "link": "https://www.skysports.com/golf/news/12040/12950625/golf-leaderboards-pga-tour-lpga-tour-liv-golf-dp-world-tour-ladies-european-tour-major-championships-and-more",
-      "summary": "All the latest golf scores and results from around the world.",
-      "publishedAt": "2026-01-14T10:00:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -176,50 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/14/football-transfer-rumours-chelsea-west-hams-lucas-paqueta-marc-guehi-bayern-munich",
       "summary": "Today’s tell-all has got its ducks in a row Liam Rosenior has been Chelsea manager for a whole week without making a signing. That is bound to be remedied soon enough, and one name that has been bandied about is that of Lucas Paquetá. The Brazilian midfielder is set to leave West Ham in this transfer window having has said he wants to leave the Premier League and join Flamengo because of his disillusionment with how he was treated over the spot-fixing allegations of which he was cleared. But the Brazilian journalist Renan Moura reports that people around Paquetá want to persuade him to stay in Europe, and Chelsea could move for him. The future of Marc Guéhi was always likely to be one of the main plotlines of this transfer window, with original suitors Liverpool tussling with Manchester City over the defender’s services as he enters the last six months of his Crystal Palace contract. Arsenal have also shown interest but now entering stage left are Bayern Munich, whose sporting director, Max Erbl, has been having cosy chats with Guéhi’s agent at the Bundesliga champions’ training ground, according to Sky Italia. Continue reading...",
       "publishedAt": "2026-01-14T09:27:41.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Why Osimhen has become 'king of Nigerian football'",
-      "link": "https://www.bbc.com/sport/football/articles/ce9yxjr98pgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nigeria face a huge semi-final against Africa Cup of Nations hosts and favourites Morocco on Wednesday.",
-      "publishedAt": "2026-01-14T08:52:51.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Could Arsenal win Premier League without a regular goalscorer?",
-      "link": "https://www.bbc.com/sport/football/articles/cn56k7dpw7ko?at_medium=RSS&at_campaign=rss",
-      "summary": "No team has ever won the Premier League title without having a player in the top 10 goalscorers, but could Arsenal change that?",
-      "publishedAt": "2026-01-14T08:25:07.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Maye vs the monster - why the Texans can shock the NFL",
-      "link": "https://www.skysports.com/nfl/news/12040/13493697/the-houston-texans-can-win-the-super-bowl-but-the-nfls-best-defense-needs-cj-stroud-to-fire",
-      "summary": "Modern NFL defenses tend to like a scalpel. The Houston Texans prefer a sledgehammer.",
-      "publishedAt": "2026-01-14T07:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Why has no English boss won Premier League - and who could be first?",
-      "link": "https://www.bbc.com/sport/football/articles/cp37k9ql449o?at_medium=RSS&at_campaign=rss",
-      "summary": "Why has an English manager not won the Premier League? Chief football writer Phil McNulty explores who could make history.",
-      "publishedAt": "2026-01-14T06:39:45.000Z"
     }
   ]
 }
