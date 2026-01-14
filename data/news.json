@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-01-14T10:29:54.595Z",
+  "generatedAt": "2026-01-14T11:25:23.566Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Woods reveals injury 'progress' update during TGL appearance",
+      "link": "https://www.skysports.com/golf/live-blog/12040/13486422/tgl-golf-live-latest-scores-reports-highlights-updates-and-news-as-pga-tour-stars-feature-in-indoor-team-league",
+      "summary": "",
+      "publishedAt": "2026-01-14T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hoe het mini-WK het einde werd voor bondscoach Jan Zwartkruis",
+      "link": "https://www.vi.nl/pro/hoe-het-mini-wk-het-einde-werd-voor-bondscoach-jan-zwartkruis",
+      "summary": "Deze week was het 45 jaar geleden dat het Nederlands elftal in Uruguay aantrad op het Mini-WK. Het werd een fiasco. Oranje won geen wedstrijd, speelde matig voetbal en zag een poging tot verjonging mislukken. Na terugkeer in Nederland besloot bondscoach Jan Zwartkruis op te stappen.",
+      "publishedAt": "2026-01-14T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Fortuna Sittard praat met Sturm Graz over transfer van Fosso",
+      "link": "https://www.vi.nl/nieuws/fortuna-sittard-dreigt-fosso-kwijt-te-raken-aan-sturm-graz",
+      "summary": "Ryan Fosso is op weg naar Sturm Graz. Fortuna Sittard onderhandelt met de Oostenrijkse topclub over een transfer van de 23-jarige middenvelder, die zondag het uitduel met Go Ahead Eagles aan zich voorbij liet gaan.",
+      "publishedAt": "2026-01-14T10:57:35.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ajax sign Zlatan's son on loan from AC Milan",
+      "link": "https://www.espn.com/soccer/story/_/id/47606855/ajax-sign-zlatan-ibrahimović-son-maximillian-ac-milan",
+      "summary": "Ajax have confirmed the loan signing of the son of Zlatan Ibrahimović, Maximillian, from AC Milan.",
+      "publishedAt": "2026-01-14T10:55:57.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Delay in disallowed Semenyo goal due to lack of offside tech",
+      "link": "https://www.espn.com/soccer/story/_/id/47607499/delay-disallowed-antoine-semenyo-goal-due-lack-offside-technology",
+      "summary": "The delay in ruling out a Manchester City goal for offside in Tuesday's Carabao Cup win at Newcastle was extended because semi-automated offside technology could not be used in the incident.",
+      "publishedAt": "2026-01-14T10:55:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Utd not planning Jan. transfers for Carrick",
+      "link": "https://www.espn.com/soccer/story/_/id/47606619/man-united-not-planning-january-transfers-michael-carrick-sources",
+      "summary": "Michael Carrick will work with the squad he has inherited as Man United boss with the club having no plans to make new signings, sources have told ESPN.",
+      "publishedAt": "2026-01-14T10:55:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pep rants over VAR on disallowed Semenyo goal",
+      "link": "https://www.espn.com/soccer/story/_/id/47603386/pep-rants-var-disallowed-semenyo-goal-man-city",
+      "summary": "Pep Guardiola said he expects an explanation from referees' chief Howard Webb during a post-match rant after Antoine Semenyo's disallowed goal during a Manchester City win over Newcastle United on Tuesday.",
+      "publishedAt": "2026-01-14T10:55:38.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Santander volgt voorbeeld Real en Mbappé niet en vormt erehaag voor Barça",
+      "link": "https://www.vi.nl/nieuws/santander-volgt-voorbeeld-real-en-mbapp-niet-en-vormt-erehaag-voor-bar-a",
+      "summary": "Racing Santander zal donderdagavond voor het bekerduel met Barcelona een erehaag vormen voor de winnaar van de Spaanse Supercopa. De spelers van Real Madrid zagen zondag direct na de verloren Clásico in Saoedi-Arabië af van zo'n eerbetoon voor de Catalanen.",
+      "publishedAt": "2026-01-14T10:52:31.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -36,39 +124,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "AS Roma-talent (16) scoort met eerste balcontact in het betaald voetbal",
-      "link": "https://www.vi.nl/nieuws/as-roma-talent-16-scoort-met-eerste-balcontact-in-het-betaald-voetbal",
-      "summary": "De kans is groot dat je nog nooit van Antonio Arena hebt gehoord. De zestienjarige aanvaller van AS Roma maakte dinsdag in het Coppa Italia-duel met Torino zijn debuut in het betaald voetbal en baarde opzien door met zijn eerste balcontact meteen te scoren.",
-      "publishedAt": "2026-01-14T10:11:28.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot vaak verrast: '28 van 30 meetings konden de prullenbak in'",
-      "link": "https://www.vi.nl/nieuws/slot-vaak-verrast-28-van-30-meetings-konden-de-prullenbak-in",
-      "summary": "Liverpool-manager Arne Slot stelt dat heel veel teams voor duels met de regerend kampioen van Engeland hun vertrouwde tactiek loslaten. Dat merkte de Nederlander ook na de start van het gewonnen bekerduel met Barnsley .",
-      "publishedAt": "2026-01-14T10:10:57.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ajax sign Zlatan's son on loan from AC Milan",
-      "link": "https://www.espn.com/soccer/story/_/id/47606855/ajax-sign-zlatan-ibrahimović-son-maximillian-ac-milan",
-      "summary": "Ajax have confirmed the loan signing of the son of Zlatan Ibrahimović, Maximillian, from AC Milan.",
-      "publishedAt": "2026-01-14T10:05:24.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -91,47 +146,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Sources: Utd not planning Jan. transfers for Carrick",
-      "link": "https://www.espn.com/soccer/story/_/id/47606619/man-united-not-planning-january-transfers-michael-carrick-sources",
-      "summary": "Michael Carrick will work with the squad he has inherited as Man United boss with the club having no plans to make new signings, sources have told ESPN.",
-      "publishedAt": "2026-01-14T09:37:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pep rants over VAR on disallowed Semenyo goal",
-      "link": "https://www.espn.com/soccer/story/_/id/47603386/pep-rants-var-disallowed-semenyo-goal-man-city",
-      "summary": "Pep Guardiola said he expects an explanation from referees' chief Howard Webb during a post-match rant after Antoine Semenyo's disallowed goal during a Manchester City win over Newcastle United on Tuesday.",
-      "publishedAt": "2026-01-14T09:37:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rosenior plans talks with Chelsea exile Sterling",
-      "link": "https://www.espn.com/soccer/story/_/id/47603026/chelsea-liam-rosenior-raheem-sterling-axel-disasi",
-      "summary": "\\Chelsea boss Liam Rosenior said he intends to hold talks with Raheem Sterling and Axel Disasi over their futures Stamford Bridge.",
-      "publishedAt": "2026-01-14T09:37:06.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Oosting hoopt bekerheld Kerk te behouden: 'Ik ga wel doorduwen'",
-      "link": "https://www.vi.nl/nieuws/oosting-hoopt-bekerheld-kerk-te-behouden-ik-ga-wel-doorduwen",
-      "summary": "Antwerp-trainer Joseph Oosting hoopt dat Gyrano Kerk ook na dit seizoen nog in Antwerpen actief blijft. De Surinaams international heeft een aflopend contract en is sinds een aantal weken bijzonder op dreef. Zo ook in het gewonnen bekerduel van Antwerp met La Louvière .",
-      "publishedAt": "2026-01-14T09:35:43.000Z"
+      "title": "Golf leaderboards: McIlroy, Fleetwood headline Dubai Invitational",
+      "link": "https://www.skysports.com/golf/news/12040/12950625/golf-leaderboards-pga-tour-lpga-tour-liv-golf-dp-world-tour-ladies-european-tour-major-championships-and-more",
+      "summary": "All the latest golf scores and results from around the world.",
+      "publishedAt": "2026-01-14T10:00:00.000Z"
     },
     {
       "type": "rss",
@@ -198,28 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cp37k9ql449o?at_medium=RSS&at_campaign=rss",
       "summary": "Why has an English manager not won the Premier League? Chief football writer Phil McNulty explores who could make history.",
       "publishedAt": "2026-01-14T06:39:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raducanu fights back in Hobart to win first match since September",
-      "link": "https://www.skysports.com/tennis/news/12040/13494022/emma-raducanu-british-no-1-fights-back-in-hobart-to-win-first-match-since-september-beating-camila-osorio",
-      "summary": "Emma Raducanu earned her first victory since September after fighting back to beat Camila Osorio in straight sets in the first round of the Hobart International.",
-      "publishedAt": "2026-01-14T05:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "The three ages of Michael Carrick … and what they say about Manchester United",
-      "link": "https://www.theguardian.com/football/2026/jan/14/the-three-ages-of-michael-carrick-and-what-they-say-about-manchester-united",
-      "summary": "From his competitive debut to his first spell as interim, the former midfielder has seen much at Old Trafford over the past two decades 23 August 2006, Charlton 0-3 Manchester United The 25‑year‑old new signing was eased into United’s midfield as a second-half substitute in the second game of the season, having picked up a small injury on the pre‑season tour. With Wayne Rooney and Paul Scholes suspended, Sir Alex Ferguson started with John O’Shea and Darren Fletcher in central midfield, with the Scot (sporting a mullet) opening the scoring after Ryan Giggs and Cristiano Ronaldo had hit the woodwork. Carrick was one of four future United managers in the side, alongside Fletcher, Giggs and Ole Gunnar Solskjær, who rounded off the win with a late goal after Louis Saha had doubled United’s lead. Solskjær’s goal was his first in the league in three injury-hit years, and the Norwegian, also a substitute, should have had another when Carrick squared a perfect pass to the striker, only for Charlton’s Scott Carson to make an outstanding save. With Carrick an instant success at United that season, the club roared to the title in May 2007, their first in four years. Continue reading...",
-      "publishedAt": "2026-01-14T00:00:08.000Z"
     }
   ]
 }
