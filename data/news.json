@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-01-15T07:29:02.526Z",
+  "generatedAt": "2026-01-15T08:36:08.928Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Fernandes not seeking to leave Man Utd in January",
+      "link": "https://www.bbc.com/sport/football/articles/c2k9z5dj7pqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United captain Bruno Fernandes is not planning to seek a move away from the club this month.",
+      "publishedAt": "2026-01-15T08:25:33.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal take first step to end long-standing semifinal curse",
+      "link": "https://www.espn.com/soccer/story/_/id/47613702/arsenal-take-first-step-end-long-standing-semifinal-curse",
+      "summary": "In a thriller at Stamford Bridge, Mikel Arteta's Arsenal took a major step toward ending a major trophy drought that has lingered for years.",
+      "publishedAt": "2026-01-15T08:09:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Arbeloa in discutabel rijtje met Hiddink en Lopetegui",
+      "link": "https://www.vi.nl/nieuws/arbeloa-in-discutabel-rijtje-met-hiddink-en-lopetegui",
+      "summary": "Álvaro Arbeloa heeft zichzelf een slechte dienst bewezen. Hij zag zijn Real Madrid uitgeschakeld worden in de Copa del Rey bij zijn debuut als trainer. Daarmee valt hem een discutabele eer ten deel.",
+      "publishedAt": "2026-01-15T08:08:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sports piracy explodes in UK with 3.6bn illegal streams and rise of black-market bookmakers",
+      "link": "https://www.theguardian.com/sport/2026/jan/15/sports-piracy-explodes-uk-illegal-streams-black-market-bookmakers",
+      "summary": "Unlicensed betting has surged over the last four years Gambling Commission accused of underestimating issue The number of illegal streams of sports events in Britain has more than doubled to 3.6bn in the past three years according to a new report, which provides a stark illustration of the challenge facing broadcasters and leagues in combating piracy. The Campaign for Fairer Gambling’s national 2024-25 report also highlights that there is a symbiotic relationship between sports piracy and unlicensed gambling, with 89% of illegal streams in this country featuring adverts for black-market bookmakers. Continue reading...",
+      "publishedAt": "2026-01-15T08:00:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What’s in a club DNA? Alonso exit shows the only reliable predictors of success are wealth and good decisions | Jonathan Liew",
+      "link": "https://www.theguardian.com/football/2026/jan/15/football-club-dna-xabi-alonso-real-madrid-michael-carrick-manchester-united",
+      "summary": "Real Madrid and Manchester United put their faith in familiarity but the lesson of Ferguson is dynastic greatness rests not in tradition but ditching principles “It is all too easy to make mistaken inferences unless the process involved is already very well understood.” Francis Crick, molecular biologist “This club is about winning, winning and winning again. It’s in our DNA.” Álvaro Arbeloa Continue reading...",
+      "publishedAt": "2026-01-15T08:00:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Waarom punt aftrek dreigt voor VVV-Venlo en Helmond Sport",
+      "link": "https://www.vi.nl/pro/waarom-punt-aftrek-dreigt-voor-vvv-venlo-en-helmond-sport",
+      "summary": "De licentiecommissie van de KNVB heeft VVV-Venlo en Helmond Sport bestraft met een voorwaardelijke sanctie van één punt in mindering. Beide clubs hadden in 2024/25 hun negatieve eigen vermogen moeten verbeteren, maar dat is niet gebeurd.",
+      "publishedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Bondscoach Marokko haalt gram na historische prestatie: 'Oneerlijke campagne'",
+      "link": "https://www.vi.nl/nieuws/bondscoach-marokko-slaat-na-historische-prestatie-terug-naar-criticasters",
+      "summary": "Walid Regragui schreef woensdagavond geschiedenis door als eerste Marokkaan de Afrika Cup-finale te halen als speler en als trainer. De bondscoach van het gastland genoot van die historische prestatie, maar sloeg na het bereiken van de eindstrijd van het toernooi in eigen land ook terug naar de kritische media.",
+      "publishedAt": "2026-01-15T07:54:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Real volledig de kluts kwijt: 'De crisis heeft ongekende proporties aangenomen'",
+      "link": "https://www.vi.nl/nieuws/real-volledig-de-kluts-kwijt-de-crisis-heeft-ongekende-proporties-aangenomen",
+      "summary": "De Spaanse media waren hard voor Real Madrid na de pijnlijke bekeruitschakeling tegen Albacete . Woensdag verloor de ploeg van debuterend hoofdtrainer Álvaro Arbeloa van de nummer zeventien van de Segunda División. 'Er is nu geen trainer meer om de schuld aan te geven.'",
+      "publishedAt": "2026-01-15T07:43:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Raducanu stunned by Preston ahead of Australian Open",
+      "link": "https://www.skysports.com/tennis/news/12040/13494480/emma-raducanu-british-no-1-stunned-by-taylah-preston-at-hobart-international-quarter-finals-ahead-of-australian-open",
+      "summary": "Emma Raducanu's preparations for the Australian Open took a hit after she was stunned 6-2 6-4 by Taylah Preston in the quarter-finals of the Hobart International.",
+      "publishedAt": "2026-01-15T07:40:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Football transfer rumours: Everton to sign Youssef En-Nesyri and Callum Wilson?",
+      "link": "https://www.theguardian.com/football/2026/jan/15/football-transfer-rumours-everton-to-sign-youssef-en-nesyri-and-callum-wilson",
+      "summary": "Today’s rumours are air-tight David Moyes is a keen admirer of massive centre-forwards, so it should not come as a surprise that Everton want to bring in all 6ft 2in of Youssef En-Nesyri from Fenerbahce. An initial loan offer, with a £20m option, is on the table for the Moroccan, leaving a decision to made in Istanbul. There is a chance Callum Wilson could swap West Ham for Merseyside to join up with Moyes, too. Nottingham Forest are also interested in En-Nesyri but their main striking target is Olympiakos’ veteran forward, Mehdi Taremi. Sean Dyche was hoping for a quiet month but needs must and that could include sending Oleksandr Zinchenko back to Arsenal after a very forgettable loan spell at the City Ground. Continue reading...",
+      "publishedAt": "2026-01-15T07:22:19.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,28 +121,6 @@
       "link": "https://www.vi.nl/nieuws/rondje-knvb-beker-ajax-slaat-modderfiguur-psv-soeverein",
       "summary": "Het is tijd voor Rondje Eurojackpot KNVB Beker! Ajax werd woensdag genadeloos op de pijnbank gelegd door AZ, terwijl PSV zonder veel moeite afrekende met FC Den Bosch. We hebben het donderdagochtend uitgebreid over deze achtstefinaleduels.",
       "publishedAt": "2026-01-15T07:13:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Spel is al op de wagen rond Sano, NEC verlangt hoofdprijs",
-      "link": "https://www.vi.nl/nieuws/spel-is-al-op-de-wagen-rond-sano-nec-verlangt-hoofdprijs",
-      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-15T07:05:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Totale afgang Ajax is wereldnieuws: 'Een van de pijnlijkste uit de geschiedenis'",
-      "link": "https://www.vi.nl/nieuws/totale-afgang-ajax-is-wereldnieuws-een-van-de-pijnlijkste-uit-de-geschiedenis",
-      "summary": "Ook in het buitenland is de afgang van Ajax in de Eurojackpot KNVB Beker opgevallen. De Amsterdammers verloren woensdagavond met 6-0 van AZ. 'Er is een nieuw hoofdstuk toegevoegd aan de nachtmerrie die Ajax dit seizoen beleeft.'",
-      "publishedAt": "2026-01-15T07:01:00.000Z"
     },
     {
       "type": "rss",
@@ -69,25 +157,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Ajax vergoedt tickets meegereisde fans na bekerfiasco",
-      "link": "https://www.vi.nl/nieuws/ajax-vergoedt-tickets-meegereisde-fans-na-bekerfiasco",
-      "summary": "De Ajax-supporters die woensdag in Alkmaar getuige waren van de historische bekernederlaag van de Amsterdammers krijgen het geld voor hun tickets terug, zo kondigde Fred Grim woensdagavond laat aan.",
-      "publishedAt": "2026-01-15T06:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Bayern kan het ook op een koude januari-avond in Keulen",
-      "link": "https://www.vi.nl/video/bayern-kan-het-ook-op-een-koude-januari-avond-in-keulen",
-      "summary": "Zeventien duels, 47 punten, 66 goals voor en slechts dertien tegen: de cijfers van Bayern München in de Bundesliga zijn hallucinant. Woensdag won de Champions League-tegenstander van PSV met 1-3 bij 1. FC Köln. In deze video zie je de goals van Bayern.",
-      "publishedAt": "2026-01-15T06:35:50.000Z"
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What does xG predict for the rest of the season?",
+      "link": "https://www.bbc.com/sport/football/articles/c0ke7223vp4o?at_medium=RSS&at_campaign=rss",
+      "summary": "With more than half the season gone, we have enough stats to get a good idea of how well Premier League teams have been playing and therefore how things will likely unfold in the months ahead.",
+      "publishedAt": "2026-01-15T06:24:09.000Z"
     },
     {
       "type": "rss",
@@ -99,17 +176,6 @@
       "link": "https://www.skysports.com/tennis/news/12040/13494465/australian-open-draw-emma-raducanu-in-line-to-face-aryna-sabalenka-in-third-round-again-while-novak-djokovic-in-same-half-as-jannik-sinner",
       "summary": "Emma Raducanu has been handed a tough path at the Australian Open despite being seeded, with world No 1 Aryna Sabalenka potentially awaiting in the third round.",
       "publishedAt": "2026-01-15T06:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Raducanu in quarter-final action at Hobart International",
-      "link": "https://www.skysports.com/tennis/scores-schedule",
-      "summary": "",
-      "publishedAt": "2026-01-15T05:45:00.000Z"
     },
     {
       "type": "rss",
@@ -154,72 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47612784/samuel-etoo-banned-4-games-alleged-afcon-misbehaviour",
       "summary": "Cameroonian Football Federation president Samuel Eto'o has been suspended for four games for alleged misbehavior during his team's loss to Morocco at the Africa Cup of Nations.",
       "publishedAt": "2026-01-15T03:11:16.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hearts 'underdogs by long shot' but still setting Premiership pace",
-      "link": "https://www.bbc.com/sport/articles/c20gp09lpglo?at_medium=RSS&at_campaign=rss",
-      "summary": "If it seemed Hearts made a statement by winning with 10 men at Dundee on Sunday, they upped the ante against St Mirren four days later.",
-      "publishedAt": "2026-01-15T00:23:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "O'Neill calls for patience on Celtic transfers",
-      "link": "https://www.bbc.com/sport/football/articles/cn0kz04107do?at_medium=RSS&at_campaign=rss",
-      "summary": "The Celtic manager Martin O'Neill says \"cut me a little bit of slack\" as the club work on bringing in new faces this month.",
-      "publishedAt": "2026-01-15T00:04:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arsenal take step to ending semi-final nightmares - but regrets remain",
-      "link": "https://www.bbc.com/sport/football/articles/c0q48q8e47go?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal's 3-2 win at Chelsea seizes control of their EFL Cup tie - and overcoming their poor record in semi-finals will be the big positive for Mikel Arteta.",
-      "publishedAt": "2026-01-14T23:51:55.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arbeloa starts Real Madrid tenure with disastrous Copa del Rey defeat at Albacete",
-      "link": "https://www.theguardian.com/football/2026/jan/14/alvaro-arbeloa-real-madrid-copa-del-rey-albacete",
-      "summary": "Last 16: Albacete 3-2 Real Madrid Stoppage-time winner secures huge upset For 20 minutes of Álvaro Arbeloa’s debut as manager of Real Madrid, the fog came down and no one could see any football. For the other 70, they couldn’t either. Not from his team, at least. From Albacete Balompié, 17th in the second division, they witnessed something magical. An outrageous goal scored with single second to go was the perfect end to the greatest story they ever told, history made. When the final whistle went, Madrid headed straight down the tunnel, defeated again, while the party began in the Carlos Belmonte. Arbeloa had said he wanted to see Vinícius Júnior dance; instead, it was Albacete’s fans who would, long into the night of their lives. This could not have been any better; at Madrid, things can always get worse, the crisis deepening. Careful what you wish for and all that. “At this club every defeat is a tragedy, so imagine one like this,” Arbeloa said. “Failure is the road to success,” Madrid’s new manager added, insisting he was not afraid, that he had suffered eliminations even worse, but this had hurt. Continue reading...",
-      "publishedAt": "2026-01-14T23:25:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Morocco book place in home Afcon final as Bounou denies Nigeria in shootout",
-      "link": "https://www.theguardian.com/football/2026/jan/14/africa-cup-of-nations-final-nigeria-morocco-semi-final-report",
-      "summary": "Morocco advanced to the Africa Cup of Nations final on penalties, beating Nigeria 4-2 in the final shootout after their semi-final ended goalless after extra time. Yassine Bounou saved two spot kicks for the tournament hosts, keeping out Samuel Chukwueze and Bruno Onyemaechi’s efforts. Nigeria keeper Stanley Nwabali denied Hamza Igamane with the first save of the shootout, but it proved to be in vain. Continue reading...",
-      "publishedAt": "2026-01-14T23:10:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Bayern's record-breaking Bundesliga season in numbers",
-      "link": "https://www.bbc.com/sport/football/articles/cd9e7x5dndgo?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport examines the stunning numbers behind Bayern Munich's record-breaking start to the Bundesliga season - and what records they could topple.",
-      "publishedAt": "2026-01-14T22:29:26.000Z"
     }
   ]
 }
