@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-01-15T19:27:53.106Z",
+  "generatedAt": "2026-01-15T20:30:47.178Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Uneken gaat omhaal in Friesland nog wel een aantal keer terugkijken",
+      "link": "https://www.vi.nl/nieuws/uneken-zag-omhaal-in-friesland-alleen-maar-in-zijn-dromen-voorbij-komen",
+      "summary": "Jesper Uneken werd donderdagavond met RKC Waalwijk uitgeschakeld in de Eurojackpot KNVB Beker, maar scoorde wel met een omhaal tegen SC Heerenveen. De huurling van PSV gaat het acrobatische doelpunt nog wel een aantal keer bekijken op de terugweg naar Brabant.",
+      "publishedAt": "2026-01-15T20:13:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: gelegenheidspits Kuwas bezorgt Volendam de voorsprong",
+      "link": "https://www.vi.nl/nieuws/vi-live-trenskow-maakt-n-van-vele-heerenveen-kansen-w-l-af",
+      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
+      "publishedAt": "2026-01-15T20:13:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arbeloa: Madrid Copa exit to 2nd-tier side 'painful'",
+      "link": "https://www.espn.com/soccer/story/_/id/47613216/arbeloa-real-madrid-copa-exit-2nd-tier-side",
+      "summary": "New Real Madrid coach Álvaro Arbeloa took responsibility for the team's \"painful\" 3-2 Copa del Rey defeat to second-tier Albacete on Wednesday, defending his decision to rest a number of senior players.",
+      "publishedAt": "2026-01-15T20:00:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Chelsea's Rosenior: Blame me for Sánchez errors",
+      "link": "https://www.espn.com/soccer/story/_/id/47613217/chelsea-liam-rosenior-robert-sanchez-carabao-cup-arsenal",
+      "summary": "Liam Rosenior has urged Chelsea fans to blame him for Robert Sánchez's two mistakes which helped Arsenal to a 3-2 victory in Wednesday's Carabao Cup semifinal, first leg at Stamford Bridge.",
+      "publishedAt": "2026-01-15T20:00:18.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Luis Enrique open to using sin-bins like rugby",
+      "link": "https://www.espn.com/soccer/story/_/id/47620049/psg-luis-enrique-open-using-rugby-style-sin-bin-fouls",
+      "summary": "Paris Saint-Germain coach Luis Enrique is open to a sin-bin-style system in soccer whereby players are temporarily removed from a game for fouls.",
+      "publishedAt": "2026-01-15T20:00:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "UEFA: $55M loss due to drop in U.S. dollar",
+      "link": "https://www.espn.com/soccer/story/_/id/47620728/uefa-blames-55m-revenue-loss-drop-us-dollar",
+      "summary": "The U.S. dollar value dropped about 9% against a range of foreign currencies in the first months of 2025 and UEFA blames that fall for a $55M loss of revenue.",
+      "publishedAt": "2026-01-15T20:00:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Blackmon joins Caps camp amid Miami interest",
+      "link": "https://www.espn.com/soccer/story/_/id/47621254/vancouver-whitecaps-tristan-blackmon-inter-miami-transfer-schuster",
+      "summary": "Vancouver Whitecaps sporting director Axel Schuster said that defender Tristan Blackmon completed his entrance medical on Thursday, and would accompany the team to its preseason training camp in Marbella, Spain.",
+      "publishedAt": "2026-01-15T20:00:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Geopolitical football: Iran? Trump? How the game can stand strong in a fractured world",
+      "link": "https://www.theguardian.com/football/2026/jan/15/geopolitical-football-iran-trump-how-can-the-game-stand-strong-in-a-fractured-world",
+      "summary": "The 2026 World Cup is set to be a polarising event but, even if it will not be the first to be politically contentious, it will expose a growing unease Five months out from the World Cup the politics are impossible to avoid. There are concerns relating to one of the host countries, the US, with armed immigration officials roaming through its cities and visa restrictions ramped up against foreign visitors. One qualifying nation, Iran, is experiencing a public uprising against its leadership, with the regime attacking its citizens in response. Among other qualifiers there are concerns over democratic backsliding in Tunisia, ecological crimes in Ecuador and , in the future host country Saudi Arabia. And that’s just for starters. It sometimes feels as if this summer’s tournament, the one Gianni Infantino recently described as “the greatest show ever on planet Earth”, will serve as an inescapable reminder of the depressing state of the world in 2026. It could yet be an event that goes down in infamy. But it is hardly the only tournament to have prompted ethical concerns and serves as a reminder that the issue of how global sport should engage with such issues has remained largely unresolved. Continue reading...",
+      "publishedAt": "2026-01-15T19:56:52.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Heerenveen overleeft Zlatanesque goal RKC en mag bekercampagne vervolgen",
+      "link": "https://www.vi.nl/nieuws/heerenveen-overleeft-zlatanesque-goal-rkc-en-mag-bekercampagne-vervolgen",
+      "summary": "SC Heerenveen is de zesde kwartfinalist in de Eurojackpot KNVB Beker. Vanwege een Zlatanesque goal van RKC Waalwijk kwamen de Friezen donderdagavond nog even in de problemen, maar in de slotfase werd er toch een ruime overwinning geboekt.",
+      "publishedAt": "2026-01-15T19:52:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Players need social skills for World Cup - Tuchel",
+      "link": "https://www.bbc.com/sport/football/articles/c5y5lqq2p7po?at_medium=RSS&at_campaign=rss",
+      "summary": "England manager Thomas Tuchel says players will need the right \"social skills\" and personality to make his World Cup squad.",
+      "publishedAt": "2026-01-15T19:32:58.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -11,17 +121,6 @@
       "link": "https://www.vi.nl/nieuws/aston-villa-probeert-promotieheld-terug-te-halen-na-vertrek-van-malen",
       "summary": "Tammy Abraham heeft Besiktas donderdag de weg gewezen naar een bekerzege op Ankara Keciörengücü. Dat kan zomaar zijn laatste daad in Turkse dienst zijn geweest, want de Engelse aanvaller staat naar verluidt in de nadrukkelijke belangstelling van Aston Villa.",
       "publishedAt": "2026-01-15T19:21:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Heerenveen komt in de slotfase toch weer op voorsprong",
-      "link": "https://www.vi.nl/nieuws/vi-live-trenskow-maakt-n-van-vele-heerenveen-kansen-w-l-af",
-      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
-      "publishedAt": "2026-01-15T19:19:50.000Z"
     },
     {
       "type": "rss",
@@ -42,7 +141,7 @@
       "flag": "🌍",
       "title": "Inquiry launched after Chelsea fans complain about policing at end of Charlton game",
       "link": "https://www.theguardian.com/football/2026/jan/15/probe-launched-after-chelsea-fans-complain-of-poor-policing-at-end-of-fa-cup-tie-at-charlton",
-      "summary": "Fans upset at being unexpectedly ‘held back’ at the Valley Police action ‘uncomfortably like that from past decades’ The Metropolitan police has commissioned an independent investigation after receiving complaints over its treatment of Chelsea supporters after the west London club’s FA Cup tie at Charlton Athletic last Saturday. The Chelsea Supporters’ Trust called for action earlier this week after writing to the force to voice concerns over an operation that saw approximately 3,000 travelling fans held back outside the Valley without prior notice following the conclusion of a game that kicked off at 8pm in freezing temperatures. Continue reading...",
+      "summary": "Fans upset at being unexpectedly held back at the Valley Police action ‘uncomfortably like that from past decades’ The Metropolitan police has commissioned an independent investigation after receiving complaints about its treatment of Chelsea supporters after the west London club’s FA Cup tie at Charlton last Saturday. The Chelsea Supporters’ Trust (CST) called for action earlier this week after writing to the force to voice concerns regarding an operation in which approximately 3,000 travelling fans were held back outside the Valley without prior notice following the conclusion of a game that kicked off at 8pm in freezing temperatures. Continue reading...",
       "publishedAt": "2026-01-15T18:48:56.000Z"
     },
     {
@@ -55,17 +154,6 @@
       "link": "https://www.skysports.com/darts/news/12040/13494746/saudi-arabia-darts-masters-riyadh-season-bullseye-introduced-with-200000-up-for-grabs-after-nine-darter",
       "summary": "Players competing in the Riyadh Season Saudi Arabia Darts Masters could win an astonishing $200,000 if they produce a nine-darter followed by a bullseye in the World Series of Darts event.",
       "publishedAt": "2026-01-15T18:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Lang bungelt tussen basis en transfermarkt, Napoli spot vervanger'",
-      "link": "https://www.vi.nl/nieuws/napoli-spot-mogelijke-vervanger-lang-die-tussen-basis-en-transfermarkt-bungelt",
-      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-15T18:33:07.000Z"
     },
     {
       "type": "rss",
@@ -91,39 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Luis Enrique open to using sin-bins like rugby",
-      "link": "https://www.espn.com/soccer/story/_/id/47620049/psg-luis-enrique-open-using-rugby-style-sin-bin-fouls",
-      "summary": "Paris Saint-Germain coach Luis Enrique is open to a sin-bin-style system in soccer whereby players are temporarily removed from a game for fouls.",
-      "publishedAt": "2026-01-15T18:17:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arbeloa: Madrid Copa exit to 2nd-tier side 'painful'",
-      "link": "https://www.espn.com/soccer/story/_/id/47613216/arbeloa-real-madrid-copa-exit-2nd-tier-side",
-      "summary": "New Real Madrid coach Álvaro Arbeloa took responsibility for the team's \"painful\" 3-2 Copa del Rey defeat to second-tier Albacete on Wednesday, defending his decision to rest a number of senior players.",
-      "publishedAt": "2026-01-15T18:17:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "UEFA: $55M loss due to drop in U.S. dollar",
-      "link": "https://www.espn.com/soccer/story/_/id/47620728/uefa-blames-55m-revenue-loss-drop-us-dollar",
-      "summary": "The U.S. dollar value dropped about 9% against a range of foreign currencies in the first months of 2025 and UEFA blames that fall for a $55M loss of revenue.",
-      "publishedAt": "2026-01-15T18:17:58.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Sky Sports - Football",
       "sourceSlug": "sky-sports-football",
       "country": "INT",
@@ -132,28 +187,6 @@
       "link": "https://www.skysports.com/football/news/12040/13494741/fifa-womens-champions-cup-sky-sports-to-show-final-stage-of-inaugural-tournament",
       "summary": "Sky and FIFA have agreed an exclusive new partnership which will see the Final Stage of the inaugural FIFA Women’s Champions Cup broadcast live on Sky Sports in the UK and Ireland on January 28 and February 1",
       "publishedAt": "2026-01-15T18:15:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Openhartige Martínez dacht aan stoppen: 'Ik wilde niet meer voetballen'",
-      "link": "https://www.vi.nl/nieuws/openhartige-mart-nez-dacht-aan-stoppen-ik-wilde-niet-meer-voetballen",
-      "summary": "Lisandro Martínez heeft overwogen om het profvoetbal voortijdig vaarwel te zeggen. De verdediger van Manchester United kampte de laatste seizoenen met diverse blessures en ging door een diep dal. 'Maar as je uit balans bent, kun je van alles roepen.'",
-      "publishedAt": "2026-01-15T18:13:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Richarlison out for seven weeks with hamstring injury",
-      "link": "https://www.bbc.com/sport/football/articles/cwy1552nn59o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tottenham forward Richarlison is ruled out for up to seven weeks with a hamstring injury.",
-      "publishedAt": "2026-01-15T18:07:34.000Z"
     },
     {
       "type": "rss",
@@ -187,39 +220,6 @@
       "link": "https://www.skysports.com/football/news/12040/13494542/michael-carricks-man-utd-could-kobbie-mainoo-finally-be-set-to-play-greater-role-at-old-trafford",
       "summary": "\"Free Kobbie Mainoo.\"",
       "publishedAt": "2026-01-15T17:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Thomas Tuchel says England players’ social skills as vital as talent at World Cup",
-      "link": "https://www.theguardian.com/football/2026/jan/15/thomas-tuchel-england-players-social-skills-talent-world-cup-football",
-      "summary": "Manager stresses squad harmony crucial at tournament Two friendlies in March to come before naming squad Thomas Tuchel stressed talent alone is not enough to make his World Cup squad because the right “social skills” and personality will be needed for England to stand a chance of glory this summer. The head coach has spoken extensively of building a “brotherhood” and placed heavy emphasis on ensuring there is the right mentality within the camp. England are one of the favourites but the shirt has weighed heavily in the past and Tuchel will look at how players interact with each other before he names his 26-man squad for the finals. Continue reading...",
-      "publishedAt": "2026-01-15T16:43:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'Head coach' vs. 'manager': What's the difference? Does it matter?",
-      "link": "https://www.espn.com/soccer/story/_/id/47617709/head-coach-managers-chelsea-enzo-maresca-blueco-manchester-united-ruben-amorim",
-      "summary": "Who would be a football manager? As it turns out in the Premier League, an increasing number of head coaches. Just ask Enzo Maresca and Ruben Amorim.",
-      "publishedAt": "2026-01-15T16:27:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Why did Man United, Chelsea, Real Madrid all sack their managers? It's about culture",
-      "link": "https://www.espn.com/soccer/story/_/id/47608614/manchester-united-real-madrid-chelsea-firing-managers-ruben-amorim-enzo-maresca-xabi-alonso-gab-marcotti",
-      "summary": "Why have three of the biggest soccer teams in the world fired their managers in the span of just 12 days?",
-      "publishedAt": "2026-01-15T16:27:43.000Z"
     }
   ]
 }
