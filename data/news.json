@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-01-15T16:39:45.186Z",
+  "generatedAt": "2026-01-15T18:41:48.293Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Lang bungelt tussen basis en transfermarkt, Napoli spot vervanger'",
+      "link": "https://www.vi.nl/nieuws/napoli-spot-mogelijke-vervanger-lang-die-tussen-basis-en-transfermarkt-bungelt",
+      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-15T18:33:07.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Trenskow maakt één van vele Heerenveen-kansen wél af",
+      "link": "https://www.vi.nl/nieuws/vi-live-trenskow-maakt-n-van-vele-heerenveen-kansen-w-l-af",
+      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
+      "publishedAt": "2026-01-15T18:27:55.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Littler faces Lim after Price, Aspinall survive scares in Bahrain LIVE!",
+      "link": "https://www.skysports.com/darts/live-blog/12040/13494617/bahrain-darts-masters-live-scores-results-commentary-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
+      "summary": "",
+      "publishedAt": "2026-01-15T18:20:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Luis Enrique open to using sin-bins like rugby",
+      "link": "https://www.espn.com/soccer/story/_/id/47620049/psg-luis-enrique-open-using-rugby-style-sin-bin-fouls",
+      "summary": "Paris Saint-Germain coach Luis Enrique is open to a sin-bin-style system in soccer whereby players are temporarily removed from a game for fouls.",
+      "publishedAt": "2026-01-15T18:17:58.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -10,7 +54,7 @@
       "title": "Arbeloa: Madrid Copa exit to 2nd-tier side 'painful'",
       "link": "https://www.espn.com/soccer/story/_/id/47613216/arbeloa-real-madrid-copa-exit-2nd-tier-side",
       "summary": "New Real Madrid coach Álvaro Arbeloa took responsibility for the team's \"painful\" 3-2 Copa del Rey defeat to second-tier Albacete on Wednesday, defending his decision to rest a number of senior players.",
-      "publishedAt": "2026-01-15T16:27:47.000Z"
+      "publishedAt": "2026-01-15T18:17:58.000Z"
     },
     {
       "type": "rss",
@@ -18,21 +62,21 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Chelsea's Rosenior: Blame me for Sánchez errors",
-      "link": "https://www.espn.com/soccer/story/_/id/47613217/chelsea-liam-rosenior-robert-sanchez-carabao-cup-arsenal",
-      "summary": "Liam Rosenior has urged Chelsea fans to blame him for Robert Sánchez's two mistakes which helped Arsenal to a 3-2 victory in Wednesday's Carabao Cup semifinal, first leg at Stamford Bridge.",
-      "publishedAt": "2026-01-15T16:27:47.000Z"
+      "title": "UEFA: $55M loss due to drop in U.S. dollar",
+      "link": "https://www.espn.com/soccer/story/_/id/47620728/uefa-blames-55m-revenue-loss-drop-us-dollar",
+      "summary": "The U.S. dollar value dropped about 9% against a range of foreign currencies in the first months of 2025 and UEFA blames that fall for a $55M loss of revenue.",
+      "publishedAt": "2026-01-15T18:17:58.000Z"
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "FIFA requests for World Cup tickets passes 500M",
-      "link": "https://www.espn.com/soccer/story/_/id/47613387/fifa-requests-2026-world-cup-tickets-passes-500m-mark",
-      "summary": "FIFA said Wednesday it has received more than 500 million ticket requests for this year's World Cup.",
-      "publishedAt": "2026-01-15T16:27:47.000Z"
+      "title": "Sky Sports to show Final Stage of inaugural FIFA Women's Champions Cup",
+      "link": "https://www.skysports.com/football/news/12040/13494741/fifa-womens-champions-cup-sky-sports-to-show-final-stage-of-inaugural-tournament",
+      "summary": "Sky and FIFA have agreed an exclusive new partnership which will see the Final Stage of the inaugural FIFA Women’s Champions Cup broadcast live on Sky Sports in the UK and Ireland on January 28 and February 1",
+      "publishedAt": "2026-01-15T18:15:00.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +84,32 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Op deze zender kijk je zondag naar Afrika Cup-finale Senegal tegen Marokko",
-      "link": "https://www.vi.nl/nieuws/op-deze-zender-kijk-je-zondag-naar-afrika-cup-finale-senegal-tegen-marokko",
-      "summary": "Precies 28 dagen na de start van het toernooi wordt zondag de finale van de Afrika Cup afgewerkt. Gastland Marokko neemt het op tegen de winnaar van 2021, Senegal. Voetbal International vertelt op welke zender de finale wordt uitgezonden.",
-      "publishedAt": "2026-01-15T16:25:18.000Z"
+      "title": "Openhartige Martínez dacht aan stoppen: 'Ik wilde niet meer voetballen'",
+      "link": "https://www.vi.nl/nieuws/openhartige-mart-nez-dacht-aan-stoppen-ik-wilde-niet-meer-voetballen",
+      "summary": "Lisandro Martínez heeft overwogen om het profvoetbal voortijdig vaarwel te zeggen. De verdediger van Manchester United kampte de laatste seizoenen met diverse blessures en ging door een diep dal. 'Maar as je uit balans bent, kun je van alles roepen.'",
+      "publishedAt": "2026-01-15T18:13:29.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Richarlison out for seven weeks with hamstring injury",
+      "link": "https://www.bbc.com/sport/football/articles/cwy1552nn59o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tottenham forward Richarlison is ruled out for up to seven weeks with a hamstring injury.",
+      "publishedAt": "2026-01-15T18:07:34.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "After agony in Morocco, what's next for Salah with club and country?",
+      "link": "https://www.bbc.com/sport/football/articles/cvgnp90ngqwo?at_medium=RSS&at_campaign=rss",
+      "summary": "What does Mohamed Salah's future hold for Liverpool and Egypt after their Afcon disappointment?",
+      "publishedAt": "2026-01-15T18:05:56.000Z"
     },
     {
       "type": "rss",
@@ -51,10 +117,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Mega-afkoopsom voor Giuliano Simeone, Buonanotte heeft nieuwe club",
-      "link": "https://www.vi.nl/nieuws/mega-afkoopsom-voor-giuliano-simeone-buonanotte-heeft-nieuwe-club",
-      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-15T16:14:04.000Z"
+      "title": "Platini ziet FIFA afglijden onder Infantino: 'Hij houdt van macht en rijkdom'",
+      "link": "https://www.vi.nl/nieuws/platini-ziet-fifa-afglijden-onder-infantino-hij-houdt-van-macht-en-rijkdom",
+      "summary": "Michel Platini ziet met lede ogen toe hoe de FIFA onder leiding van Gianni Infantino nog verder is afgegleden van zijn waarden en het voetbal. De Franse oud-international is ervan overtuigd dat het anders was gelopen, als hij in 2015 was aangesteld als opvolger van Sepp Blatter.",
+      "publishedAt": "2026-01-15T17:47:00.000Z"
     },
     {
       "type": "rss",
@@ -62,21 +128,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Keane snapt niets van Man Utd-terugkeer Evans: 'Allemaal een week naar Barbados'",
-      "link": "https://www.vi.nl/nieuws/keane-haalt-uit-naar-man-utd-evans-lag-twee-weken-geleden-nog-op-het-strand",
-      "summary": "Roy Keane is op zijn zachtst gezegd niet te spreken over de nieuwe staf van Manchester United, die naast interim-manager Michael Carrick bestaat uit Steve Holland, Jonny Evans en Jonathan Woodgate. 'We zouden allemaal een week naar Barbados moeten gaan.'",
-      "publishedAt": "2026-01-15T16:07:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Eurojackpot KNVB Beker gaat verder, ook Barcelona in actie",
-      "link": "https://www.vi.nl/nieuws/vi-live-knvb-beker-gaat-verder-ook-barcelona-in-actie",
-      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
-      "publishedAt": "2026-01-15T16:03:47.000Z"
+      "title": "Frank legt uit waarom 'top guy' Heitinga nu assistent is bij Spurs",
+      "link": "https://www.vi.nl/nieuws/frank-legt-uit-waarom-top-guy-heitinga-assistent-is-geworden-bij-spurs",
+      "summary": "Thomas Frank heeft uitleg gegeven over de verrassende aanstelling van John Heitinga bij Tottenham Hotspur. Volgens de manager zocht Spurs al enige tijd naar een assistent-trainer en was de voormalige trainer van Ajax de opvallendste kandidaat.",
+      "publishedAt": "2026-01-15T17:23:09.000Z"
     },
     {
       "type": "rss",
@@ -84,21 +139,76 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "West Ham will sell Lucas Paquetá … if Flamengo agree to loan him back",
+      "title": "West Ham’s plan to sell Paquetá and take him back on loan hits Flamengo resistance",
       "link": "https://www.theguardian.com/football/2026/jan/15/west-ham-paqueta-flamengo-loan-back-brazilian-transfer-football",
-      "summary": "Londoners have rejected €35m bid for midfielder Buonanotte joins Leeds on loan from Brighton West Ham will sell Lucas Paquetá this month if the deal includes an agreement for Flamengo to loan the midfielder back for the rest of the season. Flamengo had an opening bid of €35m (£30.3m) rejected for the Brazilian and are prepared to raise their offer to about €40m. Paquetá has made clear to West Ham that he wants to return to Brazil and there are signs that the transfer will go ahead. Continue reading...",
-      "publishedAt": "2026-01-15T16:03:35.000Z"
+      "summary": "Brazilian club may try to buy more cheaply in summer Buonanotte joins Leeds on loan from Brighton West Ham will sell Lucas Paquetá this month if the deal includes an agreement for Flamengo to loan the midfielder back for the rest of the season. Flamengo had an opening bid of €35m (£30.3m) rejected for the Brazilian and are prepared to raise their offer to about €40m. Paquetá has made clear to West Ham that he wants to return to Brazil but it is understood Flamengo are not minded to loan him back, reasoning that they can wait and buy him more cheaply in the summer. Continue reading...",
+      "publishedAt": "2026-01-15T17:16:43.000Z"
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Douglas Costa wordt na tussenstop in Serie D collega van Balotelli'",
-      "link": "https://www.vi.nl/nieuws/douglas-costa-krijgt-balotelli-als-collega-maar-maakt-tussenstop-in-serie-d",
-      "summary": "Douglas Costa gaat weer neerstrijken in Europa. De 35-jarige Braziliaan ruilt Australië in voor Chievo, zo melden meerdere Italiaanse media. Lang gaat het avontuur van Costa bij de Italiaanse vierdedivisionist niet duren, want vanaf de zomer gaat hij samenspelen met Mario Balotelli.",
-      "publishedAt": "2026-01-15T15:44:47.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "What are Carrick's plans to 'free Mainoo'?",
+      "link": "https://www.skysports.com/football/news/12040/13494542/michael-carricks-man-utd-could-kobbie-mainoo-finally-be-set-to-play-greater-role-at-old-trafford",
+      "summary": "\"Free Kobbie Mainoo.\"",
+      "publishedAt": "2026-01-15T17:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Thomas Tuchel says England players’ social skills as vital as talent at World Cup",
+      "link": "https://www.theguardian.com/football/2026/jan/15/thomas-tuchel-england-players-social-skills-talent-world-cup-football",
+      "summary": "Manager stresses squad harmony crucial at tournament Two friendlies in March to come before naming squad Thomas Tuchel stressed talent alone is not enough to make his World Cup squad as the right “social skills” and personality will be needed for England to stand a chance of glory this summer. It is just five months until the back-to-back Euros runners-up kick-off their quest for success in North America with their Group L opener against Croatia in Dallas. Tuchel only has two March friendlies before naming his squad for the tournament, having qualified impressively during an autumn when he spoke of building a “brotherhood” capable of beating the best. Continue reading...",
+      "publishedAt": "2026-01-15T16:43:32.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ramsay on Man Utd and MLS past and preparing for West Brom present",
+      "link": "https://www.skysports.com/football/news/12040/13493722/eric-ramsay-interview-new-west-brom-boss-on-coaching-at-man-utd-working-in-mls-and-preparing-for-the-championship",
+      "summary": "Things have moved very rapidly in Eric Ramsay's world in the last week or so.",
+      "publishedAt": "2026-01-15T16:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sunderland latest: Double injury blow for Black Cats",
+      "link": "https://www.skysports.com/football/live-blog/12040/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "summary": "",
+      "publishedAt": "2026-01-15T16:30:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Head coach' vs. 'manager': What's the difference? Does it matter?",
+      "link": "https://www.espn.com/soccer/story/_/id/47617709/head-coach-managers-chelsea-enzo-maresca-blueco-manchester-united-ruben-amorim",
+      "summary": "Who would be a football manager? As it turns out in the Premier League, an increasing number of head coaches. Just ask Enzo Maresca and Ruben Amorim.",
+      "publishedAt": "2026-01-15T16:27:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why did Man United, Chelsea, Real Madrid all sack their managers? It's about culture",
+      "link": "https://www.espn.com/soccer/story/_/id/47608614/manchester-united-real-madrid-chelsea-firing-managers-ruben-amorim-enzo-maresca-xabi-alonso-gab-marcotti",
+      "summary": "Why have three of the biggest soccer teams in the world fired their managers in the span of just 12 days?",
+      "publishedAt": "2026-01-15T16:27:43.000Z"
     },
     {
       "type": "rss",
@@ -110,116 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c07xpzyv1yno?at_medium=RSS&at_campaign=rss",
       "summary": "Igor Thiago's route to the Premier League has been far from straightforward - BBC Sport charts the rise of Brentford's record-breaking Brazilian striker.",
       "publishedAt": "2026-01-15T15:33:08.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Littler faces Lim as Humphries, Price feature at Bahrain Darts Masters LIVE!",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13494617/bahrain-darts-masters-live-scores-results-commentary-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2026-01-15T15:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Paqueta could move but be loaned back to West Ham",
-      "link": "https://www.bbc.com/sport/football/articles/c5y3p2kxe09o?at_medium=RSS&at_campaign=rss",
-      "summary": "Flamengo are exploring the possibility of loaning Lucas Paqueta back to West Ham as they try to sign the Brazil international this month.",
-      "publishedAt": "2026-01-15T14:58:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Football Daily | Windmilling prize fighters show their class in League Cup semi-finals",
-      "link": "https://www.theguardian.com/football/2026/jan/15/football-daily-email-arsenal-chelsea-newcastle-manchester-city",
-      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! Milk. Littlewoods. Rumbelows. Coca-Cola. Worthington’s. Carling. Capital One. Carabao. No matter which name is above the door, the League Cup has maintained certain traditions and idiosyncrasies, including those two-legged semi-finals. The exploits of fourth-tier Bradford City aside, these double-headers tend not to linger in the collective memory, being neither as high profile as Bigger Cup’s final four, nor as singular as the one-off FA Cup semis. Still, we have to respect the Football League’s grind here – it has managed to keep this format quirk in place for England’s third biggest trophy while the global football calendar destroys itself. Its trump card: asking the Premier League for some extra pennies to scrap the second leg. And so, we continue. I have an issue with the Football Daily newsletter’s tone. I feel like you try to insert so many jokes/snarky comments or choose certain words that make it come across to me as a bit unserious, such as yesterday’s edition. I’m mostly able to ignore this and won’t unsubscribe because of it, but consider toning it down or change the name of the newsletter to what it really is: Football Daily (with jokes)“ – Kachilapo Mulongoti. Uefa shutting out Mariana Cabral because she lacks the ‘right’ Pro Licence (yesterday’s Quote of the Day) feels about as modern as a fax machine in a village post office, and just as transparent as the old circus that nearly punched boxing into irrelevance. It’s the same weary routine: dress up gatekeeping as ‘standards’, funnel opportunity toward the same old boys’ network, and feign surprise when people spot the unmistakable whiff of favouritism. Cabral’s experience simply confirms what fans have muttered for years: Fifa and Uefa aren’t stewards of the game, they’re heritage institutions propped up by ego, nostalgia, and a financial ecosystem held together with tape and hypocrisy” – Harry Webb. Congratulations to Max Ibrahimovic on his move to Ajax (yesterday’s News, Bits and Bobs, full email edition). Unrelatedly, I wonder if his dad ever regretted helping pick the name ‘Max Ibrahimovic’ for his son, rather than a line of fragrances, athlete’s foot creams and/or personal massagers?” – Rowan Sweeney. Your story about Swindon manager Ian Holloway’s distaste for modern communication methods can’t be right (yesterday’s Football Daily, full email edition). His recent defence of Ollie Clarke’s conduct suggests he is all in favour of digital interventions, does it not?” – Dale Sellers. This is an extract from our daily football email … Football Daily. To get the full version, just visit this page and follow the instructions. Continue reading...",
-      "publishedAt": "2026-01-15T14:50:23.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Managers' authority is being eroded - Southgate",
-      "link": "https://www.bbc.com/sport/football/articles/cgk8rgpgkpyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Football managers' authority is being steadily eroded, Sir Gareth Southgate says, but the switch to head coaching still brings a \"significant melting pot of problems and pressure\".",
-      "publishedAt": "2026-01-15T14:13:42.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Australian Open: Men's and women's draw",
-      "link": "https://www.skysports.com/tennis/news/12040/13493930/mens-and-womens-australian-open-draw-and-results-with-emma-raducanu-carlos-alcaraz-jannik-sinner-and-aryna-sabalenka-playing",
-      "summary": "The full draw for the men's and women's singles tournament for the Australian Open in Melbourne.",
-      "publishedAt": "2026-01-15T14:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Replacing Amorim was only the start: Man United have more club-defining decisions ahead",
-      "link": "https://www.espn.com/soccer/story/_/id/47613100/man-uniteds-key-problems-likely-solutions-amorim-exit",
-      "summary": "Questions abound for Man United: Will the Glazers take the exit clause to sell? Who will be the permanent coach? Will Rashford return? And more!",
-      "publishedAt": "2026-01-15T13:34:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "A no-fuss, loyal, safe option: How Man United chose Carrick as head coach",
-      "link": "https://www.espn.com/soccer/story/_/id/47602042/how-manchester-united-chose-michael-carrick-head-coach",
-      "summary": "A breakfast meeting set the course for the former Man United star to return as their new head coach for now.",
-      "publishedAt": "2026-01-15T13:34:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Offside or not? Man City, Arsenal and VAR inconsistencies",
-      "link": "https://www.bbc.com/sport/football/articles/c7v0lz7q7q2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City had their goal disallowed, while Arsenal's was allowed to stand. But the VAR should not look to be consistent with a previous bad decision.",
-      "publishedAt": "2026-01-15T13:09:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Harbaugh agrees to become Giants head coach",
-      "link": "https://www.skysports.com/nfl/news/12040/13494626/john-harbaugh-agrees-to-become-new-york-giants-head-coach-after-18-seasons-in-charge-of-baltimore-ravens",
-      "summary": "John Harbaugh has agreed to become the new head coach of the New York Giants, with the former Baltimore Ravens leader finalising a five-year deal with the four-time Super Bowl champions.",
-      "publishedAt": "2026-01-15T13:01:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Spurs bring Heitinga on to Frank’s staff and make Moersen director of football operations",
-      "link": "https://www.theguardian.com/football/2026/jan/15/spurs-rafi-moersen-city-football-group-director-of-football-operations-thomas-frank",
-      "summary": "Heitinga to have big role with defence, Frank says Moersen to serve months of gardening leave Tottenham have appointed John Heitinga, the former Ajax head coach and assistant to Arne Slot at Liverpool, to Thomas Frank’s coaching staff. Frank said one of the Dutchman’s main responsibilities would be to work with the defence. Heitinga’s arrival was confirmed after Spurs announced that Carlos Raphael Moersen was joining as their first director of football operations. He is coming in from City Football Group, which oversees a stable of clubs that includes Manchester City. Continue reading...",
-      "publishedAt": "2026-01-15T12:28:24.000Z"
     }
   ]
 }
