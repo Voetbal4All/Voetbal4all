@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-01-15T01:59:32.613Z",
+  "generatedAt": "2026-01-15T03:47:12.000Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Hearts 'underdogs by long shot' but still setting Premiership pace",
-      "link": "https://www.bbc.com/sport/articles/c20gp09lpglo?at_medium=RSS&at_campaign=rss",
-      "summary": "If it seemed Hearts made a statement by winning with 10 men at Dundee on Sunday, they upped the ante against St Mirren four days later.",
-      "publishedAt": "2026-01-15T00:23:24.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -21,7 +10,7 @@
       "title": "Arbeloa: Madrid Copa exit to 2nd-tier side 'painful'",
       "link": "https://www.espn.com/soccer/story/_/id/47613216/arbeloa-real-madrid-copa-exit-2nd-tier-side",
       "summary": "New Real Madrid coach Álvaro Arbeloa took responsibility for the team's \"painful\" 3-2 Copa del Rey defeat to second-tier Albacete on Wednesday, defending his decision to rest a number of senior players.",
-      "publishedAt": "2026-01-15T00:11:42.000Z"
+      "publishedAt": "2026-01-15T03:11:16.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,7 @@
       "title": "Chelsea's Rosenior: Blame me for Sánchez errors",
       "link": "https://www.espn.com/soccer/story/_/id/47613217/chelsea-liam-rosenior-robert-sanchez-carabao-cup-arsenal",
       "summary": "Liam Rosenior has urged Chelsea fans to blame him for Robert Sánchez's two mistakes which helped Arsenal to a 3-2 victory in Wednesday's Carabao Cup semifinal, first leg at Stamford Bridge.",
-      "publishedAt": "2026-01-15T00:11:42.000Z"
+      "publishedAt": "2026-01-15T03:11:16.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +32,7 @@
       "title": "FIFA requests for World Cup tickets passes 500M",
       "link": "https://www.espn.com/soccer/story/_/id/47613387/fifa-requests-2026-world-cup-tickets-passes-500m-mark",
       "summary": "FIFA said Wednesday it has received more than 500 million ticket requests for this year's World Cup.",
-      "publishedAt": "2026-01-15T00:11:42.000Z"
+      "publishedAt": "2026-01-15T03:11:16.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +43,18 @@
       "title": "Eto'o banned over alleged AFCON misbehavior",
       "link": "https://www.espn.com/soccer/story/_/id/47612784/samuel-etoo-banned-4-games-alleged-afcon-misbehaviour",
       "summary": "Cameroonian Football Federation president Samuel Eto'o has been suspended for four games for alleged misbehavior during his team's loss to Morocco at the Africa Cup of Nations.",
-      "publishedAt": "2026-01-15T00:11:42.000Z"
+      "publishedAt": "2026-01-15T03:11:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Hearts 'underdogs by long shot' but still setting Premiership pace",
+      "link": "https://www.bbc.com/sport/articles/c20gp09lpglo?at_medium=RSS&at_campaign=rss",
+      "summary": "If it seemed Hearts made a statement by winning with 10 men at Dundee on Sunday, they upped the ante against St Mirren four days later.",
+      "publishedAt": "2026-01-15T00:23:24.000Z"
     },
     {
       "type": "rss",
@@ -212,14 +212,14 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Why did Man United, Chelsea, Real Madrid all sack their managers? It's about culture",
-      "link": "https://www.espn.com/soccer/story/_/id/47608614/manchester-united-real-madrid-chelsea-firing-managers-ruben-amorim-enzo-maresca-xabi-alonso-gab-marcotti",
-      "summary": "Why have three of the biggest soccer teams in the world fired their managers in the span of just 12 days? To clubs like Man United or Real Madrid, it's not about results, but how they fit.",
-      "publishedAt": "2026-01-14T21:51:05.000Z"
+      "title": "Nygren's goal secures crucial win for Celtic at Falkirk",
+      "link": "https://www.skysports.com/football/falkirk-vs-celtic/report/531825",
+      "summary": "Celtic's resurgence under Martin O'Neill continued with an unconvincing but vital 1-0 win against a stubborn Falkirk in the Scottish Premiership.",
+      "publishedAt": "2026-01-14T21:50:00.000Z"
     }
   ]
 }
