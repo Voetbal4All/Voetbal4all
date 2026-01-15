@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-15T21:25:57.029Z",
+  "generatedAt": "2026-01-15T22:26:05.404Z",
   "items": [
     {
       "type": "rss",
@@ -7,10 +7,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Bromance in Berlijn: Klopp en Bakayoko bezoeken samen NBA-duel",
-      "link": "https://www.vi.nl/nieuws/bromance-in-berlijn-klopp-en-bakayoko-bezoeken-samen-nba-duel",
-      "summary": "De NBA is in Europa en daar heeft een delegatie van RB Leipzig maximaal van geprofiteerd. Niemand minder dan Jürgen Klopp en Johan Bakayoko besloten om het basketbal samen in Berlijn te aanschouwen. En dat leverde fraaie kiekjes op.",
-      "publishedAt": "2026-01-15T21:18:48.000Z"
+      "title": "Barcelona heeft De Jong niet nodig voor bekerzege op tweededivisionist",
+      "link": "https://www.vi.nl/nieuws/barcelona-heeft-de-jong-niet-nodig-voor-bekerzege-op-tweededivisionist",
+      "summary": "Barcelona heeft zich donderdagavond geplaatst voor de kwartfinale van de Copa del Rey. In tegenstelling tot Real Madrid lukte het de Catalanen wel om af te rekenen met een tweededivisionist uit Spanje: Racing Santander.",
+      "publishedAt": "2026-01-15T22:17:40.000Z"
     },
     {
       "type": "rss",
@@ -18,21 +18,109 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Veldman met mond vol tanden na wereldgoal RKC: 'Dat overkomt ons weer...'",
-      "link": "https://www.vi.nl/nieuws/veldman-met-mond-vol-tanden-na-wereldgoal-rkc-dat-overkomt-ons-weer",
-      "summary": "SC Heerenveen maakte in de Eurojackpot KNVB Beker geen fout tegen RKC Waalwijk, al werd de ploeg van Robin Veldman nog wel even aan het schrikken gebracht door een weergaloze gelijkmaker van Jesper Uneken. Veldman wist langs de kant even niet wat hem overkwam.",
-      "publishedAt": "2026-01-15T20:55:39.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Sparta na een half uur weer naast Volendam",
+      "title": "Volendam voor het eerst in negen jaar naar de kwartfinale",
       "link": "https://www.vi.nl/nieuws/vi-live-trenskow-maakt-n-van-vele-heerenveen-kansen-w-l-af",
-      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
-      "publishedAt": "2026-01-15T20:34:07.000Z"
+      "summary": "Vandaag was er in de VI Live onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi. Daarnaast kegelde FC Volendam Sparta uit de beker. Lees de volledige avond hier terug.",
+      "publishedAt": "2026-01-15T22:14:46.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Luis Enrique open to using sin-bins like rugby",
+      "link": "https://www.espn.com/soccer/story/_/id/47620049/psg-luis-enrique-open-using-rugby-style-sin-bin-fouls",
+      "summary": "Paris Saint-Germain coach Luis Enrique is open to a sin-bin-style system in soccer whereby players are temporarily removed from a game for fouls.",
+      "publishedAt": "2026-01-15T22:12:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "UEFA: $55M loss due to drop in U.S. dollar",
+      "link": "https://www.espn.com/soccer/story/_/id/47620728/uefa-blames-55m-revenue-loss-drop-us-dollar",
+      "summary": "The U.S. dollar value dropped about 9% against a range of foreign currencies in the first months of 2025 and UEFA blames that fall for a $55M loss of revenue.",
+      "publishedAt": "2026-01-15T22:12:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Blackmon joins Caps camp amid Miami interest",
+      "link": "https://www.espn.com/soccer/story/_/id/47621254/vancouver-whitecaps-tristan-blackmon-inter-miami-transfer-schuster",
+      "summary": "Vancouver Whitecaps sporting director Axel Schuster said that defender Tristan Blackmon completed his entrance medical on Thursday, and would accompany the team to its preseason training camp in Marbella, Spain.",
+      "publishedAt": "2026-01-15T22:12:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Thursday fury: German fans' protest delays game",
+      "link": "https://www.espn.com/soccer/story/_/id/47622806/bundesliga-fans-protest-thursday-kickoff-union-belin-augsburg",
+      "summary": "Toy balls and other objects flew onto the field as fans protesting the Bundesliga's scheduling forced a five-minute interruption in a game between Augsburg and Union Berlin on Thursday.",
+      "publishedAt": "2026-01-15T22:12:49.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pulisic stays on bench as Rabiot inspires Milan win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/736935",
+      "summary": "AC Milan won 3-1 at in-form Como on Thursday, with Adrien Rabiot winning a penalty and then scoring two goals.",
+      "publishedAt": "2026-01-15T22:12:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Hier kijk je vrijdag live naar de loting voor de kwartfinale van de KNVB Beker",
+      "link": "https://www.vi.nl/nieuws/hier-kijk-je-vrijdag-live-naar-de-loting-voor-de-kwartfinale-van-de-knvb-beker",
+      "summary": "Zeven van de acht kwartfinalisten in de Eurojackpot KNVB Beker zijn bekend. De laatste kwartfinalist komt uit het duel tussen De Treffers en NEC. Hieronder lees je wanneer de loting plaatsvindt, welke ploegen er in de koker gaan en waar de loting wordt uitgezonden.",
+      "publishedAt": "2026-01-15T22:10:23.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "FC Volendam kegelt Sparta in blessuretijd uit de beker",
+      "link": "https://www.vi.nl/nieuws/fc-volendam-kegelt-sparta-in-blessuretijd-uit-de-beker",
+      "summary": "FC Volendam is kwartfinalist in de Eurojackpot KNVB Beker. Het duel met Sparta leek uit te draaien op een verlenging, tot Robert Mühren in blessuretijd voor de beslissing zorgde: 1-2.",
+      "publishedAt": "2026-01-15T22:09:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Excelsior wil Jonathans huren van FC Utrecht",
+      "link": "https://www.vi.nl/nieuws/excelsior-wil-jonathans-huren-van-fc-utrecht",
+      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
+      "publishedAt": "2026-01-15T21:45:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "PL Predictions: Destruction derby? City set to smash United",
+      "link": "https://www.skysports.com/football/news/12040/13494770/premier-league-predictions-and-best-bets-destruction-derby-manchester-city-set-to-smash-manchester-united",
+      "summary": "Our football betting expert Jones Knows provides his insight across the Premier League weekend and tips Manchester City to win a thrilling Manchester derby.",
+      "publishedAt": "2026-01-15T21:00:00.000Z"
     },
     {
       "type": "rss",
@@ -58,72 +146,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Uneken gaat omhaal in Friesland nog wel een aantal keer terugkijken",
-      "link": "https://www.vi.nl/nieuws/uneken-zag-omhaal-in-friesland-alleen-maar-in-zijn-dromen-voorbij-komen",
-      "summary": "Jesper Uneken werd donderdagavond met RKC Waalwijk uitgeschakeld in de Eurojackpot KNVB Beker, maar scoorde wel met een omhaal tegen SC Heerenveen. De huurling van PSV gaat het acrobatische doelpunt nog wel een aantal keer bekijken op de terugweg naar Brabant.",
-      "publishedAt": "2026-01-15T20:13:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Arbeloa: Madrid Copa exit to 2nd-tier side 'painful'",
-      "link": "https://www.espn.com/soccer/story/_/id/47613216/arbeloa-real-madrid-copa-exit-2nd-tier-side",
-      "summary": "New Real Madrid coach Álvaro Arbeloa took responsibility for the team's \"painful\" 3-2 Copa del Rey defeat to second-tier Albacete on Wednesday, defending his decision to rest a number of senior players.",
-      "publishedAt": "2026-01-15T20:00:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Chelsea's Rosenior: Blame me for Sánchez errors",
-      "link": "https://www.espn.com/soccer/story/_/id/47613217/chelsea-liam-rosenior-robert-sanchez-carabao-cup-arsenal",
-      "summary": "Liam Rosenior has urged Chelsea fans to blame him for Robert Sánchez's two mistakes which helped Arsenal to a 3-2 victory in Wednesday's Carabao Cup semifinal, first leg at Stamford Bridge.",
-      "publishedAt": "2026-01-15T20:00:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Luis Enrique open to using sin-bins like rugby",
-      "link": "https://www.espn.com/soccer/story/_/id/47620049/psg-luis-enrique-open-using-rugby-style-sin-bin-fouls",
-      "summary": "Paris Saint-Germain coach Luis Enrique is open to a sin-bin-style system in soccer whereby players are temporarily removed from a game for fouls.",
-      "publishedAt": "2026-01-15T20:00:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "UEFA: $55M loss due to drop in U.S. dollar",
-      "link": "https://www.espn.com/soccer/story/_/id/47620728/uefa-blames-55m-revenue-loss-drop-us-dollar",
-      "summary": "The U.S. dollar value dropped about 9% against a range of foreign currencies in the first months of 2025 and UEFA blames that fall for a $55M loss of revenue.",
-      "publishedAt": "2026-01-15T20:00:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Blackmon joins Caps camp amid Miami interest",
-      "link": "https://www.espn.com/soccer/story/_/id/47621254/vancouver-whitecaps-tristan-blackmon-inter-miami-transfer-schuster",
-      "summary": "Vancouver Whitecaps sporting director Axel Schuster said that defender Tristan Blackmon completed his entrance medical on Thursday, and would accompany the team to its preseason training camp in Marbella, Spain.",
-      "publishedAt": "2026-01-15T20:00:17.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -132,17 +154,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/15/geopolitical-football-iran-trump-how-can-the-game-stand-strong-in-a-fractured-world",
       "summary": "The 2026 World Cup is set to be a polarising event but, even if it will not be the first to be politically contentious, it will expose a growing unease Five months out from the World Cup the politics are impossible to avoid. There are concerns relating to one of the host countries, the US, with armed immigration officials roaming through its cities and visa restrictions stepped up against foreign visitors. One qualifying nation, Iran, is experiencing a public uprising against its leadership, with the regime attacking its citizens in response. Among other qualifiers there are concerns over democratic backsliding in Tunisia, ecological crimes in Ecuador and , in the future host country Saudi Arabia. And that’s just for starters. It sometimes feels as if this summer’s tournament, the one Gianni Infantino recently described as “the greatest show ever on planet Earth”, will serve as an inescapable reminder of the depressing state of the world in 2026. It could yet be an event that goes down in infamy. But it is hardly the only tournament to have prompted ethical concerns and serves as a reminder that the issue of how global sport should engage with such issues has remained largely unresolved. Continue reading...",
       "publishedAt": "2026-01-15T19:56:52.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Heerenveen overleeft Zlatanesque goal RKC en mag bekercampagne vervolgen",
-      "link": "https://www.vi.nl/nieuws/heerenveen-overleeft-zlatanesque-goal-rkc-en-mag-bekercampagne-vervolgen",
-      "summary": "SC Heerenveen is de zesde kwartfinalist in de Eurojackpot KNVB Beker. Vanwege een Zlatanesque goal van RKC Waalwijk kwamen de Friezen donderdagavond nog even in de problemen, maar in de slotfase werd er toch een ruime overwinning geboekt.",
-      "publishedAt": "2026-01-15T19:52:04.000Z"
     },
     {
       "type": "rss",
@@ -187,17 +198,6 @@
       "link": "https://www.skysports.com/boxing/news/12040/13494662/dalton-smith-i-am-ready-to-take-on-shakur-stevenson-or-teofimo-lopez-in-unification-bout",
       "summary": "Dalton Smith says he is ready for a unification fight with either Shakur Stevenson or Teofimo Lopez after he claimed the WBC super-lightweight title and believes rival Adam Azim has to prove himself at world level before they fight.",
       "publishedAt": "2026-01-15T18:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sky Sports to show Final Stage of inaugural FIFA Women's Champions Cup",
-      "link": "https://www.skysports.com/football/news/12040/13494741/fifa-womens-champions-cup-sky-sports-to-show-final-stage-of-inaugural-tournament",
-      "summary": "Sky and FIFA have agreed an exclusive new partnership which will see the Final Stage of the inaugural FIFA Women’s Champions Cup broadcast live on Sky Sports in the UK and Ireland on January 28 and February 1",
-      "publishedAt": "2026-01-15T18:15:00.000Z"
     },
     {
       "type": "rss",
