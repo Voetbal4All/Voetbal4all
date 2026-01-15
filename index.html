@@ -219,9 +219,6 @@
             data-ad-slot="3518144343"
             data-ad-format="auto"
             data-full-width-responsive="true"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         </div>
       </div>
     </section>
@@ -414,9 +411,6 @@
               data-ad-slot="4831226012"
               data-ad-format="auto"
               data-full-width-responsive="true"></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
           </div>
         </div>
       </section>
@@ -543,9 +537,6 @@
                   data-ad-slot="6032627042"
                   data-ad-format="auto"
                   data-full-width-responsive="true"></ins>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
               </div>
             </aside>
 
@@ -954,17 +945,11 @@
 
               homeListEl.innerHTML = html;
 
-              // probeer ad units te activeren (veilig) – single deferred push
+              // AdSense: init after dynamic in-feed ad insert (prevents availableWidth=0)
               try {
-                setTimeout(() => {
-                  try {
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  } catch (e) {
-                    console.warn("[ADS] push failed", e);
-                  }
-                }, 0);
+                if (window.V4A_adsInit) window.V4A_adsInit();
               } catch (e) {
-                console.warn("[ADS] push failed", e);
+                console.warn('[ADS] init failed', e);
               }
 
               hasRenderedHomeNews = true;
@@ -1126,6 +1111,66 @@ renderMonthlyEvents();
 });
 </script>
 
+  <script>
+  // V4A: AdSense safe init (prevents "availableWidth=0" by delaying push until slot has width)
+  (function () {
+    function canPush(ins) {
+      if (!ins || ins.getAttribute('data-v4a-loaded') === '1') return false;
+      const r = ins.getBoundingClientRect();
+      return r && r.width && r.width > 50;
+    }
+
+    function pushIns(ins) {
+      if (!canPush(ins)) return;
+      try {
+        ins.setAttribute('data-v4a-loaded', '1');
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.warn('[ADS] push failed', e);
+        // allow retry
+        try { ins.removeAttribute('data-v4a-loaded'); } catch (_) {}
+      }
+    }
+
+    function scanAndPush() {
+      document.querySelectorAll('ins.adsbygoogle').forEach(pushIns);
+    }
+
+    // Expose for dynamic inserts (news infeed)
+    window.V4A_adsInit = scanAndPush;
+
+    // Run after page load + a few settling delays
+    window.addEventListener('load', function () {
+      scanAndPush();
+      setTimeout(scanAndPush, 600);
+      setTimeout(scanAndPush, 1200);
+    });
+
+    window.addEventListener('resize', function () {
+      scanAndPush();
+    });
+
+    // Observe visibility to catch late layout changes
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) pushIns(en.target);
+        });
+      }, { rootMargin: '200px 0px' });
+
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('ins.adsbygoogle').forEach(function (ins) {
+          io.observe(ins);
+        });
+      });
+    }
+
+    // One extra run on DOMContentLoaded (safe)
+    document.addEventListener('DOMContentLoaded', function () {
+      scanAndPush();
+    });
+  })();
+  </script>
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>
   <script src="assets/js/live-banner.js"></script>
