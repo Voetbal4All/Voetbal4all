@@ -1114,8 +1114,8 @@ renderMonthlyEvents();
     // - It also handles dynamically injected <ins> (e.g. the infeed unit inserted in #latest-news-grid).
 
     var MAX_ATTEMPTS = 8;
-    var MIN_WIDTH = 250; // responsive fluid ads may require >=250px available width; avoid availableWidth=0/too small
-    var MIN_HEIGHT = 50;
+    // Width must be >0 and reasonably sized; do NOT require a non-zero height (AdSense will set height when filled).
+    var MIN_WIDTH = 120;
 
     function now() { return Date.now ? Date.now() : (+new Date()); }
 
@@ -1139,9 +1139,8 @@ renderMonthlyEvents();
       var r = getRect(el);
       if (!r) return false;
       var w = Math.floor(r.width || 0);
-      var h = Math.floor(r.height || 0);
-      // Height can be 0 initially for auto formats; ensure at least some measurable box.
-      return w >= MIN_WIDTH && h >= MIN_HEIGHT;
+      // IMPORTANT: Height may be 0 before the ad is filled; do not block loading on height.
+      return w >= MIN_WIDTH;
     }
 
     function isInViewport(el) {
@@ -1168,10 +1167,6 @@ renderMonthlyEvents();
       if (adsStatus) return true;
       var adStatus = el.getAttribute("data-ad-status");
       if (adStatus) return true;
-      if (el.getAttribute("data-v4a-ads-requested") === "1") {
-        // Even if unfilled, AdSense already processed; avoid spamming requests.
-        return true;
-      }
       // If AdSense already injected an iframe, consider it done.
       if (el.querySelector && el.querySelector("iframe")) return true;
       return false;
@@ -1184,11 +1179,24 @@ renderMonthlyEvents();
       return window.adsbygoogle;
     }
 
+    function isInflight(el) {
+      if (!el) return false;
+      if (el.getAttribute("data-v4a-ads-requested") !== "1") return false;
+      var st = el._v4aAdsState;
+      if (!st || !st.requestedAt) return true;
+      // If AdSense hasn't marked the slot after a grace period, allow a controlled retry.
+      return (now() - st.requestedAt) < 5000;
+    }
+
     function safePush(el) {
       var arr = ensureAdsbygoogleArray();
       try {
         // Mark requested to prevent duplicate TagError on reflows.
         el.setAttribute("data-v4a-ads-requested", "1");
+        try {
+          var st = el._v4aAdsState || (el._v4aAdsState = { attempts: 0, lastTry: 0, timer: null, done: false });
+          st.requestedAt = now();
+        } catch (e0) {}
         arr.push({});
         return true;
       } catch (e) {
@@ -1217,6 +1225,11 @@ renderMonthlyEvents();
 
       var st = el._v4aAdsState || (el._v4aAdsState = { attempts: 0, lastTry: 0, timer: null, done: false });
       if (st.done) return;
+
+      // If we already requested an ad recently, wait a short grace period before retrying.
+      if (isInflight(el)) {
+        return;
+      }
 
       // Don't push twice.
       if (isDone(el)) {
