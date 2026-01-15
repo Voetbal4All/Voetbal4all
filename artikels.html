@@ -541,21 +541,74 @@ let lastRenderKey = "";
       return out;
     }
 
-    function scheduleAdsPush(times){
-      const n = Math.max(0, Number(times || 0));
-      if (!n) return;
-      const push = () => {
-        try {
-          for (let i = 0; i < n; i++) {
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          }
-        } catch (e) {}
-      };
-      if ("requestIdleCallback" in window) {
-        requestIdleCallback(push, { timeout: 2000 });
-      } else {
-        setTimeout(push, 300);
+    // AdSense: safe init (avoid push when slot width is 0)
+    const V4A_ADS_MAX_TRIES = 20;
+    const V4A_ADS_RETRY_MS = 250;
+
+    function v4aCanFillAd(ins){
+      if (!ins) return false;
+      // AdSense sets this when done
+      if (ins.getAttribute("data-adsbygoogle-status") === "done") return false;
+
+      const rect = ins.getBoundingClientRect();
+      const w = Math.floor(rect.width || 0);
+      const h = Math.floor(rect.height || 0);
+
+      // Must have real width; height can be 0 before fill
+      if (w <= 0) return false;
+
+      // Avoid filling when hidden
+      const cs = window.getComputedStyle(ins);
+      if (!cs || cs.display === "none" || cs.visibility === "hidden") return false;
+
+      // Some layouts keep the parent collapsed; ensure parent is visible too
+      const parent = ins.parentElement;
+      if (parent) {
+        const pcs = window.getComputedStyle(parent);
+        if (pcs && (pcs.display === "none" || pcs.visibility === "hidden")) return false;
       }
+
+      // Guard: if both are 0, it is definitely not laid out
+      if (w === 0 && h === 0) return false;
+
+      return true;
+    }
+
+    function v4aPushAdOnce(ins){
+      if (!v4aCanFillAd(ins)) return false;
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function v4aInitAdsense(root = document){
+      const slots = Array.from((root || document).querySelectorAll('ins.adsbygoogle'));
+      if (!slots.length) return;
+
+      let remaining = slots.filter(s => s.getAttribute('data-adsbygoogle-status') !== 'done');
+      if (!remaining.length) return;
+
+      let tries = 0;
+
+      const tick = () => {
+        tries++;
+        remaining = remaining.filter(ins => {
+          // Try fill; if it succeeded, keep it out of retry list.
+          const ok = v4aPushAdOnce(ins);
+          return !ok;
+        });
+
+        if (!remaining.length) return;
+        if (tries >= V4A_ADS_MAX_TRIES) return;
+
+        setTimeout(tick, V4A_ADS_RETRY_MS);
+      };
+
+      // Start slightly deferred to allow layout to settle
+      setTimeout(tick, 50);
     }
 
     function renderAdInfeed(slot){
@@ -774,20 +827,8 @@ let lastRenderKey = "";
       // Single DOM write (much faster, less layout thrash)
       articleList.innerHTML = htmlParts.join("");
 
-      // Defer AdSense fill to idle time (prevents blocking the initial render)
-      const pushAds = () => {
-        if (!adQueue.length) return;
-        try {
-          for (let i = 0; i < adQueue.length; i++) {
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          }
-        } catch (e) {}
-      };
-      if ("requestIdleCallback" in window) {
-        requestIdleCallback(pushAds, { timeout: 1500 });
-      } else {
-        setTimeout(pushAds, 200);
-      }
+      // Safely (re)initialize AdSense for any newly injected in-feed slots
+      v4aInitAdsense(articleList);
 
       // ✅ paginatie UI onderaan (buiten #article-list zodat ads/cards het niet kunnen overlappen)
       if (paginationEl) {
@@ -906,7 +947,7 @@ let lastRenderKey = "";
           applyFilters();
           newsStatus.style.display = "none";
           // push the 3 static ad slots (header, top infeed, sidebar) after first paint
-          scheduleAdsPush(3);
+          v4aInitAdsense(document);
         }
 
         // FULL: fetch in background with a longer timeout
@@ -933,7 +974,7 @@ let lastRenderKey = "";
           applyFilters();
         }
 
-        scheduleAdsPush(3); // ensure static slots fill even if cache was used
+        v4aInitAdsense(document); // ensure static slots fill even if cache was used
         newsStatus.style.display = "none";
       } catch (e) {
         // If cache already rendered, keep it and just show a subtle warning
@@ -955,6 +996,8 @@ let lastRenderKey = "";
     articleSearchText.addEventListener("input", () => { currentPage = 1; applyFilters(); });
     articleFilterCountry.addEventListener("change", () => { currentPage = 1; applyFilters(); });
     articleFilterCategory.addEventListener("change", () => { currentPage = 1; applyFilters(); });
+
+    window.addEventListener('load', () => v4aInitAdsense(document));
 
     loadNews();
   </script>
