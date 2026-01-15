@@ -1185,7 +1185,7 @@ renderMonthlyEvents();
       var st = el._v4aAdsState;
       if (!st || !st.requestedAt) return true;
       // If AdSense hasn't marked the slot after a grace period, allow a controlled retry.
-      return (now() - st.requestedAt) < 5000;
+      return (now() - st.requestedAt) < 2500;
     }
 
     function safePush(el) {
@@ -1193,11 +1193,33 @@ renderMonthlyEvents();
       try {
         // Mark requested to prevent duplicate TagError on reflows.
         el.setAttribute("data-v4a-ads-requested", "1");
+        var st;
         try {
-          var st = el._v4aAdsState || (el._v4aAdsState = { attempts: 0, lastTry: 0, timer: null, done: false });
+          st = el._v4aAdsState || (el._v4aAdsState = { attempts: 0, lastTry: 0, timer: null, done: false });
           st.requestedAt = now();
         } catch (e0) {}
+
         arr.push({});
+
+        // Verification retry: if AdSense doesn't mark the slot within a grace period,
+        // clear the requested flag and schedule a controlled retry (no layout changes).
+        try {
+          if (st) {
+            if (st.verifyTimer) clearTimeout(st.verifyTimer);
+            st.verifyTimer = setTimeout(function () {
+              try {
+                if (!isConnected(el)) return;
+                if (st.done) return;
+                if (isDone(el)) { st.done = true; return; }
+                if (st.attempts >= MAX_ATTEMPTS) return;
+                // Allow another attempt
+                el.removeAttribute("data-v4a-ads-requested");
+                schedule(el, "verify-retry");
+              } catch (eV) {}
+            }, 6500);
+          }
+        } catch (e1) {}
+
         return true;
       } catch (e) {
         // If push fails (common TagError), allow a limited retry.
@@ -1256,12 +1278,15 @@ renderMonthlyEvents();
 
       // Prefer in/near viewport (prevents requesting many offscreen ads at once).
       if (!isInViewport(el)) {
-        // Will be triggered by IntersectionObserver later.
-        return;
+        // Prefer viewport, but don't block init/load/manual/verify-retry permanently
+        if (reason !== "init" && reason !== "load" && reason !== "manual" && reason !== "verify-retry") {
+          return;
+        }
       }
 
       st.attempts++;
       st.lastTry = now();
+      st.requestedAt = now();
 
       var ok = safePush(el);
       if (ok) {
