@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-15T14:28:43.727Z",
+  "generatedAt": "2026-01-15T15:30:05.032Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Andrich vroeg Wirtz niet naar Bayern te gaan: 'Doe ons dit alsjeblieft niet aan'",
+      "link": "https://www.vi.nl/nieuws/andrich-vroeg-wirtz-niet-naar-bayern-te-gaan-doe-ons-dit-alsjeblieft-niet-aan",
+      "summary": "Robert Andrich vindt het verstandig dat Florian Wirtz de interesse van Bayern München liet varen en koos voor een overstap naar Liverpool. 'Ik dacht oprecht dat hij daarheen zou gaan.'",
+      "publishedAt": "2026-01-15T15:27:54.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -10,7 +21,40 @@
       "title": "Heitinga treedt na ontslag bij Ajax toe tot technische staf Spurs",
       "link": "https://www.vi.nl/nieuws/heitinga-treedt-na-ontslag-bij-ajax-toe-tot-technische-staf-spurs",
       "summary": "John Heitinga keert na zijn ontslag bij Ajax terug in de Premier League. De 42-jarige oud-international gaat bij Tottenham Hotspur aan de slag als assistent van Thomas Frank.",
-      "publishedAt": "2026-01-15T14:25:24.000Z"
+      "publishedAt": "2026-01-15T15:10:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Robertson in dubio: Schot wil bij Liverpool blijven, maar vooral spelen",
+      "link": "https://www.vi.nl/nieuws/robertson-in-dubio-schot-wil-bij-liverpool-blijven-maar-vooral-spelen",
+      "summary": "Andy Robertson is al meer dan acht jaar een betrouwbare kracht bij Liverpool, maar daar komt mogelijk na dit seizoen een einde aan. De Schotse verdediger heeft een aflopend contract en weet nog niet waar zijn toekomst ligt. De kans op speelminuten speelt een grote rol in zijn toekomstige besluit. 'We zullen zien wat er gebeurt.'",
+      "publishedAt": "2026-01-15T15:07:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Paqueta could move but be loaned back to West Ham",
+      "link": "https://www.bbc.com/sport/football/articles/c5y3p2kxe09o?at_medium=RSS&at_campaign=rss",
+      "summary": "Flamengo are exploring the possibility of loaning Lucas Paqueta back to West Ham as they try to sign the Brazil international this month.",
+      "publishedAt": "2026-01-15T14:58:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Feyenoord moet Read voorlopig missen na nieuwe blessure",
+      "link": "https://www.vi.nl/nieuws/feyenoord-moet-read-voorlopig-missen-na-nieuwe-blessure",
+      "summary": "Feyenoord kan voorlopig geen beroep doen op Givairo Read. De talentvolle rechtsback heeft een hamstringblessure opgelopen, waardoor de club hem voor een langere tijd kwijt is. Dat is een flinke domper voor Feyenoord, maar vooral voor Read zelf die net van eenzelfde soort blessure was hersteld.",
+      "publishedAt": "2026-01-15T14:38:08.000Z"
     },
     {
       "type": "rss",
@@ -25,14 +69,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Opsteker voor Hoefkens: sterkhouder na maanden terug bij NAC",
-      "link": "https://www.vi.nl/nieuws/opsteker-voor-hoefkens-sterkhouder-na-maanden-terug-bij-nac",
-      "summary": "Leo Greiml (24) keert terug bij NAC Breda. De Oostenrijker stond maanden aan de kant met een blessure, maar maakt zijn rentree in de wedstrijdselectie tegen NEC. Dat is een opsteker voor trainer Carl Hoefkens.",
-      "publishedAt": "2026-01-15T14:12:01.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Australian Open: Men's and women's draw",
+      "link": "https://www.skysports.com/tennis/news/12040/13493930/mens-and-womens-australian-open-draw-and-results-with-emma-raducanu-carlos-alcaraz-jannik-sinner-and-aryna-sabalenka-playing",
+      "summary": "The full draw for the men's and women's singles tournament for the Australian Open in Melbourne.",
+      "publishedAt": "2026-01-15T14:00:00.000Z"
     },
     {
       "type": "rss",
@@ -113,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Willem II kan linksbuiten slijten in Ingolstadt",
-      "link": "https://www.vi.nl/nieuws/willem-ii-kan-linksbuiten-slijten-in-ingolstadt",
-      "summary": "Emilio Kehrer kan Willem II op korte termijn verlaten. De linksbuiten geniet concrete interesse van FC Ingolstadt 04. Dat bevestigen ingewijden.",
-      "publishedAt": "2026-01-15T13:30:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -132,28 +165,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/15/west-ham-paqueta-flamengo-loan-back-brazilian-transfer-football",
       "summary": "Londoners have rejected €35m bid for midfielder Facundo Buonanotte likely to make Leeds move West Ham will sell Lucas Paquetá this month if the deal includes an agreement for Flamengo to loan the midfielder back for the rest of the season. Flamengo had an opening bid of €35m (£30.3m) rejected for the Brazilian and are prepared to raise their offer to about €40m. Paquetá has made clear to West Ham that he wants to return to Brazil and there are signs that the transfer will go ahead. Continue reading...",
       "publishedAt": "2026-01-15T13:28:48.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Volendam moet revelatie enkele weken missen door knieblessure",
-      "link": "https://www.vi.nl/nieuws/fc-volendam-moet-revelatie-enkele-weken-missen-door-knieblessure",
-      "summary": "Het nieuwe jaar is met een tegenvaller begonnen voor Gibson Yah. De 22-jarige middenvelder viel in de eerste seizoenshelft in positieve zin op bij FC Volendam, maar staat nu enkele weken aan de kant met een knieblessure.",
-      "publishedAt": "2026-01-15T13:22:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "No VAR error over Wirtz 'offside' goal, panel says",
-      "link": "https://www.bbc.com/sport/football/articles/c0kezxl4z40o?at_medium=RSS&at_campaign=rss",
-      "summary": "The VAR was correct to intervene and give Florian Wirtz's goal at Fulham despite the Liverpool player appearing to be offside, a panel says.",
-      "publishedAt": "2026-01-15T13:13:55.000Z"
     },
     {
       "type": "rss",
@@ -179,6 +190,17 @@
     },
     {
       "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Spurs bring Heitinga on to Frank’s staff and make Moersen director of football operations",
+      "link": "https://www.theguardian.com/football/2026/jan/15/spurs-rafi-moersen-city-football-group-director-of-football-operations-thomas-frank",
+      "summary": "Heitinga to have big role with defence, Frank says Moersen to serve months of gardening leave Tottenham have appointed John Heitinga, the former Ajax head coach and assistant to Arne Slot at Liverpool, to Thomas Frank’s coaching staff. Frank said one of the Dutchman’s main responsibilities would be to work with the defence. Heitinga’s arrival was confirmed after Spurs announced that Carlos Raphael Moersen was joining as their first director of football operations. He is coming in from City Football Group, which oversees a stable of clubs that includes Manchester City. Continue reading...",
+      "publishedAt": "2026-01-15T12:28:24.000Z"
+    },
+    {
+      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/15/michel-platini-big-interview-fifa-gianni-infantino-uefa-sepp-blatter",
       "summary": "Former Uefa president – caught between moving on and settling scores – talks candidly about his downfall, Infantino and the snakepit of the game’s governance “There are millions and millions of romantics in football,” Michel Platini says. He has been asked whether, after a decade frozen out of the game, its lustre has vanished for him. “Millions who share the ideas that I have. But in the end, it’s big business.” It is an industry whose peaks Platini scaled before, in one of football’s biggest falls from grace, it spat him out. He maintains he would have become Fifa president if he had not been banned from football over an alleged unlawful payment made to him in 2011, when he was running Uefa, by Sepp Blatter. The scandal led to a criminal case but both men were acquitted for a second time, definitively so, by a Swiss appeals court last year. Nothing hangs over Platini any more, bar a conviction that he was cheated. Continue reading...",
       "publishedAt": "2026-01-15T12:00:19.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Andy Robertson admits Liverpool future unclear with contract expiring in summer",
-      "link": "https://www.theguardian.com/football/2026/jan/15/andy-robertson-liverpool-future-contract",
-      "summary": "Defender frustrated by lack of playing time this season ‘We need to see option to stay or if there’s options to go’ Andy Robertson has said his Liverpool future remains unresolved despite his contract expiring in five months and admitted this season’s limited playing time has been a frustration. Liverpool have held talks over extending their vice-captain’s outstanding Anfield career but, with no firm offer on the table, Robertson’s next step is uncertain beyond competing in Scotland’s first World Cup for 28 years. The left-back, who turns 32 in March, turned down Atlético Madrid last summer and is likely to have several options should he become a free agent. Continue reading...",
-      "publishedAt": "2026-01-15T12:00:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Which way will Championship promotion pendulum swing next?",
-      "link": "https://www.skysports.com/football/news/12040/13492413/which-way-will-championship-promotion-pendulum-swing-next",
-      "summary": "Is it now a three-horse race for the two promotion spots in the Championship?",
-      "publishedAt": "2026-01-15T12:00:00.000Z"
     }
   ]
 }
