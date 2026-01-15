@@ -1225,7 +1225,7 @@ footer { margin-top: auto; }
   opacity: 0.92;
   display: flex;
   justify-content: center;
-  overflow: hidden !important;
+  overflow: visible !important; /* avoid Safari half-rendered / clipped header ads */
 }
 
 .ad-slot-header ins.adsbygoogle,
@@ -1234,16 +1234,16 @@ footer { margin-top: auto; }
   width: 100% !important;
   height: auto !important;
   min-height: 0 !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   border-radius: 12px;
 }
 
-/* Global safety: never allow AdSense to overflow its column */
+/* Global safety: keep AdSense responsive, but avoid Safari clipping */
 ins.adsbygoogle{
   display:block !important;
   width:100% !important;
   max-width:100% !important;
-  overflow:hidden !important;
+  overflow:visible !important; /* critical: prevents Safari from clipping iframe creatives */
 }
 
 ins.adsbygoogle iframe{
@@ -2223,4 +2223,18 @@ img {
   text-overflow:clip;
   overflow-wrap:anywhere;
   word-break:break-word;
+}
+
+.ad-slot-header {
+  min-height: 90px;      /* mobiel */
+}
+
+@media (min-width: 768px) {
+  .ad-slot-header {
+    min-height: 250px;   /* desktop leaderboard / responsive */
+  }
+}
+
+.adsbygoogle {
+  overflow: visible !important;
 }
