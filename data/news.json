@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-15T18:41:48.293Z",
+  "generatedAt": "2026-01-15T19:27:53.106Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "'Aston Villa probeert promotieheld terug te halen na vertrek van Malen'",
+      "link": "https://www.vi.nl/nieuws/aston-villa-probeert-promotieheld-terug-te-halen-na-vertrek-van-malen",
+      "summary": "Tammy Abraham heeft Besiktas donderdag de weg gewezen naar een bekerzege op Ankara Keciörengücü. Dat kan zomaar zijn laatste daad in Turkse dienst zijn geweest, want de Engelse aanvaller staat naar verluidt in de nadrukkelijke belangstelling van Aston Villa.",
+      "publishedAt": "2026-01-15T19:21:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Heerenveen komt in de slotfase toch weer op voorsprong",
+      "link": "https://www.vi.nl/nieuws/vi-live-trenskow-maakt-n-van-vele-heerenveen-kansen-w-l-af",
+      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
+      "publishedAt": "2026-01-15T19:19:50.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Foden legt uit wat Semenyo zo goed maakt: 'Zo iemand hadden we nog niet'",
+      "link": "https://www.vi.nl/nieuws/foden-legt-uit-wat-semenyo-zo-goed-maakt-zo-iemand-hadden-we-nog-niet",
+      "summary": "Phil Foden heeft uitgelegd wat Antoine Semenyo zo'n goede versterking voor Manchester City maakt. De 25-jarige Engelsman stelt dat de Ghanees iets aan de selectie van The Citizens toevoegt dat er nog niet was.",
+      "publishedAt": "2026-01-15T19:01:21.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Inquiry launched after Chelsea fans complain about policing at end of Charlton game",
+      "link": "https://www.theguardian.com/football/2026/jan/15/probe-launched-after-chelsea-fans-complain-of-poor-policing-at-end-of-fa-cup-tie-at-charlton",
+      "summary": "Fans upset at being unexpectedly ‘held back’ at the Valley Police action ‘uncomfortably like that from past decades’ The Metropolitan police has commissioned an independent investigation after receiving complaints over its treatment of Chelsea supporters after the west London club’s FA Cup tie at Charlton Athletic last Saturday. The Chelsea Supporters’ Trust called for action earlier this week after writing to the force to voice concerns over an operation that saw approximately 3,000 travelling fans held back outside the Valley without prior notice following the conclusion of a game that kicked off at 8pm in freezing temperatures. Continue reading...",
+      "publishedAt": "2026-01-15T18:48:56.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "$200,000 for nine-darter then bullseye? Saudi tournament offers new prize",
+      "link": "https://www.skysports.com/darts/news/12040/13494746/saudi-arabia-darts-masters-riyadh-season-bullseye-introduced-with-200000-up-for-grabs-after-nine-darter",
+      "summary": "Players competing in the Riyadh Season Saudi Arabia Darts Masters could win an astonishing $200,000 if they produce a nine-darter followed by a bullseye in the World Series of Darts event.",
+      "publishedAt": "2026-01-15T18:45:00.000Z"
+    },
     {
       "type": "rss",
       "source": "Voetbal International",
@@ -14,14 +69,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Trenskow maakt één van vele Heerenveen-kansen wél af",
-      "link": "https://www.vi.nl/nieuws/vi-live-trenskow-maakt-n-van-vele-heerenveen-kansen-w-l-af",
-      "summary": "Welkom in de VI Live van donderdag 15 januari. Met vandaag onder meer aandacht voor de Eurojackpot KNVB Beker en Racing Santander - Barcelona in het Copa del Rey-toernooi.",
-      "publishedAt": "2026-01-15T18:27:55.000Z"
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Smith: I am ready for unification fight with Stevenson or Lopez",
+      "link": "https://www.skysports.com/boxing/news/12040/13494662/dalton-smith-i-am-ready-to-take-on-shakur-stevenson-or-teofimo-lopez-in-unification-bout",
+      "summary": "Dalton Smith says he is ready for a unification fight with either Shakur Stevenson or Teofimo Lopez after he claimed the WBC super-lightweight title and believes rival Adam Azim has to prove himself at world level before they fight.",
+      "publishedAt": "2026-01-15T18:30:00.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +84,10 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Littler faces Lim after Price, Aspinall survive scares in Bahrain LIVE!",
-      "link": "https://www.skysports.com/darts/live-blog/12040/13494617/bahrain-darts-masters-live-scores-results-commentary-with-luke-littler-luke-humphries-michael-van-gerwen-in-action",
-      "summary": "",
-      "publishedAt": "2026-01-15T18:20:00.000Z"
+      "title": "Ford CEO speaks on Red Bull F1 partnership & Verstappen's 'coolness' during 2025 season",
+      "link": "https://www.skysports.com/watch/video/13494745/formula-one-ford-ceo-jim-farley-shares-thoughts-on-red-bull-partnership-and-max-verstappen",
+      "summary": "Sky Sports' Craig Slater speaks to Ford's CEO Jim Farley about the company joining forces with Red Bull for the F1 2026 season.",
+      "publishedAt": "2026-01-15T18:23:00.000Z"
     },
     {
       "type": "rss",
@@ -113,28 +168,6 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Platini ziet FIFA afglijden onder Infantino: 'Hij houdt van macht en rijkdom'",
-      "link": "https://www.vi.nl/nieuws/platini-ziet-fifa-afglijden-onder-infantino-hij-houdt-van-macht-en-rijkdom",
-      "summary": "Michel Platini ziet met lede ogen toe hoe de FIFA onder leiding van Gianni Infantino nog verder is afgegleden van zijn waarden en het voetbal. De Franse oud-international is ervan overtuigd dat het anders was gelopen, als hij in 2015 was aangesteld als opvolger van Sepp Blatter.",
-      "publishedAt": "2026-01-15T17:47:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Frank legt uit waarom 'top guy' Heitinga nu assistent is bij Spurs",
-      "link": "https://www.vi.nl/nieuws/frank-legt-uit-waarom-top-guy-heitinga-assistent-is-geworden-bij-spurs",
-      "summary": "Thomas Frank heeft uitleg gegeven over de verrassende aanstelling van John Heitinga bij Tottenham Hotspur. Volgens de manager zocht Spurs al enige tijd naar een assistent-trainer en was de voormalige trainer van Ajax de opvallendste kandidaat.",
-      "publishedAt": "2026-01-15T17:23:09.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -163,30 +196,8 @@
       "flag": "🌍",
       "title": "Thomas Tuchel says England players’ social skills as vital as talent at World Cup",
       "link": "https://www.theguardian.com/football/2026/jan/15/thomas-tuchel-england-players-social-skills-talent-world-cup-football",
-      "summary": "Manager stresses squad harmony crucial at tournament Two friendlies in March to come before naming squad Thomas Tuchel stressed talent alone is not enough to make his World Cup squad as the right “social skills” and personality will be needed for England to stand a chance of glory this summer. It is just five months until the back-to-back Euros runners-up kick-off their quest for success in North America with their Group L opener against Croatia in Dallas. Tuchel only has two March friendlies before naming his squad for the tournament, having qualified impressively during an autumn when he spoke of building a “brotherhood” capable of beating the best. Continue reading...",
+      "summary": "Manager stresses squad harmony crucial at tournament Two friendlies in March to come before naming squad Thomas Tuchel stressed talent alone is not enough to make his World Cup squad because the right “social skills” and personality will be needed for England to stand a chance of glory this summer. The head coach has spoken extensively of building a “brotherhood” and placed heavy emphasis on ensuring there is the right mentality within the camp. England are one of the favourites but the shirt has weighed heavily in the past and Tuchel will look at how players interact with each other before he names his 26-man squad for the finals. Continue reading...",
       "publishedAt": "2026-01-15T16:43:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Ramsay on Man Utd and MLS past and preparing for West Brom present",
-      "link": "https://www.skysports.com/football/news/12040/13493722/eric-ramsay-interview-new-west-brom-boss-on-coaching-at-man-utd-working-in-mls-and-preparing-for-the-championship",
-      "summary": "Things have moved very rapidly in Eric Ramsay's world in the last week or so.",
-      "publishedAt": "2026-01-15T16:30:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sunderland latest: Double injury blow for Black Cats",
-      "link": "https://www.skysports.com/football/live-blog/12040/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "summary": "",
-      "publishedAt": "2026-01-15T16:30:00.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/47608614/manchester-united-real-madrid-chelsea-firing-managers-ruben-amorim-enzo-maresca-xabi-alonso-gab-marcotti",
       "summary": "Why have three of the biggest soccer teams in the world fired their managers in the span of just 12 days?",
       "publishedAt": "2026-01-15T16:27:43.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Rejections, depression & promise to his mum - Thiago's route to top",
-      "link": "https://www.bbc.com/sport/football/articles/c07xpzyv1yno?at_medium=RSS&at_campaign=rss",
-      "summary": "Igor Thiago's route to the Premier League has been far from straightforward - BBC Sport charts the rise of Brentford's record-breaking Brazilian striker.",
-      "publishedAt": "2026-01-15T15:33:08.000Z"
     }
   ]
 }
