@@ -35,6 +35,11 @@
     .ad-slot-header ins.adsbygoogle {
       min-height: 90px;
     }
+    /* Make sure ad containers keep measurable width/height across browsers */
+    .ad-slot ins.adsbygoogle {
+      display: block;
+      min-height: 90px;
+    }
     .article-hero-image {
       width: 100%;
       max-height: 500px;
@@ -620,45 +625,110 @@
     elContent.style.display = (state === "content") ? "block" : "none";
   }
 
-  // AdSense: only push after content is visible to avoid "availableWidth=0" errors
-  function initAdSense(retries = 6) {
+  // AdSense: robust init (Safari/Chrome) — only push when the slot has real width and is visible.
+  function initAdSense() {
     try {
-      const slots = Array.from(document.querySelectorAll('ins.adsbygoogle'));
-      let pending = 0;
-
-      for (const ins of slots) {
-        // Avoid double-push
+      const insList = Array.from(document.querySelectorAll('ins.adsbygoogle'));
+      for (const ins of insList) {
         if (ins.getAttribute('data-ads-loaded') === '1') continue;
-
-        // Skip if not visible yet
-        const host = ins.parentElement || ins;
-        const w = host.offsetWidth || ins.offsetWidth || 0;
-        if (!w) {
-          pending++;
-          continue;
-        }
-
-        try {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          ins.setAttribute('data-ads-loaded', '1');
-        } catch (e) {
-          console.warn('[ARTIKEL] AdSense push failed:', e);
-          pending++;
-        }
-      }
-
-      if (pending > 0 && retries > 0) {
-        setTimeout(() => initAdSense(retries - 1), 500);
+        queueAdPushWhenReady(ins);
       }
     } catch (e) {
       console.warn('[ARTIKEL] AdSense init failed:', e);
     }
   }
 
+  function slotWidth(ins) {
+    const host = ins.parentElement || ins;
+    const rect = host.getBoundingClientRect();
+    const w = Math.floor(rect.width || host.offsetWidth || ins.offsetWidth || 0);
+    return w;
+  }
+
+  function isVisible(ins) {
+    const host = ins.parentElement || ins;
+    // If hidden by CSS/display:none, don't push.
+    const cs = window.getComputedStyle(host);
+    if (!cs || cs.display === 'none' || cs.visibility === 'hidden' || cs.opacity === '0') return false;
+    const rect = host.getBoundingClientRect();
+    // Consider visible if it has height and is on-screen-ish
+    if (rect.height <= 0) return false;
+    const vh = window.innerHeight || document.documentElement.clientHeight;
+    return rect.bottom > -200 && rect.top < vh + 200;
+  }
+
+  function safePush(ins) {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      ins.setAttribute('data-ads-loaded', '1');
+      return true;
+    } catch (e) {
+      console.warn('[ARTIKEL] AdSense push failed:', e);
+      return false;
+    }
+  }
+
+  const _adObservers = new WeakMap();
+
+  function queueAdPushWhenReady(ins) {
+    if (_adObservers.has(ins)) return;
+
+    const attempt = () => {
+      if (ins.getAttribute('data-ads-loaded') === '1') return true;
+      const w = slotWidth(ins);
+      if (w < 50) return false;
+      if (!isVisible(ins)) return false;
+      return safePush(ins);
+    };
+
+    // First immediate attempt (after layout has a chance to settle)
+    requestAnimationFrame(() => {
+      if (attempt()) return;
+
+      // Observe size changes (Safari often reports 0 width briefly)
+      const host = ins.parentElement || ins;
+      const ro = new ResizeObserver(() => {
+        if (attempt()) {
+          ro.disconnect();
+          _adObservers.delete(ins);
+        }
+      });
+      ro.observe(host);
+
+      // Also retry on scroll/visibility changes
+      let io = null;
+      if ('IntersectionObserver' in window) {
+        io = new IntersectionObserver(() => {
+          if (attempt()) {
+            io.disconnect();
+            ro.disconnect();
+            _adObservers.delete(ins);
+          }
+        }, { root: null, rootMargin: '200px 0px', threshold: 0.01 });
+        io.observe(host);
+      }
+
+      // Safety timeout: stop observing after 20s
+      const timer = setTimeout(() => {
+        try { ro.disconnect(); } catch (_) {}
+        try { io && io.disconnect(); } catch (_) {}
+        _adObservers.delete(ins);
+      }, 20000);
+
+      _adObservers.set(ins, { ro, io, timer });
+    });
+  }
+
+  function scheduleAdSense() {
+    // Multiple kicks help on Safari where layout/width arrives late
+    requestAnimationFrame(() => initAdSense());
+    setTimeout(() => initAdSense(), 400);
+    setTimeout(() => initAdSense(), 1200);
+  }
+
   // Kick AdSense as early as possible for header/sidebar slots (do not wait for article render)
-  requestAnimationFrame(() => initAdSense());
-  setTimeout(() => initAdSense(6), 900);
-  window.addEventListener('load', () => initAdSense(6));
+  scheduleAdSense();
+  window.addEventListener('load', () => scheduleAdSense());
   
   console.log('[ARTIKEL] Fetching article from API...', lookup);
    
@@ -684,8 +754,7 @@
 
       if (ok) {
         // Ensure ad slots are visible before pushing
-        requestAnimationFrame(() => initAdSense());
-        setTimeout(() => initAdSense(4), 600);
+        scheduleAdSense();
       }
     } catch (err) {
       console.error('[ARTIKEL] ❌ Failed to load article:', err);
@@ -917,6 +986,7 @@
         `;
 
         bodyEl.appendChild(adWrapper);
+        scheduleAdSense();
       }
     });
     
@@ -965,7 +1035,7 @@
   }
 window.addEventListener('resize', () => {
   // In case slots were hidden/width=0 at first render
-  initAdSense(2);
+  scheduleAdSense();
 });
 })();
 </script>
