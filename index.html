@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <!-- Google Funding Choices CMP (EU consent for AdSense) -->
+  <script async src="https://fundingchoicesmessages.google.com/i/pub-4062633211824348?ers=1" nonce="v4a-cmp"></script>
+  <script nonce="v4a-cmp">
+    (function() {
+      function signalGooglefcPresent() {
+        if (!window.frames['googlefcPresent']) {
+          if (document.body) {
+            const iframe = document.createElement('iframe');
+            iframe.style.cssText = 'width:0;height:0;border:none;display:none';
+            iframe.name = 'googlefcPresent';
+            document.body.appendChild(iframe);
+          } else {
+            setTimeout(signalGooglefcPresent, 0);
+          }
+        }
+      }
+      signalGooglefcPresent();
+    })();
+  </script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
