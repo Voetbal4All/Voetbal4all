@@ -944,14 +944,6 @@
               }).join("");
 
               homeListEl.innerHTML = html;
-
-              // AdSense: init after dynamic in-feed ad insert (prevents availableWidth=0)
-              try {
-                if (window.V4A_adsInit) window.V4A_adsInit();
-              } catch (e) {
-                console.warn('[ADS] init failed', e);
-              }
-
               hasRenderedHomeNews = true;
               hideStatus();
 
@@ -1111,66 +1103,265 @@ renderMonthlyEvents();
 });
 </script>
 
+  <!-- V4A: AdSense robust init (keeps positions; ensures all <ins.adsbygoogle> request an ad, incl. dynamically injected infeed) -->
   <script>
-  // V4A: AdSense safe init (prevents "availableWidth=0" by delaying push until slot has width)
   (function () {
-    function canPush(ins) {
-      if (!ins || ins.getAttribute('data-v4a-loaded') === '1') return false;
-      const r = ins.getBoundingClientRect();
-      return r && r.width && r.width > 50;
+    "use strict";
+
+    // NOTE:
+    // - Do NOT move or remove any ad <ins> blocks.
+    // - This code only ensures that every <ins.adsbygoogle> triggers a request when it is measurable & visible.
+    // - It also handles dynamically injected <ins> (e.g. the infeed unit inserted in #latest-news-grid).
+
+    var MAX_ATTEMPTS = 8;
+    var MIN_WIDTH = 250; // responsive fluid ads may require >=250px available width; avoid availableWidth=0/too small
+    var MIN_HEIGHT = 50;
+
+    function now() { return Date.now ? Date.now() : (+new Date()); }
+
+    function isConnected(el) {
+      return !!(el && (el.isConnected || document.documentElement.contains(el)));
     }
 
-    function pushIns(ins) {
-      if (!canPush(ins)) return;
+    function isVisible(el) {
+      if (!el) return false;
+      var cs = window.getComputedStyle ? getComputedStyle(el) : null;
+      if (!cs) return true;
+      if (cs.display === "none" || cs.visibility === "hidden" || cs.opacity === "0") return false;
+      return true;
+    }
+
+    function getRect(el) {
+      try { return el.getBoundingClientRect(); } catch (e) { return null; }
+    }
+
+    function hasSize(el) {
+      var r = getRect(el);
+      if (!r) return false;
+      var w = Math.floor(r.width || 0);
+      var h = Math.floor(r.height || 0);
+      // Height can be 0 initially for auto formats; ensure at least some measurable box.
+      return w >= MIN_WIDTH && h >= MIN_HEIGHT;
+    }
+
+    function isInViewport(el) {
+      var r = getRect(el);
+      if (!r) return false;
+      var vw = window.innerWidth || document.documentElement.clientWidth || 0;
+      var vh = window.innerHeight || document.documentElement.clientHeight || 0;
+      // Consider near-viewport as eligible to prevent late paints
+      var margin = 250;
+      return (
+        r.bottom >= -margin &&
+        r.right >= 0 &&
+        r.top <= (vh + margin) &&
+        r.left <= vw
+      );
+    }
+
+    function isDone(el) {
+      // Google notes: data-adsbygoogle-status is internal processing.
+      // data-ad-status is filled/unfilled/unfill-optimized (official).
+      // We'll treat ANY of these as "done" to avoid duplicate push() errors.
+      if (!el) return true;
+      var adsStatus = el.getAttribute("data-adsbygoogle-status");
+      if (adsStatus) return true;
+      var adStatus = el.getAttribute("data-ad-status");
+      if (adStatus) return true;
+      if (el.getAttribute("data-v4a-ads-requested") === "1") {
+        // Even if unfilled, AdSense already processed; avoid spamming requests.
+        return true;
+      }
+      // If AdSense already injected an iframe, consider it done.
+      if (el.querySelector && el.querySelector("iframe")) return true;
+      return false;
+    }
+
+    function ensureAdsbygoogleArray() {
+      // If the AdSense script hasn't loaded yet, we can still queue pushes.
+      // When it loads, it overrides push() to do the real work.
+      if (!window.adsbygoogle) window.adsbygoogle = [];
+      return window.adsbygoogle;
+    }
+
+    function safePush(el) {
+      var arr = ensureAdsbygoogleArray();
       try {
-        ins.setAttribute('data-v4a-loaded', '1');
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        // Mark requested to prevent duplicate TagError on reflows.
+        el.setAttribute("data-v4a-ads-requested", "1");
+        arr.push({});
+        return true;
       } catch (e) {
-        console.warn('[ADS] push failed', e);
-        // allow retry
-        try { ins.removeAttribute('data-v4a-loaded'); } catch (_) {}
+        // If push fails (common TagError), allow a limited retry.
+        try { el.removeAttribute("data-v4a-ads-requested"); } catch (e2) {}
+        return false;
       }
     }
 
-    function scanAndPush() {
-      document.querySelectorAll('ins.adsbygoogle').forEach(pushIns);
+    function schedule(el, reason) {
+      if (!el || el.nodeType !== 1) return;
+      if (el._v4aAdsState && el._v4aAdsState.done) return;
+
+      var st = el._v4aAdsState || (el._v4aAdsState = { attempts: 0, lastTry: 0, timer: null, done: false });
+      if (st.timer) return;
+
+      var delay = 150;
+      st.timer = setTimeout(function () {
+        st.timer = null;
+        tryEnsure(el, reason);
+      }, delay);
     }
 
-    // Expose for dynamic inserts (news infeed)
-    window.V4A_adsInit = scanAndPush;
+    function tryEnsure(el, reason) {
+      if (!isConnected(el)) return;
 
-    // Run after page load + a few settling delays
-    window.addEventListener('load', function () {
-      scanAndPush();
-      setTimeout(scanAndPush, 600);
-      setTimeout(scanAndPush, 1200);
-    });
+      var st = el._v4aAdsState || (el._v4aAdsState = { attempts: 0, lastTry: 0, timer: null, done: false });
+      if (st.done) return;
 
-    window.addEventListener('resize', function () {
-      scanAndPush();
-    });
+      // Don't push twice.
+      if (isDone(el)) {
+        st.done = true;
+        return;
+      }
 
-    // Observe visibility to catch late layout changes
-    if ('IntersectionObserver' in window) {
-      const io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) {
-          if (en.isIntersecting) pushIns(en.target);
+      // Respect AdSense guidance: don't request while hidden.
+      if (!isVisible(el)) {
+        if (st.attempts < MAX_ATTEMPTS) schedule(el, "hidden");
+        return;
+      }
+
+      // Ensure measurable size to avoid availableWidth=0 / too small.
+      if (!hasSize(el)) {
+        st.attempts++;
+        if (st.attempts < MAX_ATTEMPTS) {
+          // Backoff: give layout time (images/fonts/grid/async content)
+          var backoff = Math.min(2000, 200 + st.attempts * 200);
+          setTimeout(function () { schedule(el, "nosize" ); }, backoff);
+        }
+        return;
+      }
+
+      // Prefer in/near viewport (prevents requesting many offscreen ads at once).
+      if (!isInViewport(el)) {
+        // Will be triggered by IntersectionObserver later.
+        return;
+      }
+
+      st.attempts++;
+      st.lastTry = now();
+
+      var ok = safePush(el);
+      if (ok) {
+        // We mark done only after AdSense touches the element (data-* or iframe).
+        // But we also guard against double-push by keeping data-v4a-ads-requested.
+        // If AdSense doesn't react yet, observers/next ticks will not re-push because of isDone() checks.
+        // We still keep a delayed verification pass.
+        setTimeout(function () {
+          if (isConnected(el) && !st.done) {
+            if (isDone(el)) st.done = true;
+          }
+        }, 1200);
+      } else {
+        // Retry with backoff (prevents tight loop on TagError)
+        if (st.attempts < MAX_ATTEMPTS) {
+          var wait = Math.min(3000, 300 + st.attempts * 350);
+          setTimeout(function () { schedule(el, "pushfail" ); }, wait);
+        }
+      }
+    }
+
+    function collectAllSlots(root) {
+      var scope = root && root.querySelectorAll ? root : document;
+      try {
+        return Array.prototype.slice.call(scope.querySelectorAll("ins.adsbygoogle"));
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function initOnce() {
+      // Initial scan
+      collectAllSlots(document).forEach(function (el) { schedule(el, "init" ); });
+
+      // Observe dynamically injected ads (e.g. infeed inserted in latest news)
+      if (window.MutationObserver) {
+        var mo = new MutationObserver(function (mutations) {
+          for (var i = 0; i < mutations.length; i++) {
+            var m = mutations[i];
+            if (!m.addedNodes || !m.addedNodes.length) continue;
+            for (var j = 0; j < m.addedNodes.length; j++) {
+              var n = m.addedNodes[j];
+              if (!n || n.nodeType !== 1) continue;
+              if (n.matches && n.matches("ins.adsbygoogle")) {
+                schedule(n, "mo-direct" );
+              } else if (n.querySelectorAll) {
+                var slots = n.querySelectorAll("ins.adsbygoogle");
+                for (var k = 0; k < slots.length; k++) schedule(slots[k], "mo-nested" );
+              }
+            }
+          }
         });
-      }, { rootMargin: '200px 0px' });
+        try { mo.observe(document.body, { childList: true, subtree: true }); } catch (e) {}
+      }
 
-      document.addEventListener('DOMContentLoaded', function () {
-        document.querySelectorAll('ins.adsbygoogle').forEach(function (ins) {
-          io.observe(ins);
+      // Prefer viewport-based triggers
+      if (window.IntersectionObserver) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry && entry.isIntersecting && entry.target) {
+              schedule(entry.target, "io" );
+            }
+          });
+        }, { root: null, rootMargin: "250px 0px 250px 0px", threshold: 0.01 });
+
+        collectAllSlots(document).forEach(function (el) {
+          try { io.observe(el); } catch (e) {}
+        });
+
+        // Also observe any future slots registered by MutationObserver
+        document.addEventListener("v4a:adsense-slot", function (ev) {
+          try {
+            var el = ev && ev.detail && ev.detail.el;
+            if (el && el.nodeType === 1) io.observe(el);
+          } catch (e) {}
+        });
+      }
+
+      // Re-check on common lifecycle events
+      window.addEventListener("load", function () {
+        collectAllSlots(document).forEach(function (el) { schedule(el, "load" ); });
+      }, { once: true });
+
+      document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === "visible") {
+          collectAllSlots(document).forEach(function (el) { schedule(el, "vis" ); });
+        }
+      });
+
+      window.addEventListener("resize", function () {
+        // Layout changes can fix width=0 scenarios
+        collectAllSlots(document).forEach(function (el) {
+          if (!isDone(el)) schedule(el, "resize" );
+        });
+      });
+
+      window.addEventListener("orientationchange", function () {
+        collectAllSlots(document).forEach(function (el) {
+          if (!isDone(el)) schedule(el, "orient" );
         });
       });
     }
 
-    // One extra run on DOMContentLoaded (safe)
-    document.addEventListener('DOMContentLoaded', function () {
-      scanAndPush();
-    });
+    // Kickstart ASAP (after this script is parsed)
+    initOnce();
+
+    // Expose a tiny manual hook (optional)
+    window.V4A_adsInit = function () {
+      collectAllSlots(document).forEach(function (el) { schedule(el, "manual" ); });
+    };
   })();
   </script>
+  
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>
   <script src="assets/js/live-banner.js"></script>
