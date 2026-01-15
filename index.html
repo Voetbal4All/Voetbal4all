@@ -1112,64 +1112,129 @@ renderMonthlyEvents();
 </script>
 
   <script>
-  // V4A: AdSense safe init (prevents "availableWidth=0" by delaying push until slot has width)
-  (function () {
-    function canPush(ins) {
-      if (!ins || ins.getAttribute('data-v4a-loaded') === '1') return false;
-      const r = ins.getBoundingClientRect();
-      return r && r.width && r.width > 50;
-    }
+    // V4A: AdSense robust init (fixes intermittent partial/blank renders by waiting for the library
+    // and only pushing when the slot has a real width).
+    (function () {
+      const pushed = new WeakSet();
+      let adsenseReadyPromise = null;
 
-    function pushIns(ins) {
-      if (!canPush(ins)) return;
-      try {
-        ins.setAttribute('data-v4a-loaded', '1');
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {
-        console.warn('[ADS] push failed', e);
-        // allow retry
-        try { ins.removeAttribute('data-v4a-loaded'); } catch (_) {}
+      function waitForAdsense(timeoutMs = 8000) {
+        if (adsenseReadyPromise) return adsenseReadyPromise;
+
+        adsenseReadyPromise = new Promise((resolve) => {
+          // If it's already available, we're done.
+          if (Array.isArray(window.adsbygoogle)) return resolve(true);
+
+          const s = document.querySelector('script[src*="pagead/js/adsbygoogle.js"]');
+          let done = false;
+          const finish = (ok) => {
+            if (done) return;
+            done = true;
+            resolve(!!ok);
+          };
+
+          // No script tag found: nothing we can do.
+          if (!s) return finish(false);
+
+          // Bind load/error once.
+          if (!s.dataset.v4aBound) {
+            s.dataset.v4aBound = "1";
+            s.addEventListener("load", () => finish(true), { once: true });
+            s.addEventListener("error", () => finish(false), { once: true });
+          }
+
+          // Poll as fallback (the script may have loaded before listeners were attached).
+          const start = Date.now();
+          (function poll() {
+            if (Array.isArray(window.adsbygoogle)) return finish(true);
+            if (Date.now() - start > timeoutMs) return finish(false);
+            setTimeout(poll, 150);
+          })();
+        });
+
+        return adsenseReadyPromise;
       }
-    }
 
-    function scanAndPush() {
-      document.querySelectorAll('ins.adsbygoogle').forEach(pushIns);
-    }
+      function slotHasWidth(ins) {
+        if (!ins) return false;
+        // Use the parent container if present (more reliable than the ins itself when it is display:block).
+        const el = ins.parentElement || ins;
+        const r = el.getBoundingClientRect();
+        return !!(r && r.width && r.width > 60);
+      }
 
-    // Expose for dynamic inserts (news infeed)
-    window.V4A_adsInit = scanAndPush;
+      function tryPush(ins) {
+        if (!ins) return;
+        if (pushed.has(ins)) return;
+        if (ins.getAttribute("data-v4a-loaded") === "1") return;
+        if (!slotHasWidth(ins)) return;
 
-    // Run after page load + a few settling delays
-    window.addEventListener('load', function () {
-      scanAndPush();
-      setTimeout(scanAndPush, 600);
-      setTimeout(scanAndPush, 1200);
-    });
+        waitForAdsense().then((ok) => {
+          if (!ok) return;
+          if (pushed.has(ins)) return;
+          if (!slotHasWidth(ins)) return;
 
-    window.addEventListener('resize', function () {
-      scanAndPush();
-    });
-
-    // Observe visibility to catch late layout changes
-    if ('IntersectionObserver' in window) {
-      const io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) {
-          if (en.isIntersecting) pushIns(en.target);
+          try {
+            ins.setAttribute("data-v4a-loaded", "1");
+            pushed.add(ins);
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (e) {
+            // Allow retry later.
+            pushed.delete(ins);
+            try { ins.removeAttribute("data-v4a-loaded"); } catch (_) {}
+            console.warn("[ADS] push failed", e);
+          }
         });
-      }, { rootMargin: '200px 0px' });
+      }
 
-      document.addEventListener('DOMContentLoaded', function () {
-        document.querySelectorAll('ins.adsbygoogle').forEach(function (ins) {
-          io.observe(ins);
-        });
+      function scanAndPush() {
+        document.querySelectorAll("ins.adsbygoogle").forEach(tryPush);
+      }
+
+      // Expose for dynamic inserts (e.g., in-feed ad injected after fetching news)
+      window.V4A_adsInit = scanAndPush;
+
+      // DOM ready: first scan.
+      document.addEventListener("DOMContentLoaded", () => {
+        scanAndPush();
+
+        // Observe each slot; push when it becomes visible and has width.
+        if ("IntersectionObserver" in window) {
+          const io = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((en) => {
+                if (en.isIntersecting) tryPush(en.target);
+              });
+            },
+            { rootMargin: "300px 0px" }
+          );
+
+          document.querySelectorAll("ins.adsbygoogle").forEach((ins) => io.observe(ins));
+
+          // Also observe slots added later (dynamic content)
+          const mo = new MutationObserver(() => {
+            document.querySelectorAll("ins.adsbygoogle").forEach((ins) => io.observe(ins));
+            scanAndPush();
+          });
+          mo.observe(document.body, { childList: true, subtree: true });
+        }
       });
-    }
 
-    // One extra run on DOMContentLoaded (safe)
-    document.addEventListener('DOMContentLoaded', function () {
-      scanAndPush();
-    });
-  })();
+      // Load event + settling delays (layout may change after fonts / banner JS).
+      window.addEventListener("load", () => {
+        scanAndPush();
+        setTimeout(scanAndPush, 700);
+        setTimeout(scanAndPush, 1600);
+        setTimeout(scanAndPush, 3000);
+      });
+
+      // Resize: debounce and retry.
+      let resizeT = null;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeT);
+        resizeT = setTimeout(scanAndPush, 250);
+      });
+    })();
   </script>
   <!-- Belangrijk: scripts maar 1x, en pas NA de HTML -->
   <script src="assets/js/nav-mobile.js" defer></script>
