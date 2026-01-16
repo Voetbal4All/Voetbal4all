@@ -39,6 +39,10 @@
       text-decoration:none;cursor:pointer;flex:0 0 auto;
       transition:transform .12s ease,filter .12s ease,background .12s ease,box-shadow .12s ease;
     }
+    /* Small variant for share icons */
+    .v4-share .live-social-link.is-small{width:28px;height:28px}
+    .v4-share .live-social-link svg{width:18px;height:18px}
+    .v4-share .live-social-link.is-small svg{width:15px;height:15px}
     .v4-share .live-social-link:hover{
       filter:brightness(1.08);
       transform:translateY(-1px);
@@ -857,9 +861,13 @@
           grid.insertAdjacentHTML('beforeend', `
             <article class="ad-card" id="premium30-${encodeURIComponent(String(slug))}" data-slug="${String(slug)}">
               <div class="event-row">
-                <div class="event-thumbbox ${safeThumb ? 'has-img' : ''}" aria-label="Flyer thumbnail">
-                  ${safeThumb ? `<div class="thumbbg" style="background-image:url('${safeThumb}')"></div>` : ``}
-                  ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', true)}
+                <div class="event-thumbcol" style="width:140px;flex:0 0 140px;min-width:0;">
+                  <div class="event-thumbbox ${safeThumb ? 'has-img' : ''}" aria-label="Flyer thumbnail">
+                    ${safeThumb ? `<div class="thumbbg" style="background-image:url('${safeThumb}')"></div>` : ``}
+                  </div>
+                  <div class="event-thumb-socials" style="margin-top:8px;">
+                    ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', true)}
+                  </div>
                 </div>
                 <div class="event-main">
                   <div class="ad-card-header" style="margin:0;">
