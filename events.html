@@ -355,17 +355,26 @@
 
                   <!-- IN-CONTENT AD -->
                   <section class="section-main" style="padding-top:0;padding-bottom:10px;">
-                    <div class="ad-infeed">
-                      <ins class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-4062633211824348"
-                        data-ad-slot="5386990710"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"></ins>
-                      <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                      </script>
-                    </div>
+                    <article class="card" style="margin:12px 0;">
+                      <div class="card-header">
+                        <div>
+                          <div class="card-caption">Aanbevolen</div>
+                          <div class="card-title">Sponsor</div>
+                        </div>
+                        <span class="pill-small">Ad</span>
+                      </div>
+                      <div class="ad-infeed" style="padding-top:10px;">
+                        <ins class="adsbygoogle"
+                          style="display:block"
+                          data-ad-client="ca-pub-4062633211824348"
+                          data-ad-slot="5386990710"
+                          data-ad-format="auto"
+                          data-full-width-responsive="true"></ins>
+                        <script>
+                          (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                      </div>
+                    </article>
                   </section>
 
                   <!-- Overige events (2 kolommen) -->
@@ -817,8 +826,7 @@
 
                   <div class="ad-card-actions event-actions" style="margin-top:10px;">
                     <a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>
-                    <button type="button" class="btn-ghost-sm" data-reply-event="${String(slug)}">Inschrijven / contact</button>
-                    ${shareButtonsHtml(slug, ev.title || '', false)}
+                    <button type="button" class="btn-ghost-sm" data-reply-event="${String(slug)}">Contact</button>
                   </div>
                 </div>
               </div>
@@ -898,7 +906,9 @@
           const p = Number(b.getAttribute('data-page') || '1');
           if (!Number.isFinite(p)) return;
           renderPage(p);
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+          const overview = document.querySelector('.card-title')?.closest('.card') || document.querySelector('main');
+          const y = overview ? overview.getBoundingClientRect().top + window.scrollY - 90 : 0;
+          window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
         });
 
         // Sidebar premium later rotator stays
@@ -911,6 +921,16 @@
           status.style.display = "block";
           status.textContent = "Events konden niet geladen worden.";
         }
+      el.insertAdjacentHTML('beforeend', `
+        <div class="sidebar-premium-card" style="border-style:dashed;text-align:center;">
+          <div class="sidebar-premium-title">Plaats jouw premium event</div>
+          <div class="sidebar-premium-meta">Promoot je event ruim op voorhand, bovenaan elke pagina.</div>
+          <div class="sidebar-premium-actions" style="justify-content:center;">
+            <a class="btn-ghost-sm" href="adverteren.html">Plaats premium event</a>
+          </div>
+        </div>
+      `);
+
       }
     }
     function startPremium30Grid(premium30){
@@ -918,10 +938,7 @@
       const grid = document.getElementById('premium-grid-30');
       if (!wrap || !grid) return;
 
-      if (!premium30 || premium30.length === 0) {
-        wrap.style.display = 'none';
-        return;
-      }
+      // Always show the premium block (even if empty), but keep placeholders limited (max 2)
       wrap.style.display = 'block';
 
       // 6 visible cards (3x2). Each slot advances with its own offset so the order differs.
@@ -932,10 +949,13 @@
       function render(){
         grid.innerHTML = '';
         for (let s=0; s<slots; s++){
-          const hasReal = premium30.length > 0 && s < premium30.length;
+          const hasReal = premium30 && premium30.length > 0;
           const ev = hasReal
             ? premium30[(tick + offsets[s]) % premium30.length]
             : null;
+
+          // Limit placeholders to 2 cards; skip rendering the remaining empty slots
+          if (!ev && s >= 2) continue;
 
           const slug = ev ? (ev.slug || ev.id) : (`placeholder-${s+1}`);
           const country = ev ? String(ev.country || '').toUpperCase() : '';
@@ -1062,7 +1082,7 @@
               ${
                 ev
                   ? `<a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(ev.slug || ev.id)}">Bekijk</a>`
-                  : `<a class="btn-ghost-sm" href="adverteren.html">Plaats premium event</a>`
+                  : ``
               }
             </div>
           </div>
