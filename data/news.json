@@ -1,16 +1,126 @@
 {
-  "generatedAt": "2026-01-16T13:40:25.874Z",
+  "generatedAt": "2026-01-16T14:27:54.080Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City agree deal to sign Palace captain Guehi",
+      "link": "https://www.bbc.com/sport/football/articles/c99kmd7z5yxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City agree a deal in principle to sign Crystal Palace and England centre-back Marc Guehi in January.",
+      "publishedAt": "2026-01-16T14:25:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Glasner to leave Palace at end of season",
+      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
+      "publishedAt": "2026-01-16T14:25:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot, Salah 'talking' about Liverpool return date",
+      "link": "https://www.espn.com/soccer/story/_/id/47628504/arne-slot-mohamed-salah-important-liverpool-talking-first-game-back",
+      "summary": "Arne Slot has said he is happy to have Mohamed Salah returning from the Africa Cup of Nations, insisting he continues to be \"so important\" for Liverpool.",
+      "publishedAt": "2026-01-16T14:24:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Guéhi at 'final stages' of Palace exit amid City interest",
+      "link": "https://www.espn.com/soccer/story/_/id/47630232/marc-guehi-final-stage-crystal-palace-exit-man-city-interested",
+      "summary": "Marc Guéhi is at the \"final stage\" of his departure from Crystal Palace this month, with Manchester City interested.",
+      "publishedAt": "2026-01-16T14:21:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Pulisic stays on bench as Rabiot inspires Milan win",
+      "link": "https://www.espn.com/soccer/report/_/gameId/736935",
+      "summary": "AC Milan won 3-1 at in-form Como on Thursday, with Adrien Rabiot winning a penalty and then scoring two goals.",
+      "publishedAt": "2026-01-16T14:21:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Vini Jr. deal more likely after Alonso exit",
+      "link": "https://www.espn.com/soccer/story/_/id/47629173/vinicius-jr-real-madrid-contract-likely-xabi-alonso-exit-sources",
+      "summary": "Xabi Alonso's departure as Real Madrid coach has changed the situation regarding Vinícius Júnior's potential contract renewal, multiple sources have told ESPN.",
+      "publishedAt": "2026-01-16T14:21:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Glasner verlaat Crystal Palace deze zomer",
+      "link": "https://www.vi.nl/nieuws/glasner-verlaat-crystal-palace-deze-zomer",
+      "summary": "Oliver Glasner heeft bevestigd dat hij bezig is aan zijn laatste maanden als manager van Crystal Palace. De Oostenrijker beschikt over een aflopend contract en gaat dat niet verlengen.",
+      "publishedAt": "2026-01-16T14:11:21.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Manchester City close in on Guéhi, Malen joins Roma, derby looms for Carrick: football – live",
+      "title": "Oliver Glasner to leave Crystal Palace in summer, Manchester City close on Guéhi: football – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/16/transfer-news-manchester-derby-looms-for-carrick-and-much-more-football-live",
-      "summary": "⚽ The latest football news going into the weekend ⚽ Premier League preview | Follow on Bluesky | Mail us A very poor 9/15 from me. Afcon is moving to a four-year cycle, a decision the Confederation of African Football has been accused of forcing through without proper consultation. Ed Aarons and Romain Molina report: Several presidents of African football federations have told the Guardian they were not informed of the decision until it was surprisingly announced by the Caf president, Patrice Motsepe, on 20 December, prompting claims that the confederation breached its statutes by failing to seek approval at a general assembly. Continue reading...",
-      "publishedAt": "2026-01-16T13:22:47.000Z"
+      "summary": "⚽ The latest football news going into the weekend ⚽ Glasner to leave Palace | Follow on Bluesky | Mail us A very poor 9/15 from me. Afcon is moving to a four-year cycle, a decision the Confederation of African Football has been accused of forcing through without proper consultation. Ed Aarons and Romain Molina report: Several presidents of African football federations have told the Guardian they were not informed of the decision until it was surprisingly announced by the Caf president, Patrice Motsepe, on 20 December, prompting claims that the confederation breached its statutes by failing to seek approval at a general assembly. Continue reading...",
+      "publishedAt": "2026-01-16T14:08:09.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Persie vertelt hoe lang Read 'out' is en is positief over Moder en Nieuwkoop",
+      "link": "https://www.vi.nl/nieuws/van-persie-vertelt-hoe-lang-read-out-is-en-is-positief-over-moder-en-nieuwkoop",
+      "summary": "Robin van Persie heeft vrijdagmiddag een medische update over de selectie van Feyenoord gegeven. Op de persconferentie in aanloop naar de derby tegen Sparta Rotterdam ging hij in op onder anderen Bart Nieuwkoop, Jakub Moder en Givairo Read.",
+      "publishedAt": "2026-01-16T13:58:43.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Glasner reveals he will leave Palace at end of season",
+      "link": "https://www.skysports.com/football/news/12040/13495027/oliver-glasner-to-leave-crystal-palace-austrian-manager-will-not-renew-contract-when-it-expires-at-end-of-season",
+      "summary": "Crystal Palace manager Oliver Glasner has revealed he will leave the club when his contract expires at the end of the season.",
+      "publishedAt": "2026-01-16T13:54:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Einde aan soap rond Nainggolan: ex-international maakt transfer",
+      "link": "https://www.vi.nl/nieuws/einde-aan-soap-rond-nainggolan-ex-international-maakt-transfer",
+      "summary": "Radja Nainggolan maakt een overstap binnen de Challenger Pro League, het tweede niveau van België. KSC Lokeren wilde de 37-jarige middenvelder niet laten gaan, maar ziet de voormalige international van België toch vertrekken naar Patro Eisden.",
+      "publishedAt": "2026-01-16T13:49:14.000Z"
     },
     {
       "type": "rss",
@@ -22,17 +132,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cn0k2wp3p91o?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Sport looks at the principles, tactics and players Michael Carrick and his staff could use at Manchester United.",
       "publishedAt": "2026-01-16T13:17:35.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Slot, Salah 'talking' about Liverpool return date",
-      "link": "https://www.espn.com/soccer/story/_/id/47628504/arne-slot-mohamed-salah-important-liverpool-talking-first-game-back",
-      "summary": "Arne Slot has said he is happy to have Mohamed Salah returning from the Africa Cup of Nations, insisting he continues to be \"so important\" for Liverpool.",
-      "publishedAt": "2026-01-16T13:12:41.000Z"
     },
     {
       "type": "rss",
@@ -66,39 +165,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c1dkg0d9z3do?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Sport football expert Chris Sutton takes on WWE superstar Drew McIntyre - and AI - with his predictions for this week's Premier League fixtures.",
       "publishedAt": "2026-01-16T12:52:50.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Toekomstvragen prikkelen Bosz: 'Je gaat geen antwoord krijgen'",
-      "link": "https://www.vi.nl/video/toekomstvragen-prikkelen-bosz-je-gaat-geen-antwoord-krijgen",
-      "summary": "Peter Bosz werd vrijdagmiddag op de persconferentie in aanloop naar het uitduel met Fortuna Sittard andermaal geconfronteerd met vragen over zijn toekomst. De trainer van PSV beschikt over een aflopend contract in Eindhoven.",
-      "publishedAt": "2026-01-16T12:45:17.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Drie op een rij voor PSV: Veerman is VI's Speler van de Maand",
-      "link": "https://www.vi.nl/nieuws/drie-op-een-rij-voor-psv-veerman-is-vi-s-speler-van-de-maand",
-      "summary": "De Speler van de Maand-trofee van Voetbal International is vrijdag voor de derde keer op rij in Eindhoven uitgereikt. Na Ismael Saibari (oktober) en Guus Til (november) was Joey Veerman over de maand december de beste speler in de Eredivisie volgens de beoordelingen van VI.",
-      "publishedAt": "2026-01-16T12:39:25.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Van Marokko naar Newcastle: PSV werkt aan snelle terugkeer Salah-Eddine",
-      "link": "https://www.vi.nl/nieuws/van-marokko-naar-newcastle-psv-werkt-aan-snelle-terugkeer-salah-eddine",
-      "summary": "Peter Bosz hoopt van harte dat Anass Salah-Eddine en Ismael Saibari aanstaande zondag met Marokko de Afrika Cup winnen. Daarna keert het duo terug naar PSV. Salah-Eddine is mogelijk zelfs al op tijd voor het Champions League-duel met Newcastle United van aanstaande woensdag.",
-      "publishedAt": "2026-01-16T12:39:09.000Z"
     },
     {
       "type": "rss",
@@ -146,50 +212,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Leeds vs Fulham preview: Four Leeds players set to return but James out",
-      "link": "https://www.skysports.com/football/leeds-united-vs-fulham/live/531342",
-      "summary": "",
-      "publishedAt": "2026-01-16T12:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man Utd's Martínez: Wanted to quit after ACL tear",
-      "link": "https://www.espn.com/soccer/story/_/id/47623753/man-united-lisandro-martinez-quit-acl-injury-argentina",
-      "summary": "Manchester United defender Lisandro Martínez has revealed that during the darkest moments of his recovery from a torn ACL, he seriously considered walking away from football.",
-      "publishedAt": "2026-01-16T11:27:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Pulisic stays on bench as Rabiot inspires Milan win",
-      "link": "https://www.espn.com/soccer/report/_/gameId/736935",
-      "summary": "AC Milan won 3-1 at in-form Como on Thursday, with Adrien Rabiot winning a penalty and then scoring two goals.",
-      "publishedAt": "2026-01-16T11:27:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Sources: Vini Jr. deal more likely after Alonso exit",
-      "link": "https://www.espn.com/soccer/story/_/id/47629173/vinicius-jr-real-madrid-contract-likely-xabi-alonso-exit-sources",
-      "summary": "Xabi Alonso's departure as Real Madrid coach has changed the situation regarding Vinícius Júnior's potential contract renewal, multiple sources have told ESPN.",
-      "publishedAt": "2026-01-16T11:27:53.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -198,28 +220,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cg4ex9l76y7o?at_medium=RSS&at_campaign=rss",
       "summary": "Mohamed Salah returns to Liverpool next week with boss Arne Slot saying he would be pleased to have the forward back even if he had \"15 attackers\".",
       "publishedAt": "2026-01-16T11:04:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Laurens' weekend preview: Madrid's redemption?; Carrick's Man United debut; AFCON final",
-      "link": "https://www.espn.com/soccer/story/_/id/47622724/manchester-united-manchester-city-real-madrid-afcon-final-julien-laurens-weekend-preview",
-      "summary": "It's Friday and another full weekend of action awaits across the soccer calendar as Julien Laurens picks out the best games to watch in Europe.",
-      "publishedAt": "2026-01-16T09:21:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Carrick is 'the correct appointment at the right time' for Man Utd",
-      "link": "https://www.skysports.com/football/news/12040/13494103/manchester-united-michael-carrick-is-the-correct-choice-at-the-right-time-reporter-notebook",
-      "summary": "After Michael Carrick's appointment as Manchester United head coach until the end of the season, Sky Sports News reporter Dan Khan examines why he is the correct choice for the club...",
-      "publishedAt": "2026-01-16T09:00:00.000Z"
     }
   ]
 }
