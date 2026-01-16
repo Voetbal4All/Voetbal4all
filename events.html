@@ -526,6 +526,13 @@
       return c || "";
     }
 
+    function countryToFlag(cc){
+      const c = String(cc || "").toUpperCase();
+      if (c === "BE") return "🇧🇪";
+      if (c === "NL") return "🇳🇱";
+      return c || "";
+    }
+
     function fmtDayMonth(dateStrOrIso){
       const d = new Date(dateStrOrIso);
       if (isNaN(d.getTime())) return "";
@@ -752,7 +759,7 @@
 
                       <!-- Regel 2: Vlag + stad -->
                       <div class="ad-card-meta">
-                        ${countryToLabel(country)}${ev.city ? " · " + ev.city : ""}
+                        ${countryToFlag(country)}${ev.city ? " · " + ev.city : ""}
                       </div>
 
                       <!-- Regel 3: Club -->
@@ -935,7 +942,7 @@
 
                       <!-- Regel 2: Vlag + stad -->
                       <div class="ad-card-meta">
-                        ${ev ? (countryToLabel(country) + (ev.city ? " · " + ev.city : "")) : "Premium slot"}
+                        ${ev ? (countryToFlag(country) + (ev.city ? " · " + ev.city : "")) : "Premium slot"}
                       </div>
 
                       <!-- Regel 3: Club -->
