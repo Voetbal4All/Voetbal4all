@@ -35,7 +35,7 @@
         0 10px 26px rgba(0,0,0,.35),
         0 0 18px rgba(34,197,94,.38);
 
-      color:rgba(255,255,255,.95);
+      color:rgba(34,197,94,.95);
       text-decoration:none;cursor:pointer;flex:0 0 auto;
       transition:transform .12s ease,filter .12s ease,background .12s ease,box-shadow .12s ease;
     }
@@ -43,6 +43,11 @@
     .v4-share .live-social-link.is-small{width:28px;height:28px}
     .v4-share .live-social-link svg{width:18px;height:18px}
     .v4-share .live-social-link.is-small svg{width:15px;height:15px}
+    /* Ensure SVG inherits the green color (prevents black icons) */
+    .v4-share svg{fill:none;stroke:currentColor;stroke-width:2}
+    .v4-share .fill{fill:currentColor;stroke:none}
+    .event-thumb-socials--row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .share-label{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
     .v4-share .live-social-link:hover{
       filter:brightness(1.08);
       transform:translateY(-1px);
@@ -865,8 +870,9 @@
                   <div class="event-thumbbox ${safeThumb ? 'has-img' : ''}" aria-label="Flyer thumbnail">
                     ${safeThumb ? `<div class="thumbbg" style="background-image:url('${safeThumb}')"></div>` : ``}
                   </div>
-                  <div class="event-thumb-socials" style="margin-top:8px;">
-                    ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', false)}
+                  <div class="event-thumb-socials event-thumb-socials--row">
+                    <span class="share-label">Deel</span>
+                    ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', true)}
                   </div>
                 </div>
                 <div class="event-main">
