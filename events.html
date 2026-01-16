@@ -579,11 +579,24 @@
 
     async function loadEvents(){
       try {
-        const res = await fetch(`${API_BASE}/api/events?limit=200&nocache=1`);
+        // Fetch premium (paid) for next N days from dedicated endpoint (stable contract)
+        const premiumUrl = `${API_BASE}/api/events/premium?days=30&limit=50&nocache=1`;
+
+        const [res, premiumRes] = await Promise.all([
+          fetch(`${API_BASE}/api/events?limit=200&nocache=1`),
+          fetch(premiumUrl)
+        ]);
+
         const data = await res.json();
+        const premiumData = await premiumRes.json();
 
         if (!data || !data.ok || !Array.isArray(data.items)) {
           throw new Error("Bad response");
+        }
+
+        if (!premiumData || !premiumData.ok || !Array.isArray(premiumData.items)) {
+          // Do not fail the whole page if premium endpoint is temporarily unavailable
+          console.warn("[EVENTS] premium endpoint returned an unexpected shape");
         }
 
         // Sort by start date (soonest first)
@@ -594,24 +607,32 @@
         // Premium buckets
         const now = new Date();
         const in30 = new Date(now.getTime() + 30*24*60*60*1000);
-        const premiumAll = itemsSorted.filter(ev => !!ev.is_premium);
-        const premium30 = premiumAll.filter(ev => {
-          const d = new Date(ev.start_at);
-          return !isNaN(d.getTime()) && d >= now && d <= in30;
+
+        // Premium <= 30 days comes from backend (paid-only)
+        PINNED_PREMIUM_30 = (premiumData && premiumData.ok && Array.isArray(premiumData.items))
+          ? premiumData.items
+          : [];
+
+        const pinnedIds = new Set(
+          PINNED_PREMIUM_30.map(ev => String(ev.slug || ev.id))
+        );
+
+        // Premium later than 30 days (paid-only) derived from the main list for now
+        const premiumAllPaid = itemsSorted.filter(ev => {
+          const paid = String(ev.premium_status || "").toLowerCase() === "paid" ||
+                       String(ev.payment_status || "").toLowerCase() === "paid";
+          return !!ev.is_premium && paid;
         });
-        const premiumLater = premiumAll.filter(ev => {
+
+        const premiumLater = premiumAllPaid.filter(ev => {
           const d = new Date(ev.start_at);
           return !isNaN(d.getTime()) && d > in30;
         });
 
-        // Pinned premium (<=30 days) always shown at top
-        PINNED_PREMIUM_30 = premium30;
-
-        // Other list below (everything except the pinned premium <=30d)
+        // Other list below (everything except the pinned premium <=30d from backend)
         const otherEvents = itemsSorted.filter(ev => {
-          if (!ev.is_premium) return true;
-          const d = new Date(ev.start_at);
-          return !(!!ev.is_premium && !isNaN(d.getTime()) && d >= now && d <= in30);
+          const key = String(ev.slug || ev.id);
+          return !pinnedIds.has(key);
         });
 
         function adSlimHtml(){
