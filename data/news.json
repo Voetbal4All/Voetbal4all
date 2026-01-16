@@ -1,49 +1,16 @@
 {
-  "generatedAt": "2026-01-16T14:27:54.080Z",
+  "generatedAt": "2026-01-16T15:28:05.502Z",
   "items": [
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Man City agree deal to sign Palace captain Guehi",
-      "link": "https://www.bbc.com/sport/football/articles/c99kmd7z5yxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City agree a deal in principle to sign Crystal Palace and England centre-back Marc Guehi in January.",
-      "publishedAt": "2026-01-16T14:25:28.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Glasner to leave Palace at end of season",
-      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
-      "publishedAt": "2026-01-16T14:25:04.000Z"
-    },
-    {
-      "type": "rss",
       "source": "ESPN - Soccer",
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Slot, Salah 'talking' about Liverpool return date",
-      "link": "https://www.espn.com/soccer/story/_/id/47628504/arne-slot-mohamed-salah-important-liverpool-talking-first-game-back",
-      "summary": "Arne Slot has said he is happy to have Mohamed Salah returning from the Africa Cup of Nations, insisting he continues to be \"so important\" for Liverpool.",
-      "publishedAt": "2026-01-16T14:24:02.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Guéhi at 'final stages' of Palace exit amid City interest",
-      "link": "https://www.espn.com/soccer/story/_/id/47630232/marc-guehi-final-stage-crystal-palace-exit-man-city-interested",
-      "summary": "Marc Guéhi is at the \"final stage\" of his departure from Crystal Palace this month, with Manchester City interested.",
-      "publishedAt": "2026-01-16T14:21:20.000Z"
+      "title": "Sources: Man City agree deal with Palace for Guéhi",
+      "link": "https://www.espn.com/soccer/story/_/id/47630232/marc-guehi-final-stage-crystal-palace-move-man-city-sources",
+      "summary": "Manchester City are closing in on the signing of Marc Guéhi from Crystal Palace, sources have told ESPN.",
+      "publishedAt": "2026-01-16T15:20:28.000Z"
     },
     {
       "type": "rss",
@@ -54,7 +21,18 @@
       "title": "Pulisic stays on bench as Rabiot inspires Milan win",
       "link": "https://www.espn.com/soccer/report/_/gameId/736935",
       "summary": "AC Milan won 3-1 at in-form Como on Thursday, with Adrien Rabiot winning a penalty and then scoring two goals.",
-      "publishedAt": "2026-01-16T14:21:20.000Z"
+      "publishedAt": "2026-01-16T15:20:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sources: Barça's Ter Stegen near Girona loan",
+      "link": "https://www.espn.com/soccer/story/_/id/47630114/barcelona-marc-andre-ter-stegen-girona-loan-transfer",
+      "summary": "Girona are closing in on the signing of Barcelona goalkeeper Marc-Andre ter Stegen on loan, sources told ESPN.",
+      "publishedAt": "2026-01-16T15:20:28.000Z"
     },
     {
       "type": "rss",
@@ -65,7 +43,62 @@
       "title": "Sources: Vini Jr. deal more likely after Alonso exit",
       "link": "https://www.espn.com/soccer/story/_/id/47629173/vinicius-jr-real-madrid-contract-likely-xabi-alonso-exit-sources",
       "summary": "Xabi Alonso's departure as Real Madrid coach has changed the situation regarding Vinícius Júnior's potential contract renewal, multiple sources have told ESPN.",
-      "publishedAt": "2026-01-16T14:21:20.000Z"
+      "publishedAt": "2026-01-16T15:20:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Oliver Glasner to leave Crystal Palace in summer, Manchester City close on Guéhi: football – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/16/transfer-news-manchester-derby-looms-for-carrick-and-much-more-football-live",
+      "summary": "⚽ The latest football news going into the weekend ⚽ Premier League preview | Follow on Bluesky | Mail us A very poor 9/15 from me. Afcon is moving to a four-year cycle, a decision the Confederation of African Football has been accused of forcing through without proper consultation. Ed Aarons and Romain Molina report: Several presidents of African football federations have told the Guardian they were not informed of the decision until it was surprisingly announced by the Caf president, Patrice Motsepe, on 20 December, prompting claims that the confederation breached its statutes by failing to seek approval at a general assembly. Continue reading...",
+      "publishedAt": "2026-01-16T15:00:54.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Glasner to leave Palace at end of season",
+      "link": "https://www.bbc.com/sport/football/articles/crlezygrpe6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crystal Palace manager Oliver Glasner confirms he will leave the club when his contract expires at the end of the season.",
+      "publishedAt": "2026-01-16T15:00:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man City agree £20m deal to sign Palace captain Guehi",
+      "link": "https://www.bbc.com/sport/football/articles/c99kmd7z5yxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City agree a deal in principle to sign Crystal Palace and England centre-back Marc Guehi in January for £20m.",
+      "publishedAt": "2026-01-16T14:51:04.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Boots from Easter Bunny and teenage parties - Glasner tells his story",
+      "link": "https://www.bbc.com/sport/football/articles/c9vxdy2np80o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crystal Palace boss Oliver Glasner sits down with Kelly Somers to talk about his background and career in football.",
+      "publishedAt": "2026-01-16T14:48:01.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Persie is zijn glimlach kwijt: 'Bij Feyenoord moet je veel meer winnen'",
+      "link": "https://www.vi.nl/nieuws/van-persie-is-zijn-glimlach-kwijt-bij-feyenoord-moet-je-veel-meer-winnen",
+      "summary": "Het is crisis bij Feyenoord, en dat weet trainer Robin van Persie maar al te goed. De normaal zo goedlachse Rotterdammer is ronduit ontevreden over de huidige clubsituatie en vond het misplaatst om met een glimlach op de persconferentie te verschijnen. 'Dat is in deze setting niet gepast.'",
+      "publishedAt": "2026-01-16T14:30:51.000Z"
     },
     {
       "type": "rss",
@@ -77,17 +110,6 @@
       "link": "https://www.vi.nl/nieuws/glasner-verlaat-crystal-palace-deze-zomer",
       "summary": "Oliver Glasner heeft bevestigd dat hij bezig is aan zijn laatste maanden als manager van Crystal Palace. De Oostenrijker beschikt over een aflopend contract en gaat dat niet verlengen.",
       "publishedAt": "2026-01-16T14:11:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Oliver Glasner to leave Crystal Palace in summer, Manchester City close on Guéhi: football – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/16/transfer-news-manchester-derby-looms-for-carrick-and-much-more-football-live",
-      "summary": "⚽ The latest football news going into the weekend ⚽ Glasner to leave Palace | Follow on Bluesky | Mail us A very poor 9/15 from me. Afcon is moving to a four-year cycle, a decision the Confederation of African Football has been accused of forcing through without proper consultation. Ed Aarons and Romain Molina report: Several presidents of African football federations have told the Guardian they were not informed of the decision until it was surprisingly announced by the Caf president, Patrice Motsepe, on 20 December, prompting claims that the confederation breached its statutes by failing to seek approval at a general assembly. Continue reading...",
-      "publishedAt": "2026-01-16T14:08:09.000Z"
     },
     {
       "type": "rss",
@@ -106,10 +128,21 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Glasner reveals he will leave Palace at end of season",
+      "title": "Glasner to leave Palace at end of season: 'I want a new challenge'",
       "link": "https://www.skysports.com/football/news/12040/13495027/oliver-glasner-to-leave-crystal-palace-austrian-manager-will-not-renew-contract-when-it-expires-at-end-of-season",
-      "summary": "Crystal Palace manager Oliver Glasner has revealed he will leave the club when his contract expires at the end of the season.",
+      "summary": "Crystal Palace manager Oliver Glasner has revealed he will leave the club when his contract expires at the end of the season, citing his desire for a \"new challenge\" after nearly two years at Selhurst Park.",
       "publishedAt": "2026-01-16T13:54:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Vincenzo fancied to scoop Ascot Handicap prize on Saturday",
+      "link": "https://www.skysports.com/racing/news/12040/13495024/ascot-tips-vincenzo-fancied-to-scoop-handicap-prize-on-saturday",
+      "summary": "The Weekend Winners team return in search of winners at Ascot and Haydock in their latest episode – available now on the At The Races YouTube channel.",
+      "publishedAt": "2026-01-16T13:50:00.000Z"
     },
     {
       "type": "rss",
@@ -124,17 +157,6 @@
     },
     {
       "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "The tactics Carrick will hope can fix Man Utd",
-      "link": "https://www.bbc.com/sport/football/articles/cn0k2wp3p91o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Sport looks at the principles, tactics and players Michael Carrick and his staff could use at Manchester United.",
-      "publishedAt": "2026-01-16T13:17:35.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -143,17 +165,6 @@
       "link": "https://www.vi.nl/nieuws/knvb-vindt-nieuwe-data-voor-nec-utrecht-en-afgelaste-kkd-duels",
       "summary": "De KNVB heeft nieuwe speeldata aangewezen voor de afgelaste wedstrijden in de Eredivisie en Keuken Kampioen Divisie van afgelopen weekend. NEC - FC Utrecht zal op woensdag 11 februari ingehaald worden.",
       "publishedAt": "2026-01-16T13:12:04.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Manchester City wil doorpakken met Guehi, Chelsea overweegt Senesi'",
-      "link": "https://www.vi.nl/nieuws/manchester-city-wil-doorpakken-met-guehi-chelsea-overweegt-senesi",
-      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-16T13:11:38.000Z"
     },
     {
       "type": "rss",
@@ -198,17 +209,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/16/womens-football-transfers-manchester-united-sign-ellen-wangerheim",
       "summary": "Wangerheim joins from Hammarby on contract to 2029 WSL2 Birmingham land fellow Swede Leidhammar Manchester United have signed the Sweden forward Ellen Wangerheim from Hammarby on a contract until June 2029. The 21-year-old becomes the Women’s Super League side’s third signing of the January transfer window, after Hanna Lundkvist and Lea Schüller. Matt Johnson, United’s director of women’s football, told the club’s media channels that Wangerheim was “one of Europe’s best young talents”, saying: “As a dynamic, invasive and versatile forward Ellen brings variation and a natural scoring instinct to the team. Everyone at the club is excited to have her at Manchester United and the opportunity to help maximise her potential.” Continue reading...",
       "publishedAt": "2026-01-16T12:00:21.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Australian Open: Sunday's Order of Play as Raducanu features",
-      "link": "https://www.skysports.com/tennis/news/12040/13493944/australian-open-order-of-play-with-emma-raducanu-carlos-alcaraz-jannik-sinner-aryna-sabalenka-iga-swiatek-and-coco-gauff-all-in-action",
-      "summary": "The Australian Open gets under way on Sunday, with British No 1 Emma Raducanu and leading men's hope Cameron Norrie both in action, along with tops seeds in the women's and men's draws, Aryna Sabalenka and Carlos Alcaraz.",
-      "publishedAt": "2026-01-16T12:00:00.000Z"
     },
     {
       "type": "rss",
