@@ -339,13 +339,13 @@
                     Events met een datum in het verleden worden automatisch verborgen (dag na het event).
                   </p>
 
-                  <!-- PREMIUM (komende 30 dagen): 3 rijen x 2 kolommen = 6 kaarten, roterend per kaart -->
+                  <!-- PREMIUM (komende 60 dagen): 3 rijen x 2 kolommen = 6 kaarten, roterend per kaart -->
                   <div id="premium-30-wrap" class="premium-block" style="display:none;">
                     <div class="card" style="margin-bottom:12px;">
                   <div class="card-header">
                     <div>
                       <div class="card-caption">Premium</div>
-                      <div class="card-title">Premium events in de volgende 30 dagen</div>
+                      <div class="card-title">Premium events in de volgende 60 dagen</div>
                     </div>
                     <span class="pill-small">Rotatie</span>
                   </div>
@@ -654,7 +654,7 @@
     async function loadEvents(){
       try {
         // Fetch premium (paid) for next N days from dedicated endpoint (stable contract)
-        const premiumUrl = `${API_BASE}/api/events/premium?days=30&limit=50&nocache=1`;
+        const premiumUrl = `${API_BASE}/api/events/premium?days=60&limit=50&nocache=1`;
 
         const [res, premiumRes] = await Promise.all([
           fetch(`${API_BASE}/api/events?limit=200&nocache=1`),
@@ -680,9 +680,9 @@
 
         // Premium buckets
         const now = new Date();
-        const in30 = new Date(now.getTime() + 30*24*60*60*1000);
+        const in60 = new Date(now.getTime() + 60*24*60*60*1000);
 
-        // Premium <= 30 days comes from backend (paid-only)
+        // Premium <= 60 days comes from backend (paid-only)
         PINNED_PREMIUM_30 = (premiumData && premiumData.ok && Array.isArray(premiumData.items))
           ? premiumData.items
           : [];
@@ -691,7 +691,7 @@
           PINNED_PREMIUM_30.map(ev => String(ev.slug || ev.id))
         );
 
-        // Premium later than 30 days (paid-only) derived from the main list for now
+        // Premium later than 60 days (paid-only) derived from the main list for now
         const premiumAllPaid = itemsSorted.filter(ev => {
           const paid = String(ev.premium_status || "").toLowerCase() === "paid" ||
                        String(ev.payment_status || "").toLowerCase() === "paid";
@@ -700,10 +700,10 @@
 
         const premiumLater = premiumAllPaid.filter(ev => {
           const d = new Date(ev.start_at);
-          return !isNaN(d.getTime()) && d > in30;
+          return !isNaN(d.getTime()) && d > in60;
         });
 
-        // Other list below (everything except the pinned premium <=30d from backend)
+        // Other list below (everything except the pinned premium <=60d from backend)
         const otherEvents = itemsSorted.filter(ev => {
           const key = String(ev.slug || ev.id);
           return !pinnedIds.has(key);
