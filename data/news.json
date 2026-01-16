@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-01-16T10:29:23.232Z",
+  "generatedAt": "2026-01-16T11:23:27.885Z",
   "items": [
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Fortuna Sittard haalt Lance Duijvestijn",
-      "link": "https://www.vi.nl/nieuws/fortuna-sittard-haalt-lance-duijvestijn",
-      "summary": "Lance Duijvesteijn (27) maakt de overstap naar Fortuna Sittard. De middenvelder wordt voor de rest van het seizoen gehuurd van Sparta Rotterdam. Hij speelde dit seizoen dertien Eredivisie-duels voor Sparta.",
-      "publishedAt": "2026-01-16T10:25:15.000Z"
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Slot, Salah 'talking' about Liverpool return date",
+      "link": "https://www.espn.com/soccer/story/_/id/47628504/arne-slot-mohamed-salah-important-liverpool-talking-first-game-back",
+      "summary": "Arne Slot has said he is happy to have Mohamed Salah returning from the Africa Cup of Nations, insisting he continues to be \"so important\" for Liverpool.",
+      "publishedAt": "2026-01-16T11:14:57.000Z"
     },
     {
       "type": "rss",
@@ -18,10 +18,21 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Koeman voegt Van Nistelrooij toe aan technische staf Oranje",
-      "link": "https://www.vi.nl/nieuws/koeman-voegt-van-nistelrooij-toe-aan-technische-staf-oranje",
-      "summary": "Ruud van Nistelrooij keert per 1 februari als assistent-bondscoach terug bij het Nederlands elftal. Ronald Koeman voegt de 49-jarige oud-international toe aan zijn technische staf richting het WK van komende zomer.",
-      "publishedAt": "2026-01-16T10:25:06.000Z"
+      "title": "FC Eindhoven houdt toptalent uit handen van de Eredivisie",
+      "link": "https://www.vi.nl/nieuws/fc-eindhoven-houdt-toptalent-uit-handen-van-de-eredivisie",
+      "summary": "Thijs Muller (18) tekent na negen wedstrijden in de Keuken Kampioen Divisie zijn eerste profcontract. De aanvallende middenvelder genoot concrete interesse uit de Eredivisie, maar kiest voor een langer verblijf bij FC Eindhoven. Dat bevestigen ingewijden.",
+      "publishedAt": "2026-01-16T11:09:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'If I had 15 attackers I'd be happy to have Salah back'",
+      "link": "https://www.bbc.com/sport/football/articles/cg4ex9l76y7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mohamed Salah returns to Liverpool next week with boss Arne Slot saying he would be pleased to have the forward back even if he had \"15 attackers\".",
+      "publishedAt": "2026-01-16T11:04:20.000Z"
     },
     {
       "type": "rss",
@@ -29,10 +40,54 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Wintertransfers Eredivisie seizoen 2025/26: alle clubs op een rij",
-      "link": "https://www.vi.nl/nieuws/wintertransfers-eredivisie-seizoen-2025-26-alle-clubs-op-een-rij",
-      "summary": "De transferperiode is weer losgebarsten. In dit overzicht van VI vind je alle afgeronde, door clubs bevestigde, wintertransfers van de achttien Eredivisie-clubs. Clubs in Nederland kunnen tot en met 2 februari spelers aantrekken .",
-      "publishedAt": "2026-01-16T10:21:14.000Z"
+      "title": "'Manchester City wil doorpakken met Guehi, Villa schakelt door'",
+      "link": "https://www.vi.nl/nieuws/manchester-city-wil-doorpakken-met-guehi-villa-schakelt-door",
+      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
+      "publishedAt": "2026-01-16T11:01:59.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Opsteker voor Bayern en Duitsland: Musiala keert terug van zware blessure",
+      "link": "https://www.vi.nl/nieuws/opsteker-voor-bayern-en-duitsland-musiala-keert-terug-van-zware-blessure",
+      "summary": "Bayern München kan zaterdag weer een beroep doen op Jamal Musiala. De 22-jarige Duitser lag een halfjaar uit de roulatie, maar is hersteld van een beenbreuk, zo maakte trainer Vincent Kompany bekend. De aanstaande rentree van Musiala is eveneens goed nieuws voor Duitsland in aanloop naar het WK.",
+      "publishedAt": "2026-01-16T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "De Graafschap met piepjong elftal op koers voor play-offs",
+      "link": "https://www.vi.nl/pro/de-graafschap-met-piepjong-elftal-op-koers-voor-play-offs",
+      "summary": "In de Keuken Kampioen Divisie staan dit weekend een paar topduels op het programma. ADO Den Haag en SC Cambuur, de twee titelfavorieten, treffen elkaar vrijdag in Den Haag. Zondag gaat nummer drie De Graafschap op bezoek bij Almere City, in een belangrijk duel om de play-offs. De Graafschap staat er goed voor, maar kent wel een merkwaardig seizoen. Dit zijn de meest opvallende zaken over de piepjonge ploeg van trainer Marinus Dijkhuizen.",
+      "publishedAt": "2026-01-16T11:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Kraker in de KKD: zo staan ADO en Cambuur ervoor richting hun ontmoeting",
+      "link": "https://www.vi.nl/nieuws/kraker-in-de-kkd-zo-staan-ado-en-cambuur-ervoor-richting-hun-ontmoeting",
+      "summary": "Vrijdagavond hervatten ADO Den Haag en SC Cambuur hun Keuken Kampioen Divisie-seizoen. Dat doen zij direct met een kraker. De nummers één en twee staan immers tegenover elkaar. Zo staan zij ervoor.",
+      "publishedAt": "2026-01-16T10:56:36.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Roma sign Malen, transfer news and Manchester derby looms for Carrick: football – live",
+      "link": "https://www.theguardian.com/football/live/2026/jan/16/transfer-news-manchester-derby-looms-for-carrick-and-much-more-football-live",
+      "summary": "⚽ The latest football news going into the weekend ⚽ Premier League preview | Follow on Bluesky | Mail Taha Afcon is moving to a four-year cycle, a decision the Confederation of African Football has been accused of forcing through without proper consultation. Ed Aarons and Romain Molina report: Several presidents of African football federations have told the Guardian they were not informed of the decision until it was surprisingly announced by the Caf president, Patrice Motsepe, on 20 December, prompting claims that the confederation breached its statutes by failing to seek approval at a general assembly. Continue reading...",
+      "publishedAt": "2026-01-16T10:38:56.000Z"
     },
     {
       "type": "rss",
@@ -62,54 +117,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Slot, Salah 'talking' about Liverpool return date",
-      "link": "https://www.espn.com/soccer/story/_/id/47628504/arne-slot-mohamed-salah-important-liverpool-talking-first-game-back",
-      "summary": "Arne Slot has said he is happy to have Mohamed Salah returning from the Africa Cup of Nations, insisting he continues to be \"so important\" for Liverpool.",
-      "publishedAt": "2026-01-16T10:19:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
       "title": "Mexico calls up dual-nationals Ledezma, Gutiérrez",
       "link": "https://www.espn.com/soccer/story/_/id/47623526/mexico-calls-dual-nationals-ledezma-gutierrez",
       "summary": "United States-Mexico dual-nationals Richard Ledezma and Brian Gutiérrez earned their first call-ups for Mexico's senior national team on Thursday ahead of non-FIFA date friendlies against Panama on Jan. 22 and Bolivia on Jan 25.",
       "publishedAt": "2026-01-16T10:19:38.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Slot hoopt Salah klaar te stomen voor belangrijk Champions League-duel",
-      "link": "https://www.vi.nl/nieuws/slot-hoopt-salah-klaar-te-stomen-voor-belangrijk-champions-league-duel",
-      "summary": "Arne Slot is blij dat de Afrika Cup bijna voorbij is. De manager van Liverpool verlangt naar de terugkeer van Mohamed Salah. De Egyptenaar speelt zaterdag nog de troostfinale tegen Nigeria en vliegt daarna terug naar Engeland. De aanvaller wacht een race tegen de klok om het Champions League-duel met Olympique Marseille te halen.",
-      "publishedAt": "2026-01-16T10:10:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Roma sign Malen, transfer news and Manchester derby looms for Carrick: football – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/16/transfer-news-manchester-derby-looms-for-carrick-and-much-more-football-live",
-      "summary": "⚽ The latest football news going into the weekend ⚽ Premier League preview | Follow on Bluesky | Mail Taha Liverpool’s right-back question, Wolves’ unbeaten run and more in our latest TPs. Here’s today’s tittle-tattle: Continue reading...",
-      "publishedAt": "2026-01-16T10:09:53.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Excelsior doet zaken met FC Utrecht in jacht op doelpunten",
-      "link": "https://www.vi.nl/nieuws/jonathans-moet-excelsior-aan-doelpunten-helpen",
-      "summary": "Excelsior heeft de rest van het seizoen de beschikking over Miliano Jonathans. De 21-jarige aanvaller wordt gehuurd van FC Utrecht.",
-      "publishedAt": "2026-01-16T10:00:13.000Z"
     },
     {
       "type": "rss",
@@ -209,17 +220,6 @@
       "link": "https://www.skysports.com/f1/news/12040/13494646/red-bull-chief-laurent-mekies-admits-he-expects-team-to-be-trailing-rivals-at-start-of-2026-f1-season-amid-new-engine-adjustment",
       "summary": "Red Bull chief Laurent Mekies has admitted he expects the team \"to be trailing\" their front-running rivals at the start of the 2026 Formula 1 season.",
       "publishedAt": "2026-01-16T06:50:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Carrick 'right choice at this moment' - Rooney",
-      "link": "https://www.bbc.com/sport/football/articles/c0mkl4n493zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wayne Rooney says caretaker head coach Michael Carrick is the \"right choice at this moment in time\" to \"steady the ship\" at Manchester United.",
-      "publishedAt": "2026-01-16T06:13:32.000Z"
     }
   ]
 }
