@@ -115,6 +115,17 @@
     .sidebar-premium-title{font-weight:700;font-size:13px;line-height:1.25}
     .sidebar-premium-meta{font-size:12px;opacity:.8;margin-top:2px}
     .sidebar-premium-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
+
+    /* Non-premium cards: keep them scannable (and prevent long text blocks) */
+    #event-list .ad-card-body{
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:2;
+      overflow:hidden;
+    }
+
+    /* Non-premium: hide share icons if they ever appear there */
+    #event-list .v4-share{display:none !important;}
   </style>
 </head>
 
@@ -355,26 +366,17 @@
 
                   <!-- IN-CONTENT AD -->
                   <section class="section-main" style="padding-top:0;padding-bottom:10px;">
-                    <article class="card" style="margin:12px 0;">
-                      <div class="card-header">
-                        <div>
-                          <div class="card-caption">Aanbevolen</div>
-                          <div class="card-title">Sponsor</div>
-                        </div>
-                        <span class="pill-small">Ad</span>
-                      </div>
-                      <div class="ad-infeed" style="padding-top:10px;">
-                        <ins class="adsbygoogle"
-                          style="display:block"
-                          data-ad-client="ca-pub-4062633211824348"
-                          data-ad-slot="5386990710"
-                          data-ad-format="auto"
-                          data-full-width-responsive="true"></ins>
-                        <script>
-                          (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                      </div>
-                    </article>
+                    <div class="ad-infeed">
+                      <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-4062633211824348"
+                        data-ad-slot="5386990710"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                      <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                      </script>
+                    </div>
                   </section>
 
                   <!-- Overige events (2 kolommen) -->
@@ -1078,6 +1080,17 @@
           </div>
         `);
       }
+
+      // Always end with a clear CTA in the sidebar
+      el.insertAdjacentHTML('beforeend', `
+        <div class="sidebar-premium-card" style="border-style:dashed;text-align:center;">
+          <div class="sidebar-premium-title">Plaats jouw premium event</div>
+          <div class="sidebar-premium-meta">Promoot je event ruim op voorhand, bovenaan elke pagina.</div>
+          <div class="sidebar-premium-actions" style="justify-content:center;">
+            <a class="btn-ghost-sm" href="adverteren.html">Plaats premium event</a>
+          </div>
+        </div>
+      `);
     }
 
     function norm(s){ return (s || "").toLowerCase(); }
@@ -1212,4 +1225,4 @@
   <script src="assets/js/live-banner.js"></script>
 </body>
 </html>
-<!-- build-trigger 20260116T215003Z -->
+<!-- EVENTS_BUILD_MARKER: premium60 + sidebarCTA + adSimplified -->
