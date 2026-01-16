@@ -277,7 +277,7 @@
                   <div class="card-caption" style="margin-bottom:6px;">Flyer / affiche (optioneel)</div>
                   <input id="evFlyer" type="file" accept="image/*,application/pdf" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
                   <div class="note" style="margin-top:6px;opacity:.85;">
-                    Uploaden op de site is (nog) niet gekoppeld aan verzending. Na klikken op “Verstuur aanvraag” opent je e-mailapp: voeg daar je flyer als bijlage toe.
+                    Voeg hier je flyer/affiche toe. Bij verzending wordt de flyer mee verstuurd met je aanvraag.
                   </div>
                 </label>
 
@@ -294,12 +294,71 @@
                 <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px;">
                   <label style="display:flex;gap:8px;align-items:center;">
                     <input id="evPremium" type="checkbox" />
-                    <span class="note">Ik wil info over <strong>Premium</strong> zichtbaarheid</span>
+                    <span class="note"><strong>Dit event verdient Premium zichtbaarheid.</strong></span>
                   </label>
                 </div>
 
+                <div id="premiumOptions" style="display:none;margin-top:10px;">
+                  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;">
+                    <label style="display:block;">
+                      <div class="card-caption" style="margin-bottom:6px;">Premium-periode *</div>
+                      <select id="evPremiumPlan" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
+                        <option value="" selected disabled>Kies periode…</option>
+                        <option value="1w|9.99">1 week — 9,99€</option>
+                        <option value="1m|19.99">1 maand — 19,99€</option>
+                        <option value="3m|49.99">3 maanden — 49,99€</option>
+                        <option value="6m|74.99">6 maanden — 74,99€</option>
+                      </select>
+                      <div class="note" style="margin-top:6px;opacity:.85;">
+                        De gekozen Premium-periode wordt berekend terug vanaf de startdatum van het event.
+                      </div>
+                    </label>
+
+                    <article class="card" style="padding:12px;border:1px solid rgba(255,255,255,.10);background:rgba(11,16,32,.35);">
+                      <div class="card-caption" style="margin-bottom:6px;">Facturatie</div>
+                      <div class="note" style="opacity:.9;">
+                        Vul hieronder je factuurgegevens in. Na verwerking ontvang je een factuur per e-mail.
+                      </div>
+                    </article>
+                  </div>
+
+                  <div id="invoiceFields" style="margin-top:10px;">
+                    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;">
+                      <label style="display:block;">
+                        <div class="card-caption" style="margin-bottom:6px;">Factuur op naam van *</div>
+                        <input id="invName" type="text" placeholder="Club / organisatie / naam" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                      </label>
+
+                      <label style="display:block;">
+                        <div class="card-caption" style="margin-bottom:6px;">BTW-nummer</div>
+                        <input id="invVat" type="text" placeholder="Bijv. BE0123.456.789" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                      </label>
+
+                      <label style="display:block;">
+                        <div class="card-caption" style="margin-bottom:6px;">Factuuradres *</div>
+                        <input id="invAddress" type="text" placeholder="Straat + nummer" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                      </label>
+
+                      <label style="display:block;">
+                        <div class="card-caption" style="margin-bottom:6px;">Postcode + gemeente *</div>
+                        <input id="invCity" type="text" placeholder="Bijv. 2440 Geel" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                      </label>
+
+                      <label style="display:block;">
+                        <div class="card-caption" style="margin-bottom:6px;">Facturatie e-mail *</div>
+                        <input id="invEmail" type="email" placeholder="facturatie@…" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                      </label>
+
+                      <label style="display:block;">
+                        <div class="card-caption" style="margin-bottom:6px;">Referentie / PO (optioneel)</div>
+                        <input id="invRef" type="text" placeholder="Bijv. interne referentie" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
                 <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px;">
-                  <button type="submit" class="btn-ghost-sm">Verstuur aanvraag</button>
+                  <button type="submit" class="btn-ghost-sm" style="color:#fff;">Verstuur aanvraag</button>
                   <span id="eventSubmitHint" class="note" style="opacity:.85;"></span>
                 </div>
               </form>
@@ -319,7 +378,7 @@
                 </div>
                 <p class="note">
                   Mail naar <strong>voetbal4all@outlook.com</strong> of gebruik <a href="contact.html">Contact</a>.
-                  Voeg flyers/afbeeldingen als bijlage toe.
+                  Je kan je aanvraag ook rechtstreeks mailen als alternatief.
                 </p>
               </article>
 
@@ -332,6 +391,25 @@
                   data-full-width-responsive="true"></ins>
                 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
               </div>
+
+              <article class="card" style="margin-top:12px;">
+                <div class="card-header">
+                  <div>
+                    <div class="card-caption">Premium zichtbaarheid</div>
+                    <div class="card-title">Wat krijg je?</div>
+                  </div>
+                  <span class="pill-small">Premium</span>
+                </div>
+                <ul class="note" style="margin:0;padding-left:18px;">
+                  <li><strong>Vaste premiumblok</strong> op de relevante eventpagina’s (meer zichtbaarheid bij bezoekers).</li>
+                  <li><strong>Extra promotie</strong> via de Voetbal4All social kanalen (afhankelijk van planning en capaciteit).</li>
+                  <li><strong>Vermelding in nieuwsbrieven</strong> wanneer jouw event binnen de selectie-criteria valt.</li>
+                  <li><strong>Voorrang</strong> in rotatie t.o.v. standaard events binnen dezelfde categorie.</li>
+                </ul>
+                <p class="note" style="margin-top:10px;opacity:.9;">
+                  Na aanvraag nemen we contact op om de plaatsing te bevestigen en de planning af te stemmen.
+                </p>
+              </article>
 
             </div>
           </aside>
@@ -375,12 +453,26 @@
 
     const hint = document.getElementById('eventSubmitHint');
 
+    // Premium toggle UI logic
+    const premiumToggle = document.getElementById('evPremium');
+    const premiumOptions = document.getElementById('premiumOptions');
+
+    function syncPremiumUI() {
+      const on = !!premiumToggle?.checked;
+      if (premiumOptions) premiumOptions.style.display = on ? '' : 'none';
+    }
+
+    if (premiumToggle) {
+      premiumToggle.addEventListener('change', syncPremiumUI);
+      syncPremiumUI();
+    }
+
     function v(id) {
       const el = document.getElementById(id);
       return el ? (el.value || '').trim() : '';
     }
 
-    form.addEventListener('submit', function (e) {
+    form.addEventListener('submit', async function (e) {
       e.preventDefault();
 
       const required = ['evCategory','evCountry','evType','evTitle','evStartDate','evOrg','evEmail','evLocation','evDesc'];
@@ -391,6 +483,27 @@
           if (hint) hint.textContent = 'Vul alle verplichte velden (*) in.';
           try { el && el.focus(); } catch (_) {}
           return;
+        }
+      }
+
+      // Premium validation (only if enabled)
+      const premiumEnabledNow = !!document.getElementById('evPremium')?.checked;
+      if (premiumEnabledNow) {
+        const planVal = v('evPremiumPlan');
+        if (!planVal) {
+          if (hint) hint.textContent = 'Kies een Premium-periode.';
+          try { document.getElementById('evPremiumPlan')?.focus(); } catch (_) {}
+          return;
+        }
+        const invReq = ['invName','invAddress','invCity','invEmail'];
+        for (const id of invReq) {
+          const el = document.getElementById(id);
+          const val = el ? (el.value || '').trim() : '';
+          if (!val) {
+            if (hint) hint.textContent = 'Vul de factuurgegevens volledig in.';
+            try { el && el.focus(); } catch (_) {}
+            return;
+          }
         }
       }
 
@@ -407,7 +520,19 @@
       const url = v('evUrl');
       const location = v('evLocation');
       const desc = v('evDesc');
-      const premium = document.getElementById('evPremium')?.checked ? 'Ja, graag premium-info' : 'Nee';
+
+      const premiumEnabled = !!document.getElementById('evPremium')?.checked;
+      const premiumPlanRaw = v('evPremiumPlan');
+      const premiumPlan = premiumPlanRaw ? premiumPlanRaw.split('|')[0] : '';
+      const premiumPrice = premiumPlanRaw ? premiumPlanRaw.split('|')[1] : '';
+
+      // Invoice fields
+      const invName = v('invName');
+      const invVat = v('invVat');
+      const invAddress = v('invAddress');
+      const invCity = v('invCity');
+      const invEmail = v('invEmail');
+      const invRef = v('invRef');
 
       if (endDate && startDate && endDate < startDate) {
         if (hint) hint.textContent = 'Einddatum kan niet vóór startdatum liggen.';
@@ -435,16 +560,84 @@
         `Telefoon: ${phone || '—'}`,
         `Website/inschrijvingslink: ${url || '—'}`,
         `Flyer/affiche: ${flyerName}`,
-        `Premium interesse: ${premium}`,
+        `Premium: ${premiumEnabled ? 'Ja' : 'Nee'}`,
+        ...(premiumEnabled ? [
+          `Premium-periode: ${premiumPlan} (${premiumPrice}€)`,
+          'Premium-periode: berekend terug vanaf de startdatum van het event.',
+          '',
+          'FACTUURGEGEVENS',
+          `Factuur op naam van: ${invName}`,
+          `BTW-nummer: ${invVat || '—'}`,
+          `Adres: ${invAddress}`,
+          `Postcode/gemeente: ${invCity}`,
+          `Facturatie e-mail: ${invEmail}`,
+          `Referentie/PO: ${invRef || '—'}`
+        ] : []),
         '',
         'Omschrijving:',
         desc,
         '',
-        'Opmerking: voeg je flyer/affiche als bijlage toe in je e-mailapp na het openen van de draft.'
+        'Opmerking: indien je een flyer selecteert, wordt die mee verstuurd via het formulier.'
       ];
 
+      const flyerFile = document.getElementById('evFlyer')?.files?.[0] || null;
+
+      // If a flyer is present, submit via HTTP so the file is included.
+      // NOTE: This requires a backend endpoint to receive multipart/form-data.
+      // The endpoint can be implemented on the Voetbal4All backend.
+      const SUBMIT_ENDPOINT = 'https://voetbal4all-backend-database.onrender.com/api/forms/event-submission';
+
+      if (flyerFile) {
+        const fd = new FormData();
+        fd.append('flyer', flyerFile);
+        fd.append('subject', subject);
+        fd.append('body', bodyLines.join('\n'));
+        fd.append('category', category);
+        fd.append('country', country);
+        fd.append('type', type);
+        fd.append('title', title);
+        fd.append('startDate', startDate);
+        fd.append('endDate', endDate || '');
+        fd.append('time', time || '');
+        fd.append('org', org);
+        fd.append('email', email);
+        fd.append('phone', phone || '');
+        fd.append('url', url || '');
+        fd.append('location', location);
+        fd.append('desc', desc);
+        fd.append('premiumEnabled', premiumEnabled ? 'true' : 'false');
+        fd.append('premiumPlan', premiumPlan || '');
+        fd.append('premiumPrice', premiumPrice || '');
+        fd.append('invName', invName || '');
+        fd.append('invVat', invVat || '');
+        fd.append('invAddress', invAddress || '');
+        fd.append('invCity', invCity || '');
+        fd.append('invEmail', invEmail || '');
+        fd.append('invRef', invRef || '');
+
+        if (hint) hint.textContent = 'Aanvraag wordt verstuurd…';
+
+        try {
+          const res = await fetch(SUBMIT_ENDPOINT, { method: 'POST', body: fd });
+          if (!res.ok) {
+            const t = await res.text().catch(() => '');
+            throw new Error(t || `HTTP ${res.status}`);
+          }
+          if (hint) hint.textContent = 'Aanvraag verzonden. We nemen contact op via e-mail.';
+          form.reset();
+          // keep premium UI in sync after reset
+          try { document.getElementById('evPremium') && (document.getElementById('evPremium').checked = false); } catch (_) {}
+          try { document.getElementById('premiumOptions') && (document.getElementById('premiumOptions').style.display = 'none'); } catch (_) {}
+          return;
+        } catch (err) {
+          if (hint) hint.textContent = 'Uploaden/versturen is momenteel niet beschikbaar. Probeer later opnieuw of neem contact op via contactpagina.';
+          return;
+        }
+      }
+
+      // No flyer selected: open an email draft.
       const mailto = `mailto:voetbal4all@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
-      if (hint) hint.textContent = 'Je e-mailapp wordt geopend… voeg bijlagen toe en verzend.';
+      if (hint) hint.textContent = 'Je e-mailapp wordt geopend… verzend je aanvraag.';
       window.location.href = mailto;
     });
   })();
