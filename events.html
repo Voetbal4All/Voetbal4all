@@ -720,13 +720,6 @@
           const country = String(ev.country || "").toUpperCase();
           const uiType = typeToUiLabel(ev.event_type);
           const dateOnly = isoDateOnly(ev.start_at);
-          const rightMeta = (uiType ? uiType + " · " : "") + fmtDayMonth(ev.start_at);
-
-          const leftMetaParts = [
-            countryToLabel(country),
-            ev.city ? ev.city : null,
-          ].filter(Boolean);
-          const leftMeta = leftMetaParts.join(" · ");
 
           const bodyParts = [];
           if (ev.location_name) bodyParts.push(`<strong>Locatie:</strong> ${ev.location_name}`);
@@ -754,10 +747,30 @@
                 <div class="event-main">
                   <div class="ad-card-header" style="margin:0;">
                     <div>
+                      <!-- Regel 1: Titel -->
                       <div class="ad-card-title">${ev.title || ""}</div>
-                      <div class="ad-card-meta">${leftMeta}</div>
+
+                      <!-- Regel 2: Vlag + stad -->
+                      <div class="ad-card-meta">
+                        ${countryToLabel(country)}${ev.city ? " · " + ev.city : ""}
+                      </div>
+
+                      <!-- Regel 3: Club -->
+                      ${(() => {
+                        const club = ev.club_name || ev.club || ev.clubName || ev.clubname || ev.organizer_name || "";
+                        return club ? `<div class="ad-card-meta">${club}</div>` : ``;
+                      })()}
+
+                      <!-- Regel 4: Datum -->
+                      <div class="ad-card-meta">
+                        ${fmtDayMonth(ev.start_at)}${ev.end_at ? " – " + fmtDayMonth(ev.end_at) : ""}
+                      </div>
+
+                      <!-- Regel 5: Type -->
+                      <div class="ad-card-meta">
+                        ${uiType ? uiType : ""}
+                      </div>
                     </div>
-                    <div class="ad-card-meta">${rightMeta}</div>
                   </div>
 
                   <div class="ad-card-body" style="margin-top:8px;">
@@ -885,8 +898,6 @@
           const slug = ev ? (ev.slug || ev.id) : (`placeholder-${s+1}`);
           const country = ev ? String(ev.country || '').toUpperCase() : '';
           const uiType = ev ? typeToUiLabel(ev.event_type) : '';
-          const rightMeta = ev ? ((uiType ? uiType + ' · ' : '') + fmtDayMonth(ev.start_at)) : 'Binnenkort';
-          const leftMeta = ev ? [countryToLabel(country), ev.city ? ev.city : null].filter(Boolean).join(' · ') : 'Premium slot';
           const thumb = ev ? getThumb(ev) : '';
           const safeThumb = safeAttr(thumb);
 
@@ -919,10 +930,31 @@
                 <div class="event-main">
                   <div class="ad-card-header" style="margin:0;">
                     <div>
+                      <!-- Regel 1: Titel -->
                       <div class="ad-card-title">${cardTitle}</div>
-                      <div class="ad-card-meta">${leftMeta}</div>
+
+                      <!-- Regel 2: Vlag + stad -->
+                      <div class="ad-card-meta">
+                        ${ev ? (countryToLabel(country) + (ev.city ? " · " + ev.city : "")) : "Premium slot"}
+                      </div>
+
+                      <!-- Regel 3: Club -->
+                      ${(() => {
+                        if (!ev) return ``;
+                        const club = ev.club_name || ev.club || ev.clubName || ev.clubname || ev.organizer_name || "";
+                        return club ? `<div class="ad-card-meta">${club}</div>` : ``;
+                      })()}
+
+                      <!-- Regel 4: Datum -->
+                      <div class="ad-card-meta">
+                        ${ev ? fmtDayMonth(ev.start_at) : "Binnenkort"}${ev && ev.end_at ? " – " + fmtDayMonth(ev.end_at) : ""}
+                      </div>
+
+                      <!-- Regel 5: Type -->
+                      <div class="ad-card-meta">
+                        ${ev ? (uiType ? uiType : "") : ""}
+                      </div>
                     </div>
-                    <div class="ad-card-meta">Premium · ${rightMeta}</div>
                   </div>
                   <div class="ad-card-body" style="margin-top:8px;">${top}${desc}</div>
                   <div class="ad-card-actions event-actions" style="margin-top:10px;">
