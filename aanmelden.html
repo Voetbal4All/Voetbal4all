@@ -234,6 +234,30 @@
 
                 </div>
 
+                <label style="display:block;margin-top:10px;">
+                  <div class="card-caption" style="margin-bottom:6px;">Foto / logo (optioneel)</div>
+                  <input id="attachPhoto" type="file" accept="image/*" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  <div class="note" style="margin-top:6px;opacity:.85;">
+                    Uploaden op de site is (nog) niet gekoppeld aan verzending. Na klikken op “Verstuur aanvraag” opent je e-mailapp: voeg daar je foto/logo als bijlage toe.
+                  </div>
+                </label>
+
+                <label style="display:block;margin-top:10px;">
+                  <div class="card-caption" style="margin-bottom:6px;">CV / document (optioneel)</div>
+                  <input id="attachCv" type="file" accept="application/pdf,.pdf,.doc,.docx" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  <div class="note" style="margin-top:6px;opacity:.85;">
+                    Voeg het document als bijlage toe in je e-mailapp nadat de draft opent.
+                  </div>
+                </label>
+
+                <label style="display:block;margin-top:10px;">
+                  <div class="card-caption" style="margin-bottom:6px;">YouTube link (optioneel)</div>
+                  <input id="youtubeUrl" type="url" placeholder="https://www.youtube.com/watch?v=…" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  <div class="note" style="margin-top:6px;opacity:.85;">
+                    Ideaal voor highlights, portfolio of presentatievideo.
+                  </div>
+                </label>
+
                 <!-- VACATURE SPECIFIEK -->
                 <div id="vacatureBlock" style="margin-top:12px;">
                   <div class="card-caption" style="margin-bottom:6px;">Vacaturegegevens</div>
@@ -485,6 +509,10 @@
       const phone = v('phone');
       const location = v('location');
 
+      const photoName = document.getElementById('attachPhoto')?.files?.[0]?.name || '—';
+      const cvName = document.getElementById('attachCv')?.files?.[0]?.name || '—';
+      const youtube = v('youtubeUrl');
+
       let subject = '';
       let lines = [];
 
@@ -510,6 +538,9 @@
           `Doelgroep: ${jobAudience || '—'}`,
           `Link: ${jobUrl || '—'}`,
           `Premium interesse: ${premium}`,
+          `Foto/logo: ${photoName}`,
+          `CV/document: ${cvName}`,
+          `YouTube link: ${youtube || '—'}`,
           '',
           'Omschrijving vacature:',
           jobDesc,
@@ -517,7 +548,7 @@
           `Contact e-mail: ${email}`,
           `Telefoon: ${phone || '—'}`,
           '',
-          'Opmerking: voeg eventuele PDF/clublogo als bijlage toe in je e-mail.'
+          'Opmerking: voeg je foto/logo en/of CV/document als bijlage toe in je e-mailapp na het openen van de draft.'
         ];
 
       } else {
@@ -544,6 +575,9 @@
           `Diploma/UEFA (trainer): ${badge || '—'}`,
           `Huidige club: ${club || '—'}`,
           `Link (CV/portfolio): ${url || '—'}`,
+          `Foto: ${photoName}`,
+          `CV/document: ${cvName}`,
+          `YouTube link: ${youtube || '—'}`,
           '',
           'Omschrijving profiel:',
           desc,
@@ -551,7 +585,7 @@
           `Contact e-mail: ${email}`,
           `Telefoon: ${phone || '—'}`,
           '',
-          'Opmerking: voeg eventuele foto/CV als bijlage toe in je e-mail.',
+          'Opmerking: voeg je foto en/of CV/document als bijlage toe in je e-mailapp na het openen van de draft.',
           'NB: voor trainer/speler-profielen is geen Premium mogelijk.'
         ];
       }

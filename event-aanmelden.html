@@ -206,6 +206,16 @@
                   </label>
 
                   <label style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Land *</div>
+                    <select id="evCountry" required style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
+                      <option value="" selected disabled>Kies land…</option>
+                      <option value="BE">België</option>
+                      <option value="NL">Nederland</option>
+                      <option value="INT">Internationaal</option>
+                    </select>
+                  </label>
+
+                  <label style="display:block;">
                     <div class="card-caption" style="margin-bottom:6px;">Eventtype *</div>
                     <select id="evType" required style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
                       <option value="" selected disabled>Kies type…</option>
@@ -227,8 +237,13 @@
                   </label>
 
                   <label style="display:block;">
-                    <div class="card-caption" style="margin-bottom:6px;">Datum *</div>
-                    <input id="evDate" type="date" required style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                    <div class="card-caption" style="margin-bottom:6px;">Startdatum *</div>
+                    <input id="evStartDate" type="date" required style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  </label>
+
+                  <label style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Einddatum (optioneel)</div>
+                    <input id="evEndDate" type="date" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
                   </label>
 
                   <label style="display:block;">
@@ -257,6 +272,14 @@
                   </label>
 
                 </div>
+
+                <label style="display:block;margin-top:10px;">
+                  <div class="card-caption" style="margin-bottom:6px;">Flyer / affiche (optioneel)</div>
+                  <input id="evFlyer" type="file" accept="image/*,application/pdf" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  <div class="note" style="margin-top:6px;opacity:.85;">
+                    Uploaden op de site is (nog) niet gekoppeld aan verzending. Na klikken op “Verstuur aanvraag” opent je e-mailapp: voeg daar je flyer als bijlage toe.
+                  </div>
+                </label>
 
                 <label style="display:block;margin-top:10px;">
                   <div class="card-caption" style="margin-bottom:6px;">Locatie *</div>
@@ -360,7 +383,7 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
 
-      const required = ['evCategory','evType','evTitle','evDate','evOrg','evEmail','evLocation','evDesc'];
+      const required = ['evCategory','evCountry','evType','evTitle','evStartDate','evOrg','evEmail','evLocation','evDesc'];
       for (const id of required) {
         const el = document.getElementById(id);
         const val = el ? (el.value || '').trim() : '';
@@ -372,9 +395,11 @@
       }
 
       const category = v('evCategory');
+      const country = v('evCountry');
       const type = v('evType');
       const title = v('evTitle');
-      const date = v('evDate');
+      const startDate = v('evStartDate');
+      const endDate = v('evEndDate');
       const time = v('evTime');
       const org = v('evOrg');
       const email = v('evEmail');
@@ -384,6 +409,15 @@
       const desc = v('evDesc');
       const premium = document.getElementById('evPremium')?.checked ? 'Ja, graag premium-info' : 'Nee';
 
+      if (endDate && startDate && endDate < startDate) {
+        if (hint) hint.textContent = 'Einddatum kan niet vóór startdatum liggen.';
+        try { document.getElementById('evEndDate')?.focus(); } catch (_) {}
+        return;
+      }
+
+      const dateLabel = endDate && endDate !== startDate ? `${startDate} t/m ${endDate}` : startDate;
+      const flyerName = document.getElementById('evFlyer')?.files?.[0]?.name || '—';
+
       const subject = `[Event aanmelden] ${title}`;
       const bodyLines = [
         'EVENT AANMELDING — VOETBAL4ALL',
@@ -391,7 +425,8 @@
         `Categorie: ${category}`,
         `Type: ${type}`,
         `Titel: ${title}`,
-        `Datum: ${date}`,
+        `Land: ${country}`,
+        `Datum: ${dateLabel}`,
         `Startuur: ${time || '—'}`,
         `Locatie: ${location}`,
         '',
@@ -399,12 +434,13 @@
         `Contact e-mail: ${email}`,
         `Telefoon: ${phone || '—'}`,
         `Website/inschrijvingslink: ${url || '—'}`,
+        `Flyer/affiche: ${flyerName}`,
         `Premium interesse: ${premium}`,
         '',
         'Omschrijving:',
         desc,
         '',
-        'Opmerking: voeg eventuele flyer/afbeelding als bijlage toe in je e-mail.'
+        'Opmerking: voeg je flyer/affiche als bijlage toe in je e-mailapp na het openen van de draft.'
       ];
 
       const mailto = `mailto:voetbal4all@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
