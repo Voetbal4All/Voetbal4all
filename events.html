@@ -709,6 +709,48 @@
           return !pinnedIds.has(key);
         });
 
+        // --- Placeholder for non-premium event cards (visual filler) ---
+        function placeholderNonPremiumHtml(i){
+          // Neutral, fictive placeholders for visual inspection (no personal references)
+          const samples = [
+            { flag: "🇧🇪", city: "Mechelen", club: "FC Voorbeeld", type: "Tornooi" },
+            { flag: "🇳🇱", city: "Breda", club: "SV Voorbeeld", type: "Stage" },
+            { flag: "🇧🇪", city: "Leuven", club: "KVC Testclub", type: "Vriendschappelijk" },
+            { flag: "🇳🇱", city: "Tilburg", club: "VV Demo", type: "Voetbalkamp" }
+          ];
+          const s = samples[i % samples.length];
+          const start = new Date();
+          start.setDate(start.getDate() + 14 + i);
+          const dateLabel = start.toLocaleDateString("nl-BE", { day: "numeric", month: "long" });
+
+          return `
+            <article class="ad-card" data-placeholder="1" aria-label="Niet-premium event placeholder">
+              <div class="event-row">
+                <div class="event-thumbbox" aria-label="Flyer thumbnail"></div>
+
+                <div class="event-main">
+                  <div class="ad-card-header" style="margin:0;">
+                    <div>
+                      <div class="ad-card-title">Voorbeeld event (niet-premium)</div>
+                      <div class="ad-card-meta">${s.flag} · ${s.city}</div>
+                      <div class="ad-card-meta">${s.club}</div>
+                      <div class="ad-card-meta">${dateLabel}</div>
+                      <div class="ad-card-meta">${s.type}</div>
+                    </div>
+                  </div>
+
+                  <div class="ad-card-body" style="margin-top:8px;">
+                    Dit is een tijdelijke voorbeeldkaart om de pagina-indeling te beoordelen.
+                  </div>
+
+                  <div class="ad-card-actions event-actions" style="margin-top:10px;">
+                    <a class="btn-ghost-sm" href="adverteren.html">Event toevoegen</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          `;
+        }
 
         function cardHtml(ev){
           const slug = ev.slug || ev.id;
@@ -827,6 +869,12 @@
           slice.forEach((ev) => {
             parts.push(cardHtml(ev));
           });
+
+          // If fewer than PAGE_SIZE items, add placeholders so the layout can be inspected.
+          const missing = Math.max(0, PAGE_SIZE - slice.length);
+          for (let i = 0; i < missing; i++){
+            parts.push(placeholderNonPremiumHtml(i));
+          }
 
           listEl.innerHTML = parts.join('');
 
