@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-16T02:01:54.942Z",
+  "generatedAt": "2026-01-16T04:03:19.713Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Back to blue! Red Bull reveal throwback livery for 2026 F1 season",
+      "link": "https://www.skysports.com/f1/news/12040/13494642/red-bull-rb22-throwback-blue-livery-for-max-verstappen-to-drive-in-2026-f1-season-revealed-at-launch-event-in-detroit",
+      "summary": "Red Bull revealed a throwback blue livery for the 2026 Formula 1 season as the team ushered in a new era at their launch event in Detroit.",
+      "publishedAt": "2026-01-16T03:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "British teen Lindblad hails 'surreal moment' as Racing Bulls reveal 2026 livery",
+      "link": "https://www.skysports.com/f1/news/12040/13494645/racing-bulls-vcarb-03-livery-reveal-british-teenager-arvid-lindblad-hails-surreal-moment-ahead-of-rookie-f1-season",
+      "summary": "British teenager Arvid Lindblad hailed a \"surreal moment\" as the rookie's Racing Bulls team revealed their livery for the 2026 Formula 1 season.",
+      "publishedAt": "2026-01-16T03:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Bear with us for first few months!' | Mekies: Red Bull will trail at start of 2026 season",
+      "link": "https://www.skysports.com/watch/video/13494846/formula-one-laurent-mekies-believes-red-bull-will-be-trailing-at-the-start-of-the-2026-season",
+      "summary": "Red Bull team principal Laurent Mekies has admitted he expects his squad to be 'trailing' their rivals at the start of the 2026 Formula 1 season, as they adjust to producing their own engine.",
+      "publishedAt": "2026-01-16T03:45:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'Head coach' vs. 'manager': What's the difference? Does it matter?",
+      "link": "https://www.espn.com/soccer/story/_/id/47617709/head-coach-managers-chelsea-enzo-maresca-blueco-manchester-united-ruben-amorim",
+      "summary": "Who would be a football manager? As it turns out in the Premier League, an increasing number of head coaches. Just ask Enzo Maresca and Ruben Amorim.",
+      "publishedAt": "2026-01-16T02:03:47.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Why did Man United, Chelsea, Real Madrid all sack their managers? It's about culture",
+      "link": "https://www.espn.com/soccer/story/_/id/47608614/manchester-united-real-madrid-chelsea-firing-managers-ruben-amorim-enzo-maresca-xabi-alonso-gab-marcotti",
+      "summary": "Why have three of the biggest soccer teams in the world fired their managers in the span of just 12 days?",
+      "publishedAt": "2026-01-16T02:03:46.000Z"
+    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -43,28 +98,6 @@
       "title": "Mexico calls up dual-nationals Ledezma, Gutiérrez",
       "link": "https://www.espn.com/soccer/story/_/id/47623526/mexico-calls-dual-nationals-ledezma-gutierrez",
       "summary": "United States-Mexico dual-nationals Richard Ledezma and Brian Gutiérrez earned their first call-ups for Mexico's senior national team on Thursday ahead of non-FIFA date friendlies against Panama on Jan. 22 and Bolivia on Jan 25.",
-      "publishedAt": "2026-01-15T23:56:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "UEFA: $55M loss due to drop in U.S. dollar",
-      "link": "https://www.espn.com/soccer/story/_/id/47620728/uefa-blames-55m-revenue-loss-drop-us-dollar",
-      "summary": "The U.S. dollar value dropped about 9% against a range of foreign currencies in the first months of 2025 and UEFA blames that fall for a $55M loss of revenue.",
-      "publishedAt": "2026-01-15T23:56:24.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Barca win 11th in a row; Flick calls it 'nothing'",
-      "link": "https://www.espn.com/soccer/story/_/id/47623774/barcelona-win-11th-row-flick",
-      "summary": "Hansi Flick brushed off Barcelona's 11-game winning run as \"nothing\" as they beat Racing Santander 2-0 on Thursday to book their place in the Copa del Rey quarterfinals.",
       "publishedAt": "2026-01-15T23:56:24.000Z"
     },
     {
@@ -146,17 +179,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Celtic make enquiry over West Ham striker Wilson",
-      "link": "https://www.skysports.com/football/news/12040/13494780/callum-wilson-transfer-news-celtic-make-enquiry-over-signing-west-ham-striker",
-      "summary": "Celtic have made an enquiry for West Ham striker Callum Wilson.",
-      "publishedAt": "2026-01-15T20:16:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "The Guardian Football",
       "sourceSlug": "the-guardian-football",
       "country": "INT",
@@ -187,28 +209,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/15/probe-launched-after-chelsea-fans-complain-of-poor-policing-at-end-of-fa-cup-tie-at-charlton",
       "summary": "Fans upset at being unexpectedly held back at the Valley Police action ‘uncomfortably like that from past decades’ The Metropolitan police has commissioned an independent investigation after receiving complaints about its treatment of Chelsea supporters after the west London club’s FA Cup tie at Charlton last Saturday. The Chelsea Supporters’ Trust (CST) called for action earlier this week after writing to the force to voice concerns regarding an operation in which approximately 3,000 travelling fans were held back outside the Valley without prior notice following the conclusion of a game that kicked off at 8pm in freezing temperatures. Continue reading...",
       "publishedAt": "2026-01-15T18:48:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "$200,000 for nine-darter then bullseye? Saudi tournament offers new prize",
-      "link": "https://www.skysports.com/darts/news/12040/13494746/saudi-arabia-darts-masters-riyadh-season-bullseye-introduced-with-200000-up-for-grabs-after-nine-darter",
-      "summary": "Players competing in the Riyadh Season Saudi Arabia Darts Masters could win an astonishing $200,000 if they produce a nine-darter followed by a bullseye in the World Series of Darts event.",
-      "publishedAt": "2026-01-15T18:45:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Smith: I am ready for unification fight with Stevenson or Lopez",
-      "link": "https://www.skysports.com/boxing/news/12040/13494662/dalton-smith-i-am-ready-to-take-on-shakur-stevenson-or-teofimo-lopez-in-unification-bout",
-      "summary": "Dalton Smith says he is ready for a unification fight with either Shakur Stevenson or Teofimo Lopez after he claimed the WBC super-lightweight title and believes rival Adam Azim has to prove himself at world level before they fight.",
-      "publishedAt": "2026-01-15T18:30:00.000Z"
     },
     {
       "type": "rss",
