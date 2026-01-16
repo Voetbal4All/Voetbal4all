@@ -84,6 +84,23 @@
     .premium-block{margin:12px 0 18px}
     .premium-block .premium-grid{margin-top:10px}
 
+    /* Prevent text bleed/overflow between premium cards */
+    .premium-grid .ad-card{
+      overflow:hidden;
+    }
+    .premium-grid .ad-card-title,
+    .premium-grid .ad-card-body{
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .premium-grid .ad-card-title{
+      -webkit-line-clamp:2;
+    }
+    .premium-grid .ad-card-body{
+      -webkit-line-clamp:3;
+    }
+
     /* Sidebar premium list (10 cards) */
     .sidebar-premium-stack{display:flex;flex-direction:column;gap:10px}
     .sidebar-premium-card{padding:10px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
@@ -827,26 +844,38 @@
           if (ev && ev.location_name) bodyTop.push(`<strong>Locatie:</strong> ${ev.location_name}`);
           if (ev && ev.address) bodyTop.push(ev.address);
           const top = bodyTop.length ? (bodyTop.join(' · ') + '<br/>') : '';
-          const desc = ev ? (ev.description ? String(ev.description) : '') : 'Wordt binnenkort ingevuld.';
+          // Premium placeholder content
+          const desc = ev
+            ? (ev.description ? String(ev.description) : '')
+            : 'Bereik clubs en teams in jouw regio. Plaats jouw event als premium.';
+
+          // Title for placeholder
+          const cardTitle = ev
+            ? (ev.title || '')
+            : 'Jouw premium event hier?';
 
           grid.insertAdjacentHTML('beforeend', `
             <article class="ad-card" id="premium30-${encodeURIComponent(String(slug))}" data-slug="${String(slug)}">
               <div class="event-row">
                 <div class="event-thumbbox ${safeThumb ? 'has-img' : ''}" aria-label="Flyer thumbnail">
                   ${safeThumb ? `<div class="thumbbg" style="background-image:url('${safeThumb}')"></div>` : ``}
+                  ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', true)}
                 </div>
                 <div class="event-main">
                   <div class="ad-card-header" style="margin:0;">
                     <div>
-                      <div class="ad-card-title">${ev ? (ev.title || '') : 'Premium event (placeholder)'}</div>
+                      <div class="ad-card-title">${cardTitle}</div>
                       <div class="ad-card-meta">${leftMeta}</div>
                     </div>
                     <div class="ad-card-meta">Premium · ${rightMeta}</div>
                   </div>
                   <div class="ad-card-body" style="margin-top:8px;">${top}${desc}</div>
                   <div class="ad-card-actions event-actions" style="margin-top:10px;">
-                    ${ev ? `<a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>` : `<span class="btn-ghost-sm" style="opacity:.55;cursor:default;">Bekijk event</span>`}
-                    ${shareButtonsHtml(slug, ev ? (ev.title || '') : 'Premium event', false)}
+                    ${
+                      ev
+                        ? `<a class="btn-ghost-sm" href="event.html?slug=${encodeURIComponent(slug)}">Bekijk event</a>`
+                        : `<a class="btn-ghost-sm" href="adverteren.html">Plaats premium event</a>`
+                    }
                   </div>
                 </div>
               </div>
