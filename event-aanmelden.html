@@ -215,20 +215,26 @@
                       <option value="INT">Internationaal</option>
                     </select>
                   </label>
+                  <label id="evProvinceWrap" style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Provincie *</div>
+                    <select id="evProvince" required style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
+                      <option value="" selected disabled>Kies provincie…</option>
+                    </select>
+                  </label>
 
                   <label style="display:block;">
                     <div class="card-caption" style="margin-bottom:6px;">Eventtype *</div>
                     <select id="evType" required style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
                       <option value="" selected disabled>Kies type…</option>
-                      <option>Sportief · Tornooi</option>
-                      <option>Sportief · Vriendschappelijke wedstrijd</option>
-                      <option>Sportief · Stage</option>
-                      <option>Sportief · Voetbalkamp</option>
-                      <option>Club &amp; fun · Dinner / eetdag</option>
-                      <option>Club &amp; fun · Spelavond / actie</option>
-                      <option>Club &amp; fun · Fuif / afterparty</option>
-                      <option>Club &amp; fun · Sponsor &amp; netwerk</option>
-                      <option>Andere</option>
+                      <option data-cat="Sportief">Sportief · Tornooi</option>
+                      <option data-cat="Sportief">Sportief · Vriendschappelijke wedstrijd</option>
+                      <option data-cat="Sportief">Sportief · Stage</option>
+                      <option data-cat="Sportief">Sportief · Voetbalkamp</option>
+                      <option data-cat="Club & fun">Club &amp; fun · Dinner / eetdag</option>
+                      <option data-cat="Club & fun">Club &amp; fun · Spelavond / actie</option>
+                      <option data-cat="Club & fun">Club &amp; fun · Fuif / afterparty</option>
+                      <option data-cat="Club & fun">Club &amp; fun · Sponsor &amp; netwerk</option>
+                      <option data-cat="*">Andere</option>
                     </select>
                   </label>
 
@@ -282,10 +288,17 @@
                   </div>
                 </label>
 
-                <label style="display:block;margin-top:10px;">
-                  <div class="card-caption" style="margin-bottom:6px;">Locatie *</div>
-                  <input id="evLocation" type="text" required placeholder="Sportpark, adres, gemeente" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
-                </label>
+                <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:10px;">
+                  <label style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Stad *</div>
+                    <input id="evCity" type="text" required placeholder="Bijv. Geel" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  </label>
+
+                  <label style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Adres / complex / locatie *</div>
+                    <input id="evLocation" type="text" required placeholder="Sportpark, adres, complex…" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
+                  </label>
+                </div>
 
                 <label style="display:block;margin-top:10px;">
                   <div class="card-caption" style="margin-bottom:6px;">Omschrijving *</div>
@@ -400,18 +413,6 @@
           <aside class="v4-sidebar">
             <div class="v4-sidebar-sticky">
 
-              <article class="card">
-                <div class="card-header">
-                  <div>
-                    <div class="card-caption">Contact</div>
-                    <div class="card-title">Liever rechtstreeks?</div>
-                  </div>
-                </div>
-                <p class="note">
-                  Heb je een vraag? Gebruik <a href="contact.html">Contact</a> of mail naar <strong>voetbal4all@outlook.com</strong>.
-                  Voor events gebruik je bij voorkeur het formulier zodat je aanvraag (en flyer) automatisch wordt verwerkt.
-                </p>
-              </article>
 
               <div class="ad-vertical v4-ad-sticky" style="margin-top:12px;">
                 <ins class="adsbygoogle"
@@ -501,6 +502,133 @@
     function v(id) {
       const el = document.getElementById(id);
       return el ? (el.value || '').trim() : '';
+    }
+
+    // Category -> Type filtering
+    const categoryEl = document.getElementById('evCategory');
+    const typeEl = document.getElementById('evType');
+
+    function syncTypeOptions() {
+      if (!typeEl) return;
+      const cat = (categoryEl?.value || '').trim();
+      const current = (typeEl.value || '').trim();
+      let keepCurrent = false;
+
+      Array.from(typeEl.options).forEach((opt) => {
+        const val = (opt.value || '').trim();
+        const optCat = opt.getAttribute('data-cat');
+        if (!optCat || val === '') {
+          opt.hidden = false;
+          return;
+        }
+        if (optCat === '*' || optCat === cat) {
+          opt.hidden = false;
+          if (val === current) keepCurrent = true;
+        } else {
+          opt.hidden = true;
+        }
+      });
+
+      if (!keepCurrent && current) typeEl.value = '';
+    }
+
+    if (categoryEl && typeEl) {
+      categoryEl.addEventListener('change', syncTypeOptions);
+      syncTypeOptions();
+    }
+
+    // Start date -> End date min + start-month alignment (best-effort)
+    const startDateEl = document.getElementById('evStartDate');
+    const endDateEl = document.getElementById('evEndDate');
+
+    function syncEndDateConstraints() {
+      if (!startDateEl || !endDateEl) return;
+      const s = (startDateEl.value || '').trim();
+      if (!s) {
+        endDateEl.min = '';
+        return;
+      }
+      endDateEl.min = s;
+      if (!endDateEl.value) endDateEl.value = s;
+      if (endDateEl.value && endDateEl.value < s) endDateEl.value = '';
+    }
+
+    if (startDateEl && endDateEl) {
+      startDateEl.addEventListener('change', syncEndDateConstraints);
+      endDateEl.addEventListener('focus', syncEndDateConstraints);
+      syncEndDateConstraints();
+    }
+
+    // Country -> Province (BE/NL), hide for INT
+    const countryEl = document.getElementById('evCountry');
+    const provinceWrapEl = document.getElementById('evProvinceWrap');
+    const provinceEl = document.getElementById('evProvince');
+
+    const PROVINCES_BE = [
+      'Antwerpen',
+      'Vlaams-Brabant',
+      'Waals-Brabant',
+      'Brussels Hoofdstedelijk Gewest',
+      'West-Vlaanderen',
+      'Oost-Vlaanderen',
+      'Limburg',
+      'Henegouwen',
+      'Luik',
+      'Luxemburg',
+      'Namen'
+    ];
+
+    const PROVINCES_NL = [
+      'Drenthe',
+      'Flevoland',
+      'Friesland',
+      'Gelderland',
+      'Groningen',
+      'Limburg',
+      'Noord-Brabant',
+      'Noord-Holland',
+      'Overijssel',
+      'Utrecht',
+      'Zeeland',
+      'Zuid-Holland'
+    ];
+
+    function fillProvinceOptions(list) {
+      if (!provinceEl) return;
+      const current = (provinceEl.value || '').trim();
+      provinceEl.innerHTML = '<option value="" selected disabled>Kies provincie…</option>';
+      list.forEach((p) => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        provinceEl.appendChild(opt);
+      });
+      if (current && list.includes(current)) provinceEl.value = current;
+    }
+
+    function syncProvinceUI() {
+      if (!countryEl || !provinceWrapEl || !provinceEl) return;
+      const c = (countryEl.value || '').trim();
+
+      if (c === 'BE') {
+        provinceWrapEl.style.display = '';
+        provinceEl.required = true;
+        fillProvinceOptions(PROVINCES_BE);
+      } else if (c === 'NL') {
+        provinceWrapEl.style.display = '';
+        provinceEl.required = true;
+        fillProvinceOptions(PROVINCES_NL);
+      } else {
+        provinceWrapEl.style.display = 'none';
+        provinceEl.required = false;
+        provinceEl.value = '';
+        provinceEl.innerHTML = '<option value="" selected disabled>Kies provincie…</option>';
+      }
+    }
+
+    if (countryEl) {
+      countryEl.addEventListener('change', syncProvinceUI);
+      syncProvinceUI();
     }
 
     // Premium duration pricing (launch pricing)
@@ -634,7 +762,7 @@
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
 
-      const required = ['evCategory','evCountry','evType','evTitle','evStartDate','evOrg','evEmail','evLocation','evDesc'];
+      const required = ['evCategory','evCountry','evType','evTitle','evStartDate','evOrg','evEmail','evCity','evLocation','evDesc'];
       for (const id of required) {
         const el = document.getElementById(id);
         const val = el ? (el.value || '').trim() : '';
@@ -668,6 +796,7 @@
 
       const category = v('evCategory');
       const country = v('evCountry');
+      const province = v('evProvince');
       const type = v('evType');
       const title = v('evTitle');
       const startDate = v('evStartDate');
@@ -677,8 +806,15 @@
       const email = v('evEmail');
       const phone = v('evPhone');
       const url = v('evUrl');
+      const city = v('evCity');
       const location = v('evLocation');
       const desc = v('evDesc');
+
+      if ((country === 'BE' || country === 'NL') && !province) {
+        if (hint) hint.textContent = 'Kies een provincie.';
+        try { document.getElementById('evProvince')?.focus(); } catch (_) {}
+        return;
+      }
 
       const premiumEnabled = !!document.getElementById('evPremium')?.checked;
       // Premium duration pricing (already computed above)
@@ -713,9 +849,11 @@
         `Type: ${type}`,
         `Titel: ${title}`,
         `Land: ${country}`,
+        `Provincie: ${country === 'INT' ? '—' : (province || '—')}`,
         `Datum: ${dateLabel}`,
         `Startuur: ${time || '—'}`,
-        `Locatie: ${location}`,
+        `Stad: ${city}`,
+        `Adres/complex: ${location}`,
         '',
         `Organisatie/Club: ${org}`,
         `Contact e-mail: ${email}`,
@@ -755,6 +893,7 @@
       fd.append('body', bodyLines.join('\n'));
       fd.append('category', category);
       fd.append('country', country);
+      fd.append('province', country === 'INT' ? '' : (province || ''));
       fd.append('type', type);
       fd.append('title', title);
       fd.append('startDate', startDate);
@@ -764,6 +903,7 @@
       fd.append('email', email);
       fd.append('phone', phone || '');
       fd.append('url', url || '');
+      fd.append('city', city);
       fd.append('location', location);
       fd.append('desc', desc);
       fd.append('premiumEnabled', premiumEnabled ? 'true' : 'false');
