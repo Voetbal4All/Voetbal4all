@@ -635,21 +635,24 @@
 
           const checkoutPayload = {
             event_id: sid,
-            submission_id: sid,
-            type: 'event',
+            price_eur: Number(premiumPrice),
+            // optional metadata for later use
+            premium_plan: premiumPlan,
             title,
-            premiumPlan,
-            premiumPrice,
-            currency: 'EUR',
             invoice: {
               name: invName,
               vat: invVat,
               address: invAddress,
               city: invCity,
               email: invEmail,
-              ref: invRef
-            }
+              ref: invRef,
+              submission_id: sid,
+            },
           };
+
+          if (!Number.isFinite(checkoutPayload.price_eur) || checkoutPayload.price_eur <= 0) {
+            throw new Error('Ongeldige premiumprijs. Kies een periode.');
+          }
 
           const cr = await fetch(CHECKOUT_ENDPOINT, {
             method: 'POST',
