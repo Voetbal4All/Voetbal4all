@@ -302,25 +302,55 @@
                 <div id="premiumOptions" style="display:none;margin-top:10px;">
                   <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;">
                     <label style="display:block;">
-                      <div class="card-caption" style="margin-bottom:6px;">Premium-periode *</div>
-                      <select id="evPremiumPlan" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
-                        <option value="" selected disabled>Kies periode…</option>
-                        <option value="1w|9.99">1 week — 9,99€</option>
-                        <option value="1m|19.99">1 maand — 19,99€</option>
-                        <option value="3m|49.99">3 maanden — 49,99€</option>
-                        <option value="6m|74.99">6 maanden — 74,99€</option>
+                      <div class="card-caption" style="margin-bottom:6px;">Premium-duur *</div>
+                      <select id="evPremiumDuration" style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
+                        <option value="" selected disabled>Kies duur…</option>
+                        <optgroup label="Weken (14,99 €/week)">
+                          <option value="w1">1 week — 14,99€</option>
+                          <option value="w2">2 weken — 29,98€</option>
+                          <option value="w3">3 weken — 44,97€</option>
+                        </optgroup>
+                        <optgroup label="Maanden (1–3: 49,99 €/maand)">
+                          <option value="m1">1 maand — 49,99€</option>
+                          <option value="m2">2 maanden — 99,98€</option>
+                          <option value="m3">3 maanden — 149,97€</option>
+                        </optgroup>
+                        <optgroup label="Maanden (4–5: 44,99 €/maand)">
+                          <option value="m4">4 maanden — 179,96€</option>
+                          <option value="m5">5 maanden — 224,95€</option>
+                        </optgroup>
+                        <optgroup label="6 maanden (vaste prijs)">
+                          <option value="m6">6 maanden — 249,99€ (≈ 41,67€/maand)</option>
+                        </optgroup>
                       </select>
                       <div class="note" style="margin-top:6px;opacity:.85;">
-                        De gekozen Premium-periode wordt berekend terug vanaf de startdatum van het event.
+                        De gekozen Premium-periode start teruggeteld vanaf de startdatum van het event.
                       </div>
                     </label>
 
                     <article class="card" style="padding:12px;border:1px solid rgba(255,255,255,.10);background:rgba(11,16,32,.35);">
-                      <div class="card-caption" style="margin-bottom:6px;">Facturatie</div>
-                      <div class="note" style="opacity:.9;">
-                        Vul hieronder je factuurgegevens in. Na verwerking ontvang je een factuur per e-mail.
-                      </div>
+                      <div class="card-caption" style="margin-bottom:6px;">Prijzen (transparant)</div>
+                      <ul class="note" style="margin:0;padding-left:18px;line-height:1.6;">
+                        <li>1–3 weken: <strong>14,99€ / week</strong></li>
+                        <li>1–3 maanden: <strong>49,99€ / maand</strong></li>
+                        <li>4–5 maanden: <strong>44,99€ / maand</strong></li>
+                        <li>6 maanden: <strong>249,99€</strong> (≈ 41,67€ / maand)</li>
+                      </ul>
                     </article>
+                  </div>
+
+                  <div id="premiumSummary" style="margin-top:10px;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.10);background:rgba(11,16,32,.35);">
+                    <div style="display:flex;justify-content:space-between;gap:10px;align-items:center;">
+                      <span class="note" style="opacity:.9;">Totaalprijs premium</span>
+                      <strong id="premiumTotalText">€ 0,00</strong>
+                    </div>
+                    <div id="premiumBreakdownText" class="note" style="margin-top:6px;opacity:.85;"></div>
+                  </div>
+
+                  <div id="premiumNudge" style="display:none;margin-top:10px;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.25);">
+                    <div style="font-weight:700;margin-bottom:6px;">Ben je zeker?</div>
+                    <div id="premiumNudgeText" class="note" style="opacity:.9;margin-bottom:10px;"></div>
+                    <button type="button" id="premiumNudgeBtn" class="btn-ghost-sm" style="color:#fff;">Kies 6 maanden</button>
                   </div>
 
                   <div id="invoiceFields" style="margin-top:10px;">
@@ -473,6 +503,134 @@
       return el ? (el.value || '').trim() : '';
     }
 
+    // Premium duration pricing (launch pricing)
+    const PRICING = {
+      week: 14.99,
+      month_1_3: 49.99,
+      month_4_5: 44.99,
+      month_6_total: 249.99,
+    };
+
+    function eur(n) {
+      const x = Number(n) || 0;
+      return '€ ' + x.toFixed(2).replace('.', ',');
+    }
+
+    function calcPremium(sel) {
+      if (!sel) return { total: 0, effective: 0, unit: '', units: 0, label: '' };
+
+      if (sel.startsWith('w')) {
+        const weeks = parseInt(sel.slice(1), 10) || 0;
+        const total = weeks * PRICING.week;
+        return {
+          total,
+          effective: PRICING.week,
+          unit: 'week',
+          units: weeks,
+          label: `${weeks} week${weeks === 1 ? '' : 'en'} (14,99€/week)`,
+        };
+      }
+
+      const months = parseInt(sel.slice(1), 10) || 0;
+      if (months === 6) {
+        const total = PRICING.month_6_total;
+        return {
+          total,
+          effective: total / 6,
+          unit: 'maand',
+          units: 6,
+          label: `6 maanden (vaste prijs ${eur(total)}; ≈ ${eur(total / 6)}/maand)`,
+        };
+      }
+
+      const rate = months <= 3 ? PRICING.month_1_3 : PRICING.month_4_5;
+      const total = months * rate;
+      return {
+        total,
+        effective: rate,
+        unit: 'maand',
+        units: months,
+        label: `${months} maanden (${eur(rate)}/maand)`,
+      };
+    }
+
+    const premiumEnabled = !!document.getElementById('evPremium')?.checked;
+    const premiumDuration = v('evPremiumDuration');
+    const premiumCalc = calcPremium(premiumDuration);
+    const premiumPlan = premiumDuration; // keep a compact code
+    const premiumPrice = premiumCalc.total ? String(premiumCalc.total.toFixed(2)) : '';
+    const premiumPlanLabel = premiumCalc.label;
+
+    // Premium duration UI: summary + "ben je zeker?" nudge
+    const premiumDurationEl = document.getElementById('evPremiumDuration');
+    const premiumTotalTextEl = document.getElementById('premiumTotalText');
+    const premiumBreakdownTextEl = document.getElementById('premiumBreakdownText');
+    const premiumNudgeEl = document.getElementById('premiumNudge');
+    const premiumNudgeTextEl = document.getElementById('premiumNudgeText');
+    const premiumNudgeBtnEl = document.getElementById('premiumNudgeBtn');
+
+    function updatePremiumPricingUI() {
+      if (!premiumDurationEl || !premiumTotalTextEl || !premiumBreakdownTextEl) return;
+
+      const sel = (premiumDurationEl.value || '').trim();
+      const r = (function (s) {
+        const PRICING = { week: 14.99, month_1_3: 49.99, month_4_5: 44.99, month_6_total: 249.99 };
+        const eur = (n) => '€ ' + (Number(n) || 0).toFixed(2).replace('.', ',');
+
+        if (!s) return { total: 0, effective: 0, unit: '', units: 0 };
+        if (s.startsWith('w')) {
+          const weeks = parseInt(s.slice(1), 10) || 0;
+          const total = weeks * PRICING.week;
+          return { total, effective: PRICING.week, unit: 'week', units: weeks };
+        }
+        const months = parseInt(s.slice(1), 10) || 0;
+        if (months === 6) {
+          const total = PRICING.month_6_total;
+          return { total, effective: total / 6, unit: 'maand', units: 6 };
+        }
+        const rate = months <= 3 ? PRICING.month_1_3 : PRICING.month_4_5;
+        const total = months * rate;
+        return { total, effective: rate, unit: 'maand', units: months };
+      })(sel);
+
+      const eur = (n) => '€ ' + (Number(n) || 0).toFixed(2).replace('.', ',');
+
+      premiumTotalTextEl.textContent = eur(r.total);
+      if (r.unit === 'week') {
+        premiumBreakdownTextEl.textContent = `${r.units} week${r.units === 1 ? '' : 'en'} × ${eur(r.effective)} / week`;
+      } else if (r.units === 6) {
+        premiumBreakdownTextEl.textContent = `Vaste prijs ${eur(r.total)} (≈ ${eur(r.effective)} / maand)`;
+      } else {
+        premiumBreakdownTextEl.textContent = `${r.units} maanden × ${eur(r.effective)} / maand`;
+      }
+
+      // Nudge when selecting 4 or 5 months: 6 months is cheaper per month
+      if (premiumNudgeEl && premiumNudgeTextEl) {
+        const sixEffective = 249.99 / 6;
+        const show = (sel === 'm4' || sel === 'm5');
+        if (show) {
+          const diff = 44.99 - sixEffective;
+          premiumNudgeEl.style.display = 'block';
+          premiumNudgeTextEl.textContent = `Voor ${sel === 'm4' ? '4' : '5'} maanden betaal je 44,99€/maand. Met 6 maanden betaal je ≈ 41,67€/maand (≈ ${eur(diff)} goedkoper per maand). Let op: de totaalprijs is wel hoger.`;
+        } else {
+          premiumNudgeEl.style.display = 'none';
+        }
+      }
+    }
+
+    if (premiumDurationEl) {
+      premiumDurationEl.addEventListener('change', updatePremiumPricingUI);
+    }
+    if (premiumNudgeBtnEl && premiumDurationEl) {
+      premiumNudgeBtnEl.addEventListener('click', function () {
+        premiumDurationEl.value = 'm6';
+        updatePremiumPricingUI();
+      });
+    }
+
+    // Initial render
+    updatePremiumPricingUI();
+
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
 
@@ -490,10 +648,10 @@
       // Premium validation (only if enabled)
       const premiumEnabledNow = !!document.getElementById('evPremium')?.checked;
       if (premiumEnabledNow) {
-        const planVal = v('evPremiumPlan');
+        const planVal = v('evPremiumDuration');
         if (!planVal) {
           if (hint) hint.textContent = 'Kies een Premium-periode.';
-          try { document.getElementById('evPremiumPlan')?.focus(); } catch (_) {}
+          try { document.getElementById('evPremiumDuration')?.focus(); } catch (_) {}
           return;
         }
         const invReq = ['invName','invAddress','invCity','invEmail'];
@@ -523,9 +681,12 @@
       const desc = v('evDesc');
 
       const premiumEnabled = !!document.getElementById('evPremium')?.checked;
-      const premiumPlanRaw = v('evPremiumPlan');
-      const premiumPlan = premiumPlanRaw ? premiumPlanRaw.split('|')[0] : '';
-      const premiumPrice = premiumPlanRaw ? premiumPlanRaw.split('|')[1] : '';
+      // Premium duration pricing (already computed above)
+      const premiumDuration = v('evPremiumDuration');
+      const premiumCalc = calcPremium(premiumDuration);
+      const premiumPlan = premiumDuration;
+      const premiumPrice = premiumCalc.total ? String(premiumCalc.total.toFixed(2)) : '';
+      const premiumPlanLabel = premiumCalc.label;
 
       // Invoice fields
       const invName = v('invName');
@@ -563,8 +724,9 @@
         `Flyer/affiche: ${flyerName}`,
         `Premium: ${premiumEnabled ? 'Ja' : 'Nee'}`,
         ...(premiumEnabled ? [
-          `Premium-periode: ${premiumPlan} (${premiumPrice}€)`,
-          'Premium-periode: berekend terug vanaf de startdatum van het event.',
+          `Premium-duur: ${premiumPlanLabel}`,
+          `Premium-totaal: ${eur(Number(premiumPrice))}`,
+          'De gekozen Premium-periode start teruggeteld vanaf de startdatum van het event.',
           '',
           'FACTUURGEGEVENS',
           `Factuur op naam van: ${invName}`,
@@ -606,7 +768,9 @@
       fd.append('desc', desc);
       fd.append('premiumEnabled', premiumEnabled ? 'true' : 'false');
       fd.append('premiumPlan', premiumPlan || '');
-      fd.append('premiumPrice', premiumPrice || '');
+      fd.append('premiumPlanLabel', premiumPlanLabel || '');
+      fd.append('premiumTotalEur', premiumPrice || '');
+      fd.append('premiumEffectiveEur', premiumCalc && premiumCalc.effective ? String(premiumCalc.effective.toFixed(2)) : '');
       fd.append('invName', invName || '');
       fd.append('invVat', invVat || '');
       fd.append('invAddress', invAddress || '');
@@ -638,6 +802,8 @@
             price_eur: Number(premiumPrice),
             // optional metadata for later use
             premium_plan: premiumPlan,
+            premium_plan_label: premiumPlanLabel,
+            premium_effective_eur: premiumCalc && premiumCalc.effective ? Number(premiumCalc.effective.toFixed(2)) : null,
             title,
             invoice: {
               name: invName,
