@@ -51,19 +51,8 @@
       z-index:1;
       box-sizing:border-box;
 
-      /* Blend the baked-in background into the page */
-      border-radius:18px;
-      -webkit-mask-image: radial-gradient(closest-side, rgba(0,0,0,1) 72%, rgba(0,0,0,0) 100%);
-      mask-image: radial-gradient(closest-side, rgba(0,0,0,1) 72%, rgba(0,0,0,0) 100%);
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-position: center;
-      mask-position: center;
-      -webkit-mask-size: 140% 140%;
-      mask-size: 140% 140%;
-
       /* Premium depth without hard edges */
-      filter: drop-shadow(0 22px 58px rgba(0,0,0,.55));
+      filter: drop-shadow(0 18px 48px rgba(0,0,0,.45));
       transform: translateZ(0);
       -webkit-font-smoothing: antialiased;
     }
@@ -227,7 +216,13 @@
           <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
           <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
           <div class="thanks-logo-crop">
-            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all_Bedankt.png" alt="Voetbal4All" loading="eager" decoding="async">
+            <img
+              class="thanks-logo-img"
+              src="assets/img/brand/logo-voetbal4all_thanks_bg.png"
+              srcset="assets/img/brand/logo-voetbal4all_thanks_bg.png 1x, assets/img/brand/logo-voetbal4all_thanks_bg@2x.png 2x"
+              alt="Voetbal4All"
+              loading="eager"
+              decoding="async">
           </div>
 
           <div class="card-title" id="thanksTitle">Bedankt</div>
