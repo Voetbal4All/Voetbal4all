@@ -171,7 +171,7 @@
             <span class="pill-small">Vacatures · Trainers · Spelers</span>
           </div>
           <p class="note" style="margin-bottom:10px;">
-            Meld een clubvacature aan of laat een profiel opnemen. Je aanvraag wordt klaargezet als e-mail naar
+            Meld een clubvacature aan of laat een profiel opnemen. Je aanvraag wordt verstuurd naar
             <strong>voetbal4all@outlook.com</strong>. Voeg daarna eventueel bijlagen (logo, foto, PDF vacature) toe.
           </p>
           <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
@@ -496,7 +496,7 @@
       return true;
     }
 
-    form.addEventListener('submit', function (e) {
+    form.addEventListener('submit', async function (e) {
       e.preventDefault();
 
       const mode = modeEl.value;
@@ -590,9 +590,32 @@
         ];
       }
 
-      const mailto = `mailto:voetbal4all@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;
-      if (hint) hint.textContent = 'Je e-mailapp wordt geopend… voeg bijlagen toe en verzend.';
-      window.location.href = mailto;
+      const SUBMIT_ENDPOINT = 'https://voetbal4all-backend-database.onrender.com/api/forms/event-submission';
+
+      const fd = new FormData();
+      fd.append('subject', subject);
+      fd.append('body', lines.join('\n'));
+
+      if (hint) hint.textContent = 'Aanvraag wordt verstuurd…';
+
+      try {
+        const res = await fetch(SUBMIT_ENDPOINT, { method: 'POST', body: fd });
+        let json = null;
+        try { json = await res.json(); } catch (_) {}
+
+        if (!res.ok || (json && json.ok === false)) {
+          const msg = (json && (json.error || json.message)) ? (json.error || json.message) : `HTTP ${res.status}`;
+          throw new Error(msg);
+        }
+
+        if (hint) hint.textContent = 'Aanvraag verzonden. We nemen contact op via e-mail.';
+        form.reset();
+        try { setMode && setMode('vacature'); } catch (_) {}
+        return;
+      } catch (err) {
+        if (hint) hint.textContent = 'Verzenden is momenteel niet beschikbaar. Probeer later opnieuw of neem contact op via de contactpagina.';
+        return;
+      }
     });
   })();
 </script>
