@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-01-17T01:55:39.151Z",
+  "generatedAt": "2026-01-17T03:26:24.458Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "City's Guardiola slams refs' treatment of Haaland",
-      "link": "https://www.espn.com/soccer/story/_/id/47633872/man-city-pep-guardiola-erling-haaland-referees-fouls",
-      "summary": "Manchester City manager Pep Guardiola has accused referees of unfairly punishing star striker Erling Haaland for fouls on defenders.",
-      "publishedAt": "2026-01-16T23:12:20.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -21,7 +10,7 @@
       "title": "Transfer request from teen starlet stuns Barça",
       "link": "https://www.espn.com/soccer/story/_/id/47632181/barcelona-stunned-transfer-request-teen-dro-fernandez",
       "summary": "Barcelona have been left stunned after teenager Dro Fernández informed the club of his desire to leave this January by exercising his €6 million ($7m) release clause, sources have told ESPN.",
-      "publishedAt": "2026-01-16T23:12:19.000Z"
+      "publishedAt": "2026-01-17T03:20:14.000Z"
     },
     {
       "type": "rss",
@@ -32,7 +21,18 @@
       "title": "USMNT's Sargent banished to Norwich U21s",
       "link": "https://www.espn.com/soccer/story/_/id/47632092/usmnt-josh-sargent-norwich-u21s-transfer-toronto-fc-wrexham",
       "summary": "Norwich City manager Philippe Clement revealed that USMNT striker Josh Sargent has been sent to play with the club's under-21s following his refusal to take part in last weekend's FA Cup match against Walsall.",
-      "publishedAt": "2026-01-16T23:12:19.000Z"
+      "publishedAt": "2026-01-17T03:20:14.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Senegal demand 'equal treatment' for AFCON final",
+      "link": "https://www.espn.com/soccer/story/_/id/47634920/senegal-slam-host-morocco-lack-fair-play-ahead-afcon-final",
+      "summary": "The Senegalese Football Federation filed a formal complaint ahead of Sunday's Africa Cup of Nations final against Morocco, citing a failure to provide adequate security, accommodation, training facilities, and fair ticket allocations.",
+      "publishedAt": "2026-01-17T03:20:14.000Z"
     },
     {
       "type": "rss",
@@ -43,7 +43,7 @@
       "title": "Dembélé scores stunning lob in PSG win over Lille",
       "link": "https://www.espn.com/soccer/report/_/gameId/746570",
       "summary": "Ousmane Dembélé put transfer talk behind him and scored a crucial brace for Paris Saint-Germain in a 3-0 win over Lille that returned it to the top of Ligue 1 on Friday.",
-      "publishedAt": "2026-01-16T23:12:19.000Z"
+      "publishedAt": "2026-01-17T03:20:14.000Z"
     },
     {
       "type": "rss",
@@ -135,17 +135,6 @@
     },
     {
       "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Could Arsenal become the set-pieciest, own-goaliest Premier League champions ever?",
-      "link": "https://www.espn.com/soccer/story/_/id/47609653/arsenals-set-pieces-own-goals-set-premier-league-record",
-      "summary": "As things stand with over half the season played, Arsenal are on their way to setting some records over set-piece goals and own goals.",
-      "publishedAt": "2026-01-16T21:56:07.000Z"
-    },
-    {
-      "type": "rss",
       "source": "Voetbal International",
       "sourceSlug": "voetbal-international",
       "country": "NL",
@@ -220,6 +209,17 @@
       "link": "https://www.bbc.com/sport/football/articles/cwywey6yyzlo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester City have upped the ante in the Premier League title race by flexing their muscles in the January transfer window.",
       "publishedAt": "2026-01-16T19:06:44.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Oliver Glasner’s inevitable exit compounds one of Crystal Palace’s worst ever weeks | Ed Aarons",
+      "link": "https://www.theguardian.com/football/2026/jan/16/oliver-glasner-inevitable-exit-crystal-palace-marc-guehi",
+      "summary": "Manager’s decision is no surprise having fought to keep Marc Guéhi in the summer and amid doubts over futures of a host of Palace’s FA Cup-winning stars It was the day Crystal Palace supporters had dreaded but feared was inevitable. Oliver Glasner, having confirmed that the captain Marc Guéhi’s move to Manchester City is poised to go ahead, had another bombshell prepared for his press conference to preview Saturday’s trip to Sunderland. Nearly eight months to the day since the Austrian led the club to their first major trophy by beating Manchester City in the FA Cup final, his announcement that he will leave Selhurst Park at the end of the season came as no surprise. It rounds off one of the worst weeks in the club’s history after the humiliating defeat by non-league Macclesfield that will be for ever an unwanted postscript to their victory. Continue reading...",
+      "publishedAt": "2026-01-16T19:00:05.000Z"
     }
   ]
 }
