@@ -585,6 +585,8 @@
 
       // Always submit via HTTP (with or without flyer). This prevents opening a mail client.
       const SUBMIT_ENDPOINT = 'https://voetbal4all-backend-database.onrender.com/api/forms/event-submission';
+      const CHECKOUT_ENDPOINT = 'https://voetbal4all-backend-database.onrender.com/api/payments/stripe/checkout';
+      const THANKYOU_URL = 'bedankt.html';
       const fd = new FormData();
       if (flyerFile) fd.append('flyer', flyerFile);
       fd.append('subject', subject);
@@ -624,11 +626,54 @@
           throw new Error(msg);
         }
 
-        if (hint) hint.textContent = 'Aanvraag verzonden. We nemen contact op via e-mail.';
-        form.reset();
-        // keep premium UI in sync after reset
-        try { document.getElementById('evPremium') && (document.getElementById('evPremium').checked = false); } catch (_) {}
-        try { document.getElementById('premiumOptions') && (document.getElementById('premiumOptions').style.display = 'none'); } catch (_) {}
+        const sid = (json && (json.id || json.submissionId)) ? String(json.id || json.submissionId) : '';
+        if (!sid) throw new Error('Geen submission ID ontvangen');
+
+        // Premium: first send user to Stripe Checkout, then Stripe returns to bedankt.html (success_url)
+        if (premiumEnabled) {
+          if (hint) hint.textContent = 'Doorsturen naar veilige betaling…';
+
+          const checkoutPayload = {
+            event_id: sid,
+            submission_id: sid,
+            type: 'event',
+            title,
+            premiumPlan,
+            premiumPrice,
+            currency: 'EUR',
+            invoice: {
+              name: invName,
+              vat: invVat,
+              address: invAddress,
+              city: invCity,
+              email: invEmail,
+              ref: invRef
+            }
+          };
+
+          const cr = await fetch(CHECKOUT_ENDPOINT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(checkoutPayload)
+          });
+
+          let cj = null;
+          try { cj = await cr.json(); } catch (_) {}
+
+          if (!cr.ok || (cj && cj.ok === false)) {
+            const msg = (cj && (cj.error || cj.message)) ? (cj.error || cj.message) : `HTTP ${cr.status}`;
+            throw new Error(msg);
+          }
+
+          const url = (cj && (cj.url || cj.checkoutUrl || cj.sessionUrl)) ? String(cj.url || cj.checkoutUrl || cj.sessionUrl) : '';
+          if (!url) throw new Error('Geen Stripe Checkout URL ontvangen');
+
+          window.location.href = url;
+          return;
+        }
+
+        // Non-premium: go straight to thank you page with traceable ID
+        window.location.href = `${THANKYOU_URL}?sid=${encodeURIComponent(sid)}`;
         return;
       } catch (err) {
         if (hint) hint.textContent = 'Verzenden is momenteel niet beschikbaar. Probeer later opnieuw of neem contact op via de contactpagina.';
