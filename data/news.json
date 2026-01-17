@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-17T04:35:04.499Z",
+  "generatedAt": "2026-01-17T05:23:59.716Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Het ingewikkelde mens achter 's werelds meest intrigerende analyticus",
+      "link": "https://www.vi.nl/pro/het-ingewikkelde-mens-achter-s-werelds-meest-intrigerende-analyticus",
+      "summary": "‘Als ik naar een wedstrijd kijk, zet ik het commentaar uit. Als ik nog eens word gevraagd op tv een wedstrijd te bespreken, zeg ik nee . Ik ga nog liever naar de tandarts.’ Niet zo heel veel jaren later is Roy Keane de meest befaamde én beruchte analyticus ter wereld. Elke keer als hij met zachte stem een punt maakt, is dat een belevenis. In aanloop naar de Manchester Derby van zaterdag 17 januari bieden we dit profiel uit 2023 opnieuw aan.",
+      "publishedAt": "2026-01-17T05:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -154,17 +165,6 @@
       "link": "https://www.skysports.com/football/rangers-vs-annan-athletic/report/550772",
       "summary": "Rangers are safely through to the fifth round of the Scottish Cup after a routine 5-0 victory over fourth-tier Annan Athletic at Ibrox.",
       "publishedAt": "2026-01-16T21:43:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Roma-aanwinst Malen bespreekt het Colosseum en vriendschap met Kluivert",
-      "link": "https://www.vi.nl/nieuws/roma-aanwinst-malen-bespreekt-het-colosseum-en-vriendschap-met-kluivert",
-      "summary": "Donyell Malen was nog nooit in Rome geweest, maar is maar wat blij dat hij voortaan speler van AS Roma is. De Italianen maakten zijn transfer vrijdag wereldkundig, en Malen stond het clubkanaal op zijn eerste werkdag meteen te woord.",
-      "publishedAt": "2026-01-16T21:31:51.000Z"
     },
     {
       "type": "rss",
