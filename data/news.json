@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-01-17T16:27:40.441Z",
+  "generatedAt": "2026-01-17T20:26:04.981Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Summerville slaat weer toe, Slot krijgt flinke domper te verwerken",
-      "link": "https://www.vi.nl/nieuws/vi-live-summerville-slaat-weer-toe-slot-krijgt-flinke-domper-te-verwerken",
-      "summary": "Zaterdagmiddag staan er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland staan ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Volg het (inter)nationale voetbal in deze VI Live.",
-      "publishedAt": "2026-01-17T16:24:49.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "'Chelsea trekt portemonnee voor Frans talent, Juve vindt spits bij Palace'",
-      "link": "https://www.vi.nl/nieuws/chelsea-trekt-portemonnee-voor-frans-talent-juve-vindt-spits-bij-palace",
-      "summary": "De tijd van winterse versterkingen is aangebroken, in dit blog volgen we alle transferactiviteit in het buitenland. Bekijk hier ons blog voor de transferperikelen in Nederland.",
-      "publishedAt": "2026-01-17T16:21:59.000Z"
-    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -32,7 +10,7 @@
       "title": "Carrick challenges Utd after derby: Let's keep it up",
       "link": "https://www.espn.com/soccer/story/_/id/47639281/michael-carrick-man-united-display-man-city-version-normal",
       "summary": "Michael Carrick has challenged his Manchester United players to keep it up after stunning Manchester City in his first game in charge.",
-      "publishedAt": "2026-01-17T16:20:38.000Z"
+      "publishedAt": "2026-01-17T20:22:56.000Z"
     },
     {
       "type": "rss",
@@ -40,10 +18,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Silva: Dalot deserved red, City lose 50-50 calls",
-      "link": "https://www.espn.com/soccer/story/_/id/47639061/bernardo-silva-reaction-manchester-city-manchester-united",
-      "summary": "Manchester City's Bernardo Silva said his side's rivals win 50-50 refereeing decisions after their derby defeat to Man United.",
-      "publishedAt": "2026-01-17T16:20:38.000Z"
+      "title": "Arsenal held by Forest, go 7 points clear of City",
+      "link": "https://www.espn.com/soccer/report/_/gameId/740812",
+      "summary": "Arsenal missed the chance to go nine points clear at the top of the Premier League after being held to a 0-0 draw by Nottingham Forest on Saturday.",
+      "publishedAt": "2026-01-17T20:22:55.000Z"
     },
     {
       "type": "rss",
@@ -51,21 +29,10 @@
       "sourceSlug": "espn-soccer",
       "country": "INT",
       "flag": "🌍",
-      "title": "Transfer request from teen starlet stuns Barça",
-      "link": "https://www.espn.com/soccer/story/_/id/47632181/barcelona-stunned-transfer-request-teen-dro-fernandez",
-      "summary": "Barcelona have been left stunned after teenager Dro Fernández informed the club of his desire to leave this January by exercising his €6 million ($7m) release clause, sources have told ESPN.",
-      "publishedAt": "2026-01-17T16:20:37.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Mbappé scores, Madrid win despite hostile crowd",
-      "link": "https://www.espn.com/soccer/report/_/gameId/748342",
-      "summary": "Kylian Mbappé scored a second-half penalty as crisis-hit Real Madrid saw off Levante with a 2-0 LaLiga victory inside a furious Bernabeu.",
-      "publishedAt": "2026-01-17T16:20:37.000Z"
+      "title": "Sources: Guéhi set for City medical in $27M deal",
+      "link": "https://www.espn.com/soccer/story/_/id/47640307/marc-guehi-set-man-city-medical-20m-move-crystal-palace-oliver-glasner-sources",
+      "summary": "Marc Guéhi is set to have a medical on Sunday ahead of his proposed move to Manchester City, sources have told ESPN.",
+      "publishedAt": "2026-01-17T20:22:55.000Z"
     },
     {
       "type": "rss",
@@ -73,10 +40,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "VI Live: Ajax werkt aan eerherstel tegen Go Ahead",
-      "link": "https://www.vi.nl/nieuws/vi-live-ajax-werkt-aan-eerherstel-tegen-go-ahead",
-      "summary": "Ajax neemt het zaterdagmiddag om 16.30 uur op tegen Go Ahead Eagles. De Amsterdammers hebben wat goed te maken na de enorme bekerblamage tegen AZ van woensdag. Je volgt de wedstrijd in deze VI Live. In de VI Live behandelen we alleen de hoogtepunten. Voor alle wedstrijddetails kun je terecht in ons matchcenter .",
-      "publishedAt": "2026-01-17T16:17:00.000Z"
+      "title": "VI Live: PSV heeft het al een uur lastig met Fortuna",
+      "link": "https://www.vi.nl/nieuws/vi-live-psv-heeft-het-al-een-uur-lastig-met-fortuna",
+      "summary": "PSV gaat zaterdagavond op bezoek bij Fortuna Sittard. De ploeg van Peter Bosz jaagt op de dertiende Eredivisie-zege op rij. Of dat lukt, volg je in deze VI Live.",
+      "publishedAt": "2026-01-17T20:21:29.000Z"
     },
     {
       "type": "rss",
@@ -84,10 +51,76 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Spaanse pers genadeloos voor uitgefloten Real-spelers",
-      "link": "https://www.vi.nl/nieuws/spaanse-pers-genadeloos-voor-uitgefloten-real-spelers",
-      "summary": "Bernabéu was zaterdagmiddag een giftige plek om te zijn, voornamelijk voor de spelers van thuisclub Real Madrid. De supporters maakten hun ongenoegen over de gang van zaken bij hun club pijnlijk duidelijk. Een overwinning op Levante bluste de brand ietsjes, maar ook de Spaanse pers geeft Real nog eens de volle laag.",
-      "publishedAt": "2026-01-17T16:16:47.000Z"
+      "title": "VI Live: Telstar op rozen in Rotterdam, NEC leidt tegen NAC",
+      "link": "https://www.vi.nl/nieuws/vi-live-telstar-op-rozen-in-rotterdam-nec-dringt-aan-tegen-nac",
+      "summary": "Zaterdagmiddag staan er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland staan ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Volg het (inter)nationale voetbal in deze VI Live.",
+      "publishedAt": "2026-01-17T20:17:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Arsenal stumble in draw against resilient Forest",
+      "link": "https://www.bbc.com/sport/football/videos/cdexzpnzzlwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Arsenal missed the chance to extend their lead at the top of the table to nine points, having failed to win against a determined Nottingham Forest side that held the Gunners to a goalless draw.",
+      "publishedAt": "2026-01-17T20:13:30.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Uitgejouwde Real-voorzitter krijgt steun van Arbeloa",
+      "link": "https://www.vi.nl/video/uitgejouwde-real-voorzitter-krijgt-steun-van-arbeloa",
+      "summary": "Enkele Real Madrid-fans jouwden zaterdag voorzitter Florentino Pérez uit tijdens de La Liga-wedstrijd tegen Levante. Álvaro Arbeloa, deze week benoemd als coach na het ontslag van Xabi Alonso, sprong na de zege in de bres voor de preses.",
+      "publishedAt": "2026-01-17T20:05:58.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Oproep NAC tegen dovemansoren gericht: aftrap tegen NEC uitgesteld door vuurwerk",
+      "link": "https://www.vi.nl/nieuws/oproep-nac-tegen-dovemansoren-gericht-aftrap-tegen-nec-uitgesteld-door-vuurwerk",
+      "summary": "Tien minuten voor de aftrap van de wedstrijd NAC Breda - NEC plaatste de thuisclub op social media een oproep om een op handen zijnde vuurwerkactie af te blazen. Hier gaven mensen op de tribune in het Rat Verlegh Stadion geen gehoor aan. De wedstrijd kon door de actie, zowel binnen als buiten het stadion, niet op tijd beginnen.",
+      "publishedAt": "2026-01-17T20:03:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Ruthless Man Utd beat Man City in dream start for Carrick",
+      "link": "https://www.bbc.com/sport/football/videos/ce3k7gqnx9xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Michael Carrick gets off to the perfect start in his first match as interim manager for Manchester United with a two-goal derby win against Manchester City, leaving Pep Guardiola's side winless in their past four matches.",
+      "publishedAt": "2026-01-17T20:01:22.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Wasteful Liverpool miss penalty in draw against Burnley",
+      "link": "https://www.bbc.com/sport/football/videos/c4g5dvkje9ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Liverpool missed countless chances, including a Dominik Szoboszlai penalty, as a Michael Edwards equaliser grabbed Burnley an important point at Anfield.",
+      "publishedAt": "2026-01-17T20:01:17.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "BBC Sport - Football",
+      "sourceSlug": "bbc-sport-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Last-minute Wilson goal leaves fans booing Frank's Spurs",
+      "link": "https://www.bbc.com/sport/football/videos/c5y208yqe41o?at_medium=RSS&at_campaign=rss",
+      "summary": "A last-minute Callum Wilson goal sunk Tottenham Hotspur to another defeat, with pressure mounting on manager Thomas Frank.",
+      "publishedAt": "2026-01-17T20:01:10.000Z"
     },
     {
       "type": "rss",
@@ -95,43 +128,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Spurs v West Ham, Chelsea v Brentford, Liverpool v Burnley, and more: football – live",
-      "link": "https://www.theguardian.com/football/live/2026/jan/17/spurs-v-west-ham-chelsea-v-brentford-liverpool-v-burnley-and-more-football-live",
-      "summary": "⚽ Football updates from Saturday afternoon’s matches ⚽ Scores | Tables | Ten things to look out for | Mail Xaymaca GOAL! Coventry 2-1 Leicester. Coventry have done it again! Substitute Tatsuhiro Sakamoto links up with fellow super sub Haji Wright – the latter scoring from close range. A huge goal for Frank Lampard’s team. GOAL! Manchester United 2-0 Manchester. Manchester United extend their lead through Patrick Dorgu. United work in down the right before Matheus Cunha whips in a cross. Dorgu attacks it, getting to the ball before City’s defenders, and side foots his finish into the back of the net. Continue reading...",
-      "publishedAt": "2026-01-17T16:15:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Man Utd heeft Carrick positief verrast: 'Was bang dat de drang zou doorslaan'",
-      "link": "https://www.vi.nl/nieuws/man-utd-heeft-carrick-positief-verrast-was-bang-dat-de-drang-zou-doorslaan",
-      "summary": "Michael Carrick heeft zich kostelijk vermaakt tijdens de start van zijn tweede termijn als interim-manager van Manchester United. De 44-jarige Engelsman maakte zich op voorhand een klein beetje zorgen over de enorme prestatiedrang van zijn ploeg. Die had Man Utd ook kunnen tegenwerken, stelde Carrick die het tegendeel werd bewezen tijdens de Manchester Derby.",
-      "publishedAt": "2026-01-17T16:10:09.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "European football: Mbappé spot on to deliver first Real Madrid win for Arbeloa",
-      "link": "https://www.theguardian.com/football/2026/jan/17/european-football-real-madrid-inter-bayern-munich-napoli-juventus",
-      "summary": "Raúl Asencio also on target in 2-0 win over Levante Marcus Rashford faces uncertain Barcelona future Real Madrid ended a turbulent week with a much-needed 2-0 win against relegation-threatened Levante, courtesy of second-half goals from Kylian Mbappé and Raúl Asencio, after being met with boos from a restless Bernabéu crowd before the breakthrough arrived. The win snapped Real’s two-match losing run and offered brief respite after a bruising week. They looked flat in the first half, still carrying the scars of Sunday’s 3-2 defeat by Barcelona in the final of the Supercopa de España, followed by the departure of Xabi Alonso as manager the next day and a shock 3-2 Copa del Rey exit to second-division Albacete on Wednesday. This story will be updated Continue reading...",
-      "publishedAt": "2026-01-17T15:51:12.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League live updates: Liverpool and Chelsea in action",
-      "link": "https://www.espn.com/soccer/story/_/id/47623512/premier-league-live-updates-manchester-united-manchester-city-chelsea-liverpool-arsenal",
-      "summary": "null",
-      "publishedAt": "2026-01-17T15:46:45.000Z"
+      "title": "Only a thrilling final can save a predictable Africa Cup of Nations from being forgotten | Jonathan Wilson",
+      "link": "https://www.theguardian.com/football/2026/jan/17/only-a-thrilling-final-can-save-a-predictable-africa-cup-of-nations-from-being-forgotten",
+      "summary": "Despite high-quality matches, Senegal’s meeting with hosts Morocco may pale with the World Cup looming Sometimes a tournament’s greatest strength can be its greatest weakness. In part because of the excellent playing conditions, this has been an Africa Cup of Nations devoid of shocks. The better teams keep winning. There has been a lot of good football, but not a huge amount of memorable football. And the consequence is that, in the final, we have the two best teams, or certainly the best team in north Africa against the best team in sub-Saharan Africa: the hosts and World Cup semi-finalists Morocco against Senegal, who have reached three of the past four Afcon finals. Continue reading...",
+      "publishedAt": "2026-01-17T20:00:34.000Z"
     },
     {
       "type": "rss",
@@ -139,43 +139,10 @@
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Man Utd players 'really care' - Carrick on derby heroics",
-      "link": "https://www.bbc.com/sport/football/videos/cgezq8nqjqqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United boss Michael Carrick praises the attitude his players have shown since taking over, following his side's 2-0 derby victory against Manchester City in the Premier League.",
-      "publishedAt": "2026-01-17T15:46:18.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Twelve-year ban for 'misogynistic' women's coach",
-      "link": "https://www.bbc.com/sport/football/articles/cm24zzj55vmo?at_medium=RSS&at_campaign=rss",
-      "summary": "A former women's football coach is banned from the sport for 12 years after bombarding players and a member of staff with explicit images and suggesting they have sex.",
-      "publishedAt": "2026-01-17T15:30:27.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "'The better team won' - Guardiola on derby defeat",
-      "link": "https://www.bbc.com/sport/football/videos/c89qekgkwwpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester City head coach Pep Guardiola says \"the better team won\" after his side lost 2-0 to Manchester United in an exciting derby at Old Trafford to give Michael Carrick a win on his return as caretaker boss.",
-      "publishedAt": "2026-01-17T15:23:15.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "BBC Sport - Football",
-      "sourceSlug": "bbc-sport-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Senegal 'concerns' over treatment before Afcon final",
-      "link": "https://www.bbc.com/sport/football/articles/c041qg2329wo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Senegalese Football Federation (FSF) says a \"lack of adequate security\" left players and staff \"at risk\" on their arrival in Rabat for Sunday's final against hosts Morocco.",
-      "publishedAt": "2026-01-17T15:20:58.000Z"
+      "title": "Chelsea beat Brentford for Rosenior's first Premier League win",
+      "link": "https://www.bbc.com/sport/football/videos/crkr682z434o?at_medium=RSS&at_campaign=rss",
+      "summary": "Cole Palmer scored a penalty to secure the win for Chelsea against Brentford and give Liam Rosenior his first Premier League win as manager.",
+      "publishedAt": "2026-01-17T20:00:27.000Z"
     },
     {
       "type": "rss",
@@ -183,10 +150,54 @@
       "sourceSlug": "sky-sports-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "Dream start for Carrick as Man Utd STUN Man City at Old Trafford!",
-      "link": "https://www.skysports.com/watch/video/13495365/man-united-2-0-man-city-premier-league-highlights",
-      "summary": "FREE TO WATCH: Highlights from Manchester United’s match against Manchester City in the Premier League.",
-      "publishedAt": "2026-01-17T14:54:00.000Z"
+      "title": "'Sinner, Anisimova to claim Australian Open titles as Brits dealt tough draws'",
+      "link": "https://www.skysports.com/tennis/news/12040/13495612/australian-open-gigi-salmon-previews-melbourne-grand-slam-and-predicts-jannik-sinner-amanda-anisimova-to-claim-titles",
+      "summary": "Sky Sports Tennis' Gigi Salmon looks ahead to the 2026 Australian Open, revealing her tips to claim the titles and looking at each Brit's draw in her latest column.",
+      "publishedAt": "2026-01-17T20:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "EL-tegenstanders Go Ahead en Utrecht in dramatische vorm",
+      "link": "https://www.vi.nl/nieuws/el-tegenstanders-go-ahead-en-utrecht-in-dramatische-vorm",
+      "summary": "FC Utrecht stuit donderdag in de Europa League op een RC Genk dat ver verwijderd is van zijn topvorm. De club van Nicky Hayen verloor zaterdag met 2-1 bij Zulte Waregem en bivakkeert in de onderkant van de middenmoot in de Jupiler Pro League. OGC Nice kreeg in aanloop naar het thuisduel met Go Ahead Eagles een flinke tik in Toulouse",
+      "publishedAt": "2026-01-17T20:00:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Sels frustrates Arsenal as leaders move seven points clear with draw at Forest",
+      "link": "https://www.theguardian.com/football/2026/jan/17/nottingham-forest-arsenal-premier-league-match-report",
+      "summary": "This game was summed up neatly in the 82nd minute when two Nottingham Forest players hunted down Gabriel Jesus as the Arsenal substitute tried to see the ball out for a throw-in. Elliot Anderson was not settling for that, crashing into the tackle that actually won his team the restart. Sixty yards down the touchline, Sean Dyche’s hands went clapping above his head; Mikel Arteta reached his out to either side, palms raised to the skies in incredulity. Yet such is the way of this season. Just as the opportunity knocked, with Manchester City losing to Manchester United earlier in the day, for Arsenal to stretch their lead at the top of the Premier League to nine points, with Nottingham Forest seemingly on the ropes with only one win in six previous games, up comes the underdog with a performance to sum up this manager. Continue reading...",
+      "publishedAt": "2026-01-17T19:50:48.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Man United deliver huge blow to Man City title hopes with shock derby win",
+      "link": "https://www.espn.com/soccer/story/_/id/47638492/man-united-deliver-huge-blow-man-city-title-hopes-shock-derby-win",
+      "summary": "Manchester City's title bid is as good as over after Manchester United won the midfield battle at Old Trafford.",
+      "publishedAt": "2026-01-17T19:38:26.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "VAR review: Should Man United's Dalot have received a red card for foul on Doku?",
+      "link": "https://www.espn.com/soccer/story/_/id/47639315/man-uniteds-dalot-got-sent-vs-man-city",
+      "summary": "Diogo Dalot saw yellow for catching Jérémy Doku on the knee. The VAR agreed, but was it the right call?",
+      "publishedAt": "2026-01-17T19:38:26.000Z"
     },
     {
       "type": "rss",
@@ -196,8 +207,8 @@
       "flag": "🌍",
       "title": "Carrick has dream start as Mbeumo and Dorgu give Manchester United derby delight",
       "link": "https://www.theguardian.com/football/2026/jan/17/manchester-united-manchester-city-premier-league-match-report",
-      "summary": "On 64 minutes Michael Carrick’s second tenure went electric as Manchester United scored a classic breakaway goal by Bryan Mbeumo that sent the interim head coach berserk in the technical area. After a clearing Harry Maguire header, the ball evaded Rayan Cherki and Bruno Fernandes galloped forward. He had Amad Diallo to the right and Patrick Dorgu and Mbeumo on the left; United’s streetwise captain delayed the pass, then found the Cameroonian, whose finish beat Gianluigi Donnarumma. Continue reading...",
-      "publishedAt": "2026-01-17T14:52:23.000Z"
+      "summary": "On 65 minutes Michael Carrick’s second tenure went electric as Manchester United scored a classic breakaway goal by Bryan Mbeumo that sent the interim head coach berserk in the technical area. After a clearing Harry Maguire header, the ball evaded Rayan Cherki and Bruno Fernandes galloped forward. He had Amad Diallo to the right and Patrick Dorgu and Mbeumo on the left; United’s streetwise captain delayed the pass, then found the Cameroonian, whose finish beat Gianluigi Donnarumma. Continue reading...",
+      "publishedAt": "2026-01-17T19:29:02.000Z"
     },
     {
       "type": "rss",
@@ -205,21 +216,10 @@
       "sourceSlug": "the-guardian-football",
       "country": "INT",
       "flag": "🌍",
-      "title": "London City Lionesses avoid FA Cup shock as Sangaré header sinks Sunderland",
-      "link": "https://www.theguardian.com/football/2026/jan/17/sunderland-london-city-lionesses-womens-fa-cup-match-report",
-      "summary": "The fabled magic of the cup is yet to truly cast its spell on the women’s game and London City Lionesses avoided a shock exit with a professional display to win at Sunderland. Since the WSL kicked off in 2011, no side in the third tier or below has knocked out a top-tier club, and even second-tier clubs doing so has been a rarity. Continue reading...",
-      "publishedAt": "2026-01-17T14:35:56.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "McIlroy stays in contention as Lowry leads charge into Dubai Invitational final round",
-      "link": "https://www.skysports.com/golf/news/12040/13495285/rory-mcilroy-stays-in-dubai-international-contention-as-shane-lowry-leads-charge-heading-into-final-round",
-      "summary": "Rory McIlroy gave himself an outside chance of winning the Dubai Invitational following a three-under-par 68 on Saturday.",
-      "publishedAt": "2026-01-17T14:00:00.000Z"
+      "title": "Glasner blasts Crystal Palace board for ‘abandoning’ team with Guéhi sale",
+      "link": "https://www.theguardian.com/football/2026/jan/17/oliver-glasner-blasts-crystal-palace-board-for-abandoning-team-with-guehi-sale-decision",
+      "summary": "Manager makes outburst after 2-1 defeat at Sunderland Austrian angry club sold captain one day before game Oliver Glasner accused Crystal Palace’s board of “abandoning” his team in the course of a scathing post-match deconstruction after the 2-1 defeat at Sunderland. At times the Austrian, who on Friday announced he would be leaving Selhurst Park at the end of this season, sounded as if he was talking himself out of the remaining few months of his contract. Continue reading...",
+      "publishedAt": "2026-01-17T18:56:59.000Z"
     }
   ]
 }
