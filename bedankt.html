@@ -70,6 +70,14 @@
       border:1px solid rgba(24,160,251,.35);background:rgba(24,160,251,.08);
       font-size:12px;font-weight:800;letter-spacing:.02em;}
 
+    /* Pending confirmation notice */
+    .notice{border-radius:16px;padding:14px 14px;margin-top:14px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);}
+    .notice strong{font-weight:900;}
+    .notice-warning{border-color:rgba(255,183,77,.35);background:rgba(255,183,77,.08);}
+    .notice-warning a{color:inherit;text-decoration:underline;}
+    .notice-meta{margin-top:8px;display:grid;grid-template-columns:170px 1fr;gap:6px 12px;align-items:start;}
+    .notice-meta dt{font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.72;}
+    .notice-meta dd{margin:0;font-weight:700;}
     /* Message preview */
     .thanks-msg{margin-top:14px;}
     .thanks-msg .note{margin:0;}
@@ -228,7 +236,25 @@
             We hebben je aanvraag goed ontvangen. Hieronder vind je een overzicht.
           </p>
 
-          <div class="thanks-badge" id="thanksBadge" style="display:none;"></div>
+        <div class="thanks-badge" id="thanksBadge" style="display:none;"></div>
+      </div>
+
+        <!-- Non-premium confirmation notice (shown only when status=pending) -->
+        <div id="pendingNotice" class="notice notice-warning" style="display:none;">
+          <strong>Bevestiging vereist binnen 12 uur</strong><br>
+          Je event is ontvangen maar is nog <b>niet bevestigd</b>. Bevestig binnen <b>12 uur</b>, anders wordt deze aanvraag verwijderd.
+          <div style="height:8px"></div>
+          <span style="opacity:.9;">Na <b>24 uur</b> zonder bevestiging wordt de aanvraag automatisch definitief verwijderd.</span>
+          <dl class="notice-meta" aria-label="Deadlines">
+            <dt>Bevestigen vóór</dt><dd id="confirmByText">—</dd>
+            <dt>Auto-verwijderen na</dt><dd id="deleteAfterText">—</dd>
+          </dl>
+          <div id="confirmCtaWrap" style="margin-top:10px; display:none;">
+            <a id="confirmCta" class="nav-cta" href="#" style="display:inline-flex; gap:10px; align-items:center; padding:10px 14px; border-radius:999px;">
+              <span>Bevestig je event</span>
+              <span style="font-weight:800;opacity:.9;">(12u)</span>
+            </a>
+          </div>
         </div>
 
         <div class="thanks-summary">
@@ -337,6 +363,36 @@
 
     // Status (optional)
     const status = (qs.get('status') || 'Ontvangen').trim();
+
+    // Non-premium confirmation timing (optional)
+    const confirmBy = (qs.get('confirmBy') || '').trim();
+    const deleteAfter = (qs.get('deleteAfter') || '').trim();
+    const confirmUrl = (qs.get('confirmUrl') || '').trim();
+
+    const pendingNotice = document.getElementById('pendingNotice');
+    if (pendingNotice && String(status).toLowerCase() === 'pending') {
+      pendingNotice.style.display = '';
+
+      const fmt = (iso) => {
+        if (!iso) return '—';
+        const d = new Date(iso);
+        if (isNaN(d.getTime())) return iso;
+        try { return d.toLocaleString('nl-BE'); } catch(e) { return d.toISOString(); }
+      };
+
+      const confirmByEl = document.getElementById('confirmByText');
+      const deleteAfterEl = document.getElementById('deleteAfterText');
+      if (confirmByEl) confirmByEl.textContent = fmt(confirmBy);
+      if (deleteAfterEl) deleteAfterEl.textContent = fmt(deleteAfter);
+
+      // Optional CTA if a confirmUrl is provided
+      const ctaWrap = document.getElementById('confirmCtaWrap');
+      const cta = document.getElementById('confirmCta');
+      if (confirmUrl && ctaWrap && cta) {
+        ctaWrap.style.display = '';
+        cta.href = confirmUrl;
+      }
+    }
 
     // Message preview (for contact forms)
     const subject = (qs.get('subject') || '').trim();
