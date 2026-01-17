@@ -17,23 +17,73 @@
   <link rel="stylesheet" href="style.css" />
 
   <style>
-    .thanks-wrap{padding:18px 0 60px;}
-    .thanks-card{max-width:980px;margin:0 auto;text-align:center;}
-    .thanks-logo{
-      width:min(520px, 92vw);
-      height:auto;
-      display:block;
-      margin:6px auto 18px;
+    /* Page feel (professional confirmation) */
+    .thanks-wrap{padding:22px 0 70px;}
+    .thanks-card{max-width:1040px;margin:0 auto;text-align:left;}
+
+    /* Hero header */
+    .thanks-hero{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;padding:6px 0 8px;}
+
+    /* Logo that blends into page background */
+    .thanks-logo-crop{width:min(560px, 92vw);border-radius:22px;overflow:hidden;position:relative;}
+    .thanks-logo-crop::before{
+      content:"";
+      position:absolute;inset:-2px;
+      background:
+        radial-gradient(60% 60% at 50% 35%, rgba(24,160,251,.30), rgba(11,16,32,0) 65%),
+        radial-gradient(70% 70% at 50% 70%, rgba(30,255,180,.12), rgba(11,16,32,0) 70%);
+      filter: blur(10px);
+      pointer-events:none;
+      opacity:.95;
     }
+    .thanks-logo-crop::after{
+      content:"";
+      position:absolute;inset:0;
+      background: radial-gradient(90% 90% at 50% 50%, rgba(11,16,32,0) 55%, rgba(11,16,32,.90) 100%);
+      pointer-events:none;
+    }
+    .thanks-logo-img{
+      width:100%;height:auto;display:block;position:relative;z-index:1;
+      filter: drop-shadow(0 14px 42px rgba(0,0,0,.45));
+    }
+
+    .thanks-subtitle{margin:0;opacity:.9;max-width:780px;}
+
+    /* Summary grid */
+    .thanks-summary{margin-top:16px;display:grid;grid-template-columns:1.2fr .8fr;gap:14px;}
+    .thanks-panel{border-radius:18px;padding:16px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);}
+    .thanks-panel h3{margin:0 0 10px;font-size:16px;font-weight:800;}
+    .thanks-kv{display:grid;grid-template-columns:170px 1fr;gap:8px 12px;align-items:start;}
+    .thanks-kv dt{font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.72;}
+    .thanks-kv dd{margin:0;font-weight:600;}
+    .thanks-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:999px;
+      border:1px solid rgba(24,160,251,.35);background:rgba(24,160,251,.08);
+      font-size:12px;font-weight:800;letter-spacing:.02em;}
+
+    /* Message preview */
+    .thanks-msg{margin-top:14px;}
+    .thanks-msg .note{margin:0;}
+    .thanks-msg-box{margin-top:10px;border-radius:14px;padding:12px 12px;
+      border:1px dashed rgba(255,255,255,.18);background:rgba(0,0,0,.18);text-align:left;}
+    .thanks-msg-box pre{margin:0;white-space:pre-wrap;word-break:break-word;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size:12.5px;line-height:1.5;opacity:.95;}
+
+    /* CTA grid */
     .thanks-cta{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);}
-    .thanks-cta-title{font-size:18px;font-weight:700;margin-bottom:10px;}
+    .thanks-cta-title{font-size:18px;font-weight:800;margin-bottom:10px;text-align:center;}
     .thanks-cta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
     .thanks-cta-card{display:block;text-decoration:none;padding:14px;border-radius:16px;
-      border:1px solid rgba(24,160,251,.35);background:rgba(24,160,251,.06);transition:transform .12s ease;}
-    .thanks-cta-card:hover{transform:translateY(-2px);}
-    .thanks-cta-kicker{font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.75;}
-    .thanks-cta-title-card{font-size:16px;font-weight:700;margin-top:6px;}
-    @media (max-width:900px){.thanks-cta-grid{grid-template-columns:1fr;}}
+      border:1px solid rgba(24,160,251,.35);background:rgba(24,160,251,.06);transition:transform .12s ease, border-color .12s ease;}
+    .thanks-cta-card:hover{transform:translateY(-2px);border-color:rgba(24,160,251,.55);}
+    .thanks-cta-kicker{font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.78;}
+    .thanks-cta-title-card{font-size:16px;font-weight:800;margin-top:6px;}
+
+    /* Mobile */
+    @media (max-width:900px){
+      .thanks-summary{grid-template-columns:1fr;}
+      .thanks-cta-grid{grid-template-columns:1fr;}
+      .thanks-kv{grid-template-columns:140px 1fr;}
+    }
   </style>
 </head>
 
@@ -152,16 +202,61 @@
   <section class="section-main thanks-wrap">
     <div class="shell">
       <article class="card thanks-card">
-        <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
-        <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
-        <div class="thanks-logo-crop">
-	  <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all_Bedankt.png" alt="Voetbal4All">
-	</div>
+        <div class="thanks-hero">
+          <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
+          <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
+          <div class="thanks-logo-crop">
+            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all_Bedankt.png" alt="Voetbal4All">
+          </div>
 
-        <div class="card-title">Bedankt voor je bericht</div>
-        <p class="note" style="margin-top:8px;">
-          We hebben je aanvraag goed ontvangen en nemen zo snel mogelijk contact met je op.
-        </p>
+          <div class="card-title" id="thanksTitle">Bedankt</div>
+          <p class="note thanks-subtitle" id="thanksSubtitle">
+            We hebben je aanvraag goed ontvangen. Hieronder vind je een overzicht.
+          </p>
+
+          <div class="thanks-badge" id="thanksBadge" style="display:none;"></div>
+        </div>
+
+        <div class="thanks-summary">
+          <section class="thanks-panel" aria-label="Overzicht">
+            <h3>Overzicht</h3>
+            <dl class="thanks-kv">
+              <dt>Bestelling</dt>
+              <dd id="orderWhat">—</dd>
+
+              <dt>ID-nummer</dt>
+              <dd id="orderId">—</dd>
+
+              <dt>Naam</dt>
+              <dd id="orderName">—</dd>
+
+              <dt>E-mail</dt>
+              <dd id="orderEmail">—</dd>
+
+              <dt>Status</dt>
+              <dd id="orderStatus">Ontvangen</dd>
+            </dl>
+          </section>
+
+          <aside class="thanks-panel" aria-label="Volgende stappen">
+            <h3>Volgende stappen</h3>
+            <p class="note" style="margin:0;">
+              We behandelen je aanvraag zo snel mogelijk. Je ontvangt een bevestiging per e-mail zodra alles is nagekeken.
+            </p>
+            <div style="height:10px"></div>
+            <p class="note" style="margin:0;opacity:.85;">
+              Tip: bewaar dit ID-nummer. Zo kunnen we je aanvraag sneller terugvinden.
+            </p>
+          </aside>
+        </div>
+
+        <div class="thanks-msg" id="msgWrap" style="display:none;">
+          <div class="thanks-panel">
+            <h3>Bericht (voorvertoning)</h3>
+            <p class="note">Dit is een kopie van wat je hebt ingestuurd.</p>
+            <div class="thanks-msg-box"><pre id="msgPreview"></pre></div>
+          </div>
+        </div>
 
         <div class="thanks-cta">
           <div class="thanks-cta-title">Misschien wil je ook dit bekijken</div>
@@ -206,6 +301,131 @@
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // ------------------------------
+  // Professional thank-you content
+  // ------------------------------
+  (function(){
+    const qs = new URLSearchParams(window.location.search);
+
+    // Source/type (e.g. contact, event, vacature, premium, betaling)
+    const source = (qs.get('source') || '').trim();
+
+    // Who
+    const name = (qs.get('name') || '').trim();
+    const email = (qs.get('email') || '').trim();
+
+    // What was ordered / requested
+    const what = (qs.get('what') || qs.get('product') || qs.get('type') || '').trim();
+
+    // IDs (support multiple conventions)
+    const id = (qs.get('id') || qs.get('orderId') || qs.get('eventId') || qs.get('submissionId') || '').trim();
+
+    // Status (optional)
+    const status = (qs.get('status') || 'Ontvangen').trim();
+
+    // Message preview (for contact forms)
+    const subject = (qs.get('subject') || '').trim();
+    const message = (qs.get('message') || qs.get('msg') || '').trim();
+
+    // Helpers
+    const safeText = (v) => {
+      // Basic safety: prevent HTML injection by only assigning to textContent later.
+      if (!v) return '';
+      return v.replace(/\s+/g,' ').trim();
+    };
+
+    const setText = (id, value, fallback='—') => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const v = safeText(value);
+      el.textContent = v || fallback;
+    };
+
+    // Title/subtitle adapt based on source
+    const titleEl = document.getElementById('thanksTitle');
+    const subEl = document.getElementById('thanksSubtitle');
+    if (titleEl && subEl){
+      if (source === 'contact'){
+        titleEl.textContent = 'Bedankt voor je bericht';
+        subEl.textContent = 'We hebben je bericht goed ontvangen. Hieronder vind je een overzicht van je aanvraag.';
+      } else if (source === 'event'){
+        titleEl.textContent = 'Bedankt voor je event-aanvraag';
+        subEl.textContent = 'We hebben je event goed ontvangen. Hieronder vind je de samenvatting van je inzending.';
+      } else if (source === 'vacature'){
+        titleEl.textContent = 'Bedankt voor je vacature-aanvraag';
+        subEl.textContent = 'We hebben je aanvraag goed ontvangen. Hieronder vind je een overzicht.';
+      } else if (source){
+        titleEl.textContent = 'Bedankt';
+        subEl.textContent = 'We hebben je aanvraag goed ontvangen. Hieronder vind je een overzicht.';
+      }
+    }
+
+    // Badge
+    const badgeEl = document.getElementById('thanksBadge');
+    if (badgeEl){
+      const parts = [];
+      if (source) parts.push(source.toUpperCase());
+      if (id) parts.push('#' + id);
+      if (parts.length){
+        badgeEl.style.display = 'inline-flex';
+        badgeEl.textContent = parts.join(' · ');
+      }
+    }
+
+    // Summary values
+    setText('orderWhat', what || (source ? ('Aanvraag: ' + source) : ''), 'Aanvraag ontvangen');
+    setText('orderId', id, '—');
+    setText('orderName', name, name ? name : (email ? '—' : '—'));
+    setText('orderEmail', email, '—');
+    setText('orderStatus', status, 'Ontvangen');
+
+    // Optional: message preview
+    const msgWrap = document.getElementById('msgWrap');
+    const msgPreview = document.getElementById('msgPreview');
+    if (msgWrap && msgPreview){
+      const lines = [];
+      if (subject) lines.push('Onderwerp: ' + subject);
+      if (name) lines.push('Naam: ' + name);
+      if (email) lines.push('E-mail: ' + email);
+      if (lines.length && message) lines.push('');
+      if (message) lines.push(message);
+
+      if (lines.length){
+        msgWrap.style.display = '';
+        msgPreview.textContent = lines.join('\n');
+      }
+    }
+
+    // Optional: allow reading from sessionStorage if forms set it
+    try {
+      const stored = sessionStorage.getItem('v4_thanks_payload');
+      if (stored){
+        const p = JSON.parse(stored);
+        if (!qs.get('name') && p.name) setText('orderName', p.name);
+        if (!qs.get('email') && p.email) setText('orderEmail', p.email);
+        if (!qs.get('what') && p.what) setText('orderWhat', p.what);
+        if (!qs.get('id') && p.id) setText('orderId', p.id);
+        if (!qs.get('status') && p.status) setText('orderStatus', p.status);
+        if (p.message || p.subject){
+          const msgWrap2 = document.getElementById('msgWrap');
+          const msgPreview2 = document.getElementById('msgPreview');
+          if (msgWrap2 && msgPreview2){
+            const lines2 = [];
+            if (p.subject) lines2.push('Onderwerp: ' + p.subject);
+            if (p.name) lines2.push('Naam: ' + p.name);
+            if (p.email) lines2.push('E-mail: ' + p.email);
+            if (lines2.length && p.message) lines2.push('');
+            if (p.message) lines2.push(p.message);
+            if (lines2.length){
+              msgWrap2.style.display = '';
+              msgPreview2.textContent = lines2.join('\n');
+            }
+          }
+        }
+      }
+    } catch(e) {}
+  })();
 </script>
 <script src="assets/js/nav-mobile.js"></script>
 <script src="assets/js/live-banner.js"></script>
