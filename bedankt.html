@@ -25,7 +25,18 @@
     .thanks-hero{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;padding:6px 0 8px;}
 
     /* Logo that blends into page background */
-    .thanks-logo-crop{width:min(560px, 92vw);border-radius:22px;overflow:hidden;position:relative;}
+    .thanks-logo-crop{
+      width:min(560px, 92vw);
+      border-radius:22px;
+      overflow:hidden;
+      position:relative;
+
+      /* subtiele basis zodat een transparant logo nooit “uitgeknipt” oogt */
+      background:
+        radial-gradient(80% 80% at 50% 45%, rgba(24,160,251,.10), rgba(11,16,32,0) 70%),
+        linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.10);
+    }
     .thanks-logo-crop::before{
       content:"";
       position:absolute;inset:-2px;
@@ -36,19 +47,13 @@
       pointer-events:none;
       opacity:.95;
     }
-    .thanks-logo-crop::after{
-      content:"";
-      position:absolute;inset:0;
-      background: radial-gradient(90% 90% at 50% 50%, rgba(11,16,32,0) 55%, rgba(11,16,32,.90) 100%);
-      pointer-events:none;
-    }
     .thanks-logo-img{
       width:100%;
       height:auto;
       display:block;
       position:relative;
       z-index:1;
-      padding:22px 26px;
+      padding:18px 22px;
       box-sizing:border-box;
       object-fit:contain;
       filter: drop-shadow(0 14px 42px rgba(0,0,0,.45));
@@ -213,7 +218,7 @@
           <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
           <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
           <div class="thanks-logo-crop">
-            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All">
+            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all.png" alt="Voetbal4All">
           </div>
 
           <div class="card-title" id="thanksTitle">Bedankt</div>
