@@ -26,26 +26,13 @@
 
     /* Logo that blends into page background */
     .thanks-logo-crop{
-      width:min(560px, 92vw);
+      width:min(620px, 94vw);
       border-radius:22px;
       overflow:hidden;
       position:relative;
-
-      /* subtiele basis zodat een transparant logo nooit “uitgeknipt” oogt */
-      background:
-        radial-gradient(80% 80% at 50% 45%, rgba(24,160,251,.10), rgba(11,16,32,0) 70%),
-        linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      background: rgba(255,255,255,.03);
       border:1px solid rgba(255,255,255,.10);
-    }
-    .thanks-logo-crop::before{
-      content:"";
-      position:absolute;inset:-2px;
-      background:
-        radial-gradient(60% 60% at 50% 35%, rgba(24,160,251,.30), rgba(11,16,32,0) 65%),
-        radial-gradient(70% 70% at 50% 70%, rgba(30,255,180,.12), rgba(11,16,32,0) 70%);
-      filter: blur(10px);
-      pointer-events:none;
-      opacity:.95;
+      box-shadow: 0 18px 60px rgba(0,0,0,.35);
     }
     .thanks-logo-img{
       width:100%;
@@ -53,7 +40,7 @@
       display:block;
       position:relative;
       z-index:1;
-      padding:18px 22px;
+      padding:26px 30px;
       box-sizing:border-box;
       object-fit:contain;
       filter: drop-shadow(0 14px 42px rgba(0,0,0,.45));
@@ -218,7 +205,7 @@
           <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
           <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
           <div class="thanks-logo-crop">
-            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all.png" alt="Voetbal4All">
+            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" loading="eager" decoding="async">
           </div>
 
           <div class="card-title" id="thanksTitle">Bedankt</div>
