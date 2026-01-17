@@ -171,8 +171,9 @@
             <span class="pill-small">Sportief · Club &amp; fun</span>
           </div>
           <p class="note" style="margin-bottom:10px;">
-            Meld jouw tornooi, stage, kamp, eetdag, fuif of actie aan. Je aanvraag wordt klaargezet als e-mail naar
-            <strong>voetbal4all@outlook.com</strong>. Voeg daarna eventueel flyers/afbeeldingen als bijlage toe.
+            Meld jouw tornooi, stage, kamp, eetdag, fuif of actie aan via het formulier hieronder.
+            Je aanvraag wordt rechtstreeks verzonden naar <strong>voetbal4all@outlook.com</strong>.
+            Je kan je flyer/affiche meteen toevoegen via het formulier.
           </p>
           <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
             <a class="btn-ghost-sm" href="#form">Naar formulier</a>
@@ -377,8 +378,8 @@
                   </div>
                 </div>
                 <p class="note">
-                  Mail naar <strong>voetbal4all@outlook.com</strong> of gebruik <a href="contact.html">Contact</a>.
-                  Je kan je aanvraag ook rechtstreeks mailen als alternatief.
+                  Heb je een vraag? Gebruik <a href="contact.html">Contact</a> of mail naar <strong>voetbal4all@outlook.com</strong>.
+                  Voor events gebruik je bij voorkeur het formulier zodat je aanvraag (en flyer) automatisch wordt verwerkt.
                 </p>
               </article>
 
@@ -582,63 +583,57 @@
 
       const flyerFile = document.getElementById('evFlyer')?.files?.[0] || null;
 
-      // If a flyer is present, submit via HTTP so the file is included.
-      // NOTE: This requires a backend endpoint to receive multipart/form-data.
-      // The endpoint can be implemented on the Voetbal4All backend.
+      // Always submit via HTTP (with or without flyer). This prevents opening a mail client.
       const SUBMIT_ENDPOINT = 'https://voetbal4all-backend-database.onrender.com/api/forms/event-submission';
+      const fd = new FormData();
+      if (flyerFile) fd.append('flyer', flyerFile);
+      fd.append('subject', subject);
+      fd.append('body', bodyLines.join('\n'));
+      fd.append('category', category);
+      fd.append('country', country);
+      fd.append('type', type);
+      fd.append('title', title);
+      fd.append('startDate', startDate);
+      fd.append('endDate', endDate || '');
+      fd.append('time', time || '');
+      fd.append('org', org);
+      fd.append('email', email);
+      fd.append('phone', phone || '');
+      fd.append('url', url || '');
+      fd.append('location', location);
+      fd.append('desc', desc);
+      fd.append('premiumEnabled', premiumEnabled ? 'true' : 'false');
+      fd.append('premiumPlan', premiumPlan || '');
+      fd.append('premiumPrice', premiumPrice || '');
+      fd.append('invName', invName || '');
+      fd.append('invVat', invVat || '');
+      fd.append('invAddress', invAddress || '');
+      fd.append('invCity', invCity || '');
+      fd.append('invEmail', invEmail || '');
+      fd.append('invRef', invRef || '');
 
-      if (flyerFile) {
-        const fd = new FormData();
-        fd.append('flyer', flyerFile);
-        fd.append('subject', subject);
-        fd.append('body', bodyLines.join('\n'));
-        fd.append('category', category);
-        fd.append('country', country);
-        fd.append('type', type);
-        fd.append('title', title);
-        fd.append('startDate', startDate);
-        fd.append('endDate', endDate || '');
-        fd.append('time', time || '');
-        fd.append('org', org);
-        fd.append('email', email);
-        fd.append('phone', phone || '');
-        fd.append('url', url || '');
-        fd.append('location', location);
-        fd.append('desc', desc);
-        fd.append('premiumEnabled', premiumEnabled ? 'true' : 'false');
-        fd.append('premiumPlan', premiumPlan || '');
-        fd.append('premiumPrice', premiumPrice || '');
-        fd.append('invName', invName || '');
-        fd.append('invVat', invVat || '');
-        fd.append('invAddress', invAddress || '');
-        fd.append('invCity', invCity || '');
-        fd.append('invEmail', invEmail || '');
-        fd.append('invRef', invRef || '');
+      if (hint) hint.textContent = 'Aanvraag wordt verstuurd…';
 
-        if (hint) hint.textContent = 'Aanvraag wordt verstuurd…';
+      try {
+        const res = await fetch(SUBMIT_ENDPOINT, { method: 'POST', body: fd });
+        let json = null;
+        try { json = await res.json(); } catch (_) {}
 
-        try {
-          const res = await fetch(SUBMIT_ENDPOINT, { method: 'POST', body: fd });
-          if (!res.ok) {
-            const t = await res.text().catch(() => '');
-            throw new Error(t || `HTTP ${res.status}`);
-          }
-          if (hint) hint.textContent = 'Aanvraag verzonden. We nemen contact op via e-mail.';
-          form.reset();
-          // keep premium UI in sync after reset
-          try { document.getElementById('evPremium') && (document.getElementById('evPremium').checked = false); } catch (_) {}
-          try { document.getElementById('premiumOptions') && (document.getElementById('premiumOptions').style.display = 'none'); } catch (_) {}
-          return;
-        } catch (err) {
-          if (hint) hint.textContent = 'Uploaden/versturen is momenteel niet beschikbaar. Probeer later opnieuw of neem contact op via contactpagina.';
-          return;
+        if (!res.ok || (json && json.ok === false)) {
+          const msg = (json && (json.error || json.message)) ? (json.error || json.message) : `HTTP ${res.status}`;
+          throw new Error(msg);
         }
-      }
 
-      // No flyer selected: open an email draft.
-      const mailto = `mailto:voetbal4all@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
-      if (hint) hint.textContent = 'Je e-mailapp wordt geopend… verzend je aanvraag.';
-      window.location.href = mailto;
+        if (hint) hint.textContent = 'Aanvraag verzonden. We nemen contact op via e-mail.';
+        form.reset();
+        // keep premium UI in sync after reset
+        try { document.getElementById('evPremium') && (document.getElementById('evPremium').checked = false); } catch (_) {}
+        try { document.getElementById('premiumOptions') && (document.getElementById('premiumOptions').style.display = 'none'); } catch (_) {}
+        return;
+      } catch (err) {
+        if (hint) hint.textContent = 'Verzenden is momenteel niet beschikbaar. Probeer later opnieuw of neem contact op via de contactpagina.';
+        return;
+      }
     });
   })();
 </script>
