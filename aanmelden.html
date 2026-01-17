@@ -229,8 +229,27 @@
                   </label>
 
                   <label style="display:block;">
-                    <div class="card-caption" style="margin-bottom:6px;">Locatie (gemeente/streek) *</div>
-                    <input id="location" type="text" required placeholder="Bijv. Geel / Kempen"
+                    <div class="card-caption" style="margin-bottom:6px;">Land *</div>
+                    <select id="country" required
+                      style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
+                      <option value="" selected disabled>Kies…</option>
+                      <option value="BE">België</option>
+                      <option value="NL">Nederland</option>
+                      <option value="INT">Internationaal</option>
+                    </select>
+                  </label>
+
+                  <label id="provinceWrap" style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Provincie *</div>
+                    <select id="province" required
+                      style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;">
+                      <option value="" selected disabled>Kies provincie…</option>
+                    </select>
+                  </label>
+
+                  <label style="display:block;">
+                    <div class="card-caption" style="margin-bottom:6px;">Stad *</div>
+                    <input id="city" type="text" required placeholder="Bijv. Geel"
                       style="width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(11,16,32,.55);color:inherit;" />
                   </label>
 
@@ -488,6 +507,78 @@
       return el ? (el.value || '').trim() : '';
     }
 
+    // Country -> Province (BE/NL), hide for INT
+    const countryEl = document.getElementById('country');
+    const provinceWrapEl = document.getElementById('provinceWrap');
+    const provinceEl = document.getElementById('province');
+
+    const PROVINCES_BE = [
+      'Antwerpen',
+      'Vlaams-Brabant',
+      'Waals-Brabant',
+      'Brussels Hoofdstedelijk Gewest',
+      'West-Vlaanderen',
+      'Oost-Vlaanderen',
+      'Limburg',
+      'Henegouwen',
+      'Luik',
+      'Luxemburg',
+      'Namen'
+    ];
+
+    const PROVINCES_NL = [
+      'Drenthe',
+      'Flevoland',
+      'Friesland',
+      'Gelderland',
+      'Groningen',
+      'Limburg',
+      'Noord-Brabant',
+      'Noord-Holland',
+      'Overijssel',
+      'Utrecht',
+      'Zeeland',
+      'Zuid-Holland'
+    ];
+
+    function fillProvinceOptions(list) {
+      if (!provinceEl) return;
+      const current = (provinceEl.value || '').trim();
+      provinceEl.innerHTML = '<option value="" selected disabled>Kies provincie…</option>';
+      list.forEach((p) => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        provinceEl.appendChild(opt);
+      });
+      if (current && list.includes(current)) provinceEl.value = current;
+    }
+
+    function syncProvinceUI() {
+      if (!countryEl || !provinceWrapEl || !provinceEl) return;
+      const c = (countryEl.value || '').trim();
+
+      if (c === 'BE') {
+        provinceWrapEl.style.display = '';
+        provinceEl.required = true;
+        fillProvinceOptions(PROVINCES_BE);
+      } else if (c === 'NL') {
+        provinceWrapEl.style.display = '';
+        provinceEl.required = true;
+        fillProvinceOptions(PROVINCES_NL);
+      } else {
+        provinceWrapEl.style.display = 'none';
+        provinceEl.required = false;
+        provinceEl.value = '';
+        provinceEl.innerHTML = '<option value="" selected disabled>Kies provincie…</option>';
+      }
+    }
+
+    if (countryEl) {
+      countryEl.addEventListener('change', syncProvinceUI);
+      syncProvinceUI();
+    }
+
     function need(ids) {
       for (const id of ids) {
         const el = document.getElementById(id);
@@ -507,12 +598,20 @@
       const mode = modeEl.value;
 
       // common required
-      if (!need(['name','email','location'])) return;
+      if (!need(['name','email','country','city'])) return;
 
       const name = v('name');
       const email = v('email');
       const phone = v('phone');
-      const location = v('location');
+      const country = v('country');
+      const province = v('province');
+      const city = v('city');
+
+      if ((country === 'BE' || country === 'NL') && !province) {
+        if (hint) hint.textContent = 'Kies een provincie.';
+        try { document.getElementById('province')?.focus(); } catch (_) {}
+        return;
+      }
 
       const photoName = document.getElementById('attachPhoto')?.files?.[0]?.name || '—';
       const cvName = document.getElementById('attachCv')?.files?.[0]?.name || '—';
@@ -536,7 +635,9 @@
           'CLUBVACATURE AANMELDING — VOETBAL4ALL',
           '',
           `Club/Organisatie: ${name}`,
-          `Locatie: ${location}`,
+          `Land: ${country}`,
+          `Provincie: ${country === 'INT' ? '—' : (province || '—')}`,
+          `Stad: ${city}`,
           '',
           `Functie: ${jobTitle}`,
           `Startdatum: ${jobStart || '—'}`,
@@ -574,7 +675,9 @@
           '',
           `Rol: ${role}`,
           `Naam: ${name}`,
-          `Locatie: ${location}`,
+          `Land: ${country}`,
+          `Provincie: ${country === 'INT' ? '—' : (province || '—')}`,
+          `Stad: ${city}`,
           `Leeftijd/geboortejaar: ${age || '—'}`,
           `Positie (speler): ${pos || '—'}`,
           `Diploma/UEFA (trainer): ${badge || '—'}`,
@@ -607,6 +710,10 @@
 
       fd.append('subject', subject);
       fd.append('body', lines.join('\n'));
+      fd.append('country', country);
+      fd.append('province', country === 'INT' ? '' : (province || ''));
+      fd.append('city', city);
+      fd.append('mode', mode);
 
       if (hint) hint.textContent = 'Aanvraag wordt verstuurd…';
 
