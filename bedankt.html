@@ -26,13 +26,14 @@
 
     /* Logo that blends into page background */
     .thanks-logo-crop{
-      width:min(620px, 94vw);
+      width:min(560px, 92vw);
       border-radius:22px;
       overflow:hidden;
       position:relative;
-      background: rgba(255,255,255,.03);
+      background: rgba(255,255,255,.02);
       border:1px solid rgba(255,255,255,.10);
       box-shadow: 0 18px 60px rgba(0,0,0,.35);
+      margin:0 auto;
     }
     .thanks-logo-img{
       width:100%;
@@ -40,10 +41,11 @@
       display:block;
       position:relative;
       z-index:1;
-      padding:26px 30px;
       box-sizing:border-box;
       object-fit:contain;
-      filter: drop-shadow(0 14px 42px rgba(0,0,0,.45));
+      filter: drop-shadow(0 14px 42px rgba(0,0,0,.35));
+      transform: translateZ(0);
+      -webkit-font-smoothing: antialiased;
     }
 
     .thanks-subtitle{margin:0;opacity:.9;max-width:780px;}
@@ -205,7 +207,7 @@
           <!-- HEILIG LOGO: gebruik deze PNG (hoge resolutie) -->
           <!-- Plaats het bestand in: assets/img/brand/logo-voetbal4all_Bedankt.png -->
           <div class="thanks-logo-crop">
-            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all.svg" alt="Voetbal4All" loading="eager" decoding="async">
+            <img class="thanks-logo-img" src="assets/img/brand/logo-voetbal4all_Bedankt.png" alt="Voetbal4All" loading="eager" decoding="async">
           </div>
 
           <div class="card-title" id="thanksTitle">Bedankt</div>
