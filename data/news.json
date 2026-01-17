@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-01-17T20:26:04.981Z",
+  "generatedAt": "2026-01-17T21:21:32.492Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "AZ zoekt naar antwoorden na 'schandalige' vertoning: 'Dit mag ons niet overkomen'",
+      "link": "https://www.vi.nl/nieuws/az-zoekt-naar-antwoorden-na-schandalige-vertoning-dit-mag-ons-niet-overkomen",
+      "summary": "AZ heeft voor het eerst in meer dan twintig jaar vier uitduels op rij verloren in de Eredivisie. Van de feestvreugde na de jubelzege op Ajax in het bekertoernooi was niets over na de 'schandalige' nederlaag bij PEC Zwolle. De Alkmaarders verzuimden gebruik te maken van het puntenverlies van Ajax, tot groot ongenoegen van Peer Koopmeiners.",
+      "publishedAt": "2026-01-17T21:18:40.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Telstar geeft voorsprong weg en verzuimt afstand van degradatiezone te nemen",
+      "link": "https://www.vi.nl/nieuws/telstar-geeft-voorsprong-weg-en-verzuimt-afstand-van-degradatiezone-te-nemen",
+      "summary": "Telstar leek zaterdagavond hard op weg om zichzelf een goede dienst te bewijzen in de strijd om lijfsbehoud. De ploeg van Anthony Correia was door doelpunten van Jochem Ritmeester van de Kamp en Nils Rossen dicht bij de eerste competitieoverwinning van 2026. Maar zoals vaker dit seizoen ging het in de slotfase alsnog mis en kwam Excelsior met de schrik vrij.",
+      "publishedAt": "2026-01-17T21:03:20.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "PSV moet diep gaan, maar boekt in Sittard vijftiende uitzege op rij",
+      "link": "https://www.vi.nl/nieuws/psv-moet-diep-gaan-maar-boekt-in-sittard-vijftiende-uitzege-op-rij",
+      "summary": "PSV heeft zaterdag weer een stap richting de landstitel gezet. Op bezoek van Fortuna Sittard ging het niet makkelijk, maar het team van Peter Bosz won wel weer en staat nu zestien punten voor op achtervolger Feyenoord, dat zondag nog wel in actie komt.",
+      "publishedAt": "2026-01-17T21:01:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Jerdy Schouten mist middenvelder Mauro Júnior",
+      "link": "https://www.vi.nl/pro/tactische-analyse-fortuna-sittard-psv-risico-van-inschuivende-jerdy-schouten",
+      "summary": "PSV zoekt door de vele afwezigen opnieuw naar de ideale opstelling. De zege bij Fortuna Sittard (1-2) leert dat Jerdy Schouten mogelijk toch weer nodig is op het middenveld.",
+      "publishedAt": "2026-01-17T20:55:15.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: NAC doet via prachtgoal Soumano wat terug tegen NEC",
+      "link": "https://www.vi.nl/nieuws/vi-live-nac-doet-via-prachtgoal-soumano-wat-terug-tegen-nec",
+      "summary": "Zaterdagmiddag staan er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland staan ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Volg het (inter)nationale voetbal in deze VI Live.",
+      "publishedAt": "2026-01-17T20:54:49.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -36,58 +91,14 @@
     },
     {
       "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: PSV heeft het al een uur lastig met Fortuna",
-      "link": "https://www.vi.nl/nieuws/vi-live-psv-heeft-het-al-een-uur-lastig-met-fortuna",
-      "summary": "PSV gaat zaterdagavond op bezoek bij Fortuna Sittard. De ploeg van Peter Bosz jaagt op de dertiende Eredivisie-zege op rij. Of dat lukt, volg je in deze VI Live.",
-      "publishedAt": "2026-01-17T20:21:29.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Telstar op rozen in Rotterdam, NEC leidt tegen NAC",
-      "link": "https://www.vi.nl/nieuws/vi-live-telstar-op-rozen-in-rotterdam-nec-dringt-aan-tegen-nac",
-      "summary": "Zaterdagmiddag staan er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland staan ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Volg het (inter)nationale voetbal in deze VI Live.",
-      "publishedAt": "2026-01-17T20:17:03.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
       "flag": "🌍",
       "title": "Arsenal stumble in draw against resilient Forest",
       "link": "https://www.bbc.com/sport/football/videos/cdexzpnzzlwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal missed the chance to extend their lead at the top of the table to nine points, having failed to win against a determined Nottingham Forest side that held the Gunners to a goalless draw.",
+      "summary": "Arsenal missed the chance to extend their lead at the top of the Premier League table to nine points, with a goalless draw against a determined Nottingham Forest.",
       "publishedAt": "2026-01-17T20:13:30.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Uitgejouwde Real-voorzitter krijgt steun van Arbeloa",
-      "link": "https://www.vi.nl/video/uitgejouwde-real-voorzitter-krijgt-steun-van-arbeloa",
-      "summary": "Enkele Real Madrid-fans jouwden zaterdag voorzitter Florentino Pérez uit tijdens de La Liga-wedstrijd tegen Levante. Álvaro Arbeloa, deze week benoemd als coach na het ontslag van Xabi Alonso, sprong na de zege in de bres voor de preses.",
-      "publishedAt": "2026-01-17T20:05:58.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Oproep NAC tegen dovemansoren gericht: aftrap tegen NEC uitgesteld door vuurwerk",
-      "link": "https://www.vi.nl/nieuws/oproep-nac-tegen-dovemansoren-gericht-aftrap-tegen-nec-uitgesteld-door-vuurwerk",
-      "summary": "Tien minuten voor de aftrap van de wedstrijd NAC Breda - NEC plaatste de thuisclub op social media een oproep om een op handen zijnde vuurwerkactie af te blazen. Hier gaven mensen op de tribune in het Rat Verlegh Stadion geen gehoor aan. De wedstrijd kon door de actie, zowel binnen als buiten het stadion, niet op tijd beginnen.",
-      "publishedAt": "2026-01-17T20:03:00.000Z"
     },
     {
       "type": "rss",
@@ -119,19 +130,8 @@
       "flag": "🌍",
       "title": "Last-minute Wilson goal leaves fans booing Frank's Spurs",
       "link": "https://www.bbc.com/sport/football/videos/c5y208yqe41o?at_medium=RSS&at_campaign=rss",
-      "summary": "A last-minute Callum Wilson goal sunk Tottenham Hotspur to another defeat, with pressure mounting on manager Thomas Frank.",
+      "summary": "A last-minute Callum Wilson goal gives West Ham an important three points and increases the pressure on Tottenham boss Thomas Frank.",
       "publishedAt": "2026-01-17T20:01:10.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Only a thrilling final can save a predictable Africa Cup of Nations from being forgotten | Jonathan Wilson",
-      "link": "https://www.theguardian.com/football/2026/jan/17/only-a-thrilling-final-can-save-a-predictable-africa-cup-of-nations-from-being-forgotten",
-      "summary": "Despite high-quality matches, Senegal’s meeting with hosts Morocco may pale with the World Cup looming Sometimes a tournament’s greatest strength can be its greatest weakness. In part because of the excellent playing conditions, this has been an Africa Cup of Nations devoid of shocks. The better teams keep winning. There has been a lot of good football, but not a huge amount of memorable football. And the consequence is that, in the final, we have the two best teams, or certainly the best team in north Africa against the best team in sub-Saharan Africa: the hosts and World Cup semi-finalists Morocco against Senegal, who have reached three of the past four Afcon finals. Continue reading...",
-      "publishedAt": "2026-01-17T20:00:34.000Z"
     },
     {
       "type": "rss",
@@ -141,7 +141,7 @@
       "flag": "🌍",
       "title": "Chelsea beat Brentford for Rosenior's first Premier League win",
       "link": "https://www.bbc.com/sport/football/videos/crkr682z434o?at_medium=RSS&at_campaign=rss",
-      "summary": "Cole Palmer scored a penalty to secure the win for Chelsea against Brentford and give Liam Rosenior his first Premier League win as manager.",
+      "summary": "Cole Palmer scored a penalty to secure the a for Chelsea against Brentford and give Liam Rosenior his first Premier League win as manager.",
       "publishedAt": "2026-01-17T20:00:27.000Z"
     },
     {
@@ -153,17 +153,6 @@
       "title": "'Sinner, Anisimova to claim Australian Open titles as Brits dealt tough draws'",
       "link": "https://www.skysports.com/tennis/news/12040/13495612/australian-open-gigi-salmon-previews-melbourne-grand-slam-and-predicts-jannik-sinner-amanda-anisimova-to-claim-titles",
       "summary": "Sky Sports Tennis' Gigi Salmon looks ahead to the 2026 Australian Open, revealing her tips to claim the titles and looking at each Brit's draw in her latest column.",
-      "publishedAt": "2026-01-17T20:00:00.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "EL-tegenstanders Go Ahead en Utrecht in dramatische vorm",
-      "link": "https://www.vi.nl/nieuws/el-tegenstanders-go-ahead-en-utrecht-in-dramatische-vorm",
-      "summary": "FC Utrecht stuit donderdag in de Europa League op een RC Genk dat ver verwijderd is van zijn topvorm. De club van Nicky Hayen verloor zaterdag met 2-1 bij Zulte Waregem en bivakkeert in de onderkant van de middenmoot in de Jupiler Pro League. OGC Nice kreeg in aanloop naar het thuisduel met Go Ahead Eagles een flinke tik in Toulouse",
       "publishedAt": "2026-01-17T20:00:00.000Z"
     },
     {
@@ -209,6 +198,17 @@
       "link": "https://www.theguardian.com/football/2026/jan/17/manchester-united-manchester-city-premier-league-match-report",
       "summary": "On 65 minutes Michael Carrick’s second tenure went electric as Manchester United scored a classic breakaway goal by Bryan Mbeumo that sent the interim head coach berserk in the technical area. After a clearing Harry Maguire header, the ball evaded Rayan Cherki and Bruno Fernandes galloped forward. He had Amad Diallo to the right and Patrick Dorgu and Mbeumo on the left; United’s streetwise captain delayed the pass, then found the Cameroonian, whose finish beat Gianluigi Donnarumma. Continue reading...",
       "publishedAt": "2026-01-17T19:29:02.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Thomas Frank believes Tottenham ‘supertanker’ is turning despite West Ham loss",
+      "link": "https://www.theguardian.com/football/2026/jan/17/thomas-frank-tottenham-west-ham-premier-league",
+      "summary": "Manager barracked by fans after late 2-1 defeat ‘We need to get our head down and do the right thing’ Thomas Frank believes he retains the faith of the Tottenham hierarchy and can turn around what he described as a “supertanker” of a club – despite being barracked by the home crowd after a last-gasp 2-1 loss to West Ham. The fans in the South Stand chanted Frank should be “sacked in the morning” after a defeat that kept them 14th in the Premier League. Spurs have won three of their past 15 matches in the competition. Continue reading...",
+      "publishedAt": "2026-01-17T19:25:31.000Z"
     },
     {
       "type": "rss",
