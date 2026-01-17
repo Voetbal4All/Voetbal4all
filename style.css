@@ -1680,36 +1680,6 @@ img {
   }
 }
 
-/* === Bedankt pagina: logo bijsnijden zonder logo te beschadigen === */
-
-.thanks-logo-crop{
-  max-width: 520px;      /* zelfde schaal als eerder */
-  height: 300px;         /* bepaalt hoeveel boven/onder wordt afgesneden */
-  margin: 6px auto 18px;
-  overflow: hidden;      /* HIER gebeurt het bijsnijden */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.thanks-logo-img{
-  width: 100%;
-  height: auto;
-  transform: translateY(+15px); 
-  /* ↑ hiermee schuif je het beeld omhoog/omlaag
-     positief = meer onderkant zichtbaar
-     negatief = meer bovenkant zichtbaar */
-}
-
-.thanks-logo-crop{
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 10%,
-    black 90%,
-    transparent 100%
-  );
-}
 /* =======================
    MOBILE NAV + HEADER FIX (SINGLE SOURCE OF TRUTH)
    - menu standaard dicht (ook als JS faalt)
