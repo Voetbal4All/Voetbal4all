@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-01-17T12:47:46.215Z",
+  "generatedAt": "2026-01-17T13:31:18.577Z",
   "items": [
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "VI Live: Manchester United dicht bij vroeg doelpunt tegen City",
-      "link": "https://www.vi.nl/nieuws/vi-live-city-met-ak-maar-zonder-reijnders-begonnen-aan-manchester-derby",
-      "summary": "Zaterdagmiddag staan er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland staan ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Volg het (inter)nationale voetbal in deze VI Live.",
-      "publishedAt": "2026-01-17T12:42:59.000Z"
-    },
     {
       "type": "rss",
       "source": "The Guardian Football",
@@ -21,7 +10,73 @@
       "title": "Manchester United v Manchester City: Premier League – live",
       "link": "https://www.theguardian.com/football/live/2026/jan/17/manchester-united-v-manchester-city-premier-league-live",
       "summary": "⚽ Premier League updates from the 12.30pm GMT kick-off ⚽ Live scores | Latest table | And follow us over on Bluesky Michael Carrick is the first manager of United or City to begin a spell in charge with a Manchester derby. This is how Man Utd’s post-Fergie managers fared in their first derby; all were Premier League games. David Moyes 1-4 (A) 2013-14 Louis van Gaal 0-1 (A) 2014-15 Jose Mourinho 1-2 (H) 2016-17 Ole Gunnar Solskjaer 0-2 (H) 2018-19 Ralf Rangnick 1-4 (A) 2021-22 Erik ten Hag 3-6 (A) 2022-23 Ruben Amorim 2-1 (A) 2024-25 [On Man Utd’s tactics] No, I don’t know. They could play with a four or a back five; they could play with a false nine or Mbeumo up front. I’d love to know but we have to focus on ourselves. [On the importance Rodri’s return] It’s not news! He’s so important. He was out for a long time, then he had a setback. We’re trying to manage his recovery. Continue reading...",
-      "publishedAt": "2026-01-17T12:38:46.000Z"
+      "publishedAt": "2026-01-17T13:23:28.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "The Guardian Football",
+      "sourceSlug": "the-guardian-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Senegal accuse Morocco of putting ‘players in danger’ before Afcon final",
+      "link": "https://www.theguardian.com/football/2026/jan/17/senegal-morocco-africa-cup-of-nations-final-protest",
+      "summary": "FSF protests about security and accommodation concerns Training facility and insufficient ticket worries also raised The Senegalese Football Federation (FSF) has accused Morocco’s local organising committee of undermining their preparations for Sunday’s Africa Cup of Nations final against the hosts. In a statement on social media, the FSF protested about a lack of adequate security on arrival, inadequate accommodation, confusion over training facilities and insufficient tickets being provided for Senegal fans. Continue reading...",
+      "publishedAt": "2026-01-17T13:18:16.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Gasperini ziet Malen als spits: 'Daar speelt hij het liefst'",
+      "link": "https://www.vi.nl/nieuws/gasperini-ziet-malen-als-spits-daar-speelt-hij-het-liefst",
+      "summary": "Gian Piero Gasperini heeft bevestigd dat Donyell Malen zondag kan debuteren voor AS Roma. De trainer van de Romeinse club ziet in de winteraanwinst een spits. 'In beide benen heeft hij een krachtig schot.'",
+      "publishedAt": "2026-01-17T13:18:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "ESPN - Soccer",
+      "sourceSlug": "espn-soccer",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "Premier League live updates: Man United host Man City in first game under Carrick",
+      "link": "https://www.espn.com/soccer/story/_/id/47623512/premier-league-live-updates-manchester-united-manchester-city-chelsea-liverpool-arsenal",
+      "summary": "null",
+      "publishedAt": "2026-01-17T13:14:03.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "VI Live: Manchester City komt goed weg door afgekeurde goal United",
+      "link": "https://www.vi.nl/nieuws/vi-live-city-met-ak-maar-zonder-reijnders-begonnen-aan-manchester-derby",
+      "summary": "Zaterdagmiddag staan er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland staan ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Volg het (inter)nationale voetbal in deze VI Live.",
+      "publishedAt": "2026-01-17T13:04:25.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Van Oevelen: 'Het was niet het goede moment om al naar Ajax te gaan'",
+      "link": "https://www.vi.nl/nieuws/van-oevelen-het-was-niet-het-goede-moment-om-al-naar-ajax-te-gaan",
+      "summary": "Kayne van Oevelen (22) keept een sterk seizoen bij FC Volendam en speelt zich daarmee in de kijker bij andere clubs. Ajax heeft de doelman al een tijdje op de radar staan en probeerde hem vorig jaar nog binnen te halen. Van Oevelen werd echter niet enthousiast van de Amsterdamse toenaderingspoging.",
+      "publishedAt": "2026-01-17T13:02:00.000Z"
+    },
+    {
+      "type": "rss",
+      "source": "Sky Sports - Football",
+      "sourceSlug": "sky-sports-football",
+      "country": "INT",
+      "flag": "🌍",
+      "title": "'100 per cent a red!' | Dean certain Dalot should be sent off in Manchester derby",
+      "link": "https://www.skysports.com/watch/video/13495302/diogo-dalot-mike-dean-certain-diogo-dalot-should-be-sent-off-in-manchester-derby",
+      "summary": "Mike Dean claims Diogo Dalot should have been shown a red card for his challenge on Jeremy Doku in the Manchester Derby.",
+      "publishedAt": "2026-01-17T12:46:00.000Z"
     },
     {
       "type": "rss",
@@ -95,43 +150,10 @@
       "sourceSlug": "voetbal-international",
       "country": "NL",
       "flag": "🇳🇱",
-      "title": "Zirkzee loopt blessure op, maar mag nog steeds hopen op AS Roma",
-      "link": "https://www.vi.nl/nieuws/waarom-zirkzee-ontbreekt-in-de-selectie-van-manchester-united",
-      "summary": "Joshua Zirkzee maakt geen deel uit van de wedstrijdselectie van Manchester United voor de thuiswedstrijd tegen Manchester City. De spits kampt met een blessure en is een paar weken uitgeschakeld, maar er speelt meer.",
-      "publishedAt": "2026-01-17T12:21:32.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
       "title": "Doelpunten verwacht bij NAC-NEC: 'Deur staat wagenwijd open'",
       "link": "https://www.vi.nl/video/doelpunten-verwacht-bij-nac-nec-deur-staat-wagenwijd-open",
       "summary": "Zaterdag staan NAC Breda en NEC Nijmegen tegenover elkaar in het Rat Verlegh stadion en cijferman Bart Frouws verwacht dat het publiek kan rekenen op doelpunten.",
       "publishedAt": "2026-01-17T12:20:34.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "ESPN - Soccer",
-      "sourceSlug": "espn-soccer",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Premier League live updates: Man United host Man City in first game under Carrick",
-      "link": "https://www.espn.com/soccer/story/_/id/47623512/premier-league-live-updates-manchester-united-manchester-city-chelsea-liverpool-arsenal",
-      "summary": "null",
-      "publishedAt": "2026-01-17T12:12:33.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "FC Eindhoven huurt middenvelder van Go Ahead Eagles",
-      "link": "https://www.vi.nl/nieuws/excelsior-wil-jonathans-huren-van-fc-utrecht",
-      "summary": "De winterse transfermarkt is geopend. In dit blog vind je alle speculaties en bevestigde transfers in Nederland. Bekijk hier ons blog voor de transferperikelen in het buitenland.",
-      "publishedAt": "2026-01-17T12:03:21.000Z"
     },
     {
       "type": "rss",
@@ -152,7 +174,7 @@
       "flag": "🌍",
       "title": "Manager of women’s football club banned for 12 years after bombarding players with indecent images",
       "link": "https://www.theguardian.com/football/2026/jan/17/manager-of-womens-football-club-banned-for-12-years-after-bombarding-players-with-indecent-images",
-      "summary": "FA finds 23 of 24 charges against Ryan Hamilton were proven Punishment sends ‘a clear message’ misconduct ‘not tolerated’ The former manager of a fourth-tier women’s football club has been banned from all football for 12 years after he sent indecent images of himself to players and a member of staff as well as subjecting them to sexually inappropriate behaviour. Ryan Hamilton, who left his role as Sutton Coldfield Town Women’s manager in November 2024, was found by the Football Association to have sent photographs of his penis to a player and a staff member via social media, as well as sending naked or partially naked photographs of himself to two of the other players, and sending a player a video of himself masturbating. Continue reading...",
+      "summary": "FA finds 23 of 24 charges against Ryan Hamilton were proven Punishment sends ‘a clear message’ misconduct ‘not tolerated’ The former manager of a fourth-tier women’s team has been banned by the Football Association from all involvement in the sport for 12 years after he sent indecent images of himself to players and a member of staff as well as subjecting them to sexually inappropriate behaviour. Ryan Hamilton, who left his role as Sutton Coldfield Town Women’s manager in November 2024, was found to have sent photographs of his penis to a player and a staff member via social media, as well as to have sent naked or partially naked photographs of himself to two of the other players, and to have sent a player a video of himself masturbating. Continue reading...",
       "publishedAt": "2026-01-17T11:33:40.000Z"
     },
     {
@@ -168,17 +190,6 @@
     },
     {
       "type": "rss",
-      "source": "Sky Sports - Football",
-      "sourceSlug": "sky-sports-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Shamsi celebrates wicket... with a magic trick?!",
-      "link": "https://www.skysports.com/watch/video/13495261/tabraiz-shamsi-celebrates-wicket-with-a-magic-trick",
-      "summary": "Tabraiz Shamsi had an unusual style of celebration when he took a wicket in Adelaide Strikers' win over Melbourne Renegades in the Big Bash League.",
-      "publishedAt": "2026-01-17T09:33:00.000Z"
-    },
-    {
-      "type": "rss",
       "source": "BBC Sport - Football",
       "sourceSlug": "bbc-sport-football",
       "country": "INT",
@@ -187,17 +198,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cddgm0nz59eo?at_medium=RSS&at_campaign=rss",
       "summary": "Danny Rohl has targeted a league and cup double after Bojan Miovski's hat-trick helped a much-changed Rangers side to a 5-0 Scottish Cup win over Annan Athletic at Ibrox.",
       "publishedAt": "2026-01-17T09:00:45.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "The Guardian Football",
-      "sourceSlug": "the-guardian-football",
-      "country": "INT",
-      "flag": "🌍",
-      "title": "Tractor Girls’ small army plough on in FA Cup after major off-field overhaul",
-      "link": "https://www.theguardian.com/football/2026/jan/17/ipswich-small-army-womens-fa-cup-wsl2-survival-battle",
-      "summary": "Ipswich may be bottom of WSL2, but have big plans as new management team aim to turn their season around Ipswich Town go into their Women’s FA Cup tie on Sunday against fellow WSL2 side Sheffield United with the pressure off and spirits high. The Tractor Girls are having a tough debut season in the second tier in the WSL era of women’s domestic football. They are bottom of the league, five points behind Portsmouth and Durham, with Portsmouth having played a game more. They return to their former Felixstowe home on Sunday for the FA Cup fourth round, having had to make the switch to Colchester to meet the WSL2 ground requirements for league matches. Continue reading...",
-      "publishedAt": "2026-01-17T08:00:21.000Z"
     },
     {
       "type": "rss",
