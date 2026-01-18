@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-18T04:07:31.919Z",
+  "generatedAt": "2026-01-18T05:27:20.100Z",
   "items": [
+    {
+      "type": "rss",
+      "source": "Voetbal International",
+      "sourceSlug": "voetbal-international",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "title": "Toen Peter Bosz op een kruispunt stond bij Toulon",
+      "link": "https://www.vi.nl/pro/toen-peter-bosz-op-een-kruispunt-stond-bij-toulon",
+      "summary": "In de rubriek VI Tijdmachine herplaatsen we elke dag in het weekeinde een verhaal uit ons rijke archief. Deze keer gaan we terug naar 1991, toen Peter Bosz stevig om zich heen aan het kijken was als Toulon-speler.",
+      "publishedAt": "2026-01-18T05:00:00.000Z"
+    },
     {
       "type": "rss",
       "source": "ESPN - Soccer",
@@ -110,17 +121,6 @@
       "link": "https://www.theguardian.com/football/2026/jan/17/thomas-frank-tottenham-west-ham-premier-league",
       "summary": "Manager barracked by fans after late 2-1 defeat Romero comments add to sense of unease at Tottenham Thomas Frank’s future as the Tottenham manager is in doubt after Saturday’s last-gasp 2-1 home defeat by West Ham, at which the club’s supporters called for him to be “sacked in the morning”. The Spurs hierarchy have been mindful of the difficulties Frank has faced during what was always likely to be a transitional season. The chief executive, Vinai Venkatesham, wrote an open letter to fans on Saturday morning, the tone of which was supportive, the overriding message being a call for patience. Continue reading...",
       "publishedAt": "2026-01-17T22:46:20.000Z"
-    },
-    {
-      "type": "rss",
-      "source": "Voetbal International",
-      "sourceSlug": "voetbal-international",
-      "country": "NL",
-      "flag": "🇳🇱",
-      "title": "Mourinho boekt zakelijke zege met Benfica en kruipt weer wat dichter bij FC Porto",
-      "link": "https://www.vi.nl/nieuws/mourinho-boekt-zakelijke-zege-met-benfica-en-kruipt-weer-wat-dichter-bij-porto",
-      "summary": "Zaterdagmiddag stonden er niet alleen vijf wedstrijden in de Eredivisie op het programma, maar ook in het buitenland stonden ons veel mooie potjes te wachten. Te beginnen met de Manchester Derby, gevolgd door onder meer Real Madrid, Liverpool, Arsenal, Bayern München en Internazionale. Je volgde het (inter)nationale voetbal in deze VI Live.",
-      "publishedAt": "2026-01-17T22:35:02.000Z"
     },
     {
       "type": "rss",
